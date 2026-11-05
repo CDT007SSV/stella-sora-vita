@@ -917,11 +917,15 @@ document.querySelector("#start .aboutbtn").insertAdjacentHTML("beforebegin",`<bu
   const mostrar=()=>{btn.hidden=!!(standalone||get())};
   if(standalone)set(true);          // abierta como app: queda marcada como instalada
   mostrar();
+  // Chrome puede decir si la app ya esta instalada (aunque estes en una pestana del navegador)
+  if(navigator.getInstalledRelatedApps&&!standalone){
+    navigator.getInstalledRelatedApps().then(a=>{if(a&&a.length){set(true);btn.hidden=true}}).catch(()=>{});
+  }
   window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;set(false);if(!standalone)btn.hidden=false});
   window.addEventListener("appinstalled",()=>{set(true);btn.hidden=true;tip.hidden=true});
   btn.onclick=async()=>{
     if(dp){dp.prompt();await dp.userChoice;dp=null;mostrar();return}
-    tip.textContent=ios?"Para instalarla en iPhone: abre esta página en Safari, toca Compartir y elige «Añadir a pantalla de inicio».":"Para instalarla: abre el menú del navegador (⋮) y elige «Instalar app» o «Añadir a pantalla de inicio».";
+    tip.textContent=ios?"Para instalarla en iPhone: abre esta página en Safari, toca Compartir y elige «Añadir a pantalla de inicio».":"Si ya la instalaste, ábrela desde el ícono en tu pantalla de inicio (el navegador no deja instalarla dos veces). Si no, abre el menú (⋮) y elige «Instalar app» o «Añadir a pantalla de inicio».";
     tip.hidden=false;
   };
   if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(()=>{});
