@@ -29,7 +29,7 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-box.cg .rd-nm:empty{display:none}
 #rd .rd-box.cg .rd-tx{color:#fff;font-size:calc(var(--u)*4)}
 #rd .rd-box.cg .rd-nx{right:16%;bottom:calc(var(--u)*5)}#rd .rd-box.cg .rd-nx svg{fill:#fff}
-#rd .rd-sp{position:absolute;bottom:-50%;height:145%;transform:translateX(-50%);animation:rdIn .35s;pointer-events:none;transition:left var(--d,0s) var(--e,linear),bottom var(--d,0s) var(--e,linear),height var(--d,0s) var(--e,linear),opacity var(--d,0s) var(--e,linear)}
+#rd .rd-sp{position:absolute;bottom:-42%;height:128%;transform:translateX(-50%);animation:rdIn .35s;pointer-events:none;transition:left var(--d,0s) var(--e,linear),bottom var(--d,0s) var(--e,linear),height var(--d,0s) var(--e,linear),opacity var(--d,0s) var(--e,linear)}
 #rd .rd-sp img{height:100%;width:auto;display:block}
 #rd .rd-emo,#rd .rd-memo{position:absolute;font-size:calc(var(--u)*8);line-height:1;animation:rdPop .45s;pointer-events:none;filter:drop-shadow(0 1px 3px rgba(0,0,0,.5));z-index:3}
 #rd .rd-emo{top:18%;right:-6%}
@@ -89,6 +89,22 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-nx{position:absolute;right:calc(var(--u)*3);bottom:calc(var(--u)*1.6);width:calc(var(--u)*3.4);height:calc(var(--u)*3.4);animation:rdBl 1s infinite}
 #rd .rd-nx svg{width:100%;height:100%;fill:#16b6bf}
 @keyframes rdBl{50%{opacity:.25}}
+#rd .rd-map{width:100%;height:100%;display:flex;flex-direction:column;text-align:left}
+#rd .rd-mt{display:flex;align-items:center;justify-content:space-between;gap:calc(var(--u)*3);padding-bottom:calc(var(--u)*1.5)}
+#rd .rd-mt h2{margin:0;font-size:calc(var(--u)*4);line-height:1.2}
+#rd .rd-cont{margin:0 0 calc(var(--u)*1.5);align-self:flex-start}
+#rd .rd-ms{flex:1;overflow:auto;position:relative;border-radius:calc(var(--u)*2);background:linear-gradient(180deg,#1b2a55,#3d5aa0)}
+#rd .rd-mg{position:relative;display:flex;align-items:center;gap:calc(var(--u)*7);padding:calc(var(--u)*4) calc(var(--u)*4);min-height:100%;width:max-content;box-sizing:border-box}
+#rd .rd-mc{display:flex;flex-direction:column;gap:calc(var(--u)*3);justify-content:center;position:relative;z-index:1}
+#rd .rd-ml{position:absolute;left:0;top:0;pointer-events:none;z-index:0}
+#rd .rd-ml path{fill:none;stroke:#9fb6ee;stroke-width:2.5}
+#rd .rd-nd{display:flex;flex-direction:column;gap:2px;width:calc(var(--u)*27);min-height:calc(var(--u)*10);padding:calc(var(--u)*1.2) calc(var(--u)*1.8);border:2px solid transparent;border-radius:calc(var(--u)*1);background:#f3f6ff;color:#1f2a4d;font:inherit;text-align:left;cursor:pointer;box-sizing:border-box}
+#rd .rd-nd b{font-size:calc(var(--u)*3.8);line-height:1.1}
+#rd .rd-nd span{font-size:calc(var(--u)*2.6);line-height:1.2;font-weight:700}
+#rd .rd-nd.leido{background:#dfe8ff}
+#rd .rd-nd.act,#rd .rd-nd.cur{border-color:#13d6d6;box-shadow:0 0 0 2px rgba(19,214,214,.35)}
+#rd .rd-nd.fin{background:#24408f;color:#fff;min-height:calc(var(--u)*7)}
+#rd .rd-nd.bt{background:#13c9cf;color:#04282b;cursor:default;opacity:.85}
 #rd .rd-card{position:absolute;inset:0;z-index:6;background:rgba(10,12,30,.9);display:none;flex-direction:column;justify-content:center;align-items:center;padding:calc(var(--u)*4) calc(var(--u)*10);text-align:center;color:#fff;overflow:auto}
 #rd .rd-card.on{display:flex}
 #rd .rd-card h2{font-size:calc(var(--u)*5.5);margin:6px 0 calc(var(--u)*2)}
@@ -140,14 +156,14 @@ function build(){
   el=document.createElement("div");el.id="rd";
   el.innerHTML=`<div class="rd-st">${[0,1,2,3,4,5,6].map(i=>'<div class="rd-sg'+(i?'':' on')+'" data-s="'+i+'"><div class="rd-sgi"><div class="rd-bgi"></div><div class="rd-chars"></div></div></div>').join("")}<svg class="rd-sl" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="58" y1="0" x2="42" y2="100"/><line x1="30" y1="0" x2="14" y2="100"/><line x1="86" y1="0" x2="70" y2="100"/></svg><div class="rd-fxl"></div><div class="rd-film"><i></i><i></i></div><div class="rd-cur"></div><div class="rd-dim"></div><img class="rd-obj" alt="" referrerpolicy="no-referrer">
    <button class="rd-out" data-a="x">✕ Salir</button>
-   <div class="rd-bar"><button data-a="ac">Actos</button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
+   <div class="rd-bar"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
    <div class="rd-box"><div class="rd-face"><img alt="" referrerpolicy="no-referrer"></div><span class="rd-nm"></span><div class="rd-tx"></div><span class="rd-nx"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 11 7 11s7-6 7-11a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span></div>
    <div class="rd-card" id="rd-c"></div></div>`;
   document.body.appendChild(el);
   el.addEventListener("click",e=>{
     const a=e.target.closest("[data-a]");
     if(a){const k=a.dataset.a;
-      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
+      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="z"){S.zs=S.zs<1?1:S.zs>1?.85:1.15;if(S.zs===1.15&&false)S.zs=1;try{localStorage.setItem("rdz",S.zs)}catch(e){}btnZ();Object.keys(S.chars).forEach(k=>lay(S.chars[k]))}else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}
     if(e.target.closest(".rd-card"))return;
@@ -182,6 +198,7 @@ function cierra(){if(S){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S
   try{if(screen.orientation&&screen.orientation.unlock)screen.orientation.unlock()}catch(e){}
   try{if(document.fullscreenElement)document.exitFullscreen()}catch(e){}}
 function gen(){S.g=S.g?0:1;try{localStorage.setItem("rdg",S.g)}catch(e){}btnG()}
+function btnZ(){const b=el.querySelector('[data-a="z"]');if(b)b.textContent="Sprites: "+(S.zs<1?"chicos":S.zs>1?"grandes":"normales")}
 function btnG(){el.querySelector('[data-a="g"]').textContent="Protagonista: "+(S.g?"él":"ella")}
 function card(h){const c=el.querySelector("#rd-c");if(h==null||h===false){c.classList.remove("on");c.innerHTML="";S.card=0;return}c.innerHTML=h;c.classList.add("on");S.card=1}
 function fx(t){return t.replace(/==PLAYER_NAME==/g,"Sylar").replace(/==SEX\d*==/g,m=>SEX[m]?SEX[m][S.g]:"").replace(/==(?:P|B|Off|A-?[\d.]+)==/g,"")}
@@ -262,13 +279,17 @@ function emoji(host,n,cls){
   if(!n)return;const t=EM[n];if(!t)return;
   const e=document.createElement("span");e.className=cls;e.textContent=t;host.appendChild(e);
 }
+function lay(w){
+  const K=(S&&S.zs)||1,yy=+(w.dataset.y||0),ss=+(w.dataset.s||1),h=128*ss*K;let b=-42+yy*100;
+  if(b+h>96)b=96-h;
+  w.style.bottom=Math.round(b*10)/10+"%";w.style.height=Math.round(h*10)/10+"%";
+}
 function place(w,x,y,sc,al,d,ez){
   if(d!=null){w.style.setProperty("--d",d+"s");w.style.setProperty("--e",ease(ez))}
   if(x!=null)w.style.left=Math.round(x*1000)/10+"%";
   if(y!=null||sc!=null){
     if(y!=null)w.dataset.y=y;if(sc!=null)w.dataset.s=Math.abs(sc);
-    const yy=+(w.dataset.y||0),ss=+(w.dataset.s||1.05);
-    w.style.bottom=(-50+yy*100)+"%";w.style.height=Math.round(138*ss)+"%";
+    lay(w);
     if(sc!=null)w.firstChild.style.transform=sc<0?"scaleX(-1)":"";
   }
   if(al!=null)w.style.opacity=al;
@@ -283,7 +304,7 @@ function setChar(id,pose,expr,x,y,sc,st,em,al){
     w.appendChild(im);sg(st).querySelector(".rd-chars").appendChild(w);S.chars[id]=w;
     w.style.left="50%";w.style.opacity=al==null?1:al}
   w.dataset.pose=pose||"a";pon(w.firstChild,l);
-  place(w,x==null?null:x,y==null?0:y,sc==null?1.05:sc,al,0);
+  place(w,x==null?null:x,y==null?0:y,sc==null?1:sc,al,0);
   emoji(w,em,"rd-emo");
 }
 function ctl(id,pose,expr,em,x,y,sc,al,sh,ez,d){
@@ -430,28 +451,47 @@ function avanza(){
     }
   }
 }
-const SIG={STm00_01:"STm00_02",STm01_01:"STm01_02",STm01_02:"STm01_03",STm01_03:"STm01_04",STm01_04:"STm01_05",STm01_05:"STm01_06",STm01_06:"STm01_07",STm01_07:"STm01_08_a",STm01_08_a:"STm01_09",STm01_08_b:"STm01_08_a",STm01_08_c:"STm01_09",STm01_09:"STm01_10",STm01_10:"STm02_01",STm02_01:"STm02_02_a",STm02_02_a:"STm02_03_a",STm02_03_a:"STm02_04",STm02_02_b:"STm02_03_b",STm02_03_b:"STm02_04",STm02_02_c:"STm02_02_a",STm02_04:"STm02_05",STm02_05:"STm02_06",STm02_06:"STm02_07",STm02_07:"STm02_08",STm02_08:"STm02_09",STm02_09:"STm02_10",STm02_10:"STm02_11"};
-const ALT={STm02_01:[["STm02_02_b","Ruta alterna: Investigación disfrazada (Acto 2)"],["STm02_02_c","Final alternativo: Un final interminable"]],STm01_07:[["STm01_08_c","Ruta alterna: la cena (Acto 8)"],["STm01_08_b","Final alternativo: Un futuro sin Trekkers"]]};
-const NOMB={"STm01_01": "1 · El reinicio del despertar", "STm01_02": "2 · Huellas del pasado", "STm01_03": "3 · Oasis desvanecido", "STm01_04": "4 · Bajo el puente", "STm01_05": "5 · Vientos del distrito Ceniza", "STm01_06": "6 · Volando desde la ceniza", "STm01_07": "7 · Un tipo distinto de deseo", "STm01_08_b": "Final: Un futuro sin Trekkers", "STm01_08_a": "8A · Informe de investigación", "STm01_08_c": "8B · Postre después de la cena", "STm01_09": "9 · Cómo se reparan los recuerdos", "STm01_10": "10 · Interpretación final", "STm02_01": "1 · Loxy y la compañía", "STm02_02_c": "Final: Eternidad", "STm02_02_a": "2A · Secretos en la oscuridad", "STm02_03_a": "3A · Ojos en la oscuridad", "STm02_02_b": "2B · Investigación disfrazada", "STm02_03_b": "3B · Después de horas", "STm02_04": "4 · Chica de pelo negro", "STm02_05": "5 · Código de Honor", "STm02_06": "6 · Privilegio de la empresa", "STm02_07": "7 · Franquicia exclusiva", "STm02_08": "8 · Comercio de almas", "STm02_09": "9 · Una guerra de una hora", "STm02_10": "10 · Cómo se cumplen los deseos", "STm02_11": "Epílogo · Un nuevo comienzo", "STm00_01": "Prólogo, parte 1", "STm00_02": "Prólogo, parte 2"};
-function fin(){pararAudio();stopShakes();const nx=SIG[S.id];let h;
+const SIG={"STm00_01": "STm00_02", "STm01_01": "STm01_02", "STm01_02": "STm01_03", "STm01_03": "STm01_04", "STm01_04": "STm01_05", "STm01_05": "STm01_06", "STm01_06": "STm01_07", "STm01_07": "STm01_08_a", "STm01_08_a": "STm01_09", "STm01_08_b": "STm01_08_a", "STm01_08_c": "STm01_09", "STm01_09": "STm01_10", "STm01_10": "STm02_01", "STm02_01": "STm02_02_a", "STm02_02_a": "STm02_03_a", "STm02_03_a": "STm02_04", "STm02_02_b": "STm02_03_b", "STm02_03_b": "STm02_04", "STm02_02_c": "STm02_02_a", "STm02_04": "STm02_05", "STm02_05": "STm02_06", "STm02_06": "STm02_07", "STm02_07": "STm02_08", "STm02_08": "STm02_09", "STm02_09": "STm02_10", "STm02_10": "STm02_11", "STm02_11": "STm03_00_a", "STm03_00_a": "STm03_00_b", "STm03_00_b": "STm03_01", "STm03_01": "STm03_02", "STm03_02": "STm03_03", "STm03_03": "STm03_04", "STm03_04": "STm03_05", "STm03_05": "STm03_06_a", "STm03_06_a": "STm03_07", "STm03_06_b": "STm03_07", "STm03_06_c": "STm03_05", "STm03_07": "STm03_08", "STm03_08": "STm03_09", "STm03_09": "STm03_10", "STm03_10": "STm03_11"};
+const ALT={STm03_05:[["STm03_06_b","Ruta alterna: Entrenamiento especial (Acto 6B)"],["STm03_06_c","Final alternativo: Terapia de choque"]],STm02_01:[["STm02_02_b","Ruta alterna: Investigación disfrazada (Acto 2)"],["STm02_02_c","Final alternativo: Un final interminable"]],STm01_07:[["STm01_08_c","Ruta alterna: la cena (Acto 8)"],["STm01_08_b","Final alternativo: Un futuro sin Trekkers"]]};
+const NOMB={"STm01_01": "1 · El reinicio del despertar", "STm01_02": "2 · Huellas del pasado", "STm01_03": "3 · Oasis desvanecido", "STm01_04": "4 · Bajo el puente", "STm01_05": "5 · Vientos del distrito Ceniza", "STm01_06": "6 · Volando desde la ceniza", "STm01_07": "7 · Un tipo distinto de deseo", "STm01_08_b": "Final: Un futuro sin Trekkers", "STm01_08_a": "8A · Informe de investigación", "STm01_08_c": "8B · Postre después de la cena", "STm01_09": "9 · Cómo se reparan los recuerdos", "STm01_10": "10 · Interpretación final", "STm02_01": "1 · Loxy y la compañía", "STm02_02_c": "Final: Eternidad", "STm02_02_a": "2A · Secretos en la oscuridad", "STm02_03_a": "3A · Ojos en la oscuridad", "STm02_02_b": "2B · Investigación disfrazada", "STm02_03_b": "3B · Después de horas", "STm02_04": "4 · Chica de pelo negro", "STm02_05": "5 · Código de Honor", "STm02_06": "6 · Privilegio de la empresa", "STm02_07": "7 · Franquicia exclusiva", "STm02_08": "8 · Comercio de almas", "STm02_09": "9 · Una guerra de una hora", "STm02_10": "10 · Cómo se cumplen los deseos", "STm02_11": "Epílogo · Un nuevo comienzo", "STm00_01": "Prólogo, parte 1", "STm00_02": "Prólogo, parte 2", "STm03_00_a": "Interludio 1 · El teléfono", "STm03_00_b": "Interludio 2 · Vita", "STm03_01": "1 · Los Tres Grandes", "STm03_02": "2 · La señora oculta del bosque", "STm03_03": "3 · Petal Bloom", "STm03_04": "4 · Una cacería fallida", "STm03_05": "5 · Trauma", "STm03_06_c": "Final: Terapia de choque", "STm03_06_a": "6A · Terapia psicológica", "STm03_06_b": "6B · Entrenamiento especial", "STm03_07": "7 · La debilucha no deseada", "STm03_08": "8 · La escuadra de caza", "STm03_09": "9 · Un corazón confiado", "STm03_10": "10 · Victoria e intercambio", "STm03_11": "11 · El último monstruo"};
+function fin(){pararAudio();stopShakes();marcaLeido(S.id);const nx=SIG[S.id];let h;
   if(nx){h='<small>Fin de esta parte</small><h2>'+(NOMB[S.id]||"")+' terminado</h2><p>Sigue: '+(NOMB[nx]||"la siguiente parte")+'.</p><button class="rd-b" data-a="nx" data-n="'+nx+'" style="margin-top:18px">Continuar</button>';
     (ALT[S.id]||[]).forEach(function(x){h+=' <button class="rd-b" data-a="nx" data-n="'+x[0]+'" style="margin-top:10px">'+x[1]+'</button>'});
     h+=' <button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>'}
   else h='<small>Fin</small><h2>'+(NOMB[S.id]||"Fin")+' terminado</h2><p>Por ahora llegamos hasta aquí. ¡Continuará!</p><button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>';
   card(h)}
 
-const CAPS={"STm00": [["STm00_01", "STm00_02"], "Prólogo"], "STm01": [["STm01_01", "STm01_02", "STm01_03", "STm01_04", "STm01_05", "@Combate 1 · Regreso al orfanato", "STm01_06", "STm01_07", "STm01_08_b", "STm01_08_a", "STm01_08_c", "STm01_09", "STm01_10"], "Capítulo 1 · Seres sin memoria"], "STm02": [["STm02_01", "STm02_02_c", "STm02_02_a", "STm02_03_a", "STm02_02_b", "STm02_03_b", "@Combate 1 · Escapar del círculo", "STm02_04", "STm02_05", "STm02_06", "STm02_07", "STm02_08", "STm02_09", "@Combate 2 · La Estrella del Cataclismo", "STm02_10", "@Combate 3 · Reencuentro con un viejo enemigo", "STm02_11"], "Capítulo 2 · El viento en el puente de la vía fluvial"]};
+const CAPS={"STm00": ["Prólogo", [["STm00_01"], ["STm00_02"]], [["STm00_01", "STm00_02"]]], "STm01": ["Capítulo 1 · Seres sin memoria", [["STm01_01"], ["STm01_02"], ["STm01_03"], ["STm01_04"], ["STm01_05"], ["@BT01|Regreso al orfanato"], ["STm01_06"], ["STm01_07", "!STm01_08_b"], ["STm01_08_a", "STm01_08_c"], ["STm01_09"], ["STm01_10"]], [["STm01_01", "STm01_02"], ["STm01_02", "STm01_03"], ["STm01_03", "STm01_04"], ["STm01_04", "STm01_05"], ["STm01_05", "@BT01|Regreso al orfanato"], ["@BT01|Regreso al orfanato", "STm01_06"], ["STm01_06", "STm01_07"], ["STm01_07", "STm01_08_a"], ["STm01_07", "STm01_08_c"], ["STm01_07", "STm01_08_b"], ["STm01_08_a", "STm01_09"], ["STm01_08_c", "STm01_09"], ["STm01_09", "STm01_10"]]], "STm02": ["Capítulo 2 · El viento en el puente de la vía fluvial", [["STm02_01", "!STm02_02_c"], ["STm02_02_a", "STm02_02_b"], ["STm02_03_a", "STm02_03_b"], ["@BT01|Escapar del círculo"], ["STm02_04"], ["STm02_05"], ["STm02_06"], ["STm02_07"], ["STm02_08"], ["STm02_09"], ["@BT02|La Estrella del Cataclismo"], ["STm02_10"], ["@BT03|Reencuentro con un viejo enemigo"], ["STm02_11"]], [["STm02_01", "STm02_02_a"], ["STm02_01", "STm02_02_b"], ["STm02_01", "STm02_02_c"], ["STm02_02_a", "STm02_03_a"], ["STm02_02_b", "STm02_03_b"], ["STm02_03_a", "@BT01|Escapar del círculo"], ["STm02_03_b", "@BT01|Escapar del círculo"], ["@BT01|Escapar del círculo", "STm02_04"], ["STm02_04", "STm02_05"], ["STm02_05", "STm02_06"], ["STm02_06", "STm02_07"], ["STm02_07", "STm02_08"], ["STm02_08", "STm02_09"], ["STm02_09", "@BT02|La Estrella del Cataclismo"], ["@BT02|La Estrella del Cataclismo", "STm02_10"], ["STm02_10", "@BT03|Reencuentro con un viejo enemigo"], ["@BT03|Reencuentro con un viejo enemigo", "STm02_11"]]], "STm03": ["Capítulo 3 · Guild Sweet Guild", [["STm03_00_a"], ["STm03_00_b"], ["STm03_01"], ["STm03_02"], ["STm03_03"], ["STm03_04"], ["@BT01|Medida de poder"], ["STm03_05", "!STm03_06_c"], ["STm03_06_a", "STm03_06_b"], ["STm03_07"], ["STm03_08"], ["STm03_09"], ["@BT02|Espíritu de la brutalidad"], ["STm03_10"], ["STm03_11"]], [["STm03_00_a", "STm03_00_b"], ["STm03_00_b", "STm03_01"], ["STm03_01", "STm03_02"], ["STm03_02", "STm03_03"], ["STm03_03", "STm03_04"], ["STm03_04", "@BT01|Medida de poder"], ["@BT01|Medida de poder", "STm03_05"], ["STm03_05", "STm03_06_a"], ["STm03_05", "STm03_06_b"], ["STm03_05", "STm03_06_c"], ["STm03_06_a", "STm03_07"], ["STm03_06_b", "STm03_07"], ["STm03_07", "STm03_08"], ["STm03_08", "STm03_09"], ["STm03_09", "@BT02|Espíritu de la brutalidad"], ["@BT02|Espíritu de la brutalidad", "STm03_10"], ["STm03_10", "STm03_11"]]]};
 function chOf(id){return String(id).slice(0,5)}
+function leidos(){try{return JSON.parse(localStorage.getItem("rdr")||"[]")}catch(e){return[]}}
+function marcaLeido(id){try{const l=leidos();if(l.indexOf(id)<0){l.push(id);localStorage.setItem("rdr",JSON.stringify(l))}}catch(e){}}
 function actos(hold){
   const c=CAPS[chOf(S.id)];if(!c)return;
   let pr=null;try{pr=localStorage.getItem("rdp"+chOf(S.id))}catch(e){}
-  S.hold=hold?1:0;
-  let h='<div class="rd-log" style="display:block;width:100%;max-height:100%;overflow:auto"><h2>'+c[1]+' · elegir acto</h2>';
-  if(hold&&pr)h+='<button class="rd-b" data-a="nx" data-n="'+pr+'" style="margin:6px 4px">Continuar: '+(NOMB[pr]||pr)+'</button>';
-  h+='<div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:10px">';
-  c[0].forEach(id=>{if(id[0]==='@'){h+='<button class="rd-b" disabled style="opacity:.45">⚔ '+id.slice(1)+' (no disponible)</button>';return}h+='<button class="rd-b" data-a="nx" data-n="'+id+'"'+(id===S.id&&!hold?' style="opacity:.6"':'')+'>'+(NOMB[id]||id)+'</button>'});
-  h+='</div><div style="margin-top:14px"><button class="rd-b" data-a="'+(hold?'x':'ay')+'">'+(hold?'Cerrar':'Volver')+'</button></div></div>';
+  const rd=leidos();S.hold=hold?1:0;
+  const nodo=t=>{
+    if(t[0]==="@"){const q=t.slice(1).split("|");return '<div class="rd-nd bt"><b>'+q[0]+' ⚔</b><span>'+q[1]+'</span></div>'}
+    const f=t[0]==="!",id=f?t.slice(1):t,n=(NOMB[id]||id).split(" · "),num=n.length>1?n[0]:"",tit=n.length>1?n.slice(1).join(" · "):n[0];
+    const cl="rd-nd"+(f?" fin":"")+(rd.indexOf(id)>=0?" leido":"")+(id===pr?" act":"")+(id===S.id&&!hold?" cur":"");
+    return '<button class="'+cl+'" data-a="nx" data-n="'+id+'" data-id="'+id+'"><b>'+(f?"El fin":num)+(rd.indexOf(id)>=0?" ✓":"")+'</b><span>'+(f?tit.replace(/^Final: /,""):tit)+'</span></button>'
+  };
+  let h='<div class="rd-map"><div class="rd-mt"><h2>'+c[0]+'</h2><button class="rd-b" data-a="'+(hold?'x':'ay')+'">'+(hold?'Cerrar':'Volver')+'</button></div>';
+  if(hold&&pr&&NOMB[pr])h+='<button class="rd-b rd-cont" data-a="nx" data-n="'+pr+'">Continuar: '+NOMB[pr]+'</button>';
+  h+='<div class="rd-ms"><div class="rd-mg">';
+  c[1].forEach(col=>{h+='<div class="rd-mc">'+col.map(nodo).join("")+'</div>'});
+  h+='<svg class="rd-ml"></svg></div></div></div>';
   card(h);
+  requestAnimationFrame(()=>{
+    const g=el.querySelector(".rd-mg"),svg=g&&g.querySelector(".rd-ml");if(!g)return;
+    const find=t=>{const id=t[0]==="@"?null:t;if(id)return g.querySelector('[data-id="'+id+'"]');
+      const nm=t.slice(1).split("|")[1];return[].find.call(g.querySelectorAll(".rd-nd.bt"),x=>x.textContent.indexOf(nm)>=0)};
+    const pos=e=>{let x=0,y=0,o=e;while(o&&o!==g){x+=o.offsetLeft;y+=o.offsetTop;o=o.offsetParent}return{l:x,r:x+e.offsetWidth,m:y+e.offsetHeight/2}};
+    svg.setAttribute("width",g.scrollWidth);svg.setAttribute("height",g.scrollHeight);
+    let d="";c[2].forEach(k=>{const a=find(k[0]),b=find(k[1]);if(!a||!b)return;const p=pos(a),q=pos(b),mx=(p.r+q.l)/2;
+      d+='<path d="M'+p.r+" "+p.m+"C"+mx+" "+p.m+" "+mx+" "+q.m+" "+q.l+" "+q.m+'"/>'});
+    svg.innerHTML=d;
+    const t=g.querySelector(".act")||g.querySelector(".cur");if(t&&t.scrollIntoView)try{t.scrollIntoView({inline:"center",block:"nearest"})}catch(e){}
+  });
 }
 window.abrirLector=async function(id){
   build();
@@ -463,14 +503,14 @@ window.abrirLector=async function(id){
 };
 async function iniciar(id,prev,hold){
   let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
-  let g=1,m=0;try{const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
+  let g=1,m=0,zs=1;try{const z=+localStorage.getItem("rdz");if(z)zs=z;const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
   if(S&&S.timer){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S.at)}
   try{localStorage.setItem("rdp"+chOf(id),id)}catch(e){}
-  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,timer:0,card:0,choice:null};
+  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,zs:zs,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
   el.querySelector(".rd-fxl").innerHTML="";el.querySelector(".rd-cur").style.opacity=0;el.querySelector(".rd-box").style.visibility="";
   S.mc=0;if(prev)S.vp=prev.vp;try{const mv=document.querySelector('meta[name=viewport]');if(mv&&!/viewport-fit/.test(mv.content)){S.vp=mv.content;mv.content=mv.content+",viewport-fit=cover"}}catch(e){}
-  btnG();btnM();card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();
+  btnG();btnM();btnZ();card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();
 }
 })();
