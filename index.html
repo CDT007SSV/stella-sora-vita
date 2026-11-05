@@ -233,6 +233,18 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .ncard .nbul{margin:8px 0 0;padding-left:18px;font-size:.78rem;color:#e6e1ff;line-height:1.45;text-transform:none}.ncard .nbul li{margin-bottom:3px}
 .ncard .nmore{margin-top:2px;color:var(--gold)}
 .ncard .ndt{position:absolute;top:9px;right:11px;font-size:.66rem;color:var(--t2)}
+/* extras: discos y skins */
+.disc-art{display:block;margin:0 auto;max-width:100%;max-height:60vh;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.dmore{margin-top:10px}.dmore[hidden]{display:none}
+.trk{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px}.trk span{padding:5px 11px;border-radius:999px;background:rgba(123,108,255,.18);border:1px solid rgba(123,108,255,.4);font-size:.8rem;color:#d9d3ff}
+.story-t{font-size:1.02rem;margin:4px 0 6px}.story-x{white-space:pre-line;line-height:1.55;font-size:.88rem;color:#e6e1ff;text-transform:none}
+.nota-en{font-size:.7rem;color:var(--t2);margin-top:8px}
+.skin{padding:10px 0;border-top:1px solid #2a2740}.skin:first-of-type{border-top:0}
+.skin h4{margin:0 0 3px;font-size:.92rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap;text-transform:none}
+.skin p{margin:0;white-space:pre-line;font-size:.8rem;color:var(--t2);line-height:1.45;text-transform:none}
+.stype{font-size:.6rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:rgba(232,196,106,.22);color:#f3d98a}
+.stype.t1{background:rgba(123,108,255,.25);color:#cfc8ff}.stype.t2{background:rgba(92,225,230,.2);color:#8ff0f3}
+.cgimg{width:100%;border-radius:12px;display:block;margin:6px 0 4px;background:#0e0c18}
 /* encabezado de personaje */
 .badge.rbig{font-size:1.05rem;padding:4px 12px;border-radius:9px;letter-spacing:.03em}
 .hero .badge.b5,.badge.b5.rbig{background:linear-gradient(135deg,#f6d878,#e0a93a);color:#3a2800;box-shadow:0 0 14px rgba(232,196,106,.45),inset 0 1px 0 rgba(255,255,255,.5)}
@@ -671,15 +683,24 @@ function showD(wikiUrl){
   if(!d){ window.open(wikiUrl, "_blank"); return; }
   backTo = "discs";
   document.getElementById("det-title").textContent = d.name;
+  const art=(d.imageAlts&&d.imageAlts[0])||d.imageUrl;
   document.getElementById("det").innerHTML = `
     <div style="text-align:center">
-      <img class="detail-av" src="${d.imageUrl}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
-      <div class="badge b${d.rarity}" style="font-size:.95rem;margin:6px 0">${d.rarity}★</div>
+      <img class="disc-art" src="${art}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="if(this.dataset.f){this.style.display='none'}else{this.dataset.f=1;this.src='${d.imageUrl}'}">
+      <div class="badge b${d.rarity} rbig" style="margin:12px 0 6px">${d.rarity}★</div>
       <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
     </div>
     <div class="chips"><span class="chip on">${elIcon(d.element)}${d.element}</span><span class="chip on">Disco</span></div>
-    <div class="card"><p>Los efectos (Melody y Harmony Skill) y sus valores por nivel están en la wiki.</p></div>
-    <a class="btn" href="${d.wikiUrl}" target="_blank" rel="noopener">Ver en la wiki</a>`;
+    <button type="button" class="btn" id="dmore-btn">Ver más</button>
+    <div class="dmore" id="dmore" hidden></div>
+    <div class="card" style="margin-top:12px"><p>Los efectos (Melody y Harmony Skill) y sus valores por nivel están en la wiki.</p></div>
+    <a class="btn out" href="${d.wikiUrl}" target="_blank" rel="noopener">Ver en la wiki</a>`;
+  const btn=document.getElementById("dmore-btn"),box=document.getElementById("dmore");
+  btn.onclick=async()=>{
+    if(!box.hidden){box.hidden=true;btn.textContent="Ver más";return}
+    btn.textContent="Cargando…";
+    const E=await cargarExtras(); box.innerHTML=discExtraHtml(d,E); box.hidden=false; btn.textContent="Ver menos";
+  };
   go("detail");
 }
 
@@ -735,12 +756,14 @@ function showC(id){
     ${(nmh||vah)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Nombres y voces</h3>${nmh}${vah}</div>`:''}
     ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
     ${skCard}
+    <div id="skins-box"></div>
     <div class="model-wrap">
       <div id="mv3d"></div>
       <p class="hint" id="mv-status">Cargando modelo 3D…</p>
       <div class="anim-bar" id="anim-bar"></div>
     </div>`;
   go("detail");
+  cargarExtras().then(E=>{const b=document.getElementById("skins-box");if(b&&cur==="detail")b.innerHTML=skinsHtml(c,E)});
   setTimeout(()=>window.loadTrekkerModel&&window.loadTrekkerModel(glb,animsJson,folder),50);
 }
 
@@ -1028,6 +1051,35 @@ function showBuild(id){
     ${bl?`<div class="card">${bl}</div>`:""}
     <p class="foot" style="margin-top:8px">Build de la comunidad. ${BUILDS.url?`<a href="${esc(BUILDS.url)}" target="_blank" rel="noopener" style="color:var(--a)">Ver en Notion</a>`:""}</p>`;
   go("build");
+}
+/* ===== Extras (historia de discos, skins de personajes: extras.json) ===== */
+let EXP=null;
+const cargarExtras=()=>EXP||(EXP=fetch("extras.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).catch(()=>null));
+const SKT={1:"Base",2:"Despertar",3:"Atuendo"};
+function discExtraHtml(d,E){
+  const x=E&&E.discos&&E.discos[d.name];
+  const wiki=`<a class="btn out" href="${d.wikiUrl}" target="_blank" rel="noopener" style="margin-top:12px">Escuchar y ver más en la wiki</a>`;
+  if(!x)return `<div class="card"><p>Todavía no hay historia disponible para este disco.</p></div>`+wiki;
+  const bgm="https://stellasora.miraheze.org/wiki/Special:FilePath/"+encodeURIComponent("BGM "+d.name)+".ogg";
+  const audio=`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Música</h3>
+    <audio controls preload="none" src="${bgm}" style="width:100%" onerror="this.outerHTML='<p class=nota-en>No se pudo reproducir aquí. Escúchala desde el botón de la wiki.</p>'"></audio></div>`;
+  const tracks=[x.t1,x.t2].filter(Boolean).map(t=>`<span>♪ ${esc(tr(t))}</span>`).join("");
+  const en=x.tx&&!TR[x.tx];
+  return `${audio}${tracks?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Temas</h3><div class="trk">${tracks}</div></div>`:""}
+    ${x.tx?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Historia</h3>${x.st?`<h4 class="story-t">${esc(tr(x.st))}</h4>`:""}<div class="story-x">${esc(tr(x.tx))}</div>${en?'<p class="nota-en">Texto original en inglés, traducción pendiente.</p>':""}</div>`:""}`+wiki;
+}
+function skFb(i){const q=(i.dataset.q||"").split(",").filter(Boolean),n=q.shift();i.dataset.q=q.join(",");if(n)i.src=n;else (i.parentElement.tagName==='A'?i.parentElement:i).remove()}
+function skinsHtml(c,E){
+  const x=E&&E.skins&&E.skins[c.name]; if(!x||!x.skins.length)return "";
+  const file=c.name.replace(/ /g,"_");
+  const cg=x.cg&&x.cg.length?`<img class="cgimg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/${encodeURIComponent(file)}_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
+  return `<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Skins y arte</h3>${cg}
+    ${(()=>{let n=0;return x.skins.map(k=>{
+      let img="";
+      if(k.t===3){n++;const u=(v,w)=>`https://stellasora.miraheze.org/wiki/Special:FilePath/${encodeURIComponent(file)}_skin${n}_${v}.png${w?"?width="+w:""}`;
+        img=`<a href="${u("02")}" target="_blank" rel="noopener"><img class="cgimg" src="${u("02",700)}" data-q="${u("01",700)},${u("03",700)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="skFb(this)"></a>`}
+      return `<div class="skin"><h4>${esc(tr(k.n))}<span class="stype t${k.t}">${SKT[k.t]||"Skin"}</span></h4>${k.d?`<p>${esc(tr(k.d))}</p>`:""}${img}</div>`}).join("")})()}
+    <a class="btn out" href="${c.wikiUrl}" target="_blank" rel="noopener" style="margin-top:10px">Ver galería completa en la wiki</a></div>`;
 }
 /* ===== Novedades (datos de generar_novedades.py) ===== */
 let NV=[];

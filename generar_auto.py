@@ -462,6 +462,48 @@ for k, x in gacha.items():
 banners.sort(key=lambda b: b["start"], reverse=True)
 print("Banners:", [(b["name"], b["kind"], b["start"][:10]) for b in banners])
 
+# ---------- extras: historia y temas de discos, skins y CG de personajes -> extras.json ----------
+# Se guarda aparte de auto.json y la app solo lo descarga al abrir un disco o un personaje.
+try:
+    dip, Ldip = jopt("bin/DiscIP.json"), jopt("language/en_US/DiscIP.json")
+    skins, Lsk = jopt("bin/CharacterSkin.json"), jopt("language/en_US/CharacterSkin.json")
+    cgs, Lcg = jopt("bin/CharacterCG.json"), jopt("language/en_US/CharacterCG.json")
+    extras = {"discos": {}, "skins": {}}
+    for d in discos:
+        x = dip.get(str(d["did"]))
+        if not x:
+            continue
+        e = {}
+        for k, campo in (("t1", "VoName1"), ("t2", "VoName2"), ("st", "StoryName"), ("tx", "StoryDesc")):
+            v = Ldip.get(x.get(campo) or "")
+            if v and str(v).strip():
+                e[k] = str(v).replace("\x0b", "\n").strip()
+        if e:
+            extras["discos"][d["name"]] = e
+    por_id = {p["cid"]: p["name"] for p in personajes}
+    for k, sk in sorted(skins.items(), key=lambda kv: int(kv[0])):
+        nom = por_id.get(sk.get("CharId"))
+        n = Lsk.get(sk.get("Name") or "")
+        if not nom or not n:
+            continue
+        e = {"n": n, "t": sk.get("Type")}
+        de = Lsk.get(sk.get("Desc") or "")
+        if de and str(de).strip():
+            e["d"] = str(de).replace("\x0b", "\n").strip()
+        sec = extras["skins"].setdefault(nom, {"skins": [], "cg": []})
+        sec["skins"].append(e)
+        cg = Lcg.get((cgs.get(str(sk.get("CharacterCG"))) or {}).get("Name") or "")
+        if cg and cg not in sec["cg"]:
+            sec["cg"].append(cg)
+    if extras["discos"] or extras["skins"]:
+        nuevo = json.dumps(extras, ensure_ascii=False)
+        viejo_x = open("extras.json", encoding="utf-8").read() if os.path.exists("extras.json") else ""
+        if nuevo != viejo_x:
+            open("extras.json", "w", encoding="utf-8").write(nuevo)
+        print("Extras: %d discos con historia, %d personajes con skins." % (len(extras["discos"]), len(extras["skins"])))
+except Exception as ex:
+    print("Extras omitidos por error:", ex)
+
 # ---------- comprobaciones y guardado ----------
 if len(personajes) < 30 or len(discos) < 80:
     print("ERROR: muy pocos datos, no se guarda nada.")
