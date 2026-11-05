@@ -140,14 +140,14 @@ function build(){
   el=document.createElement("div");el.id="rd";
   el.innerHTML=`<div class="rd-st">${[0,1,2,3,4,5,6].map(i=>'<div class="rd-sg'+(i?'':' on')+'" data-s="'+i+'"><div class="rd-sgi"><div class="rd-bgi"></div><div class="rd-chars"></div></div></div>').join("")}<svg class="rd-sl" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="58" y1="0" x2="42" y2="100"/><line x1="30" y1="0" x2="14" y2="100"/><line x1="86" y1="0" x2="70" y2="100"/></svg><div class="rd-fxl"></div><div class="rd-film"><i></i><i></i></div><div class="rd-cur"></div><div class="rd-dim"></div><img class="rd-obj" alt="" referrerpolicy="no-referrer">
    <button class="rd-out" data-a="x">✕ Salir</button>
-   <div class="rd-bar"><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
+   <div class="rd-bar"><button data-a="ac">Actos</button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
    <div class="rd-box"><div class="rd-face"><img alt="" referrerpolicy="no-referrer"></div><span class="rd-nm"></span><div class="rd-tx"></div><span class="rd-nx"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 11 7 11s7-6 7-11a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span></div>
    <div class="rd-card" id="rd-c"></div></div>`;
   document.body.appendChild(el);
   el.addEventListener("click",e=>{
     const a=e.target.closest("[data-a]");
     if(a){const k=a.dataset.a;
-      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}
+      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}
     if(e.target.closest(".rd-card"))return;
@@ -206,6 +206,7 @@ function tf(st,o,k0){
   e.style.transform="translate("+(T.x*k+bx)+"px,"+(-T.y*k)+"px) scale("+T.s+")";
   if(o.sh)shake(e,o.sh,"BgShakeType");
 }
+function stopShakes(){try{el.getAnimations({subtree:true}).forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}}
 function shake(e,n,k){
   try{e.getAnimations().forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}
   if(!n||n==="stop"||n==="still")return;
@@ -217,7 +218,7 @@ function shake(e,n,k){
 }
 function ease(n){n=n||"Linear";return n==="Linear"?"linear":/^InOut/.test(n)?"ease-in-out":/^In/.test(n)?"ease-in":"ease-out"}
 function setBg(n,st,d){
-  st=st||0;const bg=layer(st);if(!bg)return;
+  st=st||0;const bg=layer(st);if(!bg)return;try{bg.getAnimations().forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}
   if(d>0){const o=bg.cloneNode(false);o.className="rd-bgo";o.style.setProperty("--d",d+"s");o.style.opacity=1;bg.parentNode.insertBefore(o,bg.nextSibling);
     requestAnimationFrame(()=>requestAnimationFrame(()=>{o.style.opacity=0}));setTimeout(()=>o.remove(),d*1000+150)}
   S.tr["b"+st]={x:0,y:0,s:1};bg.style.transition="none";bg.style.transform="none";bg.style.transformOrigin="50% 50%";
@@ -240,7 +241,7 @@ function stage(i,io){
   if(io!==0)setTimeout(()=>{if(S&&!e.classList.contains("on")){e.querySelector(".rd-chars").innerHTML="";for(const k in S.chars)if(S.chars[k].st===i)delete S.chars[k]}},400);
 }
 function spriteList(id,pose,expr){
-  const base0=id==="avg3_100"?(S.g?"Male":"Female")+"_tyrant":(S.names[id]||"").trim();
+  const base0=id==="avg3_100"?(S.g?"Male":"Female")+"_tyrant":((S.en&&S.en[id])||S.names[id]||"").trim();
   if(!base0||base0==="???")return null;
   const base=base0.replace(/ /g,"_"),p=pose||"a",out=[];
   const n=parseInt(expr,10);
@@ -432,28 +433,44 @@ function avanza(){
 const SIG={STm00_01:"STm00_02",STm01_01:"STm01_02",STm01_02:"STm01_03",STm01_03:"STm01_04",STm01_04:"STm01_05",STm01_05:"STm01_06",STm01_06:"STm01_07",STm01_07:"STm01_08_a",STm01_08_a:"STm01_09",STm01_08_b:"STm01_08_a",STm01_08_c:"STm01_09",STm01_09:"STm01_10",STm01_10:"STm02_01",STm02_01:"STm02_02_a",STm02_02_a:"STm02_03_a",STm02_03_a:"STm02_04",STm02_02_b:"STm02_03_b",STm02_03_b:"STm02_04",STm02_02_c:"STm02_02_a",STm02_04:"STm02_05",STm02_05:"STm02_06",STm02_06:"STm02_07",STm02_07:"STm02_08",STm02_08:"STm02_09",STm02_09:"STm02_10",STm02_10:"STm02_11"};
 const ALT={STm02_01:[["STm02_02_b","Ruta alterna: Investigación disfrazada (Acto 2)"],["STm02_02_c","Final alternativo: Un final interminable"]],STm01_07:[["STm01_08_c","Ruta alterna: la cena (Acto 8)"],["STm01_08_b","Final alternativo: Un futuro sin Trekkers"]]};
 const NOMB={STm02_01:"Cap. 2 · Acto 1",STm02_02_a:"Cap. 2 · Acto 2",STm02_02_b:"Cap. 2 · Acto 2 (investigación disfrazada)",STm02_02_c:"Final alternativo",STm02_03_a:"Cap. 2 · Acto 3",STm02_03_b:"Cap. 2 · Acto 3 (alterno)",STm02_04:"Cap. 2 · Acto 4",STm02_05:"Cap. 2 · Acto 5",STm02_06:"Cap. 2 · Acto 6",STm02_07:"Cap. 2 · Acto 7",STm02_08:"Cap. 2 · Acto 8",STm02_09:"Cap. 2 · Acto 9",STm02_10:"Cap. 2 · Acto 10",STm02_11:"Cap. 2 · Epílogo",STm00_01:"Prólogo, parte 1",STm01_01:"Acto 1",STm01_02:"Acto 2",STm01_03:"Acto 3",STm01_04:"Acto 4",STm01_05:"Acto 5",STm01_06:"Acto 6",STm01_07:"Acto 7",STm01_08_a:"Acto 8",STm01_08_b:"Final alternativo",STm01_08_c:"Acto 8 (la cena)",STm01_09:"Acto 9",STm01_10:"Acto 10"};
-function fin(){pararAudio();const nx=SIG[S.id];let h;
+function fin(){pararAudio();stopShakes();const nx=SIG[S.id];let h;
   if(nx){h='<small>Fin de esta parte</small><h2>'+(NOMB[S.id]||"")+' terminado</h2><p>Sigue: '+(NOMB[nx]||"la siguiente parte")+'.</p><button class="rd-b" data-a="nx" data-n="'+nx+'" style="margin-top:18px">Continuar</button>';
     (ALT[S.id]||[]).forEach(function(x){h+=' <button class="rd-b" data-a="nx" data-n="'+x[0]+'" style="margin-top:10px">'+x[1]+'</button>'});
     h+=' <button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>'}
   else h='<small>Fin</small><h2>'+(NOMB[S.id]||"Fin")+' terminado</h2><p>Por ahora llegamos hasta aquí. ¡Continuará!</p><button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>';
   card(h)}
+
+const CAPS={"STm00":[["STm00_01","STm00_02"],"Prólogo"],"STm01":[["STm01_01","STm01_02","STm01_03","STm01_04","STm01_05","STm01_06","STm01_07","STm01_08_a","STm01_09","STm01_10","STm01_08_c","STm01_08_b"],"Capítulo 1"],"STm02":[["STm02_01","STm02_02_a","STm02_02_b","STm02_03_a","STm02_03_b","STm02_04","STm02_05","STm02_06","STm02_07","STm02_08","STm02_09","STm02_10","STm02_11","STm02_02_c"],"Capítulo 2"]};
+function chOf(id){return String(id).slice(0,5)}
+function actos(hold){
+  const c=CAPS[chOf(S.id)];if(!c)return;
+  let pr=null;try{pr=localStorage.getItem("rdp"+chOf(S.id))}catch(e){}
+  S.hold=hold?1:0;
+  let h='<div class="rd-log" style="display:block;width:100%;max-height:100%;overflow:auto"><h2>'+c[1]+' · elegir acto</h2>';
+  if(hold&&pr)h+='<button class="rd-b" data-a="nx" data-n="'+pr+'" style="margin:6px 4px">Continuar: '+(NOMB[pr]||pr)+'</button>';
+  h+='<div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:10px">';
+  c[0].forEach(id=>{h+='<button class="rd-b" data-a="nx" data-n="'+id+'"'+(id===S.id&&!hold?' style="opacity:.6"':'')+'>'+(NOMB[id]||id)+'</button>'});
+  h+='</div><div style="margin-top:14px"><button class="rd-b" data-a="'+(hold?'x':'ay')+'">'+(hold?'Cerrar':'Volver')+'</button></div></div>';
+  card(h);
+}
 window.abrirLector=async function(id){
   build();
   try{const st=document.getElementById("bgm-st");if(st&&document.getElementById("bgmbar").classList.contains("on"))st.click()}catch(e){}
   try{const de=document.documentElement;if(de.requestFullscreen)await de.requestFullscreen({navigationUI:"hide"})}catch(e){}
   try{if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock("landscape")}catch(e){}
-  await iniciar(id,null);
+  let pr=null;try{pr=localStorage.getItem("rdp"+chOf(id))}catch(e){}
+  await iniciar(id,null,!!(pr&&pr!==id&&NOMB[pr]));
 };
-async function iniciar(id,prev){
+async function iniciar(id,prev,hold){
   let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
   let g=1,m=0;try{const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
   if(S&&S.timer){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S.at)}
-  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,timer:0,card:0,choice:null};
+  try{localStorage.setItem("rdp"+chOf(id),id)}catch(e){}
+  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
   el.querySelector(".rd-fxl").innerHTML="";el.querySelector(".rd-cur").style.opacity=0;el.querySelector(".rd-box").style.visibility="";
   S.mc=0;if(prev)S.vp=prev.vp;try{const mv=document.querySelector('meta[name=viewport]');if(mv&&!/viewport-fit/.test(mv.content)){S.vp=mv.content;mv.content=mv.content+",viewport-fit=cover"}}catch(e){}
-  btnG();btnM();card(false);el.classList.add("on");fit();setTimeout(fit,400);avanza();
+  btnG();btnM();card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();
 }
 })();
