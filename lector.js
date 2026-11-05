@@ -187,10 +187,11 @@ function card(h){const c=el.querySelector("#rd-c");if(h==null||h===false){c.clas
 function fx(t){return t.replace(/==PLAYER_NAME==/g,"Sylar").replace(/==SEX\d*==/g,m=>SEX[m]?SEX[m][S.g]:"").replace(/==(?:P|B|Off|A-?[\d.]+)==/g,"")}
 function esc(t){return String(t).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
 function log(){
-  card('<div class="rd-log" style="display:block;width:100%;max-height:100%;overflow:auto"><h2>Registro</h2>'+(S.log.map(l=>"<div><b>"+esc(l[0])+"</b>"+esc(l[1])+"</div>").join("")||"<p>Aún no hay nada.</p>")+'<button class="rd-b" data-a="lx" style="margin-top:12px">Volver</button></div>');
+  card('<div class="rd-log" style="display:block;width:100%;max-height:100%;overflow:auto"><h2>Registro</h2>'+(S.log.map(l=>"<div><b>"+esc(l[0])+"</b>"+esc(l[1])+"</div>").join("")||"<p>Aún no hay nada.</p>")+(S.miss&&Object.keys(S.miss).length?"<p style=\"font-size:.8em;opacity:.8\">Imágenes no encontradas en la wiki: "+Object.keys(S.miss).map(esc).join(", ")+"</p>":"")+'<button class="rd-b" data-a="lx" style="margin-top:12px">Volver</button></div>');
 }
 const SH={"CharShakeType":{"none":0,"stop":1,"still":2,"JuGong":[0.0,-50.0,0.7,1.0,0,0],"LianTiao":[0.0,-100.0,1.0,3.0,0,1],"Tiao":[0.0,50.0,0.7,1.0,0,0],"2TiaoYue":[0.0,50.0,0.35,2.0,0,1],"ChanDou":[20.0,0.0,0.2,1.0,0,1],"lengzhan":[5.0,0.0,0.1,2.0,0,1],"chijing":[-15.0,0.0,0.15,2.0,0,1],"huanxin":[0.0,25.0,0.22,2.0,0,1],"jingxia":[-15.0,15.0,0.17,2.0,0,1],"jinzhang":[25.0,0.0,0.2,3.0,0,1],"jushou":[0.0,50.0,0.3,1.0,0,0],"manbu":[0.0,20.0,0.5,3.0,0,1],"tiao2":[0.0,20.0,0.4,2.0,0,0],"diantou":[0.0,-20.0,0.3,1.0,0,0],"youzai":[10.0,0.0,0.9,2.0,0,1],"lengzhan2":[10.0,0.0,0.2,4.0,0,1],"shouji":[30.0,0.0,0.15,3.0,0,1],"chijing2":[-35.0,0.0,0.15,2.0,0,1],"buman":[0.0,60.0,0.25,3.0,0,0],"yaobai":[0.0,0.0,0.5,4.0,0,1],"xiangpu1":[-20.0,0.0,1.0,1.0,0,1],"xiangpu2":[-10.0,0.0,1.0,1.0,0,1],"manbu2":[0.0,-10.0,0.4,2.0,0,0],"jingxia2":[0.0,15.0,0.23,2.0,0,0],"daintou":[0.0,-30.0,0.3,2.0,0,0],"diantou2":[0.0,-30.0,0.3,2.0,0,1],"huanxin2":[0.0,25.0,0.22,3.0,0,1],"zuochupeng":[-40.0,0.0,0.25,2.0,0,0],"youchupeng":[40.0,0.0,0.25,2.0,0,0],"niunie":[-20.0,0.0,0.5,2.0,0,1],"niunie1":[-14.0,0.0,0.7,2.0,0,1],"jushou0":[0.0,20.0,0.3,1.0,0,0],"JuGong1":[0.0,-80.0,0.5,1.0,0,0],"jushou2":[0.0,40.0,0.3,2.0,0,1],"JuGong2":[0.0,-45.0,0.35,1.0,0,0],"jushou1":[0.0,20.0,0.2,1.0,0,0],"ChanDou1":[9.0,0.0,0.1,2.0,0,1],"jump1":[0.0,100.0,0.45,1.0,0,0],"youzaiLp":[10.0,0.0,0.9,2.0,1,1],"dabian":[50,50,0.2,2.2,0,1],"xiangjiao":[50,30,0.2,2.2,0,1],"guodongtiao1":[0,50,0,0,0,1],"shilaimu1":[0,100,0,0,0,1],"shilaimu2":[-150,90,0.35,1,0,0],"manbu_loop":[0,5,0,0,1,1],"xuanyun":[0,0,0,0,0,1],"lengzhanLP":[5.0,0.0,0.3,2.0,1,1],"loopLite":[0.0,2.0,0.4,1.0,1,0.5],"paishou":[0.0,-50.0,0.4,3.0,0,0]},"BgShakeType":{"none":0,"stop":1,"still":2,"Xiao":[0.0,10.0,0.1,5.0,0,1],"Zhong":[0.0,20.0,0.1,5.0,0,1],"Da":[0.0,20.0,0.1,1000.0,0,1],"1ZhenDong":[0.0,-50.0,0.4,1.0,0,1],"xiaozhen":[20.0,20.0,0.15,3.0,0,1],"hengbo":[50.0,0.0,0.2,5.0,0,1],"loop":[0.0,4.0,0.3,50000.0,0,1],"loopda":[0.0,37.0,0.1,50000.0,0,1],"zongbo":[0.0,50.0,0.2,5.0,0,1],"chijing":[-15.0,0.0,0.15,2.0,0,1],"jushou":[0.0,-15.0,0.3,1.0,0,0],"zhenjing":[50,35,0.2,1,0,1],"youchupeng":[-80,0,0.4,1,0,0],"zuochupeng":[80,0,0.4,1,0,0],"DaZhenDong":[0.0,40.0,0.1,5.0,0,1],"ChanDou":[40,0,0.12,4,0,1],"xingshi":[-3,6,0.4,1,1,0],"niunie1":[-14.0,0.0,0.7,2.0,0,1],"ChaoDaZhenDong":[0.0,60.0,0.1,5.0,0,1],"JingTouYaoHuang":[10,5,4,2,1,1],"XiaoLP":[0.0,10.0,0.1,5.0,1,1],"hengboLP":[20,5,2,5,1,1],"wind":[40,20,4.0,2.0,1,1],"loopLite":[0.0,2.0,0.4,1.0,1,0.5],"diantou":[0.0,15.0,0.3,1.0,0,0],"loopHeng":[3.0,0.0,0.2,1.0,1,0.5]}};
 const EM={speechless:"…",attention:"❗",exclamation:"❗",happy:"😄",question:"❓",sigh:"💨",music:"🎵",flurry:"💦",vexation:"💢",think:"💭",star:"⭐",shock:"😱",sweaty:"💧",symbol:"⁉️",idea:"💡",angry:"💢",awkward:"😅",love:"💗",resentful:"😒",flower:"🌸",shy:"😳",sleepy:"💤"};
+function miss(n){if(S){S.miss=S.miss||{};S.miss[n]=1}}
 function sg(st){return el.querySelector('.rd-sg[data-s="'+(st||0)+'"]')}
 function layer(st){return sg(st).querySelector(".rd-bgi")}
 function tf(st,o,k0){
@@ -222,9 +223,9 @@ function setBg(n,st,d){
   S.tr["b"+st]={x:0,y:0,s:1};bg.style.transition="none";bg.style.transform="none";bg.style.transformOrigin="50% 50%";
   if(/^BG_Black/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#000";return}
   if(/^BG_White/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#fff";return}
-  const l=[FILE+cap(n)+".png",FILE+cap(n)+".jpg"];
+  const lo=n.toLowerCase(),l=[FILE+cap(n)+".png",FILE+cap(lo)+".png",FILE+cap(n)+".jpg",FILE+cap(lo)+".jpg"].filter((v,i,a)=>a.indexOf(v)===i);
   const probar=i=>{
-    if(i>=l.length){bg.style.backgroundImage="none";bg.style.background="radial-gradient(circle at 50% 30%,#2a1f55,#0a0818)";return}
+    if(i>=l.length){miss(n);bg.style.backgroundImage="none";bg.style.background="radial-gradient(circle at 50% 30%,#2a1f55,#0a0818)";return}
     const im=new Image();
     im.onload=()=>{bg.style.background="";bg.style.backgroundSize="cover";bg.style.backgroundPosition="center";bg.style.backgroundImage="url('"+l[i]+"')"};
     im.onerror=()=>probar(i+1);im.referrerPolicy="no-referrer";im.src=l[i];
@@ -312,7 +313,7 @@ function chd(io,pos,id,pose,face,em){
 function obj(n,mask,x,y){
   const im=el.querySelector(".rd-obj");
   im.style.display="none";
-  im.onerror=()=>{im.style.display="none"};
+  im.onerror=()=>{miss(n);im.style.display="none"};
   im.onload=()=>{
     const k=S.u*100/1080,w=im.naturalWidth;
     if(w){im.style.width=Math.round(w*k)+"px";im.style.height="auto"}
@@ -331,13 +332,14 @@ function trn(io,style,cc,ct,d){
   if(io===0){if(cc){el.querySelectorAll(".rd-chars").forEach(x=>x.innerHTML="");S.chars={}}
     if(ct)el.querySelector(".rd-box").style.visibility="hidden"}
 }
+const FXP=new Set(["fx_avg_bling", "fx_avg_bubble_lp", "fx_avg_dream_loop", "fx_avg_dust_2_a", "fx_avg_dust_2_b", "fx_avg_dust_a", "fx_avg_dust_b", "fx_avg_fire_dust", "fx_avg_frezon_full_loop", "fx_avg_frezon_loop", "fx_avg_goldenlight_continued", "fx_avg_line_cen_lp", "fx_avg_line_cen_lp_w", "fx_avg_line_down_lp", "fx_avg_line_down_lp_w", "fx_avg_line_goleft_lp", "fx_avg_line_goleft_lp_w", "fx_avg_line_goright_2_lp", "fx_avg_line_goright_2_lp_w", "fx_avg_line_goright_lp", "fx_avg_line_goright_lp_w", "fx_avg_movie", "fx_avg_nega_ev", "fx_avg_noise", "fx_avg_powerup_loop", "fx_avg_rain", "fx_avg_rain_2", "fx_avg_rain_sky", "fx_avg_reminiscence_loop", "fx_avg_sand_lp", "fx_avg_snow", "fx_avg_snowstorm_lp", "fx_avg_speaking", "fx_avg_star_lp", "fx_avg_summon_lp", "fx_avg_thunder", "fx_avg_warning", "fx_avg_watermarks_lp", "fx_avg_wisteria_left", "fx_avg_wisteria_right", "fx_fog_2_lp", "fx_fog_lp"]);
 function fxs(n,nd){
   if(!n)return;const k=n.replace(/^fx_/,"").replace(/^avg_(?!star|magic)/,"");
   const host=el.querySelector(".rd-fxl");S.fx=S.fx||{};
   if(S.fx[n]){S.fx[n].remove();delete S.fx[n]}
   if(nd===1)return;
   const e=document.createElement("div");e.className="fx fx-"+k;host.appendChild(e);S.fx[n]=e;
-  if(/magic_ice/.test(n))setTimeout(()=>{e.remove();if(S.fx[n]===e)delete S.fx[n]},1300);
+  if(!FXP.has(n))setTimeout(()=>{e.remove();if(S&&S.fx&&S.fx[n]===e)delete S.fx[n]},/speedline|line_cen/.test(n)?1100:1500);
 }
 function hideAll(){objx();el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd").forEach(c=>c.remove());S.chars={}}
 function say(spk,t,ty,vo){
