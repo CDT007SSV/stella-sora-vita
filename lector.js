@@ -11,12 +11,8 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-sg[data-s="0"]{background:#000}
 #rd .rd-sg:not([data-s="0"]){opacity:0;transition:opacity .3s}
 #rd .rd-sg.on{opacity:1!important}
-#rd .rd-sg[data-s="1"]{clip-path:polygon(0 0,58% 0,42% 100%,0 100%)}
-#rd .rd-sg[data-s="2"]{clip-path:polygon(58% 0,100% 0,100% 100%,42% 100%)}
-#rd .rd-sg[data-s="3"]{clip-path:polygon(0 0,30% 0,14% 100%,0 100%)}
-#rd .rd-sg[data-s="4"]{clip-path:polygon(86% 0,100% 0,100% 100%,70% 100%)}
-#rd .rd-sg[data-s="1"] .rd-sgi{right:42%}#rd .rd-sg[data-s="2"] .rd-sgi{left:42%}
-#rd .rd-sg[data-s="3"] .rd-sgi{right:70%}#rd .rd-sg[data-s="4"] .rd-sgi{left:70%}
+#rd .rd-sg[data-s="3"] .rd-sgi{right:auto;width:calc(var(--u)*111.11)}
+#rd .rd-sg[data-s="4"] .rd-sgi{left:auto;right:0;width:calc(var(--u)*111.11)}
 #rd .rd-sl{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
 #rd .rd-sl line{stroke:#fff;stroke-width:calc(var(--u)*.8);vector-effect:non-scaling-stroke;opacity:0;transition:opacity .3s;filter:drop-shadow(0 0 4px rgba(255,255,255,.7))}
 #rd .rd-sl line.on{opacity:.95}
@@ -164,6 +160,22 @@ function fit(){
   el.classList.toggle("rot",por);
   const h=por?window.innerWidth:window.innerHeight;
   el.style.setProperty("--u",(h/100)+"px");if(S)S.u=h/100;
+  geo();
+}
+/* geometría de escenarios, tomada de Avg_0_Stage.lua (máscara girada -20°, lienzo de 1080 de alto) */
+function geo(){
+  const st=el.querySelector(".rd-st");if(!st)return;
+  const w=st.offsetWidth,h=st.offsetHeight;if(!w||!h)return;
+  const Wu=1080*w/h,T=Math.tan(20*Math.PI/180),pc=x=>(50+x/Wu*100).toFixed(2);
+  const L=(ex,ey)=>[ex+T*(540-ey),ex+T*(-540-ey)];            /* x arriba, x abajo (unidades) */
+  const c=Math.cos(20*Math.PI/180),s=Math.sin(20*Math.PI/180);
+  const hv=L(0,0),le=L(-1115.467+720*c,-186.3497-720*s),re=L(1115.467-720*c,-186.3497+720*s);
+  const P=(i,v)=>{const a=pc(v[0]),b=pc(v[1]);
+    const q=i===1?"polygon(0 0,"+a+"% 0,"+b+"% 100%,0 100%)":i===2?"polygon("+a+"% 0,100% 0,100% 100%,"+b+"% 100%)":i===3?"polygon(0 0,"+a+"% 0,"+b+"% 100%,0 100%)":"polygon("+a+"% 0,100% 0,100% 100%,"+b+"% 100%)";
+    const e=sg(i);if(e)e.style.clipPath=q};
+  P(1,hv);P(2,hv);P(3,le);P(4,re);
+  const ln=el.querySelectorAll(".rd-sl line");
+  [hv,le,re].forEach((v,i)=>{const e=ln[i];if(e){e.setAttribute("x1",pc(v[0]));e.setAttribute("y1",0);e.setAttribute("x2",pc(v[1]));e.setAttribute("y2",100)}});
 }
 window.addEventListener("resize",()=>{if(el&&el.classList.contains("on"))fit()});
 function cierra(){if(S){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S.at)}pararAudio();try{if(S&&S.vp){document.querySelector('meta[name=viewport]').content=S.vp}}catch(e){}el.classList.remove("on");S=null;
@@ -172,7 +184,7 @@ function cierra(){if(S){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S
 function gen(){S.g=S.g?0:1;try{localStorage.setItem("rdg",S.g)}catch(e){}btnG()}
 function btnG(){el.querySelector('[data-a="g"]').textContent="Protagonista: "+(S.g?"él":"ella")}
 function card(h){const c=el.querySelector("#rd-c");if(h==null||h===false){c.classList.remove("on");c.innerHTML="";S.card=0;return}c.innerHTML=h;c.classList.add("on");S.card=1}
-function fx(t){return t.replace(/==PLAYER_NAME==/g,"Sylar").replace(/==SEX\d*==/g,m=>SEX[m]?SEX[m][S.g]:"")}
+function fx(t){return t.replace(/==PLAYER_NAME==/g,"Sylar").replace(/==SEX\d*==/g,m=>SEX[m]?SEX[m][S.g]:"").replace(/==(?:P|B|Off|A-?[\d.]+)==/g,"")}
 function esc(t){return String(t).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
 function log(){
   card('<div class="rd-log" style="display:block;width:100%;max-height:100%;overflow:auto"><h2>Registro</h2>'+(S.log.map(l=>"<div><b>"+esc(l[0])+"</b>"+esc(l[1])+"</div>").join("")||"<p>Aún no hay nada.</p>")+'<button class="rd-b" data-a="lx" style="margin-top:12px">Volver</button></div>');
@@ -189,7 +201,8 @@ function tf(st,o,k0){
   if(o.px!=null||o.py!=null)e.style.transformOrigin=(o.px==null?.5:o.px)*100+"% "+(o.py==null?.5:1-o.py)*100+"%";
   const d=o.d||0;
   e.style.transition=d>0?"transform "+d+"s "+ease(o.e):"none";
-  e.style.transform="translate("+(T.x*k)+"px,"+(-T.y*k)+"px) scale("+T.s+")";
+  const bx=k0==="s"?(st===1?-300:st===2?300:0)*(S.wu||2400)/1200*k:0;
+  e.style.transform="translate("+(T.x*k+bx)+"px,"+(-T.y*k)+"px) scale("+T.s+")";
   if(o.sh)shake(e,o.sh,"BgShakeType");
 }
 function shake(e,n,k){
@@ -220,6 +233,7 @@ function setBg(n,st,d){
 function stage(i,io){
   const e=sg(i);if(!e||!i)return;
   e.classList.toggle("on",io===0);
+  if(io===0){S.wu=1080*e.offsetWidth/e.offsetHeight;tf(i,{},"s")}
   const on=i=>sg(i).classList.contains("on"),L=el.querySelectorAll(".rd-sl line");
   L[0].classList.toggle("on",on(1)||on(2));L[1].classList.toggle("on",on(3));L[2].classList.toggle("on",on(4));
   if(io!==0)setTimeout(()=>{if(S&&!e.classList.contains("on")){e.querySelector(".rd-chars").innerHTML="";for(const k in S.chars)if(S.chars[k].st===i)delete S.chars[k]}},400);
@@ -295,13 +309,14 @@ function chd(io,pos,id,pose,face,em){
   im.onerror=()=>{const q=JSON.parse(im.dataset.q||"[]");if(q.length){im.src=q.shift();im.dataset.q=JSON.stringify(q)}else h.remove()};
   pon(im,l);emoji(h,em,"rd-emo");
 }
-function obj(n,mask,y,sc){
+function obj(n,mask,x,y){
   const im=el.querySelector(".rd-obj");
   im.style.display="none";
   im.onerror=()=>{im.style.display="none"};
   im.onload=()=>{
     const k=S.u*100/1080,w=im.naturalWidth;
-    if(w){im.style.width=Math.round(w*(sc==null?1:sc)*k)+"px";im.style.height="auto"}
+    if(w){im.style.width=Math.round(w*k)+"px";im.style.height="auto"}
+    im.style.left="calc(50% + "+(((x==null?.5:x)-.5)*1920*k)+"px)";
     im.style.top=((1-(y==null?.5:y))*100)+"%";im.style.display="block";
   };
   im.src=FILE+"Story_element_"+n+".png";
@@ -325,8 +340,8 @@ function fxs(n,nd){
   if(/magic_ice/.test(n))setTimeout(()=>{e.remove();if(S.fx[n]===e)delete S.fx[n]},1300);
 }
 function hideAll(){objx();el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd").forEach(c=>c.remove());S.chars={}}
-function say(spk,t,ty,vo,au){
-  ty=ty||0;t=fx(t);voz(vo);S.au=au?1:0;el.querySelector(".rd-box").style.visibility="";
+function say(spk,t,ty,vo){
+  ty=ty||0;t=fx(t);voz(vo);S.pend=0;el.querySelector(".rd-box").style.visibility="";
   const mcL=spk==="avg3_100"||ty===1||ty===2;
   const nm=(spk==="0"||mcL)?"":(S.names[spk]||"");
   const box=el.querySelector(".rd-box");
@@ -334,14 +349,36 @@ function say(spk,t,ty,vo,au){
   if(ty!==1&&ty!==2)box.querySelectorAll(".rd-memo").forEach(x=>x.remove());
   el.querySelector(".rd-nm").textContent=nm;
   const tx=el.querySelector(".rd-tx");tx.className="rd-tx"+(spk==="0"?" nar":"");
-  S.log.push([mcL?"Sylar":(S.names[spk]||"—"),t]);
+  const plain=t.split("==W==").join("");
+  S.log.push([mcL?"Sylar":(S.names[spk]||"—"),plain]);
   const nx=el.querySelector(".rd-nx");nx.style.display="none";
-  let i=0;tx.textContent="";S.full=t;
-  if(S.timer)clearInterval(S.timer);
-  S.timer=setInterval(()=>{i+=2;tx.textContent=t.slice(0,i);if(i>=t.length){clearInterval(S.timer);S.timer=0;nx.style.display="";autoSig()}},18);
+  if(S.timer)clearInterval(S.timer);S.timer=0;
+  if(S.at){clearTimeout(S.at);S.at=0}
+  S.segs=t.split("==W==");S.si=0;S.shown="";S.full=plain;
+  if(ty===3||ty===8){ /* subtítulo: aparece completo y sigue solo (0.03 s por carácter, como el juego) */
+    tx.textContent=plain;S.segs=[plain];S.shown=plain;
+    S.at=setTimeout(()=>{S.at=0;if(S&&!S.card&&!S.choice)avanza()},Math.max(900,plain.replace(/\n/g,"").length*30));
+    return;
+  }
+  tipea();
 }
-function finTipeo(){clearInterval(S.timer);S.timer=0;el.querySelector(".rd-tx").textContent=S.full;el.querySelector(".rd-nx").style.display="";autoSig()}
-function autoSig(){if(S.au){S.au=0;clearTimeout(S.at);S.at=setTimeout(()=>{S.at=0;if(S&&!S.card&&!S.choice&&!S.timer)avanza()},700)}}
+function tipea(){
+  const tx=el.querySelector(".rd-tx"),seg=S.segs[S.si],base=S.shown;let i=0;
+  S.timer=setInterval(()=>{i++;tx.textContent=base+seg.slice(0,i);if(i>=seg.length)finSeg()},30);
+}
+function finSeg(){
+  clearInterval(S.timer);S.timer=0;
+  S.shown+=S.segs[S.si];el.querySelector(".rd-tx").textContent=S.shown;
+  if(S.si<S.segs.length-1){S.si++;S.pend=1;avanza()}
+  else el.querySelector(".rd-nx").style.display="";
+}
+function finTipeo(){finSeg()}
+function vacia(){ /* si el guion no reanuda el texto, lo completa */
+  if(!S.pend)return;S.pend=0;
+  S.shown+=S.segs.slice(S.si).join("");S.si=S.segs.length-1;
+  el.querySelector(".rd-tx").textContent=S.shown;el.querySelector(".rd-nx").style.display="";
+}
+function autoSig(){}
 function pick(i){
   const c=S.choice;S.choice=null;card(false);
   S.log.push(["Elegiste",c.o[i]]);
@@ -359,7 +396,9 @@ function avanza(){
     if(!f){fin();return}
     if(f.i>=f.a.length){S.stack.pop();continue}
     const s=f.a[f.i++];
+    if(S.pend&&/^(say|choice|intro|head|vid|end)$/.test(s[0]))vacia();
     switch(s[0]){
+      case"goon":if(S.pend){S.pend=0;tipea();return}break;
       case"bg":setBg(s[1],s[2],s[3]);break;
       case"cbg":tf(s[1],{x:s[2],y:s[3],s:s[4],e:s[5],d:s[6],px:s[7],py:s[8],sh:s[9]},"b");break;
       case"stg":tf(s[1],{x:s[2],y:s[3],s:s[4],e:s[5],d:s[6],px:s[7],py:s[8],sh:s[9]},"s");break;
@@ -375,7 +414,7 @@ function avanza(){
       case"clear":hideAll();break;
       case"intro":card('<small>'+esc(s[1])+'</small><h2>'+esc(s[2])+'</h2><p>'+esc(s[3])+'</p><button class="rd-b" data-a="ok" style="margin-top:18px">Comenzar</button>');return;
       case"head":card('<p style="font-size:1.1rem">'+esc(s[1])+'</p><button class="rd-b" data-a="ok" style="margin-top:18px">Continuar</button>');return;
-      case"say":say(s[1],s[2],s[3],s[4],s[5]);return;
+      case"say":say(s[1],s[2],s[3],s[4]);return;
       case"vid":card('<small>Cinemática</small><h2>🎬 '+esc(String(s[1]).split("/").pop())+'</h2><p>Aquí el juego reproduce un video. Todavía no está disponible en el lector.</p><button class="rd-b" data-a="ok" style="margin-top:18px">Continuar</button>');return;
       case"w":S.busy=1;S.wt=setTimeout(()=>{S.busy=0;S.wt=0;avanza()},s[1]*1000);return;
       case"trn":trn(s[1],s[2],s[3],s[4],s[5]);break;
