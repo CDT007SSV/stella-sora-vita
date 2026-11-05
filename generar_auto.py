@@ -523,16 +523,111 @@ try:
                 if rareza_ok(d) and ((str(d["did"]) in en_gacha) == quiere):
                     portadas[clave] = {"name": d["name"], "img": list(d.get("imageAlts") or []) + [d["imageUrl"]]}
                     break
+    # --- submenu de Historia ---
+    portadas["historiaPersonajes"] = {"name": nuevo_p["name"], "img": [FILE + n + "_Memory_Snapshot.png", FILE + n + "_awakened_02.png", nuevo_p["imageUrl"]]}
+    por_id = {d["did"]: d for d in discos}
+    gr, Lag = jopt("bin/ActivityGroup.json"), jopt("language/en_US/ActivityGroup.json")
+    ult = {}
+    for g in sorted(gr.values(), key=lambda g: g.get("StartTime", "")):
+        try:
+            if datetime.fromisoformat(g["StartTime"]) > ahora:
+                continue
+        except Exception:
+            continue
+        txt = (Lag.get(g.get("DesText")) or "").lower()
+        tipo = "historiaPrincipal" if "main stor" in txt else ("eventos" if "event stor" in txt else None)
+        disco = next((por_id[x] for x in g.get("RewardsShow", []) if x in por_id), None)
+        if tipo and disco:
+            ult[tipo] = disco
+    for tipo, d in ult.items():
+        portadas[tipo] = {"name": d["name"], "img": list(d.get("imageAlts") or []) + [d["imageUrl"]]}
+    sc, Lsc = jopt("bin/StorySetChapter.json"), jopt("language/en_US/StorySetChapter.json")
+    nova = None
+    for c in sc.values():
+        try:
+            ok = datetime.fromisoformat(c["OpenTime"]) <= ahora
+        except Exception:
+            ok = False
+        m = re.match(r"#(\d+)", Lsc.get(c.get("Title"), "") or "")
+        if ok and m and (nova is None or int(m.group(1)) > nova[0]):
+            nova = (int(m.group(1)), Lsc.get(c.get("Name"), ""))
+    if nova:
+        portadas["novaTimes"] = {"name": "#%d %s" % nova, "img": [FILE + "Story_tales_%02d_001.png" % nova[0]]}
     print("Portadas:", {k: v["name"] for k, v in portadas.items()})
 except Exception as e:
     print("AVISO portadas:", e)
     portadas = {}
 
+
+# ---------- listas de historias que crecen solas (la app agrega solo lo que no tiene) ----------
+historias = {"principal": [], "eventos": [], "novaTimes": []}
+try:
+    WK = WIKI + "wiki/" if not WIKI.endswith("wiki/") else WIKI
+    def wurl(t):
+        return WK + urllib.parse.quote(t.replace(" ", "_"), safe="_,!:'~()-")
+    def arte(d):
+        return list(d.get("imageAlts") or []) + [d["imageUrl"]]
+    por_id = {d["did"]: d for d in discos}
+    gr, Lag = jopt("bin/ActivityGroup.json"), jopt("language/en_US/ActivityGroup.json")
+    # capitulos en orden (Type 1 = normal, Type 2 = especial)
+    sch, Lsch = jopt("bin/StoryChapter.json"), jopt("language/en_US/StoryChapter.json")
+    cap_num, num, nesp = {}, 0, 0
+    for k in sorted(sch, key=lambda x: int(x)):
+        v = sch[k]
+        nombre = (Lsch.get(v.get("Desc")) or v.get("Desc") or "").strip()
+        if v.get("Type") == 2:
+            nesp += 1
+            cap_num[nombre.lower()] = ("%d.5" % num, "Main_Story/Special_Chapter" + ("" if nesp == 1 else "_%d" % nesp))
+        else:
+            m = re.search(r"(\d+)", Lsch.get(v.get("Name")) or "")
+            num = int(m.group(1)) if m else num + 1
+            cap_num[nombre.lower()] = (str(num), "Main_Story/Chapter_%d" % num)
+    for g in sorted(gr.values(), key=lambda g: g.get("StartTime", "")):
+        try:
+            if datetime.fromisoformat(g["StartTime"]) > ahora:
+                continue
+        except Exception:
+            continue
+        crudo = Lag.get(g.get("DesText")) or ""
+        txt = crudo.lower()
+        tipo = "principal" if "main stor" in txt else ("eventos" if "event stor" in txt else None)
+        m = re.search(r"\[([^\]]+)\] event", crudo)
+        disco = next((por_id[x] for x in g.get("RewardsShow", []) if x in por_id), None)
+        if not tipo or not m or not disco:
+            continue
+        nombre = m.group(1).strip()
+        if tipo == "principal":
+            num_, pag = cap_num.get(nombre.lower(), (None, None))
+            if num_:
+                historias["principal"].append({"number": num_, "titleEn": nombre, "url": WK + pag, "img": arte(disco)})
+        else:
+            historias["eventos"].append({"name": nombre, "url": wurl(nombre), "img": arte(disco)})
+    sc, Lsc = jopt("bin/StorySetChapter.json"), jopt("language/en_US/StorySetChapter.json")
+    for c in sc.values():
+        try:
+            ok = datetime.fromisoformat(c["OpenTime"]) <= ahora
+        except Exception:
+            ok = False
+        m = re.match(r"#(\d+)", Lsc.get(c.get("Title"), "") or "")
+        nm = (Lsc.get(c.get("Name"), "") or "").strip()
+        if ok and m and nm:
+            n_ = int(m.group(1))
+            historias["novaTimes"].append({"number": "%02d" % n_, "name": nm, "url": WK + "The_Nova_Times/" + urllib.parse.quote(nm.replace(" ", "_"), safe="_,!:'~()-"),
+                                           "img": [FILE + "Story_tales_%02d_001.png" % n_]})
+    historias["novaTimes"].sort(key=lambda x: int(x["number"]))
+    historias["principal"] = historias["principal"][-6:]
+    historias["eventos"] = historias["eventos"][-8:]
+    historias["novaTimes"] = historias["novaTimes"][-8:]
+    print("Historias:", {k: len(v) for k, v in historias.items()})
+except Exception as e:
+    print("AVISO historias:", e)
+    historias = {"principal": [], "eventos": [], "novaTimes": []}
+
 # ---------- comprobaciones y guardado ----------
 if len(personajes) < 30 or len(discos) < 80:
     print("ERROR: muy pocos datos, no se guarda nada.")
     sys.exit(1)
-datos = {"fuente": "Hiro420/StellaSoraData (GPL-3.0)", "personajes": personajes, "discos": discos, "banners": banners, "portadas": portadas}
+datos = {"fuente": "Hiro420/StellaSoraData (GPL-3.0)", "personajes": personajes, "discos": discos, "banners": banners, "portadas": portadas, "historias": historias}
 previo = None
 if os.path.exists("auto.json"):
     try:

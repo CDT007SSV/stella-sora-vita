@@ -76,6 +76,19 @@ main{padding:12px;max-width:720px;margin:0 auto}
 .item-tile .lab{position:relative;z-index:2;padding:8px 10px;font-size:.92rem;font-weight:600;text-shadow:0 1px 4px #000}
 .item-tile .lab small{display:block;font-weight:400;font-size:.7rem;opacity:.9;margin-top:1px}
 .card p{color:var(--t2);font-size:.9rem;line-height:1.45}
+.fmore-row{margin:0 0 10px}#cmore-btn{padding:6px 14px}
+
+.nsearch{position:absolute;right:50px;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:12px;border:1px solid #3a3560;background:rgba(123,108,255,.12);color:#cfc8ff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+#us{position:fixed;inset:0;z-index:90;background:#0a0818;display:none;flex-direction:column;padding:calc(12px + env(safe-area-inset-top)) 14px 14px}
+#us.on{display:flex}
+#us .us-bar{display:flex;gap:8px}
+#us input{flex:1;min-width:0;padding:12px 14px;border-radius:12px;border:1px solid #3a3560;background:#14102b;color:#fff;font:inherit;font-size:1rem}
+#us .us-x{border:1px solid #3a3560;background:rgba(255,255,255,.06);color:#fff;border-radius:12px;padding:0 14px;font:inherit;cursor:pointer}
+#us-res{flex:1;overflow:auto;margin-top:12px}
+#us-res h4{margin:14px 0 6px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.6}
+#us-res button{display:flex;width:100%;text-align:left;align-items:center;gap:10px;padding:10px 12px;margin-bottom:6px;border-radius:10px;border:1px solid #2c2850;background:rgba(255,255,255,.04);color:inherit;font:inherit;cursor:pointer}
+#us-res button small{opacity:.6;margin-left:auto;font-size:.72rem}
+#us-res p{opacity:.6;text-align:center;margin-top:30px}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
@@ -146,6 +159,7 @@ body.home #start .sub{color:var(--t2);margin:4px 0 0}
 #chaps,#events-list,#novatimes-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
 .hm-ch{aspect-ratio:1/1.1}
 .hm-ev{aspect-ratio:1/1.2}
+.hm-new{position:absolute;top:8px;right:8px;z-index:3;background:var(--gold);color:#1a1230;font-size:.62rem;font-weight:800;letter-spacing:.06em;padding:3px 8px;border-radius:99px}
 .hm-ch .bg{opacity:1;object-position:center}
 .hm-cn{position:absolute;z-index:2;left:9px;right:8px;bottom:8px}
 .hm-cn i{display:block;font-style:normal;font-size:.7rem;font-weight:600;opacity:.92;margin-bottom:2px;text-shadow:0 1px 3px rgba(0,0,0,.7)}
@@ -304,6 +318,7 @@ body.bgm-on .screen{padding-bottom:84px}
   <header class="hm-head">
     <img src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_English_Logo.png" alt="Stella Sora" referrerpolicy="no-referrer" onerror="this.outerHTML='<b class=hm-logo>Stella Sora</b>'"/>
     <p class="sub">Vita · Comunidad hispana</p>
+    <button type="button" id="nsearch" class="nsearch" aria-label="Buscar en toda la app"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
     <button type="button" id="nbell" class="nbell" data-nav="news" aria-label="Novedades" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><span class="ndot" hidden></span></button>
   </header>
   <div id="ticker" class="tick" data-nav="news" role="button" tabindex="0" hidden><span class="tk-l">NUEVO</span><span class="tk-t" id="tk-t"></span><span class="tk-a">›</span></div>
@@ -340,9 +355,12 @@ body.bgm-on .screen{padding-bottom:84px}
     <input class="search" id="cs" type="search" placeholder="Buscar personaje..."/>
     <div class="filters" id="cr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button></div>
     <div class="filters" id="ce"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button></div>
+    <div class="fmore-row"><button type="button" class="chip" id="cmore-btn" aria-expanded="false">Más filtros ▾</button></div>
+    <div id="cmore" hidden>
     <div class="filters" id="cro"><button class="chip" data-v="Vanguard">Vanguardia</button><button class="chip" data-v="Support">Apoyo</button><button class="chip" data-v="Versatile">Versátil</button></div>
     <div class="filters" id="cat"><button class="chip" data-v="Melee">Cuerpo a cuerpo</button><button class="chip" data-v="Ranged">A distancia</button></div>
     <div class="filters" id="cst"></div>
+    </div>
     <div class="fcount"><span id="ccount"></span><button class="chip" id="cclear" hidden>Limpiar filtros</button></div>
     <div id="clist"></div>
   </main>
@@ -398,10 +416,10 @@ body.bgm-on .screen{padding-bottom:84px}
   <div class="topbar"><button type="button" data-back>‹</button><h2>Historia</h2></div>
   <main>
     <div class="hm-subgrid">
-      <div class="hm hm-sub w c-pur" data-go="mainstory"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-ms-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story</i><strong>Historia principal</strong></div></div>
-      <div class="hm hm-sub  c-pink" data-go="events"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Daring_Adventure!_The_Ghost_Ship_Haunts_the_Deep!_Banner.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Eventos importantes</i><strong>Eventos</strong></div></div>
-      <div class="hm hm-sub  c-teal" data-go="novatimes"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-nt-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i id="n-nova">Historias</i><strong>Nova Times</strong></div></div>
-      <div class="hm hm-sub w c-gold" data-go="charstories"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Affinity / Memory</i><strong>Historias de personajes</strong></div></div>
+      <div class="hm hm-sub w c-pur" data-go="mainstory"><img id="pt-ms" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-ms-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story</i><strong>Historia principal</strong></div></div>
+      <div class="hm hm-sub  c-pink" data-go="events"><img id="pt-ev" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Daring_Adventure!_The_Ghost_Ship_Haunts_the_Deep!_Banner.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Eventos importantes</i><strong>Eventos</strong></div></div>
+      <div class="hm hm-sub  c-teal" data-go="novatimes"><img id="pt-nt" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-nt-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i id="n-nova">Historias</i><strong>Nova Times</strong></div></div>
+      <div class="hm hm-sub w c-gold" data-go="charstories"><img id="pt-cs" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Affinity / Memory</i><strong>Historias de personajes</strong></div></div>
     </div>
   </main>
 </div>
@@ -556,8 +574,8 @@ function showChap(n){
     <h2 style="font-size:1.3rem;margin:12px 0 2px">${esc(c.titleEs)}</h2>
     <p style="color:var(--t2);font-size:.85rem;margin-bottom:10px">${esc(c.titleEn)}</p>
     <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
-      ${rsHtml(c.resumen)}
-      <p style="font-size:.78rem;color:var(--t2);margin-top:12px">${c.credito?"Resumen por <b style=\"color:var(--gold)\">Catador de Trekkers</b>.":"Resumen propio basado en la wiki; no incluye todos los detalles."}</p></div>
+      ${c.resumen?rsHtml(c.resumen):`<p style="line-height:1.55">Todavía no hay resumen en español de este capítulo. Muy pronto lo agregamos; mientras tanto puedes leerlo completo en la wiki.</p>`}
+      <p style="font-size:.78rem;color:var(--t2);margin-top:12px">${!c.resumen?"":c.credito?"Resumen por <b style=\"color:var(--gold)\">Catador de Trekkers</b>.":"Resumen propio basado en la wiki; no incluye todos los detalles."}</p></div>
     <a class="btn" href="${c.url}" target="_blank" rel="noopener">${c.noWiki?"Ver la publicación original en Facebook":"Leer el capítulo completo"}</a>`;
   go("chapter");
 }
@@ -597,23 +615,23 @@ document.getElementById("modes-list").innerHTML = '<div class="hm-subgrid">'+MOD
     <div class="hm-cn"><strong>${esc(m.name)}</strong><i class="hm-d">${esc(m.desc)}</i></div>
   </div>`}).join("")+'</div>';
 
-document.getElementById("chaps").innerHTML = CHAPS.map((c,i)=>{
+function rChaps(){document.getElementById("chaps").innerHTML = CHAPS.map((c,i)=>{
   const sp=/\.5$/.test(String(c.number)), col=sp?"c-gold":["c-pur","c-teal","c-pink","c-lav"][i%4];
   return `<div class="hm hm-ch ${col}" data-go="ch/${c.number}">
     <img class="bg" src="${c.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
     <div class="hm-sh"></div>
-    <div class="hm-cn"><i>${String(c.number)==="0"?"Antes del capítulo 1":(sp?"Especial":"Capítulo")+" "+c.number}</i><strong>${c.titleEs}</strong></div>
-  </div>`}).join("");
+    <div class="hm-cn"><i>${String(c.number)==="0"?"Antes del capítulo 1":(sp?"Especial":"Capítulo")+" "+c.number}</i><strong>${c.titleEs}</strong></div>${c.nuevo?'<span class="hm-new">NUEVO</span>':""}
+  </div>`}).join("");}rChaps();
 
 function evErr(i){const a=JSON.parse(i.dataset.alts||"[]");if(a.length){i.src=a.shift();i.dataset.alts=JSON.stringify(a)}else i.remove()}
 const evChain=e=>[...(e.alts||[]),e.img];
-document.getElementById("events-list").innerHTML = EVENTS.map((e,i)=>{
+function rEvents(){document.getElementById("events-list").innerHTML = EVENTS.map((e,i)=>{
   const col=["c-pur","c-teal","c-pink","c-lav","c-gold"][i%5], ch=evChain(e);
   return `<div class="hm hm-ch hm-ev ${col}" data-go="ev/${e.id}">
     <img class="bg" src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/>
     <div class="hm-sh"></div>
-    <div class="hm-cn"><strong>${esc(e.name)}</strong></div>
-  </div>`}).join("");
+    <div class="hm-cn"><strong>${esc(e.name)}</strong></div>${e.nuevo?'<span class="hm-new">NUEVO</span>':""}
+  </div>`}).join("");}rEvents();
 function showEvent(id){
   const e=EVENTS.find(x=>x.id===id); if(!e){showStart();return}
   document.getElementById("ev-title").textContent="Evento";
@@ -623,19 +641,19 @@ function showEvent(id){
     <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(e.name)}</h2>
     ${e.trekker?`<div class="chips"><span class="chip on">Trekker destacada: ${esc(e.trekker)}</span></div>`:""}
     <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
-      ${e.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join("")}
-      <p style="font-size:.72rem;color:var(--t2)">Resumen propio basado en la wiki y los anuncios oficiales; no incluye todos los detalles.</p></div>
+      ${e.resumen?e.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join(""):`<p style="line-height:1.55">Todavía no hay resumen en español de este evento. Muy pronto lo agregamos; mientras tanto puedes leerlo completo en la wiki.</p>`}
+      <p style="font-size:.72rem;color:var(--t2)">${e.resumen?"Resumen propio basado en la wiki y los anuncios oficiales; no incluye todos los detalles.":""}</p></div>
     <a class="btn" href="${e.url}" target="_blank" rel="noopener">Leer el evento completo</a>`;
   go("event");
 }
 
-document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
+function rNova(){document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
   const col=["c-teal","c-pur","c-pink","c-lav","c-gold"][i%5];
   return `<div class="hm hm-ch hm-ev ${col}" data-go="nt/${n.id}">
     <img class="bg" src="${n.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
     <div class="hm-sh"></div>
-    <div class="hm-cn"><i>Nova Times #${n.number}</i><strong>${esc(n.name)}</strong></div>
-  </div>`}).join("");
+    <div class="hm-cn"><i>Nova Times #${n.number}</i><strong>${esc(n.name)}</strong></div>${n.nuevo?'<span class="hm-new">NUEVO</span>':""}
+  </div>`}).join("");}rNova();
 function showNova(id){
   const n=NOVA_TIMES.find(x=>x.id===id); if(!n){showStart();return}
   document.getElementById("nt-title").textContent="Nova Times #"+n.number;
@@ -652,11 +670,11 @@ function showNova(id){
   go("nova");
 }
 
-document.getElementById("charstories-list").innerHTML = CHAR_STORIES.map(c=>`
+function rCS(){document.getElementById("charstories-list").innerHTML = CHAR_STORIES.map(c=>`
   <div class="item" onclick="window.open('${c.url}','_blank')">
     ${av(c.img)}
-    <div class="info"><h3>${c.name}</h3><div class="m">Historia / Affinity</div></div>
-  </div>`).join("");
+    <div class="info"><h3>${c.name}</h3><div class="m">Historia / Affinity${c.nuevo?" · <b style='color:var(--gold)'>NUEVO</b>":""}</div></div>
+  </div>`).join("");}rCS();
 
 
 function elIcon(el){
@@ -673,6 +691,8 @@ function renderC(){
       &&(cR===null||c.rarity===cR)&&(!cE||c.element===cE)&&(!cRole||c.role===cRole)&&(!cSt||c.style===cSt)&&(!cAt||(c.auto&&c.auto.attack===cAt));
   }).sort((a,b)=>b.rarity-a.rarity||a.name.localeCompare(b.name));
   buildStyleChips();
+  {const n=(cRole?1:0)+(cAt?1:0)+(cSt?1:0),mb=document.getElementById("cmore-btn"),op=!document.getElementById("cmore").hidden;
+   mb.textContent="Más filtros"+(n?" ("+n+")":"")+(op?" ▴":" ▾");mb.classList.toggle("on",n>0)}
   const hay=cQ||cR!==null||cE||cRole||cSt||cAt;
   document.getElementById('ccount').textContent=list.length+(list.length===1?' personaje':' personajes')+(hay?' encontrados':'');
   document.getElementById('cclear').hidden=!hay;
@@ -877,6 +897,8 @@ function buildStyleChips(){
 document.querySelectorAll("#cat .chip").forEach(ch=>{ch.onclick=()=>{
   const was=ch.classList.contains("on");document.querySelectorAll("#cat .chip").forEach(x=>x.classList.remove("on"));
   cAt=null;if(!was){ch.classList.add("on");cAt=ch.dataset.v}renderC();};});
+document.getElementById("cmore-btn").onclick=()=>{const b=document.getElementById("cmore");b.hidden=!b.hidden;
+  document.getElementById("cmore-btn").setAttribute("aria-expanded",String(!b.hidden));renderC()};
 document.getElementById("cclear").onclick=()=>{
   cQ="";cR=null;cE=null;cRole=null;cSt=null;cAt=null;document.getElementById("cs").value="";
   document.querySelectorAll("#cr .chip,#ce .chip,#cro .chip,#cat .chip,#cst .chip").forEach(x=>x.classList.remove("on"));
@@ -993,6 +1015,25 @@ async function cargarAuto(){
     if(A.portadas){
       const pt=(id,o)=>{const i=document.getElementById(id);if(!i||!o||!o.img||!o.img.length)return;i.dataset.q=o.img.slice(1).join(",");i.onerror=()=>skFb(i);i.src=o.img[0]};
       pt("pt-chars",A.portadas.personaje);pt("pt-discs",A.portadas.discoGacha);pt("pt-story",A.portadas.discoLibre);
+      pt("pt-ms",A.portadas.historiaPrincipal);pt("pt-ev",A.portadas.eventos);pt("pt-nt",A.portadas.novaTimes);pt("pt-cs",A.portadas.historiaPersonajes);
+    }
+    if(A.historias){
+      const H=A.historias, nz=t=>String(t).toLowerCase().replace(/[^a-z0-9]/g,"");
+      const wk=u=>u||"";
+      let c1=0,c2=0,c3=0,c4=0;
+      (H.principal||[]).forEach(x=>{ if(!CHAPS.some(c=>nz(c.titleEn)===nz(x.titleEn)||String(c.number)===String(x.number))){
+        CHAPS.push({number:x.number,titleEs:x.titleEn,titleEn:x.titleEn,summary:"",url:wk(x.url),img:x.img[0],resumen:"",nuevo:true});c1++}});
+      (H.eventos||[]).forEach(x=>{ if(!EVENTS.some(e=>nz(e.name)===nz(x.name))){
+        EVENTS.push({name:x.name,summary:"",url:wk(x.url),img:x.img[x.img.length-1],alts:x.img.slice(0,-1),resumen:"",nuevo:true,
+          id:x.name.toLowerCase().replace(/[^a-z0-9]+/g,"-").slice(0,40).replace(/^-|-$/g,"")});c2++}});
+      (H.novaTimes||[]).forEach(x=>{ if(!NOVA_TIMES.some(n=>parseInt(n.number,10)===parseInt(x.number,10))){
+        NOVA_TIMES.push({number:x.number,name:x.name,url:wk(x.url),img:x.img[0],resumen:"",id:String(parseInt(x.number,10)),nuevo:true});c3++}});
+      if(A.personajes){
+        const have=new Set(CHAR_STORIES.map(c=>nz(c.name)));
+        const nuevos=A.personajes.filter(p=>p.cid!=null&&!have.has(nz(p.name))).sort((a,b)=>b.cid-a.cid);
+        nuevos.forEach(p=>CHAR_STORIES.unshift({name:p.name,url:"https://stellasora.miraheze.org/wiki/"+encodeURIComponent(p.name.replace(/ /g,"_"))+"/story",img:p.imageUrl,nuevo:true}));c4=nuevos.length;
+      }
+      if(c1)rChaps();if(c2)rEvents();if(c3){rNova();const e=document.getElementById("n-nova");if(e)e.textContent=NOVA_TIMES.length+" historias"}if(c4)rCS();
     }
     if(A.personajes&&A.personajes.length){
       const by=new Map(CHARS.map(c=>[c.name,c])), nuevos=[];
@@ -1636,6 +1677,39 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
   pp.onclick=()=>{A.paused?A.play().catch(()=>{}):A.pause()};
   document.getElementById("bgm-st").onclick=stop;
   new MutationObserver(ui).observe(document.body,{childList:true,subtree:true});
+})();
+</script>
+<div id="us" role="dialog" aria-label="Buscar"><div class="us-bar"><input id="us-in" type="search" placeholder="Buscar personajes, discos, historias, builds..." autocomplete="off"/><button type="button" class="us-x" id="us-x">Cerrar</button></div><div id="us-res"></div></div>
+<script>
+(function(){
+  const us=document.getElementById("us"),inp=document.getElementById("us-in"),res=document.getElementById("us-res");
+  const N=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  const E=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  function fuentes(){
+    const o=[];
+    try{CHARS.forEach(c=>o.push({g:"Personajes",t:c.name,x:[c.faction,c.element,c.role,ROLE_ES&&ROLE_ES[c.role]].join(" "),h:"c/"+c.id,s:c.rarity+"★ · "+c.element}))}catch(e){}
+    try{DISCS.forEach(d=>o.push({g:"Discos",t:d.name,x:d.element,h:"d/"+d.name,s:d.rarity+"★ · "+d.element}))}catch(e){}
+    try{CHAPS.forEach(c=>o.push({g:"Historia principal",t:c.titleEs+" ("+c.titleEn+")",x:"capitulo "+c.number,h:"ch/"+c.number,s:"Cap. "+c.number}))}catch(e){}
+    try{EVENTS.forEach(e=>o.push({g:"Eventos",t:e.name,x:e.summary,h:"ev/"+e.id,s:""}))}catch(e){}
+    try{NOVA_TIMES.forEach(n=>o.push({g:"Nova Times",t:n.name,x:"nova times "+n.number,h:"nt/"+n.id,s:"#"+n.number}))}catch(e){}
+    try{if(BUILDS&&BUILDS.items)BUILDS.items.forEach(b=>o.push({g:"Equipos y builds",t:b.title.trim(),x:(typeof bTags==="function"?bTags(b).join(" "):""),h:"b/"+b.id,s:""}))}catch(e){}
+    return o;
+  }
+  function pinta(){
+    const q=N(inp.value.trim());
+    if(q.length<2){res.innerHTML='<p>Escribe al menos 2 letras.</p>';return}
+    const por={};let n=0;
+    fuentes().forEach(f=>{if(N(f.t+" "+f.x).includes(q)){(por[f.g]=por[f.g]||[]).push(f);n++}});
+    if(!n){res.innerHTML='<p>Sin resultados para «'+E(inp.value)+'».</p>';return}
+    res.innerHTML=Object.entries(por).map(([g,a])=>'<h4>'+E(g)+'</h4>'+a.slice(0,12).map(f=>'<button type="button" data-h="'+E(f.h)+'">'+E(f.t)+'<small>'+E(f.s)+'</small></button>').join("")).join("");
+  }
+  function abre(){us.classList.add("on");if(typeof cargarBuilds==="function"&&!BUILDS)cargarBuilds().then?.(pinta);inp.value="";pinta();setTimeout(()=>inp.focus(),60)}
+  function cierra(){us.classList.remove("on");inp.blur()}
+  document.getElementById("nsearch").onclick=abre;
+  document.getElementById("us-x").onclick=cierra;
+  inp.addEventListener("input",pinta);
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&us.classList.contains("on"))cierra()});
+  res.addEventListener("click",e=>{const b=e.target.closest("button[data-h]");if(!b)return;cierra();nav(b.dataset.h)});
 })();
 </script>
 </body>

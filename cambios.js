@@ -2,6 +2,25 @@
 // Para anunciar un cambio nuevo: agrega un bloque ARRIBA de la lista (con un id distinto y la fecha de hoy).
 const CAMBIOS = [
   {
+    id: "v:2026-11-05c",
+    fecha: "2026-11-05T02:00:00-06:00",
+    titulo: "Historias que se agregan solas",
+    puntos: [
+      "Capítulos, eventos, Nova Times e historias de personajes nuevos aparecen solos en sus listas, con su imagen y un botón a la wiki.",
+      "Los nuevos llevan la etiqueta NUEVO; el resumen en español se agrega después."
+    ]
+  },
+  {
+    id: "v:2026-11-05b",
+    fecha: "2026-11-05T01:00:00-06:00",
+    titulo: "Buscador y portadas automáticas",
+    puntos: [
+      "Nuevo buscador (lupa arriba): encuentra personajes, discos, historias, eventos y builds.",
+      "Personajes: los filtros principales siempre visibles y el resto en «Más filtros».",
+      "Las imágenes de los botones de inicio e Historia se actualizan solas con lo más nuevo del juego."
+    ]
+  },
+  {
     id: "v:2026-11-05",
     fecha: "2026-11-05T00:00:00-06:00",
     titulo: "Música continua y historias en español",
