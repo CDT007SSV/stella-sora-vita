@@ -35,13 +35,13 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-emo.img,#rd .rd-memo.img{font-size:0}
 #rd .rd-emo.img img{height:calc(var(--u)*13);width:auto;display:block}
 #rd .rd-memo.img img{height:calc(var(--u)*11);width:auto;display:block}
-#rd .rd-emo{top:18%;right:-6%}
+#rd .rd-emo{top:3%;left:57%}#rd .rd-emo.tx,#rd .rd-memo.tx{background:#fff;color:#1f2a4d;border-radius:50%;min-width:1.5em;text-align:center;padding:.15em .2em;font-weight:800;box-shadow:0 1px 4px rgba(0,0,0,.35)}#rd .rd-emo.out,#rd .rd-memo.out{opacity:0;transition:opacity .3s}
 #rd .rd-memo{left:21%;top:calc(var(--u)*-9)}
 @keyframes rdPop{0%{transform:scale(.2);opacity:0}60%{transform:scale(1.25);opacity:1}100%{transform:scale(1)}}
 #rd .rd-hd{position:absolute;bottom:calc(var(--u)*30);width:calc(var(--u)*24);height:calc(var(--u)*30);overflow:hidden;border:2px solid #fff;border-radius:calc(var(--u)*3);background:rgba(250,250,255,.86);z-index:3;animation:rdIn .3s}
 #rd .rd-hd img{width:170%;margin-left:-35%;display:block}
 #rd .rd-hd[data-p="0"]{left:3%}#rd .rd-hd[data-p="3"]{left:15%}#rd .rd-hd[data-p="1"]{left:50%;margin-left:calc(var(--u)*-12)}#rd .rd-hd[data-p="2"]{right:3%}#rd .rd-hd[data-p="4"]{right:15%}
-#rd .rd-hd .rd-emo{top:2%;right:4%;font-size:calc(var(--u)*6)}
+#rd .rd-hd .rd-emo{top:2%;left:auto;right:4%;font-size:calc(var(--u)*6)}
 @keyframes rdIn{from{opacity:0}to{opacity:1}}
 #rd .rd-out{position:absolute;top:calc(var(--u)*2.6);left:calc(var(--u)*3 + env(safe-area-inset-left));z-index:5;color:#fff;font-weight:800;font-size:calc(var(--u)*3.6);text-shadow:0 1px 4px rgba(0,0,0,.7);background:none;border:0;padding:0}
 #rd .rd-bar{position:absolute;top:calc(var(--u)*2);right:calc(var(--u)*2.5 + env(safe-area-inset-right));z-index:5;display:flex;align-items:center;background:rgba(255,255,255,.88);border-radius:99px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
@@ -159,14 +159,14 @@ function build(){
   el=document.createElement("div");el.id="rd";
   el.innerHTML=`<div class="rd-st">${[0,1,2,3,4,5,6].map(i=>'<div class="rd-sg'+(i?'':' on')+'" data-s="'+i+'"><div class="rd-sgi"><div class="rd-bgi"></div><div class="rd-chars"></div></div></div>').join("")}<svg class="rd-sl" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="58" y1="0" x2="42" y2="100"/><line x1="30" y1="0" x2="14" y2="100"/><line x1="86" y1="0" x2="70" y2="100"/></svg><div class="rd-fxl"></div><div class="rd-film"><i></i><i></i></div><div class="rd-cur"></div><div class="rd-dim"></div><img class="rd-obj" alt="" referrerpolicy="no-referrer">
    <button class="rd-out" data-a="x">✕ Salir</button>
-   <div class="rd-bar"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
+   <div class="rd-bar"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="e"></button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
    <div class="rd-box"><div class="rd-face"><img alt="" referrerpolicy="no-referrer"></div><span class="rd-nm"></span><div class="rd-tx"></div><span class="rd-nx"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 11 7 11s7-6 7-11a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span></div>
    <div class="rd-card" id="rd-c"></div></div>`;
   document.body.appendChild(el);
   el.addEventListener("click",e=>{
     const a=e.target.closest("[data-a]");
     if(a){const k=a.dataset.a;
-      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="z"){S.zs=S.zs<1?1:S.zs>1?.85:1.15;if(S.zs===1.15&&false)S.zs=1;try{localStorage.setItem("rdz",S.zs)}catch(e){}btnZ();Object.keys(S.chars).forEach(k=>lay(S.chars[k]))}else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
+      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="e"){S.em=S.em?0:1;try{localStorage.setItem("rde",S.em)}catch(e){}btnE();if(!S.em)el.querySelectorAll(".rd-emo,.rd-memo").forEach(x=>x.remove())}else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="z"){S.zs=S.zs<1?1:S.zs>1?.85:1.15;if(S.zs===1.15&&false)S.zs=1;try{localStorage.setItem("rdz",S.zs)}catch(e){}btnZ();Object.keys(S.chars).forEach(k=>lay(S.chars[k]))}else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}
     if(e.target.closest(".rd-card"))return;
@@ -201,6 +201,7 @@ function cierra(){if(S){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S
   try{if(screen.orientation&&screen.orientation.unlock)screen.orientation.unlock()}catch(e){}
   try{if(document.fullscreenElement)document.exitFullscreen()}catch(e){}}
 function gen(){S.g=S.g?0:1;try{localStorage.setItem("rdg",S.g)}catch(e){}btnG()}
+function btnE(){const b=el.querySelector('[data-a="e"]');if(b)b.textContent="Emojis: "+(S.em?"sí":"no")}
 function btnZ(){const b=el.querySelector('[data-a="z"]');if(b)b.textContent="Sprites: "+(S.zs<1?"chicos":S.zs>1?"grandes":"normales")}
 function btnG(){el.querySelector('[data-a="g"]').textContent="Protagonista: "+(S.g?"él":"ella")}
 function card(h){const c=el.querySelector("#rd-c");if(h==null||h===false){c.classList.remove("on");c.innerHTML="";S.card=0;return}c.innerHTML=h;c.classList.add("on");S.card=1}
@@ -277,14 +278,23 @@ function faceSet(pose,expr){
   im.onerror=()=>{const q=JSON.parse(im.dataset.q||"[]");if(q.length){im.src=q.shift();im.dataset.q=JSON.stringify(q)}else im.removeAttribute("src")};
   im.dataset.q=JSON.stringify(l.slice(1));im.src=l[0];S.mc=1;
 }
+/* Reglas del juego (AvgPreset.CharEmoji / Avg_2_L2DCtrl._SetEmoji): "none"=sin cambio, "close"=quitar;
+   los emojis normales desaparecen solos a los 5 s; solo los "loop" se quedan hasta que se reemplazan o se cierran. */
+const EMLOOP={angry:1,shock:1,speechless:1,think:1,sleepy:1};
+/* emojis de cara: el sprite ya muestra la emoción, no se dibujan */
+const EMFACE={happy:1,shy:1,awkward:1,shock:1,resentful:1};
+/* emojis con imagen real de la wiki comprobada; añadir un nombre aquí para probar otros (Avg_emoji_<nombre>_<n>.png) */
+const EMIMG={attention:1,exclamation:1,star:1};
 function emoji(host,n,cls){
-  host.querySelectorAll("."+cls).forEach(x=>x.remove());
-  if(!n)return;
-  const e=document.createElement("span");e.className=cls;e.textContent=EM[n]||"";host.appendChild(e);
-  /* iconos animados reales del juego (Avg_emoji_<nombre>_<cuadro>.png en la wiki); si no existen, queda el emoji de texto */
+  if(n==="none")return;
+  host.querySelectorAll("."+cls).forEach(x=>{clearTimeout(x._o);clearInterval(x._t);x.remove()});
+  if(!n||n==="close"||(S&&S.em===0)||EMFACE[n])return;
+  const e=document.createElement("span");e.className=cls+(n==="speechless"||n==="think"?" tx":"");e.textContent=EM[n]||"";host.appendChild(e);
+  if(!EMLOOP[n])e._o=setTimeout(()=>{e.classList.add("out");setTimeout(()=>{clearInterval(e._t);e.remove()},350)},5000);
+  if(!EMIMG[n])return;
   const fr=[];let i=1;
   const go=()=>{
-    if(!fr.length)return;
+    if(!fr.length||!e.isConnected)return;
     e.textContent="";e.classList.add("img");
     const im=document.createElement("img");im.alt="";im.src=fr[0];e.appendChild(im);
     if(fr.length>1){let k=0;e._t=setInterval(()=>{if(!e.isConnected){clearInterval(e._t);return}k=(k+1)%fr.length;im.src=fr[k]},150)}
@@ -518,14 +528,14 @@ window.abrirLector=async function(id){
 };
 async function iniciar(id,prev,hold){
   let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
-  let g=1,m=0,zs=1;try{const z=+localStorage.getItem("rdz");if(z)zs=z;const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
+  let g=1,m=0,zs=1,em=1;try{em=localStorage.getItem("rde")==="0"?0:1;const z=+localStorage.getItem("rdz");if(z)zs=z;const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
   if(S&&S.timer){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S.at)}
   if(!hold)try{localStorage.setItem("rdp"+chOf(id),id)}catch(e){}
-  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,zs:zs,timer:0,card:0,choice:null};
+  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,zs:zs,em:em,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
   el.querySelector(".rd-fxl").innerHTML="";el.querySelector(".rd-cur").style.opacity=0;el.querySelector(".rd-box").style.visibility="";
   S.mc=0;if(prev)S.vp=prev.vp;try{const mv=document.querySelector('meta[name=viewport]');if(mv&&!/viewport-fit/.test(mv.content)){S.vp=mv.content;mv.content=mv.content+",viewport-fit=cover"}}catch(e){}
-  btnG();btnM();btnZ();card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();
+  btnG();btnM();btnZ();btnE();card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();
 }
 })();
