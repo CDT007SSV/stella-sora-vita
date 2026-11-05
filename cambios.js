@@ -2,6 +2,17 @@
 // Para anunciar un cambio nuevo: agrega un bloque ARRIBA de la lista (con un id distinto y la fecha de hoy).
 const CAMBIOS = [
   {
+    id: "v:2026-11-05",
+    fecha: "2026-11-05T00:00:00-06:00",
+    titulo: "Música continua y historias en español",
+    puntos: [
+      "Las historias de los discos ahora se leen en español.",
+      "La música de un disco sigue sonando mientras navegas; usa el botón «Parar» de la barra inferior para detenerla.",
+      "Los discos muestran su arte completo al tocar la imagen.",
+      "Las skins con modelo 3D se pueden ver en el visor."
+    ]
+  },
+  {
     id: "v:2026-11-04",
     fecha: "2026-11-04T21:00:00-06:00",
     titulo: "Stella Sora Vita: nueva versión",
