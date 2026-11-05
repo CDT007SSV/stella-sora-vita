@@ -19,11 +19,13 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: python3 generar_builds.py
+      - name: Generar novedades
+        run: python3 generar_novedades.py
       - name: Guardar cambios
         run: |
-          git add auto.json
-          [ -f builds.json ] && git add builds.json
-          [ -d builds_img ] && git add builds_img
+          for f in auto.json builds.json novedades.json builds_img; do
+            [ -e "$f" ] && git add -A "$f"
+          done
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
