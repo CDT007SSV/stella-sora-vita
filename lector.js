@@ -147,7 +147,7 @@ function build(){
   el.addEventListener("click",e=>{
     const a=e.target.closest("[data-a]");
     if(a){const k=a.dataset.a;
-      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="lx"){card(false);}
+      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=SIG[S.id];cierra();abrirLector(n)}else if(k==="lx"){card(false);}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}
     if(e.target.closest(".rd-card"))return;
@@ -427,7 +427,8 @@ function avanza(){
     }
   }
 }
-function fin(){pararAudio();card('<small>Fin de esta escena</small><h2>Prueba del lector</h2><p>Esto es una versión de prueba. Cuéntame qué te pareció.</p><button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>')}
+const SIG={STm00_01:"STm00_02"};
+function fin(){pararAudio();const nx=SIG[S.id];if(nx){card('<small>Fin de esta parte</small><h2>Continúa la historia</h2><p>Sigue la siguiente parte del prólogo.</p><button class="rd-b" data-a="nx" style="margin-top:18px">Continuar</button> <button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>');return}card('<small>Fin de esta escena</small><h2>Prueba del lector</h2><p>Esto es una versión de prueba. Cuéntame qué te pareció.</p><button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>')}
 window.abrirLector=async function(id){
   build();
   try{const st=document.getElementById("bgm-st");if(st&&document.getElementById("bgmbar").classList.contains("on"))st.click()}catch(e){}
@@ -435,7 +436,7 @@ window.abrirLector=async function(id){
   try{if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock("landscape")}catch(e){}
   let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
   let g=1,m=0;try{const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
-  S={tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,timer:0,card:0,choice:null};
+  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
   el.querySelector(".rd-fxl").innerHTML="";el.querySelector(".rd-cur").style.opacity=0;el.querySelector(".rd-box").style.visibility="";
