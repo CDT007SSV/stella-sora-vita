@@ -7,11 +7,11 @@
 <meta name="theme-color" content="#0A0A12"/>
 <meta name="mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-title" content="Stella Sora"/>
+<meta name="apple-mobile-web-app-title" content="Stella Sora Vita"/>
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <link rel="icon" type="image/png" href="icon-192.png"/>
 <meta name="theme-color" content="#0A0A12"/>
-<title>Stella Sora Wiki ES · v2.1</title>
+<title>Stella Sora Vita</title>
 <style>
 :root{--bg:#0A0A12;--sf:#16122A;--s2:#221E3A;--p:#7B6CFF;--s:#FF6B9D;--a:#5CE1E6;--t:#F0EEF8;--t2:#A8A5BC}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -212,6 +212,12 @@ details.pg>summary::before{content:"▸ ";color:var(--vio)}details.pg[open]>summ
 details.pot{border-top:1px solid #2a2740;padding:8px 12px;font-size:.82rem;color:var(--t2);line-height:1.4}
 details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6px;white-space:pre-line;color:#cfcbe6}
 .bcard{display:block;background:var(--sf);border:1px solid #2f2a52;border-radius:16px;margin-bottom:12px;cursor:pointer;overflow:hidden;padding:0}
+/* encabezado de personaje */
+.badge.rbig{font-size:1.05rem;padding:4px 12px;border-radius:9px;letter-spacing:.03em}
+.hero .badge.b5,.badge.b5.rbig{background:linear-gradient(135deg,#f6d878,#e0a93a);color:#3a2800;box-shadow:0 0 14px rgba(232,196,106,.45),inset 0 1px 0 rgba(255,255,255,.5)}
+.hero .badge.b4{background:linear-gradient(135deg,#b49bff,#7d5be8);color:#fff;box-shadow:0 0 14px rgba(155,123,255,.4)}
+.btn.wikibtn{display:flex;align-items:center;justify-content:center;gap:9px;margin:0 0 10px;padding:12px;background:linear-gradient(135deg,rgba(123,108,255,.22),rgba(91,77,224,.12));border:1px solid rgba(123,108,255,.55);color:#cfc8ff;box-shadow:none;font-weight:600}
+.btn.wikibtn:active{background:rgba(123,108,255,.3)}
 .bsub{margin:3px 0 0;font-size:.78rem;color:var(--m,#9a96b5);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-transform:none}
 .bcard .bimg{width:100%;aspect-ratio:3.6/1;object-fit:cover;display:block;background:var(--s2);font-size:2rem;text-align:center}
 .bcard .bt{display:flex;align-items:center;gap:10px;padding:11px 13px}.bcard .bt .bic{width:26px;height:26px;flex-shrink:0;object-fit:contain;font-size:1.3rem;line-height:26px;text-align:center}
@@ -241,11 +247,11 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 </style>
 </head>
 <body class="home">
-<div id="splash"><b>Stella Sora</b><span></span><i>WIKI ES</i></div>
+<div id="splash"><b>Stella Sora</b><span></span><i>VITA</i></div>
 <div id="start">
   <header class="hm-head">
     <img src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_English_Logo.png" alt="Stella Sora" referrerpolicy="no-referrer" onerror="this.outerHTML='<b class=hm-logo>Stella Sora</b>'"/>
-    <p class="sub">Wiki ES · Comunidad hispana</p>
+    <p class="sub">Vita · Comunidad hispana</p>
   </header>
   <div class="hm-wrap">
     <div class="hm-col">
@@ -394,6 +400,7 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 
 
 <script src="data.js"></script>
+<script src="traducciones.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
@@ -641,10 +648,10 @@ function showC(id){
   const glb=`${base}/${folder}.glb`, animsJson=`${base}/${folder}.anims.json`;
   const mi=c.moreInfo||{}, sk=c.skills||{}, au=c.auto||{};
   const L={affiliation:"Afiliación",weapon:"Arma",skills:"Habilidades",address:"Residencia",experience:"Experiencia",rate:"Tarifa"};
-  const kv=Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>`<div class="kv"><b>${L[k]}</b><span>${esc(mi[k])}</span></div>`).join("");
+  const kv=Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>`<div class="kv"><b>${L[k]}</b><span>${esc(k==="weapon"?mi[k]:tr(mi[k]))}</span></div>`).join("");
   const LA={Affiliation:"Afiliación",Skills:"Habilidades",Address:"Residencia",Experience:"Experiencia",Weapon:"Arma",Rate:"Tarifa"};
   const dup=new Set(Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>L[k]));
-  const kv2=(au.info||[]).map(r=>({k:LA[r.k]||r.k,v:r.v})).filter(r=>!dup.has(r.k)).map(r=>`<div class="kv"><b>${esc(r.k)}</b><span>${esc(r.v)}</span></div>`).join("");
+  const kv2=(au.info||[]).map(r=>({k:LA[r.k]||r.k,v:r.v})).filter(r=>!dup.has(r.k)).map(r=>`<div class="kv"><b>${esc(r.k)}</b><span>${esc(r.k==="Arma"?r.v:tr(r.v))}</span></div>`).join("");
   const NM={jp:"Japonés",kr:"Coreano",cn:"Chino"}, nm=au.names||{}, va=au.va||{};
   const nmh=Object.keys(NM).filter(k=>nm[k]).map(k=>`<div class="kv"><b>Nombre (${NM[k]})</b><span>${esc(nm[k])}</span></div>`).join("");
   const vah=[["jp","Voz japonesa"],["cn","Voz china"]].filter(x=>va[x[0]]).map(x=>`<div class="kv"><b>${x[1]}</b><span>${esc(va[x[0]])}</span></div>`).join("");
@@ -664,22 +671,23 @@ function showC(id){
     <div class="char-header">
       <img class="detail-av" src="${c.imageUrl}" alt="${esc(c.name)}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
       <div class="info">
-        <div class="badge b${c.rarity}">${c.rarity}★</div> <span class="chip" style="margin-left:6px">${ROLE_ES[c.role]||c.role||""}</span>
+        <div class="badge b${c.rarity} rbig">${c.rarity}★</div>
         <h2>${esc(c.name)}</h2>
       </div>
     </div></div>
     <div class="chips">
       <span class="chip on">${elIcon(c.element)}${c.element}</span>
-      ${c.style?`<span class="chip on">${esc(c.style)}</span>`:''}${c.faction?`<span class="chip on">${esc(c.faction)}</span>`:''}${atkChip}
+      ${c.role?`<span class="chip on">${esc(ROLE_ES[c.role]||c.role)}</span>`:''}
+      ${c.style?`<span class="chip on">${esc(tr(c.style))}</span>`:''}${c.faction?`<span class="chip on">${esc(tr(c.faction))}</span>`:''}${atkChip}
     </div>
-    <a class="btn out" href="${c.wikiUrl}" target="_blank" rel="noopener" style="margin:0 0 10px">Ver en la wiki (galería, historia, audios…)</a>
+    <a class="btn wikibtn" href="${c.wikiUrl}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 8h6M9 12h4"/></svg>Ver en la wiki<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
     <div class="stats">
       <div class="stat"><b>${esc(c.hp||'—')}</b><span>HP</span></div>
       <div class="stat"><b>${esc(c.atk||'—')}</b><span>ATK</span></div>
       <div class="stat"><b>${esc(bdayEs(mi.birthday||(c.birthday&&c.birthday!=='—'?c.birthday:au.birthday)))}</b><span>Cumpleaños</span></div>
     </div>
     <div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Perfil</h3>
-      <p style="font-style:italic">${esc(c.description||au.profile||'Sin descripción disponible.')}</p></div>
+      <p style="font-style:italic">${esc(c.description||tr(au.profile)||'Sin descripción disponible.')}</p></div>
     ${(nmh||vah)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Nombres y voces</h3>${nmh}${vah}</div>`:''}
     ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
     ${skCard}
@@ -764,7 +772,7 @@ function buildStyleChips(){
   const st=[...new Set(CHARS.map(c=>c.style).filter(Boolean))].sort();
   if(box.dataset.k===st.join("|"))return;
   box.dataset.k=st.join("|");
-  box.innerHTML=st.map(x=>`<button class="chip${cSt===x?" on":""}" data-v="${esc(x)}">${esc(x)}</button>`).join("");
+  box.innerHTML=st.map(x=>`<button class="chip${cSt===x?" on":""}" data-v="${esc(x)}">${esc(tr(x))}</button>`).join("");
   box.querySelectorAll(".chip").forEach(ch=>{ch.onclick=()=>{
     const was=ch.classList.contains("on");box.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
     cSt=null;if(!was){ch.classList.add("on");cSt=ch.dataset.v}renderC();};});
