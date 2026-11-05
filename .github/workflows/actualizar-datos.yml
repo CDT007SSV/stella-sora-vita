@@ -23,7 +23,7 @@ jobs:
         run: python3 generar_novedades.py
       - name: Guardar cambios
         run: |
-          for f in auto.json builds.json novedades.json builds_img; do
+          for f in auto.json extras.json builds.json novedades.json builds_img; do
             [ -e "$f" ] && git add -A "$f"
           done
           if ! git diff --cached --quiet; then
