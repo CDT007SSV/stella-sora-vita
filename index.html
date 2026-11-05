@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<meta name="theme-color" content="#0A0A12"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title" content="Stella Sora"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<link rel="icon" type="image/png" href="icon-192.png"/>
+<meta name="theme-color" content="#0A0A12"/>
+<title>Stella Sora Wiki ES · v2.1</title>
+<style>
+:root{--bg:#0A0A12;--sf:#16122A;--s2:#221E3A;--p:#7B6CFF;--s:#FF6B9D;--a:#5CE1E6;--t:#F0EEF8;--t2:#A8A5BC}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--t);min-height:100dvh}
+#start{min-height:100dvh;padding:16px 14px 28px;max-width:480px;margin:0 auto}
+#start img[alt='Stella Sora']{margin-bottom:4px}
+#start .sub{color:var(--t2);font-size:.85rem;margin-bottom:16px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tile{position:relative;border-radius:4px;overflow:hidden;min-height:112px;cursor:pointer;background:#2a2550;
+  display:flex;flex-direction:column;justify-content:flex-end;transition:transform .12s}
+.tile:active{transform:scale(.97)}
+.tile.wide{grid-column:span 2;min-height:128px}
+.tile.tall{min-height:148px}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.tile .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.88) 0%,rgba(0,0,0,.25) 50%,rgba(0,0,0,.15) 100%)}
+.tile .label{position:relative;z-index:2;padding:10px 12px;font-size:1.02rem;font-weight:600;text-shadow:0 1px 4px #000}
+.tile .label small{display:block;font-weight:400;font-size:.74rem;opacity:.9;margin-top:2px}
+.tile{perspective:800px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.tile.flip{transform:rotateY(180deg)}
+.tile.flip .label,.tile.flip .shade,.tile.flip img{backface-visibility:hidden}
+
+.screen{display:none;min-height:100dvh;padding-bottom:24px}
+.screen.on{display:block}
+.topbar{position:sticky;top:0;z-index:30;background:rgba(10,10,18,.95);backdrop-filter:blur(10px);
+  padding:10px 12px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #2a2740}
+.topbar button{background:0;border:0;color:var(--p);font-size:1.5rem;cursor:pointer;padding:2px 8px;line-height:1}
+.topbar h2{font-size:1.1rem;font-weight:600;flex:1}
+main{padding:12px;max-width:720px;margin:0 auto}
+.search{width:100%;padding:10px 12px;border-radius:6px;border:1px solid #3D3A55;background:var(--sf);color:var(--t);font-size:1rem;margin-bottom:10px;outline:none}
+.search:focus{border-color:var(--p)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chip{padding:5px 11px;border-radius:4px;border:1px solid #3D3A55;background:0;color:var(--t2);font-size:.8rem;cursor:pointer}
+.chip.on{background:var(--p);border-color:var(--p);color:#fff}
+.item{display:flex;gap:11px;align-items:center;background:var(--sf);border-radius:6px;padding:10px;margin-bottom:8px;cursor:pointer}
+.av{width:56px;height:56px;border-radius:6px;object-fit:cover;background:var(--s2);flex-shrink:0}
+.av.ph{display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:var(--t2)}
+.info h3{font-size:.92rem;font-weight:600}
+.info .m{font-size:.76rem;color:var(--t2)}
+.info .f{font-size:.76rem;color:var(--a)}
+.badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:.7rem;font-weight:700}
+.b5{background:rgba(123,108,255,.28);color:var(--p)}.b4{background:rgba(255,107,157,.22);color:var(--s)}.b3{background:rgba(92,225,230,.18);color:var(--a)}
+.btn{display:block;width:100%;padding:13px;border:none;border-radius:6px;background:var(--p);color:#fff;font-size:.95rem;font-weight:600;text-align:center;text-decoration:none;cursor:pointer;margin-top:10px}
+.btn.out{background:0;border:1px solid var(--p);color:var(--p)}
+.row{background:var(--s2);border-radius:6px;padding:12px;margin-bottom:7px;cursor:pointer}
+.row strong{display:block;font-size:.9rem}.row span{font-size:.78rem;color:var(--t2)}
+.mode-card{background:var(--sf);border-radius:8px;overflow:hidden;margin-bottom:12px;cursor:pointer}
+.mode-card img{width:100%;height:auto;max-height:220px;object-fit:contain;object-position:center top;display:block;background:#0e0c18}
+.mode-card .body{padding:12px 14px}
+.mode-card h3{color:var(--p);font-size:1rem;margin-bottom:4px}
+.mode-card p{color:var(--t2);font-size:.85rem}
+.detail-av{width:120px;height:120px;border-radius:10px;object-fit:cover;background:var(--s2);flex-shrink:0}
+.char-header{display:flex;gap:14px;align-items:center;margin-bottom:14px;padding:8px 0}
+.char-header .info{flex:1;min-width:0}
+.char-header h2{font-size:1.25rem;margin:4px 0 8px;line-height:1.2}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0}
+.card{background:var(--sf);border-radius:6px;padding:14px;margin-bottom:10px}
+.item-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.item-tile{position:relative;border-radius:4px;overflow:hidden;min-height:130px;cursor:pointer;background:#2a2550;perspective:800px;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.item-tile.flip{transform:rotateY(180deg)}
+.item-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.item-tile .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.2) 55%,rgba(0,0,0,.1) 100%)}
+.item-tile .lab{position:relative;z-index:2;padding:8px 10px;font-size:.92rem;font-weight:600;text-shadow:0 1px 4px #000}
+.item-tile .lab small{display:block;font-weight:400;font-size:.7rem;opacity:.9;margin-top:1px}
+.card p{color:var(--t2);font-size:.9rem;line-height:1.45}
+</style>
+<script>
+// Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
+(function(){
+  var L='./vendor/three/', C='https://cdn.jsdelivr.net/npm/three@0.170.0/', local=false;
+  try{var x=new XMLHttpRequest();x.open('HEAD',L+'build/three.module.js',false);x.send();local=x.status===200}catch(e){}
+  window.THREE_SRC=local?'local':'cdn';var B=local?L:C;
+  var m=document.createElement('script');m.type='importmap';
+  m.textContent=JSON.stringify({imports:{three:B+'build/three.module.js','three/addons/':B+'examples/jsm/'}});
+  document.head.appendChild(m);
+})();
+</script>
+<style>
+#mv3d{width:100%;height:340px;background:#12101c;border-radius:8px;margin:10px 0;position:relative;overflow:hidden;touch-action:none}
+#mv3d canvas{display:block;width:100%!important;height:100%!important}
+.model-wrap{margin:12px 0}
+.model-wrap .hint{font-size:.78rem;color:var(--t2);margin-top:4px;text-align:center}
+.anim-bar{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:8px}
+.anim-bar button{background:var(--s2);border:1px solid var(--bd);color:var(--t);border-radius:999px;padding:6px 12px;font-size:.75rem;cursor:pointer}
+.anim-bar button.on{border-color:var(--a);color:var(--a)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.stat{background:var(--sf);border-radius:6px;padding:10px 6px;text-align:center}
+.stat b{display:block;font-size:1.05rem;color:var(--a)}.stat span{font-size:.7rem;color:var(--t2)}
+.kv{display:flex;gap:8px;padding:7px 0;border-bottom:1px solid #2a2740;font-size:.85rem}.kv:last-child{border:0}
+.kv b{flex:0 0 105px;color:var(--t2);font-weight:600}.kv span{flex:1;white-space:pre-line}
+.st{font-size:.76rem;margin-top:4px;color:var(--a);font-weight:600}.st.off{color:var(--t2)}
+.foot{margin-top:22px;font-size:.72rem;color:var(--t2);line-height:1.5;text-align:center}
+:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.tile.flip,.item-tile.flip{transform:none!important}}
+body.home{background:var(--bg)}
+#start{max-width:480px;margin:0 auto;padding:14px 12px 24px;min-height:100dvh;display:flex;flex-direction:column}
+#start .hm-head{margin-bottom:12px}
+#start .hm-head img{height:48px;width:auto;display:block;filter:brightness(1.2) contrast(1.08)}
+#start .hm-logo{font-size:1.4rem;color:#cfc9ff}
+body.home #start .sub{color:var(--t2);margin:4px 0 0}
+#start .foot{color:var(--t2)}
+.hm-wrap{flex:1;min-height:520px;display:grid;grid-template-columns:1fr 1.2fr;gap:10px;align-items:stretch}
+.hm-col{display:flex;flex-direction:column;gap:8px;min-width:0}
+.hm{position:relative;border-radius:6px;border:2px solid rgba(255,255,255,.16);box-shadow:0 4px 12px rgba(0,0,0,.45);overflow:hidden;cursor:pointer;color:#fff;perspective:800px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.2,.8,.2,1);-webkit-tap-highlight-color:transparent}
+.hm:active{transform:scale(.97)}
+.hm.flip{transform:rotateY(180deg)}
+.hm.flip>*{backface-visibility:hidden}
+.hm .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;opacity:.92;mix-blend-mode:normal}
+.hm-sh{position:absolute;z-index:1;inset:0;background:linear-gradient(to top,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 55%)}
+.hm b{position:absolute;z-index:2;left:9px;top:8px;right:6px;font-size:.88rem;line-height:1.15;font-weight:700;text-shadow:0 1px 4px rgba(0,0,0,.7)}
+.hm small{display:block;white-space:nowrap;font-weight:500;font-size:.68rem;opacity:.92;margin-top:2px}
+.hm .ic{position:absolute;z-index:2;right:7px;bottom:7px;width:34px;height:34px;fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:.9;filter:drop-shadow(0 2px 3px rgba(0,0,0,.5))}
+.hm-big{flex:1;min-height:300px;background:linear-gradient(#3b3470,#14121f)}
+.hm-big .bg{opacity:1;mix-blend-mode:normal;object-position:center 15%}
+.hm-t{position:absolute;z-index:2;left:0;right:0;bottom:14px;text-align:center;white-space:nowrap;font-size:1.1rem;font-weight:700;text-shadow:0 2px 6px rgba(0,0,0,.7)}
+.hm-row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.hm-row2 .hm{min-height:96px}
+.hm-ban{height:150px;background:linear-gradient(145deg,#1F3470,#2E57A6)}
+.hm-ban b{font-size:1.15rem}
+.hm-badge{position:absolute;z-index:2;right:8px;top:8px;background:#fff;color:#1F3470;border-radius:999px;padding:2px 8px;font-weight:700;font-size:.7rem}
+.hm-thumbs{position:absolute;z-index:2;left:8px;right:8px;bottom:8px;display:flex;gap:6px}
+.hm-thumbs img{flex:1;min-width:0;height:64px;object-fit:cover;border-radius:4px;border:2px solid rgba(255,255,255,.8)}
+.hm-panel{flex:1;background:var(--sf);border:1px solid #2a2740;border-radius:8px;padding:6px}
+.hm-grid{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:6px;height:100%}
+.hm-grid .hm{min-height:108px}
+.c-lav{background:linear-gradient(135deg,#9496D4,#7678B8)}
+.c-pur{background:linear-gradient(135deg,#B88CE2,#9B6BCB)}
+.c-teal{background:linear-gradient(135deg,#7CC7B5,#58A595)}
+.c-pink{background:linear-gradient(135deg,#E24A84,#C42C68)}
+.c-gold{background:linear-gradient(135deg,#E6B24A,#CC9430)}
+.chap-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;display:block;background:#0e0c18}
+.spoil{display:inline-block;background:#3a2a10;color:#ffd27a;font-size:.72rem;font-weight:700;border-radius:999px;padding:3px 10px;margin-bottom:10px}
+#chaps,#events-list,#novatimes-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.hm-ch{aspect-ratio:1/1.1}
+.hm-ev{aspect-ratio:1/1.2}
+.hm-ch .bg{opacity:1;object-position:center}
+.hm-cn{position:absolute;z-index:2;left:9px;right:8px;bottom:8px}
+.hm-cn i{display:block;font-style:normal;font-size:.7rem;font-weight:600;opacity:.92;margin-bottom:2px;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.hm-cn strong{display:block;font-size:.92rem;line-height:1.15;text-shadow:0 1px 4px rgba(0,0,0,.75)}
+
+/* ===== Lenguaje gráfico tipo juego (v2.2) ===== */
+:root{--cut:12px;--gold:#E8C46A;--vio:#9B7BFF;
+  --el-Aqua:#4FB7FF;--el-Ignis:#FF6A3D;--el-Terra:#C89B4A;--el-Ventus:#5FE0A5;--el-Lux:#FFE27A;--el-Umbra:#B06BFF;--el-Neutral:#A8A5BC}
+body{background:
+  radial-gradient(1px 1px at 12% 18%,rgba(255,255,255,.35),transparent 60%),
+  radial-gradient(1px 1px at 78% 9%,rgba(255,255,255,.28),transparent 60%),
+  radial-gradient(1.5px 1.5px at 44% 62%,rgba(180,170,255,.25),transparent 60%),
+  radial-gradient(1px 1px at 90% 74%,rgba(255,255,255,.22),transparent 60%),
+  radial-gradient(120% 60% at 50% -10%,#241d4a 0%,rgba(10,10,18,0) 60%),var(--bg);background-attachment:fixed}
+.cut{clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,var(--cut) 100%,0 calc(100% - var(--cut)))}
+.item-tile,.hm,.mode-card,.card,.btn,.item,.row,.stat,.hm-panel{border-radius:12px}
+.hm{border:2px solid rgba(232,238,255,.75);box-shadow:inset 0 0 0 2px rgba(20,22,50,.35),0 4px 12px rgba(0,0,0,.45)}
+.hm-panel{border:1px solid rgba(232,238,255,.25)}
+.card,.mode-card,.item,.row,.stat{border:1px solid #2f2a52;background-image:linear-gradient(160deg,rgba(255,255,255,.04),rgba(255,255,255,0) 40%)}
+.btn{background:linear-gradient(135deg,#7B6CFF,#5b4de0);box-shadow:inset 0 1px 0 rgba(255,255,255,.25);letter-spacing:.02em;transition:filter .15s,transform .1s}
+.btn:active{filter:brightness(1.15);transform:scale(.985)}
+.btn.out{background:rgba(123,108,255,.08);box-shadow:none}
+.topbar{border-bottom:0;background:linear-gradient(rgba(10,10,18,.97),rgba(10,10,18,.9));position:sticky}
+.topbar::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,#7B6CFF,#5CE1E6,transparent);opacity:.7}
+.topbar h2{letter-spacing:.06em;text-transform:uppercase;font-size:.98rem}
+.screen.on{animation:scr .32s cubic-bezier(.2,.8,.2,1)}
+@keyframes scr{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.chip{border-radius:8px;padding:6px 12px;transition:background .15s,color .15s}
+.chip.on{background:linear-gradient(135deg,#7B6CFF,#5b4de0)}
+.search{border-radius:10px}
+/* tarjetas con marco por rareza y acento de elemento */
+.item-tile{border:0;background:linear-gradient(110deg,#2a2550 30%,#3b3470 50%,#2a2550 70%);background-size:200% 100%;animation:shim 1.6s linear infinite}
+@keyframes shim{to{background-position:-200% 0}}
+.item-tile img{z-index:0}
+.item-tile::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;border:2px solid rgba(255,255,255,.14);
+  border-radius:12px}
+.item-tile.r5::before{border-color:var(--gold);box-shadow:inset 0 0 18px rgba(232,196,106,.35)}
+.item-tile.r4::before{border-color:var(--vio);box-shadow:inset 0 0 14px rgba(155,123,255,.3)}
+.item-tile.r3::before{border-color:#5CE1E6;box-shadow:inset 0 0 10px rgba(92,225,230,.2)}
+.item-tile{overflow:hidden}
+.item-tile::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;z-index:4;background:var(--elc,#7B6CFF);box-shadow:0 0 12px var(--elc,#7B6CFF)}
+.item-tile[data-el=Aqua]{--elc:var(--el-Aqua)}.item-tile[data-el=Ignis]{--elc:var(--el-Ignis)}.item-tile[data-el=Terra]{--elc:var(--el-Terra)}
+.item-tile[data-el=Ventus]{--elc:var(--el-Ventus)}.item-tile[data-el=Lux]{--elc:var(--el-Lux)}.item-tile[data-el=Umbra]{--elc:var(--el-Umbra)}.item-tile[data-el=Neutral]{--elc:var(--el-Neutral)}
+.item-tile .lab{z-index:5;position:relative}
+.item-tile .shade{z-index:2}
+.item-tile .star{color:var(--gold)}
+/* ficha del personaje: arte grande difuminado detras */
+.hero{position:relative;margin:-12px -12px 12px;padding:16px 14px 6px;overflow:hidden;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:-20px;z-index:-2;background:var(--heroimg) center 20%/cover no-repeat;filter:blur(18px) saturate(1.3);opacity:.55;transform:scale(1.1)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to bottom,rgba(10,10,18,.15),var(--bg) 96%)}
+.hero .detail-av{border:2px solid var(--gold);box-shadow:0 0 22px rgba(232,196,106,.35);border-radius:14px}
+.hero.r4 .detail-av{border-color:var(--vio);box-shadow:0 0 22px rgba(155,123,255,.35)}
+/* filtros y contador */
+.fcount{display:flex;align-items:center;justify-content:space-between;margin:2px 0 10px;font-size:.78rem;color:var(--t2)}
+.fcount .chip{padding:4px 10px}
+/* habilidades y potenciales */
+.sk{border-left:3px solid var(--vio);background:rgba(123,108,255,.07);padding:10px 12px;margin-bottom:8px}
+.sk h4{font-size:.92rem;margin-bottom:2px}.sk .tp{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--a);font-weight:700}
+.sk p{color:var(--t2);font-size:.84rem;line-height:1.45;white-space:pre-line;margin-top:4px}
+.sk .cd{font-size:.72rem;color:var(--gold);margin-left:6px;text-transform:none;letter-spacing:0}
+details.pg{margin-bottom:6px;border:1px solid #2f2a52;background:rgba(255,255,255,.03)}
+details.pg>summary{padding:10px 12px;cursor:pointer;font-weight:600;font-size:.9rem;list-style:none}
+details.pg>summary::before{content:"▸ ";color:var(--vio)}details.pg[open]>summary::before{content:"▾ "}
+details.pot{border-top:1px solid #2a2740;padding:8px 12px;font-size:.82rem;color:var(--t2);line-height:1.4}
+details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6px;white-space:pre-line;color:#cfcbe6}
+.bcard{display:flex;gap:11px;align-items:center;background:var(--sf);border:1px solid #2f2a52;border-radius:12px;padding:10px;margin-bottom:8px;cursor:pointer;overflow:hidden}
+.bcard .bimg{width:64px;height:64px;border-radius:10px;object-fit:cover;background:var(--s2);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.7rem}
+.bcard h3{font-size:.95rem}.bcard .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.tagc{font-size:.68rem;padding:2px 8px;border-radius:999px;background:rgba(123,108,255,.2);color:#cfc9ff}
+.bd-img{width:100%;border-radius:10px;margin:8px 0;display:block}
+.bd-cover{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;display:block;background:#0e0c18;margin-bottom:10px}
+.bd-q{border-left:3px solid var(--gold);padding:6px 10px;background:rgba(232,196,106,.07);margin:8px 0;color:var(--t2);font-size:.88rem;line-height:1.5;white-space:pre-line}
+.bd-p{margin:8px 0;line-height:1.55;color:#d9d5ee;font-size:.9rem;white-space:pre-line}
+.bd-li{margin:3px 0 3px 18px;line-height:1.5;color:#d9d5ee;font-size:.9rem;list-style:disc}
+.bd-h{font-size:1rem;color:var(--gold);margin:16px 0 6px}
+.hm-subgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.hm-sub{aspect-ratio:1/1.05}.hm-sub.w{grid-column:span 2;aspect-ratio:2.1/1}
+.hm-sub .bg{opacity:1;object-position:center}
+.hm-sub .hm-sh{background:linear-gradient(to top,rgba(0,0,0,.72) 0%,rgba(0,0,0,0) 62%)}
+.hm-sub .hm-cn strong{font-size:1rem}
+.hm-sub .hm-cn .hm-d{font-weight:400;opacity:.9;margin:3px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.25}
+.rs-h{font-size:1.02rem;color:var(--gold);margin:18px 0 8px;letter-spacing:.02em}.rs-h2{font-size:.92rem;color:var(--a);margin:14px 0 6px}
+.rs-ul{margin:0 0 10px 18px;line-height:1.55;color:var(--t2)}.rs-ul li{margin-bottom:4px}
+.nota{font-size:.72rem;color:var(--t2);margin-top:6px}
+/* pantalla de carga solo CSS (se quita sola) */
+#splash{position:fixed;inset:0;z-index:999;background:radial-gradient(100% 60% at 50% 40%,#2a2255,#0A0A12);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;pointer-events:none;animation:spl .5s ease 1s forwards}
+#splash b{font-size:1.5rem;letter-spacing:.18em;color:#d8d2ff;text-shadow:0 0 18px #7B6CFF;text-transform:uppercase}
+#splash i{font-style:normal;font-size:.75rem;letter-spacing:.3em;color:var(--t2)}
+#splash span{width:46px;height:2px;background:linear-gradient(90deg,transparent,#5CE1E6,transparent);animation:shim 1s linear infinite;background-size:200% 100%}
+@keyframes spl{to{opacity:0;visibility:hidden}}
+</style>
+</head>
+<body class="home">
+<div id="splash"><b>Stella Sora</b><span></span><i>WIKI ES</i></div>
+<div id="start">
+  <header class="hm-head">
+    <img src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_English_Logo.png" alt="Stella Sora" referrerpolicy="no-referrer" onerror="this.outerHTML='<b class=hm-logo>Stella Sora</b>'"/>
+    <p class="sub">Wiki ES · Comunidad hispana</p>
+  </header>
+  <div class="hm-wrap">
+    <div class="hm-col">
+      <div class="hm hm-big" data-go="chars">
+        <img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_Promotional_Image_5.png" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+        <div class="hm-sh"></div>
+        <div class="hm-t">✦ Personajes ✦<small id="n-chars"></small></div>
+      </div>
+      <div class="hm-row2">
+        <div class="hm c-lav" data-go="modes"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Game-modes.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Modos<small>de juego</small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/></svg></div>
+        <div class="hm c-lav" data-open="https://stellasora.miraheze.org/wiki/Stella_Sora_Wiki"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/April_Fools_2026_CN.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Wiki<small>oficial</small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+      </div>
+    </div>
+    <div class="hm-col">
+      <div class="hm hm-ban" data-go="banners">
+        <b>Banners</b><span class="hm-badge" id="hm-badge" hidden></span>
+        <div class="hm-thumbs" id="hm-thumbs"></div>
+      </div>
+      <div class="hm-panel"><div class="hm-grid">
+        <div class="hm c-pur" data-go="discs"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Sword_Against_Stream.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Discos<small id="n-discs"></small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><path d="M12 3a9 9 0 019 9"/></svg></div>
+        <div class="hm c-teal" data-go="story"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Historia</b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6 4.5 9 4.5 12 6c3-1.5 6-1.5 8-.5V19c-2-1-5-1-8 .5-3-1.5-6-1.5-8-.5z"/><path d="M12 6v13.5"/></svg></div>
+        <div class="hm c-pink" data-go="art"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Event_Celebration_Main_Story_Chapter_7.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Arte<small>y CGs</small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 18l5-5 4 4 3-3 4 4"/></svg></div>
+        <div class="hm c-gold" id="hm-builds" data-open="https://gray-smell-445.notion.site/795d71674a0c82fe849b01d5ce9e848d?v=40dd71674a0c809b8889000c4c6e757d&amp;source=copy_link"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/1st_Anniversary_Celebration_Illustration_7_EN.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Equipos<small>y builds</small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+      </div></div>
+    </div>
+  </div>
+</div>
+
+<div id="s-chars" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Personajes</h2></div>
+  <main>
+    <input class="search" id="cs" type="search" placeholder="Buscar personaje..."/>
+    <div class="filters" id="cr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button></div>
+    <div class="filters" id="ce"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button></div>
+    <div class="filters" id="cro"><button class="chip" data-v="Vanguard">Vanguardia</button><button class="chip" data-v="Support">Apoyo</button><button class="chip" data-v="Versatile">Versátil</button></div>
+    <div class="filters" id="cat"><button class="chip" data-v="Melee">Cuerpo a cuerpo</button><button class="chip" data-v="Ranged">A distancia</button></div>
+    <div class="filters" id="cst"></div>
+    <div class="fcount"><span id="ccount"></span><button class="chip" id="cclear" hidden>Limpiar filtros</button></div>
+    <div id="clist"></div>
+  </main>
+</div>
+
+<div id="s-discs" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Discos</h2></div>
+  <main>
+    <input class="search" id="ds" type="search" placeholder="Buscar disco..."/>
+    <div class="filters" id="dr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button><button class="chip" data-v="3">3★</button></div>
+    <div class="filters" id="de"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button><button class="chip" data-v="Neutral">Neutral</button></div>
+    <div id="dlist"></div>
+  </main>
+</div>
+
+<div id="s-detail" class="screen">
+  <div class="topbar"><button type="button" id="bk">‹</button><h2 id="det-title">Detalle</h2></div>
+  <main id="det"></main>
+</div>
+
+<div id="s-banners" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Banners</h2></div>
+  <main><div id="banners"></div>
+  <a class="btn out" href="https://stellasora.miraheze.org/wiki/Banner_List" target="_blank" rel="noopener">Ver todos los banners</a></main>
+</div>
+
+<div id="s-modes" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Modos de juego</h2></div>
+  <main id="modes-list"></main>
+</div>
+
+
+
+<div id="s-story" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Historia</h2></div>
+  <main>
+    <div class="hm-subgrid">
+      <div class="hm hm-sub w c-pur" data-go="mainstory"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-ms-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story</i><strong>Historia principal</strong></div></div>
+      <div class="hm hm-sub  c-pink" data-go="events"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Daring_Adventure!_The_Ghost_Ship_Haunts_the_Deep!_Banner.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Eventos importantes</i><strong>Eventos</strong></div></div>
+      <div class="hm hm-sub  c-teal" data-go="novatimes"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-nt-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i id="n-nova">Historias</i><strong>Nova Times</strong></div></div>
+      <div class="hm hm-sub w c-gold" data-go="charstories"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Affinity / Memory</i><strong>Historias de personajes</strong></div></div>
+    </div>
+  </main>
+</div>
+
+<div id="s-chapter" class="screen">
+  <div class="topbar"><button type="button" data-back aria-label="Volver">‹</button><h2 id="chap-title">Capítulo</h2></div>
+  <main><div id="chapter-detail"></div></main>
+</div>
+
+<div id="s-event" class="screen">
+  <div class="topbar"><button type="button" data-back aria-label="Volver">‹</button><h2 id="ev-title">Evento</h2></div>
+  <main><div id="event-detail"></div></main>
+</div>
+
+<div id="s-nova" class="screen">
+  <div class="topbar"><button type="button" data-back aria-label="Volver">‹</button><h2 id="nt-title">Nova Times</h2></div>
+  <main><div id="nova-detail"></div></main>
+</div>
+
+<div id="s-mainstory" class="screen">
+  <div class="topbar"><button type="button" class="back-story">‹</button><h2>Historia principal</h2></div>
+  <main><div id="chaps"></div>
+  <a class="btn out" href="https://stellasora.miraheze.org/wiki/Main_Story" target="_blank" rel="noopener">Historia principal en la wiki</a></main>
+</div>
+
+<div id="s-events" class="screen">
+  <div class="topbar"><button type="button" class="back-story">‹</button><h2>Eventos</h2></div>
+  <main><div id="events-list"></div>
+    <button type="button" class="btn" style="margin-top:4px" onclick="window.open('https://stellasora.miraheze.org/wiki/Events','_blank')">Ver todos los eventos</button></main>
+</div>
+
+<div id="s-novatimes" class="screen">
+  <div class="topbar"><button type="button" class="back-story">‹</button><h2>Nova Times</h2></div>
+  <main><div id="novatimes-list"></div>
+  <a class="btn out" href="https://stellasora.miraheze.org/wiki/The_Nova_Times" target="_blank" rel="noopener">The Nova Times en la wiki</a></main>
+</div>
+
+<div id="s-charstories" class="screen">
+  <div class="topbar"><button type="button" class="back-story">‹</button><h2>Historias de personajes</h2></div>
+  <main><div id="charstories-list"></div></main>
+</div>
+
+<div id="s-builds" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Equipos y builds</h2></div>
+  <main>
+    <input class="search" id="bs" type="search" placeholder="Buscar build..."/>
+    <div id="bfilters"></div>
+    <div class="fcount"><span id="bcount"></span><button class="chip" id="bclear" hidden>Limpiar filtros</button></div>
+    <div id="blist"></div>
+    <a class="btn out" id="b-notion" href="#" target="_blank" rel="noopener">Ver en Notion</a>
+  </main>
+</div>
+<div id="s-build" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2 id="build-title">Build</h2></div>
+  <main><div id="build-detail"></div></main>
+</div>
+
+<div id="s-art" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Arte · CGs</h2></div>
+  <main style="padding:12px 14px">
+    <div class="hm-subgrid">
+      <div class="hm hm-sub w c-pink" data-open="https://stellasora.miraheze.org/wiki/CGs"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Story_main_01_005.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story y eventos</i><strong>CGs de la historia</strong></div></div>
+      <div class="hm hm-sub  c-teal" data-open="https://stellasora.miraheze.org/wiki/Stella_Sora/gallery"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/April_Fools_2026_CN.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Promos y material oficial</i><strong>Galería</strong></div></div>
+      <div class="hm hm-sub  c-lav" data-open="https://stellasora.miraheze.org/wiki/Social_Media_Posts"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Amber%27s_Direction.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Publicaciones y arte</i><strong>Social Media</strong></div></div>
+    </div>
+  </main>
+</div>
+
+
+<script src="data.js"></script>
+<script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
+<script>
+
+let cR=null,cE=null,cQ="",dR=null,dE=null,dQ="",backTo="chars",cRole=null,cSt=null,cAt=null,cur="",depth=0,navFlag=false;
+const ROLE_ES={Vanguard:"Vanguardia",Support:"Apoyo",Versatile:"Versátil"};
+const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+try{localStorage.removeItem("ss_favs")}catch(e){}
+const PARENT={builds:"",build:"builds",chars:"",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story"};
+function nav(h){if(location.hash==="#"+h)return;navFlag=true;depth++;location.hash=h}
+function goBack(){if(depth>0){depth--;history.back();return}
+  const p=cur==="detail"?backTo:(PARENT[cur]||"");location.replace("#"+p);}
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(window.disposeTrekker&&!h.startsWith("c/"))window.disposeTrekker();
+  if(!h){showStart();return}
+  const i=h.indexOf("/"),k=i<0?h:h.slice(0,i),v=i<0?"":h.slice(i+1);
+  if(k==="c"){CHARS.find(x=>x.id===v)?showC(v):showStart()}
+  else if(k==="d"){const d=DISCS.find(x=>x.name===v);d?showD(d.wikiUrl):showStart()}
+  else if(k==="ch"){showChap(v)}
+  else if(k==="ev"){showEvent(v)}
+  else if(k==="nt"){showNova(v)}
+  else if(k==="b"){showBuild(v)}
+  else if(document.getElementById("s-"+k)){go(k)}
+  else showStart();
+}
+window.addEventListener("hashchange",()=>{if(!navFlag)depth=Math.max(0,depth-1);navFlag=false;route()});
+
+function showStart(){cur="";document.body.classList.add("home");
+  document.getElementById("start").style.display="flex";
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on"));
+  window.scrollTo(0,0);
+}
+function go(id){cur=id;document.body.classList.remove("home");
+  const el=document.getElementById("s-"+id);
+  if(!el){ console.warn("missing",id); return; }
+  document.getElementById("start").style.display="none";
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on"));
+  el.classList.add("on");
+  window.scrollTo(0,0);
+}
+
+document.body.addEventListener("click", function(e){
+  const tile = e.target.closest(".tile[data-go],.hm[data-go],.hm[data-open]");
+  if(tile){
+    tile.classList.add("flip");
+    setTimeout(()=> tile.dataset.open ? window.open(tile.dataset.open,"_blank") : nav(tile.dataset.go), 280);
+    setTimeout(()=> tile.classList.remove("flip"), 700);
+    return;
+  }
+  if(e.target.closest("[data-back],.back-story,#bk")){ goBack(); return; }
+  const nv = e.target.closest("[data-nav]");
+  if(nv){ nav(nv.dataset.nav); return; }
+});
+
+function av(url){
+  return `<img class="av" src="${url}" loading="lazy" referrerpolicy="no-referrer" onerror="this.className='av ph';this.removeAttribute('src');this.textContent='★'">`;
+}
+
+function rsHtml(t){
+  return t.split("\n\n").map(b=>{
+    if(b.startsWith("### ")) return `<h4 class="rs-h2">${esc(b.slice(4))}</h4>`;
+    if(b.startsWith("## ")) return `<h3 class="rs-h">${esc(b.slice(3))}</h3>`;
+    const L=b.split("\n"), k=L.findIndex(l=>/^- /.test(l));
+    const ul=ls=>`<ul class="rs-ul">${ls.map(l=>`<li>${esc(l.replace(/^- /,""))}</li>`).join("")}</ul>`;
+    const pp=ls=>`<p style="margin-bottom:10px;line-height:1.55">${esc(ls.join("\n")).replace(/\n/g,"<br>")}</p>`;
+    if(k===0) return ul(L);
+    if(k>0) return pp(L.slice(0,k))+ul(L.slice(k));
+    return pp(L);
+  }).join("");
+}
+function showChap(n){
+  const c=CHAPS.find(x=>String(x.number)===String(n)); if(!c){showStart();return}
+  const sp=/^\d+\.5$/.test(String(c.number)), pro=String(c.number)==="0";
+  document.getElementById("chap-title").textContent=pro?"Prólogo":(sp?"Especial ":"Capítulo ")+c.number;
+  document.getElementById("chapter-detail").innerHTML=`
+    <img class="chap-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <h2 style="font-size:1.3rem;margin:12px 0 2px">${esc(c.titleEs)}</h2>
+    <p style="color:var(--t2);font-size:.85rem;margin-bottom:10px">${esc(c.titleEn)}</p>
+    <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
+      ${rsHtml(c.resumen)}
+      <p style="font-size:.78rem;color:var(--t2);margin-top:12px">${c.credito?"Resumen por <b style=\"color:var(--gold)\">Catador de Trekkers</b>.":"Resumen propio basado en la wiki; no incluye todos los detalles."}</p></div>
+    <a class="btn" href="${c.url}" target="_blank" rel="noopener">${c.noWiki?"Ver la publicación original en Facebook":"Leer el capítulo completo"}</a>`;
+  go("chapter");
+}
+function bannerStatus(b){
+  const D=864e5,n=new Date();
+  if(b&&typeof b==="object"&&b.start&&b.end){
+    const a=new Date(b.start),e=new Date(b.end);
+    if(n<a)return{t:"Empieza en "+restante(a-n),on:1};
+    if(n>e)return{t:"Finalizado",on:2};
+    return{t:"Activo · termina en "+restante(e-n),on:0};
+  }
+  const m=((typeof b==="string"?b:(b&&b.period))||"").match(/(\d{4}-\d\d-\d\d)\s*→\s*(\d{4}-\d\d-\d\d)/);if(!m)return{t:"",on:0};
+  const a=new Date(m[1]+"T00:00:00"),e=new Date(m[2]+"T23:59:59");
+  if(n<a)return{t:"Empieza en "+Math.ceil((a-n)/D)+" d",on:1};
+  if(n>e)return{t:"Finalizado",on:2};
+  return{t:"Activo · termina en "+restante(e-n),on:0};}
+function restante(ms){const m=Math.max(0,Math.floor(ms/6e4)),d=Math.floor(m/1440),h=Math.floor(m%1440/60),mi=m%60;
+  return d>=1?d+" d "+h+" h":h>=1?h+" h "+mi+" min":mi+" min"}
+const fdCorta=x=>new Date(x).toLocaleDateString("es",{day:"numeric",month:"short"});
+function renderBanners(){
+  document.getElementById("banners").innerHTML = [...BANNERS].map(b=>({b,st:bannerStatus(b)})).sort((x,y)=>x.st.on-y.st.on).map(({b,st})=>{
+    const ch=[b.img||"",...(b.imgAlts||[])], per=b.start?fdCorta(b.start)+" → "+fdCorta(b.end)+" · "+b.kind:(b.period||"");
+    return `
+  <div class="mode-card" onclick="window.open('${b.url}','_blank')">
+    <img src="${ch[0]}" alt="${esc(b.name)}" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/>
+    <div class="body"><h3>${esc(b.name)}</h3><p>${esc(per)}</p>${b.featured?`<p>Destacado: ${esc(b.featured)}</p>`:''}${st.t?`<div class="st${st.on===2?' off':''}">${st.on===2?'⛔':st.on?'🕒':'🟢'} ${st.t}</div>`:''}</div>
+  </div>`}).join("");
+}
+renderBanners();
+setInterval(()=>{if(document.getElementById('s-banners').classList.contains('on'))renderBanners()},60000);
+
+document.getElementById("modes-list").innerHTML = '<div class="hm-subgrid">'+MODES.map((m,i)=>{
+  const col=["c-pur","c-teal","c-pink","c-gold","c-lav"][i%5];
+  return `<div class="hm hm-sub ${(i===0||(i===MODES.length-1&&(MODES.length-1)%2===1))?"w ":""}${col}" data-open="${m.url}">
+    <img class="bg" src="${m.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <div class="hm-sh"></div>
+    <div class="hm-cn"><strong>${esc(m.name)}</strong><i class="hm-d">${esc(m.desc)}</i></div>
+  </div>`}).join("")+'</div>';
+
+document.getElementById("chaps").innerHTML = CHAPS.map((c,i)=>{
+  const sp=/\.5$/.test(String(c.number)), col=sp?"c-gold":["c-pur","c-teal","c-pink","c-lav"][i%4];
+  return `<div class="hm hm-ch ${col}" data-go="ch/${c.number}">
+    <img class="bg" src="${c.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <div class="hm-sh"></div>
+    <div class="hm-cn"><i>${String(c.number)==="0"?"Antes del capítulo 1":(sp?"Especial":"Capítulo")+" "+c.number}</i><strong>${c.titleEs}</strong></div>
+  </div>`}).join("");
+
+function evErr(i){const a=JSON.parse(i.dataset.alts||"[]");if(a.length){i.src=a.shift();i.dataset.alts=JSON.stringify(a)}else i.remove()}
+const evChain=e=>[...(e.alts||[]),e.img];
+document.getElementById("events-list").innerHTML = EVENTS.map((e,i)=>{
+  const col=["c-pur","c-teal","c-pink","c-lav","c-gold"][i%5], ch=evChain(e);
+  return `<div class="hm hm-ch hm-ev ${col}" data-go="ev/${e.id}">
+    <img class="bg" src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/>
+    <div class="hm-sh"></div>
+    <div class="hm-cn"><strong>${esc(e.name)}</strong></div>
+  </div>`}).join("");
+function showEvent(id){
+  const e=EVENTS.find(x=>x.id===id); if(!e){showStart();return}
+  document.getElementById("ev-title").textContent="Evento";
+  const ch=evChain(e);
+  document.getElementById("event-detail").innerHTML=`
+    <img class="chap-img" src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' referrerpolicy="no-referrer" onerror="evErr(this)"/>
+    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(e.name)}</h2>
+    ${e.trekker?`<div class="chips"><span class="chip on">Trekker destacada: ${esc(e.trekker)}</span></div>`:""}
+    <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
+      ${e.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join("")}
+      <p style="font-size:.72rem;color:var(--t2)">Resumen propio basado en la wiki y los anuncios oficiales; no incluye todos los detalles.</p></div>
+    <a class="btn" href="${e.url}" target="_blank" rel="noopener">Leer el evento completo</a>`;
+  go("event");
+}
+
+document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
+  const col=["c-teal","c-pur","c-pink","c-lav","c-gold"][i%5];
+  return `<div class="hm hm-ch hm-ev ${col}" data-go="nt/${n.id}">
+    <img class="bg" src="${n.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <div class="hm-sh"></div>
+    <div class="hm-cn"><i>Nova Times #${n.number}</i><strong>${esc(n.name)}</strong></div>
+  </div>`}).join("");
+function showNova(id){
+  const n=NOVA_TIMES.find(x=>x.id===id); if(!n){showStart();return}
+  document.getElementById("nt-title").textContent="Nova Times #"+n.number;
+  document.getElementById("nova-detail").innerHTML=`
+    <img class="chap-img" src="${n.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(n.name)}</h2>
+    <div class="card">
+      ${n.resumen?`<div class="spoil">⚠ Contiene spoilers</div>`+n.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join("")
+        :`<p style="margin-bottom:10px;line-height:1.55">Todavía no hay un resumen de esta historia en la app.</p>`}
+      ${n.disponible?`<p style="font-size:.85rem;color:var(--t2);margin-bottom:8px">${esc(n.disponible)}</p>`:""}
+      ${n.resumen?`<p style="font-size:.72rem;color:var(--t2)">Resumen propio basado en la wiki y en las descripciones oficiales; no incluye todos los detalles.</p>`:""}
+    </div>
+    <a class="btn" href="${n.url}" target="_blank" rel="noopener">Leer la historia completa</a>`;
+  go("nova");
+}
+
+document.getElementById("charstories-list").innerHTML = CHAR_STORIES.map(c=>`
+  <div class="item" onclick="window.open('${c.url}','_blank')">
+    ${av(c.img)}
+    <div class="info"><h3>${c.name}</h3><div class="m">Historia / Affinity</div></div>
+  </div>`).join("");
+
+
+function elIcon(el){
+  if(!el) return "";
+  const name = el.toLowerCase();
+  const url = `https://stellasora.miraheze.org/wiki/Special:FilePath/Icon_common_${name}.png`;
+  return `<img src="${url}" alt="${el}" style="width:18px;height:18px;vertical-align:middle;margin-right:4px" referrerpolicy="no-referrer" onerror="this.style.display='none'">`;
+}
+
+function renderC(){
+  const list=CHARS.filter(c=>{
+    const q=norm(cQ);
+    return(!q||norm(c.name+' '+(c.faction||'')+' '+(c.role||'')+' '+(ROLE_ES[c.role]||'')+' '+c.element).includes(q))
+      &&(cR===null||c.rarity===cR)&&(!cE||c.element===cE)&&(!cRole||c.role===cRole)&&(!cSt||c.style===cSt)&&(!cAt||(c.auto&&c.auto.attack===cAt));
+  }).sort((a,b)=>b.rarity-a.rarity||a.name.localeCompare(b.name));
+  buildStyleChips();
+  const hay=cQ||cR!==null||cE||cRole||cSt||cAt;
+  document.getElementById('ccount').textContent=list.length+(list.length===1?' personaje':' personajes')+(hay?' encontrados':'');
+  document.getElementById('cclear').hidden=!hay;
+  document.getElementById("clist").innerHTML = '<div class="item-grid">' + list.map(c=>`
+    <div class="item-tile r${c.rarity}" data-el="${c.element}" data-id="${c.id}">
+      <img loading="lazy" alt="" src="${c.imageUrl}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+      <div class="shade"></div>
+      <div class="lab">${c.name}<small><span class="star">${c.rarity}★</span> · ${elIcon(c.element)}${c.element} · ${ROLE_ES[c.role]||c.role||""}</small></div>
+    </div>`).join("") + '</div>';
+  document.querySelectorAll("#clist .item-tile").forEach(el=>{
+    el.onclick=()=>{
+      el.classList.add("flip");
+      setTimeout(()=>nav('c/'+el.dataset.id), 260);
+      setTimeout(()=>el.classList.remove("flip"), 650);
+    };
+  });
+}
+
+function bdayEs(b){
+  if(!b)return "—";
+  const M={January:"enero",February:"febrero",March:"marzo",April:"abril",May:"mayo",June:"junio",July:"julio",August:"agosto",September:"septiembre",October:"octubre",November:"noviembre",December:"diciembre"};
+  const m=String(b).match(/^([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?$/);
+  return m&&M[m[1]]?m[2]+" de "+M[m[1]]:b;
+}
+function showD(wikiUrl){
+  const d = DISCS.find(x => x.wikiUrl === wikiUrl);
+  if(!d){ window.open(wikiUrl, "_blank"); return; }
+  backTo = "discs";
+  document.getElementById("det-title").textContent = d.name;
+  document.getElementById("det").innerHTML = `
+    <div style="text-align:center">
+      <img class="detail-av" src="${d.imageUrl}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+      <div class="badge b${d.rarity}" style="font-size:.95rem;margin:6px 0">${d.rarity}★</div>
+      <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
+    </div>
+    <div class="chips"><span class="chip on">${elIcon(d.element)}${d.element}</span><span class="chip on">Disco</span></div>
+    <div class="card"><p>Los efectos (Melody y Harmony Skill) y sus valores por nivel están en la wiki.</p></div>
+    <a class="btn" href="${d.wikiUrl}" target="_blank" rel="noopener">Ver en la wiki</a>`;
+  go("detail");
+}
+
+function showC(id){
+  const c=CHARS.find(x=>x.id===id); if(!c) return;
+  backTo="chars";
+  document.getElementById("det-title").textContent=c.name;
+  const folder=c.name.replace(/ /g,"_");
+  const base=`https://cdn.jsdelivr.net/gh/StellaSoraWiki/StellaSoraModels@main/${folder}`;
+  const glb=`${base}/${folder}.glb`, animsJson=`${base}/${folder}.anims.json`;
+  const mi=c.moreInfo||{}, sk=c.skills||{}, au=c.auto||{};
+  const L={affiliation:"Afiliación",weapon:"Arma",skills:"Habilidades",address:"Residencia",experience:"Experiencia",rate:"Tarifa"};
+  const kv=Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>`<div class="kv"><b>${L[k]}</b><span>${esc(mi[k])}</span></div>`).join("");
+  const LA={Affiliation:"Afiliación",Skills:"Habilidades",Address:"Residencia",Experience:"Experiencia",Weapon:"Arma",Rate:"Tarifa"};
+  const dup=new Set(Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>L[k]));
+  const kv2=(au.info||[]).map(r=>({k:LA[r.k]||r.k,v:r.v})).filter(r=>!dup.has(r.k)).map(r=>`<div class="kv"><b>${esc(r.k)}</b><span>${esc(r.v)}</span></div>`).join("");
+  const NM={jp:"Japonés",kr:"Coreano",cn:"Chino"}, nm=au.names||{}, va=au.va||{};
+  const nmh=Object.keys(NM).filter(k=>nm[k]).map(k=>`<div class="kv"><b>Nombre (${NM[k]})</b><span>${esc(nm[k])}</span></div>`).join("");
+  const vah=[["jp","Voz japonesa"],["cn","Voz china"]].filter(x=>va[x[0]]).map(x=>`<div class="kv"><b>${x[1]}</b><span>${esc(va[x[0]])}</span></div>`).join("");
+  const atkChip=au.attack?`<span class="chip on">${au.attack==="Melee"?"Cuerpo a cuerpo":"A distancia"}</span>`:"";
+  const hasSk=Object.keys(sk).some(k=>sk[k]);
+  const skA=(au.skillsAuto||[]).map(h=>`<div class="sk"><div class="tp">${esc(h.t)}${h.cd?`<span class="cd">CD ${esc(h.cd)} s</span>`:""}</div><h4>${esc(h.n)}</h4><p>${esc(h.d)}</p></div>`).join("");
+  const potG=["Principal","Apoyo","Común"].map(g=>{
+    const L2=(au.potentials||[]).filter(x=>x.g===g); if(!L2.length)return "";
+    return `<details class="pg"><summary>Potenciales ${g==="Común"?"comunes":g==="Principal"?"principales":"de apoyo"} (${L2.length})</summary>${L2.map(x=>`<details class="pot"><summary>${esc(x.b)}</summary><div>${esc(x.d)}</div></details>`).join("")}</details>`}).join("");
+  const faltan=[...(au.skillsAuto||[]),...(au.potentials||[])].some(x=>/…/.test(x.d||""));
+  const skCard=false&&(skA||potG)?`<div class="card"><h3 style="margin:0 0 8px;font-size:1rem">${hasSk?"Datos del juego (en inglés)":"Habilidades (en inglés)"}</h3>${skA}${potG}
+    <p class="nota">Valores al nivel 10 de habilidad, calculados con los datos del juego.${faltan?" Donde aparece «…» el valor no está disponible: míralo en la wiki.":""}</p></div>`:"";
+  const SK={main:"Habilidad principal",support:"Habilidad de apoyo",ultimate:"Definitiva",potentials:"Potenciales"};
+  const sks=Object.keys(SK).filter(k=>sk[k]).map(k=>`<div class="kv"><b>${SK[k]}</b><span>${esc(sk[k])}</span></div>`).join("");
+  document.getElementById("det").innerHTML=`
+    <div class="hero r${c.rarity}" style="--heroimg:url('${c.imageUrl}')">
+    <div class="char-header">
+      <img class="detail-av" src="${c.imageUrl}" alt="${esc(c.name)}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+      <div class="info">
+        <div class="badge b${c.rarity}">${c.rarity}★</div> <span class="chip" style="margin-left:6px">${ROLE_ES[c.role]||c.role||""}</span>
+        <h2>${esc(c.name)}</h2>
+      </div>
+    </div></div>
+    <div class="chips">
+      <span class="chip on">${elIcon(c.element)}${c.element}</span>
+      ${c.style?`<span class="chip on">${esc(c.style)}</span>`:''}${c.faction?`<span class="chip on">${esc(c.faction)}</span>`:''}${atkChip}
+    </div>
+    <a class="btn out" href="${c.wikiUrl}" target="_blank" rel="noopener" style="margin:0 0 10px">Ver en la wiki (galería, historia, audios…)</a>
+    <div class="stats">
+      <div class="stat"><b>${esc(c.hp||'—')}</b><span>HP</span></div>
+      <div class="stat"><b>${esc(c.atk||'—')}</b><span>ATK</span></div>
+      <div class="stat"><b>${esc(bdayEs(mi.birthday||(c.birthday&&c.birthday!=='—'?c.birthday:au.birthday)))}</b><span>Cumpleaños</span></div>
+    </div>
+    <div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Perfil</h3>
+      <p style="font-style:italic">${esc(c.description||au.profile||'Sin descripción disponible.')}</p></div>
+    ${(nmh||vah)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Nombres y voces</h3>${nmh}${vah}</div>`:''}
+    ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
+    ${skCard}
+    <div class="model-wrap">
+      <div id="mv3d"></div>
+      <p class="hint" id="mv-status">Cargando modelo 3D…</p>
+      <div class="anim-bar" id="anim-bar"></div>
+    </div>`;
+  go("detail");
+  setTimeout(()=>window.loadTrekkerModel&&window.loadTrekkerModel(glb,animsJson,folder),50);
+}
+
+document.getElementById("cs").oninput=e=>{cQ=e.target.value;renderC()};
+document.querySelectorAll("#cr .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    document.querySelectorAll("#cr .chip").forEach(x=>x.classList.remove("on"));
+    ch.classList.add("on");
+    cR=ch.dataset.v?parseInt(ch.dataset.v):null;
+    renderC();
+  };
+});
+document.querySelectorAll("#ce .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    const was=ch.classList.contains("on");
+    document.querySelectorAll("#ce .chip").forEach(x=>x.classList.remove("on"));
+    if(!was){ch.classList.add("on");cE=ch.dataset.v}else cE=null;
+    renderC();
+  };
+});
+
+document.querySelectorAll("#cro .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    const was=ch.classList.contains("on");
+    document.querySelectorAll("#cro .chip").forEach(x=>x.classList.remove("on"));
+    cRole=null;
+    if(!was){ch.classList.add("on");cRole=ch.dataset.v}
+    renderC();
+  };
+});
+function renderD(){
+  const list=DISCS.filter(d=>{
+    const q=norm(dQ);
+    return(!q||norm(d.name+' '+d.element).includes(q))
+      &&(dR===null||d.rarity===dR)&&(!dE||d.element===dE);
+  }).sort((a,b)=>b.rarity-a.rarity||a.name.localeCompare(b.name));
+  document.getElementById("dlist").innerHTML = '<div class="item-grid">' + list.map(d=>`
+    <div class="item-tile r${d.rarity}" data-el="${d.element}" data-url="${d.wikiUrl}">
+      <img loading="lazy" alt="" src="${d.imageUrl}" data-alts='${JSON.stringify(d.imageAlts||[])}' referrerpolicy="no-referrer" onerror="evErr(this)">
+      <div class="shade"></div>
+      <div class="lab">${d.name}<small><span class="star">${d.rarity}★</span> · ${elIcon(d.element)}${d.element}</small></div>
+    </div>`).join("") + '</div>';
+  document.querySelectorAll("#dlist .item-tile").forEach(el=>{
+    el.onclick=()=>{
+      el.classList.add("flip");
+      setTimeout(()=>{ const d=DISCS.find(x=>x.wikiUrl===el.dataset.url); d?nav('d/'+d.name):window.open(el.dataset.url,'_blank'); }, 260);
+      setTimeout(()=>el.classList.remove("flip"), 650);
+    };
+  });
+}
+document.getElementById("ds").oninput=e=>{dQ=e.target.value;renderD()};
+document.querySelectorAll("#dr .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    document.querySelectorAll("#dr .chip").forEach(x=>x.classList.remove("on"));
+    ch.classList.add("on");
+    dR=ch.dataset.v?parseInt(ch.dataset.v):null;
+    renderD();
+  };
+});
+document.querySelectorAll("#de .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    const was=ch.classList.contains("on");
+    document.querySelectorAll("#de .chip").forEach(x=>x.classList.remove("on"));
+    if(!was){ch.classList.add("on");dE=ch.dataset.v}else dE=null;
+    renderD();
+  };
+});
+
+renderC();
+
+function buildStyleChips(){
+  const box=document.getElementById("cst"); if(!box)return;
+  const st=[...new Set(CHARS.map(c=>c.style).filter(Boolean))].sort();
+  if(box.dataset.k===st.join("|"))return;
+  box.dataset.k=st.join("|");
+  box.innerHTML=st.map(x=>`<button class="chip${cSt===x?" on":""}" data-v="${esc(x)}">${esc(x)}</button>`).join("");
+  box.querySelectorAll(".chip").forEach(ch=>{ch.onclick=()=>{
+    const was=ch.classList.contains("on");box.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
+    cSt=null;if(!was){ch.classList.add("on");cSt=ch.dataset.v}renderC();};});
+}
+document.querySelectorAll("#cat .chip").forEach(ch=>{ch.onclick=()=>{
+  const was=ch.classList.contains("on");document.querySelectorAll("#cat .chip").forEach(x=>x.classList.remove("on"));
+  cAt=null;if(!was){ch.classList.add("on");cAt=ch.dataset.v}renderC();};});
+document.getElementById("cclear").onclick=()=>{
+  cQ="";cR=null;cE=null;cRole=null;cSt=null;cAt=null;document.getElementById("cs").value="";
+  document.querySelectorAll("#cr .chip,#ce .chip,#cro .chip,#cat .chip,#cst .chip").forEach(x=>x.classList.remove("on"));
+  const t=document.querySelector('#cr .chip[data-v=""]');if(t)t.classList.add("on");renderC();};
+// vibracion ligera al tocar (Android)
+document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest(".hm,.item-tile,.chip,.btn")){try{navigator.vibrate&&navigator.vibrate(8)}catch(_){}}},true);
+renderD();
+
+
+
+function charImg(name){
+  const file = name.replace(/ /g, "_") + ".png";
+  return `https://stellasora.miraheze.org/wiki/Special:FilePath/${file}`;
+}
+
+
+
+
+
+
+// Windows Phone-style tile flip animation
+function animateTiles(){
+  if(matchMedia("(prefers-reduced-motion:reduce)").matches) return;
+  const tiles = document.querySelectorAll("#start .tile,#start .hm");
+  if(!tiles.length) return;
+  setInterval(()=>{
+    if(document.getElementById("start").style.display === "none") return;
+    const t = tiles[Math.floor(Math.random() * tiles.length)];
+    if(t.classList.contains("flip")) return;
+    t.classList.add("flip");
+    setTimeout(()=> t.classList.remove("flip"), 700);
+  }, 4500);
+}
+setTimeout(animateTiles, 1500);
+
+// ===== Extras: contadores, herramientas, créditos, accesibilidad =====
+function refreshHome(){
+  document.getElementById("n-chars").textContent=CHARS.length+" personajes";
+  document.getElementById("n-discs").textContent=DISCS.length+" discos";
+  const act=BANNERS.filter(b=>bannerStatus(b).on===0).length,bd=document.getElementById("hm-badge");
+  bd.hidden=!act; if(act)bd.textContent=act+" activos";
+  const vivos=[...BANNERS].sort((x,y)=>bannerStatus(x).on-bannerStatus(y).on).slice(0,3);
+  document.getElementById("hm-thumbs").innerHTML=vivos.map(b=>{const ch=[b.img||"",...(b.imgAlts||[])];return `<img src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)">`}).join("");
+}
+refreshHome();
+document.getElementById("n-nova").textContent=NOVA_TIMES.length+" historias";
+document.getElementById("start").insertAdjacentHTML("beforeend",`<p class="foot">App de fans, no oficial, hecha por y para la comunidad hispana. Contenido e imágenes de la <a href="https://stellasora.miraheze.org" style="color:var(--a)" target="_blank" rel="noopener">Stella Sora Wiki</a> (Miraheze); los modelos 3D son de un repositorio comunitario. Stella Sora y sus personajes pertenecen a sus respectivos dueños. Datos automáticos de <a href="https://github.com/Hiro420/StellaSoraData" style="color:var(--a)" target="_blank" rel="noopener">Hiro420/StellaSoraData</a> (GPL-3.0).<span id="auto-date"></span></p>`);
+// Accesibilidad: teclado + roles en tarjetas clicables
+const CLK=".tile,.hm,.item-tile,.mode-card,.item,.row";
+function a11y(){document.querySelectorAll(CLK).forEach(e=>{if(!e.hasAttribute("role")){e.setAttribute("role","button");e.tabIndex=0}})}
+a11y();new MutationObserver(a11y).observe(document.body,{childList:true,subtree:true});
+document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(CLK)){e.preventDefault();e.target.click()}});
+// ===== Enlaces: se abren en una pestaña nueva =====
+const _open=window.open.bind(window);
+function toES(u){   // limpia el enlace: nunca traduce; solo desenvuelve enlaces de traductor antiguos
+  try{
+    let x=new URL(u);
+    if(x.hostname==="translate.google.com"&&x.searchParams.get("u")) return x.searchParams.get("u");
+    if(/\.translate\.goog$/.test(x.hostname)){
+      const host=x.hostname.replace(/\.translate\.goog$/,"").replace(/--/g,"\u0000").replace(/-/g,".").replace(/\u0000/g,"-");
+      [...x.searchParams.keys()].forEach(k=>{if(k.startsWith("_x_tr_"))x.searchParams.delete(k)});
+      return "https://"+host+x.pathname+(x.search||"")+x.hash;
+    }
+    return x.href;
+  }catch(e){return u}
+}
+function openLink(u){
+  const url=toES(u),B=window.Capacitor&&window.Capacitor.Plugins&&window.Capacitor.Plugins.Browser;
+  if(B&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform()){B.open({url});return null}
+  return _open(url,"_blank","noopener");
+}
+window.open=function(u,t,f){
+  if(typeof u==="string"&&/^https?:/i.test(u)) return openLink(u);
+  return _open(u,t,f);
+};
+document.addEventListener("click",e=>{
+  const a=e.target.closest&&e.target.closest("a[href]");
+  if(a&&/^https?:/i.test(a.getAttribute("href"))){e.preventDefault();openLink(a.href)}
+},true);
+// ===== PWA: instalación y service worker =====
+document.querySelector("#start .foot").insertAdjacentHTML("beforebegin",`<button type="button" class="btn out" id="install-btn" hidden style="margin-top:14px">📲 Instalar app en tu teléfono</button>
+<p id="ios-tip" class="foot" hidden style="margin-top:12px">Para instalarla en iPhone: abre esta página en Safari, toca Compartir y elige «Añadir a pantalla de inicio».</p>`);
+{
+  const btn=document.getElementById("install-btn"); let dp=null;
+  const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
+  window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;if(!standalone)btn.hidden=false});
+  btn.onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;dp=null;btn.hidden=true};
+  window.addEventListener("appinstalled",()=>{btn.hidden=true});
+  if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!standalone) document.getElementById("ios-tip").hidden=false;
+  if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+// ===== Datos automáticos (auto.json lo genera GitHub cada día) =====
+const fmtN=n=>Number(n).toLocaleString("en-US");
+async function cargarAuto(){
+  try{
+    const r=await fetch("auto.json",{cache:"no-cache"}); if(!r.ok)return;
+    const A=await r.json();
+    const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"");
+    if(A.personajes&&A.personajes.length){
+      const by=new Map(CHARS.map(c=>[c.name,c])), nuevos=[];
+      for(const p of A.personajes){
+        const o=by.get(p.name);
+        const hp=p.hp?fmtN(p.hp):"—", atk=p.atk?fmtN(p.atk):"—";
+        if(o){o.rarity=p.rarity;o.element=p.element;o.role=p.role;if(p.hp){o.hp=hp;o.atk=atk};o.auto=p;if(!o.style&&p.style)o.style=p.style;if(!o.faction&&p.faction)o.faction=p.faction}
+        else nuevos.push({id:slug(p.name),name:p.name,rarity:p.rarity,element:p.element,role:p.role,style:p.style||"",faction:p.faction||"",description:"",wikiUrl:p.wikiUrl,imageUrl:p.imageUrl,hp:hp,atk:atk,birthday:p.birthday||"—",moreInfo:{},auto:p});
+      }
+      CHARS.splice(0,0,...nuevos);
+    }
+    if(A.discos&&A.discos.length){
+      const by=new Map(DISCS.map(d=>[d.name,d])), nuevos=[];
+      for(const d of A.discos){
+        const o=by.get(d.name);
+        if(o){o.rarity=d.rarity;o.element=d.element}
+        else nuevos.push({name:d.name,element:d.element,rarity:d.rarity,wikiUrl:d.wikiUrl,imageUrl:d.imageUrl,imageAlts:d.imageAlts||[]});
+      }
+      DISCS.splice(0,0,...nuevos);
+    }
+    if(A.banners&&A.banners.length) BANNERS.splice(0,BANNERS.length,...A.banners);
+    renderC();renderD();renderBanners();refreshHome();
+    if(/^#c\//.test(location.hash))route();
+    if(A.generado){const el=document.getElementById("auto-date");if(el)el.textContent=" Datos actualizados el "+new Date(A.generado).toLocaleDateString("es")+"."}
+  }catch(e){}
+}
+
+/* ===== Equipos y builds (datos de Notion, ver generar_builds.py) ===== */
+let BUILDS=null,bQ="",bF={};
+async function cargarBuilds(){
+  try{
+    const r=await fetch("builds.json",{cache:"no-cache"}); if(!r.ok)return;
+    const B=await r.json(); if(!B.items||!B.items.length)return;
+    BUILDS=B;
+    const t=document.getElementById("hm-builds"); if(t){t.removeAttribute("data-open");t.dataset.go="builds"}
+    document.getElementById("b-notion").href=B.url||"#";
+    renderBuilds();
+    if(/^#b\//.test(location.hash))route();
+  }catch(e){}
+}
+const bTags=it=>{const o=[];(BUILDS.cols||[]).forEach(c=>{const v=it.props[c.n];if(c.t==="select"&&v)o.push(v);if(c.t==="multi_select"&&v)o.push(...v)});return o};
+function renderBuilds(){
+  if(!BUILDS)return;
+  const cols=(BUILDS.cols||[]).filter(c=>c.t==="select"||c.t==="multi_select").map(c=>{
+    const vals=[...new Set(BUILDS.items.flatMap(it=>[].concat(it.props[c.n]||[])))].sort();
+    return{n:c.n,vals}}).filter(c=>c.vals.length>1&&c.vals.length<=30).slice(0,3);
+  const fb=document.getElementById("bfilters");
+  if(fb.dataset.k!==JSON.stringify(cols)){
+    fb.dataset.k=JSON.stringify(cols);
+    fb.innerHTML=cols.map((c,ci)=>`<div class="filters">${c.vals.map(v=>`<button class="chip${bF[c.n]===v?" on":""}" data-c="${ci}" data-v="${esc(v)}">${esc(v)}</button>`).join("")}</div>`).join("");
+    fb.querySelectorAll(".chip").forEach(ch=>{ch.onclick=()=>{
+      const c=cols[+ch.dataset.c],was=ch.classList.contains("on");
+      fb.querySelectorAll(`.chip[data-c="${ch.dataset.c}"]`).forEach(x=>x.classList.remove("on"));
+      delete bF[c.n];if(!was){ch.classList.add("on");bF[c.n]=ch.dataset.v}renderBuilds();};});
+  }
+  const q=norm(bQ);
+  const list=BUILDS.items.filter(it=>(!q||norm(it.title+" "+bTags(it).join(" ")).includes(q))&&Object.keys(bF).every(k=>[].concat(it.props[k]||[]).includes(bF[k])));
+  const hay=bQ||Object.keys(bF).length;
+  document.getElementById("bcount").textContent=list.length+(list.length===1?" build":" builds");
+  document.getElementById("bclear").hidden=!hay;
+  document.getElementById("blist").innerHTML=list.map(it=>{
+    const img=it.cover||((it.props&&Object.values(it.props).flat().find(x=>typeof x==="string"&&/\.(png|jpe?g|webp|gif)(\?|$)/i.test(x)))||null);
+    const tg=bTags(it).slice(0,5);
+    return `<div class="bcard" data-b="${it.id}">
+      ${img?`<img class="bimg" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:`<div class="bimg">${esc(it.icon&&!/^builds_img|^http/.test(it.icon)?it.icon:"★")}</div>`}
+      <div class="info"><h3>${esc(it.title)}</h3>${tg.length?`<div class="tags">${tg.map(x=>`<span class="tagc">${esc(x)}</span>`).join("")}</div>`:""}</div></div>`}).join("")||'<div class="card"><p>No hay builds con esos filtros.</p></div>';
+  document.querySelectorAll("#blist .bcard").forEach(el=>{el.onclick=()=>nav("b/"+el.dataset.b)});
+}
+document.getElementById("bs").oninput=e=>{bQ=e.target.value;renderBuilds()};
+document.getElementById("bclear").onclick=()=>{bQ="";bF={};document.getElementById("bs").value="";document.getElementById("bfilters").dataset.k="";renderBuilds()};
+function showBuild(id){
+  const it=BUILDS&&BUILDS.items.find(x=>x.id===id); if(!it){go("builds");return}
+  document.getElementById("build-title").textContent=it.title;
+  const isImg=x=>typeof x==="string"&&/\.(png|jpe?g|webp|gif)(\?|$)/i.test(x);
+  const pr=Object.entries(it.props||{}).map(([k,v])=>{
+    const vs=[].concat(v);
+    if(vs.every(isImg))return `<div class="kv"><b>${esc(k)}</b><span>${vs.map(u=>`<img class="bd-img" src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join("")}</span></div>`;
+    return `<div class="kv"><b>${esc(k)}</b><span>${vs.map(x=>typeof x==="boolean"?(x?"Sí":"No"):esc(String(x))).join(", ")}</span></div>`}).join("");
+  const bl=(it.blocks||[]).map(b=>b.t==="h"?`<h3 class="bd-h">${esc(b.x)}</h3>`:b.t==="p"?`<p class="bd-p">${esc(b.x)}</p>`:b.t==="q"?`<div class="bd-q">${esc(b.x)}</div>`:b.t==="li"?`<li class="bd-li">${esc(b.x)}</li>`:b.t==="img"?`<img class="bd-img" src="${esc(b.u)}" alt="${esc(b.x||"")}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:b.t==="hr"?"<hr style='border:0;border-top:1px solid #2a2740;margin:12px 0'>":"").join("");
+  document.getElementById("build-detail").innerHTML=`
+    ${it.cover?`<img class="bd-cover" src="${esc(it.cover)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
+    <h2 style="font-size:1.3rem;margin:4px 0 8px">${it.icon&&!/^builds_img|^http/.test(it.icon)?esc(it.icon)+" ":""}${esc(it.title)}</h2>
+    ${bTags(it).length?`<div class="chips" style="justify-content:flex-start">${bTags(it).map(x=>`<span class="chip on">${esc(x)}</span>`).join("")}</div>`:""}
+    ${pr?`<div class="card">${pr}</div>`:""}
+    ${bl?`<div class="card">${bl}</div>`:""}
+    <p class="foot" style="margin-top:8px">Build de la comunidad. ${BUILDS.url?`<a href="${esc(BUILDS.url)}" target="_blank" rel="noopener" style="color:var(--a)">Ver en Notion</a>`:""}</p>`;
+  go("build");
+}
+cargarBuilds();
+cargarAuto();
+route();
+</script>
+
+
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const CDN = 'https://cdn.jsdelivr.net/gh/StellaSoraWiki/StellaSoraModels@main/';
+let renderer, scene, camera, controls, mixer, clock, raf, currentRoot, pmrem;
+
+function disposeViewer(){
+  if(raf) cancelAnimationFrame(raf);
+  raf=null; mixer=null;
+  if(currentRoot && scene) scene.remove(currentRoot);
+  currentRoot=null;
+  const el=document.getElementById('mv3d');
+  if(el) el.innerHTML='';
+  if(renderer){ renderer.dispose(); renderer=null; }
+  pmrem=null;
+}
+
+function boostColor(c, sat=1.25, contrast=1.15){
+  // HSL saturation + lightness contrast around mid-gray
+  const hsl = {h:0,s:0,l:0};
+  c.getHSL(hsl);
+  hsl.s = Math.min(1, hsl.s * sat);
+  hsl.l = 0.5 + (hsl.l - 0.5) * contrast;
+  hsl.l = Math.max(0, Math.min(1, hsl.l));
+  c.setHSL(hsl.h, hsl.s, hsl.l);
+}
+
+function fixMaterials(root){
+  root.traverse(obj=>{
+    if(!obj.isMesh) return;
+    // Copias de baja calidad (LOD) del mismo traje/arma: se dibujaban encima y salian manchas grises
+    if(/(^|[_\s])lod([_\s]|$)|lod_tl|_lod/i.test(obj.name||'') || /_l$/i.test(obj.name||'') && root.getObjectByName(String(obj.name).replace(/_l$/i,''))){ obj.visible=false; return; }
+    obj.castShadow = true;
+    obj.frustumCulled = false; // evita que partes desaparezcan al animarse
+    obj.receiveShadow = true;
+    const mats = Array.isArray(obj.material) ? obj.material : [obj.material];
+    mats.forEach(m=>{
+      if(!m) return;
+      const name = ((m.name||'') + ' ' + (obj.name||'')).toLowerCase();
+
+      const wasBlend = !!m.transparent, wasAT = m.alphaTest || 0;   // estado ORIGINAL (antes de modificar)
+      if(/outline|contour|silhouette/.test(name)){ obj.visible = false; return; }
+      if(!m.map && /^lit\b/.test((m.name||'').toLowerCase())){ obj.visible = false; return; } // mallas de contorno: ocultas
+      if(m.map) m.map.colorSpace = THREE.SRGBColorSpace;
+      if(m.emissiveMap) m.emissiveMap.colorSpace = THREE.SRGBColorSpace;
+
+      // Eyes / face: keep vivid, avoid glass treatment
+      const isEye = /eye|瞳|hitomi|iris|sclera|eyeball|mat_eye|face_eye/.test(name);
+      const isFace = /face|skin|head|body/.test(name) && !/glass|lens/.test(name);
+      const isGlass = /glass|lens|crystal|transp|glasses/.test(name) && !isEye;
+
+      if(isGlass){
+        m.transparent = true;
+        m.depthWrite = false;
+        m.opacity = Math.min(m.opacity || 1, 0.4);
+        m.side = THREE.DoubleSide;
+      } else if(/hair|pelo|bang|strand/.test(name)){
+        // Hair: ensure opaque and vivid
+        m.transparent = false;
+        m.depthWrite = true;
+        m.side = THREE.DoubleSide;
+        if(m.color) boostColor(m.color, 1.3, 1.25);
+      } else if(/face|skin|head|body|cheek|lip|brow/.test(name) && !isEye){
+        // Face/skin: force opaque and boost color
+        m.transparent = false;
+        m.depthWrite = true;
+        m.side = THREE.FrontSide;
+        if(m.color) boostColor(m.color, 1.2, 1.15);
+        if(m.isMeshStandardMaterial){
+          m.roughness = Math.min(m.roughness ?? 0.6, 0.65);
+          m.metalness = 0;
+        }
+      } else {
+        // Non-glass: force opaque unless author marked alpha
+        if(m.opacity >= 0.98) {
+          m.transparent = false;
+          m.depthWrite = true;
+        }
+        if(m.isMeshStandardMaterial || m.isMeshPhysicalMaterial){
+          // Less washed metalness/roughness
+          if(m.metalness > 0.6 && !/metal|weapon|armor|iron|gold/.test(name))
+            m.metalness *= 0.5;
+          // Slightly glossier eyes
+          if(isEye){
+            // Force eyes to ignore lighting/environment and use the game emission color
+            m.roughness = 1.0;
+            m.metalness = 0.0;
+            m.envMapIntensity = 0.0;
+            m.envMap = null;
+            m.lightMapIntensity = 0;
+            m.aoMapIntensity = 0;
+
+            let emColor = null;
+            try {
+              const ud = m.userData || {};
+              // Three.js GLTFLoader puts extras directly in userData
+              const colors = ud.colors || (ud.extras && ud.extras.colors) || {};
+              let ec = colors._EmissionColor || colors.emissionColor;
+              if(!ec && ud.extras && ud.extras.colors) ec = ud.extras.colors._EmissionColor;
+              if(ec && Array.isArray(ec) && ec.length >= 3 && (ec[0]+ec[1]+ec[2]) > 0.05){
+                emColor = new THREE.Color(ec[0], ec[1], ec[2]);
+              }
+            } catch(e){}
+
+            if(emColor){
+              m.color = emColor.clone();
+              m.emissive = emColor.clone();
+              m.emissiveIntensity = 1.6;
+              // Remove texture influence that might be desaturating
+              if(m.map && !m.emissiveMap) m.emissiveMap = m.map;
+            } else {
+              // Strong fallback: make eyes bright and saturated from whatever color they have
+              if(m.color){
+                const c = m.color.clone();
+                const hsl = {h:0,s:0,l:0};
+                c.getHSL(hsl);
+                hsl.s = Math.min(1, hsl.s * 1.8 + 0.3);
+                hsl.l = Math.max(0.45, hsl.l);
+                c.setHSL(hsl.h, hsl.s, hsl.l);
+                m.color = c;
+                m.emissive = c.clone();
+                m.emissiveIntensity = 1.4;
+              }
+            }
+            // Force opaque if it was blending in a way that washes color
+            if(m.opacity > 0.9){
+              m.transparent = false;
+              m.depthWrite = true;
+            }
+          } else if(isFace){
+            if(m.color) boostColor(m.color, 1.15, 1.12);
+            m.roughness = Math.min(Math.max(m.roughness ?? 0.55, 0.45), 0.7);
+          } else {
+            if(m.color) boostColor(m.color, 1.22, 1.18);
+          }
+          if(m.envMapIntensity === undefined) m.envMapIntensity = 0.35;
+          else m.envMapIntensity = Math.min(0.5, m.envMapIntensity * 0.6);
+        } else if(m.color){
+          boostColor(m.color, 1.2, 1.15);
+        }
+      }
+
+      if(m.alphaTest > 0) m.alphaTest = Math.max(m.alphaTest, 0.35);
+      m.side = THREE.DoubleSide;   // antes se forzaba FrontSide: telas/pelo/capas finas desaparecían
+      m.needsUpdate = true;
+
+      // Convert to unlit (MeshBasicMaterial) to match wiki shading=unlit
+      if(m.isMeshStandardMaterial || m.isMeshPhysicalMaterial){
+        const basic = new THREE.MeshBasicMaterial({
+          map: m.map || null,
+          color: m.color ? m.color.clone() : new THREE.Color(0xffffff),
+          // Partes con alfa (pelo, telas, pestañas): recorte limpio en vez de forzarlas opacas
+          transparent: isGlass,
+          opacity: isGlass ? Math.min(m.opacity || 0.4, 0.45) : 1,
+          alphaTest: (!isGlass && (wasAT > 0 || (wasBlend && m.map))) ? Math.max(wasAT, 0.5) : 0,
+          side: THREE.DoubleSide,
+          depthWrite: !isGlass
+        });
+        if(m.emissive && (m.emissive.r + m.emissive.g + m.emissive.b) > 0.05){
+          basic.color.lerp(m.emissive, 0.55);
+        }
+        if(Array.isArray(obj.material)){
+          const idx = obj.material.indexOf(m);
+          if(idx >= 0) obj.material[idx] = basic;
+        } else if(obj.material === m){
+          obj.material = basic;
+        }
+      }
+    });
+  });
+}
+
+function stripRootMotion(clip){
+  clip.tracks.forEach(t=>{
+    if(!t.name.endsWith('.position')) return;
+    const node = t.name.slice(0, -'.position'.length);
+    if(!/^(root|bip00?1|armature|hips?|pelvis|center)$/i.test(node)) return;
+    const v = t.values, x0 = v[0], z0 = v[2];
+    for(let i=0;i<v.length;i+=3){ v[i] = x0; v[i+2] = z0; }
+  });
+  return clip;
+}
+
+async function loadAnimClip(loader, animMeta){
+  const gltf = await loader.loadAsync(CDN + animMeta.file);
+  return gltf.animations[0] || null;
+}
+
+window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
+  disposeViewer();
+  const host = document.getElementById('mv3d');
+  const status = document.getElementById('mv-status');
+  const bar = document.getElementById('anim-bar');
+  if(!host) return;
+  status.textContent = 'Cargando modelo…';
+
+  const w = host.clientWidth || 320;
+  const h = host.clientHeight || 340;
+
+  scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x14121f);
+
+  camera = new THREE.PerspectiveCamera(32, w/h, 0.05, 100);
+  camera.position.set(0, 1.15, 2.6);
+
+  renderer = new THREE.WebGLRenderer({antialias:true, alpha:false, powerPreference:'high-performance'});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setSize(w, h, false);
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  // Neutral tone mapping keeps albedo closer to original textures
+  renderer.toneMapping = THREE.NeutralToneMapping;
+  renderer.toneMappingExposure = 1.0;
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  host.appendChild(renderer.domElement);
+
+  // Soft neutral environment for some shine without strong cyan tint
+  pmrem = new THREE.PMREMGenerator(renderer);
+  const envTex = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+  scene.environment = null;
+  scene.environmentIntensity = 0;
+
+  controls = new OrbitControls(camera, renderer.domElement);
+  controls.target.set(0, 0.95, 0);
+  controls.enableDamping = true;
+  controls.minDistance = 1.1;
+  controls.maxDistance = 6;
+
+  // Balanced lights (not overblown)
+  scene.add(new THREE.HemisphereLight(0xfff8f0, 0x403848, 0.55));
+
+  const key = new THREE.DirectionalLight(0xffffff, 1.15);
+  key.position.set(2.2, 4.5, 2.8);
+  key.castShadow = true;
+  key.shadow.mapSize.set(1024, 1024);
+  key.shadow.camera.near = 0.5;
+  key.shadow.camera.far = 20;
+  key.shadow.camera.left = -3;
+  key.shadow.camera.right = 3;
+  key.shadow.camera.top = 3;
+  key.shadow.camera.bottom = -3;
+  key.shadow.bias = -0.0003;
+  scene.add(key);
+
+  const fill = new THREE.DirectionalLight(0xd0dcff, 0.35);
+  fill.position.set(-2.8, 1.8, -1.2);
+  scene.add(fill);
+
+  const rim = new THREE.DirectionalLight(0xffe8d0, 0.3);
+  rim.position.set(0.5, 2.2, -3);
+  scene.add(rim);
+
+  const ground = new THREE.Mesh(
+    new THREE.CircleGeometry(2.2, 48),
+    new THREE.ShadowMaterial({ opacity: 0.32 })
+  );
+  ground.rotation.x = -Math.PI / 2;
+  ground.receiveShadow = true;
+  scene.add(ground);
+
+  const loader = new GLTFLoader();
+  clock = new THREE.Clock();
+
+  try {
+    const modelGltf = await loader.loadAsync(glbUrl);
+    currentRoot = modelGltf.scene;
+    fixMaterials(currentRoot);
+
+    currentRoot.updateMatrixWorld(true);
+    // Caja REAL del personaje (con el esqueleto aplicado), sin armas: la caja de la geometria en reposo
+    // salia mal en algunos modelos (Firenze) y por eso quedaban escalados de mas, flotando y recortados.
+    const cajaPrecisa = (filtro)=>{
+      const bb = new THREE.Box3();
+      currentRoot.traverse(o=>{ if(o.isMesh && o.visible && filtro(o)){ try{ bb.expandByObject(o,true); }catch(e){ bb.expandByObject(o); } } });
+      return bb;
+    };
+    let box = cajaPrecisa(o=>!/sword|weapon|staff|spear|lance|gun|bow|teapot|wand/i.test(o.name||''));
+    if(box.isEmpty() || !isFinite(box.getSize(new THREE.Vector3()).y)) box = new THREE.Box3().setFromObject(currentRoot);
+    const size = box.getSize(new THREE.Vector3());
+    const ref = size.y > Math.max(size.x, size.z) * 0.5 ? size.y : Math.max(size.x, size.y, size.z);
+    currentRoot.scale.setScalar(1.8 / (ref || 1));
+    currentRoot.updateMatrixWorld(true);
+    let box2 = cajaPrecisa(o=>!/sword|weapon|staff|spear|lance|gun|bow|teapot|wand/i.test(o.name||''));
+    if(box2.isEmpty()) box2 = new THREE.Box3().setFromObject(currentRoot);
+    currentRoot.position.x -= (box2.min.x + box2.max.x) / 2;
+    currentRoot.position.z -= (box2.min.z + box2.max.z) / 2;
+    currentRoot.position.y -= box2.min.y;
+    scene.add(currentRoot);
+    currentRoot.updateMatrixWorld(true);
+
+    // Encuadre: que quepa TODO el personaje (antes la cámara lo cortaba)
+    const box3 = cajaPrecisa(()=>true);
+    const sz = box3.getSize(new THREE.Vector3()), ctr = box3.getCenter(new THREE.Vector3());
+    const vf = THREE.MathUtils.degToRad(camera.fov);
+    const dist = Math.max((sz.y/2)/Math.tan(vf/2), (Math.max(sz.x, sz.z)/2)/(Math.tan(vf/2)*(w/h))) * 1.2;
+    controls.target.set(0, ctr.y, 0);
+    camera.position.set(0, ctr.y + sz.y*0.05, dist);
+    camera.near = dist/50; camera.far = dist*20; camera.updateProjectionMatrix();
+    controls.minDistance = dist*0.35; controls.maxDistance = dist*2.2;
+    controls.update();
+    const names=[]; currentRoot.traverse(o=>{ if(o.isMesh) names.push(o.name+' ['+[].concat(o.material).map(x=>x&&x.name).join(',')+']'); });
+    console.log('Partes del modelo ('+names.length+'):', names);
+
+    mixer = new THREE.AnimationMixer(currentRoot);
+
+    // Reencuadre con la pose animada real (la caja inicial se calcula sin esqueleto y recortaba a Firenze)
+    function refit(){
+      try{
+        if(!currentRoot||!camera||!controls) return;
+        currentRoot.updateMatrixWorld(true);
+        const bb=new THREE.Box3();
+        currentRoot.traverse(o=>{ if(o.isMesh && o.visible){ try{ bb.expandByObject(o,true); }catch(e){ bb.expandByObject(o); } } });
+        if(bb.isEmpty()) return;
+        const s2=bb.getSize(new THREE.Vector3()), c2=bb.getCenter(new THREE.Vector3());
+        if(!isFinite(s2.y)||s2.y<=0) return;
+        const vf2=THREE.MathUtils.degToRad(camera.fov);
+        const d2=Math.max((s2.y/2)/Math.tan(vf2/2),(Math.max(s2.x,s2.z)/2)/(Math.tan(vf2/2)*(w/h)))*1.1;
+        controls.target.set(0,c2.y,0);
+        camera.position.set(0,c2.y+s2.y*0.05,d2);
+        camera.near=d2/50; camera.far=d2*20; camera.updateProjectionMatrix();
+        controls.minDistance=d2*0.35; controls.maxDistance=d2*2.2;
+        controls.update();
+      }catch(e){ console.warn('refit',e); }
+    }
+    window.__refit3d=refit;
+    [500,1500,3000].forEach(t=>setTimeout(()=>{ if(currentRoot) refit(); },t));
+
+    let clipsMeta = [];
+    try {
+      const res = await fetch(animsJsonUrl);
+      if(res.ok){
+        const data = await res.json();
+        clipsMeta = data.clips || [];
+      }
+    } catch(e){}
+
+    const want = ['Idle','ReadyLoop','Ready','Attack_P02','Victory','Show'];
+    const pick = [];
+    for(const wname of want){
+      const c = clipsMeta.find(x => x.name === wname);
+      if(c) pick.push(c);
+    }
+    for(const c of clipsMeta){
+      if(pick.length >= 6) break;
+      if(c.loop && !pick.includes(c) && !/Aim|Start|Tower|Episode|Prologue|Status/i.test(c.name))
+        pick.push(c);
+    }
+    if(!pick.length && clipsMeta[0]) pick.push(clipsMeta[0]);
+
+    async function playClip(meta, btn){
+      status.textContent = 'Cargando animación: ' + meta.name + '…';
+      try {
+        const clip = await loadAnimClip(loader, meta);
+        if(!clip){ status.textContent = 'Sin datos de animación'; return; }
+        stripRootMotion(clip);
+        mixer.stopAllAction();
+        const action = mixer.clipAction(clip);
+        action.reset();
+        action.setLoop(meta.loop ? THREE.LoopRepeat : THREE.LoopOnce, Infinity);
+        if(!meta.loop) action.clampWhenFinished = true;
+        action.play();
+        status.textContent = 'Animación: ' + meta.name + (meta.loop ? ' (loop)' : '');
+        if(bar){
+          bar.querySelectorAll('button').forEach(b=>b.classList.remove('on'));
+          if(btn) btn.classList.add('on');
+        }
+      } catch(err){
+        status.textContent = 'Error animación ' + meta.name;
+        console.warn(err);
+      }
+    }
+
+    if(bar){
+      bar.innerHTML = '';
+      pick.forEach((meta, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = meta.name.replace(/_/g,' ');
+        b.onclick = () => playClip(meta, b);
+        bar.appendChild(b);
+        if(i===0) playClip(meta, b);
+      });
+    }
+
+    function tick(){
+      raf = requestAnimationFrame(tick);
+      const dt = clock.getDelta();
+      if(mixer) mixer.update(dt);
+      controls.update();
+      renderer.render(scene, camera);
+    }
+    tick();
+  } catch(err){
+    console.error(err);
+    status.textContent = (navigator.onLine===false ? 'Sin conexión: el modelo 3D se descarga al abrirlo.' : 'No se pudo cargar el modelo 3D. Usa el enlace de la wiki.');
+  }
+};
+</script>
+
+</body>
+</html>
