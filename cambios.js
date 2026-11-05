@@ -1,6 +1,20 @@
 // Historial de cambios de la app. Lo que pongas aquí aparece en "Novedades" como tipo "App".
 // Para anunciar un cambio nuevo: agrega un bloque ARRIBA de la lista (con un id distinto y la fecha de hoy).
+// Enlace de tu formulario de opiniones (Google Forms, etc.). Si lo dejas vacío "" el botón de opinión no aparece.
+const BETA_FORM = "";
 const CAMBIOS = [
+  {
+    id: "v:2026-11-05-beta",
+    fecha: "2026-11-05T17:00:00-06:00",
+    titulo: "Prueba beta: ¡ayúdanos a mejorar!",
+    puntos: [
+      "Stella Sora Vita está en beta pública por un día y medio: pruébala y cuéntanos qué falla o qué te gustaría ver.",
+      "Nuevo lector de historias: lee el prólogo y los capítulos 1 al 3 con fondos, sprites, emojis, música y sonidos como en el juego (botón «Leer en el lector» en Historia).",
+      "Mapa de actos para elegir dónde seguir leyendo, protagonista él/ella y tamaño de sprites ajustable.",
+      "Los emojis salen cerca de los personajes y desaparecen solos, como en el juego.",
+      "Si algo no carga bien, cierra y vuelve a abrir la app para recibir la última versión."
+    ]
+  },
   {
     id: "v:2026-11-05c",
     fecha: "2026-11-05T02:00:00-06:00",
