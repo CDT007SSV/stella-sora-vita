@@ -245,6 +245,14 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .stype{font-size:.6rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:rgba(232,196,106,.22);color:#f3d98a}
 .stype.t1{background:rgba(123,108,255,.25);color:#cfc8ff}.stype.t2{background:rgba(92,225,230,.2);color:#8ff0f3}
 .cgimg{width:100%;border-radius:12px;display:block;margin:6px 0 4px;background:#0e0c18}
+/* visor de imagen y modelos de skins */
+#lb{position:fixed;inset:0;z-index:9999;background:rgba(5,4,12,.96);display:flex;align-items:center;justify-content:center;overflow:auto;touch-action:pinch-zoom pan-x pan-y}
+#lb img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+#lb .lbx{position:fixed;top:12px;right:12px;width:42px;height:42px;border-radius:50%;border:1px solid #4a4580;background:rgba(20,18,31,.85);color:#fff;font-size:1.3rem;cursor:pointer}
+.disc-art,.cgimg{cursor:zoom-in}
+.skin3d{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0 2px}
+.skin3d .chip{font-size:.74rem;padding:5px 10px}
+.sk3d{margin-top:8px;font-size:.74rem;padding:5px 10px}
 /* encabezado de personaje */
 .badge.rbig{font-size:1.05rem;padding:4px 12px;border-radius:9px;letter-spacing:.03em}
 .hero .badge.b5,.badge.b5.rbig{background:linear-gradient(135deg,#f6d878,#e0a93a);color:#3a2800;box-shadow:0 0 14px rgba(232,196,106,.45),inset 0 1px 0 rgba(255,255,255,.5)}
@@ -683,10 +691,13 @@ function showD(wikiUrl){
   if(!d){ window.open(wikiUrl, "_blank"); return; }
   backTo = "discs";
   document.getElementById("det-title").textContent = d.name;
-  const art=(d.imageAlts&&d.imageAlts[0])||d.imageUrl;
+  // Arte completo: Disc_<nombre>.png de la wiki (las fichas viejas solo traian el icono)
+  const nmf=d.name.replace(/ /g,"_");
+  const arts=[...new Set(["https://stellasora.miraheze.org/wiki/Special:FilePath/"+encodeURIComponent("Disc_"+nmf)+".png",...(d.imageAlts||[]),d.imageUrl].filter(Boolean))];
   document.getElementById("det").innerHTML = `
     <div style="text-align:center">
-      <img class="disc-art" src="${art}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="if(this.dataset.f){this.style.display='none'}else{this.dataset.f=1;this.src='${d.imageUrl}'}">
+      <img class="disc-art" src="${arts[0]}" data-q="${arts.slice(1).join(",")}" data-full="${arts.join(",")}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="skFb(this)" onclick="openLB(this.dataset.full.split(','))">
+      <p class="nota-en" style="text-align:center;margin:6px 0 0">Toca la imagen para verla completa</p>
       <div class="badge b${d.rarity} rbig" style="margin:12px 0 6px">${d.rarity}★</div>
       <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
     </div>
@@ -757,13 +768,21 @@ function showC(id){
     ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
     ${skCard}
     <div id="skins-box"></div>
+    <div class="skin3d" id="skin3d"></div>
     <div class="model-wrap">
       <div id="mv3d"></div>
       <p class="hint" id="mv-status">Cargando modelo 3D…</p>
       <div class="anim-bar" id="anim-bar"></div>
     </div>`;
   go("detail");
-  cargarExtras().then(E=>{const b=document.getElementById("skins-box");if(b&&cur==="detail")b.innerHTML=skinsHtml(c,E)});
+  Promise.all([cargarExtras(),cargarModelIdx()]).then(([E,idx])=>{
+    const b=document.getElementById("skins-box"); if(!b||cur!=="detail")return;
+    b.innerHTML=skinsHtml(c,E,idx); skin3dBar(c,idx);
+    b.querySelectorAll(".sk3d").forEach(btn=>btn.onclick=()=>{
+      const e=idx.find(x=>x.file===btn.dataset.f); if(!e)return;
+      loadModelEntry(e,folder); const t=document.getElementById("mv3d"); t&&t.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+  });
   setTimeout(()=>window.loadTrekkerModel&&window.loadTrekkerModel(glb,animsJson,folder),50);
 }
 
@@ -1052,6 +1071,35 @@ function showBuild(id){
     <p class="foot" style="margin-top:8px">Build de la comunidad. ${BUILDS.url?`<a href="${esc(BUILDS.url)}" target="_blank" rel="noopener" style="color:var(--a)">Ver en Notion</a>`:""}</p>`;
   go("build");
 }
+/* ===== Visor de imagen completa ===== */
+function openLB(urls){
+  const list=[].concat(urls).filter(Boolean); if(!list.length)return;
+  const lb=document.createElement("div"); lb.id="lb";
+  lb.innerHTML=`<img alt="" referrerpolicy="no-referrer"><button type="button" class="lbx" aria-label="Cerrar">✕</button>`;
+  const im=lb.querySelector("img"); let k=0;
+  im.onerror=()=>{k++;if(k<list.length)im.src=list[k];else lb.remove()};
+  im.src=list[0];
+  lb.onclick=()=>lb.remove();
+  document.body.appendChild(lb);
+}
+/* ===== Modelos 3D de skins (index.json del repositorio de modelos) ===== */
+const MODELS_CDN="https://cdn.jsdelivr.net/gh/StellaSoraWiki/StellaSoraModels@main/";
+let MIDX=null;
+const cargarModelIdx=()=>MIDX||(MIDX=fetch(MODELS_CDN+"index.json").then(r=>r.ok?r.json():[]).catch(()=>[]));
+function loadModelEntry(e,folder){
+  window.loadTrekkerModel&&window.loadTrekkerModel(MODELS_CDN+e.file,MODELS_CDN+e.file.replace(/\.glb$/,".anims.json"),folder);
+  const bar=document.getElementById("skin3d");
+  if(bar)bar.querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.f===e.file));
+}
+function skin3dBar(c,idx){
+  const folder=c.name.replace(/ /g,"_");
+  const vs=(idx||[]).filter(e=>e.file.startsWith(folder+"/")); if(vs.length<2)return;
+  vs.sort((a,b)=>(a.file===`${folder}/${folder}.glb`?-1:0)-(b.file===`${folder}/${folder}.glb`?-1:0));
+  const bar=document.getElementById("skin3d"); if(!bar)return;
+  bar.innerHTML=vs.map(e=>{const base=e.file===`${folder}/${folder}.glb`;
+    return `<button type="button" class="chip${base?" on":""}" data-f="${esc(e.file)}">${base?"Base":esc(tr(e.label.replace(/^[^:]+:\s*/,"")))}</button>`}).join("");
+  bar.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{const e=vs.find(x=>x.file===b.dataset.f);if(e)loadModelEntry(e,folder)});
+}
 /* ===== Extras (historia de discos, skins de personajes: extras.json) ===== */
 let EXP=null;
 const cargarExtras=()=>EXP||(EXP=fetch("extras.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).catch(()=>null));
@@ -1068,8 +1116,8 @@ function discExtraHtml(d,E){
   return `${audio}${tracks?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Temas</h3><div class="trk">${tracks}</div></div>`:""}
     ${x.tx?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Historia</h3>${x.st?`<h4 class="story-t">${esc(tr(x.st))}</h4>`:""}<div class="story-x">${esc(tr(x.tx))}</div>${en?'<p class="nota-en">Texto original en inglés, traducción pendiente.</p>':""}</div>`:""}`+wiki;
 }
-function skFb(i){const q=(i.dataset.q||"").split(",").filter(Boolean),n=q.shift();i.dataset.q=q.join(",");if(n)i.src=n;else (i.parentElement.tagName==='A'?i.parentElement:i).remove()}
-function skinsHtml(c,E){
+function skFb(i){const q=(i.dataset.q||"").split(",").filter(Boolean),n=q.shift();i.dataset.q=q.join(",");if(n)i.src=n;else i.remove()}
+function skinsHtml(c,E,idx){
   const x=E&&E.skins&&E.skins[c.name]; if(!x||!x.skins.length)return "";
   const file=c.name.replace(/ /g,"_");
   const cg=x.cg&&x.cg.length?`<img class="cgimg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/${encodeURIComponent(file)}_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
@@ -1077,7 +1125,9 @@ function skinsHtml(c,E){
     ${(()=>{let n=0;return x.skins.map(k=>{
       let img="";
       if(k.t===3){n++;const u=(v,w)=>`https://stellasora.miraheze.org/wiki/Special:FilePath/${encodeURIComponent(file)}_skin${n}_${v}.png${w?"?width="+w:""}`;
-        img=`<a href="${u("02")}" target="_blank" rel="noopener"><img class="cgimg" src="${u("02",700)}" data-q="${u("01",700)},${u("03",700)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="skFb(this)"></a>`}
+        img=`<img class="cgimg" src="${u("02",700)}" data-q="${u("01",700)},${u("03",700)}" data-full="${u("02")},${u("01")},${u("03")}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="skFb(this)" onclick="openLB(this.dataset.full.split(','))">`}
+      const m=(idx||[]).find(e=>e.label===c.name+": "+k.n);
+      if(m)img+=`<button type="button" class="chip on sk3d" data-f="${esc(m.file)}">Ver en 3D</button>`;
       return `<div class="skin"><h4>${esc(tr(k.n))}<span class="stype t${k.t}">${SKT[k.t]||"Skin"}</span></h4>${k.d?`<p>${esc(tr(k.d))}</p>`:""}${img}</div>`}).join("")})()}
     <a class="btn out" href="${c.wikiUrl}" target="_blank" rel="noopener" style="margin-top:10px">Ver galería completa en la wiki</a></div>`;
 }
