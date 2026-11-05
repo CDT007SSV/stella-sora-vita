@@ -11,6 +11,58 @@ IMG_DIR = "builds_img"
 API = "https://api.notion.com/v1"
 _img_count = [0]
 
+
+# ---- Reducir el peso de las imagenes (el despliegue de GitHub Pages se volvia muy lento con ~75 MB) ----
+MAX_LADO = 1280
+def _pillow():
+    try:
+        from PIL import Image
+        return Image
+    except Exception:
+        try:
+            import subprocess
+            subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "pillow"], check=True)
+            from PIL import Image
+            return Image
+        except Exception as e:
+            print("Pillow no disponible, no se comprimen imagenes:", e)
+            return None
+
+def reducir(ruta, Image=None):
+    """Reduce una imagen EN SU LUGAR (mismo nombre y formato). Solo la reemplaza si queda mas liviana."""
+    Image = Image or _pillow()
+    if not Image or not os.path.exists(ruta): return 0
+    antes = os.path.getsize(ruta)
+    ext = ruta.rsplit(".", 1)[-1].lower()
+    if ext not in ("jpg", "jpeg", "png") or antes < 350 * 1024: return 0
+    try:
+        im = Image.open(ruta); im.load()
+        im.thumbnail((MAX_LADO, MAX_LADO))
+        tmp = ruta + ".tmp"
+        if ext in ("jpg", "jpeg"):
+            im.convert("RGB").save(tmp, "JPEG", quality=78, optimize=True, progressive=True)
+        else:
+            im.save(tmp, "PNG", optimize=True)
+            if os.path.getsize(tmp) > 500 * 1024:
+                q = (im.convert("RGBA") if im.mode != "RGBA" else im).quantize(256, method=Image.FASTOCTREE)
+                q.save(tmp, "PNG", optimize=True)
+        if os.path.getsize(tmp) < antes:
+            os.replace(tmp, ruta)
+            return antes - os.path.getsize(ruta)
+        os.remove(tmp)
+    except Exception as e:
+        print("   no se pudo reducir", ruta, e)
+    return 0
+
+def reducir_todas():
+    if not os.path.isdir(IMG_DIR): return
+    Image = _pillow()
+    if not Image: return
+    ahorro = 0
+    for n in sorted(os.listdir(IMG_DIR)):
+        ahorro += reducir(os.path.join(IMG_DIR, n), Image)
+    print("Imagenes comprimidas: se liberaron %.1f MB." % (ahorro / 1048576))
+
 def api(metodo, ruta, cuerpo=None):
     for intento in range(5):
         req = urllib.request.Request(API + ruta, method=metodo,
@@ -49,6 +101,7 @@ def descargar(url):
             os.makedirs(IMG_DIR, exist_ok=True)
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "StellaSoraWikiES"}), timeout=60) as r, open(ruta, "wb") as f:
                 f.write(r.read())
+            reducir(ruta)
             _img_count[0] += 1
         except Exception as e:
             print("   imagen no descargada:", e)
@@ -159,6 +212,7 @@ def encontrar_base():
     return None
 
 def main():
+    reducir_todas()
     if not TOKEN:
         print("NOTION_TOKEN no esta configurado: se omiten las builds."); return
     db = encontrar_base()
