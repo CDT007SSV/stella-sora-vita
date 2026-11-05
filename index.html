@@ -212,12 +212,31 @@ details.pg>summary::before{content:"▸ ";color:var(--vio)}details.pg[open]>summ
 details.pot{border-top:1px solid #2a2740;padding:8px 12px;font-size:.82rem;color:var(--t2);line-height:1.4}
 details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6px;white-space:pre-line;color:#cfcbe6}
 .bcard{display:block;background:var(--sf);border:1px solid #2f2a52;border-radius:16px;margin-bottom:12px;cursor:pointer;overflow:hidden;padding:0}
+/* novedades */
+#start .hm-head{position:relative}
+.nbell{position:absolute;right:2px;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:12px;border:1px solid #3a3560;background:rgba(123,108,255,.12);color:#cfc8ff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.ndot{position:absolute;top:7px;right:8px;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold)}
+.tick{display:flex;align-items:center;gap:10px;margin:0 0 12px;padding:9px 12px;border-radius:12px;border:1px solid rgba(232,196,106,.45);background:linear-gradient(135deg,rgba(232,196,106,.16),rgba(123,108,255,.12));cursor:pointer;overflow:hidden}
+.tick[hidden]{display:none}
+.tk-l{flex-shrink:0;font-size:.66rem;font-weight:800;letter-spacing:.08em;padding:3px 7px;border-radius:6px;background:linear-gradient(135deg,#f6d878,#e0a93a);color:#3a2800}
+.tk-t{flex:1;min-width:0;font-size:.85rem;color:#efeaff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:opacity .35s,transform .35s;text-transform:none}
+.tk-t.out{opacity:0;transform:translateY(-6px)}
+.tk-a{color:var(--gold);font-size:1.2rem;line-height:1}
+.ncard{display:flex;gap:11px;align-items:center;background:var(--sf);border:1px solid #2f2a52;border-radius:14px;padding:10px;margin-bottom:9px;cursor:pointer;position:relative}
+.ncard.nu{border-color:rgba(232,196,106,.6)}
+.ncard .nimg{width:62px;height:62px;border-radius:10px;object-fit:cover;background:var(--s2);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.5rem}
+.ncard h3{font-size:.92rem;margin:3px 0 2px;line-height:1.25}
+.ncard p{margin:0;font-size:.76rem;color:var(--t2)}
+.ntype{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:rgba(123,108,255,.25);color:#cfc8ff}
+.ntype.t-personaje{background:rgba(232,196,106,.25);color:#f3d98a}.ntype.t-build{background:rgba(92,225,230,.2);color:#8ff0f3}.ntype.t-banner{background:rgba(255,107,157,.22);color:#ff9fc0}
+.ncard .ndt{position:absolute;top:9px;right:11px;font-size:.66rem;color:var(--t2)}
 /* encabezado de personaje */
 .badge.rbig{font-size:1.05rem;padding:4px 12px;border-radius:9px;letter-spacing:.03em}
 .hero .badge.b5,.badge.b5.rbig{background:linear-gradient(135deg,#f6d878,#e0a93a);color:#3a2800;box-shadow:0 0 14px rgba(232,196,106,.45),inset 0 1px 0 rgba(255,255,255,.5)}
 .hero .badge.b4{background:linear-gradient(135deg,#b49bff,#7d5be8);color:#fff;box-shadow:0 0 14px rgba(155,123,255,.4)}
 .btn.wikibtn{display:flex;align-items:center;justify-content:center;gap:9px;margin:0 0 10px;padding:12px;background:linear-gradient(135deg,rgba(123,108,255,.22),rgba(91,77,224,.12));border:1px solid rgba(123,108,255,.55);color:#cfc8ff;box-shadow:none;font-weight:600}
 .btn.wikibtn:active{background:rgba(123,108,255,.3)}
+.aboutbtn{display:block;margin:18px auto 4px;padding:8px 16px;background:0;border:0;color:var(--t2);font-size:.8rem;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .bsub{margin:3px 0 0;font-size:.78rem;color:var(--m,#9a96b5);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-transform:none}
 .bcard .bimg{width:100%;aspect-ratio:3.6/1;object-fit:cover;display:block;background:var(--s2);font-size:2rem;text-align:center}
 .bcard .bt{display:flex;align-items:center;gap:10px;padding:11px 13px}.bcard .bt .bic{width:26px;height:26px;flex-shrink:0;object-fit:contain;font-size:1.3rem;line-height:26px;text-align:center}
@@ -252,7 +271,9 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
   <header class="hm-head">
     <img src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_English_Logo.png" alt="Stella Sora" referrerpolicy="no-referrer" onerror="this.outerHTML='<b class=hm-logo>Stella Sora</b>'"/>
     <p class="sub">Vita · Comunidad hispana</p>
+    <button type="button" id="nbell" class="nbell" data-nav="news" aria-label="Novedades" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><span class="ndot" hidden></span></button>
   </header>
+  <div id="ticker" class="tick" data-nav="news" role="button" tabindex="0" hidden><span class="tk-l">NUEVO</span><span class="tk-t" id="tk-t"></span><span class="tk-a">›</span></div>
   <div class="hm-wrap">
     <div class="hm-col">
       <div class="hm hm-big" data-go="chars">
@@ -307,6 +328,24 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 <div id="s-detail" class="screen">
   <div class="topbar"><button type="button" id="bk">‹</button><h2 id="det-title">Detalle</h2></div>
   <main id="det"></main>
+</div>
+
+<div id="s-about" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Acerca de</h2></div>
+  <main>
+    <div class="card"><h3 style="margin:0 0 8px;font-size:1rem">Stella Sora Vita</h3>
+      <p>App de fans, no oficial, hecha por y para la comunidad hispana. Los resúmenes de la historia son de <b>Catador de Trekkers</b>.</p></div>
+    <div class="card"><h3 style="margin:0 0 8px;font-size:1rem">Aviso legal</h3>
+      <p>Stella Sora, sus personajes, imágenes y demás contenido pertenecen a sus respectivos dueños. Esta app no está afiliada ni respaldada por ellos.</p></div>
+    <div class="card"><h3 style="margin:0 0 8px;font-size:1rem">Fuentes y créditos</h3>
+      <p>Contenido e imágenes de la <a href="https://stellasora.miraheze.org" style="color:var(--a)" target="_blank" rel="noopener">Stella Sora Wiki</a> (Miraheze). Los modelos 3D son de un repositorio comunitario. Datos automáticos de <a href="https://github.com/Hiro420/StellaSoraData" style="color:var(--a)" target="_blank" rel="noopener">Hiro420/StellaSoraData</a> (GPL-3.0).</p>
+      <p id="about-date" class="nota"></p></div>
+  </main>
+</div>
+
+<div id="s-news" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Novedades</h2></div>
+  <main><div id="nlist"></div><p class="foot" id="nfoot"></p></main>
 </div>
 
 <div id="s-banners" class="screen">
@@ -409,7 +448,7 @@ const ROLE_ES={Vanguard:"Vanguardia",Support:"Apoyo",Versatile:"Versátil"};
 const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 try{localStorage.removeItem("ss_favs")}catch(e){}
-const PARENT={builds:"",build:"builds",chars:"",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story"};
+const PARENT={about:"",news:"",builds:"",build:"builds",chars:"",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story"};
 function nav(h){if(location.hash==="#"+h)return;navFlag=true;depth++;location.hash=h}
 function goBack(){if(depth>0){depth--;history.back();return}
   const p=cur==="detail"?backTo:(PARENT[cur]||"");location.replace("#"+p);}
@@ -441,6 +480,7 @@ function go(id){cur=id;document.body.classList.remove("home");
   document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on"));
   el.classList.add("on");
   window.scrollTo(0,0);
+  if(id==="news"&&window.nvSeen)window.nvSeen();
 }
 
 document.body.addEventListener("click", function(e){
@@ -826,7 +866,7 @@ function refreshHome(){
 }
 refreshHome();
 document.getElementById("n-nova").textContent=NOVA_TIMES.length+" historias";
-document.getElementById("start").insertAdjacentHTML("beforeend",`<p class="foot">App de fans, no oficial, hecha por y para la comunidad hispana. Contenido e imágenes de la <a href="https://stellasora.miraheze.org" style="color:var(--a)" target="_blank" rel="noopener">Stella Sora Wiki</a> (Miraheze); los modelos 3D son de un repositorio comunitario. Stella Sora y sus personajes pertenecen a sus respectivos dueños. Datos automáticos de <a href="https://github.com/Hiro420/StellaSoraData" style="color:var(--a)" target="_blank" rel="noopener">Hiro420/StellaSoraData</a> (GPL-3.0).<span id="auto-date"></span></p>`);
+document.getElementById("start").insertAdjacentHTML("beforeend",`<button type="button" class="aboutbtn" data-nav="about">Acerca de · Aviso legal</button>`);
 // Accesibilidad: teclado + roles en tarjetas clicables
 const CLK=".tile,.hm,.item-tile,.mode-card,.item,.row";
 function a11y(){document.querySelectorAll(CLK).forEach(e=>{if(!e.hasAttribute("role")){e.setAttribute("role","button");e.tabIndex=0}})}
@@ -860,7 +900,7 @@ document.addEventListener("click",e=>{
   if(a&&/^https?:/i.test(a.getAttribute("href"))){e.preventDefault();openLink(a.href)}
 },true);
 // ===== PWA: instalación y service worker =====
-document.querySelector("#start .foot").insertAdjacentHTML("beforebegin",`<button type="button" class="btn out" id="install-btn" hidden style="margin-top:14px">📲 Instalar app en tu teléfono</button>
+document.querySelector("#start .aboutbtn").insertAdjacentHTML("beforebegin",`<button type="button" class="btn out" id="install-btn" hidden style="margin-top:14px">📲 Instalar app en tu teléfono</button>
 <p id="ios-tip" class="foot" hidden style="margin-top:12px">Para instalarla en iPhone: abre esta página en Safari, toca Compartir y elige «Añadir a pantalla de inicio».</p>`);
 {
   const btn=document.getElementById("install-btn"); let dp=null;
@@ -900,7 +940,7 @@ async function cargarAuto(){
     if(A.banners&&A.banners.length) BANNERS.splice(0,BANNERS.length,...A.banners);
     renderC();renderD();renderBanners();refreshHome();
     if(/^#c\//.test(location.hash))route();
-    if(A.generado){const el=document.getElementById("auto-date");if(el)el.textContent=" Datos actualizados el "+new Date(A.generado).toLocaleDateString("es")+"."}
+    if(A.generado){const el=document.getElementById("about-date");if(el)el.textContent="Datos actualizados el "+new Date(A.generado).toLocaleDateString("es")+"."}
   }catch(e){}
 }
 
@@ -970,6 +1010,54 @@ function showBuild(id){
     <p class="foot" style="margin-top:8px">Build de la comunidad. ${BUILDS.url?`<a href="${esc(BUILDS.url)}" target="_blank" rel="noopener" style="color:var(--a)">Ver en Notion</a>`:""}</p>`;
   go("build");
 }
+/* ===== Novedades (datos de generar_novedades.py) ===== */
+let NV=[];
+const nvKey="nv_seen";
+const nvGet=()=>{try{return localStorage.getItem(nvKey)}catch(e){return null}};
+const nvSet=v=>{try{localStorage.setItem(nvKey,v)}catch(e){}};
+function nvUnread(){
+  if(!NV.length)return [];
+  const seen=nvGet(), i=NV.findIndex(x=>x.id===seen);
+  return i<0?NV.slice(0,5):NV.slice(0,i);
+}
+let nvTimer=null;
+function nvTicker(){
+  const bar=document.getElementById("ticker"),t=document.getElementById("tk-t"),dot=document.querySelector("#nbell .ndot"),bell=document.getElementById("nbell");
+  if(!bar)return;
+  bell.hidden=!NV.length;
+  const un=nvUnread(); dot.hidden=!un.length; bar.hidden=!un.length;
+  clearInterval(nvTimer);
+  if(!un.length)return;
+  let k=0; t.textContent=un[0].titulo;
+  if(un.length>1) nvTimer=setInterval(()=>{k=(k+1)%un.length;t.classList.add("out");setTimeout(()=>{t.textContent=un[k].titulo;t.classList.remove("out")},350)},4000);
+}
+const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔"};
+const nvFecha=f=>{try{return new Date(f).toLocaleDateString("es",{day:"numeric",month:"short"})}catch(e){return ""}};
+function nvGo(x){
+  if(x.tipo==="personaje"){const c=CHARS.find(c=>c.name===x.ref);nav(c?"c/"+c.id:"chars")}
+  else if(x.tipo==="disco")nav(DISCS.find(d=>d.name===x.ref)?"d/"+x.ref:"discs");
+  else if(x.tipo==="build")nav(BUILDS&&BUILDS.items.some(b=>b.id===x.ref)?"b/"+x.ref:"builds");
+  else nav("banners");
+}
+function nvRender(){
+  const box=document.getElementById("nlist"); if(!box)return;
+  const un=new Set(nvUnread().map(x=>x.id));
+  box.innerHTML=NV.map((x,i)=>`<div class="ncard${un.has(x.id)?" nu":""}" data-i="${i}">
+    ${x.img?`<img class="nimg" src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=nimg>${nvIcon[x.tipo]||"✦"}</div>'">`:`<div class="nimg">${nvIcon[x.tipo]||"✦"}</div>`}
+    <div><span class="ntype t-${x.tipo}">${({personaje:"Personaje",disco:"Disco",banner:"Banner",build:"Build"})[x.tipo]||x.tipo}</span><h3>${esc(x.titulo)}</h3>${x.texto?`<p>${esc(x.texto)}</p>`:""}</div>
+    <span class="ndt">${nvFecha(x.fecha)}</span></div>`).join("")||'<div class="card"><p>Aún no hay novedades.</p></div>';
+  box.querySelectorAll(".ncard").forEach(el=>{el.onclick=()=>nvGo(NV[+el.dataset.i])});
+  document.getElementById("nfoot").textContent=NV.length?"Se actualiza solo cada día.":"";
+}
+window.nvSeen=()=>{ if(NV.length){nvRender();nvSet(NV[0].id);nvTicker()} };
+async function cargarNovedades(){
+  try{
+    const r=await fetch("novedades.json",{cache:"no-cache"}); if(!r.ok)return;
+    const d=await r.json(); NV=(d.items||[]);
+    nvRender(); nvTicker();
+  }catch(e){}
+}
+cargarNovedades();
 cargarBuilds();
 cargarAuto();
 route();
