@@ -119,7 +119,7 @@ function avanza(){
 function fin(){card('<small>Fin de esta escena</small><h2>Prueba del lector</h2><p>Esto es una versión de prueba. Cuéntame qué te pareció.</p><button class="rd-b" data-a="x" style="margin-top:18px;padding:12px 30px">Cerrar</button>')}
 window.abrirLector=async function(id){
   build();
-  let d;try{const r=await fetch("lector/"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
+  let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
   let g=1;try{const v=localStorage.getItem("rdg");if(v!=null)g=+v}catch(e){}
   S={names:d.names,stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
