@@ -6706,7 +6706,216 @@
     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png",
     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Eternal_Brilliance.png"
    ]
+  },
+  "historiaPersonajes": {
+   "name": "Firstlight Noya",
+   "img": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_awakened_02.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya.png"
+   ]
+  },
+  "eventos": {
+   "name": "Moment of Glory",
+   "img": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Moment_of_Glory.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Moment_of_Glory.png"
+   ]
+  },
+  "historiaPrincipal": {
+   "name": "Eternal Brilliance",
+   "img": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Eternal_Brilliance.png"
+   ]
+  },
+  "novaTimes": {
+   "name": "#18 Slumbering Where Autumn Tilts",
+   "img": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_18_001.png"
+   ]
   }
  },
- "generado": "2026-11-05T06:21:01+00:00"
+ "historias": {
+  "principal": [
+   {
+    "number": "3",
+    "titleEn": "Guild Sweet Guild",
+    "url": "https://stellasora.miraheze.org/wiki/Main_Story/Chapter_3",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Fist_of_Courage.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Fist_of_Courage.png"
+    ]
+   },
+   {
+    "number": "4",
+    "titleEn": "Beyond the Dream",
+    "url": "https://stellasora.miraheze.org/wiki/Main_Story/Chapter_4",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_One%2C_Two%2C_Three%2C_Jump%21.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_One%2C_Two%2C_Three%2C_Jump%21.png"
+    ]
+   },
+   {
+    "number": "6",
+    "titleEn": "Miracle of a Flicker",
+    "url": "https://stellasora.miraheze.org/wiki/Main_Story/Chapter_6",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_The_Bud_of_Change.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_The_Bud_of_Change.png"
+    ]
+   },
+   {
+    "number": "9",
+    "titleEn": "A Monolith Too Far",
+    "url": "https://stellasora.miraheze.org/wiki/Main_Story/Chapter_9",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_All_That_Was_Beautiful.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_All_That_Was_Beautiful.png"
+    ]
+   },
+   {
+    "number": "9.5",
+    "titleEn": "Wholeness at Reunion's Dawn",
+    "url": "https://stellasora.miraheze.org/wiki/Main_Story/Special_Chapter_2",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Eternal_Brilliance.png"
+    ]
+   }
+  ],
+  "eventos": [
+   {
+    "name": "To My Dearest You",
+    "url": "https://stellasora.miraheze.org/wiki/To_My_Dearest_You",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Delivered_by_the_Breeze.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Delivered_by_the_Breeze.png"
+    ]
+   },
+   {
+    "name": "Solitary Waltz in Night's Embrace",
+    "url": "https://stellasora.miraheze.org/wiki/Solitary_Waltz_in_Night's_Embrace",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Phantom_of_the_Banquet.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Phantom_of_the_Banquet.png"
+    ]
+   },
+   {
+    "name": "Framing the Feelings Unseen",
+    "url": "https://stellasora.miraheze.org/wiki/Framing_the_Feelings_Unseen",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Seed_Alike.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Seed_Alike.png"
+    ]
+   },
+   {
+    "name": "Heartbeat! Neo-Inspired Rhapsody",
+    "url": "https://stellasora.miraheze.org/wiki/Heartbeat!_Neo-Inspired_Rhapsody",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Touch_of_Miracle.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Touch_of_Miracle.png"
+    ]
+   },
+   {
+    "name": "A Sandstorm of Gunfire",
+    "url": "https://stellasora.miraheze.org/wiki/A_Sandstorm_of_Gunfire",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Touch_of_Miracle.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Touch_of_Miracle.png"
+    ]
+   },
+   {
+    "name": "Sunlit Breeze, Azure Seas Checking In for A Cozy Summer~",
+    "url": "https://stellasora.miraheze.org/wiki/Sunlit_Breeze,_Azure_Seas_Checking_In_for_A_Cozy_Summer~",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Dappled_Sunlight.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Dappled_Sunlight.png"
+    ]
+   },
+   {
+    "name": "Surfing Splash: A Sparkling Holiday Adventure!",
+    "url": "https://stellasora.miraheze.org/wiki/Surfing_Splash:_A_Sparkling_Holiday_Adventure!",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Summer_March.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Summer_March.png"
+    ]
+   },
+   {
+    "name": "Go, My Lady! Training Handbook Plus!",
+    "url": "https://stellasora.miraheze.org/wiki/Go,_My_Lady!_Training_Handbook_Plus!",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Moment_of_Glory.png",
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Moment_of_Glory.png"
+    ]
+   }
+  ],
+  "novaTimes": [
+   {
+    "number": "11",
+    "name": "Slipping into Sunlight",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/Slipping_into_Sunlight",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_11_001.png"
+    ]
+   },
+   {
+    "number": "12",
+    "name": "You, In My Eyes",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/You,_In_My_Eyes",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_12_001.png"
+    ]
+   },
+   {
+    "number": "13",
+    "name": "The Missy and the Saucy Maid",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/The_Missy_and_the_Saucy_Maid",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_13_001.png"
+    ]
+   },
+   {
+    "number": "14",
+    "name": "Resonance Beyond the Starlight",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/Resonance_Beyond_the_Starlight",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_14_001.png"
+    ]
+   },
+   {
+    "number": "15",
+    "name": "Cuteness Dependency Syndrome",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/Cuteness_Dependency_Syndrome",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_15_001.png"
+    ]
+   },
+   {
+    "number": "16",
+    "name": "Life Goes On",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/Life_Goes_On",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_16_001.png"
+    ]
+   },
+   {
+    "number": "17",
+    "name": "The Most Precious Treasure",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/The_Most_Precious_Treasure",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_17_001.png"
+    ]
+   },
+   {
+    "number": "18",
+    "name": "Slumbering Where Autumn Tilts",
+    "url": "https://stellasora.miraheze.org/wiki/The_Nova_Times/Slumbering_Where_Autumn_Tilts",
+    "img": [
+     "https://stellasora.miraheze.org/wiki/Special:FilePath/Story_tales_18_001.png"
+    ]
+   }
+  ]
+ },
+ "generado": "2026-11-05T11:29:48+00:00"
 }
