@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 RAW = "https://raw.githubusercontent.com/Hiro420/StellaSoraData/main/EN/"
-UA = {"User-Agent": "StellaSoraWikiES-fanapp/1.0 (https://github.com/EveCDT00/stella-sora-wiki-es)"}
+UA = {"User-Agent": "StellaSoraWikiES-fanapp/1.0 (https://github.com/CDT007SSV/stella-sora-vita)"}
 WIKI = "https://stellasora.miraheze.org/wiki/"
 FILE = WIKI + "Special:FilePath/"
 DIAS_ADELANTE = 3   # banners que empiezan en los proximos N dias (no adelantamos filtraciones)
