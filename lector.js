@@ -32,6 +32,9 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-sp{position:absolute;bottom:-42%;height:128%;transform:translateX(-50%);animation:rdIn .35s;pointer-events:none;transition:left var(--d,0s) var(--e,linear),bottom var(--d,0s) var(--e,linear),height var(--d,0s) var(--e,linear),opacity var(--d,0s) var(--e,linear)}
 #rd .rd-sp img{height:100%;width:auto;display:block}
 #rd .rd-emo,#rd .rd-memo{position:absolute;font-size:calc(var(--u)*8);line-height:1;animation:rdPop .45s;pointer-events:none;filter:drop-shadow(0 1px 3px rgba(0,0,0,.5));z-index:3}
+#rd .rd-emo.img,#rd .rd-memo.img{font-size:0}
+#rd .rd-emo.img img{height:calc(var(--u)*13);width:auto;display:block}
+#rd .rd-memo.img img{height:calc(var(--u)*11);width:auto;display:block}
 #rd .rd-emo{top:18%;right:-6%}
 #rd .rd-memo{left:21%;top:calc(var(--u)*-9)}
 @keyframes rdPop{0%{transform:scale(.2);opacity:0}60%{transform:scale(1.25);opacity:1}100%{transform:scale(1)}}
@@ -276,8 +279,20 @@ function faceSet(pose,expr){
 }
 function emoji(host,n,cls){
   host.querySelectorAll("."+cls).forEach(x=>x.remove());
-  if(!n)return;const t=EM[n];if(!t)return;
-  const e=document.createElement("span");e.className=cls;e.textContent=t;host.appendChild(e);
+  if(!n)return;
+  const e=document.createElement("span");e.className=cls;e.textContent=EM[n]||"";host.appendChild(e);
+  /* iconos animados reales del juego (Avg_emoji_<nombre>_<cuadro>.png en la wiki); si no existen, queda el emoji de texto */
+  const fr=[];let i=1;
+  const go=()=>{
+    if(!fr.length)return;
+    e.textContent="";e.classList.add("img");
+    const im=document.createElement("img");im.alt="";im.src=fr[0];e.appendChild(im);
+    if(fr.length>1){let k=0;e._t=setInterval(()=>{if(!e.isConnected){clearInterval(e._t);return}k=(k+1)%fr.length;im.src=fr[k]},150)}
+  };
+  const nx=()=>{const m=new Image();m.referrerPolicy="no-referrer";
+    m.onload=()=>{fr.push(m.src);i++;if(i<=12)nx();else go()};
+    m.onerror=go;m.src=FILE+"Avg_emoji_"+n+"_"+i+".png"};
+  nx();
 }
 function lay(w){
   const K=(S&&S.zs)||1,yy=+(w.dataset.y||0),ss=+(w.dataset.s||1),h=128*ss*K;let b=-42+yy*100;
@@ -476,7 +491,7 @@ function actos(hold){
     return '<button class="'+cl+'" data-a="nx" data-n="'+id+'" data-id="'+id+'"><b>'+(f?"El fin":num)+(rd.indexOf(id)>=0?" ✓":"")+'</b><span>'+(f?tit.replace(/^Final: /,""):tit)+'</span></button>'
   };
   let h='<div class="rd-map"><div class="rd-mt"><h2>'+c[0]+'</h2><button class="rd-b" data-a="'+(hold?'x':'ay')+'">'+(hold?'Cerrar':'Volver')+'</button></div>';
-  if(hold&&pr&&NOMB[pr])h+='<button class="rd-b rd-cont" data-a="nx" data-n="'+pr+'">Continuar: '+NOMB[pr]+'</button>';
+  if(hold){const pi=(pr&&NOMB[pr])?pr:c[1][0][0];h+='<button class="rd-b rd-cont" data-a="nx" data-n="'+pi+'">'+((pr&&NOMB[pr])?'Continuar: ':'Empezar: ')+(NOMB[pi]||pi)+'</button>'}
   h+='<div class="rd-ms"><div class="rd-mg">';
   c[1].forEach(col=>{h+='<div class="rd-mc">'+col.map(nodo).join("")+'</div>'});
   h+='<svg class="rd-ml"></svg></div></div></div>';
@@ -499,13 +514,13 @@ window.abrirLector=async function(id){
   try{const de=document.documentElement;if(de.requestFullscreen)await de.requestFullscreen({navigationUI:"hide"})}catch(e){}
   try{if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock("landscape")}catch(e){}
   let pr=null;try{pr=localStorage.getItem("rdp"+chOf(id))}catch(e){}
-  await iniciar(id,null,!!(pr&&pr!==id&&NOMB[pr]));
+  await iniciar(id,null,!!CAPS[chOf(id)]);
 };
 async function iniciar(id,prev,hold){
   let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
   let g=1,m=0,zs=1;try{const z=+localStorage.getItem("rdz");if(z)zs=z;const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
   if(S&&S.timer){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S.at)}
-  try{localStorage.setItem("rdp"+chOf(id),id)}catch(e){}
+  if(!hold)try{localStorage.setItem("rdp"+chOf(id),id)}catch(e){}
   S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],chars:{},log:[],g:g,mute:m,zs:zs,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
