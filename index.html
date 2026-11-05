@@ -251,7 +251,7 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .disc-art{display:block;margin:0 auto;max-width:100%;max-height:60vh;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .dmore{margin-top:10px}.dmore[hidden]{display:none}
 .trk{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px}.trk span{padding:5px 11px;border-radius:999px;background:rgba(123,108,255,.18);border:1px solid rgba(123,108,255,.4);font-size:.8rem;color:#d9d3ff}
-.story-t{font-size:1.02rem;margin:4px 0 6px}.story-x{white-space:pre-line;line-height:1.55;font-size:.88rem;color:#e6e1ff;text-transform:none}
+.acc3{display:flex;flex-direction:column;gap:10px;margin:4px 0 12px}.acc3 .btn{width:100%;margin:0;text-align:center;box-sizing:border-box}#acc-res{margin-bottom:12px}.story-t{font-size:1.02rem;margin:4px 0 6px}.story-x{white-space:pre-line;line-height:1.55;font-size:.88rem;color:#e6e1ff;text-transform:none}
 .nota-en{font-size:.7rem;color:var(--t2);margin-top:8px}
 .skin{padding:10px 0;border-top:1px solid #2a2740}.skin:first-of-type{border-top:0}
 .skin h4{margin:0 0 3px;font-size:.92rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap;text-transform:none}
@@ -462,6 +462,11 @@ body.bgm-on .screen{padding-bottom:84px}
   <main><div id="charstories-list"></div></main>
 </div>
 
+<div id="s-charstory" class="screen">
+  <div class="topbar"><button type="button" class="back-story">‹</button><h2 id="cs-title">Historia de personaje</h2></div>
+  <main><div id="charstory-detail"></div></main>
+</div>
+
 <div id="s-builds" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Equipos y builds</h2></div>
   <main>
@@ -502,7 +507,7 @@ const ROLE_ES={Vanguard:"Vanguardia",Support:"Apoyo",Versatile:"Versátil"};
 const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 try{localStorage.removeItem("ss_favs")}catch(e){}
-const PARENT={about:"",news:"",builds:"",build:"builds",chars:"",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story"};
+const PARENT={about:"",news:"",builds:"",build:"builds",chars:"",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
 function nav(h){if(location.hash==="#"+h)return;navFlag=true;depth++;location.hash=h}
 function goBack(){if(depth>0){depth--;history.back();return}
   const p=cur==="detail"?backTo:(PARENT[cur]||"");location.replace("#"+p);}
@@ -516,6 +521,7 @@ function route(){
   else if(k==="ch"){showChap(v)}
   else if(k==="ev"){showEvent(v)}
   else if(k==="nt"){showNova(v)}
+  else if(k==="cs"){showCS(v)}
   else if(k==="b"){showBuild(v)}
   else if(document.getElementById("s-"+k)){go(k)}
   else showStart();
@@ -546,6 +552,8 @@ document.body.addEventListener("click", function(e){
     return;
   }
   if(e.target.closest("[data-back],.back-story,#bk")){ goBack(); return; }
+  const cs = e.target.closest("[data-cs]");
+  if(cs){ nav("cs/"+encodeURIComponent(cs.dataset.cs)); return; }
   const nv = e.target.closest("[data-nav]");
   if(nv){ nav(nv.dataset.nav); return; }
 });
@@ -566,6 +574,18 @@ function rsHtml(t){
     return pp(L);
   }).join("");
 }
+/* Panel de 3 botones: Ver resumen / Leer en el lector / Ir a la wiki */
+const LECTOR={"ch:0":"STm00_01","ch:1":"STm01_01"};
+function accionesHist(key,resHtml,wikiUrl,wikiTxt){
+  const L=LECTOR[key];
+  return `<div class="acc3">
+    <button type="button" class="btn" onclick="var p=document.getElementById('acc-res');p.hidden=!p.hidden;this.textContent=p.hidden?'📖 Ver resumen':'📖 Ocultar resumen'">📖 Ver resumen</button>
+    ${L?`<button type="button" class="btn" onclick="abrirLector('${L}')">▶ Leer en el lector</button>`
+       :`<button type="button" class="btn out" disabled style="opacity:.55">▶ Lector (próximamente)</button>`}
+    <a class="btn out" href="${wikiUrl}" target="_blank" rel="noopener">${wikiTxt}</a>
+  </div>
+  <div id="acc-res" hidden>${resHtml}</div>`;
+}
 function showChap(n){
   const c=CHAPS.find(x=>String(x.number)===String(n)); if(!c){showStart();return}
   const sp=/^\d+\.5$/.test(String(c.number)), pro=String(c.number)==="0";
@@ -573,13 +593,11 @@ function showChap(n){
   document.getElementById("chapter-detail").innerHTML=`
     <img class="chap-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
     <h2 style="font-size:1.3rem;margin:12px 0 2px">${esc(c.titleEs)}</h2>
-    <p style="color:var(--t2);font-size:.85rem;margin-bottom:10px">${esc(c.titleEn)}</p>
-    <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
-      ${c.resumen?rsHtml(c.resumen):`<p style="line-height:1.55">Todavía no hay resumen en español de este capítulo. Muy pronto lo agregamos; mientras tanto puedes leerlo completo en la wiki.</p>`}
-      <p style="font-size:.78rem;color:var(--t2);margin-top:12px">${!c.resumen?"":c.credito?"Resumen por <b style=\"color:var(--gold)\">Catador de Trekkers</b>.":"Resumen propio basado en la wiki; no incluye todos los detalles."}</p></div>
-    ${String(c.number)==="1"?`<button type="button" class="btn" style="width:100%;margin-bottom:10px" onclick="abrirLector('STm01_01')">▶ Leer en el lector (prueba · Acto 1)</button>`:""}
-    ${String(c.number)==="0"?`<button type="button" class="btn" style="width:100%;margin-bottom:10px" onclick="abrirLector('STm00_01')">▶ Leer en el lector (prueba · Prólogo)</button>`:""}
-    <a class="btn" href="${c.url}" target="_blank" rel="noopener">${c.noWiki?"Ver la publicación original en Facebook":"Leer el capítulo completo"}</a>`;
+    <p style="color:var(--t2);font-size:.85rem;margin-bottom:10px">${esc(c.titleEn)}</p>`+
+    accionesHist("ch:"+c.number,`<div class="card"><div class="spoil">⚠ Contiene spoilers</div>
+      ${c.resumen?rsHtml(c.resumen):`<p style="line-height:1.55">Todavía no hay resumen en español de este capítulo. Muy pronto lo agregamos.</p>`}
+      <p style="font-size:.78rem;color:var(--t2);margin-top:12px">${!c.resumen?"":c.credito?"Resumen por <b style=\"color:var(--gold)\">Catador de Trekkers</b>.":"Resumen propio basado en la wiki; no incluye todos los detalles."}</p></div>`,
+      c.url,c.noWiki?"🌐 Ver en Facebook":"🌐 Ver en la wiki");
   go("chapter");
 }
 function bannerStatus(b){
@@ -642,11 +660,11 @@ function showEvent(id){
   document.getElementById("event-detail").innerHTML=`
     <img class="chap-img" src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' referrerpolicy="no-referrer" onerror="evErr(this)"/>
     <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(e.name)}</h2>
-    ${e.trekker?`<div class="chips"><span class="chip on">Trekker destacada: ${esc(e.trekker)}</span></div>`:""}
-    <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
-      ${e.resumen?e.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join(""):`<p style="line-height:1.55">Todavía no hay resumen en español de este evento. Muy pronto lo agregamos; mientras tanto puedes leerlo completo en la wiki.</p>`}
-      <p style="font-size:.72rem;color:var(--t2)">${e.resumen?"Resumen propio basado en la wiki y los anuncios oficiales; no incluye todos los detalles.":""}</p></div>
-    <a class="btn" href="${e.url}" target="_blank" rel="noopener">Leer el evento completo</a>`;
+    ${e.trekker?`<div class="chips"><span class="chip on">Trekker destacada: ${esc(e.trekker)}</span></div>`:""}`+
+    accionesHist("ev:"+e.id,`<div class="card"><div class="spoil">⚠ Contiene spoilers</div>
+      ${e.resumen?e.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join(""):`<p style="line-height:1.55">Todavía no hay resumen en español de este evento. Muy pronto lo agregamos.</p>`}
+      <p style="font-size:.72rem;color:var(--t2)">${e.resumen?"Resumen propio basado en la wiki y los anuncios oficiales; no incluye todos los detalles.":""}</p></div>`,
+      e.url,"🌐 Ver en la wiki");
   go("event");
 }
 
@@ -662,24 +680,32 @@ function showNova(id){
   document.getElementById("nt-title").textContent="Nova Times #"+n.number;
   document.getElementById("nova-detail").innerHTML=`
     <img class="chap-img" src="${n.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
-    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(n.name)}</h2>
-    <div class="card">
+    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(n.name)}</h2>`+
+    accionesHist("nt:"+n.id,`<div class="card">
       ${n.resumen?`<div class="spoil">⚠ Contiene spoilers</div>`+n.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join("")
         :`<p style="margin-bottom:10px;line-height:1.55">Todavía no hay un resumen de esta historia en la app.</p>`}
       ${n.disponible?`<p style="font-size:.85rem;color:var(--t2);margin-bottom:8px">${esc(n.disponible)}</p>`:""}
       ${n.resumen?`<p style="font-size:.72rem;color:var(--t2)">Resumen propio basado en la wiki y en las descripciones oficiales; no incluye todos los detalles.</p>`:""}
-    </div>
-    <a class="btn" href="${n.url}" target="_blank" rel="noopener">Leer la historia completa</a>`;
+    </div>`,n.url,"🌐 Ver en la wiki");
   go("nova");
 }
 
 function rCS(){document.getElementById("charstories-list").innerHTML = CHAR_STORIES.map(c=>`
-  <div class="item" onclick="window.open('${c.url}','_blank')">
+  <div class="item" data-cs="${esc(c.name)}" style="cursor:pointer">
     ${av(c.img)}
     <div class="info"><h3>${c.name}</h3><div class="m">Historia / Affinity${c.nuevo?" · <b style='color:var(--gold)'>NUEVO</b>":""}</div></div>
   </div>`).join("");}rCS();
 
 
+function showCS(name){
+  const c=CHAR_STORIES.find(x=>x.name===name); if(!c){showStart();return}
+  document.getElementById("cs-title").textContent="Historia de personaje";
+  document.getElementById("charstory-detail").innerHTML=`
+    <img class="chap-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(c.name)}</h2>`+
+    accionesHist("cs:"+c.name,`<div class="card"><div class="spoil">⚠ Contiene spoilers</div><p style="line-height:1.55">Todavía no hay resumen en español de esta historia. Muy pronto lo agregamos.</p></div>`,c.url,"🌐 Ver en la wiki");
+  go("charstory");
+}
 function elIcon(el){
   if(!el) return "";
   const name = el.toLowerCase();
