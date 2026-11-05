@@ -492,6 +492,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="data.js"></script>
 <script src="traducciones.js"></script>
 <script src="historias.js"></script>
+<script src="lector.js"></script>
 <script src="cambios.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
@@ -576,6 +577,7 @@ function showChap(n){
     <div class="card"><div class="spoil">⚠ Contiene spoilers</div>
       ${c.resumen?rsHtml(c.resumen):`<p style="line-height:1.55">Todavía no hay resumen en español de este capítulo. Muy pronto lo agregamos; mientras tanto puedes leerlo completo en la wiki.</p>`}
       <p style="font-size:.78rem;color:var(--t2);margin-top:12px">${!c.resumen?"":c.credito?"Resumen por <b style=\"color:var(--gold)\">Catador de Trekkers</b>.":"Resumen propio basado en la wiki; no incluye todos los detalles."}</p></div>
+    ${String(c.number)==="1"?`<button type="button" class="btn" style="width:100%;margin-bottom:10px" onclick="abrirLector('STm01_01')">▶ Leer en el lector (prueba · Acto 1)</button>`:""}
     <a class="btn" href="${c.url}" target="_blank" rel="noopener">${c.noWiki?"Ver la publicación original en Facebook":"Leer el capítulo completo"}</a>`;
   go("chapter");
 }
