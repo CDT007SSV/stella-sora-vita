@@ -147,7 +147,7 @@ function build(){
   el.addEventListener("click",e=>{
     const a=e.target.closest("[data-a]");
     if(a){const k=a.dataset.a;
-      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}
+      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}
     if(e.target.closest(".rd-card"))return;
@@ -429,8 +429,15 @@ function avanza(){
     }
   }
 }
-const SIG={STm00_01:"STm00_02"};
-function fin(){pararAudio();const nx=SIG[S.id];if(nx){card('<small>Fin de esta parte</small><h2>Continúa la historia</h2><p>Sigue la siguiente parte del prólogo.</p><button class="rd-b" data-a="nx" style="margin-top:18px">Continuar</button> <button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>');return}card('<small>Fin de esta escena</small><h2>Prueba del lector</h2><p>Esto es una versión de prueba. Cuéntame qué te pareció.</p><button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>')}
+const SIG={STm00_01:"STm00_02",STm01_01:"STm01_02",STm01_02:"STm01_03",STm01_03:"STm01_04",STm01_04:"STm01_05",STm01_05:"STm01_06",STm01_06:"STm01_07",STm01_07:"STm01_08_a",STm01_08_a:"STm01_09",STm01_08_b:"STm01_08_a",STm01_08_c:"STm01_09",STm01_09:"STm01_10"};
+const ALT={STm01_07:[["STm01_08_c","Ruta alterna: la cena (Acto 8)"],["STm01_08_b","Final alternativo: Un futuro sin Trekkers"]]};
+const NOMB={STm00_01:"Prólogo, parte 1",STm01_01:"Acto 1",STm01_02:"Acto 2",STm01_03:"Acto 3",STm01_04:"Acto 4",STm01_05:"Acto 5",STm01_06:"Acto 6",STm01_07:"Acto 7",STm01_08_a:"Acto 8",STm01_08_b:"Final alternativo",STm01_08_c:"Acto 8 (la cena)",STm01_09:"Acto 9",STm01_10:"Acto 10"};
+function fin(){pararAudio();const nx=SIG[S.id];let h;
+  if(nx){h='<small>Fin de esta parte</small><h2>'+(NOMB[S.id]||"")+' terminado</h2><p>Sigue: '+(NOMB[nx]||"la siguiente parte")+'.</p><button class="rd-b" data-a="nx" data-n="'+nx+'" style="margin-top:18px">Continuar</button>';
+    (ALT[S.id]||[]).forEach(function(x){h+=' <button class="rd-b" data-a="nx" data-n="'+x[0]+'" style="margin-top:10px">'+x[1]+'</button>'});
+    h+=' <button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>'}
+  else h='<small>Fin</small><h2>'+(NOMB[S.id]||"Fin")+' terminado</h2><p>Por ahora llegamos hasta aquí. ¡Continuará!</p><button class="rd-b" data-a="x" style="margin-top:18px">Cerrar</button>';
+  card(h)}
 window.abrirLector=async function(id){
   build();
   try{const st=document.getElementById("bgm-st");if(st&&document.getElementById("bgmbar").classList.contains("on"))st.click()}catch(e){}
