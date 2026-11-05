@@ -310,7 +310,7 @@ body.bgm-on .screen{padding-bottom:84px}
   <div class="hm-wrap">
     <div class="hm-col">
       <div class="hm hm-big" data-go="chars">
-        <img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_Promotional_Image_5.png" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+        <img id="pt-chars" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_Promotional_Image_5.png" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
         <div class="hm-sh"></div>
         <div class="hm-t">✦ Personajes ✦<small id="n-chars"></small></div>
       </div>
@@ -325,8 +325,8 @@ body.bgm-on .screen{padding-bottom:84px}
         <div class="hm-thumbs" id="hm-thumbs"></div>
       </div>
       <div class="hm-panel"><div class="hm-grid">
-        <div class="hm c-pur" data-go="discs"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Sword_Against_Stream.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Discos<small id="n-discs"></small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><path d="M12 3a9 9 0 019 9"/></svg></div>
-        <div class="hm c-teal" data-go="story"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Historia</b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6 4.5 9 4.5 12 6c3-1.5 6-1.5 8-.5V19c-2-1-5-1-8 .5-3-1.5-6-1.5-8-.5z"/><path d="M12 6v13.5"/></svg></div>
+        <div class="hm c-pur" data-go="discs"><img id="pt-discs" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Sword_Against_Stream.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Discos<small id="n-discs"></small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><path d="M12 3a9 9 0 019 9"/></svg></div>
+        <div class="hm c-teal" data-go="story"><img id="pt-story" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Historia</b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6 4.5 9 4.5 12 6c3-1.5 6-1.5 8-.5V19c-2-1-5-1-8 .5-3-1.5-6-1.5-8-.5z"/><path d="M12 6v13.5"/></svg></div>
         <div class="hm c-pink" data-go="art"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Event_Celebration_Main_Story_Chapter_7.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Arte<small>y CGs</small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 18l5-5 4 4 3-3 4 4"/></svg></div>
         <div class="hm c-gold" id="hm-builds" data-open="https://gray-smell-445.notion.site/795d71674a0c82fe849b01d5ce9e848d?v=40dd71674a0c809b8889000c4c6e757d&amp;source=copy_link"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/1st_Anniversary_Celebration_Illustration_7_EN.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><b>Equipos<small>y builds</small></b><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
       </div></div>
@@ -990,6 +990,10 @@ async function cargarAuto(){
     const r=await fetch("auto.json",{cache:"no-cache"}); if(!r.ok)return;
     const A=await r.json();
     const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"");
+    if(A.portadas){
+      const pt=(id,o)=>{const i=document.getElementById(id);if(!i||!o||!o.img||!o.img.length)return;i.dataset.q=o.img.slice(1).join(",");i.onerror=()=>skFb(i);i.src=o.img[0]};
+      pt("pt-chars",A.portadas.personaje);pt("pt-discs",A.portadas.discoGacha);pt("pt-story",A.portadas.discoLibre);
+    }
     if(A.personajes&&A.personajes.length){
       const by=new Map(CHARS.map(c=>[c.name,c])), nuevos=[];
       for(const p of A.personajes){

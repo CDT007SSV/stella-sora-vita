@@ -504,11 +504,35 @@ try:
 except Exception as ex:
     print("Extras omitidos por error:", ex)
 
+def rareza_ok(d):
+    return d.get("rarity") == 5
+
+# ---------- portadas de los botones de inicio (se eligen solas) ----------
+# Personajes: arte de despertar del personaje mas nuevo.
+# Discos: el disco de gacha mas nuevo (esta en algun paquete de gacha) y el disco gratis mas nuevo (no esta en ninguno).
+portadas = {}
+try:
+    nuevo_p = max(personajes, key=lambda p: p["cid"])
+    n = q(nuevo_p["name"])
+    portadas["personaje"] = {"name": nuevo_p["name"],
+                             "img": [FILE + n + "_awakened_02.png", FILE + n + "_awakened.png", nuevo_p["imageUrl"]]}
+    en_gacha = {str(v.get("GoodsId")) for v in jopt("bin/GachaPkg.json").values()}
+    if en_gacha - {"None"}:
+        for clave, quiere in (("discoGacha", True), ("discoLibre", False)):
+            for d in discos:  # ya vienen de mas nuevo a mas viejo
+                if rareza_ok(d) and ((str(d["did"]) in en_gacha) == quiere):
+                    portadas[clave] = {"name": d["name"], "img": list(d.get("imageAlts") or []) + [d["imageUrl"]]}
+                    break
+    print("Portadas:", {k: v["name"] for k, v in portadas.items()})
+except Exception as e:
+    print("AVISO portadas:", e)
+    portadas = {}
+
 # ---------- comprobaciones y guardado ----------
 if len(personajes) < 30 or len(discos) < 80:
     print("ERROR: muy pocos datos, no se guarda nada.")
     sys.exit(1)
-datos = {"fuente": "Hiro420/StellaSoraData (GPL-3.0)", "personajes": personajes, "discos": discos, "banners": banners}
+datos = {"fuente": "Hiro420/StellaSoraData (GPL-3.0)", "personajes": personajes, "discos": discos, "banners": banners, "portadas": portadas}
 previo = None
 if os.path.exists("auto.json"):
     try:
