@@ -229,6 +229,9 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .ncard p{margin:0;font-size:.76rem;color:var(--t2)}
 .ntype{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:rgba(123,108,255,.25);color:#cfc8ff}
 .ntype.t-personaje{background:rgba(232,196,106,.25);color:#f3d98a}.ntype.t-build{background:rgba(92,225,230,.2);color:#8ff0f3}.ntype.t-banner{background:rgba(255,107,157,.22);color:#ff9fc0}
+.ntype.t-app{background:rgba(160,255,190,.18);color:#a8f5c0}
+.ncard .nbul{margin:8px 0 0;padding-left:18px;font-size:.78rem;color:#e6e1ff;line-height:1.45;text-transform:none}.ncard .nbul li{margin-bottom:3px}
+.ncard .nmore{margin-top:2px;color:var(--gold)}
 .ncard .ndt{position:absolute;top:9px;right:11px;font-size:.66rem;color:var(--t2)}
 /* encabezado de personaje */
 .badge.rbig{font-size:1.05rem;padding:4px 12px;border-radius:9px;letter-spacing:.03em}
@@ -440,6 +443,7 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 
 <script src="data.js"></script>
 <script src="traducciones.js"></script>
+<script src="cambios.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
@@ -900,15 +904,26 @@ document.addEventListener("click",e=>{
   if(a&&/^https?:/i.test(a.getAttribute("href"))){e.preventDefault();openLink(a.href)}
 },true);
 // ===== PWA: instalación y service worker =====
-document.querySelector("#start .aboutbtn").insertAdjacentHTML("beforebegin",`<button type="button" class="btn out" id="install-btn" hidden style="margin-top:14px">📲 Instalar app en tu teléfono</button>
-<p id="ios-tip" class="foot" hidden style="margin-top:12px">Para instalarla en iPhone: abre esta página en Safari, toca Compartir y elige «Añadir a pantalla de inicio».</p>`);
+document.querySelector("#start .aboutbtn").insertAdjacentHTML("beforebegin",`<button type="button" class="btn out" id="install-btn" style="margin-top:14px">📲 Instalar app en tu teléfono</button>
+<p id="ios-tip" class="foot" hidden style="margin-top:12px"></p>`);
 {
   const btn=document.getElementById("install-btn"); let dp=null;
+  const K="app_instalada";
+  const get=()=>{try{return localStorage.getItem(K)==="1"}catch(e){return false}};
+  const set=v=>{try{v?localStorage.setItem(K,"1"):localStorage.removeItem(K)}catch(e){}};
   const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
-  window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;if(!standalone)btn.hidden=false});
-  btn.onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;dp=null;btn.hidden=true};
-  window.addEventListener("appinstalled",()=>{btn.hidden=true});
-  if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!standalone) document.getElementById("ios-tip").hidden=false;
+  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  const tip=document.getElementById("ios-tip");
+  const mostrar=()=>{btn.hidden=!!(standalone||get())};
+  if(standalone)set(true);          // abierta como app: queda marcada como instalada
+  mostrar();
+  window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;set(false);if(!standalone)btn.hidden=false});
+  window.addEventListener("appinstalled",()=>{set(true);btn.hidden=true;tip.hidden=true});
+  btn.onclick=async()=>{
+    if(dp){dp.prompt();await dp.userChoice;dp=null;mostrar();return}
+    tip.textContent=ios?"Para instalarla en iPhone: abre esta página en Safari, toca Compartir y elige «Añadir a pantalla de inicio».":"Para instalarla: abre el menú del navegador (⋮) y elige «Instalar app» o «Añadir a pantalla de inicio».";
+    tip.hidden=false;
+  };
   if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
 // ===== Datos automáticos (auto.json lo genera GitHub cada día) =====
@@ -1031,9 +1046,10 @@ function nvTicker(){
   let k=0; t.textContent=un[0].titulo;
   if(un.length>1) nvTimer=setInterval(()=>{k=(k+1)%un.length;t.classList.add("out");setTimeout(()=>{t.textContent=un[k].titulo;t.classList.remove("out")},350)},4000);
 }
-const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔"};
+const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔",app:"✦"};
 const nvFecha=f=>{try{return new Date(f).toLocaleDateString("es",{day:"numeric",month:"short"})}catch(e){return ""}};
-function nvGo(x){
+function nvGo(x,el){
+  if(x.tipo==="app"){const b=el&&el.querySelector(".nbul");if(b)b.hidden=!b.hidden;return}
   if(x.tipo==="personaje"){const c=CHARS.find(c=>c.name===x.ref);nav(c?"c/"+c.id:"chars")}
   else if(x.tipo==="disco")nav(DISCS.find(d=>d.name===x.ref)?"d/"+x.ref:"discs");
   else if(x.tipo==="build")nav(BUILDS&&BUILDS.items.some(b=>b.id===x.ref)?"b/"+x.ref:"builds");
@@ -1044,16 +1060,18 @@ function nvRender(){
   const un=new Set(nvUnread().map(x=>x.id));
   box.innerHTML=NV.map((x,i)=>`<div class="ncard${un.has(x.id)?" nu":""}" data-i="${i}">
     ${x.img?`<img class="nimg" src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=nimg>${nvIcon[x.tipo]||"✦"}</div>'">`:`<div class="nimg">${nvIcon[x.tipo]||"✦"}</div>`}
-    <div><span class="ntype t-${x.tipo}">${({personaje:"Personaje",disco:"Disco",banner:"Banner",build:"Build"})[x.tipo]||x.tipo}</span><h3>${esc(x.titulo)}</h3>${x.texto?`<p>${esc(x.texto)}</p>`:""}</div>
+    <div><span class="ntype t-${x.tipo}">${({personaje:"Personaje",disco:"Disco",banner:"Banner",build:"Build",app:"App"})[x.tipo]||x.tipo}</span><h3>${esc(x.titulo)}</h3>${x.texto?`<p>${esc(x.texto)}</p>`:""}${x.puntos?`<p class="nmore">Toca para ver los cambios</p><ul class="nbul" hidden>${x.puntos.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}</div>
     <span class="ndt">${nvFecha(x.fecha)}</span></div>`).join("")||'<div class="card"><p>Aún no hay novedades.</p></div>';
-  box.querySelectorAll(".ncard").forEach(el=>{el.onclick=()=>nvGo(NV[+el.dataset.i])});
+  box.querySelectorAll(".ncard").forEach(el=>{el.onclick=()=>nvGo(NV[+el.dataset.i],el)});
   document.getElementById("nfoot").textContent=NV.length?"Se actualiza solo cada día.":"";
 }
 window.nvSeen=()=>{ if(NV.length){nvRender();nvSet(NV[0].id);nvTicker()} };
 async function cargarNovedades(){
   try{
-    const r=await fetch("novedades.json",{cache:"no-cache"}); if(!r.ok)return;
-    const d=await r.json(); NV=(d.items||[]);
+    let items=[];
+    try{const r=await fetch("novedades.json",{cache:"no-cache"}); if(r.ok){const d=await r.json(); items=d.items||[]}}catch(e){}
+    const app=(typeof CAMBIOS!=="undefined"?CAMBIOS:[]).map(c=>({id:c.id,tipo:"app",titulo:c.titulo,texto:"",puntos:c.puntos,fecha:c.fecha}));
+    NV=[...app,...items].sort((a,b)=>(Date.parse(b.fecha)||0)-(Date.parse(a.fecha)||0));
     nvRender(); nvTicker();
   }catch(e){}
 }
