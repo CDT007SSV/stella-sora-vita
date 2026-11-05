@@ -21,11 +21,12 @@ jobs:
         run: python3 generar_builds.py
       - name: Guardar cambios
         run: |
-          git add -A auto.json builds.json builds_img 2>/dev/null || true
-          if [ -n "$(git status --porcelain auto.json builds.json builds_img)" ]; then
+          git add auto.json
+          [ -f builds.json ] && git add builds.json
+          [ -d builds_img ] && git add builds_img
+          if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A auto.json builds.json builds_img 2>/dev/null || true
             git commit -m "Actualizar datos automaticos"
             git pull --rebase -X theirs origin main
             git push
