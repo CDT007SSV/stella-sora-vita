@@ -136,6 +136,26 @@ def encontrar_base():
         if r.get("object") == "data_source":
             return r
         print("No se pudo leer la fuente", did, r.get("message", "")[:200])
+    # Plan B: todo lo que la integracion puede ver (para saber que falta compartir)
+    print("--- Lo que la integracion puede ver ---")
+    vistos = []
+    for filtro in (None, "data_source"):
+        cuerpo = {"page_size": 50}
+        if filtro: cuerpo["filter"] = {"property": "object", "value": filtro}
+        r = api("POST", "/search", cuerpo)
+        if r.get("object") == "error":
+            print("Busqueda:", r.get("message", "")[:200]); continue
+        for d in r.get("results", []):
+            if filtro is None:
+                t = d.get("title") or [x for v in d.get("properties", {}).values() if v.get("type") == "title" for x in v.get("title", [])]
+                print(" -", d.get("object"), d.get("id"), "|", texto(t)[:60])
+            else:
+                vistos.append(d)
+    for d in vistos:
+        print("Probando fuente visible:", d["id"], texto(d.get("title")))
+        r = api("GET", "/data_sources/" + d["id"])
+        if r.get("object") == "data_source":
+            return r
     return None
 
 def main():
