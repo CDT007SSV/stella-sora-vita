@@ -287,6 +287,16 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 #splash span{width:46px;height:2px;background:linear-gradient(90deg,transparent,#5CE1E6,transparent);animation:shim 1s linear infinite;background-size:200% 100%}
 @keyframes spl{to{opacity:0;visibility:hidden}}
 </style>
+<style id="bgm-css">
+.bgm-card{display:flex;align-items:center;gap:10px;width:100%;padding:11px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);color:inherit;font:inherit;font-weight:600;cursor:pointer}
+.bgm-card .bgm-ic{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#f5d36b,#d9a63c);color:#2a1d00;font-size:.8rem}
+#bgmbar{position:fixed;left:8px;right:8px;bottom:calc(8px + env(safe-area-inset-bottom));z-index:60;display:none;align-items:center;gap:8px;padding:8px 10px;border-radius:16px;background:rgba(24,18,48,.96);border:1px solid rgba(255,255,255,.2);box-shadow:0 6px 24px rgba(0,0,0,.45);backdrop-filter:blur(8px);color:#fff}
+#bgmbar.on{display:flex}
+#bgmbar .bgm-n{flex:1;min-width:0;line-height:1.15}#bgmbar .bgm-n small{display:block;opacity:.65;font-size:.68rem}#bgmbar .bgm-n b{display:block;font-size:.88rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#bgmbar button{border:0;border-radius:12px;padding:9px 12px;font:inherit;font-weight:700;font-size:.82rem;cursor:pointer}
+#bgmbar .bgm-pp{background:rgba(255,255,255,.14);color:#fff;min-width:44px}#bgmbar .bgm-st{background:#e0556f;color:#fff}
+body.bgm-on .screen{padding-bottom:84px}
+</style>
 </head>
 <body class="home">
 <div id="splash"><b>Stella Sora</b><span></span><i>VITA</i></div>
@@ -463,6 +473,7 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 
 <script src="data.js"></script>
 <script src="traducciones.js"></script>
+<script src="historias.js"></script>
 <script src="cambios.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
@@ -1110,11 +1121,14 @@ function discExtraHtml(d,E){
   if(!x)return `<div class="card"><p>Todavía no hay historia disponible para este disco.</p></div>`+wiki;
   const bgm="https://stellasora.miraheze.org/wiki/Special:FilePath/"+encodeURIComponent("BGM "+d.name)+".ogg";
   const audio=`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Música</h3>
-    <audio controls preload="none" src="${bgm}" style="width:100%" onerror="this.outerHTML='<p class=nota-en>No se pudo reproducir aquí. Escúchala desde el botón de la wiki.</p>'"></audio></div>`;
+    <button type="button" class="bgm-card" data-bgm="${esc(bgm)}" data-name="${esc(d.name)}"><span class="bgm-ic">▶</span><span class="bgm-tx">Reproducir música</span></button>
+    <p class="nota-en" style="margin:8px 0 0">Seguirá sonando mientras navegas por la app.</p></div>`;
   const tracks=[x.t1,x.t2].filter(Boolean).map(t=>`<span>♪ ${esc(tr(t))}</span>`).join("");
-  const en=x.tx&&!TR[x.tx];
+  const hs=(typeof HIST!=="undefined")&&HIST[d.name];
+  const txt=hs&&x.tx&&x.tx.trim().startsWith(hs.s)?hs.t:tr(x.tx);
+  const en=x.tx&&!TR[x.tx]&&txt===x.tx;
   return `${audio}${tracks?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Temas</h3><div class="trk">${tracks}</div></div>`:""}
-    ${x.tx?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Historia</h3>${x.st?`<h4 class="story-t">${esc(tr(x.st))}</h4>`:""}<div class="story-x">${esc(tr(x.tx))}</div>${en?'<p class="nota-en">Texto original en inglés, traducción pendiente.</p>':""}</div>`:""}`+wiki;
+    ${x.tx?`<div class="card"><h3 style="margin:0 0 4px;font-size:1rem">Historia</h3>${x.st?`<h4 class="story-t">${esc(tr(x.st))}</h4>`:""}<div class="story-x">${esc(txt)}</div>${en?'<p class="nota-en">Texto original en inglés, traducción pendiente.</p>':""}</div>`:""}`+wiki;
 }
 function skFb(i){const q=(i.dataset.q||"").split(",").filter(Boolean),n=q.shift();i.dataset.q=q.join(",");if(n)i.src=n;else i.remove()}
 function skinsHtml(c,E,idx){
@@ -1590,5 +1604,35 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
 };
 </script>
 
+<div id="bgmbar" role="region" aria-label="Reproductor de música"><div class="bgm-n"><small>Reproduciendo</small><b id="bgm-name"></b></div><button type="button" class="bgm-pp" id="bgm-pp" aria-label="Pausar o reanudar">❚❚</button><button type="button" class="bgm-st" id="bgm-st">Parar</button></div>
+<script>
+(function(){
+  const A=new Audio();A.preload="none";A.loop=true;let cur="",nm="";
+  const bar=document.getElementById("bgmbar"),pp=document.getElementById("bgm-pp");
+  function ui(){
+    const playing=!A.paused&&cur;
+    const pa=playing?"❚❚":"▶";if(pp.textContent!==pa)pp.textContent=pa;
+    document.querySelectorAll(".bgm-card").forEach(b=>{const me=b.dataset.bgm===cur;const ic=b.querySelector(".bgm-ic"),tx=b.querySelector(".bgm-tx"),a=me&&playing?"❚❚":"▶",c=me?(playing?"Pausar música":"Reanudar música"):"Reproducir música";if(ic.textContent!==a)ic.textContent=a;if(tx.textContent!==c)tx.textContent=c});
+  }
+  function stop(){A.pause();A.removeAttribute("src");A.load();cur="";nm="";bar.classList.remove("on");document.body.classList.remove("bgm-on");
+    if("mediaSession" in navigator)navigator.mediaSession.metadata=null;ui()}
+  function play(url,name){
+    if(cur===url){A.paused?A.play().catch(()=>{}):A.pause();return}
+    cur=url;nm=name;A.src=url;document.getElementById("bgm-name").textContent=name;
+    bar.classList.add("on");document.body.classList.add("bgm-on");
+    A.play().catch(()=>{});
+    if("mediaSession" in navigator){try{navigator.mediaSession.metadata=new MediaMetadata({title:name,artist:"Stella Sora Vita"});
+      navigator.mediaSession.setActionHandler("play",()=>A.play());navigator.mediaSession.setActionHandler("pause",()=>A.pause());
+      navigator.mediaSession.setActionHandler("stop",stop)}catch(e){}}
+    ui();
+  }
+  A.addEventListener("play",ui);A.addEventListener("pause",ui);
+  A.addEventListener("error",()=>{if(!cur)return;const n=nm;stop();alert("No se pudo reproducir «"+n+"» aquí. Puedes escucharla desde el botón de la wiki.")});
+  document.addEventListener("click",e=>{const b=e.target.closest(".bgm-card");if(b){play(b.dataset.bgm,b.dataset.name)}});
+  pp.onclick=()=>{A.paused?A.play().catch(()=>{}):A.pause()};
+  document.getElementById("bgm-st").onclick=stop;
+  new MutationObserver(ui).observe(document.body,{childList:true,subtree:true});
+})();
+</script>
 </body>
 </html>
