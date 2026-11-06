@@ -89,6 +89,26 @@ main{padding:12px;max-width:720px;margin:0 auto}
 #us-res button{display:flex;width:100%;text-align:left;align-items:center;gap:10px;padding:10px 12px;margin-bottom:6px;border-radius:10px;border:1px solid #2c2850;background:rgba(255,255,255,.04);color:inherit;font:inherit;cursor:pointer}
 #us-res button small{opacity:.6;margin-left:auto;font-size:.72rem}
 #us-res p{opacity:.6;text-align:center;margin-top:30px}
+
+/* ficha ampliada (fichas.js) */
+.ficha{margin:10px 0}.fk-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;position:sticky;top:0;z-index:5;background:var(--bg);padding:6px 0}
+.fk-card,.fk-pot{background:var(--sf);border-radius:10px;padding:14px;margin-bottom:10px;border:1px solid #2a2740}
+.fk-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}.fk-t{font-size:.66rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--a)}.fk-cd{font-size:.72rem;color:var(--t2)}
+.fk-card h4,.fk-pot h5{font-size:1rem;margin:0}.fk-en{font-size:.72rem;color:var(--t2);margin-bottom:4px}
+.fk-b,.fk-pb{font-size:.84rem;color:var(--t2);line-height:1.45;margin:6px 0}
+.fk-lv{display:flex;align-items:center;justify-content:center;gap:14px;margin:10px 0;font-size:.86rem}.fk-lv.sm{margin:6px 0}
+.fk-st{width:34px;height:34px;border-radius:50%;border:1px solid #3D3A55;background:#221E3A;color:var(--t);font-size:1.15rem;line-height:1}
+.fk-d,.fk-pd{font-size:.86rem;line-height:1.55}.fk-pd{margin:6px 0 2px}
+.fn{color:#fb8037;font-weight:700;white-space:nowrap}.fn.tier{border-bottom:1px dotted #fb8037}.fk-pot .fn{color:#0abec5}.fk-pot[data-t="3"] .fn{color:#fb8037}
+.fk i.fk,.fk-d i.fk,.fk-pb i.fk,.fk-pd i.fk{font-style:normal;color:var(--a);font-weight:600}
+.fk-m{margin-top:10px;padding-top:8px;border-top:1px dashed #3D3A55}.fk-mh{font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--t2);margin-bottom:5px}
+.fk-mi{display:flex;flex-wrap:wrap;gap:6px}.fk-mi span{font-size:.76rem;background:#221E3A;border-radius:6px;padding:4px 8px}.fk-mi b{color:var(--gold,#e8c46a)}
+.fk-sw{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}.fk-bd{font-size:.84rem;color:var(--t2);margin:4px 0 8px;font-style:italic}
+.fk-h{font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;color:var(--t2);margin:14px 0 8px}
+.fk-pot{display:flex;gap:12px;align-items:flex-start}.fk-pot>img{width:52px;height:52px;object-fit:contain;flex:0 0 52px;background:#221E3A;border-radius:10px}
+.fk-pot>div{flex:1;min-width:0}.fk-pot summary{font-size:.78rem;color:var(--a);cursor:pointer;margin-top:4px}
+.fk-gifts{display:flex;flex-wrap:wrap;gap:8px}.fk-gf{background:#221E3A;border-radius:8px;padding:7px 10px;font-size:.82rem}.fk-gf span{display:block;font-size:.68rem;color:var(--t2)}
+.fk-rg{width:100%;margin:4px 0 10px}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
@@ -243,6 +263,9 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .ncard p{margin:0;font-size:.76rem;color:var(--t2)}
 .ntype{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:rgba(123,108,255,.25);color:#cfc8ff}
 .ntype.t-personaje{background:rgba(232,196,106,.25);color:#f3d98a}.ntype.t-build{background:rgba(92,225,230,.2);color:#8ff0f3}.ntype.t-banner{background:rgba(255,107,157,.22);color:#ff9fc0}
+.ntype.t-discord{background:rgba(114,137,255,.25);color:#b9c4ff}
+.ncard .dtx{white-space:pre-line;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word}.ncard .dtx.open{-webkit-line-clamp:unset;display:block}
+.ncard .dlk{display:inline-block;margin-top:6px;color:var(--gold);font-weight:700;font-size:.8rem}
 .ntype.t-app{background:rgba(160,255,190,.18);color:#a8f5c0}
 .ncard .nbul{margin:8px 0 0;padding-left:18px;font-size:.78rem;color:#e6e1ff;line-height:1.45;text-transform:none}.ncard .nbul li{margin-bottom:3px}
 .ncard .nmore{margin-top:2px;color:var(--gold)}
@@ -505,6 +528,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="historias.js"></script>
 <script src="lector.js"></script>
 <script src="cambios.js"></script>
+<script src="fichas.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
@@ -823,6 +847,7 @@ function showC(id){
       ${c.style?`<span class="chip on">${esc(tr(c.style))}</span>`:''}${c.faction?`<span class="chip on">${esc(tr(c.faction))}</span>`:''}${atkChip}
     </div>
     <a class="btn wikibtn" href="${c.wikiUrl}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 8h6M9 12h4"/></svg>Ver en la wiki<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+    <div id="ficha-box" class="ficha"></div>
     <div class="stats">
       <div class="stat"><b>${esc(c.hp||'—')}</b><span>HP</span></div>
       <div class="stat"><b>${esc(c.atk||'—')}</b><span>ATK</span></div>
@@ -841,6 +866,7 @@ function showC(id){
       <div class="anim-bar" id="anim-bar"></div>
     </div>`;
   go("detail");
+  window.fichaCargar&&fichaCargar(c);
   Promise.all([cargarExtras(),cargarModelIdx()]).then(([E,idx])=>{
     const b=document.getElementById("skins-box"); if(!b||cur!=="detail")return;
     b.innerHTML=skinsHtml(c,E,idx); skin3dBar(c,idx);
@@ -1246,10 +1272,11 @@ function nvTicker(){
   let k=0; t.textContent=un[0].titulo;
   if(un.length>1) nvTimer=setInterval(()=>{k=(k+1)%un.length;t.classList.add("out");setTimeout(()=>{t.textContent=un[k].titulo;t.classList.remove("out")},350)},4000);
 }
-const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔",app:"✦"};
+const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔",app:"✦",discord:"💬"};
 const nvFecha=f=>{try{return new Date(f).toLocaleDateString("es",{day:"numeric",month:"short"})}catch(e){return ""}};
 function nvGo(x,el){
   if(x.tipo==="app"){const b=el&&el.querySelector(".nbul");if(b)b.hidden=!b.hidden;return}
+  if(x.tipo==="discord"){const t=el&&el.querySelector(".dtx");if(t)t.classList.toggle("open");return}
   if(x.tipo==="personaje"){const c=CHARS.find(c=>c.name===x.ref);nav(c?"c/"+c.id:"chars")}
   else if(x.tipo==="disco")nav(DISCS.find(d=>d.name===x.ref)?"d/"+x.ref:"discs");
   else if(x.tipo==="build")nav(BUILDS&&BUILDS.items.some(b=>b.id===x.ref)?"b/"+x.ref:"builds");
@@ -1260,7 +1287,7 @@ function nvRender(){
   const un=new Set(nvUnread().map(x=>x.id));
   box.innerHTML=NV.map((x,i)=>`<div class="ncard${un.has(x.id)?" nu":""}" data-i="${i}">
     ${x.img?`<img class="nimg" src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=nimg>${nvIcon[x.tipo]||"✦"}</div>'">`:`<div class="nimg">${nvIcon[x.tipo]||"✦"}</div>`}
-    <div><span class="ntype t-${x.tipo}">${({personaje:"Personaje",disco:"Disco",banner:"Banner",build:"Build",app:"App"})[x.tipo]||x.tipo}</span><h3>${esc(x.titulo)}</h3>${x.texto?`<p>${esc(x.texto)}</p>`:""}${x.puntos?`<p class="nmore">Toca para ver los cambios</p><ul class="nbul" hidden>${x.puntos.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}</div>
+    <div><span class="ntype t-${x.tipo}">${({personaje:"Personaje",disco:"Disco",banner:"Banner",build:"Build",app:"App",discord:"Anuncio"})[x.tipo]||x.tipo}</span><h3>${esc(x.titulo)}</h3>${x.texto?(x.tipo==="discord"?`<p class="dtx">${esc(x.texto)}</p>`:`<p>${esc(x.texto)}</p>`):""}${x.tipo==="discord"&&/^https:\/\//.test(x.url||"")?`<a class="dlk" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Ver publicación ›</a>`:""}${x.puntos?`<p class="nmore">Toca para ver los cambios</p><ul class="nbul" hidden>${x.puntos.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}</div>
     <span class="ndt">${nvFecha(x.fecha)}</span></div>`).join("")||'<div class="card"><p>Aún no hay novedades.</p></div>';
   box.querySelectorAll(".ncard").forEach(el=>{el.onclick=()=>nvGo(NV[+el.dataset.i],el)});
   document.getElementById("nfoot").textContent=NV.length?"Se actualiza solo cada día.":"";
@@ -1270,6 +1297,7 @@ async function cargarNovedades(){
   try{
     let items=[];
     try{const r=await fetch("novedades.json",{cache:"no-cache"}); if(r.ok){const d=await r.json(); items=d.items||[]}}catch(e){}
+    try{const r=await fetch("discord.json",{cache:"no-cache"}); if(r.ok){const d=await r.json(); items=items.concat(d.items||[])}}catch(e){}
     const app=(typeof CAMBIOS!=="undefined"?CAMBIOS:[]).map(c=>({id:c.id,tipo:"app",titulo:c.titulo,texto:"",puntos:c.puntos,fecha:c.fecha}));
     NV=[...app,...items].sort((a,b)=>(Date.parse(b.fecha)||0)-(Date.parse(a.fecha)||0));
     nvRender(); nvTicker();

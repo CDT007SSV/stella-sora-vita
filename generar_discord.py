@@ -1,0 +1,127 @@
+# Lee el canal de Discord (el que sigue los anuncios oficiales) y lo guarda en discord.json
+# para que la app lo muestre en Novedades. Necesita 2 secretos en GitHub:
+#   DISCORD_TOKEN       (token del bot)      DISCORD_CANAL   (ID del canal que sigue los anuncios)
+# Opcional: DISCORD_LINK (enlace del servidor oficial, para el botón "Ver en Discord" si el mensaje no trae enlace).
+# Las imagenes de Discord caducan a las 24 h, por eso se guardan reducidas en discord_img/.
+import json, os, re, sys, time, urllib.request, urllib.error, io
+
+MAX_ITEMS = 30
+API = "https://discord.com/api/v10"
+TOKEN = os.environ.get("DISCORD_TOKEN", "").strip()
+CANAL = os.environ.get("DISCORD_CANAL", "").strip()
+LINK = os.environ.get("DISCORD_LINK", "").strip()
+IMGDIR = "discord_img"
+
+def http(url, binario=False):
+    h = {"User-Agent": "StellaSoraVita-fanapp (https://github.com/CDT007SSV/stella-sora-vita, 1.0)"}
+    if url.startswith(API): h["Authorization"] = "Bot " + TOKEN       # el token solo viaja a la API de Discord
+    elif not re.match(r"https://(cdn\.discordapp\.com|media\.discordapp\.net)/", url): raise ValueError("dominio no permitido")
+    req = urllib.request.Request(url, headers=h)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        d = r.read()
+    return d if binario else json.loads(d.decode("utf-8"))
+
+def limpia(t):
+    """Quita el formato de Discord y deja texto plano."""
+    t = t or ""
+    t = re.sub(r"<a?:\w+:\d+>", "", t)                 # emojis personalizados
+    t = re.sub(r"<@&?\d+>|<#\d+>|@everyone|@here", "", t)   # menciones
+    t = re.sub(r"<t:\d+(?::\w)?>", "", t)               # marcas de tiempo
+    t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r"\1", t)  # [texto](enlace) -> texto
+    t = re.sub(r"^\s*#{1,3}\s*", "", t, flags=re.M)     # titulos markdown
+    t = re.sub(r"(\*\*|__|\*|~~|`)", "", t)
+    t = re.sub(r"[ \t]+\n", "\n", t)
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    return t.strip()
+
+def primer_enlace(*textos):
+    for t in textos:
+        for u in re.findall(r"https?://[^\s)>\]]+", t or ""):
+            return u.rstrip(".,;")
+    return ""
+
+def seguro(u):
+    return u if isinstance(u, str) and u.startswith("https://") and len(u) < 1000 else ""
+
+def mensaje_a_item(m):
+    """Convierte un mensaje de Discord en un item de novedades (o None si no sirve)."""
+    emb = (m.get("embeds") or [{}])
+    e0 = emb[0] if emb else {}
+    partes = [m.get("content") or ""]
+    for e in m.get("embeds") or []:
+        partes += [e.get("title") or "", e.get("description") or ""]
+    crudo = "\n".join(p for p in partes if p)
+    texto = limpia(crudo)
+    if not texto and not (m.get("attachments") or e0.get("image")):
+        return None
+    lineas = [l.strip() for l in texto.split("\n") if l.strip()]
+    titulo = limpia(e0.get("title") or "") or (lineas[0] if lineas else "Anuncio de Stella Sora")
+    resto = texto
+    if lineas and titulo == lineas[0]:
+        resto = "\n".join(lineas[1:]).strip()
+    if len(titulo) > 110: titulo = titulo[:107].rstrip() + "…"
+    if len(resto) > 700: resto = resto[:697].rstrip() + "…"
+    ref = m.get("message_reference") or {}
+    orig = ""
+    if ref.get("guild_id") and ref.get("channel_id") and ref.get("message_id"):
+        orig = "https://discord.com/channels/%s/%s/%s" % (ref["guild_id"], ref["channel_id"], ref["message_id"])
+    url = primer_enlace(m.get("content"), e0.get("url"), *(e.get("description") for e in m.get("embeds") or [])) or orig or LINK
+    img = ""
+    for a in m.get("attachments") or []:
+        if str(a.get("content_type", "")).startswith("image/"): img = a.get("url"); break
+    if not img:
+        for e in m.get("embeds") or []:
+            for k in ("image", "thumbnail"):
+                if (e.get(k) or {}).get("url"): img = e[k]["url"]; break
+            if img: break
+    return {"id": "dc:" + m["id"], "tipo": "discord", "titulo": titulo, "texto": resto,
+            "url": seguro(url), "_img": seguro(img), "fecha": m.get("timestamp") or ""}
+
+def guarda_imagen(url, mid):
+    """Descarga y reduce la imagen (JPEG, max 720 px). Devuelve la ruta o ''."""
+    try:
+        from PIL import Image
+        d = http(url, binario=True)
+        im = Image.open(io.BytesIO(d)).convert("RGB")
+        im.thumbnail((720, 720))
+        os.makedirs(IMGDIR, exist_ok=True)
+        ruta = "%s/%s.jpg" % (IMGDIR, mid)
+        im.save(ruta, "JPEG", quality=72, optimize=True)
+        return ruta
+    except Exception as ex:
+        print("Imagen no guardada (%s): %s" % (mid, ex)); return ""
+
+def main():
+    if not TOKEN or not CANAL:
+        print("Falta DISCORD_TOKEN o DISCORD_CANAL: no se hace nada."); return
+    try:
+        msgs = http("%s/channels/%s/messages?limit=40" % (API, CANAL))
+    except urllib.error.HTTPError as ex:
+        print("Discord respondió %s: %s" % (ex.code, ex.read()[:200])); sys.exit(0 if ex.code in (429, 500, 502, 503) else 1)
+    prev = {}
+    try: prev = json.load(open("discord.json", encoding="utf-8"))
+    except Exception: pass
+    viejos = {x["id"]: x for x in prev.get("items", [])}
+    items = []
+    for m in msgs:
+        it = mensaje_a_item(m)
+        if not it: continue
+        if it["id"] in viejos:
+            items.append(viejos[it["id"]]); it.pop("_img", None); continue
+        u = it.pop("_img", "")
+        it["img"] = guarda_imagen(u, m["id"]) if u else ""
+        items.append(it)
+    items.sort(key=lambda x: x.get("fecha") or "", reverse=True)
+    items = items[:MAX_ITEMS]
+    if prev.get("items") is None: items = items[:10]   # primera vez: no inundar
+    en_uso = {x["img"].split("/")[-1] for x in items if x.get("img")}
+    if os.path.isdir(IMGDIR):
+        for f in os.listdir(IMGDIR):
+            if f not in en_uso: os.remove(os.path.join(IMGDIR, f))
+    if [x["id"] for x in items] == [x["id"] for x in prev.get("items", [])] and prev:
+        print("Sin mensajes nuevos."); return
+    json.dump({"generado": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "items": items}, open("discord.json", "w", encoding="utf-8"), ensure_ascii=False)
+    print("discord.json: %d items." % len(items))
+
+if __name__ == "__main__":
+    main()
