@@ -29,12 +29,12 @@ const chars=()=>typeof CHARS!=="undefined"?CHARS:[],discs=()=>typeof DISCS!=="un
 const MS=[];let selfBack=0;
 function openM(m){document.body.appendChild(m);MS.push(m);try{history.pushState({tm:1},"",location.href)}catch(x){}}
 function closeM(m){const i=MS.indexOf(m);if(i<0){m.remove();return}MS.splice(i,1);m.remove();if(i===MS.length){selfBack++;try{history.back()}catch(x){selfBack--}}}
-window.addEventListener("popstate",()=>{if(selfBack>0){selfBack--;return}const m=MS.pop();if(m){m.remove();if(mode==="edit"&&m._pot)vEdit();return}if(VD>0){VD--;if(activa()){if(mode==="edit"&&T){leer();if(T.name||T.slots.some(x=>x.c)||T.discs.some(Boolean))guardar()}vList()}}});
+window.addEventListener("popstate",()=>{if(selfBack>0){selfBack--;return}const m=MS.pop();if(m){m.remove();if(mode==="edit"&&m._pot)vEdit();return}if(VD>0){VD--;if(activa()){if(mode==="edit"&&T){leer();if(T.name||T.slots.some(x=>x.c)||T.discs.some(Boolean))guardar()}VD>0?vList():vHub()}}});
 let VD=0;
 const activa=()=>root&&root.closest(".screen")&&root.closest(".screen").classList.contains("on");
 function pushV(){try{history.pushState({tmv:1},"",location.href);VD++}catch(x){}}
 let fromCom=false,PEND=null;
-function toList(){if(fromCom){history.back();return}if(VD>0){history.back()}else vList()}
+function toList(){if(fromCom){history.back();return}if(VD>0){history.back()}else vHub()}
 let CIM=null;
 const imgC=c=>{if(!c)return"";if(!CIM&&PR){CIM={};for(const i in PR)CIM[PR[i].n]=PR[i].im}return(CIM&&CIM[c.name])||c.imageUrl};
 const imgD=d=>{if(!d)return"";return(IDX&&IDX.img&&IDX.img[d.name])||d.imageUrl};
@@ -84,6 +84,13 @@ let root,T=null,mode="list";
 
 (function css(){const s=document.createElement("style");s.textContent=`
 #teams-root{--tc:#7B6CFF}
+.tm-hb{position:relative;display:flex;align-items:center;gap:14px;width:100%;text-align:left;border-radius:18px;padding:18px 16px;margin-bottom:12px;border:1px solid rgba(255,255,255,.1);color:var(--t);cursor:pointer;overflow:hidden;font:inherit;text-decoration:none}
+.tm-hb:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 90% 0,rgba(255,255,255,.18),transparent 55%);pointer-events:none}
+.tm-hb>*{position:relative}.tm-hb .hi{flex:0 0 52px;height:52px;border-radius:14px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;font-size:1.7rem;font-weight:800}
+.tm-hb b{display:block;font-size:1.08rem;margin-bottom:3px}.tm-hb small{display:block;font-size:.8rem;opacity:.85;line-height:1.3}.tm-hb .ar{margin-left:auto;font-size:1.6rem;opacity:.7}
+.tm-hb.h1{background:linear-gradient(135deg,#6a55ff,#a24bd8);box-shadow:0 8px 22px rgba(123,108,255,.35)}
+.tm-hb.h2{background:linear-gradient(135deg,#1d6f8f,#1b3f7a)}
+.tm-hb.h3{background:linear-gradient(135deg,#b5812a,#7a3a52)}
 .tm-hero{position:relative;border-radius:16px;padding:16px;margin-bottom:14px;background:linear-gradient(135deg,#2a2160,#14102c 70%);border:1px solid rgba(123,108,255,.5);overflow:hidden}
 .tm-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 0,rgba(123,108,255,.45),transparent 55%);pointer-events:none}
 .tm-hero>*{position:relative}.tm-hero h3{margin:0 0 4px;font-size:1.15rem}.tm-hero p{margin:0 0 12px;font-size:.82rem;color:var(--t2)}
@@ -219,14 +226,23 @@ async function potModal(s){
   pint();
 }
 
+/* ---------- inicio de la seccion ---------- */
+function vHub(){
+  mode="hub";T=null;const n=ST.teams.length;
+  root.innerHTML=`<div class="tm-hero"><h3>Equipos y builds</h3><p>Arma tu equipo de 3 Trekkers, guárdalo y descubre las builds de otros jugadores.</p></div>
+   <button class="tm-hb h1" data-a="new"><span class="hi">+</span><span><b>Crear equipo</b><small>Elige Trekkers, potenciales y discos</small></span><span class="ar">›</span></button>
+   <button class="tm-hb h2" data-a="mine"><span class="hi">★</span><span><b>Mis equipos</b><small>${n?n+(n===1?" equipo guardado":" equipos guardados"):"Aquí se guardan los equipos que crees"}</small></span><span class="ar">›</span></button>
+   <a class="tm-hb h3" href="#builds" data-nav="builds"><span class="hi">☷</span><span><b>Builds de la comunidad</b><small>Builds enviadas por jugadores y la guía completa</small></span><span class="ar">›</span></a>`;
+  window.scrollTo(0,0);
+}
+
 /* ---------- lista ---------- */
 function vList(){
   mode="list";T=null;const A=ST.teams;
-  root.innerHTML=`<div class="tm-hero"><h3>Arma tu equipo</h3><p>Elige 3 Trekkers, sus potenciales y los discos. Guárdalo y consúltalo cuando quieras.</p><button class="btn" data-a="new" style="margin:0">+ Nuevo equipo</button></div>`+
+  root.innerHTML=`<div class="tm-hero"><h3>Mis equipos</h3><p>Los equipos que guardaste en este dispositivo.</p><button class="btn" data-a="new" style="margin:0">+ Nuevo equipo</button></div>`+
   (A.length?A.map(t=>{const c0=charOf(t.slots[0].c);return `<div class="tm-card" data-a="view" data-id="${t.id}"><div class="tm-ctop" style="background:linear-gradient(90deg,${t.slots.map(s=>{const c=charOf(s.c);return c?ec(c.element):"#3a3660"}).join(",")})"></div><div class="tm-cb"><h4>${e(t.name||"Equipo sin nombre")}</h4><div class="tm-th">${t.slots.map(s=>{const c=charOf(s.c);return c?`<img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:`<i></i>`}).join("")}<span class="tm-cm">${t.discs.filter(Boolean).length} discos${t.score?"<br>Récord: "+e(t.score):""}</span></div></div></div>`}).join(""):`<p class="nota">Aún no tienes equipos guardados.</p>`)+
   `<div class="tm-io"><button class="btn out" data-a="imp">Importar preset del juego</button></div><div id="tm-io-box"></div>
-   <p class="nota" style="margin-top:12px">Tus equipos se guardan solo en este dispositivo. Para llevar la selección al juego usa el botón “Preset del juego” de cada equipo.</p>
-   <a class="btn out" href="#builds" data-nav="builds">Builds de la comunidad</a>`;
+   <p class="nota" style="margin-top:12px">Tus equipos se guardan solo en este dispositivo. Para llevar la selección al juego usa el botón “Preset del juego” de cada equipo.</p>`;
 }
 const code=t=>"SSV2:"+btoa(unescape(encodeURIComponent(JSON.stringify(t))));
 function parse(txt){
@@ -445,7 +461,8 @@ function vView(){
 function onClick(ev){
   const el=ev.target.closest("[data-a]");if(!el)return;const a=el.dataset.a;
   if(a==="asc")return;
-  if(a==="new"){T=nuevo();pushV();vEdit()}
+  if(a==="mine"){pushV();vList()}
+  else if(a==="new"){T=nuevo();pushV();vEdit()}
   else if(a==="view"){T=fix(JSON.parse(JSON.stringify(ST.teams.find(x=>x.id===el.dataset.id))));pushV();vView()}
   else if(a==="edit"){vEdit()}
   else if(a==="vv"){guardar();vView()}
@@ -543,8 +560,8 @@ window.teamsShow=function(){
   if(!root._ok){root._ok=1;root.addEventListener("click",onClick);root.addEventListener("change",onChange)}
   VD=0;fromCom=false;
   const tb=document.querySelector("#s-teams [data-back]");
-  if(tb&&!tb._tm){tb._tm=1;tb.addEventListener("click",ev=>{if(mode!=="list"){ev.stopPropagation();ev.preventDefault();toList()}})}
+  if(tb&&!tb._tm){tb._tm=1;tb.addEventListener("click",ev=>{if(mode!=="hub"){ev.stopPropagation();ev.preventDefault();toList()}})}
   if(PEND){T=PEND;PEND=null;fromCom=true;ST=load();vView();return}
-  ST=load();Promise.all([getPresets(),getIdx()]).then(()=>{CIM=null;if(mode==="list")vList()});vList();
+  ST=load();Promise.all([getPresets(),getIdx()]).then(()=>{CIM=null;if(mode==="hub")vHub()});vHub();
 };
 })();
