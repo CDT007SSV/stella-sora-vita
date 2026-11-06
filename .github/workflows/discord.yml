@@ -1,0 +1,37 @@
+name: Novedades de Discord
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: discord
+  cancel-in-progress: false
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar Pillow
+        run: pip install --quiet pillow
+      - name: Leer canal de Discord
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          DISCORD_CANAL: ${{ secrets.DISCORD_CANAL }}
+          DISCORD_LINK: ${{ secrets.DISCORD_LINK }}
+        run: python3 generar_discord.py
+      - name: Guardar cambios
+        run: |
+          for f in discord.json discord_img; do
+            [ -e "$f" ] && git add -A "$f"
+          done
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Novedades de Discord"
+            git pull --rebase -X theirs origin main
+            git push
+          else
+            echo "Sin cambios"
+          fi
