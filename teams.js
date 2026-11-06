@@ -1,5 +1,5 @@
 /* Armador de equipos: 3 personajes (potenciales con nivel y prioridad) + 3 discos principales + 6 de apoyo/recomendados.
-   Se guarda en el telefono (localStorage), con exportar/importar y codigo para compartir. Incluye ficha visual del equipo. */
+   Se guarda en el telefono (localStorage), con importar/exportar preset del juego. Incluye ficha visual del equipo. */
 (function(){
 const KEY="ssv_teams";
 const e=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -224,8 +224,8 @@ function vList(){
   mode="list";T=null;const A=ST.teams;
   root.innerHTML=`<div class="tm-hero"><h3>Arma tu equipo</h3><p>Elige 3 Trekkers, sus potenciales y los discos. Guárdalo y consúltalo cuando quieras.</p><button class="btn" data-a="new" style="margin:0">+ Nuevo equipo</button></div>`+
   (A.length?A.map(t=>{const c0=charOf(t.slots[0].c);return `<div class="tm-card" data-a="view" data-id="${t.id}"><div class="tm-ctop" style="background:linear-gradient(90deg,${t.slots.map(s=>{const c=charOf(s.c);return c?ec(c.element):"#3a3660"}).join(",")})"></div><div class="tm-cb"><h4>${e(t.name||"Equipo sin nombre")}</h4><div class="tm-th">${t.slots.map(s=>{const c=charOf(s.c);return c?`<img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:`<i></i>`}).join("")}<span class="tm-cm">${t.discs.filter(Boolean).length} discos${t.score?"<br>Récord: "+e(t.score):""}</span></div></div></div>`}).join(""):`<p class="nota">Aún no tienes equipos guardados.</p>`)+
-  `<div class="tm-io"><button class="btn out" data-a="exp">Exportar todo</button><button class="btn out" data-a="imp">Importar</button></div><div id="tm-io-box"></div>
-   <p class="nota" style="margin-top:12px">Tus equipos se guardan solo en este dispositivo. Para pasarlos a otro, usa Exportar/Importar o copia el código de cada equipo.</p>
+  `<div class="tm-io"><button class="btn out" data-a="imp">Importar preset del juego</button></div><div id="tm-io-box"></div>
+   <p class="nota" style="margin-top:12px">Tus equipos se guardan solo en este dispositivo. Para llevar la selección al juego usa el botón “Preset del juego” de cada equipo.</p>
    <a class="btn out" href="#builds" data-nav="builds">Builds de la comunidad</a>`;
 }
 const code=t=>"SSV2:"+btoa(unescape(encodeURIComponent(JSON.stringify(t))));
@@ -415,7 +415,7 @@ function vEdit(){
     <div class="tm-dh"><b>De apoyo y recomendados</b><small>${T.discs.slice(3).filter(Boolean).length}/6</small></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,true)).join("")}</div></div>
    <div class="tm-sl"><div class="tm-dh"><b>Récord y notas</b><small>opcional</small></div><div class="tm-sec"><input class="tm-in" id="tm-score" inputmode="numeric" placeholder="Tu récord (puntaje)" maxlength="20" value="${e(T.score)}"><textarea class="tm-ta" id="tm-note" placeholder="Cómo se juega, qué tomar si no sale un potencial, rotación…" maxlength="500">${e(T.note)}</textarea></div></div>
    <button class="btn" data-a="save">Guardar equipo</button>
-   <div class="tm-act"><button class="btn out" data-a="vv">Ver ficha</button><button class="btn out" data-a="code">Copiar código</button></div><div class="tm-act"><button class="btn out" data-a="img">Imagen para compartir</button><button class="btn out" data-a="gcode">Preset del juego</button></div><div id="tm-io-box"></div>`;
+   <div class="tm-act"><button class="btn out" data-a="vv">Ver ficha</button></div><div class="tm-act"><button class="btn out" data-a="img">Imagen para compartir</button><button class="btn out" data-a="gcode">Preset del juego</button></div><div id="tm-io-box"></div>`;
   [0,1,2].forEach(s=>pintaPots(s));window.scrollTo(0,y);
 }
 function leer(){if(mode!=="edit")return;const a=root.querySelector("#tm-name");if(!a)return;T.name=a.value.trim();T.score=root.querySelector("#tm-score").value.trim();T.note=root.querySelector("#tm-note").value}
@@ -436,9 +436,9 @@ function vView(){
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,false)||"").join("")}</div>
     ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}</div>
    ${T.__ro?`<button class="btn" data-a="savecopy">Guardar en mis equipos</button>
-   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button></div><div id="tm-io-box"></div>`
+   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button><button class="btn out" data-a="gcode">Preset del juego</button></div><div id="tm-io-box"></div>`
    :`<button class="btn" data-a="edit">Editar equipo</button>
-   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button>${cfgC().form?`<button class="btn" data-a="pub" style="flex:1 0 100%">Publicar en la comunidad</button>`:""}<button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`}`;
+   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button>${cfgC().form?`<button class="btn" data-a="pub" style="flex:1 0 100%">Publicar en la comunidad</button>`:""}<button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`}`;
   [0,1,2].forEach(s=>pintaPots(s,true));window.scrollTo(0,0);
 }
 
@@ -453,18 +453,15 @@ function onClick(ev){
   else if(a==="save"){flash(guardar()?"✓ Guardado":"No se pudo guardar")}
   else if(a==="del"){if(confirm("¿Eliminar este equipo?")){ST.teams=ST.teams.filter(x=>x.id!==T.id);save();toList()}}
   else if(a==="dup"){const c=clean();c.id=uid();c.name=(c.name||"Equipo")+" (copia)";ST.teams.unshift(c);save();toList()}
-  else if(a==="code"){leer();codeV3(clean()).then(c=>copiar(c,root.querySelector("#tm-io-box"),"Código del equipo."))}
   else if(a==="img"){leer();imagen()}
   else if(a==="savecopy"){const c=clean();delete c.__ro;delete c.__al;c.id=uid();ST.teams.unshift(c);save();el.textContent="✓ Guardado en tus equipos"}
   else if(a==="pub"){publicar(clean())}
   else if(a==="gcode"){leer();const bx=root.querySelector("#tm-io-box");bx.innerHTML='<p class="nota">Generando…</p>';gameCode().then(c=>{if(!c)bx.innerHTML='<p class="nota">Elige los 3 personajes para generar el código de preset del juego.</p>';else copiar(c,bx,"Código de preset del juego (incluye los 3 personajes y sus potenciales; no incluye discos).")})}
-  else if(a==="exp"){const t=JSON.stringify({v:2,teams:ST.teams});copiar(t,root.querySelector("#tm-io-box"),"Todos tus equipos.");descarga(t,"equipos-stella-sora.json")}
-  else if(a==="imp"){const b=root.querySelector("#tm-io-box");b.innerHTML=`<p class="nota">Pega aquí un código de equipo, un código de preset del juego o el texto exportado, o elige el archivo.</p><textarea class="tm-tb" id="tm-imp-t"></textarea><input type="file" id="tm-imp-f" accept=".json,.txt" style="margin:8px 0"><button class="btn" data-a="imp2">Importar</button><p class="nota" id="tm-imp-m"></p>`;
-    b.querySelector("#tm-imp-f").onchange=async f=>{const x=f.target.files[0];if(x)b.querySelector("#tm-imp-t").value=await x.text()}}
+  else if(a==="imp"){const b=root.querySelector("#tm-io-box");b.innerHTML=`<p class="nota">Pega aquí un código de preset del juego.</p><textarea class="tm-tb" id="tm-imp-t"></textarea><button class="btn" data-a="imp2">Importar</button><p class="nota" id="tm-imp-m"></p>`}
   else if(a==="imp2"){const txt=root.querySelector("#tm-imp-t").value,m=root.querySelector("#tm-imp-m");
-    parseAny(txt).then(r=>{
-      if(!r||!r.length){m.textContent="No reconocí ese código o archivo.";return}
-      ST.teams=r.concat(ST.teams);save();vList()})}
+    gameDecode(txt.trim()).then(g=>{
+      if(!g){m.textContent="No reconocí ese código de preset del juego.";return}
+      ST.teams=[g].concat(ST.teams);save();vList()})}
   else if(a==="char"){const s=+el.dataset.s;picker("Elegir Trekker",charItems(),it=>{leer();const old=T.slots[s];T.slots[s]={c:it.id,p:old&&old.c===it.id?old.p:{}};vEdit()})}
   else if(a==="cx"){leer();T.slots[+el.dataset.s]={c:"",p:{}};vEdit()}
   else if(a==="pots"){leer();potModal(+el.dataset.s)}
@@ -533,9 +530,9 @@ function publicar(t){
   openM(m);m.querySelector("[data-x]").onclick=()=>closeM(m);
   m.querySelector("#pb-go").onclick=async()=>{
     const a=m.querySelector("#pb-al").value.trim()||"Anónimo";try{localStorage.setItem("ssv_alias",a)}catch(x){}
-    const c=await codeV3(t);try{await navigator.clipboard.writeText(c)}catch(x){}
+    const c=await codeV3(t);
     const u=cfg.form.replace("ALIAS_AQUI",encodeURIComponent(a)).replace("CODIGO_AQUI",encodeURIComponent(c));
-    window.open(u,"_blank");m.querySelector("#pb-m").textContent="Se abrió el formulario. El código ya está copiado por si hay que pegarlo.";
+    window.open(u,"_blank");m.querySelector("#pb-m").textContent="Se abrió el formulario con tu equipo ya puesto. Solo envíalo.";
   };
 }
 window.teamsOpen=async function(item){
