@@ -33,7 +33,8 @@ window.addEventListener("popstate",()=>{if(selfBack>0){selfBack--;return}const m
 let VD=0;
 const activa=()=>root&&root.closest(".screen")&&root.closest(".screen").classList.contains("on");
 function pushV(){try{history.pushState({tmv:1},"",location.href);VD++}catch(x){}}
-function toList(){if(VD>0){history.back()}else vList()}
+let fromCom=false,PEND=null;
+function toList(){if(fromCom){history.back();return}if(VD>0){history.back()}else vList()}
 let CIM=null;
 const imgC=c=>{if(!c)return"";if(!CIM&&PR){CIM={};for(const i in PR)CIM[PR[i].n]=PR[i].im}return(CIM&&CIM[c.name])||c.imageUrl};
 const imgD=d=>{if(!d)return"";return(IDX&&IDX.img&&IDX.img[d.name])||d.imageUrl};
@@ -234,6 +235,55 @@ function parse(txt){
   const a=Array.isArray(j)?j:(j&&j.teams)?j.teams:[j];
   return a.filter(t=>t&&Array.isArray(t.slots)).map(t=>{t=fix(JSON.parse(JSON.stringify(t)));t.id=uid();return t});
 }
+/* Codigo compacto v3: ids de potenciales/discos en vez de nombres (mas corto para compartir y para el formulario) */
+const b64=o=>btoa(unescape(encodeURIComponent(JSON.stringify(o))));
+const unb64=t=>JSON.parse(decodeURIComponent(escape(atob(t))));
+async function codeV3(t){
+  const P=await getPresets(),I=await getIdx();
+  try{
+    const c=[],p=[];
+    for(let s=0;s<3;s++){
+      const S=t.slots[s],g=gidOf(P,S.c);c.push(S.c);
+      const by={};if(g)for(const id in P[g].names)if(!(P[g].names[id] in by))by[P[g].names[id]]=id;
+      const arr=[];for(const k in S.p){const ne=k.split("|").slice(2).join("|"),id=by[ne];if(id)arr.push(id+"."+S.p[k].l+S.p[k].pr)}
+      p.push(arr.join(","));
+    }
+    const d=t.discs.map(D=>D&&I.ids[D.n]?I.ids[D.n]+"."+D.a:0);
+    return "SSV3:"+b64({v:3,n:t.name,t:t.score,o:t.note,c,p,d});
+  }catch(x){return code(t)}
+}
+async function decodeV3(j){
+  const P=await getPresets(),I=await getIdx(),t=nuevo();
+  t.name=String(j.n||"").slice(0,60);t.score=String(j.t||"").slice(0,20);t.note=String(j.o||"").slice(0,500);
+  const nameOf={};for(const n in I.ids)nameOf[I.ids[n]]=n;
+  (j.d||[]).slice(0,NDISC).forEach((x,i)=>{if(!x)return;const m=String(x).match(/^(\d+)\.(\d)$/);if(m&&nameOf[m[1]])t.discs[i]={n:nameOf[m[1]],a:+m[2]}});
+  for(let s=0;s<3;s++){
+    const slug=(j.c||[])[s];if(!slug)continue;t.slots[s]={c:String(slug),p:{}};
+    const g=gidOf(P,slug),F=await getF(slug),role=s===0?"main":"support";
+    if(!g||!F||!F.potenciales)continue;
+    const T2=F.potenciales[role]||F.potenciales.main;
+    String((j.p||[])[s]||"").split(",").forEach(it=>{
+      const m=it.match(/^(\d+)\.(\d)([cmo])$/);if(!m)return;
+      const nm=P[g].names[m[1]],p=T2.l.find(x=>x.ne===nm);
+      if(p)t.slots[s].p[role+"|"+p.g+"|"+p.ne]={l:+m[2],pr:m[3]};
+    });
+  }
+  return fix(t);
+}
+function peek(txt){
+  try{
+    const m=String(txt).trim().replace(/\s+/g,"");
+    const j=unb64(m.replace(/^SSV\d:/,""));
+    if(/^SSV3:/.test(m))return{n:j.n,c:j.c||[],d:(j.d||[]).filter(Boolean).length,t:j.t};
+    return{n:j.name,c:(j.slots||[]).map(x=>x.c),d:(j.discs||[]).filter(Boolean).length,t:j.score};
+  }catch(x){return null}
+}
+async function parseAny(txt){
+  txt=String(txt||"").trim();
+  const g=await gameDecode(txt);if(g)return[g];
+  if(/^SSV3:/.test(txt.replace(/\s+/g,""))){try{return[await decodeV3(unb64(txt.replace(/\s+/g,"").slice(5)))]}catch(x){return null}}
+  return parse(txt);
+}
 async function copiar(txt,box,msg){let ok=false;try{await navigator.clipboard.writeText(txt);ok=true}catch(x){}
   box.innerHTML=`<p class="nota">${ok?msg+" Copiado al portapapeles.":"No pude copiar solo; selecciona el texto y cópialo."}</p><textarea class="tm-tb" readonly>${e(txt)}</textarea>`}
 function descarga(txt,nombre){try{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([txt],{type:"application/json"}));a.download=nombre;document.body.appendChild(a);a.click();a.remove()}catch(x){}}
@@ -380,13 +430,15 @@ function flash(t){const b=root.querySelector("[data-a=save]");if(!b)return;const
 /* ---------- ficha (vista) ---------- */
 function vView(){
   mode="view";
-  root.innerHTML=`<button class="tm-bk" data-a="back">‹ Mis equipos</button>
-   <div class="tm-fh"><div class="nota" style="margin:0">FICHA DE EQUIPO</div><h3>${e(T.name||"Equipo sin nombre")}</h3>${T.score?`<p>Récord: <b>${e(T.score)}</b></p>`:""}${T.note?`<p>${e(T.note)}</p>`:""}</div>
+  root.innerHTML=`<button class="tm-bk" data-a="back">${fromCom?"‹ Builds de la comunidad":"‹ Mis equipos"}</button>
+   <div class="tm-fh"><div class="nota" style="margin:0">${T.__ro?"BUILD DE LA COMUNIDAD":"FICHA DE EQUIPO"}</div><h3>${e(T.name||"Equipo sin nombre")}</h3>${T.__al?`<p>Por <b>${e(T.__al)}</b></p>`:""}${T.score?`<p>Récord: <b>${e(T.score)}</b></p>`:""}${T.note?`<p>${e(T.note)}</p>`:""}</div>
    ${[0,1,2].map(s=>{T.slots[s].__r=s===0?"main":"support";const c=charOf(T.slots[s].c);return `<div class="tm-sl"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,false)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span></div><div id="tm-pl${s}"></div></div>`:`<p class="tm-hint" style="padding:12px">Sin personaje.</p>`)+`</div>`}).join("")}
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,false)||"").join("")}</div>
     ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}</div>
-   <button class="btn" data-a="edit">Editar equipo</button>
-   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`;
+   ${T.__ro?`<button class="btn" data-a="savecopy">Guardar en mis equipos</button>
+   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button></div><div id="tm-io-box"></div>`
+   :`<button class="btn" data-a="edit">Editar equipo</button>
+   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button>${cfgC().form?`<button class="btn" data-a="pub" style="flex:1 0 100%">Publicar en la comunidad</button>`:""}<button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`}`;
   [0,1,2].forEach(s=>pintaPots(s,true));window.scrollTo(0,0);
 }
 
@@ -401,14 +453,16 @@ function onClick(ev){
   else if(a==="save"){flash(guardar()?"✓ Guardado":"No se pudo guardar")}
   else if(a==="del"){if(confirm("¿Eliminar este equipo?")){ST.teams=ST.teams.filter(x=>x.id!==T.id);save();toList()}}
   else if(a==="dup"){const c=clean();c.id=uid();c.name=(c.name||"Equipo")+" (copia)";ST.teams.unshift(c);save();toList()}
-  else if(a==="code"){leer();copiar(code(clean()),root.querySelector("#tm-io-box"),"Código del equipo.")}
+  else if(a==="code"){leer();codeV3(clean()).then(c=>copiar(c,root.querySelector("#tm-io-box"),"Código del equipo."))}
   else if(a==="img"){leer();imagen()}
+  else if(a==="savecopy"){const c=clean();delete c.__ro;delete c.__al;c.id=uid();ST.teams.unshift(c);save();el.textContent="✓ Guardado en tus equipos"}
+  else if(a==="pub"){publicar(clean())}
   else if(a==="gcode"){leer();const bx=root.querySelector("#tm-io-box");bx.innerHTML='<p class="nota">Generando…</p>';gameCode().then(c=>{if(!c)bx.innerHTML='<p class="nota">Elige los 3 personajes para generar el código de preset del juego.</p>';else copiar(c,bx,"Código de preset del juego (incluye los 3 personajes y sus potenciales; no incluye discos).")})}
   else if(a==="exp"){const t=JSON.stringify({v:2,teams:ST.teams});copiar(t,root.querySelector("#tm-io-box"),"Todos tus equipos.");descarga(t,"equipos-stella-sora.json")}
   else if(a==="imp"){const b=root.querySelector("#tm-io-box");b.innerHTML=`<p class="nota">Pega aquí un código de equipo, un código de preset del juego o el texto exportado, o elige el archivo.</p><textarea class="tm-tb" id="tm-imp-t"></textarea><input type="file" id="tm-imp-f" accept=".json,.txt" style="margin:8px 0"><button class="btn" data-a="imp2">Importar</button><p class="nota" id="tm-imp-m"></p>`;
     b.querySelector("#tm-imp-f").onchange=async f=>{const x=f.target.files[0];if(x)b.querySelector("#tm-imp-t").value=await x.text()}}
   else if(a==="imp2"){const txt=root.querySelector("#tm-imp-t").value,m=root.querySelector("#tm-imp-m");
-    gameDecode(txt).then(g=>{const r=g?[g]:parse(txt);
+    parseAny(txt).then(r=>{
       if(!r||!r.length){m.textContent="No reconocí ese código o archivo.";return}
       ST.teams=r.concat(ST.teams);save();vList()})}
   else if(a==="char"){const s=+el.dataset.s;picker("Elegir Trekker",charItems(),it=>{leer();const old=T.slots[s];T.slots[s]={c:it.id,p:old&&old.c===it.id?old.p:{}};vEdit()})}
@@ -418,12 +472,82 @@ function onClick(ev){
   else if(a==="dx"){ev.stopPropagation();leer();T.discs[+el.dataset.i]=null;vEdit()}
 }
 function onChange(ev){const el=ev.target;if(el.dataset&&el.dataset.a==="asc"){T.discs[+el.dataset.i].a=+el.value}}
+const cfgC=()=>window.SSV_COMUNIDAD||{};
+function csvParse(t){const R=[];let r=[],f="",q=false;for(let i=0;i<t.length;i++){const ch=t[i];
+  if(q){if(ch==='"'){if(t[i+1]==='"'){f+='"';i++}else q=false}else f+=ch}
+  else if(ch==='"')q=true;else if(ch===","){r.push(f);f=""}else if(ch==="\n"){r.push(f);R.push(r);r=[];f=""}else if(ch!=="\r")f+=ch}
+  if(f||r.length){r.push(f);R.push(r)}return R}
+async function cmLoad(){
+  const cfg=cfgC();if(!cfg.csv)return null;
+  const r=await fetch(cfg.csv,{cache:"no-cache"});if(!r.ok)throw new Error("HTTP "+r.status);
+  const R=csvParse(await r.text());if(R.length<2)return[];
+  const H=R[0].map(h=>norm(h)),ix=re=>H.findIndex(h=>re.test(h));
+  const ic=ix(/codigo|code/),ia=ix(/alias|autor|author|nombre/),ip=ix(/aprob|approved/),it=ix(/marca|timestamp|fecha/);
+  if(ic<0)return[];
+  const ok=v=>/^(si|yes|true|1|x|ok|aprobado)$/.test(norm(v).trim());
+  const out=[];
+  R.slice(1).forEach((row,k)=>{
+    if(ip>=0&&!ok(row[ip]||""))return;
+    const code=(row[ic]||"").trim(),pk=peek(code);if(!pk)return;
+    out.push({code,alias:String(ia>=0?row[ia]:"").trim().slice(0,40)||"Anónimo",title:String(pk.n||"Build").slice(0,60),pk,k});
+  });
+  return out.reverse();
+}
+let CMD=null;
+function cmCard(x){
+  const th=(x.pk.c||[]).slice(0,3).map(sl=>{const c=charOf(sl);return c?`<img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:"<i></i>"}).join("");
+  const cols=(x.pk.c||[]).slice(0,3).map(sl=>{const c=charOf(sl);return c?ec(c.element):"#3a3660"});
+  return `<div class="tm-card" data-c="open" data-k="${x.k}"><div class="tm-ctop" style="background:linear-gradient(90deg,${cols.join(",")})"></div><div class="tm-cb"><h4>${e(x.title)}</h4><div class="tm-th">${th}<span class="tm-cm">por ${e(x.alias)}<br>${x.pk.d||0} discos${x.pk.t?"<br>Récord: "+e(x.pk.t):""}</span></div></div></div>`;
+}
+window.communityShow=async function(){
+  const box=document.getElementById("cm-root");if(!box)return;
+  const cfg=cfgC();
+  box.innerHTML=`<div class="tm-hero"><h3>Builds de la comunidad</h3><p>Equipos compartidos por otros jugadores. Toca uno para ver la ficha completa y guardarlo.</p>${cfg.form?`<button class="btn" data-c="pub" style="margin:0">Publicar una build</button>`:""}</div>`+
+   (cfg.csv?`<input class="tm-in" id="cm-q" type="search" placeholder="Buscar por título, autor o personaje…"><div id="cm-list"><p class="nota">Cargando…</p></div>`:`<p class="nota">La sección de la comunidad aún no está activada.</p>`);
+  if(!box._ok){box._ok=1;box.addEventListener("click",async ev=>{
+    const el=ev.target.closest("[data-c]");if(!el)return;
+    if(el.dataset.c==="pub")pubPicker();
+    else if(el.dataset.c==="open"){const x=CMD&&CMD.find(y=>String(y.k)===el.dataset.k);if(x){el.style.opacity=.6;const ok=await window.teamsOpen(x);el.style.opacity=1;if(!ok)alert("No se pudo abrir esta build.")}}
+  });box.addEventListener("input",ev=>{if(ev.target.id==="cm-q")cmPaint()})}
+  if(!cfg.csv)return;
+  try{CMD=await cmLoad();await getPresets();cmPaint()}catch(x){const l=document.getElementById("cm-list");if(l)l.innerHTML='<p class="nota">No se pudieron cargar las builds de la comunidad. Revisa tu conexión e inténtalo de nuevo.</p>'}
+};
+function cmPaint(){
+  const l=document.getElementById("cm-list");if(!l||!CMD)return;
+  const q=norm((document.getElementById("cm-q")||{}).value||"");
+  const R=CMD.filter(x=>!q||norm(x.title+" "+x.alias+" "+(x.pk.c||[]).map(s=>{const c=charOf(s);return c?c.name:s}).join(" ")).includes(q));
+  l.innerHTML=R.length?R.slice(0,200).map(cmCard).join(""):`<p class="nota">${CMD.length?"Sin resultados.":"Todavía no hay builds publicadas. ¡Sé la primera persona en publicar una!"}</p>`;
+}
+function pubPicker(){
+  const m=document.createElement("div");m.className="tm-md";
+  const A=load().teams;
+  m.innerHTML=`<div class="tm-mh"><div class="tm-mt"><b>Publicar una build</b><button class="chip" data-x="1">Cerrar</button></div></div><div class="tm-mb"><p class="nota">Elige uno de tus equipos guardados. Se abrirá un formulario con el código ya puesto; solo tienes que enviarlo. Las builds se revisan antes de aparecer.</p>${A.length?A.map((t,i)=>`<button class="tm-it" data-i="${i}"><span>${e(t.name||"Equipo sin nombre")}<br><small>${t.slots.map(s=>{const c=charOf(s.c);return c?c.name:"—"}).join(" · ")}</small></span></button>`).join(""):'<p class="nota">Aún no tienes equipos guardados. Arma uno en “Armador de equipos” y vuelve aquí.</p>'}</div>`;
+  openM(m);m.querySelector("[data-x]").onclick=()=>closeM(m);
+  m.querySelectorAll(".tm-it").forEach(b=>b.onclick=()=>{const t=A[+b.dataset.i];closeM(m);setTimeout(()=>publicar(t),50)});
+}
+function publicar(t){
+  const cfg=cfgC();if(!cfg.form){alert("La publicación aún no está activada.");return}
+  const m=document.createElement("div");m.className="tm-md";
+  let al="";try{al=localStorage.getItem("ssv_alias")||""}catch(x){}
+  m.innerHTML=`<div class="tm-mh"><div class="tm-mt"><b>Publicar en la comunidad</b><button class="chip" data-x="1">Cerrar</button></div></div><div class="tm-mb"><p class="nota">“${e(t.name||"Equipo")}” se enviará con el nombre que elijas. No uses datos personales. Las builds se revisan antes de aparecer.</p><input class="tm-in" id="pb-al" maxlength="40" placeholder="Tu alias" value="${e(al)}"><button class="btn" id="pb-go">Abrir formulario</button><p class="nota" id="pb-m"></p></div>`;
+  openM(m);m.querySelector("[data-x]").onclick=()=>closeM(m);
+  m.querySelector("#pb-go").onclick=async()=>{
+    const a=m.querySelector("#pb-al").value.trim()||"Anónimo";try{localStorage.setItem("ssv_alias",a)}catch(x){}
+    const c=await codeV3(t);try{await navigator.clipboard.writeText(c)}catch(x){}
+    const u=cfg.form.replace("ALIAS_AQUI",encodeURIComponent(a)).replace("CODIGO_AQUI",encodeURIComponent(c));
+    window.open(u,"_blank");m.querySelector("#pb-m").textContent="Se abrió el formulario. El código ya está copiado por si hay que pegarlo.";
+  };
+}
+window.teamsOpen=async function(item){
+  const r=await parseAny(item.code);if(!r||!r[0])return false;
+  PEND=r[0];PEND.__ro=true;PEND.__al=item.alias;PEND.name=PEND.name||item.title;location.hash="teams";return true};
 window.teamsShow=function(){
   root=document.getElementById("teams-root");if(!root)return;
   if(!root._ok){root._ok=1;root.addEventListener("click",onClick);root.addEventListener("change",onChange)}
-  VD=0;
+  VD=0;fromCom=false;
   const tb=document.querySelector("#s-teams [data-back]");
   if(tb&&!tb._tm){tb._tm=1;tb.addEventListener("click",ev=>{if(mode!=="list"){ev.stopPropagation();ev.preventDefault();toList()}})}
+  if(PEND){T=PEND;PEND=null;fromCom=true;ST=load();vView();return}
   ST=load();Promise.all([getPresets(),getIdx()]).then(()=>{CIM=null;if(mode==="list")vList()});vList();
 };
 })();

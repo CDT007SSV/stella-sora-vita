@@ -502,13 +502,17 @@ body.bgm-on .screen{padding-bottom:84px}
 </div>
 
 <div id="s-builds" class="screen">
-  <div class="topbar"><button type="button" data-back>‹</button><h2>Equipos y builds</h2></div>
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Builds de la comunidad</h2></div>
   <main>
+    <div id="cm-root"></div>
+    <div id="nt-old" hidden>
+    <h3 class="fk-h" style="margin-top:20px">Archivo anterior (Notion)</h3>
     <input class="search" id="bs" type="search" placeholder="Buscar build..."/>
     <div id="bfilters"></div>
     <div class="fcount"><span id="bcount"></span><button class="chip" id="bclear" hidden>Limpiar filtros</button></div>
     <div id="blist"></div>
     <a class="btn out" id="b-notion" href="#" target="_blank" rel="noopener">Ver en Notion</a>
+    </div>
   </main>
 </div>
 <div id="s-build" class="screen">
@@ -535,6 +539,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="cambios.js"></script>
 <script src="fichas.js"></script>
 <script src="discos.js"></script>
+<script src="comunidad-config.js"></script>
 <script src="teams.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
@@ -581,6 +586,7 @@ function go(id){cur=id;document.body.classList.remove("home");
   window.scrollTo(0,0);
   if(id==="news"&&window.nvSeen)window.nvSeen();
   if(id==="teams"&&window.teamsShow)window.teamsShow();
+  if(id==="builds"&&window.communityShow)window.communityShow();
 }
 
 document.body.addEventListener("click", function(e){
@@ -1140,6 +1146,7 @@ async function cargarBuilds(){
     const r=await fetch("builds.json",{cache:"no-cache"}); if(!r.ok)return;
     const B=await r.json(); if(!B.items||!B.items.length)return;
     BUILDS=B;
+    const nto=document.getElementById("nt-old");if(nto)nto.hidden=false;
     document.getElementById("b-notion").href=B.url||"#";
     renderBuilds();
     if(/^#b\//.test(location.hash))route();
