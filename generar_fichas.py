@@ -184,6 +184,7 @@ TAREAS = [
  (r"^{n} has saved (\d+) records? with a rating level of (\d+)$", "Guarda {0} {records} con una calificación de {1} con {n}"),
  (r"^All {n}'s skills ≥ ?(?:Lv\.)? ?(\d+)$", "Todas las habilidades de {n} ≥ Nv. {0}"),
  (r"^All of {n}'s skills are at (?:Lv\.|Level) ?(\d+) or higher$", "Todas las habilidades de {n} ≥ Nv. {0}"),
+ (r"^Invite and hang out with {n} (\d+) times?$", "Invita a {n} a pasar el rato {0} {veces}"),
  (r"^Collect {n}'s Potentials? ×(\d+)$", "Reúne ×{0} potenciales de {n}"),
  (r"^Obtained (\d+) {n}'s Potentials$", "Reúne ×{0} potenciales de {n}"),
 ]
