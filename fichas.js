@@ -58,11 +58,15 @@ function panelAfin(F){
    <h4 class="fk-h">Tareas de afinidad</h4>${F.tareas.map(t=>`<div class="kv"><span>${e(t.t)}</span><b style="flex:0 0 auto;color:var(--a)">+${t.exp} EXP</b></div>`).join("")}`;
 }
 function montar(box,F){
-  let tab="hab",modo="main",build=1,vista="res";
+  let tab="per",modo="main",build=1,vista="res";
   const out=box.querySelector(".fk-body");
   function pinta(){
     out.className="fk-body";
     box.querySelectorAll(".fk-tabs .chip").forEach(c=>c.classList.toggle("on",c.dataset.t===tab));
+    const pb=document.getElementById("perfil-box");
+    if(pb)pb.style.display=tab==="per"?"":"none";
+    out.style.display=tab==="per"?"none":"";
+    if(tab==="per"){out.innerHTML="";return}
     if(tab==="hab"){
       out.innerHTML='<div class="fk-tg"><button data-v="res">Resumido</button><button data-v="det">Detallado</button></div>'+F.habilidades.map(skill).join("");
       out.className="fk-body "+vista;out.querySelectorAll(".fk-tg button").forEach(b=>{b.classList.toggle("on",b.dataset.v===vista);b.onclick=()=>{vista=b.dataset.v;out.className="fk-body "+vista;out.querySelectorAll(".fk-tg button").forEach(x=>x.classList.toggle("on",x===b))}});
@@ -89,13 +93,13 @@ window.fichaCargar=async function(c){
   try{
     let F=CACHE[id]; if(F===undefined){const r=await fetch("fichas/"+id+".json");F=r.ok?await r.json():null;CACHE[id]=F}
     if(!F||!document.getElementById("ficha-box"))return;
-    box.innerHTML=`<div class="fk-tabs"><button class="chip on" data-t="hab">Habilidades</button><button class="chip" data-t="pot">Potenciales</button><button class="chip" data-t="afi">Afinidad</button><button class="chip" data-t="sta">Stats</button></div><div class="fk-body"></div>`;
+    box.innerHTML=`<div class="fk-tabs"><button class="chip on" data-t="per">Perfil</button><button class="chip" data-t="hab">Habilidades</button><button class="chip" data-t="pot">Potenciales</button><button class="chip" data-t="afi">Afinidad</button><button class="chip" data-t="sta">Stats</button></div><div class="fk-body"></div>`;
     montar(box,F);
     const st=document.querySelectorAll("#det .stats .stat");
-    if(F.stats&&F.stats.rows&&st.length>=2){const r=F.stats.rows[F.stats.rows.length-1];
-      st[0].querySelector("b").textContent=r[1].toLocaleString("es-MX");st[1].querySelector("b").textContent=r[2].toLocaleString("es-MX");
-      if(F.cumple&&st[2]&&/^\s*[—-]?\s*$/.test(st[2].querySelector("b").textContent))st[2].querySelector("b").textContent=F.cumple;
-      st[0].querySelector("span").textContent="HP (Nv. "+r[0]+")";st[1].querySelector("span").textContent="ATK (Nv. "+r[0]+")"}
+    if(st.length>=3){
+      if(F.cumple&&/^\s*[—-]?\s*$/.test(st[2].querySelector("b").textContent))st[2].querySelector("b").textContent=F.cumple;
+      st[0].remove();st[1].remove();const sb=document.querySelector("#det .stats");if(sb)sb.style.gridTemplateColumns="1fr";
+    }
   }catch(x){}
 };
 })();

@@ -1,6 +1,6 @@
 // Service worker: guarda la app para abrirla sin conexión y siempre busca primero la versión nueva.
 // Si cambias la lista SHELL, sube también el número de CACHE.
-const CACHE = "stella-sora-wiki-v21";
+const CACHE = "stella-sora-wiki-v22";
 const SHELL = ["./", "index.html", "data.js", "traducciones.js", "historias.js", "lector.js", "cambios.js", "fichas.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
