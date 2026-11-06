@@ -12,7 +12,7 @@ function tpl(s,vals,tier,tn){
 }
 function skill(h,i){
   const max=Math.max(...h.tpl.flatMap(g=>g.l));
-  return `<div class="fk-card" data-i="${i}"><div class="fk-top"><span class="fk-t">${TIPO[h.tipo]||e(h.tipo)}</span>${h.cd?`<span class="fk-cd">CD ${e(h.cd)} s</span>`:""}</div>
+  return `<div class="fk-card" data-i="${i}"><div class="fk-top">${h.iu?`<span class="fk-ic"${h.bg?` style="background-image:url(${h.bg})"`:""}><img src="${h.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">${h.ti?`<img class="fk-ti" src="${h.ti}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</span>`:""}<span class="fk-t">${TIPO[h.tipo]||e(h.tipo)}</span>${h.cd?`<span class="fk-cd">CD ${e(h.cd)} s</span>`:""}</div>
     <h4>${e(h.n)}</h4>${h.ne!==h.n?`<div class="fk-en">${e(h.ne)}</div>`:""}<p class="fk-b">${tpl(h.b)}</p>
     <div class="fk-lv"><button class="fk-st" data-d="-1" aria-label="Bajar nivel">−</button><span>Nivel <b class="fk-n">1</b> / ${max}</span><button class="fk-st" data-d="1" aria-label="Subir nivel">+</button></div>
     <div class="fk-d"></div><div class="fk-m"></div></div>`;
@@ -22,11 +22,11 @@ function pintaSkill(card,h,l){
   card.querySelector(".fk-n").textContent=l;
   card.querySelector(".fk-d").innerHTML=tpl(g.s,h.v[l-1],h.tier);
   const m=h.mats[l-1]||[];
-  card.querySelector(".fk-m").innerHTML=m.length?`<div class="fk-mh">Para subir al nivel ${l+1}</div><div class="fk-mi">${m.map(x=>`<span>${e(x.n)} <b>×${x.q.toLocaleString("es-MX")}</b></span>`).join("")}</div>`:(l>=Math.max(...h.tpl.flatMap(g=>g.l))?'<div class="fk-mh">Nivel máximo</div>':'');
+  card.querySelector(".fk-m").innerHTML=m.length?`<div class="fk-mh">Para subir al nivel ${l+1}</div><div class="fk-mi">${m.map(x=>`<span>${x.iu?`<img class="fk-mimg" src="${x.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}${e(x.n)} <b>×${x.q.toLocaleString("es-MX")}</b></span>`).join("")}</div>`:(l>=Math.max(...h.tpl.flatMap(g=>g.l))?'<div class="fk-mh">Nivel máximo</div>':'');
 }
 function pot(p,det){
   const lv=p.v.some(a=>a.length>1);
-  return `<div class="fk-pot" data-t="${p.t}">${p.ic?`<img src="${FILE}${encodeURIComponent(p.ic)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
+  return `<div class="fk-pot" data-t="${p.t}"><div class="fk-pi">${p.iu?`<img src="${p.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>
     <div><h5>${e(p.n)}</h5>${p.ne!==p.n?`<div class="fk-en">${e(p.ne)}</div>`:""}<p class="fk-pb">${tpl(p.b)}</p>
     <details><summary>Detalle${lv?" y niveles":""}</summary>${lv?'<div class="fk-lv sm"><button class="fk-st" data-d="-1">−</button><span>Nivel <b class="fk-n">1</b> / 6</span><button class="fk-st" data-d="1">+</button></div>':""}<p class="fk-pd">${tpl(p.s,p.v,null,0)}</p></details></div></div>`;
 }
@@ -58,12 +58,14 @@ function panelAfin(F){
    <h4 class="fk-h">Tareas de afinidad</h4>${F.tareas.map(t=>`<div class="kv"><span>${e(t.t)}</span><b style="flex:0 0 auto;color:var(--a)">+${t.exp} EXP</b></div>`).join("")}`;
 }
 function montar(box,F){
-  let tab="hab",modo="main",build=1;
+  let tab="hab",modo="main",build=1,vista="res";
   const out=box.querySelector(".fk-body");
   function pinta(){
+    out.className="fk-body";
     box.querySelectorAll(".fk-tabs .chip").forEach(c=>c.classList.toggle("on",c.dataset.t===tab));
     if(tab==="hab"){
-      out.innerHTML=F.habilidades.map(skill).join("");
+      out.innerHTML='<div class="fk-tg"><button data-v="res">Resumido</button><button data-v="det">Detallado</button></div>'+F.habilidades.map(skill).join("");
+      out.className="fk-body "+vista;out.querySelectorAll(".fk-tg button").forEach(b=>{b.classList.toggle("on",b.dataset.v===vista);b.onclick=()=>{vista=b.dataset.v;out.className="fk-body "+vista;out.querySelectorAll(".fk-tg button").forEach(x=>x.classList.toggle("on",x===b))}});
       out.querySelectorAll(".fk-card").forEach((c,i)=>{const h=F.habilidades[i],max=Math.max(...h.tpl.flatMap(g=>g.l));let l=1;
         pintaSkill(c,h,l);c.querySelectorAll(".fk-st").forEach(b=>b.onclick=()=>{l=Math.max(1,Math.min(max,l+(+b.dataset.d)));pintaSkill(c,h,l)})});
     }else if(tab==="pot"){
