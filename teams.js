@@ -28,6 +28,44 @@ const chars=()=>typeof CHARS!=="undefined"?CHARS:[],discs=()=>typeof DISCS!=="un
 const charOf=id=>chars().find(c=>c.id===id),discOf=n=>discs().find(d=>d.name===n);
 const star=(n,h)=>typeof estr==="function"?estr(n,h||14):n+"★";
 const eli=el=>typeof elIcon==="function"?elIcon(el):"";
+let PR=null;
+async function getPresets(){if(PR)return PR;try{const r=await fetch("presets.json");PR=r.ok?await r.json():{}}catch(x){PR={}}return PR}
+const gidOf=(P,slug)=>{const c=charOf(slug);if(!c)return null;for(const i in P)if(P[i].n===c.name)return +i;return null};
+/* Codigo de preset del juego: 3 ids de personaje (uint32 BE) + 40 bits por personaje (4 nucleo + 9x3 normales + 3x3 comunes). Solo personajes y potenciales. */
+async function gameCode(){
+  const P=await getPresets(),ids=T.slots.map(s=>gidOf(P,s.c));
+  if(ids.some(x=>x==null))return null;
+  const by=[];ids.forEach(i=>by.push((i>>>24)&255,(i>>>16)&255,(i>>>8)&255,i&255));
+  let bits="";
+  for(let s=0;s<3;s++){
+    const g=P[ids[s]],lv={};
+    for(const k in T.slots[s].p){lv[k.split("|").slice(2).join("|")]=T.slots[s].p[k].l}
+    const get=id=>Math.max(0,Math.min(7,lv[g.names[id]]||0));
+    bits+=(s===0?g.ms:g.as).map(id=>get(id)>0?"1":"0").join("");
+    bits+=(s===0?g.mn:g.an).concat(g.cm).map(id=>get(id).toString(2).padStart(3,"0")).join("");
+  }
+  for(let i=0;i<bits.length;i+=8)by.push(parseInt(bits.slice(i,i+8),2));
+  return btoa(String.fromCharCode(...by));
+}
+async function gameDecode(txt){
+  txt=txt.trim();if(!/^[A-Za-z0-9+/]{36}$/.test(txt))return null;
+  let b;try{b=atob(txt)}catch(x){return null}
+  if(b.length!==27)return null;
+  const P=await getPresets(),by=[...b].map(c=>c.charCodeAt(0));
+  const ids=[0,1,2].map(i=>((by[4*i]<<24)|(by[4*i+1]<<16)|(by[4*i+2]<<8)|by[4*i+3])>>>0);
+  if(ids.some(i=>!P[i]))return null;
+  const bits=by.slice(12).map(x=>x.toString(2).padStart(8,"0")).join(""),t=nuevo();t.name="Preset importado";
+  for(let s=0;s<3;s++){
+    const g=P[ids[s]],c=chars().find(x=>x.name===g.n);if(!c)continue;
+    const role=s===0?"main":"support",blk=bits.slice(s*40,s*40+40),F=await getF(c.id),L={};
+    (s===0?g.ms:g.as).forEach((id,j)=>{if(blk[j]==="1")L[id]=1});
+    (s===0?g.mn:g.an).concat(g.cm).forEach((id,j)=>{const v=parseInt(blk.slice(4+3*j,7+3*j),2);if(v>0)L[id]=v});
+    t.slots[s]={c:c.id,p:{}};
+    if(F&&F.potenciales){const T2=F.potenciales[role]||F.potenciales.main;
+      for(const id in L){const p=T2.l.find(x=>x.ne===g.names[id]);if(p)t.slots[s].p[role+"|"+p.g+"|"+p.ne]={l:L[id],pr:p.t===1?"c":"m"}}}
+  }
+  return t;
+}
 const nuevo=()=>fix({id:uid(),name:"",slots:[],discs:[],note:"",score:""});
 let root,T=null,mode="list";
 
@@ -235,7 +273,7 @@ function vEdit(){
     <div class="tm-dh"><b>De apoyo y recomendados</b><small>${T.discs.slice(3).filter(Boolean).length}/6</small></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,true)).join("")}</div><div id="tm-notes"></div></div>
    <div class="tm-sl"><div class="tm-dh"><b>Récord y notas</b><small>opcional</small></div><div class="tm-sec"><input class="tm-in" id="tm-score" inputmode="numeric" placeholder="Tu récord (puntaje)" maxlength="20" value="${e(T.score)}"><textarea class="tm-ta" id="tm-note" placeholder="Cómo se juega, qué tomar si no sale un potencial, rotación…" maxlength="500">${e(T.note)}</textarea></div></div>
    <button class="btn" data-a="save">Guardar equipo</button>
-   <div class="tm-act"><button class="btn out" data-a="vv">Ver ficha</button><button class="btn out" data-a="code">Copiar código</button></div><div id="tm-io-box"></div>`;
+   <div class="tm-act"><button class="btn out" data-a="vv">Ver ficha</button><button class="btn out" data-a="code">Copiar código</button></div><button class="btn out" data-a="gcode">Código de preset del juego</button><div id="tm-io-box"></div>`;
   [0,1,2].forEach(s=>pintaPots(s));pintaNotas();window.scrollTo(0,y);
 }
 function leer(){if(mode!=="edit")return;const a=root.querySelector("#tm-name");if(!a)return;T.name=a.value.trim();T.score=root.querySelector("#tm-score").value.trim();T.note=root.querySelector("#tm-note").value}
@@ -256,7 +294,7 @@ function vView(){
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,false)||"").join("")}</div>
     ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}<div id="tm-notes"></div></div>
    <button class="btn" data-a="edit">Editar equipo</button>
-   <div class="tm-act"><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`;
+   <div class="tm-act"><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`;
   [0,1,2].forEach(s=>pintaPots(s,true));pintaNotas();window.scrollTo(0,0);
 }
 
@@ -272,12 +310,14 @@ function onClick(ev){
   else if(a==="del"){if(confirm("¿Eliminar este equipo?")){ST.teams=ST.teams.filter(x=>x.id!==T.id);save();vList()}}
   else if(a==="dup"){const c=clean();c.id=uid();c.name=(c.name||"Equipo")+" (copia)";ST.teams.unshift(c);save();vList()}
   else if(a==="code"){leer();copiar(code(clean()),root.querySelector("#tm-io-box"),"Código del equipo.")}
+  else if(a==="gcode"){leer();const bx=root.querySelector("#tm-io-box");bx.innerHTML='<p class="nota">Generando…</p>';gameCode().then(c=>{if(!c)bx.innerHTML='<p class="nota">Elige los 3 personajes para generar el código de preset del juego.</p>';else copiar(c,bx,"Código de preset del juego (incluye los 3 personajes y sus potenciales; no incluye discos).")})}
   else if(a==="exp"){const t=JSON.stringify({v:2,teams:ST.teams});copiar(t,root.querySelector("#tm-io-box"),"Todos tus equipos.");descarga(t,"equipos-stella-sora.json")}
-  else if(a==="imp"){const b=root.querySelector("#tm-io-box");b.innerHTML=`<p class="nota">Pega aquí un código o el texto exportado, o elige el archivo.</p><textarea class="tm-tb" id="tm-imp-t"></textarea><input type="file" id="tm-imp-f" accept=".json,.txt" style="margin:8px 0"><button class="btn" data-a="imp2">Importar</button><p class="nota" id="tm-imp-m"></p>`;
+  else if(a==="imp"){const b=root.querySelector("#tm-io-box");b.innerHTML=`<p class="nota">Pega aquí un código de equipo, un código de preset del juego o el texto exportado, o elige el archivo.</p><textarea class="tm-tb" id="tm-imp-t"></textarea><input type="file" id="tm-imp-f" accept=".json,.txt" style="margin:8px 0"><button class="btn" data-a="imp2">Importar</button><p class="nota" id="tm-imp-m"></p>`;
     b.querySelector("#tm-imp-f").onchange=async f=>{const x=f.target.files[0];if(x)b.querySelector("#tm-imp-t").value=await x.text()}}
-  else if(a==="imp2"){const r=parse(root.querySelector("#tm-imp-t").value),m=root.querySelector("#tm-imp-m");
-    if(!r||!r.length){m.textContent="No reconocí ese código o archivo.";return}
-    ST.teams=r.concat(ST.teams);save();vList()}
+  else if(a==="imp2"){const txt=root.querySelector("#tm-imp-t").value,m=root.querySelector("#tm-imp-m");
+    gameDecode(txt).then(g=>{const r=g?[g]:parse(txt);
+      if(!r||!r.length){m.textContent="No reconocí ese código o archivo.";return}
+      ST.teams=r.concat(ST.teams);save();vList()})}
   else if(a==="char"){const s=+el.dataset.s;picker("Elegir Trekker",charItems(),it=>{leer();const old=T.slots[s];T.slots[s]={c:it.id,p:old&&old.c===it.id?old.p:{}};vEdit()})}
   else if(a==="cx"){leer();T.slots[+el.dataset.s]={c:"",p:{}};vEdit()}
   else if(a==="pots"){leer();potModal(+el.dataset.s)}
