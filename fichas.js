@@ -54,7 +54,7 @@ function pintaStats(box,F,l){
   box.querySelector(".fk-sv").innerHTML=`<div class="stats"><div class="stat"><b>${x[1].toLocaleString("es-MX")}</b><span>HP</span></div><div class="stat"><b>${x[2].toLocaleString("es-MX")}</b><span>ATK</span></div><div class="stat"><b>${F.stats.cr}%</b><span>Prob. crítica</span></div><div class="stat"><b>${F.stats.cd}%</b><span>Daño crítico</span></div></div>`;
 }
 function panelAfin(F){
-  return `<h4 class="fk-h">Regalos favoritos</h4><div class="fk-gifts">${F.regalos.map(g=>`<div class="fk-gf"><b>${e(g.n)}</b>${g.ne!==g.n?`<span>${e(g.ne)}</span>`:""}</div>`).join("")}</div>
+  return `<h4 class="fk-h">Regalos favoritos</h4><div class="fk-gifts">${F.regalos.map(g=>`<div class="fk-gf">${g.iu?`<img class="fk-gi" src="${g.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><b>${e(g.n)}</b>${g.ne!==g.n?`<span>${e(g.ne)}</span>`:""}</div></div>`).join("")}</div>
    <h4 class="fk-h">Tareas de afinidad</h4>${F.tareas.map(t=>`<div class="kv"><span>${e(t.t)}</span><b style="flex:0 0 auto;color:var(--a)">+${t.exp} EXP</b></div>`).join("")}`;
 }
 function montar(box,F){

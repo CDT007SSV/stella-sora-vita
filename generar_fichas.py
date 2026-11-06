@@ -326,6 +326,9 @@ def imagenes(res, f, G, cid):
             for m in lvl:
                 i = G["nid"].get(m["ne"])
                 if i and str(i) in G["It"]: m["iu"] = SS + "export/assets/assetbundles/icon/item/" + G["It"][str(i)]["Icon"].split("/")[-1] + ".webp"
+    for g in res["regalos"]:
+        i = G["nid"].get(g["ne"])
+        if i and str(i) in G["It"]: g["iu"] = SS + "export/assets/assetbundles/icon/item/" + G["It"][str(i)]["Icon"].split("/")[-1] + ".webp"
     for t in ("main", "support"):
         for p in (res["potenciales"].get(t) or {}).get("l", []):
             i = pid.get(p["ne"])
