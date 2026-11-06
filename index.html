@@ -225,7 +225,7 @@ body{background:
 .item-tile[data-el=Ventus]{--elc:var(--el-Ventus)}.item-tile[data-el=Lux]{--elc:var(--el-Lux)}.item-tile[data-el=Umbra]{--elc:var(--el-Umbra)}.item-tile[data-el=Neutral]{--elc:var(--el-Neutral)}
 .item-tile .lab{z-index:5;position:relative}
 .item-tile .shade{z-index:2}
-.item-tile .star{color:var(--gold)}.stars{display:inline-block;vertical-align:middle;width:auto}.badge.rbig:has(.stars){background:none!important;box-shadow:none!important;padding:0}
+.item-tile .star{color:var(--gold)}.item-tile img.stars{position:static;inset:auto;width:auto;height:13px;object-fit:contain;z-index:1;vertical-align:middle;display:inline-block}.stars{display:inline-block;vertical-align:middle;width:auto}.badge.rbig:has(.stars){background:none!important;box-shadow:none!important;padding:0}
 /* ficha del personaje: arte grande difuminado detras */
 .hero{position:relative;margin:-12px -12px 12px;padding:16px 14px 6px;overflow:hidden;isolation:isolate}
 .hero::before{content:"";position:absolute;inset:-20px;z-index:-2;background:var(--heroimg) center 20%/cover no-repeat;filter:blur(18px) saturate(1.3);opacity:.55;transform:scale(1.1)}
@@ -794,16 +794,12 @@ function showD(wikiUrl){
       <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
     </div>
     <div class="chips"><span class="chip on">${elIcon(d.element)}${d.element}</span><span class="chip on">Disco</span></div>
-    <button type="button" class="btn" id="dmore-btn">Ver más</button>
     <div class="dmore" id="dmore" hidden></div>
     <div class="card" style="margin-top:12px"><p>Los efectos (Melody y Harmony Skill) y sus valores por nivel están en la wiki.</p></div>
     <a class="btn out" href="${d.wikiUrl}" target="_blank" rel="noopener">Ver en la wiki</a>`;
-  const btn=document.getElementById("dmore-btn"),box=document.getElementById("dmore");
-  btn.onclick=async()=>{
-    if(!box.hidden){box.hidden=true;btn.textContent="Ver más";return}
-    btn.textContent="Cargando…";
-    const E=await cargarExtras(); box.innerHTML=discExtraHtml(d,E); box.hidden=false; btn.textContent="Ver menos";
-  };
+  const box=document.getElementById("dmore");
+  box.innerHTML='<p class="nota-en">Cargando…</p>'; box.hidden=false;
+  cargarExtras().then(E=>{box.innerHTML=discExtraHtml(d,E)}).catch(()=>{box.innerHTML='<p class="nota-en">No se pudo cargar el detalle.</p>'});
   go("detail");
 }
 
