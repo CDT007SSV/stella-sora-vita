@@ -15,10 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generar fichas de discos
-        run: python3 generar_discos.py
+        run: |
+          python3 generar_discos.py
+          python3 generar_presets.py
       - name: Guardar cambios
         run: |
-          git add -A discos
+          git add -A discos presets.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
