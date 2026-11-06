@@ -17,7 +17,7 @@ def J(p): return json.load(open(p, encoding="utf-8"))
 def main():
     R = repo() + "/EN/"
     CP = J(R + "bin/CharPotential.json"); Ch = J(R + "bin/Character.json")
-    LC = J(R + "language/en_US/Character.json"); LI = J(R + "language/en_US/Item.json")
+    LC = J(R + "language/en_US/Character.json"); LI = J(R + "language/en_US/Item.json"); Item = J(R + "bin/Item.json")
     out = {}
     for i, d in CP.items():
         if i not in Ch: continue
@@ -25,7 +25,9 @@ def main():
         if not n or "Golem" in n: continue
         ids = {k: d[v] for k, v in (("ms", "MasterSpecificPotentialIds"), ("mn", "MasterNormalPotentialIds"), ("as", "AssistSpecificPotentialIds"), ("an", "AssistNormalPotentialIds"), ("cm", "CommonPotentialIds"))}
         nom = {str(p): LI.get("Item.%d.1" % p, "") for l in ids.values() for p in l}
-        out[i] = dict(n=n, **ids, names=nom)
+        ic = (Item.get(i) or {}).get("Icon", "").split("/")[-1]
+        im = ("https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/head/" + ic + ".webp") if ic else ""
+        out[i] = dict(n=n, im=im, **ids, names=nom)
     json.dump(out, open("presets.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print("Personajes:", len(out))
 

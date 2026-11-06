@@ -78,7 +78,7 @@ def main():
     tags = {k.split(".")[1]: tr(v) for k, v in LT.items() if k.endswith(".1")}
 
     os.makedirs("discos", exist_ok=True)
-    idx = {}
+    idx = {}; imgs = {}
     for D in rows(B + "/Disc.json"):
         did = D["Id"]; it = Item.get(str(did)) or {}
         name = LI.get("Item.%d.1" % did)
@@ -124,7 +124,8 @@ def main():
         f["asc"] = asc
         json.dump(f, open("discos/%d.json" % did, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         idx[name] = did
-    json.dump({"ids": idx, "notas": notas}, open("discos/indice.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+        imgs[name] = SS + "outfit/" + (it.get("Icon") or "").split("/")[-1] + ".webp"
+    json.dump({"ids": idx, "img": imgs, "notas": notas}, open("discos/indice.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     json.dump(sorted(pend), open("discos/pendientes.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("Discos generados:", len(idx), "| textos pendientes de traducir:", len(pend))
 

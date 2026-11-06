@@ -25,6 +25,14 @@ async function getIdx(){if(IDX)return IDX;try{const r=await fetch("discos/indice
 async function getD(name){const I=await getIdx(),id=I.ids[name];if(!id)return null;if(DC[id]!==undefined)return DC[id];try{const r=await fetch("discos/"+id+".json");DC[id]=r.ok?await r.json():null}catch(x){DC[id]=null}return DC[id]}
 function tpl(s,vals,tn){return e(s).replace(/⟦(\d+)⟧/g,(m,i)=>'<b class="fn">'+e(vals&&vals[i]!=null?(Array.isArray(vals[i])?vals[i][Math.min(tn||0,vals[i].length-1)]:vals[i]):"?")+"</b>").replace(/⟪(\d+)⟫/g,'<b class="fn">?</b>').replace(/⟨([^⟩]*)⟩/g,'<i class="fk">$1</i>').replace(/\n/g,"<br>")}
 const chars=()=>typeof CHARS!=="undefined"?CHARS:[],discs=()=>typeof DISCS!=="undefined"?DISCS:[];
+/* los modales usan el historial para que el boton "atras" del telefono los cierre en vez de salir de la pantalla */
+const MS=[];let selfBack=0;
+function openM(m){document.body.appendChild(m);MS.push(m);try{history.pushState({tm:1},"",location.href)}catch(x){}}
+function closeM(m){const i=MS.indexOf(m);if(i<0){m.remove();return}MS.splice(i,1);m.remove();if(i===MS.length){selfBack++;try{history.back()}catch(x){selfBack--}}}
+window.addEventListener("popstate",()=>{if(selfBack>0){selfBack--;return}const m=MS.pop();if(m){m.remove();if(mode==="edit"&&m._pot)vEdit()}});
+let CIM=null;
+const imgC=c=>{if(!c)return"";if(!CIM&&PR){CIM={};for(const i in PR)CIM[PR[i].n]=PR[i].im}return(CIM&&CIM[c.name])||c.imageUrl};
+const imgD=d=>{if(!d)return"";return(IDX&&IDX.img&&IDX.img[d.name])||d.imageUrl};
 const charOf=id=>chars().find(c=>c.id===id),discOf=n=>discs().find(d=>d.name===n);
 const star=(n,h)=>typeof estr==="function"?estr(n,h||14):n+"★";
 const eli=el=>typeof elIcon==="function"?elIcon(el):"";
@@ -148,17 +156,17 @@ function picker(titulo,items,onPick,opts){
    <input class="tm-in" style="margin-bottom:6px" type="search" placeholder="Buscar…">
    <div class="tm-fl" data-f="e"><button class="chip on" data-v="">Todos</button>${els.map(x=>`<button class="chip" data-v="${e(x)}">${eli(x)}${e(x)}</button>`).join("")}</div>
    <div class="tm-fl" data-f="r"><button class="chip on" data-v="0">Todas</button>${rs.map(x=>`<button class="chip" data-v="${x}">${x}★</button>`).join("")}</div></div><div class="tm-mb"><div class="tm-gr"></div></div>`;
-  document.body.appendChild(m);
+  openM(m);
   const G=m.querySelector(".tm-gr");
   const pint=()=>{const n=norm(q);const R=items.filter(i=>(!n||norm(i.n).includes(n))&&(!fe||i.el===fe)&&(!fr||i.r===fr));
     G.innerHTML=R.map((i,k)=>`<button class="tm-gt${opts.sq?" dsq":""}" data-k="${k}" style="--tc:${ec(i.el)}"><span class="tm-pe" style="background:${ec(i.el)}"></span>${i.img?`<img class="tm-pa" src="${e(i.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:""}<span class="tm-ps">${i.r?star(i.r,12):""}</span><span class="tm-pn">${e(i.n)}</span></button>`).join("")||"<p class='nota' style='grid-column:1/-1'>Sin resultados.</p>";
-    G.querySelectorAll(".tm-gt").forEach(b=>b.onclick=()=>{const it=R[+b.dataset.k];m.remove();onPick(it)})};
+    G.querySelectorAll(".tm-gt").forEach(b=>b.onclick=()=>{const it=R[+b.dataset.k];closeM(m);onPick(it)})};
   m.querySelector("input").oninput=ev=>{q=ev.target.value;pint()};
   m.querySelectorAll(".tm-fl").forEach(f=>f.onclick=ev=>{const b=ev.target.closest("[data-v]");if(!b)return;f.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c===b));if(f.dataset.f==="e")fe=b.dataset.v;else fr=+b.dataset.v;pint()});
-  m.querySelector("[data-x]").onclick=()=>m.remove();pint();
+  m.querySelector("[data-x]").onclick=()=>closeM(m);pint();
 }
-const charItems=()=>chars().map(c=>({n:c.name,el:c.element,r:c.rarity,img:c.imageUrl,id:c.id}));
-const discItems=()=>discs().map(d=>({n:d.name,el:d.element,r:d.rarity,img:d.imageUrl}));
+const charItems=()=>chars().map(c=>({n:c.name,el:c.element,r:c.rarity,img:imgC(c),id:c.id}));
+const discItems=()=>discs().map(d=>({n:d.name,el:d.element,r:d.rarity,img:imgD(d)}));
 
 /* ---------- modal de potenciales ---------- */
 async function potModal(s){
@@ -169,10 +177,10 @@ async function potModal(s){
   const bn=b=>/\b(\d+)\b/.test(b.n)?"Build "+b.n.match(/\b(\d+)\b/)[1]:b.n;
   const keyOf=p=>role+"|"+p.g+"|"+p.ne;
   let tab=String(Tt.builds[0].id),open=null;
-  const m=document.createElement("div");m.className="tm-md";m.style.setProperty("--tc",ec(c.element));
+  const m=document.createElement("div");m.className="tm-md";m.style.setProperty("--tc",ec(c.element));m._pot=true;
   m.innerHTML=`<div class="tm-mh"><div class="tm-mt"><b>${e(c.name)} · Potenciales</b><button class="chip" data-x="1">Listo</button></div><div class="tm-hint" id="tm-cnt"></div>
    <div class="tm-fl">${Tt.builds.map(b=>`<button class="chip" data-t="${b.id}">${e(bn(b))}</button>`).join("")}<button class="chip" data-t="sel">Elegidos</button></div></div><div class="tm-mb"></div>`;
-  document.body.appendChild(m);
+  openM(m);
   const B=m.querySelector(".tm-mb");
   const pk=p=>{const k=keyOf(p),v=S.p[k],mx=Math.max(1,...p.v.map(a=>a.length));
     return `<div class="tm-pk${v?" on":""}" data-k="${e(k)}"><img class="tm-pi" src="${e(p.iu||"")}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">
@@ -193,7 +201,7 @@ async function potModal(s){
       if(co.length)h+=`<h4 class="fk-h">Comunes</h4>`+co.map(pk).join("")}
     B.innerHTML=h;B.scrollTop=y};
   m.onclick=ev=>{
-    if(ev.target.closest("[data-x]")){m.remove();if(mode==="edit")vEdit();return}
+    if(ev.target.closest("[data-x]")){closeM(m);if(mode==="edit")vEdit();return}
     const t=ev.target.closest("[data-t]");if(t){tab=t.dataset.t;B.scrollTop=0;pint();return}
     const row=ev.target.closest(".tm-pk");if(!row)return;const k=row.dataset.k,a=ev.target.closest("[data-a]"),act=a&&a.dataset.a;
     if(act==="lv")return;
@@ -210,7 +218,7 @@ async function potModal(s){
 function vList(){
   mode="list";T=null;const A=ST.teams;
   root.innerHTML=`<div class="tm-hero"><h3>Arma tu equipo</h3><p>Elige 3 Trekkers, sus potenciales y los discos. Guárdalo y consúltalo cuando quieras.</p><button class="btn" data-a="new" style="margin:0">+ Nuevo equipo</button></div>`+
-  (A.length?A.map(t=>{const c0=charOf(t.slots[0].c);return `<div class="tm-card" data-a="view" data-id="${t.id}"><div class="tm-ctop" style="background:linear-gradient(90deg,${t.slots.map(s=>{const c=charOf(s.c);return c?ec(c.element):"#3a3660"}).join(",")})"></div><div class="tm-cb"><h4>${e(t.name||"Equipo sin nombre")}</h4><div class="tm-th">${t.slots.map(s=>{const c=charOf(s.c);return c?`<img src="${e(c.imageUrl)}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:`<i></i>`}).join("")}<span class="tm-cm">${t.discs.filter(Boolean).length} discos${t.score?"<br>Récord: "+e(t.score):""}</span></div></div></div>`}).join(""):`<p class="nota">Aún no tienes equipos guardados.</p>`)+
+  (A.length?A.map(t=>{const c0=charOf(t.slots[0].c);return `<div class="tm-card" data-a="view" data-id="${t.id}"><div class="tm-ctop" style="background:linear-gradient(90deg,${t.slots.map(s=>{const c=charOf(s.c);return c?ec(c.element):"#3a3660"}).join(",")})"></div><div class="tm-cb"><h4>${e(t.name||"Equipo sin nombre")}</h4><div class="tm-th">${t.slots.map(s=>{const c=charOf(s.c);return c?`<img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:`<i></i>`}).join("")}<span class="tm-cm">${t.discs.filter(Boolean).length} discos${t.score?"<br>Récord: "+e(t.score):""}</span></div></div></div>`}).join(""):`<p class="nota">Aún no tienes equipos guardados.</p>`)+
   `<div class="tm-io"><button class="btn out" data-a="exp">Exportar todo</button><button class="btn out" data-a="imp">Importar</button></div><div id="tm-io-box"></div>
    <p class="nota" style="margin-top:12px">Tus equipos se guardan solo en este dispositivo. Para pasarlos a otro, usa Exportar/Importar o copia el código de cada equipo.</p>
    <a class="btn out" href="#builds" data-nav="builds">Builds de la comunidad</a>`;
@@ -234,12 +242,12 @@ const sortedPots=(S,F)=>{
 function potLines(list){return list.map(({p,v})=>`<div class="tm-pl">${p.iu?`<img src="${e(p.iu)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div class="tm-n"><b>${e(p.n)}</b></div><span class="tm-lvc">LV ${v.l}</span><span class="tm-tg tm-pr-${v.pr}">${PRI[v.pr]}</span></div>`).join("")}
 function banner(s,ed){
   const S=T.slots[s],c=charOf(S.c);
-  return `<div class="tm-bn" style="--tc:${ec(c.element)}"><img class="tm-av" src="${e(c.imageUrl)}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><div><h4>${e(c.name)}</h4><div class="tm-m"><span>${star(c.rarity,13)}</span><span>${eli(c.element)}${e(c.element)}</span></div></div>${ed?`<div class="tm-bx"><button data-a="char" data-s="${s}">Cambiar</button><button data-a="cx" data-s="${s}">Quitar</button></div>`:""}</div>`;
+  return `<div class="tm-bn" style="--tc:${ec(c.element)}"><img class="tm-av" src="${e(imgC(c))}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><div><h4>${e(c.name)}</h4><div class="tm-m"><span>${star(c.rarity,13)}</span><span>${eli(c.element)}${e(c.element)}</span></div></div>${ed?`<div class="tm-bx"><button data-a="char" data-s="${s}">Cambiar</button><button data-a="cx" data-s="${s}">Quitar</button></div>`:""}</div>`;
 }
 function discTile(i,ed){
   const D=T.discs[i],d=D&&discOf(D.n);
   if(!D)return ed?`<button class="tm-dt" data-a="disc" data-i="${i}" aria-label="Elegir disco">+</button>`:"";
-  return `<div class="tm-dt f" style="--tc:${ec(d&&d.element)}"${ed?` data-a="disc" data-i="${i}"`:""}>${d?`<img src="${e(d.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:""}<span class="tm-dn">${e(D.n)}</span>${ed?`<span class="tm-dx" data-a="dx" data-i="${i}">✕</span><select class="tm-da" data-a="asc" data-i="${i}" aria-label="Ascensión">${[0,1,2,3,4,5,6,7,8].map(a=>`<option value="${a}"${a===D.a?" selected":""}>${a===0?"Asc 0":"Asc "+a}</option>`).join("")}</select>`:`<span class="tm-da" style="position:absolute;top:3px;left:3px;padding:2px 6px">Asc ${D.a}</span>`}</div>`;
+  return `<div class="tm-dt f" style="--tc:${ec(d&&d.element)}"${ed?` data-a="disc" data-i="${i}"`:""}>${d?`<img src="${e(imgD(d))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:""}<span class="tm-dn">${e(D.n)}</span>${ed?`<span class="tm-dx" data-a="dx" data-i="${i}">✕</span><select class="tm-da" data-a="asc" data-i="${i}" aria-label="Ascensión">${[0,1,2,3,4,5,6,7,8].map(a=>`<option value="${a}"${a===D.a?" selected":""}>${a===0?"Asc 0":"Asc "+a}</option>`).join("")}</select>`:`<span class="tm-da" style="position:absolute;top:3px;left:3px;padding:2px 6px">Asc ${D.a}</span>`}</div>`;
 }
 /* ---------- imagen vertical para compartir ---------- */
 function loadImg(u){return new Promise(r=>{if(!u)return r(null);const i=new Image();i.crossOrigin="anonymous";i.referrerPolicy="no-referrer";const t=setTimeout(()=>r(null),9000);i.onload=()=>{clearTimeout(t);r(i)};i.onerror=()=>{clearTimeout(t);r(null)};i.src=u})}
@@ -249,7 +257,7 @@ function wrapT(c,t,mw,ml){const w=String(t||"").split(/\s+/),L=[];let l="";for(c
 async function imagen(){
   const m=document.createElement("div");m.className="tm-md";
   m.innerHTML='<div class="tm-mh"><div class="tm-mt"><b>Imagen para compartir</b><button class="chip" data-x="1">Cerrar</button></div></div><div class="tm-mb" id="tm-ib"><p class="nota">Dibujando la imagen… puede tardar unos segundos.</p></div>';
-  document.body.appendChild(m);m.querySelector("[data-x]").onclick=()=>m.remove();
+  openM(m);m.querySelector("[data-x]").onclick=()=>closeM(m);
   const W=2000,P=40,G=24,CW=Math.floor((W-2*P-2*G)/3),RH=84,GH=46,PRIc={c:"#ff6ec7",m:"#a78bfa",o:"#6b6890"};
   const F=[];for(let s=0;s<3;s++){T.slots[s].__r=s===0?"main":"support";F.push(T.slots[s].c?await getF(T.slots[s].c):null)}
   const PL=[0,1,2].map(s=>sortedPots(T.slots[s],F[s]));
@@ -261,7 +269,7 @@ async function imagen(){
   const hHead=190,hCols=Math.max(colH(0),colH(1),colH(2)),hDisc=(dm.length||ds.length)?320:0,hNote=nt.length?40+nt.length*38+30:0;
   const H=hHead+hCols+hDisc+hNote+90;
   const cv=document.createElement("canvas");cv.width=W;cv.height=H;const c=cv.getContext("2d");
-  const urls=new Set();[0,1,2].forEach(s=>{const ch=charOf(T.slots[s].c);if(ch)urls.add(ch.imageUrl);PL[s].forEach(x=>urls.add(x.p.iu))});T.discs.forEach(D=>{const d=D&&discOf(D.n);if(d)urls.add(d.imageUrl)});
+  const urls=new Set();[0,1,2].forEach(s=>{const ch=charOf(T.slots[s].c);if(ch)urls.add(imgC(ch));PL[s].forEach(x=>urls.add(x.p.iu))});T.discs.forEach(D=>{const d=D&&discOf(D.n);if(d)urls.add(imgD(d))});
   const IM={};await Promise.all([...urls].map(async u=>{IM[u]=await loadImg(u)}));
   let g=c.createLinearGradient(0,0,W,H);g.addColorStop(0,"#1c1650");g.addColorStop(.5,"#0f0c2a");g.addColorStop(1,"#0a0820");c.fillStyle=g;c.fillRect(0,0,W,H);
   c.fillStyle="rgba(123,108,255,.08)";for(let y=0;y<H;y+=32)for(let x=(y/32%2)*16;x<W;x+=32){c.beginPath();c.arc(x,y,2,0,7);c.fill()}
@@ -277,7 +285,7 @@ async function imagen(){
     c.save();rr(c,x0,y0,CW,140,24);c.clip();g=c.createLinearGradient(x0,0,x0+CW,0);g.addColorStop(0,col);g.addColorStop(1,"#0d0a26");c.fillStyle=g;c.fillRect(x0,y0,CW,140);c.restore();
     c.fillStyle="rgba(255,255,255,.8)";c.font="bold 20px sans-serif";c.fillText(ROLE[s].toUpperCase(),x0+160,y0+34);
     if(ch){
-      const im=IM[ch.imageUrl];c.save();c.beginPath();c.arc(x0+80,y0+70,54,0,7);c.clip();c.fillStyle="#15122a";c.fillRect(x0+26,y0+16,108,108);if(im)cover(c,im,x0+26,y0+16,108,108,true);c.restore();
+      const im=IM[imgC(ch)];c.save();c.beginPath();c.arc(x0+80,y0+70,54,0,7);c.clip();c.fillStyle="#15122a";c.fillRect(x0+26,y0+16,108,108);if(im)cover(c,im,x0+26,y0+16,108,108,true);c.restore();
       c.strokeStyle="#fff";c.lineWidth=5;c.beginPath();c.arc(x0+80,y0+70,54,0,7);c.stroke();
       c.fillStyle="#fff";c.font="bold 46px sans-serif";c.fillText(ch.name,x0+160,y0+88);
       c.font="bold 26px sans-serif";c.fillStyle="#ffd76a";c.fillText("★".repeat(ch.rarity),x0+160,y0+124);c.fillStyle="#fff";c.fillText(ch.element,x0+160+ch.rarity*28+16,y0+124);
@@ -300,7 +308,7 @@ async function imagen(){
   let y=hHead+hCols;
   if(hDisc){
     const n=dm.length+ds.length,gap=14,sep=60,tw=Math.floor((W-2*P-(n-1)*gap-(dm.length&&ds.length?sep:0))/Math.max(n,9)),th=Math.round(tw*.72),ty=y+96;
-    const tile=(o,x0)=>{const d=discOf(o.d.n),im=d&&IM[d.imageUrl];c.save();rr(c,x0,ty,tw,th,14);c.clip();c.fillStyle="#241d55";c.fillRect(x0,ty,tw,th);if(im)cover(c,im,x0,ty,tw,th,true);
+    const tile=(o,x0)=>{const d=discOf(o.d.n),im=d&&IM[imgD(d)];c.save();rr(c,x0,ty,tw,th,14);c.clip();c.fillStyle="#241d55";c.fillRect(x0,ty,tw,th);if(im)cover(c,im,x0,ty,tw,th,true);
       const gg=c.createLinearGradient(0,ty+th-60,0,ty+th);gg.addColorStop(0,"rgba(0,0,0,0)");gg.addColorStop(1,"rgba(0,0,0,.9)");c.fillStyle=gg;c.fillRect(x0,ty+th-60,tw,60);c.restore();
       c.strokeStyle=ec(d&&d.element);c.lineWidth=4;rr(c,x0,ty,tw,th,14);c.stroke();
       c.fillStyle="#fff";c.textAlign="center";c.font="bold 17px sans-serif";wrapT(c,o.d.n,tw-10,2).forEach((l,i,A)=>c.fillText(l,x0+tw/2,ty+th-10-(A.length-1-i)*20));
@@ -400,6 +408,6 @@ function onChange(ev){const el=ev.target;if(el.dataset&&el.dataset.a==="asc"){T.
 window.teamsShow=function(){
   root=document.getElementById("teams-root");if(!root)return;
   if(!root._ok){root._ok=1;root.addEventListener("click",onClick);root.addEventListener("change",onChange)}
-  ST=load();vList();
+  ST=load();Promise.all([getPresets(),getIdx()]).then(()=>{CIM=null;if(mode==="list")vList()});vList();
 };
 })();
