@@ -241,14 +241,86 @@ function discTile(i,ed){
   if(!D)return ed?`<button class="tm-dt" data-a="disc" data-i="${i}" aria-label="Elegir disco">+</button>`:"";
   return `<div class="tm-dt f" style="--tc:${ec(d&&d.element)}"${ed?` data-a="disc" data-i="${i}"`:""}>${d?`<img src="${e(d.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:""}<span class="tm-dn">${e(D.n)}</span>${ed?`<span class="tm-dx" data-a="dx" data-i="${i}">✕</span><select class="tm-da" data-a="asc" data-i="${i}" aria-label="Ascensión">${[0,1,2,3,4,5,6,7,8].map(a=>`<option value="${a}"${a===D.a?" selected":""}>${a===0?"Asc 0":"Asc "+a}</option>`).join("")}</select>`:`<span class="tm-da" style="position:absolute;top:3px;left:3px;padding:2px 6px">Asc ${D.a}</span>`}</div>`;
 }
-async function notasHtml(){
-  const I=await getIdx(),tot={},hs=[];let n=0;
-  for(const D of T.discs){if(!D)continue;n++;const F=await getD(D.n);if(!F)continue;const nf=(F.nf||[]).find(x=>x.f===D.a);if(nf)for(const k in nf.n)tot[k]=(tot[k]||0)+nf.n[k];hs.push({D,F})}
-  if(!n)return"";
-  const ks=Object.keys(tot);
-  return `<div class="tm-dh"><b>Notas del equipo</b><small>estimación</small></div><div class="tm-nt">${ks.length?ks.map(k=>{const r=I.notas[k]||{};return `<span>${r.ic?`<img src="${e(r.ic)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}${e((r.n||k).replace(/^Melodía de /,""))} <b>×${tot[k]}</b></span>`}).join(""):"<span>Sin notas</span>"}</div>
-   <div class="tm-sec">`+hs.map(({D,F})=>(F.arm||[]).map(a=>{let lv=0;(a.nt||[]).forEach((req,j)=>{if(Object.keys(req).every(k=>(tot[k]||0)>=req[k]))lv=j+1});
-     return `<div class="kv"><span>${e(a.n)}<br><small class="nota">${e(D.n)}</small></span><b style="flex:0 0 auto;text-align:right;color:${lv?"var(--a)":"var(--t2)"}">${lv?"Nivel "+lv+" / "+a.v.length:"Sin activar"}</b></div>`}).join("")).join("")+`<p class="nota">Suma las notas de todos los discos elegidos a su ascensión y calcula hasta qué nivel llegaría cada armonía.</p></div>`;
+/* ---------- imagen vertical para compartir ---------- */
+function loadImg(u){return new Promise(r=>{if(!u)return r(null);const i=new Image();i.crossOrigin="anonymous";i.referrerPolicy="no-referrer";const t=setTimeout(()=>r(null),9000);i.onload=()=>{clearTimeout(t);r(i)};i.onerror=()=>{clearTimeout(t);r(null)};i.src=u})}
+function rr(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);c.arcTo(x+w,y+h,x,y+h,r);c.arcTo(x,y+h,x,y,r);c.arcTo(x,y,x+w,y,r);c.closePath()}
+function cover(c,im,x,y,w,h,top){const k=Math.max(w/im.width,h/im.height),dw=im.width*k,dh=im.height*k;c.drawImage(im,x+(w-dw)/2,top?y:y+(h-dh)/2,dw,dh)}
+function wrapT(c,t,mw,ml){const w=String(t||"").split(/\s+/),L=[];let l="";for(const x of w){const n=l?l+" "+x:x;if(c.measureText(n).width>mw&&l){L.push(l);l=x}else l=n}if(l)L.push(l);if(ml&&L.length>ml){L.length=ml;L[ml-1]=L[ml-1].replace(/.{0,2}$/,"…")}return L}
+async function imagen(){
+  const m=document.createElement("div");m.className="tm-md";
+  m.innerHTML='<div class="tm-mh"><div class="tm-mt"><b>Imagen para compartir</b><button class="chip" data-x="1">Cerrar</button></div></div><div class="tm-mb" id="tm-ib"><p class="nota">Dibujando la imagen… puede tardar unos segundos.</p></div>';
+  document.body.appendChild(m);m.querySelector("[data-x]").onclick=()=>m.remove();
+  const W=2000,P=40,G=24,CW=Math.floor((W-2*P-2*G)/3),RH=84,GH=46,PRIc={c:"#ff6ec7",m:"#a78bfa",o:"#6b6890"};
+  const F=[];for(let s=0;s<3;s++){T.slots[s].__r=s===0?"main":"support";F.push(T.slots[s].c?await getF(T.slots[s].c):null)}
+  const PL=[0,1,2].map(s=>sortedPots(T.slots[s],F[s]));
+  const grp=s=>["c","m","o"].map(k=>({k,L:PL[s].filter(x=>x.v.pr===k)})).filter(g=>g.L.length);
+  const colH=s=>160+(grp(s).reduce((a,g)=>a+GH+g.L.length*RH,0)||60)+20;
+  const dm=T.discs.slice(0,3).map((d,i)=>d&&{d,i}).filter(Boolean),ds=T.discs.slice(3).map((d,i)=>d&&{d,i:i+3}).filter(Boolean);
+  const tmp=document.createElement("canvas").getContext("2d");tmp.font="28px sans-serif";
+  const nt=T.note?wrapT(tmp,T.note,W-2*P-40,4):[];
+  const hHead=190,hCols=Math.max(colH(0),colH(1),colH(2)),hDisc=(dm.length||ds.length)?320:0,hNote=nt.length?40+nt.length*38+30:0;
+  const H=hHead+hCols+hDisc+hNote+90;
+  const cv=document.createElement("canvas");cv.width=W;cv.height=H;const c=cv.getContext("2d");
+  const urls=new Set();[0,1,2].forEach(s=>{const ch=charOf(T.slots[s].c);if(ch)urls.add(ch.imageUrl);PL[s].forEach(x=>urls.add(x.p.iu))});T.discs.forEach(D=>{const d=D&&discOf(D.n);if(d)urls.add(d.imageUrl)});
+  const IM={};await Promise.all([...urls].map(async u=>{IM[u]=await loadImg(u)}));
+  let g=c.createLinearGradient(0,0,W,H);g.addColorStop(0,"#1c1650");g.addColorStop(.5,"#0f0c2a");g.addColorStop(1,"#0a0820");c.fillStyle=g;c.fillRect(0,0,W,H);
+  c.fillStyle="rgba(123,108,255,.08)";for(let y=0;y<H;y+=32)for(let x=(y/32%2)*16;x<W;x+=32){c.beginPath();c.arc(x,y,2,0,7);c.fill()}
+  c.textBaseline="alphabetic";c.textAlign="left";
+  c.fillStyle="#9d93ff";c.font="bold 26px sans-serif";c.fillText("STELLA SORA VITA · EQUIPO",P,66);
+  c.fillStyle="#fff";let fs=84;c.font="bold "+fs+"px sans-serif";const nm=T.name||"Equipo";while(c.measureText(nm).width>W-2*P-560&&fs>40){fs-=4;c.font="bold "+fs+"px sans-serif"}c.fillText(nm,P,150);
+  /* leyenda y récord (derecha) */
+  c.textAlign="right";if(T.score){c.fillStyle="#ffd76a";c.font="bold 40px sans-serif";c.fillText("Récord: "+T.score,W-P,80)}
+  c.font="bold 24px sans-serif";let lx=W-P;[["o","Opcional"],["m","Medio"],["c","Clave"]].forEach(([k,l])=>{c.fillStyle="#e8e4ff";c.fillText(l,lx,150);const w=c.measureText(l).width;c.fillStyle=PRIc[k];rr(c,lx-w-38,130,26,26,8);c.fill();lx-=w+66});c.textAlign="left";
+  for(let s=0;s<3;s++){
+    const S=T.slots[s],ch=charOf(S.c),col=ec(ch&&ch.element),x0=P+s*(CW+G),y0=hHead,h=hCols-20;
+    c.fillStyle="rgba(20,16,50,.92)";rr(c,x0,y0,CW,h,24);c.fill();c.strokeStyle="rgba(123,108,255,.35)";c.lineWidth=2;c.stroke();
+    c.save();rr(c,x0,y0,CW,140,24);c.clip();g=c.createLinearGradient(x0,0,x0+CW,0);g.addColorStop(0,col);g.addColorStop(1,"#0d0a26");c.fillStyle=g;c.fillRect(x0,y0,CW,140);c.restore();
+    c.fillStyle="rgba(255,255,255,.8)";c.font="bold 20px sans-serif";c.fillText(ROLE[s].toUpperCase(),x0+160,y0+34);
+    if(ch){
+      const im=IM[ch.imageUrl];c.save();c.beginPath();c.arc(x0+80,y0+70,54,0,7);c.clip();c.fillStyle="#15122a";c.fillRect(x0+26,y0+16,108,108);if(im)cover(c,im,x0+26,y0+16,108,108,true);c.restore();
+      c.strokeStyle="#fff";c.lineWidth=5;c.beginPath();c.arc(x0+80,y0+70,54,0,7);c.stroke();
+      c.fillStyle="#fff";c.font="bold 46px sans-serif";c.fillText(ch.name,x0+160,y0+88);
+      c.font="bold 26px sans-serif";c.fillStyle="#ffd76a";c.fillText("★".repeat(ch.rarity),x0+160,y0+124);c.fillStyle="#fff";c.fillText(ch.element,x0+160+ch.rarity*28+16,y0+124);
+    }else{c.fillStyle="#fff";c.font="bold 38px sans-serif";c.fillText("Sin personaje",x0+160,y0+88)}
+    c.fillStyle="#cfc8ff";c.font="bold 22px sans-serif";c.textAlign="right";c.fillText(PL[s].length+" potenciales",x0+CW-20,y0+34);c.textAlign="left";
+    let py=y0+160;const gs=grp(s);
+    if(!gs.length){c.fillStyle="#8a85b5";c.font="28px sans-serif";c.fillText("Sin potenciales elegidos",x0+24,py+34)}
+    gs.forEach(gr=>{
+      c.fillStyle=PRIc[gr.k];c.beginPath();c.arc(x0+34,py+20,9,0,7);c.fill();c.fillStyle="#9d93ff";c.font="bold 22px sans-serif";c.fillText(PRI[gr.k].toUpperCase()+" · "+gr.L.length,x0+54,py+28);py+=GH;
+      gr.L.forEach(x=>{
+        const im=IM[x.p.iu],ix=x0+20,iy=py+6;
+        c.save();rr(c,ix,iy,54,70,10);c.clip();c.fillStyle=x.p.t===1?"#6b2f78":x.p.t===2?"#3b2f7a":"#7a5a14";c.fillRect(ix,iy,54,70);if(im)cover(c,im,ix,iy,54,70,false);c.restore();
+        c.fillStyle="#fff";c.font="bold 28px sans-serif";const lw=100;let t=x.p.n;while(c.measureText(t).width>CW-90-lw-44&&t.length>4)t=t.slice(0,-2);if(t!==x.p.n)t=t.trim()+"…";c.fillText(t,x0+90,py+50);
+        c.fillStyle="rgba(255,255,255,.1)";rr(c,x0+CW-lw-20,py+16,lw,46,12);c.fill();c.fillStyle="#fff";c.font="bold 26px sans-serif";c.textAlign="center";c.fillText("LV "+x.v.l,x0+CW-lw/2-20,py+48);c.textAlign="left";
+        py+=RH;
+      });
+    });
+  }
+  /* discos */
+  let y=hHead+hCols;
+  if(hDisc){
+    const n=dm.length+ds.length,gap=14,sep=60,tw=Math.floor((W-2*P-(n-1)*gap-(dm.length&&ds.length?sep:0))/Math.max(n,9)),th=Math.round(tw*.72),ty=y+96;
+    const tile=(o,x0)=>{const d=discOf(o.d.n),im=d&&IM[d.imageUrl];c.save();rr(c,x0,ty,tw,th,14);c.clip();c.fillStyle="#241d55";c.fillRect(x0,ty,tw,th);if(im)cover(c,im,x0,ty,tw,th,true);
+      const gg=c.createLinearGradient(0,ty+th-60,0,ty+th);gg.addColorStop(0,"rgba(0,0,0,0)");gg.addColorStop(1,"rgba(0,0,0,.9)");c.fillStyle=gg;c.fillRect(x0,ty+th-60,tw,60);c.restore();
+      c.strokeStyle=ec(d&&d.element);c.lineWidth=4;rr(c,x0,ty,tw,th,14);c.stroke();
+      c.fillStyle="#fff";c.textAlign="center";c.font="bold 17px sans-serif";wrapT(c,o.d.n,tw-10,2).forEach((l,i,A)=>c.fillText(l,x0+tw/2,ty+th-10-(A.length-1-i)*20));
+      c.fillStyle="rgba(0,0,0,.7)";rr(c,x0+6,ty+6,70,26,8);c.fill();c.fillStyle="#fff";c.textAlign="left";c.font="bold 16px sans-serif";c.fillText("Asc "+o.d.a,x0+13,ty+25)};
+    c.fillStyle="#fff";c.font="bold 34px sans-serif";c.fillText("Discos",P,y+34);
+    let x=P;c.font="bold 20px sans-serif";
+    if(dm.length){c.fillStyle="#9d93ff";c.fillText("PRINCIPALES",x,ty-12);dm.forEach(o=>{tile(o,x);x+=tw+gap});x+=sep-gap}
+    if(ds.length){c.fillStyle="#9d93ff";c.font="bold 20px sans-serif";c.fillText("DE APOYO Y RECOMENDADOS",x,ty-12);ds.forEach(o=>{tile(o,x);x+=tw+gap})}
+    y+=hDisc;
+  }
+  if(nt.length){c.fillStyle="rgba(20,16,50,.92)";rr(c,P,y,W-2*P,40+nt.length*38,20);c.fill();c.fillStyle="#e8e4ff";c.font="28px sans-serif";nt.forEach((l,i)=>c.fillText(l,P+20,y+46+i*38))}
+  c.fillStyle="#6f6a9a";c.font="22px sans-serif";c.textAlign="center";c.fillText("Stella Sora Vita · fan site no oficial",W/2,H-36);
+  const ib=m.querySelector("#tm-ib");
+  let url="";try{url=cv.toDataURL("image/png")}catch(x){}
+  if(!url){ib.innerHTML='<p class="nota">El navegador no dejó exportar la imagen porque algunas imágenes externas no lo permiten. Haz una captura de pantalla de la ficha del equipo.</p>';return}
+  const miss=Object.values(IM).filter(x=>!x).length;
+  ib.innerHTML=`<img src="${url}" alt="Equipo" style="width:100%;border-radius:12px;display:block">${miss?`<p class="nota">${miss} imagen(es) no se pudieron cargar y salen como recuadro de color.</p>`:""}<div class="tm-act"><button class="btn" id="tm-dl">Descargar PNG</button><button class="btn out" id="tm-sh">Compartir…</button></div><p class="nota">También puedes mantener presionada la imagen para guardarla.</p>`;
+  const fn=(T.name||"equipo").replace(/[^\w-]+/g,"_")+".png";
+  ib.querySelector("#tm-dl").onclick=()=>{const a=document.createElement("a");a.href=url;a.download=fn;document.body.appendChild(a);a.click();a.remove()};
+  ib.querySelector("#tm-sh").onclick=()=>cv.toBlob(async b=>{try{const f=new File([b],fn,{type:"image/png"});if(navigator.canShare&&navigator.canShare({files:[f]}))await navigator.share({files:[f],title:T.name||"Equipo"});else ib.querySelector("#tm-dl").click()}catch(x){}});
 }
 
 /* ---------- editor ---------- */
@@ -263,18 +335,17 @@ async function pintaPots(s,esVista){
   const L=sortedPots(S,F);if(cnt)cnt.textContent=L.length;
   box.innerHTML=L.length?potLines(L):`<p class="tm-hint">${esVista?"Sin potenciales.":"Aún sin potenciales. Toca “Editar” para elegirlos (opcional)."}</p>`;
 }
-async function pintaNotas(){const b=root.querySelector("#tm-notes");if(b)b.innerHTML=await notasHtml()}
 function vEdit(){
   mode="edit";const y=window.scrollY;
   root.innerHTML=`<button class="tm-bk" data-a="back">‹ Mis equipos</button>
    <input class="tm-in tm-name" id="tm-name" placeholder="Ponle nombre a tu equipo" maxlength="60" value="${e(T.name)}">
    ${[0,1,2].map(slotHtml).join("")}
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b><small>${T.discs.slice(0,3).filter(Boolean).length}/3</small></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,true)).join("")}</div>
-    <div class="tm-dh"><b>De apoyo y recomendados</b><small>${T.discs.slice(3).filter(Boolean).length}/6</small></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,true)).join("")}</div><div id="tm-notes"></div></div>
+    <div class="tm-dh"><b>De apoyo y recomendados</b><small>${T.discs.slice(3).filter(Boolean).length}/6</small></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,true)).join("")}</div></div>
    <div class="tm-sl"><div class="tm-dh"><b>Récord y notas</b><small>opcional</small></div><div class="tm-sec"><input class="tm-in" id="tm-score" inputmode="numeric" placeholder="Tu récord (puntaje)" maxlength="20" value="${e(T.score)}"><textarea class="tm-ta" id="tm-note" placeholder="Cómo se juega, qué tomar si no sale un potencial, rotación…" maxlength="500">${e(T.note)}</textarea></div></div>
    <button class="btn" data-a="save">Guardar equipo</button>
-   <div class="tm-act"><button class="btn out" data-a="vv">Ver ficha</button><button class="btn out" data-a="code">Copiar código</button></div><button class="btn out" data-a="gcode">Código de preset del juego</button><div id="tm-io-box"></div>`;
-  [0,1,2].forEach(s=>pintaPots(s));pintaNotas();window.scrollTo(0,y);
+   <div class="tm-act"><button class="btn out" data-a="vv">Ver ficha</button><button class="btn out" data-a="code">Copiar código</button></div><div class="tm-act"><button class="btn out" data-a="img">Imagen para compartir</button><button class="btn out" data-a="gcode">Preset del juego</button></div><div id="tm-io-box"></div>`;
+  [0,1,2].forEach(s=>pintaPots(s));window.scrollTo(0,y);
 }
 function leer(){if(mode!=="edit")return;const a=root.querySelector("#tm-name");if(!a)return;T.name=a.value.trim();T.score=root.querySelector("#tm-score").value.trim();T.note=root.querySelector("#tm-note").value}
 function clean(){const cp=JSON.parse(JSON.stringify(T));cp.slots.forEach(s=>delete s.__r);return cp}
@@ -292,10 +363,10 @@ function vView(){
    <div class="tm-fh"><div class="nota" style="margin:0">FICHA DE EQUIPO</div><h3>${e(T.name||"Equipo sin nombre")}</h3>${T.score?`<p>Récord: <b>${e(T.score)}</b></p>`:""}${T.note?`<p>${e(T.note)}</p>`:""}</div>
    ${[0,1,2].map(s=>{T.slots[s].__r=s===0?"main":"support";const c=charOf(T.slots[s].c);return `<div class="tm-sl"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,false)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span></div><div id="tm-pl${s}"></div></div>`:`<p class="tm-hint" style="padding:12px">Sin personaje.</p>`)+`</div>`}).join("")}
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,false)||"").join("")}</div>
-    ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}<div id="tm-notes"></div></div>
+    ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}</div>
    <button class="btn" data-a="edit">Editar equipo</button>
-   <div class="tm-act"><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`;
-  [0,1,2].forEach(s=>pintaPots(s,true));pintaNotas();window.scrollTo(0,0);
+   <div class="tm-act"><button class="btn" data-a="img" style="flex:1 0 100%">Imagen para compartir</button><button class="btn out" data-a="code">Copiar código</button><button class="btn out" data-a="gcode">Preset del juego</button><button class="btn out" data-a="dup">Duplicar</button><button class="btn out" data-a="del">Eliminar</button></div><div id="tm-io-box"></div>`;
+  [0,1,2].forEach(s=>pintaPots(s,true));window.scrollTo(0,0);
 }
 
 function onClick(ev){
@@ -310,6 +381,7 @@ function onClick(ev){
   else if(a==="del"){if(confirm("¿Eliminar este equipo?")){ST.teams=ST.teams.filter(x=>x.id!==T.id);save();vList()}}
   else if(a==="dup"){const c=clean();c.id=uid();c.name=(c.name||"Equipo")+" (copia)";ST.teams.unshift(c);save();vList()}
   else if(a==="code"){leer();copiar(code(clean()),root.querySelector("#tm-io-box"),"Código del equipo.")}
+  else if(a==="img"){leer();imagen()}
   else if(a==="gcode"){leer();const bx=root.querySelector("#tm-io-box");bx.innerHTML='<p class="nota">Generando…</p>';gameCode().then(c=>{if(!c)bx.innerHTML='<p class="nota">Elige los 3 personajes para generar el código de preset del juego.</p>';else copiar(c,bx,"Código de preset del juego (incluye los 3 personajes y sus potenciales; no incluye discos).")})}
   else if(a==="exp"){const t=JSON.stringify({v:2,teams:ST.teams});copiar(t,root.querySelector("#tm-io-box"),"Todos tus equipos.");descarga(t,"equipos-stella-sora.json")}
   else if(a==="imp"){const b=root.querySelector("#tm-io-box");b.innerHTML=`<p class="nota">Pega aquí un código de equipo, un código de preset del juego o el texto exportado, o elige el archivo.</p><textarea class="tm-tb" id="tm-imp-t"></textarea><input type="file" id="tm-imp-f" accept=".json,.txt" style="margin:8px 0"><button class="btn" data-a="imp2">Importar</button><p class="nota" id="tm-imp-m"></p>`;
@@ -324,7 +396,7 @@ function onClick(ev){
   else if(a==="disc"){const i=+el.dataset.i;picker("Elegir disco",discItems(),it=>{leer();T.discs[i]={n:it.n,a:(T.discs[i]&&T.discs[i].a)||8};vEdit()},{sq:true})}
   else if(a==="dx"){ev.stopPropagation();leer();T.discs[+el.dataset.i]=null;vEdit()}
 }
-function onChange(ev){const el=ev.target;if(el.dataset&&el.dataset.a==="asc"){T.discs[+el.dataset.i].a=+el.value;pintaNotas()}}
+function onChange(ev){const el=ev.target;if(el.dataset&&el.dataset.a==="asc"){T.discs[+el.dataset.i].a=+el.value}}
 window.teamsShow=function(){
   root=document.getElementById("teams-root");if(!root)return;
   if(!root._ok){root._ok=1;root.addEventListener("click",onClick);root.addEventListener("change",onChange)}
