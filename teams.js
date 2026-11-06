@@ -29,7 +29,11 @@ const chars=()=>typeof CHARS!=="undefined"?CHARS:[],discs=()=>typeof DISCS!=="un
 const MS=[];let selfBack=0;
 function openM(m){document.body.appendChild(m);MS.push(m);try{history.pushState({tm:1},"",location.href)}catch(x){}}
 function closeM(m){const i=MS.indexOf(m);if(i<0){m.remove();return}MS.splice(i,1);m.remove();if(i===MS.length){selfBack++;try{history.back()}catch(x){selfBack--}}}
-window.addEventListener("popstate",()=>{if(selfBack>0){selfBack--;return}const m=MS.pop();if(m){m.remove();if(mode==="edit"&&m._pot)vEdit()}});
+window.addEventListener("popstate",()=>{if(selfBack>0){selfBack--;return}const m=MS.pop();if(m){m.remove();if(mode==="edit"&&m._pot)vEdit();return}if(VD>0){VD--;if(activa()){if(mode==="edit"&&T){leer();if(T.name||T.slots.some(x=>x.c)||T.discs.some(Boolean))guardar()}vList()}}});
+let VD=0;
+const activa=()=>root&&root.closest(".screen")&&root.closest(".screen").classList.contains("on");
+function pushV(){try{history.pushState({tmv:1},"",location.href);VD++}catch(x){}}
+function toList(){if(VD>0){history.back()}else vList()}
 let CIM=null;
 const imgC=c=>{if(!c)return"";if(!CIM&&PR){CIM={};for(const i in PR)CIM[PR[i].n]=PR[i].im}return(CIM&&CIM[c.name])||c.imageUrl};
 const imgD=d=>{if(!d)return"";return(IDX&&IDX.img&&IDX.img[d.name])||d.imageUrl};
@@ -255,6 +259,9 @@ function rr(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);
 function cover(c,im,x,y,w,h,top){const k=Math.max(w/im.width,h/im.height),dw=im.width*k,dh=im.height*k;c.drawImage(im,x+(w-dw)/2,top?y:y+(h-dh)/2,dw,dh)}
 function wrapT(c,t,mw,ml){const w=String(t||"").split(/\s+/),L=[];let l="";for(const x of w){const n=l?l+" "+x:x;if(c.measureText(n).width>mw&&l){L.push(l);l=x}else l=n}if(l)L.push(l);if(ml&&L.length>ml){L.length=ml;L[ml-1]=L[ml-1].replace(/.{0,2}$/,"…")}return L}
 async function imagen(){
+  try{await imagen2()}catch(err){const ib=document.querySelector("#tm-ib");if(ib)ib.innerHTML='<p class="nota">No se pudo generar la imagen ("'+e(err&&err.message||err)+'"). Cierra y vuelve a intentarlo, o haz una captura de pantalla de la ficha del equipo.</p>'}
+}
+async function imagen2(){
   const m=document.createElement("div");m.className="tm-md";
   m.innerHTML='<div class="tm-mh"><div class="tm-mt"><b>Imagen para compartir</b><button class="chip" data-x="1">Cerrar</button></div></div><div class="tm-mb" id="tm-ib"><p class="nota">Dibujando la imagen… puede tardar unos segundos.</p></div>';
   openM(m);m.querySelector("[data-x]").onclick=()=>closeM(m);
@@ -322,13 +329,19 @@ async function imagen(){
   if(nt.length){c.fillStyle="rgba(20,16,50,.92)";rr(c,P,y,W-2*P,40+nt.length*38,20);c.fill();c.fillStyle="#e8e4ff";c.font="28px sans-serif";nt.forEach((l,i)=>c.fillText(l,P+20,y+46+i*38))}
   c.fillStyle="#6f6a9a";c.font="22px sans-serif";c.textAlign="center";c.fillText("Stella Sora Vita · fan site no oficial",W/2,H-36);
   const ib=m.querySelector("#tm-ib");
-  let url="";try{url=cv.toDataURL("image/png")}catch(x){}
+  const blob=await new Promise(r=>{try{cv.toBlob(r,"image/png")}catch(x){r(null)}});
+  let url="";if(blob)url=URL.createObjectURL(blob);else{try{url=cv.toDataURL("image/png")}catch(x){}}
   if(!url){ib.innerHTML='<p class="nota">El navegador no dejó exportar la imagen porque algunas imágenes externas no lo permiten. Haz una captura de pantalla de la ficha del equipo.</p>';return}
   const miss=Object.values(IM).filter(x=>!x).length;
-  ib.innerHTML=`<img src="${url}" alt="Equipo" style="width:100%;border-radius:12px;display:block">${miss?`<p class="nota">${miss} imagen(es) no se pudieron cargar y salen como recuadro de color.</p>`:""}<div class="tm-act"><button class="btn" id="tm-dl">Descargar PNG</button><button class="btn out" id="tm-sh">Compartir…</button></div><p class="nota">También puedes mantener presionada la imagen para guardarla.</p>`;
-  const fn=(T.name||"equipo").replace(/[^\w-]+/g,"_")+".png";
-  ib.querySelector("#tm-dl").onclick=()=>{const a=document.createElement("a");a.href=url;a.download=fn;document.body.appendChild(a);a.click();a.remove()};
-  ib.querySelector("#tm-sh").onclick=()=>cv.toBlob(async b=>{try{const f=new File([b],fn,{type:"image/png"});if(navigator.canShare&&navigator.canShare({files:[f]}))await navigator.share({files:[f],title:T.name||"Equipo"});else ib.querySelector("#tm-dl").click()}catch(x){}});
+  ib.innerHTML=`<img src="${url}" alt="Equipo" style="width:100%;border-radius:12px;display:block">${miss?`<p class="nota">${miss} imagen(es) no se pudieron cargar y salen como recuadro de color.</p>`:""}<div class="tm-act"><button class="btn" id="tm-dl">Descargar PNG</button><button class="btn out" id="tm-sh">Compartir…</button></div><p class="nota">También puedes mantener presionada la imagen para guardarla.</p><p class="nota" id="tm-sm"></p>`;
+  const fn=(T.name||"equipo").replace(/[^\w-]+/g,"_")+".png",msg=t=>{const x=ib.querySelector("#tm-sm");if(x)x.textContent=t};
+  ib.querySelector("#tm-dl").onclick=()=>{const a=document.createElement("a");a.href=url;a.download=fn;document.body.appendChild(a);a.click();a.remove();msg("Si no se descargó, mantén presionada la imagen y elige guardar.")};
+  ib.querySelector("#tm-sh").onclick=async()=>{
+    try{
+      if(blob&&navigator.canShare){const f=new File([blob],fn,{type:"image/png"});if(navigator.canShare({files:[f]})){await navigator.share({files:[f],title:T.name||"Equipo"});return}}
+      msg("Tu navegador no permite compartir imagen directo: usa Descargar o mantén presionada la imagen para guardarla y luego súbela a la red social.");
+    }catch(x){if(x&&x.name!=="AbortError")msg("No se pudo abrir el menú de compartir: usa Descargar o mantén presionada la imagen.")}
+  };
 }
 
 /* ---------- editor ---------- */
@@ -380,14 +393,14 @@ function vView(){
 function onClick(ev){
   const el=ev.target.closest("[data-a]");if(!el)return;const a=el.dataset.a;
   if(a==="asc")return;
-  if(a==="new"){T=nuevo();vEdit()}
-  else if(a==="view"){T=fix(JSON.parse(JSON.stringify(ST.teams.find(x=>x.id===el.dataset.id))));vView()}
+  if(a==="new"){T=nuevo();pushV();vEdit()}
+  else if(a==="view"){T=fix(JSON.parse(JSON.stringify(ST.teams.find(x=>x.id===el.dataset.id))));pushV();vView()}
   else if(a==="edit"){vEdit()}
   else if(a==="vv"){guardar();vView()}
-  else if(a==="back"){vList()}
+  else if(a==="back"){toList()}
   else if(a==="save"){flash(guardar()?"✓ Guardado":"No se pudo guardar")}
-  else if(a==="del"){if(confirm("¿Eliminar este equipo?")){ST.teams=ST.teams.filter(x=>x.id!==T.id);save();vList()}}
-  else if(a==="dup"){const c=clean();c.id=uid();c.name=(c.name||"Equipo")+" (copia)";ST.teams.unshift(c);save();vList()}
+  else if(a==="del"){if(confirm("¿Eliminar este equipo?")){ST.teams=ST.teams.filter(x=>x.id!==T.id);save();toList()}}
+  else if(a==="dup"){const c=clean();c.id=uid();c.name=(c.name||"Equipo")+" (copia)";ST.teams.unshift(c);save();toList()}
   else if(a==="code"){leer();copiar(code(clean()),root.querySelector("#tm-io-box"),"Código del equipo.")}
   else if(a==="img"){leer();imagen()}
   else if(a==="gcode"){leer();const bx=root.querySelector("#tm-io-box");bx.innerHTML='<p class="nota">Generando…</p>';gameCode().then(c=>{if(!c)bx.innerHTML='<p class="nota">Elige los 3 personajes para generar el código de preset del juego.</p>';else copiar(c,bx,"Código de preset del juego (incluye los 3 personajes y sus potenciales; no incluye discos).")})}
@@ -408,6 +421,9 @@ function onChange(ev){const el=ev.target;if(el.dataset&&el.dataset.a==="asc"){T.
 window.teamsShow=function(){
   root=document.getElementById("teams-root");if(!root)return;
   if(!root._ok){root._ok=1;root.addEventListener("click",onClick);root.addEventListener("change",onChange)}
+  VD=0;
+  const tb=document.querySelector("#s-teams [data-back]");
+  if(tb&&!tb._tm){tb._tm=1;tb.addEventListener("click",ev=>{if(mode!=="list"){ev.stopPropagation();ev.preventDefault();toList()}})}
   ST=load();Promise.all([getPresets(),getIdx()]).then(()=>{CIM=null;if(mode==="list")vList()});vList();
 };
 })();
