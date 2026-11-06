@@ -1,0 +1,30 @@
+name: Fichas de personajes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 1"
+permissions:
+  contents: write
+concurrency:
+  group: fichas
+  cancel-in-progress: false
+jobs:
+  fichas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar fichas
+        run: python3 generar_fichas.py
+      - name: Guardar cambios
+        run: |
+          git add -A fichas
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Fichas de personajes"
+            git pull --rebase -X theirs origin main
+            git push
+          else
+            echo "Sin cambios"
+          fi
