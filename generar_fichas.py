@@ -176,16 +176,20 @@ ITEMS = {
 # Tareas de afinidad: texto en ingles con {n} (nombre) y # (numero) -> espanol
 TAREAS = [
  (r"^Complete (\d+) Ascension with {n}$", "Completa {0} Ascensión con {n}"),
- (r"^Invited and hung out with {n} (\d+) times?$", "Invita a {n} a salir {0} {veces}"),
- (r"^{n} reaches Tier (\d+)$", "{n} alcanza el Tier {0}"),
- (r"^Upgraded {n}'s skills (\d+) times?$", "Mejora las habilidades de {n} {0} {veces}"),
+ (r"^{n} has completed (\d+) Ascensions?$", "Completa {0} Ascensión con {n}"),
+ (r"^Invite(?:d)? and hung? out with {n} (\d+) times?$", "Invita a {n} a salir {0} {veces}"),
+ (r"^{n} (?:reaches|has reached) Tier (\d+)$", "{n} alcanza el Tier {0}"),
+ (r"^Upgrade(?:d)? {n}'s skills (\d+) times?$", "Mejora las habilidades de {n} {0} {veces}"),
  (r"^Save (\d+) Records? with a Rating of (\d+) with {n}$", "Guarda {0} {records} con una calificación de {1} con {n}"),
- (r"^All {n}'s skills ≥ Lv\.(\d+)$", "Todas las habilidades de {n} ≥ Nv. {0}"),
- (r"^Collect {n}'s Potential ×(\d+)$", "Reúne ×{0} potenciales de {n}"),
+ (r"^{n} has saved (\d+) records? with a rating level of (\d+)$", "Guarda {0} {records} con una calificación de {1} con {n}"),
+ (r"^All {n}'s skills ≥ ?(?:Lv\.)? ?(\d+)$", "Todas las habilidades de {n} ≥ Nv. {0}"),
+ (r"^All of {n}'s skills are at (?:Lv\.|Level) ?(\d+) or higher$", "Todas las habilidades de {n} ≥ Nv. {0}"),
+ (r"^Collect {n}'s Potentials? ×(\d+)$", "Reúne ×{0} potenciales de {n}"),
+ (r"^Obtained (\d+) {n}'s Potentials$", "Reúne ×{0} potenciales de {n}"),
 ]
 import re
 def tarea(txt, nombre):
-    t = txt.replace(nombre, "{n}")
+    t = txt.strip().rstrip(".").replace(nombre, "{n}")
     for pat, es in TAREAS:
         m = re.match(pat, t)
         if m:
@@ -215,23 +219,43 @@ def wurl(n):
     n = n.replace(" ", "_"); h = hashlib.md5(n.encode()).hexdigest()
     return WIKI_FILES + h[0] + "/" + h[:2] + "/" + n
 
+EXPORT = {}            # titulo -> wikitexto, leido de wiki_export.xml (Special:Export de la wiki)
+RED_BLOQUEADA = False  # si la wiki responde 403 una vez, no se insiste con las demas
+
+def carga_export(ruta="wiki_export.xml"):
+    if not os.path.exists(ruta): return
+    import xml.etree.ElementTree as ET
+    for _, el in ET.iterparse(ruta):
+        if el.tag.endswith("}page") or el.tag == "page":
+            t = x = None
+            for h in el.iter():
+                if h.tag.split("}")[-1] == "title": t = h.text
+                elif h.tag.split("}")[-1] == "text": x = h.text
+            if t and x: EXPORT[t.strip()] = x
+            el.clear()
+    print("Paginas leidas de %s: %d" % (ruta, len(EXPORT)))
+
 def bajar(titulo, nivel=0):
-    t = _bajar(titulo)
+    t = EXPORT.get(titulo) or EXPORT.get(titulo.replace("_", " ")) or _bajar(titulo)
     m = re.match(r"\s*#REDIRECT\s*\[\[([^\]|#]+)", t or "", re.I)
     return bajar(m.group(1).strip(), nivel + 1) if m and nivel < 3 else t
 
 def _bajar(titulo):
+    global RED_BLOQUEADA
     d = os.environ.get("STELLA_WIKI_DIR")           # pruebas sin red
     if d:
         p = os.path.join(d, titulo + ".wikitext")
         return open(p, encoding="utf-8").read() if os.path.exists(p) else None
-    for i in range(3):
+    if RED_BLOQUEADA or EXPORT: return None
+    for i in range(2):
         try:
             req = urllib.request.Request(WIKI_RAW + urllib.parse.quote(titulo.replace(" ", "_")), headers=UA)
             with urllib.request.urlopen(req, timeout=60) as r:
                 return r.read().decode("utf-8")
         except Exception as e:
-            print("   reintento", titulo, e); time.sleep(3)
+            print("   no se pudo bajar", titulo, e)
+            if "403" in str(e): RED_BLOQUEADA = True; print("   La wiki bloquea las descargas automaticas: usa wiki_export.xml"); return None
+            time.sleep(3)
     return None
 
 def personajes():
@@ -318,6 +342,7 @@ def datos_juego(R):
 def main():
     MEM = json.load(open("traducciones.json", encoding="utf-8")) if os.path.exists("traducciones.json") else {}
     os.makedirs("fichas", exist_ok=True)
+    carga_export()
     G = datos_juego(repo_datos())
     lista = personajes()
     if SOLO: lista = [x for x in lista if x[0] in SOLO]
