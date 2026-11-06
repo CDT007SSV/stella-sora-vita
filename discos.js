@@ -11,6 +11,7 @@ function tpl(s,vals){
 const ico=(h)=>h.ic?`<span class="fk-ic"${h.bg?` style="background-image:url(${h.bg})"`:""}><img src="${h.ic}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></span>`:"";
 const lvl=(max,min)=>`<div class="fk-lv"><button class="fk-st" data-d="-1" aria-label="Bajar nivel">−</button><span>Nivel <b class="fk-n">${min||1}</b> / ${max}</span><button class="fk-st" data-d="1" aria-label="Subir nivel">+</button></div>`;
 const NT=(F,k)=>{const r=(IDX&&IDX.notas[k])||{};return r.n||k};
+const NI=k=>{const r=(IDX&&IDX.notas[k])||{};return r.ic?`<img class="fk-mimg" src="${r.ic}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""};
 function skillCard(h,tipo,max,extra){
   return `<div class="fk-card dk-card" data-tipo="${tipo}"><div class="fk-top">${ico(h)}<span class="fk-t">${e(tipo==="mel"?"Melodía":"Armonía")}</span></div>
     <h4>${e(h.n)}</h4>${h.ne!==h.n?`<div class="fk-en">${e(h.ne)}</div>`:""}${lvl(max)}<div class="fk-d dk-d"></div>${extra?'<div class="dk-req"></div>':""}</div>`;
@@ -20,14 +21,14 @@ function pintaSkill(c,h,l,notas){
   c.querySelector(".dk-d").innerHTML=tpl((h.ts&&h.ts[l-1])||h.t,h.v[l-1]);
   const q=c.querySelector(".dk-req");
   if(q&&h.nt){const r=h.nt[l-1]||{};
-    q.innerHTML=`<div class="fk-mh">Para activarla necesitas</div><div class="fk-mi">${Object.keys(r).map(k=>`<span>${e(NT(null,k))} <b>×${r[k]}</b></span>`).join("")}</div>${h.pt&&h.pt[l-1]?`<div class="nota">Puntaje requerido: ${n(h.pt[l-1])}</div>`:""}`}
+    q.innerHTML=`<div class="fk-mh">Para activarla necesitas</div><div class="fk-mi">${Object.keys(r).map(k=>`<span>${NI(k)}${e(NT(null,k))} <b>×${r[k]}</b></span>`).join("")}</div>${h.pt&&h.pt[l-1]?`<div class="nota">Puntaje requerido: ${n(h.pt[l-1])}</div>`:""}`}
 }
 function panelHab(F){
   let h="";
   if(F.mel)h+=`<h4 class="fk-h">Habilidad de melodía</h4>`+skillCard(F.mel,"mel",F.mel.v.length);
   if(F.arm&&F.arm.length)h+=`<h4 class="fk-h">Habilidades de armonía</h4>`+F.arm.map(a=>skillCard(a,"arm",a.v.length,true)).join("");
   const nf=(F.nf||[]).filter(x=>Object.keys(x.n).length);
-  if(nf.length)h+=`<h4 class="fk-h">Notas por ascensión</h4><div class="card dk-nf">${nf.map(x=>`<div class="kv"><span>${x.f===0?"Sin ascender":"Ascensión "+x.f}</span><b style="flex:0 0 auto;text-align:right">${Object.keys(x.n).map(k=>e(NT(null,k).replace(/^Melodía de /,""))+" ×"+x.n[k]).join(" · ")}</b></div>`).join("")}</div><p class="nota">Las notas son las que aporta el disco al subir de ascensión; con ellas se activan los niveles de las habilidades de armonía.</p>`;
+  if(nf.length)h+=`<h4 class="fk-h">Notas por ascensión</h4><div class="card dk-nf">${nf.map(x=>`<div class="kv"><span>${x.f===0?"Sin ascender":"Ascensión "+x.f}</span><b style="flex:0 0 auto;text-align:right">${Object.keys(x.n).map(k=>NI(k)+e(NT(null,k).replace(/^Melodía de /,""))+" ×"+x.n[k]).join(" · ")}</b></div>`).join("")}</div><p class="nota">Las notas son las que aporta el disco al subir de ascensión; con ellas se activan los niveles de las habilidades de armonía.</p>`;
   return h||"<p class='nota'>Sin datos de habilidades.</p>";
 }
 function panelSta(F){

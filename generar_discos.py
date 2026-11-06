@@ -74,7 +74,7 @@ def main():
     for k, v in LN.items():
         m = re.match(r"SubNoteSkill\.(\d+)\.1$", k)
         if m:
-            i = m.group(1); notas[i] = {"n": tr(v), "ne": v, "d": tr(LN.get("SubNoteSkill.%s.2" % i, ""))}
+            i = m.group(1); notas[i] = {"n": tr(v), "ne": v, "d": tr(LN.get("SubNoteSkill.%s.2" % i, "")), "ic": SS + "note/note_%s.webp" % i}
     tags = {k.split(".")[1]: tr(v) for k, v in LT.items() if k.endswith(".1")}
 
     os.makedirs("discos", exist_ok=True)
