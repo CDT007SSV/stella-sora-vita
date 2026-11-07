@@ -213,7 +213,8 @@ function btnE(){const b=el.querySelector('[data-a="e"]');if(b)b.textContent="Emo
 function btnZ(){const b=el.querySelector('[data-a="z"]');if(b)b.textContent="Sprites: "+(S.zs<1?"chicos":S.zs>1?"grandes":"normales")}
 function btnG(){el.querySelector('[data-a="g"]').textContent="Protagonista: "+(S.g?"él":"ella")}
 function card(h){const c=el.querySelector("#rd-c");if(h==null||h===false){c.classList.remove("on");c.innerHTML="";S.card=0;return}c.innerHTML=h;c.classList.add("on");S.card=1}
-function fx(t){return t.replace(/==PLAYER_NAME==/g,"Sylar").replace(/==SEX\d*==/g,m=>SEX[m]?SEX[m][S.g]:"").replace(/==(?:P|B|Off|A-?[\d.]+)==/g,"")}
+const PN="Tirano"; /* nombre del protagonista en el lector (en el juego es "Sylar", pero los demás lo llaman Tyrant) */
+function fx(t){return t.replace(/==PLAYER_NAME==/g,PN).replace(/==SEX\d*==/g,m=>SEX[m]?SEX[m][S.g]:"").replace(/==(?:P|B|Off|A-?[\d.]+)==/g,"")}
 function esc(t){return String(t).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
 function log(){
   card('<div class="rd-log" style="display:block;width:100%;max-height:100%;overflow:auto"><h2>Registro</h2>'+(S.log.map(l=>"<div><b>"+esc(l[0])+"</b>"+esc(l[1])+"</div>").join("")||"<p>Aún no hay nada.</p>")+(S.miss&&Object.keys(S.miss).length?"<p style=\"font-size:.8em;opacity:.8\">Imágenes no encontradas en la wiki: "+Object.keys(S.miss).map(esc).join(", ")+"</p>":"")+'<button class="rd-b" data-a="lx" style="margin-top:12px">Volver</button></div>');
@@ -415,9 +416,10 @@ function fxs(n,nd){
   const e=document.createElement("div");e.className="fx fx-"+k;host.appendChild(e);S.fx[n]=e;
   if(!FXP.has(n))setTimeout(()=>{e.remove();if(S&&S.fx&&S.fx[n]===e)delete S.fx[n]},/speedline|line_cen/.test(n)?1100:1500);
 }
+function ocultaCaja(){const b=el.querySelector(".rd-box");if(!b||b.style.visibility==="hidden")return;b.style.transition="opacity .15s linear";b.style.opacity="0";el.querySelector(".rd-nx").style.display="none"}
 function hideAll(){objx();el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd").forEach(c=>c.remove());S.chars={}}
 function say(spk,t,ty,vo){
-  ty=ty||0;t=fx(t);voz(vo);S.pend=0;el.querySelector(".rd-box").style.visibility="";
+  ty=ty||0;t=fx(t);voz(vo);S.pend=0;{const b0=el.querySelector(".rd-box");b0.style.transition="none";b0.style.visibility="";b0.style.opacity="";el.querySelector(".rd-tx").textContent=""}
   const mcL=spk==="avg3_100"||ty===1||ty===2;
   const nm=(spk==="0"||mcL)?"":(S.names[spk]||"");
   const box=el.querySelector(".rd-box");
@@ -426,7 +428,7 @@ function say(spk,t,ty,vo){
   el.querySelector(".rd-nm").textContent=nm;
   const tx=el.querySelector(".rd-tx");tx.className="rd-tx"+(spk==="0"?" nar":"");
   const plain=t.split("==W==").join("");
-  S.log.push([mcL?"Sylar":(S.names[spk]||"—"),plain]);
+  S.log.push([mcL?PN:(S.names[spk]||"—"),plain]);
   const nx=el.querySelector(".rd-nx");nx.style.display="none";
   if(S.timer)clearInterval(S.timer);S.timer=0;
   if(S.at){clearTimeout(S.at);S.at=0}
@@ -492,7 +494,7 @@ function avanza(){
       case"head":card('<p style="font-size:1.1rem">'+esc(s[1])+'</p><button class="rd-b" data-a="ok" style="margin-top:18px">Continuar</button>');return;
       case"say":say(s[1],s[2],s[3],s[4]);return;
       case"vid":card('<small>Cinemática</small><h2>🎬 '+esc(String(s[1]).split("/").pop())+'</h2><p>Aquí el juego reproduce un video. Todavía no está disponible en el lector.</p><button class="rd-b" data-a="ok" style="margin-top:18px">Continuar</button>');return;
-      case"w":S.busy=1;S.wt=setTimeout(()=>{S.busy=0;S.wt=0;avanza()},s[1]*1000);return;
+      case"w":if(!S.pend)ocultaCaja();S.busy=1;S.wt=setTimeout(()=>{S.busy=0;S.wt=0;avanza()},s[1]*1000);return;
       case"trn":trn(s[1],s[2],s[3],s[4],s[5]);break;
       case"fx":fxs(s[2],s[3]);break;
       case"tsk":shake(el.querySelector(".rd-box"),s[1],"BgShakeType");break;
