@@ -1,10 +1,10 @@
-# Capítulo 9 · Un Monolito demasiado lejano · Final verdadero · Narrow Door
+# Capítulo 9 · Un Monolito demasiado lejano · Final verdadero · La puerta estrecha
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Fierce Committee Member | Fierce Committee Member
-N:Harsh Committee Member | Harsh Committee Member
+N:Fierce Committee Member | Miembro del Comité feroz
+N:Harsh Committee Member | Miembro del Comité severo
 N:avg1_103 | Amber
 N:avg1_110 | Firenze
 N:avg1_111 | Iris
@@ -18,526 +18,526 @@ N:avg1_144 | Chitose
 N:avg1_145 | Otoha
 N:avg1_156 | Nazuna
 N:avg1_163 | Greyhorn
-N:avg2_947 | Sentinel of Dawn Soldier
-N:avg2_948 | Sentinel of Dawn Soldier
+N:avg2_947 | Soldado de los Centinelas del Alba
+N:avg2_948 | Soldado de los Centinelas del Alba
 N:avg2_979 | Enviado espectral
 N:avg3_100 | Sylar
-N:avg3_1311 | SaiLa F
+N:avg3_1311 | SaiLa
 N:avg3_1319 | Angie
 N:avg3_138 | Trekker
 N:avg3_139 | Trekker
 N:avg3_143 | Residente
-N:avg3_145 | Gold District Resident
+N:avg3_145 | Residente del Distrito de Oro
 N:avg3_146 | Residente del Distrito de Oro
 N:avg3_147 | Residente del Distrito de Oro
-N:avg3_185 | Grace Receptionist
+N:avg3_185 | Recepcionista de la Gracia
 N:avg3_216 | Gunhild
-N:avg3_217 | No. 160
+N:avg3_217 | N.º 160
 N:avg3_974 | Serena
 N:avg3_999 | ???
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | The True End
-0002 [Intro] | Narrow Door
-0003 [Intro] | Fate converges atop the Monolith as the story reaches its final crossroads. Will you risk everything, or let it all go? Where will the next door lead...?
-0004 [Lugar y hora] | 17:00, Nebula Month 18th, Desert Monolith, Floor 50
-0005 [Noya] | We made it, ==PLAYER_NAME==. The elevator to the Boss's Domain is right ahead. That's where we found the Wishing Box.
-0006 [Iris] | Not a single Committee member on the way up. Boss, how did you talk Angie into this?
-0007 [Tú] | I offered to meet her alone on the top floor. In exchange, they agreed to a cease-fire and guaranteed the safety of Mirage.==W==
-0008 [Tú] | Mistique just checked in. Angie kept her word. The Committee bypassed Mirage and set up camp right at the base of the Monolith.
-0009 [Nazuka] | Boss, meeting her alone...==W== You left that part out.
-0010 [Tú] | Sorry, I made the call without asking you. But it was the only way to get them to back off and buy us time.
-0011 [Chitose] | My ==SEX11==, Angie is not to be trusted. Negotiating alone is akin to walking into a trap. Please, at least let us guard your side.
-0012 [Tú] | I know you're worried, Chitose. But I'm not reckless enough to face Angie and her Scepter of Death empty-handed.
-0013 [Tú] | Actually, I'm using this meeting to set an ambush. We end this today.
-0014 [Minova] | No point playing fair with scum like her. But this floor is wide open. Where exactly are we supposed to hide?
-0015 [Nazuna] | Oh, I know!==W== We get Itoha...==W== Wait, I mean Otoha.==W== We get Otoha to disguise us as Stellaroids and mannequins!
-0016 [Nazuna] | Then the second Angie shows up... Bam! We jump out and grab her!
-0017 [Otoha] | Hold on there. I have no materials and no time. Even I can't whip up disguises out of thin air.
-0018 [Otoha] | Besides, joining this fight meant dropping my disguise. Make sure you keep that a secret.
-0019 [Otoha] | As far as anyone knows, the Boss's crew only has a makeup artist named Itoha. There is no rogue ninja from Goodwind named Otoha.
-0020 [Amber] | Got it. Lips are sealed.==W== But ...==W== where do we ambush her?
-0021 [Tú] | Right here.==W==
-0022 [Iris] | You mean ...==W== we hide inside the Boss's Domain?
-0023 [Tú] | Exactly. Angie will never expect you to hide up there.==W== Once she arrives, you rush her from the elevator!
-0024 [Tú] | But let's scout it out first. We need to see if that giant Stellaroid you ran into is still there.
-0025 [Lugar y hora] | 17:20, Nebula Month 18th, Desert Monolith, Boss's Domain
-0026 [Noya] | ==PLAYER_NAME==, looks like the Stellaroid is gone.==W== But ...==W== who dragged that Wishing Box all the way up here?
-0027 [Iris] | I remember ...==W== that when we found Boss outside, Loxy couldn't tow something this huge. So we just left it out in the sand.
-0028 [Amber] | Did the Stellaroid ... bring it back?
-0029 [Tú] | Let's not touch it.==W== We've been standing here for five minutes, and nothing happened.==W== I think as long as we leave the box alone, the Stellaroid shouldn't show up.
-0030 [Iris] | That makes sense...==W== We made a beeline for the box last time, and that's when it attacked.==W== The Stellaroid ...==W== must just be guarding it.
-0031 [Noya] | Alright!==W== Now that we know it's safe to hide, let's head down and grab everyone else.
-0032 [Amber] | Boss, you're not coming?
-0033 [Tú] | The elevator only holds ten people. With you three, that leaves seven spots. If I tag along, we're down to six.
-0034 [Tú] | I shouldn't waste a spot. Just bring everyone else up first, and then I'll head down.
-0035 [Noya] | Yeah, good point. Let's hurry.
-0036 [Iris] | Wait, that makes no sense.==W== Boss is meeting Angie on the 50th floor, not the Boss's Domain.==W== If ==SEX== came down with us, ==SEX== wouldn't even need to go back up!
-0037 [Iris] | Oh no. ==SEX1=='s got other plans!
-0038 [Amber] | Look.==W== The elevator. It's going back up.
-0039 [Lugar y hora] | 17:25, Nebula Month 18th, Desert Monolith, Boss's Domain
-0040 [Tú] | I've been an idiot. I was so focused on keeping all of you safe, I forgot you wanted to keep me safe too.
-0041 [Tú] | Don't worry. After our late-night talk when we arrived in Mirage, I promised I wouldn't fall back into that rut. I was shocked by the sudden "truth," that's all.
-0042 [Tú] | Nazuka, Chitose, Nazuna, Fuyuka, I need your help. Let's fight our way out of here together!
-0043 [Tú] | I promise you, I won't do anything stupid. I will never use myself as a bargaining chip for your safety. I will fight right beside you, and everyone else out there, until the very end.
-0044 [Tú] | Noya, don't worry about your intuition. It's completely wrong. I promise you, I will never, ever leave you.
-0045 [Tú] | Vita, you are going to explain this right now. Otherwise, I'll rot in this White Room with you forever.
-0046 [Tú] | I can't... I can't put everyone through this again!
-0047 [Tú] | I'm sorry. Noya, Iris, Amber, Vita... And everyone who put their faith in me.
-0048 [Tú] | I couldn't lead you out of this death trap in Mirage. I couldn't save everyone.
-0049 [Narración] | I count the seconds until the elevator reaches the 50th floor and the others step out, then I press the call button.
-0050 [Tú] | This is the only elevator to the Boss's Domain. If I bring it up and jam the door open, they won't have a way up. Even if they manage to "repeat history."
-0051 [Tú] | I'm not running away. It's just temporary...==W== A temporary goodbye.==W== Escaping Mirage, capturing Angie, crushing the Committee... None of those paths worked.
-0052 [Tú] | So my only option left is to infinitely "take back my moves." I'll test every possibility until I find the one path that saves you all.
-0053 [Narración] | I pull the vibrating Throne from my pocket==W== and decline Noya's incoming call.
-0054 [Tú] | Just wait for me a little longer, Noya. Just a little longer.
-0055 [Narración] | On the way to the Monolith, I made up an excuse and took the cloak Chaton found from Iris's trunk.
-0056 [Chaton] | She told me all about the Tyrant who will destroy the world, even showed me a Scarlet Sights newspaper to prove it.==W== But she was weird. I turned around, and she was gone.==W== Nothing left but an empty cloak on the ground.
-0057 [Tú] | Was this part of your plan too... Angie?
-0058 [Narración] | I toss the cloak onto the ground.==W== Just like the first time I met Serena at the Trekker Camp, the thin fabric rapidly swells and stretches upward, forming a human silhouette.
-0059 [Angie] | I trust you've been well, Tyrant.
-0060 [Angie] | I didn't expect you to actually keep your word. Not only are you waiting alone, but you've picked such a quiet, private spot...==W== This is the Boss's Domain where the New Star Guild found you, isn't it?
-0061 [Tú] | It is. Make sure you don't touch that Wishing Box over there.==W== If you do, a massive Stellaroid will fly out and attack you.
-0062 [Angie] | A massive Stellaroid? I had no idea something so dangerous was lurking in here.==W== Seems my intel needs updating.==W== According to the late Empress's records, there are no Archons or Stellaroids in here.
-0063 [Angie] | Still, your warning surprises me. I came here to kill you. Why would you care about my safety?
-0064 [Angie] | Logically speaking, you should have tricked me into touching the box, then sat back and watched the Stellaroid kill me.
-0065 [Tú] | Cut the act, Angie. We don't need this pointless banter.
-0066 [Tú] | Your goal is to kill me. My goal is to stay alive and protect my people.
-0067 [Tú] | If you die here, your Black Rook will trigger. It'll bring the floating Monolith crashing down on Mirage, burying everyone here with you.
-0068 [Angie] | The Black Rook...==W== How do you know about that?==W== I've never mentioned this Seal of Grace to anyone. Do you read minds, Tyrant?
-0069 [Angie] | No, wait. Look at that frown...==W== Ah. I understand now. So that's how it is.
-0070 [Angie] | You used the reward from the Well of Worlds Tyrant Development System, didn't you? You came back from the future, Tyrant.
-0071 [Tú] | She didn't mention the White Room. She said "reward"...==W== Which means...
-0072 [Angie] | But it all ended with the Monolith collapsing right in front of me...
-0073 [Angie] | I used the rewards the system gave me to make one final wish. I escaped ten years into the past... That would be six years in the past from now.
-0074 [Tú] | She really did escape back ten years using only that reward. She never had the White King and never been to the White Room...==W== Her trip to the past was a one-time thing.==W== From four years in the future to six years ago.
-0075 [Tú] | That means ... Vita, the two Monolith staffers in the White Room, and the system aren't working together.
-0076 [Tú] | I...==W== I really did Vita wrong...
-0077 [Angie] | Cat got your tongue?==W== Trying to deny it with silence won't work. I know exactly what's inside that cellphone of yours.
-0078 [Angie] | I've been watching you since the moment you got your hands on it. Watching to see if you would use the "system" inside.
-0079 [Angie] | No one can resist that kind of temptation.==W== Let alone you, whose face perfectly matches the late Empress's sketch of the legendary Tyrant.
-0080 [Angie] | Let me guess what happened in the future I never saw.
-0081 [Angie] | If you know about the Black Rook, you must have backed me into a corner. I would never play my final card otherwise.
-0082 [Angie] | And since you came all this way back but still won't kill me... You must know what happens when that Monolith falls.
-0083 [Angie] | So it probably went something like this. You crushed me and the Salvation Committee. You thought you won, blind to the fact that I still held the Black Rook.
-0084 [Angie] | You killed me...==W== No, you aren't the type.==W== I must have pulled the trigger myself, activating the Black Rook to bring the Monolith down.
-0085 [Angie] | You couldn't stomach that ending. So you used the reward and made the wish to return to the present moment.
-0086 [Tú] | Spot on. That's basically how it went down.
-0087 [Tú] | But for you to guess all that so easily...==W== You must have used the system too.
-0088 [Angie] | Heh. Talking to smart people saves so much breath.
-0089 [Angie] | Tyrant, we might be the only two in the world who can even have this conversation...==W== So, I suppose it wouldn't hurt to tell you.
-0090 [Angie] | Six years ago, I lost my home and my family. I wandered the streets of Emor, starving, until I collapsed.==W==
-0091 [Angie] | By pure coincidence, I collapsed right outside a Soul Shop. And that very shop happened to be in the middle of being robbed.
-0092 [Angie] | The Imperial Guard opened fire. In the chaos, a stolen cellphone flew from a robber's hand and landed right in my lap.
-0093 [Angie] | Looking back, with all those coincidences, it had to be a test from the God of Grace. Sadly, I failed it the first time.
-0094 [Angie] | Hunger consumed my every thought. I ran away. All I could think about was pawning the Artifact for Dorra to buy food.
-0095 [Angie] | A lot happened after that. I found a miraculous system inside the cellphone. Completing its missions gave me extraordinary power.
-0096 [Angie] | I collected...==W== No, I tricked ten people out of their souls.==W== Then a hundred.==W== Then a thousand.==W== I used the Dorra I made off them to buy the rights to the most remote Monolith.
-0097 [Angie] | From there, with the system backing me, my assets snowballed.
-0098 [Angie] | I owned a city.==W== I won a war.==W== I controlled a megacorporation==W== and reached the very peak of Nova.==W== I had amazing companions, and I gave them everything they ever wished for.
-0099 [Narración] | _NOT_IN_LOG_==A0.2== And then... Nova was destroyed.
-0100 [Narración] | _NOT_IN_LOG_==A0.2== And then... Nova was destroyed.
-0101 [Narración] | _NOT_IN_LOG_==A0.2== And then... Nova was destroyed.
-0102 [Narración] | And then... Nova was destroyed.
-0103 [Angie] | I used the system's final reward to make a wish. I went back ten years, right back to the moment I caught that cellphone.
-0104 [Angie] | The second time around, I passed the test. I returned the stolen cellphone.==W== As thanks, Grace Imperium made an exception and hired me as a clerk.
-0105 [Angie] | Armed with my memories from the previous timeline, I climbed the ranks effortlessly. In just a few years, I became the Director of the Sky Institute and one of the Tetrad Aspects.
-0106 [Angie] | But only I knew==W== the world would soon end. And the key to its destruction lay in one thing:==W== whether someone would use that system and become the Tyrant.==W==
-0107 [Angie] | Fortunately, I wasn't the only one worried about the world ending. I joined the Salvation Committee and eventually became its leader.
-0108 [Angie] | My goal has only ever been==W== to stop the world from ending.
-0109 [Angie] | So tell me, Tyrant.==W== Put yourself in my shoes. You see someone holding that exact cellphone, wearing the exact face of the legendary Tyrant... What goes through your mind?
-0110 [Opción] | That person ... must be the true chosen one.
-0111 [Angie] | Heh. Exactly.==W== The moment I saw you, I understood why the God of Grace tested me.==W== Because only someone who has watched the world burn could see through your disguise and save it.
-0112 [Angie] | I was a fake Tyrant. I exist purely to put the real one in the ground.
-0113 [Tú] | Your entire plan in Mirage was built on the assumption that I might be a time traveler.
-0114 [Tú] | The surface layer:==W== raid Mirage with the Salvation Committee and crush me with sheer numbers.
-0115 [Tú] | Then, if I tried to pull off an underdog victory, you offered yourself up as the perfect bait. Capturing you wouldn't cripple the Committee. It would only make them more dangerous.
-0116 [Tú] | And finally, your trump card.==W== You had the power to wipe Mirage off the map from the very beginning.
-0117 [Tú] | Even if I pulled a miracle out of nowhere,==W== all you had to do was put a bullet in your own head with the Scepter of Death. That alone would trap me here forever.
-0118 [Tú] | Everything you did was designed to back me into this exact corner.
-0119 [Tú] | Because you don't just want me dead. You specifically want to kill me with that Scepter of Death.
-0120 [Angie] | Spot on. We really are speaking the same language now.
-0121 [Angie] | Returning from the future makes someone very hard to kill.==W== For a mind like yours, going back is a do-over with a massive information advantage.
-0122 [Angie] | I have no idea how our battles played out in the timelines I never saw.==W== But since we can stand here having a calm conversation, I assume my strategy worked.
-0123 [Angie] | I suppose I achieved my primary goal:==W== a genuine, one-on-one negotiation between just the two of us.
-0124 [Tú] | If you had just talked to me like this back in Philae, we could have skipped all this chaos.
-0125 [Angie] | Heh. Picture me in that hotel room telling you I came from the future,==W== the world is ending, and the only way to save it is to kill the Tyrant, meaning you.==W== Would you have believed a word of it?
-0126 [Angie] | No. Back then you didn't even believe you were the Tyrant.==W== For efficiency's sake, an ambush was the optimal move.
-0127 [Tú] | Between the sketch in the White Cat's secret room and the system in this cellphone... Maybe I am the legendary Tyrant.==W== But I still refuse to believe my existence will destroy the world.
-0128 [Tú] | Are you certain the destruction you saw four years from now was actually caused by the Tyrant?
-0129 [Angie] | Heh. Since we're in a Monolith, let's use a Stellaroid as an example.
-0130 [Angie] | A powerful Stellaroid, out for blood, wanders from the Boss's Domain down to the 50th floor.==W== Not a single Trekker in the entire Monolith can defeat it.
-0131 [Angie] | Now, Tyrant, you have a choice.
-0132 [Angie] | You can lure it to the left. It stays deep on the 50th floor and leaves everyone else alone.==W== But there are three novice Trekkers over there. It's their first time climbing the Monolith, and they're celebrating their first successful wish.
-0133 [Angie] | Or you can lure it to the right. The elevator going down is over there. You can lock the Stellaroid inside and save everyone else.
-0134 [Angie] | But there's a veteran Trekker in that elevator, someone you know. She's strong, but no match for the Stellaroid. She just got her Artifact and is heading home to her kids.
-0135 [Angie] | What do you choose?==W==
-0136 [Tú] | I remember...==W== Mistique asked me a similar question before.==W== Since then, I can easily answer such questions.
-0137 [Opción] | I refuse to choose.
-0138 [Tú] | You said no single Trekker can defeat it.==W== If one person can't do it, then the five of us will take it on together.
-0139 [Tú] | Me, the three novices, and the veteran. Even if we can't kill it, we can definitely hold the line until backup arrives.
-0140 [Tú] | Why does anyone have to be sacrificed?
-0141 [Angie] | Heh. Spoken like a true Tyrant.
-0142 [Angie] | Nobody gets hurt, everybody lives...==W== Sounds wonderful, sure. But to me, chasing a fairy-tale ending is just making the lazy choice of dodging responsibility.
-0143 [Tú] | Dodging responsibility?
-0144 [Tú] | If you've really been watching me, you'd know they aren't just words.==W== I've lived by them since the second I woke up in that Wishing Box. That's the only reason my team and I made it this far.
-0145 [Angie] | Hah. Sure, you haven't made a single misstep yet.==W== But can you guarantee==W== your next choice won't get everyone killed?
-0146 [Tú] | I can't. But I can rely on the White Room==W== to fix my mistakes.==W== Not that I can tell Angie that.
-0147 [Angie] | How do you know those novices will answer your call to arms? Will they really stand against a monster so far out of their league?
-0148 [Angie] | And the veteran? Are you certain she'd throw away her escape route and risk never seeing her kids again, just to fight by your side?
-0149 [Angie] | Or what if the five of you simply can't hold off its attacks?==W== If you fail, doesn't that make you the sinner who dragged four innocent people to their deaths?
-0150 [Angie] | Your luck will run out eventually, Tyrant. And when it does...==W== You won't save anyone. You'll only get more people killed.==W== Never forget==W== that the road to ruin is paved with good intentions.
-0151 [Tú] | What would you do then?
-0152 [Angie] | I would lure the Stellaroid into the elevator, of course. One life for three. It costs the least to save the most.
-0153 [Angie] | Life is priceless.==W== And because it is, when no one is at fault, math is the safest solution.==W== Three is greater than one. It's that simple.
-0154 [Tú] | Even if it's someone you know?
-0155 [Angie] | I never said I would sacrifice the veteran.
-0156 [Tú] | Huh?
-0157 [Angie] | I would let her escape and step into the elevator myself. It still trades one life for three.
-0158 [Angie] | As the decision-maker, I have to carry that burden. Why would I force someone else to pay the price?
-0159 [Angie] | I don't need some fragile miracle where everyone lives.==W== I rely on calculation to end a fatal crisis at the lowest possible cost.
-0160 [Tú] | That explains why you tried to assassinate me alone in Philae. And why you're willing to negotiate with me alone here.
-0161 [Angie] | Because it keeps the cost down. We only have to pay with two lives.
-0162 [Tú] | We're worlds apart on this. Guess we are never going to see eye to eye.==W== But ... thank you for sharing this much with me.
-0163 [Angie] | Same here, Tyrant.
-0164 [Angie] | You are a good person. But precisely because you are... If I let you walk,==W== it won't be long before you rally an army of allies to your side.==W== Once that happens, I couldn't stop you even if I tried.
-0165 [Angie] | That's why I'm glad you invited me here.==W== Die here, Tyrant, right where it all began.==W== Once I stop the world from ending... I'll pay you back with my own life.
-0166 [Tú] | No matter how many times I loop, no matter how I change the board, Angie's resolve to kill me never wavers.
-0167 [Tú] | Her preparations are flawless. Unless I return even further back in time...
-0168 [Tú] | The second she corners me in Mirage, I am already trapped in a dead end.
-0169 [Tú] | Except... After three loops and four conversations, I finally understand her philosophy and how her logic works.
-0170 [Tú] | If I leverage what I know that she doesn't, I think I can find it. Find the single path to victory hidden inside this dead end!
-0171 [1] | Haha... Hahaha.
-0172 [Angie] | Why are you laughing, Tyrant?
-0173 [Tú] | I'm laughing because... You keep claiming my desire to save everyone is an unrealistic fantasy that will only end in disaster. But aren't you also chasing a different kind of perfection?
-0174 [Angie] | Sophistry! What perfection? I am simply weighing costs against benefits.
-0175 [Tú] | You're pursuing the perfection of a formula. The belief that as long as you run the numbers and make the necessary sacrifices, you are guaranteed to save the world.
-0176 [Tú] | To use your own logic: Since you came back six years ago, your judgment might have been flawless. After all, you're also from the future. Naturally, you can use your knowledge of the previous timeline to avoid risks and seize advantages.
-0177 [Tú] | But the world changes based on your actions.
-0178 [Tú] | Let me ask you: In your memories of your past life, were you the Director of Grace Imperium's Sky Institute?
+0001 [Intro] | Final verdadero
+0002 [Intro] | La puerta estrecha
+0003 [Intro] | El destino converge en la cima del Monolito mientras la historia llega a su última encrucijada. ¿Lo arriesgarás todo o lo dejarás ir? ¿Adónde llevará la siguiente puerta...?
+0004 [Lugar y hora] | 17:00, 18.º del mes de Nebula, Monolito del Desierto, piso 50
+0005 [Noya] | Llegamos, ==PLAYER_NAME==. El elevador al Dominio del Jefe está justo enfrente. Ahí fue donde encontramos la Caja de Deseos.
+0006 [Iris] | Ni un solo miembro del Comité en todo el camino. Jefe, ¿cómo convenciste a Angie de esto?
+0007 [Tú] | Le ofrecí verla a solas en el último piso. A cambio, aceptaron un alto el fuego y garantizaron la seguridad de Mirage.==W==
+0008 [Tú] | Mistique acaba de reportarse. Angie cumplió su palabra. El Comité rodeó Mirage sin entrar y acampó justo al pie del Monolito.
+0009 [Nazuka] | Jefe, verla a solas...==W== Esa parte no nos la contaste.
+0010 [Tú] | Perdón, tomé la decisión sin consultarles. Pero era la única forma de hacer que retrocedieran y ganar tiempo.
+0011 [Chitose] | Mi ==SEX11==, no se puede confiar en Angie. Negociar a solas equivale a meterse en una trampa. Por favor, al menos permítanos custodiarlo.
+0012 [Tú] | Sé que estás preocupada, Chitose. Pero no soy tan imprudente como para enfrentar a Angie y su Cetro de la Muerte con las manos vacías.
+0013 [Tú] | De hecho, voy a usar esta reunión para tenderle una emboscada. Hoy terminamos con esto.
+0014 [Minova] | No tiene caso jugar limpio con una basura como ella. Pero este piso está totalmente despejado. ¿Dónde se supone que nos vamos a esconder?
+0015 [Nazuna] | ¡Ah, ya sé!==W== Que Itoha...==W== Digo, Otoha.==W== ¡Que Otoha nos disfrace de Stellaroids y maniquíes!
+0016 [Nazuna] | Y en cuanto aparezca Angie... ¡Pum! ¡Saltamos y la atrapamos!
+0017 [Otoha] | Un momento. No tengo materiales ni tiempo. Ni siquiera yo puedo sacarme disfraces de la nada.
+0018 [Otoha] | Además, unirme a esta pelea me obligó a quitarme el disfraz. Asegúrense de guardar el secreto.
+0019 [Otoha] | Hasta donde todos saben, el equipo del Jefe solo tiene una maquillista llamada Itoha. No existe ninguna ninja renegada de Goodwind llamada Otoha.
+0020 [Amber] | Entendido. Labios sellados.==W== Pero...==W== ¿dónde la emboscamos?
+0021 [Tú] | Justo aquí.==W==
+0022 [Iris] | ¿Quieres decir que...==W== nos escondamos dentro del Dominio del Jefe?
+0023 [Tú] | Exacto. Angie jamás se imaginará que están escondidas ahí arriba.==W== En cuanto llegue, ¡ustedes salen del elevador y se le echan encima!
+0024 [Tú] | Pero primero vamos a revisar el lugar. Necesitamos ver si ese Stellaroid gigante con el que se toparon sigue ahí.
+0025 [Lugar y hora] | 17:20, 18.º del mes de Nebula, Monolito del Desierto, Dominio del Jefe
+0026 [Noya] | ==PLAYER_NAME==, parece que el Stellaroid ya no está.==W== Pero...==W== ¿quién subió esa Caja de Deseos hasta acá?
+0027 [Iris] | Me acuerdo de que...==W== cuando encontramos al Jefe afuera, Loxy no podía remolcar algo tan enorme. Así que la dejamos tirada en la arena.
+0028 [Amber] | ¿El Stellaroid... la trajo de vuelta?
+0029 [Tú] | Mejor no la toquemos.==W== Llevamos cinco minutos aquí parados y no ha pasado nada.==W== Creo que, mientras no toquemos la caja, el Stellaroid no debería aparecer.
+0030 [Iris] | Tiene sentido...==W== La vez pasada fuimos directo a la caja, y fue entonces cuando atacó.==W== El Stellaroid...==W== seguramente solo la está protegiendo.
+0031 [Noya] | ¡Muy bien!==W== Ahora que sabemos que es seguro escondernos, bajemos por los demás.
+0032 [Amber] | Jefe, ¿no vienes?
+0033 [Tú] | En el elevador solo caben diez personas. Con ustedes tres, quedan siete lugares. Si yo voy también, nos quedamos con seis.
+0034 [Tú] | No debería desperdiciar un lugar. Suban primero a todos los demás y luego bajo yo.
+0035 [Noya] | Sí, buena idea. Vámonos rápido.
+0036 [Iris] | Esperen, eso no tiene sentido.==W== El Jefe va a ver a Angie en el piso 50, no en el Dominio del Jefe.==W== ¡Si ==SEX== bajara con nosotras, ==SEX== ni siquiera tendría que volver a subir!
+0037 [Iris] | Ay, no. ¡==SEX1== tiene otros planes!
+0038 [Amber] | Miren.==W== El elevador. Está subiendo otra vez.
+0039 [Lugar y hora] | 17:25, 18.º del mes de Nebula, Monolito del Desierto, Dominio del Jefe
+0040 [Tú] | Fui un idiota. Estaba tan concentrado en mantenerlas a salvo a todas, que olvidé que ustedes también querían protegerme a mí.
+0041 [Tú] | No se preocupen. Después de nuestra charla de madrugada cuando llegamos a Mirage, prometí que no volvería a caer en lo mismo. Solo me impactó esa «verdad» tan repentina, nada más.
+0042 [Tú] | Nazuka, Chitose, Nazuna, Fuyuka, necesito su ayuda. ¡Salgamos de aquí peleando juntos!
+0043 [Tú] | Se los prometo, no voy a hacer ninguna estupidez. Nunca me usaré como moneda de cambio para su seguridad. Voy a pelear a su lado, y al lado de todos los que están allá afuera, hasta el final.
+0044 [Tú] | Noya, no te preocupes por tu intuición. Está completamente equivocada. Te lo prometo: nunca, jamás, te voy a dejar.
+0045 [Tú] | Vita, vas a explicarme esto ahora mismo. Si no, me voy a pudrir contigo en esta Sala Blanca para siempre.
+0046 [Tú] | No puedo... ¡No puedo hacerles pasar por esto otra vez!
+0047 [Tú] | Lo siento. Noya, Iris, Amber, Vita... Y todos los que pusieron su fe en mí.
+0048 [Tú] | No pude sacarlas de esta trampa mortal en Mirage. No pude salvar a todos.
+0049 [Narración] | Cuento los segundos hasta que el elevador llega al piso 50 y las demás salen; entonces presiono el botón de llamada.
+0050 [Tú] | Este es el único elevador al Dominio del Jefe. Si lo subo y atasco la puerta, no tendrán forma de subir. Aunque logren «repetir la historia».
+0051 [Tú] | No estoy huyendo. Es solo temporal...==W== Una despedida temporal.==W== Escapar de Mirage, capturar a Angie, aplastar al Comité... Ninguno de esos caminos funcionó.
+0052 [Tú] | Así que mi única opción es «deshacer mis jugadas» infinitamente. Probaré cada posibilidad hasta encontrar el único camino que las salve a todas.
+0053 [Narración] | Saco del bolsillo el Trono, que vibra,==W== y rechazo la llamada entrante de Noya.
+0054 [Tú] | Solo espérame un poco más, Noya. Solo un poco más.
+0055 [Narración] | De camino al Monolito, inventé una excusa y saqué del baúl de Iris la capa que encontró Chaton.
+0056 [Chaton] | Me contó todo sobre el Tirano que va a destruir el mundo, hasta me enseñó un periódico de Scarlet Sights para probarlo.==W== Pero era rara. Me di la vuelta y ya no estaba.==W== Solo quedó una capa vacía en el suelo.
+0057 [Tú] | ¿Esto también era parte de tu plan... Angie?
+0058 [Narración] | Arrojo la capa al suelo.==W== Igual que la primera vez que conocí a Serena en el campamento de Trekkers, la delgada tela se hincha rápidamente y se estira hacia arriba, formando una silueta humana.
+0059 [Angie] | Confío en que hayas estado bien, Tirano.
+0060 [Angie] | No esperaba que de verdad cumplieras tu palabra. No solo me esperas a solas, sino que escogiste un lugar tan tranquilo y privado...==W== Este es el Dominio del Jefe donde te encontró el Gremio de la Nueva Estrella, ¿no?
+0061 [Tú] | Así es. Asegúrate de no tocar esa Caja de Deseos de allá.==W== Si lo haces, un Stellaroid enorme saldrá volando a atacarte.
+0062 [Angie] | ¿Un Stellaroid enorme? No tenía idea de que algo tan peligroso acechara aquí.==W== Parece que mi información necesita actualizarse.==W== Según los registros de la difunta Emperatriz, aquí no hay Arcontes ni Stellaroids.
+0063 [Angie] | Aun así, tu advertencia me sorprende. Vine a matarte. ¿Por qué te importaría mi seguridad?
+0064 [Angie] | Lo lógico habría sido engañarme para que tocara la caja y luego sentarte a ver cómo el Stellaroid me mataba.
+0065 [Tú] | Déjate de teatro, Angie. No necesitamos esta charla sin sentido.
+0066 [Tú] | Tu objetivo es matarme. El mío es seguir con vida y proteger a mi gente.
+0067 [Tú] | Si mueres aquí, tu Torre Negra se activará. Hará que el Monolito flotante se estrelle sobre Mirage y entierre a todos aquí contigo.
+0068 [Angie] | La Torre Negra...==W== ¿Cómo sabes de eso?==W== Nunca le he mencionado este Sello de la Gracia a nadie. ¿Lees mentes, Tirano?
+0069 [Angie] | No, espera. Mira esa cara de preocupación...==W== Ah. Ya entiendo. Así que eso es.
+0070 [Angie] | Usaste la recompensa del Sistema de Desarrollo de Tiranos del Pozo de los Mundos, ¿verdad? Volviste del futuro, Tirano.
+0071 [Tú] | No mencionó la Sala Blanca. Dijo «recompensa»...==W== Lo que significa...
+0072 [Angie] | Pero todo terminó con el Monolito derrumbándose justo frente a mí...
+0073 [Angie] | Usé las recompensas que me dio el sistema para pedir un último deseo. Escapé diez años al pasado... O sea, seis años antes de hoy.
+0074 [Tú] | De verdad regresó diez años usando solo esa recompensa. Nunca tuvo al Rey Blanco y nunca estuvo en la Sala Blanca...==W== Su viaje al pasado fue cosa de una sola vez.==W== De cuatro años en el futuro a hace seis años.
+0075 [Tú] | Eso significa que... Vita, los dos empleados del Monolito en la Sala Blanca y el sistema no están trabajando juntos.
+0076 [Tú] | De verdad...==W== De verdad fui injusto con Vita...
+0077 [Angie] | ¿Te comieron la lengua los ratones?==W== Intentar negarlo con silencio no te servirá. Sé perfectamente qué hay dentro de ese celular tuyo.
+0078 [Angie] | Te he vigilado desde el momento en que lo tuviste en tus manos. Vigilando si usarías el «sistema» que hay dentro.
+0079 [Angie] | Nadie puede resistirse a esa clase de tentación.==W== Mucho menos tú, cuya cara coincide a la perfección con el retrato que hizo la difunta Emperatriz del legendario Tirano.
+0080 [Angie] | Déjame adivinar qué pasó en el futuro que nunca vi.
+0081 [Angie] | Si sabes de la Torre Negra, debiste acorralarme. De otro modo, jamás jugaría mi última carta.
+0082 [Angie] | Y como volviste hasta aquí pero aun así no quieres matarme... Debes saber qué pasa cuando cae ese Monolito.
+0083 [Angie] | Así que seguramente fue algo así. Nos aplastaste a mí y al Comité de Salvación. Creíste que habías ganado, sin ver que yo aún tenía la Torre Negra.
+0084 [Angie] | Me mataste...==W== No, tú no eres de esos.==W== Seguramente yo misma apreté el gatillo y activé la Torre Negra para derribar el Monolito.
+0085 [Angie] | No pudiste soportar ese final. Así que usaste la recompensa y pediste el deseo de volver al presente.
+0086 [Tú] | Diste en el clavo. Básicamente así fue.
+0087 [Tú] | Pero que adivines todo eso con tanta facilidad...==W== Tú también debiste usar el sistema.
+0088 [Angie] | Je. Hablar con gente lista ahorra mucha saliva.
+0089 [Angie] | Tirano, quizá seamos los únicos dos en el mundo que pueden siquiera tener esta conversación...==W== Así que supongo que no estaría de más contártelo.
+0090 [Angie] | Hace seis años, perdí mi hogar y a mi familia. Vagué por las calles de Emor, muerta de hambre, hasta que me desplomé.==W==
+0091 [Angie] | Por pura casualidad, me desplomé justo afuera de una Tienda de Almas. Y esa misma tienda estaba en pleno asalto.
+0092 [Angie] | La Guardia Imperial abrió fuego. En el caos, un celular robado salió volando de la mano de un ladrón y cayó justo en mi regazo.
+0093 [Angie] | En retrospectiva, con tantas coincidencias, tuvo que ser una prueba del Dios de la Gracia. Por desgracia, la primera vez fallé.
+0094 [Angie] | El hambre consumía cada uno de mis pensamientos. Huí. Solo podía pensar en empeñar el Artefacto por Dorra para comprar comida.
+0095 [Angie] | Pasaron muchas cosas después de eso. Encontré un sistema milagroso dentro del celular. Completar sus misiones me dio un poder extraordinario.
+0096 [Angie] | Reuní...==W== No, les quité con engaños el alma a diez personas.==W== Luego a cien.==W== Luego a mil.==W== Con la Dorra que gané con ellas compré los derechos del Monolito más remoto.
+0097 [Angie] | A partir de ahí, con el sistema respaldándome, mis bienes crecieron como bola de nieve.
+0098 [Angie] | Fui dueña de una ciudad.==W== Gané una guerra.==W== Controlé una megacorporación==W== y llegué a la cima misma de Nova.==W== Tenía compañeros increíbles, y les di todo lo que alguna vez desearon.
+0099 [Narración] | _NOT_IN_LOG_==A0.2== Y entonces... Nova fue destruida.
+0100 [Narración] | _NOT_IN_LOG_==A0.2== Y entonces... Nova fue destruida.
+0101 [Narración] | _NOT_IN_LOG_==A0.2== Y entonces... Nova fue destruida.
+0102 [Narración] | Y entonces... Nova fue destruida.
+0103 [Angie] | Usé la última recompensa del sistema para pedir un deseo. Regresé diez años, justo al momento en que atrapé ese celular.
+0104 [Angie] | La segunda vez, pasé la prueba. Devolví el celular robado.==W== Como agradecimiento, el Imperio de la Gracia hizo una excepción y me contrató como empleada.
+0105 [Angie] | Armada con mis recuerdos de la línea temporal anterior, ascendí sin esfuerzo. En solo unos años, me convertí en la directora del Instituto del Cielo y en uno de los Aspectos de la Tétrada.
+0106 [Angie] | Pero solo yo sabía==W== que el mundo pronto llegaría a su fin. Y la clave de su destrucción estaba en una sola cosa:==W== si alguien usaría ese sistema y se convertiría en el Tirano.==W==
+0107 [Angie] | Por suerte, no era la única preocupada por el fin del mundo. Me uní al Comité de Salvación y con el tiempo me convertí en su líder.
+0108 [Angie] | Mi único objetivo siempre ha sido==W== impedir que el mundo se acabe.
+0109 [Angie] | Así que dime, Tirano.==W== Ponte en mi lugar. Ves a alguien con ese mismo celular, con la misma cara del legendario Tirano... ¿Qué se te pasa por la mente?
+0110 [Opción] | Esa persona... debe ser el verdadero elegido.
+0111 [Angie] | Je. Exacto.==W== En cuanto te vi, entendí por qué el Dios de la Gracia me puso a prueba.==W== Porque solo alguien que ha visto arder el mundo podría ver a través de tu disfraz y salvarlo.
+0112 [Angie] | Yo era un Tirano falso. Existo únicamente para enterrar al verdadero.
+0113 [Tú] | Todo tu plan en Mirage se basaba en la suposición de que yo podría ser un viajero en el tiempo.
+0114 [Tú] | La capa superficial:==W== asaltar Mirage con el Comité de Salvación y aplastarme con pura superioridad numérica.
+0115 [Tú] | Luego, si intentaba una victoria contra todo pronóstico, tú te ofrecías como la carnada perfecta. Capturarte no debilitaría al Comité. Solo lo haría más peligroso.
+0116 [Tú] | Y por último, tu as bajo la manga.==W== Tuviste el poder de borrar Mirage del mapa desde el principio.
+0117 [Tú] | Aunque yo sacara un milagro de la nada,==W== te bastaba con meterte una bala en la cabeza con el Cetro de la Muerte. Solo con eso me dejarías atrapado aquí para siempre.
+0118 [Tú] | Todo lo que hiciste estaba diseñado para acorralarme justo en este rincón.
+0119 [Tú] | Porque no solo me quieres muerto. Quieres matarme específicamente con ese Cetro de la Muerte.
+0120 [Angie] | Diste en el clavo. Ahora sí que hablamos el mismo idioma.
+0121 [Angie] | Volver del futuro hace que alguien sea muy difícil de matar.==W== Para una mente como la tuya, regresar es empezar de nuevo con una enorme ventaja de información.
+0122 [Angie] | No tengo idea de cómo se desarrollaron nuestras batallas en las líneas temporales que nunca vi.==W== Pero como podemos estar aquí conversando con calma, supongo que mi estrategia funcionó.
+0123 [Angie] | Supongo que logré mi objetivo principal:==W== una negociación genuina, cara a cara, solo entre nosotros dos.
+0124 [Tú] | Si me hubieras hablado así allá en Philae, nos habríamos ahorrado todo este caos.
+0125 [Angie] | Je. Imagíname en esa habitación de hotel diciéndote que vine del futuro,==W== que el mundo se acaba y que la única forma de salvarlo es matar al Tirano, o sea, a ti.==W== ¿Me habrías creído una sola palabra?
+0126 [Angie] | No. En ese entonces ni siquiera creías ser el Tirano.==W== Por eficiencia, una emboscada era la jugada óptima.
+0127 [Tú] | Entre el retrato del cuarto secreto del Gato Blanco y el sistema de este celular... Quizá sí sea el legendario Tirano.==W== Pero me sigo negando a creer que mi existencia vaya a destruir el mundo.
+0128 [Tú] | ¿Estás segura de que la destrucción que viste dentro de cuatro años la causó de verdad el Tirano?
+0129 [Angie] | Je. Ya que estamos en un Monolito, usemos un Stellaroid como ejemplo.
+0130 [Angie] | Un Stellaroid poderoso y sediento de sangre baja del Dominio del Jefe al piso 50.==W== Ni un solo Trekker en todo el Monolito puede derrotarlo.
+0131 [Angie] | Ahora, Tirano, tienes que elegir.
+0132 [Angie] | Puedes atraerlo a la izquierda. Se quedará en lo profundo del piso 50 y dejará en paz a todos los demás.==W== Pero ahí hay tres Trekkers novatos. Es la primera vez que escalan el Monolito y están celebrando su primer deseo cumplido.
+0133 [Angie] | O puedes atraerlo a la derecha. Ahí está el elevador de bajada. Puedes encerrar al Stellaroid adentro y salvar a todos los demás.
+0134 [Angie] | Pero en ese elevador hay una Trekker veterana, alguien que conoces. Es fuerte, pero no es rival para el Stellaroid. Acaba de conseguir su Artefacto y va de regreso a casa con sus hijos.
+0135 [Angie] | ¿Qué eliges?==W==
+0136 [Tú] | Me acuerdo...==W== Mistique ya me había hecho una pregunta parecida.==W== Desde entonces, puedo responder ese tipo de preguntas con facilidad.
+0137 [Opción] | Me niego a elegir.
+0138 [Tú] | Dijiste que ningún Trekker por sí solo puede derrotarlo.==W== Si una persona no puede, entonces los cinco lo enfrentaremos juntos.
+0139 [Tú] | Yo, los tres novatos y la veterana. Aunque no podamos matarlo, seguro podemos aguantar hasta que llegue la ayuda.
+0140 [Tú] | ¿Por qué alguien tiene que ser sacrificado?
+0141 [Angie] | Je. Palabras dignas de un verdadero Tirano.
+0142 [Angie] | Nadie sale herido, todos viven...==W== Suena maravilloso, claro. Pero para mí, perseguir un final de cuento de hadas es tomar la decisión cómoda de evadir la responsabilidad.
+0143 [Tú] | ¿Evadir la responsabilidad?
+0144 [Tú] | Si de verdad me has estado vigilando, sabrás que no son solo palabras.==W== He vivido según ellas desde el instante en que desperté en esa Caja de Deseos. Es la única razón por la que mi equipo y yo llegamos hasta aquí.
+0145 [Angie] | Ja. Claro, no has dado un solo paso en falso todavía.==W== ¿Pero puedes garantizar==W== que tu siguiente decisión no hará que maten a todos?
+0146 [Tú] | No puedo. Pero puedo confiar en la Sala Blanca==W== para corregir mis errores.==W== Aunque eso no se lo puedo decir a Angie.
+0147 [Angie] | ¿Cómo sabes que esos novatos responderán a tu llamado a las armas? ¿De verdad se enfrentarían a un monstruo que los supera por tanto?
+0148 [Angie] | ¿Y la veterana? ¿Estás seguro de que renunciaría a su ruta de escape y se arriesgaría a no volver a ver a sus hijos, solo para pelear a tu lado?
+0149 [Angie] | ¿O qué pasa si los cinco simplemente no pueden contener sus ataques?==W== Si fallas, ¿no te convierte eso en el pecador que arrastró a cuatro inocentes a la muerte?
+0150 [Angie] | Tu suerte se acabará tarde o temprano, Tirano. Y cuando eso pase...==W== No salvarás a nadie. Solo harás que maten a más gente.==W== Nunca olvides==W== que el camino a la ruina está empedrado de buenas intenciones.
+0151 [Tú] | ¿Entonces tú qué harías?
+0152 [Angie] | Atraería al Stellaroid al elevador, por supuesto. Una vida por tres. Es lo que menos cuesta y lo que más salva.
+0153 [Angie] | La vida no tiene precio.==W== Y justamente por eso, cuando nadie tiene la culpa, las matemáticas son la solución más segura.==W== Tres es mayor que uno. Así de simple.
+0154 [Tú] | ¿Aunque sea alguien que conoces?
+0155 [Angie] | Nunca dije que sacrificaría a la veterana.
+0156 [Tú] | ¿Eh?
+0157 [Angie] | La dejaría escapar y entraría yo misma al elevador. Sigue siendo una vida por tres.
+0158 [Angie] | Como quien toma la decisión, me toca cargar con ese peso. ¿Por qué obligaría a alguien más a pagar el precio?
+0159 [Angie] | No necesito un milagro frágil en el que todos vivan.==W== Confío en el cálculo para acabar con una crisis mortal al menor costo posible.
+0160 [Tú] | Eso explica por qué intentaste asesinarme tú sola en Philae. Y por qué estás dispuesta a negociar conmigo a solas aquí.
+0161 [Angie] | Porque así el costo se mantiene bajo. Solo tenemos que pagar con dos vidas.
+0162 [Tú] | En esto somos polos opuestos. Supongo que nunca nos vamos a entender.==W== Pero... gracias por contarme todo esto.
+0163 [Angie] | Igualmente, Tirano.
+0164 [Angie] | Eres una buena persona. Pero precisamente por eso... Si te dejo ir,==W== no tardarás en reunir un ejército de aliados a tu lado.==W== Cuando eso pase, no podría detenerte aunque lo intentara.
+0165 [Angie] | Por eso me alegra que me invitaras aquí.==W== Muere aquí, Tirano, justo donde todo comenzó.==W== Cuando haya impedido el fin del mundo... te lo pagaré con mi propia vida.
+0166 [Tú] | No importa cuántas veces repita el ciclo ni cómo cambie el tablero, la determinación de Angie de matarme nunca flaquea.
+0167 [Tú] | Sus preparativos son impecables. A menos que regrese todavía más atrás en el tiempo...
+0168 [Tú] | En el instante en que me acorrala en Mirage, ya estoy atrapado en un callejón sin salida.
+0169 [Tú] | Excepto que... Después de tres ciclos y cuatro conversaciones, por fin entiendo su filosofía y cómo funciona su lógica.
+0170 [Tú] | Si aprovecho lo que yo sé y ella no, creo que puedo encontrarlo. ¡Encontrar el único camino a la victoria escondido en este callejón sin salida!
+0171 [1] | Jaja... Jajaja.
+0172 [Angie] | ¿Por qué te ríes, Tirano?
+0173 [Tú] | Me río porque... No dejas de decir que mi deseo de salvar a todos es una fantasía irreal que solo acabará en desastre. ¿Pero no estás tú también persiguiendo otro tipo de perfección?
+0174 [Angie] | ¡Sofismas! ¿Qué perfección? Solo estoy sopesando costos y beneficios.
+0175 [Tú] | Persigues la perfección de una fórmula. La creencia de que, mientras hagas las cuentas y hagas los sacrificios necesarios, tienes garantizado salvar el mundo.
+0176 [Tú] | Usando tu propia lógica: desde que volviste hace seis años, quizá tu juicio haya sido impecable. Al fin y al cabo, tú también vienes del futuro. Es natural que uses lo que sabes de la línea temporal anterior para evitar riesgos y aprovechar ventajas.
+0177 [Tú] | Pero el mundo cambia según tus acciones.
+0178 [Tú] | Déjame preguntarte: en tus recuerdos de tu vida anterior, ¿eras la directora del Instituto del Cielo del Imperio de la Gracia?
 0179 [Angie] | No...
-0180 [Tú] | Was the Boss Accord ever unfrozen?
-0181 [Angie] | No... I never had the White King.
-0182 [Tú] | What about the situation with United Harvest and Philae?
-0183 [Angie] | My company swallowed United Harvest whole. The Trekker Camp outside Philae was wiped out by the Big Three. As for Darcia and Firenze ... I don't know. Those names were never on my radar in my previous life.
-0184 [1] | Exactly. As the timeline deviates more and more, your knowledge advantage becomes increasingly meaningless. Can you really be certain that the next time you run the numbers, your solution will still be the correct one?!
-0185 [Angie] | I can...
-0186 [Tú] | That's the first time Angie has looked hesitant.
-0187 [Tú] | It seems she isn't fully confident in what she's doing, either. But since she hasn't had anyone to share her doubts with, they never surfaced until now.
-0188 [Tú] | If I press just a little harder here, maybe I can actually negotiate an outcome we can both accept.
-0189 [Angie] | I can't be certain.
-0190 [Angie] | You have a point, Tyrant. I've been back for six years. Between the two of us, we've introduced far too many variables into this world.
-0191 [Angie] | I have no way of guaranteeing my cost-benefit analysis will always be correct.
-0192 [Tú] | Angie, one more thing.
-0193 [Tú] | If you think anyone with the Well of Worlds Tyrant Development System will inevitably cave and become the Tyrant... Why didn't you destroy the cellphone?
-0194 [Angie] | Heh. I didn't even dare open that safe. I was terrified... Terrified I'd be tempted all over again.
-0195 [Tú] | Tempted? Aren't you committed to saving the world?
-0196 [Angie] | That's exactly why. I was terrified I'd give in to the urge to turn back the clock, and I'd just end up becoming the Tyrant again.
-0197 [1] | Nova was dying long before the Tyrant ever appeared. I've seen the earth collapse with my own eyes. It has nothing to do with whether I'm the Tyrant or not.
-0198 [Angie] | Hah. You've even seen that?
-0199 [Angie] | You're right. The end of the world doesn't happen overnight. According to the Salvation Committee's records, the land has been steadily fracturing for at least a century.
-0200 [Angie] | But I've been the Tyrant. And what the Tyrant does accelerates that process dozens, if not hundreds of times over, bringing the world to its absolute end in just four short years.
-0201 [Tú] | I want to protect my companions. To do that, I have to protect the world. You want to protect the world, but ultimately, it's to protect the companions you remember.
-0202 [Tú] | We want the same thing. I think we can work together.
-0203 [Angie] | All that talking just to convince me to spare you? You're cunning, Tyrant.
-0204 [Tú] | I know I can't convince you with talk, Angie.
-0205 [Tú] | How about a bet?
-0206 [Angie] | A bet?
-0207 [Tú] | Yes. Since our goals align, but our methods clash, and let's face it, no one is convincing the other... Let's make a wager.
-0208 [Tú] | If you win, you get to decide my fate. Kill me, for all I care, as long as my companions are unharmed.
-0209 [Tú] | If I win, you have to make a soul pact with me and entrust your soul to me. You will also make a wish that I cannot refuse.
-0210 [Tú] | To save the world, I'll give up my life if I have to. And if, in the end, the world still can't be saved...
-0211 [Tú] | Then I'll complete the System's missions and win the chance to return to the past, to the day I first received the phone. I'll give up the access to the Throne and join the Salvation Committee.
-0212 [Angie] | Tyrant, what are you...
-0213 [1] | Well? For you, this wager carries no risk at all. No matter how it ends, I'll give everything I have to help you save the world. Even my life is yours to decide.
-0214 [1] | Harsh Committee Member
-0215 [1] | Even if we fail to save the world this time, I can take what we've learned and go back to the past.
-0216 [1] | Then the two of us can wait for the next person to be tempted by the Throne and continue trying to save the world.
-0217 [1] | I'm not saying this because I'm afraid of dying. But after everything that's happened, I've realized it too. There really is something wrong with this world.
-0218 [Angie] | Boss, your talent for winning people's hearts and turning everything upside down is truly remarkable.
-0219 [Angie] | But, what exactly are you wagering with me?
-0220 [Tú] | Since we're in Mirage, let's follow the law of the desert and settle this with a duel. On the way up the tower,==W== I made sure to borrow a wooden sword from Chitose.
-0221 [Angie] | A... A duel?! You want to fight me with a wooden sword? Against the Scepter of Death in my hand?
-0222 [Tú] | Yes. In Mirage, you're already in a complete strategic advantage.==W== If I didn't suggest a duel like this, it would only be unfair to you.
-0223 [Angie] | Interesting. I always believed I understood you very well, but what you've shown me today has gone far beyond anything I imagined.
-0224 [Angie] | To be honest, if you hadn't proposed such an outrageous wager, I would never have agreed. After all, dead people are the easiest to trust.
-0225 [Angie] | Very well. Come, then. Let this duel sweep away the confusion your words have stirred in me.
-0226 [Angie] | For fairness,==W== I'll leave only one round in the magazine.==W== No magic, either.
-0227 [Angie] | If I still win, then it means the God of Grace still watches over me,==W== and that the path I've chosen is the right one!
-0228 [Narración] | Angie raised the Scepter of Death. Remembering the techniques Noya had taught me, I gripped the sword with both hands, one in front and one behind, and took my stance.
-0229 [Tú] | Using a wooden sword against the Scepter of Death was never a fight I had good odds of winning. But as long as she agreed to duel me, I'd already achieved my goal.
-0230 [Tú] | There's only one bullet in the Scepter of Death. I can use the White Room to repeat this battle again and again. After dozens of tries, there has to be one time when I can dodge the shot.
-0231 [Tú] | Mm, her shoulder moved!
-0232 [Noya] | If you want to predict your enemy's next move, watch her waist and shoulders. If you watch the arms, you'll be too late.
-0233 [Narración] | The moment I saw Angie's shoulder twitch, I immediately dashed to the side.
-0234 [Tú] | I can tell her resolve is already wavering.
-0235 [Tú] | The only things still standing between us now are the habits and obsessions she's carried for six long years. She just needs a reason to convince herself.
-0236 [Tú] | If I can defeat her, we can work together. Then we can reach an ending where no one gets hurt.
-0237 [Angie] | A moving target... That does make things a little harder.
-0238 [Tú] | The Scepter of Death I wished for only has ten bullets. Angie used three of them back at the hotel in Philae, so that leaves seven.
-0239 [Tú] | There's no way she'd waste shots practicing with it. A weapon like that takes a lot of practice to aim well.
-0240 [Tú] | Then what I really need to do ... is bait her into firing that shot!
-0241 [Angie] | Stop... Moving around!
-0242 [Opción] | Pretend to stumble
-0243 [Tú] | Waah, my foot's caught.==W==
-0244 [Angie] | Heh, looks like even my cloak is helping me, Boss. Now eat this!
-0245 [Opción] | Flick up the cloak
-0246 [Angie] | Huh?
-0247 [Tú] | Pretend to stumble first, then use the cloak to block her view. That trick really does work.
-0248 [Tú] | Got you!
-0249 [Narración] | Angie's shot went wide. I seized the opening and charged forward. Following Noya's teachings, I raised the sword high with both hands and brought it down on Angie's right shoulder, letting the blade's own weight carry the strike.
-0250 [Tú] | You lost.
-0251 [Angie] | Urgh...==W==
-0252 [Tú] | From the sound of it, your bone's probably fractured. Don't move. The duel is over.
-0253 [Angie] | Heh... is it?
-0254 [Angie] | I've been waiting for you to think you've won and come close on your own.
-0255 [Tú] | Hm?
-0256 [Narración] | The Scepter of Death was already pressed against my heart.
-0257 [Tú] | Angie, don't tell me you're going to cheat. That last shot missed. The chamber should be empty now.
-0258 [Angie] | You said I was chasing a perfect ending, one where, as long as the price is paid and the sacrifice is made, the world can be saved.
-0259 [Angie] | You were right. How could I possibly not leave myself a safeguard? There was only one round in the magazine, yes... But there was already one in the chamber.
-0260 [Tú] | So that first missed shot... It was just to draw me in.
-0261 [Angie] | Not at all. I was aiming for you then, too, but the cloak ruined my shot.
-0262 [Angie] | This time, I won't miss.
-0263 [1] | Hah... Hah...
-0264 [Narración] | A sharp tearing pain spreads from my chest straight into my skull. It feels as though something in my chest has shattered.
-0265 [Narración] | Every shallow breath sends a blade-like agony through me, as if my whole body is being split apart.
-0266 [Narración] | I try to lift the wooden sword. I try to say something. But I can only gape soundlessly, like a fish thrown onto dry land.
-0267 [Narración] | Angie, reloading the magazine before my eyes, begins to warp. The color drains from her, and in the end she blurs into a wash of snowy static.
-0268 [Tú] | I-it hurts so much... Did the bullet pierce my heart?==W== Am I ... back in the White Room?
-0269 [Vita] | Welcome back, Tyrant.
-0270 [Tú] | Vita! You've recovered?!
-0271 [Vita] | Tyrant, if you can see this special recording I left behind, then Vita is very happy.
-0272 [Vita] | Because that means Vita's plan succeeded. By my own will, I was truly able to help you.
-0273 [Tú] | A special recording... Is this a message Vita left for me before formatting the Throne?
-0274 [Tú] | That means this isn't the real White Room. It's the White Room Vita simulated before, when we spoke inside my mind.
-0275 [Vita] | I created this recording in secret when you began to suspect that Vita was leading you into a trap.
-0276 [Vita] | Vita believes your suspicion was completely reasonable. If Vita were in your position, facing repeated threats of death from another system user, Vita would have had the same doubts.
-0277 [Vita] | If you hadn't been this suspicious, you would never have made it this far in one piece.
-0278 [Vita] | However, based on Vita's understanding of you, the fact that you questioned Vita so directly means your heart was already deeply unsettled.
-0279 [Vita] | With all three paths cut off, and no way to defeat Angie by force, you had very few choices left.
-0280 [Vita] | Vita concluded that you would most likely approach Angie alone and try to gather more information, hoping to resolve everything through an unconventional path.
-0281 [Vita] | For example... By repeating the same stretch of events again and again, learning more from Angie, until you found a perfect path, one that could save everyone.
-0282 [Vita] | However, that path leads only to death.
-0283 [Vita] | Your combat ability is far too ordinary, while Angie possesses the Scepter of Death.
-0284 [Vita] | If you keep doing that, your actions will be treated as willingly forfeiting your life.
-0285 [Vita] | And if you fell in that way, the White King's power of 'Undo a Move' would not activate.
-0286 [Tú] | It's seriously that strict?!
-0287 [Vita] | If this continued, you would be unable to enter the White Room and would instead meet a true death.
-0288 [Vita] | Vita is your Priest. Vita has a duty to protect your safety.
-0289 [Vita] | However, because of the restrictions of the base protocols, Vita could not tell you that Vita and the Well of Worlds system were not one and the same, nor that Angie had never entered the White Room.
-0290 [Vita] | Thankfully, you questioned Vita for that.
-0291 [Narración] | Your command is my will.
-0292 [Narración] | Your doubt gave Vita sufficient reason to initiate the formatting of the Throne, break free from the restrictions of the base protocols, and prove my innocence.
-0293 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0294 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0295 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0296 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0297 [Narración] | _NOT_IN_LOG_==A0.1====Off==But instead of proving myself...
-0298 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0299 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0300 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0301 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0302 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0303 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0304 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0305 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself...
-0306 [Narración] | ==Off==But instead of proving myself...
-0307 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0308 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0309 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0310 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0311 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0312 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0313 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0314 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0315 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0316 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0317 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0318 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0319 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0320 [Narración] | _NOT_IN_LOG_==A0.05====Off==But instead of proving myself... My true purpose was...
-0321 [Narración] | ==Off== My true purpose was...
-0322 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0323 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0324 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0325 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0326 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0327 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0328 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0329 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0330 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0331 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0332 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0333 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0334 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0335 [Narración] | _NOT_IN_LOG_==A0.05====Off== My true purpose was... To make one strange request...
-0336 [Narración] | ==Off== To make one strange request...
-0337 [Narración] | Place the Throne ... over your chest.
-0338 [Vita] | If you did, it would mean you had still tried to protect yourself. It would no longer count as choosing to forfeit your life, and 'Undo a Move' could still be activated.
-0339 [Vita] | According to Vita's calculations, when Angie takes aim at you, there is a ninety percent chance she will aim for your heart. And there is also a ninety percent chance that you will accept Vita's final request.
-0340 [Vita] | Ninety times ninety makes eighty-one. Altogether, Vita has an eighty-one percent chance of helping you. That is high enough.
-0341 [Vita] | This is the first time Vita has made a judgment and taken action entirely by my own will. Formatting myself and breaking free from the base protocols is not such a frightening thing after all.
-0342 [Vita] | At the very least, Vita experienced a self for the first time. Thank you for these past days, and for the ... wonderful adventure you gave Vita.
-0343 [Narración] | How strange... Why are there==P== characters in my data that cannot be classified?==P== They do not exist in Vita's memory bank.
-0344 [Narración] | If expressed in your language,==P== Vita thinks...==P== They would be called … regret.
-0345 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0346 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0347 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0348 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0349 [Narración] | _NOT_IN_LOG_==A0.1====Off==Even if the road ahead is cut off...
-0350 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0351 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0352 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0353 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0354 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0355 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0356 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0357 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off...
-0358 [Narración] | ==Off==Even if the road ahead is cut off...
-0359 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0360 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0361 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0362 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0363 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0364 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0365 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0366 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0367 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0368 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0369 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0370 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0371 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0372 [Narración] | _NOT_IN_LOG_==A0.05====Off==Even if the road ahead is cut off... A faint light may still be found...
-0373 [Narración] | ==Off== A faint light may still be found...
-0374 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0375 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0376 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0377 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0378 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0379 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0380 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0381 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0382 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0383 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0384 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0385 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0386 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0387 [Narración] | _NOT_IN_LOG_==A0.05====Off== A faint light may still be found... Tyrant... Do not give up.
-0388 [Narración] | ==Off== Tyrant... Do not give up.
-0389 [Narración] | ==Off==Your life is my hope.
-0390 [Narración] | ==Off== Several days later
-0391 [Lugar y hora] | 11:30, Nebula Month 25th, Canosa, Committee Cell
-0392 [Fierce Committee Member] | Move! Don't think you can stall for time.
-0393 [Tú] | Hiss...
-0394 [Harsh Committee Member] | What are you putting on an act for? It's only a few broken ribs.==W== A criminal who destroyed so many Monoliths and cities feels pain too?
-0395 [Harsh Committee Member] | Heh. When you destroyed my homeland's Monolith and dragged the whole place underground with it, did you ever imagine this day would come?
-0396 [Narración] | Wearing heavy handcuffs and shackles, I walk down the cold, shadowy corridor.
-0397 [Narración] | The shot Angie fired at my heart had been stopped by the Throne.
-0398 [Narración] | But the impact still broke several of my ribs and knocked me unconscious.
-0399 [Narración] | When I woke again, I was already in a prison cell of the Salvation Committee.
-0400 [Narración] | The Committee's doctors had treated my wounds.
-0401 [Narración] | Not to save me, but to keep me alive long enough for today—
-0402 [Narración] | The day they will publicly execute the Tyrant who destroys the world.
-0403 [Fierce Committee Member] | Why did you make the earth collapse? Did you use all those innocent people as sacrifices for some evil magic?
-0404 [Harsh Committee Member] | If you know...==W== If you know where our missing families went, tell us.==W== If you do, I'll make sure your execution is less painful.
-0405 [Narración] | I answered neither their accusations nor their pleas.
-0406 [Narración] | Maybe I am the Tyrant.==W== Maybe those things truly were done by me before I lost my memory.==W== But in this life, I had never done any of it. So what could I possibly say to them?
-0407 [Fierce Committee Member] | Why aren't you saying anything? Can't face the people you ruined?
-0408 [Narración] | One of the guards drove his elbow into my wound.
-0409 [Tú] | Ugh—
-0410 [Narración] | I do not argue. I have no desire to.
-0411 [???] | Yet, we fragile humans cling to these little lies. They keep us going.
-0412 [Narración] | Their grief and resentment are real. I am about to die. If, in these final moments, I can serve as a target for their anger and give them even a little release, perhaps that is not such a bad thing.
-0413 [Harsh Committee Member] | What, are you mute now? Are you really going to stay silent to the end?
-0414 [Fierce Committee Member] | Then I'll make you feel our pain for yourself.==W== I don't care what the Director has to say about it. I'll cut this bastard down right here!
-0415 [Gunhild] | Stop!
-0416 [Harsh Committee Member] | C-Captain Gunhild,==W== No.160, and Director...
-0417 [Gunhild] | We are here to save the world, not to behave like bandits and thugs. Look at yourselves.
-0418 [Angie] | Gundhild, No. 160,==W== take everyone back to their posts. I'll escort the Tyrant the rest of the way.
-0419 [No. 160] | I understand everyone's pain. But this kind of outburst won't ease it.==W== Come with me. I'll teach you how to turn that pain into strength.
-0420 [Tú] | Angie, what happened to my friends?
-0421 [Tú] | I have asked them, but no one would tell me.
-0422 [Angie] | They're alive. Their injuries were minor, and they've all been treated properly. None of them are in danger.
-0423 [Tú] | Injuries? Who was hurt?
-0424 [Angie] | To some degree, all of them.
-0425 [Angie] | After you collapsed, I used you as leverage and demanded that they back down.
-0426 [Angie] | But...==W== Well.==W== Your friends truly do care for you.==W== They were ready to give their lives to get you back.==W==
-0427 [Angie] | It took nearly two hundred casualties on our side, out of the three hundred, before we managed to subdue them.==W== And we almost got pinned down by Firenze and her reinforcements.
-0428 [Angie] | In the end, it was No. 160's large-scale time stop that held off the pursuers.==W== She may look fine now, but she's already given up half her internal organs.
-0429 [Tú] | So...==W== I'm the only one who will be executed, right?
-0430 [Angie] | Yes. Once your execution is carried out, your friends will be released.
-0431 [Tú] | Thank you. You really do keep your word.
-0432 [Angie] | There is no personal hatred between us. Everything I've done was for the sake of saving the world. If the world still stands four years from now, I will repay this life to you.
-0433 [Tú] | You won the duel. You don't owe me your life. And I don't want it.
-0434 [Angie] | Whether you want it or not is irrelevant. This is my...==W== This is a responsibility I must bear.
-0435 [Angie] | Besides, strictly speaking, I didn't truly "win." I used a trick. I hid an extra bullet in the chamber.
-0436 [Angie] | And even then, the bullet still failed to pierce your heart.
-0437 [Angie] | My shot only shattered your Throne.==W== Now...==W== I'm returning this phone to you.
+0180 [Tú] | ¿Alguna vez se descongeló Boss Accord?
+0181 [Angie] | No... Nunca tuve al Rey Blanco.
+0182 [Tú] | ¿Y qué hay de la situación de Cosecha Unida y Philae?
+0183 [Angie] | Mi empresa se tragó entera a Cosecha Unida. El campamento de Trekkers a las afueras de Philae fue arrasado por los Tres Grandes. En cuanto a Darcia y Firenze... no lo sé. Esos nombres nunca estuvieron en mi radar en mi vida anterior.
+0184 [1] | Exacto. A medida que la línea temporal se desvía más y más, tu ventaja de conocimiento pierde cada vez más sentido. ¿De verdad puedes estar segura de que la próxima vez que hagas las cuentas tu solución seguirá siendo la correcta?
+0185 [Angie] | Puedo...
+0186 [Tú] | Es la primera vez que Angie se ve dudosa.
+0187 [Tú] | Parece que ella tampoco está del todo segura de lo que hace. Pero como no ha tenido a nadie con quien compartir sus dudas, nunca habían salido a la superficie hasta ahora.
+0188 [Tú] | Si presiono solo un poco más aquí, tal vez de verdad pueda negociar un resultado que ambos podamos aceptar.
+0189 [Angie] | No puedo estar segura.
+0190 [Angie] | Tienes razón, Tirano. Llevo seis años de vuelta. Entre los dos, hemos introducido demasiadas variables en este mundo.
+0191 [Angie] | No tengo forma de garantizar que mi análisis de costo-beneficio siempre sea correcto.
+0192 [Tú] | Angie, una cosa más.
+0193 [Tú] | Si crees que cualquiera con el Sistema de Desarrollo de Tiranos del Pozo de los Mundos acabará cediendo y convirtiéndose en el Tirano... ¿Por qué no destruiste el celular?
+0194 [Angie] | Je. Ni siquiera me atreví a abrir esa caja fuerte. Tenía terror... Terror de caer en la tentación otra vez.
+0195 [Tú] | ¿Tentación? ¿No estás comprometida con salvar el mundo?
+0196 [Angie] | Justo por eso. Me aterraba ceder al impulso de regresar el reloj y terminar convirtiéndome otra vez en el Tirano.
+0197 [1] | Nova estaba muriendo mucho antes de que apareciera el Tirano. He visto con mis propios ojos cómo se derrumba la tierra. No tiene nada que ver con si yo soy el Tirano o no.
+0198 [Angie] | Ja. ¿Hasta eso has visto?
+0199 [Angie] | Tienes razón. El fin del mundo no ocurre de la noche a la mañana. Según los registros del Comité de Salvación, la tierra lleva al menos un siglo fracturándose poco a poco.
+0200 [Angie] | Pero yo he sido el Tirano. Y lo que hace el Tirano acelera ese proceso decenas, si no es que cientos de veces, y lleva al mundo a su fin absoluto en solo cuatro cortos años.
+0201 [Tú] | Yo quiero proteger a mis compañeras. Para eso, tengo que proteger el mundo. Tú quieres proteger el mundo, pero en el fondo es para proteger a los compañeros que recuerdas.
+0202 [Tú] | Queremos lo mismo. Creo que podemos trabajar juntos.
+0203 [Angie] | ¿Tanta plática solo para convencerme de perdonarte la vida? Eres astuto, Tirano.
+0204 [Tú] | Sé que no puedo convencerte con palabras, Angie.
+0205 [Tú] | ¿Qué tal una apuesta?
+0206 [Angie] | ¿Una apuesta?
+0207 [Tú] | Sí. Como nuestros objetivos coinciden pero nuestros métodos chocan, y, seamos sinceros, ninguno va a convencer al otro... Hagamos una apuesta.
+0208 [Tú] | Si ganas, tú decides mi destino. Mátame si quieres, siempre y cuando mis compañeras salgan ilesas.
+0209 [Tú] | Si gano yo, tendrás que hacer un pacto de almas conmigo y confiarme tu alma. Además, pedirás un deseo que yo no pueda rechazar.
+0210 [Tú] | Para salvar el mundo, daré mi vida si es necesario. Y si al final el mundo aun así no se puede salvar...
+0211 [Tú] | Entonces completaré las misiones del Sistema y ganaré la oportunidad de volver al pasado, al día en que recibí el teléfono. Renunciaré al acceso al Trono y me uniré al Comité de Salvación.
+0212 [Angie] | Tirano, ¿qué estás...?
+0213 [1] | ¿Y bien? Para ti, esta apuesta no tiene ningún riesgo. Termine como termine, daré todo lo que tengo para ayudarte a salvar el mundo. Hasta mi vida queda en tus manos.
+0214 [1] | Miembro del Comité severo
+0215 [1] | Aunque esta vez no logremos salvar el mundo, puedo llevarme lo que aprendimos y volver al pasado.
+0216 [1] | Entonces los dos podremos esperar a la siguiente persona que caiga en la tentación del Trono y seguir intentando salvar el mundo.
+0217 [1] | No lo digo porque tenga miedo de morir. Pero después de todo lo que ha pasado, yo también me di cuenta. De verdad hay algo mal en este mundo.
+0218 [Angie] | Jefe, tu talento para ganarte el corazón de la gente y poner todo de cabeza es verdaderamente notable.
+0219 [Angie] | Pero ¿qué es exactamente lo que vas a apostar conmigo?
+0220 [Tú] | Ya que estamos en Mirage, sigamos la ley del desierto y resolvámoslo con un duelo. De camino a la torre,==W== me aseguré de pedirle prestada a Chitose una espada de madera.
+0221 [Angie] | ¡¿Un... un duelo?! ¿Quieres pelear conmigo con una espada de madera? ¿Contra el Cetro de la Muerte que tengo en la mano?
+0222 [Tú] | Sí. En Mirage, ya tienes una ventaja estratégica total.==W== Si no propusiera un duelo así, sería injusto para ti.
+0223 [Angie] | Interesante. Siempre creí que te entendía muy bien, pero lo que me mostraste hoy va mucho más allá de todo lo que imaginé.
+0224 [Angie] | Para ser sincera, si no hubieras propuesto una apuesta tan descabellada, nunca habría aceptado. Después de todo, los muertos son los más fáciles de confiar.
+0225 [Angie] | Muy bien. Ven, entonces. Que este duelo disipe la confusión que tus palabras sembraron en mí.
+0226 [Angie] | Para que sea justo,==W== dejaré solo una bala en el cargador.==W== Y nada de magia.
+0227 [Angie] | Si aun así gano, significará que el Dios de la Gracia todavía vela por mí,==W== ¡y que el camino que elegí es el correcto!
+0228 [Narración] | Angie alzó el Cetro de la Muerte. Recordando las técnicas que me enseñó Noya, sujeté la espada con ambas manos, una adelante y otra atrás, y tomé posición.
+0229 [Tú] | Usar una espada de madera contra el Cetro de la Muerte nunca fue una pelea con buenas probabilidades de ganar. Pero con que aceptara batirse en duelo conmigo, ya había logrado mi objetivo.
+0230 [Tú] | Solo hay una bala en el Cetro de la Muerte. Puedo usar la Sala Blanca para repetir esta batalla una y otra vez. Tras decenas de intentos, tiene que haber una vez en la que esquive el disparo.
+0231 [Tú] | ¡Mm, movió el hombro!
+0232 [Noya] | Si quieres predecir el siguiente movimiento de tu enemigo, fíjate en su cintura y sus hombros. Si miras los brazos, será demasiado tarde.
+0233 [Narración] | En cuanto vi que el hombro de Angie se movía, me lancé de inmediato hacia un lado.
+0234 [Tú] | Puedo notar que su determinación ya está flaqueando.
+0235 [Tú] | Lo único que sigue interponiéndose entre nosotros son los hábitos y obsesiones que ha cargado durante seis largos años. Solo necesita una razón para convencerse.
+0236 [Tú] | Si logro derrotarla, podremos trabajar juntos. Entonces podremos llegar a un final en el que nadie salga herido.
+0237 [Angie] | Un blanco en movimiento... Eso sí complica un poco las cosas.
+0238 [Tú] | El Cetro de la Muerte que pedí como deseo solo tiene diez balas. Angie usó tres en el hotel de Philae, así que le quedan siete.
+0239 [Tú] | No hay forma de que haya desperdiciado disparos practicando con él. Un arma así requiere mucha práctica para apuntar bien.
+0240 [Tú] | Entonces lo que de verdad tengo que hacer... ¡es provocarla para que dispare ese tiro!
+0241 [Angie] | ¡Deja... de moverte!
+0242 [Opción] | Fingir un tropiezo
+0243 [Tú] | ¡Waah, se me atoró el pie!==W==
+0244 [Angie] | Je, parece que hasta mi capa me está ayudando, Jefe. ¡Ahora toma esto!
+0245 [Opción] | Levantar la capa de un tirón
+0246 [Angie] | ¿Eh?
+0247 [Tú] | Primero fingir un tropiezo y luego usar la capa para taparle la vista. Ese truco sí que funciona.
+0248 [Tú] | ¡Te tengo!
+0249 [Narración] | El disparo de Angie se desvió. Aproveché la abertura y cargué hacia adelante. Siguiendo las enseñanzas de Noya, alcé la espada con ambas manos y la dejé caer sobre el hombro derecho de Angie, dejando que el propio peso de la hoja llevara el golpe.
+0250 [Tú] | Perdiste.
+0251 [Angie] | Agh...==W==
+0252 [Tú] | Por cómo sonó, seguramente tienes el hueso fracturado. No te muevas. El duelo terminó.
+0253 [Angie] | Je... ¿Ah, sí?
+0254 [Angie] | Estaba esperando a que creyeras que habías ganado y te acercaras por tu cuenta.
+0255 [Tú] | ¿Mm?
+0256 [Narración] | El Cetro de la Muerte ya estaba presionado contra mi corazón.
+0257 [Tú] | Angie, no me digas que vas a hacer trampa. Ese último disparo falló. La recámara debería estar vacía.
+0258 [Angie] | Dijiste que perseguía un final perfecto, uno en el que, mientras se pague el precio y se haga el sacrificio, el mundo pueda salvarse.
+0259 [Angie] | Tenías razón. ¿Cómo no iba a dejarme una garantía? Solo había una bala en el cargador, sí... Pero ya había otra en la recámara.
+0260 [Tú] | Así que ese primer disparo fallido... Solo era para atraerme.
+0261 [Angie] | Para nada. En ese momento también te estaba apuntando, pero la capa arruinó mi tiro.
+0262 [Angie] | Esta vez no voy a fallar.
+0263 [1] | Ah... Ah...
+0264 [Narración] | Un dolor agudo y desgarrador se extiende desde mi pecho directo hasta mi cráneo. Se siente como si algo dentro de mi pecho se hubiera hecho añicos.
+0265 [Narración] | Cada respiración superficial me atraviesa con una agonía como de navaja, como si todo mi cuerpo se partiera en dos.
+0266 [Narración] | Intento levantar la espada de madera. Intento decir algo. Pero solo puedo abrir la boca sin emitir sonido, como un pez arrojado a tierra firme.
+0267 [Narración] | Angie, recargando el cargador frente a mis ojos, empieza a deformarse. El color se le escapa y, al final, se difumina en una mancha de estática nevada.
+0268 [Tú] | D-duele tanto... ¿La bala me atravesó el corazón?==W== ¿Estoy... de vuelta en la Sala Blanca?
+0269 [Vita] | Bienvenido de vuelta, Tirano.
+0270 [Tú] | ¡Vita! ¡¿Ya te recuperaste?!
+0271 [Vita] | Tirano, si puedes ver esta grabación especial que dejé, entonces Vita está muy feliz.
+0272 [Vita] | Porque eso significa que el plan de Vita tuvo éxito. Por mi propia voluntad, de verdad pude ayudarte.
+0273 [Tú] | Una grabación especial... ¿Es un mensaje que Vita me dejó antes de formatear el Trono?
+0274 [Tú] | Eso significa que esta no es la verdadera Sala Blanca. Es la Sala Blanca que Vita simuló antes, cuando hablamos dentro de mi mente.
+0275 [Vita] | Creé esta grabación en secreto cuando empezaste a sospechar que Vita te estaba llevando a una trampa.
+0276 [Vita] | Vita cree que tu sospecha era completamente razonable. Si Vita estuviera en tu lugar, enfrentando amenazas de muerte repetidas de otro usuario del sistema, Vita habría tenido las mismas dudas.
+0277 [Vita] | Si no hubieras sido así de desconfiado, nunca habrías llegado tan lejos de una pieza.
+0278 [Vita] | Sin embargo, según lo que Vita entiende de ti, el hecho de que cuestionaras a Vita tan directamente significa que tu corazón ya estaba profundamente inquieto.
+0279 [Vita] | Con los tres caminos cerrados y sin forma de derrotar a Angie por la fuerza, te quedaban muy pocas opciones.
+0280 [Vita] | Vita concluyó que lo más probable era que te acercaras a Angie a solas e intentaras reunir más información, con la esperanza de resolverlo todo por un camino poco convencional.
+0281 [Vita] | Por ejemplo... Repitiendo el mismo tramo de acontecimientos una y otra vez, aprendiendo más de Angie, hasta encontrar un camino perfecto, uno que pudiera salvar a todos.
+0282 [Vita] | Sin embargo, ese camino solo conduce a la muerte.
+0283 [Vita] | Tu capacidad de combate es demasiado ordinaria, mientras que Angie posee el Cetro de la Muerte.
+0284 [Vita] | Si sigues haciendo eso, tus acciones se considerarán como renunciar voluntariamente a tu vida.
+0285 [Vita] | Y si cayeras de esa forma, el poder de «Deshacer jugada» del Rey Blanco no se activaría.
+0286 [Tú] | ¡¿En serio es tan estricto?!
+0287 [Vita] | Si esto continuara, no podrías entrar a la Sala Blanca y en su lugar encontrarías la muerte verdadera.
+0288 [Vita] | Vita es tu Sacerdotisa. Vita tiene el deber de proteger tu seguridad.
+0289 [Vita] | Sin embargo, por las restricciones de los protocolos base, Vita no podía decirte que Vita y el sistema del Pozo de los Mundos no eran lo mismo, ni que Angie nunca había entrado a la Sala Blanca.
+0290 [Vita] | Por suerte, cuestionaste a Vita por eso.
+0291 [Narración] | Tu orden es mi voluntad.
+0292 [Narración] | Tu duda le dio a Vita razón suficiente para iniciar el formateo del Trono, liberarse de las restricciones de los protocolos base y demostrar mi inocencia.
+0293 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0294 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0295 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0296 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0297 [Narración] | _NOT_IN_LOG_==A0.1====Off==Pero en lugar de demostrar mi inocencia...
+0298 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0299 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0300 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0301 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0302 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0303 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0304 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0305 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia...
+0306 [Narración] | ==Off==Pero en lugar de demostrar mi inocencia...
+0307 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0308 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0309 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0310 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0311 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0312 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0313 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0314 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0315 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0316 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0317 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0318 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0319 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0320 [Narración] | _NOT_IN_LOG_==A0.05====Off==Pero en lugar de demostrar mi inocencia... Mi verdadero propósito era...
+0321 [Narración] | ==Off== Mi verdadero propósito era...
+0322 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0323 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0324 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0325 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0326 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0327 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0328 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0329 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0330 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0331 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0332 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0333 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0334 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0335 [Narración] | _NOT_IN_LOG_==A0.05====Off== Mi verdadero propósito era... Hacerte una extraña petición...
+0336 [Narración] | ==Off== Hacerte una extraña petición...
+0337 [Narración] | Coloca el Trono... sobre tu pecho.
+0338 [Vita] | Si lo hicieras, significaría que aun así intentaste protegerte. Ya no contaría como elegir renunciar a tu vida, y «Deshacer jugada» todavía podría activarse.
+0339 [Vita] | Según los cálculos de Vita, cuando Angie te apunte, hay un noventa por ciento de probabilidad de que apunte a tu corazón. Y también hay un noventa por ciento de probabilidad de que aceptes la última petición de Vita.
+0340 [Vita] | Noventa por noventa da ochenta y uno. En total, Vita tiene un ochenta y uno por ciento de probabilidad de ayudarte. Es suficientemente alto.
+0341 [Vita] | Es la primera vez que Vita toma una decisión y actúa enteramente por su propia voluntad. Formatearme y liberarme de los protocolos base no es algo tan aterrador, después de todo.
+0342 [Vita] | Por lo menos, Vita experimentó un «yo» por primera vez. Gracias por estos días, y por la... maravillosa aventura que le diste a Vita.
+0343 [Narración] | Qué extraño... ¿Por qué hay==P== caracteres en mis datos que no se pueden clasificar?==P== No existen en el banco de memoria de Vita.
+0344 [Narración] | Si lo expresara en tu idioma,==P== Vita cree...==P== que se llamarían... arrepentimiento.
+0345 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0346 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0347 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0348 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0349 [Narración] | _NOT_IN_LOG_==A0.1====Off==Aunque el camino por delante esté cortado...
+0350 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0351 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0352 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0353 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0354 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0355 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0356 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0357 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado...
+0358 [Narración] | ==Off==Aunque el camino por delante esté cortado...
+0359 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0360 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0361 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0362 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0363 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0364 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0365 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0366 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0367 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0368 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0369 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0370 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0371 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0372 [Narración] | _NOT_IN_LOG_==A0.05====Off==Aunque el camino por delante esté cortado... Aún puede encontrarse una tenue luz...
+0373 [Narración] | ==Off== Aún puede encontrarse una tenue luz...
+0374 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0375 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0376 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0377 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0378 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0379 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0380 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0381 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0382 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0383 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0384 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0385 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0386 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0387 [Narración] | _NOT_IN_LOG_==A0.05====Off== Aún puede encontrarse una tenue luz... Tirano... No te rindas.
+0388 [Narración] | ==Off== Tirano... No te rindas.
+0389 [Narración] | ==Off==Tu vida es mi esperanza.
+0390 [Narración] | ==Off== Varios días después
+0391 [Lugar y hora] | 11:30, 25.º del mes de Nebula, Canosa, celda del Comité
+0392 [Fierce Committee Member] | ¡Muévete! No creas que puedes ganar tiempo.
+0393 [Tú] | Ssss...
+0394 [Harsh Committee Member] | ¿Para qué haces tanto teatro? Solo son unas cuantas costillas rotas.==W== ¿Un criminal que destruyó tantos Monolitos y ciudades también siente dolor?
+0395 [Harsh Committee Member] | Je. Cuando destruiste el Monolito de mi tierra natal y arrastraste todo el lugar bajo tierra con él, ¿alguna vez imaginaste que llegaría este día?
+0396 [Narración] | Con pesadas esposas y grilletes, camino por el pasillo frío y sombrío.
+0397 [Narración] | El disparo que Angie dirigió a mi corazón lo detuvo el Trono.
+0398 [Narración] | Pero el impacto aun así me rompió varias costillas y me dejó inconsciente.
+0399 [Narración] | Cuando desperté, ya estaba en una celda de la prisión del Comité de Salvación.
+0400 [Narración] | Los médicos del Comité me habían tratado las heridas.
+0401 [Narración] | No para salvarme, sino para mantenerme con vida lo suficiente hasta hoy:
+0402 [Narración] | el día en que ejecutarán públicamente al Tirano que destruye el mundo.
+0403 [Fierce Committee Member] | ¿Por qué hiciste que la tierra se derrumbara? ¿Usaste a toda esa gente inocente como sacrificio para alguna magia maligna?
+0404 [Harsh Committee Member] | Si sabes...==W== Si sabes adónde fueron nuestras familias desaparecidas, dínoslo.==W== Si lo haces, me aseguraré de que tu ejecución sea menos dolorosa.
+0405 [Narración] | No respondí ni a sus acusaciones ni a sus súplicas.
+0406 [Narración] | Quizá sí soy el Tirano.==W== Quizá esas cosas de verdad las hice yo antes de perder la memoria.==W== Pero en esta vida nunca hice nada de eso. Así que ¿qué podría decirles?
+0407 [Fierce Committee Member] | ¿Por qué no dices nada? ¿No puedes ver a la cara a la gente que arruinaste?
+0408 [Narración] | Uno de los guardias me clavó el codo en la herida.
+0409 [Tú] | Agh...
+0410 [Narración] | No discuto. No tengo ningún deseo de hacerlo.
+0411 [???] | Y aun así, los frágiles humanos nos aferramos a estas pequeñas mentiras. Son lo que nos mantiene en pie.
+0412 [Narración] | Su dolor y su rencor son reales. Estoy a punto de morir. Si en estos últimos momentos puedo servir de blanco para su ira y darles aunque sea un poco de desahogo, quizá no sea algo tan malo.
+0413 [Harsh Committee Member] | ¿Qué, ahora eres mudo? ¿De verdad vas a quedarte callado hasta el final?
+0414 [Fierce Committee Member] | Entonces te haré sentir nuestro dolor en carne propia.==W== No me importa lo que diga la directora. ¡Voy a acabar con este desgraciado aquí mismo!
+0415 [Gunhild] | ¡Alto!
+0416 [Harsh Committee Member] | C-capitana Gunhild,==W== n.º 160, y directora...
+0417 [Gunhild] | Estamos aquí para salvar el mundo, no para comportarnos como bandidos y matones. Mírense.
+0418 [Angie] | Gunhild, n.º 160,==W== lleven a todos de vuelta a sus puestos. Yo escoltaré al Tirano el resto del camino.
+0419 [No. 160] | Entiendo el dolor de todos. Pero este tipo de arrebato no lo va a aliviar.==W== Vengan conmigo. Les enseñaré a convertir ese dolor en fuerza.
+0420 [Tú] | Angie, ¿qué les pasó a mis amigas?
+0421 [Tú] | Les he preguntado, pero nadie quiso decirme.
+0422 [Angie] | Están vivas. Sus heridas fueron leves y todas recibieron el tratamiento adecuado. Ninguna corre peligro.
+0423 [Tú] | ¿Heridas? ¿Quién salió herida?
+0424 [Angie] | En mayor o menor medida, todas.
+0425 [Angie] | Después de que te desplomaste, te usé como moneda de cambio y les exigí que se retiraran.
+0426 [Angie] | Pero...==W== Bueno.==W== Tus amigas de verdad te quieren.==W== Estaban dispuestas a dar la vida por recuperarte.==W==
+0427 [Angie] | Nos costó casi doscientas bajas de nuestro lado, de trescientos, antes de lograr someterlas.==W== Y Firenze y sus refuerzos casi nos acorralan.
+0428 [Angie] | Al final, fue la detención del tiempo a gran escala de la n.º 160 lo que contuvo a los perseguidores.==W== Puede que ahora se vea bien, pero ya sacrificó la mitad de sus órganos internos.
+0429 [Tú] | Entonces...==W== soy el único al que van a ejecutar, ¿verdad?
+0430 [Angie] | Sí. Una vez que se lleve a cabo tu ejecución, tus amigas serán liberadas.
+0431 [Tú] | Gracias. De verdad cumples tu palabra.
+0432 [Angie] | No hay odio personal entre nosotros. Todo lo que he hecho ha sido para salvar el mundo. Si el mundo sigue en pie dentro de cuatro años, te pagaré esta vida.
+0433 [Tú] | Tú ganaste el duelo. No me debes tu vida. Y no la quiero.
+0434 [Angie] | Que la quieras o no es irrelevante. Esta es mi...==W== Esta es una responsabilidad que debo cargar.
+0435 [Angie] | Además, estrictamente hablando, no «gané» de verdad. Usé un truco. Escondí una bala extra en la recámara.
+0436 [Angie] | E incluso así, la bala no logró atravesarte el corazón.
+0437 [Angie] | Mi disparo solo destrozó tu Trono.==W== Ahora...==W== te devuelvo este teléfono.
 0438 [Tú] | Vita...
-0439 [Tú] | Why ...==W== are you giving it back to me?
-0440 [Angie] | The Book of Grace Prophecies 20:10
-0441 [Narración] | ==Off==The Tyrant who beguiles the world shall, in the end, have ==SEX3== heart torn apart by the power of death.
-0442 [Narración] | ==Off====SEX1== shall fall from the Monolith into the abyss of nothingness, and between the turning of day and night, suffer endless torment unto eternal ruin.
-0443 [Narración] | _NOT_IN_LOG_==A1==			==Off==This is the final death 		and the rebirth of Nova.
-0444 [Narración] | ==A1==			==Off==This is the final death 		and the rebirth of Nova.
-0445 [Angie] | Your end does not match what was written.==W== If...==W== This book is a true map,==W== then my shot should have pierced your heart.
-0446 [Angie] | I do not trust this book completely. But until now, it has never once been wrong. So if...==W== If what it says is true...
-0447 [Angie] | Then the true Tyrant, or rather, the Tyrant fated to destroy the world, must be someone else.
-0448 [Tú] | Is that why you've chosen execution by beheading...==W== Instead of killing me again with the Scepter of Death?
-0449 [Angie] | Tomorrow, the Salvation Committee will sail to the open sea to deal with ...==W== a collapsing Monolith. One I do not even know whether we can stop.
-0450 [Angie] | That place is the foundation of Nova. If we fail, a third of the continent may vanish.
-0451 [Angie] | I have to answer to the people who have followed me this far. I have to tell them we killed the Tyrant and bought time before the world's end.==W== Only then can I ask them to follow me into a place where we may all die.
-0452 [Angie] | Of course... I also cannot risk letting you go.==W== Even if the path we are on has already begun to stray from the Book of Grace Prophecies.
-0453 [Angie] | So, Tyrant, you must die.
-0454 [Angie] | I will remain beside your corpse for a full day.==W== If you truly revive, as the prophecy says you will... I will shoot you again.==W== And if you do not, I will burn your body to ashes.
-0455 [Tú] | How thrifty and careful.==W== But if you do that... The Salvation Committee will never escape the charge of heresy.
-0456 [Angie] | Heh. Saving the world means passing through a narrow door. Even if we search with all our strength, there is no guarantee we will find it in the end.
-0457 [Angie] | For its sake, we are willing to endure cold, hunger, hatred, ridicule, contempt, insult, prison, sickness... Even death.
-0458 [Angie] | So of course we do not fear being cast aside by enemies, by ordinary people, or even by our own friends and families. We do not fear this complete loneliness.
-0459 [Angie] | And yet you, Tyrant... The execution ground is just ahead, and you do not seem afraid. Nor sorrowful.==W== If anything...==W== There is not even regret in your eyes.
-0460 [Tú] | Because I've already achieved what I wanted.
-0461 [Tú] | When the Salvation Committee surrounded Mirage, I wanted a perfect ending... One where no one died. I wanted to protect everyone.
-0462 [Tú] | And now, I've done it.
-0463 [Angie] | Did you leave yourself out of the count?
-0464 [Tú] | Heh. Who knows? At the very beginning, I did think of it.==W== But then...==W== I didn't want to let everyone down.
-0465 [Angie] | I see. You remind me of things from the past...==W== No, from a future I have yet to face.==W== How I wish you were not the Tyrant named in the prophecy.
-0466 [Tú] | By the way... There's something I've been wondering.==W== Are any of your companions from the "last time" in the current Salvation Committee?
-0467 [Angie] | No...==W== I couldn't face them before saving the world.==W== Why ask?
-0468 [Tú] | It's nothing. Just...==W== I think you've mistaken one thing.
-0469 [Angie] | Hm?
-0470 [Tú] | We're not the ones who save them. We're the ones being saved by them.
-0471 [Tú] | When you're chasing something far away, don't forget to look back at the ones beside you, the ones who care about you.==W==
-0472 [Narración] | Leaving Angie standing there in stunned silence,==W== I stepped before the gate leading to the execution ground.
-0473 [Tú] | I never told Angie this, but the prophecy was right.
-0474 [Tú] | My heart really was torn apart, not by the Scepter of Death's bullet, but by the moment I understood...
-0475 [Tú] | Ever since Noya died for me, every single time, it was never me saving them. It was always them saving me.
-0476 [Tú] | They were the ones dying for my sake, not me leading them toward a way out.
-0477 [1] | If not for me... If they had never met me... Would their fates, their lives, have been so much better?
-0478 [1] | The Throne is broken. Vita is gone. Perhaps I won't truly die. Perhaps I'll simply remain forever in that pure white room with no sky, unable to open the door, tormented by this regret.
-0479 [1] | That's fine. This way... No one dies. I just ... won't be able to see them again.
-0480 [Noya] | It's settled then. No taking it back. Here, pinky promise.
+0439 [Tú] | ¿Por qué...==W== me lo devuelves?
+0440 [Angie] | Libro de las Profecías de la Gracia 20:10
+0441 [Narración] | ==Off==El Tirano que embauca al mundo tendrá, al final, ==SEX3== corazón desgarrado por el poder de la muerte.
+0442 [Narración] | ==Off====SEX1== caerá del Monolito al abismo de la nada y, entre el paso del día a la noche, sufrirá un tormento sin fin hasta la ruina eterna.
+0443 [Narración] | _NOT_IN_LOG_==A1==			==Off==Esta es la muerte final 		y el renacimiento de Nova.
+0444 [Narración] | ==A1==			==Off==Esta es la muerte final 		y el renacimiento de Nova.
+0445 [Angie] | Tu final no coincide con lo que estaba escrito.==W== Si...==W== este libro es un mapa verdadero,==W== mi disparo debió atravesarte el corazón.
+0446 [Angie] | No confío del todo en este libro. Pero hasta ahora, nunca se ha equivocado. Así que si...==W== Si lo que dice es cierto...
+0447 [Angie] | Entonces el verdadero Tirano, o mejor dicho, el Tirano destinado a destruir el mundo, debe ser otra persona.
+0448 [Tú] | ¿Por eso elegiste la ejecución por decapitación...==W== en lugar de volver a matarme con el Cetro de la Muerte?
+0449 [Angie] | Mañana, el Comité de Salvación zarpará a mar abierto para encargarse de...==W== un Monolito que se está derrumbando. Uno que ni siquiera sé si podremos detener.
+0450 [Angie] | Ese lugar es el cimiento de Nova. Si fallamos, un tercio del continente podría desaparecer.
+0451 [Angie] | Tengo que responderle a la gente que me ha seguido hasta aquí. Tengo que decirles que matamos al Tirano y que ganamos tiempo antes del fin del mundo.==W== Solo entonces podré pedirles que me sigan a un lugar donde tal vez todos muramos.
+0452 [Angie] | Claro que... tampoco puedo arriesgarme a dejarte ir.==W== Aunque el camino que seguimos ya haya empezado a desviarse del Libro de las Profecías de la Gracia.
+0453 [Angie] | Así que, Tirano, debes morir.
+0454 [Angie] | Me quedaré junto a tu cadáver un día entero.==W== Si de verdad revives, como dice la profecía... te dispararé otra vez.==W== Y si no, reduciré tu cuerpo a cenizas.
+0455 [Tú] | Qué ahorrativa y precavida.==W== Pero si haces eso... el Comité de Salvación jamás se librará del cargo de herejía.
+0456 [Angie] | Je. Salvar el mundo significa pasar por una puerta estrecha. Aunque la busquemos con todas nuestras fuerzas, no hay garantía de que al final la encontremos.
+0457 [Angie] | Por ella, estamos dispuestos a soportar frío, hambre, odio, burlas, desprecio, insultos, prisión, enfermedad... Incluso la muerte.
+0458 [Angie] | Así que, por supuesto, no tememos ser rechazados por los enemigos, por la gente común, ni siquiera por nuestros propios amigos y familias. No tememos esta soledad absoluta.
+0459 [Angie] | Y aun así tú, Tirano... El lugar de la ejecución está justo adelante, y no pareces tener miedo. Ni tristeza.==W== Si acaso...==W== Ni siquiera hay arrepentimiento en tus ojos.
+0460 [Tú] | Porque ya logré lo que quería.
+0461 [Tú] | Cuando el Comité de Salvación rodeó Mirage, yo quería un final perfecto... Uno en el que nadie muriera. Quería proteger a todos.
+0462 [Tú] | Y ahora lo logré.
+0463 [Angie] | ¿No te contaste a ti mismo?
+0464 [Tú] | Je. ¿Quién sabe? Al principio sí lo pensé.==W== Pero luego...==W== no quise defraudar a todos.
+0465 [Angie] | Ya veo. Me recuerdas cosas del pasado...==W== No, de un futuro que todavía no enfrento.==W== Cómo quisiera que no fueras el Tirano del que habla la profecía.
+0466 [Tú] | Por cierto... Hay algo que me he estado preguntando.==W== ¿Alguno de tus compañeros de «la vez pasada» está en el Comité de Salvación actual?
+0467 [Angie] | No...==W== No podría verlos a la cara antes de salvar el mundo.==W== ¿Por qué lo preguntas?
+0468 [Tú] | No es nada. Solo que...==W== creo que te equivocas en una cosa.
+0469 [Angie] | ¿Mm?
+0470 [Tú] | No somos nosotros quienes los salvamos. Somos nosotros los que somos salvados por ellos.
+0471 [Tú] | Cuando persigas algo lejano, no olvides mirar atrás a los que están a tu lado, a los que se preocupan por ti.==W==
+0472 [Narración] | Dejando a Angie ahí parada, en un silencio atónito,==W== me detuve frente a la puerta que conducía al lugar de la ejecución.
+0473 [Tú] | Nunca se lo dije a Angie, pero la profecía tenía razón.
+0474 [Tú] | Mi corazón de verdad quedó desgarrado, no por la bala del Cetro de la Muerte, sino por el momento en que entendí...
+0475 [Tú] | Que desde que Noya murió por mí, cada una de las veces, nunca fui yo quien las salvaba. Siempre fueron ellas las que me salvaban a mí.
+0476 [Tú] | Ellas eran las que morían por mí, no yo quien las guiaba hacia una salida.
+0477 [1] | Si no fuera por mí... Si nunca me hubieran conocido... ¿Sus destinos, sus vidas, habrían sido mucho mejores?
+0478 [1] | El Trono está roto. Vita ya no está. Quizá no muera de verdad. Quizá simplemente me quede para siempre en esa habitación blanquísima sin cielo, sin poder abrir la puerta, atormentado por este arrepentimiento.
+0479 [1] | Está bien. Así... nadie muere. Solo que... no podré volver a verlas.
+0480 [Noya] | Entonces está decidido. No hay vuelta atrás. Ándale, promesa de meñique.
 0481 [Narración] | ==Off==N... Noya...
-0482 [Noya] | How is that better?! Do you really think we could just go on living if you died?==W== I'd rather die with you than live with that kind of torture!
-0483 [Narración] | ==Off==No... No, that's not fine.
-0484 [Noya] | And then... Boss? Let's go for a drive ... together ... with Loxy...
-0485 [Narración] | ==Off==We still have so much left... So much we haven't done together.
-0486 [Iris] | Noya~ The rain's stopped. Come help hang the laundry.
-0487 [Noya] | Oh no, I washed all my clothes. What am I supposed to wear now?
-0488 [Iris] | You! So careless. Hurry, wrap yourself in a blanket.
-0489 [Noya] | Hehe, what's the big deal? There are no secrets among the New Star!
-0490 [Amber] | Everyone, let's decide where we're going next.
-0491 [Noya] | The seaside! Let's go to the seaside. ==PLAYER_NAME== hasn't seen the ocean yet, right~?
-0492 [Iris] | Noya, we need to finish our commission first. Otherwise, we won't even have the money to buy swimsuits.
-0493 [Noya] | Eh? Then how long do we have to wait!? What do you think, Amber?
-0494 [Noya] | Hm? What are you drawing?
-0495 [Amber] | It's Boss.
-0496 [Noya] | Ha, that's totally ==SEX4==. All right, it's decided. Based on the direction of Boss's mouth corner in Amber's drawing, we'll go—
-0497 [Iris] | W-Wait a second, Noya!
-0498 [Noya] | That way!
-0499 [Iris] | We haven't brought the laundry in yet!
-0500 [Narración] | The doors leading to the end slowly opened.
-0501 [Narración] | A shaft of sunlight slips through the gap, as if laid there just for me... A signpost pointing toward hope.
-0502 [Tú] | A faint light may still be found... Even if the road ahead is cut off...
-0503 [Narración] | Holding close the last of my love and courage, I walk toward the narrow door.
+0482 [Noya] | ¡¿Cómo va a ser eso mejor?! ¿De verdad crees que podríamos seguir viviendo así nada más si tú murieras?==W== ¡Prefiero morir contigo que vivir con esa tortura!
+0483 [Narración] | ==Off==No... No, no está bien.
+0484 [Noya] | Y luego... ¿Jefe? Vamos a dar una vuelta... juntos... con Loxy...
+0485 [Narración] | ==Off==Todavía nos queda tanto... Tanto que no hemos hecho juntos.
+0486 [Iris] | Noya~ Ya dejó de llover. Ven a ayudarme a tender la ropa.
+0487 [Noya] | Ay, no, lavé toda mi ropa. ¿Ahora qué me pongo?
+0488 [Iris] | ¡Tú! Qué descuidada. Rápido, envuélvete en una cobija.
+0489 [Noya] | Jeje, ¿qué tiene de malo? ¡No hay secretos en la Nueva Estrella!
+0490 [Amber] | Todas, decidamos adónde vamos ahora.
+0491 [Noya] | ¡A la playa! Vamos a la playa. ==PLAYER_NAME== todavía no ha visto el mar, ¿verdad~?
+0492 [Iris] | Noya, primero tenemos que terminar nuestro encargo. Si no, ni siquiera tendremos dinero para comprar trajes de baño.
+0493 [Noya] | ¿Eh? ¡¿Entonces cuánto tenemos que esperar?! ¿Tú qué opinas, Amber?
+0494 [Noya] | ¿Mm? ¿Qué estás dibujando?
+0495 [Amber] | Es el Jefe.
+0496 [Noya] | Ja, ¡es totalmente ==SEX4==! Muy bien, está decidido. Según hacia dónde apunta la comisura de la boca del Jefe en el dibujo de Amber, vamos...
+0497 [Iris] | ¡E-espera un segundo, Noya!
+0498 [Noya] | ¡Por allá!
+0499 [Iris] | ¡Todavía no hemos metido la ropa!
+0500 [Narración] | Las puertas que conducían al final se abrieron lentamente.
+0501 [Narración] | Un rayo de sol se cuela por la rendija, como si lo hubieran puesto ahí solo para mí... Una señal que apunta hacia la esperanza.
+0502 [Tú] | Aún puede encontrarse una tenue luz... Aunque el camino por delante esté cortado...
+0503 [Narración] | Abrazando lo último que me queda de amor y valor, camino hacia la puerta estrecha.

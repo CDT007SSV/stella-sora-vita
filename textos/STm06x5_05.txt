@@ -1,10 +1,10 @@
-# Especial 6.5 · Obertura de un enigma sombrío · 5 · Closing the Net
+# Especial 6.5 · Obertura de un enigma sombrío · 5 · Cerrando el cerco
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Desert Scorpion Grunts | Desert Scorpion Grunts
-N:The Voice | The Voice
+N:Desert Scorpion Grunts | Secuaces de los Escorpiones del Desierto
+N:The Voice | La voz
 N:avg1_107 | Tilia
 N:avg1_112 | Noya
 N:avg1_145 | Otoha
@@ -17,114 +17,114 @@ N:avg3_115 | Jayhawk
 N:avg3_124 | Erinis
 N:avg3_125 | Meikyo
 N:avg3_128 | Ophir
-N:avg3_1287 | Desert Scorpion F
-N:avg3_1288 | Desert Scorpion M
+N:avg3_1287 | Escorpión del Desierto
+N:avg3_1288 | Escorpión del Desierto
 N:avg3_152 | Bastelina
-N:avg3_187 | Male Flavio Resident
+N:avg3_187 | Residente de Flavio
 N:avg3_207 | Myrsha
-N:avg3_208 | Desert Scorpion Female Grunt
-N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
+N:avg3_209 | Secuaz de los Escorpiones del Desierto
 N:avg3_210 | Hazana
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Five
-0002 [Intro] | Closing the Net
-0003 [Intro] | The banquet is about to begin. Representatives have gathered, and Desert Scorpion Mercs have moved into position. Guided by "Noya," you make your way to the venue, but suddenly sense something amiss.
-0004 [Lugar y hora] | 18:00, Venatio Month 5th, Silver District in Philae, Hotel Lobby
-0005 [???] | Phew... Keep it together.
-0006 [???] | Camera rolling? Let's go live!
-0007 [Ophir] | Good evening, viewers! I'm Ophir, your on-scene witch from Philae Express.
-0008 [Ophir] | We're coming to you live from the highly anticipated Philae Business Banquet.
-0009 [Ophir] | The main event kicks off in an hour.
-0010 [Ophir] | Representatives from major factions are already pouring in, and the energy here is electric!
-0011 [Ophir] | Let's grab a few early arrivals==W== and hear what they're looking forward to tonight!
-0012 [Ophir] | Oh! We have the Grace Imperium delegations right here.==W== Excuse me, care to share a few words about the banquet?
-0013 [Bastelina] | Oh, sorry! I only started as an intern a few days ago.
-0014 [Bastelina] | A formal interview belongs to our senior staff...==W== Right, Lady Laru?
-0015 [Laru] | Ow! Watch the elbow!==W== You made me drop a fry...
-0016 [Bastelina] | Senior Laru, you are representing Grace Imperium tonight. The witch is waiting for your statement.
-0017 [Laru] | Uh... Statement?==W== The fries are decent. Nice crunch. Could use a dash more salt, though.
-0018 [Laru] | Wait, no!==W== Cut the feed, do not air that!
-0019 [Laru] | ... Ahem.==W== On behalf of Grace Imperium, I wish tonight's gathering the utmost success.
-0020 [Bastelina] | That's ...==W== it?
-0021 [Laru] | Less is more, rookie. You keep it vague at these official gigs to avoid slipping up. Take notes.
-0022 [Bastelina] | Is she winging it, or is she actually a genius...?
-0023 [Cosson] | An interview? Pass. I have nothing to say.
-0024 [Jayhawk] | I'll take this one.==W== Jayhawk. Inspector for United Harvest.
-0025 [Ophir] | Appreciate it!==W== The Acting Executive Director for the Philae branch, Miss Firenze, appears to be absent tonight...==W== May I ask the reason for this?
-0026 [Jayhawk] | No comment.
-0027 [Ophir] | Let's move on to the question on everyone's mind.==W== When will United Harvest announce the Philae branch's next Executive Director?
-0028 [Jayhawk] | No comment.
-0029 [Jayhawk] | United Harvest's internal affairs are strictly confidential. I'd be in trouble if I spoke out of turn.
-0030 [Jayhawk] | In terms of publicity, if there is any deviation in your future reports, you will be held responsible.
-0031 [Ophir] | Intimidating...==W== Thank you for your time. That's all the questions I have.
-0032 [Meikyo] | A-An interview?!==W== Mind if we give our company a quick shout-out?==W== Ah, no?==W== Fine, okay...
-0033 [Erinis] | Well, whoever takes the Executive Director seat,==W== Deepsea Finance is always open for your funding needs!
-0034 [Yunshu] | Cangwu and Philae have always maintained friendly relations.
-0035 [Yunshu] | On behalf of Cangwu, we look forward to deeper cooperation with the Philae branch, ensuring our trade and cultural exchanges continue to thrive.
-0036 [Ophir] | Thank goodness. Finally, some usable footage...
-0037 [Yunshu] | By the way, mind if I borrow your megaphone Artifact? I got separated from someone and need to find them.
-0038 [Jiyue] | I'm back! They don't even have boiled water here!
-0039 [Jiyue] | Can I draw a talisman and boil a pot myself?
-0040 [Tilia] | A-Are you sure I can speak for the Imperial Guard?!
-0041 [Tilia] | I'm Tilia, a squire transferred from Emor. It's an honor to help secure tonight's banquet...
-0042 [Tilia] | Wait, who's lighting a fire over there?!==W== Get away from that candle—!!
-0043 [Ophir] | Haha... Guess we're cutting that take too...
-0044 [Ophir] | I still don't have nearly enough footage. I'll have to shoot the rest during the banquet itself!==W== Time for a quick break.
-0045 [Ophir] | Whoa, sorry! I didn't see you standing there...
+0001 [Intro] | Acto cinco
+0002 [Intro] | Cerrando el cerco
+0003 [Intro] | El banquete está por comenzar. Los representantes ya se reunieron y los mercenarios de los Escorpiones del Desierto tomaron posiciones. Guiado por «Noya», te diriges al salón, pero de pronto sientes que algo anda mal.
+0004 [Lugar y hora] | 18:00, 5.º del mes de Venatio, Distrito de Plata de Philae, vestíbulo del hotel
+0005 [???] | Uf... Contrólate.
+0006 [???] | ¿Ya está grabando la cámara? ¡Vamos en vivo!
+0007 [Ophir] | ¡Buenas noches, querido público! Soy Ophir, su bruja reportera en el lugar de los hechos para Philae Express.
+0008 [Ophir] | Les transmitimos en vivo desde el tan esperado Banquete Empresarial de Philae.
+0009 [Ophir] | El evento principal arranca en una hora.
+0010 [Ophir] | ¡Ya están llegando representantes de las principales facciones y aquí se siente una energía eléctrica!
+0011 [Ophir] | ¡Vamos a atrapar a algunos de los primeros en llegar==W== para saber qué esperan de esta noche!
+0012 [Ophir] | ¡Oh! Aquí tenemos a la delegación del Imperio de la Gracia.==W== Disculpen, ¿les gustaría decir unas palabras sobre el banquete?
+0013 [Bastelina] | ¡Ay, perdón! Apenas empecé como pasante hace unos días.
+0014 [Bastelina] | Una entrevista formal le corresponde a nuestro personal de mayor rango...==W== ¿Verdad, Lady Laru?
+0015 [Laru] | ¡Au! ¡Cuidado con el codo!==W== Me hiciste tirar una papa frita...
+0016 [Bastelina] | Superiora Laru, esta noche usted representa al Imperio de la Gracia. La bruja está esperando su declaración.
+0017 [Laru] | Eh... ¿Declaración?==W== Las papas están decentes. Bien crujientes. Aunque les faltaría una pizca más de sal.
+0018 [Laru] | ¡Espera, no!==W== ¡Corten la transmisión, no saquen eso al aire!
+0019 [Laru] | ...Ejem.==W== En nombre del Imperio de la Gracia, le deseo el mayor de los éxitos a la reunión de esta noche.
+0020 [Bastelina] | ¿Eso...==W== es todo?
+0021 [Laru] | Menos es más, novata. En estos eventos oficiales hay que ser vaga para no meter la pata. Toma nota.
+0022 [Bastelina] | ¿Está improvisando, o de verdad es un genio...?
+0023 [Cosson] | ¿Una entrevista? Paso. No tengo nada que decir.
+0024 [Jayhawk] | Yo me encargo.==W== Jayhawk. Inspectora de Cosecha Unida.
+0025 [Ophir] | ¡Se lo agradezco!==W== La directora ejecutiva interina de la sucursal de Philae, la señorita Firenze, parece no estar presente esta noche...==W== ¿Puedo preguntar la razón?
+0026 [Jayhawk] | Sin comentarios.
+0027 [Ophir] | Pasemos a la pregunta que todos se hacen.==W== ¿Cuándo anunciará Cosecha Unida al próximo director ejecutivo de la sucursal de Philae?
+0028 [Jayhawk] | Sin comentarios.
+0029 [Jayhawk] | Los asuntos internos de Cosecha Unida son estrictamente confidenciales. Me metería en problemas si hablara de más.
+0030 [Jayhawk] | En cuanto a la difusión, si hay alguna desviación en sus futuros reportajes, usted será responsable.
+0031 [Ophir] | Qué intimidante...==W== Gracias por su tiempo. Es todo lo que quería preguntar.
+0032 [Meikyo] | ¡¿U-una entrevista?!==W== ¿Les molesta si le hacemos un poco de publicidad a nuestra empresa?==W== Ah, ¿no?==W== Bueno, está bien...
+0033 [Erinis] | Bueno, quien sea que ocupe el puesto de director ejecutivo,==W== ¡Finanzas del Mar Profundo siempre está a su disposición para sus necesidades de financiamiento!
+0034 [Yunshu] | Cangwu y Philae siempre han mantenido relaciones amistosas.
+0035 [Yunshu] | En nombre de Cangwu, esperamos una cooperación más profunda con la sucursal de Philae, para que nuestros intercambios comerciales y culturales sigan prosperando.
+0036 [Ophir] | Menos mal. Por fin, algo de material que sirve...
+0037 [Yunshu] | Por cierto, ¿me prestas tu Artefacto megáfono? Me separé de alguien y necesito encontrarla.
+0038 [Jiyue] | ¡Ya volví! ¡Aquí ni siquiera tienen agua hervida!
+0039 [Jiyue] | ¿Puedo dibujar un talismán y hervir una olla yo misma?
+0040 [Tilia] | ¡¿S-segura que puedo hablar en nombre de la Guardia Imperial?!
+0041 [Tilia] | Soy Tilia, una escudera transferida desde Emor. Es un honor ayudar a proteger el banquete de esta noche...
+0042 [Tilia] | Esperen, ¡¿quién está prendiendo fuego allá?!==W== ¡Aléjense de esa vela!
+0043 [Ophir] | Jaja... Parece que esa toma también la vamos a cortar...
+0044 [Ophir] | Todavía no tengo ni de cerca suficiente material. ¡Tendré que grabar el resto durante el banquete!==W== Hora de un descansito.
+0045 [Ophir] | ¡Uy, perdón! No me fijé que estaba ahí...
 0046 [???] | ...
-0047 [Ophir] | Wait, that uniform... You're with Omnisky Aegis, aren't you?
-0048 [Ophir] | I'm Ophir, field witch from Philae Express. Can I grab a quick inter—
+0047 [Ophir] | Espere, ese uniforme... Usted es de Omnisky Aegis, ¿verdad?
+0048 [Ophir] | Soy Ophir, bruja reportera de Philae Express. ¿Me daría una entrevista rápi...?
 0049 [???] | No.
-0050 [???] | Did you get me on camera? Delete it. Now.
-0051 [Ophir] | N-No! We haven't even started rolling...
-0052 [???] | Is that right...? You better not be lying. If I find out you are, things are gonna get ugly.
-0053 [Ophir] | I wouldn't dare! Understood. We'll get out of your hair right now. Excuse us!
-0054 [???] | Heh. Smart move.
-0055 [???] | Tch... All this hassle with a fake identity just to crash a banquet. That old geezer is paranoid as hell.
-0056 [The Voice] | If the Boss appears at the banquet as planned, it means the first assassin has failed.
-0057 [The Voice] | That is when you step in. You are the contingency plan—eliminate the Boss on sight.
-0058 [???] | Cleaning up someone else's mess? Talk about a waste of talent.
-0059 [The Voice] | Not at all.
-0060 [The Voice] | Hazana, I am designating you as the final failsafe precisely because I trust Desert Scorpion's capability.
-0061 [The Voice] | Get the job done, and the payout will feed your crew for years.
-0062 [Hazana] | Hmph. I don't give a damn about the Dorra...==W== Just let me raise some hell, and I'm in.
-0063 [Myrsha] | Myrsha reporting in, Captain!==W== Squads One, Two, and Three are all in position. Awaiting orders!
-0064 [Hazana] | Copy that. Any sign of the target?
-0065 [Myrsha] | Not yet. We've got teams sweeping every floor as we speak.
-0066 [Hazana] | And Otoha?
-0067 [Myrsha] | Nothing on her either...
-0068 [Myrsha] | Security's tighter than we expected. It's making it hard for us to move freely.
-0069 [Hazana] | Hmph. I'm sure that woman is behind this.
-0070 [Myrsha] | Last night, one of our squads was knocked out and left hanging in the greenhouse. It was definitely that woman's doing.
-0071 [Hazana] | Hmpf. Sneaky little rat—sooner or later I'll catch you red-handed.
-0072 [Hazana] | Whatever. These people will do. Hide well and stay sharp. Be ready to move at a moment's notice!
-0073 [Myrsha] | Roger!
-0074 [Myrsha] | Does everyone hear me clearly? Stay in position. As soon as the Boss appears, we'll move in.
-0075 [Desert Scorpion Grunts] | Copy that!
-0076 [Otoha] | ... Those Scorpions just won't give it a rest. It seems they're suspecting my presence as well.
-0077 [Otoha] | Can't have them ruin my fun with Boss...==W== Time for a change of pace.
-0078 [Lugar y hora] | 18:20, Venatio Month 5th, Silver District in Philae, Hotel Hallway
-0079 [Tú] | I've got the speech down.==W== No problem. I can do it... I got this.
-0080 [Noya] | There you are, ==PLAYER_NAME==! I've been waiting forever!
-0081 [Tú] | Sorry to keep you waiting. I was just doing one last check on my script.
-0082 [Tú] | You're alone? Where are Amber and Iris?
-0083 [Noya] | They got roped into helping at the venue. It's packed. I even heard that a Scarlet Sights witch is running around doing interviews.
-0084 [Noya] | I could look at you in that formal wear all day, ==PLAYER_NAME==. It never gets old!
-0085 [1] | Personally, I'd be happy if I never had to put this on again...
-0086 [1] | I'd much rather go on adventures and make wishes in the Monolith than be at a glittering event like this.
-0087 [Noya] | Life's not so bad right now. Besides, you don't get unlimited free Pep Pep Juice inside the Monolith.
+0050 [???] | ¿Me grabaste? Bórralo. Ya.
+0051 [Ophir] | ¡N-no! Ni siquiera hemos empezado a grabar...
+0052 [???] | ¿Ah, sí...? Más te vale no estar mintiendo. Si descubro que sí, las cosas se van a poner feas.
+0053 [Ophir] | ¡No me atrevería! Entendido. Ya mismo dejamos de molestar. ¡Con permiso!
+0054 [???] | Je. Buena decisión.
+0055 [???] | Tsk... Tanta molestia con una identidad falsa solo para colarse a un banquete. Ese viejo es paranoico a más no poder.
+0056 [The Voice] | Si el Jefe aparece en el banquete como estaba previsto, significa que el primer asesino falló.
+0057 [The Voice] | Ahí es cuando entras tú. Eres el plan de contingencia: elimina al Jefe en cuanto lo veas.
+0058 [???] | ¿Limpiar el desastre de otro? Qué desperdicio de talento.
+0059 [The Voice] | Para nada.
+0060 [The Voice] | Hazana, te designo como último recurso justamente porque confío en la capacidad de los Escorpiones del Desierto.
+0061 [The Voice] | Haz el trabajo, y la paga alimentará a tu gente durante años.
+0062 [Hazana] | Hmph. Me importan un comino los Dorra...==W== Con tal de que me dejes armar un buen alboroto, acepto.
+0063 [Myrsha] | ¡Myrsha reportándose, Capitana!==W== Los escuadrones uno, dos y tres están en posición. ¡Esperando órdenes!
+0064 [Hazana] | Entendido. ¿Alguna señal del objetivo?
+0065 [Myrsha] | Todavía no. Tenemos equipos revisando cada piso en este momento.
+0066 [Hazana] | ¿Y Otoha?
+0067 [Myrsha] | Tampoco hay rastro de ella...
+0068 [Myrsha] | La seguridad es más estricta de lo que esperábamos. Nos cuesta movernos con libertad.
+0069 [Hazana] | Hmph. Seguro que esa mujer está detrás de esto.
+0070 [Myrsha] | Anoche dejaron inconsciente a uno de nuestros escuadrones y lo colgaron en el invernadero. Sin duda fue obra de esa mujer.
+0071 [Hazana] | Hmpf. Rata escurridiza... tarde o temprano te voy a atrapar con las manos en la masa.
+0072 [Hazana] | Como sea. Esta gente servirá. Escóndanse bien y manténganse alerta. ¡Estén listos para moverse en cualquier momento!
+0073 [Myrsha] | ¡Entendido!
+0074 [Myrsha] | ¿Todos me escuchan bien? Manténganse en posición. En cuanto aparezca el Jefe, entramos en acción.
+0075 [Desert Scorpion Grunts] | ¡Entendido!
+0076 [Otoha] | ...Esos Escorpiones no se dan por vencidos. Parece que también sospechan de mi presencia.
+0077 [Otoha] | No puedo dejar que arruinen mi diversión con el Jefe...==W== Hora de cambiar de ritmo.
+0078 [Lugar y hora] | 18:20, 5.º del mes de Venatio, Distrito de Plata de Philae, pasillo del hotel
+0079 [Tú] | Ya me sé el discurso.==W== No hay problema. Puedo hacerlo... Yo puedo.
+0080 [Noya] | ¡Ahí estás, ==PLAYER_NAME==! ¡Llevo siglos esperándote!
+0081 [Tú] | Perdón por la espera. Estaba dándole una última revisada a mi guion.
+0082 [Tú] | ¿Vienes sola? ¿Dónde están Amber e Iris?
+0083 [Noya] | Las pusieron a ayudar en el salón. Está a reventar. Hasta oí que una bruja de Scarlet Sights anda por ahí haciendo entrevistas.
+0084 [Noya] | Podría verte con ese traje formal todo el día, ==PLAYER_NAME==. ¡Nunca me cansa!
+0085 [1] | Yo, por mi parte, sería feliz si nunca más tuviera que ponerme esto...
+0086 [1] | Prefiero mil veces ir de aventura y pedir deseos en el Monolito que estar en un evento de gala como este.
+0087 [Noya] | La vida ahora no está tan mal. Además, dentro del Monolito no hay Pep Pep Juice gratis e ilimitado.
 0088 [Tú] | ...
-0089 [Noya] | Why'd you stop?
-0090 [Tú] | You aren't Noya.
-0091 [Noya] | Huh?
-0092 [Tú] | Who are you? And what have you done with her?
-0093 [Noya] | What are you talking about? You're not making any sense.
-0094 [Tú] | Noya lives for the climb. She'd never settle for a quiet life just because the drinks are free.
-0095 [Tú] | She prefers the Pep Pep Juice we earn ourselves from the Wishing Box.
-0096 [Tú] | Looking closely, your grip on the sword is very stiff; you don't look like someone who's used to wielding a sword.
-0097 [Noya] | My, my... Spotted already?==W== You have quite the sharp eye. You really do pay attention to your friends.
-0098 [Noya] | Well then... Sorry for you, Boss.
-0099 [Tú] | Th-This scent... You're—
-0100 [Narración] | Otoha!
+0089 [Noya] | ¿Por qué te detuviste?
+0090 [Tú] | Tú no eres Noya.
+0091 [Noya] | ¿Eh?
+0092 [Tú] | ¿Quién eres? ¿Y qué le hiciste a ella?
+0093 [Noya] | ¿De qué hablas? No tiene ningún sentido lo que dices.
+0094 [Tú] | Noya vive para escalar. Jamás se conformaría con una vida tranquila solo porque las bebidas son gratis.
+0095 [Tú] | Ella prefiere el Pep Pep Juice que nos ganamos nosotros mismos en la Caja de Deseos.
+0096 [Tú] | Y si me fijo bien, agarras la espada con mucha rigidez; no pareces alguien acostumbrada a blandir una espada.
+0097 [Noya] | Vaya, vaya... ¿Ya me descubriste?==W== Tienes muy buen ojo. De verdad prestas atención a tus amigos.
+0098 [Noya] | Bueno, entonces... Lo siento por ti, Jefe.
+0099 [Tú] | E-este aroma... Tú eres...
+0100 [Narración] | ¡Otoha!

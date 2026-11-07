@@ -1,13 +1,13 @@
-# Capítulo 5 · Una chispa en la oscuridad · Final: Intelligent Plants
+# Capítulo 5 · Una chispa en la oscuridad · Final: Plantas Inteligentes
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Bernina & Virigia | Bernina & Virigia
-N:Colossal Intelligent Plant | Colossal Intelligent Plant
-N:Serious Intelligent Plant | Serious Intelligent Plant
+N:Bernina & Virigia | Bernina y Virigia
+N:Colossal Intelligent Plant | Planta Inteligente colosal
+N:Serious Intelligent Plant | Planta Inteligente seria
 N:avg1_135 | Mistique
-N:avg2_958 | Weed Brawler
+N:avg2_958 | Hierbajo Peleador
 N:avg3_100 | Sylar
 N:avg3_134 | Mina
 N:avg3_173 | Bernina
@@ -17,92 +17,92 @@ N:avg3_999 | ???
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | The End
-0002 [Intro] | Intelligent Plants
-0003 [Intro] | Venturing alone into the underground lab, you discover the Intelligent Plants and find out about United Harvest's investigation of the orphanage. Unfortunately, Lady Gray ambushes you with a club and poison.
-0004 [Lugar y hora] | 22:15, Messis Month 4th, Greenhouse District, Philae, Greenhouse No.100
-0005 [Tú] | You two stay safe. Don't do anything reckless. Make contact if anything comes up.
-0006 [Mistique] | Stick close, Mina. If things get dicey, I'll protect you.
-0007 [Mina] | No need. I have to contact Noya and HQ. I'm staying right here.
-0008 [Mistique] | Alone? That's dangerous! What if you get ambushed? Besides, if you don't come with me, I might just start snapping photos of all these juicy secrets.
-0009 [Mistique] | If you leave me unsupervised, you don't get to complain about what ends up on my camera roll later.
-0010 [Mina] | Ugh...==W== Fine! I'll go with you, happy?!
-0011 [Mistique] | Uh-huh. And let's say this squares us for you blocking that Intelligent Plant earlier ★
-0012 [Mina] | Let's get one thing straight: you are not taking a single picture while I'm around.
-0013 [Mistique] | Relax. I'll just snap away when you aren't looking.
-0014 [Mina] | Mistique!!!
-0015 [Tú] | Probably best to give them some space. They'll clear the air soon enough.
-0016 [Tú] | At the end of the day, their methods might differ, but they share the same goal.
-0017 [Mistique] | Boss, we're heading out. Watch your back when investigating on your own.
-0018 [Tú] | Don't worry. Magic can't hurt me.
-0019 [Mistique] | But the enemy might have other tricks up their sleeves besides magic...==W== Here, give me your pinky.
-0020 [Narración] | Mistique hooks her pinky finger around mine.
-0021 [Mistique] | It's a pinky promise. Back when I was chasing dangerous leads, a trusted witch colleague and I had this little ritual before I left.
-0022 [Mistique] | Listen to me. Don't play the hero. Come back in one piece... Promise?
-0023 [Mistique] | I still have your exclusive to write. Give me enough material, and maybe I'll turn it into a biography.
-0024 [Tú] | Deal. Let's regroup here when the investigation's done.
-0025 [Narración] | Our fingers tighten—a silent pact—before we nod to one another.
-0026 [Lugar y hora] | 22:30, Messis Month 4th, Greenhouse District in Philae, Underground Lab
+0001 [Intro] | Fin
+0002 [Intro] | Plantas Inteligentes
+0003 [Intro] | Al adentrarte solo en el laboratorio subterráneo, descubres las Plantas Inteligentes y te enteras de la investigación de Cosecha Unida sobre el orfanato. Por desgracia, Lady Gray te embosca con un garrote y veneno.
+0004 [Lugar y hora] | 22:15, 4.º del mes de Messis, Distrito Invernadero de Philae, Invernadero n.º 100
+0005 [Tú] | Ustedes dos cuídense. No hagan nada imprudente. Avísenme si pasa cualquier cosa.
+0006 [Mistique] | No te separes de mí, Mina. Si las cosas se ponen feas, yo te protejo.
+0007 [Mina] | No hace falta. Tengo que contactar a Noya y a la sede. Me quedo aquí mismo.
+0008 [Mistique] | ¿Sola? ¡Es peligroso! ¿Y si te emboscan? Además, si no vienes conmigo, a lo mejor me pongo a tomarles fotos a todos estos secretos tan jugosos.
+0009 [Mistique] | Si me dejas sin supervisión, luego no te quejes de lo que termine en mi galería.
+0010 [Mina] | Ugh...==W== ¡Está bien! Voy contigo, ¡¿contenta?!
+0011 [Mistique] | Ajá. Y digamos que con esto quedamos a mano por lo de que me cubriste de esa Planta Inteligente hace rato ★
+0012 [Mina] | Que quede clara una cosa: no vas a tomar ni una sola foto mientras yo esté presente.
+0013 [Mistique] | Tranquila. Las tomaré cuando no estés viendo.
+0014 [Mina] | ¡¡¡Mistique!!!
+0015 [Tú] | Mejor les doy su espacio. Pronto van a limar asperezas.
+0016 [Tú] | Al final del día, puede que sus métodos sean distintos, pero comparten el mismo objetivo.
+0017 [Mistique] | Jefe, ya nos vamos. Cuídate la espalda mientras investigas solo.
+0018 [Tú] | No te preocupes. La magia no me hace daño.
+0019 [Mistique] | Pero el enemigo podría tener otros trucos bajo la manga aparte de la magia...==W== A ver, dame tu meñique.
+0020 [Narración] | Mistique engancha su meñique con el mío.
+0021 [Mistique] | Es una promesa de meñique. Cuando perseguía pistas peligrosas, una colega bruja de confianza y yo teníamos este pequeño ritual antes de que me fuera.
+0022 [Mistique] | Escúchame. No te hagas el héroe. Regresa entero... ¿Lo prometes?
+0023 [Mistique] | Todavía tengo que escribir tu exclusiva. Si me das suficiente material, a lo mejor la convierto en una biografía.
+0024 [Tú] | Trato hecho. Nos reunimos aquí cuando terminemos de investigar.
+0025 [Narración] | Nuestros dedos se aprietan, un pacto silencioso, antes de asentir el uno al otro.
+0026 [Lugar y hora] | 22:30, 4.º del mes de Messis, Distrito Invernadero de Philae, laboratorio subterráneo
 0027 [Colossal Intelligent Plant] | ...
-0028 [Tú] | Is it ... looking at me?==W== Does it know it's a prisoner in a tank? A lab rat?
-0029 [Tú] | What is United Harvest's actual endgame with these Intelligent Plants?
-0030 [Tú] | If they just needed heavy labor for hazardous work,==W== the Mandrake Radiant Grass should suffice.
-0031 [Tú] | Sir Joseph said these are "Gen-2." Does that imply the Mandrake Radiant Grass was built for something else entirely?
+0028 [Tú] | ¿Me... está mirando?==W== ¿Sabrá que es prisionera en un tanque? ¿Un conejillo de Indias?
+0029 [Tú] | ¿Qué es lo que realmente busca Cosecha Unida con estas Plantas Inteligentes?
+0030 [Tú] | Si solo necesitaran mano de obra pesada para trabajos peligrosos,==W== la Hierba Radiante Mandrágora debería bastar.
+0031 [Tú] | Sir Joseph dijo que estas son de «2.ª generación». ¿Eso significa que la Hierba Radiante Mandrágora se creó para algo totalmente distinto?
 0032 [Colossal Intelligent Plant] | ...
-0033 [Tú] | Phew... Stop overthinking. Focus on finding leads on the orphanage.
-0034 [Tú] | If the staff catch me down here, it's game over.
-0035 [Lugar y hora] | 22:50, Messis Month 4th, Greenhouse District, Philae, Underground Lab
-0036 [Tú] | Year 996 Arms Budget, Intelligent Plant Combat Standards: Version 3, Philae Topography Map...
-0037 [Tú] | Why are they military-focused? Isn't United Harvest an agriculture and food company?
-0038 [Tú] | Doubt I'll find orphanage records in this cabinet. Time to look deeper in.
-0039 [???] | Eep!
-0040 [Tú] | Did I just hear something behind the cabinet?
-0041 [Narración] | I circle around the cabinet and look toward the source of the sound.
-0042 [Tú] | An Intelligent Plant ... typing?!
-0043 [Serious Intelligent Plant] | Wee! Weeeeee!
-0044 [Tú] | It's attacking!==W== Hey, back off! Come any closer, and I'll pluck you bald!
-0045 [Serious Intelligent Plant] | Ee-ooo?
-0046 [Tú] | Wait, not attacking. Is it just mad I interrupted its work?
-0047 [Serious Intelligent Plant] | Eek—!
-0048 [Narración] | The Intelligent Plant tapped a vine impatiently, then turned its eyes back to the document.
-0049 [Tú] | Talk about work ethic... Never thought I'd see the day I'd get the cold shoulder from a plant.
-0050 [Tú] | Wait. If it's organizing these, maybe it knows where my file is.
-0051 [Tú] | Hi, sorry to interrupt, but I have a quick question...
-0052 [Serious Intelligent Plant] | Woo?
-0053 [Tú] | I get it, I get it. Just answer this one thing, and I'll vanish from your sight.
-0054 [Tú] | I'm looking for a file on an orphanage in Emor's Ash District. Ring any bells?
-0055 [Serious Intelligent Plant] | Ee-ooo, ee-ooo!
-0056 [Narración] | Visibly annoyed, the Intelligent Plant waves a vine and fishes out a document.
-0057 [Tú] | I-Is this it? Great, thanks.
-0058 [Tú] | This is ... a report on United Harvest's investigation of the orphanage two years ago.
-0059 [Tú] | Team leader: Firenze. Target…==W== The ancient relic beneath the orphanage.
-0060 [Tú] | An ancient relic? What exactly did they do in the orphanage, and where are the children? And Aunt Allie?
-0061 [Narración] | Your little game ends here, Boss.
-0062 [Tú] | Gh—!
-0063 [Tú] | Ouch... I... I've been ambushed.
-0064 [???] | Heh. Impressive... To think someone as helpless as you actually made it this far.
-0065 [Tú] | You...==W== Lady Gray.
-0066 [Tú] | I should have known. Sir Joseph's mercenaries...==W== They work for you.
-0067 [Lady Gray] | Pleasure to meet you, Boss. And—==W==farewell.==W== Don't take it personally. You brought this on yourself when you went running to Firenze.
-0068 [Lady Gray] | Thanks to you, the master gave me quite an earful... I suffered for it.==W== So, I'm turning you into the master's absolute favorite thing. You ought to thank me.
-0069 [Narración] | As my consciousness fades, I feel a hand yanking my head back.
-0070 [Lady Gray] | Let's test this—a new magical compound, fresh from the company labs.
-0071 [Narración] | Icy fluid floods my mouth, plunging my mind into endless darkness.
-0072 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
-0073 [Bernina & Virigia] | Welcome back, dear Tyrant.
-0074 [Bernina] | Oh my, how tragic. You were inches from the truth about the orphanage, only to get whacked from behind with a pipe.
+0033 [Tú] | Uf... Deja de darle tantas vueltas. Concéntrate en encontrar pistas sobre el orfanato.
+0034 [Tú] | Si el personal me descubre aquí abajo, se acabó.
+0035 [Lugar y hora] | 22:50, 4.º del mes de Messis, Distrito Invernadero de Philae, laboratorio subterráneo
+0036 [Tú] | «Presupuesto de armamento del año 996», «Estándares de combate de Plantas Inteligentes: versión 3», «Mapa topográfico de Philae»...
+0037 [Tú] | ¿Por qué todo es militar? ¿Cosecha Unida no es una empresa agrícola y de alimentos?
+0038 [Tú] | Dudo que encuentre los registros del orfanato en este archivero. Hora de buscar más adentro.
+0039 [???] | ¡Iik!
+0040 [Tú] | ¿Acabo de oír algo detrás del archivero?
+0041 [Narración] | Rodeo el archivero y miro hacia el origen del sonido.
+0042 [Tú] | ¡¿Una Planta Inteligente... escribiendo a máquina?!
+0043 [Serious Intelligent Plant] | ¡Uii! ¡Uiiiiii!
+0044 [Tú] | ¡Me está atacando!==W== ¡Oye, atrás! ¡Si te acercas más, te dejo pelona!
+0045 [Serious Intelligent Plant] | ¿Ii-uuu?
+0046 [Tú] | Espera, no me está atacando. ¿Solo está enojada porque interrumpí su trabajo?
+0047 [Serious Intelligent Plant] | ¡Iiik...!
+0048 [Narración] | La Planta Inteligente dio unos golpecitos impacientes con una enredadera y volvió a fijar los ojos en el documento.
+0049 [Tú] | Eso sí es ética laboral... Nunca pensé que llegaría el día en que una planta me ignorara.
+0050 [Tú] | Un momento. Si está organizando esto, quizá sepa dónde está mi expediente.
+0051 [Tú] | Hola, perdón por interrumpir, pero tengo una pregunta rápida...
+0052 [Serious Intelligent Plant] | ¿Uuu?
+0053 [Tú] | Ya entendí, ya entendí. Solo contéstame esto y desaparezco de tu vista.
+0054 [Tú] | Busco un expediente sobre un orfanato del Distrito de las Cenizas de Emor. ¿Te suena?
+0055 [Serious Intelligent Plant] | ¡Ii-uuu, ii-uuu!
+0056 [Narración] | Visiblemente fastidiada, la Planta Inteligente agita una enredadera y saca un documento.
+0057 [Tú] | ¿E-es este? Genial, gracias.
+0058 [Tú] | Esto es... un informe de la investigación de Cosecha Unida sobre el orfanato de hace dos años.
+0059 [Tú] | Líder del equipo: Firenze. Objetivo…==W== La reliquia antigua bajo el orfanato.
+0060 [Tú] | ¿Una reliquia antigua? ¿Qué hicieron exactamente en el orfanato y dónde están los niños? ¿Y la tía Allie?
+0061 [Narración] | Tu jueguito termina aquí, Jefe.
+0062 [Tú] | ¡Gh...!
+0063 [Tú] | Ay... Me... me emboscaron.
+0064 [???] | Je. Impresionante... Pensar que alguien tan indefenso como tú haya llegado tan lejos.
+0065 [Tú] | Tú...==W== Lady Gray.
+0066 [Tú] | Debí saberlo. Los mercenarios de Sir Joseph...==W== trabajan para ti.
+0067 [Lady Gray] | Un placer conocerte, Jefe. Y...==W== adiós.==W== No te lo tomes personal. Tú solito te lo buscaste cuando fuiste corriendo con Firenze.
+0068 [Lady Gray] | Gracias a ti, el Maestro me dio una buena regañada... Lo pagué caro.==W== Así que te voy a convertir en la cosa favorita del Maestro. Deberías agradecérmelo.
+0069 [Narración] | Mientras pierdo el conocimiento, siento una mano que me jala la cabeza hacia atrás.
+0070 [Lady Gray] | Probemos esto: un nuevo compuesto mágico, recién salido de los laboratorios de la empresa.
+0071 [Narración] | Un líquido helado me inunda la boca y hunde mi mente en una oscuridad infinita.
+0072 [Lugar y hora] | ??:??, ?.º del mes de ?, ????, Sala Blanca
+0073 [Bernina & Virigia] | Bienvenido de vuelta, estimado Tirano.
+0074 [Bernina] | Ay, qué trágico. Estaba a centímetros de la verdad sobre el orfanato, y le dieron un tubazo por la espalda.
 0075 [Tú] | ...
-0076 [Tú] | What exactly did Lady Gray feed me? I thought I was immune to magic. How did a potion kill me?
-0077 [Virigia] | A valid point. Observe—
-0078 [Virigia] | That compound is designed to turn humans into vegetation. Naturally, it had no effect on you.
-0079 [Bernina] | Such a shame. If you'd turned, I could've kept a cute little Tyrant Sprout on my nightstand. Greet you every morning!
-0080 [Virigia] | Bernina, Tyrant isn't your exclusive property. ==SEX1== should be in the middle of our bed.
-0081 [Virigia] | Regardless, the potion didn't kill you. You had an acute subdural hematoma caused by blunt force trauma, leading to your unfortunate demise.
-0082 [Virigia] | Might I suggest a helmet next time you read confidential files?
-0083 [Tú] | Not sure I follow their logic... But hitting the lab alone is definitely a no-go.
-0084 [Tú] | Dying wasn't a total waste, though. I know the file's there. Just need an opening to grab it.
-0085 [Tú] | Vita, open the door.
-0086 [Vita] | Your command is my will.
-0087 [Tú] | This is ... right when we entered Greenhouse No.100.
-0088 [Vita] | Dear Tyrant, feel free to place me on your head. I would serve as quite an effective helmet.
-0089 [Tú] | And get you smashed to pieces?!==W== I don't need a helmet. This time, I'm steering clear of the lab entirely!
+0076 [Tú] | ¿Qué fue exactamente lo que me dio Lady Gray? Creí que era inmune a la magia. ¿Cómo me mató una poción?
+0077 [Virigia] | Buena pregunta. Observe...
+0078 [Virigia] | Ese compuesto está diseñado para convertir a los humanos en plantas. Naturalmente, no le hizo ningún efecto.
+0079 [Bernina] | Qué lástima. Si se hubiera convertido, podría haber tenido un lindo brotecito de Tirano en mi buró. ¡Para saludarlo cada mañana!
+0080 [Virigia] | Bernina, el Tirano no es de tu propiedad exclusiva. ==SEX1== debería estar en medio de nuestra cama.
+0081 [Virigia] | En cualquier caso, la poción no lo mató. Sufrió un hematoma subdural agudo provocado por un traumatismo contundente, lo que causó su lamentable fallecimiento.
+0082 [Virigia] | ¿Me permite sugerirle un casco la próxima vez que lea archivos confidenciales?
+0083 [Tú] | No sé si entiendo su lógica... Pero meterme solo al laboratorio definitivamente no es opción.
+0084 [Tú] | Aunque morir no fue un desperdicio total. Ya sé que el expediente está ahí. Solo necesito una oportunidad para tomarlo.
+0085 [Tú] | Vita, abre la puerta.
+0086 [Vita] | Su orden es mi voluntad.
+0087 [Tú] | Esto es... justo cuando entramos al Invernadero n.º 100.
+0088 [Vita] | Estimado Tirano, siéntase libre de ponerme en su cabeza. Sería un casco bastante eficaz.
+0089 [Tú] | ¡¿Y que te hagan pedazos?!==W== No necesito casco. ¡Esta vez me voy a mantener lejos del laboratorio!

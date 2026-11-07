@@ -1,9 +1,9 @@
-# Capítulo 4 · Más allá del sueño · 10 · Under the Monolith
+# Capítulo 4 · Más allá del sueño · 10 · Bajo el Monolito
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Apologetic Trekker | Apologetic Trekker
+N:Apologetic Trekker | Trekker arrepentido
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -11,150 +11,150 @@ N:avg1_133 | Nazuka
 N:avg1_134 | Fuyuka
 N:avg1_135 | Mistique
 N:avg1_156 | Nazuna
-N:avg2_976 | Associated Tree
+N:avg2_976 | Árbol Asociado
 N:avg2_984 | Soldado Trekker
 N:avg3_100 | Sylar
 N:avg3_132 | Kaede
 
 ## Texto
-0001 [Intro] | Act Ten
-0002 [Intro] | Under the Monolith
-0003 [Intro] | After defeating Garden of Parasite, Nazuka and you venture alone into the forest. Under the pure white Monolith, Nazuka repeats her wish—I hope that from now on, you'll always, always be by my side.
-0004 [Lugar y hora] | 18:00, Tonitrua Month 6th, Outside Philae, Forest Edge
-0005 [Nazuka] | It's over...
-0006 [Fuyuka] | The Garden of Parasite is just ... ash now.
-0007 [Nazuna] | This is what happens when a monster loses all its magic... Does that mean ... we won?
-0008 [Kaede] | We won. We've defeated all of the Big Three. The path to the Monolith is clear again.
-0009 [Nazuna] | Ahaha... I can't believe we actually did it... It just feels unreal.
-0010 [Nazuna] | I should be happy, but ...==W== why do I feel so empty? It feels like I suddenly lost my life's purpose.
-0011 [Nazuka] | Why do you sound like some world-weary old lady who's seen it all?
-0012 [Nazuna] | Hey, you're as old as me!==W== So tell me, Granny Nazuka, how are your joints holding up?
-0013 [Nazuka] | Hah? You're asking for a fight, aren't you?
-0014 [Nazuna] | You started it!
-0015 [Noya] | Hey—==PLAYER_NAME==! Everyone from Petal Bloom!
-0016 [Tú] | Oh, sounds like Noya and the others are here.
-0017 [Noya] | We were busy fighting off the vines and the mist-crazed monsters when suddenly, everything stopped. The vines withered, and the monsters went quiet. We figured ... you must have succeeded.
-0018 [Amber] | Well done.
-0019 [Iris] | You really saved us, in more ways than one.==W== Any longer and those vines would have completely shredded my clothes.
-0020 [Kaede] | We owe our thanks to you, too. We couldn't have faced the Garden of Parasite without you clearing the vines. This victory belongs to all of us.
-0021 [Mistique] | I've captured all your heroic struggles on camera!==W== Once I release these images—with a little of this witch's special touch, of course—every Trekker will know you were framed.
-0022 [Nazuna] | Nazuka, did you hear that? The rumors can't spread anymore. You don't have to worry...
-0023 [Nazuna] | Huh? Where'd Nazuka go? Nazuka—?!
-0024 [Fuyuka] | Nazuka senpai flew off with Master. She said the Monolith in the forest must be crawling with Stellaroids since no one's been there, so she went ahead to clear them out.
-0025 [Nazuna] | We just finished fighting the Garden of Parasite! Can't she sit still for five minutes?==W== Hey, wait a sec!==W== Why did Boss go with her?!
-0026 [Lugar y hora] | 19:00, Tonitrua Month 6th, Outside Philae, Deep in the Forest
-0027 [Tú] | Nazuka, are you sure it's okay for us to just run off like this?
-0028 [Nazuka] | Don't worry. With the Garden of Parasite destroyed, those frenzied monsters should calm down, too. Even if everyone's exhausted, Nazuna and the others can handle whatever comes.
-0029 [Tú] | That's not my main concern...==W== Well, okay, I am a little worried. But my point is...
-0030 [Tú] | Shouldn't we have told everyone? They're going to be worried when they realize we're gone.
-0031 [Nazuka] | Oh, that? Don't worry about it. I asked Fuyuka to pass on a message for us.
-0032 [Nazuka] | Besides, months' worth of Stellaroids have probably built up in the Monolith. We need to go clear them out.
-0033 [Nazuka] | And of course, I cooked up an excuse for you—you're "evaluating the new hire's job performance." Feel better now?
-0034 [Tú] | "The new hire"...==W== So you do remember. While you were trapped in that illusion, I made a soul trade with you. Anyone who does so automatically becomes an employee of the Boss Accord.
-0035 [Tú] | So you heard everything I said back then?
-0036 [Nazuka] | To be precise... I couldn't make out a word you were saying. The magic mist completely blocked my mind from the real world. All I could see and hear were illusions.
-0037 [Tú] | But.. You still managed to make a wish.
-0038 [Nazuka] | Because, even though I couldn't clearly hear what you were saying, I felt like you wanted me to say something.
-0039 [Nazuka] | It's not often you get a chance to just speak your mind. As a result, it happened to align exactly with what you intended.
-0040 [Nazuka] | That just proved we are on the same page~
-0041 [Tú] | I know, but ... I'm still sorry you had to agree to a soul trade unknowingly.
-0042 [Tú] | You made a wish, and that sealed the deal. I shall make it happen with my life as collateral. Your soul will be temporarily entrusted to my keeping, and become my permanent possession after your wish comes true.
-0043 [Nazuka] | I told you, it's fine. Really.==W== In fact, I'm the one who should be thanking you.
-0044 [Nazuka] | Whether it was back in that hole when I was ready to give up...
-0045 [Nazuka] | ... or when I was heartbroken and alone in the cold rain...
-0046 [Nazuka] | ... or even this time, trapped in that beautiful dream the mist created...
-0047 [Nazuka] | Boss, you've saved me three times now.==W== I know it sounds dramatic, but each time I felt like I was reborn.
-0048 [Nazuka] | When you look at it that way, maybe ... my soul was already entrusted to you from the start.
-0049 [Tú] | You're giving me too much credit. You've saved me plenty of times, too.
-0050 [Nazuka] | It's okay. Feelings like this are subjective, you know?
-0051 [Nazuka] | Ah, but ... while I have no problem entrusting my soul to you, there is one little thing that's stuck in my mind...
-0052 [Tú] | And that is...?
-0053 [Nazuka] | Mhmm. It's the reason we're here.==W== Shh, don't startle them. Follow me.
-0054 [Narración] | The air is thick with the scent of damp earth and leaves. The quiet forest feels like a dark labyrinth.
-0055 [Narración] | I follow Nazuka, my footsteps light on the mossy path as we move through dense thickets that rustle in the wind.
-0056 [Nazuka] | Here we are.
-0057 [Opción] | How beautiful! There's the Monolith, with the light dancing.
-0058 [Nazuka] | Every year around this time, lightbugs brimming with magic gather here and fly towards the Monolith. So—
-0059 [Nazuka] | It is said that when you make a wish here, the lightbugs will carry it to the Monolith. Even if the wish remains unfulfilled, it will be forever etched there.
-0060 [Nazuka] | Before the Big Three appeared and brought disaster, this was Philae's finest place for making wishes.
-0061 [Nazuka] | That's why, Boss... I was hoping we could perform the soul trading again, right here.
-0062 [Nazuka] | Don't get the wrong idea—I don't mean anything else. After all, a soul can only be "sold" once in a lifetime, right? And such a crucial contract was made in a daze, all thanks to that meddling mist...
-0063 [Nazuka] | It's just not fair.
-0064 [Opción] | I see.
-0065 [Opción] | So you want to perform the trade again here, to have your wish engraved in the Monolith?
-0066 [Nazuka] | Well... not exactly. After all, that's just a tale.
-0067 [Nazuka] | Besides, it was you who told me that wishes are things you make happen with your own hands.
-0068 [Nazuka] | I chose this location simply because it's the first fully-explored Monolith in Philae that reliably grants Artifacts through wishes.
-0069 [Nazuka] | I've scoured every history book in Philae, but I could never find which Trekker first charted it. Maybe it was a tale, too. But thinking about it now... What if it was the One-Armed Saint?
-0070 [Opción] | Heh, that's a fascinating theory.
-0071 [Opción] | If it's true, that would mean the Saint wasn't a work of fiction.
-0072 [Opción] | The legend could be real after all.
-0073 [Nazuka] | That's right. Speaking of which... You know, Boss, in the illusion created by the Garden of Parasite... I saw a happy future.
-0074 [Nazuka] | Nazuna's wish, Kaede's wish, Fuyuka's wish ... even mine. They all came true. We were living a warm and peaceful life.
-0075 [Nazuka] | If that's truly the future I had always longed for... Then I really am greedy.
-0076 [Nazuka] | Right, Boss, do you know? It was you who made me realize that it was nothing more than a dream.
-0077 [Opción] | Me? What did I do?
-0078 [Nazuka] | Hehe. You didn't do anything at all.
-0079 [Nazuka] | You just ... weren't in that future.
-0080 [Nazuka] | But even without you, we unconsciously left an empty space. For you.
-0081 [Opción] | It's probably because of my immunity to magic...
-0082 [Opción] | ... that Garden of Parasite couldn't create a mimic.
-0083 [Nazuka] | That makes sense... Alright, Boss. Shall we begin the soul trade now?
-0084 [Tú] | Of course.==W== Then, please state your wish—
-0085 [Nazuka] | Boss, hear my wish.
-0086 [Nazuka] | I hope that from now on, you'll always, always be by my side.
-0087 [Opción] | I accept your wish.
-0088 [Nazuka] | And when that wish comes true...
-0089 [Narración] | My soul will be yours to keep.
-0090 [Opción] | It's over.
-0091 [Opción] | Still, don't you wanna make a grander wish?
-0092 [Opción] | I'll help you fulfill it together.
-0093 [Nazuka] | No, that's not necessary.
-0094 [Nazuka] | The only wish I want to come true is this one.
-0095 [Nazuka] | There. Thank you. No more regrets. I feel so much lighter. Come on, Boss, let's head for the Monolith.
-0096 [Tú] | Right.
-0097 [Tú] | Is that a monster?
-0098 [Nazuka] | Boss, get behind me. I'll take care of it.
-0099 [Fuyuka] | Oof!
-0100 [Tú] | Fuyuka? What are you doing here? Wait... Don't tell me...
-0101 [Fuyuka] | Ow, don't push... U-Um... Master! I-I'm so sorry! There's a reason for this...!
-0102 [Nazuna] | Nazuka! You were trying to sneak off without us?!
-0103 [Nazuka] | ... I should have known this would happen.
-0104 [Noya] | Yo, ==PLAYER_NAME==! You're going to hunt Stellaroids, and you didn't even invite us?
-0105 [Iris] | Forget about the Stellaroids for a second—a Monolith that hasn't seen a wish in ages could create brand-new types of Artifacts! Come on, Boss, this is a huge opportunity for the New Star Guild!
-0106 [Amber] | Boss... You just left without sending me a message. You broke your promise.
-0107 [Tú] | Whoa, hold on! Everyone, please, one at a time...!
-0108 [Kaede] | Heh. Sorry, Nazuka. I tried to hold them back, but they insisted on coming.
-0109 [Fuyuka] | I really thought we shouldn't bother you... I'm so, so sorry!
-0110 [Nazuna] | Hey! You two are so slick! Stop making me look like the only bad guy here!
-0111 [Nazuka] | Oh, girls... Honestly.
-0112 [Nazuka] | This is ... really nice. It's only now that I truly feel like I'm back with Petal Bloom.
-0113 [Narración] | One week later.
-0114 [Lugar y hora] | 10:00, Tonitrua Month 13th, Outside Philae, Trekker Camp
-0115 [Nazuna] | Ah, what a beautiful day!==W== Maybe I should let my buddies get some sun.
-0116 [Apologetic Trekker] | Nazuna, I'm so sorry about what happened. I was too quick to believe those rumors and too quick to accuse.
-0117 [Nazuna] | Hey, don't worry about it. It's all in the past. It wasn't your fault—blame the ones who were spreading lies.
-0118 [Apologetic Trekker] | But... I was the one who threw a rock at the Trekkers' House and broke the window. Can you ever forgive me?
-0119 [Nazuna] | Hey! So you're the one who threw that rock!
-0120 [Apologetic Trekker] | Aaahhh! I—I'll pay for the damages, I swear! Please, don't hit me!
-0121 [Nazuna] | You don't have to pay for it.==W== Just come help out with the Trekkers' House repairs. The Trekker Association is coming back to Philae, you know.
-0122 [Narración] | Just as expected, once Mistique's reports began to circulate, rumors about the Petal Bloom and Nazuka quickly fell apart.
-0123 [Narración] | The path to the Monolith was clear once more.
-0124 [Narración] | The deceived Trekkers captured Claire, who was the culprit spreading the rumors and throwing the camp into chaos.
-0125 [Narración] | With that, peace and quiet returned, and the Three Grand Commissions finally came to a close.
-0126 [Tú] | Except for a certain witch who just won't stop with the interviews.
-0127 [Mistique] | Everyone, one more shot!==W== This is the last one, I promise! Just humor me a little longer, okay?==W== These photos are for Nazuka's exclusive feature★
-0128 [Fuyuka] | U-Um... Am I okay...? My soul hasn't been stolen, has it...? I heard in Loong and Tanikaze's legends that ... witch's photo capturer can capture your soul and take it away.
-0129 [Kaede] | Fuyuka, are you alright? You're as pale as a ghost ... like your soul really was just sucked out of you.
-0130 [Mistique] | But Fuyuka's soul is safe with the Boss, isn't it?==W== So there's nothing to worry about★ C'mon everyone, squeeze in a little closer to Boss!
-0131 [Fuyuka] | Aaaahhhh!==W== Master, protect me! Waaah!
-0132 [1] | Wait, if this interview is for Nazuka, why am I stuck in the middle of the photo?
-0133 [Mistique] | Ah... Well, that was the interviewee's condition. Said she wouldn't do the shoot otherwise. Nazuka picked out everyone's poses, too.
-0134 [1] | Nazuka's condition?
-0135 [Nazuka] | Mmm-hmm. Because this ... is my picture of perfect happiness.
-0136 [Nazuka] | A group photo just wouldn't be complete without you.
-0137 [Nazuka] | You promised me before that I could lean on your shoulder. I am claiming that opportunity now.
-0138 [1] | Huh? But why?
-0139 [Nazuka] | Well...
-0140 [Nazuka] | That's a secret~
-0141 [Narración] | ♫ FARAWAY Sung by: Isekaijoucho Lyrics / Composition / Arrangement: Kashii Moimi
+0001 [Intro] | Acto diez
+0002 [Intro] | Bajo el Monolito
+0003 [Intro] | Tras derrotar al Jardín Parásito, Nazuka y tú se adentran solos en el bosque. Bajo el Monolito blanco y puro, Nazuka repite su deseo: «Ojalá que, de ahora en adelante, estés siempre, siempre a mi lado».
+0004 [Lugar y hora] | 18:00, 6.º del mes de Tonitrua, afueras de Philae, linde del bosque
+0005 [Nazuka] | Se acabó...
+0006 [Fuyuka] | El Jardín Parásito ya no es más que... ceniza.
+0007 [Nazuna] | Esto es lo que pasa cuando un monstruo pierde toda su magia... ¿Eso significa que... ganamos?
+0008 [Kaede] | Ganamos. Derrotamos a los Tres Grandes. El camino al Monolito vuelve a estar despejado.
+0009 [Nazuna] | Jaja... No puedo creer que de verdad lo logramos... Se siente irreal.
+0010 [Nazuna] | Debería estar feliz, pero...==W== ¿por qué me siento tan vacía? Es como si de repente hubiera perdido el propósito de mi vida.
+0011 [Nazuka] | ¿Por qué hablas como una viejita cansada de la vida que ya lo ha visto todo?
+0012 [Nazuna] | ¡Oye, tienes la misma edad que yo!==W== A ver, dime, abuelita Nazuka, ¿cómo andan esas articulaciones?
+0013 [Nazuka] | ¿Ah? Andas buscando pelea, ¿verdad?
+0014 [Nazuna] | ¡Tú empezaste!
+0015 [Noya] | ¡Oigan, ==PLAYER_NAME==! ¡Todas las de Petal Bloom!
+0016 [Tú] | Ah, parece que Noya y las demás ya llegaron.
+0017 [Noya] | Estábamos ocupadas peleando contra las enredaderas y los monstruos enloquecidos por la niebla cuando de repente todo se detuvo. Las enredaderas se marchitaron y los monstruos se calmaron. Supusimos que... lo habían logrado.
+0018 [Amber] | Bien hecho.
+0019 [Iris] | De verdad nos salvaron, y en más de un sentido.==W== Un poco más y esas enredaderas me habrían hecho trizas la ropa.
+0020 [Kaede] | Nosotras también les debemos las gracias. No habríamos podido enfrentar al Jardín Parásito si no hubieran despejado las enredaderas. Esta victoria es de todas.
+0021 [Mistique] | ¡Capturé en cámara todas sus heroicas hazañas!==W== En cuanto publique estas imágenes, con un toquecito especial de esta bruja, claro, todos los Trekkers sabrán que les tendieron una trampa.
+0022 [Nazuna] | Nazuka, ¿oíste eso? Los rumores ya no podrán seguir corriendo. Ya no tienes que preocuparte...
+0023 [Nazuna] | ¿Eh? ¿Adónde se fue Nazuka? ¡¿Nazuka?!
+0024 [Fuyuka] | Nazuka senpai se fue volando con el Maestro. Dijo que el Monolito del bosque debe de estar plagado de Stellaroids porque nadie ha ido, así que se adelantó a limpiarlo.
+0025 [Nazuna] | ¡Acabamos de pelear contra el Jardín Parásito! ¿No puede quedarse quieta cinco minutos?==W== ¡Oye, espera un segundo!==W== ¡¿Por qué el Jefe se fue con ella?!
+0026 [Lugar y hora] | 19:00, 6.º del mes de Tonitrua, afueras de Philae, en lo profundo del bosque
+0027 [Tú] | Nazuka, ¿segura que está bien que nos vayamos así nada más?
+0028 [Nazuka] | No te preocupes. Con el Jardín Parásito destruido, esos monstruos frenéticos también deberían calmarse. Aunque todas estén agotadas, Nazuna y las demás pueden con lo que venga.
+0029 [Tú] | Eso no es lo que más me preocupa...==W== Bueno, sí me preocupa un poco. Pero a lo que voy es...
+0030 [Tú] | ¿No deberíamos haberles avisado? Se van a preocupar cuando se den cuenta de que no estamos.
+0031 [Nazuka] | Ah, ¿eso? No te preocupes. Le pedí a Fuyuka que les pasara un mensaje.
+0032 [Nazuka] | Además, en el Monolito probablemente se han acumulado Stellaroids de varios meses. Tenemos que ir a limpiarlo.
+0033 [Nazuka] | Y, claro, te inventé una excusa: estás «evaluando el desempeño de la nueva empleada». ¿Más tranquilo?
+0034 [Tú] | «La nueva empleada»...==W== Así que sí te acuerdas. Mientras estabas atrapada en esa ilusión, hice un comercio de almas contigo. Quien lo hace se convierte automáticamente en empleado de Boss Accord.
+0035 [Tú] | ¿Entonces oíste todo lo que te dije en ese momento?
+0036 [Nazuka] | Para ser exacta... no entendí ni una palabra de lo que decías. La niebla mágica bloqueó por completo mi mente del mundo real. Solo podía ver y oír ilusiones.
+0037 [Tú] | Pero... aun así lograste pedir un deseo.
+0038 [Nazuka] | Porque, aunque no oía con claridad lo que decías, sentía que querías que dijera algo.
+0039 [Nazuka] | No es muy seguido que uno tiene la oportunidad de decir lo que piensa. Y resultó que coincidió exactamente con lo que tú querías.
+0040 [Nazuka] | Eso solo demuestra que estamos en sintonía~
+0041 [Tú] | Lo sé, pero... de todos modos siento que hayas aceptado un comercio de almas sin saberlo.
+0042 [Tú] | Pediste un deseo, y con eso se cerró el trato. Lo haré realidad con mi vida como garantía. Tu alma quedará temporalmente bajo mi custodia y pasará a ser mía para siempre cuando tu deseo se cumpla.
+0043 [Nazuka] | Ya te dije que está bien. De verdad.==W== De hecho, la que debería darte las gracias soy yo.
+0044 [Nazuka] | Ya sea allá en aquel hoyo, cuando estaba a punto de rendirme...
+0045 [Nazuka] | ...o cuando estaba sola y con el corazón roto bajo la lluvia fría...
+0046 [Nazuka] | ...o incluso esta vez, atrapada en ese hermoso sueño que creó la niebla...
+0047 [Nazuka] | Jefe, ya me has salvado tres veces.==W== Sé que suena exagerado, pero cada vez sentí que volvía a nacer.
+0048 [Nazuka] | Si lo ves así, quizá... mi alma ya te había sido confiada desde el principio.
+0049 [Tú] | Me das demasiado crédito. Tú también me has salvado muchas veces.
+0050 [Nazuka] | Está bien. Estos sentimientos son subjetivos, ¿sabes?
+0051 [Nazuka] | Ah, pero... aunque no tengo ningún problema en confiarte mi alma, hay una cosita que se me quedó en la cabeza...
+0052 [Tú] | ¿Y qué es...?
+0053 [Nazuka] | Mjm. Es la razón por la que estamos aquí.==W== Shh, no las asustes. Sígueme.
+0054 [Narración] | El aire está cargado del olor a tierra mojada y hojas. El bosque silencioso parece un laberinto oscuro.
+0055 [Narración] | Sigo a Nazuka con pasos ligeros por el sendero cubierto de musgo mientras avanzamos entre matorrales espesos que susurran con el viento.
+0056 [Nazuka] | Aquí estamos.
+0057 [Opción] | ¡Qué hermoso! Ahí está el Monolito, con la luz danzando.
+0058 [Nazuka] | Cada año, por estas fechas, luciérnagas llenas de magia se reúnen aquí y vuelan hacia el Monolito. Por eso...
+0059 [Nazuka] | Dicen que si pides un deseo aquí, las luciérnagas lo llevan al Monolito. Aunque el deseo no se cumpla, quedará grabado ahí para siempre.
+0060 [Nazuka] | Antes de que aparecieran los Tres Grandes y trajeran el desastre, este era el mejor lugar de Philae para pedir deseos.
+0061 [Nazuka] | Por eso, Jefe... esperaba que pudiéramos volver a hacer el comercio de almas, justo aquí.
+0062 [Nazuka] | No me malinterpretes, no lo digo por nada más. Después de todo, un alma solo se puede «vender» una vez en la vida, ¿no? Y un contrato tan importante se hizo medio aturdida, todo por culpa de esa niebla entrometida...
+0063 [Nazuka] | Simplemente no es justo.
+0064 [Opción] | Ya veo.
+0065 [Opción] | ¿Entonces quieres volver a hacer el trato aquí, para que tu deseo quede grabado en el Monolito?
+0066 [Nazuka] | Bueno... no exactamente. Después de todo, eso no es más que una leyenda.
+0067 [Nazuka] | Además, fuiste tú quien me dijo que los deseos son cosas que uno hace realidad con sus propias manos.
+0068 [Nazuka] | Elegí este lugar simplemente porque es el primer Monolito totalmente explorado de Philae que concede Artefactos con los deseos de forma confiable.
+0069 [Nazuka] | Revisé todos los libros de historia de Philae, pero nunca pude averiguar qué Trekker lo exploró primero. Quizá eso también sea una leyenda. Pero ahora que lo pienso... ¿Y si fue la Santa Manca?
+0070 [Opción] | Je, qué teoría tan fascinante.
+0071 [Opción] | Si fuera cierto, significaría que la Santa no era pura ficción.
+0072 [Opción] | Después de todo, la leyenda podría ser real.
+0073 [Nazuka] | Así es. Hablando de eso... ¿Sabes, Jefe? En la ilusión que creó el Jardín Parásito... vi un futuro feliz.
+0074 [Nazuka] | El deseo de Nazuna, el de Kaede, el de Fuyuka... hasta el mío. Todos se cumplieron. Vivíamos una vida cálida y tranquila.
+0075 [Nazuka] | Si de verdad ese es el futuro que siempre anhelé... Entonces sí que soy codiciosa.
+0076 [Nazuka] | Por cierto, Jefe, ¿lo sabías? Fuiste tú quien me hizo darme cuenta de que no era más que un sueño.
+0077 [Opción] | ¿Yo? ¿Qué hice?
+0078 [Nazuka] | Jeje. No hiciste nada de nada.
+0079 [Nazuka] | Simplemente... no estabas en ese futuro.
+0080 [Nazuka] | Pero aun sin ti, sin darnos cuenta dejamos un espacio vacío. Para ti.
+0081 [Opción] | Seguramente es por mi inmunidad a la magia...
+0082 [Opción] | ...que el Jardín Parásito no pudo crear una imitación.
+0083 [Nazuka] | Tiene sentido... Muy bien, Jefe. ¿Empezamos ya el comercio de almas?
+0084 [Tú] | Claro.==W== Entonces, por favor, di tu deseo...
+0085 [Nazuka] | Jefe, escucha mi deseo.
+0086 [Nazuka] | Ojalá que, de ahora en adelante, estés siempre, siempre a mi lado.
+0087 [Opción] | Acepto tu deseo.
+0088 [Nazuka] | Y cuando ese deseo se cumpla...
+0089 [Narración] | Mi alma será tuya para siempre.
+0090 [Opción] | Listo.
+0091 [Opción] | Aun así, ¿no quieres pedir un deseo más grande?
+0092 [Opción] | Te ayudaré a cumplirlo, juntos.
+0093 [Nazuka] | No, no hace falta.
+0094 [Nazuka] | El único deseo que quiero que se cumpla es este.
+0095 [Nazuka] | Listo. Gracias. Ya no tengo remordimientos. Me siento mucho más ligera. Vamos, Jefe, vamos al Monolito.
+0096 [Tú] | Claro.
+0097 [Tú] | ¿Eso es un monstruo?
+0098 [Nazuka] | Jefe, ponte detrás de mí. Yo me encargo.
+0099 [Fuyuka] | ¡Uf!
+0100 [Tú] | ¿Fuyuka? ¿Qué haces aquí? Espera... No me digas que...
+0101 [Fuyuka] | Ay, no empujen... E-eh... ¡Maestro! ¡L-lo siento mucho! ¡Hay una razón para esto...!
+0102 [Nazuna] | ¡Nazuka! ¡¿Querías escabullirte sin nosotras?!
+0103 [Nazuka] | ...Debí imaginar que esto pasaría.
+0104 [Noya] | ¡Oye, ==PLAYER_NAME==! ¿Vas a cazar Stellaroids y ni siquiera nos invitas?
+0105 [Iris] | Olvídate de los Stellaroids un segundo: ¡un Monolito que no ha recibido un deseo en mucho tiempo podría crear tipos de Artefactos totalmente nuevos! ¡Vamos, Jefe, esta es una gran oportunidad para el Gremio de la Nueva Estrella!
+0106 [Amber] | Jefe... Te fuiste sin mandarme un mensaje. Rompiste tu promesa.
+0107 [Tú] | ¡Oigan, un momento! ¡Todas, por favor, de una en una...!
+0108 [Kaede] | Je. Perdón, Nazuka. Intenté detenerlas, pero insistieron en venir.
+0109 [Fuyuka] | De verdad pensé que no debíamos molestarlos... ¡Lo siento muchísimo!
+0110 [Nazuna] | ¡Oigan! ¡Qué listillas son ustedes dos! ¡Dejen de hacerme quedar como la única mala aquí!
+0111 [Nazuka] | Ay, chicas... En serio.
+0112 [Nazuka] | Esto es... muy bonito. Apenas ahora siento de verdad que volví a Petal Bloom.
+0113 [Narración] | Una semana después.
+0114 [Lugar y hora] | 10:00, 13.º del mes de Tonitrua, afueras de Philae, campamento de Trekkers
+0115 [Nazuna] | ¡Ah, qué día tan bonito!==W== Quizá debería sacar a mis amiguitos a tomar el sol.
+0116 [Apologetic Trekker] | Nazuna, lo siento mucho por lo que pasó. Me creí esos rumores demasiado rápido y acusé demasiado rápido.
+0117 [Nazuna] | Oye, no te preocupes. Ya es cosa del pasado. No fue tu culpa; échale la culpa a los que andaban esparciendo mentiras.
+0118 [Apologetic Trekker] | Pero... yo fui quien le aventó una piedra a la Casa de los Trekkers y rompió la ventana. ¿Algún día podrás perdonarme?
+0119 [Nazuna] | ¡Oye! ¡Así que tú fuiste el que aventó esa piedra!
+0120 [Apologetic Trekker] | ¡Aaay! ¡Y-yo pago los daños, lo juro! ¡Por favor, no me pegues!
+0121 [Nazuna] | No tienes que pagarlos.==W== Solo ven a ayudar con las reparaciones de la Casa de los Trekkers. La Asociación de Trekkers va a regresar a Philae, ¿sabes?
+0122 [Narración] | Tal como esperábamos, en cuanto empezaron a circular los reportajes de Mistique, los rumores sobre Petal Bloom y Nazuka se vinieron abajo rápidamente.
+0123 [Narración] | El camino al Monolito volvió a quedar despejado.
+0124 [Narración] | Los Trekkers engañados capturaron a Claire, la culpable de esparcir los rumores y sumir el campamento en el caos.
+0125 [Narración] | Con eso volvieron la paz y la tranquilidad, y las Tres Grandes Comisiones por fin llegaron a su fin.
+0126 [Tú] | Salvo por cierta bruja que no para con las entrevistas.
+0127 [Mistique] | ¡Todos, una foto más!==W== ¡Es la última, lo prometo! Síganme la corriente un poquito más, ¿sí?==W== Estas fotos son para el reportaje exclusivo de Nazuka★
+0128 [Fuyuka] | E-eh... ¿Estoy bien...? No me robaron el alma, ¿verdad...? Escuché en las leyendas de Loong y Tanikaze que... la cámara de una bruja puede capturarte el alma y llevársela.
+0129 [Kaede] | Fuyuka, ¿estás bien? Estás pálida como un fantasma... como si de verdad te hubieran sacado el alma.
+0130 [Mistique] | Pero el alma de Fuyuka está a salvo con el Jefe, ¿no?==W== Así que no hay nada de qué preocuparse★ ¡Vamos, todos, júntense un poco más al Jefe!
+0131 [Fuyuka] | ¡Aaaaay!==W== ¡Maestro, protéjame! ¡Buaaa!
+0132 [1] | Un momento, si esta entrevista es para Nazuka, ¿por qué me tienen en medio de la foto?
+0133 [Mistique] | Ah... Bueno, esa fue la condición de la entrevistada. Dijo que si no, no haría la sesión. Nazuka también escogió las poses de todos.
+0134 [1] | ¿La condición de Nazuka?
+0135 [Nazuka] | Mjm. Porque esta... es mi imagen de la felicidad perfecta.
+0136 [Nazuka] | Una foto de grupo simplemente no estaría completa sin ti.
+0137 [Nazuka] | Antes me prometiste que podría recargarme en tu hombro. Ahora reclamo esa oportunidad.
+0138 [1] | ¿Eh? ¿Pero por qué?
+0139 [Nazuka] | Pues...
+0140 [Nazuka] | Es un secreto~
+0141 [Narración] | ♫ FARAWAY Interpretada por: Isekaijoucho Letra / Composición / Arreglos: Kashii Moimi

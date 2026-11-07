@@ -1,4 +1,4 @@
-# Especial 6.5 · Obertura de un enigma sombrío · 3 · Win Win
+# Especial 6.5 · Obertura de un enigma sombrío · 3 · Todos ganan
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -14,124 +14,124 @@ N:avg3_100 | Sylar
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | Win Win
-0003 [Intro] | To make sure the banquet goes smoothly, you decide to hire a bodyguard from Goodwind Homecare. But the person who receives you turns out to be the one you saw in the room yesterday—Otoha.
-0004 [Tú] | This is...==W== A blatant threat...!?
-0005 [Tú] | Firenze was right to worry. Someone's using underhanded methods. First they lured her away, and now they're trying to scare me off.
-0006 [Tú] | Noya, Amber, Iris...==W== They might be in danger too. I have to warn them.
-0007 [Narración] | Five minutes later...
-0008 [Iris] | Boss? It's late. Did something happen?
-0009 [Tú] | Sorry to wake you. Someone left this at my door. Take a look.
-0010 [Noya] | A photo of you, ==PLAYER_NAME==? You look great.==W== But why's there a red "X" over your face?!
-0011 [Amber] | Is this ... a threat?
-0012 [Tú] | Looks like it. There's a note on the back: "Venatio Month, 5th."
-0013 [Noya] | Venatio Month 5th?! Isn't that the night of the banquet?
-0014 [Iris] | I-Is this some kind of warning?==W== What does it mean?
-0015 [Tú] | If I guess right, their plan is simple: if I withdrew from the banquet or stayed but ended up being attacked and causing a disturbance,==W== it would only reinforce the claim that Firenze is incapable of managing the Philae branch.
-0016 [Tú] | I can't figure out why they'd warn me ahead of time, though.
-0017 [Amber] | Did you see who left it?
-0018 [Tú] | No. This letter is the only trace.
-0019 [Tú] | I've informed the security, and they promised to step up their patrols, but still...
-0020 [Iris] | Besides, if they can slip this under your door undetected, standard guards won't be enough. Most of them were just workers at the food factory before this.
-0021 [Tú] | Right. And they could also be using a diversion. If we move the security around and they read our defenses, they might take the chance to attack the guests—that would be even worse.
-0022 [Noya] | Hmm, makes sense.==W== How about we protect Boss ourselves?
-0023 [Iris] | True, but...
-0024 [Amber] | Are we ... not enough?
-0025 [Iris] | Monsters and Stellaroids are our specialty, but this is different. I think we need professional help.
-0026 [Iris] | The problem is, who can we trust? With Firenze and Petal Bloom away, we might accidentally hire a saboteur. That'd be a disaster.
-0027 [Tú] | A professional...
-0028 [Nanoha] | Boss, here is my card. Please accept it.
-0029 [Nanoha] | If you ever require my services, please feel free to reach out.
-0030 [Tú] | Oh, I remember now.
-0031 [Tú] | I met a maid from Goodwind Homecare a while back. She gave me her business card.
-0032 [Noya] | A maid? But we're looking for a pro bodyguard, aren't we?
-0033 [Tú] | Yeah... I know how it sounds.==W== She's a maid, sure, but she seemed... Well, highly capable of handling security.
-0034 [Tú] | Besides, I met her completely by chance. There's no way she's tied to this conspiracy.
-0035 [Tú] | If everyone's okay with it, I'll pay a visit after dawn.
-0036 [Iris] | Well, if you say so, Boss... We will enlist her help.
-0037 [Tú] | It's settled, then. It's late. Everyone should head back and get some sleep.
-0038 [Tú] | What's wrong?
-0039 [Noya] | We're staying right here!
-0040 [Iris] | Didn't you say you couldn't sleep, Boss?
-0041 [Amber] | Like on the Lucky Oasis. We'll all sleep together.
-0042 [Noya] | It's for your own safety!
-0043 [Tú] | Thanks, guys...==W== Alright, for safety's sake, let's all stay here tonight.
-0044 [Tú] | Honestly, I do feel a lot safer with them around...
-0045 [Narración] | The next day, Nanoha's business card leads us straight to the Goodwind Homecare office.
-0046 [Narración] | Noya and Iris wanted to tag along, but I asked them to stay back and sweep the hotel for security flaws.
-0047 [Lugar y hora] | 11:00, Venatio Month 4th, Silver District in Philae, Outside Goodwind Homecare
-0048 [Tú] | This place is seriously tucked away...==W== But wow, what a gorgeous building.
+0001 [Intro] | Acto tres
+0002 [Intro] | Todos ganan
+0003 [Intro] | Para asegurarte de que el banquete salga bien, decides contratar a una guardaespaldas de Goodwind Homecare. Pero quien te recibe resulta ser la persona que viste ayer en la habitación: Otoha.
+0004 [Tú] | Esto es...==W== ¡¿Una amenaza descarada...?!
+0005 [Tú] | Firenze tenía razón en preocuparse. Alguien está usando métodos sucios. Primero la alejaron, y ahora intentan asustarme.
+0006 [Tú] | Noya, Amber, Iris...==W== Ellas también podrían estar en peligro. Tengo que avisarles.
+0007 [Narración] | Cinco minutos después...
+0008 [Iris] | ¿Jefe? Ya es tarde. ¿Pasó algo?
+0009 [Tú] | Perdón por despertarlas. Alguien dejó esto en mi puerta. Échenle un vistazo.
+0010 [Noya] | ¿Una foto tuya, ==PLAYER_NAME==? Te ves muy bien.==W== ¡¿Pero por qué tiene una «X» roja sobre tu cara?!
+0011 [Amber] | ¿Esto es... una amenaza?
+0012 [Tú] | Eso parece. Hay una nota atrás: «5 del mes de Venatio».
+0013 [Noya] | ¡¿El 5 del mes de Venatio?! ¿No es la noche del banquete?
+0014 [Iris] | ¿E-es algún tipo de advertencia?==W== ¿Qué significa?
+0015 [Tú] | Si no me equivoco, su plan es simple: si me retiro del banquete, o si me quedo pero me atacan y se arma un alboroto,==W== solo reforzaría la idea de que Firenze no es capaz de dirigir la sucursal de Philae.
+0016 [Tú] | Lo que no entiendo es por qué me avisarían con anticipación.
+0017 [Amber] | ¿Viste quién la dejó?
+0018 [Tú] | No. Esta carta es el único rastro.
+0019 [Tú] | Ya avisé a seguridad y prometieron reforzar las patrullas, pero aun así...
+0020 [Iris] | Además, si pueden deslizar esto bajo tu puerta sin que nadie se dé cuenta, los guardias comunes no van a bastar. La mayoría trabajaba en la fábrica de alimentos antes de esto.
+0021 [Tú] | Exacto. Y también podría ser una distracción. Si movemos a la seguridad y descubren cómo nos defendemos, podrían aprovechar para atacar a los invitados, y eso sería todavía peor.
+0022 [Noya] | Mmm, tiene sentido.==W== ¿Y si protegemos nosotras mismas al Jefe?
+0023 [Iris] | Sí, pero...
+0024 [Amber] | ¿No... somos suficientes?
+0025 [Iris] | Los monstruos y los Stellaroids son nuestra especialidad, pero esto es distinto. Creo que necesitamos ayuda profesional.
+0026 [Iris] | El problema es: ¿en quién podemos confiar? Con Firenze y Petal Bloom fuera, podríamos contratar sin querer a un saboteador. Sería un desastre.
+0027 [Tú] | Un profesional...
+0028 [Nanoha] | Jefe, aquí tiene mi tarjeta. Por favor, acéptela.
+0029 [Nanoha] | Si alguna vez requiere mis servicios, no dude en contactarme.
+0030 [Tú] | Ah, ya me acordé.
+0031 [Tú] | Hace un tiempo conocí a una sirvienta de Goodwind Homecare. Me dio su tarjeta de presentación.
+0032 [Noya] | ¿Una sirvienta? Pero estamos buscando a un guardaespaldas profesional, ¿no?
+0033 [Tú] | Sí... Sé cómo suena.==W== Es sirvienta, claro, pero parecía... Bueno, muy capaz de encargarse de la seguridad.
+0034 [Tú] | Además, la conocí por pura casualidad. Es imposible que esté metida en esta conspiración.
+0035 [Tú] | Si todas están de acuerdo, iré a verla en cuanto amanezca.
+0036 [Iris] | Bueno, si tú lo dices, Jefe... Le pediremos ayuda.
+0037 [Tú] | Entonces está decidido. Ya es tarde. Todas deberían volver a sus cuartos a dormir.
+0038 [Tú] | ¿Qué pasa?
+0039 [Noya] | ¡Nos quedamos aquí mismo!
+0040 [Iris] | ¿No dijiste que no podías dormir, Jefe?
+0041 [Amber] | Como en Lucky Oasis. Dormiremos todos juntos.
+0042 [Noya] | ¡Es por tu propia seguridad!
+0043 [Tú] | Gracias, chicas...==W== Está bien, por seguridad, quedémonos todos aquí esta noche.
+0044 [Tú] | La verdad, sí me siento mucho más tranquilo con ellas cerca...
+0045 [Narración] | Al día siguiente, la tarjeta de Nanoha nos lleva directo a la oficina de Goodwind Homecare.
+0046 [Narración] | Noya e Iris querían acompañarnos, pero les pedí que se quedaran a revisar el hotel en busca de fallas de seguridad.
+0047 [Lugar y hora] | 11:00, 4.º del mes de Venatio, Distrito de Plata de Philae, afueras de Goodwind Homecare
+0048 [Tú] | Este lugar sí que está escondido...==W== Pero vaya, qué edificio tan bonito.
 0049 [Amber] | ...
-0050 [Tú] | Amber? You look tense...==W== Something wrong?
-0051 [Amber] | We're being followed.
-0052 [Tú] | You sure?
-0053 [Amber] | Presence is gone... Are they aware that I've noticed them?==W== Whoever it was... They're tough.
-0054 [Tú] | Let's head inside. It'll be safer, I think.
-0055 [Narración] | I reach out to knock, but the door swings open on its own.
-0056 [???] | Oh? I wondered who was at the door.==W== Fancy meeting you here.
-0057 [Tú] | Y-You?! What are you doing here?
-0058 [Amber] | Huh? Isn't she the one we're looking for?
-0059 [Tú] | No—well, yes, but she's not who I had in mind...
-0060 [???] | I'm honored that you came in person. Please, do come in.
-0061 [Otoha] | Allow me to introduce myself. I'm Otoha, manager of Goodwind Homecare's Philae branch.
-0062 [Otoha] | What a coincidence. I didn't expect our paths to cross again so soon after yesterday.
-0063 [Amber] | Yesterday?
-0064 [Tú] | I misread a door sign and stumbled into her room by mistake...==W== Sorry about that. I made a total fool of myself.
-0065 [Otoha] | Hehe. Don't give it a second thought. It was a surprise, sure, but a delightful one.==W== Now then, what brings you to my doorstep today?
-0066 [Tú] | One of your staff, Nanoha, gave me her card a while back. I was hoping to hire some help—is she available?
-0067 [Otoha] | Nanoha?==W== She's out on assignment at the moment. If it's urgent, feel free to walk me through the details yourself.
-0068 [Amber] | We need a bodyguard. The best you have.
-0069 [Otoha] | Consider it done. You're in excellent hands. Goodwind Homecare will not fail you.
-0070 [Otoha] | Actually, I've already prepared a gift for you, in appreciation of your trust.
-0071 [Tú] | ...?
-0072 [Otoha] | Words won't do it justice. This way, please.
-0073 [Narración] | Otoha leads us to the courtyard. Two women in tactical gear were tied up together, seemingly unconscious.
-0074 [Tú] | Who are they?
-0075 [Otoha] | Two people were tailing you... So I took the liberty of "clearing" them out.==W== A little welcome gift, if you will.
-0076 [Amber] | Wait... That presence I felt earlier. It vanished because of you?
-0077 [Otoha] | Hehe. It was no trouble at all.
+0050 [Tú] | ¿Amber? Te ves tensa...==W== ¿Pasa algo?
+0051 [Amber] | Nos están siguiendo.
+0052 [Tú] | ¿Estás segura?
+0053 [Amber] | La presencia se fue... ¿Se dieron cuenta de que los noté?==W== Quien sea... Es hábil.
+0054 [Tú] | Entremos. Creo que será más seguro.
+0055 [Narración] | Estiro la mano para tocar, pero la puerta se abre sola.
+0056 [???] | ¿Oh? Me preguntaba quién estaría en la puerta.==W== Qué casualidad encontrarte aquí.
+0057 [Tú] | ¡¿T-tú?! ¿Qué haces aquí?
+0058 [Amber] | ¿Eh? ¿No es ella a quien buscamos?
+0059 [Tú] | No... bueno, sí, pero no es quien yo tenía en mente...
+0060 [???] | Es un honor que vinieras en persona. Por favor, adelante.
+0061 [Otoha] | Permíteme presentarme. Soy Otoha, gerente de la sucursal de Philae de Goodwind Homecare.
+0062 [Otoha] | Qué coincidencia. No esperaba que nuestros caminos se volvieran a cruzar tan pronto después de lo de ayer.
+0063 [Amber] | ¿Ayer?
+0064 [Tú] | Leí mal el número de una puerta y me metí a su habitación por error...==W== Perdón por eso. Hice el ridículo total.
+0065 [Otoha] | Jeje. No le des más vueltas. Fue una sorpresa, sí, pero una muy agradable.==W== Y bien, ¿qué te trae hoy a mi puerta?
+0066 [Tú] | Una de tus empleadas, Nanoha, me dio su tarjeta hace un tiempo. Esperaba contratar algo de ayuda. ¿Está disponible?
+0067 [Otoha] | ¿Nanoha?==W== En este momento está fuera, en una misión. Si es urgente, con gusto puedes explicarme los detalles a mí.
+0068 [Amber] | Necesitamos una guardaespaldas. La mejor que tengan.
+0069 [Otoha] | Considéralo hecho. Estás en excelentes manos. Goodwind Homecare no te fallará.
+0070 [Otoha] | De hecho, ya te preparé un regalo como agradecimiento por tu confianza.
+0071 [Tú] | ¿...?
+0072 [Otoha] | Las palabras no le harían justicia. Por aquí, por favor.
+0073 [Narración] | Otoha nos lleva al patio. Ahí hay dos mujeres con equipo táctico, atadas juntas y aparentemente inconscientes.
+0074 [Tú] | ¿Quiénes son?
+0075 [Otoha] | Dos personas te venían siguiendo... Así que me tomé la libertad de «despejarlas».==W== Un pequeño regalo de bienvenida, si quieres verlo así.
+0076 [Amber] | Espera... La presencia que sentí hace rato. ¿Desapareció por ti?
+0077 [Otoha] | Jeje. No fue ninguna molestia.
 0078 [Amber] | ...
-0079 [Amber] | Otoha is formidable.
-0080 [Amber] | She neutralized two targets without making a sound. In mere seconds...
-0081 [Amber] | She even had time to dump the bodies and meet us at the door, all without breaking a sweat.
-0082 [Tú] | I agree.
-0083 [Amber] | It's ... a little terrifying, actually.
-0084 [Otoha] | But back to business. What brings you here looking for a bodyguard?
-0085 [Tú] | Well...
-0086 [Narración] | I fill Otoha in on the threatening letter I received last night.
-0087 [Otoha] | I see.==W== In short, you need someone reliable to watch your back from the shadows.
-0088 [Tú] | Yes, thanks to your help today, the people who were following us have been dealt with. We really appreciate it.
-0089 [Otoha] | Hehe...==W== You don't honestly believe it ends here, do you?
-0090 [Tú] | What do you mean?
-0091 [Otoha] | I had a brief chat with those two, but they didn't breathe a word about who sent them.
-0092 [Otoha] | Usually, a common mercenary would have cracked. This suggests their employer is exceptionally strict. They won't be backing down anytime soon.
-0093 [Otoha] | With your life on the line,==W== leaving loose ends is a fatal mistake. You have to eliminate the source of the problem.
-0094 [Tú] | So in your professional opinion, I still need protection?
-0095 [Otoha] | Precisely. And not just protection—you need someone to dig up whoever is pulling the strings.
-0096 [Tú] | But with Nanoha out on a mission... Got anyone else you'd recommend?
-0097 [Otoha] | How about me?
-0098 [Tú] | You? You've already done enough taking out those stalkers. Besides, hiring the branch manager herself feels a bit...
-0099 [Otoha] | Hehe. Like I said, that was merely a welcome gift.
-0100 [Otoha] | Nanoha told me how you saved her during a mission and kept her identity a secret.
-0101 [Tú] | Nanoha is more than capable of handling a few punks on her own... I just did what I could.
-0102 [Otoha] | Goodwind Homecare is always devoted to its clients. And when a guest shows us such kindness, we believe in repaying that debt in full.
-0103 [Otoha] | Truth be told... Hehe. As the branch manager, I was planning to visit you to say thanks anyway. Running into you here feels like fate.
-0104 [Tú] | Thank me? Wait... Were you staying in the room next to mine yesterday to track me down?
-0105 [Otoha] | Precisely. Unfortunately, our meeting yesterday was quite sudden, and an urgent matter forced me to leave the hotel prematurely. It is a true regret that I could not be formally introduced to you.
-0106 [Otoha] | I won't charge a dime for my services. In exchange, though—
-0107 [Otoha] | Keep my free bodyguard gig a secret from everyone beyond you and the New Star Guild.
-0108 [Otoha] | If word gets out that a Goodwind manager is working pro bono, it'll ruin our business model.==W== Consider yourself a very special exception.
-0109 [Tú] | Understood. My lips are sealed.
-0110 [Otoha] | Hehe. It's quite an honor to meet the famous CEO of Boss Accord.
-0111 [Otoha] | I've heard quite a few ... fascinating stories about you, after all.
-0112 [Tú] | Whatever you've heard... Thank you for taking the commission.
-0113 [Tú] | The job is simple: keep me in one piece until the banquet ends...==W== My safety is in your hands.
-0114 [Otoha] | Thank you for the trust. Here's to a mutually beneficial partnership.
-0115 [Otoha] | Now that our new guest is gone...
-0116 [Otoha] | It's time to pay an "old friend" a visit.
-0117 [Lugar y hora] | 13:30, Venatio Month 4th, Silver District in Philae, Goodwind Homecare Underground Prison
-0118 [???] | ... You're here.
-0119 [???] | Take this blindfold off and let me out!
-0120 [Otoha] | Impatient as always, Miss Shuo.
-0121 [Otoha] | The real show is only getting started.
+0079 [Amber] | Otoha es formidable.
+0080 [Amber] | Neutralizó dos objetivos sin hacer ruido. En cuestión de segundos...
+0081 [Amber] | Hasta tuvo tiempo de dejar los cuerpos aquí y recibirnos en la puerta, sin sudar ni una gota.
+0082 [Tú] | Estoy de acuerdo.
+0083 [Amber] | La verdad... da un poco de miedo.
+0084 [Otoha] | Pero volvamos a los negocios. ¿Por qué buscas una guardaespaldas?
+0085 [Tú] | Bueno...
+0086 [Narración] | Le cuento a Otoha sobre la carta amenazante que recibí anoche.
+0087 [Otoha] | Ya veo.==W== En pocas palabras, necesitas a alguien confiable que te cuide la espalda desde las sombras.
+0088 [Tú] | Sí, y gracias a tu ayuda de hoy, ya nos encargamos de quienes nos seguían. De verdad te lo agradecemos.
+0089 [Otoha] | Jeje...==W== No creerás en serio que esto termina aquí, ¿o sí?
+0090 [Tú] | ¿A qué te refieres?
+0091 [Otoha] | Platiqué brevemente con esas dos, pero no soltaron ni una palabra sobre quién las envió.
+0092 [Otoha] | Normalmente, una mercenaria común ya habría cedido. Esto sugiere que quien las contrató es excepcionalmente estricto. No se van a echar para atrás pronto.
+0093 [Otoha] | Con tu vida en juego,==W== dejar cabos sueltos es un error fatal. Tienes que eliminar el origen del problema.
+0094 [Tú] | ¿O sea que, en tu opinión profesional, todavía necesito protección?
+0095 [Otoha] | Exacto. Y no solo protección: necesitas a alguien que desentierre a quien está moviendo los hilos.
+0096 [Tú] | Pero con Nanoha fuera en una misión... ¿Me recomiendas a alguien más?
+0097 [Otoha] | ¿Qué tal yo?
+0098 [Tú] | ¿Tú? Ya hiciste suficiente al deshacerte de esas acosadoras. Además, contratar a la mismísima gerente de la sucursal se siente un poco...
+0099 [Otoha] | Jeje. Como te dije, eso fue solo un regalo de bienvenida.
+0100 [Otoha] | Nanoha me contó cómo la salvaste durante una misión y mantuviste en secreto su identidad.
+0101 [Tú] | Nanoha es más que capaz de encargarse sola de unos cuantos vándalos... Yo solo hice lo que pude.
+0102 [Otoha] | Goodwind Homecare siempre se entrega a sus clientes. Y cuando alguien nos muestra tanta amabilidad, creemos en pagar esa deuda por completo.
+0103 [Otoha] | A decir verdad... Jeje. Como gerente de la sucursal, de todos modos pensaba visitarte para darte las gracias. Encontrarte aquí se siente como cosa del destino.
+0104 [Tú] | ¿Darme las gracias? Espera... ¿Ayer te estabas hospedando en la habitación junto a la mía para encontrarme?
+0105 [Otoha] | Exacto. Por desgracia, nuestro encuentro de ayer fue bastante repentino, y un asunto urgente me obligó a dejar el hotel antes de tiempo. Lamento de verdad no haber podido presentarme formalmente.
+0106 [Otoha] | No te cobraré ni un centavo por mis servicios. A cambio, eso sí...
+0107 [Otoha] | Mantén en secreto mi trabajo gratuito de guardaespaldas ante todos, salvo tú y el Gremio de la Nueva Estrella.
+0108 [Otoha] | Si se corre la voz de que una gerente de Goodwind trabaja gratis, arruinará nuestro modelo de negocio.==W== Considérate una excepción muy especial.
+0109 [Tú] | Entendido. Seré una tumba.
+0110 [Otoha] | Jeje. Es todo un honor conocer al famoso director ejecutivo de Boss Accord.
+0111 [Otoha] | Después de todo, he oído bastantes historias... fascinantes sobre ti.
+0112 [Tú] | Sea lo que sea que hayas oído... Gracias por aceptar el encargo.
+0113 [Tú] | El trabajo es simple: mantenerme en una pieza hasta que termine el banquete...==W== Mi seguridad está en tus manos.
+0114 [Otoha] | Gracias por la confianza. Por una alianza en la que todos ganemos.
+0115 [Otoha] | Ahora que nuestro nuevo cliente se fue...
+0116 [Otoha] | Es hora de visitar a una «vieja amiga».
+0117 [Lugar y hora] | 13:30, 4.º del mes de Venatio, Distrito de Plata de Philae, prisión subterránea de Goodwind Homecare
+0118 [???] | ...Ya llegaste.
+0119 [???] | ¡Quítame esta venda y déjame salir!
+0120 [Otoha] | Impaciente como siempre, señorita Shuo.
+0121 [Otoha] | El verdadero espectáculo apenas está comenzando.

@@ -1,4 +1,4 @@
-# Capítulo 5 · Una chispa en la oscuridad · 2 · Tawny Nightingale
+# Capítulo 5 · Una chispa en la oscuridad · 2 · Ruiseñor Leonado
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -17,153 +17,153 @@ N:avg3_183 | Joseph
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | Tawny Nightingale
-0003 [Intro] | With all of you officially employed, Mina briefs you on the details of the mystery. Clues could be hidden in the R&D, Marketing, and Production Departments, so you split up for the investigation.
-0004 [Lugar y hora] | 8:00, Tonitrua Month 31st, Greenhouse District in Philae, United Harvest Warehouse
-0005 [Mina] | Good morning. I'm relieved to see that everyone made it through the hiring process in one piece.
-0006 [Tú] | "In one piece," huh?==W== Is that really how we're describing that trainwreck?
-0007 [Tú] | One of us completely faked her resume.
-0008 [Noya] | Man, I was terrified! I thought for sure they'd catch me lying.==W== But hey... Guess that just proves I'm a top-tier actor, right?!
-0009 [Tú] | Another one pulled a gun in the middle of the interview.
-0010 [Amber] | I can't talk well without my phone. A gun gets the point across faster.
-0011 [Tú] | And then there was the one who ... passed out just from remembering something sad.
-0012 [Fuyuka] | I'm so sorry, Master! I always choke when it matters most... I'm just useless! Please forgive me!
-0013 [Tú] | Honestly? After witnessing all that, I thought Iris was the only one with a ghost of a chance.
-0014 [Iris] | I thought I was dreaming when they said yes.==W== I still can't believe United Harvest actually took me on...!
-0015 [Iris] | No, no, no! Iris, get a grip! You can't get carried away over something this minor!
-0016 [Iris] | Don't worry, Boss. I know this is just part of the commission. My true loyalty is to the Boss Accord.
-0017 [Tú] | Glad you're motivated, but don't stress yourself too much.
-0018 [Tú] | As for the rest of you—just forget the interview ever happened.
-0019 [Tú] | Since we're all here, let's take the win. We cleared the first hurdle.
-0020 [Tú] | Thanks for pulling strings for us, Mina.
-0021 [Mina] | Me? I didn't do a thing.
-0022 [Mina] | The commission is classified, so I couldn't interfere.==W== Besides... I don't exactly have the rank to pull strings like that.
-0023 [Tú] | Not Mina?==W== Firenze must be behind this then... Just like last time.
-0024 [Fuyuka] | But Miss Mina, you're a "Manager," right? Isn't that position supposed to be ... you know, kind of a big deal?
-0025 [Mina] | Haha... I am the project manager, sure. But titles can be deceiving. Besides, the Tawny Nightingale team are just two people to begin with.
-0026 [Iris] | Just two?!
-0027 [Mina] | Yep... Just the pair of us before you arrived. But look at us now—==W==a team of seven!
-0028 [Mina] | We're out of space in the main office, unfortunately. So I have to ask you to make do with this warehouse for the time being.
-0029 [Tú] | Tawny Nightingale is essential gear for Trekkers. It must sell well... You really kept the whole operation running with just the two of you?
-0030 [Mina] | It's a budget item. We move a lot of units, but the margins are razor-thin. It barely registers on the company books, so we never have extra Dorra for marketing or upgrades.
-0031 [Mina] | Honestly, saying "two people" is generous. Until last month, I was flying solo. I was basically managing myself.
-0032 [Tú] | So the other employee is a newbie, too? I'm getting a bad feeling about this...
-0033 [???] | Hi everyone! You must be the new hires Mina mentioned!==W== Nice to meet you all!
-0034 [Tú] | ... Huh?! Mis—==W==
-0035 [Mistique] | Why don't we introduce ourselves?==W== I'll start: I'm Mistique. Transferred from the Flavio branch last week. I handle the paperwork and heavy lifting.
-0036 [Tú] | We're pretending we've never met? Fine. But I wonder what her angle is this time.
-0037 [Tú] | Hi. I'm ==PLAYER_NAME==, a Trekker. I'm from ...==W== uh ... the desert.
-0038 [Noya] | I'm Noya...
-0039 [Narración] | And so, we stumble through a painfully fake round of introductions. Mina, clueless, even tries her best to help us "bond" with Mistique.
-0040 [Lugar y hora] | 8:30, Tonitrua Month 31st, Greenhouse District in Philae, United Harvest Warehouse
-0041 [Mina] | Now that we're all acquainted, let's get down to business. Specifically, the matter of the "delicious Tawny Nightingale."
-0042 [Iris] | Um... Mina? Mistique is still right here. Is it okay for her to be listening in on this?
-0043 [Mina] | It's fine. Mistique was transferred here to assist us. In fact, she's the one who scoured the city to collect all these samples.
-0044 [Tú] | Huh... Why do these bread bags look so familiar?
-0045 [Iris] | Yeah.==W== It's the real deal...==W== Incredibly detailed. Can't believe we swapped some Tawny Nightingale for all these...
-0046 [Iris] | Wonder if I could get her to prep a dossier on the Grace Imperium next time...==W== Ah,==W== kidding! Just kidding.
-0047 [Tú] | It wasn't just the bread... It was also the legwork.
-0048 [Tú] | We had to scour every bakery in Philae==W== just to satisfy her weird craving for Tawny Nightingale.
-0049 [Mistique] | Recently, a unique variation of the Tawny Nightingale has surfaced in Philae. One that is actually tasty. Let's call it the "Golden Nightingale" for now.
-0050 [Mistique] | The catch is... These Golden Nightingales seem to be mixed in with the regular stock and sold under the table.
-0051 [Mistique] | I've analyzed samples from United Harvest shops all across the city, but found no distribution pattern.
-0052 [Tú] | Wait a minute... We were the ones who ran all over the city doing the heavy lifting!
-0053 [Mina] | Its packaging looks identical to the standard issue, but it has a fluffier texture. As for the taste...==W== I have to admit, it's leagues better than the original.
-0054 [Mina] | Your commission is to pinpoint exactly which department is leaking these Golden Nightingales. We must put a stop to such inferior fakes.
-0055 [Noya] | Uh-huh... Hold on. I'm confused. You said this Golden version tastes better than the original, right?==W== So even if it's a fake, it can't be "inferior"?
-0056 [Mina] | It's hard to explain. Here, sample the Golden Nightingale for yourselves.
-0057 [Tú] | Mmm...==W== One whiff tells me it's better than the original.
-0058 [Noya] | Let me try... Mmm...==W== The texture! It's absolutely divine!
-0059 [Iris] | You're right. It's so soft and fluffy ... and that wheat aroma is lovely.
-0060 [Amber] | Delicious.
-0061 [Fuyuka] | Master, please have a taste.
-0062 [Tú] | Thanks, Fuyuka.==W== Hmm...==W== Wait... How could it be...?!
-0063 [Narración] | Ten minutes later...
-0064 [Noya] | Hmm... Umm...
-0065 [Tú] | What's wrong, Noya?
-0066 [Noya] | That was weird.
-0067 [Mistique] | Oh my. It seems Noya noticed.
-0068 [Noya] | It tasted great, sure. But usually a few bites of a Tawny Nightingale is all it takes to fill me up.
-0069 [Noya] | This bread though? It felt nothing like that. It's like... How do I put it? Like eating air? Or cotton candy?
-0070 [Amber] | Hungry already.
-0071 [Fuyuka] | T-that's exactly how I felt! There was ... no substance to it.
-0072 [Iris] | Come to think of it...
-0073 [Iris] | Wait... Hang on...?!!!
-0074 [Amber] | Iris? You okay?
-0075 [Iris] | One, two, three...==W== Did I just inhale five of them?! Usually, one is enough...
-0076 [Tú] | Now I see why it's "inferior." It might taste amazing, but if it doesn't actually fill you up...
-0077 [Mina] | Precisely. That is the core issue. It goes back to what Iris said earlier...
-0078 [Iris] | I mean... Sure, it's dry ... and hard ...==W== and tastes like sawdust==W== ... and maybe it lacks nutrients...
-0079 [Iris] | But! It stores forever! You can buy it anywhere!==W== And most importantly—
-0080 [Iris] | —since it's barely digestible,==W== it keeps you full way longer!==W== That's a huge plus, right?!
-0081 [Mina] | The Tawny Nightingale targets Trekkers in the Wilds without steady food, and city folk pinching every penny.
-0082 [Mina] | The philosophy is simple: fill a stomach anywhere, anytime, for the fewest Dorra possible.
-0083 [Noya] | No kidding. We went a month without a commission once. Bellies completely empty.
-0084 [Amber] | Almost boiled our shoes.
-0085 [Noya] | Luckily, Iris dug out half a bag of Tawny Nightingale from Loxy's corner. Stuff she'd bought three months prior.
-0086 [Iris] | If it weren't for the bread, we wouldn't have survived until the next paycheck cleared.
-0087 [Iris] | I still remember the moment I found them... It felt like pure salvation.
-0088 [Iris] | I'll be eternally grateful to United Harvest for inventing that bread!
-0089 [Mina] | Correct. That is its true purpose.==W== Plus, this "Golden" version spoils in days. Normal for regular bread, yes, but...
-0090 [Tú] | But for your target clients... There goes the biggest strength. That's a fatal flaw.
-0091 [Iris] | Too true... Imagine stocking up for a trip and accidentally buying these look-alike Golden Nightingales...
-0092 [Fuyuka] | Starving ... in the empty Wilds...
-0093 [Amber] | And no shoes left to boil.
-0094 [Iris] | Before long, rescuers would find bodies that had succumbed to starvation!==W== Their vengeful spirits linger, haunting any Trekker who dares tread that land...
-0095 [Fuyuka] | Waaahhhhh!
-0096 [Noya] | We can't let that happen!
-0097 [Tú] | It's definitely a crisis. But how can you be certain it's an inside job? Couldn't a competitor be sabotaging you?
-0098 [Mina] | Like I said, the packaging is identical, and they're hitting shelves through our official supply chain. No outsider could pull that off.
-0099 [Mistique] | Besides, if a rival had that kind of access, why stop there? Why not do some real damage? The only victims here are dirt-poor locals and Trekkers.
-0100 [Tú] | She's right... In the cities of Nova, the suffering of the poor is hardly headline news.
-0101 [Tú] | Understood. Focusing inward is the only move that makes sense. So, where do we start?
-0102 [Mina] | From production to sales, the Tawny Nightingale passes through three key departments.
-0103 [Mina] | First, R&D. They develop and refine the recipes. The original formula is in their hands.
-0104 [Mina] | Next, Production. They run the greenhouses, the food lines, and the grain trade. They're the ones actually baking the bread.
-0105 [Mina] | Finally, Marketing. They manage the United Harvest stores and handle promotion and sales, including the Tawny Nightingale.
-0106 [Mina] | I'm sure you've guessed the plan. I'm sending you to infiltrate these three departments, posing as interns from Strategy.
-0107 [Mina] | We don't know which lead points to the truth yet, so I need you to gather whatever intel you can, from every angle.
-0108 [Tú] | Hmm. I guess it's time to decide who goes where...
-0109 [Noya] | Me! Pick me! Mina!==W== If I go to R&D...==W== Do I get to sample all the new flavors for free?
-0110 [Mina] | It's not exactly a buffet ...==W== but yes. Repeated taste-testing to optimize flavor and texture for mass production is part of their daily routine.
-0111 [Noya] | I am so going there! Hehe.
-0112 [Noya] | Come on, Fuyuka, you're with me!
-0113 [Fuyuka] | Ah, o-okay. I... I'm fine with wherever...
-0114 [Iris] | Amber and I will take Marketing.
-0115 [Iris] | If Mina is right, there'll be plenty of records there. Amber types fast and I have an excellent memory. Even if we can't check files out, we can copy them manually together.
-0116 [Amber] | Wouldn't taking a photo be faster?
-0117 [Tú] | Mistique and I will handle Production. I'm a bit interested in farming.
-0118 [Mistique] | Works for me! We'll make a good team, ==PLAYER_NAME==.
-0119 [Mina] | I'll handle logistics from the warehouse.==W== Oh, here are your uniforms.==W== Good luck, everyone.
-0120 [Lugar y hora] | 9:30, Tonitrua Month 31st, Greenhouse District in Philae, United Harvest Warehouse
-0121 [1] | Phew. Got changed.==W== How do I look?
-0122 [Mistique] | Not bad, like a real corporate elite.
-0123 [Mistique] | By the way, aren't you curious why I pretended not to know you? Or how I became a "transfer from the Flavio branch"?!
-0124 [Tú] | Nope. Because I know you're dying to tell me anyway. Like right now.
-0125 [Mistique] | Ugh... Nothing gets past you, does it, Boss?
-0126 [Mistique] | I'm here undercover. United Harvest is famous for breeding and bio-research...
-0127 [Mistique] | Thanks to an exclusive franchise from the Seal of Grace, they hold a monopoly on Nova's food supply.
-0128 [Mistique] | Years ago, the founder, Samuel, had a goal: to provide people with "cheaper and tastier food."
-0129 [Mistique] | But now? Instead of that philosophy, everyone's just obsessed with petty factional infighting.
-0130 [Mistique] | Let's get real for a second. United Harvest holds seventy percent of the entire continent's food supply. If a giant like that collapses from internal strife... What do you think happens to the little guy?
-0131 [Tú] | People would starve. The whole social order would fall apart.
-0132 [Mistique] | Exactly! That's why I'm here chasing the big scoop. It's not just about grabbing headlines—I need to expose the real danger of letting one company hold a monopoly on our food supply.
-0133 [Tú] | So you forged an ID and slipped into Mina's team right when she was short-staffed.
-0134 [Tú] | And now you're using the cover of an "internal investigation" to gather your own material.
-0135 [Mistique] | Heh. Great minds think alike, Boss.
-0136 [Mistique] | Don't get me wrong, though. I intend to do a proper job for Mina. I'm just ... multitasking on the side.
-0137 [Mistique] | Besides, getting Flavio's ace witch for pennies on the dollar? I'd call that a win-win★
-0138 [Tú] | Between finding Lady Gray and handling Mina's commission, Mistique's skills are too valuable to ignore. Partnering up is the logical move.
-0139 [Tú] | Fair enough. Since our goals align—for the moment, anyway—why don't we pool our resources?
-0140 [Mistique] | I'm in. And just so you know, I haven't been sitting around this past week. I've already cased the joint. I know these departments inside out★
-0141 [Mistique] | Just name the spot, and I'll lead the way.
-0142 [Opción] | Check on Noya and Fuyuka
-0143 [Opción] | Check on Iris and Amber
-0144 [Opción] | Focus on our own assignment
-0145 [Tú] | Let's start with R&D. Noya's wild ideas mixed with Fuyuka's brute strength... That's worrying.
-0146 [Mistique] | You got it. Just a heads-up: it's a sea of lab coats over there.
-0147 [Tú] | Let's swing by Marketing. Iris can handle the paperwork and PR just fine, but Amber... I'm not so sure.
-0148 [Mistique] | Relax. They'll figure it out somehow.
-0149 [Tú] | We should stick to the plan and investigate our own assignment—the Production Department.
-0150 [Mistique] | Ooh, look at you being all professional, Boss. To the greenhouses we go★
+0001 [Intro] | Acto dos
+0002 [Intro] | Ruiseñor Leonado
+0003 [Intro] | Ya con todos contratados oficialmente, Mina les explica los detalles del misterio. Podría haber pistas escondidas en los departamentos de I+D, Marketing y Producción, así que se separan para investigar.
+0004 [Lugar y hora] | 8:00, 31.º del mes de Tonitrua, Distrito Invernadero de Philae, almacén de Cosecha Unida
+0005 [Mina] | Buenos días. Me alivia ver que todos superaron el proceso de contratación sanos y salvos.
+0006 [Tú] | ¿«Sanos y salvos»?==W== ¿De verdad así vamos a describir ese desastre?
+0007 [Tú] | Una de nosotros falsificó por completo su currículum.
+0008 [Noya] | ¡Uf, estaba aterrada! Pensé que de seguro me iban a cachar mintiendo.==W== Pero bueno... Eso solo demuestra que soy una actriz de primera, ¿no?
+0009 [Tú] | Otra sacó un arma en plena entrevista.
+0010 [Amber] | No puedo hablar bien sin mi teléfono. Un arma transmite la idea más rápido.
+0011 [Tú] | Y luego estuvo la que... se desmayó solo por recordar algo triste.
+0012 [Fuyuka] | ¡Lo siento mucho, Maestro! Siempre me paralizo cuando más importa... ¡Soy una inútil! ¡Por favor, perdóneme!
+0013 [Tú] | ¿Sinceramente? Después de ver todo eso, pensé que Iris era la única con una mínima posibilidad.
+0014 [Iris] | Creí que estaba soñando cuando dijeron que sí.==W== ¡Todavía no puedo creer que Cosecha Unida me haya contratado de verdad...!
+0015 [Iris] | ¡No, no, no! ¡Iris, contrólate! ¡No puedes emocionarte por algo tan pequeño!
+0016 [Iris] | No te preocupes, Jefe. Sé que esto es solo parte del encargo. Mi verdadera lealtad es con Boss Accord.
+0017 [Tú] | Qué bueno que estés motivada, pero no te estreses demasiado.
+0018 [Tú] | En cuanto a las demás... olviden que la entrevista existió.
+0019 [Tú] | Ya que estamos todos aquí, celebremos la victoria. Superamos el primer obstáculo.
+0020 [Tú] | Gracias por mover tus influencias por nosotros, Mina.
+0021 [Mina] | ¿Yo? No hice nada.
+0022 [Mina] | El encargo es confidencial, así que no podía intervenir.==W== Además... no tengo exactamente el rango para mover influencias así.
+0023 [Tú] | ¿No fue Mina?==W== Entonces Firenze debe estar detrás de esto... Igual que la última vez.
+0024 [Fuyuka] | Pero señorita Mina, usted es «gerente», ¿no? ¿No se supone que ese puesto es... ya sabe, algo importante?
+0025 [Mina] | Jaja... Sí, soy la gerente del proyecto. Pero los títulos engañan. Además, para empezar, el equipo del Ruiseñor Leonado es de solo dos personas.
+0026 [Iris] | ¡¿Solo dos?!
+0027 [Mina] | Sí... Antes de que llegaran, éramos solo nosotras dos. Pero mírennos ahora:==W== ¡un equipo de siete!
+0028 [Mina] | Por desgracia, ya no hay espacio en la oficina principal. Así que tengo que pedirles que se las arreglen en este almacén por el momento.
+0029 [Tú] | El Ruiseñor Leonado es equipo esencial para los Trekkers. Debe venderse bien... ¿De verdad mantenían toda la operación funcionando ustedes dos solas?
+0030 [Mina] | Es un producto económico. Movemos muchas unidades, pero los márgenes son mínimos. Apenas figura en los libros de la empresa, así que nunca tenemos Dorra de sobra para marketing o mejoras.
+0031 [Mina] | La verdad, decir «dos personas» es generoso. Hasta el mes pasado, yo sola llevaba todo. Básicamente me gestionaba a mí misma.
+0032 [Tú] | ¿Así que la otra empleada también es nueva? Esto me da mala espina...
+0033 [???] | ¡Hola a todos! ¡Ustedes deben ser los nuevos que mencionó Mina!==W== ¡Mucho gusto!
+0034 [Tú] | ... ¡¿Eh?! ¡Mis...==W==
+0035 [Mistique] | ¿Por qué no nos presentamos?==W== Empiezo yo: soy Mistique. Me transfirieron de la sucursal de Flavio la semana pasada. Me encargo del papeleo y del trabajo pesado.
+0036 [Tú] | ¿Vamos a fingir que nunca nos hemos visto? Bueno. Pero me pregunto qué trama esta vez.
+0037 [Tú] | Hola. Soy ==PLAYER_NAME==, Trekker. Vengo de...==W== eh... del desierto.
+0038 [Noya] | Yo soy Noya...
+0039 [Narración] | Y así, tropezamos con una ronda de presentaciones dolorosamente falsa. Mina, sin enterarse de nada, incluso hace su mejor esfuerzo para que «convivamos» con Mistique.
+0040 [Lugar y hora] | 8:30, 31.º del mes de Tonitrua, Distrito Invernadero de Philae, almacén de Cosecha Unida
+0041 [Mina] | Ahora que ya nos conocemos, vayamos al grano. En concreto, al asunto del «Ruiseñor Leonado delicioso».
+0042 [Iris] | Eh... ¿Mina? Mistique sigue aquí. ¿Está bien que escuche esto?
+0043 [Mina] | No hay problema. Transfirieron a Mistique aquí para ayudarnos. De hecho, ella fue quien recorrió la ciudad para reunir todas estas muestras.
+0044 [Tú] | Mmm... ¿Por qué estas bolsas de pan se me hacen tan conocidas?
+0045 [Iris] | Sí.==W== Son auténticas...==W== Increíblemente detalladas. No puedo creer que las cambiamos por unos cuantos Ruiseñores Leonados...
+0046 [Iris] | Me pregunto si la próxima vez podría pedirle un expediente sobre el Imperio de la Gracia...==W== ¡Ah,==W== es broma! Solo es broma.
+0047 [Tú] | No fue solo el pan... También fue todo el trabajo de campo.
+0048 [Tú] | Tuvimos que recorrer todas las panaderías de Philae==W== solo para satisfacer su extraño antojo de Ruiseñor Leonado.
+0049 [Mistique] | Hace poco apareció en Philae una variante única del Ruiseñor Leonado. Una que de verdad es sabrosa. Por ahora llamémosla «Ruiseñor Dorado».
+0050 [Mistique] | El detalle es que... estos Ruiseñores Dorados parecen estar mezclados con el inventario normal y se venden por debajo del agua.
+0051 [Mistique] | Analicé muestras de las tiendas de Cosecha Unida de toda la ciudad, pero no encontré ningún patrón de distribución.
+0052 [Tú] | Un momento... ¡Nosotros fuimos los que anduvimos por toda la ciudad haciendo el trabajo pesado!
+0053 [Mina] | Su empaque es idéntico al del producto normal, pero tiene una textura más esponjosa. En cuanto al sabor...==W== debo admitir que es muchísimo mejor que el original.
+0054 [Mina] | Su encargo es identificar con exactitud qué departamento está filtrando estos Ruiseñores Dorados. Tenemos que acabar con estas imitaciones de mala calidad.
+0055 [Noya] | Ajá... Espera. Ya me confundí. Dijiste que esta versión Dorada sabe mejor que la original, ¿no?==W== Entonces, aunque sea falsa, ¿cómo va a ser de «mala calidad»?
+0056 [Mina] | Es difícil de explicar. Tengan, prueben ustedes mismos el Ruiseñor Dorado.
+0057 [Tú] | Mmm...==W== Con solo olerlo sé que es mejor que el original.
+0058 [Noya] | A ver... Mmm...==W== ¡Esa textura! ¡Es absolutamente divina!
+0059 [Iris] | Tienes razón. Es tan suave y esponjoso... y ese aroma a trigo es delicioso.
+0060 [Amber] | Delicioso.
+0061 [Fuyuka] | Maestro, por favor, pruébelo.
+0062 [Tú] | Gracias, Fuyuka.==W== Mmm...==W== Espera... ¡¿Cómo puede ser...?!
+0063 [Narración] | Diez minutos después...
+0064 [Noya] | Mmm... Eh...
+0065 [Tú] | ¿Qué pasa, Noya?
+0066 [Noya] | Eso fue raro.
+0067 [Mistique] | Vaya. Parece que Noya se dio cuenta.
+0068 [Noya] | Sabía buenísimo, sí. Pero normalmente con unas cuantas mordidas de un Ruiseñor Leonado ya quedo llena.
+0069 [Noya] | ¿Pero este pan? No se sintió nada así. Es como... ¿cómo lo digo? ¿Como comer aire? ¿O algodón de azúcar?
+0070 [Amber] | Ya tengo hambre.
+0071 [Fuyuka] | ¡E-eso es justo lo que sentí! No tenía... nada de sustancia.
+0072 [Iris] | Ahora que lo pienso...
+0073 [Iris] | Esperen... ¡¿Un momento...?!
+0074 [Amber] | ¿Iris? ¿Estás bien?
+0075 [Iris] | Uno, dos, tres...==W== ¡¿Me acabo de zampar cinco?! Normalmente con uno basta...
+0076 [Tú] | Ahora entiendo por qué es de «mala calidad». Puede que sepa increíble, pero si en realidad no te llena...
+0077 [Mina] | Exacto. Ese es el problema de fondo. Se remonta a lo que dijo Iris hace rato...
+0078 [Iris] | O sea... Sí, es seco... y duro...==W== y sabe a aserrín==W== ...y quizá le faltan nutrientes...
+0079 [Iris] | ¡Pero! ¡Dura para siempre! ¡Lo venden en todas partes!==W== Y lo más importante...
+0080 [Iris] | ...como casi no se digiere,==W== ¡te mantiene lleno muchísimo más tiempo!==W== ¡¿Eso es una gran ventaja, no?!
+0081 [Mina] | El Ruiseñor Leonado está pensado para los Trekkers en las Tierras Salvajes sin comida segura y para la gente de la ciudad que cuida cada centavo.
+0082 [Mina] | La filosofía es sencilla: llenar el estómago en cualquier lugar, a cualquier hora, por la menor cantidad posible de Dorra.
+0083 [Noya] | Ni lo digas. Una vez pasamos un mes sin encargos. Con la panza completamente vacía.
+0084 [Amber] | Casi hervimos los zapatos.
+0085 [Noya] | Por suerte, Iris encontró media bolsa de Ruiseñor Leonado en un rincón de Loxy. Lo había comprado tres meses antes.
+0086 [Iris] | De no ser por ese pan, no habríamos sobrevivido hasta que llegara el siguiente pago.
+0087 [Iris] | Todavía recuerdo el momento en que los encontré... Se sintió como la salvación absoluta.
+0088 [Iris] | ¡Le estaré eternamente agradecida a Cosecha Unida por inventar ese pan!
+0089 [Mina] | Correcto. Ese es su verdadero propósito.==W== Además, esta versión «Dorada» se echa a perder en días. Es normal en el pan común, sí, pero...
+0090 [Tú] | Pero para su público objetivo... Adiós a su mayor fortaleza. Es un defecto fatal.
+0091 [Iris] | Muy cierto... Imagínense abastecerse para un viaje y comprar por accidente estos Ruiseñores Dorados que se ven iguales...
+0092 [Fuyuka] | Muriéndose de hambre... en las Tierras Salvajes desiertas...
+0093 [Amber] | Y sin zapatos que hervir.
+0094 [Iris] | ¡Al poco tiempo, los rescatistas encontrarían cuerpos que sucumbieron al hambre!==W== Sus espíritus vengativos se quedarían ahí, atormentando a cualquier Trekker que se atreva a pisar esas tierras...
+0095 [Fuyuka] | ¡Waaahhhhh!
+0096 [Noya] | ¡No podemos permitir que eso pase!
+0097 [Tú] | Definitivamente es una crisis. Pero ¿cómo puede estar segura de que es un trabajo interno? ¿No podría ser un competidor saboteándolos?
+0098 [Mina] | Como dije, el empaque es idéntico, y están llegando a los estantes por nuestra cadena de suministro oficial. Nadie de afuera podría lograrlo.
+0099 [Mistique] | Además, si un rival tuviera ese tipo de acceso, ¿por qué quedarse ahí? ¿Por qué no hacer un daño de verdad? Las únicas víctimas aquí son los locales más pobres y los Trekkers.
+0100 [Tú] | Tiene razón... En las ciudades de Nova, el sufrimiento de los pobres casi nunca es noticia de primera plana.
+0101 [Tú] | Entendido. Investigar desde dentro es lo único que tiene sentido. Entonces, ¿por dónde empezamos?
+0102 [Mina] | De la producción a la venta, el Ruiseñor Leonado pasa por tres departamentos clave.
+0103 [Mina] | Primero, I+D. Ellos desarrollan y perfeccionan las recetas. La fórmula original está en sus manos.
+0104 [Mina] | Luego, Producción. Administran los invernaderos, las líneas de alimentos y el comercio de granos. Son quienes en realidad hornean el pan.
+0105 [Mina] | Por último, Marketing. Gestionan las tiendas de Cosecha Unida y se encargan de la promoción y las ventas, incluido el Ruiseñor Leonado.
+0106 [Mina] | Seguro ya adivinaron el plan. Los enviaré a infiltrarse en estos tres departamentos haciéndose pasar por becarios de Estrategia.
+0107 [Mina] | Aún no sabemos qué pista lleva a la verdad, así que necesito que reúnan toda la información que puedan, desde todos los ángulos.
+0108 [Tú] | Mmm. Supongo que es hora de decidir quién va a dónde...
+0109 [Noya] | ¡Yo! ¡Escógeme a mí! ¡Mina!==W== Si voy a I+D...==W== ¿puedo probar todos los sabores nuevos gratis?
+0110 [Mina] | No es exactamente un bufé...==W== pero sí. Las catas repetidas para optimizar el sabor y la textura para la producción en masa son parte de su rutina diaria.
+0111 [Noya] | ¡Definitivamente voy ahí! Jeje.
+0112 [Noya] | ¡Vamos, Fuyuka, tú vienes conmigo!
+0113 [Fuyuka] | Ah, e-está bien. Yo... estoy bien en donde sea...
+0114 [Iris] | Amber y yo nos encargamos de Marketing.
+0115 [Iris] | Si Mina tiene razón, ahí habrá muchísimos registros. Amber escribe rápido y yo tengo excelente memoria. Aunque no podamos sacar archivos, podemos copiarlos a mano entre las dos.
+0116 [Amber] | ¿No sería más rápido tomar una foto?
+0117 [Tú] | Mistique y yo nos encargamos de Producción. Me interesa un poco la agricultura.
+0118 [Mistique] | ¡Por mí, perfecto! Haremos un buen equipo, ==PLAYER_NAME==.
+0119 [Mina] | Yo me encargaré de la logística desde el almacén.==W== Ah, aquí están sus uniformes.==W== Suerte a todos.
+0120 [Lugar y hora] | 9:30, 31.º del mes de Tonitrua, Distrito Invernadero de Philae, almacén de Cosecha Unida
+0121 [1] | Uf. Ya me cambié.==W== ¿Qué tal me veo?
+0122 [Mistique] | Nada mal, como todo un ejecutivo de élite.
+0123 [Mistique] | Por cierto, ¿no tienes curiosidad de por qué fingí no conocerte? ¿O de cómo me volví una «transferida de la sucursal de Flavio»?
+0124 [Tú] | No. Porque sé que de todos modos te mueres por contármelo. Como ahorita.
+0125 [Mistique] | Agh... No se te escapa nada, ¿verdad, Jefe?
+0126 [Mistique] | Estoy aquí de incógnito. Cosecha Unida es famosa por la reproducción de cultivos y la investigación biológica...
+0127 [Mistique] | Gracias a una concesión exclusiva del Sello de la Gracia, tienen el monopolio del suministro de alimentos de Nova.
+0128 [Mistique] | Hace años, su fundador, Samuel, tenía una meta: darle a la gente «comida más barata y más sabrosa».
+0129 [Mistique] | ¿Pero ahora? En lugar de esa filosofía, todos están obsesionados con mezquinas luchas internas entre facciones.
+0130 [Mistique] | Seamos realistas un momento. Cosecha Unida controla el setenta por ciento del suministro de alimentos de todo el continente. Si un gigante así se derrumba por conflictos internos... ¿Qué crees que le pasa a la gente común?
+0131 [Tú] | La gente moriría de hambre. Todo el orden social se vendría abajo.
+0132 [Mistique] | ¡Exacto! Por eso estoy aquí persiguiendo la gran primicia. No se trata solo de acaparar titulares: necesito exponer el verdadero peligro de dejar que una sola empresa monopolice nuestro suministro de alimentos.
+0133 [Tú] | Así que falsificaste una identificación y te colaste en el equipo de Mina justo cuando le faltaba personal.
+0134 [Tú] | Y ahora usas la fachada de una «investigación interna» para reunir tu propio material.
+0135 [Mistique] | Je. Las grandes mentes piensan igual, Jefe.
+0136 [Mistique] | Pero no me malinterpretes. Pienso hacer un buen trabajo para Mina. Solo estoy... haciendo varias cosas a la vez.
+0137 [Mistique] | Además, ¿tener a la bruja estrella de Flavio por una bicoca? Yo diría que todos ganan★
+0138 [Tú] | Entre encontrar a Lady Gray y cumplir el encargo de Mina, las habilidades de Mistique son demasiado valiosas para ignorarlas. Aliarnos es lo lógico.
+0139 [Tú] | Me parece justo. Ya que nuestros objetivos coinciden, al menos por ahora, ¿por qué no unimos fuerzas?
+0140 [Mistique] | Cuenta conmigo. Y para que sepas, no me la pasé sentada esta última semana. Ya inspeccioné el lugar. Conozco estos departamentos de pies a cabeza★
+0141 [Mistique] | Tú dime adónde, y yo te guío.
+0142 [Opción] | Ver cómo van Noya y Fuyuka
+0143 [Opción] | Ver cómo van Iris y Amber
+0144 [Opción] | Concentrarnos en nuestra propia tarea
+0145 [Tú] | Empecemos por I+D. Las ideas locas de Noya combinadas con la fuerza bruta de Fuyuka... Eso me preocupa.
+0146 [Mistique] | Entendido. Solo te aviso: allá es un mar de batas de laboratorio.
+0147 [Tú] | Pasemos por Marketing. Iris puede con el papeleo y las relaciones públicas sin problema, pero Amber... no estoy tan seguro.
+0148 [Mistique] | Tranquilo. Ya se las arreglarán de algún modo.
+0149 [Tú] | Deberíamos seguir el plan e investigar nuestra propia tarea: el Departamento de Producción.
+0150 [Mistique] | Uy, mírate, todo un profesional, Jefe. ¡A los invernaderos★

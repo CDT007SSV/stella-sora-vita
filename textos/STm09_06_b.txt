@@ -1,10 +1,10 @@
-# Capítulo 9 · Un Monolito demasiado lejano · Final: She at Your Side
+# Capítulo 9 · Un Monolito demasiado lejano · Final: Ella a tu lado
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Committee Elite | Committee Elite
-N:Committee Mage | Committee Mage
+N:Committee Elite | Élite del Comité
+N:Committee Mage | Mago del Comité
 N:avg1_103 | Amber
 N:avg1_108 | Kasimira
 N:avg1_110 | Firenze
@@ -21,10 +21,10 @@ N:avg1_144 | Chitose
 N:avg1_146 | Benito
 N:avg1_156 | Nazuna
 N:avg1_163 | Greyhorn
-N:avg2_947 | Sentinel of Dawn Soldier
-N:avg2_948 | Sentinel of Dawn Soldier
+N:avg2_947 | Soldado de los Centinelas del Alba
+N:avg2_948 | Soldado de los Centinelas del Alba
 N:avg3_100 | Sylar
-N:avg3_1306 | Sentinel of Dawn Soldier M
+N:avg3_1306 | Soldado de los Centinelas del Alba
 N:avg3_1319 | Angie
 N:avg3_150 | Albedo
 N:avg3_152 | Bastelina
@@ -37,231 +37,231 @@ N:avg3_216 | Gunhild
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | The End
-0002 [Intro] | She at Your Side
-0003 [Intro] | You take Angie with you and become the bait yourself, driving Loxy out of the encirclement with the help of the Desert Scorpion. But then this inexplicable "ocean" completely cuts off your last path to survival…
-0004 [Lugar y hora] | 18:45, Nebula Month 18th, Mirage, Unnamed Street
-0005 [Benito] | Boss, I have one Soul Stone left. Take it.
-0006 [Tú] | Thanks, Benito.==W== But don't you need to keep a few?
-0007 [Minova] | You're gonna push the Lucky Oasis to the limit! Stop being so polite and take it!
-0008 [Tú] | That's not the issue.==W== If the Committee attacks again and you're out of stones, can you actually hold them off?
-0009 [Kasimira] | Relax. Allie just evacuated the kids into the White Cats' secret room. It's secure and well-ventilated. Even the Committee isn't getting in without that nursery rhyme.
-0010 [Kasimira] | Don't worry about the kids. Once you break through, we'll have a lot more room to breathe.==W== We can just play hide-and-seek with the Committee through the streets and mineshafts.
-0011 [Chaton] | Hehehe. The great Chaton has never lost a game of hide-and-seek.==W== Just watch me run circles around them with my dark power!
-0012 [Nazuka] | Boss... Are you seriously still worrying about us at a time like this?
-0013 [Nazuka] | You and the New Star Guild are the ones taking on the most risk here.
-0014 [Nazuka] | Honestly, you always come up with these reckless plans without a single thought for your own safety!==W== I really don't know how your brain works!
-0015 [Tú] | Because this gives us the best chance of getting everyone out alive.
-0016 [Tú] | If we stay in Mirage, the Committee will bleed us dry before morning.
-0017 [Tú] | Bastelina suggested I just make a run for it. I'd never do that, of course, but it did give me an idea.
-0018 [Tú] | Kasimira and I went over our advantages, but there's one major thing we overlooked:==W== the Lucky Oasis's mobility.
-0019 [Bastelina] | The Committee has mages who can fly or enhance their speed, but we didn't bring a single Artifact vehicle into the desert.
-0020 [Tú] | The Committee only wants my head and Angie. As long as we're in the same vehicle, they have no choice but to chase us.
-0021 [Tú] | And a high-speed desert chase is exactly where we shine.
-0022 [Nazuka] | But an entire army hunting you down...==W== Just let me go with you!
-0023 [Chitose] | My ==SEX11==, please allow me to accompany you, too.==W== If I cannot be by your side to protect you, my heart ...==W== will simply not know peace.
-0024 [Tú] | I know you're worried.==W== But Nazuka, the others still need to hold the line here in Mirage. They need your aerial recon.
-0025 [Tú] | And Chitose, you're one of the few fighters here who doesn't rely on magic. They need your blade. Please, keep everyone safe for me.
-0026 [Nazuka] | You...==W== You always have a million perfect reasons to convince us.==W== Come on, Chitose. There's no point arguing with ==SEX4==.==W==
-0027 [Nazuka] | Once ==SEX== breaks out and Mirage is secure, I'll fly us out to find ==SEX4==.
-0028 [Chitose] | You are correct, Lady Nazuka. I will sever the remaining enemies in Mirage with all haste, and then we shall seek out my ==SEX11== together.
-0029 [Tú] | When did those two get along so well...?==W== Well, I guess that's a good thing.
-0030 [Tú] | Just ... promise me you won't push yourselves too hard. Every single one of you is important to me.
-0031 [Nazuna] | We know, we know. If things really go south, we'll figure out a way to surrender to that tin can with drafty armor.
-0032 [Bastelina] | Captain Greyhorn is an honorable knight. She won't mistreat any of you.
-0033 [Tú] | All right, we're moving out.==W== Iris, get Angie in the car.==W==
-0034 [Narración] | Iris shoves a bound Angie into Loxy.==W== I face the setting sun and slam the pedal to the floor.
-0035 [Lugar y hora] | 18:50, Nebula Month 18th, Mirage, Desert Outside the City
-0036 [Committee Elite] | Captain, we caught someone sneaking around the mineshafts.
-0037 [Gunhild] | A kid? Is she with the Tyrant?
-0038 [Committee Elite] | We ...==W== don't think so.==W== She's not on Lady Angie's list, but her magic looks a lot like Nocturn Eterna's.==W== We weren't sure what to make of it, so we brought her to you.
-0039 [Gunhild] | Hmm, she's definitely just a kid at this height.
-0040 [Gunhild] | Hey there, little one. What's your name?==W==
-0041 [Gunhild] | Too scared to speak, huh?==W== Well...==W== Sorry about this, but let me just check your head.
-0042 [Gunhild] | No horns.==W== And the magic is Grace drawn from a Soul Stone.
-0043 [Gunhild] | Oh, come on, look at those innocent eyes. She's not with Nocturn Eterna. She's just a Trekker terrified by you.
-0044 [Gunhild] | Apologize to her, then escort her somewhere safe.
-0045 [Committee Elite] | Yes, Captain!
-0046 [Greyhorn] | Gunhild, over here. We have a situation.==W== Cough...
-0047 [Gunhild] | Greyhorn, you really need to rest. What could possibly be more important than your health right now?
-0048 [Greyhorn] | Lady Angie just made contact.==W==
-0049 [Lugar y hora] | 19:00, Nebula Month 18th, Mirage, Unnamed Street
-0050 [Angie] | Greyhorn, Gunhild, listen to me.
-0051 [Angie] | The Tyrant is fleeing north out of Mirage in a green RV. ==SEX1=='s about to exit the city and pass right by our artillery camp.
-0052 [Angie] | I'm only allowed a few sentences. You must stop the Tyrant. Save the world.
-0053 [Angie] | Phew. Will that suffice?
-0054 [Iris] | It will. I didn't actually expect you to be this cooperative.
-0055 [Angie] | A suggestion, if I may. I should sit by the window. That way Gunhild spots me in her scope, and the entire Committee will come after you.
-0056 [Iris] | Fine. But don't try anything funny.==W== I have a Scepter of Death pressed right against your spine.
-0057 [Angie] | You're doing exactly what I want you to do. Why would I run?
-0058 [Angie] | From the very beginning, the only person I've wanted to kill is the Tyrant.
-0059 [Angie] | That's exactly why I tried to ambush ==SEX4== in Philae.==W== This way,==W== the only casualties would have been just the two of us.==W== Don't you agree that would have been far better than letting the flames of war consume Mirage?
-0060 [Iris] | What twisted logic is that?!==W== None of this would be happening if you weren't so obsessed with that Book of Grace Prophecies!==W== I've looked into it. No one even knows who wrote that book! You have zero proof it's actually real.
-0061 [Angie] | I don't base my judgment of ==PLAYER_NAME== solely on the Book of Grace Prophecies.
-0062 [Iris] | I've spent days reading every single book on Tyrant legends I could get my hands on!
-0063 [Iris] | Go ahead and lay out whatever other reasons you have! I'll debunk every single one of them!
-0064 [Angie] | How diligent. I'd genuinely enjoy debating this with you if we had the time.==W== But ...==W== look out the window. My comrades have caught up.
-0065 [Committee Elite] | All units, attention! The Tyrant is in that green RV! Blow out the tires!
-0066 [Committee Mage] | Flames,==W== heed my call—==W==
-0067 [Iris] | Arctic Vortex!
-0068 [Committee Mage] | M-My staff is frozen solid?!==W== How is an ice spell covering this much ground?! Just who the hell is in that car?!
-0069 [Iris] | Phew... I haven't actually cast that spell since I learned it. Didn't expect it to work so well.
-0070 [Iris] | Wait, why is my Soul Stone empty?!==W== That one spell drained an entire stone's worth of Grace?!
-0071 [Iris] | Th-That's such a waste! I've... I've never cast a spell this expensive!
-0072 [Gunhild] | Barreling straight at us just to drop a massive area spell? They're underestimating the Salvation Committee.
-0073 [Gunhild] | Surround them! We're getting Lady Angie back!
-0074 [Committee Elite] | Raise the sand walls! Block their path!==W==
-0075 [Noya] | Hey! Stay out of Loxy's way!
-0076 [Committee Elite] | Dammit, where did these two Trekkers come from?!==W== Block her shots!
-0077 [Amber] | Loxy. Go.
-0078 [Tú] | We... We made it through! Thank goodness Noya and Amber cleared a path, or we would've slammed right into that sand wall.
-0079 [Greyhorn] | Cough, cough...==W== Well played, Tyrant. You found the fatal flaw in our tactics immediately.
-0080 [Greyhorn] | Between the vehicle's speed and their allies running interference, a formation like ours that relies on mutual support gets torn to shreds.
-0081 [Greyhorn] | All combat squads, listen up! Raise sand walls on my mark! Don't rush in to attack, box them in first!
-0082 [Greyhorn] | Gunhild, those two Trekkers are yours.
-0083 [Gunhild] | With me! Bring them down!
-0084 [Noya] | Amber, now! Use your straps!
-0085 [Amber] | Got it.
-0086 [Narración] | Amber leaps from the dune with Noya into the air.
-0087 [Narración] | The black straps on her wrists shoot through Loxy's open sunroof, wrapping around the seat handles and pulling themselves into the speeding vehicle.
-0088 [Amber] | Perfect landing.==W==
-0089 [Noya] | ==PLAYER_NAME==, we're back! We talked to the Desert Scorpions, just like you asked.
-0090 [Noya] | And Loxy lured the whole Committee right to us! Now all we have to do is smash through those sand walls, and we win!
-0091 [Tú] | Don’t say it like it's no big deal. Looks like they're trying to link those sand walls into a circle to trap us inside.
-0092 [Tú] | Which way should I steer, Noya?
-0093 [Noya] | Follow your heart! Just steer in the direction you want to go most!
-0094 [Tú] | What are you talking about, Noya?! I don't have your intuition!
-0095 [Narración] | Noya's warm palm covers my hand, helping me grip the steering wheel tight.
-0096 [Noya] | I noticed it the second we left the White Cats' secret room.
-0097 [Noya] | You've been ... especially protective of us today.==W== Or, more selfishly, especially protective of me.
-0098 [Noya] | I don't know what's going on, but I can feel how anxious you are. Every time we fight, you always make sure we're in the safest possible spot.
-0099 [Noya] | But for this final "great escape," you still chose to rely on us.==W== You haven't forgotten ...==W== the promise the four of us made our first night in Mirage.
-0100 [Tú] | That's because... Because...
-0101 [Tú] | How am I supposed to say this? How do I explain what happened last time without mentioning the White Room?
-0102 [Noya] | Hehe, you don't have to give me an answer right now, ==PLAYER_NAME==. I can wait.
-0103 [Noya] | Do you remember that massive Stellaroid we fought at the Waterway?
-0104 [Tú] | Of course I do. That was our first time fighting together. Our first real battle.
-0105 [Noya] | Facing a monster like that on our first team-up... We were totally reckless.==W== With a power gap like that, anyone else would have said we had zero chance.==W== It was the kind of despair you're never supposed to overcome.
-0106 [Noya] | But we had your brains, Iris's caution, Amber's agility, and my intuition!
-0107 [Noya] | To hell with despair! We turned the impossible into the possible!
-0108 [Noya] | And today won't be any different!
-0109 [Myrsha] | Cap, is doing this actually gonna help the Boss?
-0110 [Hazana] | Hahaha! Beats me! But that Trekker, Noya, was it? She made a damn good point.
-0111 [Hazana] | The Scorpions need this turf war over, like yesterday.==W== And if they can't finish it, they need to take it somewhere else. If this keeps up, our crystal diamond mine is gonna cave in.
-0112 [Myrsha] | But earlier, you helped the Committee cast a sandstorm...
-0113 [Hazana] | That was then, this is now.==W== I thought the Committee was gonna score a quick win, so I tossed a little support their way. I didn't expect the Boss to see right through their whole setup.
-0114 [Hazana] | Good thing none of the Boss's crew got hurt, so there's no bad blood.==W== Now it's time to flip the script and help them.==W== Of course, we can't let the Committee catch us doing it, or they'll come knocking.
-0115 [Myrsha] | Heads up, here comes the RV!
-0116 [Hazana] | Golden sands beneath the setting sun, heed my call! Rise and form the dune!
-0117 [Narración] | A giant forged of golden sand rises in front of the Committee's sand walls,==W== then immediately collapses, as if the caster had lost control.
-0118 [Tú] | Wh-What just happened?
-0119 [Iris] | I see! The Committee has plenty of magic, which makes breaking those walls impossible. But if someone dumps enough sand to create a makeshift ramp...
-0120 [Noya] | Then we can just fly right over them!
-0121 [Amber] | Just like the Waterway.
-0122 [Narración] | Launching off the crest of the dune, the Lucky Oasis traces a perfect arc through the air,==W== sailing right over Greyhorn and Gunhild's heads before touching down in the boundless desert.
-0123 [Narración] | Ten days later.
-0124 [Lugar y hora] | 10:00, Nebula Month 28th, Sunset Desert, Deep in the Desert
-0125 [Firenze] | Boss, the Dusk Arbiters and I have captured almost the whole Salvation Committee.
-0126 [Firenze] | Thanks to you running them ragged across the desert, we barely took any casualties. Everyone is safe.
-0127 [Tú] | That's a relief.==W== We're running low on Grace, though. Can you send someone to pick us up?
-0128 [Firenze] | Mistique, Nazuka, and Chitose headed out a few days ago. They brought plenty of Soul Stones.==W== Honestly, you went incredibly far.
-0129 [Tú] | We didn't have a choice. We meant to head east and meet up with you after breaking out of Mirage,==W== but Greyhorn cut us off, so we had to gun it northwest.
-0130 [Tú] | Judging by the distance, we're practically at the edge of the Nova Continent. Another day or two of driving, and we'd probably hit the ocean.
-0131 [Tú] | We've turned back. We should run into the others soon. I'll get in touch with them now.==W== Talk later, Firenze.
-0132 [Firenze] | We'll be waiting for you, Boss.
-0133 [Tú] | Phew... It's finally over.
-0134 [Tú] | We hit a lot of bumps along the way, and even accidentally gave the Committee a "combat boost"...==W== But it's over now.
-0135 [Tú] | Once we hand Angie over to the Dusk Arbiters, we can finally go back to our normal lives.
-0136 [Angie] | Is it truly over,==W== Tyrant?
-0137 [Angie] | Even now, I haven't given up on killing you.==W== In fact, I remain absolutely certain that I will.
-0138 [Amber] | You lost. Stop bluffing.
-0139 [Angie] | Did I? You'll find out soon enough.
-0140 [Iris] | Noya? What's wrong? Why are you braking?
-0141 [Noya] | Y-You need to see this...==W== The desert... It's gone.
-0142 [Lugar y hora] | 10:15, Nebula Month 28th, Sunset Desert, Deep in the Desert
-0143 [Tú] | Is this ...==W== the ocean?! What is an ocean doing in the middle of the desert?
-0144 [Iris] | The sea at the end of the desert? But that should be to the west! Noya, are you sure we didn't go the wrong way?
-0145 [Noya] | I wouldn't make a rookie mistake like that! Look at the sun. We've been heading east this whole time, tracing our exact route back!
-0146 [Tú] | It's Nazuka.
-0147 [Tú] | Hey, Nazuka. Where are you all?==W== We hit a snag on our end. It's going to take a while longer to meet up.
-0148 [Nazuka] | Boss, where did you go? We've reached the coastline, and we still haven't found you.
-0149 [Tú] | The ... coastline?
-0150 [Angie] | To see the true Edge of the World, you must travel west for days,==W== cross the quicksand and the mountains, all the way to where the desert meets the sea.
-0151 [Angie] | There, the earth is constantly collapsing into a pitch-black abyss.
-0152 [Tú] | Angie did say that during the negotiation last time...==W== Don't tell me this ocean is...==W== No, it can't be!
-0153 [Tú] | Amber, fire a shot straight up. Maximum output.
-0154 [Amber] | Roger.
-0155 [Nazuka] | Boss, I see ... a flash of red light on the horizon. Was that you?==W==
-0156 [Chitose] | Is my ==SEX11== ...==W== on the other side of the sea?
-0157 [Angie] | Haha...==W== Hahahaha!
-0158 [Angie] | You did defeat the Salvation Committee, Tyrant. But to think you'd end up trapped here, doomed by the end of the world itself!
-0159 [Angie] | It's obvious just looking at it. This strait formed because the earth collapsed while you were deep in the west, and the ocean simply rushed in to fill the void.
-0160 [Angie] | The northwest corner of the Nova Continent has no Monolith. It's where the destruction is most severe.==W== You were so focused on leading the Committee to their graves, you never realized you were digging your own.
-0161 [Noya] | What are you babbling about? A strait this narrow? We can just fly right over it!
-0162 [Nazuka] | Exactly.==W== Mistique,==W== let's go get them.
-0163 [Mistique] | No, we can't!==W== We can't fly over the water at all. There is way too much magic in the air here. I can't even steer my broom!
-0164 [Nazuka] | What?!==W== Ugh!
-0165 [Mistique] | Careful! Don't force it. This ambient magic will just warp your spells.
-0166 [Angie] | Don't waste your breath. A collapsing landmass creates massive magical turbulence. It usually lasts for years. Trying to cast a spell in this kind of maelstrom is basically suicide.
-0167 [Angie] | If you want to save your Tyrant, you'll have to sail a ship that doesn't run on magic.
-0168 [Angie] | Unfortunately for you, there isn't a single port in northwestern Nova.
-0169 [Nazuka] | No! I have to try again!
-0170 [Chitose] | I will swim across!
-0171 [Noya] | Quick, get in the car! The ground on our side is giving way too!
-0172 [Angie] | Heh... Farewell,==W== Tyrant.==W== To meet an end like this... I am satisfied.
-0173 [Narración] | Angie wears an expression of pure relief. Facing the ocean, she tosses a tiny thing out into the waves.
-0174 [Narración] | The next second, the violent tides swallow her whole, along with the very sand beneath her feet.
-0175 [Narración] | Loxy frantically reverses, but by the time its tires finally stop spinning, even Mistique and Nazuka high above can no longer see Amber's second signal flare.
-0176 [Narración] | The days blur together. When our last magic runs dry, we are forced to press on by foot, dodging the collapsing earth and the encroaching sea.
-0177 [Narración] | Albedo pleads with the Sentinels of Dawn and the Dusk Arbiters to mount a rescue.
-0178 [Narración] | The Trekker Association rallies every seafaring Trekker they can find.
-0179 [Narración] | Firenze and Matilda even track down the United Harvest headquarters, trying to dispatch ships from southern Nova.
-0180 [Narración] | Yet, all their struggles are meaningless.
-0181 [Narración] | ==Off==The magical turbulence spawned by the fracturing earth forms a violent barrier, severing the fragment of desert we're on from the rest of Nova.
-0182 [Narración] | ==Off==Nova's transport thrives, but seafaring has long been abandoned. Even at full speed, the nearest ship would take a month to reach us.
-0183 [Narración] | ==Off==Our supplies will never last that long.
-0184 [Iris] | Boss, are you awake?
-0185 [Iris] | Boss, are you awake?
-0186 [Narración] | My lips move, but no sound comes out. My parched throat went numb days ago. The slightest vibration of my vocal cords feels like swallowing glass.==W==
-0187 [Narración] | Using the last of my strength, I squeeze Iris's hand, just to prove I am still breathing.
-0188 [Iris] | Noya and Amber... They've gone cold.
-0189 [Iris] | Boss, I don't think I have much longer, either.
-0190 [Iris] | You passed out earlier... So you missed their last words.==W== I'll... I'll say them for you. Cough...
-0191 [Iris] | We're going to be rescued. And when we are… Let's rebuild Loxy together ... and set off again.
-0192 [Iris] | That was Noya.
-0193 [Iris] | Talking with Boss is fun. But we haven't had a real talk ... in a long time.
-0194 [Iris] | That was Amber.
-0195 [Iris] | And ... here's mine.
-0196 [Iris] | I'm so glad we found you in that Monolith. Even if...
-0197 [Iris] | Sitting here with you... Turning into a beacon for other Trekkers… It's not a bad way to go, Boss.
-0198 [Narración] | Iris's fingers go limp, slowly slipping from my grasp. And I ... can't even shed tears of grief.
-0199 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
-0200 [Bernina] | Welcome back, Tyrant.
-0201 [Virigia] | I have some water for you. Would you like to soothe your throat?
-0202 [Tú] | Cough...==W== Ugh...==W== My throat doesn't hurt anymore. I... I can speak again?
-0203 [Virigia] | The White Room harbors your soul, not your physical body. The injuries your body sustained will not manifest here.
-0204 [Virigia] | You truly suffered this time.==W== Scorched by that blazing sun while water slowly drains from your body... I understand how terrible that feels.
-0205 [Bernina] | Still, getting buried in the same desert with your most cherished companions and your "home" on wheels? That might be a blessing.==W== There are plenty of people out there who couldn't beg for an end that sweet.
-0206 [Tú] | I...==W== I failed again.==W== And I dragged even more of my friends into this ordeal with me.
-0207 [Tú] | And... The end of the world...==W== It's actually real...
-0208 [Tú] | Bernina, Virigia... Do you know anything about this "end of the world"?
-0209 [Virigia] | I am sorry. As Monolith staff, our only news comes from chatting with passing Trekkers. They have never mentioned anything about the world ending.
-0210 [Bernina] | Even if we did know, our NDA would prevent us from saying a word about it.
-0211 [Tú] | I see.==W== Vita, what about you? Did you know?==W== No, wait, even if you did, you'd just say...
-0212 [Vita] | Tyrant. I lack sufficient permission to disclose information regarding this matter.
-0213 [Tú] | You're even beating me to the punch now.
-0214 [Tú] | Open the door. With everything I've learned this time around, I know exactly how to win this war.
-0215 [Tú] | I'm going to save everyone, and no one will get hurt!
-0216 [Vita] | Your command is my will.
-0217 [Iris] | Even Ashwind is here... Are we really doing a final showdown with the Salvation Committee right here? Ugh... There's no way we win this.
-0218 [Amber] | Boss, what do we do next?
-0219 [Tú] | Running is useless. The decapitation strike is useless.
-0220 [Tú] | If I want to protect everyone, I have to utilize absolutely every piece of intel I gathered from the last two attempts.
-0221 [Tú] | I need to leave Angie in charge of the Committee, pick a battlefield that keeps the kids and citizens out of the crossfire, and force a showdown.
-0222 [Tú] | No wars of attrition. I'm going to wipe them all out in one fell swoop!
-0223 [Opción] | Tactical Retreat
-0224 [Opción] | Decapitation Strike
-0225 [Opción] | Monolith Showdown
-0226 [Tú] | Listen up. We are going to utterly crush the Salvation Committee.
-0227 [Nazuna] | Huh? Boss, what are you talking about?==W== We only have...
-0228 [Tú] | It's more than enough.==W== As long as we get inside that Monolith, we can overcome their numbers and turn this entire war around.
+0001 [Intro] | Fin
+0002 [Intro] | Ella a tu lado
+0003 [Intro] | Te llevas a Angie contigo y te conviertes en la carnada, sacando a Loxy del cerco con ayuda de los Escorpiones del Desierto. Pero entonces, este inexplicable «océano» te corta por completo el último camino para sobrevivir...
+0004 [Lugar y hora] | 18:45, 18.º del mes de Nebula, Mirage, Calle sin nombre
+0005 [Benito] | Jefe, me queda una Piedra del Alma. Tómela.
+0006 [Tú] | Gracias, Benito.==W== Pero ¿no necesitas quedarte con algunas?
+0007 [Minova] | ¡Vas a llevar el Lucky Oasis al límite! ¡Deja de hacerte el educado y tómala!
+0008 [Tú] | Ese no es el problema.==W== Si el Comité vuelve a atacar y ustedes se quedan sin piedras, ¿de verdad podrán contenerlos?
+0009 [Kasimira] | Tranquilo. Allie acaba de evacuar a los niños al cuarto secreto de los Gatos Blancos. Es seguro y tiene buena ventilación. Ni siquiera el Comité puede entrar sin esa canción infantil.
+0010 [Kasimira] | No te preocupes por los niños. En cuanto rompas el cerco, vamos a tener mucho más margen para respirar.==W== Podemos jugar a las escondidas con el Comité por las calles y los túneles de la mina.
+0011 [Chaton] | Jejeje. El gran Chaton nunca ha perdido un juego de escondidas.==W== ¡Ya verán cómo los traigo dando vueltas con mi poder oscuro!
+0012 [Nazuka] | Jefe... ¿En serio sigues preocupándote por nosotros en un momento como este?
+0013 [Nazuka] | Tú y el Gremio de la Nueva Estrella son los que están corriendo el mayor riesgo.
+0014 [Nazuka] | ¡La verdad, siempre se te ocurren estos planes temerarios sin pensar ni un poquito en tu propia seguridad!==W== ¡De verdad no sé cómo funciona tu cerebro!
+0015 [Tú] | Porque así tenemos la mejor oportunidad de que todos salgan con vida.
+0016 [Tú] | Si nos quedamos en Mirage, el Comité nos va a desangrar antes del amanecer.
+0017 [Tú] | Bastelina sugirió que simplemente saliera huyendo. Claro que nunca haría eso, pero me dio una idea.
+0018 [Tú] | Kasimira y yo repasamos nuestras ventajas, pero pasamos por alto algo muy importante:==W== la movilidad del Lucky Oasis.
+0019 [Bastelina] | El Comité tiene magos que pueden volar o aumentar su velocidad, pero no trajeron ni un solo vehículo Artefacto al desierto.
+0020 [Tú] | El Comité solo quiere mi cabeza y a Angie. Mientras estemos en el mismo vehículo, no les quedará otra que perseguirnos.
+0021 [Tú] | Y una persecución a toda velocidad por el desierto es justo donde nosotros brillamos.
+0022 [Nazuka] | Pero todo un ejército cazándote...==W== ¡Déjame ir contigo!
+0023 [Chitose] | Mi ==SEX11==, permítame acompañarle también.==W== Si no puedo estar a su lado para protegerle, mi corazón...==W== simplemente no conocerá la paz.
+0024 [Tú] | Sé que están preocupadas.==W== Pero, Nazuka, los demás todavía tienen que resistir aquí en Mirage. Necesitan tu reconocimiento aéreo.
+0025 [Tú] | Y Chitose, eres de las pocas combatientes aquí que no depende de la magia. Necesitan tu espada. Por favor, cuida a todos por mí.
+0026 [Nazuka] | Tú...==W== Siempre tienes un millón de razones perfectas para convencernos.==W== Vamos, Chitose. No tiene caso discutir con ==SEX4==.==W==
+0027 [Nazuka] | En cuanto ==SEX== logre escapar y Mirage esté a salvo, nos llevaré volando a buscar a ==SEX4==.
+0028 [Chitose] | Tiene razón, Lady Nazuka. Cortaré con toda premura a los enemigos que queden en Mirage, y luego iremos juntas en busca de mi ==SEX11==.
+0029 [Tú] | ¿Desde cuándo esas dos se llevan tan bien...?==W== Bueno, supongo que es algo bueno.
+0030 [Tú] | Solo... prométanme que no se van a exigir demasiado. Cada una de ustedes es importante para mí.
+0031 [Nazuna] | Ya sabemos, ya sabemos. Si las cosas de verdad se ponen feas, ya veremos cómo rendirnos ante esa lata con armadura toda agujereada.
+0032 [Bastelina] | La capitana Greyhorn es una caballera honorable. No los maltratará.
+0033 [Tú] | Muy bien, nos vamos.==W== Iris, sube a Angie al carro.==W==
+0034 [Narración] | Iris empuja a Angie, atada, dentro de Loxy.==W== Encaro el sol poniente y piso el acelerador a fondo.
+0035 [Lugar y hora] | 18:50, 18.º del mes de Nebula, Mirage, desierto a las afueras de la ciudad
+0036 [Committee Elite] | Capitana, atrapamos a alguien merodeando por los túneles de la mina.
+0037 [Gunhild] | ¿Una niña? ¿Está con el Tirano?
+0038 [Committee Elite] | No...==W== creemos.==W== No está en la lista de Lady Angie, pero su magia se parece mucho a la de Nocturn Eterna.==W== No sabíamos qué pensar, así que se la trajimos.
+0039 [Gunhild] | Mmm, con esa estatura, definitivamente es solo una niña.
+0040 [Gunhild] | Hola, pequeña. ¿Cómo te llamas?==W==
+0041 [Gunhild] | Demasiado asustada para hablar, ¿eh?==W== Bueno...==W== Perdón por esto, pero déjame revisarte la cabeza.
+0042 [Gunhild] | Sin cuernos.==W== Y su magia es Gracia sacada de una Piedra del Alma.
+0043 [Gunhild] | Ay, por favor, miren esos ojos inocentes. No está con Nocturn Eterna. Es solo una Trekker a la que ustedes aterrorizaron.
+0044 [Gunhild] | Pídanle disculpas y luego llévenla a un lugar seguro.
+0045 [Committee Elite] | ¡Sí, capitana!
+0046 [Greyhorn] | Gunhild, ven acá. Tenemos un problema.==W== Cof...
+0047 [Gunhild] | Greyhorn, de verdad necesitas descansar. ¿Qué puede ser más importante que tu salud ahora mismo?
+0048 [Greyhorn] | Lady Angie acaba de comunicarse.==W==
+0049 [Lugar y hora] | 19:00, 18.º del mes de Nebula, Mirage, Calle sin nombre
+0050 [Angie] | Greyhorn, Gunhild, escúchenme.
+0051 [Angie] | El Tirano está huyendo de Mirage hacia el norte en una casa rodante verde. ==SEX1== está a punto de salir de la ciudad y pasar justo al lado de nuestro campamento de artillería.
+0052 [Angie] | Solo me permiten decir unas cuantas frases. Deben detener al Tirano. Salven al mundo.
+0053 [Angie] | Uf. ¿Será suficiente?
+0054 [Iris] | Sí. La verdad no esperaba que cooperaras tanto.
+0055 [Angie] | Una sugerencia, si me permites. Debería sentarme junto a la ventana. Así Gunhild me verá por su mira y todo el Comité irá tras ustedes.
+0056 [Iris] | Está bien. Pero no intentes nada raro.==W== Tengo un Cetro de la Muerte apuntándote directo a la columna.
+0057 [Angie] | Están haciendo exactamente lo que quiero que hagan. ¿Por qué iba a huir?
+0058 [Angie] | Desde el principio, la única persona a la que he querido matar es al Tirano.
+0059 [Angie] | Por eso mismo intenté emboscar a ==SEX4== en Philae.==W== Así,==W== las únicas bajas habríamos sido nosotros dos.==W== ¿No crees que eso habría sido mucho mejor que dejar que las llamas de la guerra consumieran Mirage?
+0060 [Iris] | ¡¿Qué lógica tan retorcida es esa?!==W== ¡Nada de esto estaría pasando si no estuvieras tan obsesionada con ese Libro de las Profecías de la Gracia!==W== Lo investigué. ¡Nadie sabe siquiera quién escribió ese libro! No tienes ni una sola prueba de que sea real.
+0061 [Angie] | No baso mi juicio sobre ==PLAYER_NAME== únicamente en el Libro de las Profecías de la Gracia.
+0062 [Iris] | ¡Me pasé días leyendo cada libro sobre leyendas del Tirano que pude conseguir!
+0063 [Iris] | ¡Adelante, expón las demás razones que tengas! ¡Las voy a desmentir una por una!
+0064 [Angie] | Qué aplicada. De verdad disfrutaría debatir esto contigo si tuviéramos tiempo.==W== Pero...==W== mira por la ventana. Mis camaradas nos alcanzaron.
+0065 [Committee Elite] | ¡Atención, todas las unidades! ¡El Tirano está en esa casa rodante verde! ¡Revienten las llantas!
+0066 [Committee Mage] | Llamas,==W== atiendan mi llamado...==W==
+0067 [Iris] | ¡Vórtice Ártico!
+0068 [Committee Mage] | ¡¿M-mi báculo está completamente congelado?!==W== ¡¿Cómo es que un hechizo de hielo cubre tanto terreno?! ¡¿Quién demonios va en ese carro?!
+0069 [Iris] | Uf... No había lanzado ese hechizo desde que lo aprendí. No esperaba que funcionara tan bien.
+0070 [Iris] | Esperen, ¡¿por qué está vacía mi Piedra del Alma?!==W== ¡¿Ese único hechizo se acabó la Gracia de una piedra entera?!
+0071 [Iris] | ¡Q-qué desperdicio! ¡N-nunca había lanzado un hechizo tan caro!
+0072 [Gunhild] | ¿Lanzarse directo hacia nosotros solo para soltar un hechizo de área enorme? Están subestimando al Comité de Salvación.
+0073 [Gunhild] | ¡Rodéenlos! ¡Vamos a recuperar a Lady Angie!
+0074 [Committee Elite] | ¡Levanten los muros de arena! ¡Bloqueen su camino!==W==
+0075 [Noya] | ¡Oigan! ¡Quítense del camino de Loxy!
+0076 [Committee Elite] | ¡Maldición, ¿de dónde salieron estas dos Trekkers?!==W== ¡Bloqueen sus disparos!
+0077 [Amber] | Loxy. Adelante.
+0078 [Tú] | ¡L-lo logramos! Menos mal que Noya y Amber abrieron paso, o nos habríamos estrellado de lleno contra ese muro de arena.
+0079 [Greyhorn] | Cof, cof...==W== Bien jugado, Tirano. Encontraste de inmediato la falla fatal de nuestra táctica.
+0080 [Greyhorn] | Entre la velocidad del vehículo y sus aliados estorbándonos, una formación como la nuestra, que depende del apoyo mutuo, queda hecha pedazos.
+0081 [Greyhorn] | ¡Todos los escuadrones de combate, escuchen! ¡Levanten muros de arena a mi señal! ¡No se lancen a atacar, primero acorrálenlos!
+0082 [Greyhorn] | Gunhild, esas dos Trekkers son tuyas.
+0083 [Gunhild] | ¡Conmigo! ¡Derríbenlas!
+0084 [Noya] | ¡Amber, ahora! ¡Usa tus correas!
+0085 [Amber] | Entendido.
+0086 [Narración] | Amber salta de la duna y se eleva por los aires con Noya.
+0087 [Narración] | Las correas negras de sus muñecas salen disparadas por el quemacocos abierto de Loxy, se enredan en las agarraderas de los asientos y las jalan hacia el vehículo en plena carrera.
+0088 [Amber] | Aterrizaje perfecto.==W==
+0089 [Noya] | ¡==PLAYER_NAME==, ya volvimos! Hablamos con los Escorpiones del Desierto, tal como nos pediste.
+0090 [Noya] | ¡Y Loxy atrajo a todo el Comité directo hacia nosotros! ¡Ahora solo tenemos que atravesar esos muros de arena y ganamos!
+0091 [Tú] | No lo digas como si no fuera la gran cosa. Parece que están tratando de unir esos muros de arena en un círculo para atraparnos adentro.
+0092 [Tú] | ¿Hacia dónde giro, Noya?
+0093 [Noya] | ¡Sigue a tu corazón! ¡Solo gira hacia donde más quieras ir!
+0094 [Tú] | ¡¿De qué hablas, Noya?! ¡Yo no tengo tu intuición!
+0095 [Narración] | La cálida palma de Noya cubre mi mano y me ayuda a sujetar firmemente el volante.
+0096 [Noya] | Me di cuenta en cuanto salimos del cuarto secreto de los Gatos Blancos.
+0097 [Noya] | Hoy has estado... especialmente protector con nosotras.==W== O, siendo más egoísta, especialmente protector conmigo.
+0098 [Noya] | No sé qué está pasando, pero puedo sentir lo ansioso que estás. Cada vez que peleamos, siempre te aseguras de que estemos en el lugar más seguro posible.
+0099 [Noya] | Pero para esta «gran fuga» final, aun así decidiste confiar en nosotras.==W== No has olvidado...==W== la promesa que hicimos los cuatro nuestra primera noche en Mirage.
+0100 [Tú] | Es porque... Porque...
+0101 [Tú] | ¿Cómo se supone que diga esto? ¿Cómo explico lo que pasó la última vez sin mencionar la Sala Blanca?
+0102 [Noya] | Jeje, no tienes que responderme ahora, ==PLAYER_NAME==. Puedo esperar.
+0103 [Noya] | ¿Te acuerdas de ese Stellaroid enorme contra el que peleamos en el Canal?
+0104 [Tú] | Claro que me acuerdo. Fue la primera vez que peleamos juntos. Nuestra primera batalla de verdad.
+0105 [Noya] | Enfrentarnos a un monstruo así en nuestro primer trabajo en equipo... Fuimos totalmente temerarios.==W== Con una diferencia de poder así, cualquiera habría dicho que no teníamos ninguna oportunidad.==W== Era el tipo de desesperación que se supone que nunca puedes superar.
+0106 [Noya] | ¡Pero teníamos tu cerebro, la cautela de Iris, la agilidad de Amber y mi intuición!
+0107 [Noya] | ¡Al diablo con la desesperación! ¡Convertimos lo imposible en posible!
+0108 [Noya] | ¡Y hoy no será diferente!
+0109 [Myrsha] | Capi, ¿de verdad esto va a ayudar al Jefe?
+0110 [Hazana] | ¡Jajaja! ¡Ni idea! Pero esa Trekker, Noya, ¿así se llamaba? Tenía toda la razón.
+0111 [Hazana] | Los Escorpiones necesitamos que esta guerra territorial se acabe, y para ayer.==W== Y si no pueden terminarla, que se la lleven a otro lado. Si esto sigue así, nuestra mina de diamantes de cristal se va a derrumbar.
+0112 [Myrsha] | Pero hace rato usted ayudó al Comité a invocar una tormenta de arena...
+0113 [Hazana] | Eso fue antes, esto es ahora.==W== Pensé que el Comité iba a ganar rápido, así que les eché una manita. No esperaba que el Jefe descubriera todo su plan.
+0114 [Hazana] | Menos mal que nadie de la gente del Jefe salió herido, así que no hay rencores.==W== Ahora toca darle la vuelta a la tortilla y ayudarlos.==W== Claro que no podemos dejar que el Comité nos atrape haciéndolo, o vendrán a tocarnos la puerta.
+0115 [Myrsha] | ¡Atención, ahí viene la casa rodante!
+0116 [Hazana] | ¡Arenas doradas bajo el sol poniente, atiendan mi llamado! ¡Levántense y formen la duna!
+0117 [Narración] | Un gigante forjado de arena dorada se alza frente a los muros de arena del Comité,==W== y de inmediato se desmorona, como si quien lo invocó hubiera perdido el control.
+0118 [Tú] | ¿Q-qué acaba de pasar?
+0119 [Iris] | ¡Ya entiendo! El Comité tiene magia de sobra, así que es imposible romper esos muros. Pero si alguien echa suficiente arena para formar una rampa improvisada...
+0120 [Noya] | ¡Entonces podemos pasar volando por encima!
+0121 [Amber] | Como en el Canal.
+0122 [Narración] | Al despegar de la cresta de la duna, el Lucky Oasis traza un arco perfecto en el aire,==W== pasa justo por encima de las cabezas de Greyhorn y Gunhild y aterriza en el desierto infinito.
+0123 [Narración] | Diez días después.
+0124 [Lugar y hora] | 10:00, 28.º del mes de Nebula, Desierto del Atardecer, en lo profundo del desierto
+0125 [Firenze] | Jefe, los Árbitros del Ocaso y yo capturamos a casi todo el Comité de Salvación.
+0126 [Firenze] | Gracias a que los traías corriendo por todo el desierto hasta agotarlos, casi no tuvimos bajas. Todos están a salvo.
+0127 [Tú] | Qué alivio.==W== Aunque se nos está acabando la Gracia. ¿Puedes mandar a alguien por nosotros?
+0128 [Firenze] | Mistique, Nazuka y Chitose salieron hace unos días. Llevaron muchas Piedras del Alma.==W== La verdad, llegaste increíblemente lejos.
+0129 [Tú] | No teníamos opción. Queríamos ir al este y reunirnos con ustedes después de salir de Mirage,==W== pero Greyhorn nos cerró el paso, así que tuvimos que acelerar hacia el noroeste.
+0130 [Tú] | A juzgar por la distancia, estamos prácticamente en el borde del continente de Nova. Uno o dos días más manejando y seguro llegaríamos al océano.
+0131 [Tú] | Ya dimos la vuelta. Pronto deberíamos toparnos con los demás. Me comunico con ellos ahora.==W== Hablamos luego, Firenze.
+0132 [Firenze] | Te estaremos esperando, Jefe.
+0133 [Tú] | Uf... Por fin se acabó.
+0134 [Tú] | Tuvimos muchos baches en el camino, y hasta le dimos sin querer al Comité un «impulso de combate»...==W== Pero ya se acabó.
+0135 [Tú] | En cuanto entreguemos a Angie a los Árbitros del Ocaso, por fin podremos volver a nuestra vida normal.
+0136 [Angie] | ¿De verdad se acabó,==W== Tirano?
+0137 [Angie] | Incluso ahora, no he renunciado a matarte.==W== De hecho, sigo absolutamente segura de que lo haré.
+0138 [Amber] | Perdiste. Deja de fanfarronear.
+0139 [Angie] | ¿Ah, sí? Muy pronto lo sabrás.
+0140 [Iris] | ¿Noya? ¿Qué pasa? ¿Por qué frenas?
+0141 [Noya] | T-tienen que ver esto...==W== El desierto... Desapareció.
+0142 [Lugar y hora] | 10:15, 28.º del mes de Nebula, Desierto del Atardecer, en lo profundo del desierto
+0143 [Tú] | ¡¿Esto es...==W== el océano?! ¿Qué hace un océano en medio del desierto?
+0144 [Iris] | ¿El mar al final del desierto? ¡Pero eso debería estar al oeste! Noya, ¿estás segura de que no nos fuimos por el camino equivocado?
+0145 [Noya] | ¡Yo no cometería un error de novata así! Miren el sol. ¡Hemos ido hacia el este todo este tiempo, siguiendo exactamente nuestra ruta de regreso!
+0146 [Tú] | Es Nazuka.
+0147 [Tú] | Hola, Nazuka. ¿Dónde están?==W== Tuvimos un contratiempo por acá. Vamos a tardar un poco más en reunirnos.
+0148 [Nazuka] | Jefe, ¿adónde te fuiste? Ya llegamos a la costa y todavía no te encontramos.
+0149 [Tú] | ¿La... costa?
+0150 [Angie] | Para ver el verdadero Fin del Mundo, hay que viajar hacia el oeste durante días,==W== cruzar las arenas movedizas y las montañas, hasta donde el desierto se encuentra con el mar.
+0151 [Angie] | Ahí, la tierra se desmorona constantemente hacia un abismo negro como la noche.
+0152 [Tú] | Angie sí dijo eso durante la negociación de la otra vez...==W== No me digas que este océano es...==W== ¡No, no puede ser!
+0153 [Tú] | Amber, dispara hacia arriba. A máxima potencia.
+0154 [Amber] | Recibido.
+0155 [Nazuka] | Jefe, veo... un destello de luz roja en el horizonte. ¿Fuiste tú?==W==
+0156 [Chitose] | ¿Mi ==SEX11==...==W== está del otro lado del mar?
+0157 [Angie] | Jaja...==W== ¡Jajajaja!
+0158 [Angie] | Sí derrotaste al Comité de Salvación, Tirano. ¡Pero pensar que terminarías atrapado aquí, condenado por el mismísimo fin del mundo!
+0159 [Angie] | Es obvio con solo verlo. Este estrecho se formó porque la tierra se derrumbó mientras estabas en lo más profundo del oeste, y el océano simplemente entró a llenar el vacío.
+0160 [Angie] | La esquina noroeste del continente de Nova no tiene Monolito. Es donde la destrucción es más grave.==W== Estabas tan concentrado en llevar al Comité a su tumba que nunca te diste cuenta de que estabas cavando la tuya.
+0161 [Noya] | ¿De qué estás balbuceando? ¿Un estrecho así de angosto? ¡Podemos cruzarlo volando!
+0162 [Nazuka] | Exacto.==W== Mistique,==W== vamos por ellos.
+0163 [Mistique] | ¡No, no podemos!==W== No podemos volar sobre el agua para nada. Hay demasiada magia en el aire aquí. ¡Ni siquiera puedo controlar mi escoba!
+0164 [Nazuka] | ¡¿Qué?!==W== ¡Agh!
+0165 [Mistique] | ¡Cuidado! No lo fuerces. Esta magia ambiental solo va a deformar tus hechizos.
+0166 [Angie] | No gasten saliva. Una masa de tierra que se derrumba crea una enorme turbulencia mágica. Suele durar años. Intentar lanzar un hechizo en una vorágine así es prácticamente un suicidio.
+0167 [Angie] | Si quieren salvar a su Tirano, tendrán que navegar en un barco que no funcione con magia.
+0168 [Angie] | Por desgracia para ustedes, no hay ni un solo puerto en el noroeste de Nova.
+0169 [Nazuka] | ¡No! ¡Tengo que intentarlo otra vez!
+0170 [Chitose] | ¡Cruzaré a nado!
+0171 [Noya] | ¡Rápido, súbanse al carro! ¡El suelo de nuestro lado también se está hundiendo!
+0172 [Angie] | Je... Adiós,==W== Tirano.==W== Tener un final como este... Me doy por satisfecha.
+0173 [Narración] | El rostro de Angie refleja puro alivio. De cara al océano, arroja algo diminuto a las olas.
+0174 [Narración] | Al segundo siguiente, las violentas mareas se la tragan entera, junto con la arena bajo sus pies.
+0175 [Narración] | Loxy retrocede desesperadamente, pero para cuando por fin sus llantas dejan de patinar, ni siquiera Mistique y Nazuka, desde lo alto, alcanzan a ver la segunda bengala de Amber.
+0176 [Narración] | Los días se vuelven borrosos. Cuando se nos agota la última gota de magia, nos vemos obligados a seguir a pie, esquivando la tierra que se derrumba y el mar que avanza.
+0177 [Narración] | Albedo les suplica a los Centinelas del Alba y a los Árbitros del Ocaso que organicen un rescate.
+0178 [Narración] | La Asociación de Trekkers reúne a todos los Trekkers navegantes que puede encontrar.
+0179 [Narración] | Firenze y Matilda incluso dan con la sede de Cosecha Unida para intentar mandar barcos desde el sur de Nova.
+0180 [Narración] | Pero todos sus esfuerzos son inútiles.
+0181 [Narración] | ==Off==La turbulencia mágica que provoca la tierra al fracturarse forma una barrera violenta que separa del resto de Nova el fragmento de desierto en el que estamos.
+0182 [Narración] | ==Off==El transporte en Nova prospera, pero la navegación se abandonó hace mucho. Incluso a toda velocidad, el barco más cercano tardaría un mes en llegar hasta nosotros.
+0183 [Narración] | ==Off==Nuestras provisiones nunca durarán tanto.
+0184 [Iris] | Jefe, ¿estás despierto?
+0185 [Iris] | Jefe, ¿estás despierto?
+0186 [Narración] | Mis labios se mueven, pero no sale ningún sonido. Hace días que mi garganta reseca se entumió. La más leve vibración de mis cuerdas vocales se siente como tragar vidrio.==W==
+0187 [Narración] | Con lo último de mis fuerzas, aprieto la mano de Iris, solo para demostrar que sigo respirando.
+0188 [Iris] | Noya y Amber... Ya están frías.
+0189 [Iris] | Jefe, creo que a mí tampoco me queda mucho.
+0190 [Iris] | Te desmayaste hace rato... Así que no escuchaste sus últimas palabras.==W== Yo... yo te las digo. Cof...
+0191 [Iris] | Nos van a rescatar. Y cuando eso pase... Reconstruyamos a Loxy juntos... y volvamos a ponernos en marcha.
+0192 [Iris] | Eso dijo Noya.
+0193 [Iris] | Hablar con el Jefe es divertido. Pero hace mucho... que no tenemos una plática de verdad.
+0194 [Iris] | Eso dijo Amber.
+0195 [Iris] | Y... estas son las mías.
+0196 [Iris] | Me alegra tanto que te hayamos encontrado en ese Monolito. Aunque...
+0197 [Iris] | Estar aquí sentada contigo... Convertirnos en una señal para otros Trekkers... No es una mala forma de irse, Jefe.
+0198 [Narración] | Los dedos de Iris se aflojan y se deslizan lentamente de mi mano. Y yo... ni siquiera puedo derramar lágrimas de dolor.
+0199 [Lugar y hora] | ??:??, ?.º del mes de ?, ????, Sala Blanca
+0200 [Bernina] | Bienvenido de vuelta, Tirano.
+0201 [Virigia] | Tengo un poco de agua para usted. ¿Le gustaría aliviarse la garganta?
+0202 [Tú] | Cof...==W== Agh...==W== Ya no me duele la garganta. ¿P-puedo volver a hablar?
+0203 [Virigia] | La Sala Blanca alberga su alma, no su cuerpo físico. Las heridas que sufrió su cuerpo no se manifiestan aquí.
+0204 [Virigia] | Esta vez de verdad sufrió.==W== Calcinado por ese sol abrasador mientras el agua se le escapaba lentamente del cuerpo... Entiendo lo terrible que se siente.
+0205 [Bernina] | Aun así, ¿quedar sepultado en el mismo desierto con tus compañeras más queridas y tu «hogar» sobre ruedas? Eso hasta podría ser una bendición.==W== Hay mucha gente allá afuera que no podría ni rogar por un final tan dulce.
+0206 [Tú] | Yo...==W== Volví a fallar.==W== Y arrastré conmigo a todavía más amigos a este calvario.
+0207 [Tú] | Y... El fin del mundo...==W== De verdad existe...
+0208 [Tú] | Bernina, Virigia... ¿Saben algo sobre este «fin del mundo»?
+0209 [Virigia] | Lo siento. Como personal del Monolito, solo nos enteramos de las noticias platicando con los Trekkers que pasan. Nunca han mencionado nada sobre el fin del mundo.
+0210 [Bernina] | Y aunque supiéramos algo, nuestro acuerdo de confidencialidad nos impediría decir una sola palabra.
+0211 [Tú] | Ya veo.==W== Vita, ¿y tú? ¿Lo sabías?==W== No, espera, aunque lo supieras, solo dirías...
+0212 [Vita] | Tirano. No tengo los permisos suficientes para revelar información sobre este asunto.
+0213 [Tú] | Ahora hasta me ganas la palabra.
+0214 [Tú] | Abre la puerta. Con todo lo que aprendí esta vez, sé exactamente cómo ganar esta guerra.
+0215 [Tú] | ¡Voy a salvar a todos, y nadie saldrá herido!
+0216 [Vita] | Su orden es mi voluntad.
+0217 [Iris] | Hasta el Viento de Ceniza está aquí... ¿De verdad vamos a tener el enfrentamiento final con el Comité de Salvación justo aquí? Agh... No hay forma de que ganemos esto.
+0218 [Amber] | Jefe, ¿qué hacemos ahora?
+0219 [Tú] | Huir no sirve. El ataque de decapitación no sirve.
+0220 [Tú] | Si quiero proteger a todos, tengo que aprovechar absolutamente cada dato que reuní en los dos intentos anteriores.
+0221 [Tú] | Tengo que dejar a Angie al mando del Comité, elegir un campo de batalla que mantenga a los niños y a los ciudadanos fuera del fuego cruzado y forzar un enfrentamiento definitivo.
+0222 [Tú] | Nada de guerras de desgaste. ¡Voy a acabar con todos ellos de un solo golpe!
+0223 [Opción] | Retirada táctica
+0224 [Opción] | Ataque de decapitación
+0225 [Opción] | Enfrentamiento en el Monolito
+0226 [Tú] | Escuchen. Vamos a aplastar por completo al Comité de Salvación.
+0227 [Nazuna] | ¿Eh? Jefe, ¿de qué hablas?==W== Solo tenemos...
+0228 [Tú] | Es más que suficiente.==W== Mientras logremos entrar a ese Monolito, podremos superar su número y darle la vuelta a toda esta guerra.

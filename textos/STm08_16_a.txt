@@ -1,12 +1,12 @@
-# Capítulo 8 · Calor residual · 13A · The White Cat's Past
+# Capítulo 8 · Calor residual · 13A · El pasado de los Gatos Blancos
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Chatty Desert Scorpion | Chatty Desert Scorpion
-N:Flirtatious Knight | Flirtatious Knight
-N:Petite Waitress | Petite Waitress
-N:Serious White Cat | Serious White Cat
+N:Chatty Desert Scorpion | Escorpión del Desierto parlanchín
+N:Flirtatious Knight | Caballero coqueto
+N:Petite Waitress | Mesera menuda
+N:Serious White Cat | Gato Blanco serio
 N:avg1_103 | Amber
 N:avg1_108 | Kasimira
 N:avg1_111 | Iris
@@ -17,11 +17,11 @@ N:avg1_139 | Allie
 N:avg1_144 | Chitose
 N:avg1_145 | Otoha
 N:avg1_146 | Benito
-N:avg2_967 | White Cat Mercenary
-N:avg2_968 | White Cat Mercenary
+N:avg2_967 | Mercenario Gato Blanco
+N:avg2_968 | Mercenario Gato Blanco
 N:avg3_100 | Sylar
 N:avg3_1304 | Chaton
-N:avg3_1311 | SaiLa F
+N:avg3_1311 | SaiLa
 N:avg3_138 | Trekker
 N:avg3_144 | Residente
 N:avg3_157 | Guardia Imperial
@@ -29,186 +29,186 @@ N:avg3_167 | Chica
 N:avg3_168 | Chica
 N:avg3_170 | Chico del Distrito de las Cenizas
 N:avg3_181 | Narida
-N:avg3_188 | Female Flavio Resident
-N:avg3_200 | Ash District Boy
-N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_188 | Residente de Flavio
+N:avg3_200 | Chico del Distrito de las Cenizas
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
 N:avg3_974 | Serena
 
 ## Texto
-0001 [Intro] | Act Thirteen
-0002 [Intro] | The White Cat's Past
-0003 [Intro] | At Eureka Bar, you trade intel with Allie and the White Cat Troupe. The clues lead to the secret room, but Taffett, the key to it all, has vanished. With memory loss hindering the Trekkers, you come up with an idea...
-0004 [Lugar y hora] | 12:30, Nebula Month 17th, Mirage, Eureka Bar
-0005 [Kasimira] | Alright, here we are. The Eureka Bar.
-0006 [Noya] | Whoa!==W== This place is buzzing.
-0007 [Noya] | Hey, are those ...==W== Desert Scorpions and Imperial Guards over there?==W== Kasimira, get out of sight!
-0008 [Chaton] | Relax. No one starts anything in here.==W== Watch and learn.
-0009 [Amber] | They walked==W== right past?
-0010 [Iris] | What is going on?==W== Out there, the Scorpions were ready to tear you apart, and you clashed with those Guards a few days ago. How does any of this make sense?
-0011 [Kasimira] | That was outside. In here,==W== at the Eureka Bar, fighting is strictly prohibited. Faction loyalties don't matter.==W== Everyone's a customer.
-0012 [Chatty Desert Scorpion] | Hey there, Mr. Knight! Any word on when the Guard's next "war" with us is?
-0013 [Flirtatious Knight] | Next month, probably. Everyone's swamped with paperwork, balancing the books. That last scrap tied us up. We're waiting on that year-end budget spree.
-0014 [Chatty Desert Scorpion] | Ugh, seriously? We've got a commission out in the desert next month. We'll miss the whole thing. I don't wanna go. Last time we hit Philae, we lost a fortune.
-0015 [Flirtatious Knight] | Philae? Oh, I heard about that. You got rolled by some fox.==W== You were on that op, too?
-0016 [Chatty Desert Scorpion] | Tch. Can we drop that?==W== Didn't your standard-bearer get wrecked by some meek little Trekker==W== before she got transferred here?
-0017 [Serious White Cat] | Alright, break it up.==W== A "war" is fine, but keep it away from the Eureka Bar and the orphanage next month.
-0018 [Serious White Cat] | Other than that, we White Cats will play along. And don't pick a weekend. We've got our own gigs.
-0019 [Chatty Desert Scorpion] | Oh please, nobody's gonna fight in here. I live for their sweet drinks. This place keeps me going.
-0020 [Flirtatious Knight] | Same goes for the orphanage. Director Allie took in several of our Guards' kids. We owe her big time.==W== No weekends for sure. I'll let the standard bearer know.
-0021 [Iris] | Ehh?? K-Kasimira, there...==W== The Scorpions, the Guards, and the White Cats, all sitting together, discussing what sounds like classified intel...==W==
-0022 [Kasimira] | It's fine. That intel was meant for them anyway.
-0023 [Amber] | Was?==W== Meant for them?
-0024 [Kasimira] | I assume you've already figured it out—the three factions in Mirage only fight each other to keep the local economy running.
-0025 [Kasimira] | Honestly, we're all sick of it—the White Cats, the Desert Scorpions, and the Imperial Guard alike.==W== But without those meaningless battles, Mirage simply wouldn't survive.
-0026 [Kasimira] | As long as nobody crosses the line, we maintain an unspoken truce. We're just putting on a play in this town—one called "the war to wipe out the White Cats."
-0027 [Kasimira] | And since it's a play, we need to get our scripts straight. That's what Eureka Bar is for. It's neutral ground where we deliberately leak intel to each other.
-0028 [Tú] | The Cats, the Scorpions, and the Guards...==W== Everyone knows what everyone else is up to. Total transparency. And ironically, that's the only thing holding Mirage together.
-0029 [Kasimira] | Exactly. Now that we're working together, let me formally introduce myself.
-0030 [Kasimira] | I'm Kasimira, Captain of the White Cat Troupe's Third Squad.==W== I also handle daily operations.
-0031 [Kasimira] | The one who dueled Amber is Chaton. She's our best sniper.
-0032 [Chaton] | Whoa, Kasimira actually gave me a compliment? What's the catch? ... Eh, whatever.
-0033 [Chaton] | Heheh! Hear me, you poor souls robbed of your place in this world! I am Chaton!==W== Follower of the one who defies the gods, bearing the dark power sealed in my left eye! ...==W== Oh, and my hobbies are rhythm games and listening to music! ♪
-0034 [Petite Waitress] | Captain Kasimira? Director Allie actually came with you—now that's a first. And you brought some unfamiliar faces, too...==W==
-0035 [Kasimira] | Perfect timing. Let me introduce everyone. This is Benito, our technician. She can fix just about anything and works part-time here at Eureka Bar.
-0036 [Benito] | Welcome to Mirage!==W== Whenever you're worn out, come by Eureka for a drink.
-0037 [Tú] | Hello. I'm ==PLAYER_NAME==, CEO of Boss Accord. You can just call me Boss.
-0038 [Tú] | These three are my partners: Noya, Iris, and Amber.==W== They used to live at the orphanage, but now they're Trekkers.
-0039 [Benito] | Wow, no kidding! Mom Allie actually made this uniform for me,==W== so I'm practically an honorary orphanage kid myself!==W== Come on, today's on me. What'll you guys have?
-0040 [Noya] | Awesome! What's good here?==W== Does Eureka Bar have a specialty?
-0041 [Iris] | Um, Noya...==W== Could you at least pretend to hesitate a bit...==W==
-0042 [Benito] | No, no, it's totally fine! Let me think... Eureka Bar's specialty...==W== Uh, haha...==W==
-0043 [Chaton] | I know this place.==W== Let me handle the order.
-0044 [Chaton] | I want a fistful of gummy bananas, a giant stargazy pie, and some mosquito patties.==W== All smothered in Allie's special thick strawberry jam.
-0045 [Benito] | You'll choke on that,==W== Chaton.
-0046 [Chaton] | I know.==W== That's why we all need a glass of thick, syrupy peach juice.
-0047 [Benito] | Alright then.==W== To your health.==W==
-0048 [Tú] | Allie's special strawberry jam...==W== I think she mentioned that before.==W==
-0049 [Allie] | Ah... Well...==W== I tried selling some food I made from an ancient recipe there.==W== G-Guess it wasn't a hit.
-0050 [1] | You know, I've barely had any of Allie's cooking. I can't wait to see how it tastes!
-0051 [Allie] | Ahem.==W== Let me order some normal food and drinks for everyone.
-0052 [Iris] | Boss,==W== don't get your hopes up.
-0053 [1] | It's okay! Even Noya, an amazing cook, grew up eating Allie's food. It should be fine getting a little excited?
-0054 [Iris] | Ahaha, actually...==W== We always cooked for ourselves. Once Noya showed off her cooking skills, she took over the kitchen.==W== When we left, another kid took over.
-0055 [1] | Uh... Wait... Are you saying ...==W== Allie's cooking is...==W==
-0056 [Iris] | It's hard to describe. She learned everything from an ancient handwritten recipe book she found in the orphanage basement.
-0057 [Iris] | Come to think of it, the Tawny Nightingale recipe Miss Firenze found was probably a page from that same book.
-0058 [1] | So Allie's cooking is as good as the Tawny Nightingale?! Then why did Chaton...==W==
-0059 [Chaton] | Ah,==W== these fish gazing up at the sky... Romantic, right? Sticking whole fish into a pie. Nobody normal would think of that.==W== It must be ceremonial food for boosting the power of darkness... ♪==W==
-0060 [1] | Oh, it's her personal taste!!==W==
-0061 [Kasimira] | Alright.==W== Let's exchange information as agreed.
-0062 [Tú] | Hold on. Before we share intel, I need to ask a question. How did you know I've been labeled the Tyrant, and that the Tyrant wants to destroy the world?
-0063 [Tú] | When we first met at the orphanage, you didn't know me. Mirage is cut off from the outside. But just a few days later... You knew everything.
-0064 [Chaton] | After the fight with the Imperial Guard, I left Mirage to check your story.==W== Less than a day later, I ran into a sage in the desert.
-0065 [Iris] | A ... sage?==W== Is that still a thing?
-0066 [Chaton] | Of course it is! They wore a cloak and talked all cryptic. Classic sage.
-0067 [Tú] | A cloak?!
-0068 [Chaton] | She told me all about the Tyrant who will destroy the world, even showed me a Scarlet Sights newspaper to prove it.==W== But she was weird. I turned around, and she was gone.==W== Nothing left but an empty cloak on the ground.
-0069 [Chaton] | I'm not lying!==W== See? Here's the cloak.
-0070 [Tú] | There's no mistaking it. This is...!
-0071 [Serena] | That said... I mean you no harm.==W== Would you mind asking your friend to move her blade away from my neck?
-0072 [Chitose] | My ==SEX11==. A cloak materialized in the grass behind you,==W== and this strange woman emerged from it.
-0073 [Tú] | Everyone, watch out! That cloak is from Serena...==W== No, Angie!
-0074 [Narración] | The moment the warning is out, Amber snatches the cloak and tosses it to Iris, who stuffs it into her small suitcase.
-0075 [Allie] | What do you mean watch out? I don't sense any magic from it. It looks like an ordinary cloak.
-0076 [Noya] | It looks ordinary on the outside, sure. But Angie keeps popping out of it from nowhere. It gives me the creeps!
-0077 [Iris] | After Boss was attacked, we started thinking about how to handle her sneak attacks. We decided that whenever we spot a cloak like this, it goes straight into my suitcase.
-0078 [Iris] | We considered destroying it, but it would be too risky to damage what appears to be a magical item without knowing how it works. Besides, she cannot appear inside my suitcase and burst out... Right?
-0079 [Tú] | Anyway, thanks to you,==W== now I know Angie is already near Mirage, even though I have no idea how she tracks me.
-0080 [Tú] | We're running out of time. Captain Kasimira, let's swap intel now. Though I'm afraid we don't have much to offer on our end...
-0081 [Kasimira] | Not at all. We both get what we need. To help you understand the story behind the vanished Monolith, I need to share a bit of White Cat history. I'll keep it brief.
-0082 [Narración] | In the past,==W== the White Cat Troupe served as the Novian Empress's personal guard.
-0083 [Kasimira] | To Trekkers who braved the Wilds or Sentinels of Dawn who guarded the Monoliths,==W== casualties were unavoidable.
-0084 [Kasimira] | The Empress built orphanages==W== to take in the children who lost their parents.
-0085 [Kasimira] | Most of them grew up, left,==W== and lived normal lives.==W== But some children,==W== the ones drawn to the ideas of home and adventure, chose to join the White Cat Troupe instead.
-0086 [Kasimira] | As the Empress's personal guards, we didn't see much combat. We built theaters across Nova and performed for the people, all while serving as the Empress's eyes and ears.
-0087 [Kasimira] | Occasionally,==W== we punished corporate executives who broke the law.
-0088 [Kasimira] | Twenty-five years ago, the Troupe built a theater in the rising city of Mirage. Back then, it was famous for its rich crystal diamond deposits...==W==
-0089 [Kasimira] | But the White Cats stationed here weren't after crystal diamond intel.==W== We were sent to protect the Monolith outside the city.
-0090 [Noya] | A Monolith outside the city...==W== Mirage had one back then?
-0091 [Kasimira] | Yes,==W== and it stood right up until six years ago.==W== Let me finish.
-0092 [Kasimira] | This Monolith was different from the rest. No elevator, no doors.==W== For years, it was a sealed mystery.
-0093 [Kasimira] | But Mirage was thriving. Crystal diamonds brought in massive wealth,==W== and people could buy whatever Artifacts they needed from outside the desert.
-0094 [Kasimira] | Eventually,==W== they stopped caring about the impenetrable Monolith.
-0095 [Kasimira] | A decade passed. About fifteen years ago, the old Empress died.==W== The successor and politicians despised us.==W== They wanted us gone.
-0096 [Kasimira] | War broke out fast.==W== They branded us heretics and pinned the old Empress's murder on us.==W== Told the world that White Cats were rebellious assassins.
-0097 [Iris] | That playbook sounds awfully familiar. Boss...==W==
-0098 [Kasimira] | We didn't learn the truth until years later.==W== The ones pulling the strings called themselves the Salvation Committee. The exact same group hunting you down now.
-0099 [Kasimira] | But back then, we were completely in the dark. They arrested our people, tore down our theaters and orphanages. The survivors fled to our final stronghold here in Mirage.
-0100 [Kasimira] | I was only a kid. But I remember our entire survival rested on a single White Cat. Her name was Taffett.
-0101 [Tú] | Taffett. You brought that name up at the orphanage. Who is she?
-0102 [Kasimira] | She was the only one of us who fought with dual pistols. But that wasn't why we needed her. Taffett was the last White Cat to see the old Empress alive.
-0103 [Kasimira] | One statement from her could have cleared our name.
-0104 [Kasimira] | Except she vanished the day the Empress died. Captain Narida knew her better than anyone and searched for years. Never found a single trace.
-0105 [Tú] | The only member to use dual pistols... No wonder you zeroed in on Amber.
-0106 [Kasimira] | Exactly. Honestly, it's been so long that there's barely anyone left in the Troupe from those days.
-0107 [Kasimira] | And at this point, even if we found the truth, the world wouldn't care. We're just chasing it for our own closure.
-0108 [Tú] | Hm... Then why keep looking for Taffett?
-0109 [Kasimira] | Because—==W==
-0110 [Narración] | Six years ago.
-0111 [Kasimira] | Captain, please reconsider.==W== Desert Scorpions and the Imperial Guard will never let us walk away. There's a ninety-nine percent chance this peace talk is a trap. They just want an excuse to capture you.
-0112 [Narida] | Always so analytical, Kasimira.==W== You've grown into a White Cat capable of handling yourself. That makes me proud.
-0113 [Kasimira] | This is no time for compliments, Captain. We need to fall back. I've scouted the perimeter, and no one is following us.
-0114 [Narida] | Fall back? You said yourself there's a ninety-nine percent chance this is a trap. That still leaves a one percent chance they actually want peace.
-0115 [Kasimira] | That might as well be zero.
-0116 [Narida] | Anything above zero is worth trying. Maybe Desert Scorpions and the Imperial Guard are sick of this pointless war too. If they want the Monolith, let them take it.
-0117 [Kasimira] | But our orders...
-0118 [Narida] | Keeping you alive matters more to me than any royal decree. I will break the chains tying down the White Cats. I have to.
-0119 [Narida] | Kasimira, if you understand, turn around and head back to Mirage. The rest of the way is mine alone. Go.
-0120 [Narida] | And Kasimira. If I don't return, lead the remaining White Cats. Live well. Forget about the Empress and orders.
-0121 [Kasimira] | Captain, I'm not leaving you!
-0122 [Narida] | That's a direct order!==W== You never disobey me. This time, say understood like a good soldier and fall back.
-0123 [Kasimira] | That was the first time I ever broke protocol. Instead of heading back to Mirage, I trailed her from far behind.
-0124 [Kasimira] | I watched her meet the captains of Desert Scorpions and the Imperial Guard. She used a strange explosive to blow a hole in the side of the Monolith, and they all climbed inside.
-0125 [Kasimira] | None of them came back out. Then a sandstorm swept through, and the Monolith disappeared without a trace.
-0126 [Iris] | Disappeared? Are you saying that Monolith...==W==
-0127 [Amber] | Actually ...==W== moved?
-0128 [Kasimira] | We don't know. That's exactly why we need to find it. To look inside for any sign of what happened to her.==W== Or at least understand why she was so fixated on making a deal with the enemy.
-0129 [Kasimira] | That brings us back to the "secret room" you're after.==W== The clues I need and the records for that specific Monolith should be locked in there.
-0130 [Kasimira] | Captain Narida sealed that room herself, deep inside the crystal diamond mines.
-0131 [Kasimira] | Only two people knew the passcode. Captain Narida and Taffett.
-0132 [Noya] | Wait... Let me get this straight. So, the Monolith clues we're after, and the clues Kasimira seeks about her captain... They are both in that same room, right?
-0133 [Iris] | Then our goals line up.==W== The key is finding Taffett. Is that right?
-0134 [Allie] | Alright then.==W== Let's talk about these guns, and what we remember.
-0135 [Narración] | They share what they remember about Amber's guns. That's when I finally grasp what climbing the Monolith costs a Trekker.
-0136 [Iris] | Before we left the orphanage, I found a hidden compartment behind a basement bookshelf.==W== Inside were these two pistols and a set of clothes.
-0137 [Amber] | Is that true? I only remember Aunt Allie altering the clothes for me...==W== After that, nothing.
-0138 [Noya] | I remember Iris finding a handwritten notebook on that shelf. It explained how to use the guns.==W== That's all I've got.
-0139 [Allie] | Why were there so many books in the basement?==W== I... I don't know.==W== They were already there when I moved in.
-0140 [Allie] | Why did I start the orphanage?==W== To give these kids a home. I paid for it by wishing for Artifacts when I was a Trekker.==W== That must be why my childhood memories, and the early days here, are gone.
-0141 [Allie] | Did I see the White Cats back when we were in Emor? Nothing comes to mind...
-0142 [Allie] | The orphanage was empty sometimes, though. If this Taffett was hiding from enemies, she could have easily slipped into the basement and stashed her gear down there.
-0143 [Allie] | Actually, that house might have been a White Cat base in the past. That would explain all those books and rare Artifacts.
-0144 [Allie] | How come I'm so good at patching wounds and fighting?==W== I'm a Trekker too, remember? It comes with the job.
-0145 [Noya] | Why don't we call her Mom?==W== Because it's embarrassing, obviously! It made sense when we were kids, but now we're almost her age. We just ... can't say it.
-0146 [Amber] | Aunt Allie==W== is young.
-0147 [Allie] | Don't think calling me young gets you off the hook. No matter how old you get, you are still my kids.==W== I still want to hear you call me Mom.
-0148 [Iris] | My memory is a bit blurry... But didn't Aunt Allie tell us not to call her Mom?
-0149 [Allie] | Really? Did I ever say that?
-0150 [Narración] | Three hours later.
-0151 [Lugar y hora] | 15:30, Nebula Month 17th, Mirage, Eureka Bar
-0152 [Narración] | Kasimira and Benito give up their questioning.==W== Chaton, meanwhile, ate way too much of Allie's cooking and is off to the side,==W== looking miserable as she struggles to digest the "dark power."
-0153 [1] | (Nothing useful.==W== Allie and the others have wished away so many memories that their memories are full of holes.)
-0154 [1] | (Wishing is far more terrifying than I imagined. Thanks to Vita's power, our memories don't slip away anymore.==W== But if they just keep wishing... Is this what happens to all Trekkers?)
-0155 [Allie] | I'm sorry,==W== I wasn't any help at all.
-0156 [Kasimira] | It's fine. We expected this. Taffett has been missing for fifteen years. If clues were easy to find, we wouldn't have had to search this long.
-0157 [Kasimira] | We'll keep our promise and take you to the secret room. But only Taffett knows how to open it. We'll just have to break in.
-0158 [Allie] | Um... Maybe there's another way.
-0159 [Kasimira] | What...?! Really?!
-0160 [Allie] | During lunch, Benito told me the White Cats have a memory extraction spell.==W== It can even restore forgotten memories.
-0161 [Allie] | So if I knew anything about Taffett before I lost my memory... That spell could bring it back.==W==
-0162 [Benito] | No.==W== I did mention it, but that spell is for interrogating enemies.==W== It causes extreme mental strain and permanent brain damage.==W== The White Cats abandoned it years ago.
-0163 [Allie] | It's fine.==W== I'm pretty resilient.==W== Once won't hurt.
-0164 [Kasimira] | Director Allie, we appreciate your offer, but we don't need to go that far.==W== If we can't open the secret room, we'll find another way to the Monolith.
-0165 [Iris] | Yeah... What if something happens to you, Aunt Allie?==W==
-0166 [Allie] | But you're out of time,==W== aren't you?
-0167 [Allie] | You all went pale when you saw that cloak, didn't you?
-0168 [Noya] | That still doesn't mean you should take the risk. I've forgotten plenty too. Use the spell on me.
-0169 [Allie] | Don't be silly. Kasimira said Taffett disappeared fifteen years ago.
-0170 [Allie] | You were just babies back then.==W== Even if you met her, you wouldn't remember a thing.
-0171 [Allie] | The White Cats have been blamed for the Empress's murder for fifteen years. I fled Emor to escape. And now my children are being framed by the Salvation Committee.
-0172 [Allie] | As a mother, I simply won't stand for this. Since there's nowhere left to run, let Mom protect you.
-0173 [Allie] | Captain Kasimira, these are my reasons and my resolve. Please let them use the memory extraction spell on me.
-0174 [Kasimira] | ... So you've made up your mind, Director Allie.==W== I understand. The White Cats will make an exception for you. Just this once...==W==
-0175 [Opción] | Wait!
-0176 [1] | If you trust me, I have a safer way.==W== I can recover the memories you sacrificed to the Monolith.
-0177 [1] | But ... you'll need to make a soul pact with me first. You'll have to place your souls ... in my hands.
+0001 [Intro] | Acto trece
+0002 [Intro] | El pasado de los Gatos Blancos
+0003 [Intro] | En el bar Eureka, intercambias información con Allie y la Compañía del Gato Blanco. Las pistas llevan a la habitación secreta, pero Taffett, la clave de todo, desapareció. Como la pérdida de memoria de los Trekkers es un obstáculo, se te ocurre una idea...
+0004 [Lugar y hora] | 12:30, 17.º del mes de Nebula, Mirage, bar Eureka
+0005 [Kasimira] | Bien, aquí estamos. El bar Eureka.
+0006 [Noya] | ¡Guau!==W== Este lugar está a reventar.
+0007 [Noya] | Oigan, ¿esos de allá son...==W== Escorpiones del Desierto y Guardias Imperiales?==W== ¡Kasimira, escóndete!
+0008 [Chaton] | Tranquila. Aquí adentro nadie empieza nada.==W== Mira y aprende.
+0009 [Amber] | ¿Pasaron==W== de largo?
+0010 [Iris] | ¿Qué está pasando?==W== Allá afuera, los Escorpiones estaban listos para despedazarlas, y hace unos días se enfrentaron con esos Guardias. ¿Cómo tiene sentido todo esto?
+0011 [Kasimira] | Eso era afuera. Aquí,==W== en el bar Eureka, pelear está estrictamente prohibido. Las lealtades de cada bando no importan.==W== Todos son clientes.
+0012 [Chatty Desert Scorpion] | ¡Oiga, señor caballero! ¿Ya se sabe cuándo es la próxima «guerra» de la Guardia contra nosotros?
+0013 [Flirtatious Knight] | Seguramente el mes que entra. Todos andan hasta el cuello de papeleo, cuadrando las cuentas. La última pelea nos dejó atados de manos. Estamos esperando el derroche de presupuesto de fin de año.
+0014 [Chatty Desert Scorpion] | Ay, ¿en serio? El mes que entra tenemos un encargo en el desierto. Nos lo vamos a perder todo. No quiero ir. La última vez que fuimos a Philae, perdimos una fortuna.
+0015 [Flirtatious Knight] | ¿Philae? Ah, me enteré de eso. Una zorra los hizo pedazos.==W== ¿Tú también estuviste en esa operación?
+0016 [Chatty Desert Scorpion] | Tch. ¿Podemos dejar ese tema?==W== ¿Qué no a su abanderada la hizo trizas una Trekker tímida==W== antes de que la transfirieran aquí?
+0017 [Serious White Cat] | Bueno, ya estuvo.==W== La «guerra» está bien, pero manténganla lejos del bar Eureka y del orfanato el mes que entra.
+0018 [Serious White Cat] | Fuera de eso, los Gatos Blancos les seguiremos el juego. Y no escojan un fin de semana. Tenemos nuestras propias funciones.
+0019 [Chatty Desert Scorpion] | Ay, por favor, aquí nadie va a pelear. Vivo por sus bebidas dulces. Este lugar es lo que me mantiene en pie.
+0020 [Flirtatious Knight] | Lo mismo va para el orfanato. La directora Allie acogió a varios hijos de nuestros Guardias. Le debemos una muy grande.==W== Nada de fines de semana, seguro. Le aviso a la abanderada.
+0021 [Iris] | ¿¡Ehh!? K-Kasimira, ahí...==W== Los Escorpiones, los Guardias y los Gatos Blancos, todos sentados juntos, hablando de lo que suena a información clasificada...==W==
+0022 [Kasimira] | No pasa nada. De todos modos, esa información era para ellos.
+0023 [Amber] | ¿Era...==W== para ellos?
+0024 [Kasimira] | Supongo que ya se dieron cuenta: los tres bandos de Mirage solo pelean entre sí para mantener viva la economía local.
+0025 [Kasimira] | La verdad, todos estamos hartos: los Gatos Blancos, los Escorpiones del Desierto y la Guardia Imperial por igual.==W== Pero sin esas batallas sin sentido, Mirage simplemente no sobreviviría.
+0026 [Kasimira] | Mientras nadie cruce la línea, mantenemos una tregua tácita. En esta ciudad solo estamos montando una obra de teatro, una que se llama «la guerra para acabar con los Gatos Blancos».
+0027 [Kasimira] | Y como es una obra, tenemos que ponernos de acuerdo con el guion. Para eso está el bar Eureka. Es territorio neutral, donde nos filtramos información a propósito.
+0028 [Tú] | Los Gatos, los Escorpiones y los Guardias...==W== Todos saben lo que trama cada quien. Transparencia total. E irónicamente, es lo único que mantiene unida a Mirage.
+0029 [Kasimira] | Exacto. Ahora que trabajamos juntos, permítanme presentarme formalmente.
+0030 [Kasimira] | Soy Kasimira, capitana del Tercer Escuadrón de la Compañía del Gato Blanco.==W== También me encargo de las operaciones diarias.
+0031 [Kasimira] | La que se batió en duelo con Amber es Chaton. Es nuestra mejor francotiradora.
+0032 [Chaton] | Órale, ¿Kasimira de verdad me echó un cumplido? ¿Dónde está la trampa? ... Bah, como sea.
+0033 [Chaton] | ¡Jejeje! ¡Escúchenme, pobres almas despojadas de su lugar en este mundo! ¡Yo soy Chaton!==W== ¡Seguidora de quien desafía a los dioses, portadora del poder oscuro sellado en mi ojo izquierdo! ...==W== ¡Ah, y mis pasatiempos son los juegos de ritmo y escuchar música! ♪
+0034 [Petite Waitress] | ¿Capitana Kasimira? Y la directora Allie de verdad vino con usted... eso sí es una novedad. Y también trajo caras desconocidas...==W==
+0035 [Kasimira] | Justo a tiempo. Déjenme presentarlos a todos. Ella es Benito, nuestra técnica. Puede arreglar casi cualquier cosa y trabaja medio tiempo aquí en el bar Eureka.
+0036 [Benito] | ¡Bienvenidos a Mirage!==W== Cuando estén agotados, vengan al Eureka por un trago.
+0037 [Tú] | Hola. Soy ==PLAYER_NAME==, director ejecutivo de Boss Accord. Pueden decirme Jefe.
+0038 [Tú] | Ellas tres son mis compañeras: Noya, Iris y Amber.==W== Antes vivían en el orfanato, pero ahora son Trekkers.
+0039 [Benito] | ¡No inventes, qué padre! Mamá Allie me hizo este uniforme,==W== ¡así que prácticamente soy una niña honoraria del orfanato!==W== Ándenle, hoy yo invito. ¿Qué van a querer?
+0040 [Noya] | ¡Genial! ¿Qué es lo bueno aquí?==W== ¿El bar Eureka tiene alguna especialidad?
+0041 [Iris] | Este, Noya...==W== ¿Podrías al menos fingir que lo dudas un poquito...?==W==
+0042 [Benito] | ¡No, no, está bien! A ver... La especialidad del bar Eureka...==W== Eh, jaja...==W==
+0043 [Chaton] | Yo conozco este lugar.==W== Déjenme pedir a mí.
+0044 [Chaton] | Quiero un puñado de plátanos de gomita, un pastel gigante de pescados mirando al cielo y unas hamburguesas de mosquito.==W== Todo bañado en la mermelada espesa de fresa especial de Allie.
+0045 [Benito] | Te vas a atragantar con eso,==W== Chaton.
+0046 [Chaton] | Ya sé.==W== Por eso todos necesitamos un vaso de jugo de durazno espeso y almibarado.
+0047 [Benito] | Muy bien.==W== ¡Salud!==W==
+0048 [Tú] | La mermelada de fresa especial de Allie...==W== Creo que ya la había mencionado.==W==
+0049 [Allie] | Ah... Bueno...==W== Intenté vender ahí algo de comida que preparé con una receta antigua.==W== P-parece que no tuvo éxito.
+0050 [1] | ¿Sabes? Casi no he probado la comida de Allie. ¡Me muero por saber a qué sabe!
+0051 [Allie] | Ejem.==W== Déjenme pedir comida y bebidas normales para todos.
+0052 [Iris] | Jefe,==W== no te hagas ilusiones.
+0053 [1] | ¡No pasa nada! Hasta Noya, que cocina increíble, creció comiendo la comida de Allie. ¿No está bien emocionarse un poquito?
+0054 [Iris] | Jaja, la verdad...==W== Nosotras siempre cocinábamos. En cuanto Noya mostró sus dotes de cocinera, se adueñó de la cocina.==W== Cuando nos fuimos, otro niño tomó su lugar.
+0055 [1] | Eh... Espera... ¿Me estás diciendo que...==W== la comida de Allie es...==W==
+0056 [Iris] | Es difícil de describir. Aprendió todo de un antiguo recetario escrito a mano que encontró en el sótano del orfanato.
+0057 [Iris] | Ahora que lo pienso, la receta del Ruiseñor Leonado que encontró la señorita Firenze probablemente era una página de ese mismo libro.
+0058 [1] | ¡¿Entonces la comida de Allie es tan buena como la del Ruiseñor Leonado?! Entonces, ¿por qué Chaton...?==W==
+0059 [Chaton] | Ah,==W== estos peces que contemplan el cielo... Romántico, ¿no? Meter pescados enteros en un pastel. A nadie normal se le ocurriría.==W== Debe ser comida ceremonial para aumentar el poder de la oscuridad... ♪==W==
+0060 [1] | ¡Ah, es su gusto personal!==W==
+0061 [Kasimira] | Bien.==W== Intercambiemos información, como acordamos.
+0062 [Tú] | Un momento. Antes de compartir información, necesito hacerte una pregunta. ¿Cómo supiste que me tacharon de Tirano y que el Tirano quiere destruir el mundo?
+0063 [Tú] | Cuando nos conocimos en el orfanato, no sabías quién era. Mirage está aislada del exterior. Pero solo unos días después... lo sabías todo.
+0064 [Chaton] | Después de la pelea con la Guardia Imperial, salí de Mirage para comprobar tu historia.==W== En menos de un día, me topé con una sabia en el desierto.
+0065 [Iris] | ¿Una... sabia?==W== ¿Todavía existen?
+0066 [Chaton] | ¡Claro que sí! Llevaba una capa y hablaba de forma muy críptica. Una sabia clásica.
+0067 [Tú] | ¡¿Una capa?!
+0068 [Chaton] | Me contó todo sobre el Tirano que destruirá el mundo, y hasta me enseñó un periódico de Scarlet Sights para probarlo.==W== Pero era rara. Me di la vuelta y ya no estaba.==W== Solo quedó una capa vacía en el suelo.
+0069 [Chaton] | ¡No estoy mintiendo!==W== ¿Ves? Aquí está la capa.
+0070 [Tú] | No hay duda. ¡Esto es...!
+0071 [Serena] | Dicho esto... no tengo malas intenciones.==W== ¿Te importaría pedirle a tu amiga que aleje su espada de mi cuello?
+0072 [Chitose] | Mi ==SEX11==. Una capa se materializó en el pasto detrás de usted,==W== y esta mujer extraña salió de ella.
+0073 [Tú] | ¡Todos, cuidado! Esa capa es de Serena...==W== ¡No, de Angie!
+0074 [Narración] | En cuanto suena la advertencia, Amber arrebata la capa y se la lanza a Iris, quien la mete en su pequeña maleta.
+0075 [Allie] | ¿Cómo que cuidado? No percibo nada de magia en ella. Parece una capa común y corriente.
+0076 [Noya] | Por fuera parece normal, claro. Pero Angie no deja de salir de ella de la nada. ¡Me da escalofríos!
+0077 [Iris] | Después de que atacaran al Jefe, empezamos a pensar cómo lidiar con sus ataques sorpresa. Decidimos que cada vez que veamos una capa así, se va directo a mi maleta.
+0078 [Iris] | Pensamos en destruirla, pero sería demasiado arriesgado dañar lo que parece un objeto mágico sin saber cómo funciona. Además, ella no puede aparecer dentro de mi maleta y salir de golpe... ¿Verdad?
+0079 [Tú] | En fin, gracias a ti,==W== ahora sé que Angie ya está cerca de Mirage, aunque no tengo idea de cómo me rastrea.
+0080 [Tú] | Se nos acaba el tiempo. Capitana Kasimira, intercambiemos información ya. Aunque me temo que no tenemos mucho que ofrecer de nuestra parte...
+0081 [Kasimira] | Para nada. Los dos obtenemos lo que necesitamos. Para que entiendan la historia detrás del Monolito desaparecido, tengo que contarles un poco de la historia de los Gatos Blancos. Seré breve.
+0082 [Narración] | En el pasado,==W== la Compañía del Gato Blanco servía como guardia personal de la emperatriz noviana.
+0083 [Kasimira] | Para los Trekkers que se aventuraban en las Tierras Salvajes o los Centinelas del Alba que custodiaban los Monolitos,==W== las bajas eran inevitables.
+0084 [Kasimira] | La emperatriz construyó orfanatos==W== para acoger a los niños que perdían a sus padres.
+0085 [Kasimira] | La mayoría crecieron, se fueron==W== y llevaron vidas normales.==W== Pero algunos niños,==W== los que sentían atracción por la idea de un hogar y la aventura, eligieron unirse a la Compañía del Gato Blanco.
+0086 [Kasimira] | Como guardia personal de la emperatriz, no veíamos mucho combate. Construimos teatros por todo Nova y actuábamos para la gente, mientras servíamos como los ojos y oídos de la emperatriz.
+0087 [Kasimira] | De vez en cuando,==W== castigábamos a ejecutivos corporativos que violaban la ley.
+0088 [Kasimira] | Hace veinticinco años, la Compañía construyó un teatro en la creciente ciudad de Mirage. En ese entonces, era famosa por sus ricos yacimientos de diamantes de cristal...==W==
+0089 [Kasimira] | Pero los Gatos Blancos destacados aquí no buscaban información sobre los diamantes de cristal.==W== Nos enviaron a proteger el Monolito a las afueras de la ciudad.
+0090 [Noya] | Un Monolito a las afueras de la ciudad...==W== ¿Mirage tenía uno en ese entonces?
+0091 [Kasimira] | Sí,==W== y estuvo en pie hasta hace seis años.==W== Déjame terminar.
+0092 [Kasimira] | Este Monolito era distinto a los demás. Sin elevador, sin puertas.==W== Durante años fue un misterio sellado.
+0093 [Kasimira] | Pero Mirage prosperaba. Los diamantes de cristal trajeron enormes riquezas,==W== y la gente podía comprar los Artefactos que necesitara fuera del desierto.
+0094 [Kasimira] | Con el tiempo,==W== dejó de importarles el Monolito impenetrable.
+0095 [Kasimira] | Pasó una década. Hace unos quince años, murió la antigua emperatriz.==W== Su sucesora y los políticos nos despreciaban.==W== Querían deshacerse de nosotros.
+0096 [Kasimira] | La guerra estalló rápido.==W== Nos tacharon de herejes y nos culparon del asesinato de la antigua emperatriz.==W== Le dijeron al mundo que los Gatos Blancos eran asesinos rebeldes.
+0097 [Iris] | Esa estrategia suena demasiado familiar. Jefe...==W==
+0098 [Kasimira] | No supimos la verdad hasta años después.==W== Quienes movían los hilos se hacían llamar el Comité de Salvación. El mismo grupo que ahora los persigue a ustedes.
+0099 [Kasimira] | Pero en ese entonces, no teníamos ni idea. Arrestaron a nuestra gente y derribaron nuestros teatros y orfanatos. Los sobrevivientes huyeron a nuestro último bastión, aquí en Mirage.
+0100 [Kasimira] | Yo solo era una niña. Pero recuerdo que toda nuestra supervivencia dependía de un solo Gato Blanco. Se llamaba Taffett.
+0101 [Tú] | Taffett. Mencionaste ese nombre en el orfanato. ¿Quién es?
+0102 [Kasimira] | Era la única de nosotros que peleaba con dos pistolas. Pero no por eso la necesitábamos. Taffett fue el último Gato Blanco en ver con vida a la antigua emperatriz.
+0103 [Kasimira] | Una sola declaración suya podría haber limpiado nuestro nombre.
+0104 [Kasimira] | Solo que desapareció el día en que murió la emperatriz. La capitana Narida la conocía mejor que nadie y la buscó durante años. Nunca encontró ni un solo rastro.
+0105 [Tú] | La única integrante que usaba dos pistolas... Con razón se fijaron en Amber.
+0106 [Kasimira] | Exacto. La verdad, ha pasado tanto tiempo que casi no queda nadie en la Compañía de esa época.
+0107 [Kasimira] | Y a estas alturas, aunque encontráramos la verdad, al mundo no le importaría. Solo la buscamos para cerrar ese capítulo nosotros mismos.
+0108 [Tú] | Mmm... Entonces, ¿por qué siguen buscando a Taffett?
+0109 [Kasimira] | Porque...==W==
+0110 [Narración] | Hace seis años.
+0111 [Kasimira] | Capitana, por favor, reconsidérelo.==W== Los Escorpiones del Desierto y la Guardia Imperial nunca nos dejarán ir. Hay un noventa y nueve por ciento de probabilidades de que estas negociaciones de paz sean una trampa. Solo quieren un pretexto para capturarla.
+0112 [Narida] | Siempre tan analítica, Kasimira.==W== Te convertiste en un Gato Blanco capaz de valerse por sí misma. Eso me enorgullece.
+0113 [Kasimira] | No es momento para cumplidos, capitana. Tenemos que retirarnos. Ya inspeccioné el perímetro y nadie nos sigue.
+0114 [Narida] | ¿Retirarnos? Tú misma dijiste que hay un noventa y nueve por ciento de probabilidades de que sea una trampa. Eso todavía deja un uno por ciento de que de verdad quieran la paz.
+0115 [Kasimira] | Eso es prácticamente cero.
+0116 [Narida] | Todo lo que esté por encima de cero vale la pena intentarlo. Quizá los Escorpiones del Desierto y la Guardia Imperial también estén hartos de esta guerra sin sentido. Si quieren el Monolito, que se lo queden.
+0117 [Kasimira] | Pero nuestras órdenes...
+0118 [Narida] | Mantenerte con vida me importa más que cualquier decreto real. Romperé las cadenas que atan a los Gatos Blancos. Tengo que hacerlo.
+0119 [Narida] | Kasimira, si lo entiendes, da media vuelta y regresa a Mirage. El resto del camino lo recorro yo sola. Vete.
+0120 [Narida] | Y, Kasimira, si no regreso, guía a los Gatos Blancos que quedan. Vivan bien. Olvídense de la emperatriz y de las órdenes.
+0121 [Kasimira] | ¡Capitana, no voy a dejarla!
+0122 [Narida] | ¡Es una orden directa!==W== Nunca me desobedeces. Esta vez, di «entendido» como buena soldado y retírate.
+0123 [Kasimira] | Fue la primera vez que rompí el protocolo. En vez de regresar a Mirage, la seguí desde muy lejos.
+0124 [Kasimira] | La vi reunirse con los capitanes de los Escorpiones del Desierto y de la Guardia Imperial. Usó un explosivo extraño para abrir un hueco en la pared del Monolito, y todos entraron.
+0125 [Kasimira] | Ninguno volvió a salir. Luego pasó una tormenta de arena, y el Monolito desapareció sin dejar rastro.
+0126 [Iris] | ¿Desapareció? ¿Estás diciendo que ese Monolito...==W==
+0127 [Amber] | ¿De verdad...==W== se movió?
+0128 [Kasimira] | No lo sabemos. Justo por eso necesitamos encontrarlo. Para buscar adentro cualquier señal de lo que le pasó.==W== O al menos entender por qué estaba tan empeñada en hacer un trato con el enemigo.
+0129 [Kasimira] | Eso nos regresa a la «habitación secreta» que buscan.==W== Las pistas que necesito y los registros de ese Monolito en particular deberían estar guardados ahí.
+0130 [Kasimira] | La capitana Narida selló esa habitación ella misma, en lo profundo de las minas de diamantes de cristal.
+0131 [Kasimira] | Solo dos personas conocían la contraseña. La capitana Narida y Taffett.
+0132 [Noya] | Espera... A ver si entendí. Entonces, las pistas del Monolito que buscamos y las pistas que busca Kasimira sobre su capitana... ¿están en la misma habitación?
+0133 [Iris] | Entonces nuestros objetivos coinciden.==W== La clave es encontrar a Taffett. ¿Es así?
+0134 [Allie] | Muy bien.==W== Hablemos de estas pistolas y de lo que recordamos.
+0135 [Narración] | Comparten lo que recuerdan sobre las pistolas de Amber. Es entonces cuando por fin comprendo lo que le cuesta a un Trekker escalar el Monolito.
+0136 [Iris] | Antes de irnos del orfanato, encontré un compartimento oculto detrás de un librero del sótano.==W== Adentro estaban estas dos pistolas y un conjunto de ropa.
+0137 [Amber] | ¿Es cierto? Solo recuerdo que la tía Allie ajustó la ropa para mí...==W== Después de eso, nada.
+0138 [Noya] | Recuerdo que Iris encontró un cuaderno escrito a mano en ese librero. Explicaba cómo usar las pistolas.==W== Es todo lo que tengo.
+0139 [Allie] | ¿Por qué había tantos libros en el sótano?==W== Yo... no lo sé.==W== Ya estaban ahí cuando me mudé.
+0140 [Allie] | ¿Por qué abrí el orfanato?==W== Para darles un hogar a estos niños. Lo pagué pidiendo deseos de Artefactos cuando era Trekker.==W== Por eso deben haberse borrado mis recuerdos de la infancia y de los primeros días aquí.
+0141 [Allie] | ¿Si vi a los Gatos Blancos cuando estábamos en Emor? No se me ocurre nada...
+0142 [Allie] | Aunque a veces el orfanato se quedaba vacío. Si esa tal Taffett se escondía de sus enemigos, pudo haberse colado fácilmente al sótano y guardado ahí su equipo.
+0143 [Allie] | De hecho, esa casa pudo haber sido una base de los Gatos Blancos en el pasado. Eso explicaría todos esos libros y Artefactos raros.
+0144 [Allie] | ¿Cómo es que soy tan buena curando heridas y peleando?==W== También soy Trekker, ¿recuerdas? Viene con el trabajo.
+0145 [Noya] | ¿Por qué no le decimos mamá?==W== ¡Porque da vergüenza, obvio! Tenía sentido cuando éramos niñas, pero ahora casi tenemos su edad. Simplemente... no nos sale.
+0146 [Amber] | La tía Allie==W== es joven.
+0147 [Allie] | No creas que decirme joven te va a librar. No importa cuánto crezcan, siguen siendo mis niñas.==W== Todavía quiero oírlas decirme mamá.
+0148 [Iris] | Mi memoria está algo borrosa... Pero ¿no fue la tía Allie quien nos dijo que no le dijéramos mamá?
+0149 [Allie] | ¿En serio? ¿Alguna vez dije eso?
+0150 [Narración] | Tres horas después.
+0151 [Lugar y hora] | 15:30, 17.º del mes de Nebula, Mirage, bar Eureka
+0152 [Narración] | Kasimira y Benito se dan por vencidas con el interrogatorio.==W== Mientras tanto, Chaton comió demasiada comida de Allie y está a un lado,==W== con cara de sufrimiento mientras lucha por digerir el «poder oscuro».
+0153 [1] | (Nada útil.==W== Allie y las demás han pedido tantos deseos que sus recuerdos están llenos de huecos.)
+0154 [1] | (Pedir deseos es mucho más aterrador de lo que imaginaba. Gracias al poder de Vita, nuestros recuerdos ya no se escapan.==W== Pero si siguen pidiendo deseos... ¿Esto les pasa a todos los Trekkers?)
+0155 [Allie] | Lo siento,==W== no fui de ninguna ayuda.
+0156 [Kasimira] | No importa. Lo esperábamos. Taffett lleva quince años desaparecida. Si las pistas fueran fáciles de encontrar, no habríamos tenido que buscar tanto tiempo.
+0157 [Kasimira] | Cumpliremos nuestra promesa y los llevaremos a la habitación secreta. Pero solo Taffett sabe cómo abrirla. Tendremos que entrar a la fuerza.
+0158 [Allie] | Este... Quizá haya otra forma.
+0159 [Kasimira] | ¡¿Qué...?! ¡¿En serio?!
+0160 [Allie] | Durante la comida, Benito me contó que los Gatos Blancos tienen un hechizo de extracción de memoria.==W== Hasta puede restaurar recuerdos olvidados.
+0161 [Allie] | Así que si sabía algo de Taffett antes de perder la memoria... ese hechizo podría traerlo de vuelta.==W==
+0162 [Benito] | No.==W== Sí lo mencioné, pero ese hechizo es para interrogar enemigos.==W== Provoca una tensión mental extrema y daño cerebral permanente.==W== Los Gatos Blancos lo abandonaron hace años.
+0163 [Allie] | No pasa nada.==W== Soy bastante resistente.==W== Una vez no me hará daño.
+0164 [Kasimira] | Directora Allie, le agradecemos la oferta, pero no hace falta llegar tan lejos.==W== Si no podemos abrir la habitación secreta, buscaremos otro camino al Monolito.
+0165 [Iris] | Sí... ¿Y si te pasa algo, tía Allie?==W==
+0166 [Allie] | Pero se les acaba el tiempo,==W== ¿verdad?
+0167 [Allie] | Todos se pusieron pálidos cuando vieron esa capa, ¿no?
+0168 [Noya] | Eso no significa que debas arriesgarte. Yo también he olvidado muchas cosas. Usen el hechizo conmigo.
+0169 [Allie] | No digas tonterías. Kasimira dijo que Taffett desapareció hace quince años.
+0170 [Allie] | En ese entonces ustedes apenas eran unas bebés.==W== Aunque la hubieran conocido, no recordarían nada.
+0171 [Allie] | A los Gatos Blancos los han culpado del asesinato de la emperatriz durante quince años. Yo huí de Emor para escapar. Y ahora el Comité de Salvación les tiende una trampa a mis hijas.
+0172 [Allie] | Como madre, simplemente no voy a permitirlo. Ya que no queda adónde huir, dejen que mamá las proteja.
+0173 [Allie] | Capitana Kasimira, estas son mis razones y mi determinación. Por favor, deje que usen el hechizo de extracción de memoria conmigo.
+0174 [Kasimira] | ... Así que ya lo decidió, directora Allie.==W== Entiendo. Los Gatos Blancos haremos una excepción por usted. Solo esta vez...==W==
+0175 [Opción] | ¡Esperen!
+0176 [1] | Si confían en mí, tengo una forma más segura.==W== Puedo recuperar los recuerdos que sacrificaron al Monolito.
+0177 [1] | Pero... primero tendrán que hacer un pacto de almas conmigo. Tendrán que poner sus almas... en mis manos.

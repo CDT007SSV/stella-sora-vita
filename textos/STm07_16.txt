@@ -1,11 +1,11 @@
-# Capítulo 7 · El precio de la estrella · Epílogo · Scepter of Death
+# Capítulo 7 · El precio de la estrella · Epílogo · Cetro de la Muerte
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Clerk Number 20 | Clerk Number 20
+N:Clerk Number 20 | Empleada n.º 20
 N:Mercurio | Mercurio
-N:Omnisky Aegis CEO | Omnisky Aegis CEO
+N:Omnisky Aegis CEO | Directora ejecutiva de Omnisky Aegis
 N:avg1_103 | Amber
 N:avg1_110 | Firenze
 N:avg1_111 | Iris
@@ -15,12 +15,12 @@ N:avg1_135 | Mistique
 N:avg1_136 | Angie
 N:avg1_138 | Nyx
 N:avg1_144 | Chitose
-N:avg2_946 | Opera Ghost
+N:avg2_946 | Fantasma de la Ópera
 N:avg2_985 | Darcia
 N:avg3_100 | Sylar
 N:avg3_1242 | Chitose
 N:avg3_150 | Albedo
-N:avg3_185 | Grace Receptionist
+N:avg3_185 | Recepcionista de la Gracia
 N:avg3_197 | Feagin
 N:avg3_198 | Pandillera genial
 N:avg3_220 | Mercurio
@@ -28,176 +28,176 @@ N:avg3_974 | Serena
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Epilogue
-0002 [Intro] | Scepter of Death
-0003 [Intro] | Using fragmented knowledge, you wish the Scepter of Death into existence and win the bid. Mercurio leads Omnisky Aegis out of Philae. Meanwhile, a friend you thought you knew reveals who she really is.
-0004 [Lugar y hora] | 18:15, Venatio Month 15th, Philae Monolith, The Boss's Domain
-0005 [1] | ... I need this weapon to fire lead-core, brass-cased rounds.==W==
-0006 [1] | Rounds are packed with smokeless powder and a sensitive primer.
-0007 [1] | That's my wish. Please grant it.
-0008 [Tú] | Did it ... work?
-0009 [Narración] | I grab the dark Artifact. Cold metal and plastic... It feels familiar.
-0010 [Chitose] | My ==SEX11==, its arm is severed! Your status?
-0011 [1] | The wish worked.==W== We're done here—let's move, Chitose!
-0012 [???] | Trekkers...==W== Why do you not fear—
-0013 [Chitose] | My ==SEX11==, its arm is regenerating! Fast! It's about to strike!
-0014 [Chitose] | Get to the elevator. I will cover you.
-0015 [Tú] | I'm in! Get in, Chitose!
-0016 [Narración] | Chitose slides in, and I hammer the close button.
-0017 [Narración] | You will not escape—
-0018 [Tú] | Close! Now!
-0019 [Chitose] | Hyaaah—
-0020 [Narración] | Chitose uses her Swordless Style, blocking the giant hand coming toward us.
-0021 [Tú] | Phew, that was close.==W== Good move, Chitose.
-0022 [Chitose] | You flatter me.==W== As your blade, it's my duty.
-0023 [Chitose] | Still...==W== Is this the Scepter of Death?
-0024 [Tú] | Yeah...==W== Looks like Amber's gun,==W== but this one uses gunpowder.==W== Pull the trigger, no magic required.
-0025 [Chitose] | Powder... Like that in fireworks? It can do this?
-0026 [Tú] | Not exactly. It's a different kind. I don't remember the details,==W== but it's buried in my head.
-0027 [Tú] | Anyway, we won. Omnisky Aegis could never wish for an Artifact like this.
-0028 [Chitose] | A weapon requiring no magic... Hmm—
-0029 [Chitose] | My ==SEX11==, I am also a weapon that requires no magic—and I can talk to you!==W== You clearly don't need this Scepter of Death...!!
-0030 [Tú] | What? Where did that come from? It's going to the Grace Imperium. I won't be using it.
-0031 [Chitose] | But you looked too happy when you were describing it.
-0032 [Tú] | Chitose is getting competitive. Time to change the subject...
-0033 [Tú] | Right, we got what we came for. Let's make our soul pact while we have the chance.
-0034 [Chitose] | Ah, right. The soul pact. As you command.==W== Boss, here is my wish—
+0001 [Intro] | Epílogo
+0002 [Intro] | Cetro de la Muerte
+0003 [Intro] | Con conocimientos fragmentados, haces aparecer el Cetro de la Muerte con un deseo y ganas la subasta. Mercurio se lleva a Omnisky Aegis fuera de Philae. Mientras tanto, una amiga a la que creías conocer revela quién es en realidad.
+0004 [Lugar y hora] | 18:15, 15.º del mes de Venatio, Monolito de Philae, Dominio del Jefe
+0005 [1] | ... Necesito que esta arma dispare balas con núcleo de plomo y casquillo de latón.==W==
+0006 [1] | Que los cartuchos estén cargados con pólvora sin humo y un fulminante sensible.
+0007 [1] | Ese es mi deseo. Por favor, concédemelo.
+0008 [Tú] | ¿Funcionó...?
+0009 [Narración] | Tomo el Artefacto oscuro. Metal frío y plástico... Se siente familiar.
+0010 [Chitose] | ¡Mi ==SEX11==, le corté el brazo! ¿Cómo está usted?
+0011 [1] | El deseo funcionó.==W== Ya terminamos aquí. ¡Vámonos, Chitose!
+0012 [???] | Trekkers...==W== ¿Por qué no temen...?
+0013 [Chitose] | ¡Mi ==SEX11==, el brazo se le está regenerando! ¡Rápido! ¡Está a punto de atacar!
+0014 [Chitose] | Vaya al elevador. Yo lo cubro.
+0015 [Tú] | ¡Ya entré! ¡Sube, Chitose!
+0016 [Narración] | Chitose se desliza adentro y yo aporreo el botón para cerrar.
+0017 [Narración] | No escaparán...
+0018 [Tú] | ¡Ciérrate! ¡Ya!
+0019 [Chitose] | ¡Hyaaah...!
+0020 [Narración] | Chitose usa su Estilo sin Espada y bloquea la mano gigante que viene hacia nosotros.
+0021 [Tú] | Uf, estuvo cerca.==W== Buena jugada, Chitose.
+0022 [Chitose] | Me halaga.==W== Como su espada, es mi deber.
+0023 [Chitose] | Aun así...==W== ¿Esto es el Cetro de la Muerte?
+0024 [Tú] | Sí...==W== Se parece a la pistola de Amber,==W== pero esta usa pólvora.==W== Jalas el gatillo y listo, no hace falta magia.
+0025 [Chitose] | Pólvora... ¿Como la de los fuegos artificiales? ¿Puede hacer esto?
+0026 [Tú] | No exactamente. Es de otro tipo. No recuerdo los detalles,==W== pero está guardado en algún lugar de mi cabeza.
+0027 [Tú] | En fin, ganamos. Omnisky Aegis jamás podría pedir un Artefacto como este.
+0028 [Chitose] | Un arma que no requiere magia... Mmm...
+0029 [Chitose] | Mi ==SEX11==, yo también soy un arma que no requiere magia, ¡y además puedo hablar con usted!==W== ¡Es evidente que no necesita este Cetro de la Muerte...!
+0030 [Tú] | ¿Qué? ¿Y eso de dónde salió? Va a ir al Imperio de la Gracia. Yo no lo voy a usar.
+0031 [Chitose] | Pero se veía demasiado contento mientras la describía.
+0032 [Tú] | Chitose se está poniendo competitiva. Mejor cambio de tema...
+0033 [Tú] | Bueno, ya tenemos lo que vinimos a buscar. Hagamos nuestro pacto de almas ahora que podemos.
+0034 [Chitose] | Ah, cierto. El pacto de almas. Como ordene.==W== Jefe, este es mi deseo...
 0035 [Chitose] | ...
 0036 [Chitose] | ...
-0037 [Tú] | Hmm? Chitose? Is something wrong?
-0038 [Chitose] | U-Um...==W== Apologies, my ==SEX11==. I realized I don't have a wish.==W== Or rather, all my wishes have come true.==W== I can't think of anything to ask of you...
-0039 [Tú] | How can that be? There must be something you want to do.
-0040 [Chitose] | The wish to be with you again==W== is already fulfilled.
-0041 [Chitose] | The wish to see the world through your eyes, as your blade...==W== That has come true, too.
-0042 [Chitose] | I do want to protect you and never leave your side.==W== But that's my duty as your blade—something I have to earn myself. Wishing for it ...==W== doesn't feel right.
-0043 [Chitose] | So... Can we complete the soul pact without a wish?
-0044 [Tú] | Can't do that. If I take your soul without giving anything back, it's no longer a trade.
-0045 [Tú] | The best I can do is owe you a wish for later, but even then, you still need an actual wish in mind.
-0046 [Chitose] | A wish... A wish...==W== Ah...==W== Well, there is one thing I might wish for...
-0047 [Tú] | Ooh! Let's hear it!
-0048 [Chitose] | O-Okay...==W== Then...==W== Boss, here is my wish...
-0049 [Chitose] | My ==SEX11==, would you... Would you forge a new blade with me?
-0050 [Opción] | I accept your wish
-0051 [Chitose] | And when that wish comes true... My soul is yours.
-0052 [Tú] | Yeah. I've got your back. Forging a blade sounds like fun. I'm looking forward to it.
-0053 [Chitose] | Hmm...
-0054 [Narración] | Chitose reaches out==W== and holds on to the hem of my shirt.
-0055 [Tú] | Is everything ok?==W== You're blushing. Are you feeling alright?
-0056 [Chitose] | It-It's nothing! I must be flustered by the intense battle just now...
-0057 [Chitose] | Um... I look forward to the day we forge that blade together, my ==SEX11==...
-0058 [Tú] | Ah, we're here. Let's head back together, Chitose.
-0059 [Chitose] | Yes!
-0060 [Narración] | Stepping outside the Monolith, we hand the Artifact to Mistique, who is waiting outside, yawning.
-0061 [Narración] | We manage to deliver it right before sunset.
-0062 [Narración] | The next day, Grace Imperium announces the final bidding results—
-0063 [Albedo] | For the Philae Monolith leasing project spanning 996 to 1005, the winning bidder is:==W== United Harvest Philae.
-0064 [Albedo] | The official award notice will be sent to your company shortly. You have 30 days upon receipt to assume control of the Philae Monolith per the contract.==W== Dated: Monolith Calendar Year 996, Venatio Month 16th.
-0065 [Iris] | Thank goodness...==W== We actually won...
-0066 [Amber] | We pulled off an impossible comeback at the end. A miracle.
-0067 [Noya] | Oh, come on. We couldn't have done it without everyone pitching in!==W== Right, Chitose?
-0068 [Chitose] | Mm...==W== Yeah...==W== This means I have time to forge a blade with my ==SEX11==.
-0069 [Nyx] | Phew... Now that I can relax, I'm exhausted.==W== We'll leave the rest to you, Firenze.
-0070 [Firenze] | We thank the Grace Imperium, Lady Albedo.
-0071 [Albedo] | No need.==W== We chose the company that prioritizes the freedom and happiness of the people of Philae.
-0072 [Albedo] | Well, I have other business to attend to, so I'll take my leave.
-0073 [Firenze] | Let me see you out.
-0074 [Mistique] | Photos,==W== photos,==W== more photos!==W== Look here, Boss! You're tomorrow's front page.==W== Smile! ★
-0075 [Tú] | Hey, camera off me. Aim it at Firenze.
-0076 [Tú] | At least Philae is finally at peace.
-0077 [Narración] | Meanwhile
-0078 [Clerk Number 20] | We lost, and burned 10 billion crashing the crystal diamond market...==W== Will we be fired?
-0079 [Mercurio] | The Senate will definitely axe me.==W== As for you? Hard to say.
-0080 [Mercurio] | Then again... If we'd blocked that 80 million, we would've won...==W== What is the Sky Institute Director playing at?
-0081 [Mercurio] | A call from Geminia?==W== They definitely want my head.
-0082 [Omnisky Aegis CEO] | Mercurio, it's me.==W== Rough day?
-0083 [Mercurio] | I'm sorry, Madam CEO. I promised a win and failed.==W== I officially resign from all positions.
-0084 [Omnisky Aegis CEO] | Nonsense. You're staying, with full authority.==W==
-0085 [Omnisky Aegis CEO] | The Senate threw a fit, but I handled it.==W== The bid, the market crash... They were all my calls.==W== I've already submitted my resignation.
-0086 [Mercurio] | What...?!==W== No, sis... Why?
-0087 [Omnisky Aegis CEO] | Heehee, it takes me resigning for you to call me "sis" at work huh? Relax, they rejected it,==W== so no one takes the blame. ♪
-0088 [Mercurio] | They did? But ... how?==W== No one needs to take the fall?
-0089 [Omnisky Aegis CEO] | A big shot came straight to me for a lifetime policy.==W== Once the Senate saw who it was, they were too terrified to even squeak.==W== Hilarious.
-0090 [Mercurio] | A big shot? Who exactly?
-0091 [Omnisky Aegis CEO] | It's ==W==■■==W== ...==W== from the Sky Institute.
-0092 [Mercurio] | ... I see.==W== Even so, Omnisky Aegis should just pull out of Philae.
-0093 [Omnisky Aegis CEO] | Worried about Firenze and the Boss retaliating? Relax. The big shot promised to smooth things over.
-0094 [Mercurio] | No, it's not Firenze.==W== I think I made a fatal mistake.
-0095 [Omnisky Aegis CEO] | A mistake? What mistake?
-0096 [Mercurio] | I thought riding the coattails would buy us more power at Omnisky Aegis...==W== But I was wrong.==W== We—and this entire company—are nothing but pawns in this little game.
-0097 [Narración] | One week later
-0098 [Narración] | Omnisky Aegis quietly pulls out of Philae the very same night United Harvest Philae wins the bid.
-0099 [Narración] | Right now, Noya and the crew are prepping the Lucky Oasis. They plan to set sail tomorrow to track down leads on the orphanage.
-0100 [Tú] | Phew... Time to leave Philae. It's only been a few months, but honestly, it feels like a lifetime.
-0101 [Chitose] | Such beautiful petals. They remind me of home.
-0102 [Tú] | Your home...==W== It must be an incredibly peaceful place. I'd love to see it for myself someday.
-0103 [Tú] | Wait for me here, Chitose. I have a private meeting with Serena.==W== Once I wrap this up, we can hit the road.
-0104 [Chitose] | As you command, my ==SEX11==.
-0105 [Tú] | So this is Serena's room...==W== Right. I should probably ask her about the Armless Saint while I'm at it.==W== And those weird texts about the Tyrant I found in the Monolith.
-0106 [1] | Serena? It's ==PLAYER_NAME==.
-0107 [Serena] | I've been waiting. Please, come in.
-0108 [Tú] | Excuse me—==W==huh?==W== Oh, sorry, I think I have the wrong room.
-0109 [Serena] | You don't.==W== I'm just not wearing my cloak today.==W== Don't you recognize me, Boss?
-0110 [Tú] | The cloak...==W== Wait, so you really are Serena?==W== Since I'd never actually seen your face, I was dead sure I had the wrong person.
-0111 [Serena] | Guilty as charged.==W== Since it's just the two of us, hiding under a hood felt rather rude.==W== I figured it was time we met face-to-face.
-0112 [Tú] | Still...==W== It's crazy how just ditching a cloak completely changes a person's entire aura.
-0113 [Tú] | Anyway... You mentioned there was something you wanted to discuss?
-0114 [Serena] | Truth be told, selling information is just a side gig. My real passion is the history of the Tyrant.
-0115 [Tú] | ... Okay. And?
-0116 [Serena] | You unfroze the legendary Boss Accord. You possess multiple Seals of Grace, including one that's never even been documented.
-0117 [Serena] | So, I was hoping we could talk. I figured you might be able to shed some light on my Tyrant research.
-0118 [Tú] | Makes sense. You've done a lot for us, so it's only right that I tell you what I know. No secrets.
-0119 [Tú] | Unfortunately...==W== By the time the New Star Guild pulled me out of the Monolith, I'd already lost my memories.
-0120 [Tú] | I can't mention Vita, the White Room, or the king piece's power... But the rest should be fine.
-0121 [Serena] | I know about your amnesia. That's why I'd rather ask about a few things that seem ... off.
-0122 [Tú] | Off? Like what?
-0123 [Serena] | For instance,==W== you waged a company war for the New Star Guild and the Ashwind Clan.==W== Actually, once you have the Seal of Grace, you should be able to get Creta Trading to treat your companions with proper respect just by going through a few well-connected intermediaries.==W== That would've been the smarter play.
-0124 [Tú] | Back then, I barely knew which way was up. I wasn't thinking that far ahead.
-0125 [Tú] | But even if I had, I still would've chosen the company war.
-0126 [Tú] | Sure, those of us with a Seal of Grace could negotiate peace. But what about the kids on the street who don't have one?
-0127 [Serena] | Haha, you are a gentle soul.==W== I imagine you would've stepped in to help Fuyuka even if I hadn't offered information in exchange.
-0128 [Tú] | Probably.==W== Just like the New Star Guild saved me at my lowest. We're all Trekkers. Helping each other out is what we do.
-0129 [Serena] | A spirit of mutual aid...==W== What about later, then? When Darcia hailed you as the Tyrant, why did you turn her down?
-0130 [Tú] | H-How do you know about that?
-0131 [Serena] | Heh, I'm an information broker. I have my sources.==W== With her unwavering loyalty, you could've used her power to get things done a lot faster.
-0132 [Tú] | It was a strong power, sure.==W== But if you rely on brute force to make people do what you want...==W== Even with good intentions, it always ends badly.
-0133 [Tú] | It's like trekking.==W== If I only want to follow the paved path, I'll only ever take the same route as every other==W== and never see anything new.
-0134 [Tú] | If I want real change, then I can't just pick the path that "looks easy."
-0135 [Serena] | Your mindset surprises me.==W== It's nothing like that of a CEO.
-0136 [Tú] | Someone told me the same thing recently.==W== So, how does a proper CEO think?
-0137 [Serena] | It varies. But at the end of the day, most people who climb that high aren't saints.
-0138 [Serena] | And someone like you, willing to sacrifice yourself for others? That's rare...==W== You could say it's practically nonexistent.
-0139 [Tú] | I think you're exaggerating...==W== But either way, someone like me clearly has nothing to do with the legendary evil Tyrant.
-0140 [Serena] | True.==W== Even if you were the real Tyrant... I'm sure you'd be a kind one.
-0141 [Serena] | Then, let's try a different angle...==W== During your time in Philae, what has been your impression of the place?
-0142 [Tú] | My impression of Philae...
-0143 [Narración] | Ripples of Philae — The End
-0144 [Tú] | Phew. That's all I can tell you.
-0145 [Serena] | Thank you for your time. This information is invaluable—it's a massive step forward for my Tyrant research.
-0146 [Serena] | Wait here a moment. I have a gift for you, to thank you for today.
-0147 [Tú] | You don't have to do that.==W== Oh, and Serena? Since you've been studying the Tyrant, have you heard of this before?
-0148 [Tú] | The Devil Emperor wakes within the pupil...
-0149 [Serena] | Dividing the power of death among all living things.
-0150 [Serena] | Book of Grace Prophecies, 13:18.
-0151 [Serena] | The legendary Tyrant is immortal. Kill ==SEX4== with ordinary weapons, and ==SEX== resurrects time and again.==W== And with every rebirth, ==SEX== returns stronger.
-0152 [Serena] | The Tyrant overturns the rules of society, empowers ordinary people to slaughter powerful mages, and destroys the world.
-0153 [Serena] | So, the prophecy continues...
-0154 [Serena] | The Emperor withdraws their grace. Sweet dew becomes bitter wormwood.
-0155 [Serena] | The earth shatters. The anointed wicked rise from the bottomless pit.
-0156 [Serena] | This place shall be stripped of its name. Left barren and lifeless for eternity.
-0157 [Tú] | So...==W== This prophecy foretells==W== the end of the world?
-0158 [Serena] | Yes.==W== Every century, the Tyrant is reborn in Nova. And the only way to stop the world from ending ...==W== is to kill ==SEX4==.
-0159 [Tú] | Right... Kill the Tyrant.==W== Haha...==W== A legendary figure like that couldn't actually exist, right?
-0160 [Serena] | Hehe. I forgot to mention... The Tyrant in the Book of Grace Prophecies is someone who does the good deeds no one else will.
-0161 [Tú] | Oh. So they're a good person.==W== But why are you telling me this? It sounds like you're implying that … I'm...
-0162 [Serena] | I've watched you for a long time. Every action, every word—they perfectly align with the prophecy.
-0163 [Serena] | And who else but the Tyrant could wish for a weapon that doesn't even belong in this world?
-0164 [Tú] | W-Wait a minute! What are you talking about?! This is all your speculation!
-0165 [Serena] | Speculation... Yes. But the prophecy is never wrong, and you are a ninety-nine percent match.
-0166 [Tú] | But what if I'm not the Tyrant?!==W== You'd be killing the wrong person!
-0167 [Serena] | You're right.==W== But if sacrificing your one life could save the world...==W== I am willing to take that gamble.
-0168 [Serena] | If my judgment is wrong, I will find a way to atone.
-0169 [Tú] | What good is atonement after I'm dead?!==W== This is insane...!
-0170 [Serena] | You are a good person, and I hold no personal grudge against you.==W== So, I am deeply sorry, but for the sake of this world... I must ask you to die. You have my gratitude.
-0171 [Serena] | Please, accept this bullet—one that grants equal death to all.
-0172 [Serena] | I hope this time, you find eternal rest.==W== Farewell...==W== Tyrant.
-0173 [Narración] | To Be Continued
+0037 [Tú] | ¿Mm? ¿Chitose? ¿Pasa algo?
+0038 [Chitose] | E-eh...==W== Disculpe, mi ==SEX11==. Me di cuenta de que no tengo un deseo.==W== O más bien, todos mis deseos ya se cumplieron.==W== No se me ocurre nada que pedirle...
+0039 [Tú] | ¿Cómo puede ser? Debe haber algo que quieras hacer.
+0040 [Chitose] | El deseo de volver a estar con usted==W== ya se cumplió.
+0041 [Chitose] | El deseo de ver el mundo a través de sus ojos, como su espada...==W== También se hizo realidad.
+0042 [Chitose] | Sí quiero protegerlo y no apartarme nunca de su lado.==W== Pero ese es mi deber como su espada, algo que yo misma debo ganarme. Pedirlo como deseo...==W== no me parece correcto.
+0043 [Chitose] | Entonces... ¿Podemos completar el pacto de almas sin un deseo?
+0044 [Tú] | No se puede. Si tomo tu alma sin darte nada a cambio, ya no es un intercambio.
+0045 [Tú] | Lo más que puedo hacer es deberte un deseo para después, pero aun así necesitas tener un deseo de verdad en mente.
+0046 [Chitose] | Un deseo... Un deseo...==W== Ah...==W== Bueno, hay una cosa que podría desear...
+0047 [Tú] | ¡Uy! ¡A ver, cuéntame!
+0048 [Chitose] | E-está bien...==W== Entonces...==W== Jefe, este es mi deseo...
+0049 [Chitose] | Mi ==SEX11==, ¿usted... usted forjaría una nueva espada conmigo?
+0050 [Opción] | Acepto tu deseo
+0051 [Chitose] | Y cuando ese deseo se cumpla... mi alma será suya.
+0052 [Tú] | Sí. Cuenta conmigo. Forjar una espada suena divertido. Ya quiero que llegue el día.
+0053 [Chitose] | Mmm...
+0054 [Narración] | Chitose estira la mano==W== y se aferra al borde de mi camisa.
+0055 [Tú] | ¿Todo bien?==W== Estás sonrojada. ¿Te sientes bien?
+0056 [Chitose] | ¡N-no es nada! Debe ser que sigo alterada por la intensa batalla de hace un momento...
+0057 [Chitose] | Eh... Espero con ansias el día en que forjemos esa espada juntos, mi ==SEX11==...
+0058 [Tú] | Ah, ya llegamos. Volvamos juntos, Chitose.
+0059 [Chitose] | ¡Sí!
+0060 [Narración] | Al salir del Monolito, le entregamos el Artefacto a Mistique, que nos espera afuera bostezando.
+0061 [Narración] | Logramos entregarlo justo antes del atardecer.
+0062 [Narración] | Al día siguiente, el Imperio de la Gracia anuncia los resultados finales de la subasta...
+0063 [Albedo] | Para el proyecto de arrendamiento del Monolito de Philae del periodo 996 a 1005, el ganador de la subasta es:==W== Cosecha Unida Philae.
+0064 [Albedo] | El aviso oficial de adjudicación se enviará a su empresa en breve. Tienen 30 días a partir de su recepción para asumir el control del Monolito de Philae, conforme al contrato.==W== Fecha: 16.º del mes de Venatio del año 996 del Calendario Monolítico.
+0065 [Iris] | Qué alivio...==W== De verdad ganamos...
+0066 [Amber] | Remontamos lo imposible al final. Un milagro.
+0067 [Noya] | Ay, por favor. ¡No lo habríamos logrado sin la ayuda de todos!==W== ¿Verdad, Chitose?
+0068 [Chitose] | Mm...==W== Sí...==W== Esto significa que tengo tiempo para forjar una espada con mi ==SEX11==.
+0069 [Nyx] | Uf... Ahora que puedo relajarme, estoy agotada.==W== Te dejamos lo demás a ti, Firenze.
+0070 [Firenze] | Le damos las gracias al Imperio de la Gracia, Lady Albedo.
+0071 [Albedo] | No hace falta.==W== Elegimos a la empresa que da prioridad a la libertad y la felicidad de la gente de Philae.
+0072 [Albedo] | Bueno, tengo otros asuntos que atender, así que me retiro.
+0073 [Firenze] | Permítame acompañarla a la salida.
+0074 [Mistique] | ¡Fotos,==W== fotos,==W== más fotos!==W== ¡Mira para acá, Jefe! Mañana sales en primera plana.==W== ¡Sonríe! ★
+0075 [Tú] | Oye, deja de apuntarme con la cámara. Apúntale a Firenze.
+0076 [Tú] | Por lo menos Philae por fin está en paz.
+0077 [Narración] | Mientras tanto
+0078 [Clerk Number 20] | Perdimos, y quemamos 10 mil millones hundiendo el mercado de diamantes de cristal...==W== ¿Nos van a despedir?
+0079 [Mercurio] | El Senado me va a cortar la cabeza, seguro.==W== ¿Y a ti? Quién sabe.
+0080 [Mercurio] | Aunque... si hubiéramos bloqueado esos 80 millones, habríamos ganado...==W== ¿A qué está jugando la directora del Instituto del Cielo?
+0081 [Mercurio] | ¿Una llamada de Geminia?==W== Seguro quieren mi cabeza.
+0082 [Omnisky Aegis CEO] | Mercurio, soy yo.==W== ¿Día difícil?
+0083 [Mercurio] | Lo siento, señora directora. Prometí una victoria y fallé.==W== Renuncio oficialmente a todos mis cargos.
+0084 [Omnisky Aegis CEO] | Tonterías. Te quedas, con plena autoridad.==W==
+0085 [Omnisky Aegis CEO] | El Senado hizo un berrinche, pero yo me encargué.==W== La subasta, la caída del mercado... Todo fue decisión mía.==W== Ya presenté mi renuncia.
+0086 [Mercurio] | ¡¿Qué...?!==W== No, hermana... ¿Por qué?
+0087 [Omnisky Aegis CEO] | Jijí, ¿tuve que renunciar para que me dijeras «hermana» en el trabajo, eh? Tranquila, la rechazaron,==W== así que nadie carga con la culpa. ♪
+0088 [Mercurio] | ¿La rechazaron? Pero... ¿cómo?==W== ¿Nadie tiene que pagar los platos rotos?
+0089 [Omnisky Aegis CEO] | Un pez gordo vino directo conmigo por una póliza vitalicia.==W== En cuanto el Senado vio quién era, quedaron tan aterrados que ni chistaron.==W== Para morirse de risa.
+0090 [Mercurio] | ¿Un pez gordo? ¿Quién exactamente?
+0091 [Omnisky Aegis CEO] | Es ==W==■■==W==...==W== del Instituto del Cielo.
+0092 [Mercurio] | ... Ya veo.==W== Aun así, Omnisky Aegis debería retirarse de Philae.
+0093 [Omnisky Aegis CEO] | ¿Te preocupa que Firenze y el Jefe tomen represalias? Tranquila. El pez gordo prometió suavizar las cosas.
+0094 [Mercurio] | No, no es por Firenze.==W== Creo que cometí un error fatal.
+0095 [Omnisky Aegis CEO] | ¿Un error? ¿Qué error?
+0096 [Mercurio] | Creí que colgarnos de alguien más poderoso nos daría más poder dentro de Omnisky Aegis...==W== Pero me equivoqué.==W== Nosotras, y toda esta empresa, no somos más que peones en este jueguito.
+0097 [Narración] | Una semana después
+0098 [Narración] | Omnisky Aegis se retiró discretamente de Philae esa misma noche en que Cosecha Unida Philae ganó la subasta.
+0099 [Narración] | Ahora mismo, Noya y las demás están preparando el Lucky Oasis. Planean zarpar mañana para seguir las pistas sobre el orfanato.
+0100 [Tú] | Uf... Hora de dejar Philae. Solo han pasado unos meses, pero la verdad se siente como toda una vida.
+0101 [Chitose] | Qué pétalos tan hermosos. Me recuerdan a mi hogar.
+0102 [Tú] | Tu hogar...==W== Debe ser un lugar increíblemente tranquilo. Me encantaría conocerlo algún día.
+0103 [Tú] | Espérame aquí, Chitose. Tengo una reunión privada con Serena.==W== En cuanto termine, nos ponemos en marcha.
+0104 [Chitose] | Como ordene, mi ==SEX11==.
+0105 [Tú] | Así que esta es la habitación de Serena...==W== Cierto. Ya que estoy, debería preguntarle por la Santa Manca.==W== Y por esos textos raros sobre el Tirano que encontré en el Monolito.
+0106 [1] | ¿Serena? Soy ==PLAYER_NAME==.
+0107 [Serena] | Te estaba esperando. Pasa, por favor.
+0108 [Tú] | Con permiso...==W== ¿eh?==W== Ah, perdón, creo que me equivoqué de habitación.
+0109 [Serena] | No te equivocaste.==W== Es solo que hoy no traigo mi capa.==W== ¿No me reconoces, Jefe?
+0110 [Tú] | La capa...==W== Espera, ¿entonces sí eres Serena?==W== Como nunca te había visto la cara, estaba segurísimo de que era otra persona.
+0111 [Serena] | Culpable.==W== Como estamos solo nosotros dos, esconderme bajo una capucha me pareció bastante descortés.==W== Pensé que ya era hora de vernos cara a cara.
+0112 [Tú] | Aun así...==W== Es una locura cómo con solo quitarse una capa cambia por completo el aura de una persona.
+0113 [Tú] | En fin... ¿Dijiste que había algo de lo que querías hablar?
+0114 [Serena] | A decir verdad, vender información es solo un trabajo secundario. Mi verdadera pasión es la historia del Tirano.
+0115 [Tú] | ... Ajá. ¿Y?
+0116 [Serena] | Descongelaste el legendario Boss Accord. Posees varios Sellos de la Gracia, incluido uno que jamás se ha documentado.
+0117 [Serena] | Así que esperaba que pudiéramos platicar. Pensé que quizá podrías arrojar algo de luz sobre mi investigación del Tirano.
+0118 [Tú] | Tiene sentido. Has hecho mucho por nosotros, así que es justo que te cuente lo que sé. Sin secretos.
+0119 [Tú] | Por desgracia...==W== para cuando el Gremio de la Nueva Estrella me sacó del Monolito, ya había perdido la memoria.
+0120 [Tú] | No puedo mencionar a Vita, la Sala Blanca ni el poder de la pieza del rey... Pero lo demás debería estar bien.
+0121 [Serena] | Sé lo de tu amnesia. Por eso prefiero preguntarte por algunas cosas que parecen... fuera de lugar.
+0122 [Tú] | ¿Fuera de lugar? ¿Como qué?
+0123 [Serena] | Por ejemplo,==W== libraste una guerra corporativa por el Gremio de la Nueva Estrella y el Clan Viento de Ceniza.==W== En realidad, una vez que tienes el Sello de la Gracia, deberías poder conseguir que Creta Trading trate a tus compañeros con el debido respeto solo con pasar por unos cuantos intermediarios bien conectados.==W== Esa habría sido la jugada más inteligente.
+0124 [Tú] | En ese entonces apenas entendía qué estaba pasando. No estaba pensando tan a futuro.
+0125 [Tú] | Pero aunque lo hubiera hecho, de todos modos habría elegido la guerra corporativa.
+0126 [Tú] | Claro, los que tenemos un Sello de la Gracia podríamos negociar la paz. Pero ¿y los niños de la calle que no tienen uno?
+0127 [Serena] | Jaja, eres un alma bondadosa.==W== Me imagino que habrías ayudado a Fuyuka aunque yo no te hubiera ofrecido información a cambio.
+0128 [Tú] | Probablemente.==W== Igual que el Gremio de la Nueva Estrella me salvó cuando estaba en mi peor momento. Todos somos Trekkers. Ayudarnos entre nosotros es lo que hacemos.
+0129 [Serena] | Un espíritu de ayuda mutua...==W== ¿Y qué hay de después? Cuando Darcia te aclamó como el Tirano, ¿por qué la rechazaste?
+0130 [Tú] | ¿C-cómo sabes eso?
+0131 [Serena] | Je, soy informante. Tengo mis fuentes.==W== Con su lealtad inquebrantable, podrías haber usado su poder para lograr las cosas mucho más rápido.
+0132 [Tú] | Era un gran poder, sí.==W== Pero si te apoyas en la fuerza bruta para obligar a la gente a hacer lo que quieres...==W== aunque tengas buenas intenciones, siempre termina mal.
+0133 [Tú] | Es como explorar.==W== Si solo quiero seguir el camino pavimentado, siempre tomaré la misma ruta que todos los demás==W== y nunca veré nada nuevo.
+0134 [Tú] | Si quiero un cambio de verdad, no puedo simplemente elegir el camino que «parece fácil».
+0135 [Serena] | Tu forma de pensar me sorprende.==W== No se parece en nada a la de un director ejecutivo.
+0136 [Tú] | Hace poco alguien me dijo lo mismo.==W== Entonces, ¿cómo piensa un director ejecutivo de verdad?
+0137 [Serena] | Depende. Pero al final del día, la mayoría de los que llegan tan alto no son santos.
+0138 [Serena] | ¿Y alguien como tú, dispuesto a sacrificarse por los demás? Eso es raro...==W== Se podría decir que prácticamente no existe.
+0139 [Tú] | Creo que exageras...==W== Pero de cualquier forma, está claro que alguien como yo no tiene nada que ver con el legendario Tirano malvado.
+0140 [Serena] | Es cierto.==W== Aunque fueras el verdadero Tirano... seguro serías uno bondadoso.
+0141 [Serena] | Entonces, probemos desde otro ángulo...==W== Durante tu tiempo en Philae, ¿qué impresión te ha dado este lugar?
+0142 [Tú] | Mi impresión de Philae...
+0143 [Narración] | Ondas de Philae: Fin
+0144 [Tú] | Uf. Eso es todo lo que puedo contarte.
+0145 [Serena] | Gracias por tu tiempo. Esta información es invaluable; es un gran paso adelante para mi investigación del Tirano.
+0146 [Serena] | Espera un momento aquí. Tengo un regalo para ti, para agradecerte por hoy.
+0147 [Tú] | No tienes que hacerlo.==W== Ah, y, Serena... Ya que has estudiado al Tirano, ¿has oído esto antes?
+0148 [Tú] | El Emperador Demonio despierta dentro de la pupila...
+0149 [Serena] | Y reparte el poder de la muerte entre todos los seres vivos.
+0150 [Serena] | Libro de las Profecías de la Gracia, 13:18.
+0151 [Serena] | El legendario Tirano es inmortal. Si matan a ==SEX4== con armas comunes, ==SEX== resucita una y otra vez.==W== Y con cada renacimiento, ==SEX== regresa más fuerte.
+0152 [Serena] | El Tirano trastoca las reglas de la sociedad, da a la gente común el poder de masacrar a magos poderosos y destruye el mundo.
+0153 [Serena] | Y así, la profecía continúa...
+0154 [Serena] | El Emperador retira su gracia. El dulce rocío se vuelve amargo ajenjo.
+0155 [Serena] | La tierra se quiebra. Los malvados ungidos se alzan desde el abismo sin fondo.
+0156 [Serena] | Este lugar será despojado de su nombre. Quedará yermo y sin vida por toda la eternidad.
+0157 [Tú] | Entonces...==W== ¿esta profecía anuncia==W== el fin del mundo?
+0158 [Serena] | Sí.==W== Cada siglo, el Tirano renace en Nova. Y la única forma de impedir que el mundo se acabe...==W== es matar a ==SEX4==.
+0159 [Tú] | Claro... Matar al Tirano.==W== Jaja...==W== Una figura legendaria así no podría existir de verdad, ¿no?
+0160 [Serena] | Jeje. Olvidé mencionarlo... El Tirano del Libro de las Profecías de la Gracia es alguien que hace las buenas obras que nadie más quiere hacer.
+0161 [Tú] | Ah. Entonces es una buena persona.==W== Pero ¿por qué me cuentas esto? Suena como si estuvieras insinuando que... yo soy...
+0162 [Serena] | Te he observado durante mucho tiempo. Cada acción, cada palabra... coinciden perfectamente con la profecía.
+0163 [Serena] | ¿Y quién sino el Tirano podría pedir con un deseo un arma que ni siquiera pertenece a este mundo?
+0164 [Tú] | ¡E-espera un momento! ¡¿De qué estás hablando?! ¡Todo esto son especulaciones tuyas!
+0165 [Serena] | Especulaciones... Sí. Pero la profecía nunca se equivoca, y tú coincides en un noventa y nueve por ciento.
+0166 [Tú] | ¡¿Pero y si no soy el Tirano?!==W== ¡Estarías matando a la persona equivocada!
+0167 [Serena] | Tienes razón.==W== Pero si sacrificar tu única vida pudiera salvar al mundo...==W== estoy dispuesta a correr ese riesgo.
+0168 [Serena] | Si mi juicio resulta equivocado, encontraré la forma de expiarlo.
+0169 [Tú] | ¡¿De qué sirve expiar algo cuando yo ya esté muerto?!==W== ¡Esto es una locura...!
+0170 [Serena] | Eres una buena persona y no te guardo ningún rencor personal.==W== Así que lo siento profundamente, pero por el bien de este mundo... debo pedirte que mueras. Tienes mi gratitud.
+0171 [Serena] | Por favor, acepta esta bala, una que concede la misma muerte a todos.
+0172 [Serena] | Espero que esta vez encuentres el descanso eterno.==W== Adiós...==W== Tirano.
+0173 [Narración] | Continuará

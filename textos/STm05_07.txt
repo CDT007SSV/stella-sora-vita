@@ -1,12 +1,12 @@
-# Capítulo 5 · Una chispa en la oscuridad · 7 · The Meaning of Rules
+# Capítulo 5 · Una chispa en la oscuridad · 7 · El sentido de las reglas
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
 N:Aila | Aila
-N:Alert Mercenary | Alert Mercenary
-N:Happy Customer | Happy Customer
-N:Mandrake Radiant Grasses | Mandrake Radiant Grasses
+N:Alert Mercenary | Mercenario alerta
+N:Happy Customer | Cliente feliz
+N:Mandrake Radiant Grasses | Hierbas Radiantes Mandrágora
 N:Nia | Nia
 N:Sherlock | Sherlock
 N:avg1_103 | Amber
@@ -16,194 +16,194 @@ N:avg1_112 | Noya
 N:avg1_134 | Fuyuka
 N:avg1_135 | Mistique
 N:avg1_138 | Nyx
-N:avg2_958 | Weed Brawler
+N:avg2_958 | Hierbajo Peleador
 N:avg2_965 | Lanterna
 N:avg2_977 | Alpha Boar
 N:avg3_100 | Sylar
 N:avg3_1214 | Pumpka
-N:avg3_1220 | United Harvest Forester
-N:avg3_1221 | United Harvest Forester
+N:avg3_1220 | Guardabosques de Cosecha Unida
+N:avg3_1221 | Guardabosques de Cosecha Unida
 N:avg3_1249 | Empleado de Cosecha Unida
 N:avg3_1250 | Empleado de Cosecha Unida
 N:avg3_1251 | Empleado de Cosecha Unida
-N:avg3_1260 | Weed Brawler
-N:avg3_1263 | Weed Brawler
+N:avg3_1260 | Hierbajo Peleador
+N:avg3_1263 | Hierbajo Peleador
 N:avg3_134 | Mina
 N:avg3_136 | Ruby
 N:avg3_137 | Sapphire
 N:avg3_138 | Trekker
-N:avg3_158 | Penguin Performer
+N:avg3_158 | Pingüino artista
 N:avg3_167 | Chica
 N:avg3_168 | Chica
 N:avg3_183 | Joseph
-N:avg3_937 | The Crowd
+N:avg3_937 | La multitud
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Seven
-0002 [Intro] | The Meaning of Rules
-0003 [Intro] | With the commission complete, Mina invites the group over and brings up a past information leak. The report Mina submitted are met with total silence. You decide to go for another sweep of the greenhouse.
-0004 [???] | Those people didn't back down, as expected. They're even closing in on the truth.
-0005 [???] | But we aren't ready yet.
-0006 [???] | It doesn't matter. With Mina there, even if they find the truth, I'll keep them stalled.
-0007 [???] | How long do you need?
-0008 [???] | Let me see... Too many departments and individuals are tangled up in this.
-0009 [???] | Until at least the 5th of next month, I think.
-0010 [???] | That long? What on earth are those people up to... Fine, I'll do my best to stall them until then.
-0011 [Lugar y hora] | 6:30, Calor Month 14th, Greenhouse District in Philae, United Harvest Warehouse
-0012 [Mistique] | Yawn... Man, I'm toast. Mina, Iris, how'd those numbers turn out? Found anything?
-0013 [Iris] | F-finally done...==W== I ran the check again. The data doesn't lie. This is the result.
-0014 [Mina] | Here's the verdict:==W== nine out of ninety-nine greenhouses have been using 200% more wheat seed than average over the last two months.
-0015 [Mina] | That's way beyond normal waste. Someone has to be using magic to force-grow the wheat in there.
-0016 [Mistique] | You guys move fast. Pretty thorough job. So, let's go stake out those sheds and nab the guy, yeah?
-0017 [Mina] | We can't. Our mandate is investigation only—no arrests.
-0018 [Mistique] | What?
-0019 [Mina] | I'll submit the evidence to HQ. Let the company deal with it.
-0020 [Tú] | Let the company deal with it, huh... Nine greenhouses, totally unnoticed for two months. Who could pull that off?
-0021 [Mina] | Iris, Mistique, ==PLAYER_NAME== ... and everyone else not here, good work.
-0022 [Mina] | That wraps up the Golden Nightingale investigation. Since we finally have a day off, why not come over to my place for dinner? Let's celebrate.
-0023 [Lugar y hora] | 10:00, Calor Month 14th, Silver District in Philae, Mina's Home
-0024 [Mina] | Make yourselves at home. Sorry...==W== It's a bit of a tight squeeze in here.
-0025 [???] | Mina! You're back!
-0026 [Mina] | Nia, Aila. You two been behaving yourselves?
-0027 [Nia] | I was super good! I made dinner last night and breakfast this morning.
-0028 [Aila] | And I cleaned up the house.
-0029 [Nia] | Mina... Could you not work so late next time? It gets kinda scary when it's just us here.
-0030 [Mina] | I'm sorry... I promise I won't stay out that late again.
-0031 [Aila] | Liar. You say that every time, but you didn't even come home last night!
-0032 [Mina] | Ah-haha... I promise, for real this time! No matter how late it gets, I'll come home.
-0033 [Mina] | Everyone, meet my little sisters—Aila and Nia.
-0034 [Mina] | Come on, say hello to our guests.
-0035 [Lugar y hora] | 11:00, Calor Month 14th, Silver District in Philae, Mina's Home
-0036 [Aila] | Then what?! That giant Bark Boar was charging right at you! What did you do?
-0037 [Nia] | It's not just a "giant Bark Boar." It has a proper name! It's the Spirit of... Uh...==W== Right, the Spirit of Brutality.
-0038 [Noya] | Well, the Spirit of Brutality realized ==PLAYER_NAME== was calling the shots and went berserk. It ripped a massive boulder out of the ground and hurled it straight at us!
-0039 [Aila] | Oh no! Did it squash ==PLAYER_NAME==?!
-0040 [Noya] | Don't worry. Fuyuka stepped in with a solid right hook—BAM! That rock shattered into dust. Then she followed up with a left hook that sent the Spirit of Brutality flying into the sky!
-0041 [Fuyuka] | N-Noya, please... You're making it sound way more dramatic than it actually was...
-0042 [Nia] | Fuyuka! Can you show us? Please? Show us the hooks!
-0043 [Aila] | Yeah, do it! Look, this pillow can be the Spirit of Brutality, and...==W== I'll use this apple for its nose!
-0044 [Iris] | Hey now, don't waste food.==W== Why don't you play with me instead? I've got something really fun planned.
-0045 [Nia] | Oh yeah? Is it cooler than fighting a giant monster?
-0046 [Iris] | Absolutely. I've curated a selection of math problems perfectly tailored for your age group.==W== I tested them myself—they're incredibly practical. You'll love them.
-0047 [Amber] | The hooks,==W== were cooler.
-0048 [Aila] | Yeah! Fists are way better!
-0049 [Mistique] | What a nostalgic sight. There's nothing quite like seeing everyone together, getting along so warmly.
-0050 [Tú] | Yeah. Everyone's been on edge lately. What a relief to finally see them relax.
-0051 [Mina] | Thank you all. I'm away so much these days... It's been a long time since I've heard Nia and Aila laugh like that.
-0052 [Tú] | Don't mention it. Noya and the others said playing with the kids brings back happy memories of the orphanage. They're having a blast, too.
-0053 [Mistique] | Speaking of which, I haven't seen your parents. Are they out? Should we make extra for lunch?
-0054 [Mina] | No need. They aren't in Philae right now. They're working far, far to the south—==W==at the United Harvest Lushwood Jungle Branch.
-0055 [Mistique] | The Lushwood Jungle Branch? Isn't that on the southern edge of the Empire...?==W== But with kids at home, why do they have to work so far away?
-0056 [Mina] | Well...==W== Four years ago, there was a major incident at the Philae Branch.
-0057 [Mina] | The former R&D Director—Director Joseph's predecessor—was arrested for leaking secrets to witches and embezzling funds.
-0058 [Mina] | My parents were in R&D back then, and they were found partially responsible for what happened.
-0059 [Mina] | Luckily, the compliance inspector in charge was a stickler for protocol. She ruled that my parents were merely implicated. So instead of being exiled like the former Director, they were just transferred to the Lushwood Jungle Branch.
-0060 [Tú] | So that's the skeleton in United Harvest's closet...
-0061 [Mina] | After they left, their pay was cut drastically. I was still in school... We fell on hard times almost overnight.
-0062 [Mina] | But that anonymous compliance inspector saved us, cited a regulation about employee welfare, and got the company to grant us a subsidy.
-0063 [Mina] | Later, when Tawny Nightingale launched, we started getting weekly shipments. It was enough to keep us fed.
-0064 [Mina] | To me, Tawny Nightingale tastes better than anything else in the world.
-0065 [Tú] | I see... The rules are what got you through. No wonder you were really against us breaking protocol or looking for loopholes during the investigation.
-0066 [Mina] | It might sound dramatic...==W== But without those rules, I wouldn't be here today.
-0067 [Mina] | If everyone ignored the rules like that Director or those witches, imagine the chaos. Imagine how many people would suffer.
-0068 [Mistique] | I don't know the details, but it's not like the witches are totally lawless. They have their own code, don't they?
-0069 [Mina] | Maybe. But to me, they're just selfish people who only care about themselves. I hate witches.
-0070 [Mistique] | ... Yeah. Guess they aren't exactly winning any popularity contests.
-0071 [Mina] | Oh, Mistique?
-0072 [Mistique] | Wh-what? What'd I do?
-0073 [Mina] | The soup is boiling over.
-0074 [Mistique] | Oh ★ Why didn't you tell me sooner?!
-0075 [Lugar y hora] | 15:00, Calor Month 14th, Silver District in Philae, Mina's Home
-0076 [Nia] | Noya, will you come back and tell us more stories next time?
-0077 [Aila] | I wanna hear about your adventure on the Waterway!
-0078 [Noya] | You got it! Besides, Mina's an amazing cook—I'm hoping to learn a few local dishes from her while I'm here.
-0079 [Tú] | Mina, how long till we hear back on that report?
-0080 [Mina] | Since the "big shots" are all over this, maybe as soon as tomorrow. A week, tops.
-0081 [Mina] | Until then, mind sticking around United Harvest a little longer?
-0082 [Iris] | Sure. Marketing's actually been pretty interesting.
-0083 [Amber] | Love the mascot suit.
-0084 [Fuyuka] | I've learned a ton in R&D. Once this job's done, maybe I can finally be of some real help to everyone.
-0085 [Mina] | Alright then. See you tomorrow.
-0086 [The Crowd] | See ya!
+0001 [Intro] | Acto siete
+0002 [Intro] | El sentido de las reglas
+0003 [Intro] | Con el encargo terminado, Mina invita al grupo a su casa y saca a relucir una antigua filtración de información. El informe que entregó Mina solo recibe silencio absoluto. Decides hacer otra inspección del invernadero.
+0004 [???] | Como era de esperar, esa gente no se echó para atrás. Incluso se están acercando a la verdad.
+0005 [???] | Pero todavía no estamos listos.
+0006 [???] | No importa. Con Mina ahí, aunque descubran la verdad, yo los entretendré.
+0007 [???] | ¿Cuánto tiempo necesitas?
+0008 [???] | A ver... Hay demasiados departamentos y personas metidos en esto.
+0009 [???] | Creo que por lo menos hasta el día 5 del próximo mes.
+0010 [???] | ¿Tanto? ¿Qué demonios trama esa gente...? Está bien, haré lo posible por entretenerlos hasta entonces.
+0011 [Lugar y hora] | 6:30, 14.º del mes de Calor, Distrito Invernadero de Philae, almacén de Cosecha Unida
+0012 [Mistique] | Aaah... Uf, estoy molida. Mina, Iris, ¿cómo salieron esos números? ¿Encontraron algo?
+0013 [Iris] | P-por fin terminé...==W== Volví a hacer la revisión. Los datos no mienten. Este es el resultado.
+0014 [Mina] | Aquí está el veredicto:==W== nueve de los noventa y nueve invernaderos han usado un 200 % más de semilla de trigo que el promedio en los últimos dos meses.
+0015 [Mina] | Eso va mucho más allá del desperdicio normal. Alguien tiene que estar usando magia para forzar el crecimiento del trigo ahí dentro.
+0016 [Mistique] | Ustedes sí que son rápidos. Un trabajo bastante minucioso. Entonces, ¿vamos a vigilar esos invernaderos y atrapamos al tipo, va?
+0017 [Mina] | No podemos. Nuestro mandato es solo investigar, nada de arrestos.
+0018 [Mistique] | ¿Qué?
+0019 [Mina] | Entregaré las pruebas a la sede. Que la empresa se encargue.
+0020 [Tú] | Que la empresa se encargue, ¿eh...? Nueve invernaderos, sin que nadie lo notara durante dos meses. ¿Quién podría lograr algo así?
+0021 [Mina] | Iris, Mistique, ==PLAYER_NAME==... y todos los demás que no están aquí, buen trabajo.
+0022 [Mina] | Con esto termina la investigación del Ruiseñor Dorado. Ya que por fin tenemos un día libre, ¿por qué no vienen a cenar a mi casa? Hay que celebrar.
+0023 [Lugar y hora] | 10:00, 14.º del mes de Calor, Distrito de Plata de Philae, casa de Mina
+0024 [Mina] | Siéntanse como en su casa. Perdón...==W== Aquí estamos un poco apretados.
+0025 [???] | ¡Mina! ¡Ya volviste!
+0026 [Mina] | Nia, Aila. ¿Se han portado bien?
+0027 [Nia] | ¡Me porté súper bien! Anoche hice la cena y hoy en la mañana el desayuno.
+0028 [Aila] | Y yo limpié la casa.
+0029 [Nia] | Mina... ¿Podrías no trabajar tan tarde la próxima vez? Da un poco de miedo cuando estamos solas aquí.
+0030 [Mina] | Lo siento... Te prometo que no vuelvo a llegar tan tarde.
+0031 [Aila] | Mentirosa. Siempre dices lo mismo, ¡y anoche ni siquiera viniste a dormir!
+0032 [Mina] | Ah, jaja... ¡Lo prometo, ahora sí en serio! Por más tarde que sea, voy a volver a casa.
+0033 [Mina] | Todos, les presento a mis hermanitas: Aila y Nia.
+0034 [Mina] | Ándenle, saluden a nuestras visitas.
+0035 [Lugar y hora] | 11:00, 14.º del mes de Calor, Distrito de Plata de Philae, casa de Mina
+0036 [Aila] | ¡¿Y luego qué?! ¡Ese Jabalí Corteza gigante iba directo hacia ustedes! ¿Qué hicieron?
+0037 [Nia] | No es solo un «Jabalí Corteza gigante». ¡Tiene un nombre de verdad! Es el Espíritu de la... Eh...==W== Ah, sí, el Espíritu de la Brutalidad.
+0038 [Noya] | Bueno, el Espíritu de la Brutalidad se dio cuenta de que ==PLAYER_NAME== era quien daba las órdenes y se puso como loco. ¡Arrancó una roca enorme del suelo y nos la aventó directo!
+0039 [Aila] | ¡Ay, no! ¡¿Aplastó a ==PLAYER_NAME==?!
+0040 [Noya] | Tranquila. Fuyuka se metió con un gancho de derecha bien dado, ¡PUM! Esa roca quedó hecha polvo. ¡Luego remató con un gancho de izquierda que mandó al Espíritu de la Brutalidad volando hasta el cielo!
+0041 [Fuyuka] | N-Noya, por favor... Lo estás haciendo sonar mucho más dramático de lo que fue...
+0042 [Nia] | ¡Fuyuka! ¿Nos enseñas? ¿Porfa? ¡Enséñanos los ganchos!
+0043 [Aila] | ¡Sí, hazlo! Mira, esta almohada puede ser el Espíritu de la Brutalidad, y...==W== ¡esta manzana será su nariz!
+0044 [Iris] | Oigan, no desperdicien la comida.==W== ¿Por qué mejor no juegan conmigo? Les preparé algo muy divertido.
+0045 [Nia] | ¿Ah, sí? ¿Es más padre que pelear contra un monstruo gigante?
+0046 [Iris] | Por supuesto. Seleccioné unos problemas de matemáticas perfectamente adaptados a su edad.==W== Yo misma los probé: son increíblemente prácticos. Les van a encantar.
+0047 [Amber] | Los ganchos==W== eran más padres.
+0048 [Aila] | ¡Sí! ¡Los puños son mucho mejores!
+0049 [Mistique] | Qué escena tan nostálgica. No hay nada como ver a todos juntos, llevándose tan bien.
+0050 [Tú] | Sí. Últimamente todos han estado muy tensos. Qué alivio verlos relajarse por fin.
+0051 [Mina] | Gracias a todos. Paso tanto tiempo fuera estos días... Hacía mucho que no oía a Nia y a Aila reírse así.
+0052 [Tú] | No hay de qué. Noya y las demás dijeron que jugar con las niñas les trae bonitos recuerdos del orfanato. Ellas también se la están pasando de lujo.
+0053 [Mistique] | Por cierto, no he visto a tus papás. ¿Salieron? ¿Hacemos comida de más?
+0054 [Mina] | No hace falta. Ahora no están en Philae. Trabajan muy, muy lejos, en el sur...==W== en la sucursal de Cosecha Unida en la Selva Frondosa.
+0055 [Mistique] | ¿La sucursal de la Selva Frondosa? ¿No está en el extremo sur del Imperio...?==W== Pero si tienen hijas en casa, ¿por qué tienen que trabajar tan lejos?
+0056 [Mina] | Bueno...==W== Hace cuatro años hubo un incidente grave en la sucursal de Philae.
+0057 [Mina] | El antiguo director de I+D, el predecesor del director Joseph, fue arrestado por filtrar secretos a las brujas y desviar fondos.
+0058 [Mina] | En ese entonces mis papás trabajaban en I+D, y los declararon parcialmente responsables de lo que pasó.
+0059 [Mina] | Por suerte, la inspectora de cumplimiento a cargo era muy estricta con el protocolo. Dictaminó que mis papás solo estaban implicados. Así que, en lugar de exiliarlos como al antiguo director, solo los transfirieron a la sucursal de la Selva Frondosa.
+0060 [Tú] | Así que ese es el esqueleto en el clóset de Cosecha Unida...
+0061 [Mina] | Después de que se fueron, les recortaron muchísimo el sueldo. Yo todavía iba a la escuela... Pasamos apuros casi de la noche a la mañana.
+0062 [Mina] | Pero esa inspectora de cumplimiento anónima nos salvó: citó un reglamento sobre el bienestar de los empleados y consiguió que la empresa nos diera un subsidio.
+0063 [Mina] | Después, cuando salió el Ruiseñor Leonado, empezamos a recibir envíos cada semana. Con eso nos alcanzaba para comer.
+0064 [Mina] | Para mí, el Ruiseñor Leonado sabe mejor que cualquier otra cosa en el mundo.
+0065 [Tú] | Ya veo... Las reglas fueron lo que te sacó adelante. Con razón te oponías tanto a que rompiéramos el protocolo o buscáramos resquicios durante la investigación.
+0066 [Mina] | Tal vez suene exagerado...==W== Pero sin esas reglas, hoy no estaría aquí.
+0067 [Mina] | Si todos ignoraran las reglas como ese director o esas brujas, imagínate el caos. Imagínate cuánta gente sufriría.
+0068 [Mistique] | No conozco los detalles, pero no es que las brujas no tengan ninguna ley. Tienen su propio código, ¿no?
+0069 [Mina] | Tal vez. Pero para mí solo son egoístas a los que únicamente les importa su propio bien. Odio a las brujas.
+0070 [Mistique] | ... Sí. Supongo que no van a ganar ningún concurso de popularidad.
+0071 [Mina] | Oye, ¿Mistique?
+0072 [Mistique] | ¿Q-qué? ¿Qué hice?
+0073 [Mina] | Se está derramando la sopa.
+0074 [Mistique] | ¡Ay ★ ¿Por qué no me avisaste antes?!
+0075 [Lugar y hora] | 15:00, 14.º del mes de Calor, Distrito de Plata de Philae, casa de Mina
+0076 [Nia] | Noya, ¿vas a volver la próxima vez para contarnos más historias?
+0077 [Aila] | ¡Quiero oír tu aventura en el Canal!
+0078 [Noya] | ¡Claro que sí! Además, Mina cocina increíble; espero aprender algunos platillos locales con ella mientras esté aquí.
+0079 [Tú] | Mina, ¿cuánto falta para que respondan a ese informe?
+0080 [Mina] | Como los «peces gordos» están encima de esto, tal vez mañana mismo. Una semana, a lo mucho.
+0081 [Mina] | Mientras tanto, ¿les importaría quedarse un poco más en Cosecha Unida?
+0082 [Iris] | Claro. La verdad, Marketing ha resultado bastante interesante.
+0083 [Amber] | Me encanta el disfraz de mascota.
+0084 [Fuyuka] | He aprendido muchísimo en I+D. Cuando termine este trabajo, quizá por fin pueda ser de verdadera ayuda para todos.
+0085 [Mina] | Muy bien. Nos vemos mañana.
+0086 [The Crowd] | ¡Nos vemos!
 0087 [Mistique] | ...
-0088 [Tú] | Something wrong, Mistique? Mina's words sting?==W== She doesn't know you're a witch—it wasn't personal.
-0089 [Mistique] | Sharp eyes. That's the great Boss for you.
-0090 [Mistique] | Being hated is part of the gig for a witch. I'm not gonna get depressed over a couple of stray comments.
-0091 [Mistique] | But..==W== seeing Mina and her sisters sticking together like that... even though I don‘t know who that witch from the past really was, it still makes me feel a little guilty.
-0092 [Mistique] | Boss, what takes priority: following the rules, or uncovering the truth?
-0093 [Opción] | Why can't we have both?
-0094 [Opción] | Rules provide stability.
-0095 [Opción] | Rules are meant to be broken!
-0096 [Tú] | Surely there's a way to follow the rules and still get to the truth?
-0097 [Mistique] | In theory. But just like a claw machine—does feeding it coins guarantee you a prize?
-0098 [Tú] | Obviously not.
-0099 [Mistique] | Exactly. So when the claw fails, you face a choice: keep feeding it coins, or break the machine open.
-0100 [Tú] | Would anyone actually break it open?
-0101 [Mistique] | Maybe not after twenty losses. But two hundred?==W== Your mindset might change.
-0102 [Tú] | Fair point... I'd at least suspect the claw was rigged.
-0103 [Tú] | Rules create stability. And stability protects the majority.
-0104 [Mistique] | So, if we break the rules to find the truth, does that make us villains?
-0105 [Tú] | I never said that. But if a rule crumbles just because a witch poked it,==W== it was likely weak to begin with, no?
-0106 [Mistique] | You have a weird way of comforting people.
-0107 [Tú] | I'm not offering comfort. A stable system should be self-repairing. It's a natural cycle of breaking and mending.
-0108 [Mistique] | Oh? So whatever is left standing in the end is "Justice"?==W== The ultimate rule?
-0109 [Tú] | Precisely. Survival of the fittest. Rules evolve or die out, just like everything else in nature.
-0110 [Tú] | Rules are made to be broken!==W== As the Boss, that's what I'd really like to say.
-0111 [Tú] | But then I realized: if I break the rules, as the Boss, I have to write the new ones. Total pain in the neck.
-0112 [Tú] | Besides, breaking rules doesn't guarantee finding the truth. Nor does it promise a better system.
-0113 [Tú] | Like, if I were CEO of Scarlet Sights Media, I'd have you write three articles a day, three thousand words each, no holidays.
-0114 [Mistique] | Whoa, hey! Tyrant, you really are evil!
-0115 [Tú] | Anyway, that's my take. Forget the philosophy of rules. Let's focus on the commission.
-0116 [Mistique] | You're right, Boss. A witch shouldn't get tripped up by the small stuff. I'm after the truth. Time to get back to work.
-0117 [Mistique] | So, Boss, what do you think will come of Mina's report?
-0118 [Tú] | My bet? Nothing.
-0119 [Mistique] | Interesting. Great minds think alike.
-0120 [Mistique] | The Golden Nightingale issue spans nine greenhouses. That's not a job for small fry.
-0121 [Mistique] | Out of everyone we've met, only two have the muscle to pull that off...
-0122 [Tú] | Director Joseph from R&D, our helpful friend.
-0123 [Mistique] | And Firenze, the one running Production.==W== They're the only ones with the rank to cover up a mess this big.
-0124 [Narración] | One week later.
-0125 [Lugar y hora] | 15:30, Calor Month 21st, Greenhouse District in Philae, United Harvest R&D Department
-0126 [Fuyuka] | Noya, the cake looks perfect. Experiment successful.
-0127 [Noya] | Yeah! Using wind magic to boost the baking temp actually works. Make a note for the report.
-0128 [Fuyuka] | It's been a week. Still no word on that report Mina sent up?
-0129 [Noya] | Mm. Mina mentioned this morning that the directors are in a meeting.==W== We should hear something soon.
-0130 [Narración] | Another week later.
-0131 [Lugar y hora] | 10:00, Calor Month 28th, Greenhouse District in Philae, United Harvest Production Department
-0132 [Ruby] | Kitty cat rolling, tumbling and playing! ♪==W== Stretch your body, up and away! ♪
-0133 [Mandrake Radiant Grasses] | Heeeee—ya—==W== ♪
-0134 [Tú] | Phew, another easy day.==W== Hey, Sapphire, Production looks pretty empty. Can we actually handle ninety-nine greenhouses on our own?
-0135 [Sapphire] | It's manageable. The Mandrake Radiant Grass guards most of the houses. We just need to make rounds once a week to keep them in line.
-0136 [Tú] | Once a week, huh...
-0137 [Mistique] | Psst. Boss. Over here.
-0138 [Tú] | Hm?
-0139 [Mistique] | Two weeks now, and Mina's report has sunk without a trace.==W== It's clearly a dead end, yet she's still telling us to wait.
-0140 [Tú] | She must have a plan.==W== Besides, sitting tight isn't all bad. Remember the anonymous source who tipped you off when we first joined?
-0141 [Mistique] | Hard to forget. I still haven't managed to track them down.
-0142 [Tú] | Since we're stalled here, they're probably getting restless, too. I bet they'll make a move soon.
-0143 [Narración] | Another week slips by.
-0144 [Lugar y hora] | 17:00, Messis Month 4th, Silver District in Philae, United Harvest Store
-0145 [Sherlock] | Goo-goo. Goo-ga!
-0146 [Happy Customer] | You are just the cutest! I'll definitely be back.
-0147 [Sherlock] | Goo-ga. Goo-ga!
-0148 [Iris] | Amber, shift change.
-0149 [Amber] | Iris? What are you doing here?
-0150 [Iris] | Nyx is off today.==W== I finished my spreadsheets early, so I'm covering the promo shift for her.
-0151 [Amber] | Off ... again?==W== Why does Nyx take every Friday off? She's always late on Thursdays, too.
-0152 [Amber] | Did Boss find anything new?
-0153 [Iris] | Nothing concrete...==W== But we've heard that Radiant Grass usually only needs weekly tuning. ==SEX1== found that suspicious.
-0154 [Iris] | Wait. If someone sneaks in after the official maintenance, tweaks the settings, then resets them right before the next check...==W== They could do whatever they want, unnoticed!
-0155 [Iris] | We need to tell the others. Now.
-0156 [Lugar y hora] | 21:00, Messis Month 4th, Greenhouse District in Philae, Greenhouse No.99
-0157 [Mina] | ==PLAYER_NAME==, stop!==W== We can't just barge into a Production Department greenhouse without authorization...
-0158 [Tú] | Mina, listen. I've been digging.==W== Those nine suspicious greenhouses? Production services them on Fridays during the day.==W== If anyone wanted to use magic to speed up growth, Friday night is the perfect window.
-0159 [Mina] | I heard you... They tamper with the Grass, then reset them to cover their tracks. I get it.==W== But evidence obtained illegally is useless!
-0160 [Noya] | Shh! Heads up. Someone's coming.
-0161 [Iris] | United Harvest mercenaries? Why are they guarding a greenhouse?
-0162 [Mistique] | See, Mina? We aren't the only ones bending rules. Pretty sure "armed mercenaries" aren't part of standard gardening protocol.
-0163 [Mina] | That's...
-0164 [Amber] | N-No, it wasn't me. I didn't shoot.
-0165 [Alert Mercenary] | Hey! Who goes there?!
-0166 [Fuyuka] | Master, we've been spotted.
-0167 [Mistique] | Guess there's no way out but through.==W== Pumpka & Lanterna, it's showtime ★
+0088 [Tú] | ¿Pasa algo, Mistique? ¿Te dolieron las palabras de Mina?==W== No sabe que eres bruja; no era nada personal.
+0089 [Mistique] | Qué buen ojo. Así es el gran Jefe.
+0090 [Mistique] | Que te odien es parte del oficio de bruja. No me voy a deprimir por un par de comentarios sueltos.
+0091 [Mistique] | Pero...==W== ver a Mina y a sus hermanas tan unidas... aunque no sé quién era en realidad esa bruja del pasado, igual me hace sentir un poco culpable.
+0092 [Mistique] | Jefe, ¿qué es más importante: seguir las reglas o descubrir la verdad?
+0093 [Opción] | ¿Por qué no ambas?
+0094 [Opción] | Las reglas dan estabilidad.
+0095 [Opción] | ¡Las reglas están para romperse!
+0096 [Tú] | Seguro hay una forma de seguir las reglas y aun así llegar a la verdad, ¿no?
+0097 [Mistique] | En teoría. Pero es como una máquina de garra: ¿meterle monedas te garantiza un premio?
+0098 [Tú] | Obviamente no.
+0099 [Mistique] | Exacto. Así que, cuando la garra falla, tienes que elegir: seguir metiéndole monedas o romper la máquina.
+0100 [Tú] | ¿De verdad alguien la rompería?
+0101 [Mistique] | Quizá no después de perder veinte veces. ¿Pero doscientas?==W== A lo mejor cambias de opinión.
+0102 [Tú] | Buen punto... Por lo menos sospecharía que la garra está arreglada.
+0103 [Tú] | Las reglas crean estabilidad. Y la estabilidad protege a la mayoría.
+0104 [Mistique] | Entonces, si rompemos las reglas para encontrar la verdad, ¿eso nos hace villanos?
+0105 [Tú] | Yo nunca dije eso. Pero si una regla se desmorona solo porque una bruja la picó,==W== seguramente ya era débil desde el principio, ¿no?
+0106 [Mistique] | Tienes una forma muy rara de consolar a la gente.
+0107 [Tú] | No te estoy consolando. Un sistema estable debería poder repararse solo. Es un ciclo natural de romper y reparar.
+0108 [Mistique] | ¿Ah, sí? ¿Entonces lo que quede en pie al final es la «Justicia»?==W== ¿La regla definitiva?
+0109 [Tú] | Exacto. La supervivencia del más apto. Las reglas evolucionan o desaparecen, como todo lo demás en la naturaleza.
+0110 [Tú] | ¡Las reglas están para romperse!==W== Como Jefe, eso es lo que de verdad me gustaría decir.
+0111 [Tú] | Pero luego me di cuenta: si rompo las reglas, como Jefe tengo que escribir las nuevas. Qué flojera.
+0112 [Tú] | Además, romper las reglas no garantiza encontrar la verdad. Ni tampoco promete un sistema mejor.
+0113 [Tú] | Por ejemplo, si yo fuera director ejecutivo de Scarlet Sights Media, te pondría a escribir tres artículos al día, de tres mil palabras cada uno, sin días festivos.
+0114 [Mistique] | ¡Oye, oye! ¡Tirano, de verdad eres malvado!
+0115 [Tú] | En fin, esa es mi opinión. Olvídate de la filosofía de las reglas. Concentrémonos en el encargo.
+0116 [Mistique] | Tienes razón, Jefe. Una bruja no debería tropezar con pequeñeces. Lo que busco es la verdad. Hora de volver al trabajo.
+0117 [Mistique] | Entonces, Jefe, ¿qué crees que pase con el informe de Mina?
+0118 [Tú] | ¿Mi apuesta? Nada.
+0119 [Mistique] | Interesante. Las grandes mentes piensan igual.
+0120 [Mistique] | El asunto del Ruiseñor Dorado abarca nueve invernaderos. Eso no es trabajo de peces chicos.
+0121 [Mistique] | De toda la gente que hemos conocido, solo dos tienen el poder para lograr algo así...
+0122 [Tú] | El director Joseph de I+D, nuestro amigo tan servicial.
+0123 [Mistique] | Y Firenze, la que dirige Producción.==W== Son los únicos con el rango suficiente para encubrir un desastre de este tamaño.
+0124 [Narración] | Una semana después.
+0125 [Lugar y hora] | 15:30, 21.º del mes de Calor, Distrito Invernadero de Philae, Departamento de I+D de Cosecha Unida
+0126 [Fuyuka] | Noya, el pastel se ve perfecto. Experimento exitoso.
+0127 [Noya] | ¡Sí! Usar magia de viento para subir la temperatura del horno sí funciona. Anótalo para el informe.
+0128 [Fuyuka] | Ya pasó una semana. ¿Todavía no hay noticias del informe que mandó Mina?
+0129 [Noya] | Mmm. Mina dijo esta mañana que los directores están en junta.==W== Deberíamos saber algo pronto.
+0130 [Narración] | Otra semana después.
+0131 [Lugar y hora] | 10:00, 28.º del mes de Calor, Distrito Invernadero de Philae, Departamento de Producción de Cosecha Unida
+0132 [Ruby] | ¡El gatito rueda, da vueltas y juega! ♪==W== ¡Estira el cuerpo, arriba y a volar! ♪
+0133 [Mandrake Radiant Grasses] | Jiiiii—ya—==W== ♪
+0134 [Tú] | Uf, otro día tranquilo.==W== Oye, Sapphire, Producción se ve bastante vacío. ¿De verdad podemos con noventa y nueve invernaderos nosotros solos?
+0135 [Sapphire] | Es manejable. La Hierba Radiante Mandrágora vigila la mayoría de los invernaderos. Solo tenemos que hacer rondas una vez a la semana para mantenerlas en orden.
+0136 [Tú] | Una vez a la semana, ¿eh...?
+0137 [Mistique] | Psst. Jefe. Por acá.
+0138 [Tú] | ¿Mmm?
+0139 [Mistique] | Ya van dos semanas y el informe de Mina desapareció sin dejar rastro.==W== Está clarísimo que es un callejón sin salida, y ella todavía nos dice que esperemos.
+0140 [Tú] | Debe tener un plan.==W== Además, quedarnos quietos no es tan malo. ¿Te acuerdas de la fuente anónima que te pasó el dato cuando recién entramos?
+0141 [Mistique] | Difícil olvidarla. Todavía no he logrado dar con ella.
+0142 [Tú] | Como aquí estamos estancados, seguro también se está impacientando. Apuesto a que pronto hará algún movimiento.
+0143 [Narración] | Pasa otra semana.
+0144 [Lugar y hora] | 17:00, 4.º del mes de Messis, Distrito de Plata de Philae, tienda de Cosecha Unida
+0145 [Sherlock] | Gu-gu. ¡Gu-ga!
+0146 [Happy Customer] | ¡Eres lo más lindo del mundo! Sin duda volveré.
+0147 [Sherlock] | Gu-ga. ¡Gu-ga!
+0148 [Iris] | Amber, cambio de turno.
+0149 [Amber] | ¿Iris? ¿Qué haces aquí?
+0150 [Iris] | Hoy Nyx tiene el día libre.==W== Terminé mis hojas de cálculo temprano, así que la estoy cubriendo en el turno de promoción.
+0151 [Amber] | ¿Libre... otra vez?==W== ¿Por qué Nyx se toma todos los viernes? Y los jueves siempre llega tarde.
+0152 [Amber] | ¿El Jefe encontró algo nuevo?
+0153 [Iris] | Nada concreto...==W== Pero supimos que la Hierba Radiante normalmente solo necesita ajustes semanales. A ==SEX1== eso le pareció sospechoso.
+0154 [Iris] | Espera. Si alguien se mete después del mantenimiento oficial, cambia la configuración y luego la restablece justo antes de la siguiente revisión...==W== ¡podría hacer lo que quisiera sin que nadie lo notara!
+0155 [Iris] | Tenemos que decírselo a los demás. Ya.
+0156 [Lugar y hora] | 21:00, 4.º del mes de Messis, Distrito Invernadero de Philae, Invernadero n.º 99
+0157 [Mina] | ¡==PLAYER_NAME==, detente!==W== No podemos meternos así como así a un invernadero del Departamento de Producción sin autorización...
+0158 [Tú] | Mina, escucha. Estuve investigando.==W== ¿Esos nueve invernaderos sospechosos? Producción les da mantenimiento los viernes durante el día.==W== Si alguien quisiera usar magia para acelerar el crecimiento, el viernes en la noche es el momento perfecto.
+0159 [Mina] | Te oí... Alteran la Hierba y luego la restablecen para borrar sus huellas. Lo entiendo.==W== ¡Pero las pruebas obtenidas ilegalmente no sirven de nada!
+0160 [Noya] | ¡Shh! Atentos. Viene alguien.
+0161 [Iris] | ¿Mercenarios de Cosecha Unida? ¿Por qué están vigilando un invernadero?
+0162 [Mistique] | ¿Ves, Mina? No somos los únicos que nos saltamos las reglas. Estoy bastante segura de que los «mercenarios armados» no son parte del protocolo estándar de jardinería.
+0163 [Mina] | Eso...
+0164 [Amber] | N-no, no fui yo. Yo no disparé.
+0165 [Alert Mercenary] | ¡Oigan! ¡¿Quién anda ahí?!
+0166 [Fuyuka] | Maestro, nos descubrieron.
+0167 [Mistique] | Supongo que no queda más que abrirnos paso.==W== Pumpka y Lanterna, ¡es hora del show ★

@@ -3,8 +3,8 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Boss (Nazuna) | Boss (Nazuna)
-N:Serious Committee Member | Serious Committee Member
+N:Boss (Nazuna) | Jefa (Nazuna)
+N:Serious Committee Member | Miembro del Comité serio
 N:avg1_103 | Amber
 N:avg1_110 | Firenze
 N:avg1_111 | Iris
@@ -13,130 +13,130 @@ N:avg1_133 | Nazuka
 N:avg1_139 | Allie
 N:avg1_144 | Chitose
 N:avg1_150 | Laru
-N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_947 | Soldado de los Centinelas del Alba
 N:avg3_100 | Sylar
 N:avg3_1249 | Empleado de Cosecha Unida
-N:avg3_1311 | SaiLa F
+N:avg3_1311 | SaiLa
 N:avg3_150 | Albedo
 N:avg3_152 | Bastelina
 N:avg3_168 | Chica
 
 ## Texto
-0001 [Intro] | Act Ten
-0002 [Intro] | A Pause
-0003 [Intro] | Albedo sends Bastelina and Laru to track Angie. Meanwhile, you and the New Star Guild finally settle in at the Daisy Orphanage. You let your friends in Philae know you're safe, then finally get to talk with Allie...
-0004 [Lugar y hora] | 02:00, Nebula Month 8th, Gold District in Emor, Secret Prison
-0005 [Laru] | Yaaawn...==W== I am beat.==W== Hey, Bastelina, want some fry? I got the coffee-flavored ones. Figured they'd keep us awake.==W==
-0006 [Bastelina] | Sure, I could use a pick-me-up. Munch, munch...==W== These are soggy.==W== You usually have higher standards, Laru.
-0007 [Laru] | What do you expect? This dungeon is a swamp. They went soggy after all the time I took bringing them here from the shop.==W== Ugh, I can't even enjoy a crispy fry.==W== How much longer are we rotting in here?
-0008 [Bastelina] | Easy, Laru. Remember the mission Lady Albedo assigned us. Patience.==W==
-0009 [Albedo] | Bastelina, Laru. Angie's operation is going to fail. Fall back with her squad.
-0010 [Bastelina] | Lady Albedo, if this is an order to assassinate Boss, I'm afraid I can't accept that.
-0011 [Laru] | Yeah, I am out too.==W== And for the record,==W== this isn't me trying to dodge work. I never bought that Book of Grace Prophecies anyway. An apocalypse? Please.
-0012 [Albedo] | Don't jump to conclusions. Hear me out.==W== I am sending you in to spy on Angie's faction from the inside.==W==
-0013 [Albedo] | Angie is desperate for Boss's head. She needs people who actually know ==SEX4== to improve her odds. You two are perfect bait.
-0014 [Albedo] | Play along. Act like you want to save the world and slay the Tyrant. She'll snatch you right up.
-0015 [Laru] | Oh, play undercover... Fine.==W== But I am logging this as field overtime.==W== You gotta approve my bonus.
-0016 [Albedo] | Assuming==W== I am still your superior when you get back.
-0017 [Bastelina] | That sounds a little bleak.==W== Are you expecting trouble?
-0018 [Albedo] | The Director of the Sky Institute attempted murder.==W== As her second-in-command, I have to answer for it.
-0019 [Albedo] | So I have to try and stop Angie, then turn myself in to Boss Accord.==W== They must absolutely loathe me by now.==W== Who knows what they'll do to me.
-0020 [Laru] | Don't worry, Albedo! ♪==W== If they burn you to a crisp, I'll collect your ashes myself!
-0021 [Albedo] | Laru!==W== Why do you sound thrilled about that?!
-0022 [Laru] | Well, everything played out as Albedo predicted.==W== Hey,==W== does this mean our Committee is a heretic cult now?==W== I'm not sure how I feel about that.
-0023 [Bastelina] | Pretty much. The Dusk Arbiter hasn't come for our heads yet, but to the Grace Imperium, we belong at the stake.
-0024 [Laru] | Burned at the stake...==W== My body is ninety percent fries at this point. I'd end up cooked into a human fry.
-0025 [Bastelina] | You'd be perfectly crispy, Laru. I am sure you'd give off the sweet, rich aroma of a deep-fried potato.
-0026 [Laru] | That sounds delicious...==W== Wait,==W== I can't eat myself.
-0027 [Laru] | Alright, back to business. I dug up some intel.==W== Angie put me in charge of procuring the daily necessities and snacks, so I have a rough headcount of her current forces.==W==
-0028 [Laru] | About thirty Sentinels of Dawn and Imperial Guards, fifteen Dusk Arbiters,==W== and a few dozen Trekkers.
-0029 [Bastelina] | That is specific.==W== You got all that from groceries?
-0030 [Laru] | Yep. The Sentinels and Imperial Guards use a specific oil to maintain their gear, and the Arbiters need special prayer candles.==W== I worked out the rest from daily consumables.
-0031 [Bastelina] | Nice work, Laru. I made a discovery too.==W== Angie had me monitor that person's daily broadcasts on Scarlet Sights for clues.==W==
-0032 [Laru] | Ah,==W== you mean Boss.
-0033 [Bastelina] | Laru, you slipped up again!==W== We need to say the Tyrant.
-0034 [Laru] | Sorry, sorry. The Tyrant.==W== Good thing nobody else heard that.
-0035 [Bastelina] | Anyway, here is what I found. Watch this clip.==W==
-0036 [Boss (Nazuna)] | This rain on the 7th of Nebula Month is expected to last through the next two days, with temperatures continuing to fall.==W== Viewers with travel plans, bring rain gear and dress warmly.
-0037 [Laru] | So what?==W== Isn't that ==SEX4== reading the daily weather report off a newspaper...
-0038 [Bastelina] | Except that might not be the real Tyrant. Watch closely.==W== ==SEX2== eyes keep drifting to the Sherlock doll on the desk.
-0039 [Bastelina] | The Tyrant I know doesn't have a tic like that. Chances are, the person on that screen isn't the real Tyrant anymore.
-0040 [Laru] | What? They swapped? Did ==SEX== run, or is ==SEX== lying low somewhere, ready to strike back?
-0041 [Bastelina] | I think ==SEX== went looking for proof that ==SEX== isn't the Tyrant.==W== Albedo announced that everyone will judge whether ==PLAYER_NAME== is the Tyrant at the Nova Chamber of Commerce and Industry Conference later this month.
-0042 [Bastelina] | If we make it to that point and the conference clears ==PLAYER_NAME==, it won't matter how much influence the Salvation Committee has.==W== The majority of Novians won't believe a word they say.
-0043 [Laru] | The real question is whether Angie will catch that slip-up in the footage.
-0044 [Bastelina] | We are safe on that front. Angie doesn't have time to analyze these videos, and I am obviously not telling her.==W== For the next two weeks, let her chase a fake Tyrant in Philae.
-0045 [Bastelina] | Lady Albedo is stationed there, so the Committee has no chance of breaking through with their current numbers.
-0046 [Laru] | Shh,==W== someone's coming.
-0047 [Serious Committee Member] | Bastelina, Lady Angie has new orders... Laru, you're here as well. Then listen up, both of you.
-0048 [Serious Committee Member] | All Committee members are to immediately destroy any non-portable documents and supplies. Evacuate Emor by 12:00 today.==W== Proceed independently to your assigned cities according to the provided maps.==W== This relocation must be completed within one week.
-0049 [Laru] | Copy that. Understood. Let's see, our target city is...==W== Wait, here?
-0050 [Bastelina] | (==PLAYER_NAME==, your adorable Bastelina can only pray for you now...==W== Are you doing okay?==W== Please stay safe, and find the proof that you are no Tyrant.)
-0051 [Lugar y hora] | 08:15, Nebula Month 8th, Mirage, Main Street
-0052 [1] | I'm fine, Nazuka, don't worry. We made it to Mirage. And good news, we found Aunt Allie and the orphanage kids. Everything is clear on our end.
-0053 [Nazuka] | What a coincidence.==W== That's wonderful!==W== We're all clear on this end too. Nazuna's disguise is flawless. Nobody suspects a thing.
-0054 [Boss (Nazuna)] | I mean,==W== if my disguise is flawless, it's weirder that Nazuka and Chitose can still tell us apart...==W==
-0055 [Chitose] | My ==SEX11==, Lady Albedo sent a detail of trusted guards under my command. I'll handle things here.==W== Please rest assured, Lady Nazuna is safe.
-0056 [1] | Good. Hold on a bit longer, everyone.==W== I'll figure out who I am, fix this mess, and come back to you with my head held high.
-0057 [Nazuka] | We'll be waiting.==W== But Boss...==W== You need to stop contacting us for a while.
-0058 [1] | Huh? Why?
-0059 [Firenze] | You're a massive celebrity now.==W== Scarlet Sights witches are tailing us everywhere, snapping photos.
-0060 [Firenze] | We can handle the photos.==W== But if they catch a call from you and record it,==W== this entire plan would fall apart.
-0061 [Boss (Nazuna)] | And whose fault will that be?==W== A certain someone was glued to her phone morning, noon, and night texting Boss.
-0062 [Nazuka] | Wh-What?!==W== Nazuna, what are you talking about? I was not gl—==W==
-0063 [Boss (Nazuna)] | Uh-oh.==W== Yelling, Nazuka?==W== Boss can hear you, you know~
-0064 [Nazuka] | Th-==W==that's all for today, Boss!==W== Keep safe out there!
-0065 [1] | You too.
-0066 [Tú] | Phew. They haven't changed a bit.==W== Hearing them still bickering puts my mind at ease.
-0067 [Tú] | The morning sun in Mirage feels great. Another beautiful day ahead.==W==
-0068 [Tú] | How late did the girls stay up? Iris is usually up by now.
-0069 [Narración] | Last night, Allie and the New Star Guild talked for hours. Between her story and Firenze's, we finally uncovered the truth behind the orphanage's disappearance.==P== United Harvest did investigate the orphanage, and Allie did notice she was being watched.==P== But there's one thing that even Firenze didn't know about: It wasn't just United Harvest. At least three or four factions were sniffing around back then.==P== All of them were after the "treasure" hidden in the orphanage basement.
-0070 [Narración] | Calling it treasure is a stretch. The basement was essentially packed with random junk. Both the steering wheel and the engine powering the Lucky Oasis were dug out of there, for instance.==P== ==W==Amber's outfit that looks suspiciously like a White Cat uniform and her rare magical guns came from the basement, too.==P== ==W==Firenze showed up late but still managed to scrounge up a magical compass and a Tawny Nightingale recipe book.==P== ==W==But Allie couldn't care less about the treasure those companies were drooling over. She had no idea where any of it came from. As long as the kids were safe, all that junk meant nothing to her.
-0071 [Narración] | So she gathered the kids and left Emor that night without looking back. When I told her how Rainea was doing, a look of pure relief washed over her face.==P== ==W==She didn't even have a destination in mind. She just saw the words "Edge of the World" on a map and figured it had to be far enough away. After a long journey, they ended up in Mirage.==P== ==W==Daisy Orphanage, the orphanage's new name, was inspired by the beautiful desert daisies their new home was surrounded by.
-0072 [Tú] | (They've come a long way.==W== Moments like this to themselves are rare. I'll let them sleep in.)
-0073 [Allie] | Good morning, ==PLAYER_NAME==. You're up early.==W== Wait...==W== Did you have trouble sleeping?
-0074 [Tú] | Not at all. The bed's soft, the sheets smell like daisies. I slept great. Thanks for having me,==W== uh,==W== ...==W==
-0075 [Tú] | Wait a second. ==W== I should be careful about what I call her.
-0076 [Opción] | Her name. No titles.
-0077 [Opción] | I'm with the New Star Guild. I'll use their title for her.
-0078 [Opción] | Mom!
-0079 [Tú] | I'm not one of the kids here.==W== Calling her by name is the most honest approach.
-0080 [Tú] | ... Thanks for having me, Allie.==W== Let me help out around the orphanage.==W== I can't just sit here without contributing.
+0001 [Intro] | Acto diez
+0002 [Intro] | Una pausa
+0003 [Intro] | Albedo envía a Bastelina y a Laru a seguirle la pista a Angie. Mientras tanto, tú y el Gremio de la Nueva Estrella por fin se instalan en el Orfanato Margarita. Les avisas a tus amigos de Philae que estás a salvo y, por fin, puedes hablar con Allie...
+0004 [Lugar y hora] | 02:00, 8.º del mes de Nebula, Distrito de Oro de Emor, prisión secreta
+0005 [Laru] | Aaah...==W== Estoy molida.==W== Oye, Bastelina, ¿quieres papas fritas? Traje de las de sabor café. Pensé que nos mantendrían despiertas.==W==
+0006 [Bastelina] | Claro, no me caería mal algo para despertar. Ñam, ñam...==W== Están aguadas.==W== Normalmente eres más exigente, Laru.
+0007 [Laru] | ¿Qué esperabas? Este calabozo es un pantano. Se aguadaron con todo lo que tardé en traerlas desde la tienda.==W== Ugh, ni siquiera puedo disfrutar una papa crujiente.==W== ¿Cuánto tiempo más vamos a estar pudriéndonos aquí?
+0008 [Bastelina] | Tranquila, Laru. Recuerda la misión que nos asignó Lady Albedo. Paciencia.==W==
+0009 [Albedo] | Bastelina, Laru. La operación de Angie va a fracasar. Repliéguense con su escuadrón.
+0010 [Bastelina] | Lady Albedo, si es una orden para asesinar al Jefe, me temo que no puedo aceptarla.
+0011 [Laru] | Sí, yo también me salgo.==W== Y para que conste,==W== no es que quiera zafarme del trabajo. Yo nunca me creí eso del Libro de las Profecías de la Gracia. ¿Un apocalipsis? Por favor.
+0012 [Albedo] | No saquen conclusiones apresuradas. Escúchenme.==W== Las voy a mandar a espiar a la facción de Angie desde adentro.==W==
+0013 [Albedo] | Angie está desesperada por la cabeza del Jefe. Necesita gente que de verdad conozca a ==SEX4== para mejorar sus probabilidades. Ustedes dos son la carnada perfecta.
+0014 [Albedo] | Síganle el juego. Finjan que quieren salvar al mundo y acabar con el Tirano. Las va a reclutar de inmediato.
+0015 [Laru] | Ah, hacerla de infiltradas... Está bien.==W== Pero esto lo voy a registrar como horas extra de campo.==W== Me tienes que aprobar el bono.
+0016 [Albedo] | Suponiendo==W== que siga siendo su superior cuando regresen.
+0017 [Bastelina] | Eso suena un poco desalentador.==W== ¿Espera problemas?
+0018 [Albedo] | La directora del Instituto del Cielo intentó cometer un asesinato.==W== Como su segunda al mando, tengo que responder por ello.
+0019 [Albedo] | Así que tengo que intentar detener a Angie y luego entregarme a Boss Accord.==W== A estas alturas deben odiarme con toda el alma.==W== Quién sabe qué me harán.
+0020 [Laru] | ¡No te preocupes, Albedo! ♪==W== ¡Si te dejan hecha cenizas, yo misma recojo tus restos!
+0021 [Albedo] | ¡Laru!==W== ¡¿Por qué suenas tan emocionada con eso?!
+0022 [Laru] | Bueno, todo salió tal como lo predijo Albedo.==W== Oye,==W== ¿esto significa que nuestro Comité ahora es una secta hereje?==W== No sé qué sentir al respecto.
+0023 [Bastelina] | Prácticamente. El Árbitro del Ocaso todavía no viene por nuestras cabezas, pero para el Imperio de la Gracia merecemos la hoguera.
+0024 [Laru] | Quemada en la hoguera...==W== A estas alturas mi cuerpo es noventa por ciento papas fritas. Terminaría convertida en una papa frita humana.
+0025 [Bastelina] | Quedarías perfectamente crujiente, Laru. Seguro despedirías el aroma dulce e intenso de una papa recién frita.
+0026 [Laru] | Eso suena delicioso...==W== Espera,==W== no puedo comerme a mí misma.
+0027 [Laru] | Bueno, volvamos al trabajo. Conseguí información.==W== Angie me puso a cargo de conseguir los artículos de uso diario y los bocadillos, así que tengo un conteo aproximado de sus fuerzas actuales.==W==
+0028 [Laru] | Unos treinta Centinelas del Alba y Guardias Imperiales, quince Árbitros del Ocaso==W== y unas cuantas docenas de Trekkers.
+0029 [Bastelina] | Qué precisa.==W== ¿Sacaste todo eso del súper?
+0030 [Laru] | Sip. Los Centinelas y los Guardias Imperiales usan un aceite específico para darle mantenimiento a su equipo, y los Árbitros necesitan velas de oración especiales.==W== El resto lo deduje por los consumibles diarios.
+0031 [Bastelina] | Buen trabajo, Laru. Yo también descubrí algo.==W== Angie me puso a vigilar las transmisiones diarias de esa persona en Scarlet Sights para buscar pistas.==W==
+0032 [Laru] | Ah,==W== te refieres al Jefe.
+0033 [Bastelina] | ¡Laru, otra vez se te salió!==W== Tenemos que decir «el Tirano».
+0034 [Laru] | Perdón, perdón. El Tirano.==W== Menos mal que nadie más lo oyó.
+0035 [Bastelina] | En fin, esto es lo que encontré. Mira este clip.==W==
+0036 [Boss (Nazuna)] | Se espera que esta lluvia del 7 del mes de Nebula se prolongue durante los próximos dos días, y que las temperaturas sigan bajando.==W== A los espectadores que tengan planes de viaje: lleven impermeable y abríguense bien.
+0037 [Laru] | ¿Y qué?==W== ¿No es solo ==SEX4==, leyendo el reporte del clima de un periódico...?
+0038 [Bastelina] | Solo que podría no ser el verdadero Tirano. Fíjate bien.==W== ==SEX2== mirada se desvía una y otra vez hacia el muñeco de Sherlock que hay en el escritorio.
+0039 [Bastelina] | El Tirano que yo conozco no tiene ese tic. Lo más probable es que la persona en esa pantalla ya no sea el verdadero Tirano.
+0040 [Laru] | ¿Qué? ¿Los cambiaron? ¿==SEX== huyó, o ==SEX== se está escondiendo en algún lado, esperando para contraatacar?
+0041 [Bastelina] | Creo que ==SEX== se fue a buscar pruebas de que ==SEX== no es el Tirano.==W== Albedo anunció que, en la Conferencia de la Cámara de Comercio e Industria de Nova de finales de este mes, todos juzgarán si ==PLAYER_NAME== es o no el Tirano.
+0042 [Bastelina] | Si llegamos a ese momento y la conferencia exonera a ==PLAYER_NAME==, no importará cuánta influencia tenga el Comité de Salvación.==W== La mayoría de los novianos no le creerá ni una palabra.
+0043 [Laru] | La verdadera pregunta es si Angie notará ese descuido en el video.
+0044 [Bastelina] | Por ese lado estamos a salvo. Angie no tiene tiempo para analizar estos videos, y obviamente yo no se lo voy a decir.==W== Durante las próximas dos semanas, que persiga a un Tirano falso en Philae.
+0045 [Bastelina] | Lady Albedo está apostada allá, así que el Comité no tiene ninguna posibilidad de abrirse paso con los números que tiene ahora.
+0046 [Laru] | Shh,==W== viene alguien.
+0047 [Serious Committee Member] | Bastelina, Lady Angie tiene nuevas órdenes... Laru, tú también estás aquí. Entonces escuchen las dos.
+0048 [Serious Committee Member] | Todos los miembros del Comité deben destruir de inmediato cualquier documento o suministro que no se pueda transportar. Evacúen Emor antes de las 12:00 de hoy.==W== Diríjanse por su cuenta a las ciudades asignadas según los mapas que se les entregaron.==W== Este traslado debe completarse en una semana.
+0049 [Laru] | Recibido. Entendido. A ver, nuestra ciudad de destino es...==W== Espera, ¿aquí?
+0050 [Bastelina] | (==PLAYER_NAME==, tu adorable Bastelina ahora solo puede rezar por ti...==W== ¿Estás bien?==W== Por favor, mantente a salvo y encuentra la prueba de que no eres un Tirano.)
+0051 [Lugar y hora] | 08:15, 8.º del mes de Nebula, Mirage, Calle principal
+0052 [1] | Estoy bien, Nazuka, no te preocupes. Llegamos a Mirage. Y hay buenas noticias: encontramos a la tía Allie y a los niños del orfanato. Por nuestro lado, todo en orden.
+0053 [Nazuka] | Qué coincidencia.==W== ¡Qué maravilla!==W== Por aquí también todo en orden. El disfraz de Nazuna es impecable. Nadie sospecha nada.
+0054 [Boss (Nazuna)] | O sea,==W== si mi disfraz es impecable, lo raro es que Nazuka y Chitose todavía puedan distinguirnos...==W==
+0055 [Chitose] | Mi ==SEX11==, Lady Albedo puso bajo mi mando a un grupo de guardias de confianza. Yo me encargo de las cosas aquí.==W== Puede estar tranquilo: Lady Nazuna está a salvo.
+0056 [1] | Bien. Aguanten un poco más, todos.==W== Voy a averiguar quién soy, arreglar este lío y volver con ustedes con la frente en alto.
+0057 [Nazuka] | Te estaremos esperando.==W== Pero, Jefe...==W== Tienes que dejar de contactarnos por un tiempo.
+0058 [1] | ¿Eh? ¿Por qué?
+0059 [Firenze] | Ahora eres una celebridad enorme.==W== Las brujas de Scarlet Sights nos siguen a todas partes tomando fotos.
+0060 [Firenze] | Con las fotos podemos lidiar.==W== Pero si captan una llamada tuya y la graban,==W== todo este plan se vendría abajo.
+0061 [Boss (Nazuna)] | ¿Y de quién será la culpa?==W== Cierta persona se la pasó pegada al teléfono mañana, tarde y noche mandándole mensajes al Jefe.
+0062 [Nazuka] | ¡¿Q-qué?!==W== Nazuna, ¿de qué hablas? Yo no estaba pega...==W==
+0063 [Boss (Nazuna)] | Uy, uy.==W== ¿Gritando, Nazuka?==W== El Jefe te puede oír, ¿sabes?~
+0064 [Nazuka] | ¡E-==W==eso es todo por hoy, Jefe!==W== ¡Cuídate mucho!
+0065 [1] | Tú también.
+0066 [Tú] | Uf. No han cambiado nada.==W== Oírlas seguir peleándose me tranquiliza.
+0067 [Tú] | El sol de la mañana en Mirage se siente increíble. Otro día precioso por delante.==W==
+0068 [Tú] | ¿Hasta qué hora se habrán desvelado las chicas? Normalmente Iris ya estaría despierta.
+0069 [Narración] | Anoche, Allie y el Gremio de la Nueva Estrella hablaron durante horas. Entre su relato y el de Firenze, por fin descubrimos la verdad detrás de la desaparición del orfanato.==P== Cosecha Unida sí investigó el orfanato, y Allie sí se dio cuenta de que la vigilaban.==P== Pero hay algo que ni siquiera Firenze sabía: no era solo Cosecha Unida. En ese entonces, por lo menos tres o cuatro facciones andaban husmeando.==P== Todas buscaban el «tesoro» escondido en el sótano del orfanato.
+0070 [Narración] | Llamarlo tesoro es exagerar. En esencia, el sótano estaba lleno de cachivaches al azar. Por ejemplo, tanto el volante como el motor que impulsa a Lucky Oasis salieron de ahí.==P== ==W==La ropa de Amber, que se parece sospechosamente a un uniforme de Gato Blanco, y sus raras pistolas mágicas también salieron del sótano.==P== ==W==Firenze llegó tarde, pero aun así logró rescatar una brújula mágica y un recetario del Ruiseñor Leonado.==P== ==W==Pero a Allie le importaba un comino el tesoro por el que esas empresas se babeaban. No tenía idea de dónde había salido nada de eso. Mientras los niños estuvieran a salvo, todos esos cachivaches no significaban nada para ella.
+0071 [Narración] | Así que reunió a los niños y esa misma noche se fue de Emor sin mirar atrás. Cuando le conté cómo estaba Rainea, una expresión de puro alivio le inundó el rostro.==P== ==W==Ni siquiera tenía un destino en mente. Solo vio las palabras «Fin del Mundo» en un mapa y pensó que tenía que estar lo bastante lejos. Tras un largo viaje, terminaron en Mirage.==P== ==W==Orfanato Margarita, el nuevo nombre del orfanato, se inspiró en las hermosas margaritas del desierto que rodeaban su nuevo hogar.
+0072 [Tú] | (Han recorrido un largo camino.==W== Los momentos así para ellas solas son raros. Las dejaré dormir.)
+0073 [Allie] | Buenos días, ==PLAYER_NAME==. Te levantaste temprano.==W== Espera...==W== ¿No pudiste dormir bien?
+0074 [Tú] | Para nada. La cama es suave y las sábanas huelen a margaritas. Dormí de maravilla. Gracias por recibirme,==W== eh,==W== ...==W==
+0075 [Tú] | Un momento. ==W== Debo tener cuidado con cómo la llamo.
+0076 [Opción] | Por su nombre. Sin títulos.
+0077 [Opción] | Soy del Gremio de la Nueva Estrella. La llamaré como ellas.
+0078 [Opción] | ¡Mamá!
+0079 [Tú] | No soy uno de los niños de aquí.==W== Llamarla por su nombre es lo más honesto.
+0080 [Tú] | ... Gracias por recibirme, Allie.==W== Déjame ayudar en el orfanato.==W== No puedo quedarme aquí sentado sin aportar nada.
 0081 [Allie] | Allie==W==...==W==
-0082 [Tú] | Uh...==W== I thought calling you by name was appropriate.==W== Was that out of line?
-0083 [Allie] | Not at all, it's perfect.==W== I appreciate the honesty.==W== Call me Allie.
-0084 [Tú] | Anyway,==W== matching what Noya, Iris, and Amber call her is the safest bet.
-0085 [1] | ... Thanks for having me,==W== Aunt Allie.
-0086 [Allie] | Oh, what a polite one. Such a good kid. Hehe, there, there.==W==
-0087 [1] | Whoa!==W== Wh-what was that for...?!
-0088 [Allie] | Oh goodness, look at my habits,==W== Hehe. Sorry about that,==W== muscle memory took over.
-0089 [Allie] | You don't need to force an honorific, though.==W== Calling me by name is perfectly fine.
-0090 [Tú] | Mom!
-0091 [Allie] | Wh-What did you just call me...?==W==
-0092 [Tú] | ... Thanks for having me, Mom!==W== Since I'm staying at the Daisy Orphanage now,==W== that makes you my Mom.
-0093 [Allie] | Oh, what a sweet talker.==W== Such a good kid.==W== If only those three had half your charm.
-0094 [Tú] | Urgh...==W== Your grip strength...!==W== I can't breathe...
-0095 [Allie] | Ah, sorry!==W== Are you okay?!
-0096 [Allie] | My kids are at that age where they refuse to call me Mom anymore.==W== Hearing it from someone their age got me a little too excited. Heh heh... ♪
-0097 [Tú] | Phew, you startled me...==W== Honestly, with my amnesia and everything else that happened,==W== I don't remember my parents. I don't even know where home is.
-0098 [Tú] | That hug felt a lot like ...==W== motherly love.==W== I didn't mind it at all.
-0099 [Allie] | Oh, you poor thing...==W== Well, how about this? Call me by my name around the others. But when it's just us, call me Mom all you want ♪ Don't be shy.
-0100 [Tú] | Noya and the others are definitely going to be shocked when they find out.
-0101 [Tú] | Alright, let's take it from the top.==W== Good morning, Allie.
-0102 [Tú] | By the way, aren't you exhausted? You went to bed way later than I did.
-0103 [Allie] | A tiny bit. But honestly, only a little. I actually got up at six to make breakfast.==W== Want a bite, ==PLAYER_NAME==?
-0104 [Tú] | Th-That early?!
-0105 [Allie] | Occupational hazard of being the orphanage mom. I'm used to it. You all should settle in and get some proper rest for the next few days.
-0106 [Tú] | I appreciate it, but we still have to track down the desert Monolith.==W== It's the only way I can figure out who I am.
-0107 [Allie] | I know. I heard about your journey last night.
-0108 [Allie] | But if you ask me, you're all pushing yourselves too hard.
-0109 [Allie] | Look at your dark circles,==W== and Noya was out cold last night. She didn't even toss and turn.
-0110 [Allie] | Iris said she'd help with breakfast, but she's still asleep.==W== Amber didn't even climb the rafters.==W== She curled up right on the floor.
-0111 [Allie] | Besides, you're a friend to my kids.==W== That makes you one of my own.
-0112 [Allie] | Let me look into this missing Monolith for you.
-0113 [Tú] | Wait, but we searched the desert for days and found nothing. The Desert Scorpions even mentioned a legend about it vanishing from Mirage. How do you plan to investigate?
-0114 [Allie] | The Sunset Desert is massive. Wandering around blindly will only exhaust you. First thing we need is more eyes out there.
-0115 [Tú] | There's barely anyone living here. How are we supposed to round up a search party?==W==
-0116 [Allie] | Don't let the orphanage mom title fool you. I have connections here in Mirage. Leave the digging to me.
-0117 [Allie] | Just focus on recovering. Otherwise, even if we find the Monolith, you won't have the energy to climb it.
-0118 [Narración] | Wrapped in that comforting motherly love, Noya, Iris, Amber, and I got a full night of rest for the first time since I woke up.==P== It felt like someone hit pause on the chaos of our lives.
+0082 [Tú] | Eh...==W== Pensé que llamarte por tu nombre era lo apropiado.==W== ¿Me pasé?
+0083 [Allie] | Para nada, es perfecto.==W== Agradezco la sinceridad.==W== Dime Allie.
+0084 [Tú] | En fin,==W== llamarla como Noya, Iris y Amber es lo más seguro.
+0085 [1] | ... Gracias por recibirme,==W== tía Allie.
+0086 [Allie] | Ay, qué educado. Qué buen niño. Jeje, ya, ya.==W==
+0087 [1] | ¡Uy!==W== ¡¿Y-y eso por qué fue...?!
+0088 [Allie] | Ay, Dios, mira mis mañas,==W== jeje. Perdón,==W== fue la costumbre.
+0089 [Allie] | Pero no tienes que forzarte a usar un título.==W== Llamarme por mi nombre está perfectamente bien.
+0090 [Tú] | ¡Mamá!
+0091 [Allie] | ¿C-cómo me acabas de decir...?==W==
+0092 [Tú] | ... ¡Gracias por recibirme, mamá!==W== Ahora que me estoy quedando en el Orfanato Margarita,==W== eso te convierte en mi mamá.
+0093 [Allie] | Ay, qué labia tienes.==W== Qué buen niño.==W== Si esas tres tuvieran la mitad de tu encanto.
+0094 [Tú] | Urgh...==W== ¡Qué fuerza...!==W== No puedo respirar...
+0095 [Allie] | ¡Ay, perdón!==W== ¡¿Estás bien?!
+0096 [Allie] | Mis niñas están en esa edad en la que ya no quieren decirme mamá.==W== Oírlo de alguien de su edad me emocionó un poquito de más. Je, je... ♪
+0097 [Tú] | Uf, me asustaste...==W== La verdad, con mi amnesia y todo lo demás que pasó,==W== no recuerdo a mis padres. Ni siquiera sé dónde está mi hogar.
+0098 [Tú] | Ese abrazo se sintió mucho como...==W== amor de madre.==W== No me molestó para nada.
+0099 [Allie] | Ay, pobrecito...==W== Bueno, ¿qué te parece esto? Frente a los demás, llámame por mi nombre. Pero cuando estemos solos, dime mamá todo lo que quieras ♪ No te dé pena.
+0100 [Tú] | Noya y las demás definitivamente se van a sorprender cuando se enteren.
+0101 [Tú] | Bueno, empecemos de nuevo.==W== Buenos días, Allie.
+0102 [Tú] | Por cierto, ¿no estás agotada? Te dormiste mucho más tarde que yo.
+0103 [Allie] | Un poquito. Pero, la verdad, solo un poco. De hecho me levanté a las seis para hacer el desayuno.==W== ¿Quieres probar algo, ==PLAYER_NAME==?
+0104 [Tú] | ¡¿T-tan temprano?!
+0105 [Allie] | Gajes del oficio de ser la mamá del orfanato. Ya estoy acostumbrada. Ustedes instálense y descansen como se debe estos próximos días.
+0106 [Tú] | Te lo agradezco, pero todavía tenemos que encontrar el Monolito del Desierto.==W== Es la única forma de averiguar quién soy.
+0107 [Allie] | Lo sé. Anoche me contaron de su viaje.
+0108 [Allie] | Pero, si me preguntas, todos se están exigiendo demasiado.
+0109 [Allie] | Mira esas ojeras,==W== y Noya anoche cayó rendida. Ni siquiera se movió.
+0110 [Allie] | Iris dijo que me ayudaría con el desayuno, pero sigue dormida.==W== Amber ni siquiera se subió a las vigas.==W== Se hizo bolita ahí mismo en el piso.
+0111 [Allie] | Además, eres amigo de mis niñas.==W== Eso te hace uno de los míos.
+0112 [Allie] | Déjame investigar lo de ese Monolito desaparecido por ustedes.
+0113 [Tú] | Espera, pero buscamos en el desierto durante días y no encontramos nada. Los Escorpiones del Desierto hasta mencionaron una leyenda de que desapareció de Mirage. ¿Cómo piensas investigarlo?
+0114 [Allie] | El Desierto del Atardecer es enorme. Andar dando vueltas a ciegas solo los va a agotar. Lo primero que necesitamos es más ojos allá afuera.
+0115 [Tú] | Aquí casi no vive nadie. ¿Cómo vamos a juntar un grupo de búsqueda?==W==
+0116 [Allie] | No dejes que el título de mamá del orfanato te engañe. Tengo contactos aquí en Mirage. Deja lo de investigar en mis manos.
+0117 [Allie] | Ustedes concéntrense en recuperarse. Si no, aunque encontremos el Monolito, no van a tener energía para escalarlo.
+0118 [Narración] | Envueltos en ese reconfortante amor de madre, Noya, Iris, Amber y yo dormimos una noche completa por primera vez desde que desperté.==P== Fue como si alguien le hubiera puesto pausa al caos de nuestras vidas.

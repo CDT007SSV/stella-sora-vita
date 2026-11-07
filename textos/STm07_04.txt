@@ -1,13 +1,13 @@
-# Capítulo 7 · El precio de la estrella · 4 · The Offer
+# Capítulo 7 · El precio de la estrella · 4 · La oferta
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Blue-Haired Lady | Blue-Haired Lady
-N:Cold Voice | Cold Voice
-N:Girl in Armor | Girl in Armor
-N:Pink-Haired Lady | Pink-Haired Lady
-N:Salesperson No. 20 | Salesperson No. 20
+N:Blue-Haired Lady | Dama de cabello azul
+N:Cold Voice | Voz fría
+N:Girl in Armor | Chica con armadura
+N:Pink-Haired Lady | Dama de cabello rosa
+N:Salesperson No. 20 | Vendedor n.º 20
 N:avg1_110 | Firenze
 N:avg1_150 | Laru
 N:avg1_151 | Yunshu
@@ -26,167 +26,167 @@ N:avg3_210 | Hazana
 N:avg3_220 | Mercurio
 
 ## Texto
-0001 [Intro] | Act Four
-0002 [Intro] | The Offer
-0003 [Intro] | Before the bid, Bastelina briefs you on your main rivals: Deepsea Finance, the Imperial Guard, and Omnisky Aegis. You secure the bid, but it also leaves your company staring down a massive funding gap...
-0004 [Lugar y hora] | 13:40, Venatio Month 13th, Silver District in Philae, Soul Shop Corridor
-0005 [Narración] | I follow Bastelina up the stairs into an empty hallway.
-0006 [Tú] | Bastelina? Am I even supposed to be here? I saw a "Staff Only" sign.
-0007 [Bastelina] | No worries! Boss is adorable Bastelina's VIP. Calling you authorized personnel isn't a stretch at all! ♪
-0008 [Tú] | Really? Authorized? That's more than a stretch...
-0009 [Bastelina] | Please look here.
-0010 [Narración] | This hallway overlooks the lounge. Following Bastelina's gaze through a hidden window, I have a clear view of those representatives in the lounge.
-0011 [Bastelina] | Since the Desert Scorpions crashed the banquet, you never got to chat with the company reps.
-0012 [Bastelina] | As the Loongs say: Knowing your enemy is half the fight.
-0013 [Bastelina] | Before the bidding starts, let me walk you through their quirks. Hope it helps.
-0014 [Tú] | Oh! That'd be incredibly helpful! Thanks, Bastelina!
-0015 [Bastelina] | Alright... Let's start with the most important one over there—
-0016 [Laru] | Ugh, nobody here appreciates the beauty of fries. Tragic.
-0017 [Laru] | Oh, I know! I'll put the reheated ones in the conference room!==W== Everyone will want a snack when the bidding gets tense. Aren't I thoughtful ♪
-0018 [Laru] | Weird, why the sudden chill? Is the AC turned up?
-0019 [Cold Voice] | Laru. A word?
-0020 [Laru] | Albedo...?! Uh, heh... Hehe. U-um... I haven't done anything to make you mad today... Right?
-0021 [Cold Voice] | Sigh... Honestly, why do you always assume I'm here to scold you?==W== Never mind. I need to run final checks. Come with me to the conference room.
-0022 [Laru] | Ah, perfect timing! I was actually about to bring some fries in there for a snack break ♪
-0023 [Cold Voice] | Don't you dare!!!
-0024 [Tú] | Now that's intimidating.
-0025 [Bastelina] | In case you didn't know, the Grace Imperium has four parts. Our Soul Shop falls under the Sky Institute.
-0026 [Bastelina] | That was Lady Albedo, Chief Bookkeeper of the Sky Institute, who dragged Laru off. Strictly by the book, she's Laru's superior, and her worst nightmare.
-0027 [Bastelina] | She's overseeing this Monolith bidding. You can count on total fairness.
+0001 [Intro] | Acto cuatro
+0002 [Intro] | La oferta
+0003 [Intro] | Antes de la licitación, Bastelina te pone al tanto de tus principales rivales: Finanzas del Mar Profundo, la Guardia Imperial y Omnisky Aegis. Consigues ganar la licitación, pero tu empresa queda frente a un enorme hueco de financiamiento...
+0004 [Lugar y hora] | 13:40, 13.º del mes de Venatio, Distrito de Plata de Philae, pasillo de la Tienda de Almas
+0005 [Narración] | Sigo a Bastelina escaleras arriba hasta un pasillo vacío.
+0006 [Tú] | ¿Bastelina? ¿Siquiera puedo estar aquí? Vi un letrero de «Solo personal autorizado».
+0007 [Bastelina] | ¡No te preocupes! El Jefe es VIP de la adorable Bastelina. ¡Decir que eres personal autorizado no es para nada exagerado! ♪
+0008 [Tú] | ¿En serio? ¿Autorizado? Eso es bastante más que exagerado...
+0009 [Bastelina] | Mira aquí, por favor.
+0010 [Narración] | Este pasillo da a la sala de espera. Siguiendo la mirada de Bastelina a través de una ventana oculta, tengo una vista clara de los representantes que están en la sala.
+0011 [Bastelina] | Como los Escorpiones del Desierto arruinaron el banquete, nunca pudiste platicar con los representantes de las empresas.
+0012 [Bastelina] | Como dicen los de Loong: conocer a tu enemigo es la mitad de la batalla.
+0013 [Bastelina] | Antes de que empiece la licitación, déjame explicarte sus mañas. Espero que te sirva.
+0014 [Tú] | ¡Ah! ¡Eso me ayudaría muchísimo! ¡Gracias, Bastelina!
+0015 [Bastelina] | Muy bien... Empecemos por la más importante, la que está allá...
+0016 [Laru] | Uf, nadie aquí aprecia la belleza de las papas fritas. Qué tragedia.
+0017 [Laru] | ¡Ah, ya sé! ¡Pondré las recalentadas en la sala de conferencias!==W== Todos van a querer botanear cuando la licitación se ponga tensa. Qué considerada soy ♪
+0018 [Laru] | Qué raro, ¿por qué de repente hace tanto frío? ¿Subieron el aire acondicionado?
+0019 [Cold Voice] | Laru. ¿Tienes un momento?
+0020 [Laru] | ¡¿Albedo...?! Eh, je... Jeje. E-eh... Hoy no he hecho nada para hacerte enojar... ¿verdad?
+0021 [Cold Voice] | Ay... En serio, ¿por qué siempre supones que vengo a regañarte?==W== Olvídalo. Tengo que hacer las revisiones finales. Ven conmigo a la sala de conferencias.
+0022 [Laru] | ¡Ah, justo a tiempo! ¡De hecho, iba a llevar unas papas para un descansito! ♪
+0023 [Cold Voice] | ¡¡¡Ni se te ocurra!!!
+0024 [Tú] | Eso sí que intimida.
+0025 [Bastelina] | Por si no lo sabías, el Imperio de la Gracia tiene cuatro divisiones. Nuestra Tienda de Almas pertenece al Instituto del Cielo.
+0026 [Bastelina] | La que se llevó a Laru a rastras es Lady Albedo, contadora en jefe del Instituto del Cielo. Es de las que hacen todo según las reglas; es la superior de Laru y su peor pesadilla.
+0027 [Bastelina] | Ella supervisa esta licitación del Monolito. Puedes contar con una imparcialidad total.
 0028 [Girl in Armor] | ...
-0029 [Bastelina] | That armored lady over there is Lady Greyhorn, Knight Commander of the Imperial Guard.
-0030 [Bastelina] | She fights on the front lines, hunting Neo Grace dealers. Her tracking magic always corners her targets—they call her the "Neo Grace Hound."
-0031 [Bastelina] | She values the Guard's image over profit, normally avoiding messy financial events like this.
-0032 [Bastelina] | She's only representing the Imperial Guard at this bidding because she was the closest Knight Commander to Philae. A last-minute fill-in.
-0033 [Tú] | Aren't the Imperial Guard a security company? Why would they need a Monolith?
-0034 [Bastelina] | They need steel, and a lot of the steel for their armor only comes from Monolith wishes.
-0035 [Bastelina] | That's the official story, anyway. The truth...==W== Well, I'm crossing a line here. You'll have to dig into that yourself, Boss.
-0036 [Tú] | Appreciate it. I'll look into it when the mood strikes.
-0037 [Tú] | By the way, Bastelina, one can only participate if they hold a Seal of Grace, meaning everyone here represents a company, right?
-0038 [Tú] | Boss Accord meets that bar. But this is a bidding war... What kind of numbers are we talking about?
-0039 [Tú] | Setting United Harvest Philae's funds aside, even thinking about Boss Accord's side feels like taking on a century of debt...
-0040 [Bastelina] | This bidding grants ten years of exclusive Monolith access. Going by past averages, a decade's rent easily hits the tens of billions.
-0041 [Tú] | Tens of billions...==W== I can already picture the look on Iris's face.
-0042 [Pink-Haired Lady] | Hehe.==W== I smell it... Oh, I smell it.
-0043 [Blue-Haired Lady] | Oh? The fries? They do smell appetizing. Let me go grab a plate for you too!
-0044 [Pink-Haired Lady] | Don't be silly.==W== Not the fries. It's the sweet scent of Dorra.==W== Look at these reps—you can see the greed gleaming in their eyes.
-0045 [Pink-Haired Lady] | The winning bid will be astronomical. That's when we swoop in and pitch financing to all the poor little ducks desperate for cash.
-0046 [Blue-Haired Lady] | But what if they play it safe? If the rent stops at around ten billion, they won't really need a loan from us.
-0047 [Pink-Haired Lady] | If they won't drive up the price, we buy the Monolith ourselves and sublease it. We make a killing either way.
-0048 [Blue-Haired Lady] | Brilliant, senpai! A flawless strategy!
-0049 [Pink-Haired Lady] | Hehehe, with enough Dorra, you can do whatever you want.
-0050 [Bastelina] | They are Erinis and Meikyo from Deepsea Finance, the top-performing loan officers in the Credit Department last year.
-0051 [Bastelina] | Deepsea Finance is Nova's largest bank, known for fast approvals and fair rates. Boss, if we run short on funds, they might be worth a chat.
-0052 [Bastelina] | The auction will begin shortly. Before it does, take a look at the woman in the corner of the lounge.
-0053 [Bastelina] | That's Mercurio, sole representative for Omnisky Aegis.
-0054 [Bastelina] | They're a massive insurance firm covering all of Nova, and word is that they're sitting on a mountain of cash.
-0055 [Mercurio] | Hmph... Quite the crowd at today's auction.
-0056 [Mercurio] | Number Twenty. Go wrangle a few attendees and pitch our new insurance packages.
-0057 [Salesperson No. 20] | Understood. Right away, ma'am.
-0058 [Bastelina] | They're a newer player with only one Monolith under their belt, but don't underestimate them, Boss. They'll be tough to beat.
-0059 [Tú] | Omnisky Aegis... Isn't that—
-0060 [Bastelina] | Exactly. That's the firm Hazana from the Desert Scorpions was impersonating at the banquet.
-0061 [Bastelina] | They've already put out a statement claiming they were totally in the dark—just another victim of the scam.
-0062 [Tú] | The Imperial Guard, Deepsea Finance, and now Omnisky Aegis... This is a crowded field of heavy hitters.
-0063 [Tú] | Bastelina, what's the deal with that group over there?
-0064 [Bastelina] | That elegant lady in the kimono? That's Shuo,==W== the manager for Goodwind's Philae branch. She's the real deal.
-0065 [Bastelina] | Goodwind doesn't usually bid on Monoliths though. They're likely just here to maintain their presence and network for new clients.
-0066 [Bastelina] | See those two the Scarlet Sights witch is cornering?
-0067 [Bastelina] | They're Xuan Shi from the territory of Loongs. This event is invite-only, so they must be using "Fenghuang Diner" as a cover.
-0068 [Ophir] | Hi there! Ophir from Scarlet Sights Media! Got a sec?
-0069 [Ophir] | Tell us, what's the strategy behind Fenghuang Diner's bid for the Philae Monolith?!
-0070 [Jiyue] | Oh, um, that's a lot... Senior, help! How do I answer this? We're just here for the ride!
-0071 [Yunshu] | Fenghuang Diner is committed to fostering pragmatic cooperation with all representatives through mutual respect. We aim to play a constructive role in Philae's market, driving local growth for the benefit of the community.
-0072 [Yunshu] | We'll share more regarding our bidding strategy and objectives at the appropriate time. No further comments for now.
-0073 [Ophir] | Uh... Huh? Ah, right...==W== I see. Well, thanks for the insight!
-0074 [Bastelina] | Wow, classic Loong corporate-speak. Total word salad. Did you catch any of that, Boss?
-0075 [Tú] | Basically: "We're just tourists with zero interest in the bid, but we can't admit that on the record."
-0076 [Bastelina] | Spot on. Loongs rarely meddle in core affairs outside Cangwu. They're likely just scouting the local market, so they aren't a threat to you.
-0077 [Bastelina] | That's the lineup for today. Bidding's about to start, so let's head into the conference room, Boss.
-0078 [Tú] | Right. Still... Something about this feels off.
-0079 [Tú] | I know I'm a client, but I'm only renting one safe in your vault. Calling me a "VIP" is a big leap. Why go to all this trouble for me?
-0080 [Bastelina] | Hey, I'm a professional Soul Shop clerk! Helping clients is what I do. Don't worry about it.
-0081 [Bastelina] | Once your company takes off, you'll be renting dozens of safes from us anyway. Consider this an investment in a future big spender!
-0082 [Lugar y hora] | 14:20, Venatio Month 13th, Silver District in Philae, Soul Shop Conference Room
-0083 [Narración] | The room is dead quiet, save for the steady rustle of paper as corporate reps pore over the tender documents.
-0084 [Tú] | This Monolith bid will wrap up in one or two rounds. Round one is a public auction to set the lease for the next ten years.
-0085 [Tú] | The cap is 40 billion, but everyone's looking to slash costs and snag the rights for cheap. Well, mostly everyone. But...
-0086 [Tú] | The "auction" is just a label. The final price is likely a given. That's probably why they've got a second round lined up...
-0087 [Tú] | Time to make this system work for me.
-0088 [Narración] | One day earlier.
-0089 [Tú] | HQ won't bridge the funds for tomorrow. Can United Harvest Philae handle this alone?
-0090 [Firenze] | I've checked the data across Nova from the last five years. Winning bids usually fall between 10 and 18 billion.
-0091 [Firenze] | We've scraped together 20 billion in liquid assets. Based on the trends, we're in the clear.
-0092 [Tú] | If we can stay in the game and hit that 18-billion-Dorra mark, we'll force a technical review.
-0093 [Tú] | That's where we win.
-0094 [Albedo] | Time's up. We'll open the floor at 4 billion Dorra.
-0095 [Greyhorn] | 5 billion.
-0096 [Jiyue] | 6.6 billion! It's got a nice ring to it.
-0097 [Shuo] | 8 billion.
-0098 [Erinis] | You're all moving too slowly.==W== 12 billion.
-0099 [Jiyue] | Whoa... 10 billion already? What do you think?
-0100 [Yunshu] | Fenghuang Diner withdraws.
-0101 [Shuo] | Goodwind Homecare withdraws.
-0102 [Tú] | Bastelina was right. Loongs and Goodwind never wanted the bid. They just threw out token numbers before folding.
-0103 [Greyhorn] | 12 billion.
-0104 [Firenze] | 13 billion.
-0105 [Erinis] | 14 billion.
-0106 [Greyhorn] | 14 billion.
-0107 [Tú] | Deepsea Finance is just driving up the price. This is down to Firenze and the Imperial Guard.
-0108 [Firenze] | 18 billion.
-0109 [Greyhorn] | 18 billion.
-0110 [Erinis] | Hmm, no profit margin left at this point. Deepsea Finance is out.==W== Best of luck, you two. Our doors are open if you need a loan.
-0111 [Albedo] | United Harvest Philae and the Imperial Guard are tied at 18 billion. Any other offers? Hearing none, these two will proceed to the technical review—
-0112 [Mercurio] | Hehe... 20 billion.
-0113 [Tú] | Omnisky Aegis?! I thought they were spectating. Why are they jumping in...?
-0114 [Firenze] | Tch. 20 billion.
-0115 [Greyhorn] | 20 billion.
-0116 [Mercurio] | 25 billion.
-0117 [Tú] | Insane... There's zero profit left. Why is Omnisky Aegis obsessed with this Monolith?
-0118 [Tú] | Besides, anything over twenty billion wipes out our liquid assets. What's the plan, Firenze...?
-0119 [Firenze] | ... 25 billion.
-0120 [Tú] | 2-25... Hey, Firenze?! What are you—
-0121 [Narración] | Before I can finish, Firenze squeezes my hand under the table. A silent message: Don't panic. I have this handled.
-0122 [Greyhorn] | 25 billion.
-0123 [Mercurio] | Sigh... You lot are stubborn.
-0124 [Mercurio] | 40 billion.
-0125 [Greyhorn] | 40 billion? Are you out of your mind?
-0126 [Erinis] | Heh... Now things are getting interesting.
-0127 [Albedo] | 40 billion.==W== United Harvest Philae, Imperial Guard—your move?
+0029 [Bastelina] | Esa dama con armadura de allá es Lady Greyhorn, comandante de caballeros de la Guardia Imperial.
+0030 [Bastelina] | Pelea en primera línea, cazando a los traficantes de Neo Gracia. Su magia de rastreo siempre acorrala a sus objetivos; le dicen la «Sabueso de la Neo Gracia».
+0031 [Bastelina] | Le importa más la imagen de la Guardia que las ganancias, y normalmente evita eventos financieros complicados como este.
+0032 [Bastelina] | Solo representa a la Guardia Imperial en esta licitación porque era la comandante de caballeros más cercana a Philae. Un reemplazo de último minuto.
+0033 [Tú] | ¿La Guardia Imperial no es una empresa de seguridad? ¿Para qué necesitarían un Monolito?
+0034 [Bastelina] | Necesitan acero, y gran parte del acero para sus armaduras solo sale de los deseos del Monolito.
+0035 [Bastelina] | Esa es la versión oficial, al menos. La verdad...==W== Bueno, ya me estaría pasando de la raya. Eso tendrás que investigarlo tú, Jefe.
+0036 [Tú] | Te lo agradezco. Lo investigaré cuando me den ganas.
+0037 [Tú] | Por cierto, Bastelina, solo se puede participar si se tiene un Sello de la Gracia, así que todos aquí representan a una empresa, ¿no?
+0038 [Tú] | Boss Accord cumple con ese requisito. Pero esto es una guerra de ofertas... ¿De qué cifras estamos hablando?
+0039 [Tú] | Dejando de lado los fondos de Cosecha Unida Philae, de solo pensar en la parte de Boss Accord siento que me estoy echando encima un siglo de deudas...
+0040 [Bastelina] | Esta licitación otorga diez años de acceso exclusivo al Monolito. Según los promedios anteriores, la renta de una década alcanza fácilmente las decenas de miles de millones.
+0041 [Tú] | Decenas de miles de millones...==W== Ya me imagino la cara que va a poner Iris.
+0042 [Pink-Haired Lady] | Jeje.==W== Lo huelo... Ay, lo huelo.
+0043 [Blue-Haired Lady] | ¿Ah? ¿Las papas? Sí huelen muy apetitosas. ¡Déjame traerte un plato a ti también!
+0044 [Pink-Haired Lady] | No seas tonta.==W== No las papas. Es el dulce aroma del Dorra.==W== Mira a estos representantes: se les nota la codicia brillándoles en los ojos.
+0045 [Pink-Haired Lady] | La oferta ganadora va a ser astronómica. Ahí es cuando entramos nosotras y les ofrecemos financiamiento a todos esos pobres patitos desesperados por dinero.
+0046 [Blue-Haired Lady] | ¿Y si juegan a lo seguro? Si la renta se queda en unos diez mil millones, en realidad no van a necesitar un préstamo nuestro.
+0047 [Pink-Haired Lady] | Si no suben el precio, compramos nosotras el Monolito y lo subarrendamos. Ganamos una fortuna de cualquier forma.
+0048 [Blue-Haired Lady] | ¡Genial, senpai! ¡Una estrategia perfecta!
+0049 [Pink-Haired Lady] | Jejeje, con suficiente Dorra puedes hacer lo que quieras.
+0050 [Bastelina] | Son Erinis y Meikyo de Finanzas del Mar Profundo, las ejecutivas de crédito con mejor desempeño del Departamento de Crédito el año pasado.
+0051 [Bastelina] | Finanzas del Mar Profundo es el banco más grande de Nova, conocido por sus aprobaciones rápidas y sus tasas justas. Jefe, si nos falta dinero, quizá valga la pena hablar con ellas.
+0052 [Bastelina] | La subasta empezará en breve. Antes de eso, mira a la mujer en la esquina de la sala.
+0053 [Bastelina] | Es Mercurio, la única representante de Omnisky Aegis.
+0054 [Bastelina] | Son una aseguradora gigantesca que cubre todo Nova, y dicen que están sentados sobre una montaña de dinero.
+0055 [Mercurio] | Hmph... Vaya multitud la de la subasta de hoy.
+0056 [Mercurio] | Número Veinte. Ve a atrapar a algunos asistentes y ofréceles nuestros nuevos paquetes de seguros.
+0057 [Salesperson No. 20] | Entendido. Enseguida, señora.
+0058 [Bastelina] | Son relativamente nuevos y solo tienen un Monolito en su haber, pero no los subestimes, Jefe. Va a ser difícil ganarles.
+0059 [Tú] | Omnisky Aegis... ¿No es la...?
+0060 [Bastelina] | Exacto. Es la empresa por la que se hizo pasar Hazana, de los Escorpiones del Desierto, en el banquete.
+0061 [Bastelina] | Ya publicaron un comunicado diciendo que no sabían absolutamente nada; que fueron una víctima más de la estafa.
+0062 [Tú] | La Guardia Imperial, Finanzas del Mar Profundo y ahora Omnisky Aegis... Hay muchos pesos pesados en la contienda.
+0063 [Tú] | Bastelina, ¿y qué onda con ese grupo de allá?
+0064 [Bastelina] | ¿La dama elegante del kimono? Es Shuo,==W== la gerente de la sucursal de Philae de Goodwind. Es de las de verdad.
+0065 [Bastelina] | Aunque Goodwind no suele ofertar por Monolitos. Seguramente solo vienen a hacer acto de presencia y a buscar nuevos clientes.
+0066 [Bastelina] | ¿Ves a esos dos que tiene acorralados la bruja de Scarlet Sights?
+0067 [Bastelina] | Son de Xuan Shi, del territorio de Loong. Este evento es solo con invitación, así que deben estar usando el «Comedor Fenghuang» como fachada.
+0068 [Ophir] | ¡Hola! ¡Ophir, de Scarlet Sights Media! ¿Tienen un segundo?
+0069 [Ophir] | Cuéntennos, ¡¿cuál es la estrategia detrás de la oferta del Comedor Fenghuang por el Monolito de Philae?!
+0070 [Jiyue] | Ah, eh, eso es mucho... ¡Superior, ayuda! ¿Cómo contesto esto? ¡Nosotros solo venimos de paseo!
+0071 [Yunshu] | El Comedor Fenghuang está comprometido con fomentar una cooperación pragmática con todos los representantes con base en el respeto mutuo. Aspiramos a desempeñar un papel constructivo en el mercado de Philae e impulsar el crecimiento local en beneficio de la comunidad.
+0072 [Yunshu] | Compartiremos más sobre nuestra estrategia y nuestros objetivos de licitación en el momento oportuno. Por ahora, no tenemos más comentarios.
+0073 [Ophir] | Eh... ¿Mmm? Ah, claro...==W== Ya veo. ¡Bueno, gracias por la información!
+0074 [Bastelina] | Vaya, típico discurso corporativo de Loong. Pura palabrería. ¿Le entendiste algo, Jefe?
+0075 [Tú] | En pocas palabras: «Somos simples turistas sin ningún interés en la licitación, pero no podemos admitirlo públicamente».
+0076 [Bastelina] | Exacto. Los de Loong casi nunca se meten en asuntos importantes fuera de Cangwu. Seguramente solo vienen a explorar el mercado local, así que no son una amenaza para ti.
+0077 [Bastelina] | Esos son todos los de hoy. La licitación está por empezar, así que vamos a la sala de conferencias, Jefe.
+0078 [Tú] | Sí. Aun así... Hay algo en todo esto que no me cuadra.
+0079 [Tú] | Sé que soy cliente, pero solo rento una caja fuerte en su bóveda. Llamarme «VIP» es exagerar mucho. ¿Por qué te tomas tantas molestias por mí?
+0080 [Bastelina] | ¡Oye, soy una dependienta profesional de la Tienda de Almas! Ayudar a los clientes es mi trabajo. No te preocupes por eso.
+0081 [Bastelina] | Cuando tu empresa despegue, de todos modos nos vas a rentar docenas de cajas fuertes. ¡Considéralo una inversión en un futuro gran cliente!
+0082 [Lugar y hora] | 14:20, 13.º del mes de Venatio, Distrito de Plata de Philae, sala de conferencias de la Tienda de Almas
+0083 [Narración] | En la sala reina un silencio absoluto, salvo por el constante crujir del papel mientras los representantes de las empresas estudian los documentos de la licitación.
+0084 [Tú] | Esta licitación del Monolito se resolverá en una o dos rondas. La primera es una subasta pública para fijar el arrendamiento de los próximos diez años.
+0085 [Tú] | El tope es de 40 mil millones, pero todos buscan recortar costos y quedarse con los derechos a buen precio. Bueno, casi todos. Pero...
+0086 [Tú] | Lo de «subasta» es solo una etiqueta. El precio final seguramente ya está más o menos dado. Por eso deben de tener preparada una segunda ronda...
+0087 [Tú] | Es hora de hacer que este sistema trabaje para mí.
+0088 [Narración] | Un día antes.
+0089 [Tú] | La sede no va a adelantar los fondos para mañana. ¿Cosecha Unida Philae puede con esto sola?
+0090 [Firenze] | Revisé los datos de todo Nova de los últimos cinco años. Las ofertas ganadoras suelen quedar entre 10 mil y 18 mil millones.
+0091 [Firenze] | Juntamos a duras penas 20 mil millones en activos líquidos. Según las tendencias, estamos a salvo.
+0092 [Tú] | Si logramos seguir en el juego y llegar a la marca de 18 mil millones de Dorra, forzaremos una evaluación técnica.
+0093 [Tú] | Ahí es donde ganamos.
+0094 [Albedo] | Se acabó el tiempo. Abrimos la subasta en 4 mil millones de Dorra.
+0095 [Greyhorn] | 5 mil millones.
+0096 [Jiyue] | ¡6600 millones! Suena bonito.
+0097 [Shuo] | 8 mil millones.
+0098 [Erinis] | Van demasiado lento.==W== 12 mil millones.
+0099 [Jiyue] | Vaya... ¿Ya vamos en más de 10 mil millones? ¿Tú qué opinas?
+0100 [Yunshu] | El Comedor Fenghuang se retira.
+0101 [Shuo] | Goodwind Homecare se retira.
+0102 [Tú] | Bastelina tenía razón. Los de Loong y Goodwind nunca quisieron ganar. Solo dieron cifras simbólicas antes de retirarse.
+0103 [Greyhorn] | 12 mil millones.
+0104 [Firenze] | 13 mil millones.
+0105 [Erinis] | 14 mil millones.
+0106 [Greyhorn] | 14 mil millones.
+0107 [Tú] | Finanzas del Mar Profundo solo está inflando el precio. Esto se reduce a Firenze y la Guardia Imperial.
+0108 [Firenze] | 18 mil millones.
+0109 [Greyhorn] | 18 mil millones.
+0110 [Erinis] | Mmm, a estas alturas ya no queda margen de ganancia. Finanzas del Mar Profundo se retira.==W== Mucha suerte a las dos. Nuestras puertas están abiertas si necesitan un préstamo.
+0111 [Albedo] | Cosecha Unida Philae y la Guardia Imperial están empatadas en 18 mil millones. ¿Alguna otra oferta? Al no haberla, estas dos pasarán a la evaluación técnica...
+0112 [Mercurio] | Jeje... 20 mil millones.
+0113 [Tú] | ¡¿Omnisky Aegis?! Creí que solo estaban de espectadores. ¿Por qué se meten ahora...?
+0114 [Firenze] | Tsk. 20 mil millones.
+0115 [Greyhorn] | 20 mil millones.
+0116 [Mercurio] | 25 mil millones.
+0117 [Tú] | Es una locura... Ya no queda ninguna ganancia. ¿Por qué Omnisky Aegis está tan obsesionada con este Monolito?
+0118 [Tú] | Además, cualquier cosa arriba de veinte mil millones se acaba nuestros activos líquidos. ¿Cuál es el plan, Firenze...?
+0119 [Firenze] | ... 25 mil millones.
+0120 [Tú] | ¡¿V-veinticinco mil...?! Oye, ¡¿Firenze?! ¿Qué estás...?
+0121 [Narración] | Antes de que pueda terminar, Firenze me aprieta la mano por debajo de la mesa. Un mensaje silencioso: «No se preocupe. Lo tengo bajo control».
+0122 [Greyhorn] | 25 mil millones.
+0123 [Mercurio] | Ay... Qué tercos son ustedes.
+0124 [Mercurio] | 40 mil millones.
+0125 [Greyhorn] | ¿40 mil millones? ¿Perdiste la cabeza?
+0126 [Erinis] | Je... Ahora sí se está poniendo interesante.
+0127 [Albedo] | 40 mil millones.==W== Cosecha Unida Philae, Guardia Imperial... ¿Qué hacen?
 0128 [Firenze] | ...
-0129 [Greyhorn] | Hmph. Imperial Guard, 40 billion.
-0130 [Firenze] | Boss, hehe...==W== Sorry for going rogue here, but...==W== Care to join me in hell? ♪
-0131 [Firenze] | United Harvest Philae, 40 billion!
-0132 [Lugar y hora] | 16:00, Venatio Month 13th, Gold District in Philae, Executive Office
-0133 [Firenze] | Sorry for the scare back there, Boss.
-0134 [Narración] | After the auction, Firenze and I head back to her office.
-0135 [Tú] | No need. If the Monolith is essential to United Harvest Philae, it's a necessary expense. Omnisky Aegis and the Imperial Guard were the true wildcards here.
-0136 [Tú] | But reality check—how do we cover this 20-billion gap?
-0137 [Tú] | We've got three days, right? Has to be in their account by sunset on the 15th?
-0138 [Firenze] | Yeah. I'll handle it. I made the bid, so I'll find the cash one way or another.
-0139 [Bastelina] | Deepsea Finance is Nova's largest bank, known for fast approvals and fair rates. Boss, if we run short on funds, they might be worth a chat.
-0140 [Tú] | Someone from Grace Imperium mentioned Deepsea Finance. Think we could get a loan there?
-0141 [Firenze] | Come in.
-0142 [Sapphire] | Excuse me. Lady Firenze, Boss, an invitation just arrived from Omnisky Aegis.
-0143 [Sapphire] | Their rep, Mercurio, is hosting dinner tonight to discuss the auction. They say they aren't looking to monopolize the Monolith.
-0144 [Firenze] | "Not looking to monopolize"? What's Mercurio's angle here...
-0145 [Firenze] | What do you think, Boss?
-0146 [Opción] | Trust Firenze
-0147 [Opción] | Seek a loan from Deepsea Finance
-0148 [Opción] | Dine with Mercurio
-0149 [Tú] | If we take a loan from Deepsea Finance or settle with Omnisky Aegis, United Harvest Philae is going to lose its independence.
-0150 [Tú] | And if that happens... Firenze, I won't be able to make your wish come true.
-0151 [Firenze] | You can't get something for nothing. That's just how the world works, right?
-0152 [Tú] | Since you said you'd find a way, I'll leave the funding to you.
-0153 [Tú] | Grace Imperium's assessment of our wishing ability starts tomorrow—I'll handle that part.
-0154 [Firenze] | Through thick and thin huh?==W== No problem. I'll scrape up those 20 billion Dorra even if it kills me.
-0155 [Tú] | Let's try for a loan from Deepsea Finance.
-0156 [Firenze] | 20 billion... We'll have to give up something big.==W== What are you planning to use as collateral?
-0157 [Tú] | How about Boss Accord's Seal of Grace? That should be worth enough to cover it.
-0158 [Firenze] | But, Boss... That belongs to you.
-0159 [Tú] | It belongs to all of us.==W== Besides, this is our best shot at winning the bid and securing United Harvest Philae's future.
-0160 [Tú] | If Deepsea Finance lends us that much, they'll be stuck with us whether they like it or not.
-0161 [Tú] | Let's take Mercurio up on that dinner and see what she wants.
-0162 [Tú] | I'm curious why Omnisky Aegis would pay such a crazy price just for the Monolith's usage rights.
-0163 [Firenze] | True. What could possibly be worth 20 billion past the break-even point? I'd love to hear her explain that in person.
-0164 [Tú] | Yeah. Feels like ... she's after something else.
+0129 [Greyhorn] | Hmph. Guardia Imperial, 40 mil millones.
+0130 [Firenze] | Jefe, jeje...==W== Perdón por actuar por mi cuenta, pero...==W== ¿me acompaña al infierno? ♪
+0131 [Firenze] | ¡Cosecha Unida Philae, 40 mil millones!
+0132 [Lugar y hora] | 16:00, 13.º del mes de Venatio, Distrito de Oro de Philae, Oficina Ejecutiva
+0133 [Firenze] | Perdón por el susto de hace rato, Jefe.
+0134 [Narración] | Después de la subasta, Firenze y yo volvemos a su oficina.
+0135 [Tú] | No hace falta. Si el Monolito es esencial para Cosecha Unida Philae, es un gasto necesario. Omnisky Aegis y la Guardia Imperial fueron las verdaderas sorpresas aquí.
+0136 [Tú] | Pero, siendo realistas, ¿cómo cubrimos este hueco de 20 mil millones?
+0137 [Tú] | Tenemos tres días, ¿verdad? ¿Tiene que estar en su cuenta antes de que se ponga el sol el día 15?
+0138 [Firenze] | Sí. Yo me encargo. Yo hice la oferta, así que conseguiré el dinero de una forma u otra.
+0139 [Bastelina] | Finanzas del Mar Profundo es el banco más grande de Nova, conocido por sus aprobaciones rápidas y sus tasas justas. Jefe, si nos falta dinero, quizá valga la pena hablar con ellas.
+0140 [Tú] | Alguien del Imperio de la Gracia mencionó a Finanzas del Mar Profundo. ¿Crees que podamos conseguir un préstamo ahí?
+0141 [Firenze] | Adelante.
+0142 [Sapphire] | Con permiso. Lady Firenze, Jefe, acaba de llegar una invitación de Omnisky Aegis.
+0143 [Sapphire] | Su representante, Mercurio, ofrecerá una cena esta noche para hablar de la subasta. Dicen que no buscan monopolizar el Monolito.
+0144 [Firenze] | ¿«No buscan monopolizarlo»? ¿Qué se trae Mercurio...?
+0145 [Firenze] | ¿Usted qué opina, Jefe?
+0146 [Opción] | Confiar en Firenze
+0147 [Opción] | Pedir un préstamo a Finanzas del Mar Profundo
+0148 [Opción] | Cenar con Mercurio
+0149 [Tú] | Si pedimos un préstamo a Finanzas del Mar Profundo o llegamos a un acuerdo con Omnisky Aegis, Cosecha Unida Philae va a perder su independencia.
+0150 [Tú] | Y si eso pasa... Firenze, no podré cumplir tu deseo.
+0151 [Firenze] | Nada es gratis. Así funciona el mundo, ¿no?
+0152 [Tú] | Ya que dijiste que encontrarías la forma, te dejo a ti el financiamiento.
+0153 [Tú] | La evaluación del Imperio de la Gracia sobre nuestra capacidad para pedir deseos empieza mañana; de esa parte me encargo yo.
+0154 [Firenze] | En las buenas y en las malas, ¿eh?==W== No hay problema. Conseguiré esos 20 mil millones de Dorra aunque me cueste la vida.
+0155 [Tú] | Intentemos pedir un préstamo a Finanzas del Mar Profundo.
+0156 [Firenze] | 20 mil millones... Vamos a tener que dar algo grande a cambio.==W== ¿Qué piensa usar como garantía?
+0157 [Tú] | ¿Qué tal el Sello de la Gracia de Boss Accord? Debería valer lo suficiente para cubrirlo.
+0158 [Firenze] | Pero, Jefe... Ese es suyo.
+0159 [Tú] | Es de todos nosotros.==W== Además, es nuestra mejor oportunidad para ganar la licitación y asegurar el futuro de Cosecha Unida Philae.
+0160 [Tú] | Si Finanzas del Mar Profundo nos presta tanto, tendrán que cargar con nosotros, les guste o no.
+0161 [Tú] | Aceptemos la invitación a cenar de Mercurio y veamos qué quiere.
+0162 [Tú] | Tengo curiosidad de saber por qué Omnisky Aegis pagaría un precio tan absurdo solo por los derechos de uso del Monolito.
+0163 [Firenze] | Es cierto. ¿Qué podría valer 20 mil millones por encima del punto de equilibrio? Me encantaría oírla explicarlo en persona.
+0164 [Tú] | Sí. Siento que... busca otra cosa.

@@ -3,12 +3,12 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Armored Representative | Armored Representative
-N:Fashionably Dressed Lady | Fashionably Dressed Lady
-N:Novice Trekker | Novice Trekker
-N:Strong and Vigorous Trekker | Strong and Vigorous Trekker
-N:United Harvest Senator | United Harvest Senator
-N:Voice at the Door | Voice at the Door
+N:Armored Representative | Representante con armadura
+N:Fashionably Dressed Lady | Dama a la moda
+N:Novice Trekker | Trekker novato
+N:Strong and Vigorous Trekker | Trekker fuerte y vigoroso
+N:United Harvest Senator | Senador de Cosecha Unida
+N:Voice at the Door | Voz en la puerta
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -20,17 +20,17 @@ N:avg1_139 | Allie
 N:avg1_144 | Chitose
 N:avg1_145 | Otoha
 N:avg1_163 | Greyhorn
-N:avg2_968 | White Cat Mercenary
+N:avg2_968 | Mercenario Gato Blanco
 N:avg2_982 | Soldado Trekker
 N:avg2_984 | Soldado Trekker
 N:avg2_985 | Darcia
 N:avg3_100 | Sylar
 N:avg3_102 | Willow
-N:avg3_120 | United Harvest Forester
-N:avg3_1220 | United Harvest Forester
-N:avg3_1230 | Little Girl
+N:avg3_120 | Guardabosques de Cosecha Unida
+N:avg3_1220 | Guardabosques de Cosecha Unida
+N:avg3_1230 | Niña
 N:avg3_1239 | Guardia Imperial
-N:avg3_1311 | SaiLa F
+N:avg3_1311 | SaiLa
 N:avg3_138 | Trekker
 N:avg3_141 | Trabajador de Cosecha Unida
 N:avg3_146 | Residente del Distrito de Oro
@@ -43,264 +43,264 @@ N:avg3_170 | Chico del Distrito de las Cenizas
 N:avg3_183 | Joseph
 N:avg3_184 | Lady Gray
 N:avg3_207 | Myrsha
-N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
 N:avg3_210 | Hazana
-N:avg3_218 | Mirage Resident
-N:avg3_219 | Mirage Resident
+N:avg3_218 | Residente de Mirage
+N:avg3_219 | Residente de Mirage
 N:avg3_974 | Serena
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Fifteen
-0002 [Intro] | Butterfly Effect
-0003 [Intro] | You stop wishing, and Hazana agrees to go home. Peace seems close—until fake Scepters of Death appear and the Senate retaliates. To end the chaos for good, you lead the New Star Guild into enemy territory...
-0004 [Narración] | ==Off==Monolith Calendar Year 997, Trekker Association, Outside Emor
-0005 [Novice Trekker] | Here you go. 99,999 Dorra.
-0006 [Myrsha] | Thanks for your business. How's it treating you?
-0007 [Novice Trekker] | It's amazing!==B====W== Yesterday I stepped out of a Monolith and ran straight into a pack of bandits...
-0008 [Novice Trekker] | Normally I'd be helpless, at their mercy.==W== But the second I pulled out the Scepter of Death, they scattered before I could blink.==W==
-0009 [Novice Trekker] | If I had one complaint, it's the noise...==W== And you have to watch your ammo.==W== By the way, do you sell bullets separately?
-0010 [Myrsha] | We do! A box of fifty is fifty thousand Dorra.
-0011 [Novice Trekker] | Wait, seriously?==W== The Scepter was only a hundred thousand Dorra. Fifty bullets cost that much?
-0012 [Myrsha] | You've got it backwards, friend. The Scepter's real value is in the bullets.==W== Without ammo, it's nothing but an expensive club.
-0013 [Novice Trekker] | Fair point...==W== I'll take one hundred rounds.
-0014 [Myrsha] | One hundred rounds,==W== coming up!==W== Thanks for your business ♪
-0015 [Myrsha] | Yahaha! Five million Dorra today alone.==W== We cleared over a hundred million this week alone. We're on a roll!
-0016 [Hazana] | Haha! Never thought we'd get this rich hunting the Salvation Committee.==W== Teaming up with the Boss was a good call.
-0017 [Tú] | Hazana, Myrsha.==W== We need to talk.
-0018 [Hazana] | What's up? You look serious.
-0019 [Tú] | You saw the news. Angie's locked away for life, without parole. Heresy and attempted murder.
-0020 [Tú] | Now that Angie and the Salvation Committee are done, we should stop wishing for the Scepters.==W== They're too dangerous and unpredictable. For world peace. For Nova's safety.
-0021 [Hazana] | Fine by me.
-0022 [Tú] | So...==W== Wait, you don't mind?
-0023 [Hazana] | I knew you'd bring this up the moment I heard Angie got busted.
-0024 [Hazana] | But don't get me wrong. The Desert Scorpions couldn't care less about world peace or Nova's safety.
-0025 [Hazana] | Sure, the Artifact is dangerous.==W== But is an attack from a Scepter of Death any different than an attack from magic?
-0026 [Hazana] | If there's demand, we supply. We aren't forcing anyone to buy them, let alone use them on each other.
-0027 [Hazana] | But we respect our friends.==W== You cranked out thousands of these things for us. You said your constitution was unique...
-0028 [Hazana] | But it's clearly wearing you down...==W== Even if you get to keep your memories, you're physically drained.==W== We Scorpions don't put our friends through that.
-0029 [Tú] | That takes a huge weight off my shoulders.==W== Thanks. I appreciate it.
-0030 [Hazana] | Don't get soft on me, Boss.==W== We know a good thing when we see it. Reliable, brilliant partners with actual miracle powers don't grow on trees.
-0031 [Hazana] | I am selling off the rest of our stock, though.==W== No objections?
-0032 [Tú] | Right. Sitting on a stockpile like that paints a massive target on our backs. Best to clear it out.
-0033 [Myrsha] | And ... that means every Scepter we sell is one we can't replace. Perfect excuse to jack up the prices!==W== Hehe, wonder how much we'll rake in by the end! ♪
-0034 [Tú] | I'm heading back to Philae soon. What's next for you two?
-0035 [Tú] | The rest of the Desert Scorpions are still in Mirage. It's been a while, hasn't it?
-0036 [Hazana] | Yeah. Time we headed back with our earnings.
-0037 [Myrsha] | With Boss Accord backing us, we're legit corporate folks! No more getting lowballed by the big guys.==W== Heading back to help build up our hometown sounds pretty good! ♪
-0038 [Tú] | Life without a Monolith is tough. Why not move to Philae? Or anywhere else?
-0039 [Hazana] | Haha. Appreciate the offer, Boss,==W== but we're staying put. Doesn't matter how nice a place is. There's nowhere like home.
-0040 [Narración] | I think, I made the right call this time.
-0041 [Narración] | I never found the desert Monolith, and my true identity is still a mystery.
-0042 [Narración] | But after all I've been through, I picked up quite a few titles:
-0043 [Narración] | _NOT_IN_LOG_==A0.5====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0044 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0045 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0046 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0047 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0048 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0049 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0050 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0051 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0052 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0053 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0054 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0055 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0056 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0057 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0058 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0059 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0060 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0061 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0062 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0063 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0064 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0065 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0066 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0067 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0068 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0069 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0070 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0071 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0072 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0073 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0074 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0075 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0076 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0077 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0078 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0079 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0080 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0081 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0082 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0083 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0084 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0085 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0086 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0087 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0088 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0089 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0090 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0091 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0092 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0093 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0094 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0095 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0096 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0097 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0098 [Narración] | _NOT_IN_LOG_==A0.03====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0099 [Narración] | _NOT_IN_LOG_==A0.5====Off==CEO of Boss Accord major shareholder of United Harvest Philae protector of the White Cat Troupe lifetime honorary member of the Ashwind Clan a friend to Mirage factions and—a Trekker of the New Star Guild
-0100 [Narración] | I doubt there's anyone left on Nova who actually believes I'm the legendary Tyrant.
-0101 [Narración] | And if I keep going,==W== there's Chitose's ==SEX11==,==W== Fuyuka's Master,==W== Nazuka's absolute most important person (her exact words),==W== Otoha's partner in crime, and more.==B====W== No wonder Noya jokes every time I hop in Loxy:
-0102 [Noya] | This ride can't fit that many people!
-0103 [Narración] | Time passes.==W== The Desert Scorpions and the White Cat Troupe bury the hatchet==W== and start mining a new crystal diamond vein together.
-0104 [Narración] | United Harvest Philae helps the people of Mirage grow valuable desert crops and buys the harvest.==W== With everyone working together, the former Edge of the World is thriving.
-0105 [Narración] | Allie moves the Daisy Orphanage back to Mirage.==W== She says the kids from White Cat and the Scorpions prefer the open desert over the skyscrapers of Philae.
-0106 [Narración] | With Mirage's population booming, busy parents keep asking Allie to watch their kids.==W== The Daisy Orphanage has basically turned into a daycare.
-0107 [Narración] | As for me,==W== I'm buried under company paperwork. I had to rope Mistique into being my personal chauffeur, flying me back and forth between Emor, Philae, and Mirage.
-0108 [Tú] | It's been a while==W== since I traveled with the New Star Guild.
-0109 [Mistique] | Hehe, welcome to the reality of running a business♪==W== Not that I've ever been a boss myself★==W== But hey, once you retire, you'll have all the free time in the world.
-0110 [Tú] | Retirement, huh...
-0111 [Mistique] | Stop zoning out and hold tight!==W== We're flying straight to Mirage! ★
-0112 [Tú] | Wait!==W== You can't just floor it from the start!==W== Waaaaaah—!
-0113 [Narración] | ==Off==I thought this peaceful routine would go on forever.
-0114 [Narración] | ==Off==But what I had done finally brought a storm.
-0115 [Tú] | W-What?==W== A Trekker from outside the desert shot up the Eureka Bar with a Scepter of Death? And Benito was hit?
-0116 [Myrsha] | Yeah... She got a scratch. Nothing serious.==W== We have the Trekker detained,==W== but we have no idea where that Scepter came from.
-0117 [Tú] | Wasn't it one of the ones we sold?
-0118 [Myrsha] | That's the weird part.==W== First of all, it looks completely different. It's weaker than ours, and it has this strange attachment on the barrel. Barely makes a sound when fired.
-0119 [Tú] | What is going on...
-0120 [Hazana] | Boss, I just heard from Albedo. She wants us in Emor. Says it's urgent.
-0121 [Tú] | ... Albedo?==W== Got it. Let's move.
-0122 [Allie] | Leaving already, Boss?==W== Stay for dinner with the kids. They've been looking forward to it.
-0123 [Tú] | I'm sorry, Allie. Something urgent came up. I have to skip dinner.
-0124 [Allie] | If you can't stay, at least take some bread for the road.==W== You have to eat properly no matter how busy you are, you hear me?
-0125 [Tú] | I hear you.==W== Do me a favor and tell everyone at the New Star Guild I'll be back soon. Tell them not to worry.
-0126 [Narración] | But after hearing the truth from Albedo... I finally understood the gravity of the situation. It went far deeper than I imagined.
-0127 [Tú] | Angie broke out?!
-0128 [Albedo] | Yes. After you flooded the market with the Scepters of Death, the corporate Senators felt threatened. They immediately formed teams to crack the wishing prayers.
-0129 [Albedo] | But the success rate of their reverse-engineered prayers was too low, and the toll on the wishers was too high. It never went anywhere.
-0130 [Albedo] | Then, two months ago, the prison holding Angie was attacked. She escaped in the mass breakout. Since then, a mysterious group has appeared, flooding the black market with new Scepters.
-0131 [Tú] | You're saying...==W== Angie rebuilt the Salvation Committee, perfected the prayer, and made the wishes work?
-0132 [Albedo] | There is more.==W== Willow, take it from here.
-0133 [Willow] | Dozens of guilds have gone dark recently. I suspect they were abducted and forced to make wishes. That only covers the ones we know about. We don't track guilds missing for under a month, so the actual number could be much bigger.
-0134 [Hazana] | Even if you're looking our way, you won't find a thing. We don't touch jobs with zero payoff.
-0135 [Myrsha] | Yeah, this is on you for not watching your prisoners.
-0136 [Tú] | Hazana, Myrsha, drop it.==W== I'm the one who started the Scepter mess.==W== This one is on me.
-0137 [Albedo] | We are not blaming anyone. On the contrary...==W== We invite Boss here today to entrust you with the investigation.
-0138 [Albedo] | Naturally, Grace Imperium will back you fully.==W== Greyhorn?
-0139 [Greyhorn] | Ready.
-0140 [Albedo] | She will lead her team in support, with all expenses covered by us.==W== If you need anything else, every resource Grace Imperium has is yours to command.
-0141 [Narración] | ==Off==Monolith Calendar Year 998, New Orelian
-0142 [Tú] | Greyhorn, are they at it again outside?
-0143 [Greyhorn] | Yeah.==W== Two gangs are tearing up the streets with Scepters of Death. No one dares to step outside after dark anymore.
-0144 [Greyhorn] | We need to hold out for three more days.==W== We've identified the corporate Senators funding the smuggling ring.==W== They're holding a gathering on Snowish Eve. We'll take them all down at once.
-0145 [Greyhorn] | We also found a familiar name on the guest list.==W== Angie. We've been tracking her for a year, and she's going to be there.
-0146 [Tú] | Good work, Greyhorn.==W== Where are Hazana and Myrsha?
-0147 [Greyhorn] | We fell for a decoy earlier. The Scorpions are split up between Port Goldfinch and Geminia.
-0148 [Greyhorn] | Backup from the Dusk Arbiter and Sentinel of Dawn just left Emor. Neither squad will make it in time.
-0149 [Tú] | We're short-handed.==W== Can you call in the local Imperial Guard?
-0150 [Greyhorn] | I'm sorry.==W== Our casualties this past year have been too severe... The Grand Captain ordered a full withdrawal from the operation.
-0151 [Tú] | Withdrawal? Then why are you...
-0152 [Greyhorn] | The Imperial Guard is a company that puts Dorra first.==W== But there are things our knights care about more than money.
-0153 [Greyhorn] | You've been crossing the continent to keep the peace.==W== Until every last criminal is brought to justice, I am personally at your command.
-0154 [Greyhorn] | It's what the Guard was founded to do. And I need to atone for my mistakes.
-0155 [Tú] | Mistakes?==W== I didn't think a by-the-book knight like you ever messed up.
-0156 [Greyhorn] | I did.==W== I followed the Grand Captain's orders and helped Angie hunt you down.
-0157 [Greyhorn] | Watching you peddle Scepters of Death back then, I even suspected that you were really the legendary Tyrant. But...
-0158 [Greyhorn] | Angie set me straight. She said I didn't understand you, or how this world would end.
-0159 [Greyhorn] | At the time, her words made no sense to me.==W== But after working alongside you, I think I finally get it.
-0160 [Tú] | How so?
-0161 [Greyhorn] | You and Angie are the same.==W== Both of you would risk everything for this world, for other people...
-0162 [Greyhorn] | ... and do things everyone else finds insane. Thankless. Even heretical.
-0163 [Tú] | The same, huh.==W== Maybe you're right. I'm doing exactly what she did. The only difference is that we swapped sides.
-0164 [Tú] | I know it's too late. But I still wish I'd found another way to stop her, instead of spreading those Scepters...
-0165 [Tú] | I kept my friends safe. Mirage even prospered from it. But that came at a price, and everyone else paid it.==W== I'm no different from you, Greyhorn. We're both trying to fix our mistakes.
-0166 [Tú] | ... Sorry, let's focus.==W== We're completely understaffed right now. Got any tactical ideas?
-0167 [Greyhorn] | I wouldn't worry about that. As luck would have it, your friends are already here.
-0168 [Tú] | My friends?
-0169 [Noya] | Come on, ==PLAYER_NAME==, don't leave us hanging! You're going to settle this with Angie without us? How could you?
-0170 [Tú] | Noya?!==W== Iris and Amber are here too?==W== How did you find this place...?
-0171 [Iris] | Easy.==W== We pinpointed the city with the heaviest Scepter trafficking. Noya's gut feeling narrowed the search grid.==W== Amber scouted the rest.
-0172 [Amber] | We can always find you.
-0173 [Tú] | You are the best...==W== But it's not just Angie today.==W== We're up against an entire mob packing Scepters of Death.
-0174 [Iris] | We figured.==W== We've been perfecting heavy-duty defensive spells for this exact moment. Even Scepter bullets won't get through.
-0175 [Amber] | It'll hurt. But we won't die.
-0176 [Noya] | Oh! I almost forgot!==W== We need a tiny favor from you.
-0177 [Tú] | What is it?
-0178 [Iris] | You have to keep it a secret from Aunt Allie...==W== I mean, Mom... That we're fighting alongside you today. She cannot find out.
-0179 [Amber] | Don't want Mom to worry.
-0180 [Tú] | Hey, Allie?==W== I met up with Noya and the others. Don't worry, they're sticking to rear logistics.==W== They're perfectly safe out of harm's way.
-0181 [Allie] | Huh? Wait... What was that noise?==W== It sounded like a Scepter of Death firing...
-0182 [Tú] | Ah, no, definitely not!==W== We're in Cangwu. The new year is around the corner, those are Loong firecrackers!
-0183 [Allie] | Thank goodness...==W== Boss, could I ask you for a favor?
-0184 [Tú] | Of course. If it's something I can do, name it.
-0185 [Allie] | Thank you.==W== Please ...==W== bring those kids back to me safe and sound.
-0186 [Narración] | ==Off==Three days later.
-0187 [Greyhorn] | Boss,==W== they converted the inside of that house up ahead into a massive warehouse.==W== The Senators and Angie are holding their meeting inside.
-0188 [Tú] | Got it.==W== Here's the plan. Greyhorn, take your team and hit the front doors to draw their fire.==W== The New Star Guild and I will use the rooftops to flank them.==W==
-0189 [Tú] | Is everyone ready?==W== Let's move out!
-0190 [Tú] | Phew. We made it up.
-0191 [Noya] | Whoa, ==PLAYER_NAME==, you're way faster on your feet now!
-0192 [Tú] | My swordplay leveled up too. I practice that technique you taught me every single day. I'm up to a thousand swings a day now.
-0193 [Amber] | Angie. Down there.==W==
-0194 [United Harvest Senator] | This trip was well worth the trouble. To think we'd finally gaze upon Lady Angie in the flesh.
-0195 [Fashionably Dressed Lady] | I know, I was an absolute nervous wreck coming here. I thought that dreadful Boss or the Imperial Guard might track us down...==W== But attending this gathering was definitely the right move.
-0196 [Fashionably Dressed Lady] | Besides, even if things go south, with Lady Angie running the show, what is there to worry about?
-0197 [Armored Representative] | Watch your tongue, madam.==W== The Imperial Guard has recalled its forces. Commander Greyhorn is acting entirely on her own.==W==
-0198 [Strong and Vigorous Trekker] | Oh? Does the Imperial Guard want a cut of the Scepter trade too?
-0199 [Armored Representative] | Hmph. We have zero interest in selling them.==W== We simply want one sample from every new batch to field test our bulletproof armor.
-0200 [Armored Representative] | Do we have a deal, Lady Angie?==W== Agree to this, and the Imperial Guard will gladly make things convenient for everyone in this room...
-0201 [Joseph] | Heh. Let's save the side deals for later. I called you all here to map out our direction for the coming year.
-0202 [Joseph] | Ahem. First order of business.==W== To set up a proper front company for Scepter sales, we first need a Seal of Grace.
-0203 [Strong and Vigorous Trekker] | Heh! Now you're talking! I love a guy who gets straight to the point!
-0204 [Joseph] | Going corporate means moving serious volume. Mr. Colston, can your people keep up with the Trekker supply?
-0205 [Strong and Vigorous Trekker] | Relax. I can drag in as many Trekkers as you need. Once the wishing wipes their memories, we'll dump them in the labor camps.
-0206 [Fashionably Dressed Lady] | Hmph. With a monopoly on Scepters and the Guard's new armor, those peasants won't stand a chance. No more dirty sneak attacks from the rabble.
-0207 [United Harvest Senator] | Once that happens, United Harvest HQ can raise a new army and take back control of United Harvest Philae.
-0208 [United Harvest Senator] | I want to see Matilda on her knees, begging for my forgiveness!
-0209 [United Harvest Senator] | Lady Angie, how are you allocating next quarter's supply?==W== The New Orelian faction can move ten thousand, no, twenty thousand units!
-0210 [Joseph] | Unbelievable... Who is interrupting us at a time like this? Didn't I order to have this place locked down?
-0211 [Voice at the Door] | Sorry for the wait! Black Cat Pizza delivery here♪!==W== Your ten jumbo pineapple and sausage pizzas have arrived! Better eat up before they get cold!
-0212 [Strong and Vigorous Trekker] | Pizza? Heh! Hot pizza in this freezing weather? You guys sure know how to host a meeting!
-0213 [United Harvest Senator] | Pineapple and sausage on a pizza?! Ugh, what kind of blasphemous abomination is this?!
-0214 [Joseph] | ... Wait. Where are the guards?
-0215 [Greyhorn] | Imperial Guard!==W== Hands on your heads and get on the ground! Nobody move!
-0216 [Joseph] | Damn it.==W== Take them out.
-0217 [Amber] | Let's go.
-0218 [Noya] | You rely too much on those Scepters! Your backs are wide open!
-0219 [Iris] | Freeze—
-0220 [Joseph] | Wh-What?! The trigger's frozen…
-0221 [Joseph] | Damn it, I can't pull it!
-0222 [Greyhorn] | Boss, suspects secured.==W== But Angie seems off.
-0223 [Tú] | Angie hasn't said a word since the meeting started.
-0224 [Opción] | (Lift her cloak)
-0225 [Tú] | Angie?!
-0226 [Iris] | She's not Angie. She's just dressed up like her... And she's completely out of it?!
-0227 [Greyhorn] | Joseph. Explain this.
-0228 [Joseph] | Heh...==W== Bwahahahaha!==W== You actually thought Angie was calling the shots? That she was the one running our Scepter trade?
-0229 [Joseph] | You idiots. Brainless trash.==W== I figured out the Scepter's prayer myself! I've finally proven it!==W== My research is as good as anyone's!
-0230 [Joseph] | As for the Angie you were waiting for, we did ask her to join.==W== But she insisted on investigating the Monoliths alone and vanished the day she broke out.==W== Heh. She's probably dead in some Monolith by now. So don't blame us for using her name.
-0231 [Greyhorn] | You despicable scum...==W== Do human lives mean nothing to you?
-0232 [???] | Hehehe... Can you really afford to worry about others right now?
-0233 [Amber] | Boss. On the table. A phone. It's on a call.
-0234 [Tú] | Hello? Who's this?
-0235 [Lady Gray] | Lady Gray. Does that name ring a bell, Boss?
-0236 [Tú] | Lady Gray?!
-0237 [Lady Gray] | You played well in Philae. I admit that.==W== But I only lost because Darcia let blind devotion cloud her judgment.
-0238 [Lady Gray] | If she hadn't interfered, there wouldn't be enough of you left to bury.
-0239 [Tú] | The Scepter trade.==W== You've been running it this whole time?
-0240 [Lady Gray] | Hah. Got it in one.==W== The New Orelian crew broke Angie out hoping she'd take the business. She turned her nose up at it.==W== So I stepped up.
-0241 [Lady Gray] | Take a look around you, Boss.
-0242 [Noya] | Boss, these crates are packed with dark gray powder. It's the explosive from the Scepter rounds!
-0243 [Greyhorn] | They rigged the main gates with explosive arrays. Every exit is completely sealed...==W== We walked right into a trap.
-0244 [Tú] | Lady Gray, your investors are still in here! Are you leaving them to die?
-0245 [Lady Gray] | You can't spring a trap without bait.
-0246 [Joseph] | Lady Gray! What is the meaning of this?! You played us too?!
-0247 [Lady Gray] | Oh, poor Joseph... Please understand.==W== I wouldn't do this if I had a choice.==W== But rest easy. I will take excellent care of your family.
-0248 [Joseph] | You—you venomous snake...
-0249 [Iris] | Boss, we found an emergency hatch! This way, move!
-0250 [Noya] | They might have an ambush waiting outside. Watch your backs!
-0251 [Greyhorn] | Let me take point. My armor is bulletproof.==W== Even if I catch a few rounds—
-0252 [Greyhorn] | Wait. Are... Are these shields? Why are they stacked up here?
-0253 [Tú] | Are those...?==W== Everyone, get down!!==W==
+0001 [Intro] | Acto quince
+0002 [Intro] | Efecto mariposa
+0003 [Intro] | Dejas de pedir deseos y Hazana acepta volver a casa. La paz parece cercana... hasta que aparecen Cetros de la Muerte falsos y el Senado contraataca. Para acabar con el caos de una vez por todas, guías al Gremio de la Nueva Estrella hacia territorio enemigo...
+0004 [Narración] | ==Off==Año 997 del Calendario Monolítico, Asociación de Trekkers, afueras de Emor
+0005 [Novice Trekker] | Aquí tienes. 99,999 Dorra.
+0006 [Myrsha] | Gracias por tu compra. ¿Qué tal te ha ido con él?
+0007 [Novice Trekker] | ¡Es increíble!==B====W== Ayer salí de un Monolito y me topé de frente con una banda de asaltantes...
+0008 [Novice Trekker] | Normalmente habría estado indefenso, a su merced.==W== Pero en cuanto saqué el Cetro de la Muerte, salieron huyendo antes de que pudiera parpadear.==W==
+0009 [Novice Trekker] | Si tuviera que quejarme de algo, sería del ruido...==W== Y hay que cuidar las municiones.==W== Por cierto, ¿venden balas por separado?
+0010 [Myrsha] | ¡Claro! Una caja de cincuenta cuesta cincuenta mil Dorra.
+0011 [Novice Trekker] | Espera, ¿en serio?==W== El Cetro me costó solo cien mil Dorra. ¿Cincuenta balas cuestan tanto?
+0012 [Myrsha] | Lo estás viendo al revés, amigo. El verdadero valor del Cetro está en las balas.==W== Sin munición, no es más que un garrote carísimo.
+0013 [Novice Trekker] | Tiene sentido...==W== Me llevo cien balas.
+0014 [Myrsha] | ¡Cien balas,==W== marchando!==W== ¡Gracias por tu compra! ♪
+0015 [Myrsha] | ¡Yajaja! Cinco millones de Dorra tan solo hoy.==W== Esta semana ya superamos los cien millones. ¡Vamos en racha!
+0016 [Hazana] | ¡Jaja! Nunca pensé que nos haríamos tan ricas cazando al Comité de Salvación.==W== Aliarnos con el Jefe fue buena decisión.
+0017 [Tú] | Hazana, Myrsha.==W== Tenemos que hablar.
+0018 [Hazana] | ¿Qué pasa? Te ves muy serio.
+0019 [Tú] | Ya vieron las noticias. Encerraron a Angie de por vida, sin posibilidad de libertad condicional. Por herejía e intento de asesinato.
+0020 [Tú] | Ahora que acabamos con Angie y el Comité de Salvación, deberíamos dejar de pedir deseos para conseguir Cetros.==W== Son demasiado peligrosos e impredecibles. Por la paz mundial. Por la seguridad de Nova.
+0021 [Hazana] | Por mí está bien.
+0022 [Tú] | Entonces...==W== Espera, ¿no te molesta?
+0023 [Hazana] | Sabía que ibas a sacar el tema en cuanto me enteré de que habían atrapado a Angie.
+0024 [Hazana] | Pero no me malinterpretes. A los Escorpiones del Desierto les importan un comino la paz mundial y la seguridad de Nova.
+0025 [Hazana] | Claro, el Artefacto es peligroso.==W== Pero ¿un ataque con un Cetro de la Muerte es tan distinto de un ataque con magia?
+0026 [Hazana] | Si hay demanda, nosotros surtimos. No obligamos a nadie a comprarlos, y mucho menos a usarlos unos contra otros.
+0027 [Hazana] | Pero respetamos a nuestros amigos.==W== Fabricaste miles de estas cosas para nosotros. Dijiste que tu constitución era única...
+0028 [Hazana] | Pero es obvio que te está desgastando...==W== Aunque conserves tus recuerdos, físicamente estás agotado.==W== Los Escorpiones no le hacemos eso a nuestros amigos.
+0029 [Tú] | Me quitas un gran peso de encima.==W== Gracias. Te lo agradezco de verdad.
+0030 [Hazana] | No te pongas sentimental, Jefe.==W== Sabemos reconocer algo bueno cuando lo vemos. Socios confiables, brillantes y con poderes milagrosos de verdad no crecen en los árboles.
+0031 [Hazana] | Eso sí, voy a vender lo que nos queda del inventario.==W== ¿Alguna objeción?
+0032 [Tú] | Está bien. Quedarnos con una reserva así nos pondría una diana enorme en la espalda. Es mejor deshacernos de ella.
+0033 [Myrsha] | Y... eso significa que cada Cetro que vendamos ya no se podrá reponer. ¡La excusa perfecta para subir los precios!==W== Jeje, ¡me pregunto cuánto vamos a ganar al final! ♪
+0034 [Tú] | Pronto regresaré a Philae. ¿Qué harán ustedes dos?
+0035 [Tú] | El resto de los Escorpiones del Desierto sigue en Mirage. Ha pasado un buen tiempo, ¿no?
+0036 [Hazana] | Sí. Ya es hora de volver con nuestras ganancias.
+0037 [Myrsha] | ¡Con el respaldo de Boss Accord, somos gente corporativa legítima! Se acabó que los grandes nos paguen una miseria.==W== ¡Volver para ayudar a levantar nuestro hogar suena muy bien! ♪
+0038 [Tú] | La vida sin un Monolito es dura. ¿Por qué no se mudan a Philae? ¿O a cualquier otro lugar?
+0039 [Hazana] | Jaja. Te agradezco la oferta, Jefe,==W== pero nos quedamos donde estamos. No importa qué tan bonito sea un lugar. No hay nada como el hogar.
+0040 [Narración] | Creo que esta vez tomé la decisión correcta.
+0041 [Narración] | Nunca encontré el Monolito del Desierto, y mi verdadera identidad sigue siendo un misterio.
+0042 [Narración] | Pero, después de todo lo que he vivido, acumulé unos cuantos títulos:
+0043 [Narración] | _NOT_IN_LOG_==A0.5====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0044 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0045 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0046 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0047 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0048 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0049 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0050 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0051 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0052 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0053 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0054 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0055 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0056 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0057 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0058 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0059 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0060 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0061 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0062 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0063 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0064 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0065 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0066 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0067 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0068 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0069 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0070 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0071 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0072 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0073 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0074 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0075 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0076 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0077 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0078 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0079 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0080 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0081 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0082 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0083 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0084 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0085 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0086 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0087 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0088 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0089 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0090 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0091 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0092 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0093 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0094 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0095 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0096 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0097 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0098 [Narración] | _NOT_IN_LOG_==A0.03====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0099 [Narración] | _NOT_IN_LOG_==A0.5====Off==director ejecutivo de Boss Accord accionista mayoritario de Cosecha Unida Philae protector de la Compañía del Gato Blanco miembro honorario vitalicio del Clan Viento de Ceniza amigo de las facciones de Mirage y—Trekker del Gremio de la Nueva Estrella
+0100 [Narración] | Dudo que quede alguien en Nova que de verdad crea que soy el legendario Tirano.
+0101 [Narración] | Y si sigo enumerando,==W== soy ==SEX11== de Chitose,==W== el Maestro de Fuyuka,==W== la persona más importante de todas para Nazuka (palabras textuales),==W== el cómplice de Otoha, y más.==B====W== No me extraña que Noya bromee cada vez que me subo a Loxy:
+0102 [Noya] | ¡En este vehículo no cabe tanta gente!
+0103 [Narración] | Pasa el tiempo.==W== Los Escorpiones del Desierto y la Compañía del Gato Blanco entierran el hacha de guerra==W== y empiezan a explotar juntos una nueva veta de diamante cristalino.
+0104 [Narración] | Cosecha Unida Philae ayuda a la gente de Mirage a cultivar valiosas cosechas del desierto y les compra la producción.==W== Con todos trabajando juntos, el antiguo Fin del Mundo está floreciendo.
+0105 [Narración] | Allie traslada el Orfanato Margarita de vuelta a Mirage.==W== Dice que los niños del Gato Blanco y de los Escorpiones prefieren el desierto abierto a los rascacielos de Philae.
+0106 [Narración] | Con la población de Mirage en pleno auge, los padres ocupados no dejan de pedirle a Allie que cuide a sus hijos.==W== El Orfanato Margarita prácticamente se convirtió en una guardería.
+0107 [Narración] | En cuanto a mí,==W== estoy enterrado en papeleo de la empresa. Tuve que convencer a Mistique de ser mi chofer personal para que me lleve volando de aquí para allá entre Emor, Philae y Mirage.
+0108 [Tú] | Hace tiempo==W== que no viajo con el Gremio de la Nueva Estrella.
+0109 [Mistique] | Jeje, bienvenido a la realidad de dirigir un negocio♪==W== No es que yo haya sido jefa alguna vez★==W== Pero bueno, cuando te jubiles, tendrás todo el tiempo libre del mundo.
+0110 [Tú] | La jubilación, ¿eh?...
+0111 [Mistique] | ¡Deja de andar en las nubes y agárrate fuerte!==W== ¡Vamos directo a Mirage! ★
+0112 [Tú] | ¡Espera!==W== ¡No puedes acelerar a fondo desde el principio!==W== ¡Aaaaaaah...!
+0113 [Narración] | ==Off==Creí que esta rutina tranquila duraría para siempre.
+0114 [Narración] | ==Off==Pero lo que había hecho terminó por desatar una tormenta.
+0115 [Tú] | ¿Q-qué?==W== ¿Una Trekker de fuera del desierto acribilló el bar Eureka con un Cetro de la Muerte? ¿Y le dio a Benito?
+0116 [Myrsha] | Sí... Solo tiene un rasguño. Nada grave.==W== Tenemos detenida a la Trekker,==W== pero no tenemos idea de dónde salió ese Cetro.
+0117 [Tú] | ¿No era de los que vendimos?
+0118 [Myrsha] | Eso es lo raro.==W== Para empezar, se ve completamente distinto. Es más débil que los nuestros y tiene un accesorio extraño en el cañón. Casi no hace ruido al disparar.
+0119 [Tú] | ¿Qué está pasando...?
+0120 [Hazana] | Jefe, Albedo acaba de comunicarse conmigo. Quiere que vayamos a Emor. Dice que es urgente.
+0121 [Tú] | ...¿Albedo?==W== Entendido. Vámonos.
+0122 [Allie] | ¿Ya te vas, Jefe?==W== Quédate a cenar con los niños. Lo estaban esperando con muchas ganas.
+0123 [Tú] | Lo siento, Allie. Surgió algo urgente. Tendré que saltarme la cena.
+0124 [Allie] | Si no te puedes quedar, al menos llévate un poco de pan para el camino.==W== Tienes que comer bien, por muy ocupado que estés, ¿me oíste?
+0125 [Tú] | Te oí.==W== Hazme un favor y dile a todos en el Gremio de la Nueva Estrella que volveré pronto. Que no se preocupen.
+0126 [Narración] | Pero después de escuchar la verdad de boca de Albedo... por fin comprendí la gravedad de la situación. Era mucho más profunda de lo que imaginaba.
+0127 [Tú] | ¡¿Angie escapó?!
+0128 [Albedo] | Así es. Después de que inundara el mercado con Cetros de la Muerte, los senadores corporativos se sintieron amenazados. De inmediato formaron equipos para descifrar las plegarias de deseo.
+0129 [Albedo] | Pero la tasa de éxito de sus plegarias obtenidas por ingeniería inversa era demasiado baja, y el costo para quienes pedían los deseos, demasiado alto. Nunca llegaron a nada.
+0130 [Albedo] | Entonces, hace dos meses, atacaron la prisión donde tenían a Angie. Escapó durante la fuga masiva. Desde entonces apareció un grupo misterioso que está inundando el mercado negro con Cetros nuevos.
+0131 [Tú] | ¿Me estás diciendo...==W== que Angie reconstruyó el Comité de Salvación, perfeccionó la plegaria e hizo que los deseos funcionaran?
+0132 [Albedo] | Hay más.==W== Willow, continúa tú.
+0133 [Willow] | Últimamente, decenas de gremios han desaparecido sin dejar rastro. Sospecho que los secuestraron y los obligaron a pedir deseos. Y esos son solo los que conocemos. No rastreamos a los gremios que llevan menos de un mes desaparecidos, así que la cifra real podría ser mucho mayor.
+0134 [Hazana] | Aunque nos mires a nosotras, no vas a encontrar nada. No tocamos trabajos que no dejan ganancia.
+0135 [Myrsha] | Sí, la culpa es de ustedes por no vigilar a sus prisioneros.
+0136 [Tú] | Hazana, Myrsha, ya basta.==W== Yo fui quien empezó todo el lío de los Cetros.==W== Esto es mi responsabilidad.
+0137 [Albedo] | No estamos culpando a nadie. Al contrario...==W== Invitamos hoy al Jefe para confiarle la investigación.
+0138 [Albedo] | Naturalmente, el Imperio de la Gracia le dará todo su respaldo.==W== ¿Greyhorn?
+0139 [Greyhorn] | Lista.
+0140 [Albedo] | Greyhorn dirigirá a su equipo como apoyo, y nosotros cubriremos todos los gastos.==W== Si necesita cualquier otra cosa, todos los recursos del Imperio de la Gracia están a su disposición.
+0141 [Narración] | ==Off==Año 998 del Calendario Monolítico, Nueva Orelia
+0142 [Tú] | Greyhorn, ¿otra vez están en lo mismo allá afuera?
+0143 [Greyhorn] | Sí.==W== Dos pandillas están destrozando las calles con Cetros de la Muerte. Ya nadie se atreve a salir después de que oscurece.
+0144 [Greyhorn] | Tenemos que aguantar tres días más.==W== Ya identificamos a los senadores corporativos que financian la red de contrabando.==W== Van a celebrar una reunión en la Víspera de las Nieves. Los atraparemos a todos de una vez.
+0145 [Greyhorn] | También encontramos un nombre conocido en la lista de invitados.==W== Angie. Llevamos un año siguiéndole la pista, y va a estar ahí.
+0146 [Tú] | Buen trabajo, Greyhorn.==W== ¿Dónde están Hazana y Myrsha?
+0147 [Greyhorn] | Caímos en un señuelo hace un rato. Los Escorpiones están divididos entre Puerto Jilguero y Geminia.
+0148 [Greyhorn] | Los refuerzos de los Árbitros del Ocaso y los Centinelas del Alba acaban de salir de Emor. Ninguno de los dos escuadrones llegará a tiempo.
+0149 [Tú] | Nos falta gente.==W== ¿Puedes llamar a la Guardia Imperial local?
+0150 [Greyhorn] | Lo siento.==W== Nuestras bajas de este último año han sido demasiado graves... El gran capitán ordenó una retirada total de la operación.
+0151 [Tú] | ¿Retirada? Entonces, ¿por qué tú...?
+0152 [Greyhorn] | La Guardia Imperial es una empresa que pone el Dorra por delante.==W== Pero hay cosas que a nuestros caballeros les importan más que el dinero.
+0153 [Greyhorn] | Has estado cruzando el continente para mantener la paz.==W== Hasta que el último criminal enfrente la justicia, estaré personalmente a tus órdenes.
+0154 [Greyhorn] | Para eso se fundó la Guardia. Y yo necesito expiar mis errores.
+0155 [Tú] | ¿Errores?==W== No creí que alguien tan apegado a las reglas como tú se equivocara nunca.
+0156 [Greyhorn] | Me equivoqué.==W== Seguí las órdenes del gran capitán y ayudé a Angie a darte caza.
+0157 [Greyhorn] | Al verte vender Cetros de la Muerte en aquel entonces, incluso sospeché que de verdad eras el legendario Tirano. Pero...
+0158 [Greyhorn] | Angie me hizo ver las cosas. Me dijo que yo no te entendía, ni entendía cómo acabaría este mundo.
+0159 [Greyhorn] | En ese momento, sus palabras no tenían sentido para mí.==W== Pero, después de trabajar a tu lado, creo que por fin lo entiendo.
+0160 [Tú] | ¿Cómo así?
+0161 [Greyhorn] | Angie y tú son iguales.==W== Los dos arriesgarían todo por este mundo, por los demás...
+0162 [Greyhorn] | ...y hacen cosas que todos los demás consideran una locura. Ingratas. Incluso heréticas.
+0163 [Tú] | Iguales, ¿eh?==W== Tal vez tengas razón. Estoy haciendo exactamente lo mismo que ella. La única diferencia es que cambiamos de bando.
+0164 [Tú] | Sé que ya es demasiado tarde. Pero aún desearía haber encontrado otra forma de detenerla, en lugar de esparcir esos Cetros...
+0165 [Tú] | Mantuve a salvo a mis amigos. Mirage incluso prosperó gracias a eso. Pero tuvo un precio, y todos los demás lo pagaron.==W== No soy distinto de ti, Greyhorn. Los dos intentamos enmendar nuestros errores.
+0166 [Tú] | ...Perdón, concentrémonos.==W== Ahora mismo nos falta muchísima gente. ¿Se te ocurre alguna táctica?
+0167 [Greyhorn] | Yo no me preocuparía por eso. Por suerte, tus amigas ya están aquí.
+0168 [Tú] | ¿Mis amigas?
+0169 [Noya] | ¡Vamos, ==PLAYER_NAME==, no nos dejes fuera! ¿Vas a resolver esto con Angie sin nosotras? ¿Cómo pudiste?
+0170 [Tú] | ¡¿Noya?!==W== ¿Iris y Amber también están aquí?==W== ¿Cómo encontraron este lugar...?
+0171 [Iris] | Fácil.==W== Ubicamos la ciudad con más tráfico de Cetros. La corazonada de Noya redujo la zona de búsqueda.==W== Amber exploró el resto.
+0172 [Amber] | Siempre podemos encontrarte.
+0173 [Tú] | Son las mejores...==W== Pero hoy no se trata solo de Angie.==W== Nos enfrentamos a toda una mafia armada con Cetros de la Muerte.
+0174 [Iris] | Lo suponíamos.==W== Hemos estado perfeccionando hechizos defensivos de alta resistencia justo para este momento. Ni las balas de los Cetros podrán atravesarlos.
+0175 [Amber] | Va a doler. Pero no moriremos.
+0176 [Noya] | ¡Ah! ¡Casi se me olvida!==W== Necesitamos que nos hagas un pequeño favor.
+0177 [Tú] | ¿Cuál?
+0178 [Iris] | Tienes que guardarle el secreto a la tía Allie...==W== Digo, a mamá... De que hoy vamos a pelear contigo. No puede enterarse.
+0179 [Amber] | No queremos que mamá se preocupe.
+0180 [Tú] | ¿Hola, Allie?==W== Me encontré con Noya y las demás. No te preocupes, están en la logística de retaguardia.==W== Están perfectamente a salvo, lejos del peligro.
+0181 [Allie] | ¿Eh? Espera... ¿Qué fue ese ruido?==W== Sonó como un disparo de Cetro de la Muerte...
+0182 [Tú] | ¡Ah, no, para nada!==W== Estamos en Cangwu. Ya casi es Año Nuevo, ¡son petardos de los Loong!
+0183 [Allie] | Qué alivio...==W== Jefe, ¿puedo pedirte un favor?
+0184 [Tú] | Claro. Si está en mis manos, dímelo.
+0185 [Allie] | Gracias.==W== Por favor...==W== tráeme a esas niñas de vuelta sanas y salvas.
+0186 [Narración] | ==Off==Tres días después.
+0187 [Greyhorn] | Jefe,==W== convirtieron el interior de esa casa de enfrente en un almacén enorme.==W== Los senadores y Angie están reunidos adentro.
+0188 [Tú] | Entendido.==W== Este es el plan. Greyhorn, toma a tu equipo y ataquen la puerta principal para atraer su fuego.==W== El Gremio de la Nueva Estrella y yo usaremos los tejados para flanquearlos.==W==
+0189 [Tú] | ¿Todos listos?==W== ¡En marcha!
+0190 [Tú] | Uf. Logramos subir.
+0191 [Noya] | ¡Vaya, ==PLAYER_NAME==, ahora eres mucho más ágil!
+0192 [Tú] | Mi manejo de la espada también mejoró. Practico todos los días la técnica que me enseñaste. Ya voy en mil tajos diarios.
+0193 [Amber] | Angie. Allá abajo.==W==
+0194 [United Harvest Senator] | Este viaje valió la pena. Pensar que por fin contemplaríamos a Lady Angie en persona.
+0195 [Fashionably Dressed Lady] | Lo sé, estaba hecha un manojo de nervios al venir. Pensé que ese espantoso Jefe o la Guardia Imperial podrían rastrearnos...==W== Pero asistir a esta reunión fue definitivamente la decisión correcta.
+0196 [Fashionably Dressed Lady] | Además, aunque las cosas salgan mal, con Lady Angie al mando, ¿de qué hay que preocuparse?
+0197 [Armored Representative] | Cuide su lengua, señora.==W== La Guardia Imperial retiró a sus fuerzas. Greyhorn, su comandante, está actuando completamente por su cuenta.==W==
+0198 [Strong and Vigorous Trekker] | ¿Ah, sí? ¿La Guardia Imperial también quiere una tajada del negocio de los Cetros?
+0199 [Armored Representative] | Hmph. No nos interesa venderlos en lo más mínimo.==W== Solo queremos una muestra de cada lote nuevo para probar en campo nuestra armadura antibalas.
+0200 [Armored Representative] | ¿Tenemos un trato, Lady Angie?==W== Acepte esto, y la Guardia Imperial con gusto les facilitará las cosas a todos los presentes...
+0201 [Joseph] | Je. Dejemos los tratos aparte para después. Los reuní aquí para trazar nuestro rumbo para el próximo año.
+0202 [Joseph] | Ejem. Primer punto del día.==W== Para montar una empresa fachada en regla para la venta de Cetros, primero necesitamos un Sello de la Gracia.
+0203 [Strong and Vigorous Trekker] | ¡Je! ¡Así se habla! ¡Me encantan los tipos que van directo al grano!
+0204 [Joseph] | Volvernos una empresa implica mover un volumen considerable. Señor Colston, ¿su gente puede mantener el suministro de Trekkers?
+0205 [Strong and Vigorous Trekker] | Tranquilo. Puedo traer a todos los Trekkers que necesites. Cuando los deseos les borren la memoria, los tiramos en los campos de trabajo.
+0206 [Fashionably Dressed Lady] | Hmph. Con el monopolio de los Cetros y la nueva armadura de la Guardia, esos campesinos no tendrán ninguna oportunidad. Se acabaron los sucios ataques sorpresa de la chusma.
+0207 [United Harvest Senator] | Cuando eso pase, la sede de Cosecha Unida podrá formar un nuevo ejército y recuperar el control de Cosecha Unida Philae.
+0208 [United Harvest Senator] | ¡Quiero ver a Matilda de rodillas, suplicando mi perdón!
+0209 [United Harvest Senator] | Lady Angie, ¿cómo va a repartir el suministro del próximo trimestre?==W== ¡La facción de Nueva Orelia puede mover diez mil, no, veinte mil unidades!
+0210 [Joseph] | Increíble... ¿Quién nos interrumpe en un momento como este? ¿No ordené que se cerrara este lugar?
+0211 [Voice at the Door] | ¡Perdón por la espera! ¡Les habla Pizzas Gato Negro♪!==W== ¡Llegaron sus diez pizzas gigantes de piña con salchicha! ¡Cómanselas antes de que se enfríen!
+0212 [Strong and Vigorous Trekker] | ¿Pizza? ¡Je! ¿Pizza calientita con este frío? ¡Ustedes sí que saben organizar una reunión!
+0213 [United Harvest Senator] | ¡¿Piña y salchicha en una pizza?! ¡Puaj, ¿qué clase de abominación blasfema es esta?!
+0214 [Joseph] | ...Esperen. ¿Dónde están los guardias?
+0215 [Greyhorn] | ¡Guardia Imperial!==W== ¡Manos en la cabeza y al suelo! ¡Que nadie se mueva!
+0216 [Joseph] | Maldición.==W== Acaben con ellos.
+0217 [Amber] | Vamos.
+0218 [Noya] | ¡Dependen demasiado de esos Cetros! ¡Tienen la espalda totalmente descubierta!
+0219 [Iris] | Congelar...
+0220 [Joseph] | ¡¿Q-qué?! El gatillo está congelado...
+0221 [Joseph] | ¡Maldición, no puedo jalarlo!
+0222 [Greyhorn] | Jefe, sospechosos asegurados.==W== Pero Angie se ve rara.
+0223 [Tú] | Angie no ha dicho ni una palabra desde que empezó la reunión.
+0224 [Opción] | (Levantarle la capa)
+0225 [Tú] | ¡¿Angie?!
+0226 [Iris] | No es Angie. Solo está disfrazada de ella... ¡¿Y está completamente ida?!
+0227 [Greyhorn] | Joseph. Explica esto.
+0228 [Joseph] | Je...==W== ¡Bwajajajaja!==W== ¿De verdad creyeron que Angie era la que mandaba? ¿Que ella dirigía nuestro negocio de Cetros?
+0229 [Joseph] | Idiotas. Basura sin cerebro.==W== ¡Yo mismo descifré la plegaria del Cetro! ¡Por fin lo demostré!==W== ¡Mi investigación es tan buena como la de cualquiera!
+0230 [Joseph] | En cuanto a la Angie que esperaban, sí le pedimos que se uniera.==W== Pero insistió en investigar los Monolitos sola y desapareció el mismo día que escapó.==W== Je. A estas alturas seguro está muerta en algún Monolito. Así que no nos culpen por usar su nombre.
+0231 [Greyhorn] | Escoria despreciable...==W== ¿Las vidas humanas no significan nada para ti?
+0232 [???] | Jejeje... ¿De verdad pueden darse el lujo de preocuparse por los demás ahora?
+0233 [Amber] | Jefe. En la mesa. Un teléfono. Hay una llamada en curso.
+0234 [Tú] | ¿Hola? ¿Quién habla?
+0235 [Lady Gray] | Lady Gray. ¿Ese nombre te suena, Jefe?
+0236 [Tú] | ¡¿Lady Gray?!
+0237 [Lady Gray] | Jugaste bien en Philae. Lo admito.==W== Pero solo perdí porque Darcia dejó que su devoción ciega nublara su juicio.
+0238 [Lady Gray] | Si ella no hubiera intervenido, no habría quedado de ustedes ni lo suficiente para enterrar.
+0239 [Tú] | El negocio de los Cetros.==W== ¿Tú lo has estado dirigiendo todo este tiempo?
+0240 [Lady Gray] | Ja. Le atinaste a la primera.==W== La gente de Nueva Orelia sacó a Angie de la prisión con la esperanza de que se encargara del negocio. Ella lo despreció.==W== Así que yo tomé el mando.
+0241 [Lady Gray] | Mira a tu alrededor, Jefe.
+0242 [Noya] | Jefe, estas cajas están llenas de polvo gris oscuro. ¡Es el explosivo de las balas de los Cetros!
+0243 [Greyhorn] | Colocaron matrices explosivas en las puertas principales. Todas las salidas están completamente selladas...==W== Caímos directo en una trampa.
+0244 [Tú] | ¡Lady Gray, tus inversionistas siguen aquí dentro! ¿Vas a dejarlos morir?
+0245 [Lady Gray] | No se puede activar una trampa sin carnada.
+0246 [Joseph] | ¡Lady Gray! ¡¿Qué significa esto?! ¡¿También nos engañaste a nosotros?!
+0247 [Lady Gray] | Ay, pobre Joseph... Por favor, entiéndelo.==W== No haría esto si tuviera otra opción.==W== Pero descansa tranquilo. Cuidaré muy bien de tu familia.
+0248 [Joseph] | Tú... víbora venenosa...
+0249 [Iris] | ¡Jefe, encontramos una escotilla de emergencia! ¡Por aquí, rápido!
+0250 [Noya] | Puede que haya una emboscada esperándonos afuera. ¡Cuídense las espaldas!
+0251 [Greyhorn] | Déjenme ir al frente. Mi armadura es antibalas.==W== Aunque me den unos cuantos disparos...
+0252 [Greyhorn] | Esperen. ¿Esto... esto son escudos? ¿Por qué están apilados aquí?
+0253 [Tú] | ¿Esos son...?==W== ¡Todos, al suelo!==W==

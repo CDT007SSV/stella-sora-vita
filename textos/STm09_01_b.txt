@@ -1,10 +1,10 @@
-# Capítulo 9 · Un Monolito demasiado lejano · 1B · Foreknowledge
+# Capítulo 9 · Un Monolito demasiado lejano · 1B · Presciencia
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Arbiter in White | Arbiter in White
-N:Committee Elite | Committee Elite
+N:Arbiter in White | Árbitro de blanco
+N:Committee Elite | Élite del Comité
 N:avg1_103 | Amber
 N:avg1_108 | Kasimira
 N:avg1_111 | Iris
@@ -20,128 +20,128 @@ N:avg1_150 | Laru
 N:avg1_156 | Nazuna
 N:avg1_163 | Greyhorn
 N:avg1_1996 | Noya
-N:avg2_947 | Sentinel of Dawn Soldier
-N:avg2_948 | Sentinel of Dawn Soldier
-N:avg2_967 | White Cat Mercenary
-N:avg2_968 | White Cat Mercenary
+N:avg2_947 | Soldado de los Centinelas del Alba
+N:avg2_948 | Soldado de los Centinelas del Alba
+N:avg2_967 | Mercenario Gato Blanco
+N:avg2_968 | Mercenario Gato Blanco
 N:avg3_100 | Sylar
 N:avg3_1304 | Chaton
-N:avg3_1307 | Sentinel of Dawn Soldier M
-N:avg3_1308 | Sentinel of Dawn Soldier F
-N:avg3_1309 | Sentinel of Dawn Soldier F
-N:avg3_1311 | SaiLa F
+N:avg3_1307 | Soldado de los Centinelas del Alba
+N:avg3_1308 | Soldado de los Centinelas del Alba
+N:avg3_1309 | Soldado de los Centinelas del Alba
+N:avg3_1311 | SaiLa
 N:avg3_152 | Bastelina
 N:avg3_216 | Gunhild
-N:avg3_217 | No. 160
+N:avg3_217 | N.º 160
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | Foreknowledge
-0003 [Intro] | After returning from the White Room, you decide to use your information advantage to capture Angie and end the battle. Claiming Laru provided the intel, you reveal the enemy setup and lay out a flawless plan…
-0004 [Lugar y hora] | 13:50, Nebula Month 18th, Mirage, Deep in the Mine
-0005 [Kasimira] | You actually have a plan to beat them? But... We don't even know their numbers.
-0006 [1] | I know. Let's walk and talk. I'll brief you on the way.
-0007 [1] | Right now, the Salvation Committee has three hundred combatants stationed outside the city, split into three companies.
-0008 [1] | Greyhorn leads the First Company. She excels at defensive magic and tracking, but she's with Imperial Guard, not the Committee. She's just following orders, so she might not fight to the death.
-0009 [1] | Right now, her unit is trapped in the mineshaft that Fuyuka and Nazuna destroyed. It'll take them twenty minutes to dig out.
-0010 [1] | No. 160 leads the Second Company. She's an arbiter from the Dusk Arbiters.==W== If she takes damage, she triggers a unique time-stop magic.
-0011 [Nazuka] | Time stop?==W== That's impossible. Not even a grand mage can stop time.
-0012 [Tú] | It's not a true time stop.==W== Her magic just locks whatever is in her line of sight==W== for a short window.
-0013 [Tú] | But to her victims, it feels like time has stopped.==W== Also, she can eavesdrop on nearby Heartlink frequencies.
-0014 [Nazuna] | She can actually eavesdrop on Heartlinks... Firenze was right... That explains why she kept us off our phones the entire trip.
-0015 [1] | Exactly. Because you stayed off the grid, the Committee has no idea you're at Mirage. We still have the element of surprise.
-0016 [1] | Let me repeat. No Heartlinks until 160 is out of the picture.
-0017 [Amber] | No phones.==W== Not fun.
-0018 [1] | Gunhild leads the Third Company. She uses a long-range magic cannon called Piercer.==W== Once it grazes you, it locks on,==W== even tracks you through walls.
-0019 [Chaton] | Whoa, isn't that just a video game cheat code?==W== Wallhacks are completely unfair!
-0020 [Tú] | Piercer has a precise range of five kilometers. Her unit is locked down on the dunes outside Mirage.
-0021 [Kasimira] | Five kilometers... Our best White Cat rifles barely cover a fifth of that.
-0022 [Benito] | They can snipe us from afar, but we can't shoot back. We're sitting ducks.
-0023 [Tú] | On top of that, the Desert Scorpions and the local Imperial Guard will eventually cave to Committee pressure and switch sides.
-0024 [Tú] | So we aren't just fighting three hundred enemies.==W== We're looking at a thousand.
-0025 [Iris] | Even with the White Cats, we only have sixty to seventy people. Sixty or seventy against a thousand…
-0026 [Fuyuka] | Th-That's an overwhelming disadvantage, Master. Should we just run instead?
-0027 [Tú] | Last time,==W== I lacked intel. I played it safe, avoided combat,==W== and focused entirely on getting everyone out.
-0028 [Tú] | Angie stalled me for too long,==W== and we were crushed by their sheer numbers and resources.
-0029 [Tú] | But now, the entire board is visible to me.
-0030 [Tú] | I need to exploit this information gap. If we leverage everyone's strengths for a lightning strike, the Committee won't even have time to react.
-0031 [Tú] | If it were just us, making a safe retreat would be easy. Once we disappear into the desert, not even a thousand troops could find us.
-0032 [Tú] | But we have the kids at Daisy Orphanage to consider, not to mention the innocent citizens of Mirage caught in the crossfire.
-0033 [Tú] | We can't safely evacuate that many people this quickly.==W== The fastest way to crush the Committee ...==W== is to capture Angie.
-0034 [Chitose] | Seizing the general's head from amidst her grand army. I understand, my ==SEX11==.
-0035 [Nazuka] | Hold on. "Capture Angie to end the fight" makes logical sense, sure, but ... how exactly do we pull that off?
-0036 [Nazuka] | And another thing, how do you know all this? It's almost like...
-0037 [Chitose] | Like a grand tactician from the war chronicle. You calculate the fate of the world without ever leaving your tent.
-0038 [Tú] | Uh... Valid point. How do I explain this...? I can't tell them about the White Room.
-0039 [Tú] | Ah, I've got it!==W== Bastelina, Laru, I'm borrowing your names for a second.
-0040 [Tú] | I have allies inside the Salvation Committee. They've been secretly feeding me this intel.
-0041 [Nazuka] | Ah, that explains it. Good to know there are still some reasonable people over there.
-0042 [Tú] | To my companions and our friends in the White Cats... Would you trust me and follow my lead?
-0043 [Tú] | I promise to keep everyone safe. We'll capture Angie, and we'll end this.
-0044 [Nazuka] | It's a little late to be asking that...==W== Boss, we're with you. Just give the order.
-0045 [Kasimira] | You've done so much for the White Cats. We're absolutely on your side.
-0046 [Kasimira] | Besides, this is our home. Protecting Mirage is our duty.
-0047 [Kasimira] | Boss, the mine exit is dead ahead. It leads straight up to the main street in central Mirage.
-0048 [Tú] | Good. We set our ambush here.
-0049 [Tú] | No. 160 is marching the Second Company toward Daisy Orphanage. They want to force us into a head-on fight, teeing us up for their snipers.
-0050 [Allie] | The orphanage?! They target children too? Boss, please let me go back. I have to protect them.
-0051 [Tú] | Easy, Allie. We keep the fighting away from the orphanage. We're going to crush them right here on this street.
-0052 [Tú] | Noya, Iris, Amber. As soon as the Second Company shows up, you three charge in as the vanguard. Break their formation, but ignore the arbiter leading them.
-0053 [Iris] | U-Us? Back in Philae, it took a whole group of us to capture ten Committee members. W-We can't beat an entire company!
-0054 [Tú] | Your goal isn't to win. It's to protect yourselves and draw their fire.
-0055 [Tú] | Nazuka, Chitose, Kasimira. While Noya's team distracts them, you flank from behind and wipe them out.
-0056 [Tú] | I've marked their probable positions on this paper.
-0057 [Kasimira] | This is incredibly detailed... Boss, your informants are impressive.
-0058 [Tú] | Noya, you dictate the timing. Give the signal, and everyone charges.
-0059 [Noya] | Got it! Sounds super easy. We'll pincer them and go bam, bam, bam! Send 'em all flying!
-0060 [Tú] | One more thing, Noya. When you reach the end of the main street, be very careful. Don't take the main road. Take this alleyway instead.
-0061 [Noya] | Why?
-0062 [Tú] | The main road is a sniper lane. Please be careful. Don't get hurt.
-0063 [Noya] | You're so tense, ==PLAYER_NAME==! Relax, my intuition is top-notch. Even if a sniper aims at me, I can just whoosh right out of the way!
-0064 [Tú] | Next, Nazuna, head to the mine exit near the First Company. Prioritize your safety, but look for someone in a Grace Imperium uniform carrying a spear and an absurd amount of fries.
-0065 [Tú] | Her name is Laru, she's my informant. Tell her I've received her intel. Then, ask her to pass a message to Angie: tell her I want to negotiate, and she can pick the location.
-0066 [Nazuna] | N-Negotiate? Angie literally wants you dead! Why would you negotiate with her?
-0067 [Tú] | I'm just using myself as bait to lure her out.
-0068 [Tú] | Fuyuka, lie in ambush in this section of the mineshaft. The second I ping you on the Heartlink, smash upward and shatter the ground above you.
-0069 [Fuyuka] | Understood, Master. I'll give it everything I've got!
-0070 [Tú] | Benito, please take the other White Cats and organize the evacuation of Mirage's citizens. Keep an eye on the kids from Daisy Orphanage, too.
-0071 [Benito] | Mm, leave it to me.
-0072 [Tú] | And finally, the wielder of dark power, the great Chaton.
-0073 [Chaton] | Oh? Have you finally come to appreciate my dark power? State your mission. I shall see it done.
-0074 [Tú] | Sneak out of Mirage and reach the dunes five kilometers out. You need to be there before 14:30.
-0075 [Tú] | My companions are out there. A blue-haired girl on a skateboard named Minova, a ninja master of disguise named Otoha, and a woman with a sword and shield named Kaede.
-0076 [Tú] | Get in touch with any of them. Tell them not to alert the enemy. They need to call off their attack on the Third Company and wait for backup.
-0077 [Chaton] | Understood! The great Chaton is off!
-0078 [1] | Nazuka, Nazuna. Once your tasks are done, head straight for those dunes.
-0079 [1] | I'm going to bring a long-overdue "rain" down on those dunes.
-0080 [Lugar y hora] | 14:50, Nebula Month 18th, Mirage, Unnamed Street
-0081 [Vita] | You made quite the commander just now, Tyrant. Like the true supreme commander of the Tyrant Army.
-0082 [Vita] | I do have one question, though. Would you mind enlightening me?
-0083 [Tú] | We have a minute before the fighting starts. What's on your mind?
-0084 [Vita] | Despite how it ended, your escape plan in the previous timeline was a strategic success.
-0085 [Vita] | If Lady Noya hadn't been injured... If you had just tweaked your route a fraction, you could have made it out.
-0086 [Vita] | If it were up to me, I would have just adjusted the original plan to ensure everyone got out safely.
-0087 [Vita] | Why scrap the whole thing just to capture Angie?
-0088 [Tú] | Because running won't stop them. The Salvation Committee has the numbers and supplies to hunt us into the Monolith or the desert. And Firenze and the Dusk Arbiters are still over a day away.
-0089 [Tú] | I can't protect everyone while we're on the run.
-0090 [Vita] | True, but you can always try again, can't you? There has to be a timeline where everyone makes it out unharmed.
-0091 [Tú] | And watch my closest friends die right in front of me ... over and over again?
-0092 [Tú] | Heh. That's literal torture. I'm not strong enough for that.
-0093 [Tú] | Besides. Even if the Angie in this timeline hasn't done anything yet, I still want her to pay. Pay for what she did to Noya!
-0094 [Vita] | I understand. You truly are a great Tyrant who deeply values your people.
-0095 [Vita] | I will leave you to it, then. I wish you a resounding victory.
-0096 [Allie] | Boss, who are you talking to?
-0097 [Tú] | Ah, nothing. Just ... thinking out loud to my phone.
-0098 [Allie] | Are we really just going to wait here? Shouldn't we check on the kids at the orphanage first?
-0099 [Tú] | Trust me. That arbiter will show up here alone any minute now. When she does, I need you to knock her out without hurting her.
-0100 [Lugar y hora] | 14:10, Nebula Month 18th, Mirage, Main Street
-0101 [Committee Elite] | Move! Daisy Orphanage is right at the end of the block!
-0102 [Noya] | Stop right there.
-0103 [Committee Elite] | One of the Tyrant's lackeys. Lady Angie only asked for the Tyrant's head, but if you're that eager to die, we'll gladly oblige!
-0104 [Iris] | Wearing Sentinel of Dawn uniforms, yet all you do is bully children.
-0105 [Amber] | Despicable!
-0106 [Arbiter in White] | Don't let them stop you. Get to the orphanage!==W== Pin them down and have the rest flank around!
-0107 [Noya] | Iris, Amber! Charge in and break their formation!
-0108 [Iris] | Got it. Defensive magic is ready.
-0109 [Amber] | Boss's plan won't fail!
+0001 [Intro] | Acto uno
+0002 [Intro] | Presciencia
+0003 [Intro] | Tras volver de la Sala Blanca, decides aprovechar tu ventaja de información para capturar a Angie y terminar la batalla. Diciendo que Laru te dio la información, revelas cómo están desplegados los enemigos y trazas un plan impecable...
+0004 [Lugar y hora] | 13:50, 18.º del mes de Nebula, Mirage, en lo profundo de la mina
+0005 [Kasimira] | ¿De verdad tienes un plan para vencerlos? Pero... ni siquiera sabemos cuántos son.
+0006 [1] | Yo sí. Hablemos mientras caminamos. Les explico en el camino.
+0007 [1] | Ahora mismo, el Comité de Salvación tiene trescientos combatientes apostados fuera de la ciudad, divididos en tres compañías.
+0008 [1] | Greyhorn dirige la Primera Compañía. Destaca en magia defensiva y en rastreo, pero pertenece a la Guardia Imperial, no al Comité. Solo sigue órdenes, así que quizá no pelee hasta la muerte.
+0009 [1] | Ahora mismo, su unidad está atrapada en el pozo de la mina que Fuyuka y Nazuna destruyeron. Les tomará veinte minutos salir excavando.
+0010 [1] | N.º 160 dirige la Segunda Compañía. Es una árbitra de los Árbitros del Ocaso.==W== Si recibe daño, activa una magia única que detiene el tiempo.
+0011 [Nazuka] | ¿Detener el tiempo?==W== Eso es imposible. Ni siquiera un gran mago puede detener el tiempo.
+0012 [Tú] | No lo detiene de verdad.==W== Su magia solo inmoviliza todo lo que está en su línea de visión==W== durante un breve lapso.
+0013 [Tú] | Pero para sus víctimas, se siente como si el tiempo se hubiera detenido.==W== Además, puede espiar las frecuencias de Heartlink cercanas.
+0014 [Nazuna] | Así que de verdad puede espiar los Heartlinks... Firenze tenía razón... Eso explica por qué nos tuvo sin teléfonos todo el viaje.
+0015 [1] | Exacto. Como se mantuvieron desconectadas, el Comité no tiene idea de que están en Mirage. Todavía tenemos el factor sorpresa.
+0016 [1] | Lo repito: nada de Heartlinks hasta que 160 esté fuera de combate.
+0017 [Amber] | Sin teléfonos.==W== Qué aburrido.
+0018 [1] | Gunhild dirige la Tercera Compañía. Usa un cañón mágico de largo alcance llamado Perforador.==W== En cuanto te roza, te fija como objetivo,==W== e incluso te rastrea a través de las paredes.
+0019 [Chaton] | Guau, ¿eso no es como un código de trampa de videojuego?==W== ¡Ver a través de las paredes es súper injusto!
+0020 [Tú] | El Perforador tiene un alcance preciso de cinco kilómetros. Su unidad está atrincherada en las dunas a las afueras de Mirage.
+0021 [Kasimira] | Cinco kilómetros... Nuestros mejores rifles de los Gatos Blancos apenas cubren una quinta parte de eso.
+0022 [Benito] | Pueden dispararnos desde lejos, pero nosotros no podemos responder. Somos blancos fáciles.
+0023 [Tú] | Además, los Escorpiones del Desierto y la Guardia Imperial local acabarán cediendo ante la presión del Comité y se cambiarán de bando.
+0024 [Tú] | Así que no solo peleamos contra trescientos enemigos.==W== Estamos hablando de mil.
+0025 [Iris] | Incluso con los Gatos Blancos, solo somos sesenta o setenta personas. Sesenta o setenta contra mil...
+0026 [Fuyuka] | E-esa es una desventaja abrumadora, Maestro. ¿No sería mejor huir?
+0027 [Tú] | La última vez==W== me faltaba información. Fui a lo seguro, evité el combate==W== y me concentré por completo en sacar a todos.
+0028 [Tú] | Angie me entretuvo demasiado tiempo,==W== y nos aplastaron con su enorme cantidad de gente y recursos.
+0029 [Tú] | Pero ahora puedo ver todo el tablero.
+0030 [Tú] | Tengo que aprovechar esta ventaja de información. Si usamos las fortalezas de todos en un ataque relámpago, el Comité ni siquiera tendrá tiempo de reaccionar.
+0031 [Tú] | Si fuéramos solo nosotros, retirarnos sin riesgo sería fácil. En cuanto desapareciéramos en el desierto, ni mil soldados podrían encontrarnos.
+0032 [Tú] | Pero tenemos que pensar en los niños del Orfanato Margarita, y ni hablar de los ciudadanos inocentes de Mirage atrapados en el fuego cruzado.
+0033 [Tú] | No podemos evacuar a tanta gente de forma segura tan rápido.==W== La forma más rápida de aplastar al Comité...==W== es capturar a Angie.
+0034 [Chitose] | Tomar la cabeza del general en medio de su gran ejército. Entiendo, mi ==SEX11==.
+0035 [Nazuka] | Espera. «Capturar a Angie para terminar la pelea» tiene lógica, claro, pero... ¿cómo vamos a lograrlo exactamente?
+0036 [Nazuka] | Y otra cosa: ¿cómo sabes todo esto? Es casi como si...
+0037 [Chitose] | Como un gran estratega de las crónicas de guerra. Calcula el destino del mundo sin salir siquiera de su tienda.
+0038 [Tú] | Eh... Buen punto. ¿Cómo explico esto...? No puedo hablarles de la Sala Blanca.
+0039 [Tú] | ¡Ah, ya sé!==W== Bastelina, Laru, les tomo prestados sus nombres un segundo.
+0040 [Tú] | Tengo aliados dentro del Comité de Salvación. Me han estado pasando esta información en secreto.
+0041 [Nazuka] | Ah, eso lo explica. Qué bueno saber que todavía hay gente razonable allá.
+0042 [Tú] | A mis compañeras y a nuestros amigos de los Gatos Blancos... ¿Confiarían en mí y seguirían mis órdenes?
+0043 [Tú] | Prometo mantener a todos a salvo. Capturaremos a Angie y terminaremos con esto.
+0044 [Nazuka] | Es un poco tarde para preguntar eso...==W== Jefe, estamos contigo. Solo da la orden.
+0045 [Kasimira] | Has hecho mucho por los Gatos Blancos. Estamos totalmente de tu lado.
+0046 [Kasimira] | Además, este es nuestro hogar. Proteger Mirage es nuestro deber.
+0047 [Kasimira] | Jefe, la salida de la mina está justo adelante. Sube directo a la calle principal del centro de Mirage.
+0048 [Tú] | Bien. Aquí montaremos nuestra emboscada.
+0049 [Tú] | N.º 160 está llevando a la Segunda Compañía hacia el Orfanato Margarita. Quieren obligarnos a una pelea frontal y dejarnos a tiro de sus francotiradores.
+0050 [Allie] | ¡¿El orfanato?! ¿También atacan a los niños? Jefe, por favor, déjame regresar. Tengo que protegerlos.
+0051 [Tú] | Tranquila, Allie. Vamos a mantener la pelea lejos del orfanato. Los aplastaremos aquí mismo, en esta calle.
+0052 [Tú] | Noya, Iris, Amber. En cuanto aparezca la Segunda Compañía, ustedes tres cargan como vanguardia. Rompan su formación, pero ignoren a la árbitra que los dirige.
+0053 [Iris] | ¿N-nosotras? En Philae necesitamos a todo un grupo para capturar a diez miembros del Comité. ¡N-no podemos vencer a toda una compañía!
+0054 [Tú] | Su objetivo no es ganar. Es protegerse y atraer su fuego.
+0055 [Tú] | Nazuka, Chitose, Kasimira. Mientras el equipo de Noya los distrae, ustedes los rodean por detrás y acaban con ellos.
+0056 [Tú] | Marqué sus posiciones probables en este papel.
+0057 [Kasimira] | Esto es increíblemente detallado... Jefe, tus informantes son impresionantes.
+0058 [Tú] | Noya, tú marcas el ritmo. Da la señal y todos cargan.
+0059 [Noya] | ¡Entendido! Suena facilísimo. ¡Los atrapamos entre dos frentes y pum, pum, pum! ¡Que salgan todos volando!
+0060 [Tú] | Una cosa más, Noya. Cuando llegues al final de la calle principal, ten mucho cuidado. No tomes la avenida. Ve por este callejón.
+0061 [Noya] | ¿Por qué?
+0062 [Tú] | La avenida está en la mira de un francotirador. Por favor, ten cuidado. Que no te lastimen.
+0063 [Noya] | ¡Qué tenso estás, ==PLAYER_NAME==! Relájate, mi intuición es de primera. Aunque un francotirador me apunte, ¡me quito del camino en un zas!
+0064 [Tú] | Ahora, Nazuna, ve a la salida de la mina cerca de la Primera Compañía. Prioriza tu seguridad, pero busca a alguien con uniforme del Imperio de la Gracia que lleve una lanza y una cantidad absurda de papas fritas.
+0065 [Tú] | Se llama Laru y es mi informante. Dile que recibí su información. Luego, pídele que le pase un mensaje a Angie: dile que quiero negociar y que ella puede elegir el lugar.
+0066 [Nazuna] | ¡¿N-negociar?! ¡Angie literalmente te quiere muerto! ¿Por qué negociarías con ella?
+0067 [Tú] | Solo me estoy usando como cebo para hacerla salir.
+0068 [Tú] | Fuyuka, embóscate en esta sección del pozo de la mina. En cuanto te avise por Heartlink, golpea hacia arriba y haz pedazos el suelo que tienes encima.
+0069 [Fuyuka] | Entendido, Maestro. ¡Daré todo lo que tengo!
+0070 [Tú] | Benito, por favor, llévate a los demás Gatos Blancos y organiza la evacuación de los ciudadanos de Mirage. Vigila también a los niños del Orfanato Margarita.
+0071 [Benito] | Mm, déjamelo a mí.
+0072 [Tú] | Y por último, la portadora del poder oscuro, la gran Chaton.
+0073 [Chaton] | ¿Oh? ¿Por fin aprecias mi poder oscuro? Dime tu misión. La cumpliré.
+0074 [Tú] | Sal a escondidas de Mirage y llega a las dunas que están a cinco kilómetros. Tienes que estar ahí antes de las 14:30.
+0075 [Tú] | Mis compañeras están allá. Una chica de cabello azul en patineta llamada Minova, una ninja maestra del disfraz llamada Otoha y una mujer con espada y escudo llamada Kaede.
+0076 [Tú] | Ponte en contacto con cualquiera de ellas. Diles que no alerten al enemigo. Tienen que suspender su ataque contra la Tercera Compañía y esperar refuerzos.
+0077 [Chaton] | ¡Entendido! ¡La gran Chaton parte ya!
+0078 [1] | Nazuka, Nazuna. En cuanto terminen sus tareas, vayan directo a esas dunas.
+0079 [1] | Voy a hacer caer sobre esas dunas una «lluvia» que se ha hecho esperar demasiado.
+0080 [Lugar y hora] | 14:50, 18.º del mes de Nebula, Mirage, Calle sin nombre
+0081 [Vita] | Hace un momento fuiste todo un comandante, Tirano. Como el verdadero comandante supremo del Ejército del Tirano.
+0082 [Vita] | Aunque tengo una pregunta. ¿Te importaría iluminarme?
+0083 [Tú] | Tenemos un minuto antes de que empiece la pelea. ¿Qué tienes en mente?
+0084 [Vita] | A pesar de cómo terminó, tu plan de escape en la línea temporal anterior fue un éxito estratégico.
+0085 [Vita] | Si Lady Noya no hubiera resultado herida... Si hubieras ajustado tu ruta apenas un poco, habrías logrado salir.
+0086 [Vita] | Si dependiera de mí, simplemente habría ajustado el plan original para asegurarme de que todos salieran a salvo.
+0087 [Vita] | ¿Por qué descartarlo todo solo para capturar a Angie?
+0088 [Tú] | Porque huir no los va a detener. El Comité de Salvación tiene la gente y los suministros para perseguirnos hasta el Monolito o el desierto. Y Firenze y los Árbitros del Ocaso todavía están a más de un día de distancia.
+0089 [Tú] | No puedo proteger a todos mientras huimos.
+0090 [Vita] | Es cierto, pero siempre puedes volver a intentarlo, ¿no? Tiene que haber una línea temporal en la que todos salgan ilesos.
+0091 [Tú] | ¿Y ver morir a mis amigos más cercanos frente a mí... una y otra vez?
+0092 [Tú] | Je. Eso es tortura, literalmente. No soy tan fuerte.
+0093 [Tú] | Además, aunque la Angie de esta línea temporal todavía no haya hecho nada, igual quiero que pague. ¡Que pague por lo que le hizo a Noya!
+0094 [Vita] | Entiendo. Eres de verdad un gran Tirano que valora profundamente a su gente.
+0095 [Vita] | Entonces te dejo en lo tuyo. Te deseo una victoria rotunda.
+0096 [Allie] | Jefe, ¿con quién hablas?
+0097 [Tú] | Ah, con nadie. Solo... estaba pensando en voz alta con mi teléfono.
+0098 [Allie] | ¿De verdad solo vamos a esperar aquí? ¿No deberíamos ir primero a ver cómo están los niños del orfanato?
+0099 [Tú] | Confía en mí. Esa árbitra va a aparecer aquí sola en cualquier momento. Cuando llegue, necesito que la dejes inconsciente sin lastimarla.
+0100 [Lugar y hora] | 14:10, 18.º del mes de Nebula, Mirage, Calle principal
+0101 [Committee Elite] | ¡Muévanse! ¡El Orfanato Margarita está justo al final de la cuadra!
+0102 [Noya] | Alto ahí.
+0103 [Committee Elite] | Una de las lacayas del Tirano. Lady Angie solo pidió la cabeza del Tirano, pero si tienes tantas ganas de morir, ¡con gusto te complaceremos!
+0104 [Iris] | Llevan uniformes de los Centinelas del Alba, y lo único que hacen es abusar de niños.
+0105 [Amber] | ¡Despreciables!
+0106 [Arbiter in White] | No dejen que los detengan. ¡Lleguen al orfanato!==W== ¡Inmovilícenlos y que el resto los rodee por los flancos!
+0107 [Noya] | ¡Iris, Amber! ¡Carguen y rompan su formación!
+0108 [Iris] | Entendido. La magia defensiva está lista.
+0109 [Amber] | ¡El plan del Jefe no va a fallar!

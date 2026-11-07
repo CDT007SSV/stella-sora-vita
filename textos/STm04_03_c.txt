@@ -1,4 +1,4 @@
-# Capítulo 4 · Más allá del sueño · 3B · Camping
+# Capítulo 4 · Más allá del sueño · 3B · Acampada
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -10,159 +10,159 @@ N:avg1_133 | Nazuka
 N:avg1_134 | Fuyuka
 N:avg1_156 | Nazuna
 N:avg1_1994 | Nazuka
-N:avg2_976 | Associated Tree
+N:avg2_976 | Árbol Asociado
 N:avg3_100 | Sylar
 N:avg3_132 | Kaede
 N:avg3_135 | Claire
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | Camping
-0003 [Intro] | You keep your promise, but follow closely behind Nazuka with the guild. The reluctant Nazuka has no choice but to admit that she planned to defeat the Garden of Parasite alone. You use the cabin in the forest to create a "decoy."
-0004 [Lugar y hora] | 19:00, Pluvia Month 27th, Outside Philae, Deep in the Forest
-0005 [Nazuka] | Why do you keep following me around?
-0006 [Nazuna] | Pfft, we're not following you... We're here for Boss.
-0007 [Noya] | Boss wanted to take a walk, and you just happened to be going the same way.
-0008 [Nazuka] | Oh really?==W== Even when I purposely doubled back on my path?
-0009 [Tú] | I was simply in the mood to take a different path at that exact moment.
-0010 [Nazuka] | ==PLAYER_NAME==, I mean, Boss, I need a word with you.
-0011 [Nazuka] | What happened to your promise? Didn't we have an agreement?
-0012 [Tú] | Well, technically, I never agreed to anything,==W== and even if I had, I haven't broken any promises.
-0013 [Tú] | I haven't told them anything about that.
-0014 [Nazuka] | Then why are you and they following me around?
-0015 [Tú] | To help you take down the Garden of Parasite, of course.
-0016 [Nazuka] | I never said I was going to do that...
-0017 [Tú] | However, you're heading away from where the hunting squad was stationed.
-0018 [Nazuka] | Ugh, I guess that cover story was too sloppy...
-0019 [Tú] | The issue isn't the cover story. I figured someone as thorough as you would reach out to Claire first to verify the squad's entry and exit numbers—
-0020 [Tú] | —instead of going searching on foot.
-0021 [Nazuka] | You saw right through me...==W== I really am terrible at lying.
-0022 [Tú] | True. Honestly, the Nazuka I met in the pit felt more approachable.==W== Have you considered showing that side more often?
-0023 [Nazuka] | I won't budge on this. The person you see now is the real me.
-0024 [Nazuka] | Sorry for lying. You must know by now that checking on the hunting squad wasn't my real reason for leaving.
-0025 [Nazuka] | Actually, before we parted ways, I had already confirmed with Claire that all squad members had made it out safely.
-0026 [Tú] | Talks about not budging, but still apologizes sincerely. Classic Nazuka.
-0027 [Nazuna] | Then why are you heading into the woods after dark?==W== It can't just be "taking a walk," right?
-0028 [Nazuka] | My plan is to take down the Garden of Parasite by myself.
-0029 [Nazuna] | By yourself? Are you kidding me? Taking down the Garden of Parasite at night?
-0030 [Nazuka] | Correct. This presents the perfect chance.
-0031 [Nazuka] | Today's encounter helped me locate its position. That thing has surely exhausted much of its magic.
-0032 [Nazuka] | The primary advantage is that all Trekkers have withdrawn, so we won't have to worry about casualties.
-0033 [Nazuka] | Besides, we're too close to the campsite. Should the Garden of Parasite slip in and spread magical mist, we'd be in big trouble. It must be handled promptly.
-0034 [Kaede] | Even so, fighting at night is way too dangerous.
-0035 [Nazuka] | I acknowledge the risk. Which is precisely why I've set up a bait for it.
-0036 [Lugar y hora] | 19:30, Pluvia Month 27th, Outside Philae, Deep in the Forest
-0037 [Narración] | Light flickers to life in the humble forest cabin as we conceal ourselves in the shadows nearby, gripping our weapons tightly.
-0038 [Tú] | So the cabin's the bait?==W== But from what I know, most monsters avoid fire. Wouldn't the lights drive them away?
-0039 [Nazuna] | For the majority of monsters, sure, but the Garden of Parasite is different. Nazuka's plan is really clever.
-0040 [Kaede] | The Garden of Parasite was originally a monster unique to Philae—the mimic vine, a carnivorous plant that preys on insects. Even though its form has changed, its habits remain the same.
-0041 [Iris] | As its name suggests, it's highly skilled at mimicking nearby creatures. If its food becomes scarce, it'll crawl to somewhere with more resources.
-0042 [Amber] | That actually sounds kind of cute.
-0043 [Nazuka] | While that may have been the case with regular mimic vines, this Garden of Parasite has grown beyond natural constraints. It has no more natural predators.
-0044 [Kaede] | What's most concerning is that its defensive magic mist has evolved into a hunting tool.
-0045 [Noya] | Hunting?==W== Ah, now I get it! A lit cabin means potential prey, and that prey is...
-0046 [Tú] | Humans, I bet.
-0047 [Nazuka] | Exactly. The Garden of Parasite should be nearby. This ambush position gives us our best chance at capturing it.
-0048 [Noya] | The Garden of Parasite... How tough could it be, I'm curious~
-0049 [Nazuka] | Wh-Why do you sound so excited about this?
-0050 [Tú] | That's typical Noya.
-0051 [Nazuka] | Hmm... Not sure I follow,==W== but anyway... Will you all help me with this?
+0001 [Intro] | Acto tres
+0002 [Intro] | Acampada
+0003 [Intro] | Cumples tu promesa, pero sigues de cerca a Nazuka junto con el gremio. A Nazuka, muy a su pesar, no le queda más remedio que admitir que planeaba derrotar sola al Jardín Parásito. Usan la cabaña del bosque para crear un «señuelo».
+0004 [Lugar y hora] | 19:00, 27.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0005 [Nazuka] | ¿Por qué me siguen a todas partes?
+0006 [Nazuna] | Pff, no te estamos siguiendo... Venimos por el Jefe.
+0007 [Noya] | El Jefe quería dar un paseo, y tú simplemente ibas por el mismo camino.
+0008 [Nazuka] | ¿Ah, sí?==W== ¿Aunque me regresé por mi propio camino a propósito?
+0009 [Tú] | Justo en ese momento me dieron ganas de tomar otro camino.
+0010 [Nazuka] | ==PLAYER_NAME==, digo, Jefe, necesito hablar contigo.
+0011 [Nazuka] | ¿Qué pasó con tu promesa? ¿No teníamos un acuerdo?
+0012 [Tú] | Bueno, técnicamente nunca acepté nada,==W== y aunque lo hubiera hecho, no he roto ninguna promesa.
+0013 [Tú] | No les he dicho nada sobre eso.
+0014 [Nazuka] | Entonces, ¿por qué tú y ellas me vienen siguiendo?
+0015 [Tú] | Para ayudarte a acabar con el Jardín Parásito, por supuesto.
+0016 [Nazuka] | Nunca dije que fuera a hacer eso...
+0017 [Tú] | Sin embargo, te estás alejando de donde estaba apostado el escuadrón de caza.
+0018 [Nazuka] | Ugh, supongo que esa excusa era demasiado chafa...
+0019 [Tú] | El problema no es la excusa. Pensé que alguien tan meticulosa como tú le escribiría primero a Claire para verificar cuántos miembros del escuadrón entraron y salieron...
+0020 [Tú] | ...en lugar de ir a buscarlos a pie.
+0021 [Nazuka] | Me descubriste por completo...==W== De verdad soy pésima para mentir.
+0022 [Tú] | Es cierto. Sinceramente, la Nazuka que conocí en el foso se sentía más accesible.==W== ¿Has pensado en mostrar más seguido ese lado tuyo?
+0023 [Nazuka] | En esto no voy a ceder. La persona que ves ahora es mi verdadero yo.
+0024 [Nazuka] | Perdón por mentir. A estas alturas ya debes saber que revisar al escuadrón de caza no era la verdadera razón por la que me fui.
+0025 [Nazuka] | De hecho, antes de separarnos, ya había confirmado con Claire que todos los miembros del escuadrón habían salido a salvo.
+0026 [Tú] | Habla de no ceder, pero aun así se disculpa con sinceridad. Típico de Nazuka.
+0027 [Nazuna] | Entonces, ¿por qué te metes al bosque después del anochecer?==W== No puede ser solo para «dar un paseo», ¿verdad?
+0028 [Nazuka] | Mi plan es acabar yo sola con el Jardín Parásito.
+0029 [Nazuna] | ¿Tú sola? ¿Estás bromeando? ¿Acabar con el Jardín Parásito de noche?
+0030 [Nazuka] | Así es. Es la oportunidad perfecta.
+0031 [Nazuka] | El encuentro de hoy me ayudó a ubicar su posición. Seguro que esa cosa gastó buena parte de su magia.
+0032 [Nazuka] | La principal ventaja es que todos los Trekkers ya se retiraron, así que no tendremos que preocuparnos por bajas.
+0033 [Nazuka] | Además, estamos demasiado cerca del campamento. Si el Jardín Parásito se cuela y esparce su niebla mágica, estaremos en serios problemas. Hay que encargarse de él cuanto antes.
+0034 [Kaede] | Aun así, pelear de noche es demasiado peligroso.
+0035 [Nazuka] | Reconozco el riesgo. Precisamente por eso le preparé un señuelo.
+0036 [Lugar y hora] | 19:30, 27.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0037 [Narración] | Una luz se enciende y parpadea en la humilde cabaña del bosque mientras nos ocultamos en las sombras cercanas, aferrando con fuerza nuestras armas.
+0038 [Tú] | ¿Entonces la cabaña es el señuelo?==W== Pero hasta donde sé, la mayoría de los monstruos evitan el fuego. ¿La luz no los ahuyentaría?
+0039 [Nazuna] | A la mayoría de los monstruos, sí, pero el Jardín Parásito es distinto. El plan de Nazuka es muy astuto.
+0040 [Kaede] | El Jardín Parásito originalmente era un monstruo exclusivo de Philae: la enredadera mimética, una planta carnívora que caza insectos. Aunque su forma cambió, sus hábitos siguen siendo los mismos.
+0041 [Iris] | Como su nombre lo indica, es muy hábil para imitar a las criaturas cercanas. Si su alimento escasea, se arrastra hasta algún lugar con más recursos.
+0042 [Amber] | Eso suena hasta tierno.
+0043 [Nazuka] | Quizá así sea con las enredaderas miméticas comunes, pero este Jardín Parásito creció más allá de sus límites naturales. Ya no tiene depredadores naturales.
+0044 [Kaede] | Lo más preocupante es que su niebla mágica defensiva evolucionó hasta volverse una herramienta de caza.
+0045 [Noya] | ¿De caza?==W== ¡Ah, ya entiendo! Una cabaña iluminada significa una posible presa, y esa presa es...
+0046 [Tú] | Los humanos, apuesto.
+0047 [Nazuka] | Exacto. El Jardín Parásito debe estar cerca. Esta posición de emboscada nos da la mejor oportunidad de atraparlo.
+0048 [Noya] | El Jardín Parásito... Me da curiosidad qué tan duro será~
+0049 [Nazuka] | ¿P-por qué suenas tan emocionada con esto?
+0050 [Tú] | Así es Noya.
+0051 [Nazuka] | Mmm... No estoy segura de entender,==W== pero en fin... ¿Me ayudarán con esto?
 0052 [Nazuna] | ...
-0053 [Nazuna] | Umm...
-0054 [Nazuna] | I missed what you said. Mind saying it again?
+0053 [Nazuna] | Mmm...
+0054 [Nazuna] | No oí lo que dijiste. ¿Lo repites?
 0055 [Nazuka] | ...
-0056 [Nazuka] | Someone needs to stand guard tonight. I'll take the first shift.
-0057 [Nazuna] | Alright, I'm gonna hit the hay now, if you don't mind.
-0058 [Nazuka] | Go ahead.
-0059 [Narración] | With a resigned expression, Nazuka conjures a green wind and springs up to the highest branch.
-0060 [Lugar y hora] |  22:30, Pluvia Month 27th, Outside Philae, Deep in the Forest
-0061 [Tú] | Nazuka, you still up?
-0062 [Nazuka] | Boss? Isn't it a bit early for a shift change?
-0063 [Tú] | Not here to change shift. I just couldn't sleep and was taking a walk.
-0064 [Nazuka] | Honestly... You should try to rest even if you can't sleep. Combat could break out at any moment.
-0065 [Tú] | A little chat counts as a break, too.
-0066 [Tú] | By the way... You did properly ask everyone for help earlier.==W== I was expecting you to be way more stubborn about it.
-0067 [Nazuka] | T-That wasn't asking for help!==W== Nazuna and the others would've followed anyway, even if I refused. Better to take charge than let you all run wild... Pure tactical decision.
-0068 [Nazuka] | But what about you—you haven't told them, have you?
-0069 [Tú] | No, don't worry. Although I think...
-0070 [Nazuka] | Have they figured something out?
-0071 [Tú] | They might appear carefree, but Nazuna and the others are pretty sharp. How far do you think you can keep it from them with how strange you're acting?
-0072 [Nazuka] | I'm keeping it secret for as long as I can.==W== Let's focus on the Garden of Parasite for now.
-0073 [Nazuka] | From the fight against the Spirit of Brutality, you don't seem to be good with magic. When the Garden of Parasite arrives, I'll hide you somewhere safe. Is that okay?
-0074 [Tú] | I'm not just bad at it. I literally can't use any magic.
-0075 [Narración] | A few minutes later.
-0076 [Nazuka] | "Magic immunity"... I've never heard of such a thing.
-0077 [Tú] | So yeah, I can't use magic, and magic doesn't work on me either.
-0078 [Tú] | Of course, if the Garden of Parasite's mist is physical or biological in nature, I'm still vulnerable. But since it's magic, I'm totally immune.
-0079 [Tú] | No need to worry too much about me. Actually, I'm probably the most qualified person to command operations in the mist.
-0080 [Nazuka] | And who exactly was unconscious in that hole earlier?
-0081 [Tú] | That was from a heavy physical impact—
-0082 [Nazuka] | Hmph... Excuse me for being so heavy then.
-0083 [Tú] | No leading questions!!
-0084 [Nazuka] | Setting that aside... You've got quite the edge when facing the Garden of Parasite.
-0085 [Nazuka] | Wait a second—if you're immune to magic, what happens if I use magic to enchant a wooden arrow and shoot it at you?
-0086 [Tú] | Then I'd get hurt.==W== Well, I'm only immune to magic effects themselves, not the actual physical impact of the arrow.
-0087 [Nazuka] | I see.==W== Come closer.
-0088 [Tú] | Why? You're not thinking of ... trying out some new moves on me, right?
-0089 [Nazuka] | What kind of person do you think I am? I'm just testing some magic—
-0090 [Nazuka] | O' leaves that with the wild wind play—
-0091 [Nazuka] | —to an armor of sturdiness, I pray!
-0092 [Tú] | What is this...?
-0093 [Nazuka] | Perfect. This will do the trick.
-0094 [Nazuka] | I've created a basic wind armor for you. At minimum, it'll help you take a few hits from the Garden of Parasite.
-0095 [Tú] | How are you able to use magic on me?
-0096 [Iris] | Could I==W== ... borrow your hand for a second?
-0097 [Tú] | Like this?
-0098 [Tú] | I remember Iris casting a magic like this before, though I wasn't aware of my special nature at the time...
-0099 [Nazuka] | It's simple. I wasn't using the magic on you.
-0100 [Nazuka] | I may not be able to use it on you, but applying Wind Armor to your clothes works fine. Unless your outfit is immune to magic, too? Either way, you'll get the same protection.
-0101 [Nazuka] | This should keep you safe from flying debris in battle.
-0102 [Tú] | So the magic Iris cast on me back then worked the same way.
-0103 [Tú] | That's really clever. With magic skills like yours, you could easily land a job at any major company.
-0104 [Nazuka] | Maybe you're right, but all I ever wanted was to be a Trekker.
-0105 [Tú] | How come?
-0106 [Nazuka] | Because...
-0107 [Nazuka] | I've ... always admired that statue— the one of the hero who sacrificed everything to save others.
-0108 [Nazuna] | (yawn) Time for my watch.
-0109 [Nazuna] | Ah, it's you, Boss. Then I'll leave you guys to it and catch some more Z's.
-0110 [Nazuka] | Get back here. No slacking off!
-0111 [Narración] | Nazuna ducks under the branch and slips away, with Nazuka chasing after her, leaving me standing there lost in thought.
-0112 [Tú] | The hero... Does Nazuka mean the One-Armed Saint?
-0113 [Lugar y hora] | 07:30, Pluvia Month 28th, Outside Philae, Deep in the Forest
-0114 [Narración] | As dawn breaks after a peaceful night, Nazuka's bait finally attracts the "big fish" she has been waiting for.
-0115 [Narración] | A purple mist envelops the cabin. Under its cover, the Garden of Parasite slips inside, and the lights go out.
-0116 [Narración] | However, the unexpected appearance of the hunting squad throws a wrench in Nazuka's plan.
-0117 [Claire] | Nazuka, why are you acting alone? We've all been worried sick about you.
-0118 [Nazuka] | You know as well as I do about the Garden of Parasite's magic mist, Claire. The fewer people involved in this operation, the better.
-0119 [Claire] | Even so, you should have stayed with the hunting squad, not them... And don't forget, you're still the captain.
-0120 [Claire] | Alright, thanks to everyone's hard work last night. The hunting squad will take it from here.
-0121 [Nazuna] | Whoa, don't mess this up! The Garden of Parasite's a tough one to deal with. Have you ever prepped for this kind of fight?
-0122 [Claire] | Of course we have. Our training was personally overseen by Nazuka.
-0123 [Claire] | Well, Nazuka?
-0124 [Nazuka] | I... I think I should fight it by myself. It's the most effective way to minimize the magic mist's influence.
-0125 [Kaede] | Still... Working solo is way too risky, even for you, Nazuka.
-0126 [Nazuka] | This debate is going in circles.==W== Let's have Boss make the call.
-0127 [Nazuka] | No objections to that, I assume? Back during the Spirit of Brutality hunt, ==SEX== proved to be a top-notch commander.
-0128 [Nazuna] | Fine by me if Boss decides, but please let Petal Bloom join.
-0129 [Claire] | Fine then.==W== Boss is the CEO after all, the highest-ranking person here. I'll respect your decision.
-0130 [Tú] | This is quite a responsibility to suddenly drop in my lap...
-0131 [Opción] | Let Nazuka fight alone
-0132 [Opción] | Let Petal Bloom fight with Nazuka
-0133 [Opción] | Let everyone do this together
-0134 [Tú] | I should trust Nazuka's judgment on this one. She's already put in an awkward spot.
-0135 [Tú] | Given the nature of the mist, having Nazuka handle this alone might be our best option.
-0136 [Tú] | However, everyone, form a wide circle around the area. Offer ranged support and standby for backup.
-0137 [Nazuka] | Boss, I knew you'd make the right call.
-0138 [Nazuka] | I'm going in.
-0139 [Tú] | I think having Petal Bloom team up with Nazuka is our best bet against the Garden of Parasite.
-0140 [Nazuka] | I can handle this alone...
-0141 [Tú] | You worked great together against the Spirit of Brutality.==W== If you can recreate that synergy, more allies would definitely increase our chances against this monster, wouldn't you agree?
-0142 [Nazuka] | I understand. We'll do it your way, Boss.
-0143 [Fuyuka] | Master, I'll do my best to support Nazuka senpai.
-0144 [Fuyuka] | Petal Bloom, let's do this. We're taking down the Garden of Parasite!
-0145 [Tú] | Let's all charge in together.
-0146 [Tú] | Under my command, we can minimize the mist's influence. Everyone, tap your phones with mine.
-0147 [Nazuka] | Your immunity does make this our best option...==W== But are you absolutely sure about this?
-0148 [Tú] | I want to take the safest approach against a threat this severe. Keeping all of you safe is my top priority.
-0149 [Nazuka] | All right,==W== I trust your judgment.
-0150 [Nazuka] | Everyone, surround the cabin!
+0056 [Nazuka] | Alguien tiene que hacer guardia esta noche. Yo tomo el primer turno.
+0057 [Nazuna] | Bueno, yo ya me voy a dormir, si no te importa.
+0058 [Nazuka] | Adelante.
+0059 [Narración] | Con expresión resignada, Nazuka conjura un viento verde y salta hasta la rama más alta.
+0060 [Lugar y hora] |  22:30, 27.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0061 [Tú] | Nazuka, ¿sigues despierta?
+0062 [Nazuka] | ¿Jefe? ¿No es un poco temprano para el cambio de turno?
+0063 [Tú] | No vengo a cambiar de turno. Es que no podía dormir y salí a caminar.
+0064 [Nazuka] | En serio... Deberías intentar descansar aunque no puedas dormir. El combate podría empezar en cualquier momento.
+0065 [Tú] | Una pequeña plática también cuenta como descanso.
+0066 [Tú] | Por cierto... Hace rato sí les pediste ayuda a todos como se debe.==W== Esperaba que fueras mucho más terca al respecto.
+0067 [Nazuka] | ¡E-eso no fue pedir ayuda!==W== Nazuna y las demás me habrían seguido de todos modos, aunque me negara. Es mejor tomar el mando que dejar que anden por ahí sin control... Fue pura decisión táctica.
+0068 [Nazuka] | Pero ¿y tú? No les has dicho nada, ¿verdad?
+0069 [Tú] | No, no te preocupes. Aunque creo que...
+0070 [Nazuka] | ¿Sospechan algo?
+0071 [Tú] | Puede que parezcan despreocupadas, pero Nazuna y las demás son bastante perspicaces. ¿Hasta cuándo crees que podrás ocultárselo, con lo raro que te estás comportando?
+0072 [Nazuka] | Lo mantendré en secreto todo lo que pueda.==W== Por ahora, concentrémonos en el Jardín Parásito.
+0073 [Nazuka] | Por la pelea contra el Espíritu de la Brutalidad, no parece que se te dé bien la magia. Cuando llegue el Jardín Parásito, te esconderé en un lugar seguro. ¿Te parece bien?
+0074 [Tú] | No es solo que se me dé mal. Literalmente no puedo usar nada de magia.
+0075 [Narración] | Unos minutos después.
+0076 [Nazuka] | «Inmunidad a la magia»... Nunca había oído de algo así.
+0077 [Tú] | Pues sí, no puedo usar magia, y la magia tampoco me afecta.
+0078 [Tú] | Claro, si la niebla del Jardín Parásito fuera de naturaleza física o biológica, seguiría siendo vulnerable. Pero como es magia, soy totalmente inmune.
+0079 [Tú] | No tienes que preocuparte tanto por mí. De hecho, probablemente soy el más indicado para dirigir operaciones dentro de la niebla.
+0080 [Nazuka] | ¿Y quién era exactamente el que estaba inconsciente en ese agujero hace rato?
+0081 [Tú] | Eso fue por un fuerte impacto físico...
+0082 [Nazuka] | Hmph... Pues disculpa por pesar tanto.
+0083 [Tú] | ¡¡Nada de preguntas capciosas!!
+0084 [Nazuka] | Dejando eso de lado... Tienes una buena ventaja contra el Jardín Parásito.
+0085 [Nazuka] | Espera un segundo: si eres inmune a la magia, ¿qué pasa si encanto una flecha de madera con magia y te la disparo?
+0086 [Tú] | Entonces me lastimaría.==W== Bueno, solo soy inmune a los efectos de la magia en sí, no al impacto físico de la flecha.
+0087 [Nazuka] | Ya veo.==W== Acércate.
+0088 [Tú] | ¿Por qué? No estarás pensando en... probar algún movimiento nuevo conmigo, ¿verdad?
+0089 [Nazuka] | ¿Qué clase de persona crees que soy? Solo voy a probar una magia...
+0090 [Nazuka] | Oh, hojas que juegan con el viento salvaje...
+0091 [Nazuka] | ...¡les ruego una armadura de firmeza!
+0092 [Tú] | ¿Qué es esto...?
+0093 [Nazuka] | Perfecto. Con esto bastará.
+0094 [Nazuka] | Te hice una armadura de viento básica. Como mínimo, te ayudará a aguantar unos cuantos golpes del Jardín Parásito.
+0095 [Tú] | ¿Cómo es que puedes usar magia en mí?
+0096 [Iris] | ¿Me==W==... prestas tu mano un segundo?
+0097 [Tú] | ¿Así?
+0098 [Tú] | Recuerdo que Iris lanzó una magia así antes, aunque en ese momento no sabía de mi naturaleza especial...
+0099 [Nazuka] | Es simple. No usé la magia en ti.
+0100 [Nazuka] | Quizá no pueda usarla en ti, pero aplicar Armadura de Viento a tu ropa funciona bien. ¿O también tu ropa es inmune a la magia? De cualquier forma, tendrás la misma protección.
+0101 [Nazuka] | Esto debería protegerte de los escombros que salgan volando en la batalla.
+0102 [Tú] | Así que la magia que Iris me lanzó aquella vez funcionaba igual.
+0103 [Tú] | Es muy ingenioso. Con tus habilidades mágicas, podrías conseguir trabajo fácilmente en cualquier empresa importante.
+0104 [Nazuka] | Quizá tengas razón, pero lo único que siempre quise fue ser Trekker.
+0105 [Tú] | ¿Por qué?
+0106 [Nazuka] | Porque...
+0107 [Nazuka] | Siempre... he admirado esa estatua: la de la heroína que lo sacrificó todo para salvar a los demás.
+0108 [Nazuna] | (Bostezo) Me toca la guardia.
+0109 [Nazuna] | Ah, eres tú, Jefe. Entonces los dejo y me echo otro sueñito.
+0110 [Nazuka] | Regresa aquí. ¡Nada de flojear!
+0111 [Narración] | Nazuna se agacha bajo la rama y se escabulle, con Nazuka persiguiéndola, y yo me quedo ahí, perdido en mis pensamientos.
+0112 [Tú] | La heroína... ¿Nazuka se refiere a la Santa Manca?
+0113 [Lugar y hora] | 07:30, 28.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0114 [Narración] | Al amanecer, tras una noche tranquila, el señuelo de Nazuka por fin atrae al «pez gordo» que estaba esperando.
+0115 [Narración] | Una niebla morada envuelve la cabaña. Bajo su manto, el Jardín Parásito se cuela dentro y las luces se apagan.
+0116 [Narración] | Sin embargo, la aparición inesperada del escuadrón de caza le echa a perder el plan a Nazuka.
+0117 [Claire] | Nazuka, ¿por qué actúas por tu cuenta? Todos estábamos muertos de preocupación por ti.
+0118 [Nazuka] | Sabes tan bien como yo cómo es la niebla mágica del Jardín Parásito, Claire. Entre menos gente participe en esta operación, mejor.
+0119 [Claire] | Aun así, debiste quedarte con el escuadrón de caza, no con ellas... Y no olvides que sigues siendo la capitana.
+0120 [Claire] | Muy bien, gracias a todos por su esfuerzo anoche. El escuadrón de caza se encarga a partir de aquí.
+0121 [Nazuna] | ¡Oye, no lo vayan a arruinar! El Jardín Parásito es difícil de enfrentar. ¿Alguna vez se han preparado para una pelea así?
+0122 [Claire] | Claro que sí. Nuestro entrenamiento lo supervisó Nazuka en persona.
+0123 [Claire] | ¿Verdad, Nazuka?
+0124 [Nazuka] | Yo... creo que debería pelear sola. Es la forma más eficaz de reducir al mínimo la influencia de la niebla mágica.
+0125 [Kaede] | Aun así... Trabajar sola es demasiado arriesgado, incluso para ti, Nazuka.
+0126 [Nazuka] | Esta discusión no lleva a ningún lado.==W== Que decida el Jefe.
+0127 [Nazuka] | Supongo que nadie se opone, ¿verdad? En la cacería del Espíritu de la Brutalidad, ==SEX== demostró ser un comandante de primera.
+0128 [Nazuna] | Por mí está bien si el Jefe decide, pero por favor deja que Petal Bloom participe.
+0129 [Claire] | Está bien.==W== Después de todo, el Jefe es el director ejecutivo, el de mayor rango aquí. Respetaré tu decisión.
+0130 [Tú] | Vaya responsabilidad la que me cae de repente...
+0131 [Opción] | Dejar que Nazuka pelee sola
+0132 [Opción] | Dejar que Petal Bloom pelee con Nazuka
+0133 [Opción] | Hacerlo todos juntos
+0134 [Tú] | En esto debería confiar en el criterio de Nazuka. Ya la pusieron en una situación incómoda.
+0135 [Tú] | Dada la naturaleza de la niebla, dejar que Nazuka se encargue sola quizá sea nuestra mejor opción.
+0136 [Tú] | Sin embargo, todos, formen un círculo amplio alrededor de la zona. Den apoyo a distancia y estén listos para servir de refuerzo.
+0137 [Nazuka] | Jefe, sabía que tomarías la decisión correcta.
+0138 [Nazuka] | Voy a entrar.
+0139 [Tú] | Creo que hacer que Petal Bloom se una a Nazuka es nuestra mejor carta contra el Jardín Parásito.
+0140 [Nazuka] | Puedo encargarme de esto sola...
+0141 [Tú] | Trabajaron muy bien juntas contra el Espíritu de la Brutalidad.==W== Si logran repetir esa sinergia, más aliados sin duda aumentarían nuestras posibilidades contra este monstruo, ¿no crees?
+0142 [Nazuka] | Entiendo. Lo haremos a tu manera, Jefe.
+0143 [Fuyuka] | Maestro, daré lo mejor de mí para apoyar a Nazuka senpai.
+0144 [Fuyuka] | Petal Bloom, a darle. ¡Vamos a acabar con el Jardín Parásito!
+0145 [Tú] | Lancémonos todos juntos.
+0146 [Tú] | Bajo mi mando, podemos reducir al mínimo la influencia de la niebla. Todos, choquen sus teléfonos con el mío.
+0147 [Nazuka] | Tu inmunidad sí hace que esta sea nuestra mejor opción...==W== Pero ¿estás completamente seguro?
+0148 [Tú] | Quiero tomar el camino más seguro contra una amenaza tan grave. Mantenerlas a todas a salvo es mi prioridad.
+0149 [Nazuka] | De acuerdo,==W== confío en tu criterio.
+0150 [Nazuka] | ¡Todos, rodeen la cabaña!

@@ -3,146 +3,146 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Domineering Desert Scorpion | Domineering Desert Scorpion
-N:Energetic Kid | Energetic Kid
-N:Standard Bearer | Standard Bearer
+N:Domineering Desert Scorpion | Escorpión del Desierto dominante
+N:Energetic Kid | Niño enérgico
+N:Standard Bearer | Abanderado
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
 N:avg3_100 | Sylar
-N:avg3_1297 | Desert Scorpion Grunt M
+N:avg3_1297 | Secuaz de los Escorpiones del Desierto
 N:avg3_156 | Guardia Imperial bajito
 N:avg3_170 | Chico del Distrito de las Cenizas
-N:avg3_208 | Desert Scorpion Female Grunt
-N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
+N:avg3_209 | Secuaz de los Escorpiones del Desierto
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | Act Seven
-0002 [Intro] | First Encounter with Mirage
-0003 [Intro] | You share these forgotten memories with Iris, Noya, and Amber. Truth uncovered, your bond runs deeper than ever. Meanwhile, chaos engulfs Mirage as the Desert Scorpions close in on you.
-0004 [Lugar y hora] | 08:00, Nebula Month 7th, Mirage, Lucky Oasis
-0005 [1] | Mmm... Where am I...?==W== Oh, right. We fell asleep once we made it to Mirage last night.
-0006 [Vita] | Good morning, Tyrant. Did you sleep well? Any dreams?
-0007 [Tú] | Morning, Vita. I had a dream. A really long one.
-0008 [Vita] | Tyrant, may tonight's starlight and sweet dreams wash away the exhaustion for you and your companions.
-0009 [Tú] | Wait. You weren't behind that dream, were you?
-0010 [Vita] | I did no such thing, Tyrant. You and your companions agreed to try the Monolith Melody.
-0011 [Tú] | I did,==W== but you told me it was regular sleep music.
-0012 [Vita] | That melody was composed from records inside the Monolith.==W== If the listener resonates with those records, the music can awaken things they have forgotten.
-0013 [Tú] | Forgotten? But I didn't dream about my own past. I dreamt about Iris, Noya, and Amber...==W==
-0014 [Tú] | ... Hold on. Are you saying...==W== I saw their memories? The ones they lost?
-0015 [Vita] | Perhaps yes, perhaps no. The Monolith does hold memories offered by wish-makers, but those records contain more than that.
-0016 [Vita] | Also, my apologies, but this melody was only a trial. You and your companions will forget the dream shortly after waking.
-0017 [Vita] | If you are interested in the Monolith's records, please focus on the system mission "Acquire a Monolith."==W== Once it is accomplished, I will pass on these melodies in a format that allows for repeated resonance.
-0018 [Tú] | So that was the real goal all along. Pushing me to finish the mission.
-0019 [Tú] | Fine. Don't worry about it.==W== As long as it gives me the power to protect everyone, I will get the task done.
-0020 [Vita] | Your command is my will.==W== I will take my leave now. Safe travels, Tyrant.
-0021 [1] | ("Tyrant," huh... If everything Vita just said is true, then I...)==W==
-0022 [Amber] | Morning, Boss.
-0023 [Tú] | Oh, you're up. Morning, Amber.
-0024 [Amber] | Been up for a while. Saw you talking to Vita, so I didn't interrupt. Just messing with my phone.
-0025 [Amber] | Boss, can I ask you something? What was in your dream?
+0001 [Intro] | Acto siete
+0002 [Intro] | Primer encuentro con Mirage
+0003 [Intro] | Compartes estos recuerdos olvidados con Iris, Noya y Amber. Con la verdad al descubierto, su lazo es más profundo que nunca. Mientras tanto, el caos se apodera de Mirage a medida que los Escorpiones del Desierto se acercan a ustedes.
+0004 [Lugar y hora] | 08:00, 7.º del mes de Nebula, Mirage, Lucky Oasis
+0005 [1] | Mmm... ¿Dónde estoy...?==W== Ah, cierto. Anoche nos quedamos dormidos en cuanto llegamos a Mirage.
+0006 [Vita] | Buenos días, Tirano. ¿Durmió bien? ¿Tuvo algún sueño?
+0007 [Tú] | Buenos días, Vita. Sí, tuve un sueño. Uno muy largo.
+0008 [Vita] | Tirano, que la luz de las estrellas y los dulces sueños de esta noche borren el cansancio de usted y sus compañeras.
+0009 [Tú] | Espera. ¿No fuiste tú quien provocó ese sueño, verdad?
+0010 [Vita] | No hice tal cosa, Tirano. Usted y sus compañeras aceptaron probar la Melodía del Monolito.
+0011 [Tú] | Sí,==W== pero me dijiste que era música normal para dormir.
+0012 [Vita] | Esa melodía se compuso a partir de registros que hay dentro del Monolito.==W== Si quien la escucha resuena con esos registros, la música puede despertar cosas que ha olvidado.
+0013 [Tú] | ¿Olvidado? Pero no soñé con mi propio pasado. Soñé con Iris, Noya y Amber...==W==
+0014 [Tú] | ... Un momento. ¿Me estás diciendo que...==W== vi sus recuerdos? ¿Los que perdieron?
+0015 [Vita] | Tal vez sí, tal vez no. El Monolito sí guarda los recuerdos que ofrecen quienes piden deseos, pero esos registros contienen más que eso.
+0016 [Vita] | Además, le pido disculpas, pero esta melodía era solo una prueba. Usted y sus compañeras olvidarán el sueño poco después de despertar.
+0017 [Vita] | Si le interesan los registros del Monolito, concéntrese en la misión del sistema «Adquirir un Monolito».==W== Una vez cumplida, le transmitiré estas melodías en un formato que permita resonar con ellas una y otra vez.
+0018 [Tú] | Así que ese era el verdadero objetivo desde el principio. Presionarme para terminar la misión.
+0019 [Tú] | Está bien. No te preocupes.==W== Mientras me dé el poder para proteger a todos, cumpliré la tarea.
+0020 [Vita] | Su orden es mi voluntad.==W== Me retiro. Buen viaje, Tirano.
+0021 [1] | («Tirano», ¿eh...? Si todo lo que Vita acaba de decir es cierto, entonces yo...)==W==
+0022 [Amber] | Buenos días, Jefe.
+0023 [Tú] | Ah, ya despertaste. Buenos días, Amber.
+0024 [Amber] | Desde hace rato. Te vi hablando con Vita, así que no interrumpí. Estaba jugando con mi teléfono.
+0025 [Amber] | Jefe, ¿te puedo preguntar algo? ¿Qué soñaste?
 0026 [Amber] | 
-0027 [Tú] | I dreamt about you, Iris, and Noya as kids. Things like wanting to get jobs, reading on the Waterway bridge...
-0028 [Tú] | And later on. Iris looking for jobs, Noya building Loxy, you going treasure hunting...
-0029 [Tú] | Whoa, hey!==W== Amber, that's too close!
-0030 [Amber] | Boss. Can you tell us the whole dream?==W== In detail.
-0031 [Lugar y hora] | 08:20, Nebula Month 7th, Mirage, Lucky Oasis
-0032 [Noya] | Yawn... Mornin'...==W==
-0033 [Iris] | Noya, can you try to stay still in your sleep? Your leg was crushing me.
-0034 [Noya] | Hey, blame Amber. She had me in a bear hug from behind.
-0035 [Iris] | Well she hugs me too, and you don't see me crushing anyone.
-0036 [Amber] | Everyone feels different.==W== I grab whoever my mood finds fitting.
-0037 [Amber] | Noya is warm.==W== Iris is squishy.==W==
-0038 [Iris] | S-Squishy?!==W== Did I put on weight?!==W== Okay, listen up.==W== From now on, no one touches me in their sleep without my explicit permission.
-0039 [Amber] | Boss==W== is hard.
-0040 [Tú] | H-Hard?!
-0041 [Amber] | Too bony.
-0042 [Noya] | See? You need to eat more, ==PLAYER_NAME==.
-0043 [Tú] | Hold on, we're getting derailed.==W== Amber, weren't you asking about my dream?
-0044 [Amber] | We all need to know.==W== That's why I woke everyone up.==W== Do you remember your dreams last night?
-0045 [Noya] | Dreams? I know I dreamt about something,==W== but it slipped my mind the second I woke up.
-0046 [Iris] | ... W-Why the sudden subject change?==W== I don't remember the details either...==W== But I woke up feeling pretty good. Must have been a nice one.
-0047 [Tú] | Let me ask you something else. How much do you actually remember about the orphanage? Or what you did right after leaving, before you built Loxy?
-0048 [Amber] | The orphanage is a blur. I only remember Aunt Allie's face.
-0049 [Noya] | I've got bits and pieces of what happened after we left. Like scavenging parts for Loxy.
-0050 [Noya] | But we were all doing our own thing back then. I draw a complete blank on how we actually teamed up to form the New Star Guild.
-0051 [Iris] | The Monolith probably took those memories as payment for our wishes. The books say they feed on intense emotions...==W== And looking back, that was a nerve-wracking period of our lives.
-0052 [Iris] | Rumor has it that if your prayer is even slightly vague, the Monolith takes extra memories as a toll.==W== I guess that's the price we had to pay for being rookies.
-0053 [Noya] | Thank goodness we have Iris.==W== If it were up to me, I'd have botched every single wish and wiped my own brain by now.
-0054 [Tú] | So none of you remember your childhood.==W== Which means...==W== That dream I had... Those were your memories?
-0055 [Tú] | Vita said I'd forget the dream as soon as I woke up, but my magic-immunity must have blocked the memory wipe.
-0056 [Tú] | As for what I dreamt about...==W==
-0057 [Narración] | Half an hour later.
-0058 [Iris] | No way! That explains why I missed the mark by one point. The Monolith took my memory of the last exam when I made my wish.
-0059 [Amber] | We should have made the wish instead.
-0060 [Noya] | Then you could've gone to Grace Light Academy.
-0061 [Iris] | What are you talking about?==W== If I went off to college, I wouldn't be here traveling with you!
-0062 [Iris] | Besides, failing that exam is how I ended up at Boss Accord. My dream of becoming a corporate employee came true anyway!==W== Missing that test must have been a sign from the God of Grace.
-0063 [Tú] | You... You're all taking this surprisingly well. I thought ... you'd be way more upset or freaked out after hearing what you lost.
-0064 [Noya] | Hehe, I guess it is a little scary when you think about it.==W== But whether we laugh or cry, we're facing the same reality.==W== We might as well laugh and cheer up.
-0065 [Iris] | The second we chose to be Trekkers, we accepted the risk of losing our memories. Honestly, as long as the Monolith doesn't make me forget where I stashed my Dorra, I'm fine.
-0066 [Amber] | It already did. You found Dorra in your boot once and thought you hit the jackpot. You were thrilled.
-0067 [Iris] | Hey, drop it! Anyway, we have a soul pact with you now. Our wishes don't cost us memories anymore, so we have nothing to worry about.
-0068 [Noya] | Oh, right.==W== ==PLAYER_NAME==, give me your hand.
-0069 [Tú] | Huh? What for?
-0070 [Noya] | You two, get in here.
-0071 [Noya] | Because from here on out, life isn't an exam for three anymore.==W== It's an exam for all four of us.
-0072 [Iris] | I know we've said something similar before, but we mean it.==W== We're glad to have you with us, Boss.
-0073 [Amber] | Talk to me more.
-0074 [Tú] | Yeah. Together, we'll write our own answers.
-0075 [Noya] | Exactly! Everyone's awake, so let's get moving. Mirage, here we come!
-0076 [Lugar y hora] | 09:00, Nebula Month 7th, Mirage, Unnamed Street
-0077 [Noya] | It was too dark to see much when we got here... This is Mirage? Looks like a typical desert city. Why call it the Edge of the World?
-0078 [Iris] | Most cities in Nova are built around Monoliths.==W== Mirage doesn't have one. There aren't any in the entire region.
-0079 [Iris] | That's why it's known as the land beyond Monoliths—==W==the Edge of the World.
-0080 [Amber] | But why build a city==W== where there's no Monolith?
-0081 [Iris] | There has to be a reason. I asked some veteran Trekkers about it, but they either didn't know or clammed up.
-0082 [Tú] | Makes sense. The people here must be desperate for a Monolith. Finding one out in the desert would be huge news.
-0083 [Tú] | But with no Monolith, no industry, and no trade... How do people survive?
-0084 [Energetic Kid] | Hey! Are you Trekkers from outside the desert?
-0085 [Tú] | Sure are, little buddy.
-0086 [Energetic Kid] | Whoa!==W== We haven't seen outsiders besides the Imperial Guard in ages!==W== What brings you to Mirage?==W== I can show you around if you want!
-0087 [Iris] | Do you know anywhere more crowded? I'd like to ask around.
-0088 [Energetic Kid] | Yeah! Follow me!
-0089 [Noya] | ==PLAYER_NAME==, you go ahead. I'll follow in Loxy. Amber, hit me up once you get there.==W==
-0090 [Amber] | Got it.
-0091 [Energetic Kid] | Our city looks pretty barren, but we have our ways to keep food on the table.
-0092 [Iris] | Like desert plants? Or rare goods?
-0093 [Energetic Kid] | You're smart! Spot on. We have the sweetest dates in all Nova, and we have crystal diamond ore.
-0094 [Energetic Kid] | But the dates never make it out of the desert, and the mines shut down ages ago.
-0095 [Energetic Kid] | So, as kids, we make our living off that.
-0096 [Tú] | Wait... Are those the Desert Scorpions who tried to kill me at the banquet?!
-0097 [Iris] | Looks like a street stall. Are they selling ... Artifacts?==W== Is that how you keep food on the table?
-0098 [Energetic Kid] | Look,==W== a knight's buying one now.
-0099 [Domineering Desert Scorpion] | You lot==W== buying or what?
-0100 [Standard Bearer] | Hey, Desert Scorpion.==W== What's the price on these?
-0101 [Domineering Desert Scorpion] | Two hundred thousand Dorra a pound.
-0102 [Standard Bearer] | By the pound?==W== Never heard of selling Artifacts by weight.==W== Are the casings made of crystal diamond, or are they stuffed with them?
-0103 [Domineering Desert Scorpion] | You think that's steep? Tell me about it.
-0104 [Domineering Desert Scorpion] | Look around. No Monolith in Mirage means no Artifacts. We hauled these across the desert in bags. Course we charge by weight.
-0105 [Standard Bearer] | Fine. Pick me out a Projector.==W== Being stuck in this dump is boring me to tears.
-0106 [Domineering Desert Scorpion] | Alright.==W== This one do?
-0107 [Standard Bearer] | Is this the real deal?
-0108 [Domineering Desert Scorpion] | Everyone in Mirage knows the Desert Scorpions. You think I'd sell you a fake?
-0109 [Standard Bearer] | I asked you, is it real or not?
-0110 [Domineering Desert Scorpion] | You looking for trouble?==W== Buy it or move on.
-0111 [Standard Bearer] | If it's real and works, I'll buy it.
-0112 [Standard Bearer] | But what if it's broken?
-0113 [Domineering Desert Scorpion] | If it's broken, I'll eat it on the spot.==W== Satisfied?
-0114 [Domineering Desert Scorpion] | Fifteen pounds. Three million Dorras.
-0115 [Standard Bearer] | No way that's fifteen pounds. Your scale is rigged!
-0116 [Standard Bearer] | Look! There's a gravity magic seal under it!
-0117 [Standard Bearer] | You said if it's broken, you'd eat it.==W== Let me carve it up for you!
-0118 [Domineering Desert Scorpion] | Did you just halve my Artifact!?==W==
-0119 [Energetic Kid] | Fight! Fight! The Imperial Guard and the Desert Scorpions are going at it! Come quick!
-0120 [Tú] | Kid, stop yelling. We need to leave. It's not safe here.
-0121 [Energetic Kid] | What are you talking about? A fight means we can finally make some deals!
-0122 [Energetic Kid] | Hey, Mister Scorpion! Miss Guard! Look this way!==W== There are White Cats over here!
-0123 [Tú] | White Cats? What? No, we're not—==W==
-0124 [Domineering Desert Scorpion] | That outfit...==W==
-0125 [Standard Bearer] | It is the White Cats!==W==
-0126 [Iris] | What? No! We only got here yesterday!==W== We don't know anything about any White Cats!
-0127 [Amber] | Boss.==W== Behind me.
-0128 [Amber] | We're breaking out.==W==
+0027 [Tú] | Soñé con ustedes tres de niñas: tú, Iris y Noya. Cosas como querer conseguir trabajo, leer en el puente del canal...
+0028 [Tú] | Y también de más adelante. Iris buscando trabajo, Noya construyendo a Loxy, tú buscando tesoros...
+0029 [Tú] | ¡Oye, oye!==W== ¡Amber, estás demasiado cerca!
+0030 [Amber] | Jefe. ¿Nos puedes contar el sueño completo?==W== Con detalles.
+0031 [Lugar y hora] | 08:20, 7.º del mes de Nebula, Mirage, Lucky Oasis
+0032 [Noya] | Aaah... Buenos días...==W==
+0033 [Iris] | Noya, ¿podrías intentar no moverte tanto cuando duermes? Tu pierna me estaba aplastando.
+0034 [Noya] | Oye, échale la culpa a Amber. Me tenía agarrada en un abrazo de oso por la espalda.
+0035 [Iris] | Bueno, a mí también me abraza, y no me ves aplastando a nadie.
+0036 [Amber] | Cada una se siente distinta.==W== Agarro a quien me pida el humor.
+0037 [Amber] | Noya es calientita.==W== Iris es apapachable.==W==
+0038 [Iris] | ¡¿A-apapachable?!==W== ¡¿Subí de peso?!==W== Muy bien, escuchen.==W== De ahora en adelante, nadie me toca mientras duerme sin mi permiso explícito.
+0039 [Amber] | El Jefe==W== es duro.
+0040 [Tú] | ¡¿D-duro?!
+0041 [Amber] | Muy huesudo.
+0042 [Noya] | ¿Ves? Tienes que comer más, ==PLAYER_NAME==.
+0043 [Tú] | Esperen, nos estamos desviando.==W== Amber, ¿no me estabas preguntando por mi sueño?
+0044 [Amber] | Todas necesitamos saberlo.==W== Por eso desperté a todos.==W== ¿Recuerdan lo que soñaron anoche?
+0045 [Noya] | ¿Sueños? Sé que soñé algo,==W== pero se me olvidó en cuanto desperté.
+0046 [Iris] | ... ¿P-por qué cambias de tema de repente?==W== Yo tampoco recuerdo los detalles...==W== Pero desperté sintiéndome bastante bien. Debió ser un sueño bonito.
+0047 [Tú] | Déjenme preguntarles otra cosa. ¿Cuánto recuerdan en realidad del orfanato? ¿O de lo que hicieron justo después de irse, antes de construir a Loxy?
+0048 [Amber] | El orfanato es borroso. Solo recuerdo la cara de la tía Allie.
+0049 [Noya] | Yo tengo pedacitos de lo que pasó después de irnos. Como cuando buscaba piezas para Loxy.
+0050 [Noya] | Pero en ese entonces cada quien andaba en lo suyo. Tengo la mente en blanco sobre cómo nos juntamos para formar el Gremio de la Nueva Estrella.
+0051 [Iris] | Seguramente el Monolito se llevó esos recuerdos como pago por nuestros deseos. Los libros dicen que se alimenta de emociones intensas...==W== Y pensándolo bien, esa fue una etapa muy angustiante de nuestras vidas.
+0052 [Iris] | Dicen que si tu petición es aunque sea un poquito vaga, el Monolito se cobra recuerdos de más como peaje.==W== Supongo que ese fue el precio por ser novatas.
+0053 [Noya] | Menos mal que tenemos a Iris.==W== Si dependiera de mí, ya habría arruinado todos los deseos y me habría borrado el cerebro.
+0054 [Tú] | Así que ninguna recuerda su infancia.==W== Eso significa que...==W== ese sueño que tuve... ¿Eran sus recuerdos?
+0055 [Tú] | Vita dijo que olvidaría el sueño en cuanto despertara, pero mi inmunidad a la magia debió bloquear el borrado de memoria.
+0056 [Tú] | En cuanto a lo que soñé...==W==
+0057 [Narración] | Media hora después.
+0058 [Iris] | ¡No puede ser! Eso explica por qué me faltó un punto. El Monolito se llevó mi recuerdo del último examen cuando pedí mi deseo.
+0059 [Amber] | Debimos pedir el deseo nosotras.
+0060 [Noya] | Así habrías podido ir a la Academia Luz de Gracia.
+0061 [Iris] | ¿De qué hablan?==W== ¡Si me hubiera ido a estudiar, no estaría aquí viajando con ustedes!
+0062 [Iris] | Además, por reprobar ese examen terminé en Boss Accord. ¡Mi sueño de ser empleada corporativa se cumplió de todos modos!==W== Perderme ese examen debió ser una señal del Dios de la Gracia.
+0063 [Tú] | Ustedes... Se lo están tomando sorprendentemente bien. Pensé que... se iban a molestar o asustar mucho más al oír lo que perdieron.
+0064 [Noya] | Jeje, supongo que sí da un poquito de miedo si lo piensas.==W== Pero ya sea que riamos o lloremos, la realidad es la misma.==W== Mejor reírnos y echarle ánimo.
+0065 [Iris] | En cuanto decidimos ser Trekkers, aceptamos el riesgo de perder nuestros recuerdos. Sinceramente, mientras el Monolito no me haga olvidar dónde escondí mi Dorra, estoy bien.
+0066 [Amber] | Ya lo hizo. Una vez encontraste Dorra en tu bota y creíste que te habías sacado la lotería. Estabas feliz.
+0067 [Iris] | ¡Oye, ya basta! En fin, ahora tenemos un pacto de almas contigo. Nuestros deseos ya no nos cuestan recuerdos, así que no hay nada de qué preocuparse.
+0068 [Noya] | Ah, cierto.==W== ==PLAYER_NAME==, dame tu mano.
+0069 [Tú] | ¿Eh? ¿Para qué?
+0070 [Noya] | Ustedes dos, vengan aquí.
+0071 [Noya] | Porque de ahora en adelante, la vida ya no es un examen para tres.==W== Es un examen para los cuatro.
+0072 [Iris] | Sé que ya dijimos algo parecido antes, pero lo decimos en serio.==W== Nos alegra tenerte con nosotras, Jefe.
+0073 [Amber] | Háblame más.
+0074 [Tú] | Sí. Juntos escribiremos nuestras propias respuestas.
+0075 [Noya] | ¡Exacto! Ya todos están despiertos, así que en marcha. ¡Mirage, allá vamos!
+0076 [Lugar y hora] | 09:00, 7.º del mes de Nebula, Mirage, Calle sin nombre
+0077 [Noya] | Estaba demasiado oscuro para ver mucho cuando llegamos... ¿Esto es Mirage? Parece una ciudad del desierto cualquiera. ¿Por qué le dicen el Fin del Mundo?
+0078 [Iris] | La mayoría de las ciudades de Nova están construidas alrededor de Monolitos.==W== Mirage no tiene ninguno. No hay ni uno en toda la región.
+0079 [Iris] | Por eso se le conoce como la tierra más allá de los Monolitos:==W== el Fin del Mundo.
+0080 [Amber] | Pero ¿por qué construir una ciudad==W== donde no hay Monolito?
+0081 [Iris] | Debe haber una razón. Les pregunté a algunos Trekkers veteranos, pero o no sabían o no quisieron soltar nada.
+0082 [Tú] | Tiene sentido. La gente de aquí debe estar desesperada por un Monolito. Encontrar uno en el desierto sería una noticia enorme.
+0083 [Tú] | Pero sin Monolito, sin industria y sin comercio... ¿Cómo sobrevive la gente?
+0084 [Energetic Kid] | ¡Oigan! ¿Son Trekkers de fuera del desierto?
+0085 [Tú] | Así es, amiguito.
+0086 [Energetic Kid] | ¡Guau!==W== ¡Hace siglos que no vemos a nadie de fuera aparte de la Guardia Imperial!==W== ¿Qué los trae a Mirage?==W== ¡Si quieren, les doy un recorrido!
+0087 [Iris] | ¿Conoces algún lugar con más gente? Quisiera preguntar por ahí.
+0088 [Energetic Kid] | ¡Sí! ¡Síganme!
+0089 [Noya] | ==PLAYER_NAME==, adelántate. Yo los sigo en Loxy. Amber, avísame cuando lleguen.==W==
+0090 [Amber] | Entendido.
+0091 [Energetic Kid] | Nuestra ciudad se ve bastante árida, pero tenemos nuestras formas de llevar comida a la mesa.
+0092 [Iris] | ¿Como plantas del desierto? ¿O mercancía rara?
+0093 [Energetic Kid] | ¡Qué lista! Le atinaste. Tenemos los dátiles más dulces de todo Nova, y tenemos mineral de diamante cristalino.
+0094 [Energetic Kid] | Pero los dátiles nunca salen del desierto, y las minas cerraron hace mucho.
+0095 [Energetic Kid] | Así que nosotros, los niños, nos ganamos la vida con eso.
+0096 [Tú] | Espera... ¡¿Esos son los Escorpiones del Desierto que intentaron matarme en el banquete?!
+0097 [Iris] | Parece un puesto callejero. ¿Están vendiendo... Artefactos?==W== ¿Así es como llevan comida a la mesa?
+0098 [Energetic Kid] | Miren,==W== una guardia está comprando uno ahorita.
+0099 [Domineering Desert Scorpion] | Ustedes,==W== ¿van a comprar o qué?
+0100 [Standard Bearer] | Oye, Escorpión del Desierto.==W== ¿Cuánto cuestan estos?
+0101 [Domineering Desert Scorpion] | Doscientos mil Dorra la libra.
+0102 [Standard Bearer] | ¿Por libra?==W== Nunca había oído que vendieran Artefactos por peso.==W== ¿Las carcasas son de diamante cristalino o vienen rellenas de eso?
+0103 [Domineering Desert Scorpion] | ¿Se te hace caro? A mí también.
+0104 [Domineering Desert Scorpion] | Mira a tu alrededor. Sin Monolito en Mirage, no hay Artefactos. Los cargamos en costales a través del desierto. Obvio cobramos por peso.
+0105 [Standard Bearer] | Está bien. Escógeme un Proyector.==W== Estar atrapada en este basurero me tiene muerta de aburrimiento.
+0106 [Domineering Desert Scorpion] | Va.==W== ¿Te sirve este?
+0107 [Standard Bearer] | ¿Es auténtico?
+0108 [Domineering Desert Scorpion] | Todo el mundo en Mirage conoce a los Escorpiones del Desierto. ¿Crees que te vendería uno falso?
+0109 [Standard Bearer] | Te pregunté si es auténtico o no.
+0110 [Domineering Desert Scorpion] | ¿Andas buscando pleito?==W== Cómpralo o sigue tu camino.
+0111 [Standard Bearer] | Si es auténtico y funciona, lo compro.
+0112 [Standard Bearer] | ¿Pero y si está descompuesto?
+0113 [Domineering Desert Scorpion] | Si está descompuesto, me lo como aquí mismo.==W== ¿Contenta?
+0114 [Domineering Desert Scorpion] | Quince libras. Tres millones de Dorra.
+0115 [Standard Bearer] | Imposible que sean quince libras. ¡Tu báscula está arreglada!
+0116 [Standard Bearer] | ¡Mira! ¡Tiene un sello de magia de gravedad abajo!
+0117 [Standard Bearer] | Dijiste que si estaba descompuesto, te lo comías.==W== ¡Déjame cortártelo en pedacitos!
+0118 [Domineering Desert Scorpion] | ¡¿Acabas de partir mi Artefacto a la mitad?!==W==
+0119 [Energetic Kid] | ¡Pelea! ¡Pelea! ¡La Guardia Imperial y los Escorpiones del Desierto se están dando con todo! ¡Vengan rápido!
+0120 [Tú] | Niño, deja de gritar. Tenemos que irnos. Aquí no es seguro.
+0121 [Energetic Kid] | ¿De qué hablas? ¡Una pelea significa que por fin podemos hacer negocio!
+0122 [Energetic Kid] | ¡Oiga, señor Escorpión! ¡Señorita Guardia! ¡Miren para acá!==W== ¡Aquí hay Gatos Blancos!
+0123 [Tú] | ¿Gatos Blancos? ¿Qué? No, nosotros no somos...==W==
+0124 [Domineering Desert Scorpion] | Esa ropa...==W==
+0125 [Standard Bearer] | ¡Sí son los Gatos Blancos!==W==
+0126 [Iris] | ¿Qué? ¡No! ¡Apenas llegamos ayer!==W== ¡No sabemos nada de ningunos Gatos Blancos!
+0127 [Amber] | Jefe.==W== Detrás de mí.
+0128 [Amber] | Vamos a abrirnos paso.==W==

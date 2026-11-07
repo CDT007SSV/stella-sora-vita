@@ -1,17 +1,17 @@
-# Capítulo 4 · Más allá del sueño · 6 · The Outsider
+# Capítulo 4 · Más allá del sueño · 6 · El forastero
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Aggrieved Trekker | Aggrieved Trekker
-N:Agitator Trekker | Agitator Trekker
-N:Angry Trekker | Angry Trekker
-N:Anxious Employee | Anxious Employee
-N:Anxious Squad Member | Anxious Squad Member
-N:Bewildered Trekker | Bewildered Trekker
-N:Confused Trekker | Confused Trekker
-N:Trekker Holding a Stone | Trekker Holding a Stone
-N:United Harvest Receptionist | United Harvest Receptionist
+N:Aggrieved Trekker | Trekker agraviado
+N:Agitator Trekker | Trekker agitador
+N:Angry Trekker | Trekker enojado
+N:Anxious Employee | Empleado ansioso
+N:Anxious Squad Member | Miembro del escuadrón ansioso
+N:Bewildered Trekker | Trekker desconcertado
+N:Confused Trekker | Trekker confundido
+N:Trekker Holding a Stone | Trekker con una piedra
+N:United Harvest Receptionist | Recepcionista de Cosecha Unida
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -32,166 +32,166 @@ N:avg3_140 | Empleado de Cosecha Unida
 N:avg3_152 | Bastelina
 
 ## Texto
-0001 [Intro] | Act Six
-0002 [Intro] | The Outsider
-0003 [Intro] | You and Nazuka successfully lead the United Harvest to investigate Lady Gray. Unfortunately, a continuous stretch of heavy rain spoils your plan to launch an early hunt. When the sunlight returns, so come the rumors.
-0004 [Lugar y hora] | 17:00, Pluvia Month 28th, Greenhouse District in Philae, Grain Exchange
-0005 [United Harvest Receptionist] | Hello. How can I help you?==W== Here to purchase seeds, or trade grain?
-0006 [Nazuka] | I'm Nazuka, leader of the Trekker squad hunting the Big Three. I'm here to confirm the bounty details and find out how to contact your Lady Gray.
-0007 [United Harvest Receptionist] | The Big Three...==W== Lady Gray... Just a moment, please.
-0008 [Nazuka] | Boss, are you sure this will work?==W== This is the Grain Exchange. They don't handle bounties, do they?
-0009 [Tú] | That's exactly why we're asking here—because they don't.
-0010 [Nazuka] | I don't follow...
-0011 [Tú] | United Harvest is a massive company. Employees in different departments are practically strangers to one another.
-0012 [Tú] | Sometimes, it's even worse. Departments often have conflicting interests, so it's not uncommon for them to treat each other like rivals.
-0013 [Tú] | Think about it, Nazuka. Why would Lady Gray use Trekkers to hunt the Big Three?
-0014 [Nazuka] | They tried to handle them themselves at first. Those initial mercenaries were her people, right? The losses ...==W== were severe.
-0015 [Tú] | She switched to offering bounties after those casualties, even providing you all with supplies. It's a strange shift, isn't it?
-0016 [Tú] | It could be a strategic pivot—deciding Trekkers are better for the job.==W== But I think it's more likely she just can't find replacements.
-0017 [Nazuka] | Why? The supplies Lady Gray is providing are worth a fortune in Dorra. It doesn't seem like she's short on funds.
-0018 [Tú] | Heh, that's corporate logic for you. For Trekkers like us, if we fail, we just learn from it and try again.
-0019 [Tú] | But in a company, especially a huge one like United Harvest, people are eyeing any good position. The second she makes a mistake, someone's there to pull her down.
-0020 [Tú] | She lost a lot of people, so now she's in a tough spot. She wants to use us to get results, while also trying to recruit skilled people for herself.
-0021 [Tú] | Besides, her way of doing business—by threatening people—has surely made her plenty of enemies within the company.
-0022 [Tú] | We leak this information, and her rivals within the company will jump at the chance to make a move.
-0023 [Nazuka] | So that's why you picked the Grain Exchange. You knew she had no ties to this place.
-0024 [Tú] | Exactly. Since they're not involved, they'll have no problem spreading our message—"helping" us stir things up.
-0025 [Tú] | It'll expose our plan, sure, but with Lady Gray already threatening Claire, she's got us figured out anyway.
-0026 [Nazuka] | And if it doesn't work, we lose nothing.
-0027 [Tú] | We'll definitely get some blowback later, though.
-0028 [Nazuka] | You're so devious...==W== No, I mean, brilliant. How did you even come up with this?
-0029 [Tú] | Ahem. It's not about being brilliant,==W== it's about understanding how companies work.
-0030 [Tú] | I am a CEO, after all. You have to be a little devious in this line of work.
-0031 [Nazuka] | Oh? But what if they just blow us off? I've had friends look into Lady Gray before, but they never came up with anything.
-0032 [Tú] | We'll see.==W== Shh, someone's coming. Just follow my lead.
-0033 [Anxious Employee] | I am so sorry for the wait! I'm Sapphire, the manager here.
-0034 [Tú] | Sorry for dropping in unannounced.
-0035 [Sapphire] | Not at all. I've heard about the monster hunting, but that's not handled by our exchange. That falls to the Marketing Department. If you're here about the bounty, I can put you in touch with them.
-0036 [Sapphire] | As for Lady Gray, I've never heard of her. She's certainly not in our Production Department. Perhaps you should try asking somewhere else?
-0037 [Tú] | The classic runaround, just as I expected. Let's see if you can dodge the next one.
-0038 [Tú] | There seems to be a misunderstanding. We're not here for the bounty. We're here for an employee matter.
-0039 [Opción] | Take out the Seal of Grace
-0040 [Sapphire] | Is that ...==W== a Seal of Grace? Forgive me. Which company do you represent?
-0041 [Tú] | Boss Accord Staffing Co. Though I'm guessing that name doesn't mean much around here in Philae.
-0042 [Sapphire] | The Boss Accord Staffing Company...==W== The company that just reopened in Emor? Then ... does that make you the "Boss" in the newspapers?
-0043 [Tú] | I haven't seen the press reports...==W== But yes, that's me.
-0044 [Sapphire] | O-Oh, I see! Well, we can't just talk standing out here. Please, come on in. Let's discuss this properly inside.
-0045 [Tú] | No need, I have other business to attend to. I just dropped by to ask you about something I heard—
-0046 [Tú] | Is United Harvest trying to take control over the Trekker industry in Philae?
-0047 [Tú] | That sounds like a monopoly, wouldn't you say? I felt it necessary for me to confirm this with you directly.
-0048 [Sapphire] | A monopoly? Take control over the Trekker industry? What are you talking about? United Harvest couldn't possibly do that...==W== We lack the means, and it's not something we would ever do.
-0049 [Tú] | And yet, when I tried to commission a few Trekkers for a job, I found that Lady Gray had already snapped up all the skilled ones for her hunting squad with an enormous contract.
-0050 [Tú] | That's why I've brought the hunting squad's captain with me today to corroborate my story.
-0051 [Nazuka] | Um ...==W== yes, that's right. Lady Gray provided us with supplies and rewards valued at hundreds of millions of Dorra. Our team's top priority right now is to defeat the Garden of Parasite, the last of the Big Three.
-0052 [Sapphire] | H-==W==Hundreds of millions...?==W== No wonder the accounts were...==W== Ah, my apologies. This matter has clearly caused your company some trouble.
-0053 [Sapphire] | However, I am truly unaware of the specifics of this situation with Lady Gray, so I can't give you an answer at this time. If you'll please leave your contact information, we will reach out after conducting an investigation.
-0054 [Tú] | Understood. We'll be waiting to hear from you, then.
-0055 [Nazuka] | Boss, I can't believe it. Her entire attitude shifts the moment you show her that seal.
-0056 [Tú] | That's what the Seal of Grace represents—==W==the real authority a company has.
-0057 [Tú] | If a normal person asks, companies will usually try to avoid trouble.==W== But it's a different story when the Boss shows up.
-0058 [Nazuka] | So what's a "monopoly," anyway? And why did she panic the second you mentioned it?
-0059 [Tú] | Well, like you said, United Harvest produces seventy percent of all the grain in Nova.==W== When one company controls a whole industry like that, that's a monopoly.
-0060 [Bastelina] | Every company, or more accurately, every Seal of Grace, contains an exclusive franchise patent.
-0061 [Tú] | You need a seal from the God of Grace to establish a company, and each one grants an exclusive business domain.
-0062 [Tú] | I haven't seen United Harvest's Seal of Grace, but I'm sure its patent is for==W== food.
-0063 [Tú] | I read in one of Iris' books==W== that companies can operate freely within their designated industry, and also branch out into other sectors a bit.
-0064 [Tú] | But trying to monopolize an industry not granted by your Seal of Grace is sacrilege.==W== If another company files a complaint, you'll face serious consequences.
-0065 [Tú] | This isn't something United Harvest can just look the other way on.==W== That manager knows the risks,==W== so she has to take it seriously.
-0066 [Nazuka] | But what if Lady Gray is just acting on her own?==W== Does that still count as a monopoly?
-0067 [Tú] | As long as Lady Gray operates under the United Harvest name, it's considered a corporate monopoly.
-0068 [Nazuka] | So ...==W== what do you think that Sapphire girl will do next?
-0069 [Tú] | She's clearly not clueless about this. She'll probably start keeping an eye on Lady Gray's activities.
-0070 [Tú] | This should keep Lady Gray distracted for a while, buying us time to make the first move.
-0071 [Nazuka] | Thanks, Boss. I owe you one. I'll go locate the Garden of Parasite right away. We'll move out as soon as the rain lets up.
-0072 [Narración] | However, the continuous downpour hinders our plan, leaving us stranded in the old Trekkers' House for days.
-0073 [Lugar y hora] | 08:00, Tonitrua Month 3rd, Outside Philae, Old Trekkers' House 
-0074 [Nazuna] | Phew, I'm back!
-0075 [Iris] | Good work on the recon. What are things like in the forest?
-0076 [Nazuna] | The rain's stopped, but it's a total mud pit out there.==W== Good thing Nazuka and Mistique can fly—they made scouting a breeze.
-0077 [Kaede] | Is Nazuka still out there? I thought Mistique went to take over for her a little while ago.
-0078 [Nazuna] | Ages ago!==W== But you know her—she always tries to do everything herself. Said she wanted to patrol a bit longer, then flew off again. I don't know what her hurry is.
-0079 [Tú] | She must be trying to take down the Garden of Parasite before Lady Gray and Claire can. But ... she still hasn't told Nazuna and the others?
-0080 [Nazuna] | Always charging ahead on her own ... in such a rush, too.==W== Does she really think we haven't noticed something's up?
-0081 [Tú] | Huh? Do they...
-0082 [Fuyuka] | Um, Master... I might just be imagining it,==W== but when I went to the camp this morning, it felt like everyone was looking at me weirdly.
-0083 [Tú] | Weird how?
-0084 [Fuyuka] | It seemed like people were avoiding me on purpose. Or it could be all in my head.
-0085 [Kaede] | Now that you mention it, I got that feeling too. So that wasn't just my imagination?
-0086 [Amber] | Nope, it wasn't.
-0087 [Noya] | I noticed it too. A bunch of people turned the other way as soon as they saw us and started whispering.
-0088 [Nazuna] | Huh? Why? We didn't do anything wrong, did we? No way!
-0089 [Kaede] | Yeah. And with all the rain lately, no one's been going out, aside from recon.
-0090 [Mistique] | I==W== am==W== baaack==W==~!==W== Your dear Mistique is here★
-0091 [Mistique] | But really...==W== How can you girls be just chatting? Don't you know what people are saying about you out there?
-0092 [Tú] | Out there? What do you mean?
-0093 [Mistique] | The whole camp is buzzing with rumors that you're the ones to blame for the first hunt's failure.
-0094 [Nazuna] | Huh? W-Wait! What's going on?!
-0095 [Mistique] | The gossip around camp goes like this—
-0096 [Mistique] | You intentionally threw the first hunt, just so you could monopolize the massive bounty from the Three Grand Commissions.
-0097 [Mistique] | Then Nazuka forms a new hunting squad while you keep Petal Bloom running, so you two get to double-dip on the bounty and rake in the cash.==W== And that's the story★
-0098 [Fuyuka] | We're not in this for Dorra...
-0099 [Kaede] | Who on earth would spread such a ridiculous rumor...
-0100 [Mistique] | I know, I know it's not true. But rumors don't care about the truth, and the "evidence" they've cooked up sounds pretty convincing—
-0101 [Agitator Trekker] | Think about it. If Nazuka can take down the Blade of Jade by herself, and Petal Bloom can beat the Spirit of Brutality on their own, how did the first hunt fail when both parties were present? It had to be on purpose.
-0102 [Bewildered Trekker] | No way... Captain Nazuka is always the one who leads the patrols. She's not that kind of person.
-0103 [Agitator Trekker] | Of course she would—for the bounty! Why else haven't we seen a single Dorra from it? She must have pocketed it all for herself.
-0104 [Bewildered Trekker] | But I heard United Harvest hasn't even paid out the bounty yet.
-0105 [Agitator Trekker] | Have you asked United Harvest yourself? In situations like this, it's whatever the captain says, goes.
-0106 [Bewildered Trekker] | I don't believe it! Captain Nazuka would never do something like that!
-0107 [Agitator Trekker] | I didn't believe it at first either. But listen,==W== the real culprit is that guild from Emor. Their leader, the one called the Boss, can supposedly control people's souls.
-0108 [Bewildered Trekker] | Captain Nazuka ... is being controlled by someone evil?
-0109 [Agitator Trekker] | If it wasn't Nazuka's plan, then it's the only explanation, right? We've all been set up by the Boss!
-0110 [Nazuna] | What is all this garbage? ==PLAYER_NAME== would never do something like that! We're putting our lives on the line fighting those monsters!
-0111 [Fuyuka] | We never planned on keeping the reward for ourselves. I... I already talked it over with Nazuna senpai and Kaede. The plan is to donate the bounty to the camp for repairs as soon as we get it.
-0112 [Mistique] | This rumor's been going around for a few days. Actually, I heard it started circulating in small circles around the 27th or 28th of last month.
-0113 [Mistique] | Boss, any idea what this is about?
-0114 [Tú] | The 27th or 28th...==W== That's right before Claire spoke with Nazuka. In that case, I really have no clue.
-0115 [Nazuna] | That's it, I'm going to confront them!
-0116 [Kaede] | Wait, Nazuna!==W== A crowd is surrounding the Trekker Association.
-0117 [Angry Trekker] | Petal Bloom, get out!
-0118 [Trekker Holding a Stone] | Greedy jerks, trying to hog the reward!
-0119 [Aggrieved Trekker] | Petal Bloom and Boss Accord, get out of Philae!
-0120 [Noya] | What are you all talking about? We didn't even know about the Big Three until we got to Philae!
-0121 [Agitator Trekker] | Hand over the evil Boss!
-0122 [Mistique] | Well, well... This has gotten out of hand.
-0123 [Lugar y hora] | 08:30, Tonitrua Month 3rd, Outside Philae, Trekker Camp
-0124 [Nazuka] | The heavy rain has driven the Garden of Parasite deep into the forest. We'll need to expand our search radius to track it down.
-0125 [Nazuka] | It's cleared up for now, but judging by the sky, more rain is on its way.
-0126 [Anxious Squad Member] | Captain Nazuka, are the rumors going around camp true?
-0127 [Nazuka] | What rumors?
-0128 [Anxious Squad Member] | The one about you ...==W== wanting to keep the bounties all to yourself...
-0129 [Narración] | A few minutes later.
-0130 [Nazuka] | That's absurd!==W== Boss wasn't even in Philae during the first hunt.
-0131 [Anxious Squad Member] | But that's what everyone's saying! The Trekkers had gone to the Trekkers' House to confront them.
-0132 [Nazuka] | ...==W== No, I have to go back. Now.
-0133 [Anxious Squad Member] | Captain Nazuka, you should explain things to everyone first. We know you're not that kind of person.
-0134 [Claire] | Quiet. If you know the captain isn't like that, then stop this nonsense and clear out.
-0135 [Nazuka] | Claire...==W== You're not the one behind all this, are you?
-0136 [Claire] | That's right. Lady Gray had me do it. She was unhappy with your defiance and worried you'd beat her to the Garden of Parasite. So your reputation had to be destroyed.
-0137 [Nazuka] | Why would you==W== help someone like her?
-0138 [Claire] | Why? I've got to look out for myself, too. That warning I gave you? That was Lady Gray's final ultimatum.
-0139 [Claire] | But you wouldn't listen. I'm just one Trekker—how am I supposed to defy a big shot from United Harvest?
-0140 [Nazuka] | You should've just come after me. Why drag the Petal Bloom and Boss into this?
-0141 [Claire] | I am helping you! It took everything I had to get Lady Gray to agree to frame Boss for this instead.
-0142 [Claire] | Look, the people here still trust you.==W== Just announce that you and Petal Bloom were being controlled by the evil Boss, and no one will blame you.
-0143 [Claire] | Nazuka...==W== This is your last chance. Just like the legend of the One-Armed Saint—all we have to do is sacrifice one passing stranger.
-0144 [Nazuka] | Is that ...==W== really how you interpret that legend?
-0145 [Claire] | Am I wrong? Who's gonna miss some random outsider? If sacrificing one person brings peace to Philae, what's the harm?
-0146 [Claire] | Look at the plaza. I figured you'd be here by now, so I've already set up a podium for you. Just get up there and tell them it's all the Boss's fault.
-0147 [Nazuka] | It was all ...==W== the Boss's fault?
-0148 [Nazuka] | Claire. Gather the Trekkers for me.
-0149 [Lugar y hora] | 09:15, Tonitrua Month 3rd, Outside Philae, Trekker Camp
+0001 [Intro] | Acto seis
+0002 [Intro] | El forastero
+0003 [Intro] | Nazuka y tú logran que Cosecha Unida investigue a Lady Gray. Por desgracia, una racha interminable de lluvias torrenciales arruina su plan de lanzar la cacería cuanto antes. Y cuando vuelve a salir el sol, llegan también los rumores.
+0004 [Lugar y hora] | 17:00, 28.º del mes de Pluvia, Distrito Invernadero de Philae, Bolsa de Granos
+0005 [United Harvest Receptionist] | Hola. ¿En qué puedo ayudarles?==W== ¿Vienen a comprar semillas o a comerciar grano?
+0006 [Nazuka] | Soy Nazuka, líder del escuadrón de Trekkers que caza a los Tres Grandes. Vine a confirmar los detalles de la recompensa y a averiguar cómo contactar a su Lady Gray.
+0007 [United Harvest Receptionist] | Los Tres Grandes...==W== Lady Gray... Un momento, por favor.
+0008 [Nazuka] | Jefe, ¿seguro que esto va a funcionar?==W== Esto es la Bolsa de Granos. Aquí no manejan recompensas, ¿o sí?
+0009 [Tú] | Justo por eso preguntamos aquí: porque no las manejan.
+0010 [Nazuka] | No te entiendo...
+0011 [Tú] | Cosecha Unida es una empresa enorme. Los empleados de distintos departamentos prácticamente ni se conocen.
+0012 [Tú] | A veces es todavía peor. Los departamentos suelen tener intereses opuestos, así que no es raro que se traten como rivales.
+0013 [Tú] | Piénsalo, Nazuka. ¿Por qué Lady Gray usaría Trekkers para cazar a los Tres Grandes?
+0014 [Nazuka] | Al principio intentaron encargarse ellos mismos. Esos primeros mercenarios eran su gente, ¿no? Las bajas...==W== fueron graves.
+0015 [Tú] | Después de esas bajas cambió a ofrecer recompensas, y hasta les dio suministros a todos ustedes. Es un cambio extraño, ¿no crees?
+0016 [Tú] | Podría ser un giro estratégico: decidir que los Trekkers son mejores para el trabajo.==W== Pero creo que lo más probable es que simplemente no encuentra con quién reemplazarlos.
+0017 [Nazuka] | ¿Por qué? Los suministros que da Lady Gray valen una fortuna en Dorra. No parece que le falte dinero.
+0018 [Tú] | Je, así es la lógica corporativa. Para Trekkers como nosotros, si fallamos, aprendemos de ello y lo intentamos de nuevo.
+0019 [Tú] | Pero en una empresa, sobre todo en una tan grande como Cosecha Unida, todos le echan el ojo a cualquier buen puesto. En cuanto ella cometa un error, habrá alguien listo para tumbarla.
+0020 [Tú] | Perdió a mucha gente, así que ahora está en aprietos. Quiere usarnos para conseguir resultados y, al mismo tiempo, reclutar gente capaz para ella.
+0021 [Tú] | Además, su forma de hacer negocios, a base de amenazas, seguro que le ha ganado muchos enemigos dentro de la empresa.
+0022 [Tú] | Si filtramos esta información, sus rivales dentro de la empresa no van a desaprovechar la oportunidad de actuar.
+0023 [Nazuka] | Por eso elegiste la Bolsa de Granos. Sabías que ella no tenía nada que ver con este lugar.
+0024 [Tú] | Exacto. Como no están involucrados, no tendrán problema en difundir nuestro mensaje y «ayudarnos» a agitar las aguas.
+0025 [Tú] | Va a delatar nuestro plan, claro, pero como Lady Gray ya está amenazando a Claire, de todos modos ya nos tiene bien vistos.
+0026 [Nazuka] | Y si no funciona, no perdemos nada.
+0027 [Tú] | Aunque más adelante seguro que habrá consecuencias.
+0028 [Nazuka] | Qué retorcido eres...==W== Digo, qué brillante. ¿Cómo se te ocurrió algo así?
+0029 [Tú] | Ejem. No se trata de ser brillante,==W== sino de entender cómo funcionan las empresas.
+0030 [Tú] | Después de todo, soy director ejecutivo. En este oficio hay que ser un poco retorcido.
+0031 [Nazuka] | ¿Ah, sí? ¿Y si simplemente nos ignoran? Unos amigos ya habían investigado a Lady Gray antes, pero nunca encontraron nada.
+0032 [Tú] | Ya veremos.==W== Shh, alguien viene. Tú sígueme la corriente.
+0033 [Anxious Employee] | ¡Mil disculpas por la espera! Soy Sapphire, la gerente de aquí.
+0034 [Tú] | Perdón por llegar sin avisar.
+0035 [Sapphire] | Para nada. Sé lo de la cacería de monstruos, pero eso no lo maneja nuestra bolsa. Le corresponde al Departamento de Marketing. Si vienen por la recompensa, puedo ponerlos en contacto con ellos.
+0036 [Sapphire] | En cuanto a Lady Gray, nunca he oído hablar de ella. Desde luego no está en nuestro Departamento de Producción. ¿Quizá deberían preguntar en otro lado?
+0037 [Tú] | El clásico peloteo, tal como esperaba. A ver si esquivas la siguiente.
+0038 [Tú] | Parece que hay un malentendido. No venimos por la recompensa. Venimos por un asunto relacionado con una empleada.
+0039 [Opción] | Sacar el Sello de la Gracia
+0040 [Sapphire] | ¿Eso es...==W== un Sello de la Gracia? Disculpe. ¿A qué empresa representa?
+0041 [Tú] | Boss Accord Staffing Co. Aunque supongo que ese nombre no significa mucho aquí en Philae.
+0042 [Sapphire] | Boss Accord Staffing Company...==W== ¿La empresa que acaba de reabrir en Emor? Entonces... ¿usted es el «Jefe» de los periódicos?
+0043 [Tú] | No he visto lo que dice la prensa...==W== Pero sí, soy yo.
+0044 [Sapphire] | ¡A-ah, ya veo! Bueno, no podemos hablar aquí de pie. Por favor, pasen. Hablemos de esto como se debe adentro.
+0045 [Tú] | No hace falta, tengo otros asuntos que atender. Solo pasé a preguntarle por algo que escuché...
+0046 [Tú] | ¿Cosecha Unida intenta tomar el control de la industria de los Trekkers en Philae?
+0047 [Tú] | Eso suena a monopolio, ¿no le parece? Sentí que era necesario confirmarlo directamente con usted.
+0048 [Sapphire] | ¿Un monopolio? ¿Tomar el control de la industria de los Trekkers? ¿De qué habla? Cosecha Unida no podría hacer algo así...==W== No tenemos los medios, y no es algo que haríamos jamás.
+0049 [Tú] | Y sin embargo, cuando quise contratar a unos Trekkers para un trabajo, descubrí que Lady Gray ya había acaparado a todos los capaces para su escuadrón de caza con un contrato enorme.
+0050 [Tú] | Por eso traje hoy a la capitana del escuadrón de caza, para que confirme lo que digo.
+0051 [Nazuka] | Eh...==W== sí, así es. Lady Gray nos dio suministros y recompensas por valor de cientos de millones de Dorra. Ahora mismo, la prioridad de nuestro equipo es derrotar al Jardín Parásito, el último de los Tres Grandes.
+0052 [Sapphire] | ¿C-==W==Cientos de millones...?==W== Con razón las cuentas estaban...==W== Ah, disculpen. Es evidente que este asunto le ha causado problemas a su empresa.
+0053 [Sapphire] | Sin embargo, de verdad desconozco los detalles de esta situación con Lady Gray, así que por ahora no puedo darle una respuesta. Si nos deja sus datos de contacto, nos comunicaremos con usted después de investigar.
+0054 [Tú] | Entendido. Entonces esperaremos noticias suyas.
+0055 [Nazuka] | Jefe, no lo puedo creer. Le cambió la actitud por completo en cuanto le enseñaste ese sello.
+0056 [Tú] | Eso es lo que representa el Sello de la Gracia:==W== la verdadera autoridad de una empresa.
+0057 [Tú] | Si pregunta una persona normal, las empresas suelen intentar evitarse problemas.==W== Pero la cosa cambia cuando aparece el Jefe.
+0058 [Nazuka] | ¿Y qué es un «monopolio», a todo esto? ¿Y por qué le entró el pánico en cuanto lo mencionaste?
+0059 [Tú] | Bueno, como dijiste, Cosecha Unida produce el setenta por ciento de todo el grano de Nova.==W== Cuando una sola empresa controla toda una industria así, eso es un monopolio.
+0060 [Bastelina] | Cada empresa, o más exactamente, cada Sello de la Gracia, contiene una patente de franquicia exclusiva.
+0061 [Tú] | Para fundar una empresa necesitas un sello del Dios de la Gracia, y cada uno otorga un ámbito de negocio exclusivo.
+0062 [Tú] | No he visto el Sello de la Gracia de Cosecha Unida, pero estoy seguro de que su patente es de==W== alimentos.
+0063 [Tú] | Leí en uno de los libros de Iris==W== que las empresas pueden operar libremente dentro de su industria designada y también expandirse un poco a otros sectores.
+0064 [Tú] | Pero intentar monopolizar una industria que tu Sello de la Gracia no te otorga es un sacrilegio.==W== Si otra empresa presenta una queja, las consecuencias son graves.
+0065 [Tú] | Cosecha Unida no puede hacerse de la vista gorda con esto.==W== Esa gerente conoce los riesgos,==W== así que tiene que tomárselo en serio.
+0066 [Nazuka] | ¿Y si Lady Gray está actuando por su cuenta?==W== ¿Eso también cuenta como monopolio?
+0067 [Tú] | Mientras Lady Gray opere bajo el nombre de Cosecha Unida, se considera un monopolio corporativo.
+0068 [Nazuka] | Entonces...==W== ¿qué crees que hará esa tal Sapphire ahora?
+0069 [Tú] | Es obvio que no está tan despistada con esto. Seguramente empezará a vigilar lo que hace Lady Gray.
+0070 [Tú] | Eso debería mantener ocupada a Lady Gray un tiempo y darnos margen para dar el primer paso.
+0071 [Nazuka] | Gracias, Jefe. Te debo una. Voy a localizar al Jardín Parásito de inmediato. Saldremos en cuanto pare la lluvia.
+0072 [Narración] | Sin embargo, el aguacero continuo frustra nuestro plan y nos deja varados en la antigua Casa de los Trekkers durante días.
+0073 [Lugar y hora] | 08:00, 3.º del mes de Tonitrua, afueras de Philae, antigua Casa de los Trekkers
+0074 [Nazuna] | ¡Uf, ya volví!
+0075 [Iris] | Buen trabajo con el reconocimiento. ¿Cómo están las cosas en el bosque?
+0076 [Nazuna] | Ya dejó de llover, pero allá afuera es un lodazal total.==W== Menos mal que Nazuka y Mistique pueden volar; con ellas explorar fue pan comido.
+0077 [Kaede] | ¿Nazuka sigue allá afuera? Creí que Mistique había ido a relevarla hace un rato.
+0078 [Nazuna] | ¡Hace siglos!==W== Pero ya la conoces: siempre quiere hacerlo todo ella sola. Dijo que quería patrullar un poco más y se fue volando otra vez. No sé por qué tanta prisa.
+0079 [Tú] | Debe de estar intentando acabar con el Jardín Parásito antes que Lady Gray y Claire. Pero... ¿todavía no se lo ha contado a Nazuna y a las demás?
+0080 [Nazuna] | Siempre lanzándose ella sola... y con tanta prisa, además.==W== ¿De verdad cree que no nos hemos dado cuenta de que algo pasa?
+0081 [Tú] | ¿Eh? ¿Será que ellas...?
+0082 [Fuyuka] | Eh, Maestro... A lo mejor son imaginaciones mías,==W== pero cuando fui al campamento esta mañana, sentí que todos me miraban raro.
+0083 [Tú] | ¿Raro cómo?
+0084 [Fuyuka] | Parecía que la gente me evitaba a propósito. O quizá todo está en mi cabeza.
+0085 [Kaede] | Ahora que lo dices, yo también tuve esa sensación. ¿Entonces no eran imaginaciones mías?
+0086 [Amber] | No, no lo eran.
+0087 [Noya] | Yo también lo noté. Un montón de gente se volteaba en cuanto nos veía y se ponía a cuchichear.
+0088 [Nazuna] | ¿Eh? ¿Por qué? No hicimos nada malo, ¿verdad? ¡Para nada!
+0089 [Kaede] | Sí. Y con toda la lluvia de estos días, nadie ha salido, aparte del reconocimiento.
+0090 [Mistique] | ¡Ya==W== estoy==W== aquííí==W==~!==W== Aquí está su querida Mistique★
+0091 [Mistique] | Pero en serio...==W== ¿Cómo pueden estar aquí platicando, chicas? ¿No saben lo que dicen de ustedes allá afuera?
+0092 [Tú] | ¿Allá afuera? ¿A qué te refieres?
+0093 [Mistique] | Todo el campamento anda con el chisme de que ustedes son las culpables del fracaso de la primera cacería.
+0094 [Nazuna] | ¿Eh? ¡E-espera! ¡¿Qué está pasando?!
+0095 [Mistique] | El chisme en el campamento va así...
+0096 [Mistique] | Sabotearon a propósito la primera cacería, solo para quedarse con la enorme recompensa de las Tres Grandes Comisiones.
+0097 [Mistique] | Luego Nazuka forma un nuevo escuadrón de caza mientras ustedes mantienen a Petal Bloom, así cobran la recompensa por partida doble y se llenan los bolsillos.==W== Y esa es la historia★
+0098 [Fuyuka] | No hacemos esto por Dorra...
+0099 [Kaede] | ¿Quién demonios difundiría un rumor tan ridículo...?
+0100 [Mistique] | Lo sé, lo sé, no es cierto. Pero a los rumores no les importa la verdad, y las «pruebas» que se inventaron suenan bastante convincentes...
+0101 [Agitator Trekker] | Piénsenlo. Si Nazuka puede vencer sola a la Espada de Jade y Petal Bloom puede derrotar por su cuenta al Espíritu de la Brutalidad, ¿cómo fracasó la primera cacería si estaban los dos grupos? Tuvo que ser a propósito.
+0102 [Bewildered Trekker] | No puede ser... La capitana Nazuka siempre es la que dirige las patrullas. No es ese tipo de persona.
+0103 [Agitator Trekker] | ¡Claro que lo haría, por la recompensa! ¿Si no, por qué no hemos visto ni un solo Dorra? Seguro se lo embolsó todo.
+0104 [Bewildered Trekker] | Pero oí que Cosecha Unida ni siquiera ha pagado la recompensa todavía.
+0105 [Agitator Trekker] | ¿Le preguntaste tú mismo a Cosecha Unida? En estos casos, lo que diga la capitana es ley.
+0106 [Bewildered Trekker] | ¡No lo creo! ¡La capitana Nazuka jamás haría algo así!
+0107 [Agitator Trekker] | Al principio yo tampoco lo creía. Pero escucha,==W== el verdadero culpable es ese gremio de Emor. Dicen que su líder, al que llaman el Jefe, puede controlar las almas de la gente.
+0108 [Bewildered Trekker] | ¿La capitana Nazuka... está bajo el control de alguien malvado?
+0109 [Agitator Trekker] | Si no fue plan de Nazuka, es la única explicación, ¿no? ¡El Jefe nos tendió una trampa a todos!
+0110 [Nazuna] | ¿Qué son todas estas tonterías? ¡==PLAYER_NAME== jamás haría algo así! ¡Estamos arriesgando la vida peleando contra esos monstruos!
+0111 [Fuyuka] | Nunca planeamos quedarnos con la recompensa. Y-yo... ya lo hablé con Nazuna senpai y con Kaede. El plan es donar la recompensa al campamento para las reparaciones en cuanto la recibamos.
+0112 [Mistique] | Este rumor lleva unos días circulando. De hecho, oí que empezó a correr en círculos pequeños alrededor del 27 o 28 del mes pasado.
+0113 [Mistique] | Jefe, ¿alguna idea de qué se trata?
+0114 [Tú] | El 27 o 28...==W== Justo antes de que Claire hablara con Nazuka. En ese caso, de verdad no tengo idea.
+0115 [Nazuna] | ¡Se acabó, voy a encararlos!
+0116 [Kaede] | ¡Espera, Nazuna!==W== Hay una multitud rodeando la Asociación de Trekkers.
+0117 [Angry Trekker] | ¡Fuera, Petal Bloom!
+0118 [Trekker Holding a Stone] | ¡Avaros, queriendo acaparar la recompensa!
+0119 [Aggrieved Trekker] | ¡Petal Bloom y Boss Accord, fuera de Philae!
+0120 [Noya] | ¿De qué están hablando todos? ¡Ni sabíamos de los Tres Grandes hasta que llegamos a Philae!
+0121 [Agitator Trekker] | ¡Entreguen al malvado Jefe!
+0122 [Mistique] | Vaya, vaya... Esto se salió de control.
+0123 [Lugar y hora] | 08:30, 3.º del mes de Tonitrua, afueras de Philae, campamento de Trekkers
+0124 [Nazuka] | Las lluvias torrenciales empujaron al Jardín Parásito a lo profundo del bosque. Tendremos que ampliar el radio de búsqueda para rastrearlo.
+0125 [Nazuka] | Por ahora se despejó, pero por cómo se ve el cielo, viene más lluvia.
+0126 [Anxious Squad Member] | Capitana Nazuka, ¿son ciertos los rumores que corren por el campamento?
+0127 [Nazuka] | ¿Qué rumores?
+0128 [Anxious Squad Member] | El de que usted...==W== quiere quedarse con todas las recompensas...
+0129 [Narración] | Unos minutos después.
+0130 [Nazuka] | ¡Eso es absurdo!==W== El Jefe ni siquiera estaba en Philae durante la primera cacería.
+0131 [Anxious Squad Member] | ¡Pero eso es lo que todos dicen! Los Trekkers fueron a la Casa de los Trekkers a encararlos.
+0132 [Nazuka] | ...==W== No, tengo que volver. Ahora.
+0133 [Anxious Squad Member] | Capitana Nazuka, primero debería explicarles las cosas a todos. Sabemos que usted no es ese tipo de persona.
+0134 [Claire] | Silencio. Si saben que la capitana no es así, dejen de decir tonterías y lárguense.
+0135 [Nazuka] | Claire...==W== No eres tú quien está detrás de todo esto, ¿verdad?
+0136 [Claire] | Así es. Lady Gray me hizo hacerlo. Estaba molesta por tu desafío y le preocupaba que llegaras antes que ella al Jardín Parásito. Así que había que destruir tu reputación.
+0137 [Nazuka] | ¿Por qué==W== ayudarías a alguien como ella?
+0138 [Claire] | ¿Por qué? Yo también tengo que cuidarme. ¿Esa advertencia que te di? Era el ultimátum final de Lady Gray.
+0139 [Claire] | Pero no quisiste escuchar. Solo soy una Trekker, ¿cómo se supone que voy a desafiar a un pez gordo de Cosecha Unida?
+0140 [Nazuka] | Debiste ir solo contra mí. ¿Por qué meter en esto a Petal Bloom y al Jefe?
+0141 [Claire] | ¡Te estoy ayudando! Me costó muchísimo convencer a Lady Gray de que, en vez de eso, le echara la culpa al Jefe.
+0142 [Claire] | Mira, la gente de aquí todavía confía en ti.==W== Solo anuncia que tú y Petal Bloom estaban bajo el control del malvado Jefe, y nadie te culpará.
+0143 [Claire] | Nazuka...==W== Esta es tu última oportunidad. Igual que en la leyenda de la Santa Manca: lo único que tenemos que hacer es sacrificar a un forastero de paso.
+0144 [Nazuka] | ¿De verdad...==W== así es como interpretas esa leyenda?
+0145 [Claire] | ¿Me equivoco? ¿Quién va a extrañar a un forastero cualquiera? Si sacrificar a una persona trae la paz a Philae, ¿qué tiene de malo?
+0146 [Claire] | Mira la plaza. Supuse que ya estarías aquí, así que te preparé un estrado. Solo súbete y diles que todo es culpa del Jefe.
+0147 [Nazuka] | ¿Todo fue...==W== culpa del Jefe?
+0148 [Nazuka] | Claire. Reúne a los Trekkers.
+0149 [Lugar y hora] | 09:15, 3.º del mes de Tonitrua, afueras de Philae, campamento de Trekkers
 0150 [Nazuka] | ...
-0151 [Confused Trekker] | Captain Nazuka, that's not like you! You have to be under the Boss's control!
-0152 [Anxious Squad Member] | Yeah! This is all because of those Trekkers from Emor!
-0153 [Agitator Trekker] | Don't fall for their lies! We have to defend Philae and take down the Boss!
-0154 [Claire] | Everyone, please settle down.
-0155 [Claire] | False rumors have been spreading through camp and disrupting the squad. To get to the truth, I need you all to compose yourselves and listen to what Captain Nazuka has to say.
+0151 [Confused Trekker] | ¡Capitana Nazuka, eso no es propio de usted! ¡Tiene que estar bajo el control del Jefe!
+0152 [Anxious Squad Member] | ¡Sí! ¡Todo esto es por culpa de esos Trekkers de Emor!
+0153 [Agitator Trekker] | ¡No caigan en sus mentiras! ¡Tenemos que defender Philae y acabar con el Jefe!
+0154 [Claire] | Todos, por favor, cálmense.
+0155 [Claire] | Han estado circulando rumores falsos por el campamento que alteran al escuadrón. Para llegar a la verdad, necesito que todos se tranquilicen y escuchen lo que la capitana Nazuka tiene que decir.
 0156 [Nazuka] | ...
-0157 [Claire] | Captain Nazuka, please. Tell us what you know.
-0158 [Nazuka] | A false peace built on sacrifice... I can't accept it. I just can't...
-0159 [Nazuka] | If someone has to be sacrificed...
-0160 [Claire] | Hm? You're a bit quiet, Captain Nazuka. Could you please speak up?
-0161 [Nazuka] | Everyone. Listen to me.
-0162 [Nazuka] | The first hunt's failure, the formation of a new one, the chaos that unfolded in the hunt for the Big Three, the fact that so many got hurt... Who's to blame for it all? The monsters that appeared out of nowhere?
-0163 [Nazuka] | No. Not at all. The fault is all mine. Looks like I can't hide it any longer—==W==I planned this whole thing just to keep the bounties for myself.
+0157 [Claire] | Capitana Nazuka, por favor. Díganos lo que sabe.
+0158 [Nazuka] | Una paz falsa construida sobre un sacrificio... No puedo aceptarla. Simplemente no puedo...
+0159 [Nazuka] | Si alguien tiene que ser sacrificado...
+0160 [Claire] | ¿Mm? Habla muy bajito, capitana Nazuka. ¿Podría hablar más fuerte?
+0161 [Nazuka] | Todos. Escúchenme.
+0162 [Nazuka] | El fracaso de la primera cacería, la formación de una nueva, el caos que se desató en la caza de los Tres Grandes, que tanta gente saliera herida... ¿Quién tiene la culpa de todo? ¿Los monstruos que aparecieron de la nada?
+0163 [Nazuka] | No. Para nada. La culpa es toda mía. Parece que ya no puedo seguir ocultándolo:==W== planeé todo esto solo para quedarme con las recompensas.

@@ -1,10 +1,10 @@
-# Capítulo 5 · Una chispa en la oscuridad · 1 · Unconventional Interview
+# Capítulo 5 · Una chispa en la oscuridad · 1 · Entrevista poco convencional
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Angry Trekker | Angry Trekker
-N:Interviewer | Interviewer
+N:Angry Trekker | Trekker enojado
+N:Interviewer | Entrevistador
 N:avg1_103 | Amber
 N:avg1_110 | Firenze
 N:avg1_111 | Iris
@@ -17,125 +17,125 @@ N:avg3_100 | Sylar
 N:avg3_121 | Empleado de Cosecha Unida
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | Unconventional Interview
-0003 [Intro] | Your interview performances are riddled with blunders. Yet, Darcia decides to hire everyone—except Cosette, who looks too young to be a company employee.
-0004 [Narración] | Interview #1
-0005 [Lugar y hora] | 10:10, Tonitrua Month 30th, Greenhouse District in Philae, United Harvest Interview Room
-0006 [Interviewer] | "Over fifteen years of Trekker experience"...==W== Fifteen years. That's a serious veteran's resume.
-0007 [Interviewer] | But you've listed your age as seventeen? Just how old were you when you started out?
-0008 [Noya] | Uh, well... Keep this between us, okay?==W== I've actually got a huge secret.
-0009 [Noya] | You probably won't believe this—but I have memories of my past life.
-0010 [Noya] | I was a Trekker back then, too.==W== After I was reborn, I stuck with the trade. So all told... That's nearly seventeen years.
+0001 [Intro] | Acto uno
+0002 [Intro] | Entrevista poco convencional
+0003 [Intro] | Sus entrevistas están plagadas de metidas de pata. Aun así, Darcia decide contratar a todos... excepto a Cosette, que se ve demasiado joven para ser empleada de la empresa.
+0004 [Narración] | Entrevista n.º 1
+0005 [Lugar y hora] | 10:10, 30.º del mes de Tonitrua, Distrito Invernadero de Philae, sala de entrevistas de Cosecha Unida
+0006 [Interviewer] | «Más de quince años de experiencia como Trekker»...==W== Quince años. Es el currículum de toda una veterana.
+0007 [Interviewer] | ¿Pero puso que tiene diecisiete años? ¿Pues a qué edad empezó?
+0008 [Noya] | Eh, bueno... Que quede entre nosotros, ¿sí?==W== La verdad es que tengo un secreto enorme.
+0009 [Noya] | Seguro no me lo va a creer, pero tengo recuerdos de mi vida pasada.
+0010 [Noya] | En esa vida también era Trekker.==W== Después de reencarnar, seguí en el oficio. Así que, en total... son casi diecisiete años.
 0011 [Interviewer] | ...
-0012 [Narración] | Interview #2
-0013 [Lugar y hora] | 10:30, Tonitrua Month 30th, Greenhouse District in Philae, United Harvest Interview Room
-0014 [Interviewer] | Your resume says you're certified in Advanced Common Novian, Senior HR Management, General Artifact Maintenance...
-0015 [Iris] | Yes! Plus Elementary Ancient Novian Runes, Wedding Officiant, Midwifery, Large Beast-Drawn Vehicle Operation ... and over thirty others.
-0016 [Interviewer] | I see. You've listed them quite clearly on the last five pages.==W== What made you pursue so many certifications?
-0017 [Iris] | Our guild is small, so we're vulnerable. The competition out there is fierce. I worry that one day, the commissions might just ... dry up.
-0018 [Iris] | So I figured if I got more certifications, I could take on side jobs. Anything to help keep the guild afloat.
-0019 [Interviewer] | Heh, very resourceful. Next question—what sets you apart from the other candidates?
-0020 [Iris] | I have strong planning skills, I'm meticulous, and I work very hard.
-0021 [Iris] | Unlike those who rely on intuition or experience, I offer consistent performance on long-term, complex projects.
-0022 [Iris] | Also, as a Trekker, I know the Tawny Nightingale line inside out. I'm confident I can contribute to your Strategy Department's brand management.
-0023 [Interviewer] | I see. Thank you for your answers. I have no further questions. Please wait in the lounge.
-0024 [Iris] | Understood. Thank you so much for your time today!
-0025 [Interviewer] | Heh. To go to such lengths for her guild... Now that is team spirit! A perfect fit for United Harvest.
-0026 [Narración] | Interview #3
-0027 [Lugar y hora] | 10:45, Tonitrua Month 30th, Greenhouse District in Philae, United Harvest Interview Room
-0028 [Interviewer] | Right then. Scenario: A client gets cold feet at the last minute. They demand a review of specific clauses and renegotiate the payout. How do you respond?
-0029 [Amber] | Use my gun. Make them.
-0030 [Interviewer] | Security! Disarm her, now!
-0031 [Narración] | Interview #4
-0032 [Lugar y hora] | 11:00, Tonitrua Month 30th, Greenhouse District in Philae, United Harvest Interview Room
-0033 [Interviewer] | You look pale. Are you feeling unwell?
-0034 [Fuyuka] | P-P-Pleasure to meet you...!==W== I-I'm fine. Please don't worry!==W== I'm F-F-Fuyuka ...==W== from P-Petal Bloom...
-0035 [Fuyuka] | I-I just ... um... I'm a b-bit nervous,==W== that's all...!
-0036 [Interviewer] | Very well. Let's hear about your first Monolith climb. That's usually an unforgettable experience for a Trekker.
-0037 [Fuyuka] | O-Okay. My first ... Monolith climb—
-0038 [Angry Trekker] | With your "skills"? Find another line of work. You're not cut out to be a Trekker.
-0039 [Fuyuka] | Ugh—
-0040 [Interviewer] | Get a medic in here! She's passed out!
-0041 [Narración] | Interview #5
-0042 [Lugar y hora] | 11:20, Tonitrua Month 30th, Greenhouse District in Philae, United Harvest Interview Room
-0043 [Tú] | That interviewer in the beak mask... I know her...
-0044 [Firenze] | Regarding the recent disturbance at the Trekker Camp, we acknowledge our significant responsibility and will be issuing the following public statement—
-0045 [Tú] | It's Firenze. She helped us clear those rumors. She's high-ranking... Is she the "big shot" who recommended us?
-0046 [Interviewer] | Is there a problem?
-0047 [Tú] | No, no! First time doing a company interview. Little nervous, haha.
-0048 [Interviewer] | Really? You've been doing quite well. Relax. Just speak your mind.
-0049 [Tú] | Getting into United Harvest means finding a lead on Lady Gray. Gotta focus on the interview for now.
-0050 [Interviewer] | One last thing. Give me your honest take on this: are you willing to accept consistent overtime?
-0051 [Interviewer] | Say, for a stretch... Working twelve-hour shifts, seven days a week.
-0052 [Tú] | Is she testing me?
-0053 [Opción] | Fine, provided I get paid or time off.
-0054 [Opción] | Lie to pass the interview
-0055 [Opción] | No way in hell!
-0056 [Tú] | If we're talking about double pay...==W== I'll consider it.
-0057 [Interviewer] | Well, our salary structure is flexible. Your actual pay depends entirely on how the Philae Branch performs.
-0058 [Tú] | Got it. No overtime pay.
-0059 [Tú] | Then if those hours can be traded for comp time,==W== I could work with that, too.
-0060 [Interviewer] | You know food security is critical. We're often on call for emergencies. In principle, yes, you'd get time off in lieu.
-0061 [Tú] | Right. No time off, either.
-0062 [Tú] | Whatever. Reality check: high pay and low stress just can't exist together...
-0063 [Tú] | Time to drop the fantasies.
-0064 [Tú] | Understood. I see the company's position. I'm okay with the schedule.
-0065 [Lugar y hora] | 14:00, Tonitrua Month 30th, Gold District in Philae, Executive Office
-0066 [Firenze] | Lady Darcia, here's the feedback on the five candidates. Please take a look.
-0067 [Darcia] | Thanks. I'll review the paperwork later. Right now, I want your personal take—you were the one in the room, after all.
-0068 [Firenze] | Iris is a good match for Strategy—she's a reliable operator. Her certificates are pretty much worthless on paper, but earning them proves she's driven and loyal. She'd set a solid example for the team.
-0069 [Firenze] | ==PLAYER_NAME== has real leadership potential. ==SEX1== managed to unite that chaotic mix of Trekkers around ==SEX4==.
-0070 [Firenze] | But ==SEX== clearly hates our overtime policy. Can't blame ==SEX4==—who wouldn't? Still, ==SEX== gave a polite "yes" in the end, even if ==SEX== didn't mean it. That shows flexibility.
-0071 [Tú] | From their perspective, they want workhorses who grind harder for less cash.
-0072 [Tú] | She said "honest take," but only an idiot would fall for that trap.
-0073 [Tú] | Absolutely! Sacrificing for the company is an employee's greatest blessing!
-0074 [Tú] | Work proves my true worth! How can trivial things like "pay" or "vacations" compare to that?
-0075 [Tú] | This company is my home! And you guys? You're my family!
-0076 [Interviewer] | Heh. Thanks for the answer. That concludes the interview.
-0077 [Lugar y hora] | 14:00, Tonitrua Month 30th, Gold District in Philae, Executive Office
-0078 [Firenze] | Lady Darcia, here's the feedback on the five candidates. Please take a look.
-0079 [Darcia] | Thanks. I'll review the paperwork later. Right now, I want your personal take—you were the one in the room, after all.
-0080 [Firenze] | Iris is a good match for Strategy—she's a reliable operator. Her certificates are pretty much worthless on paper, but earning them proves she's driven and loyal. She'd set a solid example for the team.
-0081 [Firenze] | ==PLAYER_NAME== is even sharper than Iris. Not only can ==SEX== lead, but ==SEX== picked up on the subtext of my questions instantly. That kind of intuition is rare.
-0082 [Firenze] | That said, ==SEX== knows how brutal our hours are, yet still claimed the "company is home." Anyone willing to lie that boldly must be after something big.
-0083 [Tú] | I have a life outside work! I wouldn't agree to that for all the money in the world!
-0084 [Interviewer] | Is that so? A pity. That concludes the interview, then.
-0085 [Tú] | Figure that's what happens when you're honest... There goes the commission.
-0086 [Tú] | But who cares?! Living means speaking your truth!
-0087 [Interviewer] | Well? Your answer?
-0088 [Tú] | My answer? Do you even have to ask?
-0089 [Tú] | I'd rather die!==W== How does a nightmare like this exist in Nova? Twelve hours a day, seven days a week? That's not a company—that's hell!
-0090 [Lugar y hora] | 14:00, Tonitrua Month 30th, Gold District in Philae, Executive Office
-0091 [Firenze] | Lady Darcia, here's the feedback on the five candidates. Please take a look.
-0092 [Darcia] | Thanks. I'll review the paperwork later. Right now, I want your personal take—you were the one in the room, after all.
-0093 [Firenze] | Iris is a good match for Strategy—she's a reliable operator. Her certificates are pretty much worthless on paper, but earning them proves she's driven and loyal. She'd set a solid example for the team.
-0094 [Firenze] | ==PLAYER_NAME== blew up about our overtime policy. ==SEX1== practically called our mandatory hours a crime against humanity.
-0095 [Firenze] | Honestly, the overtime at this branch has been excessive lately. People aren't Artifacts—and even Artifacts break if you overuse them. I really think we should reconsider the workload.
-0096 [Firenze] | As for the other three...==W== Completely unqualified. United Harvest doesn't need Trekkers who are that free-spirited.
-0097 [Darcia] | Understood. Hire all five.
-0098 [Firenze] | Wh-Why?!
-0099 [Darcia] | Just think of the changes this "free" blood could bring to United Harvest...==W== Isn't that something to look forward to?
-0100 [Firenze] | Lady Darcia, there's a huge problem with this group—
-0101 [Darcia] | I know. They're with the Boss Accord Staffing Co. And one of them is the CEO known as the "Boss."
-0102 [Firenze] | So you were already aware...
-0103 [Darcia] | Naturally. The Boss Accord is practically a household name in Philae these days.
-0104 [Firenze] | Aren't you concerned about our trade secrets? They do run a rival company, after all.
-0105 [Darcia] | I'm told the Boss Accord specializes in "soul trades." United Harvest deals in grain and food—there is no conflict of interest.
-0106 [Darcia] | Besides... When news of the Accord's reactivation broke, didn't you send agents to check them out?==W== Now we get to observe them up close. Isn't that exactly what you wanted?
-0107 [Firenze] | I ... cannot deny that.
-0108 [Darcia] | Heh, I thought so. After all, this isn't the first time you've crossed paths with them, is it?
-0109 [Firenze] | True. Though to be precise, they were the ones who approached us.
-0110 [Firenze] | In any case, it's clear ==SEX== understands company mechanics far better than most, and knows exactly how to leverage a situation.
-0111 [Darcia] | Precisely. I really look forward to seeing how this unfolds.
-0112 [Firenze] | So...
-0113 [Darcia] | There is a deeper reason for hiring them. Think about it—if we rejected their applications, the rumors alone could tarnish United Harvest's reputation.
-0114 [Firenze] | Understood. Do you have any specific instructions regarding their placement?
-0115 [Darcia] | Assign them all to the Strategy Department's Tawny Nightingale project for now. Even if they make a mess of things, that team is resilient enough to handle it.
-0116 [Firenze] | Then I'll coordinate the next steps with Manager Mina. Does that sound alright?
-0117 [Darcia] | By the way, I noticed another Trekker in this batch who skipped the interview. Is she with the Boss Accord as well?
-0118 [Firenze] | No, she's a Freelance Trekker by the name of Cosette.
-0119 [Firenze] | She falsified her age as twenty, but she's actually far younger, well under the legal limit. We screened her out before the interview.
-0120 [Darcia] | Ok. That will be all for today.
-0121 [Firenze] | Understood. I'll take my leave.
-0122 [Darcia] | Heh... Hehehe... Come then, let me witness your true power.==W== Are you the genuine Tyrant, or merely a cheap imitation?
+0012 [Narración] | Entrevista n.º 2
+0013 [Lugar y hora] | 10:30, 30.º del mes de Tonitrua, Distrito Invernadero de Philae, sala de entrevistas de Cosecha Unida
+0014 [Interviewer] | Su currículum dice que tiene certificación en noviano común avanzado, gestión superior de recursos humanos, mantenimiento general de Artefactos...
+0015 [Iris] | ¡Sí! Además de runas novianas antiguas nivel básico, oficiante de bodas, partería, manejo de vehículos grandes de tracción animal... y más de otras treinta.
+0016 [Interviewer] | Ya veo. Las enumeró con mucha claridad en las últimas cinco páginas.==W== ¿Qué la llevó a sacar tantas certificaciones?
+0017 [Iris] | Nuestro gremio es pequeño, así que somos vulnerables. Allá afuera la competencia es feroz. Me preocupa que un día los encargos simplemente... se acaben.
+0018 [Iris] | Así que pensé que, si tenía más certificaciones, podría tomar trabajos extra. Lo que sea para ayudar a mantener a flote al gremio.
+0019 [Interviewer] | Je, muy ingeniosa. Siguiente pregunta: ¿qué la distingue de los demás candidatos?
+0020 [Iris] | Tengo buenas habilidades de planeación, soy meticulosa y trabajo muy duro.
+0021 [Iris] | A diferencia de quienes se apoyan en la intuición o la experiencia, ofrezco un rendimiento constante en proyectos complejos y de largo plazo.
+0022 [Iris] | Además, como Trekker, conozco la línea Ruiseñor Leonado de pies a cabeza. Estoy segura de que puedo contribuir a la gestión de marca de su Departamento de Estrategia.
+0023 [Interviewer] | Ya veo. Gracias por sus respuestas. No tengo más preguntas. Por favor, espere en la sala de descanso.
+0024 [Iris] | Entendido. ¡Muchísimas gracias por su tiempo!
+0025 [Interviewer] | Je. Hacer tanto por su gremio... ¡Eso sí es espíritu de equipo! Encaja perfecto en Cosecha Unida.
+0026 [Narración] | Entrevista n.º 3
+0027 [Lugar y hora] | 10:45, 30.º del mes de Tonitrua, Distrito Invernadero de Philae, sala de entrevistas de Cosecha Unida
+0028 [Interviewer] | Muy bien. Caso hipotético: un cliente se echa para atrás a última hora. Exige revisar ciertas cláusulas y renegociar el pago. ¿Cómo responde?
+0029 [Amber] | Uso mi arma. Los obligo.
+0030 [Interviewer] | ¡Seguridad! ¡Desármenla, ya!
+0031 [Narración] | Entrevista n.º 4
+0032 [Lugar y hora] | 11:00, 30.º del mes de Tonitrua, Distrito Invernadero de Philae, sala de entrevistas de Cosecha Unida
+0033 [Interviewer] | Se ve pálida. ¿Se siente mal?
+0034 [Fuyuka] | ¡M-m-mucho gusto...!==W== E-estoy bien. ¡No se preocupe, por favor!==W== Soy F-f-fuyuka...==W== de P-petal Bloom...
+0035 [Fuyuka] | E-es solo que... eh... estoy un p-poco nerviosa,==W== ¡nada más...!
+0036 [Interviewer] | Muy bien. Hábleme de su primera escalada de Monolito. Para un Trekker suele ser una experiencia inolvidable.
+0037 [Fuyuka] | E-está bien. Mi primera... escalada de Monolito...
+0038 [Angry Trekker] | ¿Con tus «habilidades»? Busca otro oficio. No estás hecha para ser Trekker.
+0039 [Fuyuka] | Ugh...
+0040 [Interviewer] | ¡Traigan a un médico! ¡Se desmayó!
+0041 [Narración] | Entrevista n.º 5
+0042 [Lugar y hora] | 11:20, 30.º del mes de Tonitrua, Distrito Invernadero de Philae, sala de entrevistas de Cosecha Unida
+0043 [Tú] | Esa entrevistadora con máscara de pico... La conozco...
+0044 [Firenze] | En relación con el reciente disturbio en el campamento de Trekkers, reconocemos nuestra gran responsabilidad y emitiremos el siguiente comunicado público...
+0045 [Tú] | Es Firenze. Nos ayudó a desmentir esos rumores. Es de alto rango... ¿Será ella el «pez gordo» que nos recomendó?
+0046 [Interviewer] | ¿Pasa algo?
+0047 [Tú] | ¡No, no! Es mi primera entrevista en una empresa. Estoy un poco nervioso, jaja.
+0048 [Interviewer] | ¿En serio? Lo está haciendo bastante bien. Relájese. Diga lo que piensa.
+0049 [Tú] | Entrar a Cosecha Unida significa encontrar una pista sobre Lady Gray. Por ahora tengo que concentrarme en la entrevista.
+0050 [Interviewer] | Una última cosa. Deme su opinión sincera sobre esto: ¿está dispuesto a aceptar horas extra constantes?
+0051 [Interviewer] | Digamos, durante una temporada... Turnos de doce horas, siete días a la semana.
+0052 [Tú] | ¿Me está poniendo a prueba?
+0053 [Opción] | Está bien, siempre que me paguen o me den días libres.
+0054 [Opción] | Mentir para pasar la entrevista
+0055 [Opción] | ¡Ni loco!
+0056 [Tú] | Si hablamos de pago doble...==W== lo consideraría.
+0057 [Interviewer] | Bueno, nuestra estructura salarial es flexible. Su pago real depende por completo del desempeño de la sucursal de Philae.
+0058 [Tú] | Entendido. No pagan horas extra.
+0059 [Tú] | Entonces, si esas horas se pueden cambiar por días de descanso,==W== eso también me funcionaría.
+0060 [Interviewer] | Sabe que la seguridad alimentaria es crucial. Con frecuencia estamos de guardia por emergencias. En principio, sí, recibiría días de descanso a cambio.
+0061 [Tú] | Ajá. Tampoco hay días libres.
+0062 [Tú] | Ni modo. De vuelta a la realidad: un buen sueldo y poco estrés simplemente no pueden coexistir...
+0063 [Tú] | Hora de dejar de soñar.
+0064 [Tú] | Entendido. Comprendo la postura de la empresa. Estoy de acuerdo con el horario.
+0065 [Lugar y hora] | 14:00, 30.º del mes de Tonitrua, Distrito de Oro de Philae, Oficina Ejecutiva
+0066 [Firenze] | Lady Darcia, aquí están las evaluaciones de los cinco candidatos. Por favor, écheles un vistazo.
+0067 [Darcia] | Gracias. Revisaré los papeles más tarde. Ahora mismo quiero tu opinión personal; después de todo, tú estuviste en la sala.
+0068 [Firenze] | Iris encaja bien en Estrategia: es una trabajadora confiable. En el papel, sus certificados prácticamente no valen nada, pero haberlos obtenido demuestra que es empeñosa y leal. Sería un buen ejemplo para el equipo.
+0069 [Firenze] | ==PLAYER_NAME== tiene verdadero potencial de liderazgo. ==SEX1== logró reunir en torno a ==SEX4== a esa caótica mezcla de Trekkers.
+0070 [Firenze] | Pero es evidente que ==SEX== odia nuestra política de horas extra. No se lo puedo reprochar a ==SEX4==; ¿a quién no? Aun así, al final ==SEX== dio un «sí» cortés, aunque ==SEX== no lo dijera en serio. Eso demuestra flexibilidad.
+0071 [Tú] | Desde su punto de vista, quieren burros de carga que trabajen más por menos dinero.
+0072 [Tú] | Dijo «opinión sincera», pero solo un tonto caería en esa trampa.
+0073 [Tú] | ¡Por supuesto! ¡Sacrificarse por la empresa es la mayor bendición de un empleado!
+0074 [Tú] | ¡El trabajo demuestra mi verdadero valor! ¿Cómo podrían compararse con eso trivialidades como el «sueldo» o las «vacaciones»?
+0075 [Tú] | ¡Esta empresa es mi hogar! ¿Y ustedes? ¡Ustedes son mi familia!
+0076 [Interviewer] | Je. Gracias por su respuesta. Con esto concluye la entrevista.
+0077 [Lugar y hora] | 14:00, 30.º del mes de Tonitrua, Distrito de Oro de Philae, Oficina Ejecutiva
+0078 [Firenze] | Lady Darcia, aquí están las evaluaciones de los cinco candidatos. Por favor, écheles un vistazo.
+0079 [Darcia] | Gracias. Revisaré los papeles más tarde. Ahora mismo quiero tu opinión personal; después de todo, tú estuviste en la sala.
+0080 [Firenze] | Iris encaja bien en Estrategia: es una trabajadora confiable. En el papel, sus certificados prácticamente no valen nada, pero haberlos obtenido demuestra que es empeñosa y leal. Sería un buen ejemplo para el equipo.
+0081 [Firenze] | ==PLAYER_NAME== es aún más perspicaz que Iris. No solo ==SEX== sabe liderar, sino que ==SEX== captó al instante el trasfondo de mis preguntas. Esa clase de intuición es poco común.
+0082 [Firenze] | Dicho esto, ==SEX== sabe lo brutales que son nuestros horarios y aun así afirmó que «la empresa es su hogar». Alguien dispuesto a mentir con tanto descaro debe ir tras algo grande.
+0083 [Tú] | ¡Tengo una vida fuera del trabajo! ¡No aceptaría eso ni por todo el dinero del mundo!
+0084 [Interviewer] | ¿Ah, sí? Qué lástima. Entonces, con esto concluye la entrevista.
+0085 [Tú] | Supongo que eso pasa por ser honesto... Adiós al encargo.
+0086 [Tú] | ¡¿Pero a quién le importa?! ¡Vivir es decir tu verdad!
+0087 [Interviewer] | ¿Y bien? ¿Su respuesta?
+0088 [Tú] | ¿Mi respuesta? ¿Hace falta preguntar?
+0089 [Tú] | ¡Prefiero morir!==W== ¿Cómo puede existir una pesadilla así en Nova? ¿Doce horas al día, siete días a la semana? ¡Eso no es una empresa, es el infierno!
+0090 [Lugar y hora] | 14:00, 30.º del mes de Tonitrua, Distrito de Oro de Philae, Oficina Ejecutiva
+0091 [Firenze] | Lady Darcia, aquí están las evaluaciones de los cinco candidatos. Por favor, écheles un vistazo.
+0092 [Darcia] | Gracias. Revisaré los papeles más tarde. Ahora mismo quiero tu opinión personal; después de todo, tú estuviste en la sala.
+0093 [Firenze] | Iris encaja bien en Estrategia: es una trabajadora confiable. En el papel, sus certificados prácticamente no valen nada, pero haberlos obtenido demuestra que es empeñosa y leal. Sería un buen ejemplo para el equipo.
+0094 [Firenze] | ==PLAYER_NAME== estalló por nuestra política de horas extra. ==SEX1== prácticamente calificó nuestro horario obligatorio de crimen contra la humanidad.
+0095 [Firenze] | La verdad, últimamente las horas extra en esta sucursal han sido excesivas. Las personas no son Artefactos, y hasta los Artefactos se rompen si los usas de más. De verdad creo que deberíamos reconsiderar la carga de trabajo.
+0096 [Firenze] | En cuanto a las otras tres...==W== No califican en absoluto. Cosecha Unida no necesita Trekkers tan libres de espíritu.
+0097 [Darcia] | Entendido. Contrata a los cinco.
+0098 [Firenze] | ¡¿P-por qué?!
+0099 [Darcia] | Piensa en los cambios que esta sangre «libre» podría traerle a Cosecha Unida...==W== ¿No es algo que vale la pena esperar con ansias?
+0100 [Firenze] | Lady Darcia, hay un problema enorme con este grupo...
+0101 [Darcia] | Lo sé. Son de Boss Accord (Staffing Co.). Y uno de ellos es el director ejecutivo al que llaman el «Jefe».
+0102 [Firenze] | Así que ya lo sabía...
+0103 [Darcia] | Naturalmente. Boss Accord es prácticamente un nombre conocido en todo Philae hoy en día.
+0104 [Firenze] | ¿No le preocupan nuestros secretos comerciales? Después de todo, dirigen una empresa rival.
+0105 [Darcia] | Me dicen que Boss Accord se especializa en «comercio de almas». Cosecha Unida se dedica a los granos y los alimentos: no hay conflicto de intereses.
+0106 [Darcia] | Además... Cuando se supo que el Pacto se había reactivado, ¿no enviaste agentes a investigarlos?==W== Ahora podremos observarlos de cerca. ¿No es justo lo que querías?
+0107 [Firenze] | No... puedo negarlo.
+0108 [Darcia] | Je, lo suponía. Después de todo, no es la primera vez que te cruzas con ellos, ¿verdad?
+0109 [Firenze] | Es cierto. Aunque, para ser precisa, fueron ellos quienes se acercaron a nosotros.
+0110 [Firenze] | En cualquier caso, está claro que ==SEX== entiende el funcionamiento de una empresa mucho mejor que la mayoría y sabe exactamente cómo sacarle provecho a una situación.
+0111 [Darcia] | Exacto. Tengo muchas ganas de ver cómo se desarrolla esto.
+0112 [Firenze] | Entonces...
+0113 [Darcia] | Hay una razón más profunda para contratarlos. Piénsalo: si rechazáramos sus solicitudes, los rumores por sí solos podrían manchar la reputación de Cosecha Unida.
+0114 [Firenze] | Entendido. ¿Tiene alguna instrucción específica sobre dónde asignarlos?
+0115 [Darcia] | Por ahora, asígnalos a todos al proyecto Ruiseñor Leonado del Departamento de Estrategia. Aunque hagan un desastre, ese equipo es lo bastante resistente para aguantarlo.
+0116 [Firenze] | Entonces coordinaré los siguientes pasos con la gerente Mina. ¿Le parece bien?
+0117 [Darcia] | Por cierto, noté que en este grupo había otra Trekker que no se presentó a la entrevista. ¿También es de Boss Accord?
+0118 [Firenze] | No, es una Trekker independiente llamada Cosette.
+0119 [Firenze] | Falsificó su edad y puso veinte años, pero en realidad es mucho más joven, muy por debajo del límite legal. La descartamos antes de la entrevista.
+0120 [Darcia] | Bien. Eso es todo por hoy.
+0121 [Firenze] | Entendido. Con su permiso, me retiro.
+0122 [Darcia] | Je... Jejeje... Adelante, déjame presenciar tu verdadero poder.==W== ¿Eres el auténtico Tirano o solo una imitación barata?

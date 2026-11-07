@@ -1,149 +1,149 @@
-# Capítulo 4 · Más allá del sueño · 4B · The Past You
+# Capítulo 4 · Más allá del sueño · 4B · Tu yo del pasado
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Dead Merc | Dead Merc
-N:Desperate Merc | Desperate Merc
-N:Garden of Parasite | Garden of Parasite
-N:Gentle Shrubshrew | Gentle Shrubshrew
-N:Hunting Squad Member | Hunting Squad Member
-N:Mortally Wounded Merc | Mortally Wounded Merc
-N:Short Shrubshrew | Short Shrubshrew
-N:Strong Shrubshrew | Strong Shrubshrew
+N:Dead Merc | Mercenario muerto
+N:Desperate Merc | Mercenario desesperado
+N:Garden of Parasite | Jardín Parásito
+N:Gentle Shrubshrew | Shrubshrew manso
+N:Hunting Squad Member | Miembro del escuadrón de caza
+N:Mortally Wounded Merc | Mercenario herido de muerte
+N:Short Shrubshrew | Shrubshrew bajito
+N:Strong Shrubshrew | Shrubshrew fuerte
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
 N:avg1_133 | Nazuka
 N:avg1_134 | Fuyuka
 N:avg1_156 | Nazuna
-N:avg2_001 | Shrubshrew Thug
-N:avg2_002 | Shrubshrew Stake
-N:avg2_003 | Shrubshrew Grenadier
-N:avg2_969 | Wandering Birds Trekker
-N:avg2_970 | Wandering Birds Trekker
-N:avg2_971 | Wandering Birds Trekker
-N:avg2_976 | Associated Tree
+N:avg2_001 | Shrubshrew matón
+N:avg2_002 | Shrubshrew estaca
+N:avg2_003 | Shrubshrew granadero
+N:avg2_969 | Trekker de las Aves Errantes
+N:avg2_970 | Trekker de las Aves Errantes
+N:avg2_971 | Trekker de las Aves Errantes
+N:avg2_976 | Árbol Asociado
 N:avg2_977 | Alpha Boar
 N:avg3_100 | Sylar
-N:avg3_120 | United Harvest Forester
+N:avg3_120 | Guardabosques de Cosecha Unida
 N:avg3_121 | Empleado de Cosecha Unida
-N:avg3_122 | United Harvest Manager
+N:avg3_122 | Gerente de Cosecha Unida
 N:avg3_1246 | Alpha Boar
 N:avg3_1247 | Alpha Boar
 N:avg3_1248 | Alpha Boar
-N:avg3_1254 | Symbiotic Tree
+N:avg3_1254 | Árbol Simbiótico
 N:avg3_132 | Kaede
 N:avg3_135 | Claire
 
 ## Texto
-0001 [Intro] | Act Four
-0002 [Intro] | The Past You
-0003 [Intro] | You trust the bond between Nazuka and Petal Bloom and let them fight together. Their cooperation remains skillful and successful. However, Claire blocks their path, acting on her company mission.
-0004 [Lugar y hora] | 07:45, Pluvia Month 28th, Outside Philae, Deep in the Forest
-0005 [Fuyuka] | Hah—!
-0006 [Narración] | Fuyuka blasts the cabin door open with a punch. Nazuna and Kaede file in, expertly covering different angles.
-0007 [Kaede] | Right side's clear.==W== How's your side, Nazuna?
-0008 [Nazuna] | Left's clear, too.
-0009 [Nazuka] | But that can't be... We saw the Garden of Parasite slip in here.
-0010 [Nazuna] | No matter its size, the Garden of Parasite is just a big mimic vine at heart. And as a vine, it can change its shape.
-0011 [Nazuna] | C'mere, look at this.
-0012 [Kaede] | Lots of cracks in the wall. Pretty normal for a rundown shack, no?
-0013 [Nazuna] | It would be, but a lot of these cracks are fresh.
-0014 [Nazuna] | If the Garden of Parasite dropped its disguise and reverted to vine form, slipping through cracks this size wouldn't be a problem.
-0015 [Fuyuka] | So ... it got away?
-0016 [Nazuna] | No, that's not right. If it were hunting and found nothing, it would've just left. Why bother with such a tricky escape,==W== unless it was trying to—
-0017 [Nazuka] | Behind us!
-0018 [Nazuna] | So, it learned to flank. Smarter than I gave you credit for, huh?
-0019 [Nazuka] | Careful! Magic mist attack!
-0020 [Nazuna] | Heh, same old trick? Not gonna work on me twice!
-0021 [Lugar y hora] | 07:45, Pluvia Month 28th, Outside Philae, Deep in the Forest
-0022 [Noya] | Sounds like the fight's kicked off at the cabin. ==PLAYER_NAME==, we're not just gonna watch, are we?
-0023 [Tú] | Have a little faith. Nazuka and Petal Bloom know these monsters better than anyone.
-0024 [Tú] | Doesn't mean we're off the hook, though. A fight this big will draw more monsters. Our job is to hold the line so nothing gets through to them.
-0025 [Iris] | Got it. Noya and I are on it—==W==Huh? Amber, what's wrong?
-0026 [Amber] | They're already here.
-0027 [Claire] | Where did all these things come from?!==W== Hey! Knock it off, I'm not on the menu—!
-0028 [Noya] | These monsters are behaving strangely. Usually, they'd run from a group of people this big, yet they're now charging right at us...
-0029 [Iris] | And the Bark Boars, too. They're docile creatures, but look at them now... They're acting ... feral.
-0030 [Tú] | They must have been exposed to the Garden of Parasite's magic mist. We probably just look like food to them.
-0031 [Iris] | Oh, that's why they went after Claire—==W==Ack! Get off my hat!
-0032 [Tú] | We have to push them back. Whatever happens, we can't let them interfere with Nazuka's fight.
-0033 [Hunting Squad Member] | Copy that.
-0034 [Claire] | No... at this rate, I'll never get "that thing."==W== Gotta think of something else. Can't keep wasting time fighting these Bark Boars.
-0035 [Lugar y hora] | 08:15, Pluvia Month 28th, Outside Philae, Deep in the Forest
-0036 [Fuyuka] | Take this!
-0037 [Fuyuka] | Nazuna senpai, watch out! It's heading your way!
-0038 [Short Shrubshrew] | Squeak!
-0039 [Fuyuka] | Whoa, where'd this Shrubshrew come from? It's chucking berries at the Garden of Parasite?
-0040 [Fuyuka] | Huh? What's wrong? Kaede senpai—
-0041 [Fuyuka] | Wha-wha-wha-WHAAAAT?!
-0042 [Gentle Shrubshrew] | Squeak, squeak squeak...
-0043 [Fuyuka] | "Don't panic, it's all an illusion"...==W== Oh, I get it now.
-0044 [Fuyuka] | Th-thank you. Um... Kaede?
-0045 [Gentle Shrubshrew] | Squeak!
-0046 [Fuyuka] | Hmm... So Nazuna's the one throwing berries, and that scary-looking Bark Boar is Nazuka senpai?
-0047 [Nazuka] | What are those Shrubshrews chittering about over there?
-0048 [Garden of Parasite] | Creak, creak...
-0049 [Nazuka] | It's about to release that magic mist again, huh? What a nuisance.
-0050 [Short Shrubshrew] | Squeak, squeak!
-0051 [Nazuka] | Heh, nice shot. Plugged that thing's flower bud right up.
-0052 [Nazuka] | Too bad, Garden of Parasite. Looks like your precious magic mist is useless now, doesn't it?
-0053 [Nazuna] | Eat this—!
-0054 [Nazuna] | Huh? The bolt went right through it... But how?
-0055 [Nazuna] | Darn it, the Garden of Parasite has made itself part of the illusion, too!
-0056 [Nazuna] | Ugh... This makes things tricky. Was it always this cunning before?
-0057 [Nazuna] | Huh? Why's that Bark Boar so lively?==W== Wait ... could that be ... Nazuka?
-0058 [Nazuna] | Heh, same as always. You're still charging ahead first.
-0059 [Nazuna] | Ahaha... I can tell who you guys are just from your habits and moves!
-0060 [Nazuna] | Well then...==W== I can't let Nazuka show me up!
-0061 [Lugar y hora] | 08:25, Pluvia Month 28th, Outside Philae, Deep in the Forest
-0062 [Iris] | We've ... taken down all the monsters here. Noya, how about you?
-0063 [Noya] | We've cleared out all the monsters caught in the mist. Bet Nazuka and Petal Bloom are almost finished, too.
-0064 [Tú] | Amber, is anyone hurt?
-0065 [Amber] | No one's hurt. But the vice-captain is missing.
-0066 [Tú] | Claire? But she was here just a moment ago... Where did she go?
-0067 [Lugar y hora] | 08:30, Pluvia Month 28th, Outside Philae, Near the Cabin
-0068 [Garden of Parasite] | CRACK... SNAP—
-0069 [Nazuka] | The Garden of Parasite is breaking its own branches... Why is it harming itself like this?
-0070 [Nazuka] | Wait a minute... Is it trying to focus its magic somewhere by trimming itself down?
-0071 [Narración] | A new flower bud bursts open, spewing a thick magic mist that instantly engulfs Nazuka and Petal Bloom.
-0072 [Nazuka] | This trick again? It's useless.==W== I can tell who my real friends are!
-0073 [Narración] | It hurts ... so much... Terrifying...
-0074 [Narración] | I don't want to die... Help me... Please, help me...
-0075 [Narración] | I just want to go back to my friends...
-0076 [Nazuka] | Is the Garden of Parasite ...==W== talking?
-0077 [Nazuka] | No, that's not right. This must be an illusion ... its last desperate attempt to survive.
-0078 [Nazuka] | And if these are the last words of the people it killed ... making me listen to them is just plain sadistic.
-0079 [Dead Merc] | Why...==W== Why were you the only survivor?
-0080 [Desperate Merc] | Why didn't you help us ...==W== back then?
-0081 [Mortally Wounded Merc] | You failed to protect us...==W== What makes you think you can protect your new companions...
-0082 [Nazuka] | Ugh... What are these voices...?
-0083 [Short Shrubshrew] | Squeak, squeak squeak—
-0084 [Narración] | The little Shrubshrew pats itself, wraps its arms in a hug, points to the other Shrubshrews, and finally, covers its ears.
-0085 [Nazuka] | Are you trying to say ... that I should ignore what those illusions are saying because you're all here with me? Is that it?
-0086 [Short Shrubshrew] | Squeak!
-0087 [Nazuka] | Heh. You know... I have no idea who you are, and I can barely understand a word you're saying—but thank you.
-0088 [Nazuka] | I have to protect everyone.==W== And that means this Garden of Parasite—a thing that learned to talk just to twist my mind and lead us to ruin—has to be destroyed.
-0089 [Nazuka] | We'll drive it into that cabin and burn the whole thing down!
-0090 [Garden of Parasite] | Grrr—
-0091 [Nazuka] | Now! ! Fire!
-0092 [Strong Shrubshrew] | Squeak, squeak squeak!
-0093 [Narración] | With the Garden of Parasite cornered in the cabin, sparks fly from the Shrubshrew's fists, setting the thatched roof ablaze.
-0094 [Nazuka] | What the—?! How is this happening?!
-0095 [Strong Shrubshrew] | Squeak?
-0096 [Nazuka] | There are ... two Gardens of Parasite in there.
-0097 [Gentle Shrubshrew] | Squeak? Squeak squeak squeak!
-0098 [Nazuka] | I get it—a Trekker must have got in.==W== No, no time to second-guess. We have to put that fire out.
-0099 [Narración] | Trees, split. Let the mountains tremble—
-0100 [Narración] | A gale of green energy snuffs out the fledgling flames and parts the mist, granting everyone a moment of clarity.
-0101 [Nazuka] | Cough, cough...==W== Are you alright?==W== Why did you rush in—
-0102 [Nazuka] | Claire?==W== What are you doing here?
-0103 [Claire] | Nazuka,==W== are you out of your mind?!==W== If you'd torched that thing,==W== we would've all gone up in smoke with it!
-0104 [Garden of Parasite] | CREEEAK—==W==CREEEAK—
-0105 [Nazuka] | Ugh... That sound...?! Everyone, get back! Now!
-0106 [Narración] | Death, comes, for, you, all—
-0107 [Claire] | Huh? What's happening?==W== Did the Garden of Parasite just ...==W== speak?
-0108 [Narración] | In an instant, magic mist pours out from the Garden of Parasite's buds once again, swiftly enveloping the cabin and everyone.
-0109 [Tú] | Nazuka, the mist is getting too thick! We have to pull back!
-0110 [Nazuka] | Understood. The Petal Bloom and I will cover our retreat.==W== Boss, you and your team get out of here, now!
+0001 [Intro] | Acto cuatro
+0002 [Intro] | Tu yo del pasado
+0003 [Intro] | Confías en el lazo entre Nazuka y Petal Bloom y dejas que peleen juntas. Su cooperación sigue siendo hábil y exitosa. Sin embargo, Claire les cierra el paso, actuando según la misión de su empresa.
+0004 [Lugar y hora] | 07:45, 28.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0005 [Fuyuka] | ¡Haa...!
+0006 [Narración] | Fuyuka abre de golpe la puerta de la cabaña con un puñetazo. Nazuna y Kaede entran en fila, cubriendo con destreza distintos ángulos.
+0007 [Kaede] | El lado derecho está despejado.==W== ¿Cómo va tu lado, Nazuna?
+0008 [Nazuna] | El izquierdo también está despejado.
+0009 [Nazuka] | Pero no puede ser... Vimos al Jardín Parásito colarse aquí.
+0010 [Nazuna] | No importa su tamaño, en el fondo el Jardín Parásito no es más que una enorme enredadera mimética. Y como enredadera, puede cambiar de forma.
+0011 [Nazuna] | Ven, mira esto.
+0012 [Kaede] | Muchas grietas en la pared. Bastante normal para una choza en ruinas, ¿no?
+0013 [Nazuna] | Lo sería, pero muchas de estas grietas son recientes.
+0014 [Nazuna] | Si el Jardín Parásito dejó su disfraz y volvió a su forma de enredadera, colarse por grietas de este tamaño no sería problema.
+0015 [Fuyuka] | Entonces... ¿se escapó?
+0016 [Nazuna] | No, eso no cuadra. Si estuviera cazando y no encontrara nada, simplemente se habría ido. ¿Para qué molestarse con un escape tan rebuscado,==W== a menos que estuviera tratando de...?
+0017 [Nazuka] | ¡Detrás de nosotras!
+0018 [Nazuna] | Así que aprendió a flanquear. Eres más listo de lo que pensaba, ¿eh?
+0019 [Nazuka] | ¡Cuidado! ¡Ataque de niebla mágica!
+0020 [Nazuna] | Je, ¿el mismo truco de siempre? ¡No me vas a engañar dos veces!
+0021 [Lugar y hora] | 07:45, 28.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0022 [Noya] | Parece que la pelea ya empezó en la cabaña. ==PLAYER_NAME==, no nos vamos a quedar solo mirando, ¿o sí?
+0023 [Tú] | Ten un poco de fe. Nazuka y Petal Bloom conocen a estos monstruos mejor que nadie.
+0024 [Tú] | Pero eso no significa que nos podamos relajar. Una pelea así de grande atraerá a más monstruos. Nuestro trabajo es mantener la línea para que nada llegue hasta ellas.
+0025 [Iris] | Entendido. Noya y yo nos encargamos...==W== ¿Eh? Amber, ¿qué pasa?
+0026 [Amber] | Ya están aquí.
+0027 [Claire] | ¡¿De dónde salieron todas estas cosas?!==W== ¡Oye! ¡Ya basta, yo no estoy en el menú...!
+0028 [Noya] | Estos monstruos se comportan de forma rara. Normalmente huirían de un grupo de gente tan grande, y ahora vienen directo hacia nosotros...
+0029 [Iris] | Y también los Jabalíes Corteza. Son criaturas dóciles, pero mírenlos ahora... Están actuando... como salvajes.
+0030 [Tú] | Deben haber estado expuestos a la niebla mágica del Jardín Parásito. Seguro que para ellos solo parecemos comida.
+0031 [Iris] | Ah, por eso fueron tras Claire...==W== ¡Ay! ¡Suelta mi sombrero!
+0032 [Tú] | Tenemos que hacerlos retroceder. Pase lo que pase, no podemos dejar que interfieran en la pelea de Nazuka.
+0033 [Hunting Squad Member] | Recibido.
+0034 [Claire] | No... a este paso, nunca voy a conseguir «esa cosa».==W== Tengo que pensar en otra cosa. No puedo seguir perdiendo el tiempo peleando con estos Jabalíes Corteza.
+0035 [Lugar y hora] | 08:15, 28.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0036 [Fuyuka] | ¡Toma esto!
+0037 [Fuyuka] | ¡Nazuna senpai, cuidado! ¡Va hacia ti!
+0038 [Short Shrubshrew] | ¡Chi!
+0039 [Fuyuka] | Uy, ¿de dónde salió este Shrubshrew? ¿Le está aventando bayas al Jardín Parásito?
+0040 [Fuyuka] | ¿Eh? ¿Qué pasa? Kaede senpai...
+0041 [Fuyuka] | ¡¿Q-q-q-QUÉÉÉÉ?!
+0042 [Gentle Shrubshrew] | Chi, chi chi...
+0043 [Fuyuka] | «No te asustes, todo es una ilusión»...==W== Ah, ya entiendo.
+0044 [Fuyuka] | G-gracias. Eh... ¿Kaede?
+0045 [Gentle Shrubshrew] | ¡Chi!
+0046 [Fuyuka] | Mmm... Entonces la que avienta bayas es Nazuna, ¿y ese Jabalí Corteza de aspecto aterrador es Nazuka senpai?
+0047 [Nazuka] | ¿Qué tanto chillan esos Shrubshrews de allá?
+0048 [Garden of Parasite] | Cruje, cruje...
+0049 [Nazuka] | Está a punto de soltar esa niebla mágica otra vez, ¿eh? Qué fastidio.
+0050 [Short Shrubshrew] | ¡Chi, chi!
+0051 [Nazuka] | Je, buen tiro. Le tapó el capullo a esa cosa.
+0052 [Nazuka] | Qué lástima, Jardín Parásito. Parece que tu preciada niebla mágica ya no sirve de nada, ¿verdad?
+0053 [Nazuna] | ¡Trágate esto...!
+0054 [Nazuna] | ¿Eh? El virote lo atravesó... Pero ¿cómo?
+0055 [Nazuna] | ¡Rayos, el Jardín Parásito también se volvió parte de la ilusión!
+0056 [Nazuna] | Ugh... Esto complica las cosas. ¿Siempre fue así de astuto?
+0057 [Nazuna] | ¿Eh? ¿Por qué ese Jabalí Corteza está tan animado?==W== Espera... ¿será... Nazuka?
+0058 [Nazuna] | Je, igual que siempre. Sigues lanzándote primero.
+0059 [Nazuna] | Jajaja... ¡Puedo saber quiénes son solo por sus mañas y sus movimientos!
+0060 [Nazuna] | Bueno, entonces...==W== ¡No puedo dejar que Nazuka me opaque!
+0061 [Lugar y hora] | 08:25, 28.º del mes de Pluvia, afueras de Philae, en lo profundo del bosque
+0062 [Iris] | Ya... acabamos con todos los monstruos de aquí. Noya, ¿y tú?
+0063 [Noya] | Ya despejamos a todos los monstruos atrapados en la niebla. Seguro que Nazuka y Petal Bloom también están por terminar.
+0064 [Tú] | Amber, ¿hay heridos?
+0065 [Amber] | Nadie está herido. Pero falta la subcapitana.
+0066 [Tú] | ¿Claire? Pero estaba aquí hace un momento... ¿Adónde se fue?
+0067 [Lugar y hora] | 08:30, 28.º del mes de Pluvia, afueras de Philae, cerca de la cabaña
+0068 [Garden of Parasite] | CRAC... ¡CRAAAC!
+0069 [Nazuka] | El Jardín Parásito se está rompiendo sus propias ramas... ¿Por qué se hace daño así?
+0070 [Nazuka] | Un momento... ¿Estará podándose para concentrar su magia en algún punto?
+0071 [Narración] | Un nuevo capullo se abre de golpe y suelta una espesa niebla mágica que envuelve al instante a Nazuka y a Petal Bloom.
+0072 [Nazuka] | ¿Otra vez este truco? Es inútil.==W== ¡Puedo distinguir quiénes son mis verdaderas amigas!
+0073 [Narración] | Duele... tanto... Qué miedo...
+0074 [Narración] | No quiero morir... Ayúdenme... Por favor, ayúdenme...
+0075 [Narración] | Solo quiero volver con mis amigos...
+0076 [Nazuka] | ¿El Jardín Parásito...==W== está hablando?
+0077 [Nazuka] | No, eso no puede ser. Debe ser una ilusión... su último intento desesperado por sobrevivir.
+0078 [Nazuka] | Y si estas son las últimas palabras de la gente que mató... obligarme a escucharlas es puro sadismo.
+0079 [Dead Merc] | ¿Por qué...==W== Por qué fuiste la única que sobrevivió?
+0080 [Desperate Merc] | ¿Por qué no nos ayudaste...==W== aquella vez?
+0081 [Mortally Wounded Merc] | No pudiste protegernos...==W== ¿Qué te hace pensar que puedes proteger a tus nuevos compañeros...?
+0082 [Nazuka] | Ugh... ¿Qué son estas voces...?
+0083 [Short Shrubshrew] | Chi, chi chi...
+0084 [Narración] | El pequeño Shrubshrew se da unas palmaditas, se abraza a sí mismo, señala a los otros Shrubshrews y, por último, se tapa las orejas.
+0085 [Nazuka] | ¿Intentas decirme... que ignore lo que dicen esas ilusiones porque todas ustedes están aquí conmigo? ¿Es eso?
+0086 [Short Shrubshrew] | ¡Chi!
+0087 [Nazuka] | Je. ¿Sabes? No tengo idea de quién eres, y apenas entiendo lo que dices, pero gracias.
+0088 [Nazuka] | Tengo que proteger a todas.==W== Y eso significa que este Jardín Parásito, una cosa que aprendió a hablar solo para retorcerme la mente y llevarnos a la ruina, tiene que ser destruido.
+0089 [Nazuka] | ¡Vamos a acorralarlo dentro de esa cabaña y quemarla entera!
+0090 [Garden of Parasite] | Grrr...
+0091 [Nazuka] | ¡Ahora! ¡Fuego!
+0092 [Strong Shrubshrew] | ¡Chi, chi chi!
+0093 [Narración] | Con el Jardín Parásito acorralado en la cabaña, saltan chispas de los puños del Shrubshrew y prenden fuego al techo de paja.
+0094 [Nazuka] | ¡¿Pero qué...?! ¡¿Cómo es posible?!
+0095 [Strong Shrubshrew] | ¿Chi?
+0096 [Nazuka] | Ahí dentro hay... dos Jardines Parásitos.
+0097 [Gentle Shrubshrew] | ¿Chi? ¡Chi chi chi!
+0098 [Nazuka] | Ya entiendo: debió de meterse un Trekker.==W== No, no hay tiempo para dudar. Tenemos que apagar ese fuego.
+0099 [Narración] | Que los árboles se partan. Que tiemblen las montañas...
+0100 [Narración] | Un vendaval de energía verde sofoca las llamas incipientes y abre la niebla, dándoles a todos un momento de claridad.
+0101 [Nazuka] | Cof, cof...==W== ¿Estás bien?==W== ¿Por qué te metiste...?
+0102 [Nazuka] | ¿Claire?==W== ¿Qué haces aquí?
+0103 [Claire] | Nazuka,==W== ¡¿perdiste la cabeza?!==W== ¡Si hubieras quemado esa cosa,==W== todas nos habríamos hecho humo con ella!
+0104 [Garden of Parasite] | CRUUUJE...==W== CRUUUJE...
+0105 [Nazuka] | Ugh... ¡¿Ese sonido...?! ¡Todas, atrás! ¡Ya!
+0106 [Narración] | La, muerte, viene, por, todos, ustedes...
+0107 [Claire] | ¿Eh? ¿Qué está pasando?==W== ¿El Jardín Parásito acaba de...==W== hablar?
+0108 [Narración] | En un instante, la niebla mágica vuelve a brotar de los capullos del Jardín Parásito y envuelve rápidamente la cabaña y a todos.
+0109 [Tú] | ¡Nazuka, la niebla se está volviendo demasiado espesa! ¡Tenemos que retirarnos!
+0110 [Nazuka] | Entendido. Petal Bloom y yo cubriremos la retirada.==W== Jefe, ¡tú y tu equipo salgan de aquí, ya!

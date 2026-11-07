@@ -1,16 +1,16 @@
-# Capítulo 7 · El precio de la estrella · Final: From Another World
+# Capítulo 7 · El precio de la estrella · Final: De otro mundo
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Arrogant New Orelian Remnant | Arrogant New Orelian Remnant
-N:Calm New United Harvest Soldier | Calm New United Harvest Soldier
-N:Frenzied New Orelian Remnant | Frenzied New Orelian Remnant
-N:Panicked New Orelian Remnant | Panicked New Orelian Remnant
-N:Panicked Senator | Panicked Senator
-N:Senate Speaker | Senate Speaker
-N:Spirited New United Harvest Soldier | Spirited New United Harvest Soldier
-N:Terrified New Orelian Remnant | Terrified New Orelian Remnant
+N:Arrogant New Orelian Remnant | Remanente arrogante de Nueva Orelia
+N:Calm New United Harvest Soldier | Soldado sereno de la nueva Cosecha Unida
+N:Frenzied New Orelian Remnant | Remanente frenético de Nueva Orelia
+N:Panicked New Orelian Remnant | Remanente aterrado de Nueva Orelia
+N:Panicked Senator | Senador aterrado
+N:Senate Speaker | Presidente del Senado
+N:Spirited New United Harvest Soldier | Soldado animado de la nueva Cosecha Unida
+N:Terrified New Orelian Remnant | Remanente aterrorizado de Nueva Orelia
 N:avg1_103 | Amber
 N:avg1_110 | Firenze
 N:avg1_112 | Noya
@@ -18,145 +18,145 @@ N:avg1_133 | Nazuka
 N:avg1_138 | Nyx
 N:avg1_1994 | Nazuka
 N:avg3_100 | Sylar
-N:avg3_120 | United Harvest Forester
+N:avg3_120 | Guardabosques de Cosecha Unida
 N:avg3_121 | Empleado de Cosecha Unida
-N:avg3_122 | United Harvest Manager
-N:avg3_1220 | United Harvest Forester
-N:avg3_1221 | United Harvest Forester
+N:avg3_122 | Gerente de Cosecha Unida
+N:avg3_1220 | Guardabosques de Cosecha Unida
+N:avg3_1221 | Guardabosques de Cosecha Unida
 N:avg3_1249 | Empleado de Cosecha Unida
 N:avg3_1250 | Empleado de Cosecha Unida
 N:avg3_143 | Residente
 N:avg3_144 | Residente
-N:avg3_145 | Gold District Resident
+N:avg3_145 | Residente del Distrito de Oro
 N:avg3_146 | Residente del Distrito de Oro
 N:avg3_147 | Residente del Distrito de Oro
 N:avg3_152 | Bastelina
 N:avg3_173 | Bernina
 N:avg3_174 | Virigia
-N:avg3_175 | Loong Resident
+N:avg3_175 | Residente de Loong
 N:avg3_178 | Estudiante de la Academia Luz de Gracia
 N:avg3_215 | Matilda
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | The End
-0002 [Intro] | From Another World
-0003 [Intro] | You choose to partner with Matilda, dealing a direct blow to the Senate's power in New Orelian. Matilda achieves a total victory. However, the resentful remnants ambush you with a huge Artifact car...
-0004 [Narración] | Monolith Calendar Year 998, Messis Month, Philae
-0005 [Matilda] | Boss, thank you for stepping up.==W== The new United Harvest owes you.
-0006 [Tú] | You're too kind, Lady Matilda. Without your backing, United Harvest Philae wouldn't have survived.
-0007 [Tú] | Now we return the favor.==W== My team agrees—your shares go back to you.
-0008 [Firenze] | United Harvest Philae stands with you. Let's rebuild Nova's food supply together.
-0009 [Matilda] | Thank you. But I refuse.
-0010 [Tú] | Why? You don't want us on your side?
-0011 [Matilda] | Never. I truly admire what you and Firenze have accomplished here.
-0012 [Matilda] | The two of you carry Samuel's vision.==W== And that's why I refuse to drag United Harvest Philae into this internal war.
-0013 [Matilda] | You steer the future. Don't waste it on this ugly blood feud.
-0014 [Tú] | Blood feud?==W== What do you mean? You hold the Seal of Grace—United Harvest's absolute authority.
-0015 [Matilda] | I do. I also built the new United Harvest, but too many have sacrificed in the process. I lack the strength to crush the rogue branches and those New Orelian elites now.
-0016 [Matilda] | The old branches are rebelling,==W== and two New Orelian legions sit tight, ready to strike south anytime.
-0017 [Matilda] | Delay any longer, and we ruin the spring sow. That means Nova starves.
-0018 [Matilda] | I won't let my grandfather's legacy become this continent's curse.
-0019 [Matilda] | So I'll march our remaining troops north. We end them before winter break.
-0020 [Matilda] | Let me stain my hands, win or lose.==W== Come spring, you finish Samuel's dream.
-0021 [Firenze] | Grand Inspector...
-0022 [Tú] | I understand.==W== But how many march with you?
-0023 [Matilda] | Two thousand.
-0024 [Nyx] | You stand no chance.==W== A full legion runs eleven thousand. Those odds are basically suicide.
-0025 [Matilda] | Our morale beats theirs cold. Even in defeat, we bleed them enough to buy you time.
-0026 [Matilda] | I see no other move.==W== Otherwise, they strike south next year.==W== As far as I know, United Harvest Philae fields no army, right?
-0027 [Firenze] | That's true...==W== I feel ashamed that we offer nothing on the battlefield.
-0028 [Tú] | Wait. Two thousand against twenty thousand.==W== That's not a sure loss.
-0029 [Tú] | Not if ...==W== each of them forges a soul pact with me.
-0030 [Narración] | One month later, near New Orelian
-0031 [Bastelina] | Boss!==W== Our soldiers are making their way into the neighboring Monoliths, nice and orderly!
-0032 [Bastelina] | I still have no idea how you convinced our Director. Mass-farming Monolith blessings for soldiers? I can't believe she approved it!
-0033 [Tú] | Maybe your Director is ...==W== a nice person?
-0034 [Tú] | I've never even met the Grace Imperium's Sky Institute Director, so there's no way I "convinced" her.==W== She's probably just worried about Nova's food supply next year, so she's extending a hand.
-0035 [Nazuka] | The Trekkers are gathered. They're escorting the remaining troops to the Monoliths in the Wilds for their blessings.
-0036 [Nazuka] | Everyone reports back by 6 a.m. tomorrow. Then, we march on New Orelian.
-0037 [Tú] | Great work, Nazuka.
-0038 [Narración] | Completing Vita's mission of collecting ten souls two years ago gives me a new authority:==W== anyone who signs a soul pact with me keeps their Monolith Blessing for a full day after leaving the Monolith.
-0039 [Narración] | The Monolith gives this special blessing to climbers. It multiplies their combat strength several times over—sometimes even tenfold.
-0040 [Narración] | That strict one-day limit makes it hard to use day to day. But when it counts, it can completely turn the tide.
-0041 [Matilda] | Soldiers, with me! Charge!
-0042 [Panicked New Orelian Remnant] | Gah!==W== What crazy strength are we dealing with?!
-0043 [Terrified New Orelian Remnant] | They take hits and don't even flinch!==W== No—our magic bullets aren't even piercing their armor!
-0044 [Panicked New Orelian Remnant] | Are these soldiers all monsters?!
-0045 [Terrified New Orelian Remnant] | It's over! We're finished!
-0046 [Spirited New United Harvest Soldier] | This Monolith blessing is insane!==W== I feel like I can take on ten guys!
-0047 [Calm New United Harvest Soldier] | Pace yourself. Your twenty-four hours are almost up. Fall back and rest. I'll take over.
-0048 [Spirited New United Harvest Soldier] | I still have thirty minutes! That's plenty of time to fight our way to the Senate and plant our flag on their roof!
-0049 [Panicked Senator] | The explosions...==W== They're getting closer. That Matilda woman is coming back to New Orelian!
-0050 [Senate Speaker] | Keep your composure. We outnumber them ten to one. This is clearly a tactic by our commanders. Lure them in and surround them, so Matilda can't escape.
-0051 [Matilda] | Funny. I'm not the one who needs to escape.
-0052 [Tú] | First time here, but it feels so familiar...==W== Didn't Nazuka and Fuyuka blast a door open like this two years ago?
-0053 [Senate Speaker] | Matilda! In the name of the Senate, I strip you of your rank at United Harvest and sentence you to ninety-nine years in prison!
-0054 [Matilda] | Oh?==W== Does a Senate without its Seal of Grace still hold any power?
-0055 [Senate Speaker] | Hmph. You must have the Seal on you.==W== Guards! Seize her and her accomplices!
-0056 [Senate Speaker] | Stealing the Seal, betraying the company, undermining the Senate...==W== Your crimes are endless!
-0057 [Matilda] | If treason is my crime, what about everyone here? What's the penalty for engineering a famine and hoarding supplies to gouge prices, all for the company's "interests"?
-0058 [Senate Speaker] | Insolence!
-0059 [Matilda] | You're the insolent one!
-0060 [Matilda] | Such a grand Senate, yet the silence is deafening.
-0061 [Matilda] | Not a whisper on the right,==W== not a whisper on the left.
-0062 [Matilda] | Good. Prick up your ears and listen to the uproar outside. I'm not the one judging you.==W== It's the people you've condemned to starve!
-0063 [Nazuka] | Boss. Lady Matilda. All 153 Senators are in custody. City combat has ceased.
-0064 [Nazuka] | We routed their defending legions with minimal losses. Casualty reports are coming in now.
-0065 [Matilda] | We...==W== We won.
-0066 [Tú] | Matilda, are you okay?
-0067 [Matilda] | I'm fine. Exhausted. The second I let my guard down, my body gave out.
-0068 [Matilda] | You know, Boss... You finally dropped the formalities with me.
-0069 [Tú] | Same to you.==W== We've fought side-by-side for a long time. Formalities don't matter anymore.
-0070 [Matilda] | Heh... Does that mean==W== I'm officially your comrade now?
-0071 [Matilda] | Ah, I already made a soul pact with you. Why am I overthinking this...==W== Sorry, Boss, for dragging you into this mess.
-0072 [Tú] | What do you mean?==W== You didn't want us getting our hands dirty in this war?
-0073 [Matilda] | I knew you'd see right through me. Whoever leads the new United Harvest can't bear the weight of this hatred.
-0074 [Matilda] | My plan is simple. Win or lose, I step down and hand the company to you. The hatred ends with me.
-0075 [Tú] | Firenze can play CEO.==W== I have a promise to keep—I'm climbing the Monolith with a certain someone.
-0076 [Nazuka] | Oh...==W== Well, the Monolith can wait. Whenever you have free time.
-0077 [Tú] | Besides, I'm the Boss. Nobody mentions it anymore, but two years ago, plenty of people were convinced I was the Tyrant.
-0078 [Tú] | Since when does a Tyrant let a little blood get in ==SEX3== way?
-0079 [Matilda] | You have a strange way of comforting people, Boss.
-0080 [Matilda] | This costs you more than your reputation.==W== We won, but we upended the entire New Orelian elite.==W== We'll have targets on our backs from now on.
-0081 [Tú] | Let them come. I doubt they're any scarier than the Big Three or a massive Stellaroid.
-0082 [Nazuka] | Boss, the doctor says Grand Inspector Matilda will be fine. It's extreme exhaustion and anemia. She needs rest.
-0083 [Tú] | Phew...==W== It's finally over. We can look forward to some peace and quiet now.
-0084 [Tú] | Come on, Nazuka. If you aren't too tired, let's go explore the Monoliths in New Orelian.
-0085 [Nazuka] | I'm not tired at all!==W== Let me change first. These work heels are too thin—they always get caug==W==—ah!
-0086 [Tú] | Caught your heel in the cobblestones?==W== Hold on, let me help.
-0087 [Frenzied New Orelian Remnant] | Matilda ... and that Boss...==W== You ruined our lives! Now you pay! Let's see how you handle my Artifact truck!
-0088 [Arrogant New Orelian Remnant] | Look, there they are! The one with the ==SEX14== is the Boss. I'm sure of it.
-0089 [Frenzied New Orelian Remnant] | Then the woman next to ==SEX4== must be Matilda! Hit the gas!
-0090 [1] | Huh? What's that sound?
-0091 [Narración] | Out of the corner of my eye, a massive Artifact truck is barreling straight at Nazuka and me.
-0092 [Opción] | Push Nazuka away
-0093 [Nazuka] | Boss—
-0094 [Narración] | Next thing I know, I'm flying through the air…
-0095 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
-0096 [Tú] | Did I ...==W== just get hit by a truck?
-0097 [Virigia] | Yep! A massive Artifact truck. We saved a recording right before impact. Take a look!
-0098 [Bernina] | Oh my. That looks way nastier than the Spirit of Brutality.
-0099 [Bernina] | Probably tougher than that giant Stellaroid at the Waterway, too. That thing shattered the second the Lucky Oasis rammed it, but this truck is huge.
-0100 [Bernina] | You faced an unprecedented enemy this time, Tyrant.==W== Losing to that monster is completely fair.
-0101 [Virigia] | You know, I read somewhere that getting hit by an Artifact truck is actually a ritual for entering another world.
-0102 [Virigia] | Tons of people travel to other worlds this way and end up becoming heroes.
-0103 [Bernina] | Huh? Then why did Tyrant end up here with us?==W== Is this room supposed to be the "other world"?
-0104 [Virigia] | Or maybe Tyrant still has too many ties here, so the other world couldn't pull you in.
-0105 [Tú] | Enough joking around, you two. How's Nazuka?==W== Is she hurt?
-0106 [Virigia] | She's completely fine. You shoved her out of the way right in time.
-0107 [Bernina] | She's been crying over your body for a while. Honestly...==W== If you hadn't pushed her, she probably could've blasted that truck to pieces with her magic.
-0108 [Tú] | Yeah, that's entirely possible...==W== Guess I just did something completely pointless.
-0109 [Tú] | But in the heat of the moment, anyone's first instinct is to protect their friends!
-0110 [Bernina] | Oh, I wouldn't be so sure. If it were me, I'd instantly use Virigia as a human shield.
-0111 [Virigia] | Then I'd cling on to you so tight you couldn't get away either!
-0112 [Tú] | ... New Orelian really is a snake pit.==W== Just like Matilda warned: even if we win the war, we can't dodge all the backstabbing and schemes from those elites.
-0113 [Tú] | When I go back, I need a completely different angle for the New Orelian problem.
-0114 [Tú] | Vita, please open the door.
-0115 [Vita] | Your command is my will.
-0116 [Virigia] | Make sure to look both ways next time you cross the street, Tyrant!
-0117 [Bernina] | Or just train your body until it's tougher than a truck.
-0118 [Tú] | I will go back...==W== This time, I must go back to the even more distant past.
-0119 [Firenze] | "Not looking to monopolize"? What's Mercurio's angle here...
-0120 [Firenze] | What do you think, Boss?
-0121 [Tú] | Perhaps taking out a loan from Deepsea Finance is the first step into the box. I should look for another way.
+0001 [Intro] | Fin
+0002 [Intro] | De otro mundo
+0003 [Intro] | Eliges aliarte con Matilda y le asestas un golpe directo al poder del Senado en Nueva Orelia. Matilda logra una victoria total. Sin embargo, los remanentes resentidos te emboscan con un enorme vehículo Artefacto...
+0004 [Narración] | Año 998 del Calendario Monolítico, mes de Messis, Philae
+0005 [Matilda] | Jefe, gracias por dar la cara.==W== La nueva Cosecha Unida está en deuda con usted.
+0006 [Tú] | Es usted muy amable, Lady Matilda. Sin su respaldo, Cosecha Unida Philae no habría sobrevivido.
+0007 [Tú] | Ahora le devolvemos el favor.==W== Mi equipo está de acuerdo: sus acciones vuelven a usted.
+0008 [Firenze] | Cosecha Unida Philae está con usted. Reconstruyamos juntos el suministro de alimentos de Nova.
+0009 [Matilda] | Gracias. Pero me niego.
+0010 [Tú] | ¿Por qué? ¿No nos quiere de su lado?
+0011 [Matilda] | Para nada. Admiro de verdad lo que usted y Firenze han logrado aquí.
+0012 [Matilda] | Ustedes dos llevan la visión de Samuel.==W== Y por eso me niego a arrastrar a Cosecha Unida Philae a esta guerra interna.
+0013 [Matilda] | Ustedes guían el futuro. No lo desperdicien en esta horrible venganza de sangre.
+0014 [Tú] | ¿Venganza de sangre?==W== ¿A qué se refiere? Usted tiene el Sello de la Gracia, la autoridad absoluta de Cosecha Unida.
+0015 [Matilda] | Así es. También construí la nueva Cosecha Unida, pero demasiados se sacrificaron en el proceso. Ahora no tengo la fuerza para aplastar a las sucursales rebeldes ni a esas élites de Nueva Orelia.
+0016 [Matilda] | Las antiguas sucursales se están rebelando,==W== y dos legiones de Nueva Orelia esperan sin moverse, listas para atacar hacia el sur en cualquier momento.
+0017 [Matilda] | Si nos tardamos más, arruinaremos la siembra de primavera. Y eso significa que Nova pasará hambre.
+0018 [Matilda] | No dejaré que el legado de mi abuelo se convierta en la maldición de este continente.
+0019 [Matilda] | Así que marcharé al norte con las tropas que nos quedan. Acabaremos con ellos antes de que llegue el invierno.
+0020 [Matilda] | Déjeme mancharme las manos, gane o pierda.==W== Cuando llegue la primavera, usted cumplirá el sueño de Samuel.
+0021 [Firenze] | Gran inspectora...
+0022 [Tú] | Entiendo.==W== Pero ¿cuántos marchan con usted?
+0023 [Matilda] | Dos mil.
+0024 [Nyx] | No tiene ninguna oportunidad.==W== Una legión completa son once mil. Con esas probabilidades, es prácticamente un suicidio.
+0025 [Matilda] | Nuestra moral supera por mucho a la suya. Incluso si perdemos, los desangraremos lo suficiente para ganarles tiempo.
+0026 [Matilda] | No veo otra jugada.==W== De lo contrario, atacarán hacia el sur el año que viene.==W== Hasta donde sé, Cosecha Unida Philae no cuenta con un ejército, ¿verdad?
+0027 [Firenze] | Es cierto...==W== Me avergüenza que no podamos ofrecer nada en el campo de batalla.
+0028 [Tú] | Espere. Dos mil contra veinte mil.==W== No es una derrota segura.
+0029 [Tú] | No si...==W== cada uno de ellos forja un pacto de almas conmigo.
+0030 [Narración] | Un mes después, cerca de Nueva Orelia
+0031 [Bastelina] | ¡Jefe!==W== ¡Nuestros soldados están entrando a los Monolitos vecinos, bien ordenaditos!
+0032 [Bastelina] | Todavía no sé cómo convenciste a nuestra directora. ¿Cosechar en masa bendiciones del Monolito para soldados? ¡No puedo creer que lo haya aprobado!
+0033 [Tú] | Tal vez tu directora es...==W== ¿una buena persona?
+0034 [Tú] | Ni siquiera conozco a la directora del Instituto del Cielo del Imperio de la Gracia, así que es imposible que yo la haya «convencido».==W== Seguramente solo le preocupa el suministro de alimentos de Nova del año que viene, y por eso nos tiende la mano.
+0035 [Nazuka] | Los Trekkers están reunidos. Están escoltando a las tropas restantes a los Monolitos de las Tierras Salvajes para recibir sus bendiciones.
+0036 [Nazuka] | Todos se reportan mañana a las 6 a. m. Después, marchamos sobre Nueva Orelia.
+0037 [Tú] | Excelente trabajo, Nazuka.
+0038 [Narración] | Haber completado hace dos años la misión de Vita de reunir diez almas me otorgó una nueva autoridad:==W== quien firme un pacto de almas conmigo conserva su Bendición del Monolito durante un día entero después de salir del Monolito.
+0039 [Narración] | El Monolito concede esta bendición especial a quienes lo escalan. Multiplica varias veces su fuerza de combate; a veces, incluso por diez.
+0040 [Narración] | Ese estricto límite de un día hace que sea difícil usarla en el día a día. Pero cuando de verdad importa, puede cambiar por completo el rumbo de la batalla.
+0041 [Matilda] | ¡Soldados, conmigo! ¡A la carga!
+0042 [Panicked New Orelian Remnant] | ¡Gah!==W== ¡¿Qué fuerza tan descabellada es esta?!
+0043 [Terrified New Orelian Remnant] | ¡Reciben golpes y ni se inmutan!==W== ¡No, nuestras balas mágicas ni siquiera atraviesan su armadura!
+0044 [Panicked New Orelian Remnant] | ¡¿Todos estos soldados son monstruos?!
+0045 [Terrified New Orelian Remnant] | ¡Se acabó! ¡Estamos acabados!
+0046 [Spirited New United Harvest Soldier] | ¡Esta bendición del Monolito es una locura!==W== ¡Siento que puedo con diez tipos!
+0047 [Calm New United Harvest Soldier] | Mídete. Tus veinticuatro horas casi se acaban. Retírate y descansa. Yo te relevo.
+0048 [Spirited New United Harvest Soldier] | ¡Todavía me quedan treinta minutos! ¡Es tiempo de sobra para abrirnos paso hasta el Senado y plantar nuestra bandera en su techo!
+0049 [Panicked Senator] | Las explosiones...==W== Se están acercando. ¡Esa tal Matilda está volviendo a Nueva Orelia!
+0050 [Senate Speaker] | Mantengan la compostura. Los superamos diez a uno. Esto es claramente una táctica de nuestros comandantes. Atraerlos y rodearlos, para que Matilda no pueda escapar.
+0051 [Matilda] | Qué gracioso. Yo no soy quien necesita escapar.
+0052 [Tú] | Es mi primera vez aquí, pero se siente tan familiar...==W== ¿No fue así como Nazuka y Fuyuka volaron una puerta hace dos años?
+0053 [Senate Speaker] | ¡Matilda! ¡En nombre del Senado, te despojo de tu rango en Cosecha Unida y te condeno a noventa y nueve años de prisión!
+0054 [Matilda] | ¿Ah, sí?==W== ¿Un Senado sin su Sello de la Gracia todavía tiene algún poder?
+0055 [Senate Speaker] | Hmph. Seguro que traes el Sello contigo.==W== ¡Guardias! ¡Captúrenla a ella y a sus cómplices!
+0056 [Senate Speaker] | Robar el Sello, traicionar a la empresa, socavar al Senado...==W== ¡Tus crímenes no tienen fin!
+0057 [Matilda] | Si la traición es mi crimen, ¿qué hay de todos ustedes? ¿Cuál es la pena por provocar una hambruna y acaparar suministros para inflar los precios, todo por los «intereses» de la empresa?
+0058 [Senate Speaker] | ¡Insolente!
+0059 [Matilda] | ¡El insolente eres tú!
+0060 [Matilda] | Un Senado tan grandioso, y aun así el silencio es ensordecedor.
+0061 [Matilda] | Ni un susurro a la derecha,==W== ni un susurro a la izquierda.
+0062 [Matilda] | Bien. Paren bien las orejas y escuchen el alboroto de afuera. No soy yo quien los juzga.==W== ¡Es la gente a la que condenaron a morir de hambre!
+0063 [Nazuka] | Jefe. Lady Matilda. Los 153 senadores están bajo custodia. Los combates en la ciudad cesaron.
+0064 [Nazuka] | Derrotamos a sus legiones defensoras con pérdidas mínimas. Los informes de bajas están llegando ahora.
+0065 [Matilda] | Nosotros...==W== Ganamos.
+0066 [Tú] | Matilda, ¿estás bien?
+0067 [Matilda] | Estoy bien. Agotada. En cuanto bajé la guardia, el cuerpo se me rindió.
+0068 [Matilda] | ¿Sabes, Jefe...? Por fin dejaste de hablarme con formalidades.
+0069 [Tú] | Lo mismo digo.==W== Hemos peleado codo a codo mucho tiempo. Las formalidades ya no importan.
+0070 [Matilda] | Je... ¿Eso significa que==W== ya soy oficialmente tu camarada?
+0071 [Matilda] | Ah, si ya hice un pacto de almas contigo. ¿Por qué le doy tantas vueltas...?==W== Perdón, Jefe, por arrastrarte a este lío.
+0072 [Tú] | ¿A qué te refieres?==W== ¿No querías que nos ensuciáramos las manos en esta guerra?
+0073 [Matilda] | Sabía que verías a través de mí. Quien dirija la nueva Cosecha Unida no puede cargar con el peso de este odio.
+0074 [Matilda] | Mi plan es simple. Gane o pierda, renuncio y te entrego la empresa a ti. El odio termina conmigo.
+0075 [Tú] | Firenze puede hacer de directora ejecutiva.==W== Yo tengo una promesa que cumplir: voy a escalar el Monolito con cierta persona.
+0076 [Nazuka] | Oh...==W== Bueno, el Monolito puede esperar. Cuando tengas tiempo libre.
+0077 [Tú] | Además, yo soy el Jefe. Ya nadie lo menciona, pero hace dos años mucha gente estaba convencida de que yo era el Tirano.
+0078 [Tú] | ¿Desde cuándo un Tirano deja que un poco de sangre se interponga en el camino de ==SEX3==?
+0079 [Matilda] | Tienes una forma muy extraña de consolar a la gente, Jefe.
+0080 [Matilda] | Esto te cuesta más que tu reputación.==W== Ganamos, pero pusimos de cabeza a toda la élite de Nueva Orelia.==W== De ahora en adelante seremos un blanco.
+0081 [Tú] | Que vengan. Dudo que den más miedo que los Tres Grandes o un Stellaroid gigantesco.
+0082 [Nazuka] | Jefe, el doctor dice que la gran inspectora Matilda estará bien. Es agotamiento extremo y anemia. Necesita descansar.
+0083 [Tú] | Uf...==W== Por fin se acabó. Ahora podemos esperar un poco de paz y tranquilidad.
+0084 [Tú] | Vamos, Nazuka. Si no estás muy cansada, vamos a explorar los Monolitos de Nueva Orelia.
+0085 [Nazuka] | ¡No estoy nada cansada!==W== Déjame cambiarme primero. Estos tacones de trabajo son demasiado delgados; siempre se ato==W==... ¡ah!
+0086 [Tú] | ¿Se te atoró el tacón entre los adoquines?==W== Espera, déjame ayudarte.
+0087 [Frenzied New Orelian Remnant] | Matilda... y ese Jefe...==W== ¡Ustedes arruinaron nuestras vidas! ¡Ahora la van a pagar! ¡A ver qué hacen contra mi camión Artefacto!
+0088 [Arrogant New Orelian Remnant] | ¡Mira, ahí están! Esa persona de ==SEX14== es el Jefe. Estoy seguro.
+0089 [Frenzied New Orelian Remnant] | ¡Entonces la mujer que está junto a ==SEX4== debe ser Matilda! ¡Acelera!
+0090 [1] | ¿Eh? ¿Qué es ese ruido?
+0091 [Narración] | Por el rabillo del ojo, veo un enorme camión Artefacto que viene a toda velocidad directo hacia Nazuka y hacia mí.
+0092 [Opción] | Empujar a Nazuka
+0093 [Nazuka] | Jefe...
+0094 [Narración] | Lo siguiente que sé es que estoy volando por los aires...
+0095 [Lugar y hora] | ??:??, ?.º del mes de ?, ????, Sala Blanca
+0096 [Tú] | ¿Acaso...==W== me acaba de atropellar un camión?
+0097 [Virigia] | ¡Sip! Un enorme camión Artefacto. Guardamos una grabación justo antes del impacto. ¡Échale un vistazo!
+0098 [Bernina] | Ay, vaya. Eso se ve mucho más feo que el Espíritu de la Brutalidad.
+0099 [Bernina] | Y seguramente más resistente que ese Stellaroid gigante del Canal. Esa cosa se hizo pedazos en cuanto el Lucky Oasis lo embistió, pero este camión es enorme.
+0100 [Bernina] | Esta vez te enfrentaste a un enemigo sin precedentes, Tirano.==W== Perder contra ese monstruo es completamente justo.
+0101 [Virigia] | ¿Sabes? Leí en algún lado que ser atropellado por un camión Artefacto en realidad es un ritual para entrar a otro mundo.
+0102 [Virigia] | Muchísima gente viaja a otros mundos así y termina convirtiéndose en héroe.
+0103 [Bernina] | ¿Eh? ¿Entonces por qué el Tirano terminó aquí con nosotras?==W== ¿Se supone que esta sala es el «otro mundo»?
+0104 [Virigia] | O tal vez el Tirano todavía tiene demasiados lazos aquí, así que el otro mundo no pudo jalarte.
+0105 [Tú] | Ya basta de bromas, ustedes dos. ¿Cómo está Nazuka?==W== ¿Está herida?
+0106 [Virigia] | Está perfectamente bien. La empujaste justo a tiempo.
+0107 [Bernina] | Lleva un buen rato llorando sobre tu cuerpo. Sinceramente...==W== si no la hubieras empujado, probablemente habría hecho pedazos ese camión con su magia.
+0108 [Tú] | Sí, es muy posible...==W== Supongo que hice algo completamente inútil.
+0109 [Tú] | ¡Pero en el calor del momento, el primer instinto de cualquiera es proteger a sus amigos!
+0110 [Bernina] | Ay, yo no estaría tan segura. Si fuera yo, usaría a Virigia como escudo humano al instante.
+0111 [Virigia] | ¡Y yo me aferraría a ti tan fuerte que tampoco podrías escapar!
+0112 [Tú] | ... Nueva Orelia de verdad es un nido de víboras.==W== Tal como advirtió Matilda: aunque ganemos la guerra, no podemos esquivar todas las puñaladas por la espalda y las intrigas de esas élites.
+0113 [Tú] | Cuando regrese, necesito un enfoque completamente distinto para el problema de Nueva Orelia.
+0114 [Tú] | Vita, por favor, abre la puerta.
+0115 [Vita] | Tu orden es mi voluntad.
+0116 [Virigia] | ¡La próxima vez que cruces la calle, asegúrate de mirar a ambos lados, Tirano!
+0117 [Bernina] | O simplemente entrena tu cuerpo hasta que sea más duro que un camión.
+0118 [Tú] | Regresaré...==W== Esta vez debo volver a un pasado todavía más lejano.
+0119 [Firenze] | ¿«No busca monopolizar»? ¿Qué pretende Mercurio con esto...?
+0120 [Firenze] | ¿Qué opinas, Jefe?
+0121 [Tú] | Quizá pedir un préstamo a Finanzas del Mar Profundo sea el primer paso para entrar en la caja. Debería buscar otro camino.

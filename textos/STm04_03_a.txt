@@ -1,4 +1,4 @@
-# Capítulo 4 · Más allá del sueño · Final: All to the End
+# Capítulo 4 · Más allá del sueño · Final: Hasta el final
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -9,10 +9,10 @@ N:avg1_112 | Noya
 N:avg1_133 | Nazuka
 N:avg1_134 | Fuyuka
 N:avg1_156 | Nazuna
-N:avg2_976 | Associated Tree
+N:avg2_976 | Árbol Asociado
 N:avg3_100 | Sylar
-N:avg3_1254 | Symbiotic Tree
-N:avg3_1255 | Symbiotic Tree
+N:avg3_1254 | Árbol Simbiótico
+N:avg3_1255 | Árbol Simbiótico
 N:avg3_132 | Kaede
 N:avg3_135 | Claire
 N:avg3_173 | Bernina
@@ -21,104 +21,104 @@ N:avg3_974 | Serena
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | The End
-0002 [Intro] | All to the End
-0003 [Intro] | Nazuka vanishes without a trace, along with the Garden of Parasite. You've never given up searching for her. Years later, you venture deep into the forest once more, only to uncover a terrifying truth...
-0004 [Lugar y hora] | 09:00, Pluvia Month 28th, Outside Philae, Trekker Camp
-0005 [Nazuna] | Boss, any word on Nazuka?
-0006 [Tú] | I've asked a bunch of Trekkers. No one's seen her.
-0007 [Kaede] | Same with the ones at the camp entrance. Not a peep.
-0008 [Fuyuka] | I-I checked with the new expedition party. Claire hasn't been able to reach Nazuka since yesterday.
-0009 [Nazuna] | Her tent hasn't been touched.==W== She ... didn't come back last night, did she? Where on earth could she be...?
-0010 [Kaede] | Hey, let's not jump to the worst-case scenario. Nazuka's strong, she'll be fine...==W== Still, where would she have gone?
-0011 [Tú] | Everyone, stay calm.==W== We are already searching the forest. I'm sure we'll hear something soon.
-0012 [Narración] | We try to reassure one another, but the worry is written plainly on all our faces.
-0013 [Lugar y hora] | 12:00, Tonitrua Month 3rd, Outside Philae, Old Trekkers' House
-0014 [Nazuna] | Nazuka! Is it you?
+0001 [Intro] | Fin
+0002 [Intro] | Hasta el final
+0003 [Intro] | Nazuka desaparece sin dejar rastro, junto con el Jardín Parásito. Nunca dejaste de buscarla. Años después, te adentras una vez más en lo profundo del bosque, solo para descubrir una verdad aterradora...
+0004 [Lugar y hora] | 09:00, 28.º del mes de Pluvia, afueras de Philae, campamento de Trekkers
+0005 [Nazuna] | Jefe, ¿alguna noticia de Nazuka?
+0006 [Tú] | Les he preguntado a un montón de Trekkers. Nadie la ha visto.
+0007 [Kaede] | Lo mismo con los de la entrada del campamento. Ni una palabra.
+0008 [Fuyuka] | Y-yo pregunté en el nuevo grupo de expedición. Claire no ha podido comunicarse con Nazuka desde ayer.
+0009 [Nazuna] | Nadie ha tocado su tienda.==W== No... no volvió anoche, ¿verdad? ¿Dónde demonios puede estar...?
+0010 [Kaede] | Oye, no pensemos en lo peor. Nazuka es fuerte, va a estar bien...==W== Aun así, ¿adónde habrá ido?
+0011 [Tú] | Todos, tranquilos.==W== Ya estamos buscando en el bosque. Seguro que pronto sabremos algo.
+0012 [Narración] | Intentamos darnos ánimos unos a otros, pero la preocupación se nos nota claramente en la cara.
+0013 [Lugar y hora] | 12:00, 3.º del mes de Tonitrua, afueras de Philae, antigua Casa de los Trekkers
+0014 [Nazuna] | ¡Nazuka! ¿Eres tú?
 0015 [Claire] | ...
-0016 [Nazuna] | Oh... It's you.
-0017 [Claire] | Sorry to disappoint.==W== I take it there's still no word on Nazuka?
-0018 [Kaede] | Yeah. We were out all night. Not a single trace.
-0019 [Fuyuka] | Master and the New Star Guild drove to the nearby cities to ask around. Maybe ... they'll find something.
-0020 [Claire] | I don't think... Nazuka would just leave Philae.
-0021 [Nazuna] | But you were always with her! How can you possibly not know anything?
-0022 [Claire] | That doesn't mean we know everything about each other. Besides... A half-baked Trekker like me could never understand a powerhouse like her.
-0023 [Claire] | Anyway, I just wanted to give you a heads-up: there's been no sign of the Garden of Parasite in the forest for days.
-0024 [Nazuna] | Nazuka...==W== The Garden of Parasite...==W== No way.
-0025 [Fuyuka] | Nazuka senpai...! You don't think she went after the Garden of Parasite by herself?
-0026 [Kaede] | Let's widen the search, give the forest another look.
+0016 [Nazuna] | Ah... Eres tú.
+0017 [Claire] | Perdón por decepcionarte.==W== Supongo que todavía no saben nada de Nazuka.
+0018 [Kaede] | No. Estuvimos fuera toda la noche. Ni un solo rastro.
+0019 [Fuyuka] | El Maestro y el Gremio de la Nueva Estrella fueron en auto a las ciudades cercanas a preguntar. Tal vez... encuentren algo.
+0020 [Claire] | No creo que... Nazuka se haya ido de Philae así nada más.
+0021 [Nazuna] | ¡Pero tú siempre estabas con ella! ¿Cómo es posible que no sepas nada?
+0022 [Claire] | Eso no significa que sepamos todo la una de la otra. Además... Una Trekker a medias como yo jamás podría entender a alguien tan poderosa como ella.
+0023 [Claire] | En fin, solo quería avisarles: lleva días sin haber rastro del Jardín Parásito en el bosque.
+0024 [Nazuna] | Nazuka...==W== El Jardín Parásito...==W== No puede ser.
+0025 [Fuyuka] | ¡Nazuka senpai...! ¿No creen que haya ido sola tras el Jardín Parásito?
+0026 [Kaede] | Ampliemos la búsqueda y revisemos el bosque otra vez.
 0027 [Claire] | Nazuka...
-0028 [Claire] | You have some really good friends.
-0029 [Claire] | I finally get ... why you wanted to protect them so badly.
-0030 [Claire] | It's impossible to find that thing now. I should just get out of here.
-0031 [Claire] | No matter how hard I fight it, I can't outsmart that bunch.
-0032 [Narración] | The endless rain has washed away any possible trace of Nazuka in the forest. After a month of searching, we have no choice but to stop—for now.
-0033 [Narración] | Before we know it, Trekkers are praising Nazuka as "the valor who risked her life to take down the Garden of Parasite."
-0034 [Narración] | However, as time passes and faces change...
-0035 [Narración] | ... the "Big Three" become just another camp legend. Eventually, few people even remember Nazuka's name.
-0036 [Narración] | The new expedition disbands. A Trekker saw Claire taken away by mercenaries in black, but no one knew who they were.
-0037 [Narración] | With them, all leads on Serena and the Ash Orphanage also vanished.
-0038 [Narración] | The New Star Guild and I work as Trekkers in Philae, occasionally traveling to other cities.
-0039 [Narración] | But no matter how far we go, we return here this time every year to search for Nazuka.
-0040 [Nazuna] | There haven't been many monsters in the forest lately, so we can take it a little easier.
-0041 [Noya] | Got it. We'll take the east side.
-0042 [Fuyuka] | I'll handle the southern forest.
-0043 [Nazuna] | Alright, let's meet back here in three days. Hopefully, we can find a clue about Nazuka's whereabouts this time.
-0044 [Tú] | Phew, where are we? All these trees look identical.
-0045 [Amber] | That's a forest for you.
-0046 [Iris] | Especially after a rain. The paths get overrun, and the trees seem to change overnight... It's easy to get lost.==W== Thank goodness we have Noya—
-0047 [Noya] | Mmm-hmm... This is it. This is where ==PLAYER_NAME== and Nazuka fell into a hole back then.
-0048 [Tú] | That's amazing. How did you find this place?
-0049 [Noya] | Just a gut feeling! Followed my gut, and it led me right here.
-0050 [Tú] | That's incredible.==W== Alright, let's spread out and start searching.
-0051 [Amber] | Right.
-0052 [Iris] | By the way, Boss, I'm not picking up on any monsters, but I have seen traces of mimic vines all along the trail. Please be cautious.
-0053 [Tú] | Mimic vines?
-0054 [Noya] | That's what the Garden of Parasite's made of.
-0055 [Noya] | Normally, mimic vines are just like any other shrub, not aggressive at all. If the soil's not great or they lack sunlight, they'll copy a passing animal to move to a better environment.
-0056 [Iris] | That magic mist is what they release to confuse predators and escape. I just can't figure out how that could become something as massive and terrifying as the Garden of Parasite.
-0057 [Amber] | That's why it's one of the Big Three.
-0058 [Noya] | Yeah... Who would've thought that some simple mimic vines could turn into a monster like that?
-0059 [Tú] | I see... I'll be careful.
-0060 [Narración] | I try to do what Noya would, picking a direction and heading out.
-0061 [Narración] | Half an hour later.
-0062 [Tú] | Yep. I'm lost...
-0063 [Tú] | Ugh, I don't have Noya's natural instincts. I should stop relying on my gut and just stay put until the others find me.
-0064 [Tú] | No... The most important thing right now is to find out anything on Nazuka.==W== I shouldn't have been so stubborn about keeping my promise that day.
-0065 [Tú] | There... Looks like it collapsed from the rain. And there's something over there—
-0066 [Tú] | What is that—==W==
-0067 [Tú] | Who's there?!
-0068 [Tú] | The Garden of Parasite!
-0069 [Tú] | You were supposed to be destroyed by Nazuka!!
-0070 [Tú] | S-so many of them... But how—
-0071 [Narración] | Noya! Iris! Amber! Get out of here...
-0072 [Bernina] | Welcome. We meet again, Tyrant.
-0073 [Virigia] | Welcome. It's been quite a while. I imagine our Tyrant has had many new experiences on Nova.
-0074 [Tú] | How is this happening? Where did all those Gardens of Parasite come from...?
-0075 [Vita] | Calm yourself, Tyrant. Do not show weakness before the divine messengers.
-0076 [Tú] | Vita...? It feels so strange==W== to hear you in my mind...
-0077 [Vita] | My Tyrant, I'm speaking directly into your mind. The divine messengers can't hear me.
-0078 [Bernina] | Hmm, Virigia... I think the Tyrant's upset. ==SEX1=='s just staring at ==SEX3== phone like that.
-0079 [Virigia] | Shh, Bernina. Don't disturb the Tyrant. ==SEX1== must be deep in thought.
-0080 [Tú] | So they really can't hear Vita.
-0081 [Tú] | Hello again.
-0082 [Tú] | Can you show me how I ended up here?
-0083 [Virigia] | As you wish.
-0084 [Tú] | This is ... Nazuka's staff.==W== Why are you showing me this?
-0085 [Bernina] | Because in your heart, this seems to matter more to you than your own life.
-0086 [Virigia] | Since you care so much, we can tell you this: Nazuka did fight valiantly and destroyed the Garden of Parasite. However...
-0087 [Bernina] | Her power was nothing compared to "that thing." In the end, her sacrifice was pointless.
-0088 [Tú] | "That thing"...
-0089 [Tú] | That's all the hints I'm getting, isn't it?
-0090 [Bernina] | As perceptive as ever, my Tyrant.
-0091 [Tú] | I get it.==W== Vita, open the door.
-0092 [Vita] | Your wish is my command.
-0093 [Tú] | Thanks for waiting for me here.==W== I'll ... see you around.
-0094 [Virigia] | We will be waiting for you, Tyrant.
-0095 [Bernina] | Take care, Tyrant.
-0096 [Tú] | I'm... I'm back.
-0097 [Tú] | Vita, what did you mean earlier about not showing weakness before the divine messengers?
-0098 [Vita] | Apologies. My system level is insufficient to answer that question.
-0099 [Vita] | Additionally, this direct thought-link consumes a great deal of energy. Please be aware that this connection is time-limited.
-0100 [Vita] | All I can tell you is this—there is something vital inside the Garden of Parasite. You must get "that thing."
-0101 [Tú] | I know...==W== This time, I will protect Nazuka.
+0028 [Claire] | Tienes muy buenas amigas.
+0029 [Claire] | Por fin entiendo... por qué querías protegerlas tanto.
+0030 [Claire] | Ya es imposible encontrar esa cosa. Mejor me largo de aquí.
+0031 [Claire] | Por más que me resista, no puedo ser más lista que esa bola de gente.
+0032 [Narración] | La lluvia interminable borró cualquier posible rastro de Nazuka en el bosque. Después de un mes de búsqueda, no nos queda más remedio que parar, por ahora.
+0033 [Narración] | Sin darnos cuenta, los Trekkers empiezan a alabar a Nazuka como «la valiente que arriesgó su vida para acabar con el Jardín Parásito».
+0034 [Narración] | Sin embargo, conforme pasa el tiempo y cambian las caras...
+0035 [Narración] | ... los «Tres Grandes» se vuelven una leyenda más del campamento. Con el tiempo, pocos recuerdan siquiera el nombre de Nazuka.
+0036 [Narración] | La nueva expedición se disuelve. Un Trekker vio cómo unos mercenarios de negro se llevaban a Claire, pero nadie supo quiénes eran.
+0037 [Narración] | Con ellos también desaparecieron todas las pistas sobre Serena y el Orfanato de las Cenizas.
+0038 [Narración] | El Gremio de la Nueva Estrella y yo trabajamos como Trekkers en Philae y de vez en cuando viajamos a otras ciudades.
+0039 [Narración] | Pero sin importar qué tan lejos vayamos, cada año volvemos aquí en esta época para buscar a Nazuka.
+0040 [Nazuna] | Últimamente no ha habido muchos monstruos en el bosque, así que podemos tomárnoslo con un poco más de calma.
+0041 [Noya] | Entendido. Nosotras nos encargamos del lado este.
+0042 [Fuyuka] | Yo me encargo del bosque sur.
+0043 [Nazuna] | Muy bien, nos vemos aquí de nuevo en tres días. Ojalá esta vez encontremos alguna pista de dónde está Nazuka.
+0044 [Tú] | Uf, ¿dónde estamos? Todos estos árboles se ven idénticos.
+0045 [Amber] | Así son los bosques.
+0046 [Iris] | Sobre todo después de llover. Los caminos se cubren de maleza y los árboles parecen cambiar de un día para otro... Es fácil perderse.==W== Menos mal que tenemos a Noya...
+0047 [Noya] | Mmm-hmm... Aquí es. Aquí es donde ==PLAYER_NAME== y Nazuka cayeron en un agujero aquella vez.
+0048 [Tú] | Increíble. ¿Cómo encontraste este lugar?
+0049 [Noya] | ¡Puro instinto! Seguí mi corazonada y me trajo directo aquí.
+0050 [Tú] | Es increíble.==W== Bien, separémonos y empecemos a buscar.
+0051 [Amber] | Entendido.
+0052 [Iris] | Por cierto, Jefe, no detecto ningún monstruo, pero he visto rastros de enredaderas miméticas a lo largo de todo el sendero. Por favor, ten cuidado.
+0053 [Tú] | ¿Enredaderas miméticas?
+0054 [Noya] | De eso está hecho el Jardín Parásito.
+0055 [Noya] | Normalmente, las enredaderas miméticas son como cualquier otro arbusto, nada agresivas. Si la tierra no es buena o les falta sol, copian a algún animal que pase para mudarse a un lugar mejor.
+0056 [Iris] | Esa niebla mágica es lo que sueltan para confundir a los depredadores y escapar. Lo que no logro entender es cómo pudieron convertirse en algo tan enorme y aterrador como el Jardín Parásito.
+0057 [Amber] | Por eso es uno de los Tres Grandes.
+0058 [Noya] | Sí... ¿Quién iba a pensar que unas simples enredaderas miméticas podían convertirse en un monstruo así?
+0059 [Tú] | Ya veo... Tendré cuidado.
+0060 [Narración] | Intento hacer lo que haría Noya: elijo una dirección y me pongo en marcha.
+0061 [Narración] | Media hora después.
+0062 [Tú] | Sí. Estoy perdido...
+0063 [Tú] | Uf, no tengo el instinto natural de Noya. Debería dejar de fiarme de mis corazonadas y quedarme quieto hasta que las demás me encuentren.
+0064 [Tú] | No... Lo más importante ahora es averiguar cualquier cosa sobre Nazuka.==W== No debí haber sido tan terco con cumplir mi promesa aquel día.
+0065 [Tú] | Ahí... Parece que se derrumbó por la lluvia. Y hay algo allá...
+0066 [Tú] | ¿Qué es eso...?==W==
+0067 [Tú] | ¡¿Quién anda ahí?!
+0068 [Tú] | ¡El Jardín Parásito!
+0069 [Tú] | ¡¡Se suponía que Nazuka te había destruido!!
+0070 [Tú] | T-tantos... Pero ¿cómo...?
+0071 [Narración] | ¡Noya! ¡Iris! ¡Amber! Salgan de aquí...
+0072 [Bernina] | Bienvenido. Nos volvemos a ver, Tirano.
+0073 [Virigia] | Bienvenido. Ha pasado bastante tiempo. Me imagino que nuestro Tirano ha vivido muchas experiencias nuevas en Nova.
+0074 [Tú] | ¿Cómo es posible? ¿De dónde salieron todos esos Jardines Parásitos...?
+0075 [Vita] | Cálmate, Tirano. No muestres debilidad ante los mensajeros divinos.
+0076 [Tú] | ¿Vita...? Se siente tan raro==W== oírte dentro de mi mente...
+0077 [Vita] | Mi Tirano, te hablo directamente a la mente. Los mensajeros divinos no pueden oírme.
+0078 [Bernina] | Mmm, Virigia... Creo que el Tirano está molesto. ==SEX1== solo se queda mirando ==SEX3== teléfono así.
+0079 [Virigia] | Shh, Bernina. No molestes al Tirano. ==SEX1== debe de estar reflexionando a fondo.
+0080 [Tú] | Así que de verdad no pueden oír a Vita.
+0081 [Tú] | Hola otra vez.
+0082 [Tú] | ¿Pueden mostrarme cómo terminé aquí?
+0083 [Virigia] | Como desees.
+0084 [Tú] | Esto es... el bastón de Nazuka.==W== ¿Por qué me muestran esto?
+0085 [Bernina] | Porque en tu corazón, parece que esto te importa más que tu propia vida.
+0086 [Virigia] | Ya que te importa tanto, podemos decirte esto: Nazuka sí peleó con valentía y destruyó al Jardín Parásito. Sin embargo...
+0087 [Bernina] | Su poder no era nada comparado con «esa cosa». Al final, su sacrificio fue en vano.
+0088 [Tú] | «Esa cosa»...
+0089 [Tú] | Esa es toda la pista que me van a dar, ¿verdad?
+0090 [Bernina] | Tan perspicaz como siempre, mi Tirano.
+0091 [Tú] | Entiendo.==W== Vita, abre la puerta.
+0092 [Vita] | Tus deseos son órdenes.
+0093 [Tú] | Gracias por esperarme aquí.==W== Nos... vemos luego.
+0094 [Virigia] | Te estaremos esperando, Tirano.
+0095 [Bernina] | Cuídate, Tirano.
+0096 [Tú] | Ya... ya volví.
+0097 [Tú] | Vita, ¿qué quisiste decir hace rato con eso de no mostrar debilidad ante los mensajeros divinos?
+0098 [Vita] | Lo lamento. Mi nivel de sistema es insuficiente para responder esa pregunta.
+0099 [Vita] | Además, este enlace mental directo consume muchísima energía. Ten en cuenta que esta conexión tiene un tiempo limitado.
+0100 [Vita] | Lo único que puedo decirte es esto: hay algo vital dentro del Jardín Parásito. Tienes que conseguir «esa cosa».
+0101 [Tú] | Lo sé...==W== Esta vez, voy a proteger a Nazuka.

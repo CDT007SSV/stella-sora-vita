@@ -3,13 +3,13 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Alarmed Citizen | Alarmed Citizen
-N:Collapsed Desert Scorpion | Collapsed Desert Scorpion
-N:Easygoing Sentinel of Dawn | Easygoing Sentinel of Dawn
-N:Gentle Arbiter | Gentle Arbiter
-N:Greyhorn & No. 160 & Gunhild | Greyhorn & No. 160 & Gunhild
-N:Incapacitated Desert Scorpion | Incapacitated Desert Scorpion
-N:Shocked Citizen | Shocked Citizen
+N:Alarmed Citizen | Ciudadano alarmado
+N:Collapsed Desert Scorpion | Escorpión del Desierto derribado
+N:Easygoing Sentinel of Dawn | Centinela del Alba relajado
+N:Gentle Arbiter | Árbitro amable
+N:Greyhorn & No. 160 & Gunhild | Greyhorn, n.º 160 y Gunhild
+N:Incapacitated Desert Scorpion | Escorpión del Desierto incapacitado
+N:Shocked Citizen | Ciudadano conmocionado
 N:avg1_103 | Amber
 N:avg1_108 | Kasimira
 N:avg1_111 | Iris
@@ -21,168 +21,168 @@ N:avg1_142 | Cosette
 N:avg1_146 | Benito
 N:avg1_163 | Greyhorn
 N:avg3_100 | Sylar
-N:avg3_1287 | Desert Scorpion F
-N:avg3_1288 | Desert Scorpion M
-N:avg3_1295 | Desert Scorpion Grunt F
-N:avg3_1297 | Desert Scorpion Grunt M
+N:avg3_1287 | Escorpión del Desierto
+N:avg3_1288 | Escorpión del Desierto
+N:avg3_1295 | Secuaz de los Escorpiones del Desierto
+N:avg3_1297 | Secuaz de los Escorpiones del Desierto
 N:avg3_181 | Narida
 N:avg3_207 | Myrsha
-N:avg3_208 | Desert Scorpion Female Grunt
-N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
+N:avg3_209 | Secuaz de los Escorpiones del Desierto
 N:avg3_210 | Hazana
 N:avg3_216 | Gunhild
-N:avg3_217 | No. 160
-N:avg3_218 | Mirage Resident
-N:avg3_219 | Mirage Resident
+N:avg3_217 | N.º 160
+N:avg3_218 | Residente de Mirage
+N:avg3_219 | Residente de Mirage
 
 ## Texto
-0001 [Intro] | Act Fifteen
-0002 [Intro] | My Name
-0003 [Intro] | After defeating Hazana, you enter the secret room and find Narida's letter. It explains that she disappeared to protect Allie and the children. At the same time, Angie leads the Salvation Committee into Mirage.
-0004 [Lugar y hora] | 12:00, Nebula Month 18th, Mirage, Crystal Diamond Mine
-0005 [Hazana] | No way. All that work I put into my magic, and you cracked it?
-0006 [Hazana] | Ugh, crap. My Soul Stone is tapped out.==W== What a rotten day.
-0007 [Noya] | Look! Hazana's human again, and the sandstorm is clearing out!
-0008 [Hazana] | Hey, drop your guard and you'll pay. You remember where we are, right?==W== Yo, Scorpions, toss me a spare Soul Stone! We're going again!
-0009 [Allie] | Oh, you mean these out-of-shape youngsters?==W== They ran out of energy, so they're taking a rest.
-0010 [Hazana] | Huh... Whaaat?! Why are you all on the floor?!
-0011 [Collapsed Desert Scorpion] | S-Sorry, Cap!==W== Director Allie is too strong.==W== We couldn't hold her off.
-0012 [Incapacitated Desert Scorpion] | ==W==How can someone so sweet==W== be that terrifying?
-0013 [Chaton] | I couldn't catch up with her moves... It was over before the great Chaton could even get a shot off.==W== Unbelievable. Who is this woman?
-0014 [Hazana] | Tch. You guys did a number on us...
-0015 [Allie] | Don't worry, I only used the flat of the blade. They're just too sore to stand, but a couple days of bed rest will fix them right up.
-0016 [Hazana] | So you held back? Director Allie, I won't say I like that condescending attitude of yours.
-0017 [Allie] | Oh dear, how troubling. I didn't mean it like that.
-0018 [Allie] | Myrsha, you seem to be the last one standing. Would you please carry your friends outside?
-0019 [Myrsha] | Y-Yes, ma'am! I'll get them out of here! Please, stop torturing me!!
-0020 [Amber] | Was Mom always this strong?
-0021 [Iris] | I'm shocked too. We never noticed as kids, but looking back, no gangs had ever harassed the orphanage. We never had to deal with scumbags like Feagin either.
-0022 [Iris] | Maybe it was because those adults knew what Mom was capable of? They wouldn't dare...
-0023 [Noya] | Wait, Mom, where did you get that blade? I've never seen it.
-0024 [Allie] | Hmm? You see it all the time when you hang the laundry.
-0025 [Amber] | Laundry...? You mean the clothes pole?!
-0026 [Allie] | Bingo! As for the blade on top, it's meant for splitting firewood. This is my first time using a weapon like this, so my form was a bit sloppy. I hope I didn't embarrass myself.
-0027 [Benito] | Y-Your first time? You made it look effortless. I never would have guessed...
-0028 [Kasimira] | Enough talk. I know we need a breather, but once Hazana wakes up, she'll rally the Desert Scorpions for a counterattack. We're opening the secret room right here.
-0029 [Tú] | Right here? Is it nearby?!
-0030 [Kasimira] | I couldn't exactly tell Hazana the truth.
-0031 [Tú] | Fair point.==W== But I don't see a door. How do we get in?
-0032 [Kasimira] | We use the song you heard in Director Allie's memory.
-0033 [Kasimira] | Captain Narida always sent us away when she opened it, so none of us know the full melody. You'll have to hum it for us, Boss.
-0034 [Tú] | M-Me? Alright... I'll give it a shot.
-0035 [Tú] | Oh no, my singing could be awful...
+0001 [Intro] | Acto quince
+0002 [Intro] | Mi nombre
+0003 [Intro] | Tras derrotar a Hazana, entras en la sala secreta y encuentras la carta de Narida. En ella explica que desapareció para proteger a Allie y a las niñas. Al mismo tiempo, Angie lleva al Comité de Salvación hasta Mirage.
+0004 [Lugar y hora] | 12:00, 18.º del mes de Nebula, Mirage, mina de diamante cristalino
+0005 [Hazana] | No puede ser. ¿Con todo el esfuerzo que le puse a mi magia, y la rompiste?
+0006 [Hazana] | Agh, rayos. Mi Piedra del Alma se quedó sin energía.==W== Qué día tan horrible.
+0007 [Noya] | ¡Miren! ¡Hazana volvió a ser humana y la tormenta de arena se está disipando!
+0008 [Hazana] | Oye, si bajas la guardia, lo vas a pagar. Te acuerdas de dónde estamos, ¿verdad?==W== ¡Oigan, Escorpiones, láncenme una Piedra del Alma de repuesto! ¡Vamos otra vez!
+0009 [Allie] | Ah, ¿te refieres a estos jovencitos fuera de forma?==W== Se quedaron sin energía, así que están descansando.
+0010 [Hazana] | ¿Eh...? ¡¿Quéééé?! ¡¿Por qué están todos en el suelo?!
+0011 [Collapsed Desert Scorpion] | ¡P-perdón, jefa!==W== La directora Allie es demasiado fuerte.==W== No pudimos contenerla.
+0012 [Incapacitated Desert Scorpion] | ==W==¿Cómo alguien tan dulce==W== puede ser tan aterradora?
+0013 [Chaton] | No pude seguirle el ritmo... Todo terminó antes de que la gran Chaton pudiera disparar siquiera.==W== Increíble. ¿Quién es esta mujer?
+0014 [Hazana] | Tsk. Sí que nos dieron una paliza...
+0015 [Allie] | No te preocupes, solo usé la parte plana de la hoja. Les duele demasiado para levantarse, pero con un par de días de reposo quedarán como nuevos.
+0016 [Hazana] | ¿Así que te contuviste? Directora Allie, no voy a decir que me guste esa actitud condescendiente tuya.
+0017 [Allie] | Ay, qué problema. No lo dije con esa intención.
+0018 [Allie] | Myrsha, parece que eres la última que queda en pie. ¿Podrías sacar a tus amigos, por favor?
+0019 [Myrsha] | ¡S-sí, señora! ¡Ahora mismo los saco de aquí! ¡Por favor, ya no me torture!
+0020 [Amber] | ¿Mamá siempre fue así de fuerte?
+0021 [Iris] | Yo también estoy impactada. De niñas nunca lo notamos, pero ahora que lo pienso, ninguna pandilla molestó jamás al orfanato. Tampoco tuvimos que lidiar nunca con sabandijas como Feagin.
+0022 [Iris] | ¿Será porque esos adultos sabían de lo que mamá era capaz? No se atreverían...
+0023 [Noya] | Espera, mamá, ¿de dónde sacaste esa hoja? Nunca la había visto.
+0024 [Allie] | ¿Mmm? La ves todo el tiempo cuando tiendes la ropa.
+0025 [Amber] | ¿La ropa...? ¡¿Te refieres al palo del tendedero?!
+0026 [Allie] | ¡Exacto! Y la hoja de arriba es para partir leña. Es la primera vez que uso un arma así, así que mi técnica fue un poco descuidada. Espero no haber hecho el ridículo.
+0027 [Benito] | ¿L-la primera vez? Hiciste que pareciera facilísimo. Nunca lo habría adivinado...
+0028 [Kasimira] | Basta de charla. Sé que necesitamos un respiro, pero cuando Hazana despierte, reunirá a los Escorpiones del Desierto para contraatacar. Vamos a abrir la sala secreta aquí mismo.
+0029 [Tú] | ¿Aquí mismo? ¡¿Está cerca?!
+0030 [Kasimira] | No podía decirle la verdad a Hazana, ¿o sí?
+0031 [Tú] | Tiene sentido.==W== Pero no veo ninguna puerta. ¿Cómo entramos?
+0032 [Kasimira] | Usaremos la canción que escuchaste en el recuerdo de la directora Allie.
+0033 [Kasimira] | La capitana Narida siempre nos hacía irnos cuando la abría, así que ninguno conoce la melodía completa. Vas a tener que tararearla, Jefe.
+0034 [Tú] | ¿Y-yo? Bueno... Lo intentaré.
+0035 [Tú] | Ay, no, a lo mejor canto horrible...
 0036 [Tú] | La la la~==W== La, la la la~==W== La, la, la la la...==W== La la...
-0037 [Chaton] | That is garbage! It itches! My brain is literally itching! Make it stop! I'm gonna lose my mind!
-0038 [Tú] | Y-You don't have to be that mean about it... Anyway, did the door open?
-0039 [Kasimira] | Not a peep. Boss, are you sure you were singing it right?
-0040 [Tú] | ... Look, I don't know the exact tune! I only heard it once in a dream.
-0041 [Iris] | That melody... I've heard it before.
-0042 [Iris] | Ah, I know it! It's that song!==W== Ahem...
-0043 [Noya] | Mom used to hum it to us when we were little... The song to make our pain go away. She must have learned it from Narida.
-0044 [Amber] | It's the same song Iris sang when Boss first woke up.
-0045 [Benito] | Look! The rock wall is splitting open! There's a path inside!
-0046 [Lugar y hora] | 12:30, Nebula Month 18th, Mirage, White Cat Secret Room
-0047 [Benito] | Candles are burning steadily. Airflow is good. It's safe.
-0048 [Kasimira] | If this is the secret room, it's our best lead on the Monolith and Captain Narida. Fan out and search.
-0049 [Chaton] | Whoa! ♪ Kasimira, look! Are those magic guns by the wall? There are a ton of them! Can I touch them? Please?
-0050 [Iris] | Dorra and crystal diamonds sitting out in open boxes... Plus a fortune in ancient gold coins.
-0051 [Amber] | Armor looks ancient. Is it from the old days?
-0052 [Tú] | Even if we find a lead here...==W== It's the 18th today. We still have to climb the Monolith for clues to prove my identity. Can we finish in time for the conference?
-0053 [Noya] | Hmm... Right,==W== left,==W== center...
-0054 [Tú] | Noya, what's up?
-0055 [Noya] | Following my gut... Trying to sense where Narida would stash something important. If it were me, I'd find a hidden compartment and hide the switch—
-0056 [Narración] | Noya tugs the tail of a black cat statue. Rusty hinges screech, and a hidden compartment slides open in the wall.
-0057 [Noya] | Found it! I knew it! They're the White Cat Troupe. Why is there a random black cat sitting right here of all places?
-0058 [Tú] | Heh, nice work.
-0059 [Tú] | Let's see what's inside... A book and a letter? I feel bad reading someone else's private things...
-0060 [Tú] | But ... sorry. I have to.
-0061 [Tú] | Dear Kasimira, or whoever finds this. If you are reading this, I am already gone.
-0062 [Tú] | ... Yeah. Looks like it's from Narida. Kasimira, it's for you.
-0063 [Kasimira] | It's fine. Keep reading. You helped us, you have the right to know. Plus, it might have leads about the Monolith.
-0064 [Tú] | If you're sure... All right.
-0065 [Narración] | When I was little, I admired the mothers at White Cat orphanages. They were strong, yet gentle.
-0066 [Narración] | I used to think: I want to become someone like that.
-0067 [Narración] | I was jealous when Taffett was entrusted with the children. I felt bitter about it.
-0068 [Narración] | But watching her interaction with those kids, I realized...
-0069 [Narración] | Her Majesty made the right choice. Taffett was meant to be a "Mom." I wasn't. To whoever is reading this... Do you know what the most important quality in a "Mom" is? It is—
-0070 [Narración] | ==Off==The willingness to show her children unconditional love.
-0071 [Narración] | I could never be their Mom. The best I could ever be is a decent older sister to the White Cats.
-0072 [Narración] | Taffett and I were the only White Cats who met Her Majesty.==W== When Taffett became Allie... I became the last relic of a bygone age.
-0073 [Narración] | I found a red Soul Stone in the orphanage basement. It bears Her Majesty's signature.
-0074 [Narración] | The documents here say it can open the sealed Monolith.
-0075 [Narración] | Forgive me, Your Majesty. I had to pull the White Cats away from that Monolith. It was the only way to end the endless bloodshed in Mirage.
-0076 [Narración] | But then again... I suppose that was your intention all along when you assigned me to this position.
-0077 [Narración] | I will bury that Monolith out in the endless sands, where no one will ever find it. I suppose that still counts as following your orders.
-0078 [Narración] | That is why I left the compass down in that basement. I should have destroyed it too, to be safe.
-0079 [Narración] | I hid Taffett's weapon in a secret compartment down there. If you find it, you can take it. But please, leave Allie in peace.
-0080 [Narración] | The name I gave her was the one she had when she first came to us.
-0081 [Narración] | Who she is right now is her truest, most perfect self.
-0082 [Narración] | Kasimira, take the others and go.
-0083 [Narración] | Live your lives however you choose.
-0084 [Tú] | The end.
-0085 [Allie] | Narida... I can't even picture your face anymore. But...==W== Thank you.
-0086 [Kasimira] | ... I see. So Captain Narida's goal all along was to erase the Monolith.
-0087 [Kasimira] | But I don't believe it. She isn't dead. The Captain wouldn't die! She has to be in that Monolith!
-0088 [Benito] | Iris! When you found Boss in the Monolith, did you see my sister? Blue hair, looks a lot like me?!
-0089 [Iris] | Um... I'm sorry, we didn't see anyone else. We didn't check every room though, so maybe we missed her...
-0090 [Kasimira] | Right... Sorry. We shouldn't be asking questions like that right now.
-0091 [Noya] | Wait... The letter mentioned a compass in the basement. Is it this one we got from Firenze?
-0092 [Amber] | There's a slot on the pedestal. Noya, try it.
-0093 [Lugar y hora] | 12:45, Nebula Month 18th, Mirage, Main Street
-0094 [Cosette] | Haaah... Hot... Thirsty... Finally, people. I thought I was gonna die out there.
-0095 [Cosette] | Why would Boss drag themselves to a city without a Monolith?
-0096 [Cosette] | Huh? What does that sign say?
-0097 [Cosette] | Eureka ... Bar!!
-0098 [Cosette] | Yippee! A bar means cold, sweet drinks perfect for the desert! Here I come!
-0099 [Cosette] | Wait, why is the building shaking? Another sandstorm?! No, no, no, I can't die yet! I haven't even tried their signature drink!
-0100 [Cosette] | Phew... Did I make it?
-0101 [Cosette] | Ptooey! Ugh, sand everywhere. This place is a nightmare. I need to grab the Boss and get ==SEX4== out of here.
-0102 [Cosette] | Ah. But before I leave, I'm making ==SEX4== buy me the limited-edition drink here. It's the least I deserve for chasing ==SEX4== all the way out here. Yep, that's the plan!
-0103 [Shocked Citizen] | Hey, look! That...!
-0104 [Alarmed Citizen] | No way... How is that here?!
-0105 [Cosette] | Hey, why is everyone staring? I didn't do anything weird!
-0106 [Shocked Citizen] | Nobody is looking at you! That thing behind you, why is it here?!
-0107 [Cosette] | Behind me?
-0108 [Cosette] | Huh? Is that a ... Monolith?! Impossible, I checked before we came in. There wasn't one anywhere near here!
-0109 [Alarmed Citizen] | The Monolith... It came back!
-0110 [Lugar y hora] | 12:50, Nebula Month 18th, Mirage, Desert Outside the City
-0111 [Greyhorn] | Ma'am, our scouts confirm that the vanished Monolith in Mirage has reappeared. And per our intel, the Tyrant is indeed in the city.
-0112 [Angie] | Good work. But Greyhorn, why are you giving it your all when you're not even in the Salvation Committee? Hehe... Do you want to protect this world, too?
-0113 [Greyhorn] | I am just following the Grand Captain's orders.
-0114 [Gentle Arbiter] | Hehehe... A dutiful knight, radiating reluctance, yet obediently preparing the troops... And with that look in her eyes, like I'm absolute trash... It's magnificent! Thank you!
-0115 [Easygoing Sentinel of Dawn] | Greyhorn's just doing her job. What's wrong with you? That's disgusting.
-0116 [Gentle Arbiter] | Yes! I will gladly take that insult! Thank you! Please, Lady Angie, punish this lowly worm! Punish me harshly so I never cause offense again!
-0117 [Angie] | Calm down, Number 160. Besides, punishing someone who wants it defeats the purpose, doesn't it?
-0118 [Angie] | Let's try a different approach. I won't lay a finger on you. You shall stay here and produce results for the Salvation Committee. That is your mission.
-0119 [No. 160] | To think you would leave me hanging like this...?!==W== As expected of Lady Angie! I will follow you forever!
-0120 [Angie] | Gunhild. What is the troop's status?
-0121 [Gunhild] | Ma'am, there are three hundred personnel at the designated coordinates. Deployment complete. We are ready to strike on your command.
-0122 [Gunhild] | Another two hundred will finish assembling by tomorrow. They will arrive with our supplies at dawn.
-0123 [Angie] | Thank you. Each of you will take a company of one hundred and proceed as planned.
-0124 [Greyhorn & No. 160 & Gunhild] | Understood!
-0125 [Angie] | Tyrant. I admit I underestimated you back in Philae.
-0126 [Angie] | To ensure victory this time, I brought thirty times the forces. Even if you convinced the White Cats to back you...
-0127 [Angie] | Can you actually stand against us? Heh heh heh...
-0128 [Angie] | Regardless, we will have the last laugh on this battlefield. This time, I will pierce your heart. I will save this world.
-0129 [Noya] | It... It stopped. You okay, ==PLAYER_NAME==?
-0130 [Tú] | Thanks for covering me. I'm fine...
-0131 [Tú] | But you pinning me down like this, basically crushing me, is making it even harder to breathe...
-0132 [Lugar y hora] | 12:50, Nebula Month 18th, Mirage, White Cat Secret Room
-0133 [Amber] | An earthquake?
-0134 [Kasimira] | No. There are no earthquakes in Mirage. Let's check outside. White Cats, take point. Everyone, stay sharp.
-0135 [Allie] | Then I will bring up the rear.==W== You go ahead.
-0136 [1] | Got it. Let's catch up with Kasimira.
-0137 [1] | Whoa!==W==
-0138 [Noya] | ==PLAYER_NAME==?! That was a rough fall... You okay?
-0139 [1] | Ouch... Banged my knee. I'm fine.
-0140 [Tú] | Wait, why is there a book here?==W== The shaking must have knocked it out of a hidden compartment.
-0141 [Tú] | Hold on, there's a paper tucked inside?
-0142 [1] | Hmm, a drawing... A portrait? Kind of looks like me... No, that's definitely me!?
-0143 [1] | That's impossible... I don't remember anyone painting my portrait. Did I commission this before I lost my memory? But why hide it here?
-0144 [Noya] | ==PLAYER_NAME==, there's something written on the page with the portrait.
-0145 [Iris] | Is that ... the Empress's emblem?
-0146 [Narración] | ==Off==It is a curse to remember too much, to know too much, and to feel too much.
-0147 [Narración] | ==Off==And yet, all my memories of you are sweet ones.
-0148 [Narración] | ==Off==When will you finally come back to me?
-0149 [Narración] | ==Off==My Tyrant.
-0150 [Narración] | ==Off==My savior.
+0037 [Chaton] | ¡Eso es basura! ¡Me da comezón! ¡Me da comezón literal en el cerebro! ¡Que pare! ¡Me voy a volver loca!
+0038 [Tú] | N-no tienes que ser tan cruel... En fin, ¿se abrió la puerta?
+0039 [Kasimira] | Ni un ruido. Jefe, ¿seguro que la cantaste bien?
+0040 [Tú] | ...¡Oye, no me sé la melodía exacta! Solo la oí una vez en un sueño.
+0041 [Iris] | Esa melodía... La he oído antes.
+0042 [Iris] | ¡Ah, ya sé! ¡Es esa canción!==W== Ejem...
+0043 [Noya] | Mamá nos la tarareaba cuando éramos pequeñas... La canción para que se nos quitara el dolor. Debió aprenderla de Narida.
+0044 [Amber] | Es la misma canción que cantó Iris cuando el Jefe despertó por primera vez.
+0045 [Benito] | ¡Miren! ¡La pared de roca se está abriendo! ¡Hay un camino adentro!
+0046 [Lugar y hora] | 12:30, 18.º del mes de Nebula, Mirage, sala secreta del Gato Blanco
+0047 [Benito] | Las velas arden sin parpadear. Hay buena ventilación. Es seguro.
+0048 [Kasimira] | Si esta es la sala secreta, es nuestra mejor pista sobre el Monolito y la capitana Narida. Dispérsense y busquen.
+0049 [Chaton] | ¡Guau! ♪ ¡Kasimira, mira! ¿Esas de la pared son armas mágicas? ¡Hay un montón! ¿Puedo tocarlas? ¿Porfa?
+0050 [Iris] | Dorra y diamantes cristalinos en cajas abiertas... Y además una fortuna en monedas de oro antiguas.
+0051 [Amber] | La armadura se ve antiquísima. ¿Será de los viejos tiempos?
+0052 [Tú] | Aunque encontremos una pista aquí...==W== Hoy es 18. Todavía tenemos que escalar el Monolito para buscar pruebas de mi identidad. ¿Terminaremos a tiempo para la conferencia?
+0053 [Noya] | Mmm... Derecha,==W== izquierda,==W== centro...
+0054 [Tú] | Noya, ¿qué pasa?
+0055 [Noya] | Sigo mi instinto... Intento sentir dónde escondería Narida algo importante. Si fuera yo, buscaría un compartimento oculto y escondería el interruptor...
+0056 [Narración] | Noya jala la cola de una estatua de gato negro. Unas bisagras oxidadas rechinan y un compartimento oculto se abre en la pared.
+0057 [Noya] | ¡Lo encontré! ¡Lo sabía! Son la Compañía del Gato Blanco. ¿Por qué iba a haber un gato negro cualquiera justo aquí?
+0058 [Tú] | Je, buen trabajo.
+0059 [Tú] | Veamos qué hay adentro... ¿Un libro y una carta? Me siento mal leyendo las cosas privadas de otra persona...
+0060 [Tú] | Pero... lo siento. Tengo que hacerlo.
+0061 [Tú] | Querida Kasimira, o quien sea que encuentre esto: si estás leyendo esto, yo ya no estoy.
+0062 [Tú] | ...Sí. Parece que es de Narida. Kasimira, es para ti.
+0063 [Kasimira] | Está bien. Sigue leyendo. Nos ayudaste, tienes derecho a saberlo. Además, podría tener pistas sobre el Monolito.
+0064 [Tú] | Si estás segura... Está bien.
+0065 [Narración] | Cuando era pequeña, admiraba a las madres de los orfanatos del Gato Blanco. Eran fuertes y, a la vez, dulces.
+0066 [Narración] | Solía pensar: quiero llegar a ser alguien así.
+0067 [Narración] | Sentí celos cuando le confiaron las niñas a Taffett. Me dolió.
+0068 [Narración] | Pero al verla con esas niñas, me di cuenta...
+0069 [Narración] | Su Majestad tomó la decisión correcta. Taffett estaba destinada a ser «mamá». Yo no. A quien esté leyendo esto... ¿Sabes cuál es la cualidad más importante de una «mamá»? Es...
+0070 [Narración] | ==Off==La disposición a darles a sus hijos un amor incondicional.
+0071 [Narración] | Yo nunca podría ser su mamá. Lo más que podría llegar a ser es una hermana mayor decente para los Gatos Blancos.
+0072 [Narración] | Taffett y yo éramos los únicos Gatos Blancos que conocieron a Su Majestad.==W== Cuando Taffett se convirtió en Allie... yo me convertí en la última reliquia de una época pasada.
+0073 [Narración] | Encontré una Piedra del Alma roja en el sótano del orfanato. Lleva la firma de Su Majestad.
+0074 [Narración] | Los documentos de aquí dicen que puede abrir el Monolito sellado.
+0075 [Narración] | Perdóneme, Su Majestad. Tenía que alejar a los Gatos Blancos de ese Monolito. Era la única forma de terminar con el derramamiento de sangre interminable en Mirage.
+0076 [Narración] | Aunque, pensándolo bien... supongo que esa fue su intención desde el principio, cuando me asignó a este puesto.
+0077 [Narración] | Enterraré ese Monolito en las arenas infinitas, donde nadie lo encuentre jamás. Supongo que eso sigue contando como obedecer sus órdenes.
+0078 [Narración] | Por eso dejé la brújula en ese sótano. Debí destruirla también, para estar segura.
+0079 [Narración] | Escondí el arma de Taffett en un compartimento secreto allá abajo. Si la encuentras, puedes llevártela. Pero, por favor, deja a Allie en paz.
+0080 [Narración] | El nombre que le di era el que tenía cuando llegó con nosotros por primera vez.
+0081 [Narración] | Quien es ahora es su yo más verdadero y perfecto.
+0082 [Narración] | Kasimira, llévate a los demás y váyanse.
+0083 [Narración] | Vivan su vida como ustedes quieran.
+0084 [Tú] | Fin.
+0085 [Allie] | Narida... Ya ni siquiera puedo imaginar tu cara. Pero...==W== Gracias.
+0086 [Kasimira] | ...Ya veo. Así que el objetivo de la capitana Narida siempre fue borrar el Monolito.
+0087 [Kasimira] | Pero no lo creo. No está muerta. ¡La capitana no moriría! ¡Tiene que estar en ese Monolito!
+0088 [Benito] | ¡Iris! Cuando encontraste al Jefe en el Monolito, ¿viste a mi hermana? ¿Cabello azul, muy parecida a mí?
+0089 [Iris] | Eh... Lo siento, no vimos a nadie más. Aunque no revisamos todas las salas, así que quizá no la vimos...
+0090 [Kasimira] | Claro... Perdón. No deberíamos estar haciendo preguntas así ahora.
+0091 [Noya] | Esperen... La carta mencionaba una brújula en el sótano. ¿Será esta que nos dio Firenze?
+0092 [Amber] | Hay una ranura en el pedestal. Noya, pruébala.
+0093 [Lugar y hora] | 12:45, 18.º del mes de Nebula, Mirage, Calle principal
+0094 [Cosette] | Aaah... Calor... Sed... Por fin, gente. Pensé que me iba a morir allá afuera.
+0095 [Cosette] | ¿Por qué el Jefe se vendría a arrastrar a una ciudad sin Monolito?
+0096 [Cosette] | ¿Eh? ¿Qué dice ese letrero?
+0097 [Cosette] | ¡¡Bar... Eureka!!
+0098 [Cosette] | ¡Yupi! ¡Un bar significa bebidas frías y dulces, perfectas para el desierto! ¡Allá voy!
+0099 [Cosette] | Espera, ¿por qué tiembla el edificio? ¡¿Otra tormenta de arena?! ¡No, no, no, todavía no me puedo morir! ¡Ni siquiera he probado su bebida estrella!
+0100 [Cosette] | Uf... ¿Lo logré?
+0101 [Cosette] | ¡Ptuí! Puaj, hay arena por todas partes. Este lugar es una pesadilla. Tengo que encontrar al Jefe y sacar a ==SEX4== de aquí.
+0102 [Cosette] | Ah. Pero antes de irme, voy a hacer que ==SEX4== me invite la bebida de edición limitada de aquí. Es lo mínimo que merezco por perseguir a ==SEX4== hasta acá. ¡Sí, ese es el plan!
+0103 [Shocked Citizen] | ¡Oigan, miren! ¡Eso...!
+0104 [Alarmed Citizen] | No puede ser... ¡¿Cómo es que está aquí?!
+0105 [Cosette] | Oigan, ¿por qué me miran todos? ¡No hice nada raro!
+0106 [Shocked Citizen] | ¡Nadie te está mirando a ti! ¡Esa cosa detrás de ti, ¿por qué está aquí?!
+0107 [Cosette] | ¿Detrás de mí?
+0108 [Cosette] | ¿Eh? ¡¿Eso es un... Monolito?! ¡Imposible, revisé antes de entrar! ¡No había ninguno cerca de aquí!
+0109 [Alarmed Citizen] | El Monolito... ¡Regresó!
+0110 [Lugar y hora] | 12:50, 18.º del mes de Nebula, Mirage, desierto a las afueras de la ciudad
+0111 [Greyhorn] | Señora, nuestros exploradores confirman que el Monolito desaparecido de Mirage reapareció. Y, según nuestra información, el Tirano efectivamente está en la ciudad.
+0112 [Angie] | Buen trabajo. Pero, Greyhorn, ¿por qué te esfuerzas tanto si ni siquiera eres del Comité de Salvación? Jeje... ¿Tú también quieres proteger este mundo?
+0113 [Greyhorn] | Solo sigo las órdenes del gran capitán.
+0114 [Gentle Arbiter] | Jejeje... Una caballera obediente, que irradia desgana pero aun así prepara a las tropas con docilidad... ¡Y con esa mirada, como si yo fuera la peor basura...! ¡Es magnífico! ¡Gracias!
+0115 [Easygoing Sentinel of Dawn] | Greyhorn solo está haciendo su trabajo. ¿Qué te pasa? Qué asco.
+0116 [Gentle Arbiter] | ¡Sí! ¡Acepto ese insulto con gusto! ¡Gracias! ¡Por favor, Lady Angie, castigue a este gusano miserable! ¡Castígueme con dureza para que nunca vuelva a ofender!
+0117 [Angie] | Tranquilo, número 160. Además, castigar a alguien que lo desea no tiene sentido, ¿no crees?
+0118 [Angie] | Probemos otra cosa. No te pondré un dedo encima. Te quedarás aquí y darás resultados para el Comité de Salvación. Esa es tu misión.
+0119 [No. 160] | ¡¿Pensar que me dejaría así, con las ganas...?!==W== ¡Como era de esperarse de Lady Angie! ¡La seguiré por siempre!
+0120 [Angie] | Gunhild. ¿Cuál es el estado de la tropa?
+0121 [Gunhild] | Señora, hay trescientos efectivos en las coordenadas indicadas. Despliegue completo. Estamos listos para atacar a su orden.
+0122 [Gunhild] | Otros doscientos terminarán de reunirse mañana. Llegarán con nuestros suministros al amanecer.
+0123 [Angie] | Gracias. Cada uno de ustedes tomará una compañía de cien y procederá según el plan.
+0124 [Greyhorn & No. 160 & Gunhild] | ¡Entendido!
+0125 [Angie] | Tirano. Admito que te subestimé en Philae.
+0126 [Angie] | Para asegurar la victoria esta vez, traje treinta veces más fuerzas. Aunque hayas convencido a los Gatos Blancos de respaldarte...
+0127 [Angie] | ¿De verdad puedes hacernos frente? Je, je, je...
+0128 [Angie] | Sea como sea, seremos nosotros quienes reiremos al último en este campo de batalla. Esta vez te atravesaré el corazón. Salvaré este mundo.
+0129 [Noya] | Se... se detuvo. ¿Estás bien, ==PLAYER_NAME==?
+0130 [Tú] | Gracias por cubrirme. Estoy bien...
+0131 [Tú] | Pero que me tengas inmovilizado así, prácticamente aplastándome, me hace aún más difícil respirar...
+0132 [Lugar y hora] | 12:50, 18.º del mes de Nebula, Mirage, sala secreta del Gato Blanco
+0133 [Amber] | ¿Un terremoto?
+0134 [Kasimira] | No. En Mirage no hay terremotos. Vamos a revisar afuera. Gatos Blancos, al frente. Todos, manténganse alerta.
+0135 [Allie] | Entonces yo cubriré la retaguardia.==W== Ustedes adelántense.
+0136 [1] | Entendido. Alcancemos a Kasimira.
+0137 [1] | ¡Uy!==W==
+0138 [Noya] | ¡¿==PLAYER_NAME==?! Qué caída tan fea... ¿Estás bien?
+0139 [1] | Ay... Me pegué en la rodilla. Estoy bien.
+0140 [Tú] | Espera, ¿por qué hay un libro aquí?==W== El temblor debió tirarlo de algún compartimento oculto.
+0141 [Tú] | Un momento, ¿hay un papel metido adentro?
+0142 [1] | Mmm, un dibujo... ¿Un retrato? Se parece un poco a mí... No, ¡¿definitivamente soy yo?!
+0143 [1] | Eso es imposible... No recuerdo que nadie me haya pintado un retrato. ¿Lo habré encargado antes de perder la memoria? Pero ¿por qué esconderlo aquí?
+0144 [Noya] | ==PLAYER_NAME==, hay algo escrito en la página del retrato.
+0145 [Iris] | ¿Eso es... el emblema de la Emperatriz?
+0146 [Narración] | ==Off==Es una maldición recordar demasiado, saber demasiado y sentir demasiado.
+0147 [Narración] | ==Off==Y aun así, todos mis recuerdos de ti son dulces.
+0148 [Narración] | ==Off==¿Cuándo volverás por fin a mi lado?
+0149 [Narración] | ==Off==Mi Tirano.
+0150 [Narración] | ==Off==Mi salvador.

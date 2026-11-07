@@ -1,4 +1,4 @@
-# Capítulo 4 · Más allá del sueño · 1 · The Old Days
+# Capítulo 4 · Más allá del sueño · 1 · Los viejos tiempos
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -13,107 +13,107 @@ N:avg3_182 | Elis
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | The Old Days
-0003 [Intro] | To escape the Garden of Parasite, you leap into a pit with Nazuka. When you wake up, you're resting your head on Nazuka's lap, and she tells you about what happened in the past. If only this peaceful moment would last forever.
-0004 [Narración] | This is a story from a distant past— one never recorded in any history book.
-0005 [???] | ==PLAYER_NAME==... ==PLAYER_NAME==! C'mon, wake up.
-0006 [???] | Hey, check this out! My latest creation. From now on, this is our secret hideout.
-0007 [???] | Why are you always so sleepy? We've still got so much to do!
-0008 [???] | What?==W== You see nothing here?
-0009 [???] | That's the best part!==W== It means we can decorate it ourselves to our heart's content.
-0010 [???] | Whoa, you're sleepy again?
-0011 [???] | Don't lie on the ground like that. You'll catch a cold.
-0012 [???] | Here. Next time you feel tired, just rest your head on my lap.
-0013 [Narración] | Something soft and warm cradles the back of my head. I close my eyes, drifting into a peaceful dream.
-0014 [Lugar y hora] | 17:18, Pluvia Month 27th, Outside Philae, Unknown Pit
-0015 [Tú] | Na... Nazuka?
-0016 [Tú] | Where ... are we?
-0017 [Nazuka] | Before that, tell me: what do you see when you look at me? And describe your surroundings...
-0018 [Tú] | You? You're just Nazuka.
-0019 [Tú] | As for our surroundings... Is that a light up there? Are we in some kind of hole?
-0020 [Nazuka] | Phew... You haven't been affected by the magic mist from the Garden of Parasite. That's a relief.
-0021 [Tú] | The Garden of Parasite... Magic mist?
-0022 [Tú] | Right, I remember now! We ran into the Garden of Parasite in the forest, so we took refuge in here.
-0023 [Nazuka] | Yeah. I have no idea who dug it, but this pit was a real lifesaver. It's too deep for those vines to reach us.
-0024 [Tú] | I see...==W== Wait, how'd I pass out?
-0025 [Nazuka] | A-Ah, well... After you jumped, I kinda ... landed on you.
-0026 [Tú] | Oh.==W== So you knocked me out.
-0027 [Nazuka] | I-It wasn't on purpose! A-And I'm not that heavy...!
-0028 [Nazuka] | Hmph... And here I was trying to be nice 'cause I felt bad...
-0029 [Tú] | So she isn't always so cold.==W== Maybe ... this is the real Nazuka?
-0030 [Tú] | Hey, it's not your fault. In an emergency like that, you can't really worry about the landing.==W== Besides, you'd already burned through all your magic and stamina.
-0031 [Tú] | Hang on, what am I lying on?
-0032 [Narración] | A soft warmth cradles the back of my head, just like in my dream. It's only then did I realize I'm resting on Nazuka's lap.
-0033 [Narración] | I scramble to get up, but Nazuka holds my shoulders down.
-0034 [Nazuka] | I was worried you had hit your head. Just lie down a little longer.
-0035 [Tú] | She's definitely worried. That awkward kindness...==W== It's just like Nazuna.
-0036 [Nazuka] | Also ... it'd be a problem for me if you move around. I inhaled some of that mist while casting magic, so right now ... you don't look like yourself to me.
-0037 [Tú] | You were poisoned by the mist?!
-0038 [Nazuka] | It's nothing serious. I've been exposed to it before. The effects wear off in about an hour, without lingering effects.
-0039 [Nazuka] | The hallucinations can shift at any second though, so if I look away, my eyes may play another trick on me. With you on my lap, at least I can be sure you are you.
-0040 [Tú] | I see...==W== So the lap pillow's actually practical.
-0041 [Nazuka] | Mhm. So it's best we stay like this 'til I've recovered. You wouldn't want me to ... mistake you for a monster, would you?
-0042 [Tú] | Definitely not...==W== But now I'm curious. What do I look like to you now? What kind of monster?
-0043 [Nazuka] | Not a monster. A statue.==W== You know the One-Armed Saint at the Philae Museum of Art? Kinda like that, but with your face.
-0044 [Tú] | Don't know that one...==W== But if I look like stone, do I feel cold and hard, too?
-0045 [Nazuka] | Mhm. Rough, cold, and hard. The mist from the Garden of Parasite messes with your sense of touch, too.
-0046 [Tú] | This must be uncomfortable... And you've been watching over me the whole time?
-0047 [Nazuka] | It's nothing. When you were unconscious, I wasn't even sure if you'd wake up... That was the real worry.
-0048 [Tú] | Pfft—hahaha.
-0049 [Nazuka] | Hey... What's so funny?
-0050 [Tú] | Sorry, couldn't help it.==W== I just never imagined that the serious, combative, and somewhat aloof Nazuka I know had a side like this.
-0051 [Tú] | You're actually pretty gentle. And it's unexpectedly endearing that you'd worry about your weight at a time like this.==W== This version of you is pretty approachable.
-0052 [Nazuka] | I feel like you're teasing me.
-0053 [Tú] | It's a 100% genuine compliment.
-0054 [Nazuka] | If you say so. Still, you're pretty relaxed, trying to lighten the mood even now. Do you really understand the severity of our situation?
-0055 [Nazuka] | The Garden of Parasite is still up there waiting for us, we're trapped in this steep hole that could collapse at any second, and my magic is gone, so I can't fly us out.
-0056 [Tú] | Hmm... So we really are at a dead end.
-0057 [Nazuka] | Yeah. All we can do is wait for the magic mist to clear, pray this hole doesn't fall in on us, and try to recover some magic. That and nothing else.
-0058 [Tú] | For now, isn't that enough?
-0059 [Nazuka] | Why are you smiling?
-0060 [Tú] | I have a friend who smiles in any situation. I once asked her about, and she said—
-0061 [Noya] | Smiling or crying, you're still facing the same problem...
-0062 [Noya] | So why not smile and feel a little better?
-0063 [Tú] | I think she's right. Even if we really are stuck, there's no point being miserable. A sour face won't fix anything.
-0064 [Nazuka] | We might as well smile since crying makes no difference. Interesting...==W== I shall give it a try since we're stuck here.
-0065 [Tú] | That's the spirit. On that note, I have a suggestion—
-0066 [Tú] | Why don't we use this time to get to know each other?
-0067 [Tú] | If we understand each other's strengths and weaknesses, we'll have more tactical options when a crisis hits.
-0068 [Nazuka] | A way to use our time efficiently... That's not a bad idea.==W== Shall I begin?
-0069 [Tú] | After you.
-0070 [Nazuka] | Come to think of it... ==PLAYER_NAME==, have you actually been inside Philae since you got here?
-0071 [Tú] | Huh? I guess we haven't... We've just been going back and forth between the camp and the Trekkers' House.
-0072 [Tú] | But what does that have to do with her...?
-0073 [Nazuka] | Then you probably don't know that the One-Armed Saint statue at the Philae Museum of Art is nude.
-0074 [Tú] | But nude statues are pretty common for showcasing the human form, aren't they?
-0075 [Tú] | Definitely not...==W== But now I'm curious. What do I look like to you now? What kind of monster?
-0076 [Nazuka] | Not a monster. A statue. You know the One-Armed Saint at the Philae Museum of Art? Kinda like that, but with your face.
-0077 [Tú] | You see me like that too?!==W== Wait, hold on a sec—
-0078 [Opción] | Cover yourself up
-0079 [Nazuka] | Pfft—
-0080 [Tú] | Hey! You're messing with me, aren't you?!
-0081 [Nazuka] | Well, someone was making such a big deal about getting "knocked out" earlier. So now we're even.
-0082 [Tú] | Holding a grudge over something so silly...==W== Still, it's good that we can joke around like this.
-0083 [Tú] | Wait! What about the statue?! You left out the most important part!
-0084 [Nazuka] | Relax... Some part of the One-Armed Saint is clothed, though it's still about 95% exposed.
-0085 [Tú] | How is that any different from being completely naked...?!
-0086 [Nazuka] | Steady. The Garden of Parasite is on the move.
-0087 [Narración] | The ground shudders violently, as dirt and rock fall from the wall. Nazuka shields me with her body, using the last of her magic to conjure a wind barrier as thin as a cicada's wing.
-0088 [Tú] | Thanks...==W== But you don't have to shield me like that. I'm tougher than most people make me out to be.
-0089 [Nazuka] | I... I just can't bear seeing people around me fall into danger.
-0090 [Tú] | You can't bear that, huh?==W== Is that why you left Petal Bloom? Even though I don't actually know the whole story.
-0091 [Nazuka] | Don't jump to conclusions.
-0092 [Tú] | But you and Nazuna fought so flawlessly together.==W== I don't think that's possible if you really dislike her.
-0093 [Tú] | I don't pay much attention to what people say. I care more about what they do.
-0094 [Nazuka] | ==PLAYER_NAME==. Please, no more questions.
-0095 [Tú] | Keeping something like that to yourself must be agonizing.
-0096 [Tú] | Doesn't it ... hurt?
-0097 [Nazuka] | ...?!
-0098 [Nazuka] | This ... has nothing to do with you.
-0099 [Tú] | You're right, it doesn't.==W== After all, I'm just a stone statue with Boss's face now.
-0100 [Nazuka] | "A stone statue with Boss's face"...==W== Pfft. What a weird way to put it.
-0101 [Tú] | Exactly. I'm just a statue.==W== Your secret's safe with me. I won't tell anyone.
-0102 [Nazuka] | "The One-Armed Saint statue with Boss's face"... You know, that does make you a fitting confidant.
-0103 [Nazuka] | Fine. If you really want to know... Here it goes.
-0104 [Nazuka] | Two months ago, I was covering the expedition party's retreat. And I saw something I was never meant to see.
+0001 [Intro] | Acto uno
+0002 [Intro] | Los viejos tiempos
+0003 [Intro] | Para escapar del Jardín Parásito, saltas a un foso junto con Nazuka. Al despertar, tienes la cabeza apoyada en el regazo de Nazuka, y ella te cuenta lo que pasó en el pasado. Ojalá este momento de paz durara para siempre.
+0004 [Narración] | Esta es una historia de un pasado lejano, una que jamás quedó registrada en ningún libro de historia.
+0005 [???] | ==PLAYER_NAME==... ¡==PLAYER_NAME==! Ándale, despierta.
+0006 [???] | ¡Oye, mira esto! Mi creación más reciente. De ahora en adelante, este será nuestro escondite secreto.
+0007 [???] | ¿Por qué siempre tienes tanto sueño? ¡Todavía tenemos muchísimo que hacer!
+0008 [???] | ¿Qué?==W== ¿Que aquí no ves nada?
+0009 [???] | ¡Eso es lo mejor!==W== Significa que podemos decorarlo nosotros mismos como más nos guste.
+0010 [???] | ¿Eh, otra vez tienes sueño?
+0011 [???] | No te acuestes así en el suelo. Te vas a resfriar.
+0012 [???] | Ven. La próxima vez que te sientas cansado, recuesta la cabeza en mi regazo.
+0013 [Narración] | Algo suave y cálido me sostiene la nuca. Cierro los ojos y me dejo llevar hacia un sueño apacible.
+0014 [Lugar y hora] | 17:18, 27.º del mes de Pluvia, afueras de Philae, foso desconocido
+0015 [Tú] | Na... ¿Nazuka?
+0016 [Tú] | ¿Dónde... estamos?
+0017 [Nazuka] | Antes de eso, dime: ¿qué ves cuando me miras? Y describe lo que hay a tu alrededor...
+0018 [Tú] | ¿A ti? Pues solo eres Nazuka.
+0019 [Tú] | Y a nuestro alrededor... ¿Eso de allá arriba es luz? ¿Estamos en una especie de agujero?
+0020 [Nazuka] | Uf... No te afectó la niebla mágica del Jardín Parásito. Qué alivio.
+0021 [Tú] | El Jardín Parásito... ¿Niebla mágica?
+0022 [Tú] | ¡Cierto, ya me acordé! Nos topamos con el Jardín Parásito en el bosque, así que nos refugiamos aquí.
+0023 [Nazuka] | Sí. No tengo idea de quién lo cavó, pero este foso nos salvó la vida. Es demasiado profundo para que esas enredaderas nos alcancen.
+0024 [Tú] | Ya veo...==W== Oye, ¿y cómo es que me desmayé?
+0025 [Nazuka] | A-ah, bueno... Después de que saltaste, yo como que... caí encima de ti.
+0026 [Tú] | Ah.==W== O sea que tú me noqueaste.
+0027 [Nazuka] | ¡N-no fue a propósito! ¡Y-y no peso tanto...!
+0028 [Nazuka] | Hmph... Y yo aquí tratando de ser amable porque me sentía mal...
+0029 [Tú] | Así que no siempre es tan fría.==W== ¿Será que... esta es la verdadera Nazuka?
+0030 [Tú] | Oye, no es tu culpa. En una emergencia así, uno no puede preocuparse por cómo va a caer.==W== Además, ya habías gastado toda tu magia y tu energía.
+0031 [Tú] | Un momento, ¿sobre qué estoy acostado?
+0032 [Narración] | Una suave calidez me sostiene la nuca, igual que en mi sueño. Solo entonces me doy cuenta de que estoy recostado en el regazo de Nazuka.
+0033 [Narración] | Intento levantarme a toda prisa, pero Nazuka me sujeta de los hombros.
+0034 [Nazuka] | Me preocupaba que te hubieras golpeado la cabeza. Quédate acostado un rato más.
+0035 [Tú] | De verdad está preocupada. Esa amabilidad torpe...==W== Es igualita a Nazuna.
+0036 [Nazuka] | Además... sería un problema para mí que te movieras. Respiré algo de esa niebla mientras lanzaba magia, así que ahora mismo... no te veo como eres.
+0037 [Tú] | ¡¿La niebla te envenenó?!
+0038 [Nazuka] | No es nada grave. Ya me había expuesto antes. Los efectos pasan en más o menos una hora y no dejan secuelas.
+0039 [Nazuka] | Pero las alucinaciones pueden cambiar en cualquier segundo, así que si aparto la vista, mis ojos podrían volver a jugarme una mala pasada. Contigo en mi regazo, al menos puedo estar segura de que tú eres tú.
+0040 [Tú] | Ya veo...==W== Así que la almohada de regazo en realidad es práctica.
+0041 [Nazuka] | Mjm. Así que lo mejor es quedarnos así hasta que me recupere. No querrás que te... confunda con un monstruo, ¿verdad?
+0042 [Tú] | Para nada...==W== Pero ahora me dio curiosidad. ¿Cómo me ves ahora? ¿Qué clase de monstruo?
+0043 [Nazuka] | No un monstruo. Una estatua.==W== ¿Conoces la Santa Manca del Museo de Arte de Philae? Algo así, pero con tu cara.
+0044 [Tú] | Esa no la conozco...==W== Pero si me veo como de piedra, ¿también me sientes frío y duro?
+0045 [Nazuka] | Mjm. Áspero, frío y duro. La niebla del Jardín Parásito también altera el sentido del tacto.
+0046 [Tú] | Debe ser incómodo... ¿Y estuviste cuidándome todo este tiempo?
+0047 [Nazuka] | No es nada. Cuando estabas inconsciente, ni siquiera sabía si ibas a despertar... Eso sí era preocupante.
+0048 [Tú] | Pff... jajaja.
+0049 [Nazuka] | Oye... ¿Qué es tan gracioso?
+0050 [Tú] | Perdón, no pude evitarlo.==W== Es que nunca me imaginé que la Nazuka seria, combativa y un poco distante que conozco tuviera este lado.
+0051 [Tú] | En realidad eres bastante dulce. Y es inesperadamente tierno que te preocupe tu peso en un momento así.==W== Esta versión de ti es mucho más accesible.
+0052 [Nazuka] | Siento que te estás burlando de mí.
+0053 [Tú] | Es un cumplido 100 % sincero.
+0054 [Nazuka] | Si tú lo dices. Aun así, estás muy tranquilo, tratando de aligerar el ambiente incluso ahora. ¿De verdad entiendes lo grave de nuestra situación?
+0055 [Nazuka] | El Jardín Parásito sigue allá arriba esperándonos, estamos atrapados en este agujero empinado que podría derrumbarse en cualquier momento, y no me queda magia, así que no puedo sacarnos volando.
+0056 [Tú] | Mmm... O sea que de verdad estamos en un callejón sin salida.
+0057 [Nazuka] | Sí. Lo único que podemos hacer es esperar a que se disipe la niebla mágica, rezar para que el agujero no se nos venga encima y tratar de recuperar algo de magia. Eso y nada más.
+0058 [Tú] | Por ahora, ¿no es suficiente?
+0059 [Nazuka] | ¿Por qué sonríes?
+0060 [Tú] | Tengo una amiga que sonríe en cualquier situación. Una vez le pregunté por qué, y me dijo...
+0061 [Noya] | Sonriendo o llorando, el problema sigue siendo el mismo...
+0062 [Noya] | Entonces, ¿por qué no sonreír y sentirte un poquito mejor?
+0063 [Tú] | Creo que tiene razón. Aunque de verdad estemos atrapados, no sirve de nada amargarse. Poner cara larga no va a arreglar nada.
+0064 [Nazuka] | Más vale sonreír, ya que llorar no cambia nada. Interesante...==W== Lo intentaré, ya que estamos atrapados aquí.
+0065 [Tú] | Esa es la actitud. Y ya que estamos, tengo una sugerencia...
+0066 [Tú] | ¿Por qué no aprovechamos este tiempo para conocernos mejor?
+0067 [Tú] | Si conocemos las fortalezas y debilidades del otro, tendremos más opciones tácticas cuando llegue una crisis.
+0068 [Nazuka] | Una forma de aprovechar el tiempo de manera eficiente... No es mala idea.==W== ¿Empiezo yo?
+0069 [Tú] | Adelante.
+0070 [Nazuka] | Ahora que lo pienso... ==PLAYER_NAME==, ¿de verdad has entrado a Philae desde que llegaste?
+0071 [Tú] | ¿Eh? Creo que no... Solo hemos ido y venido entre el campamento y la Casa de los Trekkers.
+0072 [Tú] | Pero ¿eso qué tiene que ver con ella...?
+0073 [Nazuka] | Entonces seguro no sabes que la estatua de la Santa Manca del Museo de Arte de Philae está desnuda.
+0074 [Tú] | Pero las estatuas desnudas son bastante comunes para mostrar la forma humana, ¿no?
+0075 [Tú] | Para nada...==W== Pero ahora me dio curiosidad. ¿Cómo me ves ahora? ¿Qué clase de monstruo?
+0076 [Nazuka] | No un monstruo. Una estatua. ¿Conoces la Santa Manca del Museo de Arte de Philae? Algo así, pero con tu cara.
+0077 [Tú] | ¡¿También me ves así?!==W== Espera, un segundo...
+0078 [Opción] | Cubrirte
+0079 [Nazuka] | Pff...
+0080 [Tú] | ¡Oye! ¡Me estás tomando el pelo, ¿verdad?!
+0081 [Nazuka] | Bueno, alguien estaba haciendo un drama por haber quedado «noqueado» hace rato. Así que ahora estamos a mano.
+0082 [Tú] | Guardar rencor por algo tan tonto...==W== Aun así, qué bueno que podamos bromear así.
+0083 [Tú] | ¡Espera! ¡¿Y la estatua qué?! ¡Te saltaste la parte más importante!
+0084 [Nazuka] | Tranquilo... Una parte de la Santa Manca sí está cubierta, aunque sigue expuesta en un 95 %.
+0085 [Tú] | ¡¿Y eso en qué se diferencia de estar completamente desnuda...?!
+0086 [Nazuka] | Quieto. El Jardín Parásito se está moviendo.
+0087 [Narración] | El suelo se sacude con violencia y caen tierra y rocas de la pared. Nazuka me cubre con su cuerpo y usa lo último de su magia para conjurar una barrera de viento tan delgada como el ala de una cigarra.
+0088 [Tú] | Gracias...==W== Pero no tienes que protegerme así. Soy más resistente de lo que la mayoría cree.
+0089 [Nazuka] | Yo... Es que no soporto ver a la gente a mi alrededor en peligro.
+0090 [Tú] | No lo soportas, ¿eh?==W== ¿Por eso dejaste Petal Bloom? Aunque en realidad no conozco toda la historia.
+0091 [Nazuka] | No saques conclusiones apresuradas.
+0092 [Tú] | Pero Nazuna y tú pelearon juntas de forma impecable.==W== No creo que eso sea posible si de verdad te cae mal.
+0093 [Tú] | No le hago mucho caso a lo que dice la gente. Me importa más lo que hace.
+0094 [Nazuka] | ==PLAYER_NAME==. Por favor, no más preguntas.
+0095 [Tú] | Guardarte algo así debe ser una agonía.
+0096 [Tú] | ¿No te... duele?
+0097 [Nazuka] | ¡¿...?!
+0098 [Nazuka] | Esto... no tiene nada que ver contigo.
+0099 [Tú] | Tienes razón, no tiene nada que ver.==W== Después de todo, ahora solo soy una estatua de piedra con la cara del Jefe.
+0100 [Nazuka] | «Una estatua de piedra con la cara del Jefe»...==W== Pff. Qué forma tan rara de decirlo.
+0101 [Tú] | Exacto. Solo soy una estatua.==W== Tu secreto está a salvo conmigo. No se lo diré a nadie.
+0102 [Nazuka] | «La estatua de la Santa Manca con la cara del Jefe»... ¿Sabes? Eso te convierte en un confidente bastante apropiado.
+0103 [Nazuka] | Está bien. Si de verdad quieres saberlo... Ahí va.
+0104 [Nazuka] | Hace dos meses, yo estaba cubriendo la retirada del grupo de expedición. Y vi algo que nunca debí haber visto.

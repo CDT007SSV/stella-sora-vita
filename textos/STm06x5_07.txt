@@ -1,10 +1,10 @@
-# Especial 6.5 · Obertura de un enigma sombrío · 7 · The Variable
+# Especial 6.5 · Obertura de un enigma sombrío · 7 · La variable
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Broadcast | Broadcast
-N:Desert Scorpion Merc | Desert Scorpion Merc
+N:Broadcast | Transmisión
+N:Desert Scorpion Merc | Mercenario de los Escorpiones del Desierto
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -15,126 +15,126 @@ N:avg3_128 | Ophir
 N:avg3_1285 | Otoha
 N:avg3_1286 | Otoha
 N:avg3_207 | Myrsha
-N:avg3_208 | Desert Scorpion Female Grunt
-N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
+N:avg3_209 | Secuaz de los Escorpiones del Desierto
 N:avg3_210 | Hazana
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Seven
-0002 [Intro] | The Variable
-0003 [Intro] | Desert Scorpion leader Hazana reveals Otoha's past—she is a traitor to Goodwind Homecare and is likely to betray you, too. On the rooftop of the hotel, Otoha and Hazana engage in a final showdown.
-0004 [Lugar y hora] | 18:50, Venatio Month 5th, Silver District in Philae, Hotel Rooftop
-0005 [Otoha] | Heh...==W== The famed Desert Scorpions. I expected more of a fight.
-0006 [Otoha] | All the way from the desert, only to leave empty-handed. I almost pity you.
-0007 [Desert Scorpion Merc] | Deputy Captain, what's the call?
-0008 [Myrsha] | The Captain's almost here! Keep them pinned down!
-0009 [Tú] | The Captain?
-0010 [Otoha] | Hazana.==W== No match for me, but a headache nonetheless.
-0011 [Otoha] | Anyway...==W== The banquet's about to start. We're done wasting time here.
-0012 [Otoha] | Go, Boss! I'll cover you!
-0013 [Tú] | Hmm? A text?==W== No time to read it now.
-0014 [???] | Think you can run? Dream on!
-0015 [Otoha] | Watch out, Boss!
-0016 [Lugar y hora] | 18:50, Venatio Month 5th, Silver District in Philae, Hotel Lobby
-0017 [Iris] | What do we do...==W== The banquet is starting any minute now and the Boss still isn't answering!
-0018 [Iris] | I can't reach Otoha, either!
-0019 [Amber] | Something's wrong.
-0020 [Iris] | What? What do you mean?!
-0021 [Amber] | Boss might be in trouble.
-0022 [Noya] | Then we need to go look for ==SEX4==—
-0023 [???] | You there. You're with Boss Accord...==W== Right?
-0024 [Iris] | Ah! Y-Yes,==W== we are! Who's asking?!
-0025 [Jayhawk] | Jayhawk. Inspector for United Harvest.
-0026 [Jayhawk] | You've been panicking for a while now. Let me guess...==W== Your CEO went missing?
-0027 [Amber] | Suspicious. Are you behind this...?!
-0028 [Jayhawk] | Easy now. I'm innocent. I'm simply reading the room.
-0029 [Jayhawk] | With Firenze gone, only the Boss can host tonight. Look at the time—if ==SEX== still hasn't shown up, people are going to notice.
-0030 [Noya] | So...?==W== What's your point?
-0031 [Jayhawk] | Put away your glare. I'm not the enemy.==W== This banquet has United Harvest's name attached to it.==W== If you ruin it, you ruin headquarters' reputation too.
-0032 [Jayhawk] | Consider this free advice.
-0033 [Jayhawk] | Whatever is going on, the banquet must proceed as planned.==W== Otherwise, all your hard work goes up in smoke.
-0034 [Jayhawk] | Don't let the guests suspect a thing.
-0035 [Jayhawk] | Starting with you.
-0036 [Amber] | Me?
-0037 [Jayhawk] | You can't go around accusing strangers of foul play.==W== Not everyone poking around for intel will be as friendly as I am.
-0038 [Amber] | …
-0039 [Jayhawk] | And you.
-0040 [Iris] | M-Me?!
-0041 [Jayhawk] | Your panic is written all over your face.==W== At parties like this, you need a thick skin. Fake it if you have to, but keep your cool.
-0042 [Iris] | N-Noted...
-0043 [Iris] | Bottom line: we keep the Boss's absence a total secret, right?
-0044 [Jayhawk] | Exactly. Don't let anyone suspect a thing. How you pull it off is up to you.
-0045 [Iris] | Understood. Thank you, Inspector Jayhawk.
-0046 [Jayhawk] | I'll run interference on my end. Let's see what you can do.==W== Catch you later.
-0047 [Iris] | Amber, Noya. We'll handle the guests once the doors open.
-0048 [Iris] | We sell them a story:==W== they aren't important enough for a personal audience with the Boss. The CEO of Boss Accord only deals with higher-ups.
-0049 [Iris] | But we need some impressive titles to back that up...==W== Or they'll walk all over us.
-0050 [Iris] | Amber, you're Boss Accord's Chief Operating Officer.
-0051 [Amber] | Understood.
-0052 [Iris] | Noya, you'll be the Chief Technology Officer.
-0053 [Noya] | On it!
-0054 [Iris] | Which makes me ...==W== the Chief Financial Officer. That settles it.
-0055 [Iris] | Boss speaks at 20:30, and we keep the guests in the dark until then. We make this work,==W== no matter what it takes!!
-0056 [Amber] | Got it!
-0057 [Broadcast] | Distinguished guests, the banquet will begin shortly. Please find your designated seats...
-0058 [Ophir] | It's finally starting. Let me run one last check on the photo capturer to be safe—
-0059 [Ophir] | Huh? Was that a shake?==W== Or is it just my imagination...
-0060 [Otoha] | Phew...==W== Made it...
-0061 [Tú] | That was close...==W== Thanks, Otoha. I knew you were an amazing bodyguard.
-0062 [Otoha] | You flatter me. This is nothing. My job isn't done until you're safe at the banquet.
-0063 [Hazana] | Hey, Otoha. What are you playing at?
-0064 [Otoha] | Exactly what it looks like. Having trouble processing the situation with your little brain?
-0065 [Hazana] | Ha. You haven't changed a bit. Still the same annoying fox.
-0066 [Otoha] | I'll take that as a compliment, thanks.==W== I assume you've already reported to the client?
-0067 [Hazana] | That rich kid lost his mind when he heard you switched sides. It was hilarious.
-0068 [Hazana] | So, a little update to my contract. My new gig is to—
-0069 [Hazana] | Wipe you all out! No survivors!
-0070 [Otoha] | I see. Fine by me.==W== If you think you can pull it off, be my guest♪
-0071 [Hazana] | Haha! Don't mind if I do.==W== Get 'em!
-0072 [Desert Scorpion Merc] | Yes!!
-0073 [Otoha] | Sigh...==W== Talk about being underestimated.
-0074 [Otoha] | Hazana, if you don't step up, these amateurs aren't worth my time—
-0075 [Tú] | Gah?!
-0076 [Tú] | Wh-What's going on?!
-0077 [Myrsha] | Heh, Captain knew you'd take this route! No way you're going downstairs.
-0078 [Otoha] | ... Stairs are blocked.==W== That's a problem.
-0079 [Hazana] | Hah! No more interruptions. Come on, let's enjoy this fight to the death!
-0080 [Otoha] | Boss, things are about to get messy. Trust me and stay behind me.
-0081 [Tú] | Messy?
-0082 [Otoha] | If down is blocked, we go up!
-0083 [Tú] | Whoa?!
-0084 [Narración] | Otoha grabs my hand and sprints. Even in mortal danger, a faint smile is painted on her lips.
-0085 [Lugar y hora] | 19:00, Venatio Month 5th, Silver District in Philae, Hotel Hallway
-0086 [Tú] | Huff... Huff...==W== I can't ... run anymore...
-0087 [Otoha] | We should be safe here.
-0088 [Tú] | Are we? Hazana's right behind us...
+0001 [Intro] | Acto siete
+0002 [Intro] | La variable
+0003 [Intro] | Hazana, líder de los Escorpiones del Desierto, revela el pasado de Otoha: es una traidora de Goodwind Homecare y es probable que también te traicione a ti. En la azotea del hotel, Otoha y Hazana se enfrentan en un duelo final.
+0004 [Lugar y hora] | 18:50, 5.º del mes de Venatio, Distrito de Plata de Philae, azotea del hotel
+0005 [Otoha] | Je...==W== Los famosos Escorpiones del Desierto. Esperaba más pelea.
+0006 [Otoha] | Venir desde el desierto solo para irse con las manos vacías. Casi me dan lástima.
+0007 [Desert Scorpion Merc] | Subcapitana, ¿qué hacemos?
+0008 [Myrsha] | ¡La Capitana ya casi llega! ¡No los dejen moverse!
+0009 [Tú] | ¿La Capitana?
+0010 [Otoha] | Hazana.==W== No es rival para mí, pero aun así es un dolor de cabeza.
+0011 [Otoha] | En fin...==W== El banquete está por empezar. Ya no vamos a perder más tiempo aquí.
+0012 [Otoha] | ¡Ve, Jefe! ¡Yo te cubro!
+0013 [Tú] | ¿Mmm? ¿Un mensaje?==W== No hay tiempo para leerlo ahora.
+0014 [???] | ¿Crees que puedes huir? ¡Ni lo sueñes!
+0015 [Otoha] | ¡Cuidado, Jefe!
+0016 [Lugar y hora] | 18:50, 5.º del mes de Venatio, Distrito de Plata de Philae, vestíbulo del hotel
+0017 [Iris] | ¿Qué hacemos...?==W== ¡El banquete empieza en cualquier momento y el Jefe sigue sin contestar!
+0018 [Iris] | ¡Tampoco puedo comunicarme con Otoha!
+0019 [Amber] | Algo anda mal.
+0020 [Iris] | ¿Qué? ¡¿A qué te refieres?!
+0021 [Amber] | El Jefe podría estar en problemas.
+0022 [Noya] | Entonces tenemos que averiguar dónde está ==SEX4==...
+0023 [???] | Oigan. Ustedes son de Boss Accord...==W== ¿Verdad?
+0024 [Iris] | ¡Ah! ¡S-sí,==W== lo somos! ¡¿Quién pregunta?!
+0025 [Jayhawk] | Jayhawk. Inspectora de Cosecha Unida.
+0026 [Jayhawk] | Llevan un buen rato en pánico. Déjenme adivinar...==W== ¿Su director ejecutivo desapareció?
+0027 [Amber] | Sospechoso. ¡¿Tú estás detrás de esto...?!
+0028 [Jayhawk] | Calma. Soy inocente. Solo estoy leyendo el ambiente.
+0029 [Jayhawk] | Sin Firenze, solo el Jefe puede ser el anfitrión esta noche. Miren la hora: si ==SEX== sigue sin aparecer, la gente lo va a notar.
+0030 [Noya] | ¿Y...?==W== ¿Qué quieres decir?
+0031 [Jayhawk] | Guarda esa mirada. No soy el enemigo.==W== Este banquete lleva el nombre de Cosecha Unida.==W== Si lo arruinan, también arruinan la reputación de la sede.
+0032 [Jayhawk] | Considérenlo un consejo gratis.
+0033 [Jayhawk] | Pase lo que pase, el banquete debe seguir como estaba previsto.==W== De lo contrario, todo su esfuerzo se irá por el caño.
+0034 [Jayhawk] | No dejen que los invitados sospechen nada.
+0035 [Jayhawk] | Empezando por ti.
+0036 [Amber] | ¿Yo?
+0037 [Jayhawk] | No puedes ir por ahí acusando a desconocidos de jugar sucio.==W== No todos los que andan husmeando en busca de información serán tan amables como yo.
+0038 [Amber] | ...
+0039 [Jayhawk] | Y tú.
+0040 [Iris] | ¡¿Y-yo?!
+0041 [Jayhawk] | Se te nota el pánico en toda la cara.==W== En fiestas como esta hay que tener la piel gruesa. Finge si es necesario, pero mantén la calma.
+0042 [Iris] | E-entendido...
+0043 [Iris] | En resumen: mantenemos en total secreto la ausencia del Jefe, ¿verdad?
+0044 [Jayhawk] | Exacto. Que nadie sospeche nada. Cómo lo logren es cosa suya.
+0045 [Iris] | Entendido. Gracias, inspectora Jayhawk.
+0046 [Jayhawk] | Yo haré lo que pueda por mi lado. Veamos de qué son capaces.==W== Nos vemos.
+0047 [Iris] | Amber, Noya. Nosotras atenderemos a los invitados en cuanto se abran las puertas.
+0048 [Iris] | Les contamos una historia:==W== no son lo bastante importantes para tener una audiencia personal con el Jefe. El director ejecutivo de Boss Accord solo trata con los altos mandos.
+0049 [Iris] | Pero necesitamos algunos títulos impresionantes que lo respalden...==W== O nos van a pasar por encima.
+0050 [Iris] | Amber, tú eres la directora de operaciones de Boss Accord.
+0051 [Amber] | Entendido.
+0052 [Iris] | Noya, tú serás la directora de tecnología.
+0053 [Noya] | ¡Hecho!
+0054 [Iris] | Lo que me convierte a mí en...==W== la directora de finanzas. Asunto arreglado.
+0055 [Iris] | El Jefe habla a las 20:30, y hasta entonces mantenemos a los invitados sin saber nada. Vamos a lograrlo,==W== ¡¡cueste lo que cueste!!
+0056 [Amber] | ¡Entendido!
+0057 [Broadcast] | Distinguidos invitados, el banquete comenzará en breve. Por favor, busquen sus asientos asignados...
+0058 [Ophir] | Por fin empieza. Voy a revisar una última vez la cámara, por si acaso...
+0059 [Ophir] | ¿Eh? ¿Eso fue un temblor?==W== ¿O solo fue mi imaginación...?
+0060 [Otoha] | Uf...==W== Lo logramos...
+0061 [Tú] | Estuvo cerca...==W== Gracias, Otoha. Sabía que eras una guardaespaldas increíble.
+0062 [Otoha] | Me halagas. Esto no es nada. Mi trabajo no termina hasta que llegues a salvo al banquete.
+0063 [Hazana] | Oye, Otoha. ¿A qué estás jugando?
+0064 [Otoha] | Exactamente a lo que parece. ¿A tu cerebrito le cuesta procesar la situación?
+0065 [Hazana] | Ja. No has cambiado nada. Sigues siendo la misma zorra molesta.
+0066 [Otoha] | Lo tomaré como un cumplido, gracias.==W== ¿Supongo que ya le informaste al cliente?
+0067 [Hazana] | Ese niño rico perdió la cabeza cuando se enteró de que te cambiaste de bando. Fue graciosísimo.
+0068 [Hazana] | Así que hubo un pequeño cambio en mi contrato. Mi nuevo trabajo es...
+0069 [Hazana] | ¡Acabar con todos ustedes! ¡Sin sobrevivientes!
+0070 [Otoha] | Ya veo. Por mí está bien.==W== Si crees que puedes lograrlo, adelante♪
+0071 [Hazana] | ¡Jaja! Con mucho gusto.==W== ¡Atrápenlos!
+0072 [Desert Scorpion Merc] | ¡¡Sí!!
+0073 [Otoha] | Ay...==W== Cómo me subestiman.
+0074 [Otoha] | Hazana, si no das la cara tú, estos aficionados no valen mi tiempo...
+0075 [Tú] | ¡¿Ah?!
+0076 [Tú] | ¡¿Q-qué está pasando?!
+0077 [Myrsha] | ¡Je, la Capitana sabía que tomarían esta ruta! No hay forma de que bajen.
+0078 [Otoha] | ...Las escaleras están bloqueadas.==W== Eso es un problema.
+0079 [Hazana] | ¡Ja! Se acabaron las interrupciones. ¡Vamos, disfrutemos esta pelea a muerte!
+0080 [Otoha] | Jefe, las cosas se van a poner feas. Confía en mí y quédate detrás de mí.
+0081 [Tú] | ¿Feas?
+0082 [Otoha] | ¡Si no podemos bajar, subimos!
+0083 [Tú] | ¡¿Uaaah?!
+0084 [Narración] | Otoha me toma de la mano y echa a correr. Aun en peligro mortal, una leve sonrisa se dibuja en sus labios.
+0085 [Lugar y hora] | 19:00, 5.º del mes de Venatio, Distrito de Plata de Philae, pasillo del hotel
+0086 [Tú] | Uf... Uf...==W== Ya no... puedo correr...
+0087 [Otoha] | Aquí deberíamos estar a salvo.
+0088 [Tú] | ¿Seguro? Hazana viene justo detrás de nosotros...
 0089 [Tú] | ...
-0090 [Tú] | ... They aren't following us. Why?
-0091 [Otoha] | Oh my, I wonder why?
-0092 [Tú] | —?! Is that Hazana...
-0093 [Otoha] | Hehe, looks like they triggered my little surprise.
-0094 [Tú] | ...?
-0095 [Otoha] | Being prepared is basic protocol on a mission.
-0096 [Tú] | That explosion... Was that your trap?
-0097 [Otoha] | Spot on.==W== I'm a professional—I set it up in advance.
-0098 [Tú] | ...==W== That's why you were smiling.
-0099 [Otoha] | Smiling...==W== Oh my, I let it show. Looks like I lost my composure back there. How rude of me.
-0100 [Otoha] | But you really can't blame me for laughing when they basically walked right into it...
-0101 [Hazana] | Hah! Fun. This is fun.==W== You sure know how to throw a party, Boss!
-0102 [Tú] | Hazana...!
-0103 [Otoha] | Guess you won't go down easy.
-0104 [Hazana] | Hey, Boss.
-0105 [Tú] | Yeah?
-0106 [Hazana] | She bit the hand that fed her and ran straight to her enemies.==W== Now she's playing turncoat again, supporting you instead.==W== You get what I'm saying? Give it time, and she'll stab you in the back too.
-0107 [Hazana] | Plus, she flips sides so often that she leaves behind a trail of enemies. Keep her around, and you're begging for a disaster.
-0108 [Hazana] | Hand her over, and we let you walk. Deal?
-0109 [Tú] | Thanks for the offer. But ...==W== I'm choosing to trust Otoha.
-0110 [Hazana] | ...==W== Huh? Trust? Are...==W== Are you out of your mind?
-0111 [Otoha] | Heh. I suppose a simple-minded scorpion wouldn't understand...==W== But that's simply who Boss is.
-0112 [Otoha] | And that is why I find ==SEX4== fascinating.
-0113 [Otoha] | If we're clear, do be a dear and make your exit.
-0114 [Hazana] | Hah. Keep dreaming.==W== If we let a sly fox like you slip away, the fallout will ruin us. Do us all a favor and die right here.
-0115 [Otoha] | Hehe...==W== Let me return the sentiment.
-0116 [Otoha] | It breaks my heart to ruin such a gorgeous venue, but fighting Hazana of the Desert Scorpions demands my full attention.
-0117 [Otoha] | I suppose it's time to get serious.
+0090 [Tú] | ...No nos están siguiendo. ¿Por qué?
+0091 [Otoha] | Vaya, ¿por qué será?
+0092 [Tú] | ¡¿...?! ¿Esa es Hazana...?
+0093 [Otoha] | Jeje, parece que activaron mi pequeña sorpresa.
+0094 [Tú] | ¿...?
+0095 [Otoha] | Estar preparada es protocolo básico en una misión.
+0096 [Tú] | Esa explosión... ¿Era tu trampa?
+0097 [Otoha] | Exacto.==W== Soy una profesional; la dejé lista con anticipación.
+0098 [Tú] | ...==W== Por eso estabas sonriendo.
+0099 [Otoha] | Sonriendo...==W== Vaya, se me notó. Parece que perdí la compostura allá atrás. Qué descortés de mi parte.
+0100 [Otoha] | Pero de verdad no puedes culparme por reírme cuando prácticamente cayeron solitos...
+0101 [Hazana] | ¡Ja! Qué divertido. Esto es divertido.==W== ¡Sí que sabes armar una fiesta, Jefe!
+0102 [Tú] | ¡Hazana...!
+0103 [Otoha] | Supongo que no vas a caer fácilmente.
+0104 [Hazana] | Oye, Jefe.
+0105 [Tú] | ¿Sí?
+0106 [Hazana] | Mordió la mano que le daba de comer y corrió directo con sus enemigos.==W== Ahora vuelve a cambiarse de bando, apoyándote a ti.==W== ¿Entiendes lo que te digo? Dale tiempo y también te va a apuñalar por la espalda.
+0107 [Hazana] | Además, cambia de bando tan seguido que va dejando un rastro de enemigos. Si la mantienes cerca, estás pidiendo a gritos un desastre.
+0108 [Hazana] | Entréganosla y te dejamos ir. ¿Trato hecho?
+0109 [Tú] | Gracias por la oferta. Pero...==W== elijo confiar en Otoha.
+0110 [Hazana] | ...==W== ¿Eh? ¿Confiar? ¿Estás...==W== ¿Estás loco?
+0111 [Otoha] | Je. Supongo que un escorpión simplón no lo entendería...==W== Pero así es el Jefe, simple y sencillamente.
+0112 [Otoha] | Y por eso ==SEX4== me parece fascinante.
+0113 [Otoha] | Si ya quedó claro, sé buena y retírate.
+0114 [Hazana] | Ja. Sigue soñando.==W== Si dejamos escapar a una zorra astuta como tú, las consecuencias nos van a hundir. Haznos un favor a todos y muere aquí mismo.
+0115 [Otoha] | Jeje...==W== Te devuelvo el cumplido.
+0116 [Otoha] | Me parte el corazón arruinar un salón tan hermoso, pero pelear contra Hazana de los Escorpiones del Desierto exige toda mi atención.
+0117 [Otoha] | Supongo que ya es hora de ponerse seria.

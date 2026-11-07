@@ -1,4 +1,4 @@
-# Capítulo 8 · Calor residual · 6 · The End of the World
+# Capítulo 8 · Calor residual · 6 · El fin del mundo
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -12,134 +12,134 @@ N:avg3_100 | Sylar
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | Act Six
-0002 [Intro] | The Edge of the World
-0003 [Intro] | After a grueling trek, you and the New Star Guild reach the distant Sunset Desert, only to find no trace of the Monolith or the old signpost. With supplies running low, the group heads for Mirage, a rumored desert settlement.
-0004 [Narración] | Thanks to Firenze, I slip out of Philae stashed in the trunk of Lucky Oasis.
-0005 [Narración] | Nazuna's decoy act works like a charm.
-0006 [Narración] | Before we even hit the desert, I catch a glimpse of a shop window's Projector showing footage of "me" all dressed up for a United Harvest Philae event.
-0007 [Narración] | But that's where our luck ends. The moment we step into the desert, the Wilds bare their fangs.
-0008 [Narración] | Ten days after leaving Philae.
-0009 [Lugar y hora] | 12:00, Nebula Month 6th, Sunset Desert, Unknown Dune
-0010 [Noya] | Phew, it's roasting out here. Iris, how's our water looking?
-0011 [Iris] | We've been rationing, but we're down to three days' worth. It's getting dangerous. If we don't find the Monolith today, we'll have to head back for supplies.
-0012 [Noya] | Supplies, yeah... Still, this makes zero sense. According to Amber's photo, the Monolith should be right next to that signpost.
-0013 [Noya] | And that compass we got from Firenze, the one from under the orphanage, used to point at the desert. I thought it was connected to the Monolith, but the second we hit the dunes it started spinning in circles. How peculiar.
-0014 [Amber] | This is where I ran into enemies. I climbed the dune and saw the Monolith.
-0015 [Amber] | So why can't we find it?
-0016 [Iris] | Could there be multiple signposts like this? Maybe we're looking at the wrong one.
-0017 [Noya] | No way. I cross-checked the photo with that signpost over and over, and the erosion marks match perfectly. This is the one.
-0018 [Iris] | Then there's only one explanation. I read that sand dunes shift constantly. In strong winds, they can travel far in a single night.
-0019 [Iris] | This signpost probably got carried away from its original spot by the shifting sand. That's why the Monolith isn't actually nearby.
-0020 [Noya] | That explains it! We've walked this far and haven't even seen the Wishing Box ==PLAYER_NAME== was in. I knew something was off!
-0021 [Amber] | Agree.
-0022 [Iris] | We've been searching this area for days. No Monolith, no Wishing Box. The signpost moving is the only logical conclusion.
-0023 [Noya] | Makes sense... ==PLAYER_NAME==, what do you think?
+0001 [Intro] | Acto seis
+0002 [Intro] | El Fin del Mundo
+0003 [Intro] | Tras una travesía agotadora, tú y el Gremio de la Nueva Estrella llegan al lejano Desierto del Atardecer, solo para descubrir que no hay rastro del Monolito ni del viejo letrero. Con las provisiones escaseando, el grupo se dirige a Mirage, un supuesto asentamiento en el desierto.
+0004 [Narración] | Gracias a Firenze, salgo de Philae escondido en la cajuela del Lucky Oasis.
+0005 [Narración] | La actuación de Nazuna como señuelo funciona de maravilla.
+0006 [Narración] | Antes siquiera de llegar al desierto, alcanzo a ver en el proyector de un escaparate un video donde «yo» aparezco muy arreglado para un evento de Cosecha Unida Philae.
+0007 [Narración] | Pero ahí se nos acaba la suerte. En cuanto ponemos un pie en el desierto, las Tierras Salvajes enseñan los colmillos.
+0008 [Narración] | Diez días después de salir de Philae.
+0009 [Lugar y hora] | 12:00, 6.º del mes de Nebula, Desierto del Atardecer, duna desconocida
+0010 [Noya] | Uf, aquí afuera uno se asa. Iris, ¿cómo vamos de agua?
+0011 [Iris] | La hemos estado racionando, pero solo nos queda para tres días. Se está poniendo peligroso. Si no encontramos el Monolito hoy, tendremos que volver por provisiones.
+0012 [Noya] | Provisiones, sí... Aun así, esto no tiene ningún sentido. Según la foto de Amber, el Monolito debería estar justo al lado de ese letrero.
+0013 [Noya] | Y esa brújula que nos dio Firenze, la que estaba debajo del orfanato, antes apuntaba hacia el desierto. Pensé que tenía que ver con el Monolito, pero en cuanto llegamos a las dunas empezó a girar en círculos. Qué raro.
+0014 [Amber] | Aquí me topé con enemigos. Subí la duna y vi el Monolito.
+0015 [Amber] | ¿Entonces por qué no lo encontramos?
+0016 [Iris] | ¿Habrá varios letreros como este? Quizá estamos viendo el equivocado.
+0017 [Noya] | Imposible. Comparé la foto con ese letrero una y otra vez, y las marcas de erosión coinciden perfectamente. Es este.
+0018 [Iris] | Entonces solo hay una explicación. Leí que las dunas de arena se desplazan constantemente. Con vientos fuertes, pueden recorrer grandes distancias en una sola noche.
+0019 [Iris] | Seguramente la arena en movimiento arrastró este letrero lejos de su lugar original. Por eso el Monolito en realidad no está cerca.
+0020 [Noya] | ¡Eso lo explica! Hemos caminado tanto y ni siquiera hemos visto la Caja de Deseos en la que estaba ==PLAYER_NAME==. ¡Sabía que algo no cuadraba!
+0021 [Amber] | De acuerdo.
+0022 [Iris] | Llevamos días buscando en esta zona. Ni Monolito ni Caja de Deseos. Que el letrero se haya movido es la única conclusión lógica.
+0023 [Noya] | Tiene sentido... ==PLAYER_NAME==, ¿tú qué opinas?
 0024 [Tú] | Mm...
-0025 [Noya] | Hey? You with us,==W== ==PLAYER_NAME==?
-0026 [Tú] | Huh? Sorry, I'm fine, just spaced out. What was the question?
-0027 [Noya] | I was asking if you think we can't find the Monolith because the signpost in Amber's photo shifted with the dunes.
-0028 [Tú] | Yeah... Probably. It's not like the Monolith could up and move.
-0029 [Noya] | Hey, are you okay, ==PLAYER_NAME==? You look awful. Please don't tell me it's heatstroke.
-0030 [Amber] | Here, let me feel your skin.
-0031 [Amber] | No fever.
-0032 [Iris] | No fever, face not flushed, palms not sweaty... Boss, any headache or dizziness?
-0033 [Tú] | Nothing like that.
-0034 [Iris] | Then it's pure exhaustion. We've been pushing for ten days straight.
-0035 [Iris] | Everyone, with the signpost gone, we need to widen our search. But that means our supplies won't last. I say we find a town to restock and get some proper rest.
-0036 [Amber] | Time enough to reach a town outside the desert?
-0037 [Iris] | No amount of time would be enough. But I remember hearing about a town in this desert that's not charted in the Trekker's Handbook.
-0038 [Iris] | Let me check my notes...
-0039 [Iris] | Found it. I took these notes from Willow back when we first became Trekkers. She mentioned this place. Let me see... It should only take half a day from here.
-0040 [Noya] | A town not charted in the Trekker's Handbook? I hate to be a downer, but what if it's already a pile of ruins?
-0041 [Iris] | No, Willow called it "the edge of the world," but she said people still live there, so we should be able to stock up there.
-0042 [Amber] | The edge of the world...
-0043 [Noya] | Sounds romantic. As long as there are people I guess. It saves us three days, and we might even get directions to the Monolith.
-0044 [Noya] | Come on, hop in. Let's go.
-0045 [Tú] | I wonder how everyone in Philae is holding up...
-0046 [Lugar y hora] | 23:30, Nebula Month 6th, Sunset Desert, Inside Lucky Oasis
-0047 [Iris] | Zzz... Noya, don't buy that bread. Too expensive. Get the Tawny...
-0048 [Amber] | Mmph... Tawny Nightingale... I'm sick of it... Zzz...
-0049 [Narración] | Ten hours later, the Lucky Oasis is still crawling through endless dunes.
-0050 [Narración] | Headlights dance across shifting sand, but Mirage, the edge of the world from Iris's notes, remains nowhere in sight.
-0051 [Noya] | ==PLAYER_NAME==, are you still awake?
-0052 [Tú] | Yeah, I'm up. What's wrong?
-0053 [Noya] | I don't know how to explain it. My gut says we're almost there. I can't put my finger on it, but driving through here feels familiar, like I've done it before.
-0054 [1] | Really? You've never been to Mirage. How can it feel familiar?
-0055 [Noya] | It's just a feeling. Listen to the tires. They sound different now. Hear that rumble? They're gripping the road. Can you hear it?
-0056 [1] | Sounds the same to me.==W== But look, you've been driving for ten hours straight. You must be exhausted.
-0057 [1] | Iris and Amber are already out. Let's stop and get some rest. Driving tired is dangerous.
-0058 [Noya] | No way! If I stop, my intuition will be interrupted.==W== We're almost there! ==PLAYER_NAME==, hold on tight!
-0059 [1] | Huh?
-0060 [Tú] | WHHAAAAAAAAAAAHHHHH~~~?!!
-0061 [Narración] | Lucky Oasis surges up a towering dune.
-0062 [Narración] | Below, faint lights flicker across a sleeping settlement.
-0063 [Lugar y hora] | 23:30, Nebula Month 6th, Mirage, Unnamed Street
-0064 [1] | Is this ... Mirage?!
-0065 [Noya] | Welcome to Mirage, ==PLAYER_NAME==.==W== Welcome to the city at the edge of the world.
-0066 [Tú] | Uh, you're a guest here too, remember?
-0067 [Tú] | Anyway, the air feels amazing.==W== Nothing like the desert. Every breath burned like fire the past few days.
-0068 [Noya] | I spotted a lake on our way down the dune. Looks like this place is a true oasis.
-0069 [Noya] | Too bad most of the lights are off. I can't tell if everyone is asleep or if the place is abandoned. It feels a bit eerie. Plus, we shouldn't go knocking on doors this late...
-0070 [Noya] | We can look for supplies again in the morning.
-0071 [Tú] | Yeah. You must be exhausted from the drive. Go get some sleep. I'll take watch.
-0072 [Noya] | Really? Alright, I'll leave it to you! I'm going to run back to the car and get changed. I'll be right back, wait here!
-0073 [Noya] | Thanks for waiting...==W== Yawn... Changing into these pajamas makes me sleepy. It's like magic. Are you sure you're okay keeping watch alone,==W== ==PLAYER_NAME==? You're exhausted too, aren't you?
-0074 [Tú] | I'll be fine. I slept plenty during the day, so I'm not tired yet.
-0075 [Noya] | Liar.
-0076 [Narración] | Noya presses her warm fingers to my lips. She leans in close.
-0077 [Narración] | Our noses are nearly touching, and gazes meet.
-0078 [Noya] | I get it that you have a lot on your mind, but...==W== ==PLAYER_NAME==, you aren't sleeping at night either, are you? You looked terrible earlier. That's proof enough.
-0079 [Noya] | I know what's bothering you. It's not the New Star Guild. You're worried about everyone back in Philae. You wonder if you've been a burden to them...
-0080 [Noya] | You always put everyone else first. You forced yourself to stay awake tonight to keep me company while I drive. You're going to burn yourself out like this.
-0081 [Tú] | You're giving me too much credit. You're guessing based on intuition, aren't you?
-0082 [Noya] | Not even close. Have you looked in a mirror lately, ==PLAYER_NAME==? I don't need intuition to see those dark circles under your eyes. Anyone could see them.
-0083 [Tú] | What?
-0084 [Narración] | I pull out my phone and take a picture.
-0085 [Narración] | She is right. I look like a panda.
-0086 [Tú] | I didn't realize I looked that bad. Sorry to worry you guys.
-0087 [Tú] | I am really worried. About everyone in Philae, and about you guys too.
-0088 [Tú] | We set up a decoy Boss with makeup, and Albedo has been helping us. When I checked the projector the other day, she was actively covering for Nazuna's disguise.
-0089 [Tú] | But what if we fail to find proof in a month?
-0090 [Tú] | Or if Angie and the Salvation Committee launch another assassination attempt on the decoy Boss...
-0091 [Noya] | Then Nazuna and everyone protecting her would be in danger, danger meant for you.
-0092 [Noya] | If they got hurt or killed, it would be because they took your place. Meanwhile, the rest of us here would be stuck on the run, looking over our shoulders for the rest of our lives.
-0093 [Tú] | Noya... You knew...
-0094 [Noya] | We knew from the start. That makeup artist was Otoha from the banquet.
-0095 [Noya] | I guessed by instinct, Amber caught a floral scent, and Iris tracked your schedule. You never had a chance to sneak out at night and meet someone we didn't know.
-0096 [Tú] | Then why didn't anyone stop her?
-0097 [Noya] | Because everyone else knew too. Nazuna, Nazuka, Fuyuka, Kaede, Firenze, Chitose. They all understood this would paint a target on Philae. On themselves.
-0098 [Noya] | As for Otoha, she saw through Firenze's plan and volunteered.
-0099 [Tú] | So you mean...
-0100 [Noya] | Everyone believes you can find the proof. But even if you fail, they hoped this would buy you a way out, a chance for you to survive.
-0101 [Tú] | So everyone knew... This whole time...
-0102 [Iris] | Boss, I had a feeling this was bothering you... I just didn't expect it to be weighing on you this heavily.
-0103 [Amber] | You worry ... because you care.
-0104 [Tú] | Wait... I thought you were asleep.
-0105 [Iris] | We got tossed around pretty hard coming down that dune... We've been awake since we hit Mirage. We kept quiet because Noya clearly wanted a moment with you...
-0106 [Amber] | Didn't want to interrupt.
-0107 [Iris] | Anyway, Boss.==W== I heard one of Angie's main reasons for calling you the Tyrant is that you're always helping people, always doing good deeds.
-0108 [Amber] | If you're the Tyrant... We're fine with that.
-0109 [Noya] | Exactly! The world could use a few more Tyrants like you.
-0110 [Tú] | ... Thank you.==W== I understand now.
-0111 [Tú] | I've been an idiot. I was so focused on keeping all of you safe, I forgot you wanted to keep me safe too.
-0112 [Noya] | Keep your head up! Don't underestimate us. Everyone in Philae has been to hell and back with you.
-0113 [Amber] | Everyone's tough.
-0114 [Iris] | We're way tougher than you, Boss.
-0115 [Noya] | Right! By the time we find your proof, they'll probably call to say they've already wiped the floor with Angie and her committee. You won't even need to go to the conference, Boss!
-0116 [Tú] | Alright, let's not get ahead of ourselves.
-0117 [Noya] | I'm an optimist, what can I say? Anyway, sweating the small stuff won't help right now. Let's head back to the vehicle and sleep. We have an early start tomorrow.
-0118 [Amber] | I've slept enough. I'll keep watch.
-0119 [Tú] | Honestly, after that pep talk, I'm wide awake.
-0120 [Iris] | Then please lie down and close your eyes. Even resting is better than staying awake.
-0121 [Vita] | Tyrant, let me help you fall asleep.
-0122 [Tú] | Huh? Why are you here? I've completed another mission?
-0123 [Vita] | Unfortunately, Mission: "Acquire a Monolith" remains incomplete. Your shares in United Harvest Philae only grant partial access to the Philae Monolith, not full ownership.
-0124 [Vita] | But seeing the bond between you and your companions made me want to help out too.
-0125 [Vita] | So please accept a trial run of this mission's reward: the Monolith Melody.
-0126 [Tú] | What's that?
-0127 [Vita] | Basically, I'll play soothing music to help everyone relax and fall asleep.
-0128 [Noya] | That sounds fun! Like a lullaby? I'm in. Let's try it out. I'm actually getting sleepy.
-0129 [Tú] | So it's basically a music player...?==W== Alright, if it helps us sleep, go ahead, Vita. Thanks.
-0130 [Vita] | Your command is my will.
-0131 [Vita] | Tyrant, may tonight's starlight and sweet dreams wash away the exhaustion for you and your companions.==W==
+0025 [Noya] | ¿Oye? ¿Sigues con nosotras,==W== ==PLAYER_NAME==?
+0026 [Tú] | ¿Eh? Perdón, estoy bien, nada más me distraje. ¿Cuál era la pregunta?
+0027 [Noya] | Te preguntaba si crees que no encontramos el Monolito porque el letrero de la foto de Amber se movió con las dunas.
+0028 [Tú] | Sí... Probablemente. No es como si el Monolito pudiera levantarse e irse.
+0029 [Noya] | Oye, ¿estás bien, ==PLAYER_NAME==? Te ves fatal. Por favor, no me digas que es un golpe de calor.
+0030 [Amber] | A ver, déjame tocarte.
+0031 [Amber] | No hay fiebre.
+0032 [Iris] | Sin fiebre, la cara no está roja, las palmas no sudan... Jefe, ¿te duele la cabeza o te sientes mareado?
+0033 [Tú] | Nada de eso.
+0034 [Iris] | Entonces es puro agotamiento. Llevamos diez días seguidos sin parar.
+0035 [Iris] | Chicas, sin el letrero tenemos que ampliar la búsqueda. Pero eso significa que las provisiones no nos van a alcanzar. Propongo que busquemos un pueblo para reabastecernos y descansar como se debe.
+0036 [Amber] | ¿Alcanza el tiempo para llegar a un pueblo fuera del desierto?
+0037 [Iris] | No alcanzaría por más tiempo que tuviéramos. Pero recuerdo haber oído de un pueblo en este desierto que no aparece en el Manual del Trekker.
+0038 [Iris] | Déjame revisar mis notas...
+0039 [Iris] | Aquí está. Tomé estas notas de lo que nos contó Willow cuando recién nos hicimos Trekkers. Ella mencionó este lugar. A ver... Debería estar a solo medio día de aquí.
+0040 [Noya] | ¿Un pueblo que no aparece en el Manual del Trekker? No quiero ser aguafiestas, pero ¿y si ya no es más que un montón de ruinas?
+0041 [Iris] | No, Willow lo llamó «el Fin del Mundo», pero dijo que todavía vive gente ahí, así que deberíamos poder abastecernos.
+0042 [Amber] | El Fin del Mundo...
+0043 [Noya] | Suena romántico. Mientras haya gente, supongo. Nos ahorra tres días, y hasta podrían indicarnos cómo llegar al Monolito.
+0044 [Noya] | Vamos, súbanse. Andando.
+0045 [Tú] | Me pregunto cómo estarán todos en Philae...
+0046 [Lugar y hora] | 23:30, 6.º del mes de Nebula, Desierto del Atardecer, interior del Lucky Oasis
+0047 [Iris] | Zzz... Noya, no compres ese pan. Está muy caro. Compra el Ruiseñor...
+0048 [Amber] | Mmm... Ruiseñor Leonado... Ya me harté... Zzz...
+0049 [Narración] | Diez horas después, el Lucky Oasis sigue avanzando lentamente entre dunas interminables.
+0050 [Narración] | Los faros bailan sobre la arena cambiante, pero Mirage, el Fin del Mundo de las notas de Iris, sigue sin aparecer.
+0051 [Noya] | ==PLAYER_NAME==, ¿sigues despierto?
+0052 [Tú] | Sí, aquí estoy. ¿Qué pasa?
+0053 [Noya] | No sé cómo explicarlo. Mi instinto me dice que ya casi llegamos. No sé decir por qué, pero manejar por aquí se me hace conocido, como si ya lo hubiera hecho antes.
+0054 [1] | ¿En serio? Nunca has estado en Mirage. ¿Cómo se te va a hacer conocido?
+0055 [Noya] | Es solo una sensación. Escucha las llantas. Ahora suenan distinto. ¿Oyes ese retumbar? Se están agarrando al camino. ¿Lo oyes?
+0056 [1] | A mí me suena igual.==W== Pero mira, llevas diez horas seguidas manejando. Debes de estar agotada.
+0057 [1] | Iris y Amber ya están dormidas. Paremos a descansar. Manejar cansada es peligroso.
+0058 [Noya] | ¡Ni loca! Si me detengo, se me va a cortar la intuición.==W== ¡Ya casi llegamos! ¡==PLAYER_NAME==, agárrate bien!
+0059 [1] | ¿Eh?
+0060 [Tú] | ¡¿UAAAAAAAAAAAAHHHHH~~~?!
+0061 [Narración] | El Lucky Oasis sube a toda velocidad por una duna altísima.
+0062 [Narración] | Abajo, unas luces tenues titilan sobre un asentamiento dormido.
+0063 [Lugar y hora] | 23:30, 6.º del mes de Nebula, Mirage, Calle sin nombre
+0064 [1] | ¡¿Esto es... Mirage?!
+0065 [Noya] | Bienvenido a Mirage, ==PLAYER_NAME==.==W== Bienvenido a la ciudad del Fin del Mundo.
+0066 [Tú] | Eh, tú también eres visitante aquí, ¿te acuerdas?
+0067 [Tú] | En fin, el aire se siente increíble.==W== Nada que ver con el desierto. Estos últimos días cada respiro quemaba como fuego.
+0068 [Noya] | Vi un lago cuando bajábamos la duna. Parece que este lugar es un verdadero oasis.
+0069 [Noya] | Lástima que la mayoría de las luces estén apagadas. No sé si todos están dormidos o si el lugar está abandonado. Da un poco de escalofríos. Además, no deberíamos andar tocando puertas tan tarde...
+0070 [Noya] | Podemos buscar provisiones otra vez en la mañana.
+0071 [Tú] | Sí. Debes de estar agotada de manejar. Ve a dormir. Yo hago guardia.
+0072 [Noya] | ¿En serio? ¡Bueno, te lo encargo! Voy corriendo al carro a cambiarme. ¡Ahorita vuelvo, espérame aquí!
+0073 [Noya] | Gracias por esperar...==W== Aaah... Ponerme esta pijama me da sueño. Es como magia. ¿Seguro que estás bien haciendo guardia tú solo,==W== ==PLAYER_NAME==? Tú también estás agotado, ¿no?
+0074 [Tú] | Estaré bien. Dormí bastante durante el día, así que todavía no tengo sueño.
+0075 [Noya] | Mentiroso.
+0076 [Narración] | Noya me pone sus dedos cálidos sobre los labios. Se inclina muy cerca.
+0077 [Narración] | Nuestras narices casi se tocan, y nuestras miradas se encuentran.
+0078 [Noya] | Entiendo que tienes muchas cosas en la cabeza, pero...==W== ==PLAYER_NAME==, tampoco duermes en las noches, ¿verdad? Hace rato te veías terrible. Esa es prueba suficiente.
+0079 [Noya] | Sé qué es lo que te preocupa. No es el Gremio de la Nueva Estrella. Te preocupan todos los que se quedaron en Philae. Te preguntas si has sido una carga para ellos...
+0080 [Noya] | Siempre pones a los demás primero. Esta noche te obligaste a quedarte despierto para acompañarme mientras manejaba. Así vas a terminar quemándote.
+0081 [Tú] | Me das demasiado crédito. Lo estás adivinando por intuición, ¿no?
+0082 [Noya] | Para nada. ¿Te has visto en un espejo últimamente, ==PLAYER_NAME==? No necesito intuición para ver esas ojeras. Cualquiera las vería.
+0083 [Tú] | ¿Qué?
+0084 [Narración] | Saco mi teléfono y me tomo una foto.
+0085 [Narración] | Tiene razón. Parezco un panda.
+0086 [Tú] | No me había dado cuenta de que me veía tan mal. Perdón por preocuparlas.
+0087 [Tú] | De verdad estoy preocupado. Por todos en Philae, y también por ustedes.
+0088 [Tú] | Pusimos a un Jefe señuelo con maquillaje, y Albedo nos ha estado ayudando. Cuando revisé el proyector el otro día, ella estaba encubriendo activamente el disfraz de Nazuna.
+0089 [Tú] | Pero ¿y si no logramos encontrar pruebas en un mes?
+0090 [Tú] | O si Angie y el Comité de Salvación lanzan otro intento de asesinato contra el Jefe señuelo...
+0091 [Noya] | Entonces Nazuna y todos los que la protegen estarían en peligro, un peligro que era para ti.
+0092 [Noya] | Si salieran heridos o los mataran, sería porque tomaron tu lugar. Y mientras tanto, los que estamos aquí tendríamos que andar huyendo, cuidándonos las espaldas por el resto de nuestras vidas.
+0093 [Tú] | Noya... Lo sabías...
+0094 [Noya] | Lo supimos desde el principio. Esa maquillista era Otoha, la del banquete.
+0095 [Noya] | Yo lo adiviné por instinto, Amber notó un aroma floral e Iris revisó tu horario. Nunca tuviste oportunidad de escaparte de noche para ver a alguien que no conociéramos.
+0096 [Tú] | ¿Entonces por qué nadie la detuvo?
+0097 [Noya] | Porque todos los demás también lo sabían. Nazuna, Nazuka, Fuyuka, Kaede, Firenze, Chitose. Todos entendían que esto convertiría a Philae en un blanco. A ellos mismos.
+0098 [Noya] | Y Otoha se dio cuenta del plan de Firenze y se ofreció como voluntaria.
+0099 [Tú] | O sea que...
+0100 [Noya] | Todos creen que puedes encontrar las pruebas. Pero, aunque fracases, esperaban que esto te diera una salida, una oportunidad de sobrevivir.
+0101 [Tú] | Así que todos lo sabían... Todo este tiempo...
+0102 [Iris] | Jefe, tenía el presentimiento de que esto te molestaba... Solo que no esperaba que te pesara tanto.
+0103 [Amber] | Te preocupas... porque te importan.
+0104 [Tú] | Esperen... Creí que estaban dormidas.
+0105 [Iris] | Nos zarandeamos bastante al bajar esa duna... Estamos despiertas desde que llegamos a Mirage. Nos quedamos calladas porque era obvio que Noya quería un momento a solas contigo...
+0106 [Amber] | No queríamos interrumpir.
+0107 [Iris] | En fin, Jefe.==W== Oí que una de las principales razones por las que Angie te llama el Tirano es que siempre estás ayudando a la gente, siempre haciendo buenas obras.
+0108 [Amber] | Si eres el Tirano... A nosotras nos parece bien.
+0109 [Noya] | ¡Exacto! Al mundo no le vendrían mal unos cuantos Tiranos como tú.
+0110 [Tú] | ...Gracias.==W== Ahora lo entiendo.
+0111 [Tú] | He sido un tonto. Estaba tan concentrado en mantenerlas a salvo a todas que olvidé que ustedes también querían protegerme a mí.
+0112 [Noya] | ¡Ánimo! No nos subestimes. Todos en Philae han ido al infierno y de vuelta contigo.
+0113 [Amber] | Todos son fuertes.
+0114 [Iris] | Somos mucho más fuertes que tú, Jefe.
+0115 [Noya] | ¡Así es! Para cuando encontremos tus pruebas, seguro nos llaman para decirnos que ya barrieron el piso con Angie y su comité. ¡Ni siquiera vas a tener que ir a la conferencia, Jefe!
+0116 [Tú] | Bueno, no nos adelantemos.
+0117 [Noya] | Soy optimista, ¿qué te digo? En fin, preocuparse por pequeñeces no sirve de nada ahorita. Volvamos al vehículo a dormir. Mañana hay que madrugar.
+0118 [Amber] | Ya dormí suficiente. Yo hago guardia.
+0119 [Tú] | La verdad, después de esos ánimos, estoy bien despierto.
+0120 [Iris] | Entonces, por favor, acuéstate y cierra los ojos. Aunque sea descansar es mejor que quedarte despierto.
+0121 [Vita] | Tirano, permítame ayudarlo a dormir.
+0122 [Tú] | ¿Eh? ¿Qué haces aquí? ¿Completé otra misión?
+0123 [Vita] | Por desgracia, la misión «Adquirir un Monolito» sigue incompleta. Sus acciones de Cosecha Unida Philae solo le otorgan acceso parcial al Monolito de Philae, no la propiedad total.
+0124 [Vita] | Pero ver el vínculo entre usted y sus compañeras me dio ganas de ayudar también.
+0125 [Vita] | Así que, por favor, acepte una prueba de la recompensa de esta misión: la Melodía del Monolito.
+0126 [Tú] | ¿Qué es eso?
+0127 [Vita] | Básicamente, tocaré música relajante para ayudar a todos a relajarse y dormirse.
+0128 [Noya] | ¡Suena divertido! ¿Como una canción de cuna? Me apunto. Probémosla. De hecho, ya me está dando sueño.
+0129 [Tú] | ¿Entonces es básicamente un reproductor de música...?==W== Bueno, si nos ayuda a dormir, adelante, Vita. Gracias.
+0130 [Vita] | Su orden es mi voluntad.
+0131 [Vita] | Tirano, que la luz de las estrellas y los dulces sueños de esta noche borren el cansancio de usted y sus compañeras.==W==

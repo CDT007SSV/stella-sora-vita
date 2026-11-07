@@ -1,152 +1,152 @@
-# Capítulo 6 · Milagro de un destello · 1 · The Tale of the Tyrant
+# Capítulo 6 · Milagro de un destello · 1 · La leyenda del Tirano
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Claire in Despair | Claire in Despair
-N:Garden of Parasite | Garden of Parasite
+N:Claire in Despair | Claire desesperada
+N:Garden of Parasite | Jardín Parásito
 N:avg1_110 | Firenze
 N:avg1_133 | Nazuka
-N:avg2_958 | Weed Brawler
+N:avg2_958 | Hierbajo Peleador
 N:avg2_964 | Hummingbird
-N:avg2_976 | Associated Tree
+N:avg2_976 | Árbol Asociado
 N:avg2_977 | Alpha Boar
 N:avg2_985 | Darcia
 N:avg3_100 | Sylar
-N:avg3_1260 | Weed Brawler
-N:avg3_1263 | Weed Brawler
+N:avg3_1260 | Hierbajo Peleador
+N:avg3_1263 | Hierbajo Peleador
 N:avg3_135 | Claire
 N:avg4_999 | Vita
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | The Tale of the Tyrant
-0003 [Intro] | Darcia explains that the Tyrant's history was falsified, admitting she orchestrated the Three Grand Commissions to secure the Bishop piece. Everything, she claims, was done to build the Tyrant Army for you.
-0004 [Narración] | ==A-1== 　When the noble host was overthrown, the thralls would make their liberator known. As heroes grand, yet the outlander with grace declined, and to the Wilds left their fame behind. Thus Nova's bonds were broken, chains undone, the prosperous Monoliths now shared by everyone. —Chronicles of Ancient Nova, by Anonymous
-0005 [Lugar y hora] | 00:50, Messis Month 05th, Gold District in Philae, Executive Office
-0006 [Darcia] | Cast aside that false name forced upon you. Remember your glory. Lead us, your pitiful subjects, and breathe new life into this devastated world.
-0007 [Darcia] | Body and soul... All that I am is yours.
-0008 [Tú] | False name... Is she talking about the title "Boss"? And what is this about offering me her body and soul?
-0009 [Tú] | No, back up. The Executive Director of United Harvest's Philae Branch is on her knees in front of me. That alone is insane. Am I dreaming?
-0010 [Opción] | Look around
+0001 [Intro] | Acto uno
+0002 [Intro] | La leyenda del Tirano
+0003 [Intro] | Darcia explica que la historia del Tirano fue falsificada y admite que orquestó las Tres Grandes Comisiones para conseguir la pieza del «Alfil». Todo, asegura, lo hizo para construir el Ejército del Tirano para ti.
+0004 [Narración] | ==A-1== 　Cuando la noble hueste fue derrocada, los siervos quisieron dar a conocer a su libertador. Como a un gran héroe lo aclamaron, mas el forastero con gracia se negó, y a las Tierras Salvajes partió dejando atrás su fama. Así se rompieron los lazos de Nova y se deshicieron sus cadenas, y los prósperos Monolitos pasaron a ser de todos. —Crónicas de la antigua Nova, autor anónimo
+0005 [Lugar y hora] | 00:50, 5.º del mes de Messis, Distrito de Oro de Philae, Oficina Ejecutiva
+0006 [Darcia] | Deseche ese nombre falso que le impusieron. Recuerde su gloria. Guíenos a nosotros, sus lamentables súbditos, y dele nueva vida a este mundo devastado.
+0007 [Darcia] | En cuerpo y alma... Todo lo que soy es suyo.
+0008 [Tú] | ¿Nombre falso...? ¿Habla del título de «Jefe»? ¿Y qué es eso de ofrecerme su cuerpo y su alma?
+0009 [Tú] | No, espera. La directora ejecutiva de la sucursal de Philae de Cosecha Unida está arrodillada frente a mí. Eso por sí solo ya es una locura. ¿Estoy soñando?
+0010 [Opción] | Mirar alrededor
 0011 [Firenze] | ...
-0012 [Narración] | Firenze stands behind Darcia, remaining on her feet. She meets my gaze, eyes sharp and calculating. She's sizing me up.
-0013 [Narración] | Before me, Darcia remains submissively on her knees, waiting for my response.
-0014 [Tú] | Vita, you there? What is going on?
-0015 [Vita] | Tyrant. I lack sufficient permission to perform a valid analysis.
-0016 [Vita] | However, historical records indicate that those willing to follow you—to sacrifice themselves for your sake—were once as numerous as the stars.
-0017 [Vita] | I recommend accepting Darcia's allegiance. You should also secure her loyalty via a soul pact to prevent betrayal.
-0018 [Tú] | Got it. Go back into hibernation.
-0019 [Vita] | Your command is my will.
-0020 [Tú] | The "Tyrant Growth System" again... All Vita wants is for me to harvest souls, so I won't be getting any helpful intel from it. Looks like I'm on my own for this one.
-0021 [Tú] | Uh, Darcia? You've got the wrong person. I'm just the Boss of the Boss Accord.
-0022 [Tú] | You mean the "Tyrant," right? The legendary Tyrant who supposedly tried to destroy the Monoliths?
-0023 [Darcia] | I make no mistakes, Your Majesty. The Boss Accord, or should I say, Tyrant Accord, is the company of the legendary Tyrant. "Boss" is merely a vulgar label imposed by history.
-0024 [Tú] | Guess there's no changing your mind, then.==W== Also, could you stand up? I'm really not used to people talking to me from the floor.
-0025 [Darcia] | Thank you, Your Majesty.
-0026 [Darcia] | However, your phrasing, "changing my mind," is inaccurate. The truth of your story has been smeared and distorted a thousand times over by corrupt Novians.
-0027 [Darcia] | Tell me, Your Majesty, what version of the legend have you heard?
-0028 [Tú] | I heard that ... ages ago, a Tyrant sought to conquer and destroy every Monolith.
-0029 [Tú] | But doing so would've stripped the Novians of their Artifacts; the world would've met its end.
-0030 [Darcia] | Lies, Your Majesty. My research into the archives reveals that narrative only started surfacing a century ago, completely contradicting the ancient texts.
-0031 [Darcia] | Forgive my presumption.==W== The true you was benevolent. You never wished to destroy the Monoliths, nor did you intend to deprive the Novians of their Artifacts.
-0032 [Darcia] | You simply sought to conquer the Monoliths to manage them personally—to produce Artifacts more efficiently and bring true prosperity to Nova.
-0033 [Darcia] | Tragically, the greedy Novians couldn't comprehend your vision. They betrayed you, and the glorious name of the Tyrant fell, twisted into the title of Boss.
-0034 [Darcia] | The word "Boss" was originally used to describe powerful Stellaroids within the Monoliths.
-0035 [Darcia] | By equating you with those monsters, they intended for future generations to see—
-0036 [Darcia] | —that the Tyrant as nothing more than an oversized Stellaroid. A clever way to erase the true legend.
-0037 [Tú] | Hmm... Well, your version of the story is certainly creative. I'll give you that.
-0038 [Tú] | But even if that's the absolute truth, what makes you so sure I'm that Tyrant?
-0039 [Tú] | I'm just an amnesiac Trekker found in the desert and saved by the New Star Guild. I only managed to reactivate a company because of the Seal of Grace on my phone.
-0040 [Tú] | No matter how you look at it, my life story doesn't exactly scream "legendary Tyrant," does it?
-0041 [Darcia] | Your Majesty. That charm on your phone. It's the "King" Seal of Grace, isn't it?
-0042 [Tú] | Yeah. But doesn't every company have one?
-0043 [Darcia] | If I may be blunt...==W== Initially, I refused to believe you were the Tyrant, too.
-0044 [Darcia] | However, in a single hour,==W== you crushed Creta Trading in the "company war" and seized the "Soldier" Seal.==W== So I had to reconsider.
-0045 [Darcia] | Ancient texts prophesy that the vanished Tyrant will return like a lightning bolt to reclaim power stolen by traitors.==W== Your actions mirror those prophecies perfectly.
-0046 [Tú] | That's just a coincidence. I didn't fight Creta Trading just to get a Seal.
-0047 [Darcia] | What if I add this to the picture?
-0048 [Tú] | A Seal of Grace?!
-0049 [Darcia] | Every company in Nova knows there's a lost Seal in Philae. We've all poured endless fortunes into the search, but to no avail.
-0050 [Darcia] | Months ago, the Big Three appeared.
-0051 [Darcia] | Their power and intellect far surpassed ordinary monsters, so I suspected a link to the Seal.
-0052 [Darcia] | We hired elite mercenaries and armies of Trekkers. It took massive resources just to capture one—the Blade of Jade.
-0053 [Darcia] | Alas, it didn't have what we wanted.
-0054 [Darcia] | Yet the moment you arrived, Your Majesty, you took down the other two with ease. And that elusive Seal?==W== It surfaced in the Garden of Parasite, as if drawn to your very presence.
-0055 [Darcia] | For now, this 'Bishop' is merely on loan to me, but it is unquestionably yours.
-0056 [Darcia] | Before you reactivated the Boss Accord, the major companies had gone a full century without discovering a single new Seal of Grace.
-0057 [Darcia] | Yet since your waking, you have secured three Seals in barely four months—the 'King,' 'Soldier,' and 'Bishop.' Of these, both the King and the Bishop were known only through vague legend.
-0058 [Darcia] | Who else but the true Tyrant could achieve such a feat?
-0059 [Nazuka] | We meet again, Garden of Parasite. You seem stronger, but it doesn't matter. I will destroy both you and "that thing" for good.
-0060 [Garden of Parasite] | HSSSSS—
-0061 [Nazuka] | There's a hole in your trunk... Is that...
-0062 [Claire in Despair] | Nazuka... I did it! Hahaha, I got "that thing"!
-0063 [Claire in Despair] | Aahahaha, I succeeded!==W== It was me! I'm the one who defeated the Garden of Parasite!
-0064 [Tú] | Lady Gray works for you? So you're the one responsible for the disaster at the Trekker Camp?
-0065 [Darcia] | Please, quell your anger, Your Majesty. That wasn't my intent.==W== My order was for her to find clues about the Seal. I never knew she'd go to such extremes against your subordinates.
-0066 [Darcia] | I've already punished her with a magic seed implanted in her body.==W== The toxins will torment her—a fate worse than death—until you decide to grant her mercy ... or execution.
-0067 [Tú] | So "the master" behind Lady Gray and Joseph was you all along.
-0068 [Darcia] | I offer no defense for that. But please, hear me out...==W== Everything I did, I did for you. Behold—
-0069 [Narración] | Outside the window, below the United Harvest, ranks of Intelligent Plants march in perfect military formation from the greenhouse district.
-0070 [Narración] | Passing the street directly opposite, they mimic soldiers on review, raising their vines in a sharp salute.
-0071 [Darcia] | The First Legion of the Gen-2 Intelligent Plants salutes you, Your Majesty.
-0072 [Darcia] | They can already handle basic combat and logistics. In time, they will serve as an auxiliary corps under your command.
-0073 [Darcia] | Mass production of the stronger, smarter Third Gen is imminent. With the Jade Grass's boost, we expect ten thousand units a week.
-0074 [Tú] | A legion of plants... Ten thousand a week?
-0075 [Tú] | Darcia, you keep saying this is for me, but I never asked for it. What am I supposed to do with a botanical army?
-0076 [Darcia] | Whatever you desire, Your Majesty. For instance...==W== Why not use them to conquer the world?
-0077 [Darcia] | You gave everything for Nova, only to be betrayed by those treacherous ingrates. They carved up your power like a feast. It must have been agonizing.
-0078 [Darcia] | Now, the time for vengeance has come.
-0079 [Tú] | Darcia, you've got it wrong. I don't remember any of that. Those are just ancient legends.
-0080 [Darcia] | Say no more. I understand.
-0081 [Narración] | Darcia clasps my hands tightly.
-0082 [Darcia] | Your Majesty, I know the taste of betrayal. You lost your memories because you chose to forget the pain.
-0083 [Darcia] | You vanished for a millennium because you could no longer bear to look at this filthy world.
-0084 [Darcia] | But it never got better even after all those years. If anything, humanity is even more beyond saving.
-0085 [Darcia] | All these years,==W== I have quietly built this army, waiting patiently for your return.
-0086 [Darcia] | Before you reappeared, my research hit a wall. We faced insurmountable chasms in both yield and quality.
-0087 [Darcia] | But the moment you arrived in Philae, everything fell into place. The Seal of Grace from the Garden of Parasite boosted their intelligence, and the Jade Grass allowed for mass production.
-0088 [Darcia] | Come to think of it, Nazuka, the one who secured the Blade of Jade, is your subordinate too. Surely, this was all part of your divine arrangement.
-0089 [Tú] | I still don't get Darcia's obsession with the Tyrant... But it's clear she's already cast me as the "Tyrant" of her imagination.
-0090 [Darcia] | Your Majesty... Accept my allegiance.==W== Command this army, and bring the hammer of judgment down upon the traitorous Nova!
-0091 [Tú] | That look on her face... She's dead serious.
-0092 [Tú] | If I accept her allegiance... I'm definitely getting dragged into a disaster.
-0093 [Tú] | But if I refuse, am I even leaving this office alive?==W== Firenze hasn't made a sound, and frankly, she's equally terrifying.
-0094 [Opción] | Play along
-0095 [Opción] | Absolutely not
-0096 [Opción] | My word is law
-0097 [Tú] | About my team...
-0098 [Darcia] | Relax, they're in good hands. Now, where were we?
-0099 [Tú] | Noya and the others are being "looked after." If I don't play along... They'll be in real danger.
-0100 [Tú] | I'll just have to bluff my way through. Given Darcia's obsession with the Tyrant, she probably won't hurt me.
-0101 [Tú] | Firenze, could you bring me a tree branch and a brick of soil?
-0102 [Firenze] | Yes.
-0103 [Opción] | Reach out and accept Darcia's allegiance
-0104 [Narración] | Darcia places her hands in mine.
-0105 [Darcia] | I, Darcia, pledge my soul to my Master. To love what you love, and hate what you hate.
-0106 [Opción] | Hand the branch and soil to Darcia
-0107 [Darcia] | As my Master seals this pact, my every word and deed shall be bound by your will. I shall serve you, absolute and unwavering.
-0108 [Narración] | And just like that... Darcia, CEO of United Harvest's Philae Branch, became my "servant."
-0109 [Tú] | Playing along is tempting, but I need to shut this down before it gets out of hand.
-0110 [Tú] | Sorry, Darcia, but I can't accept your allegiance. You've got the wrong person. I'm not the "Tyrant" you're looking for.
-0111 [Tú] | I'm a Trekker, and the CEO of Boss Accord. The "Boss" is just a job title.
-0112 [Tú] | My team came to Philae chasing leads on an orphanage. Everything else you've pieced together is pure coincidence. Sorry for the mix-up.
+0012 [Narración] | Firenze sigue de pie detrás de Darcia. Me sostiene la mirada, con ojos agudos y calculadores. Me está evaluando.
+0013 [Narración] | Frente a mí, Darcia sigue arrodillada con sumisión, esperando mi respuesta.
+0014 [Tú] | Vita, ¿estás ahí? ¿Qué está pasando?
+0015 [Vita] | Tirano. Carezco de los permisos suficientes para realizar un análisis válido.
+0016 [Vita] | Sin embargo, los registros históricos indican que quienes estaban dispuestos a seguirte, a sacrificarse por ti, fueron alguna vez tan numerosos como las estrellas.
+0017 [Vita] | Recomiendo aceptar la lealtad de Darcia. También deberías asegurar su lealtad mediante un pacto de almas para prevenir una traición.
+0018 [Tú] | Entendido. Vuelve a hibernar.
+0019 [Vita] | Tu orden es mi voluntad.
+0020 [Tú] | Otra vez el «Sistema de Desarrollo de Tiranos»... Lo único que Vita quiere es que coseche almas, así que no voy a sacarle información útil. Parece que en esto estoy por mi cuenta.
+0021 [Tú] | Eh, ¿Darcia? Te equivocaste de persona. Solo soy el Jefe de Boss Accord.
+0022 [Tú] | Te refieres al «Tirano», ¿no? ¿Al legendario Tirano que supuestamente intentó destruir los Monolitos?
+0023 [Darcia] | Yo no cometo errores, Su Majestad. Boss Accord, o mejor dicho, el Pacto del Tirano, es la compañía del legendario Tirano. «Jefe» no es más que una etiqueta vulgar que le impuso la historia.
+0024 [Tú] | Supongo que no hay forma de hacerte cambiar de opinión, entonces.==W== Además, ¿podrías levantarte? De verdad no estoy acostumbrado a que la gente me hable desde el suelo.
+0025 [Darcia] | Gracias, Su Majestad.
+0026 [Darcia] | Sin embargo, decir que «cambie de opinión» no es exacto. La verdad de su historia ha sido manchada y distorsionada mil veces por novianos corruptos.
+0027 [Darcia] | Dígame, Su Majestad, ¿qué versión de la leyenda ha escuchado?
+0028 [Tú] | Escuché que... hace muchísimo tiempo, un Tirano quiso conquistar y destruir todos los Monolitos.
+0029 [Tú] | Pero hacerlo habría dejado a los novianos sin sus Artefactos; el mundo se habría acabado.
+0030 [Darcia] | Mentiras, Su Majestad. Mi investigación en los archivos revela que esa versión empezó a circular apenas hace un siglo, y contradice por completo los textos antiguos.
+0031 [Darcia] | Perdone mi atrevimiento.==W== Usted, en realidad, era benévolo. Nunca quiso destruir los Monolitos, ni pretendió privar a los novianos de sus Artefactos.
+0032 [Darcia] | Solo buscaba conquistar los Monolitos para administrarlos personalmente: producir Artefactos de forma más eficiente y traerle verdadera prosperidad a Nova.
+0033 [Darcia] | Por desgracia, los codiciosos novianos no pudieron comprender su visión. Lo traicionaron, y el glorioso nombre del Tirano cayó en desgracia, retorcido hasta convertirse en el título de Jefe.
+0034 [Darcia] | La palabra «Jefe» se usaba originalmente para describir a los Stellaroids poderosos dentro de los Monolitos.
+0035 [Darcia] | Al equipararlo con esos monstruos, pretendían que las futuras generaciones vieran...
+0036 [Darcia] | ...al Tirano como nada más que un Stellaroid demasiado grande. Una forma astuta de borrar la verdadera leyenda.
+0037 [Tú] | Mmm... Bueno, tu versión de la historia es bastante creativa. Eso te lo concedo.
+0038 [Tú] | Pero aunque fuera la verdad absoluta, ¿qué te hace estar tan segura de que yo soy ese Tirano?
+0039 [Tú] | Solo soy un Trekker con amnesia que encontraron en el desierto y que salvó el Gremio de la Nueva Estrella. Si logré reactivar una compañía fue solo gracias al Sello de la Gracia de mi teléfono.
+0040 [Tú] | Se mire como se mire, mi historia no grita precisamente «Tirano legendario», ¿o sí?
+0041 [Darcia] | Su Majestad. Ese dije de su teléfono. Es el Sello de la Gracia del «Rey», ¿no es así?
+0042 [Tú] | Sí. Pero ¿no tiene uno cada compañía?
+0043 [Darcia] | Si me permite ser franca...==W== Al principio, yo tampoco quería creer que usted fuera el Tirano.
+0044 [Darcia] | Sin embargo, en una sola hora,==W== aplastó a Creta Trading en la «guerra de compañías» y se apoderó del Sello del «Soldado».==W== Así que tuve que reconsiderarlo.
+0045 [Darcia] | Los textos antiguos profetizan que el Tirano desaparecido regresará como un relámpago para recuperar el poder que le robaron los traidores.==W== Sus acciones reflejan esas profecías a la perfección.
+0046 [Tú] | Eso es pura coincidencia. No peleé contra Creta Trading solo para conseguir un Sello.
+0047 [Darcia] | ¿Y si le agrego esto al panorama?
+0048 [Tú] | ¡¿Un Sello de la Gracia?!
+0049 [Darcia] | Todas las compañías de Nova saben que hay un Sello perdido en Philae. Todas hemos invertido fortunas interminables en buscarlo, sin ningún resultado.
+0050 [Darcia] | Hace unos meses aparecieron los Tres Grandes.
+0051 [Darcia] | Su poder e inteligencia superaban con mucho a los de los monstruos comunes, así que sospeché que tenían relación con el Sello.
+0052 [Darcia] | Contratamos mercenarios de élite y ejércitos de Trekkers. Hicieron falta enormes recursos solo para capturar a uno: la Espada de Jade.
+0053 [Darcia] | Por desgracia, no tenía lo que buscábamos.
+0054 [Darcia] | Pero en cuanto usted llegó, Su Majestad, derribó a los otros dos con facilidad. ¿Y ese Sello tan esquivo?==W== Apareció en el Jardín Parásito, como si su sola presencia lo atrajera.
+0055 [Darcia] | Por ahora, este «Alfil» solo me lo han prestado, pero sin duda le pertenece a usted.
+0056 [Darcia] | Antes de que reactivara Boss Accord, las grandes compañías llevaban un siglo entero sin descubrir un solo Sello de la Gracia nuevo.
+0057 [Darcia] | Y desde que despertó, ha conseguido tres Sellos en apenas cuatro meses: el «Rey», el «Soldado» y el «Alfil». De ellos, tanto el Rey como el Alfil solo se conocían por leyendas vagas.
+0058 [Darcia] | ¿Quién sino el verdadero Tirano podría lograr semejante hazaña?
+0059 [Nazuka] | Nos volvemos a ver, Jardín Parásito. Pareces más fuerte, pero da igual. Te destruiré a ti y a «esa cosa» de una vez por todas.
+0060 [Garden of Parasite] | ¡SSSSSS...!
+0061 [Nazuka] | Hay un agujero en tu tronco... ¿Eso es...?
+0062 [Claire in Despair] | Nazuka... ¡Lo logré! ¡Jajaja, conseguí «esa cosa»!
+0063 [Claire in Despair] | ¡Ajajaja, lo logré!==W== ¡Fui yo! ¡Yo soy la que derrotó al Jardín Parásito!
+0064 [Tú] | ¿Lady Gray trabaja para ti? ¿Así que tú eres la responsable del desastre en el campamento de Trekkers?
+0065 [Darcia] | Por favor, contenga su enojo, Su Majestad. Esa no era mi intención.==W== Le ordené que buscara pistas sobre el Sello. Nunca imaginé que llegaría a tales extremos contra sus subordinados.
+0066 [Darcia] | Ya la castigué con una semilla mágica implantada en su cuerpo.==W== Las toxinas la atormentarán, un destino peor que la muerte, hasta que usted decida concederle clemencia... o ejecutarla.
+0067 [Tú] | Así que el «señor» detrás de Lady Gray y Joseph eras tú desde el principio.
+0068 [Darcia] | No tengo defensa para eso. Pero por favor, escúcheme...==W== Todo lo que hice, lo hice por usted. Contemple...
+0069 [Narración] | Al otro lado de la ventana, debajo de Cosecha Unida, filas de Plantas Inteligentes marchan desde el Distrito Invernadero en perfecta formación militar.
+0070 [Narración] | Al pasar por la calle justo enfrente, imitan a soldados en desfile y alzan sus enredaderas en un saludo marcial.
+0071 [Darcia] | La Primera Legión de Plantas Inteligentes de 2.ª generación lo saluda, Su Majestad.
+0072 [Darcia] | Ya pueden encargarse de combate básico y de logística. Con el tiempo, servirán como cuerpo auxiliar bajo su mando.
+0073 [Darcia] | La producción en masa de la tercera generación, más fuerte y más lista, es inminente. Con el impulso de la Hierba de Jade, esperamos diez mil unidades por semana.
+0074 [Tú] | ¿Una legión de plantas...? ¿Diez mil por semana?
+0075 [Tú] | Darcia, no dejas de decir que esto es para mí, pero yo nunca lo pedí. ¿Qué se supone que haga con un ejército botánico?
+0076 [Darcia] | Lo que usted desee, Su Majestad. Por ejemplo...==W== ¿Por qué no usarlo para conquistar el mundo?
+0077 [Darcia] | Usted lo dio todo por Nova, solo para que esos ingratos traicioneros lo traicionaran. Se repartieron su poder como si fuera un banquete. Debió de ser una agonía.
+0078 [Darcia] | Ahora, ha llegado la hora de la venganza.
+0079 [Tú] | Darcia, estás equivocada. No recuerdo nada de eso. Son solo leyendas antiguas.
+0080 [Darcia] | No diga más. Lo entiendo.
+0081 [Narración] | Darcia me aprieta las manos con fuerza.
+0082 [Darcia] | Su Majestad, conozco el sabor de la traición. Perdió sus recuerdos porque decidió olvidar el dolor.
+0083 [Darcia] | Desapareció durante un milenio porque ya no soportaba ver este mundo inmundo.
+0084 [Darcia] | Pero nunca mejoró, ni siquiera después de tantos años. Si acaso, la humanidad está aún más perdida.
+0085 [Darcia] | Todos estos años,==W== he construido este ejército en silencio, esperando con paciencia su regreso.
+0086 [Darcia] | Antes de que usted reapareciera, mi investigación se estancó. Nos topamos con abismos insalvables tanto en rendimiento como en calidad.
+0087 [Darcia] | Pero en cuanto llegó a Philae, todo encajó. El Sello de la Gracia del Jardín Parásito aumentó su inteligencia, y la Hierba de Jade hizo posible la producción en masa.
+0088 [Darcia] | Ahora que lo pienso, Nazuka, quien consiguió la Espada de Jade, también es su subordinada. Sin duda, todo esto formaba parte de su designio divino.
+0089 [Tú] | Sigo sin entender la obsesión de Darcia con el Tirano... Pero está claro que ya me asignó el papel del «Tirano» que imagina.
+0090 [Darcia] | Su Majestad... Acepte mi lealtad.==W== ¡Comande este ejército y deje caer el martillo del juicio sobre la traidora Nova!
+0091 [Tú] | Esa cara... Lo dice completamente en serio.
+0092 [Tú] | Si acepto su lealtad... seguro voy a terminar metido en un desastre.
+0093 [Tú] | Pero si me niego, ¿saldré vivo de esta oficina?==W== Firenze no ha hecho ni un ruido y, la verdad, da el mismo miedo.
+0094 [Opción] | Seguirle el juego
+0095 [Opción] | Ni hablar
+0096 [Opción] | Mi palabra es ley
+0097 [Tú] | Sobre mi equipo...
+0098 [Darcia] | Descuide, están en buenas manos. Bien, ¿en qué estábamos?
+0099 [Tú] | A Noya y a las demás las están «cuidando». Si no le sigo el juego... Estarán en verdadero peligro.
+0100 [Tú] | Tendré que salir de esto fanfarroneando. Con lo obsesionada que está Darcia con el Tirano, probablemente no me hará daño.
+0101 [Tú] | Firenze, ¿podrías traerme una rama de árbol y un bloque de tierra?
+0102 [Firenze] | Sí.
+0103 [Opción] | Extender la mano y aceptar la lealtad de Darcia
+0104 [Narración] | Darcia pone sus manos en las mías.
+0105 [Darcia] | Yo, Darcia, consagro mi alma a mi Señor. Amaré lo que usted ame y odiaré lo que usted odie.
+0106 [Opción] | Entregarle a Darcia la rama y la tierra
+0107 [Darcia] | Al sellar mi Señor este pacto, cada una de mis palabras y acciones quedará atada a su voluntad. Lo serviré de forma absoluta e inquebrantable.
+0108 [Narración] | Y así, sin más... Darcia, directora ejecutiva de la sucursal de Philae de Cosecha Unida, se convirtió en mi «sirvienta».
+0109 [Tú] | Seguirle el juego es tentador, pero tengo que cortar esto antes de que se salga de control.
+0110 [Tú] | Lo siento, Darcia, pero no puedo aceptar tu lealtad. Te equivocaste de persona. No soy el «Tirano» que buscas.
+0111 [Tú] | Soy un Trekker y el director ejecutivo de Boss Accord. Lo de «Jefe» es solo un cargo.
+0112 [Tú] | Mi equipo vino a Philae siguiendo pistas sobre un orfanato. Todo lo demás que armaste es pura coincidencia. Perdón por la confusión.
 0113 [Darcia] | ...
-0114 [Darcia] | I understand completely, Your Majesty.
-0115 [Darcia] | The long journey to Philae has clearly taken a toll. You must be exhausted. Firenze, escort ==SEX2== Majesty to their quarters.
-0116 [Tú] | Did you hear a single word I just said?
-0117 [Darcia] | Your Majesty, you are suffering from amnesia. These delusions—that you are a Trekker or a CEO, rather than the Tyrant—are merely symptoms of your condition.
-0118 [Darcia] | As your most loyal servant, it is my duty to cure you. I will make sure you remember everything.
-0119 [Tú] | Correct. I am indeed the legendary Tyrant.
-0120 [Darcia] | That is the Majesty I swore to serve! Please, allow me to attend to you. Let me remain by your side...
-0121 [Tú] | Silence! Who gave you permission to call me that? When did I accept you as my servant?
-0122 [Tú] | You offer loyalty unasked. You presume to name yourself my vassal. Do you have any respect for the Tyrant?
-0123 [Darcia] | I... Uh...
-0124 [Darcia] | I... I am terribly sorry, Your Majesty! I overstepped.==W== It was arrogant to offer my loyalty without considering your will. Please, punish me!
-0125 [Tú] | Hmph. Enough.
-0126 [Tú] | Now, take me to see my true subordinates.
-0127 [Darcia] | Yes! Yes, of course!==W== Firenze, quickly, ==SEX2== Majesty next door!
-0128 [Firenze] | Understood.
-0129 [Darcia] | Oh no. ==SEX2== Majesty seems very displeased with me.
-0130 [Darcia] | No, wait. If ==SEX2== Majesty was truly displeased, ==SEX== wouldn't have spoken to me at all.
-0131 [Darcia] | I see. It's a test ==SEX2== Majesty is putting me through!==W== Heheh...==W== In that case, I have to prove my worth. I must become indispensable.
+0114 [Darcia] | Lo entiendo perfectamente, Su Majestad.
+0115 [Darcia] | El largo viaje a Philae claramente le pasó factura. Debe de estar agotado. Firenze, acompaña a ==SEX2== Majestad a sus aposentos.
+0116 [Tú] | ¿Escuchaste una sola palabra de lo que acabo de decir?
+0117 [Darcia] | Su Majestad, usted sufre de amnesia. Esos delirios de ser un Trekker o un director ejecutivo, en lugar del Tirano, son solo síntomas de su condición.
+0118 [Darcia] | Como su sirvienta más leal, es mi deber curarlo. Me aseguraré de que lo recuerde todo.
+0119 [Tú] | Correcto. En efecto, soy el legendario Tirano.
+0120 [Darcia] | ¡Esa es la Majestad a la que juré servir! Por favor, permítame atenderlo. Déjeme permanecer a su lado...
+0121 [Tú] | ¡Silencio! ¿Quién te dio permiso de llamarme así? ¿Cuándo te acepté como mi sirvienta?
+0122 [Tú] | Ofreces lealtad sin que nadie te la pida. Te atreves a nombrarte mi vasalla. ¿Acaso le tienes algún respeto al Tirano?
+0123 [Darcia] | Yo... Eh...
+0124 [Darcia] | ¡Y-yo... lo siento muchísimo, Su Majestad! Me sobrepasé.==W== Fue arrogante ofrecerle mi lealtad sin considerar su voluntad. ¡Por favor, castígueme!
+0125 [Tú] | Hmph. Basta.
+0126 [Tú] | Ahora, llévame a ver a mis verdaderos subordinados.
+0127 [Darcia] | ¡Sí! ¡Sí, por supuesto!==W== Firenze, rápido, ¡lleva a ==SEX2== Majestad al cuarto de al lado!
+0128 [Firenze] | Entendido.
+0129 [Darcia] | Ay, no. ==SEX2== Majestad parece muy disgustado conmigo.
+0130 [Darcia] | No, espera. Si ==SEX2== Majestad de verdad estuviera disgustado, ==SEX== ni siquiera me habría dirigido la palabra.
+0131 [Darcia] | Ya entiendo. ¡Es una prueba a la que ==SEX2== Majestad me está sometiendo!==W== Jeje...==W== En ese caso, tengo que demostrar lo que valgo. Debo volverme indispensable.
