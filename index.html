@@ -428,8 +428,10 @@ body.bgm-on .screen{padding-bottom:84px}
     <div class="hm-lg"><img src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_English_Logo.png" alt="Stella Sora" referrerpolicy="no-referrer" onerror="this.outerHTML='<b class=hm-logo>Stella Sora</b>'"/><em class="betab">BETA</em></div>
     <p class="sub">Vita · Comunidad hispana</p>
     <button type="button" id="nsearch" class="nsearch" aria-label="Buscar en toda la app"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+    <button type="button" id="nsnd" class="nsearch" style="right:98px" aria-label="Sonidos"></button>
     <button type="button" id="nbell" class="nbell" data-nav="news" aria-label="Novedades" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><span class="ndot" hidden></span></button>
   </header>
+  <button type="button" id="stbar" class="stbar"><span class="sb-i"><svg viewBox="0 0 24 24" width="20" height="20" fill="#ffd76a" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span><span><b>Contador de stamina</b><small>Toca para configurarlo</small></span><span class="sb-a">›</span></button>
   <button type="button" id="betafb" class="betafb" hidden>✦ Versión beta · Cuéntanos qué te parece <span>›</span></button>
   <div id="ticker" class="tick" data-nav="news" role="button" tabindex="0" hidden><span class="tk-l">NUEVO</span><span class="tk-t" id="tk-t"></span><span class="tk-a">›</span></div>
   <div class="hm-wrap">
@@ -587,6 +589,11 @@ body.bgm-on .screen{padding-bottom:84px}
   <main><div id="teams-root"></div></main>
 </div>
 
+<div id="s-stamina" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Stamina</h2></div>
+  <main><div id="stamina-root"></div></main>
+</div>
+
 <div id="s-builds" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Builds de la comunidad</h2></div>
   <main>
@@ -628,6 +635,8 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="comunidad-config.js"></script>
 <script src="teams.js"></script>
 <script src="cumples.js"></script>
+<script src="stamina.js"></script>
+<script src="sonidos.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
@@ -638,7 +647,7 @@ const estr=(n,h)=>(n>=3&&n<=5)?`<img class="stars" src="${ESTR_URL}${n}star.png"
 const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 try{localStorage.removeItem("ss_favs")}catch(e){}
-const PARENT={teams:"",about:"",news:"",builds:"teams",build:"builds",chars:"",cumples:"chars",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
+const PARENT={stamina:"",teams:"",about:"",news:"",builds:"teams",build:"builds",chars:"",cumples:"chars",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
 function nav(h){if(location.hash==="#"+h)return;navFlag=true;depth++;location.hash=h}
 function goBack(){if(depth>0){depth--;history.back();return}
   const p=cur==="detail"?backTo:(PARENT[cur]||"");location.replace("#"+p);}
@@ -673,6 +682,7 @@ function go(id){cur=id;document.body.classList.remove("home");
   window.scrollTo(0,0);
   if(id==="news"&&window.nvSeen)window.nvSeen();
   if(id==="teams"&&window.teamsShow)window.teamsShow();
+  if(id==="stamina"&&window.staminaShow)window.staminaShow();
   if(id==="cumples"&&window.cumplesShow)window.cumplesShow();
   if(id==="builds"&&window.communityShow)window.communityShow();
 }
@@ -711,7 +721,7 @@ function rsHtml(t){
 /* Panel de 3 botones: Ver resumen / Leer en el lector / Ir a la wiki */
 const LECTOR={"nt:1":"STsp_01_01","nt:2":"STsp_02_01","nt:3":"STsp_03_01","nt:4":"STsp_04_01","nt:5":"STsp_05_01","nt:6":"STsp_06_01","nt:7":"STsp_07_01","nt:8":"STsp_08_01","nt:9":"STsp_09_01","nt:10":"STsp_10_01","nt:11":"STsp_11_01","nt:12":"STsp_12_01","nt:13":"STsp_13_01","nt:14":"STsp_14_01","nt:15":"STsp_15_01","nt:16":"STsp_16_01","nt:17":"STsp_17_01","nt:18":"STsp_18_01","ch:0":"STm00_01","ch:1":"STm01_01","ch:2":"STm02_01","ch:3":"STm03_00_a","ch:4":"STm04_01","ch:5":"STm05_00","ch:6":"STm06_00","ch:6.5":"STm06x5_01","ch:7":"STm07_00","ch:8":"STm08_01","ch:9":"STm09_00_a","ev:radiant-messenger-holy-night-spirit":"STev_02_01","ev:crackling-hint-of-spring":"STev_03_01","ev:winter-requiem-and-the-trigger-of-dawn":"STev_04_01","ev:to-my-dearest-you":"STev_05_01","ev:framing-the-feelings-unseen":"STev_07_01","ev:heartbeat-neo-inspired-rhapsody":"STev_08_01","ev:daring-adventure-the-ghost-ship-haunts-t":"STev_01_01","ev:a-sandstorm-of-gunfire":"STev_09_01","ev:sunlit-breeze-azure-seas-checking-in-for":"STev_10_01","ev:surfing-splash-a-sparkling-holiday-adven":"STev_11_01","ev:go-my-lady-training-handbook-plus":"STev_12_01","ev:guild-sweet-guild":"STm03_00_a","ev:beyond-the-dream":"STm04_01","ev:miracle-of-a-flicker":"STm06_00"};
 function accionesHist(key,resHtml,wikiUrl,wikiTxt){
-  const L=LECTOR[key];
+  const L=LECTOR[key]||LECTOR[key.replace(/^nt:0/,"nt:")];
   return `<div class="acc3">
     <button type="button" class="btn" onclick="var p=document.getElementById('acc-res');p.hidden=!p.hidden;this.textContent=p.hidden?'📖 Ver resumen':'📖 Ocultar resumen'">📖 Ver resumen</button>
     ${L?`<button type="button" class="btn" onclick="abrirLector('${L}')">▶ Leer en el lector</button>`
