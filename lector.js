@@ -575,7 +575,7 @@ async function txActo(d){
   const t=await txGet("textos/"+d.id+".txt");if(!t)return;
   const sl=txSlots(d.steps,[]);
   t.split(/\r?\n/).forEach(l=>{
-    let m=l.match(/^N:([^|\s]+)\s*\|\s?(.*)$/);if(m){const v=m[2].trim();if(v){d.names[m[1]]=v}return}
+    let m=l.match(/^N:([^|]+?)\s*\|\s?(.*)$/);if(m){const v=m[2].trim();if(v){d.names[m[1].trim()]=v}return}
     m=l.match(/^\s*(\d+)[^|]*\|\s?(.*)$/);if(!m)return;const k=+m[1]-1,v=m[2].replace(/\s+$/,"");
     if(sl[k]&&v)sl[k][0][sl[k][1]]=v;
   });
