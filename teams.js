@@ -11,10 +11,28 @@ const PRI={c:"Clave",m:"Medio",o:"Opcional"},PORD={c:0,m:1,o:2};
 const ROLE=["Trekker principal","Trekker de apoyo 1","Trekker de apoyo 2"];
 const NDISC=9;
 function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&Array.isArray(j.teams))return{v:2,teams:j.teams.map(fix)}}catch(x){}return{v:2,teams:[]}}
+/* Emblemas (CharGem del juego): 3 tipos x 3 formas; cada Trekker tiene 3 espacios (niveles 70, 80 y 90) */
+const EMT={1:{n:"Devoto",c:"#ff7a7a"},2:{n:"Explorador",c:"#4fd6a8"},3:{n:"Defensor",c:"#62aaff"}},EMS={1:"Púa",2:"Rombo",3:"Estelar"};
+const EMB=[1,2,3].flatMap(t=>[1,2,3].map(f=>({id:t*100+f,t,f,n:"Emblema "+EMS[f]+" · "+EMT[t].n})));
+const embOf=id=>EMB.find(x=>x.id===id);
+const EMP={1:[[20,2],[35,36],[20,28],[5,36]],2:[[20,3],[36,20],[20,37],[4,20]],3:[[20,2],[25,15],[38,20],[25,25],[20,38],[15,25],[2,20],[15,15]]};
+function embSvg(id,z){const m=embOf(id);if(!m)return"";return `<svg viewBox="0 0 40 40" width="${z}" height="${z}"><polygon points="${EMP[m.f].map(p=>p.join(",")).join(" ")}" fill="${EMT[m.t].c}" fill-opacity=".9" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>`}
+function embBlock(s,ed){
+  const E=T.slots[s].e||[0,0,0];if(!ed&&!E.some(Boolean))return"";
+  return `<div class="tm-pb"><div class="tm-pbh"><span>Emblemas · ${E.filter(Boolean).length}/3</span></div><div class="tm-eg">${E.map((id,k)=>{const m=embOf(id);
+    if(!m)return ed?`<button class="tm-et" data-a="emb" data-s="${s}" data-k="${k}"><span class="tm-eb">+</span><small>Espacio ${k+1}</small></button>`:`<div class="tm-et"><small>—</small></div>`;
+    return `<div class="tm-et f" style="--tc:${EMT[m.t].c}"${ed?` data-a="emb" data-s="${s}" data-k="${k}"`:""}>${embSvg(id,34)}<small>${EMS[m.f]} · ${EMT[m.t].n}</small>${ed?`<span class="tm-dx" data-a="emx" data-s="${s}" data-k="${k}">✕</span>`:""}</div>`}).join("")}</div></div>`}
+function embPicker(s,k){
+  const m=document.createElement("div");m.className="tm-md";
+  m.innerHTML=`<div class="tm-mh"><div class="tm-mt"><b>Elegir emblema · espacio ${k+1}</b><button class="chip" data-x="1">Cerrar</button></div></div><div class="tm-mb"><div class="tm-eg3">${EMB.map(x=>`<button class="tm-et f" data-id="${x.id}" style="--tc:${EMT[x.t].c}">${embSvg(x.id,44)}<small>${e(x.n)}</small></button>`).join("")}</div><p class="nota">En el juego cada emblema trae estadísticas al azar; aquí eliges cuál llevas en cada espacio.</p></div>`;
+  openM(m);m.querySelector("[data-x]").onclick=()=>closeM(m);
+  m.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>{closeM(m);leer();const S=T.slots[s];S.e=(S.e||[0,0,0]).slice(0,3);S.e[k]=+b.dataset.id;vEdit()});
+}
 function fix(t){
   t.slots=[0,1,2].map(i=>{const s=(t.slots||[])[i]||{},p={};
     for(const k in (s.p||{})){const v=s.p[k];if(typeof v==="number"){if(v>0)p[k]={l:v,pr:"m"}}else if(v&&v.l>0)p[k]={l:Math.min(9,+v.l|0),pr:PRI[v.pr]?v.pr:"m"}}
-    return{c:String(s.c||""),p}});
+    const eb=(Array.isArray(s.e)?s.e:[]).slice(0,3).map(x=>embOf(+x)?+x:0);while(eb.length<3)eb.push(0);
+    return{c:String(s.c||""),p,e:eb}});
   const d=(t.discs||[]).slice(0,NDISC).map(x=>x&&x.n?{n:String(x.n),a:Math.max(0,Math.min(8,+x.a||0))}:null);while(d.length<NDISC)d.push(null);
   t.discs=d;t.name=String(t.name||"").slice(0,60);t.note=String(t.note||"").slice(0,500);t.score=String(t.score||"").slice(0,20);t.id=t.id||uid();return t}
 let ST=load();
@@ -84,6 +102,12 @@ let root,T=null,mode="list";
 
 (function css(){const s=document.createElement("style");s.textContent=`
 #teams-root{--tc:#7B6CFF}
+.tm-eg,.tm-eg3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tm-et{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:74px;padding:8px 4px;border-radius:12px;border:2px dashed #4a4670;background:rgba(14,12,30,.5);color:#cfc8ff;cursor:pointer;font:inherit}
+.tm-et.f{border:2px solid var(--tc);background:rgba(20,16,50,.8)}
+.tm-et small{font-size:.66rem;font-weight:700;line-height:1.15;text-align:center;color:#e8e4ff}
+.tm-eb{font-size:1.5rem;color:var(--a)}
+.tm-et .tm-dx{position:absolute;top:3px;right:3px;width:20px;height:20px;border-radius:50%;background:rgba(0,0,0,.65);color:#fff;font-size:.65rem;display:flex;align-items:center;justify-content:center}
 .tm-hb{position:relative;display:flex;align-items:center;gap:14px;width:100%;text-align:left;border-radius:18px;padding:18px 16px;margin-bottom:12px;border:1px solid rgba(255,255,255,.1);color:var(--t);cursor:pointer;overflow:hidden;font:inherit;text-decoration:none}
 .tm-hb:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 90% 0,rgba(255,255,255,.18),transparent 55%);pointer-events:none}
 .tm-hb>*{position:relative}.tm-hb .hi{flex:0 0 52px;height:52px;border-radius:14px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;font-size:1.7rem;font-weight:800}
@@ -257,15 +281,15 @@ const unb64=t=>JSON.parse(decodeURIComponent(escape(atob(t))));
 async function codeV3(t){
   const P=await getPresets(),I=await getIdx();
   try{
-    const c=[],p=[];
+    const c=[],p=[],em=[];
     for(let s=0;s<3;s++){
-      const S=t.slots[s],g=gidOf(P,S.c);c.push(S.c);
+      const S=t.slots[s],g=gidOf(P,S.c);c.push(S.c);em.push((S.e||[0,0,0]).join('.'));
       const by={};if(g)for(const id in P[g].names)if(!(P[g].names[id] in by))by[P[g].names[id]]=id;
       const arr=[];for(const k in S.p){const ne=k.split("|").slice(2).join("|"),id=by[ne];if(id)arr.push(id+"."+S.p[k].l+S.p[k].pr)}
       p.push(arr.join(","));
     }
     const d=t.discs.map(D=>D&&I.ids[D.n]?I.ids[D.n]+"."+D.a:0);
-    return "SSV3:"+b64({v:3,n:t.name,t:t.score,o:t.note,c,p,d});
+    return "SSV3:"+b64({v:3,n:t.name,t:t.score,o:t.note,c,p,d,e:em});
   }catch(x){return code(t)}
 }
 async function decodeV3(j){
@@ -274,7 +298,7 @@ async function decodeV3(j){
   const nameOf={};for(const n in I.ids)nameOf[I.ids[n]]=n;
   (j.d||[]).slice(0,NDISC).forEach((x,i)=>{if(!x)return;const m=String(x).match(/^(\d+)\.(\d)$/);if(m&&nameOf[m[1]])t.discs[i]={n:nameOf[m[1]],a:+m[2]}});
   for(let s=0;s<3;s++){
-    const slug=(j.c||[])[s];if(!slug)continue;t.slots[s]={c:String(slug),p:{}};
+    const slug=(j.c||[])[s];if(!slug)continue;t.slots[s]={c:String(slug),p:{},e:String((j.e||[])[s]||"0.0.0").split(".").map(Number)};
     const g=gidOf(P,slug),F=await getF(slug),role=s===0?"main":"support";
     if(!g||!F||!F.potenciales)continue;
     const T2=F.potenciales[role]||F.potenciales.main;
@@ -335,7 +359,8 @@ async function imagen2(){
   const F=[];for(let s=0;s<3;s++){T.slots[s].__r=s===0?"main":"support";F.push(T.slots[s].c?await getF(T.slots[s].c):null)}
   const PL=[0,1,2].map(s=>sortedPots(T.slots[s],F[s]));
   const grp=s=>["c","m","o"].map(k=>({k,L:PL[s].filter(x=>x.v.pr===k)})).filter(g=>g.L.length);
-  const colH=s=>160+(grp(s).reduce((a,g)=>a+GH+g.L.length*RH,0)||60)+20;
+  const hasE=T.slots.some(S=>(S.e||[]).some(Boolean)),EH=hasE?140:0;
+  const colH=s=>160+EH+(grp(s).reduce((a,g)=>a+GH+g.L.length*RH,0)||60)+20;
   const dm=T.discs.slice(0,3).map((d,i)=>d&&{d,i}).filter(Boolean),ds=T.discs.slice(3).map((d,i)=>d&&{d,i:i+3}).filter(Boolean);
   const tmp=document.createElement("canvas").getContext("2d");tmp.font="28px sans-serif";
   const nt=T.note?wrapT(tmp,T.note,W-2*P-40,4):[];
@@ -364,7 +389,13 @@ async function imagen2(){
       c.font="bold 26px sans-serif";c.fillStyle="#ffd76a";c.fillText("★".repeat(ch.rarity),x0+160,y0+124);c.fillStyle="#fff";c.fillText(ch.element,x0+160+ch.rarity*28+16,y0+124);
     }else{c.fillStyle="#fff";c.font="bold 38px sans-serif";c.fillText("Sin personaje",x0+160,y0+88)}
     c.fillStyle="#cfc8ff";c.font="bold 22px sans-serif";c.textAlign="right";c.fillText(PL[s].length+" potenciales",x0+CW-20,y0+34);c.textAlign="left";
-    let py=y0+160;const gs=grp(s);
+    if(hasE){const E=S.e||[0,0,0],tw=Math.floor((CW-40-20)/3);c.fillStyle="#9d93ff";c.font="bold 22px sans-serif";c.fillText("EMBLEMAS",x0+24,y0+178);
+      E.forEach((id,k)=>{const m=embOf(id),tx=x0+20+k*(tw+10),ty=y0+192;c.fillStyle="rgba(255,255,255,.06)";rr(c,tx,ty,tw,92,14);c.fill();
+        if(!m){c.strokeStyle="#4a4670";c.lineWidth=2;c.setLineDash([8,6]);rr(c,tx,ty,tw,92,14);c.stroke();c.setLineDash([]);return}
+        c.strokeStyle=EMT[m.t].c;c.lineWidth=3;rr(c,tx,ty,tw,92,14);c.stroke();
+        const pts=EMP[m.f],z=1.3,ox=tx+tw/2-20*z,oy=ty+8;c.beginPath();pts.forEach((p,i)=>{const X=ox+p[0]*z,Y=oy+p[1]*z;i?c.lineTo(X,Y):c.moveTo(X,Y)});c.closePath();c.fillStyle=EMT[m.t].c;c.fill();c.strokeStyle="#fff";c.lineWidth=2.5;c.lineJoin="round";c.stroke();
+        c.fillStyle="#fff";c.font="bold 18px sans-serif";c.textAlign="center";c.fillText(EMS[m.f]+" · "+EMT[m.t].n,tx+tw/2,ty+84);c.textAlign="left"})}
+    let py=y0+160+EH;const gs=grp(s);
     if(!gs.length){c.fillStyle="#8a85b5";c.font="28px sans-serif";c.fillText("Sin potenciales elegidos",x0+24,py+34)}
     gs.forEach(gr=>{
       c.fillStyle=PRIc[gr.k];c.beginPath();c.arc(x0+34,py+20,9,0,7);c.fill();c.fillStyle="#9d93ff";c.font="bold 22px sans-serif";c.fillText(PRI[gr.k].toUpperCase()+" · "+gr.L.length,x0+54,py+28);py+=GH;
@@ -413,7 +444,7 @@ async function imagen2(){
 /* ---------- editor ---------- */
 function slotHtml(s){
   const S=T.slots[s],c=charOf(S.c);S.__r=s===0?"main":"support";
-  return `<div class="tm-sl" data-s="${s}"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,true)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span><button class="tm-add" style="--tc:${ec(c.element)}" data-a="pots" data-s="${s}">Editar</button></div><div id="tm-pl${s}"><p class="tm-hint">Cargando…</p></div></div>`
+  return `<div class="tm-sl" data-s="${s}"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,true)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span><button class="tm-add" style="--tc:${ec(c.element)}" data-a="pots" data-s="${s}">Editar</button></div><div id="tm-pl${s}"><p class="tm-hint">Cargando…</p></div></div>${embBlock(s,true)}`
    :`<button class="tm-empty" data-a="char" data-s="${s}"><b>+</b>Elegir Trekker</button>`)+`</div>`;
 }
 async function pintaPots(s,esVista){
@@ -448,7 +479,7 @@ function vView(){
   mode="view";
   root.innerHTML=`<button class="tm-bk" data-a="back">${fromCom?"‹ Builds de la comunidad":"‹ Mis equipos"}</button>
    <div class="tm-fh"><div class="nota" style="margin:0">${T.__ro?"BUILD DE LA COMUNIDAD":"FICHA DE EQUIPO"}</div><h3>${e(T.name||"Equipo sin nombre")}</h3>${T.__al?`<p>Por <b>${e(T.__al)}</b></p>`:""}${T.score?`<p>Récord: <b>${e(T.score)}</b></p>`:""}${T.note?`<p>${e(T.note)}</p>`:""}</div>
-   ${[0,1,2].map(s=>{T.slots[s].__r=s===0?"main":"support";const c=charOf(T.slots[s].c);return `<div class="tm-sl"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,false)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span></div><div id="tm-pl${s}"></div></div>`:`<p class="tm-hint" style="padding:12px">Sin personaje.</p>`)+`</div>`}).join("")}
+   ${[0,1,2].map(s=>{T.slots[s].__r=s===0?"main":"support";const c=charOf(T.slots[s].c);return `<div class="tm-sl"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,false)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span></div><div id="tm-pl${s}"></div></div>${embBlock(s,false)}`:`<p class="tm-hint" style="padding:12px">Sin personaje.</p>`)+`</div>`}).join("")}
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,false)||"").join("")}</div>
     ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}</div>
    ${T.__ro?`<button class="btn" data-a="savecopy">Guardar en mis equipos</button>
@@ -479,8 +510,10 @@ function onClick(ev){
     gameDecode(txt.trim()).then(g=>{
       if(!g){m.textContent="No reconocí ese código de preset del juego.";return}
       ST.teams=[g].concat(ST.teams);save();vList()})}
-  else if(a==="char"){const s=+el.dataset.s;picker("Elegir Trekker",charItems(),it=>{leer();const old=T.slots[s];T.slots[s]={c:it.id,p:old&&old.c===it.id?old.p:{}};vEdit()})}
-  else if(a==="cx"){leer();T.slots[+el.dataset.s]={c:"",p:{}};vEdit()}
+  else if(a==="char"){const s=+el.dataset.s;picker("Elegir Trekker",charItems(),it=>{leer();const old=T.slots[s];T.slots[s]={c:it.id,p:old&&old.c===it.id?old.p:{},e:old&&old.c===it.id?old.e:[0,0,0]};vEdit()})}
+  else if(a==="cx"){leer();T.slots[+el.dataset.s]={c:"",p:{},e:[0,0,0]};vEdit()}
+  else if(a==="emb"){embPicker(+el.dataset.s,+el.dataset.k)}
+  else if(a==="emx"){ev.stopPropagation();leer();const S=T.slots[+el.dataset.s];S.e=(S.e||[0,0,0]).slice();S.e[+el.dataset.k]=0;vEdit()}
   else if(a==="pots"){leer();potModal(+el.dataset.s)}
   else if(a==="disc"){const i=+el.dataset.i;picker("Elegir disco",discItems(),it=>{leer();T.discs[i]={n:it.n,a:(T.discs[i]&&T.discs[i].a)||8};vEdit()},{sq:true})}
   else if(a==="dx"){ev.stopPropagation();leer();T.discs[+el.dataset.i]=null;vEdit()}
