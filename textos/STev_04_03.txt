@@ -1,4 +1,4 @@
-# Evento · Réquiem invernal y el gatillo del alba · 3 · Memories of Home
+# Evento · Réquiem invernal y el gatillo del alba · 3 · Recuerdos del hogar
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -13,107 +13,107 @@ N:avg3_100 | Sylar
 N:avg3_129 | Guardia Imperial
 N:avg3_139 | Trekker
 N:avg3_141 | Trabajador de Cosecha Unida
-N:avg3_145 | Gold District Resident
+N:avg3_145 | Residente del Distrito de Oro
 N:avg3_171 | Empleada
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | Memories of Home
-0003 [Intro] | At night, you and Wraith have a long talk outside. You learn that this was her hometown and get to know the stories of both the city and her past.
-0004 [Wraith] | I meant: for the next few days, we are sleeping together.==W== That's all there is to it. Why are you shocked?
-0005 [Tú] | It's only normal to be shocked!! Could you at least tell me why?
-0006 [Wraith] | The Monolith has "rebooted." Nocturn Eterna could be nearby, plotting another sabotage. I need to secure your safety 24/7.
-0007 [Wraith] | Ah... Are you worried about the sleeping arrangement?==W== Don't worry, I sleep better sitting up. I won't take your bed.
-0008 [Tú] | That's not really what I was worried about...==W== Well, whatever. If you don't mind, then I guess I don't either.
-0009 [Wraith] | Hm? Then what were you worried about? Is there something else?
-0010 [Tú] | No, nothing! Just drop it! It's getting late—let's just get some sleep!
-0011 [Wraith] | Mm. Rest easy. I'll keep watch.
+0001 [Intro] | Acto tres
+0002 [Intro] | Recuerdos del hogar
+0003 [Intro] | Por la noche, Wraith y tú tienen una larga conversación afuera. Descubres que este era su pueblo natal y conoces las historias tanto de la ciudad como de su pasado.
+0004 [Wraith] | Quise decir: durante los próximos días, dormiremos juntos.==W== Eso es todo. ¿Por qué te sorprendes?
+0005 [Tú] | ¡¡Es normal sorprenderse!! ¿Podrías al menos decirme por qué?
+0006 [Wraith] | El Monolito se «reinició». Nocturn Eterna podría estar cerca, tramando otro sabotaje. Necesito garantizar tu seguridad las 24 horas.
+0007 [Wraith] | Ah... ¿Te preocupa cómo vamos a dormir?==W== Descuida, yo duermo mejor sentada. No te quitaré la cama.
+0008 [Tú] | No era exactamente eso lo que me preocupaba...==W== En fin, da igual. Si a ti no te molesta, supongo que a mí tampoco.
+0009 [Wraith] | ¿Mm? Entonces, ¿qué te preocupaba? ¿Hay algo más?
+0010 [Tú] | ¡No, nada! ¡Déjalo así! Ya es tarde, ¡mejor vamos a dormir!
+0011 [Wraith] | Mm. Descansa tranquilo. Yo vigilo.
 0012 [Tú] | Zzz... Zzzz...
-0013 [Tú] | Nngh... Feels... Heavy...
-0014 [Tú] | Like something's ... weighing me down...
-0015 [Tú] | Wraith's coat?==W== Did she tuck me in?
-0016 [Tú] | Strange. She left without her coat. Where would she go at this hour?
-0017 [Tú] | ...==W== Footprints?
-0018 [Tú] | Looks like she headed out of camp.
-0019 [Narración] | Under the faint moonlight, I follow her tracks to a clearing near our camp.
-0020 [Narración] | As if reading the room, a crooked streetlamp flickers on, lighting the figure at the path's end.
-0021 [Wraith] | How did this place ... end up like this...
-0022 [Narración] | Bathed in that light, she seems more solitary now than she did by day.
-0023 [Tú] | What are you doing out here? I thought you were keeping watch for me.
-0024 [Wraith] | I am on watch. But that doesn't require me to stay at your bedside the entire night.
-0025 [Wraith] | Relax. I rigged the room with defensive wards for Nocturn Eterna. If they get close, they'll be riddled with holes.
-0026 [Tú] | Sounds ... dangerous. Did you factor my safety into that setup?
-0027 [Wraith] | Hmm...==W== Guess that detail slipped my mind.
+0013 [Tú] | Nngh... Qué... pesado...
+0014 [Tú] | Como si algo... me aplastara...
+0015 [Tú] | ¿El abrigo de Wraith?==W== ¿Me arropó?
+0016 [Tú] | Qué raro. Se fue sin su abrigo. ¿Adónde irá a esta hora?
+0017 [Tú] | ...==W== ¿Huellas?
+0018 [Tú] | Parece que salió del campamento.
+0019 [Narración] | Bajo la tenue luz de la luna, sigo sus huellas hasta un claro cerca de nuestro campamento.
+0020 [Narración] | Como si leyera el ambiente, un farol torcido parpadea y se enciende, iluminando la figura al final del sendero.
+0021 [Wraith] | ¿Cómo es que este lugar... terminó así...?
+0022 [Narración] | Bañada por esa luz, parece más solitaria ahora que durante el día.
+0023 [Tú] | ¿Qué haces aquí afuera? Creí que estabas vigilándome.
+0024 [Wraith] | Estoy de guardia. Pero eso no me obliga a quedarme junto a tu cama toda la noche.
+0025 [Wraith] | Relájate. Dejé la habitación con protecciones defensivas contra Nocturn Eterna. Si se acercan, quedarán llenos de agujeros.
+0026 [Tú] | Suena... peligroso. ¿Tomaste en cuenta mi seguridad en esa instalación?
+0027 [Wraith] | Mmm...==W== Creo que ese detalle se me pasó.
 0028 [Tú] | ...
-0029 [Tú] | Aren't those wards even more dangerous than Nocturn Eterna!?
-0030 [Wraith] | Just kidding. I just rigged up basic alarms that make noise if anyone breaks in. I'm just patrolling nearby. Be back in a flash if needed.
-0031 [Tú] | I didn't take you for the joking type.
-0032 [Wraith] | I have a sense of humor, you know. Though it's gotten a bit rusty. Since getting to the City of a Thousand Monoliths, I've mostly kept to myself.
-0033 [Wraith] | Being here reminds me of the old days with my team. Put me in a nostalgic mood, I guess.
-0034 [Narración] | Under the lamp's glow, I notice the unique badge she's clutching.
-0035 [Tú] | You said "getting to" Emor, yet you know this place inside out. Does that mean...?
-0036 [Wraith] | Hm? Did I never mention it?==W== The Northern City is my home.
-0037 [Wraith] | The Northern City was once as prosperous as any other city.
-0038 [Wraith] | Raised in this harsh climate, Northerners revere strength. And more importantly, unity.
-0039 [Wraith] | We hunted together. Climbed the Monolith together. And to survive the cold, we used our wishes for Artifacts that gave us warmth.
-0040 [Wraith] | But a few years ago... The Monolith went dark. The people here had no choice but to abandon the city.
-0041 [Tú] | I'm sorry. I didn't mean to drag up bad memories.
-0042 [Wraith] | Don't be. Northerners are tougher than you think. We may have left, but we'll rebuild somewhere else.
-0043 [Tú] | Is this your first time back?
-0044 [Wraith] | Yes. When the Monolith went dark, we fled in haste and never returned.
-0045 [Wraith] | I swore an oath. I have to stop that tragedy from happening again ... and find out what happened with the Monolith.
-0046 [Wraith] | My grandfather backed my decision. So, with that resolve, I traveled to the City of a Thousand Monoliths alone.
-0047 [Wraith] | Later, I joined the Sentinel of Dawn and learned about Nocturn Eterna—fanatics destroying Monoliths everywhere.
-0048 [Tú] | ... I see. No wonder you're so fixated on them.
-0049 [Wraith] | Speaking of which, I shouldn't have suspected you back in the carriage. I'm sorry.
-0050 [Tú] | Suspected me? Why...?
-0051 [Wraith] | In the City of a Thousand Monoliths, I spotted a Nocturn Eterna tailing you.==W== I assumed you were their insider.
-0052 [Wraith] | But after watching you for a while, I realized I was wrong. Let's just call it a misunderstanding.
-0053 [Tú] | Huh? A Nocturn Eterna was tailing me...? Did you get a good look at them?
-0054 [Wraith] | Hm...?
-0055 [Tú] | Wraith, what's wrong?
-0056 [Wraith] | Ah, sorry, I was just thinking...==W== I don't think I actually saw her face.
-0057 [Wraith] | She wasn't carrying any weapons, so I can't recall the specifics... But her pale skin, characteristic of the Bayan, and the white, pointed horns atop her head were proof enough that she was a member of Nocturn Eterna.
-0058 [Tú] | Nocturn Eterna traits... Aeloria's skin is pale, sure, but she doesn't have white horns...
-0059 [Wraith] | It doesn't matter. Even if they do show up, I can handle them.
-0060 [Wraith] | Instead of fearing unseen enemies, better get a good night's sleep now and prepare for tomorrow. Come on, let's head back to our room.
-0061 [Tú] | You're right. It's freezing out here. Let's go—quietly, so we don't wake the others.
-0062 [Wraith] | No problem. I'm a pro at this.
-0063 [Tú] | Hm? Could it be... You always sneak into people's rooms while they're asleep?
-0064 [Wraith] | Heh, that's a nice one. But no. I used to sneak into the hunting grounds at night for archery practice.
-0065 [Wraith] | Usually wouldn't make it back till around now.
-0066 [Wraith] | Ran into a real monster once. Scared me stiff. I couldn't even pull the trigger.
-0067 [Tú] | Then what? How'd you get out of there alive?
-0068 [Wraith] | A passing girl saved my skin. Her magic was insane. Dropped the beast in a single shot.
-0069 [Wraith] | I never saw her again, though. I asked around everywhere, but nobody knew a thing.
-0070 [Wraith] | Most folks back home rely on steel. You'd think a mage would stand out.
-0071 [Wraith] | If I ever run into her again, I just want to thank her properly.
-0072 [Tú] | Wraith... Did you sneak out tonight hoping you'd bump into her, at this hour like you did back then?
-0073 [Wraith] | Heh. I'm not that sentimental.
-0074 [Wraith] | Was actually looking for something to polish this,==W== but all I dug up were some grimy rags.
-0075 [Narración] | Wraith pulls out the badge I noticed earlier.
-0076 [Wraith] | I've had this on me since I left home. But the humidity down south is no joke. It's in pretty rough shape now.
-0077 [Tú] | Oh... I've got an idea. Have the perfect thing for that.
-0078 [Tú] | Here.
-0079 [Wraith] | Isn't that the "drink" you pulled out on the carriage?
-0080 [Tú] | ... Just trust me. It'll strip the rust right off.
-0081 [Tú] | And... Done! Look, rust is completely gone.
-0082 [Wraith] | Woah...! It looks exactly like it used to!==W== What kind of Artifact is this?!
-0083 [Tú] | Rust remover. Rare, but handy! A member of my guild wishes this stuff up all the time.
-0084 [Wraith] | But if it's that precious, are you sure you want to waste it on this...?
-0085 [Tú] | Of course.==W== It means a lot to you, doesn't it?
-0086 [Tú] | If my friends were standing here instead of me, I know they'd make the exact same choice.
-0087 [Wraith] | Sounds like you have an amazing team...Thank you. I won't forget this favor.
-0088 [Tú] | Alright, time to say goodnight.
-0089 [Wraith] | Yeah. Night. See you tomorrow.
+0029 [Tú] | ¡¿No son esas protecciones más peligrosas que Nocturn Eterna?!
+0030 [Wraith] | Es broma. Solo instalé alarmas básicas que hacen ruido si alguien entra. Solo patrullo por los alrededores. Si hace falta, vuelvo en un instante.
+0031 [Tú] | No te creía de las que bromean.
+0032 [Wraith] | Tengo sentido del humor, ¿sabes? Aunque se me ha oxidado un poco. Desde que llegué a la Ciudad de los Mil Monolitos, casi siempre me la paso sola.
+0033 [Wraith] | Estar aquí me recuerda los viejos tiempos con mi equipo. Me puso nostálgica, supongo.
+0034 [Narración] | Bajo el resplandor del farol, noto la insignia especial que aprieta en la mano.
+0035 [Tú] | Dijiste «llegar» a Emor, pero conoces este lugar como la palma de tu mano. ¿Eso significa que...?
+0036 [Wraith] | ¿Mm? ¿Nunca lo mencioné?==W== La Ciudad del Norte es mi hogar.
+0037 [Wraith] | La Ciudad del Norte fue alguna vez tan próspera como cualquier otra.
+0038 [Wraith] | Criados en este clima tan duro, los norteños veneramos la fuerza. Y, más importante aún, la unidad.
+0039 [Wraith] | Cazábamos juntos. Escalábamos el Monolito juntos. Y para sobrevivir al frío, usábamos nuestros deseos en Artefactos que nos dieran calor.
+0040 [Wraith] | Pero hace unos años... El Monolito se apagó. La gente de aquí no tuvo más remedio que abandonar la ciudad.
+0041 [Tú] | Lo siento. No quise remover malos recuerdos.
+0042 [Wraith] | No te preocupes. Los norteños somos más duros de lo que crees. Nos fuimos, pero reconstruiremos en otro lugar.
+0043 [Tú] | ¿Es la primera vez que regresas?
+0044 [Wraith] | Sí. Cuando el Monolito se apagó, huimos a toda prisa y nunca volvimos.
+0045 [Wraith] | Hice un juramento. Tengo que evitar que esa tragedia vuelva a ocurrir... y descubrir qué pasó con el Monolito.
+0046 [Wraith] | Mi abuelo apoyó mi decisión. Así que, con esa determinación, viajé sola a la Ciudad de los Mil Monolitos.
+0047 [Wraith] | Más tarde me uní a los Centinelas del Alba y me enteré de Nocturn Eterna: fanáticos que destruyen Monolitos por todas partes.
+0048 [Tú] | ... Ya veo. Con razón estás tan obsesionada con ellos.
+0049 [Wraith] | Hablando de eso, no debí sospechar de ti en el carruaje. Perdón.
+0050 [Tú] | ¿Sospechar de mí? ¿Por qué...?
+0051 [Wraith] | En la Ciudad de los Mil Monolitos vi a una Nocturn Eterna siguiéndote.==W== Supuse que eras su infiltrado.
+0052 [Wraith] | Pero después de observarte un tiempo, me di cuenta de que me equivocaba. Digamos que fue un malentendido.
+0053 [Tú] | ¿Eh? ¿Una Nocturn Eterna me seguía...? ¿La viste bien?
+0054 [Wraith] | ¿Mm...?
+0055 [Tú] | Wraith, ¿qué pasa?
+0056 [Wraith] | Ah, perdón, estaba pensando...==W== Creo que en realidad no vi su rostro.
+0057 [Wraith] | No llevaba armas, así que no recuerdo los detalles... Pero su piel pálida, característica de los Bayan, y los cuernos blancos y puntiagudos sobre su cabeza eran prueba suficiente de que era miembro de Nocturn Eterna.
+0058 [Tú] | Rasgos de Nocturn Eterna... La piel de Aeloria es pálida, sí, pero no tiene cuernos blancos...
+0059 [Wraith] | No importa. Aunque aparezcan, puedo encargarme de ellos.
+0060 [Wraith] | En lugar de temerle a enemigos invisibles, mejor duerme bien ahora y prepárate para mañana. Vamos, volvamos a nuestra habitación.
+0061 [Tú] | Tienes razón. Aquí afuera hace un frío terrible. Vamos, sin hacer ruido para no despertar a los demás.
+0062 [Wraith] | No hay problema. Soy una experta en esto.
+0063 [Tú] | ¿Mm? ¿Será que...? ¿Siempre te cuelas en los cuartos de la gente mientras duermen?
+0064 [Wraith] | Je, buena esa. Pero no. Antes me escabullía de noche a los terrenos de caza para practicar tiro con arco.
+0065 [Wraith] | Normalmente no volvía hasta más o menos a esta hora.
+0066 [Wraith] | Una vez me topé con un monstruo de verdad. Me paralizó del susto. Ni siquiera pude apretar el gatillo.
+0067 [Tú] | ¿Y luego? ¿Cómo saliste con vida?
+0068 [Wraith] | Una chica que pasaba por ahí me salvó el pellejo. Su magia era increíble. Derribó a la bestia de un solo disparo.
+0069 [Wraith] | Pero nunca volví a verla. Pregunté por todas partes, pero nadie sabía nada.
+0070 [Wraith] | La mayoría de la gente de allá confía en el acero. Uno pensaría que una maga destacaría.
+0071 [Wraith] | Si algún día me la vuelvo a encontrar, solo quiero darle las gracias como se debe.
+0072 [Tú] | Wraith... ¿Te escapaste esta noche con la esperanza de toparte con ella, a esta hora, como entonces?
+0073 [Wraith] | Je. No soy tan sentimental.
+0074 [Wraith] | En realidad buscaba algo para pulir esto,==W== pero lo único que encontré fueron unos trapos mugrosos.
+0075 [Narración] | Wraith saca la insignia que noté antes.
+0076 [Wraith] | La he traído conmigo desde que salí de casa. Pero la humedad del sur es muy seria. Ahora está en bastante mal estado.
+0077 [Tú] | Oh... Se me ocurre algo. Tengo justo lo que necesitas.
+0078 [Tú] | Toma.
+0079 [Wraith] | ¿No es la «bebida» que sacaste en el carruaje?
+0080 [Tú] | ... Confía en mí. Le quitará el óxido de inmediato.
+0081 [Tú] | ¡Y... listo! Mira, el óxido desapareció por completo.
+0082 [Wraith] | ¡Vaya...! ¡Quedó igualita a como era antes!==W== ¡¿Qué tipo de Artefacto es este?!
+0083 [Tú] | Quitaóxido. Es raro, ¡pero muy útil! Una integrante de mi gremio lo pide como deseo todo el tiempo.
+0084 [Wraith] | Pero si es tan valioso, ¿seguro que quieres gastarlo en esto...?
+0085 [Tú] | Claro.==W== Significa mucho para ti, ¿no?
+0086 [Tú] | Si mis amigas estuvieran aquí en mi lugar, sé que tomarían exactamente la misma decisión.
+0087 [Wraith] | Parece que tienes un equipo increíble... Gracias. No olvidaré este favor.
+0088 [Tú] | Bien, es hora de despedirnos por hoy.
+0089 [Wraith] | Sí. Buenas noches. Nos vemos mañana.
 0090 [Narración] | ...==W== ...==W== ...
-0091 [Tú] | Ugh, I'm roasting... Edda's warming spell is still going strong on these clothes...
-0092 [Tú] | Wraith put her coat over me again? She's the one who needs to worry about the cold.
-0093 [Tú] | I appreciate the thought, but you need this more than I do.
-0094 [Tú] | Goodnight, Wraith.
-0095 [Tú] | What's that noise?
-0096 [Tú] | Sigh... I just put that back on you...
-0097 [Tú] | She's actually a restless sleeper?
-0098 [Wraith] | Ughh... Grandpa, I want ice cream...
-0099 [Tú] | Looks like she's having a sweet dream... Best leave her be.
-0100 [Narración] | And so, on my first night in Norstheim, I barely got a wink of sleep...
+0091 [Tú] | Uf, me estoy asando... El hechizo de calor de Edda sigue a todo lo que da en esta ropa...
+0092 [Tú] | ¿Wraith volvió a ponerme su abrigo? Ella es la que debería preocuparse por el frío.
+0093 [Tú] | Aprecio el gesto, pero tú lo necesitas más que yo.
+0094 [Tú] | Buenas noches, Wraith.
+0095 [Tú] | ¿Qué es ese ruido?
+0096 [Tú] | Suspiro... Acabo de ponértelo otra vez...
+0097 [Tú] | ¿Resulta que duerme inquieta?
+0098 [Wraith] | Ughh... Abuelo, quiero helado...
+0099 [Tú] | Parece que tiene un dulce sueño... Mejor la dejo.
+0100 [Narración] | Y así, en mi primera noche en Norstheim, casi no pegué el ojo...

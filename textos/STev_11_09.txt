@@ -1,9 +1,9 @@
-# Evento · Surf y salpicaduras: ¡una brillante aventura de vacaciones! · 9 · Summer Goes On
+# Evento · Surf y salpicaduras: ¡una brillante aventura de vacaciones! · 9 · El verano continúa
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Treasure Hunter Leader | Treasure Hunter Leader
+N:Treasure Hunter Leader | Líder de los cazatesoros
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -14,94 +14,94 @@ N:avg1_157 | Karin
 N:avg1_160 | Willow
 N:avg3_100 | Sylar
 N:avg3_1264 | Mistique
-N:avg3_211 | Treasure Hunter Leader
+N:avg3_211 | Líder de los cazatesoros
 
 ## Texto
-0001 [Intro] | Epilogue
-0002 [Intro] | Summer Goes On
-0003 [Intro] | With the incident resolved, Cosette swaps the Vending Artifact for a year of unlimited drinks, and the resort adds new attractions. Reunited on the beach, the friends savor a summer that's not over yet...
-0004 [Treasure Hunter Leader] | Thank goodness...==W== What a relief.
-0005 [Treasure Hunter Leader] | The anomaly's handled, the Automatic Vending Artifact's intact, and tourists are trickling back... Looks like I'm keeping my job!
-0006 [Treasure Hunter Leader] | Oh, there's one more thing we need to discuss.
-0007 [Cosette] | What?! You want to take my Automatic Vending Artifact?!
-0008 [Cosette] | No, no, no! Absolutely not! I wished my heart out for this thing. If you take it, I lose my endless drinks!
-0009 [Treasure Hunter Leader] | Wait, your Vending Artifact supplies unlimited drinks?==W== Is it actually that magical?
-0010 [Cosette] | What do you mean? Vending Artifacts always supply endless drinks. Doesn't yours do the same?
-0011 [Treasure Hunter Leader] | Of course not. Someone has to restock the drinks by hand. That's our job.
-0012 [Cosette] | ... Wait, what?
-0013 [Tú] | Wow... The light completely died in Cosette's eyes.
-0014 [Tú] | Anyway, why do you want a broken Automatic Vending Artifact?
-0015 [Treasure Hunter Leader] | We had it looked at and it'll work fine with a few repairs. Plus, it makes a great tourist attraction for the resort!
-0016 [Treasure Hunter Leader] | We aren't taking it for free, either. The resort owner offered a one-year unlimited drink pass in exchange.
-0017 [Cosette] | U-Unlimited drinks?!
-0018 [Cosette] | Deal! Take it!
-0019 [Treasure Hunter Leader] | Right this way to work out the details.
-0020 [Mistique] | My, my. What a picture-perfect ending for everyone.
-0021 [Mistique] | The hermit crab gets its shell back, Leafia finds the Monolith in the sea, you all get a peaceful vacation, and I secure a new scoop!
-0022 [Mistique] | Everything falls right into place. Simply wonderful.
-0023 [Tú] | Yeah, all our problems are sorted. Now we can kick back and enjoy the break.
-0024 [Tú] | ... Where did you pop up from, by the way?
-0025 [Mistique] | Heh heh. Never underestimate a witch's network. Where there's a scoop, there's me!
-0026 [Mistique] | Bizarre resort incidents,==W== a thrilling summer adventure, Trekkers conquering the sea, a mysterious Monolith sleeping in a whirlpool...==W== This is pure gold for my readers.
-0027 [Mistique] | "Sunlit Breeze, Azure Seas Checking In for A Cozy Summer~"==W== and "Surfing Splash: A Sparkling Holiday Adventure!"==W== I already have the feature titles ready to go.
-0028 [Tú] | Sounds more like an ad for the resort...
-0029 [Mistique] | Aww, you saw right through me!==W== Nothing gets past you, Boss.
-0030 [Mistique] | Turns out the resort owner saw a business opportunity here and wants to strike a deal with the hermit crab and set up some themed attractions.
-0031 [Mistique] | Stuff like a conch shell wishing spot, hermit crab racing, a thrill night challenge... You get the idea.
-0032 [Mistique] | Oh, don't give me that look. An underwater Monolith is massive news... Of course I grabbed the exclusive. And since I'm here, there is no harm in making a little side cash.
-0033 [Tú] | Have you finished your article yet?
-0034 [Mistique] | Well, about that... I don't get a resort trip every day! Let me soak up the sun and sand first!!
-0035 [Mistique] | What about you, Boss? What's your plan? I saw your friends having a blast down at the beach.
-0036 [Tú] | As for me...
-0037 [Opción] | Hermit crabs! The ocean! Let's go!
-0038 [Opción] | Take a breather first, then grab some chow mein.
-0039 [Opción] | Drag Mistique back to work.
-0040 [Tú] | I wanna try hermit crab racing!
-0041 [Tú] | Watching Karin ride that crab back in the Monolith made me jealous.
-0042 [Tú] | Racing around on one of those looks like a great way to blow off steam.
-0043 [Mistique] | Sounds fun! Count me in! And I'll have my camera ready for the exact moment you fall off!
-0044 [Tú] | Can't you root for me for once?
-0045 [Mistique] | Hehe, I bet half the continent would pay top dollar for a shot of the Boss Accord CEO eating sand!
-0046 [Tú] | Spare me...
-0047 [Tú] | I'm pretty beat from all the running around lately.
-0048 [Tú] | Think I'll rest a bit, then grab some chow mein from a beach stall.
-0049 [Mistique] | The mighty Boss finally gets a vacation, and your grand plan is chow mein?
-0050 [Tú] | Fair point.==W== Plain chow mein does sound a bit sad now that you mention it.
-0051 [Tú] | Alright, then I want the deluxe chow mein plus with egg, sausage, and prawns. Plus a huge iced melon soda, some fried squid, two ears of grilled corn, and...
-0052 [Mistique] | Whoa, hold up! Are you actually going to eat all that? Mmm...==W== Now you're making me hungry.
-0053 [Mistique] | Let's go! I'm ordering everything I want too!
-0054 [Tú] | What else? Dragging you off to write your article.
-0055 [Mistique] | ... Wait, what?
-0056 [Tú] | Didn't you want an exclusive on the underwater Monolith? Start writing before the inspiration fades.
-0057 [Mistique] | Hold on, you can't force a good story out of nowhere!
-0058 [Mistique] | I need sunshine, an ocean breeze,==W== and the creative vibe of an iced drink!
-0059 [Tú] | Deal. You can write outside in the breeze. I'll even approve the drink.
-0060 [Mistique] | A-Are you a demon?!
-0061 [Tú] | Not a demon. I'm the Boss.
-0062 [Tú] | Let's move. Time is money, and we aren't wasting it.
-0063 [Mistique] | Help...==W== Somebody save me...
-0064 [Karin] | Huh?
-0065 [Willow] | Everything okay, Karin?
-0066 [Karin] | Nothing. Thought I heard the Boss. ==SEX1== must be having a good time out there.
-0067 [Karin] | Anyway, has anyone seen Leafia? She vanished, and she's not answering my texts.
-0068 [Willow] | Probably off drawing maps somewhere.
-0069 [Karin] | What a map freak.==W== I brought these Squid Rice Crackers for her, too. Oh well.
-0070 [Noya] | Karin, there you are!
-0071 [Noya] | Come on! We're building a sandcastle on top of Iris!
-0072 [Iris] | A sandcastle? Wait. I didn't agree to that!
-0073 [Amber] | Camera's ready.
-0074 [Iris] | What are you two doing...? Hey, where are my shoes?!
-0075 [Noya] | Hehe! Secret technique: Sandal Sealing Art!
-0076 [Karin] | You guys have way too much energy...
-0077 [Shia] | Heh heh, Karin, you're young, but you sound like an old lady.
-0078 [Willow] | You not going to join them?
-0079 [Karin] | I'm not getting involved in that mess.
-0080 [Shia] | Oh? Your smile says otherwise.
-0081 [Karin] | I... I am not!
-0082 [Iris] | Noya! Get back here!
-0083 [Noya] | Wheeee—
-0084 [Amber] | Nice angle. Clear shot.
-0085 [Willow] | What an eventful summer this has been.
-0086 [Karin] | Yeah...
-0087 [Narración] | The waves wash over the sand, then quietly recede. Only laughter, tossed by the sea breeze, lingers on this summer shore.
-0088 [Karin] | Still... Not bad!
+0001 [Intro] | Epílogo
+0002 [Intro] | El verano continúa
+0003 [Intro] | Con el incidente resuelto, Cosette cambia el Artefacto de venta automática por un año de bebidas ilimitadas, y el complejo turístico suma nuevas atracciones. Reunidos en la playa, los amigos disfrutan de un verano que aún no termina...
+0004 [Treasure Hunter Leader] | Gracias al cielo...==W== Qué alivio.
+0005 [Treasure Hunter Leader] | La anomalía está controlada, el Artefacto de venta automática está intacto y los turistas están regresando poco a poco... ¡Parece que conservo mi trabajo!
+0006 [Treasure Hunter Leader] | Ah, hay otra cosa de la que tenemos que hablar.
+0007 [Cosette] | ¡¿Qué?! ¡¿Quieren quedarse con mi Artefacto de venta automática?!
+0008 [Cosette] | ¡No, no, no! ¡Ni hablar! Pedí este deseo con todo mi corazón. ¡Si se lo llevan, pierdo mis bebidas infinitas!
+0009 [Treasure Hunter Leader] | Espera, ¿tu Artefacto suministra bebidas ilimitadas?==W== ¿De verdad es tan mágico?
+0010 [Cosette] | ¿A qué te refieres? Los Artefactos de venta automática siempre dan bebidas infinitas. ¿El tuyo no?
+0011 [Treasure Hunter Leader] | Claro que no. Alguien tiene que reabastecer las bebidas a mano. Ese es nuestro trabajo.
+0012 [Cosette] | ... Espera, ¿qué?
+0013 [Tú] | Vaya... A Cosette se le apagó por completo la luz de los ojos.
+0014 [Tú] | En fin, ¿para qué quieren un Artefacto de venta automática descompuesto?
+0015 [Treasure Hunter Leader] | Lo mandamos revisar y funcionará bien con unas cuantas reparaciones. Además, ¡es una gran atracción turística para el complejo!
+0016 [Treasure Hunter Leader] | Tampoco nos lo llevamos gratis. El dueño del complejo ofreció a cambio un pase de bebidas ilimitadas por un año.
+0017 [Cosette] | ¡¿B-Bebidas ilimitadas?!
+0018 [Cosette] | ¡Trato hecho! ¡Llévenselo!
+0019 [Treasure Hunter Leader] | Por aquí para acordar los detalles.
+0020 [Mistique] | Vaya, vaya. Qué final de postal para todos.
+0021 [Mistique] | El cangrejo ermitaño recupera su caracola, Leafia encuentra el Monolito en el mar, ustedes se llevan unas vacaciones tranquilas, ¡y yo me aseguro una nueva primicia!
+0022 [Mistique] | Todo encaja a la perfección. Simplemente maravilloso.
+0023 [Tú] | Sí, todos nuestros problemas están resueltos. Ahora podemos relajarnos y disfrutar del descanso.
+0024 [Tú] | ... Por cierto, ¿de dónde saliste?
+0025 [Mistique] | Je, je. Nunca subestimes la red de contactos de una bruja. ¡Donde hay una primicia, ahí estoy yo!
+0026 [Mistique] | Incidentes extraños en el complejo,==W== una emocionante aventura de verano, Trekkers conquistando el mar, un misterioso Monolito durmiendo en un remolino...==W== Esto es oro puro para mis lectores.
+0027 [Mistique] | «Brisa soleada, mares azules: ¡reserva tu acogedor verano!»==W== y «Surf y salpicaduras: ¡una brillante aventura de vacaciones!»==W== Ya tengo listos los títulos de los reportajes.
+0028 [Tú] | Suena más a un anuncio del complejo turístico...
+0029 [Mistique] | ¡Ay, me descubriste!==W== Nada se te escapa, Jefe.
+0030 [Mistique] | Resulta que el dueño del complejo vio aquí una oportunidad de negocio y quiere cerrar un trato con el cangrejo ermitaño para montar atracciones temáticas.
+0031 [Mistique] | Cosas como un rincón de deseos de la caracola, carreras de cangrejos ermitaños, un reto de noche de terror... Ya te das una idea.
+0032 [Mistique] | Ay, no me pongas esa cara. Un Monolito submarino es una noticia enorme... Por supuesto que me quedé con la exclusiva. Y ya que estoy aquí, no hay nada de malo en ganarme un dinerito extra.
+0033 [Tú] | ¿Ya terminaste tu artículo?
+0034 [Mistique] | Bueno, sobre eso... ¡No todos los días me toca un viaje a un complejo turístico! ¡Primero déjame disfrutar del sol y la arena!
+0035 [Mistique] | ¿Y tú, Jefe? ¿Qué planes tienes? Vi a tus amigos pasándola de maravilla en la playa.
+0036 [Tú] | En cuanto a mí...
+0037 [Opción] | ¡Cangrejos ermitaños! ¡El océano! ¡Vamos!
+0038 [Opción] | Descansar un poco primero y luego comer un chow mein.
+0039 [Opción] | Llevar a Mistique de vuelta al trabajo a rastras.
+0040 [Tú] | ¡Quiero probar las carreras de cangrejos ermitaños!
+0041 [Tú] | Ver a Karin montar ese cangrejo en el Monolito me dio envidia.
+0042 [Tú] | Salir corriendo en uno de esos parece una excelente manera de desahogarse.
+0043 [Mistique] | ¡Suena divertido! ¡Cuenta conmigo! ¡Y tendré lista mi cámara para el momento exacto en que te caigas!
+0044 [Tú] | ¿No puedes apoyarme aunque sea por una vez?
+0045 [Mistique] | Jeje, ¡apuesto a que medio continente pagaría una fortuna por una foto del director ejecutivo de Boss Accord comiendo arena!
+0046 [Tú] | Ni me lo digas...
+0047 [Tú] | Estoy bastante molido de tanto correr de aquí para allá últimamente.
+0048 [Tú] | Creo que descansaré un poco y luego compraré un chow mein en un puesto de la playa.
+0049 [Mistique] | ¿El poderoso Jefe por fin tiene vacaciones y su gran plan es un chow mein?
+0050 [Tú] | Buen punto.==W== Un chow mein sencillo suena algo triste ahora que lo mencionas.
+0051 [Tú] | Entonces quiero el chow mein de lujo con huevo, salchicha y camarones. Además, un refresco helado de melón enorme, calamares fritos, dos elotes asados y...
+0052 [Mistique] | ¡Whoa, espera! ¿De verdad te vas a comer todo eso? Mmm...==W== Ahora me diste hambre a mí.
+0053 [Mistique] | ¡Vamos! ¡Yo también voy a pedir todo lo que quiero!
+0054 [Tú] | ¿Qué más? Arrastrarte a escribir tu artículo.
+0055 [Mistique] | ... Espera, ¿qué?
+0056 [Tú] | ¿No querías la exclusiva del Monolito submarino? Empieza a escribir antes de que se te vaya la inspiración.
+0057 [Mistique] | ¡Un momento, no se puede sacar una buena historia de la nada!
+0058 [Mistique] | ¡Necesito sol, brisa marina,==W== y el ambiente creativo de una bebida helada!
+0059 [Tú] | Trato hecho. Puedes escribir afuera con la brisa. Hasta apruebo la bebida.
+0060 [Mistique] | ¡¿E-Eres un demonio?!
+0061 [Tú] | No soy un demonio. Soy el Jefe.
+0062 [Tú] | Vámonos. El tiempo es dinero, y no vamos a desperdiciarlo.
+0063 [Mistique] | Auxilio...==W== Que alguien me salve...
+0064 [Karin] | ¿Eh?
+0065 [Willow] | ¿Todo bien, Karin?
+0066 [Karin] | Nada. Creí oír al Jefe. Seguro ==SEX1== se la está pasando muy bien por allá.
+0067 [Karin] | En fin, ¿alguien ha visto a Leafia? Desapareció y no contesta mis mensajes.
+0068 [Willow] | Seguro está dibujando mapas por ahí.
+0069 [Karin] | Qué fanática de los mapas.==W== También le traje estas Galletas de Arroz con Calamar. En fin.
+0070 [Noya] | ¡Karin, aquí estás!
+0071 [Noya] | ¡Vamos! ¡Estamos construyendo un castillo de arena encima de Iris!
+0072 [Iris] | ¿Un castillo de arena? Espera. ¡Yo no acepté eso!
+0073 [Amber] | Cámara lista.
+0074 [Iris] | ¿Qué están haciendo ustedes dos...? ¡Oigan! ¿Dónde están mis zapatos?
+0075 [Noya] | ¡Jeje! ¡Técnica secreta: Arte del Sellado de Sandalias!
+0076 [Karin] | Tienen demasiada energía...
+0077 [Shia] | Je, je, Karin, eres joven, pero hablas como una viejita.
+0078 [Willow] | ¿No te unes a ellos?
+0079 [Karin] | No me voy a meter en ese desastre.
+0080 [Shia] | ¿Ah, sí? Tu sonrisa dice otra cosa.
+0081 [Karin] | ¡Yo... yo no estoy sonriendo!
+0082 [Iris] | ¡Noya! ¡Vuelve aquí!
+0083 [Noya] | ¡Wheeee—!
+0084 [Amber] | Buen ángulo. Toma clara.
+0085 [Willow] | Qué verano tan movido ha sido.
+0086 [Karin] | Sí...
+0087 [Narración] | Las olas bañan la arena y luego se retiran en silencio. Solo queda la risa, llevada por la brisa marina, en esta orilla de verano.
+0088 [Karin] | Aun así... ¡Nada mal!

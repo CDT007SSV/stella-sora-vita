@@ -3,88 +3,88 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Curious Girl | Curious Girl
-N:Enthusiastic Kids | Enthusiastic Kids
-N:Excited Girl | Excited Girl
+N:Curious Girl | Chica curiosa
+N:Enthusiastic Kids | Niños entusiastas
+N:Excited Girl | Chica emocionada
 N:avg1_115 | Firefly
 N:avg1_126 | Flora
 N:avg1_158 | Laru
 N:avg3_100 | Sylar
 N:avg3_168 | Chica
 N:avg3_170 | Chico del Distrito de las Cenizas
-N:avg3_200 | Ash District Boy
+N:avg3_200 | Chico del Distrito de las Cenizas
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Four
-0002 [Intro] | Red for Passion
-0003 [Intro] | At the Ashwind Clan, you encounter Flora, who's currently on her winter tour. She happened to have seen the photo of the Spirit, and offers you a lead to a carpenter's house on East 1st Street.
-0004 [Narración] | To find the photo of the Tree Spirit, we come to the place of the Ashwind Clan.
-0005 [Tú] | No one's here...==W== That's odd. Normally they would be around.
-0006 [Laru] | It's the Snowish Festival. They must have gone out together.
-0007 [Tú] | Another dead end, then.
-0008 [Tú] | Hmm, sounds like things are happening out there...
-0009 [Laru] | Why don't we go and take a look?
-0010 [???] | Who's the next spirit going to be?
-0011 [Enthusiastic Kids] | Me! Me me me!
-0012 [???] | Then...==W== How about the girl in the red dress, in the back row!
-0013 [Excited Girl] | Yaaay!
-0014 [Laru] | That looks like ...==W== the super-famous Magician Maximus, Flora...?
-0015 [Laru] | What's she doing here?
-0016 [Narración] | A glowing sphere rose from the tip of her wand and slowly circled around a girl.
-0017 [Flora] | All right! A new spirit has appeared!
-0018 [Excited Girl] | Wow! I'm a spirit too! Thank you, nice lady!
-0019 [Tú] | Oh, she's performing magic for the children.
-0020 [Flora] | You're welcome~ Hehe. Now, who's next...
-0021 [Laru] | Tyrant, perhaps we shouldn't disturb them. Let's maybe check somewhere else first?
-0022 [Tú] | Hm? I thought you'd be interested in this kind of magic show.
-0023 [Laru] | It's work time! We have to finish the task as Messengers first!
-0024 [Tú] | The queen of slacking is taking the initiative? This is strange... Something's definitely up...
-0025 [Flora] | Eh? Tyrant? What a coincidence.
-0026 [Flora] | And this is...?
-0027 [Laru] | M-Me? I'm Laru from the Grace Imperium.==W== You must be the great magician Flora, right?
-0028 [Flora] | Hehe, you are too kind. Let me show you a bit of Snowish Festival magic~
-0029 [Laru] | Wow, amazing—
-0030 [Curious Girl] | You're so pretty! Just like the Snowish Tree Spirit!
-0031 [Laru] | The ... the Tree Spirit?==W== Haha, not quite.
-0032 [Flora] | All right everyone, that's the end of the morning show. Go have lunch, and we'll meet here again at two, okay? Don't be late!
-0033 [Enthusiastic Kids] | Okay!
-0034 [Flora] | Hehe, I didn't expect to see you two here. I'm on my winter tour and decided to play with the kids here for a bit.
-0035 [Tú] | The first time I met Flora was also during one of her tours. I was chosen as the guest participant on stage. Good times...
-0036 [Flora] | By the way, why are you two dressed like this? Is it for the festival?
-0037 [Laru] | This is a special Snowish outfit! Grace Imperium is having me deliver gifts to the kids, and I asked Tyrant to come with me.
-0038 [Tú] | We're also looking for a photo. Apparently, it shows the Snowish Tree Spirit. All the kids want to see her.
-0039 [Flora] | The Snowish Tree Spirit...?==W== Oh! That must be the photo I saw this morning.
-0040 [Laru] | You saw it?!
-0041 [Flora] | Yes. The children were gathered around reading a book, looking very serious, so I got curious and went to take a look.
-0042 [Flora] | By the way, the magic trick I just performed was inspired by that photo. A spirit, radiating rays of light...
-0043 [Tú] | Flora, do you remember who was holding the book at the time?
-0044 [Flora] | Hmm...==W== There were too many of them. I didn't notice who was holding it.
-0045 [Tú] | This complicates things…
-0046 [Flora] | But I heard them say they were going to show it to another kid afterward.
-0047 [Laru] | To whom!?
-0048 [Flora] | I think it was the carpenter's daughter on East 1st Street.
-0049 [Laru] | The carpenter's daughter on East 1st Street...
-0050 [Tú] | You know her?
-0051 [Laru] | As far as I know, there aren't many carpenters on East 1st Street. I'm not sure which one has a daughter, but if we ask around, we'll find out soon enough...
-0052 [Flora] | Glad I could help~ Speaking of which...
-0053 [Laru] | What's wrong? Why are you looking at me like that?
-0054 [Flora] | Sorry, I just didn't expect members of Grace Imperium to wear outfits like this. It's so different from your usual uniforms.
-0055 [Laru] | Like I said, it's for work!
-0056 [Tú] | Still, Flora, is it all right for you to be here doing magic for the kids? Aren't you busy?
-0057 [Flora] | Oh right, I should go prepare now.
-0058 [Flora] | If only you two weren't at work... I'd invite you to tonight's special performance for the Snowish Festival.
-0059 [Laru] | Heh, since it's a special show, will you be wearing a Snowish outfit, just like us?
-0060 [Flora] | That's a good idea. A festive costume would be eye-catching. I'll think about it.
-0061 [Laru] | Umm...==W== I guess sarcasm doesn't work on celebrities.
-0062 [Narración] | After saying goodbye to Flora, we set off toward East 1st Street.
-0063 [Tú] | I didn't expect you to be so committed to finding the photo.
-0064 [Tú] | I thought you just wanted to finish delivering the gifts quickly and relax afterwards.
-0065 [Laru] | Well...==W== The kids are really worked up about it. So I'm curious, too.
-0066 [Tú] | I see. I thought maybe there was something in that photo that really caught your attention.
-0067 [Laru] | Well... It's not like there wasn't any...==W== But just a little bit...!
-0068 [Tú] | You kept glancing away, you know? Well, then tell it to me once we find the photo.
-0069 [Laru] | Even if you didn't ask, I'd have to explain it to you anyway then.
-0070 [Tú] | Okay, okay. I'm looking forward to it.
-0071 [Laru] | Don't get your interest up for this sort of...==W== Wait, Tyrant, look—
-0072 [Laru] | That's the child who was peeking at us just now.
+0001 [Intro] | Acto cuatro
+0002 [Intro] | Rojo de pasión
+0003 [Intro] | En el Clan Viento de Ceniza te encuentras con Flora, que anda en su gira de invierno. Resulta que vio la foto del Espíritu, y te da una pista que lleva a la casa de un carpintero en la calle Este 1.
+0004 [Narración] | Para encontrar la foto del Espíritu del Árbol, llegamos al lugar del Clan Viento de Ceniza.
+0005 [Tú] | No hay nadie...==W== Qué raro. Normalmente andan por aquí.
+0006 [Laru] | Es el Festival Nevado. Seguro salieron todos juntos.
+0007 [Tú] | Otro callejón sin salida, entonces.
+0008 [Tú] | Mmm, parece que algo está pasando allá afuera...
+0009 [Laru] | ¿Por qué no vamos a echar un vistazo?
+0010 [???] | ¿Quién será el próximo espíritu?
+0011 [Enthusiastic Kids] | ¡Yo! ¡Yo yo yo!
+0012 [???] | Entonces...==W== ¡Qué tal la niña del vestido rojo, la de la fila de atrás!
+0013 [Excited Girl] | ¡Yupiii!
+0014 [Laru] | Esa se parece a...==W== ¿la famosísima Maga Máxima, Flora...?
+0015 [Laru] | ¿Qué hace aquí?
+0016 [Narración] | Una esfera resplandeciente se elevó de la punta de su varita y giró lentamente alrededor de una niña.
+0017 [Flora] | ¡Muy bien! ¡Ha aparecido un nuevo espíritu!
+0018 [Excited Girl] | ¡Wow! ¡Yo también soy un espíritu! ¡Gracias, señorita linda!
+0019 [Tú] | Ah, está haciendo magia para los niños.
+0020 [Flora] | De nada~ Ji, ji. Ahora, ¿quién sigue...?
+0021 [Laru] | Tirano, quizá no deberíamos molestarlos. ¿Mejor revisamos otro lugar primero?
+0022 [Tú] | ¿Mm? Pensé que este tipo de espectáculo de magia te interesaría.
+0023 [Laru] | ¡Es hora de trabajar! ¡Primero tenemos que terminar la tarea como Mensajeros!
+0024 [Tú] | ¿La reina de los flojos tomando la iniciativa? Qué raro... Definitivamente algo se trae...
+0025 [Flora] | ¿Eh? ¿Tirano? Qué coincidencia.
+0026 [Flora] | ¿Y ella es...?
+0027 [Laru] | ¿Y-yo? Soy Laru, del Imperio de la Gracia.==W== Usted debe de ser la gran maga Flora, ¿verdad?
+0028 [Flora] | Ji, ji, eres muy amable. Déjame mostrarte un poquito de magia del Festival Nevado~
+0029 [Laru] | Wow, increíble—
+0030 [Curious Girl] | ¡Eres muy bonita! ¡Igualita al Espíritu del Árbol Nevado!
+0031 [Laru] | ¿El... el Espíritu del Árbol?==W== Ja, ja, no tanto.
+0032 [Flora] | Muy bien, chicos, con esto termina el espectáculo de la mañana. Vayan a comer, y nos vemos aquí otra vez a las dos, ¿sí? ¡No lleguen tarde!
+0033 [Enthusiastic Kids] | ¡Está bien!
+0034 [Flora] | Ji, ji, no esperaba verlos aquí. Ando en mi gira de invierno y decidí jugar un rato con los niños de aquí.
+0035 [Tú] | La primera vez que conocí a Flora también fue durante una de sus giras. Me eligieron como invitado para participar en el escenario. Qué buenos tiempos...
+0036 [Flora] | Por cierto, ¿por qué van vestidos así? ¿Es por el festival?
+0037 [Laru] | ¡Este es un atuendo especial nevado! El Imperio de la Gracia me puso a repartir regalos a los niños, y le pedí al Tirano que me acompañara.
+0038 [Tú] | También buscamos una foto. Al parecer muestra al Espíritu del Árbol Nevado. Todos los niños quieren verla.
+0039 [Flora] | ¿El Espíritu del Árbol Nevado...?==W== ¡Ah! Debe de ser la foto que vi esta mañana.
+0040 [Laru] | ¡¿La viste?!
+0041 [Flora] | Sí. Los niños estaban reunidos leyendo un libro, muy serios, así que me dio curiosidad y fui a ver.
+0042 [Flora] | Por cierto, el truco de magia que acabo de hacer se inspiró en esa foto. Un espíritu que irradia rayos de luz...
+0043 [Tú] | Flora, ¿recuerdas quién tenía el libro en ese momento?
+0044 [Flora] | Mmm...==W== Eran demasiados. No me fijé quién lo tenía.
+0045 [Tú] | Esto se complica...
+0046 [Flora] | Pero les oí decir que después se lo iban a enseñar a otra niña.
+0047 [Laru] | ¡¿A quién?!
+0048 [Flora] | Creo que era la hija del carpintero de la calle Este 1.
+0049 [Laru] | La hija del carpintero de la calle Este 1...
+0050 [Tú] | ¿La conoces?
+0051 [Laru] | Que yo sepa, no hay muchos carpinteros en la calle Este 1. No sé cuál tiene una hija, pero si preguntamos por ahí, pronto lo sabremos...
+0052 [Flora] | Qué bueno que pude ayudar~ Hablando de eso...
+0053 [Laru] | ¿Qué pasa? ¿Por qué me miras así?
+0054 [Flora] | Perdón, es que no esperaba que miembros del Imperio de la Gracia usaran atuendos como estos. Es muy distinto a sus uniformes de siempre.
+0055 [Laru] | ¡Ya te dije, es por trabajo!
+0056 [Tú] | Aun así, Flora, ¿no hay problema con que estés aquí haciendo magia para los niños? ¿No estás ocupada?
+0057 [Flora] | Ah, cierto, ya debo ir a prepararme.
+0058 [Flora] | Si ustedes no estuvieran trabajando... los invitaría a la función especial del Festival Nevado de esta noche.
+0059 [Laru] | Je, como es un espectáculo especial, ¿usarás un atuendo nevado, igual que nosotros?
+0060 [Flora] | Es una buena idea. Un vestuario festivo llamaría la atención. Lo pensaré.
+0061 [Laru] | Eh...==W== Supongo que el sarcasmo no funciona con las celebridades.
+0062 [Narración] | Después de despedirnos de Flora, nos dirigimos a la calle Este 1.
+0063 [Tú] | No esperaba que te comprometieras tanto con encontrar la foto.
+0064 [Tú] | Pensé que solo querías terminar de repartir los regalos rápido y relajarte después.
+0065 [Laru] | Pues...==W== Los niños están muy emocionados con eso. Así que a mí también me da curiosidad.
+0066 [Tú] | Ya veo. Pensé que quizá había algo en esa foto que realmente te llamó la atención.
+0067 [Laru] | Bueno... No es que no hubiera nada...==W== ¡Pero solo un poquito...!
+0068 [Tú] | Estabas desviando la mirada, ¿sabes? Bueno, entonces cuéntamelo cuando encontremos la foto.
+0069 [Laru] | Aunque no me lo pidieras, igual tendría que explicártelo entonces.
+0070 [Tú] | Bueno, bueno. Me muero de ganas.
+0071 [Laru] | No te emociones tanto por este tipo de...==W== Espera, Tirano, mira—
+0072 [Laru] | Esa es la niña que nos estaba espiando hace rato.

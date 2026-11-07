@@ -1,25 +1,25 @@
-# Evento · ¡Latido! Rapsodia neoinspirada · 6 · Time to Reel Them In
+# Evento · ¡Latido! Rapsodia neoinspirada · 6 · Hora de atraparlos
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Angry Neo Artisan | Angry Neo Artisan
-N:Anxious Trekkers | Anxious Trekkers
-N:Battle-Ready Neo Artisan | Battle-Ready Neo Artisan
-N:Cheering Trekker | Cheering Trekker
-N:Curious Trekker | Curious Trekker
-N:Dejected Neo Artisan | Dejected Neo Artisan
-N:Firepower Division Artisans | Firepower Division Artisans
+N:Angry Neo Artisan | Neoartesano enojado
+N:Anxious Trekkers | Trekkers ansiosos
+N:Battle-Ready Neo Artisan | Neoartesano listo para el combate
+N:Cheering Trekker | Trekker animador
+N:Curious Trekker | Trekker curiosa
+N:Dejected Neo Artisan | Neoartesano abatido
+N:Firepower Division Artisans | Artesanos de la División de Potencia de Fuego
 N:Gray | Gray
-N:Heartbroken Neo Artisan | Heartbroken Neo Artisan
-N:Host | Host
-N:Imperial Guard Soldier | Imperial Guard Soldier
-N:Iris & Noya & Amber | Iris & Noya & Amber
-N:Logistics Division Artisans | Logistics Division Artisans
-N:Murmuring Trekker | Murmuring Trekker
-N:Nervous Trekker | Nervous Trekker
-N:Noya & Amber | Noya & Amber
-N:Sparkla & Rabbit Pie | Sparkla & Rabbit Pie
+N:Heartbroken Neo Artisan | Neoartesano desconsolado
+N:Host | Presentador
+N:Imperial Guard Soldier | Soldado de la Guardia Imperial
+N:Iris & Noya & Amber | Iris, Noya y Amber
+N:Logistics Division Artisans | Artesanos de la División de Logística
+N:Murmuring Trekker | Trekker murmurante
+N:Nervous Trekker | Trekker nervioso
+N:Noya & Amber | Noya y Amber
+N:Sparkla & Rabbit Pie | Sparkla y Rabbit Pie
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -32,9 +32,9 @@ N:avg3_102 | Willow
 N:avg3_1239 | Guardia Imperial
 N:avg3_1240 | Guardia Imperial
 N:avg3_1241 | Guardia Imperial
-N:avg3_1300 | NGO Artisan
-N:avg3_1301 | NGO Artisan
-N:avg3_1302 | NGO Artisan
+N:avg3_1300 | Artesano de la ONG
+N:avg3_1301 | Artesano de la ONG
+N:avg3_1302 | Artesano de la ONG
 N:avg3_1303 | Greyhorn
 N:avg3_138 | Trekker
 N:avg3_139 | Trekker
@@ -48,133 +48,133 @@ N:avg3_221 | Rabbit Pie
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Six
-0002 [Intro] | Time to Reel Them In
-0003 [Intro] | During the awards ceremony, the Imperial Guard surrounds the venue. The whole convention was a trap set by their captain, Greyhorn. With everyone cornered, your group arrives to turn the tide.
-0004 [Noya] | W-Whoa! Why's Ticka-Boom firing over there?!
-0005 [Iris] | Did something malfunction or what...?
-0006 [Leona] | Hey, hey, I can hear you from up here, y'know?! Don't underestimate my Boomy. That little guy never makes mistakes!
-0007 [Heartbroken Neo Artisan] | Yaaahhh!! My Sparrow Scout Unit! How did they spot it?! It's supposed to be a stealth recon drone?!
-0008 [Leona] | See? Told you so just now♪
-0009 [Leona] | Heh, your little sparrow's got some guts, though. Took one of my balloon bombs and still managed to reboot.
-0010 [Heartbroken Neo Artisan] | Seriously, why are you firepower freaks messing with the logistics division's arena?!
-0011 [Leona] | Sorryyy~ Ticka-Boom's detection range is just way too wide. Looks like it locked onto all your little automaton units as enemies too.
-0012 [Leona] | Besides, the logistics division gets scored on safety standards too, right? Thought we'd help you show off a little, hahaha!
-0013 [Logistics Division Artisans] | The direct combat round is the final round, okay?! You trigger-happy idiots can't just wreck the event because you feel like it!
-0014 [Firepower Division Artisans] | Oho? So now you're blaming other people because your builds suck?
-0015 [Logistics Division Artisans] | Ohhh~ If you're gonna talk that big, then let's see what your firepower can really do. Forget the brackets—bring it on!
-0016 [Firepower Division Artisans] | You asked for it!
-0017 [Noya] | Whoa... It turned into a full-on battle royale...
-0018 [Iris] | Gray, aren't you gonna stop them?
-0019 [Gray] | There's no need. If anything, the automaton that survives a fight of this scale is exactly what we're looking for.
-0020 [Amber] | Feels like we're about to get dragged into this too. Should we move farther back?
-0021 [Curious Trekker] | Relax. The audience seats aren't getting hit at all, right?==W== Wah!==W== Cough cough... Hahaha... Worst case, a little smoke drifts over here.
-0022 [Iris] | That's true... Neo-tech craftsmanship really is incredible...
-0023 [Cheering Trekker] | Right?! Some of the gear those genius artisans make can practically match Artifacts, and way cheaper too.
-0024 [Cheering Trekker] | Grace Imperium keeps banning this and restricting that because they're terrified the Soul Shop and Artifact shops will lose business.
-0025 [Gray] | ... Looks like this is about to end.
-0026 [Leona] | Anyone still got an automaton standing? My Ticka-Boom's right here~ Don't be shy, come at me all together ♪
-0027 [Dejected Neo Artisan] | Dammit... My babies got blown to pieces... This is why I hate explosive-type automata...
-0028 [Battle-Ready Neo Artisan] | Leona, just you wait! Give me a couple of days to upgrade my tracking bombs, and your Ticka-Boom won't be bouncing anymore!
-0029 [Leona] | Hmph, do your best then ♪==W== Oh, right. Since we're obviously gonna fight again sometime, wanna exchange contacts while we're at it?
-0030 [Leona] | Hey, announcer! The winner's obvious already, right?! Hurry up and call it!
-0031 [Host] | Indeed. Since nobody seems to object...==W== I hereby declare the champion of this convention to be—
-0032 [Host] | Miss Leona and her automaton, Ticka-Boom!
-0033 [Host] | Next, we'll begin venue safety inspections and cleanup operations, so please wait a moment. After that, we'll proceed directly to the award ceremony.
-0034 [Noya] | Oh dang, there's an award ceremony too?! Congrats, Leona!
-0035 [Leona] | Hmph hmph! Told ya this was gonna be easy.
-0036 [Leona] | I was hoping that I'd finally get to crush that Sparkla brat who keeps blocking me...==W== But she didn't even show up, so winning doesn't feel nearly as satisfying.
-0037 [Iris] | AHHHH!!! Th-This is bad...!!
-0038 [Amber] | Iris?
-0039 [Iris] | Bloc's commission...
-0040 [Noya] | What about it?
-0041 [Iris] | Bloc literally said—
-0042 [Bloc] | I can increase the commission fee!==W== As long as Sparkla makes it to the convention, first place is basically guaranteed.
-0043 [Bloc] | How about this then...==W== We split the winnings fifty-fifty!!==W== Even half would still be an absolutely massive fortune!
-0044 [Iris] | So that means—
-0045 [Noya] | That means?
-0046 [Amber] | That means...
-0047 [Iris] | Bloc just lost her entire life savings! And obviously our reward's gone too!!
+0001 [Intro] | Acto seis
+0002 [Intro] | Hora de atraparlos
+0003 [Intro] | Durante la ceremonia de premiación, la Guardia Imperial rodea el salón. Toda la convención era una trampa tendida por su capitana, Greyhorn. Con todos acorralados, tu grupo llega para cambiar el rumbo de la situación.
+0004 [Noya] | ¡Gu-guau! ¡¿Por qué está disparando Ticka-Boom hacia allá?!
+0005 [Iris] | ¿Se habrá descompuesto algo o qué...?
+0006 [Leona] | ¡Oigan, oigan, los escucho desde aquí arriba, ¿sabían?! No subestimen a mi Boomy. ¡Ese pequeñín nunca se equivoca!
+0007 [Heartbroken Neo Artisan] | ¡¡Yaaahhh!! ¡Mi Unidad Exploradora Gorrión! ¡¿Cómo la detectaron?! ¡Se supone que es un dron de reconocimiento sigiloso!
+0008 [Leona] | ¿Ves? Te lo dije hace rato♪
+0009 [Leona] | Je, aunque tu gorrioncito tiene agallas. Recibió una de mis bombas globo y aun así logró reiniciarse.
+0010 [Heartbroken Neo Artisan] | ¡En serio, ¿por qué los fanáticos de la potencia de fuego se meten con la arena de la división de logística?!
+0011 [Leona] | Perdoooón~ El rango de detección de Ticka-Boom es demasiado amplio. Parece que también fijó como enemigas a todas sus unidades de autómata.
+0012 [Leona] | Además, a la división de logística también se le califica por estándares de seguridad, ¿no? ¡Pensamos que los ayudaríamos a lucirse un poco, jajaja!
+0013 [Logistics Division Artisans] | ¡La ronda de combate directo es la ronda final, ¿entienden?! ¡Ustedes, locos del gatillo fácil, no pueden arruinar el evento nomás porque se les antoja!
+0014 [Firepower Division Artisans] | ¿Oho? ¿Ahora le echan la culpa a otros porque sus máquinas son malísimas?
+0015 [Logistics Division Artisans] | Ohhh~ Si van a hablar tan grande, a ver qué puede hacer realmente su potencia de fuego. ¡Olvídense de las eliminatorias, vengan!
+0016 [Firepower Division Artisans] | ¡Ustedes lo pidieron!
+0017 [Noya] | Guau... Se convirtió en una batalla campal total...
+0018 [Iris] | Gray, ¿no vas a detenerlos?
+0019 [Gray] | No hace falta. Más bien, el autómata que sobreviva a una pelea de esta escala es exactamente lo que buscamos.
+0020 [Amber] | Siento que nos van a arrastrar a esto también. ¿Nos movemos más atrás?
+0021 [Curious Trekker] | Tranquilas. Las gradas del público no están recibiendo ningún golpe, ¿o sí?==W== ¡Guau!==W== Cof, cof... Jajaja... En el peor de los casos, nos llega un poquito de humo.
+0022 [Iris] | Es cierto... La artesanía de la tecnología Neo es realmente increíble...
+0023 [Cheering Trekker] | ¡¿Verdad?! Algunos de los equipos que hacen esos artesanos genio casi igualan a los Artefactos, y son muchísimo más baratos.
+0024 [Cheering Trekker] | El Imperio de la Gracia no deja de prohibir esto y restringir aquello porque les aterra que la Tienda de Almas y las tiendas de Artefactos pierdan clientes.
+0025 [Gray] | ... Parece que esto está por terminar.
+0026 [Leona] | ¿Alguien más tiene un autómata en pie? Mi Ticka-Boom está aquí~ No sean tímidos, vengan todos juntos contra mí ♪
+0027 [Dejected Neo Artisan] | Maldición... Mis bebés quedaron hechos pedazos... Por esto odio los autómatas de tipo explosivo...
+0028 [Battle-Ready Neo Artisan] | ¡Leona, ya verás! ¡Dame un par de días para mejorar mis bombas rastreadoras y tu Ticka-Boom ya no andará rebotando!
+0029 [Leona] | Hmph, esfuérzate entonces ♪==W== Ah, cierto. Ya que obviamente volveremos a pelear algún día, ¿intercambiamos contactos de una vez?
+0030 [Leona] | ¡Oye, presentador! ¡El ganador ya es obvio, ¿no?! ¡Date prisa y decláralo!
+0031 [Host] | En efecto. Como nadie parece objetar...==W== por la presente declaro al campeón de esta convención...
+0032 [Host] | ¡A la señorita Leona y su autómata, Ticka-Boom!
+0033 [Host] | A continuación, comenzaremos las inspecciones de seguridad del salón y las labores de limpieza, así que les pedimos un momento. Después, pasaremos directamente a la ceremonia de premiación.
+0034 [Noya] | ¡Caray, también hay ceremonia de premiación! ¡Felicidades, Leona!
+0035 [Leona] | ¡Hmph, hmph! Les dije que esto iba a ser fácil.
+0036 [Leona] | Esperaba por fin poder aplastar a esa mocosa de Sparkla que no deja de bloquearme...==W== Pero ni siquiera se presentó, así que ganar no se siente ni de lejos tan satisfactorio.
+0037 [Iris] | ¡¡¡AHHHH!!! ¡E-esto es malo...!!
+0038 [Amber] | ¿Iris?
+0039 [Iris] | El encargo de Bloc...
+0040 [Noya] | ¿Qué pasa con eso?
+0041 [Iris] | Bloc literalmente dijo...
+0042 [Bloc] | ¡Puedo aumentar el pago del encargo!==W== Mientras Sparkla llegue a la convención, el primer lugar está prácticamente asegurado.
+0043 [Bloc] | ¿Y qué tal esto...?==W== ¡¡Nos repartimos las ganancias cincuenta y cincuenta!!==W== ¡Incluso la mitad seguiría siendo una fortuna enorme!
+0044 [Iris] | O sea que...
+0045 [Noya] | ¿O sea que...?
+0046 [Amber] | O sea que...
+0047 [Iris] | ¡Bloc acaba de perder todos los ahorros de su vida! ¡Y obviamente nuestra recompensa también se esfumó!!
 0048 [Noya & Amber] | Oh no...
-0049 [Host] | The venue cleanup has now concluded.
-0050 [Host] | After the artisans' spectacular competition, we now arrive at the grand finale of today's event—
-0051 [???] | Members of the Neo Grace Organization, you are under arrest.
-0052 [Murmuring Trekker] | Wait... When did this many Imperial Guards get here?!
-0053 [Nervous Trekker] | Weren't those people sitting next to us earlier?!==W== Don't tell me...
-0054 [Greyhorn] | I am Greyhorn, Captain of the Imperial Guard.
-0055 [Greyhorn] | My duty is to track down and apprehend Neo Grace Organization members hiding across the land.
-0056 [Leona] | Don't tell me...! This whole convention was a trap?!
-0057 [Greyhorn] | Correct. Rather than chasing rats across the world, it's much more efficient to lure them out and capture them all at once.
-0058 [Greyhorn] | NGO artisans are obsessed with invention. Exploit that obsession, and getting you idiots to walk into a trap is easy.
-0059 [Greyhorn] | In fact, all we had to do was disguise it as a tech tournament and offer Neo Coins as the grand prize. And just like that, you all came crawling straight into the net.
-0060 [Leona] | That's so underhanded! You sneaky bastard!
-0061 [Greyhorn] | You criminals aren't exactly in a position to lecture me.
-0062 [Leona] | Hmph!
+0049 [Host] | La limpieza del salón ha concluido.
+0050 [Host] | Tras la espectacular competencia de los artesanos, llegamos ahora al gran final del evento de hoy...
+0051 [???] | Miembros de la Organización Neo Gracia, están bajo arresto.
+0052 [Murmuring Trekker] | Esperen... ¡¿Cuándo llegaron tantos Guardias Imperiales?!
+0053 [Nervous Trekker] | ¡¿No eran esas personas las que estaban sentadas junto a nosotros hace rato?!==W== No me digan que...
+0054 [Greyhorn] | Soy Greyhorn, capitana de la Guardia Imperial.
+0055 [Greyhorn] | Mi deber es rastrear y capturar a los miembros de la Organización Neo Gracia que se esconden por todo el territorio.
+0056 [Leona] | ¡No me digas que...! ¡¿Toda esta convención era una trampa?!
+0057 [Greyhorn] | Correcto. En lugar de perseguir ratas por todo el mundo, es mucho más eficiente atraerlas y capturarlas todas de una vez.
+0058 [Greyhorn] | Los artesanos de la ONG están obsesionados con inventar. Aprovechen esa obsesión y lograr que unos idiotas como ustedes caigan en una trampa es sencillo.
+0059 [Greyhorn] | De hecho, todo lo que tuvimos que hacer fue disfrazarlo de torneo tecnológico y ofrecer Neomonedas como gran premio. Y así, todos ustedes vinieron arrastrándose directo a la red.
+0060 [Leona] | ¡Qué jugada tan sucia! ¡Maldita tramposa!
+0061 [Greyhorn] | Ustedes, criminales, no están en posición de sermonearme.
+0062 [Leona] | ¡Hmph!
 0063 [Greyhorn] | ...
-0064 [Greyhorn] | Trekkers present at the venue, do not interfere with Imperial Guard operations. Any obstruction will be treated as aiding the Neo Grace Organization. Additionally, after the arrest operation concludes, all attendees will be required to attend an Artifact safety seminar and examination.
-0065 [Anxious Trekkers] | Really? That's all they're doing...? The Imperial Guard actually let us off easy?
+0064 [Greyhorn] | Trekkers presentes en el salón, no interfieran con las operaciones de la Guardia Imperial. Cualquier obstrucción se considerará ayuda a la Organización Neo Gracia. Además, una vez concluido el operativo de arresto, todos los asistentes deberán acudir a un seminario y examen de seguridad de Artefactos.
+0065 [Anxious Trekkers] | ¿En serio? ¿Eso es todo lo que van a hacer...? ¿La Guardia Imperial de verdad nos deja ir con tan poco?
 0066 [Iris] | Greyhorn...
-0067 [Willow] | So she really is ...==W== the Imperial Guard's infamous "Neo Hound."
-0068 [Noya] | Ah! I remember now! She's one of the Imperial Guard members we met before!
-0069 [Amber] | Her whole aura feels completely different now.
-0070 [Iris] | When she was hanging around with us these past few days, she felt like an entirely different person. No wonder we never noticed who she really was.
-0071 [Willow] | For now, let's stay out of it and watch what happens.
-0072 [Iris & Noya & Amber] | But...
-0073 [Willow] | If Boss were here, Boss probably wouldn't want everyone dragged into a conflict between the Imperial Guard and the Neo Grace Organization either.
-0074 [Angry Neo Artisan] | Quit looking down on us! You think we'll just surrender?! Every Dorra on those bounty posters was earned by risking our lives! Everyone standing here is a battle-hardened veteran!
-0075 [Leona] | Exactly exactly! A lousy Imperial Guard squad doesn't stand a chance against our automata anyway...==W== Huh?
+0067 [Willow] | Así que de verdad es ...==W== el infame «Sabueso de la Neo Gracia» de la Guardia Imperial.
+0068 [Noya] | ¡Ah! ¡Ya me acordé! ¡Es una de las integrantes de la Guardia Imperial que conocimos antes!
+0069 [Amber] | Su aura se siente completamente distinta ahora.
+0070 [Iris] | Cuando andaba con nosotras estos últimos días, parecía una persona totalmente distinta. Con razón nunca nos dimos cuenta de quién era en realidad.
+0071 [Willow] | Por ahora, no nos metamos y veamos qué pasa.
+0072 [Iris & Noya & Amber] | Pero...
+0073 [Willow] | Si el Jefe estuviera aquí, probablemente tampoco querría que arrastráramos a todos a un conflicto entre la Guardia Imperial y la Organización Neo Gracia.
+0074 [Angry Neo Artisan] | ¡Dejen de menospreciarnos! ¡¿Creen que nos rendiremos así nomás?! ¡Cada Dorra de esos carteles de recompensa lo ganamos arriesgando la vida! ¡Todos los que estamos aquí somos veteranos curtidos en batalla!
+0075 [Leona] | ¡Eso, eso! De todos modos, un escuadrón miserable de la Guardia Imperial no tiene oportunidad contra nuestros autómatas...==W== ¿Eh?
 0076 [Leona] | Ah.
-0077 [Greyhorn] | So you finally noticed? Most of those automata lost functionality during that giant free-for-all earlier.==W== And your Ticka-Boom took serious damage too.
-0078 [Leona] | Damn it!
-0079 [Dejected Neo Artisan] | That's what I was saying earlier... I hate explosive automata...
-0080 [Greyhorn] | You have nowhere left to run. Surrender peacefully.
-0081 [Iris] | It's Boss's chat!
-0082 [Iris] | Boss! Where are you right now?!
-0083 [1] | Iris, we're on our...==W== Ah, actually, looks like we're already here.
-0084 [Sparkla] | Sorry to keep everyone waiting~♪ So who won earlier? Wanna put the championship title and prize on the line and duel my Rabbit Pie?
-0085 [Bloc] | Sparkla! Read the room already?! How is this the time for that?!
-0086 [Greyhorn] | Well then. Looks like the last rat finally arrived.
-0087 [Tú] | We've met before, haven't we...?==W== Your name was ... Greyhorn, right?
-0088 [Greyhorn] | Greetings, CEO of Boss Accord. I strongly advise against interfering with Imperial Guard operations.
-0089 [Greyhorn] | If even one Trekker affiliated with Boss Accord makes a move, every person here will be detained as accomplices of the Neo Grace Organization.
-0090 [Tú] | She's trying to ... use everyone else to hold me back.
-0091 [Sparkla] | Oh my, fancy running into the Imperial Guard's famous "hound" here.
-0092 [Sparkla] | Wait, Leona didn't show up?==W== Couldn't even handle a tiny mess like this...?==W== Ah, sorry sorry, there you are. Still, dealing with this alone would be rough even for you, huh?
-0093 [Leona] | Hey! Don't look down on me! If my Ticka-Boom hadn't burned through so much power during the competition, wiping out this whole Imperial Guard squad would've been easy!
-0094 [Sparkla] | So basically, you can't do anything alone?
-0095 [Leona] | Y-You—==W==stop twisting my words like that!!!
-0096 [Tú] | Does Sparkla have a terrible relationship with that person?
-0097 [Bloc] | Hehe, not really...==W== Though those two absolutely start bickering the second they meet. It's basically their own version of saying hello.
-0098 [Bloc] | They genuinely respect each other's craftsmanship deep down.
-0099 [Leona] | What nonsense are you talking about?! She sucks!
-0100 [Sparkla] | Exactly. Seriously, Bloc, what were you thinking? With Leona's skill level, there's no way she could build anything like my Rabbit Pie.
+0077 [Greyhorn] | ¿Por fin se dieron cuenta? La mayoría de esos autómatas perdió funcionalidad durante aquella gigantesca batalla campal.==W== Y tu Ticka-Boom también sufrió daños graves.
+0078 [Leona] | ¡Maldición!
+0079 [Dejected Neo Artisan] | Eso era lo que decía hace rato... Odio los autómatas explosivos...
+0080 [Greyhorn] | Ya no tienen adónde huir. Ríndanse pacíficamente.
+0081 [Iris] | ¡Es el chat del Jefe!
+0082 [Iris] | ¡Jefe! ¡¿Dónde estás ahora mismo?!
+0083 [1] | Iris, estamos en camino...==W== Ah, en realidad, parece que ya llegamos.
+0084 [Sparkla] | Perdón por hacerlos esperar~♪ Entonces, ¿quién ganó hace rato? ¿Quieren poner en juego el título de campeón y el premio y batirse en duelo con mi Rabbit Pie?
+0085 [Bloc] | ¡Sparkla! ¡¿Puedes leer el ambiente de una vez?! ¡¿Cómo va a ser este el momento para eso?!
+0086 [Greyhorn] | Bien. Parece que por fin llegó la última rata.
+0087 [Tú] | Ya nos habíamos visto antes, ¿verdad...?==W== Tu nombre era ... Greyhorn, ¿no?
+0088 [Greyhorn] | Saludos, director ejecutivo de Boss Accord. Le aconsejo encarecidamente que no interfiera con las operaciones de la Guardia Imperial.
+0089 [Greyhorn] | Si un solo Trekker afiliado a Boss Accord se mueve, todas las personas aquí presentes serán detenidas como cómplices de la Organización Neo Gracia.
+0090 [Tú] | Está tratando de ... usar a todos los demás para frenarme.
+0091 [Sparkla] | Vaya, vaya, qué sorpresa toparme aquí con el famoso «sabueso» de la Guardia Imperial.
+0092 [Sparkla] | Espera, ¿Leona no se presentó?==W== ¿Ni siquiera pudo con un desastre tan pequeño como este...?==W== Ah, perdón, perdón, ahí estás. Aun así, lidiar con esto sola sería difícil incluso para ti, ¿no?
+0093 [Leona] | ¡Oye! ¡No me menosprecies! ¡Si mi Ticka-Boom no hubiera gastado tanta energía durante la competencia, acabar con todo este escuadrón de la Guardia Imperial habría sido pan comido!
+0094 [Sparkla] | O sea que básicamente no puedes hacer nada sola, ¿no?
+0095 [Leona] | T-tú...==W== ¡¡¡deja de tergiversar mis palabras así!!!
+0096 [Tú] | ¿Sparkla tiene una pésima relación con esa persona?
+0097 [Bloc] | Jeje, no exactamente...==W== Aunque esas dos empiezan a pelear en cuanto se encuentran. Es básicamente su forma de decirse hola.
+0098 [Bloc] | En el fondo, de verdad respetan el trabajo de la otra.
+0099 [Leona] | ¡¿Qué tonterías dices?! ¡Es una inútil!
+0100 [Sparkla] | Exacto. En serio, Bloc, ¿en qué estabas pensando? Con el nivel de Leona, es imposible que construya algo como mi Rabbit Pie.
 0101 [Leona] | Hmph.
-0102 [Sparkla] | ==PLAYER_NAME==, things were way too hectic this morning for me to show you my newest invention properly, so why not see it in live combat instead—
-0103 [Sparkla] | I'll show you what Rabbit Pie looks like when it gets serious ♪
-0104 [Narración] | Rabbit Pie, switch forms!
-0105 [Rabbit Pie] | :p Understood.
-0106 [Rabbit Pie] | :] Target locked. Enemy formations are densely packed ahead. Estimated requirement: five Neo Bunny Bombs.
-0107 [Sparkla] | Mmm... Not cute enough. And definitely not dramatic enough. Let's just go with "Bunny Full-Area Suppression."
-0108 [Rabbit Pie] | :p Understood. Switching to "Bunny Full-Area Suppression" mode.
-0109 [Sparkla] | ==PLAYER_NAME==, get behind me. This is the best seat in the house.
-0110 [Tú] | Then I'll gladly accept the invitation.
-0111 [Bloc] | H-Hey hey hey! Don't forget about me over here?!
-0112 [Leona] | Sparkla's new bombs?! Lemme see those beauties in action too!
-0113 [Sparkla] | Countdown starting—
-0114 [Sparkla] | In four—
-0115 [Rabbit Pie] | Three—
-0116 [Sparkla] | Two—
-0117 [Rabbit Pie] | One—
-0118 [Sparkla & Rabbit Pie] | FIRE!!!
-0119 [Greyhorn] | Cough... Cough cough...==W== Status report?
-0120 [Imperial Guard Soldier] | R-Report...==W== Most of our squad has lost combat power, but ... there are no fatalities.
-0121 [Greyhorn] | So even defensive magic can barely handle that much...==W== Protecting this many people at once really is too much strain...
-0122 [Bloc] | As expected of Sparkla! The Imperial Guard got completely wiped out~
-0123 [Bloc] | Everyone, hurry! Run while you can!
-0124 [Greyhorn] | Hmph, trying to flee? I refuse to let any of you escape.
-0125 [Sparkla] | You tanked Rabbit Pie's maximum-output cannon and you're still standing? You're tougher than you look.
-0126 [Sparkla] | In that case...==W== Guess it's finally time to unveil the other little "surprise" I installed into Super Action Pie.
-0127 [Tú] | There's MORE?!
-0128 [Sparkla] | Of course there is ♪ Besides the super high-speed mode, I added a whole bunch of enhancement functions too.
-0129 [Sparkla] | Ready for this?
-0130 [Narración] | Super Action Pie—all out!!
+0102 [Sparkla] | ==PLAYER_NAME==, esta mañana todo fue demasiado apresurado para mostrarte bien mi invento más reciente, así que ¿por qué no lo ves en combate real...?
+0103 [Sparkla] | Te mostraré cómo se ve Rabbit Pie cuando se pone seria ♪
+0104 [Narración] | ¡Rabbit Pie, cambia de forma!
+0105 [Rabbit Pie] | :p Entendido.
+0106 [Rabbit Pie] | :] Objetivo fijado. Las formaciones enemigas están muy concentradas al frente. Requerimiento estimado: cinco Neobombas Conejo.
+0107 [Sparkla] | Mmm... No es lo bastante lindo. Y definitivamente no es lo bastante dramático. Mejor vamos con «Supresión Conejil de Área Completa».
+0108 [Rabbit Pie] | :p Entendido. Cambiando al modo «Supresión Conejil de Área Completa».
+0109 [Sparkla] | ==PLAYER_NAME==, ponte detrás de mí. Es el mejor asiento de la casa.
+0110 [Tú] | Entonces acepto la invitación con gusto.
+0111 [Bloc] | ¡O-oigan, oigan, oigan! ¡¿Se están olvidando de mí aquí?!
+0112 [Leona] | ¡¿Las nuevas bombas de Sparkla?! ¡Déjenme ver esas bellezas en acción también!
+0113 [Sparkla] | Comienza la cuenta regresiva...
+0114 [Sparkla] | Cuatro...
+0115 [Rabbit Pie] | Tres...
+0116 [Sparkla] | Dos...
+0117 [Rabbit Pie] | Uno...
+0118 [Sparkla & Rabbit Pie] | ¡¡¡FUEGO!!!
+0119 [Greyhorn] | Cof... Cof, cof...==W== ¿Informe de situación?
+0120 [Imperial Guard Soldier] | I-informe...==W== La mayor parte de nuestro escuadrón perdió su poder de combate, pero ... no hay fatalidades.
+0121 [Greyhorn] | Así que ni la magia defensiva apenas puede con tanto...==W== Proteger a tanta gente a la vez es realmente demasiado esfuerzo...
+0122 [Bloc] | ¡Como se esperaba de Sparkla! La Guardia Imperial quedó totalmente aniquilada~
+0123 [Bloc] | ¡Todos, rápido! ¡Corran mientras puedan!
+0124 [Greyhorn] | Hmph, ¿intentan huir? No permitiré que ninguno de ustedes escape.
+0125 [Sparkla] | ¿Aguantaste el cañón de máxima potencia de Rabbit Pie y sigues de pie? Eres más dura de lo que aparentas.
+0126 [Sparkla] | En ese caso...==W== supongo que por fin es hora de revelar la otra pequeña «sorpresa» que instalé en el Súper Pastel de Acción.
+0127 [Tú] | ¡¿Hay MÁS?!
+0128 [Sparkla] | ¡Claro que sí ♪! Además del modo de súper alta velocidad, agregué un montón de funciones de mejora.
+0129 [Sparkla] | ¿Listo para esto?
+0130 [Narración] | ¡Súper Pastel de Acción... a toda potencia!!

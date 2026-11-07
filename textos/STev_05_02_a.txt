@@ -1,13 +1,13 @@
-# Evento · Para ti, mi persona más querida · 2A · Rumor Has It
+# Evento · Para ti, mi persona más querida · 2A · Se rumorea que...
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Employee | Employee
-N:Equipment Shop Owner | Equipment Shop Owner
-N:Owner | Owner
+N:Employee | Empleado
+N:Equipment Shop Owner | Dueño de la tienda de equipo
+N:Owner | Dueño
 N:Pete | Pete
-N:Restaurant Staff | Restaurant Staff
+N:Restaurant Staff | Personal del restaurante
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -16,167 +16,167 @@ N:avg1_125 | Freesia
 N:avg1_127 | Teresa
 N:avg1_130 | Donna
 N:avg3_100 | Sylar
-N:avg3_1096 | Stallholder
+N:avg3_1096 | Puestero
 N:avg3_141 | Trabajador de Cosecha Unida
 N:avg3_143 | Residente
 N:avg3_144 | Residente
 N:avg3_166 | Anciana del pueblo
-N:avg3_175 | Loong Resident
-N:avg3_176 | Loong Resident
+N:avg3_175 | Residente de Loong
+N:avg3_176 | Residente de Loong
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two 
-0002 [Intro] | Rumor Has It
-0003 [Intro] | You and Donna set out to track down the recipient and hear the story of how Post Haste was first formed. Thanks to Donna's strong social skills, you're able to learn more about the recipient.
-0004 [Narración] | We scour the city for the "Howard" mentioned on the envelope, but...
-0005 [Donna] | Ugh! Nothing! Any luck, Amber?
-0006 [Amber] | Nobody knows a "Howard."
-0007 [Tú] | We've been at this for ages with nothing to show for it. Maybe we need a different angle.
-0008 [Donna] | True enough! How about we...
-0009 [Amber] | ... Hungry.
-0010 [Donna] | Oh right, it's lunch time! Let's grab a bite nearby!
-0011 [Donna] | Don't be shy—it's on me today!
-0012 [Amber] | Hot dog. Yum.
-0013 [Tú] | This is one packed sandwich.==W== Delicious.
-0014 [Tú] | Wait, Donna, are you sure you're paying?!
-0015 [Donna] | That's fine.==W== Don't worry, my wallet's got a little extra padding this month.
-0016 [Donna] | Besides, I've been dying to see what kind of Boss has Freesia and Teresa so head over heels!
-0017 [Tú] | Pfft...! Cough, cough! "Head over heels"?!
-0018 [Donna] | Hahaha! Sorry, sorry! Slight exaggeration on my part.==W== Here, have some water.
-0019 [Tú] | Thanks.==W== Whew. You really caught me off guard.
-0020 [Donna] | But seriously, they trust you so much. That's why I wanted to know what you were really like.
-0021 [Donna] | Now that we've actually met and work together, I get it. You're definitely someone they can count on, Boss.
-0022 [Tú] | We haven't known each other long. What makes you so certain?
-0023 [Donna] | It's how you handle your work. And you're sincere, you give helpful advice... I can tell you put your heart into everything you do.
-0024 [Donna] | Also, you have this calming presence. You're just so ... dependable? It makes people want to be around you—to rely on you.
-0025 [Amber] | Mhm. Precise, Donna. I do feel safe when Boss is around.
-0026 [Donna] | Hehe! I am the leader of Post Haste, after all!
-0027 [Tú] | I don't think I'm doing anything special...==W== It just feels normal to me.
-0028 [Donna] | Honestly? I'm kind of jealous... Guess I really need to step up my game—
-0029 [Tú] | I don't think you have anything to worry about. Freesia and Teresa are proud of you. They're always singing your praises to me.
-0030 [Donna] | Praises? Me?==W== Wait, what exactly did they say...?
-0031 [Tú] | Aside from deliveries, they mentioned how you'd manage finances, map out new routes...==W== Basically, that you're a reliable and capable partner.
-0032 [Tú] | They also said that no matter how crazy things get, seeing your smile always lifts their spirits.
-0033 [Donna] | Ah... Yeah. I've upset them by doing that before. Can't deny it. ==W==So ... that's what they think of me, huh?
-0034 [Amber] | Has it always been just the three of you running Post Haste?
-0035 [Donna] | Yeah. But I was working as a Courier Trekker long before the business existed.
-0036 [Tú] | You were doing this alone? What made you decide to become a courier in the first place?
-0037 [Amber] | Reality. Courier commissions pay next to nothing...
-0038 [Donna] | That's how most Trekkers see it.
-0039 [Donna] | Climb the Monolith, wish for Artifacts, cash out. It's simple math—that's where the real money is.
-0040 [Donna] | Which is exactly why the Trekker Association used to have mountains of letters piling up that nobody wanted to touch.
-0041 [Donna] | But ... once you've witnessed the power a letter brings, you realize what a tragedy it is when messages are not delivered.
-0042 [Amber] | The power a letter brings?
-0043 [Donna] | Exactly. Sometimes, letters save lives.
-0044 [Tú] | Save ... lives?
-0045 [Donna] | Mhm. That's why I chose this life. I wanted to deliver as many of those life-saving letters as I possibly could!
-0046 [Donna] | Though, getting to this point was quite the journey...
-0047 [Donna] | Hi there! Are you Mr. Pete? Got a letter for you! And a package, too!
-0048 [Pete] | Right to my doorstep? Thanks a bunch!
-0049 [Donna] | No problem! If you got a letter to send, you know who to find!
-0050 [Donna] | I realized folks were thrilled when I delivered other items along with their mail. So I started taking all kinds of requests, and business just took off!
-0051 [Donna] | It wasn't a fortune, but I finally started turning a profit.
-0052 [Donna] | Morning milk delivery! Leaving it right here for ya!
-0053 [Employee] | Thanks, Donna! Could you handle these client letters for us, too?
-0054 [Donna] | Slowly but surely, word got around that I was reliable, and the commissions started pouring in.==W==To speed things up, I started hunting for shortcuts and nearly got myself in big trouble!
-0055 [Tú] | Big trouble?!
-0056 [Donna] | Weird... I should be out of the woods if I just walked straight. Why does it feel like I'm going in circles...?
-0057 [Donna] | Don't tell me... I'm lost?!
-0058 [Donna] | It's gonna be dark soon... Starving...==W== Thought this would be a quick trip, so I didn't pack a thing to eat...
-0059 [???] | Umm... Excuse me...
-0060 [???] | I've been watching you walk in circles... Are you lost?
-0061 [Donna] | But just in the nick of time, I met Teresa.
-0062 [Donna] | We never would've met if I hadn't gotten lost. Guess losing your way isn't always bad luck, huh?
-0063 [Amber] | And Freesia?
-0064 [Donna] | Freesia? I just bumped into her during a delivery...
-0065 [Donna] | Saw that giant axe of yours. Betting you're pretty handy in a fight?
-0066 [Donna] | Hehe, I'm Donna! We met once at the market—remember?
-0067 [Freesia] | Mm... I have a vague recollection.==W== Nice to meet you. I am Freesia.
-0068 [Donna] | Got any plans for later? If not, I'm heading to Philae. Could I hire you as my bodyguard?
-0069 [Donna] | Even after the commission, she looked so weighed down. I couldn't just leave her, so I asked her to tag along. Told her to treat it like a vacation.
-0070 [Amber] | So that's how she joined...!
-0071 [Donna] | And ... that's the story. The three of us found each other, and Post Haste was born. If I were still on my own, I'd probably just be wandering aimlessly somewhere, haha. No way I'd have the life I do now.
-0072 [Donna] | Waking up together, grabbing a bite, tackling the day's work side-by-side, then having dinner together at night... What else can I ask for?
-0073 [Amber] | Same, for us.
-0074 [Amber] | Together every day. Share worries, as well as joy.
-0075 [Amber] | I love everyone in New Star, too.
-0076 [Tú] | That sounds wonderful. I've got to admit, I'm a little jealous.
-0077 [Amber] | Boss is also a part of New Star.
-0078 [Tú] | I haven't been with the guild for very long, remember?==W== You've built that trust and friendship way before I showed up.
-0079 [Tú] | I don't have memories, which means I don't really have a past. So I envy you for that kind of bond, one that's forged over time.
-0080 [Amber] | Boss...
-0081 [Donna] | Hang in there. Your bond with everyone is only going to get stronger from here on out, Boss.
-0082 [Donna] | As long as you care about each other, those connections aren't going anywhere.
-0083 [Donna] | No matter the distance or how much time passes, that feeling keeps people connected... It's like how a letter ties two hearts together, even when they're apart.
-0084 [Donna] | See? Didn't this letter bring us closer together, Boss?
-0085 [Donna] | I hope we can stay friends for a long time!
-0086 [Tú] | Fair point ...==W== Thanks. I needed to hear that.
-0087 [Donna] | Don't mention it! Alright then, let's hit the road again!
-0088 [Donna] | Hang on, I was thinking... What if the address isn't a home, but a shop the recipient visits often?
-0089 [Amber] | ... That's possible.
-0090 [Amber] | Trying to find a private residence in a new city is tough.==W== But a shop? That's much easier to track down.
-0091 [Tú] | That's what it's for. If you're handing a letter to a Trekker who doesn't know the area, using a landmark or a store as the drop-off point gives them a way better shot at finding it.
-0092 [Donna] | Great idea! Let's ask around the local shops.
-0093 [Amber] | U-Um... Excuse me...
-0094 [Restaurant Staff] | Table for three?! Sorry, we're absolutely packed right now! Could you please wait in line?
-0095 [Amber] | We're not here to eat...
-0096 [Donna] | Wow, look at this place! It's jumping today! Their seafood platter is seriously to die for.
-0097 [Restaurant Staff] | No, no! It's usually not this crazy. It just happens to be busy today!
-0098 [Donna] | Sorry to bother you while you're in the weeds like this. But do you happen to know a "Howard"? We've got a letter for him.
-0099 [Amber] | ... She's good.
-0100 [1] | Yeah. Dealing with strangers is just second nature to her.
-0101 [Restaurant Staff] | Howard? I know most of our regulars by name...
-0102 [Restaurant Staff] | But that one draws a blank. Sorry.
-0103 [Donna] | All right. Thanks anyway!
-0104 [Owner] | Howard? Hmm... Rings a bell, but I can't place it.
-0105 [Stallholder] | Been setting up shop here for ages. Never heard of a "Howard."
-0106 [Equipment Shop Owner] | Blowout sale! Buy two, get one free! Don't miss out!
-0107 [Equipment Shop Owner] | Looking for Trekker gear? You've come to the right place! Best prices and value in town!
-0108 [Donna] | Actually, we're asking about—
-0109 [Equipment Shop Owner] | Oh—Howard? Now there's a blast from the past.
-0110 [Amber] | You know him?
-0111 [Equipment Shop Owner] | The Howards were legendary smiths. I used to stock their gear all the time.
-0112 [Donna] | Do you know where to find them now?
-0113 [Equipment Shop Owner] | Rumor says the heir ran off to be a Trekker. Think his son took over the business?
-0114 [Equipment Shop Owner] | They might still be at it, just not under the "Howard" name.
-0115 [Donna] | Yes! Boss, Amber!
-0116 [Amber] | Jackpot.
-0117 [Tú] | That's a helpful clue. Knowing the background narrows the search.
-0118 [Donna] | Let's get back to Post Haste and meet everyone!
-0119 [Tú] | Going by the intel we've gathered, this has to be Howard's place.
-0120 [Donna] | Incredible! You actually tracked down the address?!
-0121 [Noya] | Good thing Freesia managed to borrow those files from the archives!
-0122 [Freesia] | Spotting the info on "Howard" in a mountain of records was all thanks to Noya's sharp eye.
-0123 [Iris] | Looks like the equipment shop called "Howard" shut down, and a few years later another one called "Justin" opened… That matches Teresa's map perfectly.
-0124 [Teresa] | Good thing Iris spotted it, or we would've missed it completely! That map is pretty ancient, after all.
-0125 [Donna] | Great work, everyone! It's getting late, though. Let's handle the delivery tomorrow.
-0126 [Donna] | You've all worked so hard. Tonight calls for a reward! I whipped up a feast! Dig in and eat as much as you want!
+0001 [Intro] | Acto dos 
+0002 [Intro] | Se rumorea que...
+0003 [Intro] | Tú y Donna salen a buscar al destinatario y escuchan la historia de cómo se formó Post Haste. Gracias a las dotes sociales de Donna, logran averiguar más sobre el destinatario.
+0004 [Narración] | Recorremos la ciudad en busca del «Howard» mencionado en el sobre, pero...
+0005 [Donna] | ¡Ugh! ¡Nada! ¿Tuviste suerte, Amber?
+0006 [Amber] | Nadie conoce a ningún «Howard».
+0007 [Tú] | Llevamos horas en esto sin nada que mostrar. Quizá necesitemos otro enfoque.
+0008 [Donna] | ¡Muy cierto! ¿Qué tal si...
+0009 [Amber] | ... Hambre.
+0010 [Donna] | ¡Ah, es verdad, ya es hora de comer! ¡Vamos a comer algo por aquí cerca!
+0011 [Donna] | ¡No sean tímidos, hoy invito yo!
+0012 [Amber] | Hot dog. Rico.
+0013 [Tú] | Este sándwich viene bien cargado.==W== Delicioso.
+0014 [Tú] | Espera, Donna, ¡¿seguro que tú pagas?!
+0015 [Donna] | No hay problema.==W== No te preocupes, mi cartera anda con un poco de holgura este mes.
+0016 [Donna] | ¡Además, me moría de ganas de conocer a qué clase de Jefe tienen tan loquitas a Freesia y a Teresa!
+0017 [Tú] | ¡Puf...! ¡Cof, cof! ¡¿«Loquitas»?!
+0018 [Donna] | ¡Jajaja! ¡Perdón, perdón! Exageré un poquito.==W== Toma, bebe agua.
+0019 [Tú] | Gracias.==W== Uf. Me tomaste totalmente por sorpresa.
+0020 [Donna] | Pero en serio, confían mucho en ti. Por eso quería saber cómo eres en realidad.
+0021 [Donna] | Ahora que nos conocimos y trabajamos juntos, lo entiendo. Definitivamente eres alguien con quien pueden contar, Jefe.
+0022 [Tú] | Hace poco que nos conocemos. ¿Por qué estás tan segura?
+0023 [Donna] | Por cómo manejas tu trabajo. Y eres sincero, das buenos consejos... Se nota que le pones el corazón a todo lo que haces.
+0024 [Donna] | Además, tienes una presencia que tranquiliza. Eres tan... ¿confiable? Da ganas de estar a tu lado, de apoyarse en ti.
+0025 [Amber] | Mhm. Preciso, Donna. Yo también me siento segura cuando el Jefe está cerca.
+0026 [Donna] | ¡Jeje! ¡Para algo soy la líder de Post Haste!
+0027 [Tú] | No creo que haga nada especial...==W== Para mí es lo normal.
+0028 [Donna] | ¿Sinceramente? Me da un poco de envidia... Creo que de verdad tengo que esforzarme más...
+0029 [Tú] | Creo que no tienes de qué preocuparte. Freesia y Teresa están orgullosas de ti. Siempre me hablan maravillas de ti.
+0030 [Donna] | ¿Maravillas? ¿De mí?==W== Espera, ¿qué fue exactamente lo que dijeron...?
+0031 [Tú] | Aparte de las entregas, mencionaron que te encargas de las finanzas, trazas rutas nuevas...==W== En resumen, que eres una compañera confiable y capaz.
+0032 [Tú] | También dijeron que, por más loco que se ponga todo, ver tu sonrisa siempre les levanta el ánimo.
+0033 [Donna] | Ah... Sí. Ya las he hecho enojar por hacer eso antes. No puedo negarlo. ==W==Así que... eso piensan de mí, ¿eh?
+0034 [Amber] | ¿Siempre han sido solo ustedes tres al frente de Post Haste?
+0035 [Donna] | Sí. Pero yo trabajaba como Trekker mensajera mucho antes de que existiera el negocio.
+0036 [Tú] | ¿Lo hacías sola? ¿Qué te hizo decidirte a ser mensajera?
+0037 [Amber] | Realidad. Los encargos de mensajería pagan casi nada...
+0038 [Donna] | Así lo ven la mayoría de los Trekkers.
+0039 [Donna] | Subir al Monolito, pedir Artefactos, cobrar. Es matemática simple: ahí está el dinero de verdad.
+0040 [Donna] | Y por eso mismo en la Asociación de Trekkers se acumulaban montañas de cartas que nadie quería tocar.
+0041 [Donna] | Pero... cuando has visto el poder que tiene una carta, te das cuenta de la tragedia que es que los mensajes no lleguen.
+0042 [Amber] | ¿El poder de una carta?
+0043 [Donna] | Exacto. A veces, las cartas salvan vidas.
+0044 [Tú] | ¿Salvan... vidas?
+0045 [Donna] | Mhm. Por eso elegí esta vida. ¡Quería entregar todas las cartas salvavidas que pudiera!
+0046 [Donna] | Aunque llegar hasta aquí fue todo un viaje...
+0047 [Donna] | ¡Buenas! ¿Es usted el señor Pete? ¡Tengo una carta para usted! ¡Y también un paquete!
+0048 [Pete] | ¿Directo hasta mi puerta? ¡Muchísimas gracias!
+0049 [Donna] | ¡De nada! Si tiene una carta que enviar, ya sabe a quién buscar.
+0050 [Donna] | Me di cuenta de que la gente se ponía feliz cuando les entregaba otras cosas junto con su correo. ¡Así que empecé a aceptar todo tipo de encargos y el negocio despegó!
+0051 [Donna] | No era una fortuna, pero por fin empecé a tener ganancias.
+0052 [Donna] | ¡Entrega de leche de la mañana! ¡Se la dejo aquí!
+0053 [Employee] | ¡Gracias, Donna! ¿Podrías encargarte también de estas cartas de clientes?
+0054 [Donna] | Poco a poco se corrió la voz de que era confiable y los encargos empezaron a llover.==W== Para agilizar las cosas, me puse a buscar atajos ¡y casi me metí en un buen lío!
+0055 [Tú] | ¡¿Un buen lío?!
+0056 [Donna] | Qué raro... Debería haber salido del bosque si solo caminaba derecho. ¿Por qué siento que ando dando vueltas en círculos...?
+0057 [Donna] | No me digas que... ¡¿me perdí?!
+0058 [Donna] | Pronto va a oscurecer... Muero de hambre...==W== Creí que sería un viaje rápido, así que no traje nada de comer...
+0059 [???] | Eh... Disculpa...
+0060 [???] | Te he estado viendo caminar en círculos... ¿Estás perdida?
+0061 [Donna] | Pero justo a tiempo, conocí a Teresa.
+0062 [Donna] | Jamás nos habríamos conocido si no me hubiera perdido. Supongo que perderse no siempre es mala suerte, ¿eh?
+0063 [Amber] | ¿Y Freesia?
+0064 [Donna] | ¿Freesia? Me topé con ella durante una entrega...
+0065 [Donna] | Vi ese hacha gigante que cargas. Seguro que sabes defenderte en una pelea, ¿no?
+0066 [Donna] | ¡Jeje, soy Donna! Nos conocimos una vez en el mercado, ¿te acuerdas?
+0067 [Freesia] | Mm... Lo recuerdo vagamente.==W== Mucho gusto. Soy Freesia.
+0068 [Donna] | ¿Tienes planes para más tarde? Si no, voy rumbo a Philae. ¿Podría contratarte como mi guardaespaldas?
+0069 [Donna] | Incluso después del encargo se veía tan agobiada. No pude simplemente dejarla, así que le pedí que me acompañara. Le dije que lo tomara como unas vacaciones.
+0070 [Amber] | ¡Así fue como se unió...!
+0071 [Donna] | Y... esa es la historia. Los tres nos encontramos y nació Post Haste. Si siguiera sola, probablemente estaría vagando sin rumbo por ahí, jaja. De ninguna manera tendría la vida que tengo ahora.
+0072 [Donna] | Despertar juntas, comer algo, enfrentar el trabajo del día codo a codo y luego cenar juntas por la noche... ¿Qué más puedo pedir?
+0073 [Amber] | Igual, para nosotros.
+0074 [Amber] | Juntos todos los días. Compartir preocupaciones y también alegrías.
+0075 [Amber] | También quiero a todos en la Nueva Estrella.
+0076 [Tú] | Suena maravilloso. Tengo que admitir que siento un poco de envidia.
+0077 [Amber] | El Jefe también es parte de la Nueva Estrella.
+0078 [Tú] | Llevo poco tiempo en el gremio, ¿recuerdas?==W== Ustedes construyeron esa confianza y esa amistad mucho antes de que yo apareciera.
+0079 [Tú] | No tengo recuerdos, lo cual significa que en realidad no tengo pasado. Por eso envidio ese tipo de lazo, uno que se forja con el tiempo.
+0080 [Amber] | Jefe...
+0081 [Donna] | Ánimo. Tu lazo con todos solo se va a fortalecer a partir de ahora, Jefe.
+0082 [Donna] | Mientras se preocupen unos por otros, esas conexiones no se irán a ninguna parte.
+0083 [Donna] | Sin importar la distancia ni cuánto tiempo pase, ese sentimiento mantiene unidas a las personas... Es como una carta que une dos corazones, incluso cuando están lejos.
+0084 [Donna] | ¿Ves? ¿No nos acercó esta carta, Jefe?
+0085 [Donna] | ¡Espero que podamos seguir siendo amigos por mucho tiempo!
+0086 [Tú] | Tienes razón...==W== Gracias. Necesitaba oír eso.
+0087 [Donna] | ¡No hay de qué! Bueno, ¡volvamos al camino!
+0088 [Donna] | Espera, estaba pensando... ¿Y si la dirección no es una casa, sino una tienda que el destinatario visita seguido?
+0089 [Amber] | ... Es posible.
+0090 [Amber] | Encontrar una residencia particular en una ciudad nueva es difícil.==W== Pero ¿una tienda? Es mucho más fácil de ubicar.
+0091 [Tú] | Para eso sirve. Si le das una carta a un Trekker que no conoce la zona, usar un punto de referencia o una tienda como lugar de entrega le da muchas más posibilidades de encontrarlo.
+0092 [Donna] | ¡Gran idea! Preguntemos en los negocios de la zona.
+0093 [Amber] | P-Perdón... Disculpe...
+0094 [Restaurant Staff] | ¡¿Mesa para tres?! ¡Perdón, estamos completamente llenos ahora! ¿Podrían esperar en la fila, por favor?
+0095 [Amber] | No venimos a comer...
+0096 [Donna] | ¡Vaya, miren este lugar! ¡Hoy está a reventar! Su plato de mariscos es una delicia de morirse.
+0097 [Restaurant Staff] | ¡No, no! Normalmente no es tan loco. ¡Solo que hoy hay mucha gente!
+0098 [Donna] | Perdón por molestarle con tanto trabajo encima. Pero ¿no conocerá por casualidad a un «Howard»? Tenemos una carta para él.
+0099 [Amber] | ... Es buena.
+0100 [1] | Sí. Tratar con desconocidos le sale de forma natural.
+0101 [Restaurant Staff] | ¿Howard? Conozco por nombre a casi todos nuestros clientes habituales...
+0102 [Restaurant Staff] | Pero ese no me suena. Lo siento.
+0103 [Donna] | Está bien. ¡Gracias de todos modos!
+0104 [Owner] | ¿Howard? Hmm... Me suena, pero no logro ubicarlo.
+0105 [Stallholder] | Llevo años con mi puesto aquí. Jamás he oído de ningún «Howard».
+0106 [Equipment Shop Owner] | ¡Gran liquidación! ¡Compre dos y llévese uno gratis! ¡No se lo pierda!
+0107 [Equipment Shop Owner] | ¿Busca equipo de Trekker? ¡Llegó al lugar indicado! ¡Los mejores precios y la mejor calidad de la ciudad!
+0108 [Donna] | En realidad, queríamos preguntar por...
+0109 [Equipment Shop Owner] | Ah, ¿Howard? Vaya, eso sí que es un recuerdo del pasado.
+0110 [Amber] | ¿Lo conoce?
+0111 [Equipment Shop Owner] | Los Howard eran herreros legendarios. Yo solía surtirme siempre de su equipo.
+0112 [Donna] | ¿Sabe dónde encontrarlos ahora?
+0113 [Equipment Shop Owner] | Se rumora que el heredero se fue a ser Trekker. ¿Creen que su hijo se haya hecho cargo del negocio?
+0114 [Equipment Shop Owner] | Puede que sigan en lo mismo, pero ya no bajo el nombre «Howard».
+0115 [Donna] | ¡Sí! ¡Jefe, Amber!
+0116 [Amber] | Premio gordo.
+0117 [Tú] | Esa es una pista útil. Conocer los antecedentes reduce la búsqueda.
+0118 [Donna] | ¡Volvamos a Post Haste a reunirnos con todos!
+0119 [Tú] | Según la información que reunimos, este tiene que ser el local de Howard.
+0120 [Donna] | ¡Increíble! ¡¿De verdad encontraron la dirección?!
+0121 [Noya] | ¡Qué bueno que Freesia logró que le prestaran esos archivos del archivo general!
+0122 [Freesia] | Detectar la información sobre «Howard» en una montaña de registros fue gracias al ojo agudo de Noya.
+0123 [Iris] | Parece que la tienda de equipo llamada «Howard» cerró, y unos años después abrió otra llamada «Justin»... Eso coincide perfectamente con el mapa de Teresa.
+0124 [Teresa] | ¡Qué bueno que Iris lo notó, o se nos habría pasado por completo! Ese mapa es bastante antiguo, después de todo.
+0125 [Donna] | ¡Buen trabajo, todos! Aunque ya se hizo tarde. Hagamos la entrega mañana.
+0126 [Donna] | Todos trabajaron muy duro. ¡Esta noche se merece un premio! ¡Preparé un banquete! ¡Coman todo lo que quieran!
 0127 [Amber] | Zzz... Zzz...
-0128 [Noya] | Oof... I'm stuffed... Can't eat another bite...
-0129 [Tú] | Now that we're all well fed, we're all fueled up for tomorrow!==W==
-0130 [Tú] | Hm?
-0131 [Tú] | Donna? Where's she wandering off to this late...?
-0132 [Donna] | Oh! Boss? Did I wake you?
-0133 [Tú] | I was still up. Strange... I'm not sleepy at all.
-0134 [Donna] | Hehe, same here!
-0135 [Donna] | I had so much fun tonight! Maybe I'm too excited to sleep.
-0136 [Tú] | Your cooking was incredible.==W== Making all that at once... It must have been exhausting.
-0137 [Donna] | Not at all! It felt like my family suddenly got a whole lot bigger. I loved every second of it!==W== I love having everyone together, loud and lively.
-0138 [Donna] | Like I said earlier, back at the start, it was just me alone.
-0139 [Donna] | On my own, there was no way to finish all the deliveries in one run.
-0140 [Donna] | I had to split the routes and take them day by day.
-0141 [Donna] | Looking back... I have no idea how I managed.
-0142 [Tú] | Just thinking about it gives me a headache...
-0143 [Donna] | Right?
-0144 [Donna] | But then Freesia and Teresa came along, and we started Post Haste. Now there's so much more we can achieve.
-0145 [Donna] | Through worries and joys alike, we stand together. I'm so happy these days... It actually scares me a little.
-0146 [Donna] | I just...==W== I don't ever want to be alone again.
-0147 [Tú] | Donna?
-0148 [Donna] | Ah! Whoops, that sounded kinda weird, huh?==W== I didn't mean anything deep by it! It's just...
-0149 [Donna] | Look, the workload keeps piling up! One person definitely can't deliver it all, right?==W== So what I meant was—flying solo isn't an option anymore!==W== Nope, absolutely not!
-0150 [Donna] | Anyway! Gotta get up early tomorrow, so I'm off to bed!==W== Nighty-night, Boss!
-0151 [Tú] | Goodnight.
-0152 [Tú] | What was that strange feeling just now...? For a split second, Donna looked like a child on the verge of tears...
-0153 [Donna] | I just...==W== I don't ever want to be alone again.
-0154 [Tú] | Don't ever want to be alone again, huh...
+0128 [Noya] | Uf... Estoy llena... No me cabe un bocado más...
+0129 [Tú] | Ahora que todos estamos bien alimentados, ¡estamos cargados para mañana!==W==
+0130 [Tú] | ¿Hm?
+0131 [Tú] | ¿Donna? ¿A dónde irá a estas horas...?
+0132 [Donna] | ¡Ah! ¿Jefe? ¿Te desperté?
+0133 [Tú] | Todavía estaba despierto. Qué raro... No tengo nada de sueño.
+0134 [Donna] | ¡Jeje, a mí me pasa igual!
+0135 [Donna] | ¡Me divertí muchísimo esta noche! Quizá estoy demasiado emocionada para dormir.
+0136 [Tú] | Tu comida estuvo increíble.==W== Hacer todo eso de golpe... debió de ser agotador.
+0137 [Donna] | ¡Para nada! Sentí como si mi familia de pronto se hubiera hecho mucho más grande. ¡Disfruté cada segundo!==W== Me encanta tener a todos juntos, con ruido y alboroto.
+0138 [Donna] | Como dije antes, al principio estaba yo sola.
+0139 [Donna] | Yo sola no había manera de terminar todas las entregas de una sola vez.
+0140 [Donna] | Tenía que dividir las rutas y hacerlas día por día.
+0141 [Donna] | Viéndolo ahora... no tengo idea de cómo le hacía.
+0142 [Tú] | Solo de pensarlo me da dolor de cabeza...
+0143 [Donna] | ¿Verdad?
+0144 [Donna] | Pero luego llegaron Freesia y Teresa, y fundamos Post Haste. Ahora podemos lograr muchísimo más.
+0145 [Donna] | Entre preocupaciones y alegrías, estamos juntas. Estos días soy tan feliz... Hasta me da un poco de miedo.
+0146 [Donna] | Es que...==W== no quiero volver a estar sola nunca más.
+0147 [Tú] | ¿Donna?
+0148 [Donna] | ¡Ah! Uy, eso sonó medio raro, ¿no?==W== ¡No quise decir nada profundo! Es solo que...
+0149 [Donna] | ¡Mira, el trabajo no deja de acumularse! Una sola persona definitivamente no puede entregarlo todo, ¿verdad?==W== O sea, lo que quise decir es que ¡ir por la vida sola ya no es una opción!==W== ¡No, para nada!
+0150 [Donna] | ¡En fin! Mañana hay que madrugar, ¡así que me voy a dormir!==W== ¡Buenas noches, Jefe!
+0151 [Tú] | Buenas noches.
+0152 [Tú] | ¿Qué fue esa sensación tan extraña...? Por una fracción de segundo, Donna parecía una niña a punto de llorar...
+0153 [Donna] | Es que...==W== no quiero volver a estar sola nunca más.
+0154 [Tú] | No quiere volver a estar sola nunca más, eh...

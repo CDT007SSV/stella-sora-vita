@@ -1,11 +1,11 @@
-# Evento · Un crepitante indicio de primavera · 2 · Among the Folks
+# Evento · Un crepitante indicio de primavera · 2 · Entre la gente
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Couplet Stall Owner | Couplet Stall Owner
-N:Snack Stall Owner | Snack Stall Owner
-N:Surprised Girl | Surprised Girl
+N:Couplet Stall Owner | Dueño del puesto de pareados
+N:Snack Stall Owner | Dueño del puesto de bocadillos
+N:Surprised Girl | Chica sorprendida
 N:avg1_141 | Chixia
 N:avg1_151 | Yunshu
 N:avg1_152 | Jiyue
@@ -14,112 +14,112 @@ N:avg3_100 | Sylar
 N:avg3_139 | Trekker
 N:avg3_146 | Residente del Distrito de Oro
 N:avg3_169 | Chica
-N:avg3_175 | Loong Resident
-N:avg3_176 | Loong Resident
+N:avg3_175 | Residente de Loong
+N:avg3_176 | Residente de Loong
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | Among the Folks
-0003 [Intro] | Hearing about the missing group, Chixia takes the lead and guides you and Coronis through the bustling marketplaces in search of clues. From the locals' accounts, you've gathered useful information.
-0004 [Chixia] | Aaaand ... done! Heh. Pretty slick, huh?
-0005 [Couplet Stall Owner] | Look at those strokes! So ... majestic. It's like a soaring swan, or ...==W== Uh... Or a...
-0006 [Couplet Stall Owner] | Ahem! Anyway! A Xuan Shi clearly has a masterful hand. The writing captures your spirit perfectly. Bold and extraordinary!
-0007 [Chixia] | Since you were such a big help, these are for you! A little thank-you gift.
-0008 [Couplet Stall Owner] | Oh, you're too kind! I just answered a few questions, hardly any trouble at all.
-0009 [Couplet Stall Owner] | But this ... masterpiece... You really should take it with you. Surely someone out there needs it more than I do!
-0010 [Chixia] | Think so? Well, thanks for the compliment. We're off, see ya!
-0011 [Narración] | Chixia weaves out of the crowd and trots back to us, waving the freshly dried papers.
-0012 [Coronis] | What are those?
-0013 [Chixia] | These? "Springseek Couplets."==W== Folks paste new ones around their doors to welcome the season.
-0014 [Coronis] | That looks like Loong scripts. What do they mean?
-0015 [Chixia] | Just some phrases for good fortune... Ward off bad vibes.
-0016 [Coronis] | Ward off bad vibes? I see. The glyphs do look quite mysterious and chaotic. Might look nice on my clinic door...
-0017 [Chixia] | You want 'em? All yours! If you like them, I can churn out a whole stack for you!
-0018 [Coronis] | Please do. Perhaps they will attract some rare diseases for me to study.
-0019 [Tú] | Ahem... I'm pretty sure that's the opposite of "good fortune"...
-0020 [Coronis] | Did you say something?
-0021 [Tú] | Never mind... Anyway, at least we finally got a solid lead.
-0022 [Chixia] | Yep. Noya and the others stopped to watch him write the scrolls. He remembered Iris clearly—not many Novians can read Loong script, so she definitely stood out.
-0023 [Chixia] | They talked about buying a set, but passed because they had to rush off to meet a client.
-0024 [Tú] | So, they skipped the Trekkers' House and picked up a commission straight from someone in town.
-0025 [Tú] | That's still not enough to go on... Let's keep asking around.
-0026 [Snack Stall Owner] | Sorry, the group doesn't ring a bell.==W== But that short girl in the photo? She grabbed breakfast here yesterday. We even chatted a bit about groceries.
-0027 [Coronis] | Groceries?
-0028 [Snack Stall Owner] | Yeah, with the Springseek Festival coming up, folks are stocking up like crazy. Stuff that's usually everywhere is running low.
-0029 [Snack Stall Owner] | She was prepping for a Springseek feast I think, but was short on ingredients. Said she'd look elsewhere.
-0030 [Coronis] | I see.==W== Thank you.
-0031 [Snack Stall Owner] | No trouble.==W== Say, you folks eaten? Wanna try my specialty broth buns?
-0032 [Snack Stall Owner] | Been making 'em for decades. One bite and you're hooked, guaranteed!
-0033 [Tú] | Sure, I'll take one!
-0034 [Snack Stall Owner] | Here! Careful, it's hot—
-0035 [Tú] | Hiss—==W==hot!
-0036 [Chixia] | Why did you take such a huge bite? Careful! There's an art to this: nip a hole in the skin, sip the broth...
-0037 [Tú] | Ugh... Could've told me sooner.
-0038 [Snack Stall Owner] | Hah, tried to warn you, but you chomped it right down! Love the gusto—makes me hungry! Hahaha!
-0039 [Coronis] | Hmm... Thin yet resilient membrane. Rich fluids. Compact, succulent core tissue.
-0040 [Coronis] | Loong cuisine offers such infinite inspiration.
-0041 [Tú] | So, you like it?
-0042 [Coronis] | Indeed. It would be an excellent delivery vector for oral medication.
-0043 [Tú] | ... Say what?
-0044 [Coronis] | Let's move. We have sampled the local fare; we must resume our investigation.
-0045 [Surprised Girl] | What? Jinglin's missing?! But I just asked her about vacation homework a couple of days ago... How could she...
-0046 [Coronis] | Correct. We are currently gathering leads. Do you possess relevant information?
-0047 [Surprised Girl] | You don't think ...==W== maybe a kidnapper lured her away?
-0048 [Tú] | Why do you suspect a kidnapper?
-0049 [Surprised Girl] | B-because ...==W== it's happened before! A while back, kidnappers just ... swarmed the city out of nowhere!
-0050 [Tú] | Swarmed ... by kidnappers?
-0051 [Surprised Girl] | Yeah! Wicked people in black robes and bird-beak masks. Many followed them and never came back!
-0052 [Tú] | Black robes, bird beaks... Wait, you don't mean...
-0053 [Chixia] | Oh! Shimiao mentioned that! She said a company called "United Harvest" was practically dragging people off the streets to work in Philae.
-0054 [Chixia] | Once they got there, they were so buried in work they never had time to come home.
-0055 [Chixia] | And on the rare chance a letter arrived, it was total gibberish. Everyone was terrified they'd suffered a mental breakdown.
-0056 [Tú] | Uh... From what I hear, United Harvest in Philae has cleaned up its act. Seriously.
-0057 [Narración] | Chixia guides Coronis and me down the street as we ask around.
-0058 [Chixia] | Hey, there's a stall ahead with amazing sugar-roasted chestnuts! And its Tanghulus are to die for!
-0059 [Chixia] | The owner does sugar art and dough figures too...==W== Last time, he made me a tiger!
+0001 [Intro] | Acto dos
+0002 [Intro] | Entre la gente
+0003 [Intro] | Al enterarse del grupo desaparecido, Chixia toma la delantera y los guía a ti y a Coronis por los bulliciosos mercados en busca de pistas. Con lo que cuentan los lugareños, has reunido información útil.
+0004 [Chixia] | Y... ¡listo! Je. Quedó genial, ¿verdad?
+0005 [Couplet Stall Owner] | ¡Miren esos trazos! Qué... majestuosos. Es como un cisne en pleno vuelo, o...==W== Eh... O un...
+0006 [Couplet Stall Owner] | ¡Ejem! ¡En fin! Se nota que una Xuan Shi tiene una mano maestra. La escritura captura a la perfección su espíritu. ¡Audaz y extraordinaria!
+0007 [Chixia] | ¡Como nos ayudó muchísimo, estos son para usted! Un pequeño regalo de agradecimiento.
+0008 [Couplet Stall Owner] | ¡Ay, qué amable! Solo contesté unas preguntas, no fue ninguna molestia.
+0009 [Couplet Stall Owner] | Pero esta... obra maestra... De verdad deberías llevártela. ¡Seguro que alguien por ahí la necesita más que yo!
+0010 [Chixia] | ¿Usted cree? Bueno, gracias por el cumplido. Ya nos vamos, ¡hasta luego!
+0011 [Narración] | Chixia se escabulle entre la multitud y regresa trotando hacia nosotros, agitando los papeles recién secos.
+0012 [Coronis] | ¿Qué son esos?
+0013 [Chixia] | ¿Estos? «Pareados de Buscaprimavera».==W== La gente pega unos nuevos alrededor de sus puertas para recibir la temporada.
+0014 [Coronis] | Parece escritura Loong. ¿Qué significan?
+0015 [Chixia] | Solo frases de buena fortuna... para ahuyentar las malas vibras.
+0016 [Coronis] | ¿Ahuyentar las malas vibras? Ya veo. Los glifos sí que se ven muy misteriosos y caóticos. Quizá se verían bien en la puerta de mi clínica...
+0017 [Chixia] | ¿Los quieres? ¡Son todos tuyos! Si te gustan, ¡puedo sacarte un montón!
+0018 [Coronis] | Hazlo, por favor. Quizá atraigan algunas enfermedades raras para que las estudie.
+0019 [Tú] | Ejem... Estoy bastante seguro de que eso es lo opuesto a la «buena fortuna»...
+0020 [Coronis] | ¿Dijiste algo?
+0021 [Tú] | Nada... En fin, al menos por fin tenemos una pista sólida.
+0022 [Chixia] | Sí. Noya y las demás se detuvieron a ver cómo escribía los rollos. Recordaba muy bien a Iris: no muchos novianos saben leer escritura Loong, así que ella sin duda destacó.
+0023 [Chixia] | Hablaron de comprar un juego, pero lo dejaron porque tenían que correr a reunirse con un cliente.
+0024 [Tú] | O sea que se saltaron la Casa de los Trekkers y tomaron un encargo directo de alguien de la ciudad.
+0025 [Tú] | Eso todavía no basta para seguirles la pista... Sigamos preguntando por ahí.
+0026 [Snack Stall Owner] | Lo siento, ese grupo no me suena.==W== ¿Pero esa chica bajita de la foto? Desayunó aquí ayer. Hasta platicamos un poco sobre el súper.
+0027 [Coronis] | ¿Sobre el súper?
+0028 [Snack Stall Owner] | Sí, con el Festival Buscaprimavera cerca, la gente está comprando como loca. Cosas que normalmente hay por todas partes se están acabando.
+0029 [Snack Stall Owner] | Creo que preparaba un banquete de Buscaprimavera, pero le faltaban ingredientes. Dijo que buscaría en otro lado.
+0030 [Coronis] | Ya veo.==W== Gracias.
+0031 [Snack Stall Owner] | De nada.==W== Oigan, ¿ya comieron? ¿Quieren probar mis bollos de caldo, la especialidad de la casa?
+0032 [Snack Stall Owner] | Los hago desde hace décadas. ¡Un bocado y quedan enganchados, se los garantizo!
+0033 [Tú] | ¡Claro, me llevo uno!
+0034 [Snack Stall Owner] | ¡Tome! Cuidado, está caliente...
+0035 [Tú] | Ssss...==W== ¡cómo quema!
+0036 [Chixia] | ¿Por qué le diste una mordida tan grande? ¡Cuidado! Tiene su arte: das un mordisquito a la masa, sorbes el caldo...
+0037 [Tú] | Ugh... Pudiste habérmelo dicho antes.
+0038 [Snack Stall Owner] | ¡Ja! Intenté advertirle, ¡pero se lo zampó de un solo bocado! Me encanta ese entusiasmo, ¡hasta me dio hambre! ¡Jajaja!
+0039 [Coronis] | Mmm... Membrana delgada pero resistente. Fluidos ricos. Tejido central compacto y jugoso.
+0040 [Coronis] | La cocina Loong ofrece una inspiración infinita.
+0041 [Tú] | Entonces, ¿te gustó?
+0042 [Coronis] | Así es. Sería un excelente vector de entrega para medicación oral.
+0043 [Tú] | ... ¿Cómo dices?
+0044 [Coronis] | Sigamos. Ya probamos la comida local; debemos retomar la investigación.
+0045 [Surprised Girl] | ¿Qué? ¿¡Jinglin desapareció!? Pero si hace un par de días le pregunté por la tarea de vacaciones... ¿Cómo es posible...?
+0046 [Coronis] | Correcto. Por ahora estamos reuniendo pistas. ¿Posees información relevante?
+0047 [Surprised Girl] | No creerán que...==W== ¿que algún secuestrador la haya engañado para llevársela?
+0048 [Tú] | ¿Por qué sospechas de un secuestrador?
+0049 [Surprised Girl] | P-porque...==W== ¡ya ha pasado antes! Hace tiempo, los secuestradores ¡invadieron la ciudad de la nada!
+0050 [Tú] | ¿Invadieron... los secuestradores?
+0051 [Surprised Girl] | ¡Sí! Gente malvada con túnicas negras y máscaras de pico de ave. ¡Muchos los siguieron y nunca regresaron!
+0052 [Tú] | Túnicas negras, picos de ave... Espera, no te referirás a...
+0053 [Chixia] | ¡Ah! ¡Shimiao mencionó eso! Dijo que una compañía llamada «Cosecha Unida» prácticamente se llevaba a la gente de las calles para trabajar en Philae.
+0054 [Chixia] | Al llegar allá, quedaban tan sepultados en trabajo que nunca tenían tiempo de volver a casa.
+0055 [Chixia] | Y en las pocas ocasiones en que llegaba una carta, era puro galimatías. Todos temían que hubieran sufrido un colapso mental.
+0056 [Tú] | Eh... Por lo que he oído, Cosecha Unida en Philae ya enmendó su conducta. En serio.
+0057 [Narración] | Chixia nos guía a Coronis y a mí por la calle mientras preguntamos a la gente.
+0058 [Chixia] | ¡Oigan, hay un puesto adelante con castañas garrapiñadas buenísimas! ¡Y sus tanghulus están para morirse!
+0059 [Chixia] | El dueño también hace arte con azúcar y figuras de masa...==W== ¡La última vez me hizo un tigre!
 0060 [Tú] | ...
 0061 [Coronis] | ...
-0062 [Chixia] | Ahem! T-That's obviously not why we're here! We need to, uh, survey the area for clues... Ah! Look at that line forming! If they sell out, I'm done for...==W== Huh?
-0063 [Chixia] | S-Senior Yunshu?!
+0062 [Chixia] | ¡Ejem! ¡O-obviamente no venimos por eso! Tenemos que, eh, inspeccionar la zona en busca de pistas... ¡Ah! ¡Miren qué fila se está formando! Si se acaban, estoy perdida...==W== ¿Eh?
+0063 [Chixia] | ¿S-senior Yunshu?
 0064 [Yunshu] | Oh. Chixia.
-0065 [Jiyue] | Well, well. Look who it is.
-0066 [Chixia] | Senior Jiyue, you're here too? What brings you here?
-0067 [Yunshu] | Chestnuts and Tanghulus, of course.
-0068 [Chixia] | You...==W== You made up that errand for me to go to Shimiao just to sneak out for snacks on your own?!
-0069 [Jiyue] | No, no. These are for Master.
-0070 [Chixia] | For Master? Seriously...?
-0071 [Jiyue] | Swear! She was pacing holes in the floor, desperate for sweets. She didn't want anyone knowing she broke her no-sugar diet, so she sent us on a secret snack run...
-0072 [Jiyue] | Here, take the Tanghulu. Just keep this between us, okay?
-0073 [Chixia] | Fine. Thanks!
-0074 [Tú] | Way too smooth. Definitely not their first time pulling a stunt like this...
-0075 [Chixia] | Oh! Senior, actually, could I ask a favor?
-0076 [Narración] | Between bites of Tanghulu, Chixia fills her seniors in on the search mission.
-0077 [Chixia] | Could you do a reading for us? We're trying to track down Jinglin and the New Star Guild.
-0078 [Yunshu] | I can try...==W== But the best I'll get is a vague direction relative to them.
-0079 [Coronis] | I'd heard Xuan Shi's divination was quite potent. Is calculating precise coordinates not possible?
-0080 [Jiyue] | Hah! If our arts worked like that, the world would be in total chaos by now.
-0081 [Jiyue] | People move, minds change, energy shifts. Pinpointing a living, breathing target... Well, let's just say the currents of fate aren't stable enough for a lock right now.
-0082 [Coronis] | I see. I made a false assumption.
-0083 [Yunshu] | No harm done. So,==W== shall I proceed with the reading?
-0084 [Chixia] | Yes, please!
-0085 [Yunshu] | I have the result.
-0086 [Yunshu] | Their fates are tangled... Everyone you're seeking is gathered at the same spot, right this moment.
-0087 [Tú] | All of them together? What in the world is going on?
-0088 [Yunshu] | My vision is hazy on the details. Head east and examine the walls—you may find a clue there.
-0089 [Tú] | The walls? What does that mean?
-0090 [Yunshu] | Go. All will be revealed once you arrive.
-0091 [Coronis] | Are Jinglin and the others safe?
-0092 [Yunshu] | Rest assured, they are unharmed. They have simply been detained.
-0093 [Tú] | Understood...==W== Thank you both.
-0094 [Chixia] | Thanks! We're off! Come on everyone, let's hit the east side!
-0095 [Jiyue] | Don't forget to come back for the feast later!
+0065 [Jiyue] | Vaya, vaya. Miren quién es.
+0066 [Chixia] | Senior Jiyue, ¿tú también estás aquí? ¿Qué las trae por aquí?
+0067 [Yunshu] | Castañas y tanghulus, por supuesto.
+0068 [Chixia] | Ustedes...==W== ¡¿Inventaron ese mandado para que fuera con Shimiao nada más para escaparse solas por golosinas?!
+0069 [Jiyue] | No, no. Esto es para la Maestra.
+0070 [Chixia] | ¿Para la Maestra? ¿En serio...?
+0071 [Jiyue] | ¡Lo juro! Se la pasaba dando vueltas por el cuarto, desesperada por algo dulce. No quería que nadie supiera que rompió su dieta sin azúcar, así que nos mandó a una compra secreta de botanas...
+0072 [Jiyue] | Toma, quédate con el tanghulu. Pero esto queda entre nosotras, ¿va?
+0073 [Chixia] | Está bien. ¡Gracias!
+0074 [Tú] | Demasiado fluido. Seguro que no es la primera vez que hacen algo así...
+0075 [Chixia] | ¡Ah! Senior, de hecho, ¿podría pedirles un favor?
+0076 [Narración] | Entre mordiscos de tanghulu, Chixia pone al tanto a sus seniors sobre la misión de búsqueda.
+0077 [Chixia] | ¿Podrían hacernos una lectura? Estamos tratando de encontrar a Jinglin y al Gremio de la Nueva Estrella.
+0078 [Yunshu] | Puedo intentarlo...==W== Pero lo máximo que obtendré es una dirección vaga en relación con ellas.
+0079 [Coronis] | Había oído que la adivinación de las Xuan Shi era muy potente. ¿No es posible calcular coordenadas exactas?
+0080 [Jiyue] | ¡Ja! Si nuestras artes funcionaran así, el mundo ya estaría en completo caos.
+0081 [Jiyue] | La gente se mueve, cambia de parecer, la energía fluctúa. Fijar un objetivo vivo y en movimiento... pues digamos que las corrientes del destino no están lo bastante estables ahora para fijarlo.
+0082 [Coronis] | Ya veo. Hice una suposición equivocada.
+0083 [Yunshu] | No hay problema. Entonces,==W== ¿procedo con la lectura?
+0084 [Chixia] | ¡Sí, por favor!
+0085 [Yunshu] | Ya tengo el resultado.
+0086 [Yunshu] | Sus destinos están entrelazados... Todas las personas que buscan están reunidas en el mismo lugar, ahora mismo.
+0087 [Tú] | ¿Todas juntas? ¿Qué demonios está pasando?
+0088 [Yunshu] | Mi visión es borrosa en los detalles. Vayan al este y examinen las paredes: quizá encuentren una pista ahí.
+0089 [Tú] | ¿Las paredes? ¿Qué quiere decir eso?
+0090 [Yunshu] | Vayan. Todo se revelará cuando lleguen.
+0091 [Coronis] | ¿Jinglin y las demás están a salvo?
+0092 [Yunshu] | Tranquilos, están ilesas. Simplemente las han retenido.
+0093 [Tú] | Entendido...==W== Gracias a las dos.
+0094 [Chixia] | ¡Gracias! ¡Ya nos vamos! ¡Vamos, todos, directo al lado este!
+0095 [Jiyue] | ¡No olviden volver más tarde para el banquete!
 0096 [Jiyue] | ...
-0097 [Jiyue] | You saw something else, didn't you? Something involving that thing we investigated?
-0098 [Jiyue] | Why keep them in the dark?
-0099 [Yunshu] | That anomaly is harmless. Since it poses no threat, we should let nature take its course.
-0100 [Yunshu] | Telling them changes nothing. We need not interfere. Let fate guide it to those meant to find it.
-0101 [Jiyue] | Fine. They're gone. You can drop the mystical sage act now.
+0097 [Jiyue] | Viste algo más, ¿verdad? ¿Algo relacionado con esa cosa que investigamos?
+0098 [Jiyue] | ¿Por qué mantenerlos a oscuras?
+0099 [Yunshu] | Esa anomalía es inofensiva. Como no representa ninguna amenaza, debemos dejar que la naturaleza siga su curso.
+0100 [Yunshu] | Decírselos no cambia nada. No necesitamos intervenir. Dejemos que el destino la guíe hasta quienes están destinados a encontrarla.
+0101 [Jiyue] | Bien. Ya se fueron. Puedes dejar de hacerte la sabia mística.
 0102 [Yunshu] | …
-0103 [Jiyue] | I know, I know—divination isn't exactly your forte, so you're just afraid that the more you say, the more you'll get wrong. It’s totally fine, really!
-0104 [Yunshu] | Those roasted chestnuts were delicious. I'll get you another bag.
-0105 [Jiyue] | Sweet!
+0103 [Jiyue] | Ya sé, ya sé: la adivinación no es precisamente tu fuerte, así que temes que entre más digas, más te equivoques. ¡Está perfectamente bien, de verdad!
+0104 [Yunshu] | Esas castañas asadas estaban deliciosas. Te compraré otra bolsa.
+0105 [Jiyue] | ¡Genial!

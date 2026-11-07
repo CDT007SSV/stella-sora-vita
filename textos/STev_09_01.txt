@@ -3,107 +3,107 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Returning Troupe Member | Returning Troupe Member
-N:Returning Troupe Members | Returning Troupe Members
-N:Welcoming Troupe Member | Welcoming Troupe Member
+N:Returning Troupe Member | Miembro de la compañía de regreso
+N:Returning Troupe Members | Miembros de la compañía de regreso
+N:Welcoming Troupe Member | Miembro de la compañía anfitrión
 N:avg1_108 | Kasimira
 N:avg1_114 | Chaton
 N:avg1_146 | Benito
-N:avg2_967 | White Cat Mercenary
-N:avg2_968 | White Cat Mercenary
-N:avg3_208 | Desert Scorpion Female Grunt
-N:avg3_209 | Desert Scorpion Male Grunt
+N:avg2_967 | Mercenario Gato Blanco
+N:avg2_968 | Mercenario Gato Blanco
+N:avg3_208 | Secuaz de los Escorpiones del Desierto
+N:avg3_209 | Secuaz de los Escorpiones del Desierto
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | Expedition: Absence of Power
-0003 [Intro] | The discovery of a new mineral vein undoubtedly brings new opportunities. Chaton volunteers to survey the mine, only to be refused by Kasimira.
-0004 [Narración] | Northwest of the City of a Thousand Monoliths, out in the desert, lies a mercenary town.
-0005 [Narración] | Its name is Mirage.
-0006 [???] | Heh heh heh...
-0007 [???] | Excellent! Your triumphant expedition marks a crucial step in the grand expansion of our White Cat Troupe...
-0008 [Chaton] | ... To celebrate your glorious return, the great Chaton hereby bestows upon you this plate of nachos!
+0001 [Intro] | Acto uno
+0002 [Intro] | Expedición: ausencia de poder
+0003 [Intro] | El descubrimiento de una nueva veta de mineral sin duda trae nuevas oportunidades. Chaton se ofrece para inspeccionar la mina, pero Kasimira se lo niega.
+0004 [Narración] | Al noroeste de la Ciudad de los Mil Monolitos, en pleno desierto, se encuentra un pueblo de mercenarios.
+0005 [Narración] | Su nombre es Mirage.
+0006 [???] | Je, je, je...
+0007 [???] | ¡Excelente! Su triunfante expedición marca un paso crucial en la gran expansión de nuestra Compañía del Gato Blanco...
+0008 [Chaton] | ... ¡Para celebrar su gloriosa llegada, la gran Chaton les concede este plato de nachos!
 0009 [???] | ...
-0010 [Chaton] | Well, Benito?==W== Has my boundless generosity left you speechless?
-0011 [Benito] | If the crew dragged themselves all the way back here only to be rewarded with nachos...==W== No offense, but I'd betray the troupe right then and there.
-0012 [Chaton] | Huh?!
-0013 [Chaton] | But nachos are amazing! Are you saying you don't like them?!
-0014 [Benito] | Don't make excuses just because you're craving them yourself...
-0015 [Chaton] | Ehehe...
-0016 [Benito] | Sigh... Need I remind you we're out here to gather ingredients for Kasimira and their welcome banquet?
-0017 [Benito] | Since you have time to kill, go hunt down some game in the desert. Make my life a little easier.
-0018 [Chaton] | Then where are you going, Benito?
-0019 [Benito] | I'm heading to the Imperial Guard camp to see what supplies they're scalping. If there's anything good, I'll grab it and make tartare for everyone.
-0020 [Benito] | And I'll keep an eye out for those nachos you won't shut up about.
-0021 [Chaton] | Aha!==W== I knew you were the best, Benito!
-0022 [Benito] | Alright,==W== alright.==W== Don't wander too deep into the desert! And make absolutely sure you're back in town before sunset, got it?
-0023 [Chaton] | Loud and clear!
-0024 [Chaton] | When the sun sinks beneath the sea of sand... The great Chaton shall return in triumph across the horizon!
-0025 [Benito] | Sigh... No wonder Kasimira worries about you.
-0026 [???] | We're back!
-0027 [Returning Troupe Member] | Ugh... I'm dead. Finally back in Mirage.
-0028 [Welcoming Troupe Member] | Welcome back, Captain! Great job on the expedition.
-0029 [Kasimira] | Thanks. Good work holding down the fort.
-0030 [Benito] | The welcome feast is ready. Wash up, everyone—let's eat.
-0031 [Returning Troupe Member] | Awesome! A home-cooked feast from Benito!
-0032 [Kasimira] | Hm? Where's Chaton?
-0033 [Chaton] | Heh heh heh...
-0034 [Chaton] | I hear your summons! Now, as the Dark God-Slayer—I descend upon this realm!
-0035 [Chaton] | Warriors, returned from the brink of death! Your dark powers may be gone...==W== But for expanding the great Chaton's domain, I grant you this bounty!==W==
-0036 [Benito] | Did you change your lines again? That's not what we rehearsed on the way here.
-0037 [Chaton] | Hmph, those were mere placeholders!==W== The great Chaton demands a far more imposing script for her true descent...==W== Wait, I mean proclamation!
-0038 [Kasimira] | Not quite. We didn't expand any borders. We took a commission in another city.
-0039 [Kasimira] | Still. Glad to see you're still your spirited self, Chaton.
-0040 [Chaton] | That's it? That's your whole reaction?==W==
-0041 [Benito] | Alright, save the theatrics. Everyone's starving. Let's eat and catch up.
-0042 [Returning Troupe Members] | Yeah!
-0043 [Welcoming Troupe Member] | Captain! Captain! Tell us about your expedition to Flavio!
-0044 [Welcoming Troupe Member] | I bet a big city like that is worlds apart from here!
-0045 [Kasimira] | It isn't all that different from other places we've been. But compared to Mirage? It's night and day.
-0046 [Welcoming Troupe Member] | I heard that you took a commission from Scarlet Sights Media to help a witch. Is that true?
-0047 [Kasimira] | Yeah. The witch is digging into a corporation's secrets, and our job is to cover her extraction.
-0048 [Chaton] | Sounds like a cakewalk...
-0049 [Chaton] | So why did you leave me behind?!
-0050 [Kasimira] | It might sound simple, but it was a highly complex operation.
-0051 [Kasimira] | We had to stage a distraction so the client could sneak in, then figure out how to crack the company's underground vault.
-0052 [Kasimira] | There was zero room for error. One slip, and it's over for both the client and us.
-0053 [Chaton] | Hmph. Still sounds easy to me...
-0054 [Chaton] | For the great Chaton, it's absolute child's play! ==W==
-0055 [Benito] | Ahem. Since it's a witch's commission, I assume the payout includes some juicy intel?
-0056 [Kasimira] | Right... I'm getting to that. You remember the old crystal diamond mine northeast of town?
-0057 [Benito] | Yeah, but hasn't that place been bone-dry and abandoned for ages?
-0058 [Kasimira] | Word is, some trekkers clearing monsters from the tunnels stumbled across a new vein.
-0059 [Benito] | A new vein?
-0060 [Kasimira] | Yeah. But instead of reporting it to the Trekker Association or going public, they kept it quiet.
-0061 [Kasimira] | They sold the intel to the Desert Scorpions for a fortune.
-0062 [Benito] | What? The Desert Scorpions?!
-0063 [Benito] | If that's true, the Desert Scorpions will keep the mine to themselves.
-0064 [Kasimira] | Must've been a hell of a payout.
-0065 [Kasimira] | But it gets worse. When they hit Flavio, they sold the same intel to the local merchants.
-0066 [Welcoming Troupe Member] | What?!
-0067 [Welcoming Troupe Member] | Double-dipping? Where's the honor in that? They're blinded by greed!
-0068 [Returning Troupe Member] | Still, it's good news for Mirage.
-0069 [Returning Troupe Member] | If we bring that dead mine back to life, maybe things can go back to normal.
-0070 [Kasimira] | That's the problem.
-0071 [Kasimira] | The Desert Scorpions plan to lock down the vein. No sharing.
-0072 [Welcoming Troupe Member] | The damn Desert Scorpions! Why is it always them?
-0073 [Welcoming Troupe Member] | The Imperial Guard backed them to keep us in line. They stole that mine back then from Mirage and us... Makes me sick!
-0074 [Returning Troupe Member] | And in the end, the Desert Scorpions barely made anything off it...
-0075 [Returning Troupe Member] | Right after Captain Narida vanished with the Monolith, the mine gave out.
-0076 [Welcoming Troupe Member] | They must've had a hand in it! Maybe Captain Narida disappeared because they—
-0077 [Kasimira] | Alright, that's enough wild guessing.
-0078 [Kasimira] | The priority is to verify the intel and find out what the Desert Scorpions are up to.
-0079 [Chaton] | Hmph. Every mission we've run has been missing one critical piece...
-0080 [Chaton] | That's right! The great Chaton—the only one in the White Cat Troupe with the dark power! And with a chance this perfect, there's no reason not to unleash my ultimate power!
-0081 [Chaton] | Leave the Desert Scorpions and that abyssal mine to the great Chaton!
-0082 [Kasimira] | No.==W== It's too early.
-0083 [Chaton] | Tch... I knew you'd say that...
-0084 [Chaton] | "Too early, too early!" You brush me off with that same excuse every time!
-0085 [Chaton] | Is my dark power that insignificant to you?!
-0086 [Kasimira] | This isn't something you can solve with "power" alone. And honestly, I still don't get what your dark power is supposed to be.
-0087 [Chaton] | I haven't even tried, and you're already shutting me down!
-0088 [Chaton] | You've never let me show my strength! Not once!!
-0089 [Kasimira] | That's not true... I've given you chances, haven't I?
-0090 [Chaton] | When?! You always jump in and interfere!
-0091 [Chaton] | Well, let me refresh your memory then! Like... Oh, right, back when we went to Cangwu—
+0010 [Chaton] | ¿Y bien, Benito?==W== ¿Mi generosidad sin límites te ha dejado sin palabras?
+0011 [Benito] | Si el equipo se arrastró hasta aquí solo para que lo premiaran con nachos...==W== Sin ofender, pero traicionaría a la compañía ahora mismo.
+0012 [Chaton] | ¡¿Eh?!
+0013 [Chaton] | ¡Pero los nachos son geniales! ¡¿Me vas a decir que no te gustan?!
+0014 [Benito] | No pongas excusas nada más porque tú misma los estás antojando...
+0015 [Chaton] | Ejeje...
+0016 [Benito] | Uf... ¿Tengo que recordarte que estamos aquí para reunir ingredientes para Kasimira y su banquete de bienvenida?
+0017 [Benito] | Ya que tienes tiempo libre, ve a cazar algo en el desierto. Hazme la vida un poco más fácil.
+0018 [Chaton] | Entonces, ¿tú a dónde vas, Benito?
+0019 [Benito] | Voy al campamento de la Guardia Imperial a ver qué suministros andan revendiendo. Si hay algo bueno, lo compro y preparo tartar para todos.
+0020 [Benito] | Y estaré pendiente de esos nachos de los que no dejas de hablar.
+0021 [Chaton] | ¡Ajá!==W== ¡Sabía que eras el mejor, Benito!
+0022 [Benito] | Bueno,==W== bueno.==W== ¡No te metas muy adentro del desierto! Y asegúrate de estar de vuelta en el pueblo antes del atardecer, ¿entendido?
+0023 [Chaton] | ¡Fuerte y claro!
+0024 [Chaton] | Cuando el sol se hunda bajo el mar de arena... ¡la gran Chaton volverá triunfante por el horizonte!
+0025 [Benito] | Uf... Con razón Kasimira se preocupa por ti.
+0026 [???] | ¡Ya volvimos!
+0027 [Returning Troupe Member] | Uf... Estoy muerto. Por fin de vuelta en Mirage.
+0028 [Welcoming Troupe Member] | ¡Bienvenida de vuelta, capitana! Excelente trabajo en la expedición.
+0029 [Kasimira] | Gracias. Buen trabajo cuidando el fuerte.
+0030 [Benito] | El banquete de bienvenida está listo. Lávense, todos, y a comer.
+0031 [Returning Troupe Member] | ¡Genial! ¡Un banquete casero preparado por Benito!
+0032 [Kasimira] | ¿Mm? ¿Dónde está Chaton?
+0033 [Chaton] | Je, je, je...
+0034 [Chaton] | ¡Escucho su llamado! Ahora, como la Asesina de Dioses Oscura, ¡desciendo sobre este reino!
+0035 [Chaton] | ¡Guerreros, regresados del borde de la muerte! Quizá sus poderes oscuros se hayan ido...==W== ¡Pero por haber expandido el dominio de la gran Chaton, les concedo este botín!==W==
+0036 [Benito] | ¿Volviste a cambiar tus líneas? Eso no es lo que ensayamos de camino aquí.
+0037 [Chaton] | ¡Hmph, eso eran simples marcadores de posición!==W== La gran Chaton exige un guion mucho más imponente para su verdadero descenso...==W== ¡Espera, quise decir proclamación!
+0038 [Kasimira] | No exactamente. No expandimos ninguna frontera. Aceptamos un encargo en otra ciudad.
+0039 [Kasimira] | Aun así, me alegra ver que sigues tan animada como siempre, Chaton.
+0040 [Chaton] | ¿Eso es todo? ¿Esa es toda tu reacción?==W==
+0041 [Benito] | Bueno, ya, basta de teatro. Todos se mueren de hambre. Comamos y pongámonos al día.
+0042 [Returning Troupe Members] | ¡Sí!
+0043 [Welcoming Troupe Member] | ¡Capitana! ¡Capitana! ¡Cuéntenos de su expedición a Flavio!
+0044 [Welcoming Troupe Member] | ¡Seguro una ciudad tan grande es un mundo aparte de este lugar!
+0045 [Kasimira] | No es tan distinta de otros lugares donde hemos estado. Pero comparada con Mirage, es como el día y la noche.
+0046 [Welcoming Troupe Member] | Escuché que aceptó un encargo de Scarlet Sights Media para ayudar a una bruja. ¿Es cierto?
+0047 [Kasimira] | Sí. La bruja está investigando los secretos de una corporación, y nuestro trabajo era cubrir su extracción.
+0048 [Chaton] | Suena a pan comido...
+0049 [Chaton] | ¡¿Entonces por qué me dejaste atrás?!
+0050 [Kasimira] | Puede que suene sencillo, pero fue una operación muy compleja.
+0051 [Kasimira] | Tuvimos que montar una distracción para que la clienta pudiera infiltrarse, y luego averiguar cómo abrir la bóveda subterránea de la compañía.
+0052 [Kasimira] | No había margen de error. Un solo tropiezo y se acababa todo, tanto para la clienta como para nosotros.
+0053 [Chaton] | Hmph. Aun así me suena fácil...
+0054 [Chaton] | ¡Para la gran Chaton, es un juego de niños! ==W==
+0055 [Benito] | Ejem. Como es un encargo de una bruja, supongo que el pago incluye algo de información jugosa, ¿no?
+0056 [Kasimira] | Cierto... Ya voy a eso. ¿Recuerdan la vieja mina de diamantes de cristal al noreste del pueblo?
+0057 [Benito] | Sí, pero ¿ese lugar no lleva años seco y abandonado?
+0058 [Kasimira] | Se dice que unos Trekkers que limpiaban de monstruos los túneles se toparon con una veta nueva.
+0059 [Benito] | ¿Una veta nueva?
+0060 [Kasimira] | Sí. Pero en vez de reportarla a la Asociación de Trekkers o hacerla pública, la mantuvieron en secreto.
+0061 [Kasimira] | Vendieron la información a los Escorpiones del Desierto por una fortuna.
+0062 [Benito] | ¿Qué? ¡¿A los Escorpiones del Desierto?!
+0063 [Benito] | Si es cierto, los Escorpiones del Desierto se quedarán la mina para ellos solos.
+0064 [Kasimira] | Debió de ser un pago enorme.
+0065 [Kasimira] | Pero se pone peor. Cuando pasaron por Flavio, vendieron la misma información a los comerciantes locales.
+0066 [Welcoming Troupe Member] | ¡¿Qué?!
+0067 [Welcoming Troupe Member] | ¿Cobrar dos veces? ¿Dónde queda el honor? ¡La codicia los tiene cegados!
+0068 [Returning Troupe Member] | Aun así, es una buena noticia para Mirage.
+0069 [Returning Troupe Member] | Si logramos revivir esa mina muerta, quizá las cosas puedan volver a la normalidad.
+0070 [Kasimira] | Ese es el problema.
+0071 [Kasimira] | Los Escorpiones del Desierto planean bloquear la veta. Sin compartir.
+0072 [Welcoming Troupe Member] | ¡Malditos Escorpiones del Desierto! ¿Por qué siempre son ellos?
+0073 [Welcoming Troupe Member] | La Guardia Imperial los respaldó para mantenernos a raya. En su momento le robaron esa mina a Mirage y a nosotros... ¡Me enferma!
+0074 [Returning Troupe Member] | Y al final, los Escorpiones del Desierto casi no sacaron nada de ella...
+0075 [Returning Troupe Member] | Justo después de que la capitana Narida desapareciera con el Monolito, la mina se agotó.
+0076 [Welcoming Troupe Member] | ¡Seguro tuvieron algo que ver! ¡Quizá la capitana Narida desapareció porque ellos...!
+0077 [Kasimira] | Muy bien, basta de especulaciones.
+0078 [Kasimira] | La prioridad es verificar la información y averiguar qué se traen los Escorpiones del Desierto.
+0079 [Chaton] | Hmph. A todas las misiones que hemos hecho les ha faltado una pieza crucial...
+0080 [Chaton] | ¡Así es! ¡La gran Chaton, la única de la Compañía del Gato Blanco con el poder oscuro! ¡Y con una oportunidad tan perfecta, no hay razón para no desatar mi poder definitivo!
+0081 [Chaton] | ¡Dejen a los Escorpiones del Desierto y a esa mina abismal en manos de la gran Chaton!
+0082 [Kasimira] | No.==W== Es muy pronto.
+0083 [Chaton] | Tsk... Sabía que dirías eso...
+0084 [Chaton] | ¡«Es muy pronto, es muy pronto»! ¡Siempre me despachas con la misma excusa!
+0085 [Chaton] | ¿¡Mi poder oscuro te parece tan insignificante!?
+0086 [Kasimira] | Esto no se resuelve solo con «poder». Y, para ser sincera, sigo sin entender qué se supone que es tu poder oscuro.
+0087 [Chaton] | ¡Ni siquiera lo he intentado y ya me estás cerrando la puerta!
+0088 [Chaton] | ¡Nunca me has dejado mostrar mi fuerza! ¡Ni una sola vez!
+0089 [Kasimira] | Eso no es verdad... Te he dado oportunidades, ¿no?
+0090 [Chaton] | ¡¿Cuándo?! ¡Siempre te metes e interfieres!
+0091 [Chaton] | ¡Pues déjame refrescarte la memoria! Como... Ah, cierto, cuando fuimos a Cangwu...

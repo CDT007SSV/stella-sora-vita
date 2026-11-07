@@ -1,4 +1,4 @@
-# Evento · Para ti, mi persona más querida · 1 · Post Haste's Commission
+# Evento · Para ti, mi persona más querida · 1 · El encargo de Post Haste
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -12,104 +12,104 @@ N:avg1_130 | Donna
 N:avg3_100 | Sylar
 N:avg3_138 | Trekker
 N:avg3_141 | Trabajador de Cosecha Unida
-N:avg3_211 | Treasure Hunter Leader
+N:avg3_211 | Líder de los cazatesoros
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | Post Haste's Commission
-0003 [Intro] | The mail-stealing monsters are running rampant near Port Bellin. You and the New Star Guild have accepted a commission from Post Haste to tackle the backlog of deliveries.
-0004 [Narración] | "To my dearest ■■..."
-0005 [Narración] | We've always entrusted our feelings to the written word. And today, another letter starts its journey to someone special.
-0006 [???] | Slip this inside... There. Now... How do I actually get it delivered?
-0007 [Narración] | That envelope holds far more than paper— it carries the sender's heart and soul.
-0008 [Donna] | Whose letter is this? Lying here all crumpled up...
-0009 [Narración] | Spanning distance and time...==W== No matter the era, letters have always had the power to connect us.
-0010 [Narración] | The paper may fade, but the feelings inked upon it remain as vivid as ever.
-0011 [Narración] | And so, today, a girl sets out to—
-0012 [Amber] | A delivery commission?
-0013 [Iris] | Right. We'll be sorting mail and packages, too. We're heading over to help Post Haste.
-0014 [Noya] | Hehe! Talk about luck! A job falling right into our laps! We've got ==PLAYER_NAME== to thank for this.
-0015 [Tú] | Freesia's the client, actually. I just passed the message along. Didn't really do much.
-0016 [Iris] | No, no! It's all thanks to the Boss's connections! Without this gig, we'd be... Ugh, I don't even want to think about it!
-0017 [Tú] | Do we really have less than a hundred Dorra to our name?
-0018 [Iris] | Stop rubbing salt in the wound! Aaaah... If we don't get paid soon, we'll be starving on the streets...==W== No! I won't let it happen!
-0019 [Noya] | That's the spirit! Starving isn't really my style either. Let's give this job everything we've got!
-0020 [Amber] | If only Dorra grew on trees...
-0021 [Donna] | Welcome to Post Haste, New Star Guild!
-0022 [Donna] | I'm Donna. I lead the crew... Well, more or less! No need for formalities. Just call me Donna!
-0023 [Tú] | Nice to meet you, Donna.
-0024 [Donna] | Heheh, so you're the famous ==PLAYER_NAME==? Freesia and Teresa told me all about you. They say you're brilliant and totally dependable!
-0025 [Tú] | Huh?! That's what they said?
-0026 [Freesia] | Of course. Boss is wise and trustworthy.
-0027 [Teresa] | Boss knows everything! Leave it to ==SEX4==, and this mess will be fixed in a flash, too!
-0028 [Iris] | Mess? What happened?
-0029 [Donna] | Okay, not a mess… But we hit a snag...==W== A pretty big one.
-0030 [Donna] | It started last week. I was out on a delivery run...
-0031 [Donna] | Hup... Hup... Here we go!
-0032 [Donna] | Good pace! Keep this up, and I should be able to finish my rounds and get back to Port Bellin by sundown.
-0033 [Donna] | Go me! Another full power day!==W== Hm? What's that?
-0034 [Donna] | Whose letter is this? Lying here all crumpled up...
-0035 [Donna] | Sun's bleached the envelope white. Faded. The address is a blur, too... Huh? Something hard's inside...
-0036 [???] | You sure you dropped it here?
-0037 [Donna] | Someone's approaching...
-0038 [???] | Of course! I inherited my Ma's memory. Trust me!
-0039 [???] | If that were true, we wouldn't have lost it! We're here for the treasure, not to clean up your mess...
-0040 [???] | Hey. You.
-0041 [Donna] | Me? What's up?
-0042 [???] | Seen an old letter around here? It has something hard inside.
-0043 [Donna] | Uh... Who are you guys?
-0044 [???] | We're pro treasu—uh, letter ... hunters! Yeah. Just kind-hearted Trekkers delivering mail.
-0045 [Donna] | Sketchy...==W== I'd know them if they were in the biz.
-0046 [Donna] | Nope. Haven't seen it!
-0047 [???] | For real?! Ugh... Fine. Forget it!
-0048 [???] | You moron. "Ma's memory," my ass! What if that envelope had the loot?
-0049 [Donna] | They were definitely thieves...! Guess Post Haste will hold onto this for safekeeping.
-0050 [Donna] | Here. This is the letter.
-0051 [Noya] | It's ancient! Looks like it's gonna disintegrate if I so much as breathe on it.
-0052 [Amber] | Does it say ... Port Bellin?
-0053 [Iris] | The only other legible part is the surname Howard.
-0054 [Freesia] | As you can see, the sender's details are too damaged to read. We cannot even return it to its source.
-0055 [Teresa] | Poor little lost letter...
-0056 [Donna] | Someone might still be waiting for this. We really want to get it to them if we can just figure out who they are.
-0057 [Tú] | I see... The mission isn't delivery. It's about tracking down the recipient.
-0058 [Tú] | Hold on. That doesn't add up.
-0059 [Tú] | Post Haste processes tons of mail daily. Illegible addresses can't be rare... Why hire us specifically for this one?
-0060 [Tú] | I have to ask. Is there something else going on? Something besides the letter?
-0061 [Donna] | Huh?! How'd you know?!
-0062 [Teresa] | Nothing gets past Boss!
-0063 [Amber] | Something else?
-0064 [Noya] | And here I thought this was just a happy "Let's find the recipient!" adventure. Guess not?
-0065 [Donna] | To be honest, we get letters with unknown recipients all the time. Usually, the three of us can handle it no problem...
-0066 [Freesia] | However, a letter-snatching monster has recently surfaced in Port Bellin.
-0067 [Iris] | A letter-snatching monster?
-0068 [Teresa] | Yeah. None of the passing Trekkers dares to take delivery jobs anymore.
-0069 [Freesia] | The outcome is unfortunate. Trekkers used to help with deliveries on their way, but they are too terrified of the monster to do that now. All the rejected letters are piling up at our doorstep...
-0070 [Noya] | I get it. A delivery run means risking a monster fight, but monster hunting costs way more than a standard delivery fee.
-0071 [Amber] | Not worth it.
-0072 [Donna] | Normally I'd never say no to more business! But there's no way just the three of us can manage this backlog...
-0073 [Iris] | I understand perfectly!
-0074 [Iris] | Living expenses, guild funds, equipment upgrades... We have to seize this chance to earn as much as possible before the well runs dry!
-0075 [Tú] | Alright, two things on the agenda. First, check out that mystery letter. Second, help clear the backlog from the monster panic.
-0076 [Tú] | Got the picture. Now...==W== How about we split up to cover more ground?
-0077 [Donna] | Good call. We'll get way more done if we split up.
-0078 [Donna] | Here's the plan: three teams. Sorting, delivery, and tracking down that recipient.
-0079 [Donna] | Freesia, Noya—you're on sorting duty!
-0080 [Freesia] | Understood.
-0081 [Noya] | Copy that!
-0082 [Donna] | Iris, Teresa—think you can handle the deliveries?
-0083 [Iris] | I... I'll do my best!
-0084 [Teresa] | Express delivery, coming through!
-0085 [Donna] | Finally, Amber and I will hunt down our mystery recipient!
-0086 [Amber] | Got it.
-0087 [Donna] | As for you, ==PLAYER_NAME== ... feel free to jump in wherever you want!
-0088 [Tú] | Where should I lend a hand?
-0089 [Opción] | Go ask around about the recipient.
-0090 [Opción] | Deal with the backlog first.
-0091 [Opción] | Letters need to be delivered.
-0092 [Tú] | I'll join the search team. More people asking around means better intel.
-0093 [Donna] | Thanks! Let's get to it!
-0094 [Tú] | I'll help sort. If we clear the pile now, we'll have more hands for deliveries later.
-0095 [Freesia] | That is a huge help. We will retrieve the stored letters immediately.
-0096 [Tú] | I'm on delivery duty. Best to get these overdue commissions cleared out ASAP.
-0097 [Teresa] | Yay! Road trip with Boss! Follow me!
+0001 [Intro] | Acto uno
+0002 [Intro] | El encargo de Post Haste
+0003 [Intro] | Los monstruos ladrones de correo andan desatados cerca del Puerto Bellin. Tú y el Gremio de la Nueva Estrella aceptaron un encargo de Post Haste para ponerse al corriente con las entregas atrasadas.
+0004 [Narración] | «Para ti, mi persona más querida ■■...»
+0005 [Narración] | Siempre hemos confiado nuestros sentimientos a la palabra escrita. Y hoy, otra carta emprende su viaje hacia alguien especial.
+0006 [???] | Meto esto aquí dentro... Listo. Ahora... ¿cómo hago para que llegue a su destino?
+0007 [Narración] | Ese sobre contiene mucho más que papel: lleva el corazón y el alma de quien lo escribió.
+0008 [Donna] | ¿De quién será esta carta? Está aquí tirada, toda arrugada...
+0009 [Narración] | A través de la distancia y el tiempo...==W== sin importar la época, las cartas siempre han tenido el poder de unirnos.
+0010 [Narración] | El papel puede desteñirse, pero los sentimientos escritos en él siguen tan vivos como siempre.
+0011 [Narración] | Y así, hoy, una chica se pone en marcha para...
+0012 [Amber] | ¿Un encargo de entregas?
+0013 [Iris] | Sí. También vamos a clasificar correo y paquetes. Vamos a ayudar a Post Haste.
+0014 [Noya] | ¡Jeje! ¡Qué suerte! ¡Un trabajo que nos cae del cielo! Hay que agradecérselo a ==PLAYER_NAME==.
+0015 [Tú] | En realidad la clienta es Freesia. Yo solo pasé el mensaje. No hice gran cosa.
+0016 [Iris] | ¡No, no! ¡Todo es gracias a las conexiones del Jefe! Sin este trabajo estaríamos... Ugh, ¡ni quiero pensarlo!
+0017 [Tú] | ¿De verdad nos quedan menos de cien Dorra?
+0018 [Iris] | ¡No me eches sal en la herida! Aaaah... Si no nos pagan pronto, vamos a terminar muriéndonos de hambre en la calle...==W== ¡No! ¡No lo voy a permitir!
+0019 [Noya] | ¡Esa es la actitud! Morirme de hambre tampoco es lo mío. ¡Pongamos todo de nuestra parte en este trabajo!
+0020 [Amber] | Ojalá los Dorra crecieran en los árboles...
+0021 [Donna] | ¡Bienvenidos a Post Haste, Gremio de la Nueva Estrella!
+0022 [Donna] | Soy Donna. Estoy al frente del equipo... ¡Bueno, más o menos! Nada de formalidades. ¡Solo díganme Donna!
+0023 [Tú] | Mucho gusto, Donna.
+0024 [Donna] | Jeje, ¿así que tú eres el famoso ==PLAYER_NAME==? Freesia y Teresa me contaron todo sobre ti. ¡Dicen que eres brillante y totalmente confiable!
+0025 [Tú] | ¡¿Eh?! ¡¿Eso dijeron?!
+0026 [Freesia] | Por supuesto. El Jefe es sabio y digno de confianza.
+0027 [Teresa] | ¡El Jefe lo sabe todo! ¡Déjaselo a ==SEX4== y este problema también se arregla en un santiamén!
+0028 [Iris] | ¿Problema? ¿Qué pasó?
+0029 [Donna] | Bueno, un problema no... Pero tenemos un tropiezo...==W== Uno bastante grande.
+0030 [Donna] | Empezó la semana pasada. Yo estaba haciendo mi ruta de entregas...
+0031 [Donna] | ¡Hup... hup... ahí vamos!
+0032 [Donna] | ¡Buen ritmo! Si sigo así, debería terminar mi ruta y volver al Puerto Bellin para el atardecer.
+0033 [Donna] | ¡Bien por mí! ¡Otro día a todo vapor!==W== ¿Hm? ¿Y eso?
+0034 [Donna] | ¿De quién será esta carta? Está aquí tirada, toda arrugada...
+0035 [Donna] | El sol dejó el sobre blanquecino. Descolorido. La dirección también está borrosa... ¿Eh? Hay algo duro adentro...
+0036 [???] | ¿Seguro que la perdiste aquí?
+0037 [Donna] | Alguien se acerca...
+0038 [???] | ¡Claro! Heredé la memoria de mi mamá. ¡Confía en mí!
+0039 [???] | ¡Si fuera cierto, no la habríamos perdido! Venimos por el tesoro, no a arreglar tus desastres...
+0040 [???] | Oye. Tú.
+0041 [Donna] | ¿Yo? ¿Qué pasa?
+0042 [???] | ¿Has visto una carta vieja por aquí? Tiene algo duro adentro.
+0043 [Donna] | Eh... ¿Quiénes son ustedes?
+0044 [???] | ¡Somos cazatesoros profesion... digo, cazadores de cartas! Sí. Solo unos Trekkers de buen corazón que reparten correo.
+0045 [Donna] | Sospechoso...==W== Los conocería si fueran del gremio.
+0046 [Donna] | No. ¡No la he visto!
+0047 [???] | ¡¿En serio?! Ugh... Bueno. ¡Olvídalo!
+0048 [???] | Eres un tonto. «La memoria de mi mamá», ¡no me hagas reír! ¿Y si ese sobre tenía el botín?
+0049 [Donna] | ¡Definitivamente eran ladrones...! Supongo que Post Haste se quedará con esto para resguardarlo.
+0050 [Donna] | Toma. Esta es la carta.
+0051 [Noya] | ¡Está antiquísima! Parece que se va a deshacer si solo respiro cerca.
+0052 [Amber] | ¿Dice... Puerto Bellin?
+0053 [Iris] | Lo único más que se alcanza a leer es el apellido Howard.
+0054 [Freesia] | Como pueden ver, los datos del remitente están demasiado dañados para leerse. Ni siquiera podemos devolverla a su origen.
+0055 [Teresa] | Pobrecita cartita perdida...
+0056 [Donna] | Puede que alguien todavía la esté esperando. Nos encantaría hacérsela llegar si tan solo supiéramos quién es.
+0057 [Tú] | Ya veo... La misión no es entregar. Se trata de encontrar al destinatario.
+0058 [Tú] | Un momento. Eso no cuadra.
+0059 [Tú] | Post Haste procesa montones de correo a diario. Las direcciones ilegibles no deben de ser raras... ¿Por qué contratarnos justo para esta?
+0060 [Tú] | Tengo que preguntar. ¿Hay algo más detrás de esto? ¿Algo aparte de la carta?
+0061 [Donna] | ¡¿Eh?! ¡¿Cómo lo supiste?!
+0062 [Teresa] | ¡Al Jefe no se le escapa nada!
+0063 [Amber] | ¿Algo más?
+0064 [Noya] | Y yo que pensaba que era una alegre aventura de «¡Encontremos al destinatario!». ¿Me equivoqué?
+0065 [Donna] | A decir verdad, recibimos cartas con destinatario desconocido todo el tiempo. Normalmente los tres nos las arreglamos sin problema...
+0066 [Freesia] | Sin embargo, hace poco apareció en el Puerto Bellin un monstruo roba cartas.
+0067 [Iris] | ¿Un monstruo roba cartas?
+0068 [Teresa] | Sí. Ningún Trekker de los que pasan se atreve ya a tomar trabajos de entrega.
+0069 [Freesia] | El resultado es desafortunado. Los Trekkers solían ayudar con las entregas de camino, pero ahora les da demasiado miedo el monstruo como para hacerlo. Todas las cartas rechazadas se están acumulando en nuestra puerta...
+0070 [Noya] | Ya entiendo. Una entrega implica arriesgarse a pelear con un monstruo, pero cazar monstruos cuesta mucho más que la tarifa de una entrega normal.
+0071 [Amber] | No vale la pena.
+0072 [Donna] | ¡Normalmente nunca le diría que no a más trabajo! Pero no hay forma de que nosotros tres solos podamos con este atraso...
+0073 [Iris] | ¡Lo entiendo perfectamente!
+0074 [Iris] | Gastos de vida, fondos del gremio, mejoras de equipo... ¡Tenemos que aprovechar esta oportunidad para ganar lo más posible antes de que se seque el pozo!
+0075 [Tú] | Bien, dos cosas en la agenda. Primero, investigar esa carta misteriosa. Segundo, ayudar a despejar el atraso causado por el pánico por el monstruo.
+0076 [Tú] | Ya entendí. Ahora...==W== ¿Qué tal si nos dividimos para cubrir más terreno?
+0077 [Donna] | Buena idea. Haremos mucho más si nos dividimos.
+0078 [Donna] | Este es el plan: tres equipos. Clasificación, entregas y búsqueda del destinatario.
+0079 [Donna] | ¡Freesia, Noya, ustedes se encargan de la clasificación!
+0080 [Freesia] | Entendido.
+0081 [Noya] | ¡Recibido!
+0082 [Donna] | Iris, Teresa, ¿creen poder con las entregas?
+0083 [Iris] | ¡Yo... haré mi mejor esfuerzo!
+0084 [Teresa] | ¡Entrega exprés, abran paso!
+0085 [Donna] | ¡Por último, Amber y yo daremos con nuestro destinatario misterioso!
+0086 [Amber] | Entendido.
+0087 [Donna] | En cuanto a ti, ==PLAYER_NAME==... ¡siéntete libre de ayudar donde quieras!
+0088 [Tú] | ¿Dónde puedo echar una mano?
+0089 [Opción] | Ir a preguntar por el destinatario.
+0090 [Opción] | Encargarme primero del atraso.
+0091 [Opción] | Hay que entregar las cartas.
+0092 [Tú] | Me uno al equipo de búsqueda. Más gente preguntando significa mejor información.
+0093 [Donna] | ¡Gracias! ¡Manos a la obra!
+0094 [Tú] | Ayudaré a clasificar. Si despejamos la pila ahora, tendremos más manos para las entregas después.
+0095 [Freesia] | Es una gran ayuda. Traeremos las cartas almacenadas de inmediato.
+0096 [Tú] | Me encargo de las entregas. Lo mejor es despachar cuanto antes estos encargos atrasados.
+0097 [Teresa] | ¡Yupi! ¡Viaje con el Jefe! ¡Síganme!

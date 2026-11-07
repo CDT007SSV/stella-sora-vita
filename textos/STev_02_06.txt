@@ -3,91 +3,91 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Mischievous Boy | Mischievous Boy
-N:Rowdy Kids | Rowdy Kids
+N:Mischievous Boy | Niño travieso
+N:Rowdy Kids | Niños escandalosos
 N:avg1_150 | Laru
 N:avg1_158 | Laru
 N:avg3_100 | Sylar
 N:avg3_168 | Chica
 N:avg3_170 | Chico del Distrito de las Cenizas
-N:avg3_200 | Ash District Boy
-N:avg4_101 | Little Laru Bright Ver
+N:avg3_200 | Chico del Distrito de las Cenizas
+N:avg4_101 | Laru pequeña, versión radiante
 
 ## Texto
-0001 [Intro] | Act Six
-0002 [Intro] | A Wish in Loneliness
-0003 [Intro] | Laru confesses that the person in the photo is herself. She talks about how she was shunned by her peers when she was little because she couldn't control her light magic, as well as the existence of the true Spirit.
-0004 [Laru] | Ah...==W== Tyrant, you're so mean...==W== You already knew, didn't you? You just wanted to mess with me.
-0005 [Laru] | That so-called "Snowish Tree Spirit" in the photo ...==W== is me.
-0006 [Tú] | Of course I knew.==W== One look at the photo and it's obvious.
-0007 [Tú] | And when you think about it, it all makes sense. You usually dodge work whenever you can, yet you were so eager to find that photo.==W== And you tried to avoid talking about the Spirit whenever the topic came up...
-0008 [Laru] | Alright, alright, stop with the analysis! Yes, I'm the Spirit in the photo! I admit it!
-0009 [Laru] | I was planning to grab the photo before you saw it. Then I'd either hide it or toss it out...
-0010 [Laru] | But when I saw how happy the kids were talking about it, I guess...==W== Better to just let it be.
-0011 [Laru] | Besides, I was thinking...==W== What if...
-0012 [Tú] | What if—?
-0013 [Laru] | N-never mind! I just didn't want you to see it, okay?!
-0014 [Tú] | Why's that?
-0015 [Laru] | Because it's from when I was a kid!==W== Ugh, it's so, so embarrassing!
-0016 [Tú] | Embarrassing? I actually think you looked really cute.
-0017 [Tú] | The soft glow around you gave it an air of mystery.==W== No wonder the kids thought you were the spirit.
-0018 [Laru] | W-Well...==W== To tell the truth, I really was glowing...
-0019 [Tú] | Huh? Wait, you mean that wasn't lighting?
-0020 [Laru] | Ah! Fine. Since you've already seen it,==W== I might as well explain before you get the wrong idea.
-0021 [Laru] | When I was little, all the kids on my street were into fishing.
-0022 [Tú] | What's with this fishing talk again?
-0023 [Laru] | Boss! Would you just let me finish?
-0024 [Tú] | Right...==W== Go ahead, please...
-0025 [Laru] | Ahem—so, every kid made their own fishing rod and bait. They'd all gather by the water to see who could catch the biggest fish.
-0026 [Laru] | I wasn't that into it back then, but I didn't want to get left out.
-0027 [Laru] | So I grabbed some sticks, threads, and bait, threw them together,==W== and made my own rod.==W== I didn't know what I was thinking when I tried to join them.
-0028 [Laru] | Everyone was having fun, until...
-0029 [Tú] | ... Judging from your tone,==W== I guess...
-0030 [Laru] | Yup...==W== Back then—
-0031 [Laru] | Uh...==W== C-can I fish with you, too?
-0032 [Mischievous Boy] | Go away! Every time something happens, you cry, and when you cry, you start glowing! You'll scare the fish away!
-0033 [Laru] | I-==W==I won't cry this time!
-0034 [Mischievous Boy] | Ha! You're glowing already! What are you, a lightbulb?
-0035 [Laru] | W-==W==waaah...
-0036 [Mischievous Boy] | Run! The lightbulb's gonna explode—!
-0037 [Rowdy Kids] | Wah—!!
-0038 [Laru] | Ugh...==W== Not again... Why am I like this...?==W== Why am I different from everyone else...
-0039 [Laru] | I wanted ...==W== to fish with everyone, too...
-0040 [Laru] | And that's pretty much what happened.==W== When I was a kid, my body would light up whenever I got emotional.==W== Weird, right? It was hard to make friends.
-0041 [Laru] | By the time I stopped crying, everyone was gone...
-0042 [Tú] | Sorry,==W== I shouldn't have asked.
-0043 [Laru] | Don't worry about it.==W== I've gotten used to it.==W== It didn't really bother—
-0044 [Laru] | Ugh! No, of course it bothers me! I must've been miserable back then...!
-0045 [Laru] | But if I started to cry, I would glow again...
-0046 [Laru] | The more I tried to hold it in, the worse it got.==W== Honestly, I had no idea what to do.==W== Poor little me...
-0047 [Laru] | Not long after that, I heard a saying: "If you make a wish beneath the Snowish Tree, it'll come true."
-0048 [Tú] | From that very storybook, right?
-0049 [Laru] | Yes. That's where it came from.
-0050 [Laru] | The story goes like this—
-0051 [Laru] | Long, long ago, when Artifacts were rare, and life was hard...
-0052 [Laru] | One winter, the snowfall was especially terrible. People quickly ran out of firewood and huddled in their homes, shivering.
-0053 [Laru] | Then suddenly—thunk! Something fell through a chimney and landed in the ashes of a dead fireplace—it was an Artifact no one had ever seen before.
-0054 [Laru] | And==W== it wasn't just that one family.==W== Every household received one.
-0055 [Laru] | They looked strange and all different from one another, but if you just poured a little magic into them, they'd warm the entire house up!
-0056 [Laru] | Those with chimneys found their Artifacts dropped down through them; those without found theirs hanging on nearby tree branches.
-0057 [Laru] | People went around asking who could have sent such precious gifts, and all they saw was a figure in a red scarf, riding a sleigh through the snow...
-0058 [Laru] | He called out, "Have a happy winter season! Accept these gifts!"
-0059 [Laru] | When people followed his trail into the forest, they found a great tree piled high with more gifts...
-0060 [Laru] | But the sleigh rider was gone, vanished like a spirit.
-0061 [Laru] | Thanks to those Artifacts, everyone survived the blizzard next day in warmth and safety.
-0062 [Laru] | Believing they were blessings from the God of Grace, people named the tree the "Snowish Tree."
-0063 [Laru] | And the gift-giver became known as the "Snowish Tree Spirit" sent by the God of Grace.
-0064 [Laru] | To commemorate this event, people began leaving gift boxes beneath the tree; they also copied the spirit by exchanging presents with friends and family...
-0065 [Laru] | And that's how the Snowish Festival began.
-0066 [Laru] | Every kid probably thinks that after making a wish, the gift they want might just appear beneath the tree...==W== Something like that.
-0067 [Laru] | But even back then, I wasn't that naive. I didn't believe in something like that would just happen to me.
-0068 [Laru] | After all...==W== If you're going to make a wish, you should be looking for a Wishing Box in the Monolith, not some tree.
-0069 [Laru] | But a kid can't go exploring the Monolith alone, right?==W== So I went to the tree instead, to make a wish I knew wouldn't come true.
-0070 [Laru] | That photo ...==W== must've been taken then.
-0071 [Tú] | So that's the truth==W== behind the Spirit photo.
-0072 [Laru] | Pretty much, yeah! I just never imagined I'd end up being passed around as some kind of "Snowish Tree Spirit"...==W== Hahaha!
-0073 [Tú] | Not your everyday experience, for sure.
-0074 [Tú] | So there's no spirit, after all.
-0075 [Laru] | Right...==W== But ...==W== not entirely...
-0076 [Tú] | Yeah?
-0077 [Laru] | The Spirit ...==W== really does exist.
+0001 [Intro] | Acto seis
+0002 [Intro] | Un deseo en soledad
+0003 [Intro] | Laru confiesa que la persona de la foto es ella misma. Cuenta cómo, de pequeña, sus compañeros la rechazaban porque no podía controlar su magia de luz, y habla de la existencia del verdadero Espíritu.
+0004 [Laru] | Ah...==W== Tirano, qué malo eres...==W== Ya lo sabías, ¿verdad? Solo querías burlarte de mí.
+0005 [Laru] | Ese supuesto «Espíritu del Árbol Nevado» de la foto...==W== soy yo.
+0006 [Tú] | Claro que lo sabía.==W== Con ver la foto es obvio.
+0007 [Tú] | Y si lo piensas, todo tiene sentido. Normalmente esquivas el trabajo cuando puedes, y aun así tenías tantas ganas de encontrar esa foto.==W== Y evitabas hablar del Espíritu cada vez que salía el tema...
+0008 [Laru] | ¡Ya, ya, basta de análisis! ¡Sí, soy el Espíritu de la foto! ¡Lo admito!
+0009 [Laru] | Pensaba agarrar la foto antes de que la vieras. Y luego la escondía o la tiraba...
+0010 [Laru] | Pero cuando vi lo felices que se ponían los niños hablando de ella, supongo que...==W== Mejor dejar las cosas como están.
+0011 [Laru] | Además, estaba pensando...==W== ¿Y si...?
+0012 [Tú] | ¿Y si—?
+0013 [Laru] | ¡N-nada! ¡Solo no quería que la vieras, ¿sí?!
+0014 [Tú] | ¿Por qué?
+0015 [Laru] | ¡Porque es de cuando era niña!==W== Uf, ¡me da muchísima pena!
+0016 [Tú] | ¿Pena? A mí me parece que te veías muy tierna.
+0017 [Tú] | El suave resplandor a tu alrededor le daba un aire de misterio.==W== Con razón los niños pensaron que eras el espíritu.
+0018 [Laru] | B-bueno...==W== A decir verdad, sí estaba brillando de verdad...
+0019 [Tú] | ¿Eh? Espera, ¿quieres decir que no era la iluminación?
+0020 [Laru] | ¡Ah! Está bien. Ya que la viste,==W== mejor te explico antes de que te hagas una idea equivocada.
+0021 [Laru] | Cuando era chiquita, a todos los niños de mi calle les encantaba pescar.
+0022 [Tú] | ¿Otra vez con eso de la pesca?
+0023 [Laru] | ¡Jefe! ¿Me dejas terminar?
+0024 [Tú] | Cierto...==W== Adelante, por favor...
+0025 [Laru] | Ejem—bueno, cada niño se hacía su propia caña y su carnada. Todos se juntaban junto al agua a ver quién atrapaba el pez más grande.
+0026 [Laru] | A mí no me interesaba tanto en ese entonces, pero no quería quedarme fuera.
+0027 [Laru] | Así que agarré unas varas, hilos y carnada, los junté como pude,==W== y armé mi propia caña.==W== No sé en qué estaba pensando cuando intenté unirme a ellos.
+0028 [Laru] | Todos se la estaban pasando bien, hasta que...
+0029 [Tú] | ... A juzgar por tu tono,==W== supongo que...
+0030 [Laru] | Sí...==W== En ese entonces—
+0031 [Laru] | Eh...==W== ¿P-puedo pescar con ustedes también?
+0032 [Mischievous Boy] | ¡Vete! ¡Cada vez que pasa algo, lloras, y cuando lloras empiezas a brillar! ¡Vas a espantar a los peces!
+0033 [Laru] | ¡Y-==W==yo no voy a llorar esta vez!
+0034 [Mischievous Boy] | ¡Ja! ¡Ya estás brillando! ¿Qué eres, un foco?
+0035 [Laru] | ¡B-==W==buaaa...
+0036 [Mischievous Boy] | ¡Corran! ¡El foco va a explotar—!
+0037 [Rowdy Kids] | ¡Aaah—!!
+0038 [Laru] | Uf...==W== Otra vez no... ¿Por qué soy así...?==W== ¿Por qué soy distinta a todos...
+0039 [Laru] | Yo quería...==W== pescar con todos también...
+0040 [Laru] | Y más o menos eso fue lo que pasó.==W== Cuando era niña, mi cuerpo se iluminaba cada vez que me emocionaba.==W== Qué raro, ¿no? Era difícil hacer amigos.
+0041 [Laru] | Para cuando dejé de llorar, todos ya se habían ido...
+0042 [Tú] | Perdón,==W== no debí preguntar.
+0043 [Laru] | No te preocupes.==W== Ya me acostumbré.==W== La verdad no me molestaba—
+0044 [Laru] | ¡Ay! ¡No, claro que me molesta! ¡Seguro la pasé fatal en ese entonces...!
+0045 [Laru] | Pero si me ponía a llorar, volvía a brillar...
+0046 [Laru] | Entre más intentaba aguantarme, peor se ponía.==W== La verdad no sabía qué hacer.==W== Pobre de mí...
+0047 [Laru] | Poco después de eso, escuché un dicho: «Si pides un deseo bajo el Árbol Nevado, se cumple».
+0048 [Tú] | De ese mismo libro de cuentos, ¿verdad?
+0049 [Laru] | Sí. De ahí viene.
+0050 [Laru] | La historia va así—
+0051 [Laru] | Hace mucho, mucho tiempo, cuando los Artefactos eran escasos y la vida era dura...
+0052 [Laru] | Un invierno, la nevada fue especialmente terrible. La gente se quedó rápido sin leña y se acurrucaba en sus casas, temblando.
+0053 [Laru] | Entonces, de pronto—¡pum! Algo cayó por una chimenea y aterrizó en las cenizas de una chimenea apagada: era un Artefacto que nadie había visto jamás.
+0054 [Laru] | Y==W== no fue solo esa familia.==W== Todos los hogares recibieron uno.
+0055 [Laru] | Se veían raros y todos eran distintos entre sí, pero con solo verter un poco de magia en ellos, ¡calentaban toda la casa!
+0056 [Laru] | A quienes tenían chimenea, los Artefactos les caían por ahí; a quienes no, los encontraban colgados de las ramas de los árboles cercanos.
+0057 [Laru] | La gente fue preguntando quién pudo haber enviado regalos tan valiosos, y lo único que vieron fue una figura con bufanda roja, montada en un trineo por la nieve...
+0058 [Laru] | Gritó: «¡Feliz temporada invernal! ¡Acepten estos regalos!».
+0059 [Laru] | Cuando la gente siguió su rastro hasta el bosque, encontraron un gran árbol con una pila de regalos más...
+0060 [Laru] | Pero el del trineo ya no estaba, se había esfumado como un espíritu.
+0061 [Laru] | Gracias a esos Artefactos, al día siguiente todos sobrevivieron a la ventisca, calientitos y a salvo.
+0062 [Laru] | Creyendo que eran bendiciones del Dios de la Gracia, la gente llamó al árbol el «Árbol Nevado».
+0063 [Laru] | Y al que dejó los regalos lo conocieron como el «Espíritu del Árbol Nevado» enviado por el Dios de la Gracia.
+0064 [Laru] | Para conmemorar ese suceso, la gente comenzó a dejar cajas de regalo bajo el árbol; también imitaron al espíritu intercambiando regalos con amigos y familiares...
+0065 [Laru] | Y así comenzó el Festival Nevado.
+0066 [Laru] | Seguro todos los niños piensan que, después de pedir un deseo, el regalo que quieren podría aparecer bajo el árbol...==W== Algo así.
+0067 [Laru] | Pero incluso entonces, yo no era tan ingenua. No creía que algo así me fuera a pasar a mí.
+0068 [Laru] | Además...==W== Si vas a pedir un deseo, deberías buscar una Caja de Deseos en el Monolito, no un árbol cualquiera.
+0069 [Laru] | Pero una niña no puede ir sola a explorar el Monolito, ¿verdad?==W== Así que fui al árbol, a pedir un deseo que sabía que no se cumpliría.
+0070 [Laru] | Esa foto...==W== debió de tomarse entonces.
+0071 [Tú] | Así que esa es la verdad==W== detrás de la foto del Espíritu.
+0072 [Laru] | ¡Más o menos, sí! Solo que nunca imaginé que terminaría circulando de mano en mano como una especie de «Espíritu del Árbol Nevado»...==W== ¡Ja, ja, ja!
+0073 [Tú] | Sin duda no es una experiencia de todos los días.
+0074 [Tú] | Entonces no hay espíritu, después de todo.
+0075 [Laru] | Cierto...==W== Pero...==W== no del todo...
+0076 [Tú] | ¿Sí?
+0077 [Laru] | El Espíritu...==W== de verdad existe.

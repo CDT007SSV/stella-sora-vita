@@ -1,4 +1,4 @@
-# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 2 · From the Ghost Ship
+# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 2 · Desde el Barco fantasma
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -10,92 +10,92 @@ N:avg3_100 | Sylar
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | From the Ghost Ship
-0003 [Intro] | Two strange rabbit girls rescued you. They're heading out to find the source of the ghost ship's glow.
-0004 [Tú] | A Ghost Ship?! For real?!
-0005 [???] | That's right! Heh, getting nervous?
-0006 [???] | Alright, Karin, that's enough teasing.
-0007 [???] | ==SEX1== just woke up. Let's not get ==SEX4== too worked up.
-0008 [???] | How are you feeling? Any discomfort?
-0009 [Tú] | I'm okay ... just a little fuzzy-headed.
-0010 [???] | That's probably from the lack of air when you were drowning. A good rest should clear that right up.
-0011 [Tú] | Drowning...==W== You saved me?
-0012 [Karin] | Lucky for you. We'd just set sail when we spotted you flailing in the waves.
-0013 [Karin] | If Shia hadn't fished you out, you'd be shark food by now.
-0014 [Tú] | Th-Thank you both so much! You saved my life!
-0015 [Shia] | Oh, it was nothing! Helping someone in trouble is just the right thing to do.
-0016 [Shia] | When I pulled you up, you were clutching this lantern.==W== Where'd you find it?
-0017 [Tú] | In the sea... ==W==A wave swept me away when I tried to grab it.
-0018 [Karin] | ... Ahem. I take back what I said about you being lucky.
-0019 [Karin] | That lantern was on our deck. Must've gotten knocked overboard when the waves picked up.==W== I was looking everywhere for it ... and found you instead.
-0020 [Shia] | We're so sorry! It's our fault you ended up in the water.
-0021 [Tú] | It's okay. You saved me, so we're even.
-0022 [Tú] | ...==W== So this really is a lantern from the "Ghost Ship."
-0023 [Shia] | Let's introduce ourselves. I'm Shia,==W== and this is Karin.==B== We sailed from the port in Carlo Town.
-0024 [Tú] | Carlo Town... Isn't that the town we're investigating?
-0025 [Tú] | Shia, Karin. It's a pleasure to meet you both. I'm ==PLAYER_NAME==, but you can just call me Boss.
-0026 [Shia] | Boss...?==W== An interesting title.
-0027 [Karin] | B-Boss?!==W== What a weird name to go by...
-0028 [Karin] | Alright, 'fess up. Why were you skulking around here by yourself?
-0029 [Karin] | Which guild are you from? Who sent you?
-0030 [Tú] | Easy there. I'm just a regular Trekker.
-0031 [Karin] | ... Whose phone is that?!
-0032 [Tú] | That's mine. Sorry, I should get this.
-0033 [Karin] | Hmph. Your backup checking in, I suppose.
-0034 [Tú] | Well... She's not exactly wrong.
-0035 [Noya] | Hey, Boss, you okay?!
-0036 [Noya] | We couldn't get a hold of you! We were all worried sick.
-0037 [Tú] | Sorry, there was a little accident... I fell into the ocean.
-0038 [Noya] | You fell into the ocean?!! ==W==Boss, are you hurt? Where are you now?
-0039 [Noya] | It's all Mistique's fault! Sending you to investigate the beach when she knows you can't swim... I should've gone instead!
-0040 [Tú] | Hey, sorry to make you worry. I'm fine. Some kind people pulled me out. I'm on their boat now. I'll be back soon.
-0041 [Noya] | Oh, thank goodness... ==W==We'll be at the food stall by the beach. See you in a bit!
-0042 [Tú] | Yep, see you in a bit!
-0043 [Tú] | I'm definitely in for an interrogation when I get back.
-0044 [Tú] | ... Why are you looking at me like that? Did I say something wrong?
-0045 [Shia] | You just said you'd be "back soon," correct?
-0046 [Tú] | Uh, yeah... Why?
-0047 [Shia] | Well...
-0048 [Shia] | You can't go back.
-0049 [Tú] | Huh???
-0050 [Tú] | Wait... It's just open sea in every direction.
-0051 [Shia] | As you can see, we're already a long way from the shore.
-0052 [Karin] | And we're on an important mission which puts us on a tight schedule. We can't take you back.
-0053 [Karin] | Still, you look pretty pathetic. I'll spare you some canned food so you don't starve or somethin'.
-0054 [Shia] | Oh, Karin, don't be so harsh.
-0055 [Karin] | Ugh, fine.==W== I'm sorry, alright?
+0001 [Intro] | Acto dos
+0002 [Intro] | Desde el Barco fantasma
+0003 [Intro] | Dos extrañas chicas conejo te rescataron. Van en busca del origen del resplandor del barco fantasma.
+0004 [Tú] | ¡¿Un Barco fantasma?! ¡¿En serio?!
+0005 [???] | ¡Así es! Je, ¿ya te estás poniendo nervioso?
+0006 [???] | Muy bien, Karin, ya basta de molestar.
+0007 [???] | ==SEX1== acaba de despertar. No hay que alterar a ==SEX4== demasiado.
+0008 [???] | ¿Cómo te sientes? ¿Alguna molestia?
+0009 [Tú] | Estoy bien... solo un poco aturdido.
+0010 [???] | Probablemente sea por la falta de aire cuando te ahogabas. Un buen descanso lo arreglará enseguida.
+0011 [Tú] | Ahogándome...==W== ¿Ustedes me salvaron?
+0012 [Karin] | Qué suerte la tuya. Acabábamos de zarpar cuando te vimos agitándote entre las olas.
+0013 [Karin] | Si Shia no te hubiera sacado, ya serías comida de tiburones.
+0014 [Tú] | ¡G-Gracias a las dos! ¡Me salvaron la vida!
+0015 [Shia] | ¡Ay, no fue nada! Ayudar a alguien en apuros es lo correcto.
+0016 [Shia] | Cuando te saqué, estabas aferrado a este farol.==W== ¿Dónde lo encontraste?
+0017 [Tú] | En el mar... ==W==Una ola me arrastró cuando intenté agarrarlo.
+0018 [Karin] | ... Ejem. Retiro lo que dije de que tuviste suerte.
+0019 [Karin] | Ese farol estaba en nuestra cubierta. Debió de caer por la borda cuando las olas se agitaron.==W== Lo estuve buscando por todas partes... y te encontré a ti en su lugar.
+0020 [Shia] | ¡Lo sentimos mucho! Es nuestra culpa que terminaras en el agua.
+0021 [Tú] | No pasa nada. Ustedes me salvaron, así que estamos a mano.
+0022 [Tú] | ...==W== Entonces de verdad es un farol del «Barco fantasma».
+0023 [Shia] | Presentémonos. Soy Shia,==W== y ella es Karin.==B== Zarpamos del puerto de Pueblo Carlo.
+0024 [Tú] | Pueblo Carlo... ¿No es el pueblo que estamos investigando?
+0025 [Tú] | Shia, Karin. Mucho gusto a las dos. Soy ==PLAYER_NAME==, pero pueden llamarme Jefe.
+0026 [Shia] | ¿Jefe...?==W== Un título interesante.
+0027 [Karin] | ¡¿J-Jefe?!==W== Qué nombre más raro...
+0028 [Karin] | Muy bien, confiesa. ¿Por qué andabas merodeando por aquí solo?
+0029 [Karin] | ¿De qué gremio eres? ¿Quién te envió?
+0030 [Tú] | Tranquila. Solo soy un Trekker común y corriente.
+0031 [Karin] | ... ¡¿De quién es ese teléfono?!
+0032 [Tú] | Es mío. Perdón, tengo que contestar.
+0033 [Karin] | Hmph. Supongo que es tu refuerzo avisando que ya llegó.
+0034 [Tú] | Bueno... No se equivoca del todo.
+0035 [Noya] | ¡Oye, Jefe, ¿estás bien?!
+0036 [Noya] | ¡No pudimos comunicarnos contigo! Estábamos todos preocupadísimos.
+0037 [Tú] | Perdón, hubo un pequeño accidente... Me caí al océano.
+0038 [Noya] | ¡¡¿Te caíste al océano?!! ==W==Jefe, ¿estás herido? ¿Dónde estás ahora?
+0039 [Noya] | ¡Todo es culpa de Mistique! Mandarte a investigar la playa sabiendo que no sabes nadar... ¡Debí ir yo en tu lugar!
+0040 [Tú] | Oye, perdón por preocuparte. Estoy bien. Unas personas amables me sacaron. Ahora estoy en su barco. Regreso pronto.
+0041 [Noya] | Ay, qué alivio... ==W==Estaremos en el puesto de comida junto a la playa. ¡Nos vemos al rato!
+0042 [Tú] | ¡Sí, nos vemos al rato!
+0043 [Tú] | Seguro me espera un interrogatorio cuando regrese.
+0044 [Tú] | ... ¿Por qué me miran así? ¿Dije algo malo?
+0045 [Shia] | Acabas de decir que regresarías «pronto», ¿verdad?
+0046 [Tú] | Eh, sí... ¿Por qué?
+0047 [Shia] | Pues...
+0048 [Shia] | No puedes regresar.
+0049 [Tú] | ¿¿¿Eh???
+0050 [Tú] | Espera... Solo hay mar abierto en todas direcciones.
+0051 [Shia] | Como ves, ya estamos muy lejos de la costa.
+0052 [Karin] | Y estamos en una misión importante con el tiempo justo. No podemos llevarte de vuelta.
+0053 [Karin] | Eso sí, das bastante lástima. Te daré algo de comida enlatada para que no te mueras de hambre ni nada.
+0054 [Shia] | Ay, Karin, no seas tan dura.
+0055 [Karin] | Ugh, está bien.==W== Lo siento, ¿contento?
 0056 [Karin] | Hmph♪
-0057 [Tú] | Why're they looking at me like that?
-0058 [Karin] | We're stopping by an island tomorrow for supplies. Probably can find someone to give you a lift back to town.
-0059 [Karin] | For tonight, though, I'm afraid you'll have to stay on the ship with us.
-0060 [Tú] | Got it. So, you're headed somewhere far?
-0061 [Karin] | Yep. Very, very far. Way too far for even the seagulls to follow.
-0062 [Tú] | Iris said the local conditions were perfect for sailing. That's why so many seafaring Trekkers operate out of here.
-0063 [Tú] | But not many can actually handle open-sea voyages.
-0064 [Tú] | Wait... Are they going after that mysterious light? That's incredibly dangerous...
-0065 [Tú] | Wow, I'm impressed you managed to sail out this far. I honestly thought this was just a regular fishing boat...
-0066 [Karin] | Ha! You bet! We're the best-known Trekkers in all of Carlo!
-0067 [Karin] | In terms of sheer skill, Shia's the undisputed champ!
-0068 [Karin] | As for me...==W== I'd probably crack the top ten.
-0069 [Tú] | That makes sense. Handling a multi-masted ship is one thing, but sailing into the open sea during storm season? You'd have to be amazing sailors to pull that off.
-0070 [Shia] | You sure know a lot about sailing for someone who can't swim.
-0071 [Shia] | Most people would be terrified of the sea after almost drowning. The thought of being stuck on a ship? They'd lose it.
-0072 [Shia] | But you're so calm. Almost ... excited, even.
-0073 [Shia] | So, Boss ... are you really just a "regular Trekker"?
-0074 [Tú] | Ahaha, I've just picked up a few things, that's all.
-0075 [Karin] | Liar.
-0076 [Karin] | I heard your call just now. Something about "investigating the beach." What are you really up to?
-0077 [Karin] | And hey, I wasn't trying to eavesdrop! Their voice just ... carried.
-0078 [Shia] | You and your friends, you're here for the light at sea too, aren't you?
-0079 [Shia] | It's been two years since it last appeared, so a lot of people are flocking here hoping to see it. I take it you're one of them.
-0080 [Tú] | Well, can't really lie now. They did save my life.
-0081 [Tú] | Alright, you got me. The truth is...
-0082 [Narración] | I give them the short version of why I'm here.
-0083 [Karin] | Hmph... So you are after the "Ghost Ship."
-0084 [Karin] | Well, you're in luck.
-0085 [Karin] | You're talking to the family of Mrs. Marlene—the greatest seafaring Trekker this town's ever seen.
-0086 [Karin] | And...==W== Mrs. Marlene's the only one who's ever seen that light with her own two eyes.
-0087 [Tú] | What?!
-0088 [Shia] | It's true. Thirteen years ago, my grandma saw it herself...
-0089 [Narración] | She swore it was the glow of the Ghost Ship.
+0057 [Tú] | ¿Por qué me miran así?
+0058 [Karin] | Mañana pararemos en una isla por provisiones. Quizá encontremos a alguien que te lleve de vuelta al pueblo.
+0059 [Karin] | Pero por esta noche, me temo que tendrás que quedarte en el barco con nosotras.
+0060 [Tú] | Entendido. Entonces, ¿van a algún lugar lejano?
+0061 [Karin] | Sí. Muy, muy lejos. Demasiado lejos hasta para que las gaviotas nos sigan.
+0062 [Tú] | Iris dijo que las condiciones de la zona eran perfectas para navegar. Por eso tantos Trekkers marinos operan desde aquí.
+0063 [Tú] | Pero pocos pueden realmente manejar travesías en mar abierto.
+0064 [Tú] | Espera... ¿Van tras esa luz misteriosa? Eso es increíblemente peligroso...
+0065 [Tú] | Vaya, me impresiona que hayan logrado navegar tan lejos. Honestamente pensé que esto era un simple barco de pesca...
+0066 [Karin] | ¡Ja! ¡Claro que sí! ¡Somos las Trekkers más conocidas de todo Carlo!
+0067 [Karin] | ¡En cuanto a habilidad pura, Shia es la campeona indiscutible!
+0068 [Karin] | En cuanto a mí...==W== probablemente entraría entre las diez mejores.
+0069 [Tú] | Tiene sentido. Manejar un barco de varios mástiles es una cosa, pero adentrarse en mar abierto en temporada de tormentas... Tienen que ser marineras extraordinarias para lograrlo.
+0070 [Shia] | Sabes mucho de navegación para alguien que no sabe nadar.
+0071 [Shia] | La mayoría se aterraría del mar después de casi ahogarse. ¿La idea de quedarse atrapados en un barco? Perderían la cabeza.
+0072 [Shia] | Pero tú estás tan tranquilo. Casi... emocionado, incluso.
+0073 [Shia] | Entonces, Jefe... ¿de verdad eres solo un «Trekker común»?
+0074 [Tú] | Jaja, solo he aprendido algunas cosas, nada más.
+0075 [Karin] | Mentiroso.
+0076 [Karin] | Escuché tu llamada hace un momento. Algo sobre «investigar la playa». ¿Qué te traes en realidad?
+0077 [Karin] | ¡Y oye, no estaba tratando de espiar! Su voz simplemente... se oía.
+0078 [Shia] | Tú y tus amigas están aquí por la luz del mar también, ¿verdad?
+0079 [Shia] | Hace dos años que no aparecía, así que mucha gente viene en masa esperando verla. Supongo que eres uno de ellos.
+0080 [Tú] | Bueno, ya no puedo mentir. Me salvaron la vida.
+0081 [Tú] | Está bien, me descubrieron. La verdad es que...
+0082 [Narración] | Les cuento la versión corta de por qué estoy aquí.
+0083 [Karin] | Hmph... Así que sí vas tras el «Barco fantasma».
+0084 [Karin] | Pues estás de suerte.
+0085 [Karin] | Estás hablando con la familia de la señora Marlene, la más grande Trekker marina que este pueblo haya visto jamás.
+0086 [Karin] | Y...==W== la señora Marlene es la única que ha visto esa luz con sus propios ojos.
+0087 [Tú] | ¡¿Qué?!
+0088 [Shia] | Es verdad. Hace trece años, mi abuela la vio ella misma...
+0089 [Narración] | Juró que era el resplandor del Barco fantasma.

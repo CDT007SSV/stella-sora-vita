@@ -1,11 +1,11 @@
-# Evento · Un crepitante indicio de primavera · 8 · Years Apart
+# Evento · Un crepitante indicio de primavera · 8 · Años de distancia
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Expectant Girl | Expectant Girl
-N:Gear-Up Trekker | Gear-Up Trekker
-N:Kind Gentleman | Kind Gentleman
+N:Expectant Girl | Chica ilusionada
+N:Gear-Up Trekker | Trekker equipándose
+N:Kind Gentleman | Señor amable
 N:Lucky | Lucky
 N:avg1_103 | Amber
 N:avg1_111 | Iris
@@ -20,120 +20,120 @@ N:avg2_952 | Lucky
 N:avg3_100 | Sylar
 N:avg3_147 | Residente del Distrito de Oro
 N:avg3_169 | Chica
-N:avg3_175 | Loong Resident
-N:avg3_937 | The Crowd
+N:avg3_175 | Residente de Loong
+N:avg3_937 | La multitud
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Eight
-0002 [Intro] | The Year Ahead
-0003 [Intro] | Coronis successfully heals Lucky. After close examination, she finds that "Nian" is a unique Stellaroid, brought into existence by the Loong's shared wishes and expectations for the new year.
-0004 [???] | Lucky! Hey, Lucky! Wake up, sleepyhead!
-0005 [Expectant Girl] | Dad's coming home soon! Come on, let's go to the crossing and meet him!
-0006 [Expectant Girl] | Wonder what fireworks he's got this time... Hope it's those huge ones again, just like last year!
-0007 [Expectant Girl] | Why are you hiding? Haha! Still a scaredy-cat about the noise, huh?
-0008 [Expectant Girl] | Okay, tell you what: we'll stick to sparklers this year. They're pretty and quieter, so less terrifying.
-0009 [Gear-Up Trekker] | Lucky, you gotta hold down our home while I'm gone, alright?
-0010 [Gear-Up Trekker] | Mom's been under the weather. Look after her, make sure she rests.==W== And keep an eye on Yu—don't let her run wild all day.
-0011 [Gear-Up Trekker] | Good boy. Knew I could count on you. Now I can head to the Monolith.
-0012 [Gear-Up Trekker] | Alright, time to hit the road. I'll wish for a huge haul so we can all have a killer festival.
-0013 [Kind Gentleman] | Mmm... Lucky? Doze off, did I?==W== Getting old really takes it out of you... Back when I first left home, I could work days on end without blinking.
-0014 [Kind Gentleman] | Come to think of it... Been thirty years since I left Cangwu. Heh. Lucky, how 'bout I take you back to the old hometown this year?
-0015 [Kind Gentleman] | Festival's eve, we'll hit the hilltop for fireworks. My secret spot as a kid... Hope it's still there.
-0016 [Kind Gentleman] | Can't wait to show you the view back home...
-0017 [???] | Lucky? Lucky, wake up.
-0018 [Lucky] | ... Woof?
-0019 [Jinglin] | Miss Coronis, Lucky's spaced out. Is it okay?
+0001 [Intro] | Acto ocho
+0002 [Intro] | El año que viene
+0003 [Intro] | Coronis logra curar a Lucky. Tras un examen minucioso, descubre que «Nian» es un Stellaroid único, nacido de los deseos y las esperanzas que comparten los Loong para el año nuevo.
+0004 [???] | ¡Lucky! ¡Oye, Lucky! ¡Despierta, dormilón!
+0005 [Expectant Girl] | ¡Papá llega pronto a casa! ¡Vamos, vayamos al cruce a recibirlo!
+0006 [Expectant Girl] | Me pregunto qué fuegos artificiales traerá esta vez... Ojalá sean esos enormes otra vez, como el año pasado.
+0007 [Expectant Girl] | ¿Por qué te escondes? ¡Jaja! ¿Todavía le tienes miedo al ruido, miedoso?
+0008 [Expectant Girl] | Bueno, te propongo algo: este año nos quedamos con las bengalas. Son bonitas y hacen menos ruido, así que dan menos miedo.
+0009 [Gear-Up Trekker] | Lucky, tienes que cuidar la casa mientras no estoy, ¿está bien?
+0010 [Gear-Up Trekker] | Mamá no se ha sentido bien. Cuídala, procura que descanse.==W== Y vigila a Yu: que no ande desbocada todo el día.
+0011 [Gear-Up Trekker] | Buen chico. Sabía que podía contar contigo. Ahora sí puedo irme al Monolito.
+0012 [Gear-Up Trekker] | Muy bien, hora de ponerme en marcha. Pediré un botín enorme para que todos tengamos un festival espectacular.
+0013 [Kind Gentleman] | Mmm... ¿Lucky? ¿Me quedé dormido?==W== Qué cansado es hacerse viejo... Cuando salí de casa por primera vez, podía trabajar días enteros sin pestañear.
+0014 [Kind Gentleman] | Pensándolo bien... Han pasado treinta años desde que dejé Cangwu. Je. Lucky, ¿qué tal si te llevo de vuelta al viejo pueblo este año?
+0015 [Kind Gentleman] | En la víspera del festival iremos a la cima de la colina a ver los fuegos artificiales. Era mi lugar secreto de niño... Ojalá siga ahí.
+0016 [Kind Gentleman] | Qué ganas de mostrarte la vista de mi tierra...
+0017 [???] | ¿Lucky? Lucky, despierta.
+0018 [Lucky] | ... ¿Guau?
+0019 [Jinglin] | Señorita Coronis, Lucky está como ido. ¿Está bien?
 0020 [Coronis] | ...
-0021 [Jinglin] | Miss Coronis?
-0022 [Coronis] | Oh...==W== Lucky's fine. Don't worry. Sedative hasn't fully cleared its system yet.
-0023 [Coronis] | I've finished the check-up. It swallowed a massive amount of debris, which threw its magic flow into chaos. Basically, it has acute indigestion.
-0024 [Coronis] | I've given it an injection to flush out the blockage. Once it kicks in, it'll be right as rain.
-0025 [Lucky] | Hic—
-0026 [Jinglin] | Lucky's breathing fire again!
-0027 [Coronis] | Don't panic. That means the meds are working.
-0028 [Lucky] | Burp—==W==Hic—==W==BLAARGH!
-0029 [Narración] | A torrent of firecrackers spews from Lucky's mouth, scattering across the floor.
-0030 [Chixia] | Look at 'em all! Just ... how much did it eat?!
-0031 [Coronis] | There. Purging all those should bring it significant relief.
-0032 [Amber] | They've been through a stomach, but they look intact... We can still light these.
-0033 [Narración] | Lucky glances around the room, looking a bit dazed from the sudden expulsion.
-0034 [Lucky] | Awoo...?
-0035 [Narración] | Moments later, it's prancing around the pile of fireworks, tail wagging furiously. The nausea is clearly gone.
-0036 [Jinglin] | Thank goodness! You're feeling better now, aren't you?
-0037 [Lucky] | Awoo—Woof!
-0038 [Jinglin] | Okay, okay, I get it! You're feeling better... Hey, cut it out with the licking! It tickles! Haha!
-0039 [Shimiao] | Honestly ... calling this thing "Nian" feels wrong. It acts more like an overgrown puppy.
-0040 [Coronis] | Who's to say it isn't?
-0041 [Shimiao] | Huh?
-0042 [Coronis] | Miss Shimiao, do you truly believe "Lucky" here is a Nian?
-0043 [Shimiao] | Hmm...==W== Strictly my personal theory, but Lucky looks far more like a Stellaroid.
-0044 [Shimiao] | Then again, descriptions of the Nian are notoriously vague. The archives aren't always reliable, so ...==W== I cannot definitively rule it out.
-0045 [Shimiao] | However, if a legendary beast of that magnitude actually appeared...
-0046 [Chixia] | Lucky! Come on, show me that fire breath again!
-0047 [Lucky] | Awoo—
-0048 [Chixia] | Nice one! You've totally got it down now!
-0049 [Shimiao] | ...==W== The Xuan Shi would have taken action long ago.
-0050 [Coronis] | Very rigorous, Miss Shimiao.==W== Indeed, we cannot judge by looks alone. We require ... hard proof.
-0051 [Tú] | Coronis... You found something, didn't you?
-0052 [Coronis] | I noticed something during my exam. Lucky's physiology differs from a standard monster's...==W== It is formed almost entirely of pure magic.
-0053 [Coronis] | I trust a veteran Trekker recognizes those traits.
-0054 [Tú] | Inside the Monolith, made of pure magic... Wouldn't that just be a Stellaroid?
-0055 [Coronis] | Precisely. And a special case...==W== A Stellaroid manifested specifically because of the Springseek Festival.
-0056 [Shimiao] | Because of the festival? Does the Monolith celebrate festivals too?==W== If so, Lucky and all the decor... They're all a setup? But who arranged it?
-0057 [Noya] | Loongs, obviously!
-0058 [Shimiao] | Us?==W== Hardly. Renovating a room inside the Monolith is pure fantasy ... and beyond any ordinary person.
-0059 [Noya] | Nah, that's not it. Hmm... How to put this...==W== I've been inside long enough to just ... pick up on the vibe.
-0060 [Iris] | I see her point. She suspects the collective wish of Cangwu ... is influencing this Monolith.
-0061 [Iris] | Trekkers realized ages ago that a Monolith's Artifact drops aren't set in stone.
-0062 [Iris] | If a crowd wishes for the same item in the same Monolith, the odds of the Wishing Box yielding it skyrocket.
-0063 [Iris] | Some claim the God of Grace hears us, others think our harvested memories react with the Monolith...==W== There are endless theories.
-0064 [Shimiao] | However, that theory fails to account for the specific anomaly occurring here.
-0065 [Iris] | Right, here is the kicker.
-0066 [Iris] | From those observations, Trekkers deduced a fact: Human desire affects more than just the rewards. It reshapes the Monolith itself.
-0067 [Iris] | Take that drought-stricken town a while back. Locals flocked to the nearby Monolith to pray for rain…
-0068 [Iris] | Guess what? A massive storm started raging inside.
-0069 [Noya] | Oh, rings a bell! Rumor says that water-controlling Stellaroids now spawn in there too!
-0070 [Shimiao] | I believe I understand. The nature of the wish dictates not only the Artifact yield, but also the Monolith's internal environment as well...
-0071 [Shimiao] | This Monolith sits near Cangwu, frequented by Loongs. With the Springseek Festival approaching, their festival spirit must have seeped into the structure...
-0072 [Coronis] | That likely explains Lucky's genesis. Physiologically, it mimics the "Nian" legend, but Jinglin naming it "Lucky" likely imprinted it with new emotional significance.
-0073 [Shimiao] | Indeed... "Lucky" is a very common name Loongs give their puppies.
-0074 [Coronis] | Despite its Stellaroid nature, its behavior profile matches that of a canine. No wonder you mistook it for a large dog, Miss Shimiao.
-0075 [Tú] | In short, it embodies the affection and memories attached to every dog named "Lucky."
-0076 [Shimiao] | Perhaps ... it truly just wanted to celebrate the festival with us.
-0077 [Iris] | No wonder it fought so hard to keep us from leaving...
-0078 [Noya] | Why don't we just play with it then?
-0079 [Chixia] | Heheh, I'm on it!
-0080 [Chixia] | Lucky, it's fireworks time!==W== Everyone ready?
-0081 [Amber] | Standing by.
-0082 [Shimiao] | I have positioned the firecrackers in the corner.
-0083 [Lucky] | Awoo?
-0084 [Jinglin] | Don't be scared, Lucky, I'm right here. The fireworks are beautiful. Let's watch them together.
-0085 [Lucky] | Woof!
-0086 [Narración] | Under Lucky's eager gaze, everyone lights their sparklers.
-0087 [Narración] | Lucky stares, mesmerized, as if trying to etch this moment into its memory forever.
-0088 [Narración] | Dancing sparks reflect in its glistening eyes, blooming like tiny fireworks against the night sky.
-0089 [Jinglin] | Lucky, we have to go now...==W== My mom will worry if I'm not home soon.
-0090 [Lucky] | Awoo...
-0091 [Chixia] | Hey, wipe that frown off your face! I'm leaving these firecrackers in your charge. Just promise not to eat them all again, okay?
-0092 [Chixia] | I'll be back for you whenever I can!
-0093 [Lucky] | Awoo—!
-0094 [Narración] | Lucky plants a paw on the pile, as if accepting the task with solemn determination.
-0095 [Narración] | Its proud, loyal posture is amusing yet heartwarming. But then...==W== A bittersweet feeling wells up in our hearts.
-0096 [Jinglin] | Bye-bye, Lucky!
-0097 [Lucky] | Woof!
-0098 [Jinglin] | Do you think ...==W== we'll ever see Lucky again?
-0099 [Coronis] | Hard to say. It might vanish with the festival...==W== Or perhaps, like the other Stellaroids, it's destined to wander this Monolith forever.
-0100 [Jinglin] | How could this be...
-0101 [Coronis] | Regardless. Everyone still wants to play with Lucky, to watch the fireworks together.
-0102 [Coronis] | And the environment inside a Monolith responds to the will, correct?
-0103 [Iris] | Yes, that is correct.
-0104 [Coronis] | Then logic suggests, if we simply wish to see Lucky again, the Monolith should answer that prayer.
-0105 [Jinglin] | Okay! Then I'm wishing to see Lucky again!
-0106 [Coronis] | Heh. I'm certain Lucky is hoping for the exact same thing.
-0107 [Expectant Girl] | Lucky! Hey, Lucky! Wake up, sleepyhead!
-0108 [The Crowd] | Let's have a great new year together.
-0109 [Narración] | ==A-1==When "it" first opens its eyes, it feels a faint presence deep within.==P== ==A-1==Fragments of memory. "It" doesn't know the faces in those fragments, nor does it understand what the scenes mean.==P== ==A-1=="It" only has a feeling—a vague sense that these pieces make up its whole. "It" is these memories.
-0110 [Narración] | ==A-1=="It" tilts its head, staring blankly at the world.==P== ==A-1=="It" likes this place. It feels warm, familiar.==P== ==A-1==Across the blank slate of its mind, blurry thoughts rush in.==P== ==A-1=="It" wants a festival painted in bright red. Wants the crackle of firecrackers, the bloom of fireworks.
-0111 [Narración] | "It" ... or perhaps "They" ... want to be with family. To celebrate a happy festival together.
-0112 [Narración] | If only ... that wish could come true.
+0021 [Jinglin] | ¿Señorita Coronis?
+0022 [Coronis] | Oh...==W== Lucky está bien. No te preocupes. El sedante aún no se disipa del todo de su organismo.
+0023 [Coronis] | Terminé la revisión. Se tragó una cantidad enorme de residuos, lo que desordenó su flujo de magia. En pocas palabras, tiene una indigestión aguda.
+0024 [Coronis] | Le puse una inyección para despejar el bloqueo. En cuanto haga efecto, quedará como nuevo.
+0025 [Lucky] | Hip...
+0026 [Jinglin] | ¡Lucky vuelve a echar fuego!
+0027 [Coronis] | No entres en pánico. Significa que los medicamentos están funcionando.
+0028 [Lucky] | Brrp...==W== Hip...==W== ¡BLAAARGH!
+0029 [Narración] | Un torrente de petardos brota de la boca de Lucky y se esparce por el suelo.
+0030 [Chixia] | ¡Miren cuántos! ¿¡Cuánto se comió!?
+0031 [Coronis] | Listo. Expulsar todo eso debería aliviarlo considerablemente.
+0032 [Amber] | Pasaron por un estómago, pero se ven intactos... Todavía podemos encenderlos.
+0033 [Narración] | Lucky mira alrededor de la sala, algo aturdido por la expulsión repentina.
+0034 [Lucky] | ¿Auuu...?
+0035 [Narración] | Instantes después, brinca alrededor de la pila de fuegos artificiales, moviendo la cola con furia. Es evidente que las náuseas ya se le quitaron.
+0036 [Jinglin] | ¡Qué alivio! Ya te sientes mejor, ¿verdad?
+0037 [Lucky] | Auuu... ¡Guau!
+0038 [Jinglin] | ¡Ya, ya, entendí! Te sientes mejor... ¡Oye, deja de lamerme! ¡Me haces cosquillas! ¡Jaja!
+0039 [Shimiao] | La verdad... llamar «Nian» a esta cosa me parece incorrecto. Se comporta más como un cachorro crecido.
+0040 [Coronis] | ¿Quién dice que no lo es?
+0041 [Shimiao] | ¿Eh?
+0042 [Coronis] | Señorita Shimiao, ¿realmente cree que este «Lucky» es una Nian?
+0043 [Shimiao] | Mmm...==W== Es estrictamente mi teoría personal, pero Lucky se parece mucho más a un Stellaroid.
+0044 [Shimiao] | Aunque, claro, las descripciones de la Nian son notoriamente vagas. Los archivos no siempre son confiables, así que...==W== no puedo descartarlo de manera definitiva.
+0045 [Shimiao] | Sin embargo, si una bestia legendaria de esa magnitud realmente apareciera...
+0046 [Chixia] | ¡Lucky! ¡Vamos, enséñame otra vez ese aliento de fuego!
+0047 [Lucky] | Auuu...
+0048 [Chixia] | ¡Muy bien! ¡Ya lo dominas por completo!
+0049 [Shimiao] | ...==W== Las Xuan Shi habrían actuado hace mucho.
+0050 [Coronis] | Muy riguroso, señorita Shimiao.==W== En efecto, no podemos juzgar solo por las apariencias. Necesitamos... pruebas contundentes.
+0051 [Tú] | Coronis... Encontraste algo, ¿verdad?
+0052 [Coronis] | Noté algo durante el examen. La fisiología de Lucky difiere de la de un monstruo común...==W== Está formado casi por completo de magia pura.
+0053 [Coronis] | Confío en que un Trekker veterano reconozca esas características.
+0054 [Tú] | Dentro del Monolito, hecho de magia pura... ¿No sería entonces simplemente un Stellaroid?
+0055 [Coronis] | Precisamente. Y un caso especial...==W== Un Stellaroid que se manifestó específicamente por el Festival Buscaprimavera.
+0056 [Shimiao] | ¿Por el festival? ¿El Monolito también celebra festivales?==W== Si es así, Lucky y toda la decoración... ¿son un montaje? ¿Pero quién lo organizó?
+0057 [Noya] | ¡Los Loong, obvio!
+0058 [Shimiao] | ¿Nosotros?==W== Difícilmente. Remodelar una sala dentro del Monolito es pura fantasía... y está más allá de cualquier persona común.
+0059 [Noya] | No, no es eso. Mmm... ¿Cómo decirlo?==W== He estado dentro el tiempo suficiente como para simplemente... captar el ambiente.
+0060 [Iris] | Entiendo su punto. Sospecha que el deseo colectivo de Cangwu... está influyendo en este Monolito.
+0061 [Iris] | Los Trekkers se dieron cuenta hace mucho de que los Artefactos que suelta un Monolito no están escritos en piedra.
+0062 [Iris] | Si una multitud pide el mismo objeto en el mismo Monolito, las probabilidades de que la Caja de Deseos lo entregue se disparan.
+0063 [Iris] | Algunos dicen que el Dios de la Gracia nos escucha; otros creen que nuestros recuerdos cosechados reaccionan con el Monolito...==W== Hay teorías sin fin.
+0064 [Shimiao] | Sin embargo, esa teoría no explica la anomalía específica que ocurre aquí.
+0065 [Iris] | Cierto, ahí viene lo importante.
+0066 [Iris] | De esas observaciones, los Trekkers dedujeron un hecho: el deseo humano afecta algo más que las recompensas. Remodela al Monolito mismo.
+0067 [Iris] | Piensa en ese pueblo azotado por la sequía hace un tiempo. Los lugareños acudieron en masa al Monolito cercano para rezar por lluvia...
+0068 [Iris] | ¿Y adivina qué? Dentro empezó a rugir una tormenta enorme.
+0069 [Noya] | ¡Ah, me suena! ¡Dicen los rumores que ahora también aparecen allí Stellaroids que controlan el agua!
+0070 [Shimiao] | Creo que lo entiendo. La naturaleza del deseo determina no solo el Artefacto que se obtiene, sino también el entorno interno del Monolito...
+0071 [Shimiao] | Este Monolito está cerca de Cangwu y lo frecuentan los Loong. Con el Festival Buscaprimavera cerca, su espíritu festivo debe de haberse filtrado en la estructura...
+0072 [Coronis] | Eso probablemente explica la génesis de Lucky. Fisiológicamente imita la leyenda de la «Nian», pero que Jinglin lo llamara «Lucky» probablemente le imprimió un nuevo significado emocional.
+0073 [Shimiao] | En efecto... «Lucky» es un nombre muy común que los Loong les ponen a sus cachorros.
+0074 [Coronis] | A pesar de su naturaleza de Stellaroid, su perfil de comportamiento coincide con el de un canino. No es de extrañar que lo confundiera con un perro grande, señorita Shimiao.
+0075 [Tú] | En resumen, encarna el cariño y los recuerdos asociados a cada perro llamado «Lucky».
+0076 [Shimiao] | Quizá... de verdad solo quería celebrar el festival con nosotros.
+0077 [Iris] | Con razón se esforzaba tanto en impedir que nos fuéramos...
+0078 [Noya] | ¿Y por qué no simplemente jugamos con él?
+0079 [Chixia] | ¡Jeje, yo me encargo!
+0080 [Chixia] | ¡Lucky, es hora de los fuegos artificiales!==W== ¿Todos listos?
+0081 [Amber] | En posición.
+0082 [Shimiao] | Ya coloqué los petardos en la esquina.
+0083 [Lucky] | ¿Auuu?
+0084 [Jinglin] | No tengas miedo, Lucky, aquí estoy. Los fuegos artificiales son hermosos. Vamos a verlos juntos.
+0085 [Lucky] | ¡Guau!
+0086 [Narración] | Bajo la mirada ansiosa de Lucky, todos encienden sus bengalas.
+0087 [Narración] | Lucky las mira fascinado, como si quisiera grabar este momento en su memoria para siempre.
+0088 [Narración] | Las chispas danzantes se reflejan en sus ojos brillantes y florecen como diminutos fuegos artificiales contra el cielo nocturno.
+0089 [Jinglin] | Lucky, tenemos que irnos ya...==W== Mi mamá se va a preocupar si no llego pronto a casa.
+0090 [Lucky] | Auuu...
+0091 [Chixia] | ¡Oye, quita esa cara larga! Te dejo estos petardos a tu cargo. Solo prométeme que no te los vas a comer todos otra vez, ¿sí?
+0092 [Chixia] | ¡Volveré por ti en cuanto pueda!
+0093 [Lucky] | ¡Auuu...!
+0094 [Narración] | Lucky planta una pata sobre la pila, como si aceptara la tarea con solemne determinación.
+0095 [Narración] | Su postura orgullosa y leal es divertida pero conmovedora. Aun así...==W== un sentimiento agridulce nos invade el corazón.
+0096 [Jinglin] | ¡Adiós, Lucky!
+0097 [Lucky] | ¡Guau!
+0098 [Jinglin] | ¿Crees que...==W== volveremos a ver a Lucky?
+0099 [Coronis] | Difícil saberlo. Podría desvanecerse con el festival...==W== O quizá, como los demás Stellaroids, esté destinado a vagar por este Monolito para siempre.
+0100 [Jinglin] | ¿Cómo puede ser...?
+0101 [Coronis] | Sea como sea, todos aún quieren jugar con Lucky y ver juntos los fuegos artificiales.
+0102 [Coronis] | Y el entorno dentro de un Monolito responde a la voluntad, ¿correcto?
+0103 [Iris] | Sí, es correcto.
+0104 [Coronis] | Entonces la lógica sugiere que, si simplemente deseamos volver a ver a Lucky, el Monolito debería responder a esa plegaria.
+0105 [Jinglin] | ¡Bien! ¡Entonces deseo volver a ver a Lucky!
+0106 [Coronis] | Je. Estoy segura de que Lucky espera exactamente lo mismo.
+0107 [Expectant Girl] | ¡Lucky! ¡Oye, Lucky! ¡Despierta, dormilón!
+0108 [The Crowd] | Tengamos un gran año nuevo juntos.
+0109 [Narración] | ==A-1==Cuando «ello» abre los ojos por primera vez, siente una tenue presencia en lo más profundo.==P== ==A-1==Fragmentos de memoria. «Ello» no conoce los rostros de esos fragmentos ni comprende lo que significan las escenas.==P== ==A-1==«Ello» solo tiene una sensación: la vaga impresión de que estas piezas conforman su totalidad. «Ello» es esos recuerdos.
+0110 [Narración] | ==A-1==«Ello» ladea la cabeza y contempla el mundo con la mirada perdida.==P== ==A-1==A «ello» le gusta este lugar. Se siente cálido, familiar.==P== ==A-1==En la pizarra en blanco de su mente se agolpan pensamientos borrosos.==P== ==A-1==«Ello» quiere un festival pintado de rojo brillante. Quiere el crepitar de los petardos, el florecer de los fuegos artificiales.
+0111 [Narración] | «Ello»... o quizá «ellos»... quieren estar con su familia. Celebrar juntos un feliz festival.
+0112 [Narración] | Si tan solo... ese deseo pudiera cumplirse.

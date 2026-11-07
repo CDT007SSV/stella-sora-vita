@@ -1,4 +1,4 @@
-# Evento · Surf y salpicaduras: ¡una brillante aventura de vacaciones! · 3 · New Star's Castaway Tale
+# Evento · Surf y salpicaduras: ¡una brillante aventura de vacaciones! · 3 · Náufragos de la Nueva Estrella
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
@@ -8,100 +8,100 @@ N:avg1_111 | Iris
 N:avg1_112 | Noya
 N:avg1_155 | Shia
 N:avg1_157 | Karin
-N:avg2_945 | Hermit Crab
+N:avg2_945 | Cangrejo ermitaño
 N:avg3_161 | Leafia
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | New Star's Castaway Tale
-0003 [Intro] | The three stumble upon the New Star Guild drifting at sea. Learning that you and Willow are stranded on a deserted island, Karin and Leafia work together to deduce a safe path to carry out the rescue.
-0004 [Karin] | ... Is that actually an Automatic Vending Artifact?
-0005 [Shia] | Oh my. I've never seen an Automatic Vending Artifact make deliveries at sea. What a sight!
-0006 [Karin] | Who's supposed to use it out here?!
-0007 [Shia] | Since we're all curious, let's sail over and take a look.
-0008 [Leafia] | Huh? It's gone...
-0009 [Karin] | Gone? Look closer. The waves might be hiding it.
-0010 [Leafia] | Ugh, my eyes are burning from staring, but I don't see a—
-0011 [Leafia] | Wait! There's a piece of driftwood out there, and people are hanging onto it!
-0012 [Karin] | What?! Quick, we need to save them!!
-0013 [Iris] | Cough... Cough... This seawater is awful...==W== Worse than the pain of missing a clearance sale...
-0014 [Noya] | Hang in there, Iris... Hold tight and don't let go...
-0015 [Karin] | Wait, isn't that the New Star Guild?==W== Hey! Are you okay?! Can you hear me?!
-0016 [Iris] | W-We're saved...==W== Thank goodness. Please tell me this isn't another hallucination...
-0017 [Noya] | Whoa, an actual boat! I'm not seeing things, it's a real, moving boat!
-0018 [Amber] | Save ... the phone first...
-0019 [Karin] | Do you have the strength to climb a rope?==W== Forget it, I'm coming down.
-0020 [Karin] | Give me your hand. Good, keep your weight low... Cling to me like an octopus and whatever you do, don't let go. Got it?
-0021 [Karin] | Next!==W== Hurry up, there's no time to be polite!
-0022 [Noya] | Eek, you sound so mean...==W== But you're a lifesaver, Karin. That's what I love about you...
-0023 [Karin] | Wh-who cares what you love?! Get on the boat already!
-0024 [Noya] | We're safe...
-0025 [Iris] | Sitting on solid ground...==W== I never knew it could feel this amazing...
-0026 [Amber] | Agreed.
-0027 [Leafia] | Here, water and blankets.
-0028 [Shia] | Everyone, get some rest. If you aren't feeling well, don't tough it out. Let us know.
-0029 [Noya] | Thanks. I never thought we'd bump into you out here. What are the odds?
-0030 [Karin] | I didn't expect to be fishing you out of the ocean either. How did you end up drifting out here?
-0031 [Iris] | We hit a storm and the ship struck a reef...==W== Willow was with us at first, but she got separated from us when she jumped in to save ==PLAYER_NAME==...
-0032 [Noya] | The waves were too rough to swim in... We clung to some boards and drifted all the way here.
-0033 [Amber] | My phone... Can't reach Boss...
-0034 [Iris] | What do we do? What if something happened to them...
-0035 [Shia] | Easy. Don't panic. Let's get the facts straight first. There might be clues.
-0036 [Karin] | Shia's right.==W== Where were you approximately when the storm hit? And what were the wind and currents doing at the time?
-0037 [Karin] | How long were you drifting? Did you spot any islands, reefs, or obvious landmarks? And...
-0038 [Iris] | Wait, wait. That's too many questions at once...
-0039 [Noya] | Ugh... I guess we have to lay out our whole streak of bad luck, huh?
-0040 [Karin] | That's right. The more detail the better. Don't leave anything out, no matter how small.
-0041 [Iris] | Where do I even start...
-0042 [Narración] | The New Star Guild recounts their entire voyage in detail.
-0043 [Iris] | So that's the gist of it. When I fell in, I think I saw an island, but I honestly can't remember which direction...
-0044 [Leafia] | ... I think I can help. With this map, I can figure out the rough coordinates.
-0045 [Leafia] | So you set out from the resort near Port Bellin, heading southeast...
-0046 [Narración] | Leafia pulls a map and scratch paper from her bag, spreads them on the deck, and starts scribbling furiously.
-0047 [Karin] | She was practically puking a minute ago, but the second she pulls out a map, her eyes light up...
-0048 [Leafia] | Hmm... Still missing some key data.
-0049 [Leafia] | Karin, can you estimate their ship's speed? We'll also need to factor in the wind and currents along the way...
-0050 [Karin] | You're asking the right person. Leave it to me.
-0051 [Narración] | Karin crouches beside Leafia, the two quickly trading notes...
-0052 [Leafia] | We're right here. Backtracking from how they drifted and for how long...
-0053 [Leafia] | Add in the distance they sailed from the resort...==W== They must have separated somewhere around here.
-0054 [Karin] | I recall seeing a few small islands in these waters.
-0055 [Shia] | Let's start our search in this area, then.
-0056 [Noya] | Amazing! You figured out the location fast!
-0057 [Leafia] | I only have a general direction. To narrow it down, we actually need to ... go there ...==W== and check...==W== Blegh...
-0058 [Amber] | Leafia... You suddenly look awful.
-0059 [Leafia] | The second I look up from the map, the nausea hits me again...==W== I'm ... gonna go hug it and lie down for a bit.
-0060 [Noya] | Hello? ==PLAYER_NAME==?! Thank goodness, I finally got through!
-0061 [Iris] | Karin, Shia! We finally reached ==PLAYER_NAME== and Willow! They're stranded on a deserted island.
-0062 [Leafia] | I ran the numbers again using Willow's intel. This is the spot.
-0063 [Karin] | Oh, I know that place! Ugh...==W== Why did it have to be that island...
-0064 [Iris] | What's wrong? Is there a problem with it?
-0065 [Karin] | The island itself is fine, but the surrounding waters are full of hidden reefs. They churn the currents into a total mess, making it a nightmare to sail through...
-0066 [Karin] | And I'm not making excuses because I can't handle it! On a clear day, Shia and I could tackle the worst routes without breaking a sweat!
-0067 [Karin] | But it's getting dark, and the wind and waves are picking up...
-0068 [Shia] | Trying to force a landing in these conditions is too risky.
-0069 [Iris] | Understood. I trust your expertise. We'll wait for the sea to calm down before we go pick them up.
-0070 [Karin] | Shia, port twenty degrees...==W== Five more. Hold her steady.
-0071 [Karin] | Starboard ten. Ease off the throttle.
-0072 [Leafia] | Why go starboard? The left looks completely clear.
-0073 [Karin] | We can't. There's a crosscurrent over there. It would drag us off course and send us straight into the reefs.
-0074 [Noya] | Reefs? I don't see any reefs.
-0075 [Shia] | Little Karin uses her ears. She can pick up on hidden dangers even in choppy waters like this. We're in good hands.
-0076 [Karin] | I-It's nothing special! My ears wouldn't mean a thing without Shia's steering. She's the one navigating us through this mess...
-0077 [Leafia] | Horizon definitely sent us the right seafaring Trekkers.
-0078 [Karin] | Ahem...==W== You bet they did! We are professionals.
-0079 [Amber] | I see movement on the island ahead.
-0080 [Noya] | Those two on the beach... That has to be ==PLAYER_NAME== and Willow, right?
-0081 [Iris] | Mmm... They just look like two blurry dots to me...
-0082 [Noya] | It's definitely them!
-0083 [Noya] | ==PLAYER_NAME==! Willow! We're here to pick you up!
-0084 [Narración] | The boat barely touches the shore before the three New Star Guild members dive into the water.
-0085 [Karin] | Slow down! The boat is still moving!
-0086 [Shia] | Let them go, Karin. You know how eager they are to see their friends.
-0087 [Karin] | Fair enough...==W== Well, as long as they are safe, I can finally catch my breath.
-0088 [???] | Ugh...==W== Give it back... Give... Give me back my drinks!
-0089 [Karin] | W-What is that noise?
-0090 [Leafia] | Um... Doesn't that look like the Automatic Vending Artifact we saw floating in the ocean earlier?
-0091 [Karin] | Isn't this supposed to be a touching reunion after surviving a crisis?==W== Why...
-0092 [Karin] | ... Why is there a hermit crab running around wearing a Vending Artifact?!
+0001 [Intro] | Acto tres
+0002 [Intro] | Náufragos de la Nueva Estrella
+0003 [Intro] | Las tres se topan con el Gremio de la Nueva Estrella a la deriva en el mar. Al enterarse de que tú y Willow están varados en una isla desierta, Karin y Leafia trabajan juntas para deducir una ruta segura para llevar a cabo el rescate.
+0004 [Karin] | ... ¿De verdad es un Artefacto de venta automática?
+0005 [Shia] | Vaya. Nunca había visto un Artefacto de venta automática haciendo entregas en el mar. ¡Qué espectáculo!
+0006 [Karin] | ¡¿Quién se supone que lo va a usar aquí afuera?!
+0007 [Shia] | Ya que a todas nos da curiosidad, vayamos a echarle un vistazo.
+0008 [Leafia] | ¿Eh? Desapareció...
+0009 [Karin] | ¿Desapareció? Mira bien. Quizá las olas lo estén ocultando.
+0010 [Leafia] | Ugh, me arden los ojos de tanto mirar, pero no veo...
+0011 [Leafia] | ¡Espera! ¡Hay un pedazo de madera a la deriva y hay gente aferrada a él!
+0012 [Karin] | ¡¿Qué?! ¡Rápido, hay que salvarlos!
+0013 [Iris] | Cof... Cof... Esta agua de mar es horrible...==W== Peor que el dolor de perderme una liquidación...
+0014 [Noya] | Aguanta, Iris... Agárrate fuerte y no te sueltes...
+0015 [Karin] | Espera, ¿esos no son del Gremio de la Nueva Estrella?==W== ¡Oigan! ¡¿Están bien?! ¡¿Me escuchan?!
+0016 [Iris] | N-Nos salvamos...==W== Qué alivio. Por favor, díganme que esto no es otra alucinación...
+0017 [Noya] | ¡Whoa, un barco de verdad! ¡No estoy viendo cosas, es un barco real y se mueve!
+0018 [Amber] | Salven... el teléfono primero...
+0019 [Karin] | ¿Tienen fuerza para subir por una cuerda?==W== Olvídenlo, voy a bajar yo.
+0020 [Karin] | Dame la mano. Bien, mantén el peso bajo... Abrázate a mí como un pulpo y pase lo que pase, no me sueltes. ¿Entendido?
+0021 [Karin] | ¡La siguiente!==W== ¡Apúrense, no hay tiempo para cortesías!
+0022 [Noya] | Eek, qué mala onda suenas...==W== Pero eres una salvavidas, Karin. Eso es lo que me encanta de ti...
+0023 [Karin] | ¡¿Q-Quién dijo que me importa lo que te encante?! ¡Sube al barco de una vez!
+0024 [Noya] | Estamos a salvo...
+0025 [Iris] | Sentada sobre suelo firme...==W== Nunca supe que se podía sentir tan maravilloso...
+0026 [Amber] | De acuerdo.
+0027 [Leafia] | Tomen, agua y cobijas.
+0028 [Shia] | Todos, descansen un poco. Si no se sienten bien, no se aguanten. Avísennos.
+0029 [Noya] | Gracias. Jamás pensé que nos toparíamos con ustedes aquí. ¡Qué casualidad!
+0030 [Karin] | Yo tampoco esperaba tener que pescarlos del océano. ¿Cómo terminaron a la deriva por aquí?
+0031 [Iris] | Nos agarró una tormenta y el barco chocó contra un arrecife...==W== Willow estaba con nosotros al principio, pero se separó de nosotros cuando se lanzó a salvar a ==PLAYER_NAME==...
+0032 [Noya] | Las olas estaban demasiado fuertes para nadar... Nos aferramos a unas tablas y derivamos hasta aquí.
+0033 [Amber] | Mi teléfono... No logro comunicarme con el Jefe...
+0034 [Iris] | ¿Qué hacemos? ¿Y si les pasó algo...?
+0035 [Shia] | Con calma. No entren en pánico. Primero aclaremos los hechos. Puede haber pistas.
+0036 [Karin] | Shia tiene razón.==W== ¿Más o menos dónde estaban cuando los alcanzó la tormenta? ¿Y qué hacían el viento y las corrientes en ese momento?
+0037 [Karin] | ¿Cuánto tiempo estuvieron a la deriva? ¿Vieron alguna isla, arrecife o punto de referencia evidente? Y...
+0038 [Iris] | Espera, espera. Son demasiadas preguntas a la vez...
+0039 [Noya] | Ugh... Supongo que tenemos que contar toda nuestra racha de mala suerte, ¿no?
+0040 [Karin] | Exacto. Mientras más detalle, mejor. No omitan nada, por pequeño que sea.
+0041 [Iris] | ¿Por dónde empiezo...?
+0042 [Narración] | El Gremio de la Nueva Estrella relata todo su viaje con detalle.
+0043 [Iris] | Eso es lo esencial. Cuando caí al agua, creo que vi una isla, pero la verdad no recuerdo en qué dirección...
+0044 [Leafia] | ... Creo que puedo ayudar. Con este mapa puedo calcular las coordenadas aproximadas.
+0045 [Leafia] | O sea que salieron del complejo turístico cerca de Puerto Bellin, rumbo al sureste...
+0046 [Narración] | Leafia saca un mapa y papel borrador de su bolsa, los extiende sobre la cubierta y empieza a garabatear furiosamente.
+0047 [Karin] | Hace un minuto casi vomitaba, pero en cuanto saca un mapa, los ojos se le iluminan...
+0048 [Leafia] | Mmm... Todavía faltan datos clave.
+0049 [Leafia] | Karin, ¿puedes estimar la velocidad de su barco? También habrá que considerar el viento y las corrientes del trayecto...
+0050 [Karin] | Le preguntas a la persona correcta. Déjamelo a mí.
+0051 [Narración] | Karin se agacha junto a Leafia, y las dos intercambian notas rápidamente...
+0052 [Leafia] | Estamos aquí. Retrocediendo según cómo y cuánto tiempo derivaron...
+0053 [Leafia] | Sumando la distancia que navegaron desde el complejo...==W== Deben de haberse separado más o menos por aquí.
+0054 [Karin] | Recuerdo haber visto unas islitas en estas aguas.
+0055 [Shia] | Entonces empecemos la búsqueda en esta zona.
+0056 [Noya] | ¡Increíble! ¡Averiguaron la ubicación rapidísimo!
+0057 [Leafia] | Solo tengo una dirección general. Para precisar, en realidad hay que... ir hasta allá...==W== y comprobar...==W== Blegh...
+0058 [Amber] | Leafia... De repente te ves fatal.
+0059 [Leafia] | En cuanto levanto la vista del mapa, me vuelven las náuseas...==W== Voy... a abrazarlo y acostarme un rato.
+0060 [Noya] | ¿Hola? ¡¿==PLAYER_NAME==?! ¡Qué alivio, por fin se logró la comunicación!
+0061 [Iris] | ¡Karin, Shia! ¡Por fin nos comunicamos con ==PLAYER_NAME== y Willow! Están varados en una isla desierta.
+0062 [Leafia] | Volví a hacer los cálculos con los datos de Willow. Este es el lugar.
+0063 [Karin] | ¡Ah, conozco ese sitio! Ugh...==W== ¿Por qué tenía que ser justo esa isla...?
+0064 [Iris] | ¿Qué pasa? ¿Tiene algún problema?
+0065 [Karin] | La isla en sí está bien, pero las aguas de alrededor están llenas de arrecifes ocultos. Revuelven las corrientes hasta volverlas un caos total, y navegar por ahí es una pesadilla...
+0066 [Karin] | ¡Y no lo digo como excusa porque no pueda con ello! ¡Con un día despejado, Shia y yo podríamos con las peores rutas sin sudar una gota!
+0067 [Karin] | Pero se está haciendo de noche, y el viento y las olas se están intensificando...
+0068 [Shia] | Intentar desembarcar con estas condiciones es demasiado arriesgado.
+0069 [Iris] | Entendido. Confío en su experiencia. Esperaremos a que el mar se calme antes de ir por ellos.
+0070 [Karin] | Shia, a babor veinte grados...==W== Cinco más. Mantenla firme.
+0071 [Karin] | A estribor diez. Reduce la velocidad.
+0072 [Leafia] | ¿Por qué a estribor? La izquierda se ve totalmente despejada.
+0073 [Karin] | No se puede. Ahí hay una corriente cruzada. Nos desviaría del rumbo y nos mandaría directo a los arrecifes.
+0074 [Noya] | ¿Arrecifes? No veo ningún arrecife.
+0075 [Shia] | La pequeña Karin usa los oídos. Puede detectar peligros ocultos incluso en aguas agitadas como estas. Estamos en buenas manos.
+0076 [Karin] | ¡N-No es nada del otro mundo! Mis oídos no servirían de nada sin el timón de Shia. Ella es quien nos guía por este desastre...
+0077 [Leafia] | Sin duda Horizon nos mandó con las Trekkers marinas correctas.
+0078 [Karin] | Ejem...==W== ¡Claro que sí! Somos profesionales.
+0079 [Amber] | Veo movimiento en la isla de adelante.
+0080 [Noya] | Esos dos en la playa... Tienen que ser ==PLAYER_NAME== y Willow, ¿verdad?
+0081 [Iris] | Mmm... A mí solo me parecen dos puntitos borrosos...
+0082 [Noya] | ¡Son ellos, seguro!
+0083 [Noya] | ¡==PLAYER_NAME==! ¡Willow! ¡Venimos por ustedes!
+0084 [Narración] | Apenas el barco roza la orilla, los tres miembros del Gremio de la Nueva Estrella se lanzan al agua.
+0085 [Karin] | ¡Más despacio! ¡El barco sigue en movimiento!
+0086 [Shia] | Déjalos, Karin. Sabes cuánto ansían ver a sus amigos.
+0087 [Karin] | Es cierto...==W== Bueno, mientras estén a salvo, por fin puedo respirar tranquila.
+0088 [???] | Ugh...==W== Devuélvanlo... ¡Devuélvanme... mis bebidas!
+0089 [Karin] | ¿Q-Qué es ese ruido?
+0090 [Leafia] | Eh... ¿No se parece al Artefacto de venta automática que vimos flotando en el océano hace rato?
+0091 [Karin] | ¿No se supone que esto es un reencuentro conmovedor después de sobrevivir a una crisis?==W== ¿Por qué...
+0092 [Karin] | ... ¡¿Por qué hay un cangrejo ermitaño corriendo con un Artefacto de venta automática a cuestas?!

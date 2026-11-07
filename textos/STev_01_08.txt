@@ -1,118 +1,118 @@
-# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 8 · The Land of Echoes
+# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 8 · La tierra de los ecos
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Hexhorn Whale | Hexhorn Whale
-N:Treasure Hunter Leader | Treasure Hunter Leader
+N:Hexhorn Whale | Ballena Hexcuerno
+N:Treasure Hunter Leader | Líder de los cazatesoros
 N:avg1_155 | Shia
 N:avg1_157 | Karin
-N:avg2_960 | Sea Hare
+N:avg2_960 | Liebre de mar
 N:avg2_990 | Miembro del Viento de Ceniza
 N:avg3_100 | Sylar
 N:avg3_201 | Marlene
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Eight
-0002 [Intro] | The Land of Echoes
-0003 [Intro] | You finally reach the source of the light. There is no ghost ship, only a desolate island. Toward the final goal, set forth!
-0004 [Karin] | ... No! Granny would never lie! It had to be a giant Ghost Ship!
-0005 [Karin] | ... It's a Ghost Ship, isn't it? Boss ... c'mon, say something!
+0001 [Intro] | Acto ocho
+0002 [Intro] | La tierra de los ecos
+0003 [Intro] | Por fin llegan al origen de la luz. No hay ningún barco fantasma, solo una isla desolada. ¡Rumbo a la meta final!
+0004 [Karin] | ... ¡No! ¡La abuela jamás mentiría! ¡Tenía que ser un enorme Barco fantasma!
+0005 [Karin] | ... Es un Barco fantasma, ¿verdad? Jefe... ¡vamos, di algo!
 0006 [Tú] | Karin...
-0007 [Tú] | This scene is just like what Mistique described in the diary.
-0008 [Tú] | A massive, glowing object rising from an island... It could only be a Monolith right?
-0009 [Tú] | Karin... I'm sure she wouldn't lie. If she wasn't telling the truth, it must've been a white lie.
-0010 [Karin] | "A white lie"...? What do you mean? That look on your face... It's like you know something.
-0011 [Karin] | Just tell me. I'm tougher than I look. No matter what, Granny's always gonna be the greatest seafaring Trekker in the world to me!
-0012 [Karin] | Besides, I've got a mind of my own. I'm not just gonna believe everything you say.
-0013 [Narración] | I tell Karin everything from the diary.
-0014 [Karin] | Huh?! So the diary is real? And here I was thinking those guys made it all up.
-0015 [Karin] | If there really is a Monolith on that island, Grandma would've led everyone to climb it. She always wanted Carlo Town to prosper.
-0016 [Karin] | So ... she kept other Trekkers away because there's something terrifying on the island. The Ghost Ship story was just to protect everyone.
-0017 [Tú] | Or maybe the Ghost Ship is real.==W== And the entire island is the ship, swarming with ghosts!
-0018 [Karin] | Aaaaaaahhh—!
-0019 [Tú] | That's a huge overreaction to a joke, even for Karin.==W== Wait ... this sound wasn't hers...!
-0020 [Tú] | The Hexhorn Whale?! It's here!
-0021 [Karin] | Starboard side—yep, toward the island!
-0022 [Tú] | If I'm right, Shia should be over there. The whirlpool probably swept her and the whale to the same spot.
-0023 [Karin] | Then let's go get her! Boss, you take the helm. I'll navigate!
-0024 [Karin] | Oh! I'll fire off some more flares, too. If Shia's really there, she'll see 'em. Then she'll know we're coming and won't have to keep running around by herself.
-0025 [Tú] | Good idea. I'll go grab them from the cabin.
-0026 [Karin] | Shia...==W== Hang on! We're coming for you!
-0027 [Marlene] | I'm ... alive?
-0028 [Marlene] | Ugh... My whole body aches... But I don't see any open wounds.
-0029 [Marlene] | Huh? That sound... It's the same cry I heard from the ship... the Hexhorn Whale?
-0030 [Marlene] | I remember the ship was caught in a giant whirlpool. I had to jump overboard to save myself... Then that Hexhorn Whale just appeared out of nowhere. I thought it was going to eat me...
+0007 [Tú] | Esta escena es igual a lo que Mistique describió del diario.
+0008 [Tú] | Un objeto enorme y resplandeciente que se alza desde una isla... Solo podría ser un Monolito, ¿no?
+0009 [Tú] | Karin... Estoy seguro de que ella no mentiría. Si no decía la verdad, tuvo que ser una mentira piadosa.
+0010 [Karin] | ¿«Una mentira piadosa»...? ¿A qué te refieres? Esa cara que tienes... es como si supieras algo.
+0011 [Karin] | Dímelo. Soy más fuerte de lo que parezco. ¡Pase lo que pase, la abuela siempre será la mejor Trekker marina del mundo para mí!
+0012 [Karin] | Además, tengo criterio propio. No me voy a creer todo lo que digas.
+0013 [Narración] | Le cuento a Karin todo lo del diario.
+0014 [Karin] | ¡¿Eh?! ¿Entonces el diario es real? Y yo que pensaba que esos tipos se lo habían inventado todo.
+0015 [Karin] | Si de verdad hay un Monolito en esa isla, la abuela habría guiado a todos a escalarlo. Ella siempre quiso que Pueblo Carlo prosperara.
+0016 [Karin] | Entonces... mantuvo alejados a los demás Trekkers porque hay algo aterrador en la isla. La historia del Barco fantasma era solo para proteger a todos.
+0017 [Tú] | O quizá el Barco fantasma sea real.==W== ¡Y toda la isla es el barco, plagada de fantasmas!
+0018 [Karin] | ¡Aaaaaaahhh...!
+0019 [Tú] | Qué reacción tan exagerada para una broma, hasta para Karin.==W== Espera... ¡este sonido no fue de ella...!
+0020 [Tú] | ¡¿La Ballena Hexcuerno?! ¡Está aquí!
+0021 [Karin] | ¡Por estribor, sí, hacia la isla!
+0022 [Tú] | Si no me equivoco, Shia debería estar por allá. El remolino probablemente las arrastró a ella y a la ballena al mismo lugar.
+0023 [Karin] | ¡Entonces vamos por ella! ¡Jefe, tú al timón! ¡Yo navego!
+0024 [Karin] | ¡Oh! También lanzaré más bengalas. Si Shia de verdad está ahí, las verá. Así sabrá que vamos hacia allá y no tendrá que seguir corriendo sola de un lado a otro.
+0025 [Tú] | Buena idea. Iré a traerlas de la cabina.
+0026 [Karin] | Shia...==W== ¡Aguanta! ¡Vamos por ti!
+0027 [Marlene] | ¿Estoy... viva?
+0028 [Marlene] | Ugh... Me duele todo el cuerpo... Pero no veo ninguna herida abierta.
+0029 [Marlene] | ¿Eh? Ese sonido... Es el mismo grito que escuché desde el barco... ¿la Ballena Hexcuerno?
+0030 [Marlene] | Recuerdo que el barco quedó atrapado en un remolino gigante. Tuve que saltar por la borda para salvarme... Y entonces esa Ballena Hexcuerno apareció de la nada. Pensé que me iba a devorar...
 0031 [???] | Wooo...
-0032 [Marlene] | So you saved me. Thank you.
-0033 [Marlene] | I'm Marlene. What should I call you? How about "Whally"? Is that alright?
+0032 [Marlene] | Así que tú me salvaste. Gracias.
+0033 [Marlene] | Soy Marlene. ¿Cómo debería llamarte? ¿Qué tal «Ballenito»? ¿Te parece bien?
 0034 [Hexhorn Whale] | Woo~
-0035 [Marlene] | You like that, huh? ==W==Wait, where are you going?
-0036 [Marlene] | Are these ...==W== the bones of Hexhorn Whales?!
-0037 [Marlene] | Is this island a graveyard for your kind?
+0035 [Marlene] | Te gusta, ¿eh? ==W==Espera, ¿a dónde vas?
+0036 [Marlene] | ¿Son estos...==W== huesos de Ballenas Hexcuerno?
+0037 [Marlene] | ¿Esta isla es un cementerio de los tuyos?
 0038 [Hexhorn Whale] | Wooo...
-0039 [Marlene] | I see, Whally, you're watching over your family.
-0040 [Marlene] | I know that feeling all too well. I have family I need to protect, too.
-0041 [Marlene] | Don't worry. I'll help you keep this place a secret. I won't let anyone disturb them.
-0042 [Hexhorn Whale] | Woo!
-0043 [Marlene] | Alright. It's a promise, then.
-0044 [Marlene] | But I have to ask a favor of you, too. ==W==If you ever meet my family someday...==W== Please, help her if she's in danger.
-0045 [Shia] | Ah, so I didn't get away... The ocean really put me in my place.
-0046 [Shia] | I wonder how Karin and Boss are doing... That rope should've kept them on the ship.
-0047 [Shia] | Strange... Where am I? And why do I smell something so ... familiar?
-0048 [Shia] | It smells like ... Granny...
-0049 [Shia] | Where am I?
-0050 [Narración] | She glances around. A green light flickers in the darkness, like a familiar summons.
-0051 [Shia] | Looks like Boss was right... The source of the light is on this island.
-0052 [Shia] | But how did I get here? I remember being dragged into the whirlpool ... and then...
-0053 [Shia] | Hexhorn Whale?!
-0054 [Shia] | When I fell into the water, I felt something lifting me up... Was it the Hexhorn Whale?
-0055 [Shia] | It seems calm. I think I'll try saying hello.
-0056 [Shia] | Hey there, Hexhorn Whale. Did you just save me?
-0057 [Hexhorn Whale] | Woo!
-0058 [Shia] | I don't sense any hostility from your scent... So it really was you. Thank you.
-0059 [Shia] | Karin and Boss must be so worried... I need to find a way to let them know I'm safe.
-0060 [Shia] | Oh, I've got it! Hey, Hexhorn Whale, can you do me a favor? Can you let out a biiiiig bellow for me?
-0061 [Shia] | Karin and Boss will know where to find us.
-0062 [Narración] | The Hexhorn Whale seems to understand. Its massive body shudders as it opens its mouth—
-0063 [Hexhorn Whale] | HROOOOAAAAR—!!!
-0064 [Shia] | Whoa, that was incredible! ==W==Thank you! There's no way they won't hear a sound like that.
-0065 [Shia] | Can I tell you a secret? When I fell into the sea, I had a wonderful dream.
-0066 [Shia] | In my dream, I caught my Granny's scent. It felt like she was the one who pulled me out of the water...
-0067 [Shia] | Do you think... Granny was here, too?
+0039 [Marlene] | Ya veo, Ballenito, estás cuidando a tu familia.
+0040 [Marlene] | Conozco muy bien ese sentimiento. Yo también tengo familia a la que debo proteger.
+0041 [Marlene] | No te preocupes. Te ayudaré a mantener este lugar en secreto. No permitiré que nadie los perturbe.
+0042 [Hexhorn Whale] | ¡Woo!
+0043 [Marlene] | Muy bien. Entonces es una promesa.
+0044 [Marlene] | Pero yo también tengo que pedirte un favor. ==W==Si algún día te encuentras con mi familia...==W== Por favor, ayúdala si está en peligro.
+0045 [Shia] | Ah, así que no logré escapar... El océano me puso en mi lugar.
+0046 [Shia] | Me pregunto cómo estarán Karin y el Jefe... Esa cuerda debió mantenerlos en el barco.
+0047 [Shia] | Qué raro... ¿Dónde estoy? ¿Y por qué huelo algo tan... familiar?
+0048 [Shia] | Huele a... la abuela...
+0049 [Shia] | ¿Dónde estoy?
+0050 [Narración] | Mira a su alrededor. Una luz verde titila en la oscuridad, como un llamado familiar.
+0051 [Shia] | Parece que el Jefe tenía razón... El origen de la luz está en esta isla.
+0052 [Shia] | Pero ¿cómo llegué aquí? Recuerdo que me arrastró el remolino... y luego...
+0053 [Shia] | ¡¿Ballena Hexcuerno?!
+0054 [Shia] | Cuando caí al agua, sentí que algo me levantaba... ¿Fue la Ballena Hexcuerno?
+0055 [Shia] | Parece tranquila. Creo que intentaré saludarla.
+0056 [Shia] | Hola, Ballena Hexcuerno. ¿Tú me salvaste?
+0057 [Hexhorn Whale] | ¡Woo!
+0058 [Shia] | No percibo hostilidad en tu aroma... Así que de verdad fuiste tú. Gracias.
+0059 [Shia] | Karin y el Jefe deben de estar muy preocupados... Tengo que encontrar la manera de avisarles que estoy a salvo.
+0060 [Shia] | ¡Oh, ya sé! Oye, Ballena Hexcuerno, ¿puedes hacerme un favor? ¿Puedes soltar un bramido enoooorme por mí?
+0061 [Shia] | Karin y el Jefe sabrán dónde encontrarnos.
+0062 [Narración] | La Ballena Hexcuerno parece entender. Su enorme cuerpo se estremece al abrir la boca...
+0063 [Hexhorn Whale] | ¡¡¡GRUOOOOAAAAR...!!!
+0064 [Shia] | ¡Guau, qué increíble! ==W==¡Gracias! Es imposible que no oigan un sonido como ese.
+0065 [Shia] | ¿Puedo contarte un secreto? Cuando caí al mar, tuve un sueño maravilloso.
+0066 [Shia] | En mi sueño, percibí el aroma de mi abuela. Sentí como si ella fuera quien me sacaba del agua...
+0067 [Shia] | ¿Crees que... la abuela también estuvo aquí?
 0068 [Hexhorn Whale] | Woo~
-0069 [Shia] | Granny... I hope you aren't mad at me for ignoring your warning and coming all this way...
-0070 [Shia] | I just wanted to follow in your footsteps ... to see you again.
-0071 [Shia] | ... Even if it was just a trace you left behind.
-0072 [Narración] | Familiar flares burst and paint the distant sky. Shia gets to her feet, knowing the truth is finally within her grasp.
-0073 [Shia] | Let's go. Time to go get Karin and Boss.
-0074 [Hexhorn Whale] | Woo!
-0075 [Karin] | Shia—!!!
-0076 [Shia] | Karin! Boss! Oh, thank the stars you're both safe.
-0077 [Tú] | We had a feeling you'd be with the Hexhorn Whale. We came sailing as soon as we heard it.
-0078 [Hexhorn Whale] | Woo!
-0079 [Karin] | Whoa—a Hexhorn Whale!!==W== Everybody, be careful!!
-0080 [Shia] | Don't be scared, Karin. It's the one that saved me...
-0081 [Karin] | The Hexhorn Whale saved you?!
-0082 [Narración] | Shia fills us in on what happened.
-0083 [Karin] | No way... So the Hexhorn Whale wasn't a bad guy—==W==er, bad fish—after all.
-0084 [Karin] | Then why did it slam into our ship? That's what knocked you into the whirlpool...
-0085 [Tú] | Not exactly. That collision actually saved us.==W== If we'd kept heading straight for the light, we would've sailed right into that whirlpool before we knew it.
-0086 [Shia] | And I was right in the center of the whirlpool. If the Hexhorn Whale hadn't come to my rescue, I would've been a goner.
-0087 [Karin] | I was so wrong about you, Hexhorn Whale!==W== Now that I'm getting a closer look, you're actually kinda cute!
+0069 [Shia] | Abuela... Espero que no estés enojada conmigo por ignorar tu advertencia y llegar tan lejos...
+0070 [Shia] | Solo quería seguir tus pasos... para volver a verte.
+0071 [Shia] | ... Aunque fuera solo un rastro que dejaste.
+0072 [Narración] | Bengalas familiares estallan y pintan el cielo lejano. Shia se pone de pie, sabiendo que la verdad por fin está a su alcance.
+0073 [Shia] | Vamos. Hora de ir por Karin y el Jefe.
+0074 [Hexhorn Whale] | ¡Woo!
+0075 [Karin] | ¡Shia...!
+0076 [Shia] | ¡Karin! ¡Jefe! Ay, gracias a las estrellas que los dos están bien.
+0077 [Tú] | Teníamos el presentimiento de que estarías con la Ballena Hexcuerno. Vinimos navegando en cuanto la oímos.
+0078 [Hexhorn Whale] | ¡Woo!
+0079 [Karin] | ¡Guau, una Ballena Hexcuerno!==W== ¡¡Todos, cuidado!!
+0080 [Shia] | No tengas miedo, Karin. Es la que me salvó...
+0081 [Karin] | ¡¿La Ballena Hexcuerno te salvó?!
+0082 [Narración] | Shia nos cuenta lo que pasó.
+0083 [Karin] | No puede ser... Así que la Ballena Hexcuerno no era mala... ==W==eh, mal pez... después de todo.
+0084 [Karin] | Entonces, ¿por qué se estrelló contra nuestro barco? Eso fue lo que te lanzó al remolino...
+0085 [Tú] | No exactamente. Ese choque en realidad nos salvó.==W== Si hubiéramos seguido derecho hacia la luz, habríamos navegado directo al remolino sin darnos cuenta.
+0086 [Shia] | Y yo estaba justo en el centro del remolino. Si la Ballena Hexcuerno no hubiera venido a rescatarme, estaría perdida.
+0087 [Karin] | ¡Me equivoqué tanto contigo, Ballena Hexcuerno!==W== Ahora que te veo de cerca, ¡hasta eres bastante linda!
 0088 [Hexhorn Whale] | Woo~
-0089 [Shia] | Heh, let's save our thank-yous for later. We have more important things to deal with.
-0090 [Shia] | As you can see, the light is coming from deep within this island. We're in uncharted territory, so we better be careful.
-0091 [Karin] | No problem, we're fully geared up. I even brought this lantern with me, see?
-0092 [Shia] | Huh? Why is it ... lit up again?
-0093 [Karin] | Not sure. It fell into the ocean, then Boss found it again.
-0094 [Tú] | Yeah, it was just floating there, glowing... I thought my eyes were playing tricks on me.
-0095 [Tú] | This lantern and I... It feels like fate keeps bringing us together. I can't shake this feeling...
-0096 [Karin] | Anyway, I think it's a good omen! And since it was Granny's, having it with me is like a good luck charm.
-0097 [Shia] | Alright, let's get going.
-0098 [Karin] | Woohoo, is it finally time for the grand finale? I'm so excited—
-0099 [Treasure Hunter Leader] | ... "Grand finale," you say?
-0100 [Treasure Hunter Leader] | The true finale, I fear, will be a far cry from what you expect.
-0101 [Narración] | Bwahahahahahahaha—
-0102 [Narración] | Eternal slumber beneath the waves, with this whale as your tomb—that shall be your glorious end!
+0089 [Shia] | Je, dejemos los agradecimientos para después. Tenemos cosas más importantes que atender.
+0090 [Shia] | Como ven, la luz viene de lo más profundo de esta isla. Estamos en territorio inexplorado, así que mejor tengamos cuidado.
+0091 [Karin] | No hay problema, estamos bien equipados. Hasta traje este farol, ¿ven?
+0092 [Shia] | ¿Eh? ¿Por qué está... encendido otra vez?
+0093 [Karin] | No sé. Cayó al océano y luego el Jefe lo encontró de nuevo.
+0094 [Tú] | Sí, estaba ahí flotando, brillando... Pensé que mis ojos me engañaban.
+0095 [Tú] | Este farol y yo... Se siente como si el destino insistiera en juntarnos. No puedo quitarme esta sensación...
+0096 [Karin] | ¡En fin, creo que es un buen augurio! Y como era de la abuela, llevarlo conmigo es como tener un amuleto de la suerte.
+0097 [Shia] | Muy bien, vámonos.
+0098 [Karin] | ¡Yupi, ¿ya es hora del gran final?! Estoy emocionadísima...
+0099 [Treasure Hunter Leader] | ... ¿«Gran final», dices?
+0100 [Treasure Hunter Leader] | Me temo que el verdadero final será muy distinto de lo que esperas.
+0101 [Narración] | Buajajajajajajajaja...
+0102 [Narración] | ¡El sueño eterno bajo las olas, con esta ballena como tu tumba: ese será tu glorioso final!
