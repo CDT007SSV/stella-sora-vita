@@ -30,6 +30,7 @@ def limpia(t):
     t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r"\1", t)  # [texto](enlace) -> texto
     t = re.sub(r"^\s*#{1,3}\s*", "", t, flags=re.M)     # titulos markdown
     t = re.sub(r"(\*\*|__|\*|~~|`)", "", t)
+    t = re.sub(r"\\([\\`*_{}\[\]()#+\-.!~|>])", r"\1", t)     # quita los escapes con barra invertida
     t = re.sub(r"[ \t]+\n", "\n", t)
     t = re.sub(r"\n{3,}", "\n\n", t)
     return t.strip()
@@ -59,6 +60,10 @@ def mensaje_a_item(m):
     resto = texto
     if lineas and titulo == lineas[0]:
         resto = "\n".join(lineas[1:]).strip()
+    if re.match(r"^https?://\S+$", titulo):          # el mensaje es solo un enlace: usa la primera linea de texto como titulo
+        sin = [l for l in lineas if not re.match(r"^https?://\S+$", l)]
+        titulo = sin[0] if sin else "Publicación en X"
+        resto = "\n".join(sin[1:]).strip()
     if len(titulo) > 110: titulo = titulo[:107].rstrip() + "…"
     if len(resto) > 700: resto = resto[:697].rstrip() + "…"
     ref = m.get("message_reference") or {}
