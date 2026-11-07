@@ -290,7 +290,7 @@ function peek(txt){
   try{
     const m=String(txt).trim().replace(/\s+/g,"");
     const j=unb64(m.replace(/^SSV\d:/,""));
-    if(/^SSV3:/.test(m))return{n:j.n,c:j.c||[],d:(j.d||[]).filter(Boolean).length,t:j.t};
+    if(/^SSV3:/.test(m))return{n:j.n,c:j.c||[],d:(j.d||[]).filter(Boolean).length,t:j.t,k:JSON.stringify([j.c||[],j.p||[],j.d||[]])};
     return{n:j.name,c:(j.slots||[]).map(x=>x.c),d:(j.discs||[]).filter(Boolean).length,t:j.score};
   }catch(x){return null}
 }
@@ -503,7 +503,7 @@ async function cmLoad(){
   R.slice(1).forEach((row,k)=>{
     if(ip>=0&&!ok(row[ip]||""))return;
     const code=(row[ic]||"").trim(),pk=peek(code);if(!pk)return;
-    if(vistos.has(code))return;vistos.add(code);
+    const kk=pk.k||code;if(vistos.has(kk))return;vistos.add(kk);
     out.push({code,alias:String(ia>=0?row[ia]:"").trim().slice(0,40)||"Anónimo",title:String(pk.n||"Build").slice(0,60),pk,k});
   });
   return out.reverse();
