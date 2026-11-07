@@ -44,10 +44,14 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-hd .rd-emo{top:2%;left:auto;right:4%;font-size:calc(var(--u)*6)}
 @keyframes rdIn{from{opacity:0}to{opacity:1}}
 #rd .rd-out{position:absolute;top:calc(var(--u)*2.6);left:calc(var(--u)*3 + env(safe-area-inset-left));z-index:5;color:#fff;font-weight:800;font-size:calc(var(--u)*3.6);text-shadow:0 1px 4px rgba(0,0,0,.7);background:none;border:0;padding:0}
-#rd .rd-bar{position:absolute;top:calc(var(--u)*2);right:calc(var(--u)*2.5 + env(safe-area-inset-right));z-index:5;display:flex;align-items:center;background:rgba(18,14,44,.82);border:1px solid rgba(123,108,255,.4);border-radius:99px;box-shadow:0 2px 10px rgba(0,0,0,.4)}
-#rd .rd-bar button{background:none;border:0;color:#fff;font:inherit;font-weight:800;font-size:calc(var(--u)*3);padding:calc(var(--u)*1.8) calc(var(--u)*3);border-right:1px solid rgba(255,255,255,.14);display:flex;align-items:center;gap:calc(var(--u)*1)}
-#rd .rd-bar button:last-child{border-right:0}
-#rd .rd-bar svg{width:calc(var(--u)*4);height:calc(var(--u)*4);fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+#rd .rd-gear{position:absolute;top:calc(var(--u)*2);right:calc(var(--u)*2.5 + env(safe-area-inset-right));z-index:6;width:calc(var(--u)*7);height:calc(var(--u)*7);border-radius:50%;padding:0;display:flex;align-items:center;justify-content:center;background:rgba(18,14,44,.72);border:1px solid rgba(123,108,255,.45);box-shadow:0 2px 8px rgba(0,0,0,.4);color:#fff}
+#rd .rd-gear svg{width:calc(var(--u)*4);height:calc(var(--u)*4);fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#rd .rd-gear.on{background:rgba(123,108,255,.85)}
+#rd .rd-menu{position:absolute;top:calc(var(--u)*10);right:calc(var(--u)*2.5 + env(safe-area-inset-right));z-index:6;display:none;flex-direction:column;min-width:calc(var(--u)*38);background:rgba(18,14,44,.95);border:1px solid rgba(123,108,255,.45);border-radius:calc(var(--u)*2.5);box-shadow:0 4px 16px rgba(0,0,0,.5);overflow:hidden}
+#rd .rd-menu.on{display:flex;animation:rdIn .15s}
+#rd .rd-menu button{background:none;border:0;color:#fff;font:inherit;font-weight:700;font-size:calc(var(--u)*3.2);padding:calc(var(--u)*2.2) calc(var(--u)*3.6);text-align:left;border-bottom:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:calc(var(--u)*1.5)}
+#rd .rd-menu button:last-child{border-bottom:0}
+#rd .rd-menu svg{width:calc(var(--u)*3.6);height:calc(var(--u)*3.6);fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 #rd .rd-box{position:absolute;left:19%;right:19%;bottom:calc(var(--u)*4);min-height:calc(var(--u)*24);background:rgba(250,250,255,.86);background-image:radial-gradient(rgba(120,120,170,.10) 1px,transparent 1.2px);background-size:4px 4px;border:2px solid #fff;border-radius:calc(var(--u)*3);box-shadow:0 3px 12px rgba(0,0,0,.25);padding:calc(var(--u)*3.6) calc(var(--u)*4.4) calc(var(--u)*3.2);color:#1f2a4d;z-index:4;box-sizing:border-box}
 #rd .rd-nm{position:absolute;top:calc(var(--u)*-6.2);left:calc(var(--u)*-3);min-width:calc(var(--u)*32);text-align:center;background:#e9e7f6;color:#1f2a4d;font-weight:800;font-size:calc(var(--u)*3.9);padding:calc(var(--u)*1.2) calc(var(--u)*4);border-radius:calc(var(--u)*1) calc(var(--u)*1) 0 0;border-bottom:calc(var(--u)*.8) solid #a99be8;box-shadow:calc(var(--u)*.8) 0 0 #a99be8}
 #rd .rd-nm:empty{display:none}
@@ -159,13 +163,17 @@ function build(){
   el=document.createElement("div");el.id="rd";
   el.innerHTML=`<div class="rd-st">${[0,1,2,3,4,5,6].map(i=>'<div class="rd-sg'+(i?'':' on')+'" data-s="'+i+'"><div class="rd-sgi"><div class="rd-bgi"></div><div class="rd-chars"></div></div></div>').join("")}<svg class="rd-sl" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="58" y1="0" x2="42" y2="100"/><line x1="30" y1="0" x2="14" y2="100"/><line x1="86" y1="0" x2="70" y2="100"/></svg><div class="rd-fxl"></div><div class="rd-film"><i></i><i></i></div><div class="rd-cur"></div><div class="rd-dim"></div><img class="rd-obj" alt="" referrerpolicy="no-referrer">
    <button class="rd-out" data-a="x">✕ Salir</button>
-   <div class="rd-bar"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="e"></button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg></button></div>
+   <button class="rd-gear" data-a="cfg" aria-label="Ajustes"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+   <div class="rd-menu"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="e"></button><button data-a="m"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg>Registro</button></div>
    <div class="rd-box"><div class="rd-face"><img alt="" referrerpolicy="no-referrer"></div><span class="rd-nm"></span><div class="rd-tx"></div><span class="rd-nx"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 11 7 11s7-6 7-11a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span></div>
    <div class="rd-card" id="rd-c"></div></div>`;
   document.body.appendChild(el);
   el.addEventListener("click",e=>{
-    const a=e.target.closest("[data-a]");
-    if(a){const k=a.dataset.a;
+    const a=e.target.closest("[data-a]"),mn=el.querySelector(".rd-menu"),gr=el.querySelector(".rd-gear");
+    const cierraMn=()=>{mn.classList.remove("on");gr.classList.remove("on")};
+    if(a&&a.dataset.a==="cfg"){mn.classList.toggle("on");gr.classList.toggle("on");return}
+    if(mn.classList.contains("on")&&!e.target.closest(".rd-menu")){cierraMn();return}   // tocar fuera solo cierra el menu, no avanza el dialogo
+    if(a){const k=a.dataset.a;if(k==="ac"||k==="l"||k==="x"||k==="nx")cierraMn();
       if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="e"){S.em=S.em?0:1;try{localStorage.setItem("rde",S.em)}catch(e){}btnE();if(!S.em)el.querySelectorAll(".rd-emo,.rd-memo").forEach(x=>x.remove())}else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="z"){S.zs=S.zs<1?1:S.zs>1?.85:1.15;if(S.zs===1.15&&false)S.zs=1;try{localStorage.setItem("rdz",S.zs)}catch(e){}btnZ();Object.keys(S.chars).forEach(k=>lay(S.chars[k]))}else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}

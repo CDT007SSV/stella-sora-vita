@@ -786,7 +786,7 @@ function rEvents(){document.getElementById("events-list").className="ge-list";do
   const ch=evChain(e);
   return `<div class="ge" data-go="ev/${e.id}">
     <div class="ge-i"><img src="${th(ch[0],640)}" alt="" data-alts='${JSON.stringify(ch)}' loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="evErr(this)"/></div>
-    <div class="ge-r"><span>${esc(e.name)}</span></div>${e.nuevo?'<span class="hm-new">NUEVO</span>':""}
+    <div class="ge-r"><span>${esc(e.nombre||e.name)}</span></div>${e.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rEvents();
 function showEvent(id){
   const e=EVENTS.find(x=>x.id===id); if(!e){showStart();return}
@@ -794,7 +794,7 @@ function showEvent(id){
   const ch=evChain(e);
   document.getElementById("event-detail").innerHTML=`
     <img class="chap-img" src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' referrerpolicy="no-referrer" onerror="evErr(this)"/>
-    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(e.name)}</h2>
+    <h2 style="font-size:1.25rem;margin:12px 0 ${e.nombre?"2px":"8px"}">${esc(e.nombre||e.name)}</h2>${e.nombre?`<div style="font-size:.78rem;color:var(--t2);margin-bottom:8px">Título original: ${esc(e.name)}</div>`:""}
     ${e.trekker?`<div class="chips"><span class="chip on">Trekker destacada: ${esc(e.trekker)}</span></div>`:""}`+
     accionesHist("ev:"+e.id,`<div class="card"><div class="spoil">⚠ Contiene spoilers</div>
       ${e.resumen?e.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join(""):`<p style="line-height:1.55">Todavía no hay resumen en español de este evento. Muy pronto lo agregamos.</p>`}
@@ -806,14 +806,14 @@ function showEvent(id){
 function rNova(){document.getElementById("novatimes-list").className="gx-grid";document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
   return `<div class="gn" data-go="nt/${n.id}">
     <div class="gn-f"><img src="${th(n.img,420)}" data-full="${n.img}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="thErr(this,'hide')"/><span class="gn-tag">#${n.number}</span></div>
-    <div class="gn-t">${esc(n.name)}</div>${n.nuevo?'<span class="hm-new">NUEVO</span>':""}
+    <div class="gn-t">${esc(n.nombre||n.name)}</div>${n.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rNova();
 function showNova(id){
   const n=NOVA_TIMES.find(x=>x.id===id); if(!n){showStart();return}
   document.getElementById("nt-title").textContent="Nova Times #"+n.number;
   document.getElementById("nova-detail").innerHTML=`
     <img class="chap-img" src="${n.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
-    <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(n.name)}</h2>`+
+    <h2 style="font-size:1.25rem;margin:12px 0 ${n.nombre?"2px":"8px"}">${esc(n.nombre||n.name)}</h2>${n.nombre?`<div style="font-size:.78rem;color:var(--t2);margin-bottom:8px">Título original: ${esc(n.name)}</div>`:""}`+
     accionesHist("nt:"+n.id,`<div class="card">
       ${n.resumen?`<div class="spoil">⚠ Contiene spoilers</div>`+n.resumen.split("\n\n").map(t=>`<p style="margin-bottom:10px;line-height:1.55">${esc(t)}</p>`).join("")
         :`<p style="margin-bottom:10px;line-height:1.55">Todavía no hay un resumen de esta historia en la app.</p>`}
@@ -1917,8 +1917,8 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
     try{CHARS.forEach(c=>o.push({g:"Personajes",t:c.name,x:[c.faction,c.element,c.role,ROLE_ES&&ROLE_ES[c.role]].join(" "),h:"c/"+c.id,s:c.rarity+"★ · "+c.element}))}catch(e){}
     try{DISCS.forEach(d=>o.push({g:"Discos",t:d.name,x:d.element,h:"d/"+d.name,s:d.rarity+"★ · "+d.element}))}catch(e){}
     try{CHAPS.forEach(c=>o.push({g:"Historia principal",t:c.titleEs+" ("+c.titleEn+")",x:"capitulo "+c.number,h:"ch/"+c.number,s:"Cap. "+c.number}))}catch(e){}
-    try{EVENTS.forEach(e=>o.push({g:"Eventos",t:e.name,x:e.summary,h:"ev/"+e.id,s:""}))}catch(e){}
-    try{NOVA_TIMES.forEach(n=>o.push({g:"Nova Times",t:n.name,x:"nova times "+n.number,h:"nt/"+n.id,s:"#"+n.number}))}catch(e){}
+    try{EVENTS.forEach(e=>o.push({g:"Eventos",t:e.nombre||e.name,x:e.name+" "+e.summary,h:"ev/"+e.id,s:""}))}catch(e){}
+    try{NOVA_TIMES.forEach(n=>o.push({g:"Nova Times",t:n.nombre||n.name,x:n.name+" nova times "+n.number,h:"nt/"+n.id,s:"#"+n.number}))}catch(e){}
     try{if(BUILDS&&BUILDS.items)BUILDS.items.forEach(b=>o.push({g:"Equipos y builds",t:b.title.trim(),x:(typeof bTags==="function"?bTags(b).join(" "):""),h:"b/"+b.id,s:""}))}catch(e){}
     return o;
   }
