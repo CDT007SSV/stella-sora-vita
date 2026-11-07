@@ -499,10 +499,11 @@ async function cmLoad(){
   const ic=ix(/codigo|code/),ia=ix(/alias|autor|author|nombre/),ip=ix(/aprob|approved/),it=ix(/marca|timestamp|fecha/);
   if(ic<0)return[];
   const ok=v=>/^(si|yes|true|1|x|ok|aprobado)$/.test(norm(v).trim());
-  const out=[];
+  const out=[],vistos=new Set();
   R.slice(1).forEach((row,k)=>{
     if(ip>=0&&!ok(row[ip]||""))return;
     const code=(row[ic]||"").trim(),pk=peek(code);if(!pk)return;
+    if(vistos.has(code))return;vistos.add(code);
     out.push({code,alias:String(ia>=0?row[ia]:"").trim().slice(0,40)||"Anónimo",title:String(pk.n||"Build").slice(0,60),pk,k});
   });
   return out.reverse();
