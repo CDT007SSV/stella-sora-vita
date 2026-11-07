@@ -280,6 +280,8 @@ function faceSet(pose,expr){
 }
 /* Reglas del juego (AvgPreset.CharEmoji / Avg_2_L2DCtrl._SetEmoji): "none"=sin cambio, "close"=quitar;
    los emojis normales desaparecen solos a los 5 s; solo los "loop" se quedan hasta que se reemplazan o se cierran. */
+/* sonido de cada emoji (AvgPreset.CharEmoji del juego: nombre -> efecto "se_xxx"). Suena al aparecer el emoji, aunque sea de los que solo se ve en la cara */
+const EMSE={angry:"se_046",attention:"se_047",exclamation:"se_048",happy:"se_049",love:"se_050",music:"se_051",question:"se_052",shock:"se_053",shy:"se_054",speechless:"se_055",star:"se_056",sweaty:"se_057",symbol:"se_058",vexation:"se_059",awkward:"se_122",idea:"se_123",flurry:"se_124",sigh:"se_125",think:"se_055",flower:"se_305",resentful:"se_237",sleepy:"se_306"};
 const EMLOOP={angry:1,shock:1,speechless:1,think:1,sleepy:1};
 /* emojis de cara: el sprite ya muestra la emoción, no se dibujan */
 const EMFACE={happy:1,shy:1,awkward:1,shock:1,resentful:1};
@@ -296,6 +298,7 @@ function emoji(host,n,cls,wait){
 }
 function emojiNow(host,n,cls){
   if(n==="none")return;
+  if(n&&n!=="close"&&EMSE[n])se(EMSE[n]);
   host.querySelectorAll("."+cls).forEach(x=>{clearTimeout(x._o);clearInterval(x._t);x.remove()});
   if(!n||n==="close"||(S&&S.em===0)||EMFACE[n])return;
   const e=document.createElement("span");e.className=cls+(n==="speechless"||n==="think"?" tx":"");e.textContent=EM[n]||"";host.appendChild(e);
