@@ -1,7 +1,7 @@
 # Capítulo 3 · 10 · Victoria e intercambio
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:Spirit of Brutality | Espíritu de la Brutalidad
@@ -58,9 +58,9 @@ N:avg3_135 | Claire
 0039 [Fuyuka] | Todos me elogian y...==W== se siente mal. Yo no hice ninguno de esos movimientos.
 0040 [Fuyuka] | ¿Debería decirles la verdad, Jefe? Es decir, usted no puede estar conmigo todo el tiempo...
 0041 [Fuyuka] | Si creen que mis habilidades mejoraron y peleamos juntos cuando usted no está... Yo... podría hacer que los hieran de nuevo.
-0042 [Opción] (EN) | Tell her the truth
-0043 [Opción] (EN) | Help her understand
-0044 [Opción] (EN) | We can just stick together.
+0042 [Opción] | Decirle la verdad
+0043 [Opción] | Ayudarla a entender
+0044 [Opción] | Podemos quedarnos juntos.
 0045 [Tú] | Ejem. Fuyuka, sobre eso... en realidad nunca hicimos un pacto de alma.
 0046 [Fuyuka] | ¿N-no lo hicimos...?==W== Entonces, ¿qué firmé?
 0047 [Tú] | Míralo de nuevo.

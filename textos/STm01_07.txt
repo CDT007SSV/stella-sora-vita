@@ -1,7 +1,7 @@
 # Capítulo 1 · 7 · Un tipo distinto de deseo
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:avg1_103 | Amber
@@ -109,23 +109,23 @@ N:avg3_197 | Feagin
 0093 [Narración] | Amber junta su teléfono con el mío, espalda con espalda. En la pantalla de mi teléfono aparece un aviso.
 0094 [Narración] | «Amber te envió una solicitud de amistad».
 0095 [Tú] | Ah, a eso se refería.
-0096 [Opción] (EN) | Accept
-0097 [Opción] (EN) | Accept
-0098 [Opción] (EN) | Decline
+0096 [Opción] | Aceptar
+0097 [Opción] | Aceptar
+0098 [Opción] | Rechazar
 0099 [Amber] | ¿?
 0100 [Narración] | Amber ladea la cabeza confundida y vuelve a pegar su teléfono al mío.
 0101 [Narración] | «Amber te envió una solicitud de amistad».
-0102 [Opción] (EN) | Accept
-0103 [Opción] (EN) | Accept
-0104 [Opción] (EN) | Decline
+0102 [Opción] | Aceptar
+0103 [Opción] | Aceptar
+0104 [Opción] | Rechazar
 0105 [Amber] | ¿¿¿???
 0106 [Amber] | No me digas... ¿olvidaste cómo usar tu teléfono?
 0107 [Narración] | La frente de Amber toca la mía.
 0108 [Amber] | Sin fiebre.
 0109 [Narración] | «Amber te envió una solicitud de amistad».
-0110 [Opción] (EN) | Accept
-0111 [Opción] (EN) | Accept
-0112 [Opción] (EN) | Decline
+0110 [Opción] | Aceptar
+0111 [Opción] | Aceptar
+0112 [Opción] | Rechazar
 0113 [Tú] | Quizá me pasé un poco con la broma.
 0114 [Amber] | Supongo que... no me queda otra.
 0115 [Tú] | ¿?
@@ -133,32 +133,32 @@ N:avg3_197 | Feagin
 0117 [Amber] | Presiona esto.
 0118 [Tú] | ¡¡Da un poco de miedo ahora mismo...!!
 0119 [Tú] | ¡P-perdón! ¡Lo siento! ¡Me pasé con la broma!
-0120 [Opción] (EN) | Accept
-0121 [Opción] (EN) | Accept
-0122 [Opción] (EN) | Accept
-0123 [Amber] (EN) | ==PLAYER_NAME==, hello!
-0124 [Amber] (EN) | Phew, finally added you as a friend.
-0125 [Amber] (EN) | You had a question for me before, didn't you?
-0126 [Amber] (EN) | What was it? I'll answer anything I know!
+0120 [Opción] | Aceptar
+0121 [Opción] | Aceptar
+0122 [Opción] | Aceptar
+0123 [Amber] | ¡Hola, ==PLAYER_NAME==!
+0124 [Amber] | Uf, por fin te agregué como amigo.
+0125 [Amber] | Antes querías preguntarme algo, ¿no?
+0126 [Amber] | ¿Qué era? ¡Te contesto todo lo que sepa!
 0127 [Tú] | Teléfonos... Espera un momento.
 0128 [Tú] | Quizá los niños se llevaron un golpe más duro porque...
 0129 [Tú] | Debería consultar con Minova e Iris. Si todos experimentan esto, podría confirmar mis sospechas.
-0130 [Amber] (EN) | I'm just a liiitle low on energy.
-0131 [Amber] (EN) | But I'm fine! Wanna explore the Waterway Bridge together?
-0132 [Amber] (EN) | Were you ever in Emor before you lost your memory, ==PLAYER_NAME==?
-0133 [Amber] (EN) | Maybe you did, and even took photos on the Waterway.
+0130 [Amber] | Solo ando un poquiiito baja de energía.
+0131 [Amber] | ¡Pero estoy bien! ¿Exploramos juntos el puente del canal?
+0132 [Amber] | ==PLAYER_NAME==, ¿estuviste alguna vez en Emor antes de perder la memoria?
+0133 [Amber] | A lo mejor sí, y hasta te tomaste fotos en el canal.
 0134 [Tú] | Si ni los Trekkers profesionales logran descifrarlo, ¿qué posibilidades tengo yo con mi amnesia? Seguro son solo divagaciones mías. Mejor no meterme.
 0135 [Tú] | Ya no puedo pensar con claridad. Estaba a punto de descubrirlo.
 0136 [Tú] | No se puede pensar con el estómago vacío.
-0137 [Amber] (EN) | Yeah, phones are super fun! I like talking through my phone—it's faster, plus I can keep track of conversations better.
-0138 [Amber] (EN) | I also love taking photos with it, anytime, anywhere!
-0139 [Amber] (EN) | When I'm feeling down, my phone always cheers me up.
-0140 [Amber] (EN) | I wish I could get a phone with a big screen like yours, ==PLAYER_NAME==!
-0141 [Tú] (EN) | Phones ... Hang on a minute.
-0142 [Tú] (EN) | Maybe the kids have taken a harder hit because...
-0143 [Opción] (EN) | Investigate further
-0144 [Opción] (EN) | Give up thinking about it
-0145 [Opción] (EN) | Let's eat first
+0137 [Amber] | ¡Sí, los teléfonos son superdivertidos! Me gusta hablar por teléfono: es más rápido y además puedo seguir mejor las conversaciones.
+0138 [Amber] | ¡También me encanta tomar fotos con él, cuando sea y donde sea!
+0139 [Amber] | Cuando me siento triste, mi teléfono siempre me anima.
+0140 [Amber] | ¡Ojalá tuviera un teléfono con pantalla grande como el tuyo, ==PLAYER_NAME==!
+0141 [Tú] | Teléfonos... Espera un momento.
+0142 [Tú] | Quizá los niños se llevaron un golpe más duro porque...
+0143 [Opción] | Investigar más
+0144 [Opción] | Dejar de pensar en eso
+0145 [Opción] | Primero comamos
 0146 [Tú] | ¡Qué rápido!
 0147 [Tú] | Parece... algo emocionada.
 0148 [Tú] | No se ve «sin energía» en absoluto.

@@ -1,7 +1,7 @@
 # Capítulo 3 · 9 · Un corazón confiado
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:Fierce Bark Boar | Jabalí Corteza feroz
@@ -39,39 +39,39 @@ N:avg4_999 | Vita
 0014 [Nazuka] | Sí, lo sé.
 0015 [Claire] | ...==W== No puedes dejar las cosas atrás, ¿verdad?
 0016 [Lugar y hora] | 13:00, 27.º del mes de Pluvia, afueras de Philae, claro con huellas
-0017 [Amber] (EN) | I've finished surveying the tracks.
+0017 [Amber] | Terminé de inspeccionar las huellas.
 0018 [Amber] | 
-0019 [Amber] (EN) | Sixteen sets of massive footprints.
-0020 [Amber] (EN) | They seem to match those of the Spirit of Brutality.
-0021 [Amber] (EN) | There are a lot of smaller ones as well.
-0022 [Amber] (EN) | I estimate thirty... No, at least fifty Bark Boars.
+0019 [Amber] | Dieciséis rastros de huellas enormes.
+0020 [Amber] | Parecen coincidir con las del Espíritu de la Brutalidad.
+0021 [Amber] | También hay muchas más pequeñas.
+0022 [Amber] | Calculo unos treinta... No, al menos cincuenta Jabalíes Corteza.
 0023 [Amber] | 
-0024 [Amber] (EN) | Nazuna's intel said the Spirit of Brutality is a giant Bark Boar. It likely leads a massive herd.
-0025 [Kaede] (EN) | The tracks are fresh. They've been active in this area for the past few days.
-0026 [Iris] (EN) | Ugh... That many of them? How are we supposed to handle them?
+0024 [Amber] | Según la información de Nazuna, el Espíritu de la Brutalidad es un Jabalí Corteza gigante. Lo más probable es que guíe una manada enorme.
+0025 [Kaede] | Las huellas son recientes. Han estado rondando esta zona los últimos días.
+0026 [Iris] | Uf... ¿Tantos? ¿Cómo se supone que vamos a poder con ellos?
 0027 [Iris] | 
-0028 [Nazuna] (EN) | Under normal circumstances, you couldn't.
-0029 [Nazuna] (EN) | That's why the squad is a big one.
+0028 [Nazuna] | En circunstancias normales, no podrían.
+0029 [Nazuna] | Por eso la escuadra es tan grande.
 0030 [Nazuna] | 
-0031 [Nazuna] (EN) | If we're clever and use their behavior against them, we can still win.
-0032 [Nazuna] (EN) | Bark Boars are monsters that hunt solo. They always zero in on the strongest target they can find.
-0033 [Nazuna] (EN) | So, we'll spread out. Whoever gets aggro keeps the Spirit of Brutality tied up while the rest of us deal with the other boars.
-0034 [Nazuna] (EN) | Then we focus fire on the Spirit of Brutality.
+0031 [Nazuna] | Si somos listos y usamos su comportamiento en su contra, aún podemos ganar.
+0032 [Nazuna] | Los Jabalíes Corteza son monstruos que cazan solos. Siempre van directo al objetivo más fuerte que encuentran.
+0033 [Nazuna] | Así que nos vamos a dispersar. Quien atraiga su atención mantendrá ocupado al Espíritu de la Brutalidad mientras los demás nos encargamos del resto de los jabalíes.
+0034 [Nazuna] | Luego concentramos el ataque en el Espíritu de la Brutalidad.
 0035 [Nazuna] | 
-0036 [Tú] (EN) | Alright everyone, stay quiet. Once Mistique gets a visual, she's gonna lure the Spirit of Brutality here. I'll call the shots.
-0037 [Noya] (EN) | You got it!
-0038 [Amber] (EN) | Understood.
-0039 [Iris] (EN) | Roger that
-0040 [Nazuna] (EN) | Will do
-0041 [Fuyuka] (EN) | Got it
-0042 [Kaede] (EN) | Okay!
-0043 [Nazuna] (EN) | Heh. Standing around waiting to be targeted makes you feel like a prize in a claw machine, huh?
+0036 [Tú] | Muy bien, todos en silencio. En cuanto Mistique lo tenga a la vista, va a atraer al Espíritu de la Brutalidad hasta aquí. Yo daré las órdenes.
+0037 [Noya] | ¡Entendido!
+0038 [Amber] | Comprendido.
+0039 [Iris] | Recibido
+0040 [Nazuna] | De acuerdo
+0041 [Fuyuka] | Entendido
+0042 [Kaede] | ¡Okey!
+0043 [Nazuna] | Je. Estar aquí parados esperando a que nos elijan como objetivo te hace sentir como un premio en una máquina de garra, ¿no?
 0044 [Nazuna] | 
 0045 [Kaede] | 
-0046 [Kaede] (EN) | Keep talking like that, Nazuna, and you just might be the prize snagged.
-0047 [Amber] (EN) | Prophecy.
+0046 [Kaede] | Sigue hablando así, Nazuna, y a lo mejor el premio que atrapen seas tú.
+0047 [Amber] | Profecía.
 0048 [Amber] | 
-0049 [Nazuna] (EN) | Hey, I was just making a comparison!
+0049 [Nazuna] | ¡Oye, solo estaba haciendo una comparación!
 0050 [Tú] | La escuadra de emboscada está lista. Ahora solo tenemos que confiar en que Mistique haga su parte.
 0051 [Narración] | Guardo el teléfono y me uno a Fuyuka en un acantilado bajo que domina el que pronto será el campo de batalla.
 0052 [Fuyuka] | J-Jefe...==W== En un momento como este...==W==no,==W== precisamente porque es un momento como este...==W== ¡P-por favor, tome mi alma!
@@ -84,9 +84,9 @@ N:avg4_999 | Vita
 0059 [Tú] | ¿Controlarte? ¿Quién te ha estado diciendo estas cosas?
 0060 [Fuyuka] | L-lo siento,==W== no puedo decir su nombre,==W== pero...==W== como su guardaespaldas en esta pelea, estoy aterrada.==W== Me preocupa no poder controlar mi propia fuerza...
 0061 [Tú] | Dudo que Iris o las demás mencionaran jamás el intercambio de almas...==W== La única que le metería una idea así en la cabeza a Fuyuka es Serena. Tiene que ser ella.
-0062 [Opción] (EN) | Address with passion
-0063 [Opción] (EN) | Address with logic
-0064 [Opción] (EN) | Address as the Boss
+0062 [Opción] | Hablarles con pasión
+0063 [Opción] | Hablarles con lógica
+0064 [Opción] | Hablarles como el Jefe
 0065 [Tú] | Fuyuka, creo en ti.==W== Después de todo ese entrenamiento, lo tienes totalmente dominado.
 0066 [Fuyuka] | ¿D-==W==de verdad...?
 0067 [Tú] | ¿Tú crees en mí?

@@ -1,7 +1,7 @@
 # Capítulo 3 · Interludio 2 · Vita
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:avg1_103 | Amber
@@ -41,9 +41,9 @@ N:avg4_999 | Vita
 0023 [Tú] | Así que tengo que subir de nivel este sistema para saber más...==W== Mmm... ¿No sienten que ==W==este sistema me tienta con información para que trabaje para él?
 0024 [Tú] | Bueno, al menos saber que las almas están «a salvo hasta que se utilicen» tranquiliza un poco. Qué bueno que nuestra apuesta contra Creta Trading no les saliera mal a todos.
 0025 [Tú] | ¿Hm? Es Amber.
-0026 [Amber] (EN) | ==PLAYER_NAME==, don't stress over our soul trades.
-0027 [Amber] (EN) | It was our choice. We're a Guild, and Guilds gotta stick together.
-0028 [Amber] (EN) | Noya and Iris feel the same way. You stood up for us, and we couldn't let you face the risks alone.
+0026 [Amber] | ==PLAYER_NAME==, no te agobies por nuestros tratos de almas.
+0027 [Amber] | Fue nuestra decisión. Somos un Gremio, y los Gremios tienen que mantenerse unidos.
+0028 [Amber] | Noya e Iris piensan lo mismo. Tú nos defendiste, y no podíamos dejar que enfrentaras los riesgos solo.
 0029 [Amber] | 
 0030 [Tú] | Gracias, Amber.
 0031 [Vita] | El Tirano muestra una gran benevolencia. Pero este intercambio de almas conlleva notables beneficios para todos los empleados del Pacto del Tirano.
@@ -106,9 +106,9 @@ N:avg4_999 | Vita
 0088 [Tú] | Uf, ya regresé.
 0089 [Noya] | ¿Regresaste...==W== de dónde? Parecías perdido en tus pensamientos. ¿Estás bien?
 0090 [Tú] | ¿Toda esa conversación duró solo unos segundos en tiempo real? Si no puedo contarle a nadie sobre la Sala Blanca...
-0091 [Opción] (EN) | My bad, I was just spacing out.
-0092 [Opción] (EN) | These chess pieces sure are something else.
-0093 [Opción] (EN) | You guys need to know—
+0091 [Opción] | Perdón, me quedé en las nubes.
+0092 [Opción] | Estas piezas de ajedrez sí que son otra cosa.
+0093 [Opción] | Tienen que saber que...
 0094 [Tú] | Después de todo, es una habilidad valiosa. Si compartirla significa perderla, es mejor que me calle.
 0095 [Tú] | ¿En qué estábamos?
 0096 [Iris] | Así que ahora podemos pedir deseos sin perder la memoria. No estoy del todo convencida...==W== Pero si de verdad funciona, cambia mucho las cosas.

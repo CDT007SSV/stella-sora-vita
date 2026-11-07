@@ -1,7 +1,7 @@
 # Capítulo 2 · 1 · Loxy y la compañía
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:avg1_103 | Amber
@@ -67,16 +67,16 @@ N:avg3_197 | Feagin
 0049 [Noya] | Nosotras también hicimos algunos descubrimientos en el Monolito hoy.
 0050 [Amber] | ¿Podemos mejor mandarlo por mensaje?
 0051 [Tú] | Cierto.
-0052 [Amber] (EN) | After you left, the three of us kept climbing the Monolith.
-0053 [Amber] (EN) | Feagin was ticked off, so she just handed over a wish card.
-0054 [Amber] (EN) | I used it to make a wish, and I got—
-0055 [Amber] (EN) | The Lucky Oasis.
-0056 [Tú] (EN) | The Lucky Oasis? What are you talking about?
-0057 [Tú] (EN) | Amber, are you feeling alright? Did it ... did it take too many memories?
-0058 [Amber] (EN) | I'm okay. Didn't lose anything vital.
-0059 [Amber] (EN) | Maybe it's because I didn't wish for the complete Lucky Oasis? Just the outer shell.
-0060 [Amber] (EN) | And it's not even metal. Feels more like ... you know those Monolith drink bottles?
-0061 [Amber] (EN) | I have no clue what Feagin's up to.
+0052 [Amber] | Después de que te fuiste, las tres seguimos subiendo el Monolito.
+0053 [Amber] | Feagin estaba molesta, así que nada más nos dio una tarjeta de deseo.
+0054 [Amber] | La usé para pedir un deseo, y me salió...
+0055 [Amber] | El Lucky Oasis.
+0056 [Tú] | ¿El Lucky Oasis? ¿De qué hablas?
+0057 [Tú] | Amber, ¿te sientes bien? ¿No... no te quitó demasiados recuerdos?
+0058 [Amber] | Estoy bien. No perdí nada importante.
+0059 [Amber] | ¿Será porque no pedí el Lucky Oasis completo? Solo el cascarón.
+0060 [Amber] | Y ni siquiera es de metal. Se siente más como... ¿sabes esas botellas de bebida del Monolito?
+0061 [Amber] | No tengo idea de qué trama Feagin.
 0062 [Tú] | Espera, ¿Feagin está tratando de desear el Lucky Oasis?
 0063 [Iris] | Lo dudo. El Lucky Oasis es demasiado grande y complejo. Nadie ha deseado nunca un Artefacto de esa escala.
 0064 [Iris] | O sea, imaginarlo a la perfección ya es una cosa, ¿pero todas esas intrincadas piezas de automóvil? Es pedirle demasiado a la mente de una persona.
@@ -94,9 +94,9 @@ N:avg3_197 | Feagin
 0076 [Amber] | Entraré esta noche.
 0077 [Minova] | Puedo usar mi fachada de la Academia Platino para hacer un reconocimiento de Creta Trading.
 0078 [Iris] | Ambos planes son arriesgados...==W== ==PLAYER_NAME==, ¿qué decides?
-0079 [Opción] (EN) | Sneak in tonight.
-0080 [Opción] (EN) | Have Minova scout first.
-0081 [Opción] (EN) | Let's think of something else.
+0079 [Opción] | Colarnos esta noche.
+0080 [Opción] | Que Minova explore primero.
+0081 [Opción] | Pensemos en otra cosa.
 0082 [Tú] | Esperemos a que anochezca y entremos a escondidas. Lo simple es lo mejor.
 0083 [Amber] | Haré lo posible.
 0084 [Minova] | Muy bien, echemos un sueñito y recarguemos energías para esta noche.

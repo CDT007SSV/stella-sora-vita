@@ -1,7 +1,7 @@
 # Capítulo 3 · 2 · La señora oculta del bosque
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:avg1_103 | Amber
@@ -59,18 +59,18 @@ N:avg3_999 | ???
 0044 [???] | Suena como un verdadero desafío, ¿eh?
 0045 [Tú] | ...
 0046 [Tú] | Solo quiere alguien con quien jugar, ¿verdad?
-0047 [Amber] (EN) | ==PLAYER_NAME==, I want it.
-0048 [Tú] (EN) | ?
-0049 [Amber] (EN) | I want that plushie.
+0047 [Amber] | ==PLAYER_NAME==, lo quiero.
+0048 [Tú] | ¿?
+0049 [Amber] | Quiero ese peluche.
 0050 [Tú] | Vaya, nunca había visto a Amber tan emocionada por algo.
 0051 [???] | ¡Sabía que no podrían resistirse! ¿Ves? Tu amiga ya está lista para empezar♪
 0052 [???] | Hmph. ¡Ah, ahora lo entiendo! No buscaban a Serena para nada. ¡Vinieron por MÍ!
 0053 [Tú] | ...
 0054 [???] | Seguro oyeron historias sobre la Señora Oculta de la Garra de Premios y vinieron en busca de un desafío, ¿verdad?
 0055 [Tú] | Bien, parece que no obtendremos respuestas hasta que le sigamos el juego.
-0056 [Opción] (EN) | Accept her challenge
-0057 [Opción] (EN) | Show her what you're made of
-0058 [Opción] (EN) | Scare her off
+0056 [Opción] | Aceptar su desafío
+0057 [Opción] | Demostrarle de qué estás hecho
+0058 [Opción] | Asustarla para que se vaya
 0059 [Tú] | Ya que Amber quiere jugar, más vale seguirle la corriente.
 0060 [Tú] | Está bien, aceptamos tu desafío. Pero si ganamos, tienes que llevarnos con Serena.
 0061 [Señora de la Garra de Premios] | ¿Te das cuenta de que estás desafiando a la Señora de la Garra de Premios, verdad? Encontrar a Serena no es nada. Si me vences, haré lo que quieras.

@@ -1,7 +1,7 @@
 # Capítulo 1 · 4 · Bajo el puente
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:Noya & Amber | Noya y Amber
@@ -42,9 +42,9 @@ N:avg3_100 | Sylar
 0028 [Noya] | Hablarle con calma o esperar a que se le pase. Pronto se recupera. Si quieres acelerarlo, distráela con algo que le guste.
 0029 [Tú] | ¿Algo que le guste de verdad?
 0030 [Amber] | Resolver problemas.
-0031 [Opción] (EN) | Comfort Iris the usual way
-0032 [Opción] (EN) | Comfort Iris by getting her to solve problems
-0033 [Opción] (EN) | Wait patiently
+0031 [Opción] | Consolar a Iris como siempre
+0032 [Opción] | Consolar a Iris poniéndola a resolver problemas
+0033 [Opción] | Esperar con paciencia
 0034 [Tú] | Iris, vamos a recuperar el Lucky Oasis sin falta.
 0035 [Iris] | 50 310... 50 311...
 0036 [Tú] | No pasó nada.==W== Bien, hora de probar otro enfoque...

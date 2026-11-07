@@ -1,7 +1,7 @@
 # Capítulo 3 · 1 · Los Tres Grandes
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:Chatty Trekker | Trekker parlanchín
@@ -38,9 +38,9 @@ N:avg3_139 | Trekker
 0007 [Amber] | Uf, casi se me sale el corazón.
 0008 [Tú] | ¿E-eh? ¿Qué pasó?
 0009 [Noya] | Tengo una buena noticia y una mala. ¿Cuál quieren oír primero?
-0010 [Opción] (EN) | Good news
-0011 [Opción] (EN) | Bad news
-0012 [Opción] (EN) | Five more minutes...
+0010 [Opción] | La buena noticia
+0011 [Opción] | La mala noticia
+0012 [Opción] | Cinco minutos más...
 0013 [Tú] | La buena. Siempre es mejor despertar con una buena noticia que con una mala.
 0014 [Noya] | ¡La buena noticia es que llegamos a Philae!
 0015 [Tú] | ¡¿En serio?! ¡Por fin llegamos!
@@ -69,13 +69,13 @@ N:avg3_139 | Trekker
 0038 [Tú] | ¿Así que esto es Philae? Es incluso más concurrido de lo que imaginaba.
 0039 [Iris] | No, Philae todavía está lejos. Esto es solo el campamento de Trekkers a las afueras de la ciudad.
 0040 [Tú] | ¿Toda esta gente en un campamento tan enorme son Trekkers?
-0041 [Amber] (EN) | Trekkers usually set up camps near hot spots. Makes things easier.
-0042 [Amber] (EN) | Over time, they turn into these huge hubs for finding commissions, trading Artifacts, and forming guilds.
-0043 [Amber] (EN) | But since there's no Monolith nearby, I'm not sure why this place is so crowded.
+0041 [Amber] | Los Trekkers suelen montar campamentos cerca de los puntos calientes. Así todo es más fácil.
+0042 [Amber] | Con el tiempo se convierten en centros enormes para buscar encargos, intercambiar Artefactos y formar gremios.
+0043 [Amber] | Pero como no hay ningún Monolito cerca, no sé por qué este lugar está tan lleno.
 0044 [Tú] | Ya veo. Así que este es el estilo de vida de los Trekkers.
 0045 [Tú] | Por cierto, ¿qué es exactamente un «punto caliente»?
-0046 [Amber] (EN) | Different Monoliths drop different kinds of Artifacts.
-0047 [Amber] (EN) | The ones with the best loot draw the biggest crowds. We call 'em "hot spots."
+0046 [Amber] | Cada Monolito suelta distintos tipos de Artefactos.
+0047 [Amber] | Los que tienen el mejor botín atraen a más gente. Les decimos «puntos calientes».
 0048 [Tú] | Entonces lo contrario serían «puntos fríos», ¿no?
 0049 [Iris] | Mmm...
 0050 [Tú] | ¿Por qué Iris se puso tan seria de repente?

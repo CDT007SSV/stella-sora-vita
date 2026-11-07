@@ -1,7 +1,7 @@
 # Capítulo 3 · Interludio 1 · El teléfono
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:avg1_103 | Amber
@@ -51,9 +51,9 @@ N:avg4_999 | Vita
 0037 [Tú] | Vaya, eso es impresionante. Bueno, en ese contexto... ==W==un teléfono que habla casi parece normal.
 0038 [Vita] | Tirano, Vita le asegura que Vita, como su secretaria, también es muy capaz.
 0039 [Tú] | Una secretaria capaz, ¿eh?...
-0040 [Opción] (EN) | Sorry, but I can't afford to hire a secretary
-0041 [Opción] (EN) | Are you sure I'm that Tyrant you mentioned?
-0042 [Opción] (EN) | Capable? So, can you transform into a cute girl?
+0040 [Opción] | Lo siento, pero no me alcanza para contratar a una secretaria
+0041 [Opción] | ¿Segura que soy ese Tirano del que hablas?
+0042 [Opción] | ¿Capaz? Entonces, ¿te puedes transformar en una chica linda?
 0043 [Tú] | Quizá ya no tengamos la deuda de Feagin, pero tanto el gremio como la compañía siguen bastante pelados.
 0044 [Iris] | La gente del Clan Viento de Ceniza y del Distrito de las Cenizas juntó dinero para arreglar nuestro vehículo, pero no sobró mucho. Nuestros ahorros ahora son de ==W==10.000 Dorra.
 0045 [Iris] | Por suerte, los Páramos dan suficiente para comer, así que no gastamos en comida. Y Bastelina recargó amablemente nuestra magia para el viaje a Philae sin cobrarnos. Por ahora nos las arreglamos...

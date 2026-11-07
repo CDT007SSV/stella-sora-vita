@@ -1,7 +1,7 @@
 # Capítulo 2 · 8 · Comercio de almas
 # Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
-# Este acto ya estaba traducido. Las líneas marcadas con (EN) son nuevas y siguen en inglés.
+# Este acto ya está traducido por completo.
 
 ## Nombres
 N:avg1_103 | Amber
@@ -38,9 +38,9 @@ N:avg3_999 | ???
 0018 [Tú] | Vale, entonces, el Tirano pone su propia vida en juego==W== y hace un «Pacto del Tirano» con los clientes para concederles sus deseos...
 0019 [Tú] | Cuando el deseo se cumple,==W== el Tirano obtiene el alma del cliente.
 0020 [Tú] | Esto suena...
-0021 [Opción] (EN) | Definitely evil
-0022 [Opción] (EN) | Kinda fair
-0023 [Opción] (EN) | All profit, no loss?
+0021 [Opción] | Malvado sin duda
+0022 [Opción] | Algo justo
+0023 [Opción] | ¿Pura ganancia y nada de pérdida?
 0024 [Tú] | Qué transacción tan perversa.==W== Usar la vida como garantía y las almas como mercancía.
 0025 [Tú] | Aun así==W==...==W== esto me resulta familiar de algún modo.
 0026 [Tú] | Arriesgar tu vida para conceder un deseo,==W== y luego quedarte con su alma.
@@ -78,8 +78,8 @@ N:avg3_999 | ???
 0058 [Minova] | Pero==W== en realidad...==W== ni siquiera puedo proteger a mi propia banda.
 0059 [Tú] | Así que eso todavía le pesa...
 0060 [Minova] | Oiga, eh, ¿doctora?==W== Por favor, tiene que arreglar a ==SEX4==. ==W====SEX1== es muy importante para el Clan Viento de Ceniza.
-0061 [Amber] (EN) | She keeps muttering about how she's useless 'cause she couldn't protect you ... stuff like that.
-0062 [Amber] (EN) | Yeah... Let's just let her be for now.
+0061 [Amber] | No deja de murmurar que es una inútil porque no pudo protegerte... cosas así.
+0062 [Amber] | Sí... Mejor dejémosla tranquila por ahora.
 0063 [Amber] | 
 0064 [Minova] | Algunas decisiones... Solo puedes tomarlas después de darte cuenta de lo débil que eres en realidad.==W== ¿No crees?
 0065 [Minova] | Pase lo que pase... yo solo... necesito...
