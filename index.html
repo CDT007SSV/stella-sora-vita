@@ -296,6 +296,17 @@ body{background:
 .ge-r{display:flex;align-items:center;gap:8px;padding:9px 6px 9px 4px;color:#4b3a22;font-weight:800;font-size:.85rem;line-height:1.2}
 .ge-r::before{content:"✦";flex:0 0 28px;height:28px;border-radius:50%;background:#d4333f;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,.35)}
 .ge .hm-new{top:12px;right:12px}
+/* Hub Historia estilo juego: cinta de color + franja blanca */
+#s-story .hm-subgrid{gap:12px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}#s-story .hm{min-width:0}#s-story .hm-cn strong{font-size:1rem}#s-story .hm-cn i{margin-right:10px}
+#s-story .hm{border:2px solid rgba(255,255,255,.85);border-radius:6px}
+#s-story .hm,#s-story .hm.w{min-height:0}#s-story .hm.w{aspect-ratio:16/9}#s-story .hm:not(.w){aspect-ratio:3/4}
+#s-story .hm-sh{background:linear-gradient(to top,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 45%)}
+#s-story .hm-cn{left:0;right:0;bottom:12px;display:flex;flex-direction:column-reverse;padding:0}
+#s-story .hm-cn strong{position:relative;font-size:1.12rem;font-weight:800;padding:6px 10px 6px 44px;background:linear-gradient(90deg,var(--rb) 82%,transparent);margin-right:6px;text-shadow:0 2px 3px rgba(0,0,0,.45);letter-spacing:.01em}
+#s-story .hm-cn strong::before{content:var(--ic,"📖");position:absolute;left:5px;bottom:-12px;width:32px;height:32px;border-radius:9px;background:#fff;border:2px solid var(--rb);display:flex;align-items:center;justify-content:center;font-size:1.05rem;box-shadow:0 2px 6px rgba(0,0,0,.4)}
+#s-story .hm-cn i{margin:0 14px 0 40px;padding:3px 8px 3px 14px;background:rgba(255,255,255,.94);color:var(--rb2,#2d4cb4);font-weight:700;font-size:.72rem;opacity:1;text-shadow:none;transform:skewX(-10deg);border-radius:0 0 4px 4px}
+#s-story .c-pur .hm-cn{--rb:#3b6df0;--rb2:#2d4cb4}#s-story .c-pink .hm-cn{--rb:#e83e8c;--rb2:#c0286e}#s-story .c-teal .hm-cn{--rb:#22b8a8;--rb2:#12806f}#s-story .c-gold .hm-cn{--rb:#e8962e;--rb2:#b46a10}
+#s-story .c-pur .hm-cn strong{--ic:"📖"}#s-story .c-pink .hm-cn strong{--ic:"📼"}#s-story .c-teal .hm-cn strong{--ic:"📷"}#s-story .c-gold .hm-cn strong{--ic:"💞"}
 /* filtros y contador */
 .btabs{display:flex;gap:8px;margin:0 0 14px}.btabs button{flex:1;padding:10px 8px;border-radius:10px;border:1px solid #3D3A55;background:0;color:var(--t2);font-size:.85rem;font-weight:600;cursor:pointer}.btabs button.on{background:var(--p);border-color:transparent;color:#fff}
 .fcount{display:flex;align-items:center;justify-content:space-between;margin:2px 0 10px;font-size:.78rem;color:var(--t2)}
@@ -448,8 +459,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <div id="s-chars" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Personajes</h2></div>
   <main>
-    <button type="button" class="cu-btn" data-nav="cumples">🎂 Calendario de cumpleaños <span style="margin-left:auto">›</span></button>
-    <input class="search" id="cs" type="search" placeholder="Buscar personaje..."/>
+    <div class="cs-row"><input class="search" id="cs" type="search" placeholder="Buscar personaje..."/><button type="button" class="cu-ic" id="cu-open" aria-label="Cumpleaños">🎂</button></div>
     <div class="filters" id="cr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button></div>
     <div class="filters" id="ce"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button></div>
     <div class="fmore-row"><button type="button" class="chip" id="cmore-btn" aria-expanded="false">Más filtros ▾</button></div>
@@ -518,10 +528,10 @@ body.bgm-on .screen{padding-bottom:84px}
   <div class="topbar"><button type="button" data-back>‹</button><h2>Historia</h2></div>
   <main>
     <div class="hm-subgrid">
-      <div class="hm hm-sub w c-pur" data-go="mainstory"><img id="pt-ms" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-ms-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story</i><strong>Historia principal</strong></div></div>
-      <div class="hm hm-sub  c-pink" data-go="events"><img id="pt-ev" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Daring_Adventure!_The_Ghost_Ship_Haunts_the_Deep!_Banner.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Eventos importantes</i><strong>Eventos</strong></div></div>
+      <div class="hm hm-sub w c-pur" data-go="mainstory"><img id="pt-ms" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-ms-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Continúa tu viaje</i><strong>Historia principal</strong></div></div>
+      <div class="hm hm-sub  c-pink" data-go="events"><img id="pt-ev" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Daring_Adventure!_The_Ghost_Ship_Haunts_the_Deep!_Banner.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Ecos del pasado</i><strong>Eventos</strong></div></div>
       <div class="hm hm-sub  c-teal" data-go="novatimes"><img id="pt-nt" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-nt-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i id="n-nova">Historias</i><strong>Nova Times</strong></div></div>
-      <div class="hm hm-sub w c-gold" data-go="charstories"><img id="pt-cs" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Affinity / Memory</i><strong>Historias de personajes</strong></div></div>
+      <div class="hm hm-sub w c-gold" data-go="charstories"><img id="pt-cs" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Recuerdos y afinidad</i><strong>Historias de personajes</strong></div></div>
     </div>
   </main>
 </div>
@@ -856,6 +866,142 @@ function renderC(){
     el.onclick=()=>{ nav('c/'+el.dataset.id) };
   });
 }
+function bdayEs(b){
+  if(!b)return "—";
+  const M={January:"enero",February:"febrero",March:"marzo",April:"abril",May:"mayo",June:"junio",July:"julio",August:"agosto",September:"septiembre",October:"octubre",November:"noviembre",December:"diciembre"};
+  const m=String(b).match(/^([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?$/);
+  return m&&M[m[1]]?m[2]+" de "+M[m[1]]:b;
+}
+function showD(wikiUrl){
+  const d = DISCS.find(x => x.wikiUrl === wikiUrl);
+  if(!d){ window.open(wikiUrl, "_blank"); return; }
+  backTo = "discs";
+  document.getElementById("det-title").textContent = d.name;
+  // Arte completo: Disc_<nombre>.png de la wiki (las fichas viejas solo traian el icono)
+  const nmf=d.name.replace(/ /g,"_");
+  const arts=[...new Set(["https://stellasora.miraheze.org/wiki/Special:FilePath/"+encodeURIComponent("Disc_"+nmf)+".png",...(d.imageAlts||[]),d.imageUrl].filter(Boolean))];
+  document.getElementById("det").innerHTML = `
+    <div style="text-align:center;position:relative">
+      <a class="wikiico" href="${d.wikiUrl}" target="_blank" rel="noopener" aria-label="Ver en la wiki" title="Ver en la wiki"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></a>
+      <img class="disc-art" src="${d.imageUrl||arts[0]}" data-q="${arts.filter(u=>u!==(d.imageUrl||arts[0])).join(",")}" data-full="${arts.join(",")}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="skFb(this)" onclick="openLB(this.dataset.full.split(','))">
+      <p class="nota-en" style="text-align:center;margin:6px 0 0">Toca la imagen para verla completa</p>
+      <div class="badge b${d.rarity} rbig" style="margin:12px 0 6px">${estr(d.rarity,22)}</div>
+      <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
+    </div>
+    <div class="chips"><span class="chip on">${elIcon(d.element)}${d.element}</span><span class="chip on">Disco</span></div>
+    <div id="disco-box" class="ficha"></div>
+    <div class="dmore" id="dmore" hidden></div>`;
+  const box=document.getElementById("dmore");
+  box.innerHTML='<p class="nota-en">Cargando…</p>'; box.hidden=false;
+  box.id="dficha-tab";
+  /* muestra al instante la imagen de la lista (ya en cache) y cambia al arte completo cuando termine de cargar */
+  if(d.imageUrl&&arts[0]!==d.imageUrl){const im=document.querySelector("#det .disc-art"),big=new Image();big.referrerPolicy="no-referrer";big.onload=()=>{if(im&&im.isConnected)im.src=big.src};big.src=arts[0]}
+  cargarExtras().then(E=>{box.innerHTML=discExtraHtml(d,E)}).catch(()=>{box.innerHTML='<p class="nota-en">No se pudo cargar el detalle.</p>'});
+  window.discoCargar&&discoCargar(d);
+  go("detail");
+}
+
+function showC(id){
+  const c=CHARS.find(x=>x.id===id); if(!c) return;
+  backTo="chars";
+  document.getElementById("det-title").textContent=c.name;
+  const folder=c.name.replace(/ /g,"_");
+  const base=`https://cdn.jsdelivr.net/gh/StellaSoraWiki/StellaSoraModels@main/${folder}`;
+  const glb=`${base}/${folder}.glb`, animsJson=`${base}/${folder}.anims.json`;
+  const mi=c.moreInfo||{}, sk=c.skills||{}, au=c.auto||{};
+  const L={affiliation:"Afiliación",weapon:"Arma",skills:"Habilidades",address:"Residencia",experience:"Experiencia",rate:"Tarifa"};
+  const kv=Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>`<div class="kv"><b>${L[k]}</b><span>${esc(k==="weapon"?mi[k]:tr(mi[k]))}</span></div>`).join("");
+  const LA={Affiliation:"Afiliación",Skills:"Habilidades",Address:"Residencia",Experience:"Experiencia",Weapon:"Arma",Rate:"Tarifa"};
+  const dup=new Set(Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>L[k]));
+  const kv2=(au.info||[]).map(r=>({k:LA[r.k]||r.k,v:r.v})).filter(r=>!dup.has(r.k)).map(r=>`<div class="kv"><b>${esc(r.k)}</b><span>${esc(r.k==="Arma"?r.v:tr(r.v))}</span></div>`).join("");
+  const NM={jp:"Japonés",kr:"Coreano",cn:"Chino"}, nm=au.names||{}, va=au.va||{};
+  const nmh=Object.keys(NM).filter(k=>nm[k]).map(k=>`<div class="kv"><b>Nombre (${NM[k]})</b><span>${esc(nm[k])}</span></div>`).join("");
+  const vah=[["jp","Voz japonesa"],["cn","Voz china"]].filter(x=>va[x[0]]).map(x=>`<div class="kv"><b>${x[1]}</b><span>${esc(va[x[0]])}</span></div>`).join("");
+  const atkChip=au.attack?`<span class="chip on">${au.attack==="Melee"?"Cuerpo a cuerpo":"A distancia"}</span>`:"";
+  const hasSk=Object.keys(sk).some(k=>sk[k]);
+  const skA=(au.skillsAuto||[]).map(h=>`<div class="sk"><div class="tp">${esc(h.t)}${h.cd?`<span class="cd">CD ${esc(h.cd)} s</span>`:""}</div><h4>${esc(h.n)}</h4><p>${esc(h.d)}</p></div>`).join("");
+  const potG=["Principal","Apoyo","Común"].map(g=>{
+    const L2=(au.potentials||[]).filter(x=>x.g===g); if(!L2.length)return "";
+    return `<details class="pg"><summary>Potenciales ${g==="Común"?"comunes":g==="Principal"?"principales":"de apoyo"} (${L2.length})</summary>${L2.map(x=>`<details class="pot"><summary>${esc(x.b)}</summary><div>${esc(x.d)}</div></details>`).join("")}</details>`}).join("");
+  const faltan=[...(au.skillsAuto||[]),...(au.potentials||[])].some(x=>/…/.test(x.d||""));
+  const skCard=false&&(skA||potG)?`<div class="card"><h3 style="margin:0 0 8px;font-size:1rem">${hasSk?"Datos del juego (en inglés)":"Habilidades (en inglés)"}</h3>${skA}${potG}
+    <p class="nota">Valores al nivel 10 de habilidad, calculados con los datos del juego.${faltan?" Donde aparece «…» el valor no está disponible: míralo en la wiki.":""}</p></div>`:"";
+  const SK={main:"Habilidad principal",support:"Habilidad de apoyo",ultimate:"Definitiva",potentials:"Potenciales"};
+  const sks=Object.keys(SK).filter(k=>sk[k]).map(k=>`<div class="kv"><b>${SK[k]}</b><span>${esc(sk[k])}</span></div>`).join("");
+  document.getElementById("det").innerHTML=`
+    <div class="hero r${c.rarity}" style="--heroimg:url('${c.imageUrl}')">
+    <a class="wikiico" href="${c.wikiUrl}" target="_blank" rel="noopener" aria-label="Ver en la wiki" title="Ver en la wiki"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></a>
+    <div class="char-header">
+      <img class="detail-av" src="${c.imageUrl}" alt="${esc(c.name)}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+      <div class="info">
+        <div class="badge b${c.rarity} rbig">${estr(c.rarity,22)}</div>
+        <h2>${esc(c.name)}</h2>
+      </div>
+    </div></div>
+    <div class="chips">
+      <span class="chip on">${elIcon(c.element)}${c.element}</span>
+      ${c.role?`<span class="chip on">${esc(ROLE_ES[c.role]||c.role)}</span>`:''}
+      ${c.style?`<span class="chip on">${esc(tr(c.style))}</span>`:''}${c.faction?`<span class="chip on">${esc(tr(c.faction))}</span>`:''}${atkChip}
+    </div>
+    <div id="ficha-box" class="ficha"></div>
+    <div id="perfil-box">
+    <div class="stats">
+      <div class="stat"><b>${esc(c.hp||'—')}</b><span>HP</span></div>
+      <div class="stat"><b>${esc(c.atk||'—')}</b><span>ATK</span></div>
+      <div class="stat"><b>${esc(bdayEs(mi.birthday||(c.birthday&&c.birthday!=='—'?c.birthday:au.birthday)))}</b><span>Cumpleaños</span></div>
+    </div>
+    <div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Perfil</h3>
+      <p style="font-style:italic">${esc(c.description||tr(au.profile)||'Sin descripción disponible.')}</p></div>
+    ${(nmh||vah)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Nombres y voces</h3>${nmh}${vah}</div>`:''}
+    ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
+    ${skCard}
+    <div id="skins-box"></div>
+    <div class="skin3d" id="skin3d"></div>
+    <div class="model-wrap">
+      <div id="mv3d"></div>
+      <p class="hint" id="mv-status">Cargando modelo 3D…</p>
+      <div class="anim-bar" id="anim-bar"></div>
+    </div></div>`;
+  go("detail");
+  window.fichaCargar&&fichaCargar(c);
+  Promise.all([cargarExtras(),cargarModelIdx()]).then(([E,idx])=>{
+    const b=document.getElementById("skins-box"); if(!b||cur!=="detail")return;
+    b.innerHTML=skinsHtml(c,E,idx); skin3dBar(c,idx);
+    b.querySelectorAll(".sk3d").forEach(btn=>btn.onclick=()=>{
+      const e=idx.find(x=>x.file===btn.dataset.f); if(!e)return;
+      loadModelEntry(e,folder); const t=document.getElementById("mv3d"); t&&t.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+  });
+  setTimeout(()=>window.loadTrekkerModel&&window.loadTrekkerModel(glb,animsJson,folder),50);
+}
+
+document.getElementById("cs").oninput=e=>{cQ=e.target.value;renderC()};
+document.querySelectorAll("#cr .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    document.querySelectorAll("#cr .chip").forEach(x=>x.classList.remove("on"));
+    ch.classList.add("on");
+    cR=ch.dataset.v?parseInt(ch.dataset.v):null;
+    renderC();
+  };
+});
+document.querySelectorAll("#ce .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    const was=ch.classList.contains("on");
+    document.querySelectorAll("#ce .chip").forEach(x=>x.classList.remove("on"));
+    if(!was){ch.classList.add("on");cE=ch.dataset.v}else cE=null;
+    renderC();
+  };
+});
+
+document.querySelectorAll("#cro .chip").forEach(ch=>{
+  ch.onclick=()=>{
+    const was=ch.classList.contains("on");
+    document.querySelectorAll("#cro .chip").forEach(x=>x.classList.remove("on"));
+    cRole=null;
+    if(!was){ch.classList.add("on");cRole=ch.dataset.v}
+    renderC();
+  };
+});
 function renderD(){
   const list=DISCS.filter(d=>{
     const q=norm(dQ);

@@ -26,6 +26,8 @@ const css=document.createElement("style");css.textContent=`
 .cu-r{display:flex;align-items:center;gap:12px;background:var(--sf);border:1px solid #2f2a52;border-radius:14px;padding:9px 11px;margin-bottom:8px;cursor:pointer}
 .cu-r img{width:48px;height:48px;border-radius:12px;object-fit:cover;background:var(--s2);flex-shrink:0}.cu-r b{display:block;font-size:.92rem}.cu-r span{font-size:.78rem;color:var(--t2)}
 .cu-r .cu-t{margin-left:auto;font-size:.72rem;font-weight:800;padding:3px 8px;border-radius:8px;background:rgba(123,108,255,.22);color:#cfc8ff;white-space:nowrap}.cu-r .cu-t.hoy{background:var(--gold);color:#1a1530}
+.cu-ic{flex:0 0 46px;width:46px;height:44px;margin:0 0 10px;border-radius:12px;border:1px solid rgba(232,196,106,.55);background:rgba(232,196,106,.12);font-size:1.35rem;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}.cu-ic:active{transform:scale(.94)}
+.cs-row{display:flex;gap:8px;align-items:flex-start}.cs-row .search{flex:1;min-width:0;width:auto}
 .cu-btn{display:flex;align-items:center;gap:8px;width:100%;margin:0 0 10px;padding:11px 14px;border-radius:12px;border:1px solid rgba(232,196,106,.5);background:rgba(232,196,106,.1);color:#f3d98a;font-weight:700;font-size:.88rem;cursor:pointer}`;
 document.head.appendChild(css);
 
@@ -67,7 +69,7 @@ window.cumplesOv=async function(c,m,d){
    <div class="bd-art"><img src="${e(c.imageUrl)}" alt="${e(c.name)}" referrerpolicy="no-referrer"></div>
    <h2>${n===0?"¡Feliz cumpleaños, ":""}${e(c.name)}${n===0?"!":""}</h2><div class="bd-d">🎂 ${fecha(m,d)} · ${cuando(n)}</div>
    ${fj?`<div class="bd-v"><div class="row"><button class="btn" data-play="jp">▶ Escuchar su voz (japonés)</button></div>
-   ${v&&v.tj?`<div class="jp">${e(v.tj)}</div>`:""}${v&&(v.es||v.en)?`<div class="es">${e(v.es||v.en)}</div>${v.es?"":`<div class="en">(traducción al español pendiente)</div>`}`:`<div class="en">${v?"":"Subtítulos no disponibles todavía para este personaje."}</div>`}</div>`:""}
+   ${v&&(v.es||v.en)?`<div class="es">${e(v.es||v.en)}</div>${v.es?"":`<div class="en">(traducción al español pendiente)</div>`}`:`<div class="en">${v?"":"Subtítulos no disponibles todavía para este personaje."}</div>`}</div>`:""}
    <button class="btn" data-ficha>Ver ficha de ${e(c.name)}</button>`,"bd-ov");
   o.style.setProperty("--bc",col);if(n===0)confeti();
   let au=null;o._stop=()=>{if(au){try{au.pause()}catch(x){}au=null}};
@@ -92,4 +94,17 @@ window.cumplesShow=async function(){
   root.innerHTML=h;
   root.onclick=ev=>{const t=ev.target.closest("[data-k]");if(!t)return;const x=L.find(y=>y.c.id===t.dataset.k);if(x)window.cumplesOv(x.c,x.m,x.d)};
 };
+/* boton del pastel -> lista de cumpleaños en ventana; al elegir un personaje se abre su ficha con voz */
+window.cumplesLista=async function(){
+  const L=await lista();
+  const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-cumple">🎂 Cumpleaños</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div><div id="cu-ov"><p class="nota">Cargando…</p></div>`,"cu-ovw");
+  const root=o.querySelector("#cu-ov");
+  if(!L.length){root.innerHTML='<p class="nota">No hay datos de cumpleaños todavía.</p>';return}
+  const S=L.map(x=>Object.assign({n:dias(x.m,x.d)},x)).sort((a,b)=>a.n-b.n),prox=S[0];
+  let h=`<div class="cu-hero" data-k="${e(prox.c.id)}"><img src="${e(prox.c.imageUrl)}" alt="" referrerpolicy="no-referrer"><div><small>${prox.n===0?"Hoy cumple":"Próximo cumpleaños"}</small><b>${e(prox.c.name)}</b><span>${fecha(prox.m,prox.d)} · ${cuando(prox.n)}</span></div></div>`;
+  h+=S.map(x=>`<div class="cu-r" data-k="${e(x.c.id)}"><img src="${e(x.c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer"><div><b>${e(x.c.name)}</b><span>${fecha(x.m,x.d)}</span></div><span class="cu-t${x.n===0?" hoy":""}">${cuando(x.n)}</span></div>`).join("");
+  root.innerHTML=h;
+  root.onclick=ev=>{const t=ev.target.closest("[data-k]");if(!t)return;const x=L.find(y=>y.c.id===t.dataset.k);if(x)window.cumplesOv(x.c,x.m,x.d)};
+};
+document.addEventListener("click",ev=>{if(ev.target.closest&&ev.target.closest("#cu-open"))window.cumplesLista()});
 })();
