@@ -1,7 +1,10 @@
 /* Sonidos de la app: "click" al presionar botones y "vita" al abrir. Los archivos van en la carpeta audio/ (ver audio/LEEME.txt).
    Si un archivo no existe, no pasa nada. Se puede silenciar con el boton del encabezado. */
 (function(){
-const K="ssv_snd",FILES={click:"audio/click.ogg",vita:"audio/vita.ogg"},VOL={click:.45,vita:.85};
+const K="ssv_snd",WIKI="https://stellasora.miraheze.org/wiki/Special:FilePath/";
+/* Sonidos del propio juego (los mismos "se_NNN" que usa el lector). Para cambiar uno, cambia el numero.
+   click = sonido al presionar; vita = el sonido con el que habla Vita en el juego. Prueba otros en prueba-sonidos.html */
+const SE={click:"se_061",vita:"se_401"},FILES={click:WIKI+SE.click+".ogg",vita:WIKI+SE.vita+".ogg"},VOL={click:.45,vita:.85};
 let on=true;try{on=localStorage.getItem(K)!=="0"}catch(e){}
 const buf={};
 function get(n){if(!buf[n]){const a=new Audio();a.preload="auto";a.onerror=()=>{a._bad=1};a.src=FILES[n];buf[n]=a}return buf[n]}
