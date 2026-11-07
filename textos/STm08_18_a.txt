@@ -1,0 +1,249 @@
+# Capítulo 8 · Calor residual · Recuerdo · Happy Birthday Ⅱ
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Brave Sentinel of Dawn | Brave Sentinel of Dawn
+N:Calm Knight | Calm Knight
+N:Captured White Cat | Captured White Cat
+N:Confused Sentinel of Dawn | Confused Sentinel of Dawn
+N:Fierce Knight | Fierce Knight
+N:Freed White Cat | Freed White Cat
+N:Homeless Kid | Homeless Kid
+N:Hungry Kid | Hungry Kid
+N:Panicked Sentinel of Dawn | Panicked Sentinel of Dawn
+N:Sentinel of Dawn Commander | Sentinel of Dawn Commander
+N:Starved Kid | Starved Kid
+N:Supporting Sentinel of Dawn | Supporting Sentinel of Dawn
+N:Taffett | Taffett
+N:Tied-up White Cat | Tied-up White Cat
+N:Vigilant Sentinel of Dawn | Vigilant Sentinel of Dawn
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_1207 | Iris
+N:avg1_139 | Allie
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_1308 | Sentinel of Dawn Soldier F
+N:avg3_1313 | Allie
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_156 | Guardia Imperial bajito
+N:avg3_157 | Guardia Imperial
+N:avg3_167 | Chica
+N:avg3_168 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_181 | Narida
+N:avg3_200 | Ash District Boy
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Memories
+0002 [Intro] | Happy Birthday Ⅱ
+0003 [Intro] | Taffett juggled odd jobs to support the children, but with assassins closing in, she considered leaving them to keep them safe. Narida proposed using the Monolith to erase memories of the White Cat Troupe...
+0004 [Narración] | Monolith Calendar Year 987
+0005 [Lugar y hora] | 11:50, Sonus Month 17th, Ash District in Emor, Unnamed Street
+0006 [Iris] | Here you go—white bread and veggie soup.==W== Careful,==W== it's hot.
+0007 [Amber] | There's enough for everyone.==W== Stop pushing.
+0008 [Hungry Kid] | It's so good...
+0009 [Homeless Kid] | I haven't had a hot meal in forever...==W== Sniffle...
+0010 [Starved Kid] | Mmph, mmph—==W==
+0011 [Noya] | Iris, he's choking!==W== Water!
+0012 [Iris] | Spring water,==W== flow!
+0013 [Starved Kid] | Gulp, gulp—==W==ahh... I'm okay. Sorry, I ate too fast.==W== It's just... I haven't eaten in three days.
+0014 [Iris] | Th-Three days...?==W== Then just sip the soup for now. You've been starving too long. Eating all that bread will just make you sick.
+0015 [Noya] | Iris, there are way more kids out here now.==W== We've got at least ...==W== a dozen more coming for food than last week.
+0016 [Iris] | A bunch of orphanages shut down lately. A few lucky kids got foster homes, but the rest have nowhere to go. They're stuck on the streets.
+0017 [Amber] | It's those soldiers in white. The grown-ups say they're hunting the White Cat Troupe, so they're going after any orphanage connected to them.
+0018 [Noya] | Good thing we're just kids Mom took in, not an actual orphanage. They won't come after us... Right?
+0019 [Iris] | Shh! Don't call her "Mom." You have to say—==W==
+0020 [Amber] | Auntie.
+0021 [Noya] | Oh, right. Kids at the White Cat orphanages always say "Mom." We must not raise suspicion...==W== So stick to "Auntie."
+0022 [Noya] | Do you think Auntie could help these kids?==W== She took Amber and me in,==W== after all.
+0023 [Iris] | No.==W== I feel awful for them, but I secretly did the math...==W==
+0024 [Iris] | Auntie already exhausts herself with her tailoring jobs every day,==W== yet the Dorra she makes==W== is barely enough to feed us.
+0025 [Amber] | Can we, get jobs?
+0026 [Iris] | Didn't we already talk about this?==W== Kids our age can't find proper jobs.
+0027 [Iris] | When I asked Auntie about it, she just handed me the basement key and told us to focus on our studies. That tells me no matter how hard we try, we're just kids. We can't earn the kind of Dorra we need.
+0028 [Noya] | You're right. Even if we try watching shops ... or running errands...
+0029 [Amber] | Or==W== cleaning.
+0030 [Noya] | The three of us worked a whole week,==W== and the food we earned barely covered one meal for everyone here.
+0031 [Iris] | Sigh... Earning Dorra is hard.
+0032 [Noya] | Sigh... Getting a full meal is hard.
+0033 [Amber] | Sigh... Being a grown-up is hard.
+0034 [Narida] | They're still kids themselves, but are already trying to help out.==W== Taffett, your kids have really good hearts.==W== How'd you do it? Got any secrets you mind sharing?
+0035 [Narida] | I have a little sister, Benito, sweet as can be. But we're so far apart in age, I honestly don't really know how to talk to her.
+0036 [Taffett] | Secrets? Well...==W== After teaching them basic self-defense, I completely stopped showing them how to fight.
+0037 [Taffett] | In the end, it's up to them to decide who they want to become. So I gave Iris the key to the basement. That's where Her Majesty's books and treasures are kept.
+0038 [Narida] | Huh. Just let them figure it out on their own?==W== Then I guess I'll go home and see what it is Benito actually wants to do.
+0039 [Taffett] | Yeah, I was surprised too.==W== They're way more mature than I thought.==W== They actually do almost all the housework now, so I can rest a bit when I get home.
+0040 [Narida] | No, no.==W== That's just because the more you try to clean, the messier the place gets. They probably just couldn't stand it anymore...==W==
+0041 [Taffett] | Ahem... Let's drop that.==W== Narida, know any ways to make a lot of Dorra fast?==W== My tailoring job barely covers the bills.
+0042 [Narida] | Barely? You spend your days sewing clothes and your nights stitching wounds. You're keeping a family of four afloat—that's actually pretty good money for Ash District.
+0043 [Narida] | Even while I'm currently on the run, I've heard of the famous "Dark-Footed Cat."
+0044 [Taffett] | Dark-Footed Cat?==W== That's me?
+0045 [Narida] | Yeah.==W== Word on the street is that when the sun goes down,==W== a lady in fancy black leather shoes slinks through the alleys like a ghost. Like a cat.
+0046 [Narida] | Mending clothes, patching up wounds,==W== and casually taking out the street gangs.==W== Walking around at night is way safer now than it's ever been.
+0047 [Narida] | Her style reminds people of those dark-footed cats out in the desert—==W==small, but fierce.==W== So the name stuck.
+0048 [Taffett] | What a weird nickname...==W== Wait, you're changing the subject again.==W== My income is decent, but it's really only enough to support the three kids...
+0049 [Narida] | Well, I do know one way to make big Dorra—let's go knock over Deepsea Finance!
+0050 [Taffett] | Stop joking. That would put us right on the Grace Imperium's radar.
+0051 [Narida] | Oh, so you're worried about being exposed, are you?
+0052 [Taffett] | Uh... Which is...?
+0053 [Narida] | The old you would never take a job this flashy. And got yourself a "Dark-Footed Cat"? That practically screams "White Cat." Are you begging the Sentinels of Dawn and the Imperial Guard to come knocking?
+0054 [Narida] | And sure, you always pitied the street kids, but you never actually stepped in. You knew you couldn't. You were a soldier on a mission—you couldn't save everyone.
+0055 [Narida] | But now you're actually trying to figure out how to make more Dorra for someone else's sake. You really have changed, Taffett.
+0056 [Taffett] | That's not...==W== No, you're right.==W== You're out there fighting with the White Cats, and I'm hiding here, playing mother. Maybe I don't deserve to call myself a soldier anymore.
+0057 [Narida] | Hey, maybe that's not a bad thing. For the kids, it's—==W==shh. Hear that? Footsteps.==W== The Imperial Guard is heading right for us.
+0058 [Taffett] | The Guard... Narida, take the kids and run. I'll hold them off.
+0059 [Narida] | Let me handle it. It's probably just a routine sweep, so don't start a war. I'll just step out, flash the prime bait, and they'll go after me instead.
+0060 [Taffett] | Narida...==W==
+0061 [Narida] | You owe me for this one. And hey...==W== I actually like this new you.
+0062 [Taffett] | Eh?==W==
+0063 [Narida] | Get the kids inside and lock up.==W== You're running out of time, Taffett.==W== If you want to keep them safe, you need to have a plan by the time I return.
+0064 [Narración] | The moment Taffett pulls the street kids inside, heavy gunfire erupts from the next block over.
+0065 [Taffett] | What am I ...==W== supposed to do?
+0066 [Narración] | That night, after the kids finally fell asleep, I lay awake for hours, going over everything in my head.
+0067 [Narración] | I am a White Cat. Even if I'd spent those last few years playing house, that doesn't change who I am.
+0068 [Narración] | I was careful. I didn't leave traces. But the memories are still stored in my head, never scrubbed away.
+0069 [Narración] | The Troupe uses interrogation magic to extract memories. Since the Dusk Arbiter has captured enough of us, they've definitely learned the trick by now.
+0070 [Narración] | If I stay, they'd find me eventually, and I'd be dragging the kids down with me for nothing.
+0071 [Narración] | Then... I think I know what I should do—
+0072 [Narración] | I would leave this place, or I would leave this world entirely.
+0073 [Narración] | And while I'm at it, I need to draw their eyes away from Ash District for good.
+0074 [Narración] | Monolith Calendar Year 987
+0075 [Lugar y hora] | 18:00, Sonus Month 21st, Ash District in Emor, Safe House
+0076 [Narida] | Taffett? Ready to move?
+0077 [Taffett] | Whenever you are.
+0078 [Noya] | Mom, it's getting dark.==W== Are you really going out?
+0079 [Taffett] | Listen to me, Noya.==W== I have important work to take care of tonight. You three stay inside,==W== and don't open that door for anyone. Understand?
+0080 [Iris] | But Mom...==W== You said you'd stay home tonight with us. You promised.
+0081 [Taffett] | It's important. Don't make this difficult.==W== And what did I tell you? Stop calling me that.
+0082 [Amber] | Then...==W== We'll wait for you.
+0083 [Taffett] | I'll be late. Set up the traps and go to bed.==W== Don't stay up.
+0084 [Iris] | B-But...==W== The last time you and Narida had "work," you were gone for days.==W== We didn't know if you were coming back.
+0085 [Taffett] | That's just how it is.
+0086 [Taffett] | And what's that fire in the kitchen?==W== Are you feeding the Ash District kids again?
+0087 [Taffett] | You know those soldiers in white are grabbing people off the streets. Stop drawing attention to yourselves. Noya, put that fire out. Now.
+0088 [Noya] | But ... we were making that for you, Mom...==W==
+0089 [Taffett] | Noya,==W== stop calling me Mom!==W== How many times do I have to say it?!
+0090 [Noya] | Waaah!==W== Mo—==W==Auntie doesn't want us anymore!
+0091 [Taffett] | No,==W== I-I'm sorry...==W== That came out wrong. I... I didn't mean it.
+0092 [Amber] | You lie. Liar.
+0093 [Iris] | You just don't want to be our mom. You say it's "work," but the bag you carry is huge. You're not coming back tonight, are you?
+0094 [Iris] | Like all the other parents in Ash District. When things get hard, they just leave. They don't come back.
+0095 [Amber] | I-I'm scared.
+0096 [Noya] | Fine! Then you're not our mom anymore! From now on, you're just Auntie. Auntie, Auntie, Auntie, Auntie!
+0097 [Taffett] | That's not what I meant...==W== Okay. I promise. No matter how late it gets, I'll be back before sunrise!==W== Just this once...==W== Please believe me.
+0098 [Lugar y hora] | 22:00, Sonus Month 21st, Gold District in Emor, Secret Prison
+0099 [Narida] | Left side's clear.
+0100 [Taffett] | Right side's clear.
+0101 [Narida] | The Imperial Guard's prisoner convoy is coming tonight. We'll ambush them here.
+0102 [Taffett] | Narida, I need to be sure. All the captured White Cats in Emor are being brought here together?
+0103 [Narida] | Right. Once we pull them out, the White Cats are withdrawing from Emor and the other cities. We'll regroup in Mirage and keep fighting the new Empress.
+0104 [Taffett] | Why Mirage? It's remote, but supplies are scarce, and the desert cuts us off.==W== If we're surrounded, our guerrilla tactics will be rendered useless.
+0105 [Narida] | Because... Her Majesty ordered every White Cat except you to seal off the Monolith in Mirage.==W== No one's allowed in.
+0106 [Taffett] | But that Monolith doesn't have an entrance. It's impossible to get inside.
+0107 [Narida] | True, but the Grace Imperium sent a lot of people to Mirage. They've been studying it. They might have found a hidden entrance.
+0108 [Narida] | The remaining White Cats held meetings. Everyone insists on carrying out Her Majesty's final order. We have no choice but to make our stand.
+0109 [Narida] | But what about you? Are you okay? That fight with the kids was a first for you, wasn't it?
+0110 [Taffett] | I'm fine. Ever since you told me I had to make a choice, I've been thinking. And my choice is...==W==
+0111 [Taffett] | After tonight, I'm leaving Emor with the White Cats. That way the kids don't get dragged into this, and I draw the searchers away.
+0112 [Narida] | Can you really leave those kids behind?
+0113 [Taffett] | They can take care of themselves. The Dusk Arbiter has the Imperial Guard doing a dragnet search of Ash District. They could show up any day.
+0114 [Taffett] | Me leaving Emor is what's best for them. At least...==W== That's what I thought until tonight.
+0115 [Narida] | And now...?
+0116 [Taffett] | Narida, once we rescue everyone and grab the intel, take the White Cats and fall back. I'm going to the cathedral, where the Dusk Arbiter is.
+0117 [Taffett] | If I take out every arbiter who knows the memory extraction spell, I can safely stay in Emor.
+0118 [Narida] | Taffett, do you know how tight security is at that cathedral? You might be able to kill all the arbiters, but you'll also die doing it.
+0119 [Taffett] | The dead can't talk...==W== As long as it protects those kids, I'm fine with it.
+0120 [Taffett] | But no matter what, I don't... I don't want to leave them. And I'm not stupid enough to throw my life away for nothing.
+0121 [Narida] | The White Cat who earned the codename Taffett for being the strongest is willing to risk it all to take care of some kids?==W== Still, I get why you feel that way.
+0122 [Narida] | When I found out you were going to be a mom, I was jealous for ages. I thought, why the battle-crazed Taffett? I'd be way better at it!
+0123 [Taffett] | I never would have guessed.
+0124 [Narida] | That's because I'm good at hiding it.
+0125 [Narida] | Logically, it would've made more sense for me to watch the kids while you led the White Cats to guard the Monolith in Mirage. That would've played to our strengths.
+0126 [Narida] | But watching you with those kids, I finally got it. Back when we were little, you weren't obsessed with fighting because you enjoyed it...==W==
+0127 [Narida] | ... It was your way of protecting the people you cared about.
+0128 [Narida] | If they needed you to, you'd even alter your own mind for them.
+0129 [Taffett] | You're giving me too much credit. I didn't think that far ahead. I just ...==W== did what needed to be done. Back at the orphanage, nobody else wanted to fight, so I stepped up.
+0130 [Narida] | Your Majesty... I finally understand your plan.==W== This is the only way to rewrite destiny for me, Taffett,==W== and the White Cats.
+0131 [Taffett] | Huh? What are you talking about, Narida? You lost me.
+0132 [Narida] | Oh, nothing. Sigh... You're hopeless. Letting you die in some pointless brawl with the Dusk Arbiter would defeat the whole purpose of Her Majesty's plan.
+0133 [Narida] | I know a way to beat their memory extraction spell, but it comes at a steep price.
+0134 [Taffett] | I don't care. As long as I can stay with those kids,==W== I'll do anything.
+0135 [Narida] | Glad to hear it. Look, if the Dusk Arbiter gets suspicious, they'll use that spell on you.==W== But if you wipe every trace of the White Cats from your memory beforehand, you'll come up clean.
+0136 [Taffett] | So ... as long as I completely forget the White Cat Troupe? Is it even possible to cherry-pick which memories you lose?
+0137 [Narida] | If it is, I don't know how. Besides, normal amnesia just buries things deep in the brain. Magic can still dig them back out.
+0138 [Narida] | For a complete wipe, there's only one option. The Monolith.
+0139 [Taffett] | Make a wish ... and offer my memories as payment...==W== But I thought you can't choose what it takes from you.
+0140 [Narida] | You can't. But I picked up a neat trick from the Trekkers.
+0141 [Narida] | First, write down everything you want to keep in a notebook. Then go on a massive wishing spree. Review your notes after every single wish.
+0142 [Narida] | That way, the memories you want get reinforced, and the ones you don't eventually get scrubbed. Supposedly, some Trekkers completely rewrote their personalities doing this.
+0143 [Taffett] | Makes sense.==W== Got it. I'll start climbing tomorrow.
+0144 [Narida] | Decisive as always. Let's adjust our plan then.
+0145 [Taffett] | Huh?
+0146 [Narida] | Rewriting your memory like this will take a while.==W== We need to cause a massive scene and drag every Dusk Arbiter and Imperial Guard out of Emor after me.==W== Make them think the White Cats pulled one last heist and skipped town for good.
+0147 [Narida] | Forget the ambush. Let's hit the streets and make some noise!
+0148 [Lugar y hora] | 23:30, Sonus Month 21st, Ash District in Emor, Port
+0149 [Fierce Knight] | Move it, traitors!
+0150 [Captured White Cat] | We're Her Majesty's personal guards! What gives you the right to arrest us?!
+0151 [Fierce Knight] | Regicidal bastards! Still got the nerve to talk back?!
+0152 [Calm Knight] | Stand down! We're knights, not executioners!
+0153 [Fierce Knight] | Hmph. Consider yourselves lucky for now. The cells are right ahead. You crazy cats can sit tight and wait for the chopping block.==W== No one's coming to save you.
+0154 [???] | Don't be so sure. The cavalry's right here!
+0155 [Captured White Cat] | Captain Narida!
+0156 [Narida] | Bring it on, tin cans! Eat some White Cat lead!
+0157 [Calm Knight] | Form ranks! Hold the line!==W== Reinforcements are coming. The Sentinels of Dawn will be here any second!
+0158 [Tied-up White Cat] | Captain, stay back! It's a trap!==W== They're parading us around to draw you out!
+0159 [Narida] | So you set a net.==W== But==W== do you actually believe that you can hold a White Cat when she's fighting for real?
+0160 [Supporting Sentinel of Dawn] | Move, move, move! Firefight at the port! The White Cats are staging a rescue. Box them in and take them all down!
+0161 [Confused Sentinel of Dawn] | Ugh! I'm hit! Where did that come from?
+0162 [Supporting Sentinel of Dawn] | No sound of gunshots?==W== Defensive formation! Locate that sniper!
+0163 [Panicked Sentinel of Dawn] | We can't see them!==W== They're moving too fast!
+0164 [Supporting Sentinel of Dawn] | Dammit.==W== Someone send a distress signal!==W==
+0165 [Taffett] | First wave of reinforcements at the port is down.==W== Moving to the next street.
+0166 [Lugar y hora] | 23:50, Sonus Month 21st, Ash District in Emor, Port
+0167 [Calm Knight] | Where's our backup?==W== Dammit!
+0168 [Narida] | Don't bother waiting. I took out your backup before I even got here.
+0169 [Calm Knight] | You did this alone? Th-That's impossible.
+0170 [Narida] | I am Narida, Captain of the First Squad and acting troupe leader. Remember the name.==W== Now hand over the keys, and I'll let you live.
+0171 [Calm Knight] | N-Narida. I won't forget.
+0172 [Narida] | That's a win! ♪ Alright everyone, get those shackles off. Your gear is in these crates.==W== Suit up and catch a boat out of Emor. Move!
+0173 [Freed White Cat] | Captain Narida, come with us!
+0174 [Narida] | No, you go ahead. I'll cover you.==W== Tonight, not a single Knight or Sentinel in Emor gets to sleep.
+0175 [Lugar y hora] | 02:00, Sonus Month 22nd, Ash District in Emor, Waterway Bridge Underpass
+0176 [Vigilant Sentinel of Dawn] | White Cat! This is as far as you go!
+0177 [Narida] | Too slow!
+0178 [Brave Sentinel of Dawn] | Gah?!==W== Where did that come from?!
+0179 [Narida] | Nice, Taffett. You still have your edge.==W== Keep it up. I'll draw their fire out in the open, and you keep striking from the shadows. Don't let anyone see your face.
+0180 [Taffett] | I squeezed a knight for intel. The Sentinels' temporary command post is a hotel in Gold District. Security is light. All our files and rosters are there.
+0181 [Narida] | We caused enough chaos in the Ash District to pull their forces here. Let's slip through the waterway and catch them completely off guard.
+0182 [Narida] | Burn those files, and you disappear from their records, Taffett. Let's move!
+0183 [Lugar y hora] | 03:30, Sonus Month 22nd, Gold District in Emor, Temporary Command Center
+0184 [Calm Knight] | Commander. We were ambushed during transport, and the White Cats escaped. The attacker identified herself as Narida, claiming to be the First Squad Captain and acting troupe leader.
+0185 [Sentinel of Dawn Commander] | And? Ash District is a complete disaster right now. How many White Cats are we dealing with?
+0186 [Calm Knight] | One... As far as we could tell, it was only one person.
+0187 [Sentinel of Dawn Commander] | Come up with a better lie.==W== We have over a hundred Knights and Sentinels down, and you expect me to believe it was a single enemy?
+0188 [Narida] | That's right. Only me.
+0189 [Sentinel of Dawn Commander] | Guards! Where are the guards?!
+0190 [Narida] | They're fast asleep. You two should surrender. And by the way, our fighting style gave you the wrong idea. You actually thought White Cats were pushovers.==W==
+0191 [Narida] | This is our true strength. Remember it well.==W== You asked for a war, so now you're getting one.
+0192 [Sentinel of Dawn Commander] | Damn you!==W== For the world!
+0193 [Narida] | Pathetic.
+0194 [Taffett] | Narida, watch out!
+0195 [Narida] | Wh-What happened?
+0196 [Taffett] | She triggered a blast circle in the office. Wanted to take you down with her.
+0197 [Taffett] | Knight, are you alright?
+0198 [Calm Knight] | I... I'm okay. But why did you save me?==W== I'm your enemy.
+0199 [Taffett] | Heh. The Imperial Guard just takes orders from the Grace Imperium. You didn't ask for this fight. Besides, you protected my people during the escort.
+0200 [Taffett] | This place is going to burn. Go get some help and carry your friends out of here.
+0201 [Calm Knight] | Understood! Thank you!
+0202 [Taffett] | Narida, did the files burn?
+0203 [Narida] | They were all in the command center. They burned up along with the commander.
+0204 [Narida] | Taffett, what's wrong? That's so much blood. Did you take the blast protecting me?!
+0205 [Taffett] | Narida, I'm okay.==W== Now...==W== I can finally ...==W== be with ... the kids...==W==
+0206 [Narida] | Taffett! Taffett!

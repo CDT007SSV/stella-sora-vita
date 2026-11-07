@@ -1,0 +1,152 @@
+# Capítulo 8 · Calor residual · 4 · Self-Fulfilling Trap
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Blade of the East | Blade of the East
+N:Shadow of the West | Shadow of the West
+N:Voice from the North | Voice from the North
+N:avg1_103 | Amber
+N:avg1_107 | Tilia
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_135 | Mistique
+N:avg1_144 | Chitose
+N:avg1_151 | Yunshu
+N:avg1_152 | Jiyue
+N:avg1_164 | Shuo
+N:avg3_100 | Sylar
+N:avg3_124 | Erinis
+N:avg3_128 | Ophir
+N:avg3_150 | Albedo
+N:avg3_199 | Chica de la pandilla
+N:avg3_215 | Matilda
+N:avg3_220 | Mercurio
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Self-Justification Dilemma
+0003 [Intro] | You nominate Albedo to lead the investigation. One week later, a joint faction vote in Emor will decide if you are the Tyrant. You'll have to earn everyone's trust and prove your innocence before time runs out.
+0004 [1] | This is ==PLAYER_NAME==. I've heard you. I will cooperate with Grace Imperium's investigation, and I trust you that the result will be fair.
+0005 [Voice from the North] | We appreciate your understanding. Then it's settled. The Dusk Arbiter will conduct the investigation.==W==
+0006 [1] | That's the one thing I can't accept.
+0007 [Voice from the North] | Good...==W== What?==W== I thought that's what we'd just agreed to...?
+0008 [Tú] | I agreed to an investigation by Grace Imperium,==W== not one run unilaterally by the Dusk Arbiter.
+0009 [Shadow of the West] | Hahaha... You old fogies spend all day praying, and now you can't even think straight. You are making fools of yourselves.==W== Honestly, who believes in that outdated Book of Grace Prophecies these days?
+0010 [Shadow of the West] | Let us, the Eye of Grace, carry out this investigation.==W== One of my students would be a good candidate. She's exceptionally capable and reliable. How does that sound?
+0011 [Blade of the East] | Don't try to push your own agenda.==W== Your definition of reliable is somewhat unreliable. Allow me to remind you of the investigation into Nocturn Eterna's magic.==W== It's been ten years, and you still haven't delivered the report we asked for!
+0012 [Shadow of the West] | No, magic research requires caution and patience. A ten-year cycle isn't long in our field;==W== our oldest project has been ongoing for three hundred years.
+0013 [Blade of the East] | You really think dragging research out will lead to better results? How wishful.==W== At this rate, I'll be pushing up daisies before you ever reach a conclusion.
+0014 [Shadow of the West] | Then what do you suggest?==W== It's not like you have the right to recommend—you only caught up on the Tyrant prophecies yesterday.
+0015 [1] | Seriously?==W== All this arguing when I'm still on the line?==W== Well...==W== Whatever. This might actually work out in my favor.
+0016 [Tú] | If I may, I'd like Albedo to lead the investigation.==W== If I'm agreeing to this, at least I should have a say in who's in charge.
+0017 [Shadow of the West] | Hmm...==W== Albedo...==W== She's the cautious type. She won't take the prophecies at face value.
+0018 [Voice from the North] | No objection here.==W== Given her deep devotion to the God of Grace,==W== I don't expect her judgment to fail.
+0019 [Blade of the East] | Works for me. She gets things done,==W== unlike you two.==W==
+0020 [Narración] | And just like that, the assignment has been made. Even though we still have our doubts about Grace Imperium, I know one thing for sure:
+0021 [Narración] | The investigation is in the hands of someone I can trust.
+0022 [Lugar y hora] | 14:30, Venatio Month 24th, Gold District, Philae, Executive Office
+0023 [Noya] | ==PLAYER_NAME==, how can you let them run their so-called investigation and decide your fate?!==W== They're all part of the same company. Of course they'll cover for their own.
+0024 [Iris] | Easy, Noya.==W== The Tetrad Aspects have already sacked Angie and officially branded the Salvation Committee as heretical.==W== I don't think they're in cahoots with her.
+0025 [Amber] | That said, it could be just for show,==W== and the investigation could be a trap.
+0026 [Chitose] | My ==SEX11==, I also believe this will put you at great risk.==W== This is like grabbing a blade by the edge and offering the hilt to someone else.
+0027 [Tú] | I hear your concerns, and I don't trust Grace Imperium either.==W== But the call has made one thing clear to me.
+0028 [Tú] | The members of the Tetrad Aspects only care about their own interests. They're too busy keeping each other in check to work together.
+0029 [Noya] | Still,==W== you don't have to go along with their investigation, right?==W==
+0030 [Tú] | Here,==W== check out this newspaper Mistique just brought.
+0031 [Iris] | What's on it?==W== Hey,==W== there is an insert!
+0032 [Iris] | "Sky Institute Director Angie Warns of Impending Doom! Vows to Confront the Evil Tyrant Behind the Boss Accord!"==W== Mistique,==W== what kind of nonsense is this?!
+0033 [Mistique] | Hey,==W== don't look at me like that! I didn't write this.==W== Headquarters sent it over and demanded we deliver it with today's morning paper!
+0034 [Mistique] | It is natural to assume that the Salvation Committee has people inside Scarlet Sights too.
+0035 [Tú] | That would explain it... Mistique, I need your insights. When do you think this insert was printed?
+0036 [Mistique] | Let me think. For it to reach Philae today...==W== It must've been printed at headquarters at least a week ago.
+0037 [Tú] | Just as I suspected.==W== That's why I agreed to the investigation.
+0038 [Noya] | B-But this whole article is fake news!==W== Didn't the Dusk Arbiter just say—==W==
+0039 [Voice from the North] | However, Angie and the Salvation Committee had clearly violated the doctrine of the sacred text. Later today, the Dusk Arbiters will strip Angie of all her positions and denounce the Committee as a heretical organization.
+0040 [Tú] | Exactly.==W== The key is "later today." They didn't set a hard deadline. It's leverage in disguise.==W== If I refuse the investigation, they'll just keep delaying it under one excuse after another.
+0041 [Tú] | And that would only make the "evil Tyrant" rumor spread far and wide.==W==
+0042 [Tú] | So I agreed to take the olive branch, using the news of Angie's dismissal to offset the impact of her insert.==W== It's as simple as that.
+0043 [Tú] | That said,==W== the Dusk Arbiter must have anticipated this as well. That's probably why they made this proposal in the first place...
+0044 [Noya] | The Dusk Arbiter is so underhanded!==W==
+0045 [Tú] | I wouldn't call it underhanded. Hunting heretics is their job, and who could be more heretical than the legendary Tyrant?==W== When such an opportunity comes along, they will seize it without hesitation.
+0046 [???] | Allow me to correct you there, Boss.==W== The legendary Tyrant isn't a heretic. ==SEX1== is the archenemy of the God of Grace,==W== the one who stands against the divine.
+0047 [???] | The Dusk Arbiter hasn't treated you with the same high alert level.==W== You really don't want to know how they deal with the real heretics.
+0048 [Tú] | Hmm...==W== I see.==W== Now, about this investigation—==W==
+0049 [Albedo] | Miss Nyx has briefed me on the situation. I appreciate your recommendation,==W== but that won't influence my judgment.==W== I will base my ruling solely on formal procedure and relevant facts, ensuring a fair outcome.
+0050 [Tú] | Sure. That's exactly what I want. If you are biased towards me, that'll only make things difficult for me.
+0051 [Albedo] | Rest assured, Boss.==W== I'll follow Grace Imperium's rules and stay strictly within my authority, avoiding taking any offensive actions. My analysis will rely only on publicly disclosed information,==W== and I will not take the Book of Grace Prophecies into account.
+0052 [Tú] | I appreciate that ...==W== but as a member of Grace Imperium, is it really okay for you to dismiss the book like that?
+0053 [Albedo] | When the Tetrad Aspects put me in charge, they would have expected this.==W== I'm acting in full compliance with the company rules and procedures.
+0054 [Albedo] | When it comes down to it,==W== Grace Imperium is a corporation with business ethics.
+0055 [Albedo] | We need to weigh the risks posed by the legendary Tyrant, but we also have to deal with the public anxiety==W== and social disruption caused by former Director Angie's reckless behavior.
+0056 [Albedo] | If we let false claims like "the world is about to end" stir up panic,==W== our own interests will suffer.
+0057 [Tú] | So no matter how massive Grace Imperium becomes,==W== it's still bound by corporate rules.
+0058 [Tú] | I guess Albedo cares less about revealing my identity and more about rumors that the Tyrant might destroy the world...==W==
+0059 [Albedo] | Next, we'll gather evidence on whether you are the legendary Tyrant,==W== and you're welcome to provide anything that verifies your identity.
+0060 [Albedo] | One month from now, the annual Nova Chamber of Commerce and Industry Conference will be held in Emor.==W== I will convene the company representatives there to review the evidence, and they will vote to determine your identity.
+0061 [Noya] | A vote?! How is that fair?!==W== You guys could rig it however you like!
+0062 [Albedo] | Rig it? Well...==W== We have to face a key challenge: no amount of evidence can be enough to prove or dispel the rumors about ==PLAYER_NAME==.
+0063 [Albedo] | In a situation like this, the best we can do is let people believe what they want and present it as a "universal truth."
+0064 [Tú] | In other words, Grace Imperium cares only about maintaining social stability in Nova. Whether I am the Tyrant or not is not relevant. Albedo has indeed remained unwavering...
+0065 [Tú] | ... And her stance is definitely in my favor. Picking her was the right move.
+0066 [Tú] | I fully agree. This actually gives me a chance to show all Novians who I really am.==W== I should be thanking you for your thorough consideration, Albedo.
+0067 [Albedo] | No need to thank me. You're entitled to state your case to the public. And when the future of the world is at stake, other companies—and people from around Nova—have a right to know the truth as well.
+0068 [Tú] | Alright then, I'll be looking forward to the conference.
+0069 [Albedo] | Thank you for your cooperation.==W== One more thing. Before you depart for Emor, you must submit a short video each day, documenting your activities in Philae. I'll write an instruction for you.==W== Scarlet Sights will then broadcast the video across Nova.
+0070 [Tú] | Why? You want me to give the public daily proof that I'm not a threat?
+0071 [Albedo] | Kind of, and more importantly,==W== we need to show those who believe in the prophecies that you have no intention to destroy the world, and you never will.
+0072 [Lugar y hora] | 21:00, Venatio Month 24th, Greenhouse District, Lab Core
+0073 [1] | Hmph.==W== Who would've thought the safest place in Philae is right here?
+0074 [Firenze] | Funny, isn't it?==W== This fortress built by Darcia is a de facto stronghold for the "Tyrant's army".
+0075 [Firenze] | With your blade guarding the secret passage and me holding the entrance,==W== it's impenetrable.==W== Even the Salvation Committee couldn't breach it.
+0076 [Firenze] | Heh...==W== Aside from the Monolith, this is certainly the most secure spot in all of Philae.
+0077 [Noya] | Amber,==W== all clear?
+0078 [Amber] | Yes,==W== nothing fishy.
+0079 [Iris] | Phew. Firenze, Boss, after a sweep search, no surveillance artifacts are found.==W== Still...==W== Meeting in an underground fortress like this feels so conspiratorial, like we're plotting something. Gets your heart racing, doesn't it?
+0080 [Firenze] | That's exactly what we're doing.==W== This afternoon, Boss and I went around to feel out where the other companies stand. Here's what we found out—==W==
+0081 [Matilda] | Hello, Boss. What's this sudden call about? I'm on my way back to New Orelian—==W==oh, don't get me wrong. It's not like you're interrupting anything.
+0082 [Matilda] | The legendary Tyrant...==W== Sorry I haven't had a chance to read today's paper yet.
+0083 [Matilda] | I don't know all the details yet, but once I get to New Orelian, I'll do my best to convince the Senate to support you at the upcoming conference.==W== In the meantime, please take care of yourself.
+0084 [Erinis] | The legendary Tyrant? Yeah, I've heard. Boss, you're doing a pretty good job spreading your name. You've blown up all over Nova.
+0085 [Erinis] | So, what's next? Expanding your business? If you want, Deepsea Finance can offer you a special loan to speed things up.
+0086 [Tilia] | Sorry you made the trip for nothing, but Commander Greyhorn has already left Philae. I think she was summoned to some kind of special assignment.
+0087 [Tilia] | Something to do with the Chamber of Commerce and Industry Conference...==W== That's way above my pay grade.==W== I'm only a squire... Sorry I couldn't be of more help.
+0088 [Tilia] | But I've heard that==W== some higher-ups take the Book of Grace Prophecies very seriously...
+0089 [Yunshu] | Cangwu has always believed that legends shall offer no practical guidance.
+0090 [Yunshu] | And we strongly oppose the idea of pinning the fate of all Nova on one single person.
+0091 [Jiyue] | Wow, Yunshu, you've imitated their tone perfectly.==W== That's exactly how our official spokespeople speak. So to speak, that's our position.
+0092 [Jiyue] | Besides...==W== If you really are the one to bring the world to an end, they'd all be on their knees by now. Who dares to doubt your identity?==W== Hehe,==W== just kidding~
+0093 [Ophir] | Hi, Boss, are you here to drop off today's footage? Thank you~==W==
+0094 [Ophir] | Huh? Scarlet Sights' perspective? Um... I'm just a small-time witch.==W== I don't have a clue what the management level is thinking.
+0095 [Ophir] | But I do know one thing—all witches love a good scoop. So they'll probably choose whatever makes the biggest splash.
+0096 [Shuo] | Boss,==W== what on earth is Grace Imperium thinking?==W== How could they be so heavy-handed with someone as kind as you?
+0097 [Shuo] | But there is no need to worry.==W== Goodwind Homecare works closely with both United Harvest Philae and Boss Accord. We will side with you no matter what the circumstances.
+0098 [Shuo] | (Only a fool would fall for a baseless rumor like that.==W== Besides,==W== until I get a lead on Otoha, I need Boss Accord to remain functional.)
+0099 [Mercurio] | F-Firenze's calling from Philae?!==W== We've already pulled the business out of there, why won't she leave us alone?!
+0100 [Mercurio] | What? She bought one of our insurance plans? She's officially a client now?==W== Uh... Ugh...==W== Guess we have to deal with her.
+0101 [Mercurio] | So, what's this about?==W== What?==W== She wants to know our opinion on the legendary Tyrant?
+0102 [Mercurio] | Well,==W== tell her this—if she can get that Tyrant to sign up for one of our top-tier insurance plans, Omnisky Aegis will back her all the way!
+0103 [Tú] | So that's where we stand. Only Fenghuang Diner and Goodwind Homecare are clearly on our side. Everyone else said some nice things, but made no promises.
+0104 [Noya] | Grand Inspector Matilda said she'd back us.==W== Why don't you count her vote in?
+0105 [Firenze] | The United Harvest Senate answers to the New Orelian faction now, which means even if she's on our side, she can't speak for the whole company.
+0106 [Firenze] | For the New Orelian faction, it is in their best interest if Boss falls, so don't expect United Harvest to vote in our favor.
+0107 [Firenze] | We've only spoken to a handful of companies. There are still plenty more out there. All in all...==W== I think we still need solid evidence that Boss isn't the Tyrant.
+0108 [Noya] | How are you supposed to prove a negative?==W== That's impossible.
+0109 [Tú] | We're short on time and have very little leverage. We can't bribe or lobby our way through like we did during the bidding war, so our only choice is to gather evidence.
+0110 [Amber] | What if==W== we try the opposite.
+0111 [Noya] | The opposite...==W== Oh, right! Instead of proving ==PLAYER_NAME== isn't the Tyrant. We just need to prove ==SEX== is an ordinary Trekker who lost ==SEX3== memories.
+0112 [Noya] | Once we figure out the past of ==PLAYER_NAME== before we found ==SEX4==, the whole Tyrant theory will collapse on its own.
+0113 [Firenze] | I heard that==W== you found ==PLAYER_NAME== unconscious inside a Monolith out in the desert. Is that true?
+0114 [Iris] | Yes. We dragged the Wishing Box with ==PLAYER_NAME== inside all the way out of the Monolith. Looking back... It's pretty amazing that we actually managed to pull that off...==W==
+0115 [Firenze] | What if it wasn't a Wishing Box at all? What if it had nothing to do with the Monolith?==W== It could just be a box some random Trekker brought in.
+0116 [Iris] | I doubt it. That box was literally embedded in the Monolith's floor. But if you ask me how we got it out... That is beyond my knowledge...
+0117 [Firenze] | Embedded ...==W== in the floor?==W== Either way, a thorough investigation of the box and the Monolith might give us something about the Boss's true identity.
+0118 [Amber] | Makes sense.==W== I'm in.
+0119 [Tú] | Heading back to the desert to explore the Monolith... Sounds like a plan. But you'll have to go without me. I need to stay here to record and submit video proofs to Scarlet Sights on a daily basis.
+0120 [Firenze] | No, Boss, you're going with the New Star Guild. This is about finding proof that YOU are an ordinary Trekker, so you need to be there in person.
+0121 [Firenze] | Otherwise, they might miss something critical.
+0122 [Tú] | I get that, but what about our agreement with Albedo?
+0123 [Firenze] | Don't worry. I've already checked with her. All she insists is that a video needs to be submitted every day.
+0124 [Firenze] | That gives us some wiggle room. I'll get you out of Philae without breaking the terms.

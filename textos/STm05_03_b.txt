@@ -1,0 +1,142 @@
+# Capítulo 5 · Una chispa en la oscuridad · 3B · The Newbies and Seniors
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Proactive Team Leader | Proactive Team Leader
+N:Slogan-Shouting Employee | Slogan-Shouting Employee
+N:Veteran Employee | Veteran Employee
+N:Young New Hires | Young New Hires
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_135 | Mistique
+N:avg1_138 | Nyx
+N:avg1_1997 | Soldado
+N:avg3_100 | Sylar
+N:avg3_139 | Trekker
+N:avg3_140 | Empleado de Cosecha Unida
+N:avg3_142 | United Harvest Researcher
+N:avg3_180 | United Harvest Researcher
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | The Newbies and Seniors
+0003 [Intro] | Amber is overwhelmed by the fervor in the Marketing Department, while senior Nyx extends a helping hand to her. Meanwhile, Iris seamlessly adapts herself to the hectic pace of work…
+0004 [Narración] | Marketing Department, United Harvest
+0005 [Proactive Team Leader] | United we stand—
+0006 [Slogan-Shouting Employee] | Shatter records—
+0007 [Proactive Team Leader] | Boost performance—
+0008 [Slogan-Shouting Employee] | Profits await—
+0009 [Iris] | Profits await—
+0010 [Amber] | ...
+0011 [Proactive Team Leader] | Hey, intern! Why so quiet?==W== This is a pep rally! Don't be shy—shout with the team! Let it out! Let me hear you! Come on, ready—!
+0012 [Proactive Team Leader] | Boost—performance—
+0013 [Amber] | ......
+0014 [Proactive Team Leader] | I can't hear you! From the top! On my count: three, two, one, SHOUT!
+0015 [Amber] | U-um ... uh...
+0016 [???] | Ugh...
+0017 [Amber] | H-hey, are you okay?
+0018 [???] | My chest... It feels tight. Can you help me get to the infirmary?
+0019 [Proactive Team Leader] | You again? Make it quick! Don't fall behind on your quota.
+0020 [Proactive Team Leader] | You, intern, go give her a hand.
+0021 [Proactive Team Leader] | Yeah, you. Drop her off and get straight back here.
+0022 [Amber] | R-right away.
+0023 [???] | Take a right up ahead.
+0024 [Amber] | B-but ... the infirmary is on the left.
+0025 [???] | Huh? A rookie who actually knows where the infirmary is? Pretty sharp!
+0026 [Amber] | Um... I scouted it out.
+0027 [???] | Scouted? Don't tell me you were hunting for a nap spot too?
+0028 [Amber] | N-nap spot?
+0029 [???] | And here we are. My personal "infirmary."
+0030 [Amber] | A bed ... in the greenhouse?==W== Wait, are you feeling okay?
+0031 [???] | Phew, made it. Thanks for the help.==W== Oh, right! As a thank-you for letting me kidnap you—wanna take a nap too, intern?
+0032 [Amber] | N-no thanks. I need to get back ... to work.
+0033 [???] | What's the rush? Those pep rallies never wrap up in under two hours. So, either nap here or get brainwashed back there for two hours... Take your pick.
+0034 [Nyx] | Oh, I almost forgot to introduce myself. I'm Nyx. I've been in Marketing at United Harvest for four years now. That makes me your senior, technically. You're Mina's new hire, right?
+0035 [Amber] | Yes. I... I'm Amber.
+0036 [Nyx] | Amber, huh? Nice to meet ya! By the way, let me guess. You're not exactly a "people person," are you?
+0037 [Nyx] | You looked pretty uncomfortable back there, so I dragged you out. Hope I didn't make things worse for you.
+0038 [Amber] | Thank you.==W== I'm just ... really bad with those kinds of situations.
+0039 [Nyx] | Glad to hear it. I actually used to be Mina's senior when we were on the same team. Looking out for her rookie is the least I can do.
+0040 [Nyx] | Anyway, you're welcome in this greenhouse whenever. Just give me a shout before dropping by, okay?
+0041 [Amber] | Um, could we maybe...
+0042 [Nyx] | Swap Heartlink IDs? You got it.
+0043 [Amber] | Thank you, thank you so much! Uh, Miss ... Nyx?
+0044 [Nyx] | Don't force the title thing if it feels weird. Nyx is fine.
+0045 [Amber] | Okay
+0046 [Amber] | honestly i'm terrible face-to-face. never know how to act or where the boundaries are with people irl.
+0047 [Amber] | i was seriously freaking out during that pep rally just now.
+0048 [Amber] | thank god you dragged me out. feel like i can finally breathe.
+0049 [Nyx] | glad i could help. ur pretty quick with your thumbs.
+0050 [Amber] | oh, uh, I just live on my phone
+0051 [Amber] | It's easier to be honest when I don't have to look someone in the eye... My fingers kind of fly on their own
+0052 [Amber] | Also... Are we gonna get in trouble for skipping work?
+0053 [Nyx] | no sweat it. all the grunt work flows down to newbies like you and regulars like me anyway
+0054 [Nyx] | we can deal with the pile when it actually hits our desks
+0055 [Nyx] | heard we're on storefront duty starting tomorrow
+0056 [Nyx] | y'know, live promos, shouting slogans, the works. we'd better rest up while we can.
+0057 [Amber] | tomorrow
+0058 [Amber] | storefront
+0059 [Amber] | shouting slogans
+0060 [Amber] | I'm doomed... What am I gonna do???!
+0061 [Tú] | The Marketing Department is just up ahead. I hope Iris and Amber are settling in okay.
+0062 [Mistique] | Shh. Listen. The staff in Marketing are chatting.
+0063 [Veteran Employee] | Phew, I shouted myself hoarse at that rally. Nothing hits the spot like a cold Monolith drink right now.
+0064 [Young New Hires] | But ... the vending artifact in our office doesn't actually stock real Monolith drink, does it?
+0065 [Veteran Employee] | Obviously. I can't afford the authentic stuff anyway. Just pretend these knock-offs are the real deal. See? Don't you feel better already?
+0066 [Young New Hires] | You make a good point. It's been less crazy since the new hires started,==W== but should we really be slacking off this openly?
+0067 [Veteran Employee] | Watch and learn.
+0068 [Narración] | She expertly fishes a round piece of metal, which looks nothing like a coin, from her pocket and slots it into the vending Artifact.
+0069 [Veteran Employee] | There, the Artifact's jammed. If anyone catches us, we just claim it malfunctioned. Say we've been waiting ages for our drinks and are just about to call maintenance.
+0070 [Young New Hires] | Wow. You're a genius.
+0071 [Veteran Employee] | Just a basic corporate survival skill. Speaking of intense, that intern over in Strategy is something else. A total workaholic.
+0072 [Young New Hires] | Shh! She's coming over.
+0073 [Iris] | Excuse me. I've finished the promotional budget for next quarter. Does anything need changing?
+0074 [Proactive Team Leader] | Good work.==W== Actually, perfect timing—I've got a task that only you can pull off... Are you up for it?
+0075 [Iris] | A task ... only I can pull off?!==W== Please, let me do it!!
+0076 [Tú] | Iris sure is eager.
+0077 [Mistique] | You think she buys the whole "with great power comes great responsibility" bit? Or is she just totally blind to the fact they're dumping all their grunt work on her?
+0078 [Tú] | Hey Iris. Busy?
+0079 [Iris] | Oh! Bo—==PLAYER_NAME==! And Mistique! What brings you here?
+0080 [Tú] | We were a little worried. Thought we'd check in.
+0081 [Iris] | I see—==W==Ah! Mistique, watch out!
+0082 [Mistique] | Yeah?
+0083 [Mistique] | Gaaah—?!!
+0084 [Mistique] | I nearly got buried alive under that paper avalanche... Iris, is this workload seriously okay?
+0085 [Iris] | It's fine! I'm the newbie, so I should be doing the heavy lifting.==W== Honestly, I want more work! It's the fastest way to grow!
+0086 [Tú] | Has she completely forgotten she's undercover?
+0087 [Iris] | Besides, more data means better odds of finding a lead. ==PLAYER_NAME==, look at this.
+0088 [Tú] | This is ... sales data for the Tawny Nightingale.==W== Revenue started spiking two months ago, up thirty percent year-over-year.
+0089 [Iris] | Only Trekkers and the poor in the Ash District buy Tawny Nightingales. That thirty percent surge... It has to be connected to what we're looking into.
+0090 [Iris] | I cross-referenced the migration records. The Trekker and Ash District populations in Philae haven't increased much in the last two months.
+0091 [Iris] | Which means—though the number of consumers is stable, bread consumption keeps climbing...
+0092 [Tú] | So... Customers buy the Golden Nightingale, realize it doesn't fill them up, and end up spending more on Tawny Nightingales?
+0093 [Tú] | Two months ago... Wasn't that when Nazuka was hunting the Blade of Jade?
+0094 [Iris] | That's as far as my theory goes for now. I'll keep digging and also look into the mercenaries' purchase history at the United Harvest stores.
+0095 [Tú] | Great work.==W== By the way, where's Amber?
+0096 [Iris] | Amber's doing amazing, too. She's already hit it off with a senior named Nyx. They're out making deliveries in the city right now.
+0097 [Tú] | Amber's on delivery duty?==W== I hope she's not pushing herself too hard...
+0098 [Tú] | Amber, how's work going?
+0099 [Amber] | 
+0100 [Amber] | Good. My senior Nyx is super nice, and the work's kinda fun.
+0101 [Amber] | Already hit four stores!
+0102 [Amber] | Marketing is short-staffed so shipments are late
+0103 [Amber] | But nyx was amazing at smoothing things over with the angry managers
+0104 [Tú] | u holding up okay with the pace?
+0105 [Amber] | 
+0106 [Amber] | I'm learning negotiation from nyx.
+0107 [Amber] | While she chats up the managers inside, i practice shooting outside
+0108 [Amber] | Zero time wasted.
+0109 [Tú] | shooting practice????
+0110 [Amber] | gotta run. next store's waiting.
+0111 [Mistique] | Well? How's it looking with Amber?
+0112 [Tú] | A few details have me scratching my head... But she seems fine.
+0113 [Mistique] | Good enough for me! So, what's the plan?
+0114 [Opción] | Check on Noya and Fuyuka
+0115 [Opción] | Check on Iris and Amber
+0116 [Opción] | Focus on our own assignment
+0117 [Tú] | Let's go to R&D.==W== Noya's wild ideas mixed with Fuyuka's brute strength... That's worrying.
+0118 [Mistique] | You got it. Just a heads-up:==W== it's a sea of lab coats over there.
+0119 [Tú] | We should stick to the plan and investigate our own assignment—the Production Department.
+0120 [Mistique] | Ooh, look at you being all professional, Boss. To the greenhouses we go★

@@ -1,0 +1,163 @@
+# Capítulo 7 · El precio de la estrella · Final: Redemption of United Harvest
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Hungry Employee | Hungry Employee
+N:Tired Employee | Tired Employee
+N:Troubled Employee | Troubled Employee
+N:avg1_107 | Tilia
+N:avg1_110 | Firenze
+N:avg1_133 | Nazuka
+N:avg1_138 | Nyx
+N:avg3_100 | Sylar
+N:avg3_1222 | Guardia
+N:avg3_124 | Erinis
+N:avg3_125 | Meikyo
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_140 | Empleado de Cosecha Unida
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_142 | United Harvest Researcher
+N:avg3_144 | Residente
+N:avg3_157 | Guardia Imperial
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg3_215 | Matilda
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | The End
+0002 [Intro] | Redemption of United Harvest
+0003 [Intro] | You take out another loan to rein in United Harvest's warring factions. But Matilda dies suddenly, throwing the company into chaos. Later, an employee's mistake gets you jailed. You try to escape, only to drown in the storm...
+0004 [Erinis] | Not a chance.==W== Even with collateral, Deepsea Finance isn't lending you another Dorra.
+0005 [Erinis] | From what I hear, United Harvest Philae's margins are terrible.==W== You move plenty of product, but you barely scrape together a single Dorra.
+0006 [Erinis] | Your payment is due any day now. You need to worry about clearing that debt, not scheming for another loan.
+0007 [Tú] | Firenze,==W== close the front door.
+0008 [Firenze] | Got it.
+0009 [Tú] | Nazuka,==W== check the back exit.
+0010 [Nazuka] | Okay.
+0011 [Meikyo] | Wh-What are you doing?!==W== I'm warning you, bank robbery is a major crime!==W== One press of this button and the Imperial Guards are on their way!
+0012 [Tú] | Relax. We need privacy for what we are about to discuss.
+0013 [Tú] | Manager Erinis... If memory serves, that 40-billion loan to United Harvest Philae from two years ago is still the biggest contract you've landed, isn't it?
+0014 [Erinis] | Y-Yeah, so what if it is? Right now, my performance metrics depend entirely on your post-loan management...
+0015 [Tú] | Meaning... If we miss this month's payment, your superiors come down on you hard, right?
+0016 [Erinis] | T-That still doesn't mean I can approve another loan!==W== Even with more money, you still can't pay it back!
+0017 [1] | No, no, no. Manager Erinis,==W== you need to look at the bigger picture.
+0018 [1] | Grain is in massive demand right now, yet United Harvest Philae's profit margins sit at rock bottom.==W== But profits never vanish. They merely migrate from one pocket to another.
+0019 [Tú] | So,==W== where do United Harvest Philae's profits go?==W== Straight to Deepsea Finance.==W== You buy our grain at the contract rate and flip it for a massive markup, don't you?
+0020 [Erinis] | Y-Yes... But I don't run that division! I get zero credit for it. The profit they bleed out of you has nothing to do with me!
+0021 [Tú] | Easy now. I'm not here to point fingers. I want fairness, that's all.
+0022 [Tú] | Think about it. You do the heavy lifting to negotiate a brilliant deal, only for another department to steal the glory. You must find that unfair.
+0023 [Erinis] | ... That is company policy. N-Nothing unfair about it.
+0024 [Tú] | Your face says otherwise, Manager Erinis. Here is my proposal—
+0025 [Tú] | You lend us 80 billion Dorra.
+0026 [Erinis] | 8==W==-80 billion?!
+0027 [Meikyo] | Manager Erinis!==W== Manager!
+0028 [Erinis] | Go on.==W== I can take it.
+0029 [Tú] | 40 billion clears our old loan and interest.==W== The rest goes to scooping up the fractured branches of the old United Harvest.
+0030 [Erinis] | Deepsea Finance strictly forbids financing debt with debt,==W== Boss. Even I can't get this approved.
+0031 [Tú] | Exactly. That's why the loan isn't under United Harvest Philae. It falls under the Boss Accord.
+0032 [Tú] | For collateral: Artifacts in our warehouse, and my Seal of Grace.==W== An exclusive patent on soul trading easily covers the cost.
+0033 [Erinis] | B-But Boss Accord and United Harvest Philae are still co-managed. A joint liability check kills the deal immediately.
+0034 [Tú] | Not anymore. Boss Accord has surrendered all its shares to Grand Inspector Matilda's new United Harvest.
+0035 [Tú] | As of right now, Boss Accord has zero ties to United Harvest Philae.
+0036 [Erinis] | Technically... That bypasses the rules. But getting 80 billion approved... I don't know...
+0037 [Tú] | Manager Erinis, this loan offers massive benefits to you—and your department.
+0038 [Tú] | We hold a magical contract with the new United Harvest. We guarantee the purchase of half their grain output.
+0039 [Tú] | We can also add a rider to the loan: we sell all that grain to Deepsea Finance at our old, discounted rate.
+0040 [Tú] | Just don't let another department steal the credit this time.
+0041 [Erinis] | If they absorb those fractured branches...==W== Their grain output skyrockets. Even half of that means exponential profits.==W== That alone could convince the Senate.
+0042 [Meikyo] | And the credit for all of it goes straight to you,==W== Manager Erinis.
+0043 [Meikyo] | Let's do it, Manager!
+0044 [Erinis] | Boss...==W== Can Boss Accord actually pay back 80 billion Dorra?
+0045 [Tú] | Relax.==W== I've got everything under control.
+0046 [Hungry Employee] | Pay our back wages,==W== and the Port Goldfinch branch immediately rejoins the new United Harvest!
+0047 [Troubled Employee] | Sigh... Grand Inspector Matilda's up north fighting the New Orelian elites, leaving the forest clearing totally abandoned.==W== If we don't clear it now, spring planting is ruined.
+0048 [Troubled Employee] | Supply us with the clearing equipment, and we gladly take your orders.
+0049 [Tired Employee] | To think the new United Harvest actually remembers our little branch.==W== The wheat is rotting in the warehouse—please, just haul it away!
+0050 [Narración] | Two months later
+0051 [Nazuka] | Hold on, Boss,==W== we're landing!
+0052 [Tú] | Phew. Finally back.
+0053 [Narración] | Over two months, Nazuka's magic has carried us to every United Harvest branch and office outside New Orelian.
+0054 [Narración] | The 30 billion Dorra we borrowed from Deepsea Finance pulled them back from the financial brink.
+0055 [Narración] | Our promises for the future and Grand Inspector Matilda's pristine reputation gave them something to believe in.
+0056 [Narración] | Like an inflating balloon, the new United Harvest rapidly reclaims its former territory, except for New Orelian.
+0057 [Nazuka] | Great news, everyone. Boss's trip is a success. Every regional office is ready to rally under the Grand Inspector's banner.
+0058 [Nazuka] | We now control half of Nova's grain output. If we manage the planting right, we avert the food crisis.
+0059 [Firenze] | Amazing work, you two. You're the heroes keeping United Harvest up and running.
+0060 [Tú] | We can only negotiate with confidence because you're here holding the fort, Firenze. You keep this place running.
+0061 [Nazuka] | Still... This adds a hundred thousand names to our payroll. Can we really handle this load?
+0062 [Firenze] | We know our people in Philae, but the other branches... We barely have any contact with them.
+0063 [Sapphire] | Grand Inspector Matilda knows the ins and outs of every branch. Too bad she isn't here.
+0064 [Tú] | I hear she's leading troops north to wipe out the New Orelian remnants. Any updates from the front?
+0065 [Ruby] | Radio silence. Communications are completely cut.
+0066 [Firenze] | Pitting two thousand troops against 20 thousand is a suicide mission. Nyx and I urged her not to rush north, but she told us—
+0067 [Matilda] | The New Orelian faction won't sit back and watch us consolidate. Even if it's only to buy you time, I have to go.
+0068 [Tú] | She made the right call... We never would have secured those branches without her holding the line.
+0069 [Nyx] | Boss... Everyone. I'm back.
+0070 [Firenze] | Nyx?! When did you get here? Aren't you deployed with the Grand Inspector?
+0071 [Nyx] | We... We won.
+0072 [Nyx] | Seeing branch after branch siding with us shattered their morale.
+0073 [Nyx] | With the Grand Inspector leading the charge, we overcame their numbers and captured most of the Senate alive.
+0074 [Firenze] | Nyx... Is there something wrong?
+0075 [Nyx] | We won... But the Grand Inspector took a direct hit.==W== She's gone.
+0076 [Firenze] | What?!
+0077 [Narración] | Matilda's death triggers a fallout far worse than we ever imagined.
+0078 [Narración] | Lacking the people or the know-how to run so many new branches, overexpansion catches up with us fast.
+0079 [Ruby] | Report. The Lushwood Jungle wheat failed the inspection. A large batch of it is moldy.
+0080 [Firenze] | What went wrong with the quality check?
+0081 [Ruby] | Inspectors claimed it was clean when they checked it.
+0082 [Firenze] | Then the issue is storage. Who's the manager for this batch?
+0083 [Sapphire] | Um, the manager had an accident unloading at Port Goldfinch. The cargo straps gave way, and he was crushed. He's still in a coma.
+0084 [Firenze] | I see... We'll sort out the screw-up later. Make sure his family gets compensated first.
+0085 [Nazuka] | New Orelian just contacted. Their warehouse burned down.
+0086 [Firenze] | A fire breaks out in the middle of our audit? Nyx, you'll have to go down there yourself.
+0087 [Nyx] | Sure, but I've already got a backlog of embezzlement cases waiting...
+0088 [Tú] | I'll handle those cases.
+0089 [Nazuka] | Boss, you're running on empty. Let me take over.
+0090 [Tú] | It's fine. We're all stretched thin right now. We just have to keep pushing.
+0091 [Narración] | But some mistakes can't be fixed by hard work alone.
+0092 [Narración] | We lack the ability to screen employees across all branches, so we have to keep all of them on board for now.
+0093 [Narración] | Greed, laziness, sheer incompetence— the toxins of the old United Harvest seep straight through the corporate structure and infect Philae.
+0094 [1] | What are you doing? Why am I under arrest?==W== Erinis,==W== we're in this together! What do you gain from throwing me in prison?
+0095 [Erinis] | Throwing you in prison?==W== Oh, please! I'm going down right alongside you!
+0096 [Erinis] | Deepsea Finance audited us! Most of the Artifacts you put up as collateral are fake—empty shells!==W== We're both up for loan fraud. You've completely ruined me!
+0097 [1] | Fake...? How is that even possible?!
+0098 [Narración] | A few days later.
+0099 [Tilia] | Boss,==W== you have a visitor.
+0100 [Tú] | Nazuka... Is the fraud mess cleared up? I swear I'm innocent.
+0101 [Nazuka] | Boss, our investigation confirmed that a few greedy employees embezzled company assets. That's how the collateral got compromised.
+0102 [Nazuka] | But they've already blown through the money. The scandal is tanking the new United Harvest's business. And the worst part is...
+0103 [Nazuka] | By law, Deepsea Finance can refuse to release you until Boss Accord repays the full 80-billion loan. As CEO, you're on the hook.
+0104 [Tú] | 80 billion...
+0105 [Nazuka] | Well, Firenze and I crunched the numbers. We're supposed to be able to pay it off in 15 years... 20 at most.
+0106 [Nazuka] | I'll wait for you, Boss.
+0107 [1] | Dammit, I can't make Nazuka wait that long. I need a plan...==W== Wait,==W== I saw this in a Stella Drama once!
+0108 [1] | Guard! I want a book!==W== And bring me the newest Magical Girl poster!
+0109 [Narración] | A short while later...
+0110 [Tú] | It's been almost two years ...==W== since they locked me in here.
+0111 [Tú] | I keep a stolen cafeteria spoon hidden in a book.==W== Every day at yard time, I dump the dirt I dig out with it.
+0112 [1] | There's a massive storm tonight==W==—perfect cover for an escape.
+0113 [1] | Hold on, Nazuka.==W== I'm coming back!
+0114 [Tú] | Alright... Squeeze through this hole,==W== dig through the last bit of dirt blocking the sewer,==W== and I'm free...
+0115 [Tú] | Huh?==W== What's that noise?==W== Where's all this water coming from?!==W==
+0116 [Tú] | Gurgle...==W== This is not how it goes in the Stella Drama!==W==
+0117 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0118 [1] | Gasp... Cough...==W== How...==W== How did I drown?!
+0119 [Virigia] | That storm is Philae's worst in a century.==W== Your escape route turns into a deadly underground river.
+0120 [Bernina] | Not much of a swimmer, are you, Tyrant?
+0121 [Tú] | ... Never should have trusted the Stella Dramas!
+0122 [Virigia] | Take a look at your cell. Missing the prison life already?
+0123 [Bernina] | Actually,==W== you're getting great sleep, regular exercise, and balanced meals in there.
+0124 [Bernina] | You're healthier than before you went in.
+0125 [Bernina] | Plus,==W== a cute girl who really cares visits you every week.==W== With a setup like that, I'd never leave.
+0126 [Tú] | But who can wait 20 years?!
+0127 [Tú] | Vita, open the door.==W== I'm going back.
+0128 [Vita] | Your command is my will.
+0129 [Bernina] | Goodbye, Tyrant.==W== Without the right team, managing that many people is just a burden.
+0130 [Virigia] | A company is far deadlier and trickier than a Monolith.
+0131 [Tú] | I will go back...==W== This time, I must go back to the even more distant past.
+0132 [Firenze] | "Not looking to monopolize"? What's Mercurio's angle here...
+0133 [Firenze] | What do you think, Boss?
+0134 [Tú] | Perhaps taking out a loan from Deepsea Finance is the first step into the box. I should look for another way.

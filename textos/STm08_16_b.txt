@@ -1,0 +1,132 @@
+# Capítulo 8 · Calor residual · 13B · The Desert Scorpion's Ambition
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Desert Scorpion Guard | Desert Scorpion Guard
+N:Now Happy Customer | Now Happy Customer
+N:Petite Waitress | Petite Waitress
+N:Unhappy Customer | Unhappy Customer
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_142 | Cosette
+N:avg1_145 | Otoha
+N:avg1_146 | Benito
+N:avg1_163 | Greyhorn
+N:avg2_939 | Water Tower Stellaroid
+N:avg3_100 | Sylar
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_157 | Guardia Imperial
+N:avg3_207 | Myrsha
+N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_210 | Hazana
+N:avg3_218 | Mirage Resident
+N:avg3_219 | Mirage Resident
+
+## Texto
+0001 [Intro] | Act Thirteen
+0002 [Intro] | The Desert Scorpion's Ambition
+0003 [Intro] | At Eureka Bar, you and Hazana plan how to take on Angie. Allie evacuates with the children, while the New Star Guild stays in Mirage. Following Hazana's advice, you wish for dozens of Scepters of Death...
+0004 [Lugar y hora] | 12:30, Nebula Month 17th, Mirage, Eureka Bar
+0005 [Myrsha] | Apologies for the interruption, folks!==W== We appreciate your cooperation.
+0006 [Unhappy Customer] | Oh come on, I'm barely halfway through my meal!==W== I know the Desert Scorpions did a lot for us, but this is pushing it.
+0007 [Myrsha] | I am sorry, but we have urgent business and need the space.
+0008 [Myrsha] | Don't worry, though.==W== As a thank-you for your support, today's bills are on us.==W== And for the next three days, all your drinks at Eureka are covered.
+0009 [Now Happy Customer] | All drinks?!==W== That's generous.==W== Alright, let's take this somewhere else!
+0010 [Petite Waitress] | Hey, hey, Miss Myrsha! What are you doing? Why are you kicking my customers out?
+0011 [Myrsha] | Oh, good afternoon, Benito! ♪==W== Sorry to barge in. We aren't kicking anyone out. Look, they're all smiling.
+0012 [Myrsha] | The customers are compensated,==W== your sales will spike for the next three days,==W== and we get a quiet place to talk.
+0013 [Myrsha] | Triple win. Everybody wins!
+0014 [Benito] | But—
+0015 [Myrsha] | No buts.==W== Take the day off and come hunt monsters with me!==W==
+0016 [Tú] | Quite the setup. You cleared the whole place for a chat?==W== Why here?
+0017 [Hazana] | Heh. You don't visit Mirage often. It'd be a shame to miss out on Eureka's drinks, so here we are.
+0018 [Tú] | Still, you didn't have to kick everyone out. Couldn't we just chat over a meal?
+0019 [Hazana] | We normally wouldn't, but today is different.==W== This partnership means everything to the Desert Scorpions.
+0020 [Hazana] | This pouch of crystal diamonds==W== covers the reservation for the next three days, plus some extra for Eureka Bar.==W==
+0021 [Narración] | Hazana tucks a bulging pouch of crystal diamonds behind the counter,==W== then grabs a bar spoon and shaker with practiced ease.
+0022 [Narración] | After a quick shake,==W== she sets a drink down in front of me, pitch black at the bottom and pale blue on top, with a tiny cross-shaped flower on the rim.
+0023 [Hazana] | To celebrate our reunion in Mirage,==W== I made this drink for you. I call it the Boss.
+0024 [Tú] | Thanks.
+0025 [Tú] | Mmm, sweet and fizzy.==W== So this is how you see me?
+0026 [Hazana] | The black Pep Pep Juice stands for your awakening from the Monolith.==W== The blue syrup represents your time as a Trekker.
+0027 [Hazana] | Black and blue are the Boss's colors.==W== The colors of steel and sky.==W== You'll lead the Desert Scorpions, claiming the lands beneath the blue sky with black steel.
+0028 [Tú] | Poetic.==W== But I have no weapons, nor the means to lead anyone to "claim the lands beneath the blue sky."
+0029 [Hazana] | I don't mean standard weapons.==W== The Scepters of Death are the special steel we want.
+0030 [Tú] | The Scepters of Death are made of special steel, yes...==W== Wait.==W== Knowing the name is one thing, but how do you know it's made of special steel?
+0031 [Tú] | Barely anyone has seen that thing in person...
+0032 [Hazana] | Angie showed it to me when she passed through Mirage.==W== Hah!==W== I heard she tried to kill you with it.
+0033 [Tú] | Angie's here in Mirage?!
+0034 [Hazana] | Relax.==W== After our chat, she slithered off like a snake. Left nothing behind but her disgusting skin.
+0035 [Hazana] | But ... she's convinced you're hiding here.==W== She wanted the Desert Scorpions to help the Salvation Committee hunt you down.
+0036 [Hazana] | She made a compelling offer.==W== Hand you over, dead or alive,==W== and she gives us the city and its crystal diamond mine.
+0037 [Hazana] | Not a bad deal, right? Haha!==W== The Imperial Guard leaves, and we become the undisputed rulers of Mirage.
+0038 [Tú] | Good to know my life is worth that much.==W== You turned her down to pitch a team-up?==W== But if I say no, you'll walk away with nothing.
+0039 [Hazana] | I'd never take the bait from a snake like her.==W== We have a saying out here. Borrow another person's eyes, and you only see one path.
+0040 [Hazana] | Going from mercenary captain to city lord, sitting on a fresh crystal diamond mine. Logically, I should be satisfied.
+0041 [Hazana] | But I want more than a handout.==W== Out here, if you want something, you break them and take it yourself.==W== That's the law of the desert!
+0042 [Hazana] | Play lapdog to a snake and lick up her scraps?==W== Not a chance.==W== You see right through her game, don't you, Boss?
+0043 [Opción] | Of course. I have it figured out.
+0044 [Tú] | If I die, she can forge enough evidence to brand me as the true Tyrant.
+0045 [Tú] | Once she does, clearing her name and retaking the Sky Institute can't be simpler.
+0046 [Tú] | Mirage has no Monolith. You have to import every daily Artifact, and you must export your crystal diamonds to earn Dorra.
+0047 [Tú] | Any Artifact pulled from the Wilds must be appraised by the Soul Shop before it can be sold. The Sky Institute runs the Soul Shop. No matter what, you'd be answering to her.
+0048 [Tú] | The Imperial Guard buys most of your crystal diamonds, and the Sky Institute pays the Imperial Guard. That means they control your sales too.
+0049 [Tú] | Ultimately, she controls everything in and out of Mirage. When someone else sets your prices, that's just slavery.
+0050 [Hazana] | I knew I picked right. You pieced it all together from just a few scraps.
+0051 [Hazana] | Desert Scorpions are the descendants of Mirage's founders. We were the first to mine crystal diamonds here.==W== This city is ours.
+0052 [Hazana] | But back then, the Imperial Guard monopolized the trade.==W== The crystal diamonds we bled to dig up were sold to them for next to nothing.
+0053 [Hazana] | Then we misplaced our trust in Grace Imperium. We took up arms to fight the White Cats for them, but ended up as cannon fodder who they didn't have to pay pensions to.
+0054 [Hazana] | I thought times had changed. Then Angie waltzes in with the same old trick. Does she think we're stupid?
+0055 [Hazana] | That's the long and short of it.==W== Desert Scorpions don't bow to anyone anymore.==W== I'll keep fighting until we get what's ours.
+0056 [Tú] | Then why take that job from United Harvest?==W== Coming to Philae to kill me doesn't sound like fighting for yourselves.
+0057 [Hazana] | Heh, fair point.==W== The Imperial Guard acts like our ally, but they actually watch us like hawks.==W== They count heads every time we leave the desert, making sure we don't set up base outside.
+0058 [Hazana] | It's like flies you can't shake. Annoying as hell.==W== So we used that commission to fake some casualties. We let our people "die" on paper so they could quietly set up base.
+0059 [Hazana] | Of course, what I really wanted were those Seals of Grace you supposedly carried.==W== One Seal, and we can start our own company.==W== We might not match Grace Imperium or United Harvest, but at least we wouldn't get squeezed dry.
+0060 [Hazana] | Didn't expect your fox to be so tough, fending us off singlehandedly.==W== Her beating us up actually made our fake casualties look convincing, so it wasn't a total loss.
+0061 [Tú] | I see.==W== Well, I have three Seals on me right now.==W== Since we're partners, if everything goes well, I might let you have one.
+0062 [Hazana] | Hah! You never disappoint.==W== I'll hold you to that when the time comes.
+0063 [Hazana] | But...==W== I'd take Scepters of Death over a Seal any day.==W== An exclusive Artifact like that is way better for us, no matter if we use or sell it.
+0064 [Tú] | Heads up. Wishing for an Artifact like that will cost you a ton of memories.==W== If you want to keep them, you have to make a soul pact and put your soul in my hands.
+0065 [Hazana] | Hah! No way.==W== I'd rather lose my memories than hand my fate to someone else.
+0066 [Hazana] | Anyway, thanks for the deal.==W== By the way, it looks like your pursuers are about to catch up...
+0067 [Hazana] | Once Director Allie and the kids evacuate, we'll slip out of Mirage tonight too.==W== There's a secret tunnel in the mines.
+0068 [Tú] | Got it.
+0069 [Desert Scorpion Guard] | Hold up. The captain's in an important meeting. You can't go in.
+0070 [Noya] | How many times do I have to say it?! The person in there with your captain is our partner!
+0071 [Tú] | Is that ... Noya?
+0072 [Hazana] | It's fine.==W== Let them in.
+0073 [Tú] | Noya, Iris, Amber? What are you doing here?==W== Are Allie and the kids okay?
+0074 [Noya] | Don't worry.==W== We left the Lucky Oasis for Aunt Allie and the kids.==W== They're packing up and heading to Philae this afternoon.
+0075 [Iris] | We...==W== Well, we talked it over. We're staying to fight with you.
+0076 [Amber] | Boss, you need guards.
+0077 [Tú] | Are you sure about this?==W== What I'm about to do ...==W== will plunge the world into chaos.
+0078 [Noya] | Chaos or not, isn't it ultimately to protect us?==W== We are not letting you play the villain all by yourself.
+0079 [Amber] | That wouldn't make us partners.
+0080 [Iris] | We trust you, Boss. Whatever you choose to do,==W== we're with you.
+0081 [Hazana] | Hmph. Respect their choice.==W== Besides, how can you be so sure that our plan will plunge the world into chaos?
+0082 [Lugar y hora] | 17:00, Nebula Month 30th, Unnamed Monolith, Floor 44
+0083 [Myrsha] | Phew. Stellaroids cleared, and we found a Wishing Box.==W== Your turn, Boss.
+0084 [Tú] | Alright. I'm on it.
+0085 [Noya] | You need a break, ==PLAYER_NAME==. You look exhausted.
+0086 [Tú] | I'm fine. I can push through.==W== We don't have enough Scepters of Death yet.
+0087 [Narración] | Ten days ago, after the Daisy Orphanage and White Cat Troupe evacuated, we slipped out of Mirage overnight.
+0088 [Narración] | Maybe the desert was too big, or maybe we got lucky… We didn't run into anyone the whole way out. Not even Angie or the Salvation Committee.
+0089 [Narración] | Later, Allie called after making it safely to Philae. She mentioned finding a kid in blue who passed out from thirst in the desert...
+0090 [Narración] | The kid told her about a massive army with red eyes roaming the dunes. They seemed to be hunting someone.
+0091 [Narración] | Ever since, we've been scaling Monoliths in the Wilds one after another, collecting Scepters of Death.
+0092 [Narración] | I taught everyone the wishing prayer, and made soul pacts with all the Desert Scorpions except Hazana...
+0093 [Narración] | But for whatever reason, their success rate was abysmal. To avoid wasting the Wishing Boxes, I had to step up and handle most of the wishes.
+0094 [Narración] | The Throne helped keep my memories intact, but still, with every wish, I felt something else draining out of me...
+0095 [Hazana] | Ooh. Looks identical to Angie's Scepter of Death.
+0096 [Hazana] | You need to rest, Boss. We have enough Scepters.
+0097 [Tú] | Are you sure?==W== We only have sixty or seventy. That isn't even one per person.==W== We should grab more while we can—
+0098 [Hazana] | Pfft...==W== Hahaha!==W== Hey, who said anything about us fighting the Salvation Committee ourselves?==W== I never said that.
+0099 [Iris] | Then what are we supposed to do...?
+0100 [Hazana] | This world is full of people sick of the companies.==W== All we have to do is...
+0101 [Hazana] | Sell them the Scepters of Death==W== and let them unleash all that pent-up anger!

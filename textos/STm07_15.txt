@@ -1,0 +1,167 @@
+# Capítulo 7 · El precio de la estrella · 15 · Floor 51
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_136 | Angie
+N:avg1_144 | Chitose
+N:avg2_946 | Opera Ghost
+N:avg2_972 | Guantelete de la Ira
+N:avg2_973 | Ejecutor de Mano Titánica
+N:avg2_974 | Martillo de la Olla de Vapor
+N:avg2_975 | Glopo
+N:avg2_980 | Atacante de proyectiles
+N:avg2_981 | Lucky Rubbi
+N:avg3_100 | Sylar
+N:avg3_1242 | Chitose
+N:avg3_133 | Portia
+N:avg3_974 | Serena
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Fifteen
+0002 [Intro] | Floor 51
+0003 [Intro] | Acting on Portia's hint, you and Chitose recreate the trial of the Armless Saint, finally unlocking Floor 51. Waiting for you in the shadows is a terrifying evil deity, the very one that cursed Philae with endless rain...
+0004 [Lugar y hora] | 17:00, Venatio Month 15th, Philae Monolith, Floor 50
+0005 [Chitose] | This floor's clear of Stellaroids, my ==SEX11==. Please watch your step.
+0006 [Tú] | Thanks, that's a big help.==W== But there's no Wishing Box big enough on this floor either... How many Trekkers did Omnisky Aegis send to sweep this Monolith?
+0007 [Tú] | That means our only option is the hidden 51st floor from the files.
+0008 [Chitose] | My ==SEX11==, I checked the walls for hidden passages and found nothing. I also stepped on every pressure plate. They were merely traps—none opened a path to the 51st floor.
+0009 [Tú] | How do we get up there...?
+0010 [Chitose] | Shall I cut a hole in the ceiling?
+0011 [Tú] | No, no... Brute force isn't always the answer.
+0012 [Tú] | Wait, there might be one other way... Noya mentioned something once. Back when the New Star Guild found the Wishing Box I was sleeping in—
+0013 [Narración] | O God of Grace, please… Please let us find an absurdly huge Wishing Box!
+0014 [Tú] | Apparently, Iris made that exact wish right before stepping into the elevator.==W== I don't know if her prayer was actually answered...
+0015 [Tú] | But either way, they ended up on the floor with that Wishing Box. The one I was inside.
+0016 [Chitose] | I see. If we make a wish before entering the elevator...
+0017 [Tú] | Let's give it a try.
+0018 [Lugar y hora] | 17:05, Venatio Month 15th, Philae Monolith, Elevator Door
+0019 [Tú] | O God of Grace, please... Please let us find an absurdly huge Wishing Box!
+0020 [Chitose] | The elevator hasn't changed, my ==SEX11==.
+0021 [Tú] | Then let me try rephrasing...!
+0022 [Tú] | O God of Grace, please let us find a Wishing Box bigger than my hand.
+0023 [Chitose] | Still the same, my ==SEX11==.
+0024 [Tú] | H-How...?! Hmm... Let me try this instead—
+0025 [Tú] | O God of Grace, please... Please let us find an absurdly huge Stellaroid!
+0026 [Tú] | ...
+0027 [Tú] | ... Sigh... Nothing, huh. Guess wishing alone won't get us to the hidden 51st floor.
+0028 [Tú] | Makes sense, actually. If saying your wish out loud was enough, way more Trekkers would be there by now.
+0029 [Tú] | Our only other option... Ugh, I hate to admit it... Is the convenience store. We might find a lead there.
+0030 [Chitose] | The convenience store?
+0031 [Lugar y hora] | 17:20, Venatio Month 15th, Philae Monolith, Monolith Shop
+0032 [Portia] | Welcome. What can I get for you today?
+0033 [Tú] | Hey Portia, afternoon. Got a question for you.
+0034 [Portia] | Welcome. What can I get for you today?
+0035 [Tú] | ... Huh? Portia, no time for games.==W== Please, listen to me.
+0036 [Chitose] | Um... My ==SEX11==? What are you doing? As far as I can tell, she is acting the same as always...
+0037 [Tú] | The same? No way! The whole New Star Guild has heard her talk normally!
+0038 [Chitose] | Every time I see her, she only repeats a few phrases.==W== I always assume she is a magic doll.
+0039 [Tú] | N-No, that's not it at all...==W== Come on, Portia.
+0040 [1] | Do a former coworker a favor. Tell me how to reach the hidden room in this Monolith, or the 51st floor.
+0041 [Portia] | No comment. I like customers, but not when they block the counter without buying.
+0042 [Chitose] | That is a first. You are right, my ==SEX11==, she does speak off-script.
+0043 [Tú] | Even so, she looks annoyed.==W== Ugh... Guess I have to use that trick.
+0044 [Tú] | Tell you what. You tell me how to reach the hidden room, and I'll think about picking up shifts here again.
+0045 [Portia] | Really? We have the pork cutlet bento in stock—your favorite, right? Here, on the house.
+0046 [Tú] | No thanks, I'm not hungry... I'll pass.
+0047 [Tú] | If I eat that bento and lose my mind like last time, we're in trouble.
+0048 [Portia] | Hmph, suit yourself. Buy a Potential Drink then. It's good.
+0049 [Narración] | Portia pulls a Potential Drink from behind the counter and slides it over.
+0050 [Tú] | ... Yeah. This should be safe to drink.
+0051 [Portia] | Thank you. Hope to see you soon.
+0052 [Chitose] | My ==SEX11==, she clearly knows the way to the hidden room. Do we really walk away without finding out?
+0053 [1] | Monolith staff are restricted by their own rules. They can't just speak freely. But—she already gave us the answer.
+0054 [Narración] | I flip over Chitose's empty bottle. Scrawled on the bottom is:
+0055 [Narración] | Repeat history.
+0056 [Narración] | Next to it is a tiny footnote: Danger. Be careful. And if you don't take a job here, I lose my excuse to slack off.
+0057 [Tú] | Repeat history... Where have I heard that before?
+0058 [Serena] | According to records from centuries ago, the Saint and attendant started from where that exact cable station is located.
+0059 [Serena] | They ziplined through the dangerous lake...
+0060 [Serena] | Scaled the Monolith, and faced down the evil deity...
+0061 [Serena] | ... To stop Philae's endless rain.
+0062 [Serena] | Come to think of it, I'm looking at Philae's newest hero and an attendant with an injured hand right now. You walked that exact same path to the Monolith to end this pointless bidding war.
+0063 [Serena] | It's almost like that legendary scene. Quite a sight... Too bad someone's trying to ruin the moment.
+0064 [Tú] | Okay, now you're reaching.
+0065 [Serena] | Am I? You know what they say about history repeating itself.
+0066 [Tú] | Wait... Was Serena tipping me off back then?==W== No, that's impossible. She couldn't have predicted I'd end up in this exact situation. I'm overthinking it.
+0067 [Tú] | Still... It's worth a shot.
+0068 [Tú] | Chitose, I have a plan.==W== We're going to play the role of the Armless Saint.
+0069 [Lugar y hora] | 17:40, Venatio Month 15th, Philae Monolith, Elevator Door
+0070 [Chitose] | My ==SEX11==, please hold onto my family.
+0071 [Tú] | —Huh? What are you doing?
+0072 [Chitose] | You want to play the Armless Saint. Therefore, an arm must be severed.
+0073 [Chitose] | But I refuse to watch you mutilate yourself. If an arm must go, take mine...
+0074 [Tú] | Whoa, wait! I said play the Armless Saint. I never said anything about actually chopping an arm off.
+0075 [Tú] | If repeating history is the key to that hidden room, the New Star Guild must have done something similar by accident when they found me.
+0076 [Tú] | They didn't plan for it, so there's no way they pulled off a perfect reenactment. A few key elements must have lined up by chance.
+0077 [Tú] | Following that logic, it doesn't need to be exact. If we recreate the right conditions, the path should open.
+0078 [Chitose] | I see. So an amputation is unnecessary?
+0079 [Tú] | Right. No amputations. But to fake an unusable arm...
+0080 [1] | Chitose, I need you to dislocate my shoulder.
+0081 [Chitose] | B-But...!==W== Please, let me—
+0082 [Tú] | No. Even if we make it inside, we still have a massive Stellaroid to fight.
+0083 [Tú] | Besides, I'm no help in combat anyway. Let me pull my weight here.
+0084 [Chitose] | But...
+0085 [Tú] | Chitose, this is an order from your ==SEX11==.==W== Dislocate my left shoulder.
+0086 [Chitose] | ... Understood. My ==SEX11==,==W== please bite down on this cloth.
+0087 [Narración] | It happens in a flash. A sickening crunch, and my left arm goes completely limp.
+0088 [Tú] | Ugh... I braced myself, but damn, that hurts... Still, that covers the "armless" requirement.
+0089 [Tú] | God of Grace above, grant us passage to vanquish the evil deity... The one drowning Philae in endless rain.
+0090 [Chitose] | My ==SEX11==, the elevator lights changed.
+0091 [Tú] | Phew... It actually worked.
+0092 [Tú] | How did Serena even know about this trick...?
+0093 [Tú] | No time to overthink it. Let's keep moving.
+0094 [Lugar y hora] | 17:50, Venatio Month 15th, Philae Monolith, Inside the Elevator
+0095 [Chitose] | I will count to three, and set your shoulder on "three."
+0096 [Chitose] | One... Two—
+0097 [1] | Ngh...?! That hurts... Well, at least the arm moves again.==W== And you reset it on "two"!
+0098 [Chitose] | My apologies.==W== If you brace yourself, your muscles tense up, making it much harder to reset the joint.==W== Also, your shoulder remains injured. Please avoid using this arm for now.
+0099 [Tú] | Thanks for the heads-up.==W== But considering the Stellaroid we face next... You bear the real burden, Chitose.
+0100 [Tú] | I feel bad leaving the tough parts to you.
+0101 [Chitose] | No apology needed. I am your blade, my ==SEX11==. Carving a path for you remains my sole duty, no matter the danger.
+0102 [Tú] | Going by Noya's experience, the Stellaroids in these hidden rooms are massive and impossible to beat. They only manage to grab the Wishing Box and run.
+0103 [Tú] | We have no reason to force a fight. Making our wish is all that matters.
+0104 [Chitose] | Understood. However...==W== After you make your wish, I have a favor to ask, my ==SEX11==.
+0105 [Tú] | No need to be so formal. What's on your mind?
+0106 [Chitose] | Are you willing to make a "soul pact" with me? I am a blade. A blade supposedly has no soul.
+0107 [Chitose] | But ... to my shame, this body is an incomplete weapon. Since I retain human parts, perhaps a soul lingers inside me too. That is what I think, anyway.
+0108 [Chitose] | Besides... Everyone else by your side already shares a soul pact with you. I am the only one left out. It feels ... unfair.
+0109 [Tú] | A soul pact... It seems safe enough. And looking ahead, the benefits definitely outweigh the drawbacks.
+0110 [Tú] | Alright. If you want a pact, Chitose,==W== start thinking of a wish.
+0111 [Chitose] | I will...! Thank you.
+0112 [Lugar y hora] | 18:00, Venatio Month 15th, Philae Monolith, The Boss's Domain
+0113 [Chitose] | My ==SEX11==, there is a Wishing Box over there.
+0114 [Tú] | Finally! A Wishing Box bigger than my hand!
+0115 [Tú] | Wait... This place looks like the other floors. Are we sure this is a hidden room?
+0116 [Chitose] | It appears identical, yes. But unlike the floors below... The air carries a faint scent of the tide.
+0117 [Tú] | ... The tide? Well, as long as there's no giant Stellaroid guarding the box, I'll take it.
+0118 [Tú] | Let's make our wish and get out of here.
+0119 [Narración] | Chitose clears out the smaller Stellaroids. I rush to the box and make my wish.
+0120 [1] | O God of Grace,==W== please grant me a compact, short-barreled gun I can fire one-handed—
+0121 [Chitose] | Watch out, my ==SEX11==!
+0122 [Narración] | A flash of steel cuts across my vision.==W== Then, something in front of me is silently cleaved in two.
+0123 [Tú] | Is that ... a book?
+0124 [Chitose] | How bizarre... These books are moving as if they have a mind of their own.
+0125 [Narración] | Identical picture books sprout from the floor. Before I know it, Chitose and I are surrounded by a floating swarm.
+0126 [Tú] | ...==W== Are these books==W== the Stellaroids guarding the box?
+0127 [Tú] | And these books look just like the ones from Darcia's memories...
+0128 [Chitose] | Please hurry, my ==SEX11==. I'm sensing a vile aura.
+0129 [Tú] | Right. I'm on it.
+0130 [Narración] | I turn to the Wishing Box to recite the prayer. But the severed page flutters down and lands on it.
+0131 [Narración] | The ink pulses with a strange power. I open my mouth, and the words read themselves.
+0132 [Narración] | The Devil Emperor wakes within the pupil, dividing the power of death among all living things. The Emperor withdraws their grace. Sweet dew becomes bitter wormwood. The earth shatters. The anointed wicked rise from the bottomless pit.
+0133 [Narración] | This place shall be stripped of its name. Left barren and lifeless...
+0134 [Narración] | For eternity.
+0135 [Chitose] | Below us!
+0136 [Chitose] | My ==SEX11==, please make your wish with peace of mind;==W== no matter what demons may appear, I shall hold them back for you.
+0137 [???] | Praise...
+0138 [???] | Their divine name...
+0139 [Chitose] | I was once mere iron, caked in dirt.
+0140 [Narración] | Its roar scrapes through my mind like iron filings.
+0141 [Narración] | Rust blooms in my veins.
+0142 [Narración] | The stench of the deep sea floods the room.
+0143 [Chitose] | But then I met you, my ==SEX11==.
+0144 [Chitose] | I am the blade you wield.
+0145 [Chitose] | This corruption cannot dull my edge.
+0146 [Chitose] | I will not break.

@@ -1,0 +1,187 @@
+# Capítulo 7 · El precio de la estrella · 14 · Technical Adjustment
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Deepsea Finance Teller | Deepsea Finance Teller
+N:Enthusiastic Trekker | Enthusiastic Trekker
+N:Hardworking Employee | Hardworking Employee
+N:Innocent Girl | Innocent Girl
+N:Passionate Employee | Passionate Employee
+N:Ruby & Sapphire | Ruby & Sapphire
+N:Salesperson No. 20 | Salesperson No. 20
+N:Salesperson No. 21 | Salesperson No. 21
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_135 | Mistique
+N:avg1_136 | Angie
+N:avg1_144 | Chitose
+N:avg1_150 | Laru
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_124 | Erinis
+N:avg3_125 | Meikyo
+N:avg3_126 | Deepsea Finance Female Employee
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_140 | Empleado de Cosecha Unida
+N:avg3_142 | United Harvest Researcher
+N:avg3_143 | Residente
+N:avg3_150 | Albedo
+N:avg3_152 | Bastelina
+N:avg3_168 | Chica
+N:avg3_198 | Pandillera genial
+N:avg3_199 | Chica de la pandilla
+N:avg3_220 | Mercurio
+N:avg3_974 | Serena
+N:avg3_978 | Athrill Trekker
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Fourteen
+0002 [Intro] | Technical Adjustment
+0003 [Intro] | Mercurio maliciously tanks the market, putting your fundraising effort on the brink of failure. As word spreads, Philaens who support United Harvest come forward, and their contributions cover the final gap.
+0004 [Lugar y hora] | 16:15, Venatio Month 15th, Gold District in Philae,  Deepsea Finance Branch
+0005 [Firenze] | I'd like to exchange these crystal diamonds for Dorra, please.
+0006 [Deepsea Finance Teller] | R-Right away. This is a massive deposit, so counting them will take a moment. Please bear with me.
+0007 [Noya] | Whoa, there's gotta be over a thousand in here! Why does the Imperial Guard pay with these? Wouldn't a Deepsea Finance check be easier?
+0008 [Iris] | These gems are uniform in size and fuel major spells.==W== That's why crystal diamonds have been the standard for massive transactions since ancient times.
+0009 [Iris] | Dorra might be the standard now, turning these gems into a strategic resource, but the Imperial Guard clings to the old ways—like using them to pay for huge contracts.
+0010 [Amber] | Stockpiling for combat. A strategic reserve.
+0011 [Iris] | Exactly. For a faction that fights as often as the Imperial Guard, paying in crystal diamonds instead of Dorra kills two birds with one stone.
+0012 [???] | Well, well. If it isn't Firenze ...==W== and the Boss Accord crew. What a surprise running into you here.
+0013 [Firenze] | Hiring thugs to ambush Boss, sabotaging the cable car...==W== You have some nerve showing your face here, Mercurio.
+0014 [Mercurio] | Oh, how terrifying! ♪ If I actually did something to upset you, I suppose I could apologize...
+0015 [Mercurio] | But we've operated strictly within the rules of the technical review.==W== Is there a problem with that?
+0016 [Mercurio] | And let's be honest: if you can't afford the deposit, any little victories you score during the review are meaningless. Right?
+0017 [Noya] | Sorry to burst your bubble, but we've got the deposit! With the money sorted, there's no way United Harvest Philae loses this!
+0018 [Mercurio] | Hahahaha, so confident. Let's see what you're really capable of, then ♪
+0019 [Deepsea Finance Teller] | Thank you for waiting, Lady Firenze.==W== The count is complete. You brought 1,200 crystal diamonds. At today's rate of 5.05 million Dorra each, that totals 6.06 billion Dorra.
+0020 [Iris] | 6 billion...! Perfect. After the deposit, we'll still have a billion Dorra left over...==W== That secures the company's daily operating costs, too.
+0021 [Firenze] | Process the exchange immediately, please, and deposit the funds into our Monolith bidding account.
+0022 [Erinis] | W-Wait, hold on a second!
+0023 [Erinis] | I-I'm so sorry, Lady Firenze ... and everyone from the New Star Guild! We just received an emergency alert from headquarters. The crystal diamond market is experiencing massive volatility. We need a moment to recalculate the exchange rate.
+0024 [Noya] | Wait, huh? What do you mean? Didn't we have over 6 billion Dorra?
+0025 [Iris] | Don't panic. It's just a technical correction. Stay calm.
+0026 [Iris] | A price drop is perfectly normal if someone else is selling off their stock.
+0027 [Iris] | But ... Nova doesn't have any active crystal diamond mines left. Even if someone is selling, the supply is limited. It shouldn't impact the market price that much—
+0028 [Meikyo] | The new rate from headquarters is ...==W== 4.1 million Dorra each.
+0029 [Iris] | How is that possible...?!==W== A 20 percent drop in a single day?! Can the market even do that?!
+0030 [Meikyo] | I'm sorry, but we have only just received the news, too.
+0031 [Meikyo] | Around noon, someone dumped a massive stockpile of crystal diamonds at Port Goldfinch. There's also rumor that a mage discovered a substitute casting material. The market is crashing.
+0032 [Meikyo] | Those factors caused the crash. Right now...==W== These diamonds are only worth 4.92 billion Dorra.
+0033 [Erinis] | The sell-off aside, that rumor is absolute nonsense. We expect prices to bounce back by tomorrow.
+0034 [Firenze] | That's too late. At 4.92 billion, we are still 80 million short of the deposit.
+0035 [Firenze] | Mercurio... How desperate is Omnisky Aegis for the Philae Monolith? Crashing the crystal diamond market like this must have cost tens of billions of Dorra.
+0036 [Mercurio] | Hehe, that's a trade secret ♪
+0037 [???] | She took out a 40-billion Dorra loan from Deepsea Finance yesterday at 30 percent interest. I'd say it's safe to assume she bet the house.
+0038 [Mercurio] | Oh? And who might you be? I don't know what you're plotting, but spreading rumors is terribly rude.
+0039 [???] | Oh, no, no. An information broker values her reputation above life itself. I don't deal in rumors.
+0040 [Narración] | A cloaked woman strides into the lobby, holding up a cassette tape—the exact kind wished out of a Monolith.
+0041 [???] | Omnisky Aegis has two choices. Option one—buy this tape from me.==W== Option two—I play it right here, and everything on it goes public.
+0042 [???] | And looking at these Trekkers, I'm sure someone would be more than happy to lend me an Artifact to play it on.
+0043 [Iris] | M-Miss Serena?
+0044 [Serena] | It's been a while, my friends from the New Star Guild.
+0045 [Noya] | A playback Artifact? We have one in the car! I'll go grab it!
+0046 [Noya] | Thanks for waiting! Got it!
+0047 [Mercurio] | Be my guest. Let's hear what you've got.
+0048 [Serena] | I must admit, your bluntness actually improves my opinion of you.
+0049 [Mercurio] | Tell your manager Omnisky Aegis requires a loan of 40 billion Dorra!
+0050 [Mercurio] | I want it tonight. Ready for withdrawal at Port Goldfinch.
+0051 [Erinis] | Y-You're joking, right? A sum that massive won't be ready until tomorrow morning at the earliest...
+0052 [Mercurio] | 5 percent. Clear the funds tonight, and I'll personally guarantee a 5 percent kickback.
+0053 [Erinis] | Are you out of your mind? Deepsea Finance has strict protocols.
+0054 [Erinis] | We can't just approve a massive uncollateralized loan like that—
+0055 [Mercurio] | I'll put up my sister as collateral. Plus a 10 percent kickback. Do we have a deal?
+0056 [Erinis] | H-Hey, don't look at me like that! I never took the kickback!
+0057 [Erinis] | Her collateral was perfectly valid! And at 30 percent interest, Deepsea Finance had no reason to deny the loan.==W== It's not our job to monitor how clients spend their money...
+0058 [Mercurio] | I don't need to explain myself. I knew Firenze was scrambling for deals, so I struck first and crushed their little operation.
+0059 [Mercurio] | I simply played a brilliant move within the rules. You can't honestly say I did anything wrong.
+0060 [Mercurio] | If anything, blame your own pathetic risk management.==W== Given the circumstances, United Harvest Philae only had two real options.
+0061 [Narración] | Option one: win over the deep-pocketed Imperial Guard.
+0062 [Narración] | Option two: beg Deepsea Finance for a loan to cover the gap.
+0063 [Salesperson No. 20] | So that's why cap—==W==manager drained Deepsea Finance! And crashed the crystal diamond market!
+0064 [Salesperson No. 21] | That's brilliant!
+0065 [Mercurio] | I'll admit, I didn't expect them to raise that much cash. Still, crashing the market was definitely the right insurance ♪
+0066 [Mercurio] | Which begs the question. How do you plan to fill an 80-million-Dorra hole before time's up?
+0067 [Noya] | B-Bull! We can absolutely find 80 million!==W== A collector offered top dollar for Loxy once... We... We'll sell Loxy if we have to!
+0068 [Mercurio] | Be my guest. I certainly won't stop you...==W== Hahaha. Two hours until sunset. Think you can make it?
+0069 [Mercurio] | Just throw in the towel. Why sell your crystal diamonds at a massive loss today? Wait for a rebound, and you might actually afford severance pay for your staff.
+0070 [Deepsea Finance Teller] | Umm...==W== Lady Firenze? Do we still proceed with the exchange?
+0071 [Firenze] | Of course. We still have two hours until sunset, don't we?
+0072 [Firenze] | ... If I give up now,==W== I wouldn't be able to look Boss and Chitose in the eye. Not while they're fighting for their lives in the Monolith.
+0073 [Firenze] | Ruby, Sapphire, come with me. We are finding that 80 million right now.
+0074 [Ruby & Sapphire] | Yes, ma'am!!
+0075 [Firenze] | New Star Guild, stay here. Make sure the Dorra actually hits our account.
+0076 [Noya] | We're on it...
+0077 [Mercurio] | How pathetic. Who else could you possibly beg at this point?
+0078 [Sapphire] | Ruby, what is Lady Firenze planning? I hate to admit it, but that woman is right—we're completely out of companies to negotiate with...
+0079 [Sapphire] | Lady Firenze has already sold off all her personal assets just to keep the company afloat.
+0080 [Ruby] | I have no idea what her plan is...==W== But should we start selling our own stuff, too?
+0081 [Sapphire] | Sell what?==W== Do you actually own anything valuable, Ruby?
+0082 [Ruby] | Nope. Sigh... I guess we just have to trust Lady Firenze.
+0083 [Innocent Girl] | E-Excuse me...
+0084 [Ruby] | Hm? Are you talking to me? What's up?
+0085 [Innocent Girl] | You're the lady who always sings at the United Harvest bakery...==W== Right?
+0086 [Ruby] | Singing? That sounds like me. But ...==W== sorry, honey. I'm completely swamped right now. I can't give you a show.
+0087 [Innocent Girl] | No, I'm not here for the song. I have all my Dorra here to buy a whole month's worth of bread!
+0088 [Sapphire] | A... A whole month? Why...?
+0089 [Innocent Girl] | Mom and Dad say if United Harvest loses that auction thing, you have to leave Philae.
+0090 [Innocent Girl] | But if that happens... I can never eat your yummy bread or hear you sing again...
+0091 [Innocent Girl] | So I figure if I use my allowance to buy lots of bread, maybe it'd help you stay.
+0092 [Firenze] | Hehe... Thank you, sweetheart. But don't worry. The bakery stays right here—and so does she.
+0093 [Amber] | Heads up. Crowd incoming.
+0094 [Noya] | Ugh... More of Omnisky Aegis's hired goons? Give it a rest...
+0095 [Athrill Trekker] | Who are you calling Omnisky goons? We don't work for those scumbags!
+0096 [Iris] | Oh... You aren't with them?
+0097 [Enthusiastic Trekker] | We know all about the Monolith bidding war. We're here to pitch in and back up Boss Accord.
+0098 [Athrill Trekker] | Damn right. Siding with Omnisky Aegis? Not a chance. I held a policy with them. They promised to cover injuries, but the second I got hurt and filed a claim, they gave me the runaround and dodged the payout!
+0099 [Athrill Trekker] | Plus, Scarlet Sights Media reports they're hiking the deposit to 40 billion. You know they plan to squeeze every Dorra back from the Philaen people.
+0100 [Enthusiastic Trekker] | Many Trekkers here are Omnisky victims, but plenty of us are here to support the Boss.
+0101 [Enthusiastic Trekker] | You teamed up with Petal Bloom for the Grand Commissions. You stopped the Intelligent Plants. You saved Philae.
+0102 [Enthusiastic Trekker] | Boss Accord or Omnisky Aegis? It's a no-brainer. Here, take this—
+0103 [Amber] | That's a lot of Dorra...?
+0104 [Athrill Trekker] | Our guild's heading to the Lushwood Jungle next. We need supplies, so we're buying from the Boss's partners to show support.
+0105 [Enthusiastic Trekker] | And me! Put me down for 20 boxes of Tawny Nightingale. We're off to find a legendary Monolith in the desert, and that bread is perfect.
+0106 [Iris] | Everyone...!==W== Thank you all!
+0107 [Passionate Employee] | To buy or pre-order, please line up here!
+0108 [Hardworking Employee] | Leave your address, and we'll deliver ASAP.
+0109 [Firenze] | Everyone...==W== What are you doing here?
+0110 [Passionate Employee] | We're part of United Harvest Philae too. Helping protect our company is only natural.
+0111 [Hardworking Employee] | We don't have much, but we all chipped in our savings. The money's with Miss Nyx. Please, accept it.
+0112 [Firenze] | But you have your own lives to worry about.
+0113 [Hardworking Employee] | Don't say that. If the company goes under, everything goes with it.
+0114 [Passionate Employee] | Besides, without you, Lady Firenze, we'd have lost our jobs to those Intelligent Plants already.
+0115 [Hardworking Employee] | We want to repay your kindness, even a little. That's why we're here.
+0116 [Narración] | A massive line forms outside Deepsea Finance—people rushing over as word spreads. ==W==Hundreds, thousands, tens of thousands of Dorra... Old notes and crisp bills pile into a mountain of cash.
+0117 [Mercurio] | All these people...?! Why?!
+0118 [Mercurio] | Number 20, get out there and stop them. Now!==W== If you can't drive them off, cause a panic and break the line. Stall them until sundown, and we win.
+0119 [???] | Stand down, Mercurio.
+0120 [Mercurio] | L-Lady Albedo?!==W== What are you doing here? And what do you mean, "stand down"? We haven't broken any rules—
+0121 [Albedo] | Maybe. But the rules just changed.
+0122 [Albedo] | The Director of the Sky Institute issued an absolute directive. From this moment on, all sabotage in the bidding war is strictly forbidden.
+0123 [Mercurio] | Impossible...! Why drop this on us now, of all times?!
+0124 [Albedo] | Save your breath. If you have a problem, take it up with the Director herself.
+0125 [Mercurio] | Hmm...
+0126 [Albedo] | Laru. Keep an eye on them.
+0127 [Laru] | You got it. It will just be like going on a fishing trip—eyes glued to the float until they bite.
+0128 [Salesperson No. 20] | Manager, what's our move? That line stretches for miles. At this rate, they'll hit the 80 million Dorra target in no time.
+0129 [Mercurio] | It doesn't matter. Even if they make the deposit, the Boss will never touch that required Artifact.
+0130 [Mercurio] | I planned for this. Our teams inside the Monolith have already secured every large Wishing Box.
+0131 [Bastelina] | Hi, here's your receipt. Thanks for your purchase ♪ We'll deliver everything to your address right away.
+0132 [Iris] | Bastelina? Why are you playing vendor for United Harvest Philae?
+0133 [Bastelina] | The Director's new orders! She said this isn't a Monolith bidding war anymore—it's a bid for the hearts of Philae's people.
+0134 [Bastelina] | She told us to do whatever we want...==W== And I hate sitting still! So I'm pitching in. Plus, United Harvest Philae really does sell the best fruit.
+0135 [Amber] | A bid ... for the hearts...
+0136 [Mistique] | Hehe. With a little push from a brilliant witch like me, of course the people give their hearts to Boss!
+0137 [Iris] | Wait, did you rally all these people for us, Mistique?
+0138 [Mistique] | Nope! The citizens and Trekkers see everything you do. They know who actually cares. I just made sure they heard you needed a hand, that's all.
+0139 [Serena] | Rallying this much support...==W== You truly are like the legendary Tyrant who guides the masses.
+0140 [Serena] | I wonder ... if you'll pick up on my hints and step into that room...
+0141 [Narración] | Will you summon the Artifact from the prophecy… The one that absolutely shouldn't exist in this world?

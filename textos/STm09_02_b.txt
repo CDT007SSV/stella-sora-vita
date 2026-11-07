@@ -1,0 +1,122 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 2B · Changing Sides
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_132 | Minova
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_150 | Laru
+N:avg1_156 | Nazuna
+N:avg1_163 | Greyhorn
+N:avg3_100 | Sylar
+N:avg3_1313 | Allie
+N:avg3_132 | Kaede
+N:avg3_152 | Bastelina
+N:avg3_167 | Chica
+N:avg3_210 | Hazana
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | Changing Sides
+0003 [Intro] | Your companions break through Angie's formation, Allie stops the rampaging No. 160, and Angie, realizing you can foresee what's coming, agrees to negotiate through Laru. Your calculated game begins.
+0004 [Lugar y hora] | 14:30, Nebula Month 18th, Mirage, Unnamed Street
+0005 [No. 160] | Huff... Huff...
+0006 [No. 160] | (What is with those Trekkers? The Second Company was routed in an instant. Casualties are light, but our formation is completely shattered.)
+0007 [No. 160] | (Our snipers, our ambushes... Useless.==W== They even predicted Hazana's sandstorm.==W== It's like ...==W== they can see the whole battlefield.)
+0008 [No. 160] | (How is that Tyrant==W== pulling this off?!)
+0009 [No. 160] | (But I haven't lost yet. Most of the Tyrant's forces are tied up with the Second Company.)
+0010 [No. 160] | (If I can just beat the Tyrant to Daisy Orphanage, I can force a head-on fight...)
+0011 [No. 160] | (And create an opening for Lady Angie to land a killing blow.)
+0012 [Narración] | (It's the only way ... to clear the Salvation Committee of the Dusk Arbiters' heresy charges.)
+0013 [Narración] | (I can't lose my home again! I won't go back to the way things were!)
+0014 [Allie] | Excuse me. Are you heading to Daisy Orphanage?
+0015 [No. 160] | Who are you...?==W== Wait. You're Allie, the orphanage director.
+0016 [No. 160] | Out of my way. I'm not here to hurt you or the kids. I just want the Tyrant.
+0017 [Allie] | Boss is my children's best friend. ==SEX1== also helped me recover my memories.
+0018 [Allie] | To me, ==SEX== is family. Just like those kids.==W==
+0019 [Allie] | And as a mother, stepping aside here wouldn't set a very good example, would it?
+0020 [No. 160] | Hmph. Then don't blame me for what happens next.
+0021 [No. 160] | Tch.==W== You're fast. Why aren't you fighting back?!
+0022 [Allie] | Your eyes... They say you want me to hurt you. You crave the pain. That's your trigger, isn't it? The source of your magic.
+0023 [Allie] | You clearly have a tragic past, but the look on your face tells me you've finally found a place to belong.
+0024 [Allie] | So why keep hurting yourself? No one is going to abuse you anymore.
+0025 [No. 160] | Heh... How could someone with a perfect little life like you know?
+0026 [No. 160] | Locked in the Monolith, treated as a walking phone for the nobles. Tortured day in and day out! How could you possibly understand?!
+0027 [No. 160] | If I hadn't met Lady Angie, I'd be the one teaming up with the Tyrant! This whole world deserves to burn!==W==
+0028 [Allie] | Boss doesn't want to destroy the world.
+0029 [No. 160] | That footwork, and the way you handle that blade... Are you really just an orphanage director?
+0030 [No. 160] | That's a White Cat signature.==W== Ah, I get it now. You're the one who murdered the late Empress!
+0031 [No. 160] | You White Cats are the reason I ended up like this!==W== It's all your fau—==W==
+0032 [Allie] | I don't know what you've been through, but the White Cats didn't murder Her Majesty.
+0033 [No. 160] | Haha... Hah... Hah...==W== There must be a mole in the Salvation Committee. How else would you know how my magic works? You absolutely refuse to strike me.
+0034 [No. 160] | Lady Angie... I'm sorry. It seems I won't be around for your sweet punishment after all...
+0035 [Narración] | No. 160 reverses her grip on the dagger and stabs it toward her own arm.
+0036 [Allie] | Phew. Just in time. I couldn't let this child hurt herself.
+0037 [Allie] | Honestly. No matter how much it hurts, hurting yourself won't bring you any real relief.
+0038 [Tú] | Allie, is she out?
+0039 [Allie] | Yes.==W== The way she swung that dagger...==W== She wasn't trying to strike. It was a reflex. A defensive habit burned into her from living in constant terror.
+0040 [Allie] | A mother's intuition tells me... She might not be a bad kid after all.
+0041 [Tú] | Tie her up.==W== Once we capture Angie, we can sort all this out.
+0042 [Lugar y hora] | 14:35, Nebula Month 18th, Mirage, Desert Outside the City
+0043 [Gunhild] | Ma'am, it seems that the Tyrant saw right through our deployment.
+0044 [Gunhild] | Those Trekkers never even stepped into my line of fire. And 160 didn't make it to the orphanage. Her squad watched a pink-haired woman knock her out cold.
+0045 [Angie] | How is this possible?==W== An entire company routed by a handful of Trekkers?
+0046 [Gunhild] | The survivors swear the Tyrant's people knew exactly where they were hiding. They just kept popping up behind them. Every single time.
+0047 [Gunhild] | But we picked those ambush spots on the fly. Nothing was planned. There's no logical way that intel could have leaked.
+0048 [Angie] | What about the First Company?
+0049 [Gunhild] | No casualties, but two Trekkers completely played them and trapped them in a mineshaft. They just dug themselves out. Morale is hitting rock bottom.
+0050 [Gunhild] | We force-marched all this way to ambush the Tyrant...==W== But it feels like we walked face-first into a trap instead.
+0051 [Gunhild] | Could it be ... that we have a mole?
+0052 [Angie] | Unlikely. Before 160 went down,==W== she was monitoring all Heartlink comms within a thirty-kilometer radius. A spy would have to rely on a physical courier.
+0053 [Angie] | And we attacked the second we hit Mirage.==W== Even if there was a mole, there wouldn't have been time.
+0054 [Angie] | The Book of Grace Prophecies states the Tyrant possesses the gift of foresight.==W== It seems ==SEX== predicted our every move.
+0055 [Laru] | Reporting in!
+0056 [Angie] | Laru? Is there a situation with logistics?
+0057 [Laru] | Nope! Logistics is perfectly fine. We even ran fries and ice cream up to the front lines.==W== Oh, and I bumped into one of the Tyrant's companions.
+0058 [Laru] | I mean, the Tyrant and I kind of crossed paths during the Monolith bidding. So they asked me to pass along a message.
+0059 [Gunhild] | You ran into the enemy, didn't capture them, and became their messenger?!
+0060 [Gunhild] | Are you one of them?!
+0061 [Angie] | Gunhild, stand down. Passing a message proves nothing.
+0062 [Laru] | Yeah, exactly! I am definitely not a spy for the Tyrant!
+0063 [Laru] | (I'm a spy for Albedo, actually, so technically that wasn't a lie!==W== Plus, that Nazuna girl didn't even want the intel I hid in the fry boxes.)
+0064 [Angie] | Thank you for feeding everyone.==W== Munch...==W== This is actually quite good.==W== Have some, Gunhild.
+0065 [Laru] | Huh? Do you also prefer fries dipped in ice cream, Ma'am?
+0066 [Angie] | When my brain gets foggy, I like to have something sweet.==W== Thank you.==W== Now, what was the Tyrant's message?
+0067 [Laru] | Ah, sorry, got distracted.==W== The Tyrant told me to tell you...
+0068 [Laru] | That ==SEX== is willing to negotiate before 15:00, and you get to pick the location.
+0069 [Lugar y hora] | 14:50, Nebula Month 18th, Mirage, Near the Crystal Diamond Mine
+0070 [Bastelina] | The Tyrant wants to negotiate with Lady Angie?
+0071 [Laru] | Right? I don't get it either. The second we met, that green-haired Trekker told me the Tyrant already knew the intel I brought.
+0072 [Laru] | She didn't even want our fries and ice cream. Just asked me to pass along the negotiation offer to Angie.
+0073 [Bastelina] | It seems we aren't the only spies inside the Salvation Committee. Strange...==W== Who else could it be?
+0074 [Laru] | So what?==W== A spy for you, a spy for me. That's the beauty of how things work in Nova!
+0075 [Laru] | Look at it this way. We did our part, the Tyrant got the intel, and now they're on a roll.==W== First they trapped Greyhorn in a mineshaft,==W== then they completely steamrolled 160.
+0076 [Laru] | We don't have to worry about the Tyrant getting caught, and we definitely don't have to worry about losing our jobs.==W== This is the perfect time to just kick back and relax!
+0077 [Bastelina] | Hmm... Something feels off.==W== If the Tyrant really has such an overwhelming advantage, why would ==SEX== bother negotiating with Lady Angie?
+0078 [Bastelina] | It is as if...==W== ==SEX1== is planning to capture Lady Angie to defeat the Committee, don't you think?
+0079 [Laru] | So what if ==SEX== is?==W== It looks to me like Angie swallowed the bait. She's definitely going to that negotiation.
+0080 [Bastelina] | No,==W== we have to find a way to warn ==SEX4==.==W== Even if ==SEX== captures Angie, the fighting won't end!
+0081 [Lugar y hora] | 14:59, Nebula Month 18th, Mirage, Unnamed Street
+0082 [Nazuka] | Boss. Nazuna and I have reached the dunes. We've regrouped with Minova, Itoha, and Kaede.
+0083 [Tú] | Good work. Proceed with the plan in ten minutes.
+0084 [Nazuka] | Understood.==W== Stay safe out there, Boss.
+0085 [Tú] | Don't worry. Every move Angie makes is exactly as I predicted.
+0086 [Tú] | Phew. Everything is in place.
+0087 [Tú] | Just as I thought, Angie chose this exact spot again. Last time I assumed she picked it at random, but after taking a closer look at the layout...
+0088 [Tú] | These buildings tightly box in the street. Once a fight breaks out, we are barely left with any escape routes.
+0089 [Tú] | The dunes line up perfectly with the street. Gunhild has a clear, unobstructed line of sight to snipe us.
+0090 [Tú] | The ground here is weak. It'd be easy to blow right through it==W== and send everyone plummeting into the abandoned mineshafts below.
+0091 [Tú] | Angie really did her homework trying to kill me.
+0092 [Tú] | But now, Fuyuka is underground waiting for my signal.==W== Chitose is right beside me.==W== Nazuka's team is ready to ambush their artillery.==W== Allie and the New Star Guild are helping everyone evacuate,==W== nowhere near this trap.
+0093 [Chitose] | My ==SEX11==. She is here.
+0094 [Tú] | This time, no one gets hurt. And no one gets sacrificed.
+0095 [Tú] | Every trap you set to kill me, Angie... I'm using them right back against you!

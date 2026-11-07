@@ -1,0 +1,168 @@
+# Capítulo 7 · El precio de la estrella · 5B · A Hundred Million
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_138 | Nyx
+N:avg1_163 | Greyhorn
+N:avg3_100 | Sylar
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_124 | Erinis
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_125 | Meikyo
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_140 | Empleado de Cosecha Unida
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_142 | United Harvest Researcher
+N:avg3_143 | Residente
+
+## Texto
+0001 [Intro] | Act Five 
+0002 [Intro] | A Hundred Million
+0003 [Intro] | You and Firenze secure a massive loan from Deepsea Finance. Refusing to give up your shares, you put two Seals of Grace on the line as collateral instead.
+0004 [Lugar y hora] | 17:30, Venatio Month 13th, Gold District in Philae, Deepsea Finance Branch
+0005 [Erinis] | Thank you for visiting Deepsea Finance today. I'm Erinis, Credit Department Manager.==W== We've been expecting you. It's an honor that United Harvest Philae trusts us with this.
+0006 [Erinis] | Let me guess—==W==you're here about the bidding deposit,==W== right?
+0007 [Erinis] | How much capital==W== are you looking for?
+0008 [Opción] | 40 billion Dorra.
+0009 [Erinis] | Heh... I see.==W== A 40-billion-Dorra loan==W==...
+0010 [Erinis] | Wait, 40 billion?==W== That's the entire bid!
+0011 [Tú] | Exactly.==W== But you look surprised.==W== Is the number too high for the manager who was expecting us?
+0012 [Erinis] | Hmm, no profit margin left at this point.==W== Deepsea Finance is out. Best of luck, you two. Our doors are open if you need a loan.
+0013 [Erinis] | W-==W==well,==W== of course not!==W== The phrase "too high" doesn't exist in our dictionary.
+0014 [Erinis] | It's just...==W== As the Credit Manager, I have to be careful with a transaction of this scale.
+0015 [Erinis] | Frankly, it's a terrible deal.==W== 40 billion shatters every record for Monolith rent.==W== Meikyo—==W==
+0016 [Meikyo] | On it!==W== Nice to meet you both, I'm Meikyo from Credit.==W== I'll be assisting Erinis.
+0017 [Meikyo] | I ran the numbers. Between this rent, hiring Trekkers to climb the tower, facility maintenance, and Artifact taxes to the Grace Imperium...==W== You'll never break even on a ten-year lease.
+0018 [Meikyo] | Economically,==W== you're much better off hiring Trekkers for the Monoliths out in the Wilds.
+0019 [Firenze] | Flawless analysis.==W== But you both know==W== owning a City Monolith was never just about math.
+0020 [Erinis] | Understood.==W== We really do.==W== And with a sum this large, Deepsea Finance certainly won't turn you away.
+0021 [Erinis] | However...==W== Lending this much capital==W== means we take on immense risk.
+0022 [Erinis] | So,==W== to offset that risk,==W== we typically hike up the interest rate.
+0023 [Firenze] | Expected. So,==W== let's hear the number.
+0024 [Erinis] | ... The rumors about your efficiency were true. Alright.==W== Last month,==W== a company took out a ten-billion emergency loan at a 15 percent annual rate.
+0025 [Tú] | 15 percent...==W== That's 6 billion Dorra a year in interest. That's not a heavy burden—that's crippling...
+0026 [Erinis] | But after your speech at the banquet,==W== Boss, I imagine a lot of companies felt inspired.
+0027 [Erinis] | Factor in United Harvest Philae's track record,==W== and I'd personally give you top marks for credit.
+0028 [Erinis] | Taking all that into account...==W== We're prepared to offer a 5 percent annual rate.
+0029 [Firenze] | Strange as this sounds coming from me, nothing comes that cheap.==W== A loan this massive at five percent means there's a catch. What else do you want?
+0030 [Erinis] | Hehe, dealing with smart people does make things easy.==W== Deepsea Finance wants a grain purchase agreement with United Harvest Philae.
+0031 [Erinis] | Until the loan is paid off, we get the first right of refusal on your grain and food products.==W== The price will be locked at the ten-year market average.
+0032 [Firenze] | Given our situation, we accept.==W== But==W== is Deepsea Finance looking to break into the grain market?
+0033 [Erinis] | Oh, no.==W== We don't hold the franchise patents for that.==W== It's strictly a hedge—part of our standard risk management.
+0034 [Tú] | 40 billion negotiated that easily?==W== Deepsea Finance is definitely hiding their real angle.
+0035 [Erinis] | Well then! Since we agree on the amount, the rate, and the terms, that leaves one thing—collateral.==W== A 40-billion loan requires 60 billion in assets to back it up.
+0036 [Erinis] | Producing 60 billion in collateral is no small feat.==W== What are you bringing to the table?
+0037 [Erinis] | From what I hear, the Senate holds 49 percent of United Harvest Philae.==W== Are you mortgaging your remaining shares?
+0038 [Tú] | They want the shares? Combine that with the purchase agreement,==W== and I guess their real goal is to corner a stable bulk grain supply. But why?==W== Grain market profit margins aren't high.
+0039 [Tú] | I absolutely can't use the shares.==W== Matilda entrusted those to me. They belong to everyone.
+0040 [Opción] | Take out the Pawn piece
+0041 [Tú] | We're using this Seal of Grace as collateral.
+0042 [Erinis] | Oh my, a surprise. Handing over a precious Seal of Grace, franchise patents and all?==W== Still... It's a solid offer.
+0043 [Erinis] | However...==W== What's the verdict, Meikyo?
+0044 [Meikyo] | I sincerely apologize, Boss.==W== This Seal of Grace falls short of the required value.
+0045 [Meikyo] | This is the seal you acquired during the company war in Emor—Creta Trading's Seal of Grace, is it not?
+0046 [Tú] | It is. Is there a problem?
+0047 [Meikyo] | Its franchise patents are strictly for mining.
+0048 [Tú] | Mining is lucrative. Shouldn't this be worth 60 billion?
+0049 [Meikyo] | 20 years ago, it would have fetched a hundred billion easily.==W== But there hasn't been an active mine in Nova for two decades now.
+0050 [Tú] | No active mines?==W== What do you mean?
+0051 [Meikyo] | You still need a Seal of Grace to found a company, making it technically priceless. But there's zero market for it.==W== It's too hard to liquidate, meaning we can't value it at 60 billion for collateral.
+0052 [Erinis] | We can accept the Seal as collateral,==W== but you'll have to cover the difference with shares—
+0053 [Opción] | Take out the Bishop piece
+0054 [Tú] | What if I add on this one?
+0055 [Meikyo] | A white bishop?==W== Wait, that's—
+0056 [Erinis] | Impossible?==W== Scarlet Sights Media holds the white bishop. Why do you have it?
+0057 [Tú] | Oh, Scarlet Sights Media has a white bishop too? Good to know.==W== But this isn't theirs. It's a different one.
+0058 [Erinis] | Meikyo.==W== How many white bishop Seals are on record?
+0059 [Meikyo] | Only one.==W== The one held by Scarlet Sights Media.
+0060 [Erinis] | Meaning...==W== This is a brand-new Seal of Grace, completely undiscovered.==W== I never expected==W== to see one under these circumstances.
+0061 [Tú] | I'm not well-versed in this matter, so I'll take your word for it.==W== Is this enough to cover the loan?
+0062 [Erinis] | ... Heh.==W== You win.
+0063 [Erinis] | Meikyo, draw up the paperwork.==W== Sign here,==W== and we'll wire 40 billion Dorra to Philae's accounts tomorrow.
+0064 [Erinis] | A passing thought...==W== But Omnisky Aegis seems to be cooking something up. You should head out early tomorrow.
+0065 [Tú] | A passing thought, huh?==W== I'll leave it at that, then.==W== Thanks, and here's to a successful partnership.
+0066 [Firenze] | Boss, you've got nerve. I had you pegged at 20 billion.
+0067 [Tú] | When we're all in, what's the difference between 20 and 40?==W== Besides, taking 40 billion forces Deepsea Finance's hand.==W== They have to back us now.
+0068 [Firenze] | Heh. I respect the hustle.==W== But handing over those two Seals of Grace...==W== Was it worth it?
+0069 [1] | They're collateral.==W== If we win, we get them back.
+0070 [1] | And we==W== are going to win.
+0071 [Firenze] | I'm worried about Omnisky Aegis.==W== If they want a war, we shall strike first.==W== I'll have United Harvest Philae's people surround the place.
+0072 [Erinis] | Well. This just got interesting.
+0073 [Meikyo] | No, no, no! There's nothing interesting about this! That's 40 billion Dorra!==W== If United Harvest Philae goes under,==W== our heads are on the block!
+0074 [Erinis] | They'll probably tie us to cinder blocks==W== and toss us in a lake.
+0075 [Meikyo] | Eeeek?! Me too?!==W== Y-You signed the contract!==W== You can sleep with the fishes by yourself!
+0076 [Erinis] | Heh. What are you scared of, Meikyo?==W== Why do you think Deepsea Finance wants those United Harvest Philae shares?
+0077 [Erinis] | Because when the world burns, the ones hoarding the grain get the last laugh.
+0078 [Meikyo] | But we didn't get the shares.
+0079 [Erinis] | A shame, indeed...==W== But as long as we back a Boss bolder and crazier than we are,==W== we won't lose.
+0080 [Narración] | Two years later.
+0081 [Noya] | Morning, Boss.==W== Up late again?==W== We made a racket leaving this morning, and you barely twitched.
+0082 [1] | Sorry,==W== work kept me up.==W== I just got up.
+0083 [Iris] | Don't mind us. We aren't blaming you.==W== Besides, we come back to Philae a few times a year.==W== It's not goodbye forever.
+0084 [Amber] | Sleeping late hurts,==W== Boss.==W== You are not a cat.
+0085 [1] | Thanks for checking on me, Amber.==W== I'll keep that in mind.==W== Where are you all heading this time?
+0086 [Noya] | Straight east to Cangwu, the Loong city.==W== We might find a lead on the orphanage out there.
+0087 [Noya] | Ah, sorry, we're leaving the Philae Monolith's range. Signal's dropping.==W== Take care,==W== Boss!
+0088 [1] | Thanks.==W== Safe travels.
+0089 [Narración] | Two years ago, to win the Philae Monolith bid, I secured a 40-billion-Dorra loan from Deepsea Finance using my two Seals of Grace as collateral.
+0090 [Narración] | Later, thanks to Firenze and her security team locking down Omnisky Aegis early, New Star Guild and I scaled the Monolith and made our wish.
+0091 [Narración] | We pulled a transparent container from the Wishing Box. A plastic display case using no glass, magic, metal, or wood.
+0092 [Narración] | If it hadn't been Iris who knew Artifacts inside and out, we never would've figured out that prompt. We largely owed our victory to her.
+0093 [Narración] | United Harvest Philae finally broke free from its shackles. It survived crises after crises, and was reborn from the ashes.
+0094 [Narración] | But no one saw what came next.
+0095 [Opción] | Come in.
+0096 [Nazuka] | Boss, the meeting starts any minute.==W== Ah—==W==why are you still in your pajamas?!
+0097 [1] | Is it time already?==W== Crap,==W== I overslept.
+0098 [Nazuka] | You're hopeless.==W== Come here, let me help you change.
+0099 [Narración] | Six months after the bid, civil war fractured United Harvest.
+0100 [Narración] | The endless conflict between headquarters and regional branches caused grain production to plummet across Nova.
+0101 [Narración] | We stayed out of it and maintained the peace in Philae, but the war drove our agricultural costs through the roof.
+0102 [Narración] | Meanwhile, our Deepsea Finance contract capped our sale prices at the ten-year market average. The more we sold, the more we lost. Ruin was closing in.
+0103 [Narración] | Factor in two billion Dorra in annual interest, and the company bled dry.
+0104 [Narración] | With Deepsea Finance holding my Seals, Vita lost its ability to copy memories for the Monolith and make cross-city calls.
+0105 [Narración] | So, I stayed to run the company. New Star Guild made Philae their base and continued chasing leads on the orphanage.
+0106 [Tú] | Phew.==W== Let's go, Nazuka.
+0107 [Nazuka] | Boss... Can we talk for a second before we head out?
+0108 [Tú] | Hm? What's wrong?
+0109 [Nazuka] | W-==W==well...==W== After the meeting,==W== do you want to climb the Monolith together?
+0110 [Tú] | Maybe not. The company needs me right now.==W== Besides, I'm no help on a Monolith climb anyway.
+0111 [Nazuka] | O-Oh.==W== You look exhausted lately. I thought we could go relax somewhere.==W== Sorry, forget I brought it up.
+0112 [Tú] | Thank you. I appreciate the thought.==W== Give it a little more time. Things are tough right now,==W== and everyone is counting on me. I can't let them down.
+0113 [Tú] | ... And for you.==W== You gave up being a Trekker==W== to stay by my side and support me.
+0114 [Nazuka] | Idiot...==W== Then rely on me a little more.
+0115 [Tú] | Sorry I'm late.
+0116 [Firenze] | It's fine, Boss. Good news—==W==the civil war at United Harvest is finally over.
+0117 [Firenze] | Grand Inspector Matilda... No, it's CEO Matilda now. She won.
+0118 [Tú] | Phew. Things are finally looking up. Grain production should bounce back now, right? And our farming costs should go down.
+0119 [Nyx] | That brings me to the bad news.==W== Matilda holds the Seal of Grace,==W== but her actual control ends at the southern rainforests.
+0120 [Nyx] | New Orelian and the other regions are completely lawless now. Branches are declaring independence.==W== It's only a matter of time before Monoliths everywhere trigger new bidding wars.
+0121 [Nyx] | If that happens,==W== Nova's grain market will only descend into further chaos.
+0122 [Tú] | Where does that leave our operations?
+0123 [Ruby] | The fields look healthy.==W== We're expecting another bumper harvest year.
+0124 [Sapphire] | But between rising costs and our fixed-price deal with Deepsea Finance... After interest and installments,==W== our projected profit is only ...==W== two million Dorra.
+0125 [Sapphire] | Next year looks grim for us too.==W== Old clients are sitting on the fence, waiting to pick the bones of United Harvest's collapse.
+0126 [Tú] | We're walking a tightrope. One slip and we're done for.
+0127 [Tú] | But doing nothing means a slow death. This market drags us down anyway.
+0128 [Firenze] | Either way,==W== the pressure persists.
+0129 [Opción] | Ally with Matilda
+0130 [Opción] | Bide our time
+0131 [Opción] | Borrow more Dorra
+0132 [Tú] | We partner up with Matilda.==W== She practically handed us those shares two years ago to save United Harvest Philae.==W== We can trust her.
+0133 [Firenze] | Agreed. That way we get to clean up the United Harvest mess fast.==W== I'll reach out to her.
+0134 [Tú] | I'll leave it to you then,==W== Firenze.
+0135 [Tú] | Given what happened two years ago,==W== we really want to back Matilda...
+0136 [Tú] | But we better ensure Philae's grain supply==W== and operations first.
+0137 [Nyx] | Makes sense.==W== As long as either we or the new United Harvest survives,==W== someone eventually restores order to the grain trade.
+0138 [Tú] | Yeah. Thanks everyone.==W== We still need to tighten our belts and weather the storm a little longer.
+0139 [Tú] | I've made up my mind.==W== We hit up Deepsea Finance for another loan.
+0140 [Nazuka] | A-Another loan?==W== We still owe them for the first one! Is digging a deeper hole really a good idea?
+0141 [Tú] | Don't worry.==W== Deepsea Finance stands to lose more if we go under. They'll extend the loan.
+0142 [Tú] | With this funding, we can consolidate the territories left in the wake of United Harvest's collapse==W== and rebuild order from the ground up!

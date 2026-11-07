@@ -1,0 +1,119 @@
+# Capítulo 5 · Una chispa en la oscuridad · Final: Joseph
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Astute Intelligent Plant | Astute Intelligent Plant
+N:Bernina & Virigia | Bernina & Virigia
+N:avg1_110 | Firenze
+N:avg1_135 | Mistique
+N:avg2_958 | Weed Brawler
+N:avg2_964 | Hummingbird
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1260 | Weed Brawler
+N:avg3_134 | Mina
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_999 | ???
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | The End
+0002 [Intro] | Joseph
+0003 [Intro] | Joseph, whose conspiracy has been exposed, feigns surrender, only to unleash the Blade of Jade in a last-second ambush. Though you uncover part of the truth, the price is your life.
+0004 [Lugar y hora] | 22:15, Messis Month 4th, Greenhouse District, Philae, Greenhouse No.100
+0005 [Mistique] | I'll cover the left side.
+0006 [Mina] | Then I'll take the right.
+0007 [Tú] | Check in on the Heartlink group every ten minutes.
+0008 [Tú] | Miss a check-in, and we assume you're in trouble. The other two converge on that position right away.
+0009 [Mina] | Copy that. Though with my combat skills... Don't expect me to be much help.
+0010 [Mistique] | Don't sweat the details! Think of it as a little alarm clock reminding you to stay sharp.
+0011 [Mina] | Sounds like advice you need, Miss Mistique. You're always so busy snapping pictures. You're bound to get distracted and walk right into a trap.
+0012 [Mistique] | My, aren't we concerned? You must have a crush on me.==W== Boss, see you later.
+0013 [Tú] | Bickering? Now? Eh, guess it beats awkward silence.
+0014 [Tú] | Deep down, their goals align. It's just their methods that clash.
+0015 [Tú] | I'll check the greenhouse straight ahead.
+0016 [Astute Intelligent Plant] | Wheeee—!
+0017 [Tú] | Crap, wandered right into their turf...==W== Wait. It's an Intelligent Plant. Maybe I can reason with it.
+0018 [Tú] | Hey there. I'm not here to fight, and I won't hurt you. Mind letting me through?
+0019 [Astute Intelligent Plant] | Wheeee-eee—!
+0020 [Narración] | The plant waves a vine like a greeting, slowly uncoiling to clear the path.
+0021 [Tú] | Is it mimicking a bow? Meaning they aren't hostile unless ordered to be.==W== If that's the case...
+0022 [Tú] | Have you seen an old man pass by?==W== He wears round glasses.
+0023 [Astute Intelligent Plant] | Woo-ee-oooo—!
+0024 [Tú] | That dead twig on your head bothering you?
+0025 [Astute Intelligent Plant] | Wheeee—!
+0026 [Tú] | Trying to make a deal, huh...
+0027 [Tú] | There. Got it off.
+0028 [Tú] | The old man ... went that way?==W== Got it. Thanks.
+0029 [Narración] | Retracting its vines, the Intelligent Plant lazily crawls beneath a Jade Grass to bask in its magical glow.
+0030 [Tú] | Thinking back to what Joseph said...
+0031 [Joseph] | Point? There is no "point." The company wanted higher yields and lower costs. I delivered.
+0032 [Tú] | He lied.==W== Cultivating Jade Grass requires a Blade of Jade, and finding one is pure luck. No company builds a production plan on a fluke.
+0033 [Tú] | Which implies his true goal didn't lie in the Jade Grass... The grass was just a means to an end.
+0034 [Tú] | His real objective has to be cultivating the Intelligent Plants. But a scheme this massive...==W== Joseph couldn't have pulled it off alone.
+0035 [Tú] | He definitely has an accomplice. The prime suspect ...==W== is Lady Gray, hiding within United Harvest.
+0036 [Tú] | No, even the two of them lack the resources. There must be a powerful backer behind the scenes.
+0037 [Tú] | Firenze? Or Darcia?
+0038 [Tú] | Someone's ahead?!==W== Crap. No time to call Mistique and Mina back. I'll just have to wing it...
+0039 [Tú] | Who's there?! Mistique, spell!
+0040 [???] | Wait, don't! No magic! My old bones can't take a hit like that—
+0041 [Tú] | Sir Joseph. I knew it was you.
+0042 [Joseph] | Oh, ==PLAYER_NAME==. You were bluffing. The witch isn't even here!
+0043 [Tú] | Mistique might not be here, but one message and she'll be on her broomstick and over here in a heartbeat.
+0044 [Joseph] | I surrender...==W== Fighting a Trekker at my age now is just asking for a beating.
+0045 [Joseph] | The moment you stormed in, I'd already lost.
+0046 [Joseph] | Even if I shook you off, I can't escape the master. United Harvest would catch me in the end anyway.
+0047 [Tú] | Surrendering that easily?
+0048 [Tú] | Whatever his plan is, I just need to stall. I missed my ten-minute check-in on Heartlink, so Mistique and Mina should be en route. I'll play along.
+0049 [Tú] | That's rather contradictory. If you knew it was hopeless from the start, why even run?
+0050 [Joseph] | I...==W== I still had work to finish.
+0051 [Joseph] | I wanted to water these Jade Grass with Neo Solution one last time. A farewell. Let me do it, and I'll go with you. I won't resist.
+0052 [Tú] | Neo Solution?
+0053 [Joseph] | It's this stuff. A magical solution banned by the Grace Imperium. Unstable—one wrong move and you're blown sky-high—but it's excellent for infusing magic.
+0054 [Tú] | Using a banned solution... Why go to such extremes?
+0055 [Joseph] | Do you even have to ask? We're researchers. We don't need a reason.
+0056 [Joseph] | I don't know how you see people like me, but this is simply our nature. Even when we know the danger, our curiosity won't let us stop.
+0057 [Narración] | Joseph crouches, unscrews the Neo Solution cap, and drips liquid onto the Jade Grass roots. He must have done this so much before; his movements look like muscle memory.
+0058 [Joseph] | The Blade of Jade's magic isn't enough for them to thrive. They need a precise dose of Neo Solution every single day. Miss once, and that perfection is lost.
+0059 [Tú] | Why the obsession? Just because the company needs them to rush the Intelligent Plants?
+0060 [Joseph] | The Intelligent Plants are indeed the life's work of master. They're beautiful, and maybe the master is right. Maybe they really will change the world.
+0061 [Joseph] | But no matter how magnificent they are, they aren't my creation.
+0062 [Joseph] | ==PLAYER_NAME==, I don't know what mediocrity means to a Trekker. But in my field? To be called average is to be called a failure.
+0063 [Joseph] | I used to dream that hard work could overcome natural talent... But a dream is all it was. I could never beat the true geniuses.
+0064 [Joseph] | But I couldn't accept that. So I clawed my way to this position, surviving on nothing but sheer loyalty to the master.
+0065 [Joseph] | The Jade Grass is the only real achievement of my entire life. I'll never hand them over.
+0066 [Narración] | Joseph empties the last drop, stands, and dusts off his knees.
+0067 [Joseph] | There... Now, I have no regrets.
+0068 [Tú] | Right. We're running out of time anyway.
+0069 [Joseph] | Indeed. Let's get going ...==W== to the next world together!
+0070 [Tú] | What did you just say?
+0071 [Joseph] | You were so patient with me... Stalling for your friends, right? Hahaha, well so was I! And look! It's here—my greatest ally!!
+0072 [Tú] | The Blade of Jade?!
+0073 [Tú] | Oh, no. When I ran into him, he wasn't gathering magic to attack me. He was summoning the Blade of Jade, just like in the basement!
+0074 [Mistique] | Boss! Run!
+0075 [Narración] | Mistique swoops in on her broom, but her magic can't outpace the Blade of Jade's beak.
+0076 [Tú] | Sorry, Mistique. The rest ...==W== is up to you.
+0077 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0078 [Bernina & Virigia] | Welcome back, Dear Tyrant.
+0079 [Tú] | So ... the Blade of Jade got me.
+0080 [Virigia] | Yes. It seems rather fond of you, actually. Look—
+0081 [Bernina] | Virigia, why show Tyrant that? It's just a bird's nest.
+0082 [Virigia] | It's the Blade of Jade's nest. It took your headpiece back to decorate its home.
+0083 [Virigia] | It considers you a prestigious kill. A trophy worth showing off.
+0084 [Tú] | High praise from a bird. Should I be flattered?
+0085 [Vita] | Dear Tyrant, had you completed the soul collection, you would not have fallen to such a primitive beast.
+0086 [Tú] | Vita, don't pop into my head unless summoned.
+0087 [Vita] | Understood, Tyrant. Your command is my will.
+0088 [Bernina] | Tyrant? You are quiet. Does it hurt somewhere?
+0089 [Tú] | The chest pain from being skewered is still lingering, but I'll live. Figuratively.
+0090 [Virigia] | Wagering your life is thrilling, Tyrant... But actually dying defeats the purpose, no?
+0091 [Bernina] | Heehee. Even a frail old man can show incredible power when protecting what's important to him.
+0092 [Tú] | Point taken.==W== Vita, open the door.
+0093 [Vita] | Your command is my will.
+0094 [Tú] | This is ... right when we entered Greenhouse No.100.
+0095 [Vita] | Tyrant, I advise you to make a soul pact immediately. Once the mission is complete, the Blade of Jade will be no threat.
+0096 [Tú] | Thanks, Vita. But I'll handle this my own way first.

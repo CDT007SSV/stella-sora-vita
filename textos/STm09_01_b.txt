@@ -1,0 +1,147 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 1B · Foreknowledge
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Arbiter in White | Arbiter in White
+N:Committee Elite | Committee Elite
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_146 | Benito
+N:avg1_150 | Laru
+N:avg1_156 | Nazuna
+N:avg1_163 | Greyhorn
+N:avg1_1996 | Noya
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg2_967 | White Cat Mercenary
+N:avg2_968 | White Cat Mercenary
+N:avg3_100 | Sylar
+N:avg3_1304 | Chaton
+N:avg3_1307 | Sentinel of Dawn Soldier M
+N:avg3_1308 | Sentinel of Dawn Soldier F
+N:avg3_1309 | Sentinel of Dawn Soldier F
+N:avg3_1311 | SaiLa F
+N:avg3_152 | Bastelina
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Foreknowledge
+0003 [Intro] | After returning from the White Room, you decide to use your information advantage to capture Angie and end the battle. Claiming Laru provided the intel, you reveal the enemy setup and lay out a flawless plan…
+0004 [Lugar y hora] | 13:50, Nebula Month 18th, Mirage, Deep in the Mine
+0005 [Kasimira] | You actually have a plan to beat them? But... We don't even know their numbers.
+0006 [1] | I know. Let's walk and talk. I'll brief you on the way.
+0007 [1] | Right now, the Salvation Committee has three hundred combatants stationed outside the city, split into three companies.
+0008 [1] | Greyhorn leads the First Company. She excels at defensive magic and tracking, but she's with Imperial Guard, not the Committee. She's just following orders, so she might not fight to the death.
+0009 [1] | Right now, her unit is trapped in the mineshaft that Fuyuka and Nazuna destroyed. It'll take them twenty minutes to dig out.
+0010 [1] | No. 160 leads the Second Company. She's an arbiter from the Dusk Arbiters.==W== If she takes damage, she triggers a unique time-stop magic.
+0011 [Nazuka] | Time stop?==W== That's impossible. Not even a grand mage can stop time.
+0012 [Tú] | It's not a true time stop.==W== Her magic just locks whatever is in her line of sight==W== for a short window.
+0013 [Tú] | But to her victims, it feels like time has stopped.==W== Also, she can eavesdrop on nearby Heartlink frequencies.
+0014 [Nazuna] | She can actually eavesdrop on Heartlinks... Firenze was right... That explains why she kept us off our phones the entire trip.
+0015 [1] | Exactly. Because you stayed off the grid, the Committee has no idea you're at Mirage. We still have the element of surprise.
+0016 [1] | Let me repeat. No Heartlinks until 160 is out of the picture.
+0017 [Amber] | No phones.==W== Not fun.
+0018 [1] | Gunhild leads the Third Company. She uses a long-range magic cannon called Piercer.==W== Once it grazes you, it locks on,==W== even tracks you through walls.
+0019 [Chaton] | Whoa, isn't that just a video game cheat code?==W== Wallhacks are completely unfair!
+0020 [Tú] | Piercer has a precise range of five kilometers. Her unit is locked down on the dunes outside Mirage.
+0021 [Kasimira] | Five kilometers... Our best White Cat rifles barely cover a fifth of that.
+0022 [Benito] | They can snipe us from afar, but we can't shoot back. We're sitting ducks.
+0023 [Tú] | On top of that, the Desert Scorpions and the local Imperial Guard will eventually cave to Committee pressure and switch sides.
+0024 [Tú] | So we aren't just fighting three hundred enemies.==W== We're looking at a thousand.
+0025 [Iris] | Even with the White Cats, we only have sixty to seventy people. Sixty or seventy against a thousand…
+0026 [Fuyuka] | Th-That's an overwhelming disadvantage, Master. Should we just run instead?
+0027 [Tú] | Last time,==W== I lacked intel. I played it safe, avoided combat,==W== and focused entirely on getting everyone out.
+0028 [Tú] | Angie stalled me for too long,==W== and we were crushed by their sheer numbers and resources.
+0029 [Tú] | But now, the entire board is visible to me.
+0030 [Tú] | I need to exploit this information gap. If we leverage everyone's strengths for a lightning strike, the Committee won't even have time to react.
+0031 [Tú] | If it were just us, making a safe retreat would be easy. Once we disappear into the desert, not even a thousand troops could find us.
+0032 [Tú] | But we have the kids at Daisy Orphanage to consider, not to mention the innocent citizens of Mirage caught in the crossfire.
+0033 [Tú] | We can't safely evacuate that many people this quickly.==W== The fastest way to crush the Committee ...==W== is to capture Angie.
+0034 [Chitose] | Seizing the general's head from amidst her grand army. I understand, my ==SEX11==.
+0035 [Nazuka] | Hold on. "Capture Angie to end the fight" makes logical sense, sure, but ... how exactly do we pull that off?
+0036 [Nazuka] | And another thing, how do you know all this? It's almost like...
+0037 [Chitose] | Like a grand tactician from the war chronicle. You calculate the fate of the world without ever leaving your tent.
+0038 [Tú] | Uh... Valid point. How do I explain this...? I can't tell them about the White Room.
+0039 [Tú] | Ah, I've got it!==W== Bastelina, Laru, I'm borrowing your names for a second.
+0040 [Tú] | I have allies inside the Salvation Committee. They've been secretly feeding me this intel.
+0041 [Nazuka] | Ah, that explains it. Good to know there are still some reasonable people over there.
+0042 [Tú] | To my companions and our friends in the White Cats... Would you trust me and follow my lead?
+0043 [Tú] | I promise to keep everyone safe. We'll capture Angie, and we'll end this.
+0044 [Nazuka] | It's a little late to be asking that...==W== Boss, we're with you. Just give the order.
+0045 [Kasimira] | You've done so much for the White Cats. We're absolutely on your side.
+0046 [Kasimira] | Besides, this is our home. Protecting Mirage is our duty.
+0047 [Kasimira] | Boss, the mine exit is dead ahead. It leads straight up to the main street in central Mirage.
+0048 [Tú] | Good. We set our ambush here.
+0049 [Tú] | No. 160 is marching the Second Company toward Daisy Orphanage. They want to force us into a head-on fight, teeing us up for their snipers.
+0050 [Allie] | The orphanage?! They target children too? Boss, please let me go back. I have to protect them.
+0051 [Tú] | Easy, Allie. We keep the fighting away from the orphanage. We're going to crush them right here on this street.
+0052 [Tú] | Noya, Iris, Amber. As soon as the Second Company shows up, you three charge in as the vanguard. Break their formation, but ignore the arbiter leading them.
+0053 [Iris] | U-Us? Back in Philae, it took a whole group of us to capture ten Committee members. W-We can't beat an entire company!
+0054 [Tú] | Your goal isn't to win. It's to protect yourselves and draw their fire.
+0055 [Tú] | Nazuka, Chitose, Kasimira. While Noya's team distracts them, you flank from behind and wipe them out.
+0056 [Tú] | I've marked their probable positions on this paper.
+0057 [Kasimira] | This is incredibly detailed... Boss, your informants are impressive.
+0058 [Tú] | Noya, you dictate the timing. Give the signal, and everyone charges.
+0059 [Noya] | Got it! Sounds super easy. We'll pincer them and go bam, bam, bam! Send 'em all flying!
+0060 [Tú] | One more thing, Noya. When you reach the end of the main street, be very careful. Don't take the main road. Take this alleyway instead.
+0061 [Noya] | Why?
+0062 [Tú] | The main road is a sniper lane. Please be careful. Don't get hurt.
+0063 [Noya] | You're so tense, ==PLAYER_NAME==! Relax, my intuition is top-notch. Even if a sniper aims at me, I can just whoosh right out of the way!
+0064 [Tú] | Next, Nazuna, head to the mine exit near the First Company. Prioritize your safety, but look for someone in a Grace Imperium uniform carrying a spear and an absurd amount of fries.
+0065 [Tú] | Her name is Laru, she's my informant. Tell her I've received her intel. Then, ask her to pass a message to Angie: tell her I want to negotiate, and she can pick the location.
+0066 [Nazuna] | N-Negotiate? Angie literally wants you dead! Why would you negotiate with her?
+0067 [Tú] | I'm just using myself as bait to lure her out.
+0068 [Tú] | Fuyuka, lie in ambush in this section of the mineshaft. The second I ping you on the Heartlink, smash upward and shatter the ground above you.
+0069 [Fuyuka] | Understood, Master. I'll give it everything I've got!
+0070 [Tú] | Benito, please take the other White Cats and organize the evacuation of Mirage's citizens. Keep an eye on the kids from Daisy Orphanage, too.
+0071 [Benito] | Mm, leave it to me.
+0072 [Tú] | And finally, the wielder of dark power, the great Chaton.
+0073 [Chaton] | Oh? Have you finally come to appreciate my dark power? State your mission. I shall see it done.
+0074 [Tú] | Sneak out of Mirage and reach the dunes five kilometers out. You need to be there before 14:30.
+0075 [Tú] | My companions are out there. A blue-haired girl on a skateboard named Minova, a ninja master of disguise named Otoha, and a woman with a sword and shield named Kaede.
+0076 [Tú] | Get in touch with any of them. Tell them not to alert the enemy. They need to call off their attack on the Third Company and wait for backup.
+0077 [Chaton] | Understood! The great Chaton is off!
+0078 [1] | Nazuka, Nazuna. Once your tasks are done, head straight for those dunes.
+0079 [1] | I'm going to bring a long-overdue "rain" down on those dunes.
+0080 [Lugar y hora] | 14:50, Nebula Month 18th, Mirage, Unnamed Street
+0081 [Vita] | You made quite the commander just now, Tyrant. Like the true supreme commander of the Tyrant Army.
+0082 [Vita] | I do have one question, though. Would you mind enlightening me?
+0083 [Tú] | We have a minute before the fighting starts. What's on your mind?
+0084 [Vita] | Despite how it ended, your escape plan in the previous timeline was a strategic success.
+0085 [Vita] | If Lady Noya hadn't been injured... If you had just tweaked your route a fraction, you could have made it out.
+0086 [Vita] | If it were up to me, I would have just adjusted the original plan to ensure everyone got out safely.
+0087 [Vita] | Why scrap the whole thing just to capture Angie?
+0088 [Tú] | Because running won't stop them. The Salvation Committee has the numbers and supplies to hunt us into the Monolith or the desert. And Firenze and the Dusk Arbiters are still over a day away.
+0089 [Tú] | I can't protect everyone while we're on the run.
+0090 [Vita] | True, but you can always try again, can't you? There has to be a timeline where everyone makes it out unharmed.
+0091 [Tú] | And watch my closest friends die right in front of me ... over and over again?
+0092 [Tú] | Heh. That's literal torture. I'm not strong enough for that.
+0093 [Tú] | Besides. Even if the Angie in this timeline hasn't done anything yet, I still want her to pay. Pay for what she did to Noya!
+0094 [Vita] | I understand. You truly are a great Tyrant who deeply values your people.
+0095 [Vita] | I will leave you to it, then. I wish you a resounding victory.
+0096 [Allie] | Boss, who are you talking to?
+0097 [Tú] | Ah, nothing. Just ... thinking out loud to my phone.
+0098 [Allie] | Are we really just going to wait here? Shouldn't we check on the kids at the orphanage first?
+0099 [Tú] | Trust me. That arbiter will show up here alone any minute now. When she does, I need you to knock her out without hurting her.
+0100 [Lugar y hora] | 14:10, Nebula Month 18th, Mirage, Main Street
+0101 [Committee Elite] | Move! Daisy Orphanage is right at the end of the block!
+0102 [Noya] | Stop right there.
+0103 [Committee Elite] | One of the Tyrant's lackeys. Lady Angie only asked for the Tyrant's head, but if you're that eager to die, we'll gladly oblige!
+0104 [Iris] | Wearing Sentinel of Dawn uniforms, yet all you do is bully children.
+0105 [Amber] | Despicable!
+0106 [Arbiter in White] | Don't let them stop you. Get to the orphanage!==W== Pin them down and have the rest flank around!
+0107 [Noya] | Iris, Amber! Charge in and break their formation!
+0108 [Iris] | Got it. Defensive magic is ready.
+0109 [Amber] | Boss's plan won't fail!

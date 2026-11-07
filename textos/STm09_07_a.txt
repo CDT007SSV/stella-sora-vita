@@ -1,0 +1,245 @@
+# Capítulo 9 · Un Monolito demasiado lejano · Final: Sand Through Fingers
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_135 | Mistique
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_163 | Greyhorn
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_100 | Sylar
+N:avg3_1313 | Allie
+N:avg3_152 | Bastelina
+N:avg3_157 | Guardia Imperial
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg3_210 | Hazana
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+N:avg3_999 | ???
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | The End
+0002 [Intro] | Sand Through Fingers
+0003 [Intro] | Thanks to Allie's fierce stand, you break past Greyhorn's blockade. You are able to stop No. 160's spell, but not Gunhilde's barrage. Though badly wounded, Noya tries to shield you, yet both of you fall.
+0004 [Lugar y hora] | 17:20, Nebula Month 18th, Mirage, Crumbling Mineshaft
+0005 [1] | Is Allie ... going to be okay?
+0006 [Noya] | Don't worry. Mom's tough. You told us yourself, that she and Narida took down hundreds of Sentinels of Dawn and Imperial Guards without breaking a sweat.
+0007 [Noya] | That was a guerrilla fight, sure. But it's way too tight in this shaft. The Salvation Committee can't swarm her.
+0008 [Tú] | Nazuka, Chitose, are you okay?
+0009 [Nazuka] | I'm fine. But my Soul Stone is out of magic.
+0010 [Chitose] | I can still fight with my left hand.
+0011 [Tú] | Let's not waste the time Allie bought us. Keep moving. We regroup at the Monolith.
+0012 [Lugar y hora] | 17:25, Nebula Month 18th, Mirage, Desert Outside the City
+0013 [Angie] | Gunhild. Status on the bombardment?
+0014 [Gunhild] | Half of the first unit fired. Everything's right on schedule.
+0015 [Gunhild] | The strikes blew right through the surface, driving the Tyrant straight down into the abandoned mineshafts.
+0016 [Gunhild] | Our First Company was waiting for them. They've already linked up with Captain Greyhorn.
+0017 [Gunhild] | The Second, along with the Desert Scorpions and the Imperial Guard, are moving in to flank.
+0018 [Gunhild] | There are only so many exits in that mine. We're getting the Tyrant this time. Guaranteed.
+0019 [Angie] | Nothing in this world is guaranteed. Director Allie has already stopped Greyhorn dead in her tracks.
+0020 [Gunhild] | What?
+0021 [Angie] | I just spoke with her. Turns out, Allie is Taffett, the missing ace of the White Cats.
+0022 [Angie] | The Tyrant really does surround ==SEX8== with hidden talents.==W== Gunhild, no holding back. Unload the rest of your payload.
+0023 [Angie] | Even through the ground, you can still track 160 and Noya, right?
+0024 [Lugar y hora] | 17:30, Nebula Month 18th, Mirage, Crumbling Mineshaft
+0025 [Chitose] | My ==SEX11==, the tunnel ahead is blocked. The collapse is fresh.
+0026 [Nazuka] | Same here.==W== The Salvation Committee boxed us in on purpose.
+0027 [Tú] | Tch... So Angie chose this spot just to set this trap. She played me...
+0028 [Tú] | No, the gap in manpower is just too huge. It's like playing chess with ten pieces against a hundred. I couldn't possibly block every single move.
+0029 [Noya] | Boss, over here! I feel a draft coming from this wall. There must be a way through! Stand back,==W== I'm busting it open!
+0030 [Tú] | Thank goodness for Noya's intuition!
+0031 [???] | Heehee... And just where do you think you're going, Tyrant?
+0032 [Nazuka] | Noya, watch out! Someone's behind the wall!
+0033 [Noya] | You again? You're such a pain. Are you a stalker or something?!
+0034 [No. 160] | A stalker? Maybe!==W== But right now... I'm the beacon for heavenly fire.
+0035 [Noya] | Ugh, enough with the riddles. Nazuka, Chitose, you go on ahead. I'll tie this freak down.
+0036 [Noya] | Guh... That hurts.
+0037 [No. 160] | Heehee, too scared to hit back? Well, I'm not holding back! Your wound is right there, Trekker. Way too easy to poke!
+0038 [No. 160] | Not that playing it safe matters anyway. I swallowed plenty of pain before I even came looking for you.==W== Getting shot through by a magic cannon feels ... freaking amazing! So amazing!
+0039 [No. 160] | And now I'm giving all that amazing pain right to you!
+0040 [No. 160] | God of Grace, please stop the clock! Make it stop!
+0041 [Opción] | Cover No. 160's eyes
+0042 [No. 160] | It's all over...
+0043 [No. 160] | ... Tyrant! Hey, what are you doing covering my eyes?!
+0044 [Narración] | But this magic doesn't actually stop time. It just forcibly uses magic power to restrict the movement of anything within a certain range around her that she can see.
+0045 [Tú] | You can only freeze what you can see. So, by blocking your vision, your magic is completely useless.
+0046 [No. 160] | H-How is this possible?! I can see your hand! You should be frozen...
+0047 [Tú] | Sorry. I'm immune to magic.
+0048 [Chitose] | My ==SEX11==, she's unconscious.
+0049 [Tú] | Phew, that takes care of her.==W== Nazuka, Chitose, tie this arbiter up and drag her along. I've got Noya. We'll be right behind you.
+0050 [Gunhild] | Lady Angie, thanks to No. 160 buying us some time, I've already found the location of Noya.
+0051 [Angie] | Open fire. 160 made her peace with death before she deployed.
+0052 [Gunhild] | Yes, Captain!
+0053 [Noya] | I'm sorry, Boss. I really dragged you down this time.
+0054 [1] | What are you talking about? We won. The Salvation Committee couldn't hold us, and everyone got out safe.
+0055 [Tú] | An explosion? Right above us?!
+0056 [Nazuka] | Boss!
+0057 [1] | Nazuka, Chitose, stay back!
+0058 [Narración] | My final sight is the tunnel caving in, and Noya turning around to shield me with her own body.
+0059 [Noya] | I've got it!
+0060 [Tú] | Whoa!==W== You startled me...==W== What is it?
+0061 [Noya] | It just popped into my head! I figured out how to make it rain in the desert!
+0062 [Noya] | First, Iris freezes the oasis lake into a giant block of ice.==W== Then, if we can get Mistique to lift it up into the air,==W== the melted ice will fall like rain!
+0063 [Tú] | Uh...==W== That would technically make it "rain," sure.==W== But if you're hauling ice all the way up there, wouldn't it be better to just drop it on the enemies on the dune?
+0064 [Noya] | Enemies on the dune?==W== What's that?
+0065 [Tú] | That's... Uh, I thought you were trying to figure out a way out of this mess...
+0066 [Noya] | Ahaha! No, no!==W== I was just thinking about how to make flowers bloom in the desert.
+0067 [Noya] | Just think! If we could really pull it off, we might get to see a scene straight out of a fairy tale, don't you think?
+0068 [Tú] | Scene out of a fairy tale... Just for that?
+0069 [Noya] | Not "just for that."==W== It's my dream to see all of the world with you, Boss!
+0070 [Noya] | But I'm more interested in star plucking than fighting monsters!
+0071 [Tú] | Star plucking?
+0072 [Noya] | Yep! I heard it from someone, too. They say if you defeat the boss-class Stellaroid in the Monolith and find the Wishing Star it guards, then any wish you make will come true ♪
+0073 [Tú] | ... Hm?==W== But I thought your dream was ...==W== to defeat the powerful Stellaroid in the Monolith ... and pluck a star, right?
+0074 [Noya] | Yes♪ But==W== there's no rule saying you can't have more than one wish!
+0075 [Noya] | Okay, okay, let's not talk about that right now. Boss, look!
+0076 [Noya] | It's starting to rain!
+0077 [Tú] | ... Rain?==W== Noya, what are you talking about...==W==
+0078 [Tú] | N-Noya? You're—
+0079 [Noya] | This is it... The most beautiful flower in the desert.
+0080 [Noya] | It's so pretty, isn't it...?
+0081 [Narración] | Warm droplets fall onto my face.
+0082 [Narración] | Just as she said, the desert witnesses rain.
+0083 [Noya] | Boss, open your eyes...! Look at me!!
+0084 [Noya] | There are still so many places we haven't seen together...!
+0085 [Noya] | So ... please...! Open your eyes!!
+0086 [Opción] | N-No ... ya...?
+0087 [Noya] | Boss? Thank goodness... I thought you weren't going to wake up.
+0088 [Noya] | It's so dark I can barely see. Are you okay...? Are you hurt ... anywhere?
+0089 [Tú] | Y-Yeah. The rubble's got me pinned down, so I can't really move... I don't seem to be injured though.
+0090 [Tú] | That aside... What happened? Did the mineshaft collapse?
+0091 [Noya] | Yeah. That explosion just now... Looks like it caved in completely.
+0092 [Noya] | Oh... But don't worry, I know that Nazuka and Chitose are fine.
+0093 [Tú] | That's good to hear. But what about you, Noya?==W== You seem really out of breath...
+0094 [Noya] | M-Me? I'm... Haha... I'm fine, really. I just got a few scrapes when I fell, that's all...
+0095 [Tú] | In a situation like this, if all we got were a few scrapes, we should count ourselves lucky. By the way, have you seen my phone? I need to get in touch with everyone soon...
+0096 [Tú] | Huh? Is that your phone I'm touching right now? I think it's caught on something. I can't pull it out. I might be able to turn on the screen, though...
+0097 [Tú] | Great! It's on! Noya—
+0098 [Tú] | ... Eh? N-Noya?! You...
+0099 [Narración] | What wet my cheek was not the warmth of rain ... but crimson drops falling from Noya's chest.
+0100 [Narración] | She's held back the collapsed rubble just to carve out a tiny pocket of space for me.
+0101 [Noya] | Oh... Did it get a little brighter?
+0102 [Noya] | So that means... You found the phone, right?
+0103 [Noya] | But... Huh? Th-that's weird... It should be brighter now, but... I can't really see your face...
+0104 [Tú] | That's enough, Noya. Don't push yourself any further...
+0105 [Noya] | No... I can't. If I don't hold on... You'll get crushed under the rubble...
+0106 [Noya] | And besides... You don't have to worry. Being tough is ... kind of my saving grace. You know that too... Right?
+0107 [Noya] | So... Once we get out of here, and pull out the stake stuck in me... A wound like this ... will heal up in just a few days...
+0108 [Noya] | And then... Boss? Let's go for a drive ... together ... with Loxy...
+0109 [Tú] | Yeah, we will. We'll go. I'll go with you anywhere you want! So stop wasting your strength talking anymore!
+0110 [Noya] | No... This might be my last chance, so let me finish it properly...
+0111 [Tú] | What!? Don't be silly, Noya! Don't say something like that!!
+0112 [Noya] | S-sorry... but... I can barely see anymore... And I don't think I'll be able to talk much longer...
+0113 [Noya] | Ahaha... Even though I promised ... that I'd never lie to you...
+0114 [Noya] | If it goes on like this... I'll be a liar forever in your memory... And I couldn't ... bear that... Not even in death... So... Please... Will you listen?
+0115 [Tú] | ... I will.
+0116 [Noya] | Mm... Thank you. Um, you know, what I told you back at the orphanage...
+0117 [Noya] | That moment when you and Nazuka made your vow beneath the Monolith... I really ... really thought it was beautiful. That's how I truly felt.
+0118 [Noya] | And ... the fact that you made a vow like that... It made me think ... you two really do have a wonderful relationship. That's how I truly felt, too.
+0119 [Noya] | But... But, when I said I was fine as long as you two were happy... I'm sorry... Maybe that was a lie after all...
+0120 [Noya] | When all of us were secretly watching you two... The truth is... I wished it were me standing there with you...
+0121 [Noya] | To be honest... My heart tingled a little. Haha... Doesn't sound like me at all, right?
+0122 [Noya] | Well... because of all that, I didn't know how to tell you how I felt...
+0123 [Noya] | But I thought we'd still have a long, long way to go... So I never thought I had to rush... I'm sorry. Looks like... Time's up...
+0124 [Tú] | ...No, there's no need to apologize. But if that's how you really felt, I wish you'd told me sooner...
+0125 [Noya] | Mm... I don't really know how to put it, but...
+0126 [Noya] | When I found you in the Wishing Box, I felt like ... my wish had already come true.
+0127 [Noya] | Because of that, I figured I shouldn't ask for anything more...
+0128 [Noya] | Just traveling with you every day, seeing new sights... I thought I should be grateful for days like that, but...
+0129 [Noya] | Hehe... I—
+0130 [Noya] | I guess I was not as cheerful as I thought...
+0131 [Tú] | I know... Noya, I know...
+0132 [Tú] | Well... Then let's make sure we both get out of here alive, so we can go see all kinds of new sights together.
+0133 [Noya] | Yeah... I promise you.
+0134 [Noya] | It's just... I'm sorry. Now that I've gotten it all out... I feel so relieved, and I'm getting sleepy...
+0135 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0136 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0137 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0138 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0139 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0140 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0141 [Narración] | ==Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep?
+0142 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0143 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0144 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0145 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0146 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0147 [Narración] | _NOT_IN_LOG_==A0.1====Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0148 [Narración] | ==Off==I'm sorry to ask, but ... could you keep talking to me? Just so I don't fall asleep? Okay, I'll talk. Just stay awake, Noya.
+0149 [Narración] | _NOT_IN_LOG_==A0.15====Off==Sure...
+0150 [Narración] | _NOT_IN_LOG_==A0.15====Off==Sure...
+0151 [Narración] | _NOT_IN_LOG_==A0.15====Off==Sure...
+0152 [Narración] | _NOT_IN_LOG_==A0.15====Off==Sure...
+0153 [Narración] | _NOT_IN_LOG_==A0.15====Off==Sure...
+0154 [Narración] | _NOT_IN_LOG_==A0.15====Off==Sure...
+0155 [Narración] | ==Off==Sure...
+0156 [Narración] | ==Off==And from there, I start to talk about whatever comes to my mind.
+0157 [Narración] | The day we first met,==W== the first time we climbed a Monolith,==W== our pillow fight in pajamas,==W== the company war in Emor,==W== those turbulent days in Philae,==W== and our adventure in the desert...
+0158 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0159 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0160 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0161 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0162 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0163 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0164 [Narración] | ==Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know.
+0165 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0166 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0167 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0168 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0169 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0170 [Narración] | _NOT_IN_LOG_==A0.1====Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0171 [Narración] | ==Off==Noya, remember that sword technique you taught me? I still practice it in secret, you know. ... Mm.
+0172 [Narración] | Noya's replies gradually fade, and the warm drops falling onto my cheek come farther and farther apart.
+0173 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0174 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0175 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0176 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0177 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0178 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0179 [Narración] | ==Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too!
+0180 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0181 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0182 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0183 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0184 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0185 [Narración] | _NOT_IN_LOG_==A0.1====Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0186 [Narración] | ==Off==And then... Oh right! Listen to this! I just thought of a way to make it rain in the desert too! ...
+0187 [Narración] | Noya?!
+0188 [Noya] | ...
+0189 [Narración] | ==Off==... N-No ...ya...? Hey, Noya! Noya! Noya!!!!!
+0190 [Narración] | Aaaaaaaahhhhhhhhhh!!!!
+0191 [Narración] | The rain in the desert ... stops.
+0192 [Narración] | Noya's arms slowly give out. Under the crushing weight of the rubble, our bodies are pressed tightly together.
+0193 [Narración] | From the day I awoke in the desert until this very moment... Never once had I longed so desperately for death.
+0194 [Tú] | Noya!!!!
+0195 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0196 [Virigia] | Tyrant... My condolences.
+0197 [Bernina] | This is the White Room. Your companions cannot reach you here.
+0198 [Tú] | Right, right! The White Room! That means I still have a chance. I can still go back and save Noya, right?!
+0199 [Virigia] | Th-That is true...
+0200 [Bernina] | Please compose yourself, Tyrant. This isn't like you.
+0201 [Tú] | Noya bled out for me. She went cold right in front of me, bit by bit!
+0202 [Tú] | And right up until the very end, she was holding up that rubble to protect me!
+0203 [Tú] | Calm down?! How the hell am I supposed to calm down?!
+0204 [Virigia] | We fully understand your pain. But you need to stay calm, now more than ever.
+0205 [Bernina] | If you rush back completely hot-headed, do you really think you'll make the right call?
+0206 [Bernina] | You'll just drag your companions into another tragic end. It'll only add to their suffering and yours.
+0207 [Tú] | I...
+0208 [Tú] | I'm sorry. You're right. I was being impulsive.
+0209 [Tú] | I completely misjudged the situation. I thought we could make a clean getaway, but the Salvation Committee threw far more at us than I expected.
+0210 [Tú] | Even if Allie, Chitose, and Nazuka can each take down dozens of Committee members on their own...
+0211 [Tú] | Against their sheer numbers and organization, our individual strength meant nothing.
+0212 [Virigia] | It is good that you can think rationally again. Then, please remember this final image.
+0213 [Bernina] | As you gaze at the distant scenery, do not forget that someone is silently gazing at you, too.
+0214 [Virigia] | If only you had noticed her feelings sooner, perhaps she would have been much happier.
+0215 [Tú] | Noya...
+0216 [Tú] | Vita, open the door! I'm going to change all of this!
+0217 [Vita] | Your command is my will.

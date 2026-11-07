@@ -1,0 +1,156 @@
+# Capítulo 5 · Una chispa en la oscuridad · 4 · Connect the Clues
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Mandrake Radiant Grass | Mandrake Radiant Grass
+N:Proactive Team Leader | Proactive Team Leader
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_138 | Nyx
+N:avg1_156 | Nazuna
+N:avg2_958 | Weed Brawler
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1260 | Weed Brawler
+N:avg3_1263 | Weed Brawler
+N:avg3_134 | Mina
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_142 | United Harvest Researcher
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Connect the Clues
+0003 [Intro] | Mistique deduces that you're investigating the orphanage's debt after gathering clues for a couple of days. Intelligence from the anonymous tip reveals that the recipe is also connected to the orphanage.
+0004 [???] | Investigation on Golden Nightingale... Some people really have too much time on their hands, stirring up this nonsense at a time like this.
+0005 [???] | I've already warned them, but I doubt they'll back down so easily.
+0006 [???] | This is troublesome. I hope it won't interfere with our plans.
+0007 [???] | Heh, with the Tyrant involved, it's bound to mess things up.
+0008 [???] | Still, no need to worry too much—maybe they'll actually help us.
+0009 [Lugar y hora] | 22:00, Tonitrua Month 31st, Greenhouse District in Philae, United Harvest Warehouse
+0010 [Mina] | Good work today, everyone.==W== That wraps up day one. How are you all holding up?
+0011 [Fuyuka] | Research is way harder than I thought==W==...==W== Sorry for dragging everyone down.
+0012 [Noya] | Huh? Is the magic circle supposed to glow like that? Something feels ... off.
+0013 [Fuyuka] | That is definitely not normal! And the alarm is deafening!
+0014 [Noya] | Hehe,==W== we gave it a few more tries,==W== and the magic flow has been smooth sailing ever since.
+0015 [Amber] | All that shouting...==W== It was terrifying==W==...
+0016 [Proactive Team Leader] | Hey, intern! Why so quiet?==W== This is a pep rally! Don't be shy—shout with the team! Let it out! Let me hear you! Come on, ready—!
+0017 [Proactive Team Leader] | Boost—performance—
+0018 [Amber] | ......
+0019 [Proactive Team Leader] | I can't hear you! From the top! On my count: three, two, one, SHOUT!
+0020 [Iris] | Don't worry,==W== Amber.==W== I checked with a senior in Marketing. These pep rallies aren't daily.==W== We only have to do them twice a week==W==.
+0021 [Amber] | Twice ...==W== a week?!==W==!==W==!==W==!
+0022 [Mistique] | The Production Department was certainly interesting.==W== We witnessed quite the spectacle.
+0023 [Ruby] | Kitty cat rolling, tumbling and playing!==W== Stretch your body,==W== up and away!
+0024 [Ruby] | Dream big dreams, don't be shy! Kittens stay small, oh my, oh my! But the little green tree will reach the sky one day!
+0025 [Mandrake Radiant Grass] | Heeeee—ya—
+0026 [Noya] | Mandrake Radiant Grass?==W== R&D told me about that!==W== Can't believe you beat me to the punch==W== and saw the real thing first!
+0027 [Tú] | Those plants are dangerous.==W== You can't exactly reason with them,==W== so things go south the second you let your guard down.
+0028 [Tú] | If Firenze hadn't stepped in...
+0029 [Mina] | Lady Firenze actually went down to Production?==W== Well? Was her aura totally overwhelming?
+0030 [Firenze] | Sapphire, Ruby. Is this what passes for "management" in Production these days?
+0031 [Tú] | It was intimidating.==W== Honestly, working under her watch felt twice as draining.
+0032 [Mina] | Ah,==W== haha, don't sweat it!==W== Lady Firenze is swamped.==W== She hardly ever sets foot in Production.
+0033 [Mina] | If you've got questions about the work, just ask Ruby or Sapphire.==W== They're both really nice.
+0034 [Tú] | She rarely shows up there...==W== Then did she come today specifically because we were starting?
+0035 [Mistique] | Anyway,==W== we survived day one. Let's pool our intel.
+0036 [Mistique] | I want to know everything that went down today.==W== Every. Last. Detail.
+0037 [Noya] | Me first, me first!==W== Okay, so this morning==W== at R&D—
+0038 [Fuyuka] | Step one:==W== Greet people in the lab with "Good morning."
+0039 [Fuyuka] | Uh,==W== but they're usually in a group...==W== Maybe==W== "Good morning, everyone"?
+0040 [Fuyuka] | As for my expression...==W== Um,==W== a simple smile works, right?
+0041 [Fuyuka] | A big grin like Noya's might be better,==W== but...==W== No, that's way,==W== way too hard.
+0042 [Fuyuka] | After the greeting,==W== segue into the important stuff.==W== Like==W==...==W== "Those United Harvest mercenaries are cool!==W== What weapons do they use?"==W== No,==W== wait.==W== Too forced?
+0043 [Noya] | Morning, Fuyuka!
+0044 [Fuyuka] | Gah—!==W== N-==W==Noya...
+0045 [Noya] | Nazuna was right.==W== If Fuyuka's missing,==W== check the hallway corners for a muttering white mushroom.
+0046 [Noya] | Lucky me—==W==I dug you up on the second try!
+0047 [Fuyuka] | Nazuna senpai ...==W== knows me too well.
+0048 [Noya] | Anyway, aren't we heading out?
+0049 [Fuyuka] | Uh...==W== R-Right.==W== I-I just ... needed a spot where n-no one could see me to, um,==W== mentally prepare myself for the greetings...
+0050 [Noya] | If you keep "preparing," there won't be anyone left to greet.==W== Because—
+0051 [Noya] | We're gonna be late!
+0052 [Fuyuka] | What?!
+0053 [Noya] | Hehe!==W== Race you there!
+0054 [Fuyuka] | N-Noya!==W== You don't have to tell everyone that part!
+0055 [Noya] | Mistique said==W== she wanted every last detail.
+0056 [Mistique] | That's right!==W== That's exactly the level of detail I need.
+0057 [Mistique] | Heehee,==W== a clue to the Golden Nightingale could be hiding anywhere.
+0058 [Tú] | Is the Golden Nightingale==W== really all Mistique is after?==W== I get the feeling she has another agenda...
+0059 [Mistique] | To save time, Amber, you handle the Marketing Department intel.==W== Text me what you and Iris found—==W==I'll process it while listening to Noya and Fuyuka.
+0060 [Tú] | You can handle two streams of intel==W== at once?
+0061 [Mistique] | Not two—three.==W== I'll be drafting the Production Department piece at the same time.
+0062 [Mina] | I'll go whip up some late-night snacks.==W== Let's do this!
+0063 [Narración] | A few hours later...
+0064 [Lugar y hora] | 1:30, Calor Month 1st, Greenhouse District in Philae, United Harvest Warehouse
+0065 [Fuyuka] | I'm wiped==W==...==W== I think I used up my entire word quota for the year tonight.
+0066 [Noya] | First time I've ever talked until my jaw quit working.==W== Seriously, Mistique, did you have to be that thorough?
+0067 [Amber] | My fingers==W== hurt a little.
+0068 [Mistique] | Heehee! Day one, and we've already got a hundred pages of notes!==W== We're definitely inching closer to the Golden Nightingale's truth!
+0069 [Tú] | All that digging ... and we're only "inching closer"?==W== Sorting through a hundred pages is gonna take forever...
+0070 [Mina] | Great work, everyone.==W== Look at the time.==W== I'll handle the organizing. Go get some rest.
+0071 [Mistique] | No, no, no.==W== You're resting too, Mina.==W== ==PLAYER_NAME== and I have got this covered.
+0072 [Tú] | Huh? Since when did I volunteer?!
+0073 [Mina] | But==W== I'm the one who hired you...
+0074 [Mistique] | No "buts."==W== You've got to coordinate between departments tomorrow. Can't manage that sleep-deprived.
+0075 [Mistique] | Besides, ==PLAYER_NAME== and I can just get the Radiant Grass to help with our grunt work in Production. Don't worry!
+0076 [Mina] | A-Alright then. Don't push yourselves too hard.==W== We won't uncover everything in one day, anyway. I'll be off now.
+0077 [Fuyuka] | Goodnight, Master.
+0078 [Iris] | We're turning in.==W== Come back soon, and please, try not to overwork yourselves.
+0079 [Mistique] | Heheh.==W== Well, look at that, Boss.==W== Now it's just the two of us left in the warehouse.
+0080 [Tú] | If you wanted a private word,==W== why force everyone to stall for hours until Mina left?==W== You could've just pulled me outside.
+0081 [Mistique] | Oh, relax. Waiting for her to get out was part of it, sure.==W== But I truly wanted these records.==W== There's a delicious truth hiding in these pages.
+0082 [Tú] | Like?
+0083 [Mistique] | Like how you didn't take Mina's commission for the money.==W== You took it to infiltrate United Harvest and find someone, right?
+0084 [Mistique] | And that someone...==W== Let me guess.==W== The culprit who forced the Garden of Parasite into the Trekker Camp—
+0085 [Mistique] | Lady Gray.
+0086 [Tú] | And your proof?
+0087 [Mistique] | The proof's right here in the logs.==W== Remember what Fuyuka said earlier?
+0088 [Fuyuka] | After the greeting,==W== segue into the important stuff.==W== Like==W==...==W== "Those United Harvest mercenaries are cool!==W== What weapons do they use?"==W== No,==W== wait.==W== Too forced?
+0089 [Mistique] | Why ask about mercenaries if you're investigating the Golden Nightingale?==W== Those are Lady Gray's troops, aren't they?
+0090 [Mistique] | You're a good person, Boss.==W== But I doubt your sense of justice is so strong that you'd infiltrate United Harvest just to catch her.==W== That's for the Philae Trekkers to handle.
+0091 [Mistique] | Then it hit me.==W== When we first met, we talked about orphanages, didn't we?
+0092 [Mistique] | Something trivial like "where the orphanage went." Folks in Flavio can dig that up in minutes.
+0093 [Mistique] | So, the truth is obvious.==W== Lady Gray—==W==or rather, United Harvest—is connected to the orphanage.
+0094 [Opción] | Applause
+0095 [Tú] | Not bad. Exactly what I'd expect from Flavio's ace witch.==W== You pieced that together from scraps.==W== You're right. That was part of why we took the commission.
+0096 [Tú] | But==W== don't you think digging into people's secrets like this is dangerous?
+0097 [Mistique] | Of course I do.==W== But I can't help myself.==W== The secrets you're hiding have such an alluring scent==W== that it's a risk I'm willing to take.
+0098 [Mistique] | After all,==W== witches "feast on the truth."
+0099 [Mistique] | Besides, I'm not taking your secrets for free.==W== I'll trade you my exclusive intel on the orphanage.
+0100 [Mistique] | We are in "collaboration" now,==W== aren't we?
+0101 [Tú] | Understood.==W== Give me a sec.
+0102 [Tú] | Amber? Sorry for the wait. You can come back.
+0103 [Amber] | Reaching.
+0104 [Mistique] | Oh, no~==W== Did you guys hear everything?
+0105 [Amber] | Boss texted me==W== before we left.==W== Said the witch had something else to say.
+0106 [Mistique] | My, oh my.==W== Was I that desperate to spill the beans?==W== Turns out I was the Boss's prey all along★
+0107 [Mistique] | Well then,==W== feast your eyes on this.==W== Fresh, exclusive intel—hot off the press.
+0108 [???] | United Harvest didn't invent the Tawny Nightingale.
+0109 [???] | Two years ago, Firenze took the bread recipe from an orphanage in the Ash District of Emor.
+0110 [???] | United Harvest is dangerous.
+0111 [???] | Get out. Now.
+0112 [Mistique] | Who are you?
+0113 [Narración] | Heartlink not established. Message failed to send.
+0114 [Fuyuka] | The recipe==W==...
+0115 [Noya] | They took it from an orphanage==W==?!
+0116 [Iris] | The orphanage in Ash District==W==...
+0117 [Amber] | There's only one==W==!
+0118 [Mistique] | Back at the warehouse tonight,==W== I got a friend request sent by an anonymous user.
+0119 [Mistique] | Heartlink contacts are added by tapping the phones,==W== and I hadn't checked my phone since I left this morning.
+0120 [Mistique] | Which means==W== this "Anonymous User" tapped my phone today without me noticing.==W== They sent the request,==W== dropped the intel, then deleted me instantly.
+0121 [Mistique] | As a witch, I've had my share of secret informants.==W== But this is the cleanest job I've ever seen. Didn't feel a thing, can't trace a thing either.==W== Whoever they are, they're a pro.
+0122 [Tú] | The only people close enough to tap Mistique's phone today ...==W== are the ones we met face-to-face.
+0123 [Tú] | Wait.==W== Forget the sender for a second. Look at the timeline we just uncovered...==W== It aligns too perfectly.
+0124 [Tú] | The orphanage, United Harvest,==W== Joseph in R&D,==W== Nyx in Marketing,==W== our interviewer Firenze,==W== CEO Darcia,==W== and Lady Gray in the shadows.
+0125 [Tú] | I get it now.==W== The Tawny Nightingale and the Golden Nightingale... They connect everything.
+0126 [Tú] | Everyone,==W== listen. Mina's commission, Lady Gray's location, the fate of the orphanage...==W== These aren't three separate mysteries.
+0127 [Tú] | They are a single, connected case.==W==

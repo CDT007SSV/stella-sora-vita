@@ -1,0 +1,128 @@
+# Capítulo 6 · Milagro de un destello · 3A · Loyalty Beyond Words
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Elite Soldier | Elite Soldier
+N:Fierce Intelligent Plant | Fierce Intelligent Plant
+N:Shooter Intelligent Plant | Shooter Intelligent Plant
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_138 | Nyx
+N:avg2_957 | Weed Shooter
+N:avg2_958 | Weed Brawler
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_115 | Jayhawk
+N:avg3_120 | United Harvest Forester
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_1260 | Weed Brawler
+N:avg3_1262 | United Harvest Forester
+N:avg3_1263 | Weed Brawler
+N:avg3_1268 | Ranged Grass
+N:avg3_1269 | Ranged Grass
+N:avg3_134 | Mina
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Loyalty Beyond Words
+0003 [Intro] | You manage to escape the company, but lost contact with Petal Bloom. As Darcia's plant army repels the HQ's mercenaries, she forces you back to the company alone—where a terrifying truth awaits.
+0004 [Lugar y hora] | 12:40, Messis Month 8th, Outside Philae, Forest Edge
+0005 [Fuyuka] | Almost there, Master. The camp isn't far.
+0006 [Tú] | Physically, I'm fine. It's my nerves on edge. You haven't reached Petal Bloom in three whole days?
+0007 [Fuyuka] | No... Noya and the others tried, too. Nobody picked up.
+0008 [Tú] | Hm...==W== Dead silence on my end, too. Hope they're alright.
+0009 [Iris] | They may have accepted a commission that took them outside the Philae Monolith's range.
+0010 [Tú] | Wait, what do you mean?
+0011 [Noya] | You didn't know, ==PLAYER_NAME==?==W== Phones only work within the same Monolith zone.
+0012 [Noya] | We linked with Minova to add her Heartlink, sure. But we're in Philae, and she's in Emor. We cannot connect.
+0013 [Tú] | Seriously? Let me try...==W== Huh, you're right.
+0014 [Tú] | Must be my memory loss. Can't believe I have no idea of something that basic.
+0015 [Noya] | Don't sweat the details! Let's head to camp and check. Beats standing around worrying, right?
+0016 [Iris] | True. We escaped United Harvest alive. Let's focus on that and stay positive.
+0017 [Narración] | For three days, we watched out for Darcia while probing the Intelligent Plants and mercenaries for weaknesses. Finally, with Mina's help, we escaped the twisted halls of United Harvest.
+0018 [Narración] | We wanted to bring Mina, but she said she couldn't leave her two younger sisters behind.
+0019 [Narración] | We had to go on ahead without her. But one day, we'll return to get them.
+0020 [Lugar y hora] | 13:20, Messis Month 8th, Outside Philae, Trekker Camp
+0021 [Fuyuka] | Master, the camp's empty... Where did everyone go?
+0022 [Amber] | Boss. Bad news.
+0023 [Amber] | We are surrounded.
+0024 [Elite Soldier] | Contact! Open fire!
+0025 [Tú] | Did Darcia circle around us? No way. Nobody moves faster than Loxy.
+0026 [Noya] | Stop overthinking! Everyone, take cover now!
+0027 [Tú] | Too many enemies, too much firepower... The five of us can't brute force our way out.
+0028 [???] | Hold it! Cease fire! Who authorized that magic barrage?
+0029 [???] | It's just a handful of targets! Yet you just burned through a fortune in Grace. We don't have the budget for this waste!
+0030 [???] | Our objective is Philae and Darcia, not some random group playing Trekker.
+0031 [Tú] | Targeting Philae and Darcia?==W== Meaning they aren't working for her!
+0032 [Nyx] | Darcia, you're insane. I'm reporting this to HQ immediately.
+0033 [Tú] | Did HQ send them after Nyx reported in? But how'd they mobilize this fast?
+0034 [Elite Soldier] | Officer Jayhawk, we aren't trying to waste it... These Trekkers are tough. We lost hundreds just taking this ground.
+0035 [Elite Soldier] | Take any more losses, and the team will break before we even see the city walls.
+0036 [Jayhawk] | Keep wasting energy, and those twisted plants will slaughter us even if we do make it!
+0037 [Jayhawk] | Wait. You hear that?
+0038 [Elite Soldier] | Movement...==W== No, vines! It's Darcia's monsters!
+0039 [Fierce Intelligent Plant] | Woooo—
+0040 [Shooter Intelligent Plant] | Wheeee—!
+0041 [Jayhawk] | Tch, bad news...==W== Forget the camp! Everyone, fall back, now!
+0042 [Fuyuka] | Master... Look, the soldiers are retreating.
+0043 [Noya] | Yeah, but the Intelligent Plants behind 'em are gonna be a real headache...
+0044 [Darcia] | Your Majesty, why must you put yourself in such danger? If anything happened to you... I wouldn't know what to do with myself!
+0045 [Tú] | Darcia.==W== Firenze...
+0046 [Darcia] | Didn't you know? United Harvest's army has already reached the Trekker Camp. They're about to siege Philae. This forest is a battlefield.
+0047 [Tú] | Why keep something that big from me? And the Petal Bloom Guild. Do you know where they are?
+0048 [Darcia] | Apologies, Your Majesty. No news on the guild.==W== As for why I withheld the enemy's movements... Well, it's simple.
+0049 [Darcia] | You have traitors in your midst.
+0050 [Darcia] | Think about it. If they hadn't insisted on dragging you out of the city, you wouldn't be in this mess right now, would you?
+0051 [Tú] | If you mean my friends here, you're wrong.==W== Leaving United Harvest was my decision from the start.
+0052 [Darcia] | Your decision? Oh, that makes it even worse.
+0053 [Darcia] | You four. You failed to stop ==SEX2== Majesty's reckless demands and walked blindly into an ambush. You're either plotting against ==SEX4==, or you're simply incompetent.
+0054 [Darcia] | But honestly, it doesn't matter which.==W== Plants, execute these fools.
+0055 [Tú] | Darcia, what are you doing?! Let them go! You said you'd be loyal to me forever!
+0056 [Darcia] | Of course, Your Majesty. I remain your ever-faithful servant.
+0057 [Tú] | Then why do you refuse to obey my orders?!
+0058 [Darcia] | This isn't defiance, Your Majesty.==W== Quite the contrary...==W== I do this precisely because of my loyalty.
+0059 [Darcia] | To ensure your safety, every threat around you must be purged.
+0060 [Darcia] | And who bears the burden of such a mission?==W== Heh heh... Me, of course. That is why I cultivated this legion of Intelligent Plants—to conquer Nova and eradicate all threats to your reign.
+0061 [Tú] | I never said I wanted to conquer Nova.
+0062 [Darcia] | As your most devoted servant, I know your true desires,==W== desires you may not even realize you hold.
+0063 [Darcia] | So, even if you hate me for it, I will dispose of them. That is the depth of my loyalty.
+0064 [Tú] | It makes no sense... Darcia isn't loyal to me. She's loyal to the Tyrant living in her imagination.
+0065 [Noya] | Ignore us, ==PLAYER_NAME==! A few overgrown weeds can't stop my blade.
+0066 [Fierce Intelligent Plant] | Wheeee-eee—!
+0067 [Noya] | No way... How is it reacting that fast?
+0068 [Darcia] | Observe, Your Majesty. Our new Gen-3 plants have totally eclipsed the obsolete Gen-2 models and the Mandrake Radiant Grass.
+0069 [Darcia] | Each stalk now possesses the combat instincts and judgment of an elite Trekker. Their only deficit is coordination,==W== a flaw my research will soon correct.
+0070 [Tú] | I understand. Darcia... Let them go. I will return with you.
+0071 [Fuyuka] | Master, what are you saying? We'd never leave you behind!
+0072 [Tú] | You aren't leaving me. I am discarding you.
+0073 [Tú] | Darcia is right. Since the moment I woke, a voice inside has urged me to conquer this world.
+0074 [Iris] | What are you talking about?! The Tyrant of legend might do that, but you know that isn't you!
+0075 [Tú] | That is merely your assumption. I stayed with you because you had potential. I thought you would be useful.
+0076 [Tú] | But now that I have all these Intelligent Plants that are stronger... You are no longer necessary.
+0077 [Tú] | For the sake of our travels, I will show mercy. I'm sparing your lives.==W== Now go ... before I change my mind.
+0078 [Amber] | Liar...==W== You're a liar...
+0079 [Tú] | You're right, Amber. To keep you safe, I'll be a liar. A demon...==W== I'll even become the true Tyrant. Whatever it takes.
+0080 [Darcia] | Such benevolence, Your Majesty.==W== Well? The Tyrant has graciously spared your pathetic lives. Now run along.
+0081 [Noya] | ...
+0082 [Noya] | Just you wait, ==PLAYER_NAME==! I'll be back!
+0083 [Narración] | Fuyuka and the battered New Star Guild lean on each other, limping into the shadows of the forest.
+0084 [Darcia] | Sounds like a third-rate villain's exit line.==W== Your Majesty, please return to the city. I will handle the rest.
+0085 [Firenze] | ...
+0086 [Narración] | As we leave, Firenze eyes me in icy silence. She looks at me like I'm a potted plant, rooted to the spot, existing only to be arranged by another's hand.
+0087 [Lugar y hora] | 15:00, Messis Month 8th, Greenhouse District in Philae, Underground Lab
+0088 [Narración] | I follow Darcia deep into the facility.==W== We pass endless rows of cultivation tanks before entering a cavernous underground hall.
+0089 [Narración] | A massive tank, two or three stories high, dominates the far end. The orange liquid inside drinks in the dim light,==W== glowing with an eerie, unnatural hue.
+0090 [Narración] | The "Bishop" Seal of Grace sits at the bottom of the tank, like a tiny trinket in a massive fishbowl.
+0091 [Darcia] | Feast your eyes, Your Majesty. The upgrade hub for our Third Gen Intelligent Plants. Thanks to your "Bishop" Seal, they grow smarter with every dose of "nutrient" we add.
+0092 [Tú] | Nngh...
+0093 [Narración] | Familiar faces bob in the orange suspension. I clamp a hand over my mouth, choking back the urge to vomit.
+0094 [???] | You made the wrong choice
+0095 [???] | You'll regret this
+0096 [Narración] | I can see those anonymous messages in my head.
+0097 [Tú] | They were right. I really did make the worst possible choice.

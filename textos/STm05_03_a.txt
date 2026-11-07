@@ -1,0 +1,137 @@
+# Capítulo 5 · Una chispa en la oscuridad · 3A · Art of Explosion
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Busy Team Leader | Busy Team Leader
+N:Confident Team Member | Confident Team Member
+N:Exhausted Team Member | Exhausted Team Member
+N:Noya & Fuyuka | Noya & Fuyuka
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg3_100 | Sylar
+N:avg3_134 | Mina
+N:avg3_140 | Empleado de Cosecha Unida
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_142 | United Harvest Researcher
+N:avg3_180 | United Harvest Researcher
+N:avg3_183 | Joseph
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Art of Explosion
+0003 [Intro] | On their very first day at the R&D Department, Noya and Fuyuka cause an explosion in the lab. But Joseph, the head of R&D, doesn't reprimand them…
+0004 [Narración] | R&D Department, United Harvest
+0005 [Busy Team Leader] | How's the experiment going?
+0006 [Confident Team Member] | Final casting phase. Results should pop up any second.
+0007 [Busy Team Leader] | Good. Carry on—
+0008 [Busy Team Leader] | Wait. Who's that over there? Never seen them before.
+0009 [Exhausted Team Member] | Interns from Strategy. They gotta shadow every department to learn the ropes, so they're stuck with us for a few days.
+0010 [Busy Team Leader] | I don't care where they're from! Why are interns handling an experimental magic circle?
+0011 [Confident Team Member] | Regular operator's tied up... Besides, we're just injecting magic now. It's idiot-proof. Even an intern couldn't botch it.
+0012 [Exhausted Team Member] | Yeah, that magic circle is rock solid. You couldn't break it if you tried.
+0013 [Exhausted Team Member] | Been pulling all-nighters for a month straight; I can barely see straight. The rookies can handle the grunt work. Let us catch a breath, yeah?
+0014 [Busy Team Leader] | No can do. I need to check on them.
+0015 [Noya] | Fuyuka, you ready?
+0016 [Fuyuka] | The magic circle and Artifact gear are prepped, but ... can just the two of us really handle this?
+0017 [Noya] | Manual says we just channel magic—y'know, the Grace in our Soul Stones—to our fingertips and aim. It'll work out somehow!
+0018 [Noya] | Ready...==W== Three—
+0019 [Fuyuka] | Okay, focus magic... Aim...
+0020 [Noya] | Two—
+0021 [Fuyuka] | W-Wait, that feels weird. A-Are we injecting too much?
+0022 [Fuyuka] | Noya, wait! What did the manual say? How much are we supposed to use?!
+0023 [Noya] | Well...==W== Let's just go with our gut!
+0024 [Noya] | —One!
+0025 [Noya] | Let's go!
+0026 [Noya] | Huh? Is the magic circle supposed to glow like that? Something feels ... off.
+0027 [Fuyuka] | That is definitely not normal! And the alarm is deafening!
+0028 [Noya] | Don't panic! Stay cool.==W== Oh, I know—Magic Backlash! I've busted magic circles before by jamming magic back into them.
+0029 [Fuyuka] | B-Bust it?!
+0030 [Noya] | Anyway! Get back, Fuyuka. Let me handle it!
+0031 [Busy Team Leader] | W-What the—why did it just explode?!
+0032 [Busy Team Leader] | Cough, cough... Ugh, there's way too much smoke in here...
+0033 [Busy Team Leader] | You two! Evacuate, now! And report to the conference room immediately after!
+0034 [Noya & Fuyuka] | Y-Yes, ma'am...
+0035 [Tú] | R&D should be right ahead...==W== Wait, what's with all the smoke?
+0036 [Mistique] | Heehee, smells like something fun's going on. Let me go take a peek★
+0037 [Mistique] | Got the scoop★ Word in R&D is that the new Strategy interns made a huge mess. Mina's on her way right now.
+0038 [Tú] | Interns...==W== Wait, that has to be Noya and Fuyuka!
+0039 [Fuyuka] | Master... It's all my fault. I poured in way too much magic.
+0040 [Noya] | No, no. I'm the one who didn't read the manual properly.
+0041 [Tú] | I'm just glad you're both safe.
+0042 [Fuyuka] | But... Mina...
+0043 [Busy Team Leader] | Strategy Department! Is this how you train your staff? When the underlings mess up, the boss takes the fall—and you're paying for this disaster!
+0044 [Mina] | I'm terribly sorry for the trouble we've caused.
+0045 [Busy Team Leader] | We're already short-handed, and now this! You've destroyed a precious Artifact. Why haven't you fired them? Are you waiting for them to sabotage the whole company?
+0046 [Mina] | They only just started today. Termination seems ... too harsh. I am their supervisor. The responsibility is mine.
+0047 [Busy Team Leader] | Since you're the boss, taking responsibility is part of the job. This loss is coming out of Strategy's budget!
+0048 [Mina] | U-Understood...
+0049 [Mistique] | Oh my, don't be so serious. But tell me, is this "accident" really entirely their fault?
+0050 [Busy Team Leader] | Isn't it obvious? They pumped in too much magic and—boom.
+0051 [Mistique] | True, they did overload it.==W== But I just glanced through your manual for the magic circle. Funny thing—it doesn't actually say how much magic to inject. No limit mentioned.
+0052 [Noya] | So I didn't miss it after all...
+0053 [Mistique] | Plus, letting two interns who just started today handle the final step? With zero supervision or training? Doesn't that sound like negligence on R&D's part?
+0054 [Busy Team Leader] | Th-that's because we have too many experiments lately! We're swamped!
+0055 [Busy Team Leader] | Tell you what. Since we're not entirely blameless here, let's just split the damages fifty-fifty.
+0056 [Tú] | She's backing down. Mistique instantly realized she was trying to pass the buck and called her out on her negligence.
+0057 [Tú] | She claims to be the ace of Scarlet Sights Media... Looks like she isn't bluffing.
+0058 [Mina] | Fifty-fifty... We can accept that.
+0059 [Mistique] | Hold on, Mina.==W== When dealing with someone like her, you have to squeeze them a little harder.
+0060 [Busy Team Leader] | Hey now, I'm already meeting you halfway! Are you trying to pin this whole thing on us?
+0061 [Mistique] | Exactly. If we file an official accident report, they're bound to investigate your lack of supervision ... aren't they?
+0062 [Busy Team Leader] | Yeah, they would... That means a pay cut at least. Maybe even a demotion.
+0063 [Mistique] | I hear R&D has an annual quota for "Artifact wear and tear." As long as the losses stay within a reasonable range, no one asks questions.
+0064 [Mistique] | That Artifact looked pretty ancient anyway. Why don't we just write this off as "equipment failure due to aging"? That way, nobody here is at fault.
+0065 [Mistique] | As for the collateral damage to the lab, the Strategy Department can handle the repairs. How does that sound?
+0066 [Mina] | It doesn't technically violate company policy... But isn't this exploiting a loophole a bit too much?
+0067 [???] | Heh. I actually find her suggestion quite sound. In fact, I'd call it the wise choice.
+0068 [Mina] | Sir Joseph...
+0069 [Joseph] | That Artifact had served us for years. It simply reached the end of the line.
+0070 [Joseph] | That's likely why a minor magic surge set it off. It would've blown no matter who was at the controls—interns or not.
+0071 [Joseph] | If anything, I should thank them. They took out a volatile unit before it caused a real disaster. Shouldn't R&D be grateful?
+0072 [Mina] | That's ... far too generous. The truth is, our interns are just green.
+0073 [Joseph] | Save the modesty, Miss Mina; facts are facts. R&D will file the report. We'll stick to the story: equipment failure due to aging.
+0074 [Mina] | But ... we haven't even run an investigation.
+0075 [Joseph] | Heh, relax. Lady Darcia doesn't sweat the small stuff.
+0076 [Joseph] | As long as R&D delivers results, she's happy to overlook any hiccups along the way.
+0077 [Joseph] | Hmph. Unlike certain people at her side who only know how to pinch pennies. But what's the point of wasting breath on the opinions of amateurs?
+0078 [Joseph] | Only Lady Darcia can carry the future of United Harvest. And R&D? We answer her expectations with results!
+0079 [Mina] | Well, if you insist, Sir...==W== We'll follow your lead.
+0080 [Joseph] | Excellent. Now, since R&D is legitimately short-handed—mind if these two stick around our department a while longer?
+0081 [Fuyuka] | But we... We just blew up an experiment.
+0082 [Joseph] | Eh, don't sweat it. It wouldn't be R&D without a few explosions, would it?
+0083 [Joseph] | I heard you two used to be Trekkers?
+0084 [Noya] | Yes! We've both got tons of experience as Trekkers.
+0085 [Joseph] | Heh, perfect. We're developing new products for the "Monolith Premium" line, and we've sourced a lot of ingredients straight from the Wilds...
+0086 [Joseph] | But my team are city folk through and through. They don't know the first thing about the Monolith or the Wilds.
+0087 [Joseph] | So I was hoping you could use your Trekker know-how to help us process these ingredients.
+0088 [Noya] | Leave it to me! I might not look the part, but I'm actually a pro in the kitchen~
+0089 [Fuyuka] | I'll be extra careful this time... I-I absolutely won't mess things up again!
+0090 [Joseph] | Heheh, no need to stress yourself out.
+0091 [Joseph] | After all, nobody's born an expert. Just learn from your mistakes and apply that next time—that's enough.
+0092 [Fuyuka] | O-Okay! Thank you! Thanks so much...!
+0093 [Noya] | Sir Joseph, you're so kind!
+0094 [Joseph] | Save the flattery. You two get going now, and come find me if you have any questions.
+0095 [Mistique] | Mission accomplished! Smooth sailing. Now Noya and Fuyuka can poke around R&D for clues in peace.
+0096 [Mistique] | Mina, ==PLAYER_NAME== and I are gonna go check out the other departments.
+0097 [Mina] | Mistique, why did you handle it that way?
+0098 [Mina] | Even if the Artifact was aging, Strategy still played a part in its destruction. Wiping our hands clean and letting the company absorb the loss... It doesn't sit right with me.
+0099 [Mistique] | Why? Let me ask you this: if you took the fall, never mind your own punishment—do you really think Noya and Fuyuka would still be allowed in R&D?
+0100 [Mina] | Those are ... two separate issues.
+0101 [Mistique] | But in reality, one leads to the other. The investigation into the Golden Nightingale would hit a dead end. Don't you think a little collateral damage is worth it to keep going?
+0102 [Mina] | I... I guess so. I understand. I'll head back and start gathering data.
+0103 [Tú] | Wasn't that a little harsh?==W== You really bummed her out.
+0104 [Mistique] | She'll be fine. She needs to figure it out eventually. In a cutthroat mega-corp like United Harvest, scheming against each other is just another Tuesday.
+0105 [Mistique] | Even if you do screw up, you won't survive five minutes here if you don't learn how to pass the buck and dodge the blame.
+0106 [Tú] | You're surprisingly "gentle" in your own way. Even if your methods are a bit twisted.
+0107 [Mistique] | That's just a witch's tender love. Besides, R&D was so ready to dump everything on us... I couldn't just let that slide★
+0108 [Mistique] | So, Boss, where to next? Should we scout out another location?
+0109 [Opción] | Check on Noya and Fuyuka
+0110 [Opción] | Check on Iris and Amber
+0111 [Opción] | Focus on our own assignment
+0112 [Tú] | Let's swing by Marketing.==W== Iris can handle the paperwork and PR just fine,==W== but Amber... I'm not so sure.
+0113 [Mistique] | Relax. They'll figure it out somehow.
+0114 [Tú] | We should stick to the plan and investigate our own assignment—the Production Department.
+0115 [Mistique] | Ooh, look at you being all professional, Boss. To the greenhouses we go★

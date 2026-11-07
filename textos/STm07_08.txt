@@ -1,0 +1,135 @@
+# Capítulo 7 · El precio de la estrella · 8 · Cannon Fodder Tactic
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Anxious Mercenary | Anxious Mercenary
+N:Arrogant Mercenary | Arrogant Mercenary
+N:Mercenaries | Mercenaries
+N:Resigned Mercenary | Resigned Mercenary
+N:Salesperson No. 20 | Salesperson No. 20
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_136 | Angie
+N:avg1_138 | Nyx
+N:avg1_142 | Cosette
+N:avg1_144 | Chitose
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_152 | Bastelina
+N:avg3_198 | Pandillera genial
+N:avg3_220 | Mercurio
+N:avg3_974 | Serena
+
+## Texto
+0001 [Intro] | Act Eight
+0002 [Intro] | Cannon Fodder Tactic
+0003 [Intro] | Serena warns that Mercurio is doing everything she can to stall you. Your allies clear a safe route out of the city. Eventually, the New Star Guild stays behind, leaving only Chitose to board the cable car with you.
+0004 [Narración] | Moments before Amber receives Boss's message.
+0005 [Lugar y hora] | 10:36, Venatio Month 14th, Silver District in Philae, Hotel Room
+0006 [Serena] | I've got a critical piece of intel for you, Boss. Hehe. Do you want it? I'll even give you a discount ♪
+0007 [Tú] | It's been a while, Serena. Last time we spoke was at the Trekker Camp... Right before the United Harvest infiltration.
+0008 [Serena] | Yeah. Three short months ago, but it somehow feels like a lifetime.
+0009 [Tú] | Is that how long it has been?==W== I'm in the market for intel, but I'm a little tied up. Please, cut to the chase.
+0010 [Serena] | Understood. I'll keep it brief—
+0011 [Iris] | Boss, Omnisky Aegis is swarming the lobby. The plan worked.
+0012 [Tú] | Looks like Chitose spotted them. Firenze and Nyx are five minutes out. Hold the line until then.
+0013 [Tú] | Sorry... Minor interruption.==W== What were you saying, Serena?
+0014 [Serena] | Using yourself as bait to lure them out, then letting an unknown like Chitose act as the hook. Clever plan, Boss. But I stumbled across an interesting recording—
+0015 [Mercurio] | Number Twenty. Go stall the Boss and the New Star Guild.
+0016 [Salesperson No. 20] | Me?
+0017 [Salesperson No. 20] | Lady Mercurio, you're joking, right? Those freaks took down a giant monster alongside Petal Bloom! They killed Darcia and her mutant weeds! How are we supposed to beat them?
+0018 [Mercurio] | That's why I said stall them! Keep them away from the cable car station until 11:30. My sabotage team will handle the rest—they're not leaving the land.
+0019 [Mercurio] | If they push back, don't play hero. Trash the corridors, wreck the doors, then surrender. The property is fully insured, so stir up as much chaos as you want.
+0020 [Mercurio] | On top of that, my people are handing out flyers across the city. Soon, the Boss won't be able to take a single step.
+0021 [Serena] | See? Omnisky Aegis didn't send big fish like a certain fox or Desert Scorpion. You cast a beautiful line, but Mercurio is clogging your reel with bottom-feeders.
+0022 [Tú] | One rod, but a whole school of fish took the bait. This is gonna be a headache.
+0023 [Nyx] | Weapons down! You're surrounded!
+0024 [Mercenaries] | We surrender.
+0025 [Firenze] | How many goons did Omnisky Aegis hire? They've completely blocked the entrance.
+0026 [Nyx] | Firenze, bad news. Look at this flyer.
+0027 [Firenze] | United Harvest Philae ... giving away free Tawny Nightingale bread at 11 AM today. First come, first served.
+0028 [Serena] | I know your car is out in the woods behind the hotel. That area is still clear.
+0029 [Serena] | You've seen the mob outside, though. Your friends can probably brute-force their way through.
+0030 [Serena] | But for someone like you, "immune to magic"? Wading through those small fry will take at least twenty minutes. By then, the crowd will have the streets completely locked down.
+0031 [Tú] | Serena ... You timed this call perfectly. Your intel is our way out, isn't it?==W== Name your price in Dorra. I'm buying.
+0032 [Serena] | Hehe, not even haggling? You must be desperate. Well then—
+0033 [Serena] | Please lift the sofa in your room.
+0034 [Tú] | The sofa?
+0035 [Tú] | Iris, give me a hand.
+0036 [Serena] | There's a secret passage underneath. It'll get you to your car in five minutes.
+0037 [Tú] | Is this a joke, Serena? It's a solid floor. There is no passage!
+0038 [Serena] | Huh??? How is that possible? The digging's finished days ago!
+0039 [Iris] | But there isn't one. Listen to this...==W== It's completely solid.
+0040 [Bastelina] | Boss! Iris!==W== Thank goodness you're still here.
+0041 [Bastelina] | Come to my room, quick! There's a secret passage under my sofa. We can use it to escape!
+0042 [Lugar y hora] | 10:40, Venatio Month 14th, Silver District in Philae, Hotel Room
+0043 [Serena] | Hmm... Why is the passage in the next room over? I double-checked it myself.
+0044 [Tú] | Well, your intel was technically correct. Let's not sweat the details.
+0045 [Tú] | Let's move. I'm texting Amber to meet us at the car.==W== Bastelina, come with us. It's not safe here.
+0046 [Bastelina] | Right away! ♪
+0047 [Cosette] | Dang it! I went through all that trouble to hide inside the couch, just waiting for the perfect moment to snatch the Boss when ==SEX== sat down. Why'd some Grace Imperium brat who looks younger than me show up?
+0048 [Cosette] | I double-checked with the hooded woman. This is the Boss's room, 404. So then... That fox must have tricked us when we checked the place?
+0049 [Cosette] | No time. I can't let the Boss escape. I'm taking the secret passage!
+0050 [Lugar y hora] | 10:45, Venatio Month 14th, Silver District in Philae, Woods behind the Hotel
+0051 [Noya] | Boss, get in the car. Now!
+0052 [Tú] | Huh? Just Noya and Chitose? Where's Amber?
+0053 [Chitose] | She stayed behind to hold off the enemy and cover our escape.
+0054 [Iris] | Noya, we can't afford to wait. We have to reach the cable car station by 11:30.
+0055 [Noya] | Oh no. Look at that.
+0056 [Narración] | We follow Noya's gaze to see a crowd of citizens and monster carts rushing toward the hotel.
+0057 [Narración] | Completely blocking the road ahead.
+0058 [Iris] | Noya, get Boss there safely. Boss, take these notes on the Philae Monolith. They'll help with the climb.
+0059 [Noya] | Iris, what are you doing?
+0060 [Iris] | What choice do we have? It's the only way.
+0061 [Narración] | Iris chants, and a freezing wind whips up water from the river. Two thin ice walls form in the middle of the road, forcing the crowd apart and carving a narrow path for the Lucky Oasis.
+0062 [Iris] | Now! Go!
+0063 [Noya] | Hold on tight, everyone!
+0064 [Lugar y hora] | 11:20, Venatio Month 14th, Outside Philae, Near Cable Car Station
+0065 [Amber] | Boss, Iris and I are alright. We met up with Firenze and Nyx.
+0066 [Amber] | We rounded up over two hundred mercenaries. The bread line citizens... We got them to the nearby United Harvest shops.
+0067 [Amber] | We're heading to the cable car station...
+0068 [Amber] | 
+0069 [Amber] | But we won't make it in time. Sorry.
+0070 [Tú] | As long as everyone's safe. I should have seen Omnisky Aegis's plan coming.
+0071 [Amber] | Good news.
+0072 [Amber] | Nyx made the agents talk. They said the Trekker Camp is on our side.
+0073 [Amber] | So Omnisky Aegis couldn't hire any decent Trekkers.
+0074 [Amber] | We still have the upper hand for the climb and the wish.
+0075 [Amber] | 
+0076 [Amber] | You got this, Boss!
+0077 [Tú] | Don't worry. I won't let your hard work go to waste.
+0078 [Tú] | Bastelina, isn't Omnisky Aegis getting disqualified for pulling a stunt like this?
+0079 [Bastelina] | No. Technically, they haven't broken any rules.
+0080 [Bastelina] | This bidding war isn't merely a test of wealth. It's an arena for corporate warfare.
+0081 [Bastelina] | Grace Imperium turns a blind eye unless things escalate. Corporate rivalries are rarely peaceful—drawing weapons is standard procedure.
+0082 [Tú] | Sabotaging a cable car station doesn't count as escalating?
+0083 [Bastelina] | Well... The station has been abandoned ever since they sealed the Monolith.
+0084 [Bastelina] | As long as Mercurio pays off Scarlet Sights Media and leaves no bodies behind, it hardly matters.
+0085 [Noya] | Hold on tight! The station is dead ahead. They have an armed barricade set up, so we're crashing right through!
+0086 [Anxious Mercenary] | Incoming! Is that cable cut yet?!
+0087 [Resigned Mercenary] | The Artifact those suits gave us is trash! The blade chipped immediately. It's almost through, though. Hold them off!
+0088 [Arrogant Mercenary] | Open fire! Don't let them through!
+0089 [Noya] | Next stop—the station!
+0090 [Tú] | Chitose, stop the mercenary on the cable!
+0091 [Chitose] | Understood, my ==SEX11==.
+0092 [Narración] | The knocked-out mercenary tumbled off the cable car roof.
+0093 [Narración] | From above, several snapped steel wires lashed out at me.
+0094 [Chitose] | Are you hurt, my ==SEX11==?
+0095 [Tú] | I'm fine.==W== The cable... Looks like it'll barely hold.
+0096 [Arrogant Mercenary] | Don't panic! They're outnumbered. Keep them too busy to power up the cable car, and we win!
+0097 [Noya] | Knock one down, another pops right up... How many goons did Omnisky Aegis hire?
+0098 [Noya] | I'll handle this mess! Chitose, get the Boss on the cable car. The rest is up to you two.
+0099 [Chitose] | Consider it done... But...
+0100 [Noya] | I can't let them trash Loxy. Besides, I need to stay behind anyway.
+0101 [Noya] | Someone has to pump magic into the station, or that car isn't going anywhere.
+0102 [Tú] | Trust the team, Chitose. Let's focus on our part.
+0103 [Tú] | But Noya, don't do anything reckless.
+0104 [Noya] | No sweat! They've got the numbers, but they don't hit very hard.
+0105 [Bastelina] | Leave the magic pumping to me, the cutie!
+0106 [Noya] | Catch you later, Boss!!
+0107 [Narración] | Watching Noya charge toward the mercenaries, Chitose and I board the cable car and slowly ride off into the blue.

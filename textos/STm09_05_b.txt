@@ -1,0 +1,142 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 5B · Backfire
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Ambushing Committee Member | Ambushing Committee Member
+N:Committee Elite | Committee Elite
+N:Dejected White Cat | Dejected White Cat
+N:Impulsive White Cat | Impulsive White Cat
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_133 | Nazuka
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_142 | Cosette
+N:avg1_144 | Chitose
+N:avg1_163 | Greyhorn
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg2_967 | White Cat Mercenary
+N:avg2_968 | White Cat Mercenary
+N:avg3_100 | Sylar
+N:avg3_1308 | Sentinel of Dawn Soldier F
+N:avg3_1309 | Sentinel of Dawn Soldier F
+N:avg3_1311 | SaiLa F
+N:avg3_152 | Bastelina
+N:avg3_216 | Gunhild
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | Backfired
+0003 [Intro] | The Committee shifts to a new war of attrition, and the tide quickly turns. The White Cats and your allies begin to falter as supplies run low. Then Gunhild lays bare the truth: none of them are fighting for Angie.
+0004 [Lugar y hora] | 17:30, Nebula Month 7th, Mirage, Unnamed Street
+0005 [Committee Elite] | Vanguard, defense!==W== Rear guard,==W== suppressive fireballs!
+0006 [Dejected White Cat] | Captain Kasimira, we can't hold them! Their magic reserves are bottomless!
+0007 [Impulsive White Cat] | Our shots aren't breaking their defense, and these fireballs are melting our cover!
+0008 [Kasimira] | Chaton, hold the line! The citizens are still evacuating!
+0009 [Kasimira] | You lot, on me! We'll take the mineshaft and flank them!
+0010 [Committee Elite] | Third volley complete! Fall back and swap Soul Stones!
+0011 [Kasimira] | Think you can shoot and run? Not on my watch!
+0012 [Impulsive White Cat] | They're falling back!==W== Push forward!
+0013 [Kasimira] | Hold your ground! It's an ambush!
+0014 [Committee Elite] | Hah, the stupid cats actually fell for it.
+0015 [Ambushing Committee Member] | Raging winds, tear them apart!
+0016 [Dejected White Cat] | Oh no,==W== a trap...
+0017 [Kasimira] | Fall back! I'll cover you!
+0018 [Committee Elite] | Hmph. Their lead cat's got claws.
+0019 [Ambushing Committee Member] | Let them run. The new tactic is working perfectly. We'll just keep wearing them down.
+0020 [Ambushing Committee Member] | The Tyrant and ==SEX3== lackeys won't have enough Soul Stones to last until dawn.
+0021 [Lugar y hora] | 18:00, Nebula Month 18th, Mirage, Unnamed Street
+0022 [Dejected White Cat] | Captain Kasimira, m-my arm is broken. Does that mean... I might never be able to hold a gun anymore...
+0023 [Kasimira] | Don't panic. I checked it earlier, and the bone is fine. Rest up. You'll heal.
+0024 [Noya] | ==PLAYER_NAME==, another Committee squad is pushing up! We'll hold them off!
+0025 [Tú] | Don't get bogged down, and no chasing. Just force them back.
+0026 [Noya] | Got it!
+0027 [Tú] | Kasimira, what's going on out there? The Committee's combat effectiveness just spiked. It's like we're fighting a completely different army.
+0028 [Kasimira] | They changed their tactics.
+0029 [Kasimira] | Boss, your companions are strong. But aside from Director Allie, their individual strength isn't leaps and bounds ahead of the Committee.
+0030 [Kasimira] | One of your fighters can hold off three regulars or one captain. That's just holding them off too, not taking them out of the fight.
+0031 [Kasimira] | Director Allie is stronger. She can take on two captains and ten regulars head-on. But we only have one of her.
+0032 [Kasimira] | The White Cats are weaker individually. It takes two of us to fight one regular to a draw.
+0033 [Kasimira] | So, if you were their commander, what would you do?
+0034 [Tú] | If I were the commander... The Committee's advantage is numbers and resources. And the weakness is individual strength.
+0035 [Tú] | The Tyrant has raw power but lacks numbers and resources. So, the conclusion is obvious...
+0036 [Tú] | I'd split the forces into ten-person squads, keeping them within a five-minute support radius of one another. Then I'd tighten the noose around Daisy Orphanage step by step.
+0037 [Kasimira] | Oh? And why is that?
+0038 [1] | Based on your analysis, the Tyrant team is strong, but a ten-person squad won't get wiped out quickly unless they run straight into Director Allie or a combined assault.
+0039 [1] | As long as we pin them down and wait for backup, we can drag the fight right into our comfort zone:==W== a war of attrition decided by sheer numbers and resources.
+0040 [1] | Even if the Tyrant team focuses all their attacks or sends Director Allie in,==W== they could only crush one or two squads at a time.
+0041 [1] | The other squads can use that opening to flank them, dragging them right back into the struggle.
+0042 [Kasimira] | A sound judgment. Right now, the Salvation Committee is doing exactly that.
+0043 [Tú] | But why the sudden change in tactics?
+0044 [???] | Because you took Lady Angie off the board.
+0045 [Tú] | Bastelina, you're awake! How's your injury? You lost so much blood, are you feeling okay?
+0046 [Bastelina] | Heheh, Boss is worried about me.
+0047 [Bastelina] | I'm feeling alright! The wound looked worse than it actually was. I just caught a magic blast and bled a bit more than usual. Director Allie patched me right up.
+0048 [Bastelina] | She sealed the cut with some miracle glue. Said it wouldn't even leave a scar.
+0049 [Bastelina] | Thank goodness. Soul Shop clerks have to attend banquets every now and then. Now I don't have to worry about scaring people away in a backless dress! I remain the perfect, adorable Bastelina.
+0050 [Tú] | You caught a magic blast?==W== Who did that?
+0051 [Bastelina] | Actually... It was friendly fire.
+0052 [Bastelina] | The Committee was using magic to level the houses on the outskirts of Mirage to clear their firing lines. I got caught in the crossfire sneaking over here.
+0053 [Bastelina] | Anyway, that's not important. Boss, you need to run.
+0054 [Bastelina] | Capturing Lady Angie didn't stop the Committee. It actually made them more dangerous.
+0055 [Tú] | Because ... they swapped commanders? But with Angie captured, why are they still fighting?
+0056 [Bastelina] | You misunderstood the Committee. To outsiders, they might look like a bunch of lunatics obsessed with the Book of Grace Prophecies, but they aren't Lady Angie's private army.
+0057 [Bastelina] | After Laru and I infiltrated them, we realized their motivation to save the world is genuine. They each have an unwavering reason and the sheer willpower to stop the end of the world...
+0058 [Lugar y hora] | 18:15, Nebula Month 18th, Mirage, Desert Outside the City
+0059 [Greyhorn] | Gunhild, what is the status of our advance?
+0060 [Gunhild] | Your tactics are working. We divided our remaining forces into twenty-five combat squads. Five are guarding the camp, while the other twenty are fanning out and pushing forward.
+0061 [Gunhild] | We've got the Tyrant pinned down in the blocks around the orphanage. Only...
+0062 [Greyhorn] | Only what?
+0063 [Gunhild] | Losing Lady Angie has riled everyone up. They're furious. The "only target the Tyrant" order is dead in the water.
+0064 [Gunhild] | After all, everyone here has been through hell, and she was the one who pulled us out of it, one by one.
+0065 [Gunhild] | We are not going to target civilians or kids, of course, but no one is too worried about collateral damage anymore. As for the Tyrant's companions... It has escalated from "wound them" to "shoot to kill."
+0066 [Greyhorn] | I am not a member of the Committee, Gunhild. I don't know the pain you've all suffered, but I accepted Lady Angie's orders, and I intend to carry them out faithfully.
+0067 [Greyhorn] | I will do everything in my power to lead us to victory. But this kind of warfare... I don't think this is what Lady Angie wanted.
+0068 [Greyhorn] | So please, try to rein them in, even if it's just a little.
+0069 [Gunhild] | I understand what you're saying, but ... I can't.
+0070 [Gunhild] | We haven't worked together for long, Greyhorn. I don't think I've ever told you==W== about my hometown, have I?
+0071 [Greyhorn] | No. I only know you joined the Sentinel of Dawn in Emor, but judging by your accent, you clearly aren't from there.
+0072 [Gunhild] | I'm not. I'm from the far north.==W== It's freezing up there. Winter lasts for six months of the year. We relied on Artifacts from the Monolith just to survive.
+0073 [Gunhild] | Life was harsh, but we looked out for each other. We actually had it pretty good.
+0074 [Gunhild] | And then... The Monolith went dark.
+0075 [Greyhorn] | Went ... dark? How is that even possible?
+0076 [Gunhild] | You're an Imperial Guard Captain, yet you don't know about this? Looks like your Grand Captain doesn't see you as part of the inner circle.
+0077 [Gunhild] | The top brass at the major Nova companies have a tacit agreement to cover these things up. But that's a conversation for another time.
+0078 [Gunhild] | Anyway, after the Monolith went dark, a sudden blizzard buried my hometown. I was separated from my parents and wandered into a neighboring city as an orphan.
+0079 [Gunhild] | Honestly, I didn't even qualify to be an orphan. There was only so much charity to go around on those streets. Me taking a bite meant someone else starved.
+0080 [Gunhild] | If Lady Angie hadn't found me, I probably would have frozen into a block of ice on the street, just like my home.
+0081 [Gunhild] | Every member of the Committee has a story like mine. And the Tyrant responsible for all of this is right in front of us, surrounded by a bunch of stubborn fools protecting ==SEX4==.
+0082 [Gunhild] | How am I supposed to rein everyone in under these conditions?!
+0083 [Gunhild] | If my cannon wasn't jammed, I'd completely level the bar the Tyrant is hiding in right now!
+0084 [Greyhorn] | Cough, cough, cough...==W==
+0085 [Gunhild] | Greyhorn, your internal injuries are serious. You need rest, right now.
+0086 [Greyhorn] | It's... It's fine. Just a few broken ribs. I gave Lady Angie my word, and I will fulfill my duty to the very end.
+0087 [Greyhorn] | I understand how your people feel. Since you can't rein them in, we will resolve this with the least amount of casualties possible on both sides.
+0088 [Greyhorn] | Tell the troops to rotate shifts and wear the Tyrant down until dawn. Then we launch a full-scale assault and end this!
+0089 [Lugar y hora] | 18:30, Nebula Month 7th, Mirage, Unnamed Street
+0090 [Bastelina] | And that's the situation. The Salvation Committee is just made up of people who lost their homes.
+0091 [Bastelina] | Lady Angie just gathered them together. Even without her, they'd still desperately want to save the world.
+0092 [Tú] | So by capturing Angie, I actually did the Committee a favor?
+0093 [Bastelina] | Looking at the outcome, yes. Honestly, Lady Angie is a complete amateur when it comes to commanding battles.
+0094 [Bastelina] | Clumping elite warriors into three clunky companies, when only Captain Greyhorn has any real command experience... Only Lady Angie would think that's a good idea.
+0095 [Bastelina] | Therefore, Boss... Speaking entirely as a rep looking out for a client's best interests, I highly recommend you slip away tonight under the cover of darkness.
+0096 [Kasimira] | I suggest the same. With Director Allie and the rest of your team, the Committee won't be able to stop you.
+0097 [Tú] | I... I can't just run.
+0098 [Tú] | Kasimira, what's the evacuation status for the kids and the citizens of Mirage?
+0099 [Kasimira] | It's bad. The Committee has Mirage surrounded on the east and south. The Desert Scorpions and the local Imperial Guard haven't made a move, but they're blocking the west and north routes. We can't get through.
+0100 [Kasimira] | The fighting has caved in multiple sections of the underground mineshafts too. Evacuation is crawling. We won't have everyone out until tomorrow morning.
+0101 [Kasimira] | Good news. Chaton found an abandoned mineshaft leading to the Monolith outside the city. A few sections are blocked by rubble,==W== but luckily, we found a very capable helper—==W==
+0102 [Tú] | Did you happen to find a capable Trekker who fights with claws?
+0103 [Kasimira] | No. Is she a friend of yours?
+0104 [Tú] | No, I've just heard people talk about her.
+0105 [Tú] | Capturing Angie changed the sequence of events. So ... the White Cats never ran into her?
+0106 [Tú] | Dammit, I was trying to change Noya's fate. But things ... are obviously just getting worse.
+0107 [Narración] | My gaze lands on the Lucky Oasis parked nearby.
+0108 [Tú] | There's no way I can abandon everyone and just run away.
+0109 [Tú] | Wait, running away... If I can use that in reverse, we might actually have a shot at winning this!

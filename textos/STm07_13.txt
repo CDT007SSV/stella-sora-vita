@@ -1,0 +1,156 @@
+# Capítulo 7 · El precio de la estrella · 13 · Mutual Benefit
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Ruby & Sapphire | Ruby & Sapphire
+N:Salesperson No. 20 | Salesperson No. 20
+N:Salesperson No. 21 | Salesperson No. 21
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_135 | Mistique
+N:avg1_144 | Chitose
+N:avg1_163 | Greyhorn
+N:avg1_164 | Shuo
+N:avg3_1265 | Firenze
+N:avg3_128 | Ophir
+N:avg3_1293 | Shuo
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_198 | Pandillera genial
+N:avg3_199 | Chica de la pandilla
+N:avg3_220 | Mercurio
+N:avg3_974 | Serena
+
+## Texto
+0001 [Intro] | Act Thirteen
+0002 [Intro] | Mutual Benefit
+0003 [Intro] | Advance payments bring you closer to your goal. Negotiations with Goodwind Homecare and the Imperial Guard succeed. Yet upon hearing the news, Mercurio just smiles. She clearly has a card left to play…
+0004 [Lugar y hora] | 07:00, Venatio Month 15th, Gold District in Philae, Executive Office
+0005 [Mistique] | Contract's settled then.==W== I'm ... exhausted.
+0006 [Sapphire] | Is everything alright, Lady Mistique? We appreciate Scarlet Sights Media buying our grain...==W== But I didn't expect you to drop by at 4 a.m. to sign the contract.
+0007 [Mistique] | I-It's a disaster!==W== I'm a witch who feasts on the truth, yet I'm missing scoop after scoop.==W== Bwaahh... The God of Grace hates me...
+0008 [Iris] | Mistique,==W== aren't you in New Orelian with Petal Bloom?
+0009 [Mistique] | Sigh... Long story.==W== I followed Mina's group==W== and managed to interview Boss's blade. I got great material—==W==but that was where my luck ended.
+0010 [Mistique] | Another witch from Flavio intercepted me. She babbled about how tight I was with Boss and dragged me back to Philae as Scarlet Sights' acting rep for some banquet.
+0011 [Mistique] | Because of that, I missed the big scoop: Petal Bloom blowing the doors off the United Harvest Senate!
+0012 [Mistique] | Then my broom acted up on the way back. I missed the banquet, missed the Monolith bidding, and didn't even get to see Boss climb the tower. I have the worst luck.
+0013 [Sapphire] | That sounds rough. But for United Harvest Philae, having you sign this contract as the Scarlet Sights rep helps immensely.
+0014 [Firenze] | You always look out for us.==W== On behalf of the company, thank you.
+0015 [Mistique] | I'm glad I can help,==W== but...==W== I'm a witch. My life's purpose is the news.
+0016 [Mistique] | So Ophir...==W== Get this feature story ...==W== to print...==W== Zzz...
+0017 [Ophir] | Miss Mistique? Asleep already?==W== She must be exhausted. I need to get her to bed.==W== Please excuse us.
+0018 [Sapphire] | Lady Firenze, everything unfolds as you predict.==W== Companies are reaching out to sign grain contracts, paying substantial Dorra upfront.
+0019 [Sapphire] | Counting the Scarlet Sights order and the Fenghuang Diner deal, we hold 10 billion Dorra in advance payments. Combined with our reserves and Darcia's funds,==W== our liquid capital sits at 33 billion Dorra. We remain seven billion short of our 40-billion goal.
+0020 [Ruby] | It all unfolds according to your plan, Lady Firenze.
+0021 [Firenze] | I can't take all the credit. This only works thanks to Nyx's intel, your data analysis, and everyone's hard work here at United Harvest Philae. Not to mention the support from Boss and the New Star Guild.
+0022 [Sapphire] | Deepsea Finance is the real concern. We are scheduled to sign the grain contract today, but they called at midnight to say they needed more time to think.
+0023 [Firenze] | It seems Omnisky Aegis is making their move.==W== Still, as long as they aren't openly opposing us right now, we can afford to ignore them.
+0024 [Iris] | U-um... Is this the time to be this relaxed? We're still 7 billion short, and the Dorra are due before sunset! Are we going to make it?!
+0025 [Firenze] | Fair point. But we still have two more companies to pitch to. We aren't out of options yet.
+0026 [Firenze] | Take Goodwind Homecare. They have a massive demand for flowers. Our joint greenhouse project is still on the table, though the Darcia incident put it on hold. Now is the perfect time to reopen those talks.
+0027 [Iris] | A stalled project like that... Can we finalize a deal in half a day?
+0028 [Firenze] | Easily. But I need the New Star Guild's help. It's simple—you three need to exaggerate what happens at the banquet.
+0029 [Noya] | Exaggerate?
+0030 [Firenze] | Yes. Spin the wildest tale you can imagine. But whatever you say, make sure it ties back to "flowers."
+0031 [Firenze] | Sapphire, Ruby, prep a cart full of flowers for me. I need a suitable gift for Goodwind Homecare.
+0032 [Ruby & Sapphire] | Right away!
+0033 [Lugar y hora] | 09:00, Venatio Month 15th, Silver District in Philae, Goodwind Homecare
+0034 [Shuo] | The grain quality is exceptional now that you're leading United Harvest Philae, Lady Firenze. Our maids absolutely swear by your rice.
+0035 [Shuo] | However... I must apologize. Our maids don't eat much, so we have no plan to place bulk grain orders. We won't be able to support your Monolith bid this time.
+0036 [Shuo] | As for reviving the joint greenhouse project, we will reach out the moment we reach a decision. Is that acceptable?
+0037 [Shuo] | (United Harvest Philae's greenhouse can cultivate all sorts of rare flowers, which would be a massive help to Goodwind Homecare... But catching Otoha comes first.)
+0038 [Shuo] | (Though it's a shame... A polite refusal is best.)
+0039 [Firenze] | Not a problem.==W== On another note—please accept these flowers as a small thank-you for hosting us the other night.
+0040 [Firenze] | During that banquet,==W== a Goodwind maid protected Boss==W== and saved the entire evening.
+0041 [Shuo] | Uh, ah... Yes...==W== But why flowers?
+0042 [Firenze] | Because that particular maid seemed fond of these varieties. Heh. She picked a large batch from our greenhouse.
+0043 [Shuo] | (That woman tied me up and threw me in a cell!==W== Yet here I am, smiling and accepting their gratitude on her behalf. This is infuriating!)
+0044 [Shuo] | (Wait. Our maids use flowers to craft tools, sure, but why would Otoha raid their greenhouse?)
+0045 [Shuo] | I... I apologize.==W== To think she harvested flowers from her employer's greenhouse.
+0046 [Iris] | Oh, we actually asked her to! She's brilliant at flower arrangement. We hired her to decorate the venue, and her work was a huge hit.
+0047 [Shuo] | (Flower arrangement?==W== Otoha is skilled at it, but she's not fond of it. Why go out of her way to help?==W== I need to keep them talking.==W== It might expose her endgame.)
+0048 [Shuo] | We are honored by your praise.==W== In that case, allow me a quick quality check.==W== Lady Firenze, esteemed guests of the Boss Accord, were you satisfied with her bodyguard services?
+0049 [Noya] | Beyond satisfied!==W== The whole unit of Desert Scorpions dropped the second a flurry of petals blew past.
+0050 [Amber] | Exactly. She twisted the enemies' gun barrels into flowers.
+0051 [Iris] | When she finally landed in the courtyard with Boss, she looked like an elegant night heron.==W== She drifted down from the sky, carrying the scent of fragrance.==W== Had she not been missing wings, I would've thought she could actually fly.
+0052 [Shuo] | (A night heron? Aren't those birds completely dopey? How is that elegant?==W== They're blowing this way out of proportion. Otoha is strong, but she couldn't take down that many Desert Scorpions alone.)
+0053 [Shuo] | (Wait. They all mentioned flowers...==W== Did Otoha find some new plant in their greenhouse and weaponize it into a brand-new ninja tool?)
+0054 [Shuo] | (That explains it. That explains everything.)
+0055 [Shuo] | (So that's how she knocked me out so fast! It wasn't because I'm weaker than her—she had a secret weapon!==W== There's about that sleep magic in her gun.)
+0056 [Shuo] | (That's why she took the job guarding the Boss. It gave her free rein to harvest the flowers she needed from United Harvest Philae!==W== Using the banquet as cover, she could have stockpiled years' worth of materials.==W== She never could have pulled that off by sneaking in...)
+0057 [Firenze] | Well then, we have other pressing matters to attend to. We will take our leave for today.
+0058 [Shuo] | Wait!
+0059 [Firenze] | Heh. Is there something else, Miss Shuo?
+0060 [Shuo] | I gave it some more thought. A massive project like the joint greenhouse does require headquarters' approval. But as head of the Philae branch, I can certainly start some preliminary work with you ...==W== strictly within my authority, of course. Would you be interested, Lady Firenze?
+0061 [Lugar y hora] | 11:00, Venatio Month 15th, Silver District in Philae, Unnamed Street
+0062 [Iris] | T-That's amazing!==W== We barely mentioned Otoha and some flowers, and the same Miss Shuo who shot us down is suddenly pitching a partnership! She even fronted a 2 billion Dorra advance!
+0063 [Noya] | I don't get it. Was she that obsessed with our greenhouse?==W== She signed the paperwork, mentioned an inspection, and bolted.
+0064 [Amber] | She's not inspecting the greenhouse.==W== She's hunting for Otoha.
+0065 [Firenze] | Even the most rational, complex business deals are driven by people.==W== Miss Shuo is a formidable manager and an exceptional maid. Rumor has it she's the leading candidate to take over Goodwind Homecare.
+0066 [Firenze] | Normally, she would see right through our little exaggerations. But ...==W== her rivalry with a certain someone is simply too blinding.
+0067 [Iris] | Well, that still leaves us 5 billion short.==W== Firenze, who's next on the list?
+0068 [Firenze] | The Imperial Guard will be our bet for the final 5 billion. However, I must handle this negotiation alone.
+0069 [Iris] | Th-The Imperial Guard? Wait, but...
+0070 [Noya] | Aren't they our competition?==W== ==PLAYER_NAME== said their rep, Greyhorn, went really hard in the bidding, didn't even blink when bidding up.
+0071 [Firenze] | Correct. But when you throw around billions of Dorra without a second thought, it means one of two things. Either the Imperial Guard is determined to win at all costs,==W== or—==W==
+0072 [Lugar y hora] | 12:00, Venatio Month 15th, Silver District in Philae, Guard Post
+0073 [Greyhorn] | What exactly are you implying, Lady Firenze? Of course the Imperial Guard intends to win this Monolith bid.
+0074 [Firenze] | Oh, don't mind me. I'm not questioning the Imperial Guard; it was merely a passing thought. After all, getting on your bad side right now wouldn't do me any favor.
+0075 [Greyhorn] | ... I see. If you say so, then no harm done. By the way, I was just heading out for lunch. Care to join me?
+0076 [Firenze] | It would be my pleasure.
+0077 [Lugar y hora] | 12:30, Venatio Month 15th, Outside Philae, Forest Edge
+0078 [Firenze] | I grew up in Philae, yet I had no idea a restaurant was hiding out here.
+0079 [Greyhorn] | No.==W== There's no restaurant here.
+0080 [Firenze] | No?==W== Then,==W== are you here for a picnic?
+0081 [Greyhorn] | Not exactly. I wanted a little pre-meal workout.==W== I was hoping for a sparring partner, and what do you know? We just "happen" to cross paths.
+0082 [Greyhorn] | ... I see. Your defense is tight, Lady Firenze.==W== Flawless footwork.==W== You live up to your reputation.
+0083 [Firenze] | And you, Lady Greyhorn.==W== That glancing strike is hard to parry.
+0084 [Greyhorn] | So...==W== What do you consider the essence of the rapier?
+0085 [Firenze] | Hmm... I suppose it's mathematics.
+0086 [Firenze] | I favor the rapier because ...==W== the most vital skill in this discipline is calculation.
+0087 [Greyhorn] | Calculation... True. I can feel that precision in your technique.
+0088 [Greyhorn] | But I have a different answer.==W== The key to the rapier is efficiency—==W==no wasted movement!
+0089 [Narración] | The tip of Greyhorn's blade comes to rest lightly against Firenze's shoulder.
+0090 [Greyhorn] | A calculated style isn't bad,==W== but thinking slows you down.
+0091 [Firenze] | And yet,==W== you're so caught up in your own lecture==W== that you've neglected your surroundings.
+0092 [Narración] | Black smoke billows, and the cane sword vanishes from Firenze's hand. When Greyhorn looks down, she finds the real blade against her stomach—held by Firenze's shadow.
+0093 [Greyhorn] | Heh.==W== I've never had a rapier duel this exciting.
+0094 [Firenze] | The pleasure is mine. But it's a pity I missed out on seeing the Hound's true skills.
+0095 [Greyhorn] | I wasn't holding back. I showed you the true power of Greyhorn.==W== Now, care for a bite?==W==
+0096 [Firenze] | Oh?==W== Heh. So it is a picnic.
+0097 [Greyhorn] | I despise wasted effort. I wouldn't travel all this way to test you.
+0098 [Firenze] | So you had no intention of winning the Monolith bid, did you?
+0099 [Firenze] | My sources tell me that==W== the Imperial Guard team on the lake island==W== hasn't even set foot inside the Monolith.
+0100 [Firenze] | The bidding records show the Imperial Guard joins every time,==W== but only to match the highest offers. You never win the rights to the Monolith.
+0101 [Firenze] | Could it be ... your organization is a shill planted to drive up the price?
+0102 [Greyhorn] | I'm not supposed to answer that...==W== But with your network, you'll find out the truth soon enough anyway.
+0103 [Greyhorn] | ... You have the gist. But it works both ways. If the other companies fail to secure the bid, the Imperial Guard steps in to take over.
+0104 [Greyhorn] | The public remains unaware, however. To everyone else, we're a weak faction doomed to lose every bid.
+0105 [Greyhorn] | This reputation gives me endless headaches.
+0106 [Greyhorn] | United Harvest Philae and Omnisky Aegis are determined to win this bid.==W== Our participation means nothing.
+0107 [Firenze] | And yet, you still deploy a team to the island.
+0108 [Greyhorn] | I'm an employee at the end of the day. The Imperial Guard's orders trump my personal preferences.
+0109 [Greyhorn] | You know this, Lady Firenze. That is why you came alone and so patiently accompanied me all the way out here.
+0110 [Firenze] | Hehehe. Guilty.==W== Then, building on our conversation,==W== United Harvest Philae wants to hire the Imperial Guard for all corporate and city security.
+0111 [Greyhorn] | Oh? United Harvest forces currently handle your security. You feel safe bringing in outsiders? You are handing your entire defense over to the Imperial Guard—
+0112 [Firenze] | That's the point. We need to cut ties with the old regime.
+0113 [Firenze] | Besides, we lack the manpower. From now on, our internal guards focus solely on logistics, like escorting long-haul freight.
+0114 [Firenze] | For daily patrols and street management, we prefer to leave the job to professionals like the Imperial Guard.
+0115 [Greyhorn] | You don't beat around the bush.
+0116 [Firenze] | As you say—no wasted movements.
+0117 [Firenze] | If the Imperial Guard accepts our massive contract,==W== your endless bidding losses suddenly look like a marketing stunt.==W== People would assume you were using the bids to advertise your services.
+0118 [Firenze] | We'll also publicly mention your deep pockets and praise your ironclad reliability.==W== That reputation problem of yours improves overnight.
+0119 [Greyhorn] | You play a beautiful game, Lady Firenze. Since you're solving my biggest headache, it's only right that I return the favor.
+0120 [Greyhorn] | I'll leave this year's Mirage delivery contract to you. Your former parent company is a total mess. They are in no shape to handle it.
+0121 [Greyhorn] | Per Imperial Guard tradition, we pay the six billion Dorra advance in crystal diamonds.
+0122 [Greyhorn] | If the terms suit you, we'll head back to the outpost and sign the contract right now.
+0123 [Firenze] | A pleasure doing business with you.
+0124 [Lugar y hora] | 15:30, Venatio Month 15th, Gold District in Philae, Deepsea Finance Branch
+0125 [Salesperson No. 21] | Manager, Firenze is seen leaving the Imperial Guard. She's on her way here.
+0126 [Salesperson No. 20] | Looks like she has locked in a massive deal with them. They must have the full 40 billion.
+0127 [Mercurio] | She is the woman who overthrew Darcia and the Senate to claim United Harvest Philae. I expect nothing less.
+0128 [Mercurio] | But Firenze... You know nothing of the Dorra's true power.
+0129 [Mercurio] | Hahaha... You have no chance in this bid!

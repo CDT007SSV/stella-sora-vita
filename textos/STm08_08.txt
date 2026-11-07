@@ -1,0 +1,105 @@
+# Capítulo 8 · Calor residual · Recuerdo · The Blank Solution Ⅱ
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Dessert Shop Staff | Dessert Shop Staff
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg2_954 | Crispy Hooves
+N:avg2_972 | Guantelete de la Ira
+N:avg3_1281 | Crispy Hooves
+N:avg3_143 | Residente
+
+## Texto
+0001 [Intro] | Memories
+0002 [Intro] | The New Star's Solution Ⅱ
+0003 [Intro] | While balancing work and exam prep, Iris was supported by Amber and Noya—even knowing her dream may take them on separate paths. But just before the test, a wish made her forget something important…
+0004 [Narración] | Monolith Calendar Year 994
+0005 [Lugar y hora] | 10:00, Clarus Month 24th, Ash District in Emor
+0006 [Iris] | I'd like to use this coupon, this voucher, and this discount slip. They're supposed to stack.
+0007 [Dessert Shop Staff] | Let me double-check that...==W== Hmm. You're right. They stack. Your total comes to ... one thousand Dorra.
+0008 [Noya] | A thousand Dorra for all this? That barely buys a loaf of bread out there.
+0009 [Iris] | This shop's coupons are popular because they stack.==W== I used to get paid in these instead of cash for odd jobs. I never thought we'd actually use them.
+0010 [Iris] | You never know what'll happen. I need to make my savings last. The hundred thousand Dorra from my odd jobs has to stretch.
+0011 [Amber] | Iris. You're a god.
+0012 [Noya] | And a genius! I still can't believe you stash Dorra in your boots.==W== Why not use a wallet?
+0013 [Iris] | Well... I read that the Wilds and the cities are both dangerous. It's smarter to spread your cash around. If you get robbed, you don't lose everything at once.
+0014 [Noya] | Makes sense!==W== But what if the bad guys read the same book and search every single spot?
+0015 [Iris] | Ah... I, uh...
+0016 [Amber] | Beat the bad guys. You keep your money, and you turn them in for a bounty.
+0017 [Iris] | I-I guess that works if you can pull it off?==W== Anyway, changing the subject. What are your plans?
+0018 [Amber] | I want to ... see other cities. Nova is big.
+0019 [Noya] | I'm gonna be a Trekker! Climb every Monolith just like the Tyrant. All the way to the very top.
+0020 [Noya] | But first, I need to build this.
+0021 [Iris] | Is this ... the Artifact you asked me about?
+0022 [Noya] | Yeah! The book you lent me called it a steering wheel. It drives a super-fast vehicle.==W== Nova is a large stretch of land with tons of Monoliths. Walking would take forever. Wouldn't driving be more convenient?
+0023 [Iris] | It would... But Artifact cars are rare. Can you actually build one?
+0024 [Noya] | Hehehe. Feast your eyes on this.
+0025 [Amber] | It's huge. And heavy. What is it?
+0026 [Noya] | Heh. It was sitting in the orphanage basement this whole time, covered in dust. I asked Aunt Allie if I could take it when I left.
+0027 [Noya] | She didn't know what it was either. But my gut says ... it's the heart of an Artifact car!
+0028 [Iris] | The ... heart?!
+0029 [Noya] | Yeah! Anyway, my gut says if I piece this hunk of metal together right and hook it up to the steering wheel, it'll zoom like crazy.
+0030 [Noya] | Hehe, we've shared our plans. Your turn, Iris!
+0031 [Iris] | M-Me? Well, before leaving the orphanage, I passed the preliminary exam for Grace Light Academy. The entrance exam is next week.==W== I ...==W== want to go to college.
+0032 [Amber] | College? Is that to learn powerful magic?
+0033 [Iris] | I don't have grand dreams like that. I want a job at a big company like Grace Imperium or United Harvest ... somewhere with steady pay and vacation time.
+0034 [Iris] | That way I can stay in Emor. On my days off, I can help out at the orphanage and take some weight off Aunt Allie's shoulders.
+0035 [Iris] | But it all depends on next week's exam. Before then, I need to find a temp job to scrape together the material fees. I have to pay them on the exam day.
+0036 [Amber] | Material fees?
+0037 [Iris] | Yeah. Grace Light Academy tests you on six subjects.
+0038 [Iris] | Math, Rhetoric, Magic Principles, Magic Application, Grace Energy Studies, and Grace Spells.
+0039 [Iris] | The exam takes three days, and every subject is at a different location.
+0040 [Iris] | The magic and Monolith subjects require special materials and destructible arenas.
+0041 [Iris] | Altogether, the fees come out to two hundred thousand Dorra.
+0042 [Amber] | You only had a hundred thousand, and you shared it with us. Didn't save any extra for the fees?
+0043 [Iris] | No.==W== But it's fine! If I work twenty hours a day between now and then, I can probably scrounge up the rest.
+0044 [Noya] | Whoa, hey now! Do that, and you'll have no time left to study or sleep!==W== I know how we can earn that Dorra and still get you some shut-eye. Wanna give it a shot?
+0045 [Lugar y hora] | 16:35, Clarus Month 28th, Monolith in the Wilds, Floor 25
+0046 [Iris] | W-Wahhh! I-Is that a real Stellaroid?!
+0047 [Noya] | Yep! You've read about them, right? This guy is an Ignis monster. Your Aqua magic makes a perfect match!
+0048 [Amber] | I'll cover you, Iris. Don't worry, go for it.
+0049 [Iris] | F-F-F-Freeze!
+0050 [Iris] | I...==W== I did it.
+0051 [Iris] | I did it! Did you see that?! I can fight now, like you two! I didn't hold you back... Oh, thank goodness.
+0052 [Amber] | Iris, excited.
+0053 [Noya] | Why would you say that? You've always been the best out of the three of us!
+0054 [Iris] | The best...?==W== No, no, no, what are you talking about, Noya? I'm terrible at fighting, and I'm a coward.
+0055 [Amber] | But you read a lot. You know things we don't.
+0056 [Noya] | Forget all that. Let's go make a wish! There's a big Wishing Box up ahead.
+0057 [Amber] | To make a wish... I heard you just touch it and say what you want.
+0058 [Amber] | Please give me a phone. Please give me a phone. Please give me a phone.
+0059 [Iris] | No, Amber, that's not how it works.==W== You have to pray sincerely to the God of Grace and describe your Artifact in detail.
+0060 [Noya] | A phone... How would you describe that? A machine that talks to people far away?
+0061 [Iris] | Let me do it. I looked this up beforehand. I know the prayer.
+0062 [Noya] | Wait, hold on. I'm no bookworm, but I know how exams work.
+0063 [Noya] | Making a wish costs memories. If you forget what you studied, you'll bomb your exam!
+0064 [Noya] | Give me the prayer. I'll make the wish.
+0065 [Iris] | It took us days to get here, and it'll take days to go back. We can't afford any mistakes. We need to get this right the first time.
+0066 [Iris] | Besides, I had fun climbing with you. They say wishes work better when you're happy. I appreciate you looking out for me,==W== but I'm making this wish.
+0067 [Noya] | If you say so...==W== Alright, it's all yours.
+0068 [Iris] | Leave it to me. Here I go...==W== O mighty God of Grace, please hear our prayer... Please grant me...
+0069 [Narración] | We made it back to Emor by Monday morning. We rushed to the Soul Shop, traded the phone for Dorra, set a time to meet up, and went our separate ways.
+0070 [Narración] | And just like that, I scraped together the material fees and finally took my entrance exam for Grace Light Academy.
+0071 [Narración] | A few days later.
+0072 [Lugar y hora] | 12:00, Floris Month 5th, Ash District in Emor, Commercial Street
+0073 [Noya] | Iris! How'd the exam go?
+0074 [Iris] | Thanks to you both, I think I did well on all five subjects. The wish didn't seem to erase any of my book knowledge. Guess I got lucky this time.
+0075 [Amber] | Here, Iris.
+0076 [Iris] | Is this ... a phone?! Where did you get it?
+0077 [Noya] | After you left for the exam, Amber and I went back up the Monolith.==W== We copied your prayer and made some wishes. Failed a bunch of times, but three of them worked.==W== Now all three of us have phones.
+0078 [Iris] | Can... Can I really keep this? You two made the wishes. Shouldn't we sell it for Dorra instead?
+0079 [Amber] | No. Noya and I are leaving Emor. With phones, we can reach each other when we end up in the same city. Makes meeting up easier.
+0080 [Iris] | Wait, you two are leaving?
+0081 [Noya] | Yeah, a guild offered me an internship. I leave today.
+0082 [Amber] | Joined a treasure-hunting team. They're leaving tomorrow.
+0083 [Iris] | When you come back to Emor, I'll be a Grace Light Academy student, and I'll treat you both.==W== I'll have enough saved up from odd jobs by then.
+0084 [Iris] | Ah, sorry, it's time for my shift. I have to go. You two take care of yourselves, okay?
+0085 [Amber] | Bye.
+0086 [Noya] | You take care too, Iris! We'll be back before you know it!
+0087 [Noya] | Let's head out, Amber. I'm finishing that Artifact car no matter what.
+0088 [Amber] | Did Iris ...==W== say something weird?
+0089 [Noya] | Huh? Like what?
+0090 [Amber] | Earlier... Iris said the exam had six subjects.

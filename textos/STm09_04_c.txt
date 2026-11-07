@@ -1,0 +1,192 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 4C · What Endures Unchanged
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Giant Stellaroid | Giant Stellaroid
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_136 | Angie
+N:avg1_142 | Cosette
+N:avg1_144 | Chitose
+N:avg1_163 | Greyhorn
+N:avg2_979 | Enviado espectral
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1319 | Angie
+N:avg3_217 | No. 160
+N:avg4_104 | Stone on the Left
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | What Endures Unchanged
+0003 [Intro] | Under your strategy, the hundred-man unit collapses and Angie surrenders. Alone with you, she reveals the truth: she too reached the future and saw ruin. With the last bullet, she turns it on herself...
+0004 [Greyhorn] | Lady Angie, we need to fall back. Our attacks are barely scratching this Stellaroid...
+0005 [Angie] | I don't think so. From the combat logs from the Waterway, we just need to break that magic array on its head.
+0006 [Greyhorn] | This Stellaroid is nothing like that one... We've tried, and it's not working.
+0007 [Greyhorn] | Our magic can't even pierce its magical barrier. This isn't just some normal Stellaroid... It's an Archon!
+0008 [Angie] | No! I have to kill the Tyrant here and now. ==SEX1== has become the true Tyrant.
+0009 [Angie] | If magic won't cut it, let's see how it handles the Scepter of Death.
+0010 [Narración] | Angie's bullet tears through the Stellaroid's magical barrier, embedding itself in the magic array on its head.
+0011 [Giant Stellaroid] | Vrrrr...
+0012 [Greyhorn] | Lady Angie... Run. We've lost.
+0013 [Greyhorn] | The Imperial Guard will fulfill its duty... We'll cover your escape...
+0014 [Angie] | Greyhorn!
+0015 [Narración] | By the time Noya and I climb out of the Wishing Box, the floor is already littered with unconscious Committee members.
+0016 [Narración] | The only person left standing in the room ... is Angie.
+0017 [Iris] | Boss, the Soul Stone retrieval team is back.
+0018 [Iris] | Amber, keep an eye on her. Noya and I will bring the others up.
+0019 [Narración] | As the rest of our team trickles into the Boss's Domain, Angie doesn't so much as flinch. She just stands there frozen.
+0020 [1] | It's over, Angie. All three Committee companies have been routed inside the Monolith.==W== Greyhorn, No. 160, and Gunhild are all in our custody.
+0021 [1] | You've lost.
+0022 [Angie] | Heh. You're right. I have lost.
+0023 [Angie] | You're incredible.==W== Even with all the memories of the future... I still couldn't defeat you.
+0024 [Tú] | Memories? What is she talking about?
+0025 [Noya] | ==PLAYER_NAME==, don't waste your breath on her.
+0026 [Amber] | Just capture her.
+0027 [Iris] | And this will all be over.
+0028 [Chitose] | This knave has repeatedly plotted against you. Say the word, my ==SEX11==, and I shall strike her down.
+0029 [Tú] | Surrender, Angie. You're surrounded.
+0030 [Tú] | If you surrender, we won't hurt you. I can guarantee you a fair trial.
+0031 [Angie] | ... How surprising.
+0032 [Angie] | Even now, you still intend to spare my life.
+0033 [Narración] | You're far too soft, Tyrant.
+0034 [1] | You'd better not mistake that for a weakness, Angie.
+0035 [1] | I just want to give you a fair end. Don't think for a second I won't kill you.
+0036 [Angie] | I know. That's exactly why I'm considering your offer.
+0037 [Angie] | Given the circumstances... I surrender.
+0038 [Angie] | But I have one condition.
+0039 [Tú] | A condition...?
+0040 [Nazuka] | Look at the chips you hold. You're in no position to negotiate right now.
+0041 [Angie] | Heh. I believe you will agree to this condition, Tyrant.
+0042 [Angie] | I want to speak with you alone. Right here is fine, just ask your companions to keep their distance.
+0043 [Tú] | What could we have left to talk about?
+0044 [Angie] | I want to tell you the truth about the end of the world. And it's for your ears only.
+0045 [1] | What's the point? Even if I agree, I'm just going to tell them everything once we're done.
+0046 [Angie] | Some truths only bring more trouble if they reach the wrong ears.
+0047 [Angie] | You'll understand once you hear it.
+0048 [1] | During my last two negotiations with Angie, she brought up a lot of things... Things I had no idea about.
+0049 [1] | The late Empress's diary, the falling Monolith, and the "trump card" she never revealed... Even if it's just for the intel, it's worth hearing what she has to say.
+0050 [1] | Iris, Nazuka. Cast some defensive magic on my clothes.
+0051 [Tú] | Alright. Everyone's backed up to the edge of the room. They won't be able to hear us from here.
+0052 [Tú] | Now, talk. What is this truth about the end of the world?
+0053 [Angie] | Thank you for agreeing to my terms. You even left me with the Scepter of Death… After everything you've done, I must return the favor sincerely.
+0054 [Angie] | I'll start with the conclusion.
+0055 [Angie] | I am from the future. Four years from now.
+0056 [1] | What?
+0057 [Angie] | This is by no means a joke. Four years from now, this world will end.
+0058 [Angie] | The world will shatter into ruins, civilizations will collapse, and not even ashes will remain of the Nova Empire.
+0059 [Angie] | Everything you and I love...==W== Everything you and I hate... They will all be wiped out.
+0060 [Angie] | And the root of it all ... is the Tyrant.==W== Which means me.
+0061 [Tú] | You're the Tyrant? What are you talking about?!
+0062 [Angie] | By a stroke of fate, I once obtained a cellphone. It looked exactly like the one in your hand.
+0063 [Angie] | The Well of Worlds Tyrant Development System. Does that sound familiar?
+0064 [1] | ...!
+0065 [Angie] | I had nothing back then. For my own sake, and for my companions, I fought tooth and nail to complete that system's missions. Over and over again, it handed me rewards I couldn't even fathom.
+0066 [Angie] | Eventually, I completed every single mission. I fulfilled every single wish.
+0067 [Angie] | But it all ended with the Monolith collapsing right in front of me... Along with this world.
+0068 [Angie] | I used the rewards the system gave me to make one final wish. I escaped ten years into the past... That would be six years in the past from now.
+0069 [Angie] | However, even though I ran from reality, I never had the courage to open that safe again. Nor the courage to face my future allies.
+0070 [Angie] | All I could do was desperately gather information and watch that Soul Shop from afar.
+0071 [Narración] | And... During this time, the new Tyrant was chosen… And it was none other than you.
+0072 [1] | You're lying!
+0073 [Angie] | Ahahahahaha!! That's it! That's the look, Tyrant.
+0074 [Angie] | You must know about that system too. Hehe... Why can I assert that? It's simple.==W== What you are doing is the same as what I did in the past.
+0075 [Angie] | You realize I'm not lying, don't you? Something so beyond human understanding ... can't possibly stem from pure imagination, can it?
+0076 [Angie] | Now listen, Tyrant.
+0077 [Angie] | Your actions happen to align with the Book of Grace Prophecies, but I wouldn't have acted on that alone.
+0078 [Angie] | The late Empress kept an old book hidden with your portrait drawn, but I wouldn't have acted on that alone either.
+0079 [Angie] | That's because... After having gone back to the past, I no longer believe in anyone ... or anything.
+0080 [Angie] | However... I have no choice but to believe in myself.
+0081 [Angie] | The Tyrant who destroys the world is the Tyrant who possesses that system!
+0082 [Narración] | ==Off==I have only ever had one goal. And that is to save Nova from a Tyrant like that.
+0083 [Angie] | Do you understand what I'm trying to tell you? Tyrant... If you weren't here, the disaster ahead of us wouldn't come to pass.
+0084 [Angie] | Having said that, I'm aware of how unreasonable I sound right now...
+0085 [Angie] | Dying with you would be my atonement.
+0086 [Tú] | What nonsense are you daydreaming about? Why would I throw my life away over your insane ramblings?!
+0087 [Angie] | Our deaths alone will pave the way to everyone's salvation! Therefore, I will sacrifice everything for Nova!
+0088 [Angie] | Well, Tyrant, what do you say?
+0089 [Angie] | It's not only for the people of Mirage! You'll also be protecting the very people you care about!
+0090 [Tú] | That's enough bluffing from you. My fate is mine to decide.
+0091 [Tú] | If there really is a crisis capable of destroying the world, I would fight to stop it no matter what!
+0092 [Tú] | You're trying to use my friends and Mirage as leverage, but you've already fired nine rounds from that Scepter of Death. You only have one bullet left, don't you?
+0093 [Angie] | Heh. So you were counting after all.
+0094 [Angie] | It is as you say. The Scepter of Death has only one charge left... It can't even penetrate your magic protection.
+0095 [Angie] | But I am not bluffing.
+0096 [Angie] | Make your choice, Tyrant.
+0097 [Narración] | Will you die with me, or will all of Nova be buried with us?
+0098 [Tú] | ... Have these repeated defeats finally driven you out of your mind?
+0099 [Angie] | Heh. Perhaps.
+0100 [Angie] | No matter what I do, I can never get ahead of you.
+0101 [Angie] | You saw through every move I make. Even when I thought I had caught up, I was still a step too late.
+0102 [Angie] | How can that be when I am the one with memories of the future? Hah, it's so frustrating...
+0103 [Angie] | But, judging by that look of confusion, you still don't know ... about my secret weapon.
+0104 [Narración] | Angie slowly pulls out a chess piece... A Black Rook.
+0105 [Tú] | You have a Seal of Grace too...
+0106 [Angie] | This Black Rook grants me the authority to control a Monolith.
+0107 [Angie] | Except this Monolith is very unusual and suspends itself high up in the sky.==W== Only the person holding this piece can travel there using a special cape.
+0108 [Tú] | A Monolith in the sky?! You mean—
+0109 [Angie] | It finally clicked, didn't it?
+0110 [Angie] | Right now, that Monolith is hovering above Mirage, so high up it's invisible to the naked eye.
+0111 [Angie] | By the way, if my breathing stops, this Monolith will start to crumble … and collapse from the sky. Then—
+0112 [Angie] | We will die.
+0113 [Narración] | Your companions will die.
+0114 [Angie] | That's right! Everything will be buried in the darkness of history! So will Mirage and everything that happened there!
+0115 [Tú] | Angie, stop! You're insane...
+0116 [Angie] | Possibly. But if it takes an insane person to save the world—
+0117 [Angie] | I will gladly take on that role.
+0118 [Tú] | Wait, Angie! Put down the Scepter of Death!
+0119 [Angie] | By sacrificing only a worthless small town on the border, the rest of the world shall escape annihilation.
+0120 [Angie] | Since you're running a company, you should know whether the payoff justifies the cost.
+0121 [Narración] | That's all for now, Tyrant.
+0122 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0123 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0124 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0125 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0126 [Narración] | _NOT_IN_LOG_==A0.1====Off==Farewell.
+0127 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0128 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0129 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0130 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0131 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0132 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0133 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0134 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell.
+0135 [Narración] | ==Off==Farewell.
+0136 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0137 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0138 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0139 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0140 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0141 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0142 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0143 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0144 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0145 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0146 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0147 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0148 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0149 [Narración] | _NOT_IN_LOG_==A0.05====Off==Farewell. And now...
+0150 [Narración] | ==Off== And now...
+0151 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0152 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0153 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0154 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0155 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0156 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0157 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0158 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0159 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0160 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0161 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0162 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0163 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0164 [Narración] | _NOT_IN_LOG_==A0.05====Off== And now... Join me—
+0165 [Narración] | ==Off== Join me—
+0166 [Narración] | —and become the foundation of the new world.
+0167 [Cosette] | The Boss and those people in the Grace Imperium uniforms should be fighting inside this Monolith...
+0168 [Cosette] | I absolutely won't miss this time.
+0169 [Cosette] | Monoliths are Nocturn Eterna's home turf!
+0170 [Cosette] | Huh? Why did the sky go dark? Wh-What is that?! Why is there a Monolith in the sky?!

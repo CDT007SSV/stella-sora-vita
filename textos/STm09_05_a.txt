@@ -1,0 +1,160 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 5A · Noya's Intuition
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_139 | Allie
+N:avg1_142 | Cosette
+N:avg1_144 | Chitose
+N:avg1_146 | Benito
+N:avg1_156 | Nazuna
+N:avg3_100 | Sylar
+N:avg3_167 | Chica
+N:avg3_168 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_207 | Myrsha
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | Noya's Intuition
+0003 [Intro] | A strange feeling rises in Noya’s heart: you are going to leave them today. You seal a pinky promise with her at the orphanage. After finalizing the retreat plan, you head to the negotiations to buy time...
+0004 [Lugar y hora] | 15:50, Nebula Month 18th, Mirage, Daisy Orphanage
+0005 [Noya] | ...==W== Ever since we left the White Cat's secret room... I've had this heavy premonition...
+0006 [Noya] | That today ... is the day you leave us.
+0007 [Tú] | The day I leave them? What's going on?==W== Noya's intuition is always spot on. Does she ...==W== think I'm going to die?
+0008 [Tú] | No, that's not right. I've faced plenty of danger before. Noya never panicked like this just because of a gut feeling.
+0009 [Tú] | Maybe the injury is getting to her. Add that to the fact that things are worse than usual right now... Is fear clouding her judgment?
+0010 [Tú] | Hmm...==W== As long as I have the White Room, death isn't permanent for me. It still hurts, though, and I can't exactly explain that to Noya. I'd better comfort her for now.
+0011 [Tú] | Don't worry, Noya. Whatever your intuition says, I'm not going anywhere.
+0012 [Noya] | Mm…
+0013 [Narración] | But Noya's expression only grows more serious.
+0014 [Noya] | ==PLAYER_NAME==, I never doubt your conviction. But my intuition doesn't listen to reason.
+0015 [Noya] | Even when something looks completely foolproof, like it could never go wrong... Things still happen. A coincidence, or some tiny detail I missed. And then everything plays out exactly as I feared.
+0016 [Noya] | That's why I...==W== Why I haven't been acting like myself today. I don't know what's going to go wrong. All I can do is ...==W== get busy, to give myself some peace of mind.
+0017 [Tú] | She's genuinely terrified for me. Charging back at the Salvation Committee, hiding her wound to keep fighting... She did all of it for me. In that case...
+0018 [Tú] | We still have a little time. Tell me exactly what your intuition is telling you, Noya.
+0019 [Tú] | I might not be able to talk you out of it, since your intuition ignores logic. Just like when you thought crashing Loxy into a massive Stellaroid on the Waterway would actually work, and it did. But I can at least help put you at ease.
+0020 [Noya] | R-Really?
+0021 [Tú] | Because your Boss can do anything.
+0022 [Noya] | Right! You're the wish-granting Boss. ==W==Heh heh, you still owe me a wish, you know.
+0023 [Noya] | Then, Boss, here is my wish.==W== Please relieve me of my anxiety!
+0024 [Tú] | Deal. Then tell me, what exactly does this premonition of me leaving feel like?
+0025 [Noya] | Mm... Usually, no matter where you are, whether I'm awake or asleep, whether I can see or hear you, my heart always senses you.
+0026 [Noya] | It's hard to explain. Like back in Philae, when you and Chitose went into the Monolith. I could sense that you were safe the whole time.
+0027 [Tú] | Because of how strong Chitose is?
+0028 [Noya] | Not exactly. It's just a feeling, really. I knew your trip would go smoothly. I didn't know whether you'd be able to wish for the right Artifact, but I was sure that you'd come back safe and keep traveling with us.
+0029 [Noya] | But ... the second we stepped out of the White Cat's secret room, I lost that peace of mind.
+0030 [Noya] | Even with you walking right next to me, my stomach was in knots. I couldn't shake the feeling that if I looked away for even a second, you'd vanish into the tunnels.
+0031 [Tú] | Hmm... That's a tricky one to tackle.==W== Wait, when you were talking about Laru earlier, you said...
+0032 [Noya] | You know my gut is never wrong. And this time just feels ...==W== different. I've only ever felt like this once before.
+0033 [Tú] | When was that? Since I'm sitting right here with you safe and sound, your gut must have been wrong back then. That might be the key to all this.
+0034 [Noya] | The last time? Um...==W== It's a little hard to admit.
+0035 [Tú] | Noya ... blushing? That's a rare sight.
+0036 [Noya] | But if I don't tell you, I'll just keep feeling anxious, and I hate that!==W== Fine. I'll tell you, but you can't laugh at me!
+0037 [Tú] | I won't laugh. I promise.
+0038 [Noya] | The last time I had this feeling ... was under the Monolith in Philae.
+0039 [Tú] | When we fought the Big Three? That was pretty dangerous.
+0040 [Noya] | No, not then. It was when you and Nazuka were whispering under the Monolith.
+0041 [Tú] | Huh?
+0042 [Noya] | Nazuka had just flown off with you. We followed Nazuna and hid in the woods to watch.
+0043 [Noya] | It was a beautiful night. And we heard ... everything Nazuka said to you.
+0044 [Noya] | If you were able to make a promise like that, it means you both recognize each other as someone very important.
+0045 [Noya] | She's beautiful, and she's incredibly strong. My intuition told me that staying at the Trekker Camp ... and living with the Petal Bloom might be a better fit for you.
+0046 [Noya] | Even though it'll be lonely traveling without you anymore... It doesn't matter as long as you two are happy.
+0047 [Tú] | Nazuka is very important to me.==W== But you, Iris, and Amber are just as important. Chitose is important, too. Everyone who has walked this path with me is irreplaceable.
+0048 [Tú] | Besides, Nazuka would never let me sit quietly in Philae.==W== We're Trekkers. We're meant to explore the world. Why would we ever stay in one place?
+0049 [Noya] | Heh heh, yeah. That's why the feeling faded. I guess that was the one and only time my intuition got it wrong.
+0050 [Noya] | But this time, there isn't another Trekker like Nazuka around...==W== My intuition couldn't possibly mean that evil Angie wants to capture you and lock you up forever, right?
+0051 [Tú] | Angie wouldn't capture me. She only wants me dead.
+0052 [Noya] | Ah. I get it now, Boss. I know what's been making me so anxious.
+0053 [Noya] | I know you well... If we really have no way out, you'll definitely use yourself as a bargaining chip to protect us!
+0054 [Tú] | I...
+0055 [Tú] | I can't even argue. That's exactly what I'll do. I'd rather take the hit myself than watch them suffer. Besides... I still have the White Room.
+0056 [Tú] | Vita, would a Scepter of Death stop me from entering the White Room?
+0057 [Vita] | Tyrant, your authority to enter the White Room is granted by the King piece. The Scepter of Death is merely a non-magical weapon. It cannot prevent this.
+0058 [Tú] | That settles it. Either the Book of Grace Prophecies is flawed, or Angie is misinterpreting it.
+0059 [Tú] | I won't just throw my life away and violate the White Room's rules, but there's no reason to let my companions suffer. If it comes to death, I should bear it alone.
+0060 [Noya] | Boss, why aren't you saying anything? Don't tell me ... that's actually what you are planning?
+0061 [Tú] | Well... It's not my first choice. But if it truly comes down to a choice like that, I suppose your intuition is correct.
+0062 [Noya] | No! You cannot do that!
+0063 [Tú] | I know you care. But... Losing one life is better than losing everyone's.
+0064 [Noya] | Not at all! Do you think we could just go on living like nothing happened if you died?==W== If we have to suffer like that, we'd rather die with you!
+0065 [Noya] | I'm getting Iris and Amber right now! I'm going to make them wish... Wish that you never did something so incredibly stupid!
+0066 [Opción] | Grab Noya's hand
+0067 [Tú] | Don't call them. Let's not make anyone else worry.
+0068 [Tú] | I promise you, I won't do anything stupid. I will never use myself as a bargaining chip for your safety. I will fight right beside you, and everyone else out there, until the very end.
+0069 [Noya] | But ...==W== I don't have any wishes left.
+0070 [Tú] | This is part of fulfilling your wish to ease your anxiety. If you need something more concrete, then let's...
+0071 [Opción] | Hold out my pinky finger
+0072 [Noya] | It's settled then. No taking it back. Here, pinky promise.
+0073 [Tú] | All right. Pinky promise!
+0074 [Noya] | Forever and ever.
+0075 [Narración] | Noya and I link our pinkies, making a simple vow.
+0076 [Narración] | Noya stays like that, refusing to let go of our linked fingers for a long time.
+0077 [Tú] | Noya?
+0078 [Noya] | Boss, can you let me stay like this a little longer?
+0079 [Noya] | I figure ... the longer we hold on, the stronger our promise will be.
+0080 [Noya] | Sigh. I feel so weird today. My head is full of things I would never even think about.
+0081 [Tú] | We can hold on for as long as you want.
+0082 [Tú] | And the you I see today is still the best Noya there is.
+0083 [Narración] | We keep our pinkies linked in silence, sharing this rare moment of peace.
+0084 [Iris] | Boss, how is Noya's wound?
+0085 [Amber] | Time for the Eureka Bar...==W==
+0086 [Iris] | O-Oh, I'm sorry. Looks like we came at a bad time.
+0087 [Noya] | No, you're right on time!
+0088 [Noya] | Come on, link pinkies with us!
+0089 [Iris] | Eh?! What exactly are we promising here?
+0090 [Noya] | Doesn't matter! Link our fingers, and we'll be together forever! The longer we hold on, the better it works!
+0091 [Amber] | Well...==W== Let's just tie everyone together.
+0092 [Tú] | Hey, Amber, don't use that...
+0093 [Narración] | And so, we end up tightly bound by Amber's string of fate for quite a while before she finally unties us.
+0094 [Narración] | Then, we head to the Eureka Bar for our final meeting before the negotiation.
+0095 [Lugar y hora] | 16:15, Nebula Month 18th, Mirage, Eureka Bar
+0096 [Tú] | According to the intel Laru sent us, the arbiter we fought earlier, No. 160, really can eavesdrop on Heartlink communications within a certain range.
+0097 [Tú] | So, to avoid any leaks, I thought it best to gather everyone here and map out our next steps face-to-face.
+0098 [Tú] | Captain Kasimira, please update us on the evacuation status.
+0099 [Kasimira] | Good news. Chaton found an abandoned mineshaft leading to the Monolith outside the city. A few sections are blocked by rubble,==W== but luckily, we found a very capable helper—
+0100 [Cosette] | Phew, the rubble over here is all cleared out. I'm exhausted. And I'm so thirsty.
+0101 [Cosette] | What's going on with this city? All these Sentinels of Dawn showed up out of nowhere...==W== I'll worry about capturing the Boss later. For now, I need to blend in with the locals and get out of here!
+0102 [Benito] | Wow, Cosette, you're incredible!==W== Ten of us spent an hour clearing a boulder about that size and still couldn't get it done.
+0103 [Cosette] | Hehe, I'm pretty good at digging.
+0104 [Benito] | You must be thirsty. Here, have some sweet cactus tea.
+0105 [Cosette] | Gulp... Gulp...==W== Ahhh! I've got my energy back! I'll go clear the rocks up ahead!
+0106 [Kasimira] | With her help, the route to the Monolith should be fully cleared by 17:00 at the latest. If the citizens evacuate through this tunnel, they can all be out of the combat zone within three hours.
+0107 [Tú] | Good. Then my minimum objective is to keep the negotiation going until at least 17:00.==W== If we can delay Angie and the Salvation Committee until 20:00, we'll have enough time to withdraw.
+0108 [Tú] | Nazuka, any movement from the Salvation Committee?
+0109 [Nazuka] | Only bad news on my end. Based on my recon, the Salvation Committee has taken control of the Desert Scorpions and local Imperial Guard.
+0110 [Noya] | Weren't they already under the Committee's control? They were in the forces we countercharged earlier.
+0111 [Amber] | And Hazana's sandstorm.
+0112 [Nazuka] | At the time, neither the Desert Scorpions nor the Imperial Guard had mobilized on a large scale. Those were likely individual actions, or the Committee's sleeper agents.
+0113 [Nazuka] | But half an hour ago, the Committee stormed both camps and arrested anyone who resisted. I even saw Myrsha tied up.
+0114 [Nazuka] | So they weren't fully compliant before. Regardless, with both forces added to its ranks, the Committee can now command around a thousand soldiers.
+0115 [Iris] | A...==W== A thousand?==W== Even with the White Cats, we only have sixty or seventy people...
+0116 [Tú] | Don't worry, Iris. They were thrown together at the last minute, so their command structure is bound to be disorganized. Our goal is to escape, so their sheer numbers might actually work to our advantage.
+0117 [Tú] | The orphanage still has some Imperial Guard armor and Desert Scorpion uniforms, right?
+0118 [Iris] | Y-Yes, we do. The kids scavenged some armor, and the Scorpions sometimes bring us clothes to mend. We have a few pieces left.
+0119 [Tú] | We'll bring them along. Once night falls, we'll put them on and blend in with their squads. That'll make it harder for the Committee to find us.
+0120 [Amber] | Good plan. I'll get the clothes.
+0121 [Tú] | How is the children's evacuation going?
+0122 [Iris] | Mom has organized the children and has them waiting in the mineshaft.==W== Fuyuka and Nazuna are helping her.
+0123 [Tú] | Once we're done here, Iris, take Amber and go help them. Kasimira will need all the help she can get to evacuate Mirage's citizens.
+0124 [Iris] | What about you? Negotiating with Angie is incredibly dangerous.
+0125 [Tú] | Noya, Chitose, and Nazuka will protect me. When it comes to making a getaway, a crowd would only make things harder.
+0126 [Iris] | O-Okay.
+0127 [Tú] | And finally...==W== The great Chaton.
+0128 [Chaton] | Oho! Boss, calling me "the great Chaton"!==W== Have you finally acknowledged my dark power?
+0129 [Tú] | I have an extremely important task for you, one that only someone with dark powers can handle.
+0130 [Tú] | Find a way to contact Minova and the others outside the city. Tell them what we're doing, and have them withdraw when the time is right.
+0131 [Chaton] | Ohoho... Sounds like I'll have to sneak past a whole army of enemies. It'll be extremely difficult,==W== but that's exactly the sort of thing a descendant of dark powers is meant to do!==W== Captain Kasimira, everyone, Chaton is on the move!
+0132 [Tú] | Stay safe out there.
+0133 [Tú] | All right, everyone. Let's follow the plan.
+0134 [Tú] | Remember this: our goal isn't to fight. Staying alive matters more than anything else.
+0135 [Narración] | I want every one of you to make it out of Mirage alive!

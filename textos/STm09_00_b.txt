@@ -1,0 +1,189 @@
+# Capítulo 9 · Un Monolito demasiado lejano · Interludio 2 · Light Up
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Angry Sentinel of Dawn | Angry Sentinel of Dawn
+N:Boss (Nazuna) | Boss (Nazuna)
+N:Confused Sentinel of Dawn | Confused Sentinel of Dawn
+N:Imperial Guard on Duty | Imperial Guard on Duty
+N:Sand-Wielding Sentinel | Sand-Wielding Sentinel
+N:Sentinel of Dawn on Watch | Sentinel of Dawn on Watch
+N:Vigilant Sentinel of Dawn | Vigilant Sentinel of Dawn
+N:Wind-Wielding Sentinel | Wind-Wielding Sentinel
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_132 | Minova
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_146 | Benito
+N:avg1_150 | Laru
+N:avg1_156 | Nazuna
+N:avg1_163 | Greyhorn
+N:avg1_1996 | Noya
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_100 | Sylar
+N:avg3_1308 | Sentinel of Dawn Soldier F
+N:avg3_157 | Guardia Imperial
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Interlude (II)
+0002 [Intro] | Ignition
+0003 [Intro] | Greyhorn's army reaches the mine where you hide. In this desperate moment, the Petal Bloom Guild arrives like a miracle. Under their cover, you finally gain a chance to breathe and choose...
+0004 [Lugar y hora] | 13:30, Nebula Month 18th, Mirage, Crystal Diamond Mine Entrance
+0005 [???] | Fries! Get your hot, crispy fries right here!
+0006 [???] | Ice cream! One bite of this will send you straight back to the frozen North!
+0007 [Imperial Guard on Duty] | ... Is someone selling snacks? Since when do we have camp merchants out in the desert?
+0008 [Sentinel of Dawn on Watch] | Impossible. This is a classified Salvation Committee operation. Did our intel leak? Let's bring her in for questioning.
+0009 [Imperial Guard on Duty] | Let's move!
+0010 [Sentinel of Dawn on Watch] | You there, stop! Who sent you?!
+0011 [Laru] | Eek! Whoa, hold on! Don't get me wrong!
+0012 [Laru] | I am Laru from Logistics! You know, the super dedicated, ultra-hardworking Laru!
+0013 [Imperial Guard on Duty] | That name rings a bell. Doesn't Logistics have a massive slacker going by that name? What are you doing out here?
+0014 [Laru] | The main convoy and reinforcements are still a day out. We whipped up some teatime treats to keep you frontline heroes in peak fighting shape. Ingredients were limited. Forgive the humble spread.
+0015 [Imperial Guard on Duty] | Teatime...? Isn't that what those noble ladies do back in Emor? Sitting around snacking in fancy gardens.
+0016 [Sentinel of Dawn on Watch] | Hmph. Knowing we are out here risking our lives for people like that drains my motivation to save the world.
+0017 [Imperial Guard on Duty] | Let's drop the depressing talk. We shouldn't let Logistics' hard work go to waste.
+0018 [Laru] | Exactly! I have fries and ice cream right here. This combo will recharge your body and mind, helping you catch that Tyrant in record time!
+0019 [Sentinel of Dawn on Watch] | I appreciate the thought. We definitely need the sodium after sweating this much, but ... fries in the middle of a desert?
+0020 [Laru] | Heh, you don't eat them plain. You dip your fries in the ice cream. Here, give it a try.
+0021 [Sentinel of Dawn on Watch] | Is that even a thing...==W== Munch munch...
+0022 [Sentinel of Dawn on Watch] | W-Wow, this is amazing!
+0023 [Imperial Guard on Duty] | Salty, crispy, sweet, and ice-cold... A perfect storm of flavor! The heat is completely gone! I feel like a new person!
+0024 [Laru] | I am glad you like it! Where are the rest of the Committee members? I need to finish my deliveries.
+0025 [Sentinel of Dawn on Watch] | Most of the First Company went down into the mine with Captain Greyhorn. The rest of us are trying to locate the Tyrant...
+0026 [Wind-Wielding Sentinel] | Searing winds of the golden dunes! In the name of the God of Grace, I command thee, carry these sands into the mine!
+0027 [Sand-Wielding Sentinel] | O sands imbued with magic and Grace, engrave the distant unseen into my eyes!
+0028 [Laru] | (So they're teaming up to scout the mine...? One sentinel controls the wind to carry the sand inside, while the other controls the sand and uses enchanted grains to sense living creatures.)
+0029 [Laru] | (That range on the wind spell, plus that level of sensory perception... They are tough enough individually. If combined, ==PLAYER_NAME== will have nowhere to hide down there.)
+0030 [Laru] | (If I ever want to slack off in peace again, I need to find ==PLAYER_NAME== and deliver the intel fast.)
+0031 [Imperial Guard on Duty] | Hey, hold it right there. Captain Greyhorn strictly forbade anyone outside the First Company from entering the mine. It is about to turn into a warzone down there. Way too dangerous for Logistics.
+0032 [Sentinel of Dawn on Watch] | Thanks for the effort. Drop the fries and ice cream here and go get some rest.
+0033 [Laru] | Rest? No, no, no. Absolutely not. If I leave them here, the fries will get soggy, and the ice cream will melt! Ensuring every single ally gets the perfect fry-to-ice-cream ratio is my duty!
+0034 [Laru] | You are fighting tooth and nail for the fate of the world. How could Logistics possibly sit back and relax?
+0035 [Laru] | Please let me into the mine. I want to do my part to save the world too!
+0036 [Sentinel of Dawn on Watch] | S-Such dedication!
+0037 [Sand-Wielding Sentinel] | I have visual! The sands show the white-haired Tyrant and ==SEX3== sole bodyguard hiding near the White Cat secret room!
+0038 [Wind-Wielding Sentinel] | Alerting Captain Greyhorn! You lot, on me. We are bagging the Tyrant this time!
+0039 [Imperial Guard on Duty] | Yes, Captain!
+0040 [Sentinel of Dawn on Watch] | Hey, Logistics slacker... No, ultra-hardworking Laru! You can fight too, right?!
+0041 [Laru] | You bet! My spear packs enough volts to knock a person out cold.
+0042 [Sentinel of Dawn on Watch] | Then fall in, bring the fries and ice cream. You are absolutely right. All of us need to do our part for the world. Let's catch the Tyrant together!
+0043 [Laru] | Copy that! Moving out!
+0044 [Laru] | (Heh. Operation Fry-and-Ice-Cream Infiltration is a go. Now I need to reach ==PLAYER_NAME==.)
+0045 [Lugar y hora] | 13:35, Nebula Month 18th, Mirage, Deep in the Mine
+0046 [Vigilant Sentinel of Dawn] | Captain Greyhorn, we got word from the investigation team. The Tyrant and ==SEX3== sole bodyguard are in the tunnel straight ahead.
+0047 [Greyhorn] | Spread into battle formation. Rein in your magic. We are only here for the primary target. Ignore the accomplices.
+0048 [Greyhorn] | Remember, incapacitate anyone defending the Tyrant. Lethal force is unnecessary.
+0049 [Confused Sentinel of Dawn] | Why? Are we really going to let the people helping the Tyrant destroy the world walk away?
+0050 [Angry Sentinel of Dawn] | Those stubborn fools injured our comrades in Philae. They deserve to die!
+0051 [Greyhorn] | Our mission has always been to save the world. Killing the Tyrant is merely a means to that end.
+0052 [Greyhorn] | The Tyrant's companions are irrelevant to this goal.==W== Do not complicate the mission, and do not cause needless casualties.
+0053 [Greyhorn] | This is a direct order from Lady Angie! It is also my command. Anyone who disobeys will face military punishment!
+0054 [Vigilant Sentinel of Dawn] | Captain Greyhorn, the Tyrant is fleeing toward your position.
+0055 [Greyhorn] | Copy that. Leave it to me.
+0056 [Noya] | Careful, footsteps ahead. Go on without me, ==PLAYER_NAME==. I'll hold them off.
+0057 [Tú] | Wait, Noya! They aren't the enemy!
+0058 [Noya] | Chitose?! What are you doing here?
+0059 [Chitose] | My ==SEX11==! And Noya! I've finally found you!
+0060 [Greyhorn] | Scatter! Her strikes are heavy, and the tunnel is narrow. Do not bunch up!
+0061 [Fuyuka] | I-I'm sorry! I don't want to fight you, but ... I cannot let you capture Master!
+0062 [Boss (Nazuna)] | Nice hit, Fuyuka!
+0063 [Boss (Nazuna)] | Give 'em a right hook!
+0064 [Boss (Nazuna)] | Smash those tin cans right into the wall!
+0065 [Greyhorn] | To move that fast with such a heavy weapon... Girl, if only you used your talents to protect the peace of Nova.
+0066 [Fuyuka] | Y-You're the ones destroying the peace! Master hasn't done anything wrong!
+0067 [Greyhorn] | Talking makes you lose focus. Just as I thought.
+0068 [Fuyuka] | Oh no! Master!
+0069 [Greyhorn] | Meet your end, Tyrant. If taking one life stops this madness, I will gladly bear the sins!
+0070 [Boss (Nazuna)] | Aaaah! I'm dying—
+0071 [Nazuna] | As if!
+0072 [Greyhorn] | I stabbed ... a coat?
+0073 [Nazuna] | Hahaha! That makeup artist is amazing! She even rigged a teleport spell to this disguise!
+0074 [Greyhorn] | You're not the Tyrant... Given your height... Nazuna from the Petal Bloom?
+0075 [Nazuna] | Oh? Am I that famous?==W== Wait, what do you mean "your height"?! I'm remembering your face, you drafty tin can!
+0076 [Greyhorn] | Where is the Tyrant?!
+0077 [Nazuna] | Like I'd tell you! Come on, Fuyuka, let's bring down this entire tunnel!
+0078 [Fuyuka] | You got it!
+0079 [Nazuka] | O Western Wind, when wilt thou blow? When shall the gentle rain fall?
+0080 [Narración] | ==Off==A pale green breeze swirls around Nazuka. Soft yet unyielding, it forms a barrier against the searing yellow wind in the tunnel, keeping every grain of enchanted sand away from her companions.
+0081 [Narración] | Guided by her hand, threads of green energy seep into the hot wind, diverting the sands down an adjacent tunnel.
+0082 [Tú] | Nazuka... You're here too? When we last spoke, you were still in Philae. Were you actually...
+0083 [Nazuka] | Did you think I would sit around in Philae waiting? That is hardly my style.
+0084 [Nazuka] | We stayed in Philae to cover for you, but the Salvation Committee seemed to have somehow tracked you down in the desert, so we decided to sneak over and help.
+0085 [Nazuka] | We can discuss the details later. Now that we've found you, Nazuna and Fuyuka can drop the decoy act, and I can stop holding back!
+0086 [Lugar y hora] | 13:40, Nebula Month 18th, Mirage, Mineshaft Entrance
+0087 [Sand-Wielding Sentinel] | I see them! Captain Greyhorn has the Tyrant surrounded, along with that frail, white-haired bodyguard next to ==SEX4==.
+0088 [Wind-Wielding Sentinel] | White hair? That's not right. None of the New Star Guild have white hair ... and neither do the heavy hitters in the White Cat Troupe.
+0089 [Wind-Wielding Sentinel] | Who did you actually see?==W== Ugh...!
+0090 [Sand-Wielding Sentinel] | What's wrong?
+0091 [Wind-Wielding Sentinel] | The wind! I'm losing control of the air currents in the mine! Dang it, who has magic this strong?!
+0092 [Imperial Guard on Duty] | I hear howling! Everyone, grab onto something! Anything!
+0093 [Sentinel of Dawn on Watch] | I-I can't hold on! Aaaah...!
+0094 [Laru] | W-What a crazy wind! Whoever cast that must be furious.==W== Good thing I'm hauling all these heavy fries and ice cream, or I would've blown away too!
+0095 [Laru] | ==PLAYER_NAME==, just how many ridiculously strong companions do you even have...?
+0096 [Lugar y hora] | 13:45, Nebula Month 18th, Mirage, Deep in the Mine
+0097 [Nazuka] | Phew. All clean. Every last grain of that annoying sand has been blown out.
+0098 [Nazuna] | Boss, we're back!==W== Fuyuka caved the tunnel in and trapped that drafty tin can on the other side, along with a whole bunch of Imperial Guards and Sentinels of Dawn!
+0099 [Fuyuka] | I-I'm sorry! I broke a lot of things. I heard this place belongs to the Desert Scorpions... Um... Should I pay for damages?
+0100 [Chaton] | Whoa, even more Trekkers overflowing with dark power! And don't sweat the damages. If the Scorpions come knocking, I'll pay them back in bullets! Hehe.
+0101 [Tú] | Everyone...==W== You're all here.
+0102 [Chitose] | Yes. Your companions from Philae,==W== your friend Minova from Emor,==W== and the witch, Mistique, from Scarlet Sights Media. We've all come to assist you, My ==SEX11==. They are on standby outside the city.
+0103 [Iris] | Even Ashwind is here... Are we really doing a final showdown with the Salvation Committee right here? Ugh... There's no way we win this.
+0104 [Amber] | Boss, what do we do next?
+0105 [Tú] | Wh-What should I do... What else ... can I do?
+0106 [Iris] | Even Ashwind is here... Are we really doing a final showdown with the Salvation Committee right here? Ugh... There's no way we win this.
+0107 [Amber] | Boss, what do we do next?
+0108 [Tú] | Running is useless. The decapitation strike is useless.
+0109 [Tú] | If I want to protect everyone, I have to utilize absolutely every piece of intel I gathered from the last two attempts.
+0110 [Tú] | I need to leave Angie in charge of the Committee, pick a battlefield that keeps the kids and citizens out of the crossfire, and force a showdown.
+0111 [Tú] | No wars of attrition. I'm going to wipe them all out in one fell swoop!
+0112 [Iris] | Even Ashwind is here... Are we really doing a final showdown with the Salvation Committee right here? Ugh... There's no way we win this.
+0113 [Amber] | Boss, what do we do next?
+0114 [Tú] | Noya... Y-You're okay, right?
+0115 [Noya] | Huh? Me? I'm perfectly fine.
+0116 [Tú] | Um...==W== No wound on your shoulder?==W== Your ribs aren't hurt either, right?
+0117 [Noya] | Wh-Why are you asking that out of nowhere? Of course I'm not hurt!==W== You aren't trying to peek at my belly right here, are you...
+0118 [Tú] | Thank goodness!
+0119 [Noya] | Wh-Why are you hugging me all of a sudden?! Hey, hey, everyone is watching!
+0120 [Tú] | It's okay. It's okay. None of that is going to happen.
+0121 [Tú] | Noya, don't worry about your intuition. It's completely wrong. I promise you, I will never, ever leave you.
+0122 [Noya] | Huh? Ehhhhh?! S-Seriously, ==PLAYER_NAME==, what are you talking about? What intuition? I never had any kind of intuition like that.
+0123 [Noya] | Wait, how did you know?!
+0124 [Iris] | Boss, what did you just say to Noya? This is the first time I've ever seen her blush this hard.
+0125 [Tú] | It's nothing.==W== I just didn't want Noya to keep worrying.
+0126 [Tú] | Nazuka, Chitose, Nazuna, Fuyuka... And everyone else on their way to back us up.
+0127 [Tú] | Thank you all for getting here in time. It must've been tough coming all the way from Philae without sending a word. If you hadn't moved to back us up on your own, the Salvation Committee would've had us trapped here.
+0128 [Nazuka] | Boss, how... How do you know all that? Did Firenze contact you?
+0129 [Tú] | No. Let's just say that, as your Boss, and possibly the legendary Tyrant, I can see the future.
+0130 [Tú] | Since running away is useless, and I can't protect everyone this way...
+0131 [Opción] | Tactical Retreat
+0132 [Opción] | Decapitation Strike
+0133 [Opción] | Monolith Showdown
+0134 [Opción] | Betting Everything
+0135 [Tú] | Since we don't know the enemy's strength, let's evacuate the mine and pull back to Mirage to protect the orphanage and the citizens.
+0136 [Allie] | Boss...
+0137 [Tú] | Regardless, this is between me, Boss Accord, and the Salvation Committee. Mirage shouldn't get caught in the crossfire.
+0138 [Kasimira] | Boss, Mirage is the home of the White Cats too. We will fight alongside you.
+0139 [Tú] | Thank you, Kasimira. And you too, Chaton and Benito.
+0140 [Tú] | Chitose, Nazuka, fill me in on everything that's happened over the past few days while we head out.
+0141 [Chitose] | Yes, My ==SEX11==. We will catch you up on everything...
+0142 [Nazuka] | ... in complete detail.
+0143 [Tú] | Everyone, Angie and her Salvation Committee may be coming in full force, but they're nothing to fear.
+0144 [Tú] | I already have a plan to beat them!
+0145 [Tú] | Listen up. We are going to utterly crush the Salvation Committee.
+0146 [Nazuna] | Huh? Boss, what are you talking about?==W== We only have...
+0147 [Tú] | It's more than enough.==W== As long as we get inside that Monolith, we can overcome their numbers and turn this entire war around.
+0148 [Tú] | Let's go ... to the Monolith.
+0149 [Noya] | Monolith?
+0150 [Tú] | Yeah. This is the only way I can protect everyone here in Mirage.
+0151 [Narración] | I put the Throne, which could no longer make a sound, into the pocket on my chest...
+0152 [Narración] | ... and head towards the Monolith.

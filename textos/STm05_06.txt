@@ -1,0 +1,123 @@
+# Capítulo 5 · Una chispa en la oscuridad · 6 · Different Philosophies
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Hurried Team Member | Hurried Team Member
+N:Mandrake Radiant Grass | Mandrake Radiant Grass
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg2_958 | Weed Brawler
+N:avg3_100 | Sylar
+N:avg3_1260 | Weed Brawler
+N:avg3_134 | Mina
+N:avg3_136 | Ruby
+N:avg3_180 | United Harvest Researcher
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | Different Philosophies
+0003 [Intro] | With ingredients brought by Noya and Fuyuka and the help of Radiant Grass, you finally crack the recipe and uncover the key to the bread mystery: magically ripened flour.
+0004 [Lugar y hora] | 22:00, Calor Month 3rd, Greenhouse District in Philae, United Harvest R&D Department
+0005 [Noya] | Phew! Shift's finally over.
+0006 [Hurried Team Member] | Heading out, Noya? Wanna walk together?
+0007 [Noya] | Nah, gonna put in some overtime.==W== Fuyuka's staying with me.
+0008 [Hurried Team Member] | So dedicated.==W== Don't burn yourself out, okay? See ya.
+0009 [Noya] | Don't sweat it, stamina's my middle name! Catch you tomorrow!
+0010 [Noya] | Phew... Coast is clear. Let's get cracking!==W== Fuyuka, got the stuff we wished for at the Monolith?
+0011 [Fuyuka] | Mhm. I stashed it all in the corner next door. Pretty sure nobody noticed.
+0012 [Noya] | Classic Fuyuka, always one step ahead!==W== Alright, eyes on the prize! We're gonna keep baking Tawny Nightingales until we nail that recipe!
+0013 [Fuyuka] | But what do we do with the finished ones? People are bound to notice if they pile up.
+0014 [Noya] | We'll just take 'em home and snack on 'em later. Tawny Nightingales stay fresh basically forever anyway!
+0015 [Noya] | Let's do this. Judging by the texture, I say we start with a one-to-one mix of flour and sawdust.
+0016 [Fuyuka] | Got it. I'll grab the ingredients.
+0017 [Narración] | A few days later.
+0018 [Lugar y hora] | 8:00, Calor Month 13th, Greenhouse District in Philae, United Harvest Factory
+0019 [Mistique] | Noya, any progress on cracking the recipe?==W== We've been living on Tawny Nightingales for ten days straight!
+0020 [Noya] | I can feel it! The dawn of victory is rising just over the horizon.
+0021 [Mistique] | You mean the kind of horizon you can never actually reach?
+0022 [Fuyuka] | W-Well... There are just too many seasonings to test. We have to bake so many batches, and kneading the dough takes forever...
+0023 [Mistique] | Kneading dough, huh?==W== I've got an idea. I'll bring some extra hands tonight.
+0024 [Lugar y hora] | 22:00, Calor Month 13th, Greenhouse District in Philae, United Harvest R&D Department
+0025 [Mistique] | Hi girls.
+0026 [Tú] | Evening, Noya. Fuyuka.
+0027 [Fuyuka] | Evening, Master.==W== Um... Are you and Mistique the "extra hands" we were promised?
+0028 [Mistique] | Hah! As if.==W== Here are your extra hands—
+0029 [Noya] | Whoa! What kind of monster is that?!
+0030 [Mistique] | Not a monster. It's Mandrake Radiant Grass, straight from the factory. Show 'em the ropes and they'll be kneading dough in no time.
+0031 [Noya] | So that's what Mandrake Radiant Grass looks like.
+0032 [Mina] | Mistique! Are you insane?!
+0033 [Mina] | You can't just swipe Radiant Grass from the factory floor! That is a major protocol violation!
+0034 [Mistique] | Oh look. Mina's here.
+0035 [Mina] | I came to help Noya and Fuyuka, not walk in on you breaching company policy!
+0036 [Mistique] | Aww, look at that. Great minds think alike!
+0037 [Mina] | We are nothing alike. I don't break rules.==W== We're here to expose misconduct, not commit it! You're defeating the entire purpose!
+0038 [Mistique] | Chill out. I got approval from the higher-ups to bring 'em along.==W== Oh, speak of the devil.
+0039 [Ruby] | Hehe! Not totally sure what's happening, but I brought the Radiant Grass to help!
+0040 [Mina] | Um, Ruby... Are we allowed to take them off the factory floor?
+0041 [Ruby] | It's just a little kneading, no biggie!==W== Besides, Radiant Grass has infinite untapped potential just waiting to be unleashed!
+0042 [Ruby] | It's the perfect opportunity! If they can help R&D, maybe the brass will finally reconsider restarting the Radiant Grass project!
+0043 [Ruby] | Alright, little guys!==W== Watch how Noya and Fuyuka knead and learn!
+0044 [Mandrake Radiant Grass] | Heeeee—ya— ♪
+0045 [Narración] | A wave of Radiant Grass floods in. Copying Noya, they mix flour with sawdust and start kneading.
+0046 [Lugar y hora] | 1:00, Calor Month 14th, Greenhouse District in Philae, United Harvest R&D Department
+0047 [Noya] | Success! Taste this. Isn't it a dead ringer for a real Tawny Nightingale?
+0048 [Mina] | Hmm, let me see.==W== That coarse texture... The sawdust finish...==W== Even with a margin of error, it's ninety-nine percent Tawny Nightingale.
+0049 [Tú] | Many hands make light work...==W== Or rather, many Grasses. With hundreds of Mandrake Radiant Grasses on the job,==W== we churned out endless variations and nailed the recipe in no time.
+0050 [Tú] | Now we can cross-check this against Production's recipe and spot the discrepancy.
+0051 [Mistique] | Hehe. Actually, we might not need to go anywhere.
+0052 [Tú] | Hm?
+0053 [Mistique] | This batch isn't just ninety-nine percent Tawny Nightingale.==W== We've got a Golden Nightingale in here, too.
+0054 [Mina] | A Golden Nightingale?
+0055 [Mistique] | This slice right here, baked by Radiant Grass #82.==W== Here, Fuyuka, have a taste.
+0056 [Fuyuka] | Wow... So soft!==W== Munch...==W== Mm, sweet too.
+0057 [Fuyuka] | Master, it really is a Golden Nightingale.
+0058 [Noya] | I-I made a Golden Nightingale? Impossible. I used standard ingredients! I remember this loaf just had ... slightly less chaff?
+0059 [Tú] | Is there another loaf with identical ingredients, just with a different amount of chaff?
+0060 [Noya] | Yep.==W== Try this slice from #81.
+0061 [Mina] | This taste...==W== It's a slightly less offensive Tawny Nightingale,==W== but definitely not a Golden one.
+0062 [Tú] | Strange. Nearly identical ingredients, yet the texture is worlds apart? The secret to the Golden Nightingale can't just be that pinch of chaff.
+0063 [Fuyuka] | Not the chaff, and not the seasoning...
+0064 [Noya] | Then it's gotta be the flour!==W== Hey, #82, show me which bag you used?
+0065 [Mandrake Radiant Grass] | Eeyaa!
+0066 [Noya] | This flour feels different.==W== Definitely not the standard stuff.
+0067 [Lugar y hora] | 2:00, Calor Month 14th, Greenhouse District in Philae, United Harvest Warehouse
+0068 [Mina] | Sorry for the 2 AM wake-up call, everyone.
+0069 [Iris] | It's okay, Mina. Did Noya and Fuyuka make a breakthrough with the recipe?
+0070 [Mina] | Yes.==W== We've cracked the Tawny Nightingale formula, and we also found out what's causing the line to spit out those Golden Nightingales.==W== Look at this.
+0071 [Mina] | This is the manifest for the flour we bought straight from Production yesterday.
+0072 [Mina] | We found a sack where the wheat had been artificially ripened with magic.
+0073 [Amber] | Magic? Ripened?
+0074 [Mina] | Exactly. R&D supposedly had an old project to speed-grow crops with magic. They managed to shrink the growth cycle down to a tenth.
+0075 [Tú] | A tenth of the time ... means ten times the yield.
+0076 [Mina] | But magic-grown crops are hollow shells. The wheat looks real, the flour looks real, but it's got zero nutrition.
+0077 [Mina] | Human stomachs can't digest magic, after all.
+0078 [Mina] | Ring any bells?
+0079 [Fuyuka] | The Golden Nightingale!
+0080 [Tú] | The Mandrake Radiant Grass on the line can't tell flour types apart, so they'd never spot the difference.==W== Just like we thought: the problem is a blind spot in the protocol.
+0081 [Mistique] | So at daybreak, we start hitting the greenhouses one by one?
+0082 [Mina] | No need. I've got a faster way.
+0083 [Mina] | Iris and I have been crunching the greenhouse data for days. Now we know what to look for—the magic-ripened wheat. We can pinpoint the source just by checking the records.
+0084 [Mistique] | Sounds like a ton of data. Want me to borrow Mandrake Radiant Grass for you? They're great at hauling heavy files.
+0085 [Mina] | Thanks, but no. I'm not breaking protocol.
+0086 [Mina] | You should all get some rest. I'll have the data processed by morning.
+0087 [Iris] | I'm staying to help.
+0088 [Lugar y hora] | 5:00, Calor Month 14th, Greenhouse District in Philae, United Harvest Warehouse
+0089 [Iris] | Greenhouse 25, done.==W== Ugh, look at the time. Mina, think we can actually finish before sunrise?
+0090 [Mina] | I've cleared 50 through 99. Send over a few of the earlier ones—I'll take them off your plate.
+0091 [Iris] | Th-That's fast!==W== How? We split the workload evenly...
+0092 [Mina] | It's your method, Iris. You're going about it the wrong way.
+0093 [Mina] | Let me guess. You're auditing everything—seeds, fertilizer, water, yield, and packaging?
+0094 [Iris] | Right. That's the most rigorous way... A single mismatch will prove there's a problem.
+0095 [Mina] | You're not wrong, but your priorities are backwards.
+0096 [Mina] | You're processing one greenhouse at a time. But remember the goal:==W== we need to catch the ones using illegal magical ripening.
+0097 [Mina] | For that, just check the labor hours.
+0098 [Mina] | They can fake the other stats, but crops still have to be picked. If they're using magic, the harvest frequency spikes way above normal. That, they can't hide.
+0099 [Iris] | Oh... I get it. You're right. Those anomalies are way more obvious.
+0100 [Iris] | Is... Is this the difference between me and a real company pro?==W== If I'd thought like this back then...==W== Maybe I wouldn't have been rejected.
+0101 [Mina] | Hey, I didn't learn this on day one, either.==W== And don't forget—you passed Lady Firenze's interview on your own merit.
+0102 [Mina] | Have a little faith. We're all works in progress.
+0103 [Iris] | Thanks, Mina.==W== Alright, let's push through and find that last bit of data.

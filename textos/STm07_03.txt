@@ -1,0 +1,129 @@
+# Capítulo 7 · El precio de la estrella · 3 · Bid Day
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_145 | Otoha
+N:avg1_150 | Laru
+N:avg1_151 | Yunshu
+N:avg1_152 | Jiyue
+N:avg2_977 | Alpha Boar
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_146 | Residente del Distrito de Oro
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_150 | Albedo
+N:avg3_152 | Bastelina
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Three 
+0002 [Intro] | Bid Day
+0003 [Intro] | The guests from the recent banquet reemerge as your rival bidders. While you and Firenze try to untangle the ulterior motives behind these coincidences, Vita issues a bold new objective: Acquire a Monolith.
+0004 [Narración] | Five days later.
+0005 [Lugar y hora] | 11:30, Venatio Month 13th, Gold District in Philae, Executive Office
+0006 [Firenze] | Boss, here's the equity transfer contract for the United Harvest Philae branch.
+0007 [Firenze] | Forty-one percent of the greenhouses,==W== buildings,==W== and fields out there now belong to Boss Accord.
+0008 [Firenze] | Should I start calling you the big boss now, Boss?
+0009 [Tú] | Call me whatever you want.==W== Sounds the same to me anyway.
+0010 [Firenze] | Alright, if Boss wants to keep the status quo... What do we do about the "Philae branch" title?==W== Technically, we're a joint venture now.
+0011 [Firenze] | Any thoughts on a new name, Boss?
+0012 [Tú] | A new name...==W== Let's drop "branch" and go with "United Harvest Philae."==W==
+0013 [Firenze] | Huh?==W== No Boss Accord in the title?
+0014 [Firenze] | Normally,==W== a merger like this goes by "United Harvest & Boss Accord Philae Joint Venture,"==W== or a compound name like "Boss Harvest."
+0015 [1] | That's not necessary. Boss Accord better keep a low profile for now.==W== Besides, a major rebrand might disrupt operations,==W== and updating signage just costs way too much.
+0016 [1] | Dropping "branch"==W== is the cheapest fix!==W==
+0017 [Firenze] | Heh, always watching the bottom line.==W== Speaks like a true boss.
+0018 [1] | It's not purely about saving money.==W== Back then...
+0019 [Firenze] | Boss, here is my wish.
+0020 [Firenze] | Join me. Let's change United Harvest, together.
+0021 [1] | You wished for us to "change United Harvest together."
+0022 [1] | Anyway,==W== here in Nova, every Seal of Grace comes with a franchise patent.
+0023 [1] | I assume United Harvest's patent has something to do with food?
+0024 [Firenze] | Correct. United Harvest holds a black "Castle" piece, and the patent covers food—==W==specifically, bulk grain trading.
+0025 [Firenze] | They are not concerned with family farms and independent bakeries.==W== But if anyone tries to run a large-scale agricultural operation, the company steps in.
+0026 [1] | To fix United Harvest, we have to do it from the inside.
+0027 [1] | With HQ still holding forty-nine percent of United Harvest Philae, total independence isn't happening...
+0028 [1] | But with Boss Accord backing you, they can't just do whatever they want anymore.
+0029 [1] | Once your model proves profitable while also helping the customers, the other branches—maybe even HQ—will rethink their approach.
+0030 [1] | Trust me. Keep your eyes on the goal==W== and give it everything you've got.
+0031 [Firenze] | I appreciate the vote of confidence, but ...==W== what's your angle?
+0032 [Firenze] | You took on thirty billion in debt for those shares, and now you're bidding. Sure, it's a joint venture,==W== but doesn't Boss Accord shoulder all the risk?
+0033 [Tú] | If we pull this off, we earn the trust of both you and the Grand Inspector.==W== For Boss Accord's future,==W== that kind of leverage is priceless.
+0034 [Firenze] | You're ...==W== actually serious?
+0035 [Tú] | Well, you're on the hook for all our Tawny Nightingales==W== and travel rations.==W== Plus==W==...==W==
+0036 [Tú] | The sooner I grant your wish,==W== the sooner I get to officially collect that soul of yours.
+0037 [Firenze] | Heh. You're something else, Boss.==W== Hate to admit it,==W== but I'm starting to see why Darcia is so obsessed with you.
+0038 [Firenze] | The first Monolith bidding session kicks off at 2:00 PM. I'll double-check our paperwork and pick you up in an hour.==W== Get some rest.
+0039 [Tú] | Will do.==W== See you.
+0040 [1] | Phew. Can't "fight" on an empty stomach.==W== I should go track down Noya and the others for a bite.
+0041 [1] | If Iris sees this stock transfer contract==W== and realizes we've put thirty billion Dorra of debt on the books,==W== she's going to pass out==W==...==W==
+0042 [Vita] | Apologies for the interruption, Tyrant.==W== I have important news.
+0043 [Tú] | Huh?
+0044 [Vita] | The Well of Worlds Tyrant Development System has issued a new objective.==W== Your second mission is to acquire a Monolith.
+0045 [Tú] | How thoughtful of this system. Its missions always seem to align perfectly with my current plans.
+0046 [Vita] | Not quite, Tyrant.
+0047 [Vita] | The objectives and their release timings are predetermined. As for the uncanny coincidence,==W== I suspect the mission designer possessed a gift for prophecy.
+0048 [Tú] | I don't care about the coincidence. I want to confirm something else:==W== completing this mission grants me new powers and higher authority in the system, right?
+0049 [Vita] | Correct.
+0050 [Tú] | Understood.==W== I'll get it done.
+0051 [Vita] | Tyrant, I am detecting a shift in your attitude toward the system and its missions.
+0052 [Vita] | Anomaly detected.
+0053 [Vita] | My system indicates you are experiencing confusion.
+0054 [1] | Heh. For someone who doesn't understand human feelings,==W== you're surprisingly sensitive to my moods.
+0055 [Narración] | I hold my phone up. The chess piece on the lanyard catches the sunlight.
+0056 [Tú] | It's hard not to change==W== after everything we've been through lately.
+0057 [Darcia] | Even though I cannot stand by your side, please remember:==W== every other company in this world is your enemy.
+0058 [Tú] | Holding this Seal grants immense power.==W== But wielding it when I can barely protect myself...==W==
+0059 [Tú] | It is like painting a massive target on my back.
+0060 [1] | I've only survived this long==W== on pure luck.
+0061 [1] | From Darcia's twisted loyalty,==W== running into a highly unusual assassin like Otoha at the banquet,==W== the White Room, to my friends backing me up...==W== we've scraped by one crisis after another.==W==
+0062 [1] | That can't continue.==W== If I want to protect myself and my crew,==W== I need actual power and resources.
+0063 [1] | Vita,==W== this is what the system wants me to realize, isn't it?
+0064 [Vita] | That is correct, Tyrant.==W== But please remember, the system is meant to safeguard your journey,==W== not control your fate.
+0065 [Tú] | Its ultimate purpose doesn't matter. I decide where this journey takes me.
+0066 [Vita] | You are one step closer to becoming the true Tyrant.==W== I shall take my leave.==W== One day, you will reclaim your rightful throne.
+0067 [Lugar y hora] | 13:00, Venatio Month 13th, Silver District in Philae, Soul Shop
+0068 [Bastelina] | Boss, you made it!==W== Your cute little clerk Bastelina has been waiting ages for you.
+0069 [Tú] | Oh, hey Bastelina. It's been a while...==W== Wait,==W== when did you get to Philae?
+0070 [Bastelina] | The bigwigs at the Grace Imperium are completely swamped with the Monolith bidding. They sent me over as backup! I was actually at the banquet earlier, too!
+0071 [Bastelina] | Oh, right! There's someone I want you to meet.==W== This is my senior from the Purchasing Department,==W== Laru.==W==
+0072 [Laru] | Hey there. I'm Laru.==W== I'm vetting the bidding qualifications for all the companies this time around.
+0073 [Laru] | So if you're the Boss, that makes you the rep for Boss Accord.==W== And United Harvest Philae is using your Seal of Grace for this bid, right?
+0074 [Tú] | Yep. As a shareholder, Boss Accord is fully backing United Harvest Philae's bid.
+0075 [Laru] | Oh? A joint venture jumping into the bidding war? You guys must have a lot of free time.==W== Anyway,==W== good luck with that.
+0076 [Tú] | Straight down to business. She's a serious one.
+0077 [Bastelina] | Right this way, Boss,==W== Lady Firenze.==W== I'll show you to the lounge.
+0078 [Lugar y hora] | 13:20, Venatio Month 13th, Silver District in Philae, Soul Shop Lounge
+0079 [Tú] | Whoa,==W== it's packed here.==W== I'm seeing a lot of familiar faces from the banquet.
+0080 [Firenze] | Looks like the Grace Imperium called this Monolith bid on short notice,==W== taking advantage of all the company reps already being in Philae to snoop on the Darcia incident.
+0081 [Firenze] | Otherwise, rounding all these people up would've taken a month at least.
+0082 [Tú] | If that's true...==W== There might be an ulterior motive behind this whole bid.
+0083 [Firenze] | Wouldn't be the first time the Grace Imperium pulled a stunt like this.==W== Sit tight and rest up. I'm gonna track down some contacts from the other companies and see what I can dig up.
+0084 [Tú] | I'm counting on you.
+0085 [Tú] | Oh, free drinks and snacks. Nice touch.==W== Munch, munch...==W== These fries aren't bad.
+0086 [Tú] | Hold on,==W== why is every single snack bowl filled with fries?!
+0087 [Laru] | Yoo-hoo!==W== Enjoying the fries, Boss?
+0088 [Tú] | Oh, hey Laru. Yeah, they're authentic. Taste identical to the ones wished for from the Monolith.
+0089 [Laru] | See, Bastelina?==W== Even the Boss appreciates my fries!
+0090 [Bastelina] | That doesn't excuse filling every single bowl with the same snack.
+0091 [Laru] | What do you mean "the same"?==W== Look—==W==sea salt, BBQ, cheese!==W== Back me up, Boss.
+0092 [Tú] | Well, the flavors are different...
+0093 [Laru] | I knew it!==W== You get me,==W== and you get fries!==W== Here, try this batch.==W== Spirit of Brutality flavor! Eating them feels like getting punched in the face by a fry.==W== The kick is unbelievable!
+0094 [Tú] | Weren't you acting completely normal a minute ago?!==W== What's with the sudden fries fanaticism?!
+0095 [Bastelina] | Laru, I have important business to discuss with Boss.==W== Could you take your fries and wait for us over there?
+0096 [Laru] | You got it!==W== And for the record, Bastelina explicitly told me to "eat fries while I wait." This isn't slacking off.==W== Catch ya later,==W== Boss!
+0097 [Tú] | Thanks for the save, Bastelina.==W== I was about to get force-fed the entire range of fries.
+0098 [Bastelina] | Ahaha, she means well.==W== She's just incredibly passionate about fries. Seeing you enjoy her spread probably made her day.
+0099 [Tú] | Can't say I entirely get it, but the fries obsession is loud and clear.==W== Anyway, what was this "important business"?
+0100 [Bastelina] | Oh, that's just a little white lie to rescue a VIP client.==W== Let her keep going, and she'd talk right through the Monolith bidding.
+0101 [Tú] | VIP client? Me?
+0102 [Bastelina] | Of course! You emptied your security safe, but I still manage it. That makes you a VIP to your favorite clerk.
+0103 [Bastelina] | And as a client perk,==W== allow me to offer you some ... special services.
+0104 [Bastelina] | Hehe. Won't take up much of your time. Step over here with me please?

@@ -1,0 +1,141 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 4B · What Victory Brings
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_132 | Minova
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_136 | Angie
+N:avg1_144 | Chitose
+N:avg1_156 | Nazuna
+N:avg1_163 | Greyhorn
+N:avg3_100 | Sylar
+N:avg3_152 | Bastelina
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | What Victory Brings
+0003 [Intro] | Angie is finally captured, while Greyhorn takes the chance to retreat. You gather at Eureka and refute Angie's claims. Before anyone could celebrate, an injured Bastelina arrives with terrible news...
+0004 [Lugar y hora] | 15:11, Nebula Month 18th, Mirage, Abandoned Mineshaft
+0005 [Greyhorn] | Ma'am, are you hurt?
+0006 [Angie] | I'm fine.
+0007 [Angie] | Where are we?
+0008 [Greyhorn] | The ground gave way. Looks like an abandoned mineshaft.
+0009 [Greyhorn] | Get behind me. The Tyrant must have set an ambush down here.
+0010 [Fuyuka] | H-Hello! Um... I hope my punch didn't hurt you too badly. I held back as much as I could!
+0011 [Greyhorn] | You're with the Tyrant?
+0012 [Fuyuka] | M-Master is not the Tyrant! Stop making things up!
+0013 [Angie] | Greyhorn, go. Leave before the rest of the Tyrant's forces arrive. I grant you full command of the Salvation Committee.
+0014 [Greyhorn] | Ma'am, what are you saying? I am not even a Committee member. How can I take command?
+0015 [Angie] | Your Grand Captain's orders were to follow my commands, right?
+0016 [Angie] | Then this is my command. You are the only one left who can lead the Committee. You must kill the Tyrant.
+0017 [Chitose] | None shall leave. For the safety of my ==SEX11==, this shaft will be your tomb.
+0018 [Tú] | Be careful, Chitose. That knight knows her way around a sword.
+0019 [Greyhorn] | What a ferocious battojutsu stance. The scouts mentioned a black-clad Trekker guarding the Tyrant. That must be her.
+0020 [Chitose] | My blade ... slipped right off her armor?
+0021 [Chitose] | The curvature of that plating... It's forged specifically to deflect slashes?
+0022 [Chitose] | Then I must aim for the gaps.
+0023 [Greyhorn] | Even with a rapier, I can't match her speed. At this rate... I'll have to risk it.
+0024 [Narración] | Hyaaah—
+0025 [Chitose] | She stepped into the strike? Taking the blow on her breastplate to force a counter?!
+0026 [Chitose] | To think such a technique exists.
+0027 [Greyhorn] | The armor held, but I still can't land a hit. Is this going to be a war of attrition?
+0028 [Tú] | Chitose, watch out for Angie!
+0029 [Chitose] | A mere bullet. If I can see it, I can sever it.
+0030 [Tú] | Chitose, fall back! Your blade can't pierce that armor. Secure Angie!
+0031 [Tú] | Fuyuka, take Greyhorn!
+0032 [Greyhorn] | Dammit, the Tyrant saw through my defense. Fuyuka... Is that the timid Trekker from earlier?
+0033 [Greyhorn] | Step aside. I don't want to hurt you.
+0034 [Tú] | Fuyuka. Strike.
+0035 [Fuyuka] | I-I'm so sorry!
+0036 [Greyhorn] | Agh!
+0037 [Greyhorn] | My ribs... I think they're broken. Imperial plate is useless against heavy blunt force.
+0038 [Angie] | Greyhorn, run! Remember your orders!
+0039 [Greyhorn] | Forgive me, Lady Angie. I will come back for you.
+0040 [Angie] | Ugh...
+0041 [Chitose] | My ==SEX11==, her tendons are severed. She can no longer wield the Scepter.
+0042 [Angie] | Heh. You win, Tyrant.
+0043 [Angie] | I haven't heard a single cannon shot. Was my Committee on the dunes ambushed as well?
+0044 [Tú] | I brought a little "rain" down on the dunes. Your Third Company should be busy struggling in the sand right now.
+0045 [Tú] | Chitose, stop her bleeding. We're moving out.
+0046 [Tú] | The battle for Mirage is over.
+0047 [Lugar y hora] | 16:00, Nebula Month 18th, Mirage, Eureka Bar
+0048 [Chitose] | Inside. And no sudden movements.
+0049 [Noya] | ==PLAYER_NAME==! You actually caught her! That's amazing!
+0050 [Tú] | Chitose and Fuyuka did all the heavy lifting.
+0051 [Nazuna] | Heheh, great job, Fuyuka! That's our Petal Bloom captain for you.
+0052 [Fuyuka] | You both worked really hard too, Nazuna, Nazuka! Master told me you buried their artillery in sand?
+0053 [Nazuna] | Ugh, don't even get me started.
+0054 [Nazuna] | Boss, I might know a little Terra magic, but I'm no Hazana! Sand isn't exactly my specialty!
+0055 [Nazuka] | But you did fine, didn't you? You pulled enough sand into my cyclone to dump a literal storm on their camp. They were completely buried.
+0056 [Nazuna] | I was pushing myself to the absolute limit! I couldn't drag you down. But pulling all that sand left my brain feeling fried.
+0057 [Nazuna] | I'm not casting a single spell for three days. No, make that a week!
+0058 [Nazuna] | I need a plushie... A big, soft, nice-smelling plushie to recover.
+0059 [Tú] | Thanks, Nazuna. You're our only Terra mage, so I had to lean on you. I'll buy you a life-sized plushie once we leave Mirage.
+0060 [Nazuna] | Promise?
+0061 [Tú] | Promise.
+0062 [Nazuna] | Yay! Thanks, Boss!
+0063 [Minova] | Yo, Boss. It's been a minute.
+0064 [Tú] | Good to see you, Minova. How are the kids in the Ashwind Clan doing?
+0065 [Minova] | Thriving, thanks to you.
+0066 [Minova] | The Boss Accord carries a lot of weight now. With me officially on the payroll, the street gangs don't dare mess with us.
+0067 [Minova] | A few of the older ones are even sitting for the Platinum Academy entrance exams next year.
+0068 [Tú] | That's amazing.
+0069 [Tú] | Allie's going to be thrilled.
+0070 [Minova] | Hell of a tactical call, by the way. We hit them right as they were priming the cannon. They couldn't turn it around in time.
+0071 [Minova] | That captain, Gunhild, was stubborn as a mule, though. I beat her until she couldn't even stand, and she was still trying to swing at me.
+0072 [Minova] | I had to jam my bat down her cannon barrel and snapped it off. That'll take her half the day to dig out.
+0073 [Tú] | You snapped it? Then what's that in your hand?
+0074 [Minova] | Haha, come on, Boss. Who brings just one bat to a street fight?
+0075 [Minova] | Anyway. This woman with the busted hands... This is Angie, right?
+0076 [Angie] | Minova, of the Ashwind Clan... Heh. You even have street urchins from the Ash District traveling all the way for you, Tyrant.
+0077 [Angie] | Just how many people have you beguiled? How many souls have you bound?
+0078 [Minova] | Huh? Bound souls?
+0079 [Minova] | I figured a big shot like you would have something profound to say after getting caught.
+0080 [Minova] | Turns out, you're completely full of it.
+0081 [Minova] | We didn't rush out here because of some soul control. We came because Boss actually looked out for us.
+0082 [Angie] | That was simply ... a calculated move. ==SEX1== needed to buy your loyalty.
+0083 [Minova] | What's your little group called again? The Salvation Committee?
+0084 [Minova] | Cute name. But let me ask you:==W== when Feagin was running rampant in the Ash District, beating kids and running sweatshops, where were you?
+0085 [Minova] | When that massive Stellaroid broke out of the Monolith, and boulders from the Waterway crushed countless homes, where were you then?
+0086 [Minova] | If you claim that Boss was just buying loyalty, why didn't you step up and buy us first?
+0087 [Angie] | The Salvation Committee has limited resources. We must prioritize what is essential to saving the world.
+0088 [Minova] | Bull. You ignore the suffering right in front of your faces. You won't even lift a finger when it's easy.
+0089 [Minova] | And now we're supposed to believe you're out here saving the world? Only a fool would buy that!
+0090 [Angie] | You... You understand nothing!
+0091 [Minova] | I don't need to understand your twisted logic!
+0092 [Minova] | You think killing Boss is going to save the world?
+0093 [Minova] | I say putting a round through your skull is what'll really save the world!
+0094 [Angie] | Then pull the trigger.
+0095 [1] | Minova, stand down.
+0096 [Tú] | We're not here to be executioners. The battle is over. We just hold her until Firenze and the Dusk Arbiters arrive to put the Committee on trial.
+0097 [Angie] | Heh... Hahaha. You are truly naive, Tyrant.
+0098 [Angie] | Did you honestly believe capturing me would end this?
+0099 [Angie] | Your ambush in the mineshaft surprised me. But it also proved something.
+0100 [Angie] | Anticipating my artillery was one thing. But using the mineshaft to lay a trap... That was a tactic I had only ever formed in my mind. And yet, you knew it.
+0101 [Angie] | At that moment, it all made sense.
+0102 [Tú] | What are you getting at, Angie?
+0103 [Angie] | Tell me, Tyrant. Can you see the future? Or ...==W== did you travel back from it?
+0104 [Tú] | What?
+0105 [Angie] | That expression says it all. I must have won in the future you saw. You had absolutely no counter to my final card.
+0106 [Angie] | I will kill you, and I will save this world.
+0107 [Fuyuka] | Master, what... What is she talking about? Has she lost her mind?
+0108 [Noya] | She's just throwing a tantrum because we beat her.
+0109 [Amber] | She's losing it.
+0110 [Tú] | What does Angie mean? Seeing the future? Traveling back?
+0111 [Tú] | Does she know about the White Room?
+0112 [Tú] | No. That's impossible. I countered too many of her moves, so she's just grasping at theories.
+0113 [Tú] | Wait, think about it. I initiated the parley this time. She had zero time to prepare. That means ... her goal for the negotiation was different from last time. She wasn't trying to lure me into a trap.
+0114 [Tú] | She came to the table while setting up an artillery strike.==W== Was it a suicide mission? Or does she ... actually have an unplayed trump card?
+0115 [Bastelina] | Huff... Huff...==W== I finally found you! Boss, why are you still here?!
+0116 [Tú] | Bastelina? What are you doing here?
+0117 [Iris] | The battle is over. Why would we run?
+0118 [Bastelina] | It's not over! Without Lady Angie to maintain discipline, the Committee's ranks broke. They abandoned the order of only targeting the Tyrant!
+0119 [Bastelina] | What's coming next isn't just a strike team hunting one target. It's an all-out war!
+0120 [Bastelina] | You have to ... run...!
+0121 [Tú] | Bastelina! What's wrong?
+0122 [Iris] | Blood! She's hurt... Her back is soaked in blood!

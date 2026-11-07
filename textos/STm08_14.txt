@@ -1,0 +1,175 @@
+# Capítulo 8 · Calor residual · 11 · Mirage's Daily Routine
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Huckleberry | Huckleberry
+N:Kid Leader | Kid Leader
+N:Polite Knight | Polite Knight
+N:Standard Bearer | Standard Bearer
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_139 | Allie
+N:avg2_967 | White Cat Mercenary
+N:avg2_968 | White Cat Mercenary
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_1274 | Loong Resident
+N:avg3_1304 | Chaton
+N:avg3_143 | Residente
+N:avg3_156 | Guardia Imperial bajito
+N:avg3_157 | Guardia Imperial
+N:avg3_167 | Chica
+N:avg3_168 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_210 | Hazana
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Eleven
+0002 [Intro] | Mirage's Daily Routine
+0003 [Intro] | You witness the White Cats clash with the Imperial Guard, while the local kids scavenge the dropped gear and sell it back to them—just another day in Mirage. Allie mentions that a Monolith once stood here years ago...
+0004 [Lugar y hora] | 10:30, Nebula Month 11th, Mirage, Main Street
+0005 [Standard Bearer] | White Cats, last chance. Lay down your weapons and surrender. The Imperial Guard will guarantee your safety.
+0006 [Standard Bearer] | Pack up and leave Mirage. Go be a Trekker in a real city, find honest work. It beats eating sand out here.
+0007 [Kasimira] | Same old routine from the Imperial Guard?
+0008 [Chaton] | Right? A few days ago they promised everyone a million Dorra if we surrendered.==W== No mention of that today. Bet this guy pocketed it.
+0009 [Kasimira] | Let them talk. The White Cats won't surrender, and the Guard wouldn't accept it anyway.
+0010 [Chaton] | Works for me. Every battle feeds my dark power. One day, the great Chaton will rule this entire desert.
+0011 [Kasimira] | Hey, tin cans. Save your breath.==W== You want a fight, let's go.
+0012 [Chaton] | Oh dear,==W== I love war.
+0013 [Standard Bearer] | You White Cats have no honor! A sneak attack?!
+0014 [Chaton] | What are you babbling about?==W== You came here for a fight. There is no such thing as fighting dirty.
+0015 [Kid Leader] | Watch and learn, rookies. Imperial Guard versus White Cats.==W== First those tin cans lose their armor, then they rally. Every time.
+0016 [Iris] | You sure about that?==W== The White Cats have maybe a dozen fighters, but the Guard has over a hundred. Shouldn't this be over in a flash?
+0017 [Noya] | Yeah.==W== The Guard has solid gear. Magic bullets probably barely scratch that enchanted armor.
+0018 [Kid Leader] | You don't get it. If they don't take a beating, how are we supposed to scavenge? Watch.==W==
+0019 [Standard Bearer] | Fall back!==W== Fall back!==W== Ditch the heavy gear and run!
+0020 [Kid Leader] | That is our cue.==W== Let's move!
+0021 [Noya] | Haha, this is great!==W==
+0022 [Narración] | Three days ago, Allie practically forced us to stay at the orphanage to rest.
+0023 [Narración] | In half a day, she learned to drive Loxy, shocking even Noya, and headed into the desert to search for the Monolith.
+0024 [Narración] | She also worked her contacts, asking the Desert Scorpions and White Cats about the missing Monolith.
+0025 [Narración] | We planned to watch the kids for her, but as it turned out...
+0026 [Kid Leader] | Split up! Kids take the lances and arm guards.==W== Newbies, grab the breastplates. Split 'em in half and stack 'em.
+0027 [Amber] | On it.==W==
+0028 [Narración] | Instead, the kids schooled us on Mirage street smarts.
+0029 [Kid Leader] | That's enough. Guard's pushing back. Let's go.==W== Leave some scraps for the White Cats.
+0030 [Standard Bearer] | Knights, counterattack!==W== Remember to take pictures.==W== We need proof of work.
+0031 [1] | Crap, I grabbed too much...==W== I can barely carry it.
+0032 [Kid Leader] | I'll help.
+0033 [Tú] | Th-==W==thanks.
+0034 [Kid Leader] | Don't sweat it. You're Mom's kids too, so we're family. And family helps each other.
+0035 [Tú] | That family helps each other rule sounds like the New Star Guild.==W== Did Allie teach you that?==W== You even covered for me with the White Cats earlier.
+0036 [Kid Leader] | Yep!==W== Mom always says family helps each other.
+0037 [Tú] | Makes sense. No wonder you're all so well-behaved.==W== I never caught your name. I'm ==PLAYER_NAME==. You?
+0038 [Huckleberry] | Huckleberry.==W== Mom says it's a berry, but they don't grow in the desert.
+0039 [Huckleberry] | If you want out of the desert, our only option is the Desert Scorpions.==W== The Imperial Guard won't take orphans, and the White Cats aren't hiring.
+0040 [Huckleberry] | ...==W== But Mom says that's absolutely out.
+0041 [Noya] | Then be a Trekker! We climb Monoliths across Nova and grab Artifacts.==W== Become a Trekker, and you can go anywhere.
+0042 [Huckleberry] | A Trekker ... like you?
+0043 [Noya] | Yep! You gotta learn swords and magic first. You need to protect yourself out in the Wilds, after all.
+0044 [Huckleberry] | Then...==W== Can you teach us? Mom's always busy, and I don't wanna bother her.
+0045 [Noya] | Sure thing!
+0046 [Narración] | Three Days Later
+0047 [Lugar y hora] | 10:30, Nebula Month 17th, Mirage, The Daisy Orphanage
+0048 [Noya] | Ready—==W==
+0049 [Noya] | High left!==W==
+0050 [Noya] | Low right!==W==
+0051 [Noya] | Watch your blind spots. Keep those blades moving!
+0052 [1] | Th-==W==this is hard.
+0053 [Noya] | You'll get the hang of it.==W== But hey, ==PLAYER_NAME==,==W== what are you doing crashing the kids' class?
+0054 [Tú] | I figured ... if I learn how to fight, I won't slow you all down on the road.
+0055 [Noya] | Makes sense in theory, but our forms rely on channeling magic. Since you can't use Soul Stones, even perfect technique won't keep you alive against a veteran Trekker.
+0056 [Tú] | I know, but something is better than nothing.==W== People are actively trying to assassinate me. If I learn the fundamentals, at least I'll understand how an attacker thinks.==W== Makes escaping a lot easier.
+0057 [Noya] | Fair point. Knowing yourself and your enemy is the golden rule of combat. Come here, let me teach you a move that actually suits you.
+0058 [Tú] | Suits me? I can't practice with the kids?
+0059 [Noya] | Preferably no. Those kids already have a solid foundation, and you're starting from absolute zero.==W== It's only normal you can't keep up.
+0060 [Noya] | So let's take it at your own pace.==W== Alright, slash diagonally from your right shoulder down to your left hip.==W== Try it out.
+0061 [1] | Like this?
+0062 [Noya] | Your shoulder is way too stiff. Don't force the swing. Let the sword's weight carry the momentum.==W== Like this...==W== Hiyah!==W== Whoosh, swish!==W== Feel that?
+0063 [1] | Let the sword carry the momentum...==W== Hiyah!==W== Whoosh,==W== swish!
+0064 [Noya] | Nice! Think of it like snapping a whip. Stay loose, then explode with power at the very end. That's the secret to a heavy hit.==W== Got it?
+0065 [Noya] | Great. Now lock that feeling in,==W== and give me two hundred practice swings.
+0066 [1] | T-Two hundred?
+0067 [Noya] | Two hundred is a warmup!==W== You'll gradually bump that up to five hundred a day. Then a thousand. You and the sword need to become one.
+0068 [1] | Urgh... Fair enough. I appreciate the private lesson.==W== Did Allie train you like this when you were a kid?
+0069 [Noya] | Nope.==W== Iris's books were our swordplay teacher.
+0070 [Amber] | My shooting teacher was also books.==W== Auntie was busy every day,==W== earning Dorra.
+0071 [Iris] | Well, she had a lot of mouths to feed. Plus, Aunt Allie was terrifying back then.==W== She single-handedly kept the Ash District gangs in line—==W==nobody dared step foot on our street.
+0072 [Iris] | And she hated the idea of us playing with weapons anyway. She wanted us to study...==W==
+0073 [Noya] | She used to nag me about it all the time!==W== "If you've got time to train, you've got time to read!"==W== That kind of thing.
+0074 [Iris] | That's odd. How did she change this much? She's actually letting the kids scavenge armor now. Back in our day...==W==
+0075 [Amber] | Sneaking around ... just to go to the Waterway.
+0076 [Tú] | I guess it's just about adapting.==W== In Mirage,==W== figuring out how to survive and stay safe has to come first.
+0077 [Tú] | This isn't exactly the kind of place where you can study in peace.
+0078 [Noya] | Oh, that makes sense...==W== Aunt Allie really does think of everything.
+0079 [Huckleberry] | Heh heh, we bring in more than half the orphanage income nowadays!==W== Oh hey,==W== a customer.
+0080 [Polite Knight] | Hello?==W== Is the armor we requested ready to go?
+0081 [Huckleberry] | Coming!==W== Take a look. Every piece we scavenged is right here.==W== Polished up and good as new!
+0082 [Polite Knight] | Excellent work. You buffed out every minor scratch. Even a strict auditor wouldn't spot a flaw.
+0083 [Huckleberry] | Heh, Mom taught us the trade. You can always count on us.
+0084 [Polite Knight] | Oh, I certainly do. Please send Director Allie my best regards.==W== She set my bone and stitched me up after I fell off a roof. I would have had a permanent limp if it weren't for her.
+0085 [Polite Knight] | As a token of my gratitude,==W== I heard the director was asking around about a vanishing Monolith?
+0086 [Huckleberry] | Yeah, she is! We tried asking some Imperial Guard and White Cat Troupe members about Mirage's history, but they shut down the second we mentioned it.
+0087 [Polite Knight] | Makes sense. Now I hardly know the whole story myself, but I did find a strange record while browsing the Imperial Guard archives...==W==
+0088 [Polite Knight] | Apparently an arbiter from the Dusk Arbiter took a squad of knights into an undiscovered desert Monolith to hunt heretics.==W== They completely vanished inside.==W== Nobody ever saw them again, dead or alive.
+0089 [Tú] | An arbiter, knights, heretics...==W== Could I have been one of them before losing my memory?
+0090 [Polite Knight] | Though that was well over a century ago.==W== Probably not much help to your search.==W==
+0091 [Huckleberry] | No way, that is a fascinating clue!==W== Thank you so much for the tip.
+0092 [Polite Knight] | Happy to help.==W== Here is your payment for the armor.
+0093 [Huckleberry] | Thanks for your business!==W==
+0094 [1] | Allie's incredible.==W== I had no idea she could treat injuries.
+0095 [Iris] | Not like the medicine Doctor Coronis practices.==W== But Aunt Allie is great at treating wounds, setting bones, and stitching people up.==W== Maybe she used to be a nurse.
+0096 [Huckleberry] | No way, Mom must've been a tailor.==W== The little trinkets and clothes she sews are a huge hit here in Mirage.
+0097 [Huckleberry] | That's where the orphanage gets the rest of its money. But some of her other creations...==W==
+0098 [Huckleberry] | Ah, Mom!==W== You're back!
+0099 [Allie] | Huckle, ==PLAYER_NAME==, and all my sweet children.==W== Have you been behaving yourselves while I was gone?
+0100 [Huckleberry] | We sure did!==W== They helped us scavenge armor and weapons from the battlefield. We made a ton of Dorra!
+0101 [Amber] | I was good too. I didn't put on the White Cat outfit.==W== I stayed in my pajamas.
+0102 [Noya] | I taught the kids some swordplay.==W== I figure it will come in handy later.
+0103 [Iris] | I organized the orphanage's accounts.==W== But, um...==W== Why are we running a deficit at a place called the Eureka Bar?
+0104 [Allie] | Ah... Well...==W== I tried selling some food I made from an ancient recipe there.==W== G-Guess it wasn't a hit.
+0105 [Allie] | Ahem, anyway. I found some leads on that Monolith you're looking for.==W== I asked around with my old contacts in the White Cats and Desert Scorpions, and got intel you won't hear on the streets.
+0106 [Allie] | About ten years ago, there was a Monolith near Mirage.==W== No one could get inside, but it was absolutely there. I even saw photos of it.
+0107 [Allie] | Back then, the turf wars between the White Cats, Desert Scorpions, and Imperial Guard were much worse.==W== The White Cat leader wanted to end the senseless fighting,==W== so she arranged a sit-down with the Scorpions' leader and a Guard representative right at the foot of the Monolith.
+0108 [Allie] | Somehow the White Cat leader managed to blast open the walls of the Monolith.==W== That shouldn't even be possible from the outside.==W== She took the Scorpions' leader and the Guard representative inside,==W== and then they all vanished along with the Monolith itself.
+0109 [Allie] | Only two people know what actually happened during that negotiation.==W== Kasimira from the White Cats and Hazana from the Desert Scorpions.==W== They were the only ones present at the scene==W== who didn't disappear.
+0110 [Iris] | Blasted open ...==W== the walls of the Monolith...==W==
+0111 [Noya] | Wait, doesn't that mean...==W==
+0112 [Amber] | The Monolith where we found ==PLAYER_NAME==.==W== Its walls were wrecked.
+0113 [Allie] | After hearing that,==W== I went out to where the Mirage Monolith used to be and dug through the dunes.
+0114 [Tú] | You dug? Through the sand dunes?!
+0115 [Allie] | Yes. If a battle actually took place there, and an explosion powerful enough to breach a Monolith went off, there would still be traces.==W== Even after ten years.
+0116 [Allie] | And then I found these fragments.==W== They're definitely not ordinary stone. It's an exact match for the Monolith walls I've seen before.
+0117 [Allie] | How many blasted-open Monoliths could there be?==W== I bet the Monolith that vanished from Mirage==W== is the exact one you're looking for.
+0118 [Noya] | B-But the place where we found that Monolith ...==W== is at least a ten-hour drive from Mirage!
+0119 [Iris] | The Monolith ... moved?==W== No, that's impossible. It has to be a coincidence. They must have blasted two different Monoliths...==W==
+0120 [Amber] | Clues are great,==W== but no Monolith==W== means no proof.
+0121 [Allie] | We can find it.==W== Once I verified that old story,==W== my source gave me another lead.
+0122 [Allie] | The White Cats have a secret room here in Mirage. It holds a way to track Monoliths.
+0123 [Noya] | Find the room, find the Monolith. Prove who ==PLAYER_NAME== is.==W== Got it.==W== Let's go negotiate!
+0124 [Iris] | But ... aren't they the ones who assassinated the Empress?==W== They already broke in here over Amber's clothes.==W== Will they even hear us out?
+0125 [???] | Assassinated the Empress?!==W==
+0126 [???] | Who started that garbage rumor?! The White Cat Troupe would never do that!==W== When the Empress was alive, we were the most loyal guards!
+0127 [Tú] | Chaton? Hold on, we never said you were the bad guys.
+0128 [Chaton] | Hah! You despicable outsiders. The great Chaton has been busy.==W== I did some digging, and everything you told us at the orphanage==W== was a lie!==W==
+0129 [Chaton] | Sure, you work for United Harvest Philae,==W== but you're also CEO of Boss Accord!
+0130 [Chaton] | And you weren't alone when you went into that orphanage! These three were with you. I know what I saw.
+0131 [Tú] | That much is true.==W== But a closer look would prove we didn't lie.
+0132 [Tú] | Think back to my exact words. I said,==W== "the kids were showing me the way."
+0133 [Tú] | All three grew up in this orphanage.==W== Which means saying these kids are showing me the way wasn't a lie.
+0134 [Chaton] | Hmph, fine.==W== I suppose you weren't impersonating us to cause trouble.
+0135 [Chaton] | But that's not the point!==W== I definitely sensed a surge of dark power that day!
+0136 [Tú] | ...==W== Huh?==W== What do you mean?==W==
+0137 [Chaton] | Nya-ha-ha! Drop the act ♪ Whatever you're plotting in Mirage is far more sinister...==W== Right?
+0138 [Chaton] | Like ...==W== using that immense dark power to destroy the world!
+0139 [Tú] | D-==W==destroy the world?!==W== Wait, Chaton, what are you talking about—==W==
+0140 [Chaton] | Heh!==W== You can fool everyone else,==W== but you can't fool the great Chaton! Not when my left eye pulses with that same dark power!
+0141 [Chaton] | Because you...==W== You're the legendary Tyrant, aren't you?!

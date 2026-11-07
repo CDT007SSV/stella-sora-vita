@@ -1,0 +1,166 @@
+# Capítulo 5 · Una chispa en la oscuridad · 9 · The Responsibility of Decision
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Alert Mercenary | Alert Mercenary
+N:Injured Mercenary | Injured Mercenary
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_135 | Mistique
+N:avg1_138 | Nyx
+N:avg2_964 | Hummingbird
+N:avg2_965 | Lanterna
+N:avg3_100 | Sylar
+N:avg3_120 | United Harvest Forester
+N:avg3_121 | Empleado de Cosecha Unida
+N:avg3_1214 | Pumpka
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_1262 | United Harvest Forester
+N:avg3_134 | Mina
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Nine
+0002 [Intro] | The Responsibility of Decision
+0003 [Intro] | Lady Gray arrives with mercenaries as you destroy the lab. Nyx intervenes to save you, revealing her true identity as a compliance inspector. Joseph unleashes the Blade of Jade, intent on obliterating everything.
+0004 [Lugar y hora] | 22:15, Messis Month 4th, Greenhouse District in Philae, Greenhouse No.100
+0005 [Mistique] | My magic barely scratches them.==W== They're growing back faster than I can destroy them.
+0006 [Mistique] | The door's sealed tight by this overgrowth.==W== If we don't clear it soon, we're never getting out of here!
+0007 [Tú] | Noya and the others are searching,==W== but every greenhouse in this block looks identical. It's gonna take time to pinpoint our location.
+0008 [Tú] | Mina, got anything?==W== Coordinates, floor plans...==W== Give us something to work with, anything!
+0009 [Mina] | The thing is ... this facility isn't on the current district maps.==W== Maybe it was abandoned years ago?
+0010 [Mistique] | Doubt it.==W== The pavement is clean, no weeds. Someone's definitely maintaining this place.
+0011 [Mistique] | As for the door,==W== probably just a side exit that fell into disuse.
+0012 [Mistique] | These vines are crawling up the outer walls, too.==W== I'd bet someone planted them as natural camouflage to hide the building.
+0013 [Mina] | Still,==W== this growth rate is unnatural...==W== What on earth is fueling it?
+0014 [Mistique] | The answer's staring you in the face.==W== Look.
+0015 [Mina] | Jade Grass?!==W== So this place is ...==W== a cultivation site for Jade Grass.
+0016 [Mina] | Why would Sir Joseph need such a massive supply?==W== What exactly is he planning?
+0017 [Mistique] | It's not just the Grass.==W== Mina, look at the residue on their leaves.
+0018 [Mina] | That hue ...==W== and that magical signature...==W== Neo Solution?
+0019 [Tú] | Neo Solution? What's that?
+0020 [Mina] | A volatile magical compound.==W== The Grace Imperium has banned its use.
+0021 [Mina] | Casting spells near it==W== tends to agitate the raw magic inside.==W== Watch—
+0022 [Narración] | Reacting to Mina's magic, the liquid on the leaves instantly pulses with blinding light.
+0023 [Mina] | That fluid is saturated with magic—an absolute feast for monsters.==W== Remember what Sir Joseph told us?
+0024 [Joseph] | We pumped the beast full of high-magic feed, then we used the feathers—and that wind—to turbocharge the Grass.
+0025 [Mina] | I think he's using the Neo Solution to cultivate the Blade of Jade.
+0026 [Mina] | And likely using it to irrigate the Jade Grass==W== to accelerate its growth.
+0027 [Tú] | That tracks. Look at these scattered feathers.==W== Nazuka fought the Blade of Jade. I'll message her to confirm.
+0028 [Mina] | Sir Joseph's misuse of the Neo Solution==W== is a gross violation of company protocol.
+0029 [Mina] | No, it's bigger than protocol.==W== He's breaking the ethical code shared by every major company in Nova.
+0030 [Mistique] | Mina,==W== by your standards,==W== Sir Joseph has already shattered a laundry list of rules.
+0031 [Mistique] | Do you honestly think citing the employee handbook is going to stop a man==W== like him?
+0032 [Mina] | I...==W== I have to believe someone higher up will step in and set this right.
+0033 [Mistique] | Oh?==W== And who exactly is going to be this savior?==W== Firenze?==W== Darcia?
+0034 [Mistique] | Joseph runs R&D.==W== His operation spans nine greenhouses and a private merc army.==W== You really think Darcia and Firenze are in the dark?
+0035 [Mistique] | If they know,==W== do you think they'll actually turn on one of their own?
+0036 [Mistique] | And if they don't,==W== they're incompetent enough to let a conspiracy rot right under their noses.==W== What can you expect from them?
+0037 [Mina] | If...==W== If those two are actually involved...
+0038 [Mina] | I'll take this straight to United Harvest HQ.==W== Surely the whole company isn't rotten to the core.
+0039 [Mistique] | ...==W==
+0040 [Mistique] | Fine.==W== If that's your play...==W== I suggest you let me document everything.
+0041 [Mina] | You want me to let you ...==W== take photos?
+0042 [Mistique] | Of course.==W== You won't stand for United Harvest peddling magically force-grown, nutrient-free garbage to customers, will you?
+0043 [Mistique] | On this, at least,==W== our goals align.
+0044 [Mistique] | Even if you want the company to handle this,==W== you're going to need my photos as evidence.
+0045 [Mina] | I will never let this tainted food hit the shelves.==W== But ...==W== tell me==W==...
+0046 [Mina] | Why are you asking for my permission?==W== You're the one who always says, "The truth is the only thing that matters."
+0047 [Mistique] | Normally, that's true.==W== But...
+0048 [Mistique] | Someone just saved my neck claiming she "couldn't abandon a colleague."==W== Reminded me that I haven't technically quit yet.
+0049 [Mistique] | So, witch or not, I guess I'm still your colleague==W== ...==W== or subordinate.==W== You are the manager of Tawny Nightingale, after all.
+0050 [Mistique] | Seems only fair==W== you get to decide how we use the incriminating photos.
+0051 [Mistique] | Besides, I have a feeling we've barely scratched the surface.==W== There's plenty more dirt to dig.
+0052 [Mistique] | Boss,==W== you're helping us get to the bottom of this, right?
+0053 [Tú] | Absolutely.==W== We've been played from the day we joined,==W== used like tools.
+0054 [Tú] | If they want to use us as bait to flush someone out, fine.==W== Let's see what happens when the bait bites back.
+0055 [Lugar y hora] | 22:30, Messis Month 4th, Greenhouse District, Philae, Greenhouse No.100
+0056 [Pumpka] | Pick 'em clean!==W== Don't leave a single one standing!
+0057 [Lanterna] | Or we could just==W== torch the place!
+0058 [Mistique] | That's the spirit.==W== Keep going==W== until every last Jade Grass is ripped out by the roots.
+0059 [Mistique] | Hey,==W== Boss,==W== you sure about this?==W== Is Joseph really gonna lose his mind over some plants?
+0060 [Mistique] | If I were him,==W== I'd have skipped town ages ago.
+0061 [Tú] | It's the only card we have left to play.
+0062 [Tú] | If he's as obsessed with his research as I think,==W== he won't sit back and watch us trash his masterpiece.
+0063 [Tú] | Besides,==W== with that many mercs—familiar ones, too—==W==he probably thinks he's still got the upper hand.
+0064 [Joseph] | Stop this madness at once!==W== What do you think you're doing?!
+0065 [Mistique] | He actually showed up!==W== Boss, you called it.
+0066 [Mistique] | What's it look like,==W== Sir Joseph?==W== We're weeding.==W== These overgrown things are such an eyesore.
+0067 [Joseph] | Weeds==W==...?==W== You clearly lack the intellect to==W== comprehend the true value of the Jade Grass.
+0068 [Joseph] | Hmph.==W== Since you are held in high regard,==W== I intended to be merciful and let you live.
+0069 [Joseph] | But I've had a change of heart==W==...==W== I'll exterminate you vermin now==W== and explain myself to the master later.
+0070 [Mistique] | We already beat you once.==W== You really think a handful of goons is enough to stop a witch?
+0071 [Joseph] | A handful?==W== Lady Gray,==W== it appears this witch is underestimating you.
+0072 [Lady Gray] | Good evening.==W== I assume==W== we can skip the introductions?
+0073 [Lady Gray] | I am Lady Gray.==W== And I must thank you for your diligent work on the Three Grand Commissions.
+0074 [Tú] | I knew it was you.==W== Your mercenaries were a dead giveaway.
+0075 [Tú] | Aren't you supposed to be lying low at United Harvest?==W== This seems a bit conspicuous, don't you think?
+0076 [Lady Gray] | Me? Lying low?==W== Hahaha!==W== I've secured "that thing," just like the master asked me to.==W== Why on earth would I lie low?
+0077 [Tú] | That thing==W== again==W==...
+0078 [Tú] | Sir Joseph,==W== I'm betting Lady Gray left out the part about what really happened at the camp==W== outside the city.
+0079 [Joseph] | Hm?==W== Are you referring to the Three Grand Commissions?
+0080 [Lady Gray] | Don't listen to ==SEX4==,==W== Joseph!==W== We did exactly what the master asked,==W== and the master will protect us.
+0081 [Mistique] | Oh, you did what she asked of you, sure...==W== By breaking every rule and violating all sense of morality!
+0082 [Lady Gray] | So what? It proves we're the only ones capable enough to be valued by the master.
+0083 [Mistique] | Is that right?==W== The Scarlet Sights archives are full of stories like this.==W== Want to know how they usually end?
+0084 [Lady Gray] | Quiet, witch.==W== Your mind games won't work here.
+0085 [Lady Gray] | Soldiers.==W== Kill them!
+0086 [Joseph] | Hold your fire!
+0087 [Lady Gray] | Joseph, don't tell me you're actually rattled by that...==W== Where did all your rage go?
+0088 [Joseph] | I'm still furious this witch ruined my life's work.==W== But as Director of R&D, I respect the fact.
+0089 [Joseph] | And the fact is:==W== We've been under attack for hours, but there has been no sign of the master, no messages, nothing.==W== Perhaps the witch has a point...
+0090 [Joseph] | We're nothing but pawns, sacrificed on a whim.
+0091 [Joseph] | When a lab glove gets dirty, you trash it. That's exactly what's happening to us.
+0092 [Lady Gray] | Nonsense!==W== We can still fix this==W== if we just get rid of these two right now!
+0093 [Joseph] | Think about it.==W== At least three of them pursued us, but only two are standing here.==W== The third obviously went for backup.
+0094 [Joseph] | There are four Trekkers outside,==W== plus at least one sniper hiding in this greenhouse providing cover.
+0095 [Joseph] | Our fundraising operation for the master is compromised. The whole thing's leaking like a sieve.
+0096 [Lady Gray] | Their help is here already?!==W== How is that possible?
+0097 [Alert Mercenary] | Contact left!==W==
+0098 [Injured Mercenary] | Taking fire from the right!==W== I'm hit!
+0099 [Lady Gray] | It's a trap!==W== Fall back!
+0100 [Joseph] | Gah—!
+0101 [???] | Sorry.==W== Can't let you run off with our star witness.
+0102 [Mina] | Thank goodness...==W== Just in time!
+0103 [Mina] | ==PLAYER_NAME==,==W== how did you figure out Nyx would be here?
+0104 [Amber] | Off ... again?==W== Why does Nyx take every Friday off? She's always late on Thursdays, too.
+0105 [Tú] | Amber gave me the lead.==W== She actually suspected Nyx to be the one behind this whole mess.
+0106 [Nyx] | What made you realize==W== I wasn't the enemy then?
+0107 [Tú] | Luck, mostly.==W== I pieced together what Sapphire and Amber told me, and the pattern was obvious:==W== you were sneaking off every Friday for something else.
+0108 [Tú] | They said Marketing runs you ragged—==W==bossing you around==W== until you're so sleep-deprived you're napping all over the place.
+0109 [Tú] | But you don't have family here in Philae,==W== and you aren't in debt to loan sharks.
+0110 [Tú] | It didn't add up.==W== Why take that abuse if you don't need the money?==W== Either you're a masochist, or you had an ulterior motive.
+0111 [Tú] | And carrying that pillow everywhere?==W== Too theatrical, it broke character.==W== The only logic was that you needed to hide something on you. That made you incredibly suspicious.
+0112 [Nyx] | Spot on. Can't believe that's where I slipped up.==W== Guess my undercover skills need a little polish.
+0113 [Nyx] | Allow me to reintroduce myself. I'm Nyx, an inspector from United Harvest's Compliance Department. I monitor the Philae Branch. The Marketing gig was just a cover.
+0114 [Nyx] | The pillow's for my weapon. But the Fridays off were genuinely for slacking off. Marketing works people to the bone, and I really can't deal with that.
+0115 [Tú] | Did you let Amber notice your schedule on purpose, just to lure us here?
+0116 [Nyx] | Guilty. And thanks for the backup. Handling these mercenaries solo would've been a pain. I owe you one.
+0117 [Tú] | Help us catch Lady Gray and get answers about the orphanage. Then we'll call it even.
+0118 [Nyx] | You've got a deal.
+0119 [Lugar y hora] | 22:45, Messis Month 4th, Greenhouse District, Philae, Greenhouse No.100
+0120 [Joseph] | ...
+0121 [Mina] | Director Joseph,==W== let's move.==W== We have medics waiting outside to patch you up.
+0122 [Joseph] | Don't bother. Just let me rest. I'll tell you everything you want to know.
+0123 [Joseph] | The Jade Grass was a complete accident.
+0124 [Joseph] | Two months back, I hit a wall with the "Magic Ripening" project.
+0125 [Joseph] | Old methods—Neo Solution—were costly, with mediocre results at best. The master demanded a breakthrough. Speed. Efficiency.
+0126 [Joseph] | Just as I was desperate, I heard some Trekkers caught the Blade of Jade outside the city. That monster gave me the spark to engineer the wild Jade Grass.
+0127 [Joseph] | But this new ripening tech wasn't for wheat. The grain was a byproduct—sold to fund the master's true desire: the Intelligent Plants.
+0128 [Joseph] | Magic Ripening exists for them.
+0129 [Joseph] | The master wanted accelerated evolution. We forced reproduction, blasting them day and night with the Jade Grass's magical light.
+0130 [Joseph] | The result is those tanks in the lab. Beautiful, aren't they?
+0131 [Mistique] | You call that beautiful? They made my skin crawl.
+0132 [Joseph] | Heh. You're blind. Those plants will change the world.
+0133 [Joseph] | To aid such a grand design... I have not wasted my life.
+0134 [Tú] | Hey! What are you doing?
+0135 [Joseph] | Heh... Let me show my one last act of loyalty.
+0136 [Joseph] | Heh. It's here. I unlocked the cage before I came out. It'll tear this place apart.
+0137 [Mistique] | Boss! Above you!
+0138 [Mina] | Is that...
+0139 [Mistique] | The Blade of Jade!

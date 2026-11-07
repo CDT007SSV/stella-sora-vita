@@ -1,0 +1,145 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 3A · Ceasefire
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_107 | Tilia
+N:avg1_108 | Kasimira
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_149 | Gerie
+N:avg1_156 | Nazuna
+N:avg1_163 | Greyhorn
+N:avg3_100 | Sylar
+N:avg3_129 | Guardia Imperial
+N:avg3_1304 | Chaton
+N:avg3_1311 | SaiLa F
+N:avg3_150 | Albedo
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Ceasefire
+0003 [Intro] | You and Angie agree to negotiate in two hours, buying time for both sides to regroup and prepare for battle. Firenze sends word: reinforcements will arrive within three days, so you only need to hold out for two.
+0004 [Lugar y hora] | 15:00, Nebula Month 18th, Mirage, Eureka Bar
+0005 [Nazuka] | Boss, we're back.
+0006 [Chitose] | I beg your forgiveness, my ==SEX11==. A wall of knights held me back, and I failed to stop the arbiter who struck at you. I bear the blame entirely.
+0007 [Tú] | Don't blame yourselves. The Committee had us severely outmanned. You both did everything you could.
+0008 [Chaton] | Heh! The great Chaton returns in triumph! Those Committee goons kept scurrying around like rats,==W== but they didn't stand a chance against my surging dark power and flawless beats.==W== Not a single one crossed my line!
+0009 [Kasimira] | Reel it in, Chaton. Arrogance leads to downfall!
+0010 [Kasimira] | Boss, the Committee's warding magic is thick. We fought them off, but hardly left a scratch. The second they reform their ranks, they're coming right for us again.
+0011 [Kasimira] | Sitting here makes us easy targets. We need to move. Chaton, get back out there and scout the mineshafts.
+0012 [Chaton] | Understood! The great Chaton is on her way!
+0013 [Tú] | Hold on. There's no rush. The Committee isn't attacking anytime soon.
+0014 [Tú] | Angie and I just agreed to negotiate in two hours. We have a ceasefire until then.
+0015 [Kasimira] | Negotiate? Boss, don't do it.==W== You can't trust Angie or her Committee for a second.
+0016 [Chitose] | I must agree. She lured you to her quarters once before, my ==SEX11==, only to spring a lethal trap. This is the exact same ploy. Do not fall for it.
+0017 [Nazuka] | We've got the desert and the old mineshafts right outside! We can find a way to slip away. There's zero reason to parley with her.
+0018 [Tú] | I hear you. But the only reason she even offered a truce is that you all fought her to a standstill.
+0019 [Tú] | Before you arrived, Minova checked in. She, Otoha, and Kaede slipped into the dunes in disguise and hit the Committee's artillery camp.
+0020 [Tú] | Mistique also used a fake interview to feed me some intel: the Committee split their raid into three troops.
+0021 [Nazuna] | Three troops... Guess that tin can leads one.
+0022 [Fuyuka] | And... The arbiter who made me see all those awful illusions... That's two.
+0023 [Tú] | Which makes the artillery camp out on the dunes the third.
+0024 [Tú] | When Angie asked for this talk, all three of her forces were compromised. Stuck in the mines, pinned down by you, or blindsided by Minova.
+0025 [Kasimira] | Makes sense. Her board was completely clear. She just needed time to piece her formations back together. The negotiation is a stall.
+0026 [Chitose] | Then I am lost, my ==SEX11==. If you have already laid bare her scheme, why would you ever...
+0027 [Tú] | Because we need that time far more than she does.
+0028 [Tú] | Look at our situation back then. Fuyuka, Nazuna, and Allie had just barely shaken off No. 160's magic. I had no idea if the rest of you were still standing,==W== and the Daisy Orphanage was sitting right in the crossfire.
+0029 [Tú] | Taking her deal was my way of stalling, too.
+0030 [Nazuka] | But ... that's still too dangerous. Let's just run the clock and make a break for it! Boss, I can carry you and fly us straight out of Mirage!
+0031 [Tú] | Two hours won't cut it. Kasimira, how long does it take to evacuate the White Cats and empty the city of civilians?
+0032 [Kasimira] | We're out of capacity. Fifty White Cats shepherding over a thousand people is too much of an undertaking.
+0033 [Kasimira] | Not to mention the sheer amount of supplies we'd need for a desert march. I figure the earliest they'll be ready is tonight.
+0034 [Tú] | Allie is in the same boat. She and Benito are at the orphanage preparing to leave the city with the kids. But in two hours, they won't get far enough.
+0035 [Tú] | So, I'll try to stall them at the negotiation table and buy us some time.
+0036 [1] | It's Firenze. She must have an update on the Dusk Arbiter.
+0037 [Firenze] | Good afternoon, Boss. I've been holding off on a direct line. I didn't want the Salvation Committee tapping our Heartlink.
+0038 [Firenze] | But it's the 18th now. Nazuka's team must have found you. If you're picking up, you must already know about the raid and have it under control.
+0039 [1] | Not exactly under control, but it doesn't matter anymore. We've already clashed with them here in Mirage. If they're listening in, let them.
+0040 [Firenze] | Heh. Fair enough. Judging by your tone, the Committee didn't walk all over you.
+0041 [1] | We barely held the line. They outmatched us in numbers, gear, and magic. Things are grim.==W== What's your status?
+0042 [Firenze] | I diverted the Imperial Guard's grain convoy and hired some extra muscle out of Emor. Roughly two hundred fighters in total.==W== We'll hit Mirage in three days.
+0043 [Firenze] | The Dusk Arbiter also threw in a few arbiters at the last minute.==W== Their leader looks formidable.
+0044 [Firenze] | And Albedo is rallying any Sentinels of Dawn who don't believe you'll destroy the world.==W== They're marching for the desert, about a day behind us.
+0045 [Firenze] | The point is, Boss, just hold the line for three days. After that, the Committee won't be able to touch you.
+0046 [1] | Got it. I'm counting on you. Stay safe out there.
+0047 [Firenze] | You too, Boss.
+0048 [1] | You heard her. We just need to hold out for three days. Actually, make that two. Whether the Committee can listen in on our talks or not, their scouts are gonna spot Firenze's backup long before they get here.
+0049 [1] | Unless they're eager to wage war against United Harvest Philae, the Imperial Guard, the Dusk Arbiter, and the Sentinel of Dawn all at once, they'll pack up and leave early.
+0050 [1] | Alright, let's get to work. Nazuna, Fuyuka, head to the orphanage and help Allie move the kids.
+0051 [Nazuna] | You got it! Come on, Fuyuka, let's go.
+0052 [Fuyuka] | See you soon, Master.
+0053 [1] | Kasimira, I'm trusting you to find us a clear escape route through the mineshafts and to organize the civilian evacuation.
+0054 [Kasimira] | Mirage is home to the White Cats now.==W== We'll give it everything we've got.
+0055 [Tú] | Nazuka, you're the only one here who can take to the skies. Keep an eye on the Committee's movements.
+0056 [Nazuka] | On it.
+0057 [Tú] | Chitose, lock down the streets around Eureka Bar and Daisy Orphanage. Don't let anyone slip past.
+0058 [Chitose] | As you command, my ==SEX11==.
+0059 [Tú] | Wait a minute... Chitose, where are Noya and the others? Weren't they with you?
+0060 [Chitose] | We split up during the fight. They broke off to intercept more groups of enemies.
+0061 [Chitose] | Put your mind at ease, my ==SEX11==. They are all highly capable. They will be fine.
+0062 [Noya] | Boss, I'm back!==W== We sent those Committee goons running for the hills!
+0063 [Noya] | Huh? Where did everybody go? Did we take too long getting back?
+0064 [Tú] | Noya, Iris, Amber! Where have you been? I was starting to panic.
+0065 [Tú] | Phew, Chitose called it. They're okay...==W== Wait,==W== is Noya...?
+0066 [Noya] | Hehe, we just plowed straight through their lines, so we had to take the scenic route back! But never mind that! We bumped into someone on the way and scored some insanely important intel!
+0067 [Tú] | Noya, forget the intel.==W== You're bleeding everywhere! What happened?!
+0068 [Lugar y hora] | 15:30, Nebula Month 18th, Mirage, Daisy Orphanage
+0069 [Noya] | Wah!==W== Mom, easy! Go easy on me! Ow, ow, ow!
+0070 [Allie] | Hold still. A gash this deep has to be cleaned and stitched properly.==W== Iris,==W== hand me the absorbable sutures.
+0071 [Allie] | You got extremely lucky. That magic bullet only sliced your skin. Bones and organs are fine.==W== I've stitched up the muscle layer, now let's seal the outside.==W== Amber,==W== skin adhesive.
+0072 [Noya] | What's that? It looks like some glue wished out of the Monolith.
+0073 [Allie] | It's from our basement stash. You can't wish this one out of the Monolith, no matter how hard you try. It seals the skin up tight without leaving a scar.
+0074 [Allie] | Boss, give me a hand. Pinch the wound closed so I can glue it.
+0075 [Tú] | On it.
+0076 [Noya] | Haha, that tickles! The spot you're pressing really tickles, ==PLAYER_NAME==...==W== Sss!==W== Ouch, I pulled the wound! Ow, ow.
+0077 [Allie] | Oh, so you do feel pain.==W== You absolute fool. Three of you charging an entire formation... Were you thinking at all?
+0078 [Noya] | O-Of course I was! At that moment, I was thinking...==W== Iris, what was I thinking again?
+0079 [Iris] | Well, Mom. We don't have the sheer power of Nazuka or Chitose. We can't just wipe out enemies instantly.
+0080 [Amber] | And unlike the White Cats, we can't just slip away and keep our distance.
+0081 [Iris] | But our teamwork is perfect.==W== No words. No signals. Just three of us moving as one.
+0082 [Noya] | Yeah, exactly! So charging in and fighting like crazy was the best way to stall them! Yep, that was my plan all along.
+0083 [Noya] | Besides, it's just a scratch!==W== It doesn't even hurt anymore. Watch, I can get up right now...
+0084 [Allie] | Sit. You are staying in this bed for thirty minutes. No moving. Or that wound will tear right back open.
+0085 [Noya] | What? Half an hour of no moving?!
+0086 [Allie] | And keep it dry. No heavy exercise for two days. Do not pick at the glue. And for a full week, absolutely no stretching that area.
+0087 [Noya] | Wait, so I can't fight for a week?! Mom, you know how tough I am! I fell off the Waterway as a kid and came out fine. A normal person might need a week to heal, but I'll be fine by tomorrow!
+0088 [Allie] | That's because you fell straight into the pond!==W== And Iris used magic to break your fall!
+0089 [Allie] | Do you know? A fraction deeper and you'd have had massive internal bleeding!==W== Mirage has no doctors. No hospitals. We could have lost you!
+0090 [Noya] | Eek! Mom, please don't be mad. I'll stay put, I swear.==W== B-But I really do have some crucial intel to share.
+0091 [Iris] | Just listen to Mom and rest, Noya. Amber and I will share Laru's intel. Boss already guessed most of it anyway. We just need to go over the combat data for those three Company Commanders.
+0092 [Amber] | I saved it on my phone. Sending over Heartlink now.
+0093 [Allie] | Phew. I need to check on the kids. We can't leave everything to Nazuka. Boss, keep an eye on Noya for me.
+0094 [Tú] | Yeah.
+0095 [Noya] | ==PLAYER_NAME== is watching me? But ... ==PLAYER_NAME== has actual work to do.
+0096 [Tú] | Not at all. My schedule is wide open.
+0097 [Allie] | Because other than me, ==PLAYER_NAME== is the only one who can keep you in line.
+0098 [Noya] | Well, they're gone. Seriously though, is babysitting me for half an hour ruining your plans?
+0099 [Tú] | Nope. Everyone knows their assignments. I'd just be standing around anyway.
+0100 [Tú] | Mirage is surrounded. It's looking incredibly bleak. But when things get this dark, I have to stay calm and look on the bright side. You taught me that, Noya.
+0101 [Tú] | Plus, my friend got hurt. Sitting here with her is pretty important to me. But if you're really worried about delaying our battle prep, let's hear this intel.
+0102 [Noya] | Me? Honestly, Amber's notes are probably way more accurate...
+0103 [Tú] | Maybe. But your instincts are incredibly sharp. I want to hear your gut read on all this.
+0104 [Noya] | My gut read... O-Okay! Take a look at this.
+0105 [Tú] | What are these? Empty fry boxes?
+0106 [Noya] | Yeah. So, we totally smashed right through the Salvation Committee's line, but then some sniper ambushed us out of nowhere.
+0107 [Noya] | Luckily, they only fired twice before stopping.
+0108 [Tú] | Those shots came from the dunes miles outside Mirage. Of course you couldn't spot them.
+0109 [Tú] | They only fired twice because Minova and Kaede snuck into the enemy camp in disguise. They tried to jump Angie and failed, but they totally distracted the sniper.
+0110 [Noya] | Whoa, from that far out?==W== Oh, then I know exactly who it is! Hang on, let me look... Here, inside this box, it says...
+0111 [Tú] | Gunhild. Sentinel of Dawn gunner. Wields the ultra-long-range precision magic cannon, Piercer. Rumor says if Piercer hits you once, it remembers you. Next time, it just auto-aims and fires on its own.
+0112 [Tú] | It also engulfs other magic to temporarily boost its own damage. The more magic it swallows, the deadlier the shell... But the longer it takes to charge.
+0113 [Tú] | Fiercely loyal, respects authority, no bad habits. Top-tier marksmanship. Weakness: incredibly proud of her shooting, and easily irritated.
+0114 [Noya] | I get it! We'll just find a crack shot to provoke her, and she won't be able to aim straight!
+0115 [Tú] | This fry box is an absolute goldmine. How did you even get this?
+0116 [Noya] | It's nuts. You won't even believe me. It happened right after we ducked into the backstreets to dodge the sniper...
+0117 [Noya] | Where we ran into a total fry freak!

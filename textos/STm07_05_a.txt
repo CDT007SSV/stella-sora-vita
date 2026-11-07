@@ -1,0 +1,98 @@
+# Capítulo 7 · El precio de la estrella · 5A · Haunting Thoughts
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_145 | Otoha
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+
+## Texto
+0001 [Intro] | Act Five 
+0002 [Intro] | Haunting Thoughts
+0003 [Intro] | You and Firenze put your heads together to find a way out. Inside an old safe, you uncover a letter from Darcia. Even now, her fierce loyalty and resolve reach across time, striking right at your heart.
+0004 [Lugar y hora] | 16:15, Venatio Month 13th, Gold District in Philae, Executive Office
+0005 [Firenze] | Through thick and thin huh? I'm in. I'll scrape up those 20 billion Dorra even if it kills me.
+0006 [Tú] | Don't jinx it.==W== I'm still banking on those free Tawny Nightingales on the company's dime.
+0007 [Tú] | If you're gone,==W== who's gonna feed us?
+0008 [Firenze] | Oh?==W== So my life is worth less than a free Tawny Nightingale?
+0009 [Tú] | Ah, hey,==W== that's not what I meant...!
+0010 [Firenze] | I'm kidding, Boss. I appreciate you trying to lighten the mood.==W== But don't worry, a little pressure won't break me.
+0011 [Firenze] | Though honestly, raising 20 billion Dorra in two days borders on the impossible.
+0012 [Firenze] | But with all the corporate reps gathered here in Philae—and a few already dropping out—==W==20 billion isn't a pipe dream.==W== Expect good news.
+0013 [Firenze] | As for your end, Omnisky Aegis knows they can't beat you and the New Star Guild at making wishes.
+0014 [Firenze] | Which means==W== they'll play dirty.
+0015 [Tú] | You mean ...==W== like at the banquet? Hiring assassins and mercenaries to ambush us?
+0016 [Firenze] | They might avoid direct violence.==W== There are plenty of ways to sabotage your wishing without firing a shot.
+0017 [Firenze] | Let's face it, Boss, you're practically a celebrity now.==W== With a target that big on your back, tracking the Boss Accord is almost too easy for Omnisky Aegis.
+0018 [Firenze] | You need a wildcard in the shadows—someone off the other companies' radar.==W== Oh, what about that maid?==W== Can you still reach her?
+0019 [Tú] | If you mean Otoha,==W== I've tried messaging her a few times since the banquet.==W== Total silence.
+0020 [Firenze] | Hmm. I'll figure something out.==W== Get some rest, Boss. You have a Monolith to climb tomorrow.
+0021 [Firenze] | ... Ruby?==W== Excuse me a second, Boss.
+0022 [Firenze] | Speaking. What's the situation?
+0023 [Ruby] | Lady Firenze, good news!==W== We finally cracked that safe!
+0024 [Firenze] | The safe? Heh, excellent work.==W== I'm heading over now.
+0025 [Firenze] | Sapphire,==W== you're with me.
+0026 [Sapphire] | Right away,==W== Lady Firenze.
+0027 [Firenze] | Sorry about this, Boss, but could you stick around a bit longer?==W== There's something you need to see.
+0028 [Lugar y hora] | 17:00, Venatio Month 13th, Greenhouse District in Philae, Lab Core
+0029 [Firenze] | This way, Boss.
+0030 [Firenze] | We've cleared out the Intelligent Plants since Darcia's passing,==W== and in that process, Ruby found a safe hidden inside one of the incubators.
+0031 [Ruby] | It's a four-digit code, so I just started guessing from 9999. Finally cracked it at 0606.==W== Ugh, I'd have saved so much time==W== if I'd started from 0000 instead.
+0032 [Sapphire] | I told her to start from 0000, but she insisted 9999 would be faster.==W== Took us three days of messing around to get it open.
+0033 [Ruby] | Whatever,==W== it's open now!==W== Let's see what secrets Darcia was keeping in here!
+0034 [Sapphire] | A bearer check from Deepsea Finance?==W== Wait, for ... 2 billion?!==W==
+0035 [Ruby] | There's a letter, too. It's addressed to ...==W== ==SEX12== Tyrant.
+0036 [1] | A letter for me ... from Darcia?
+0037 [Opción] | Open the envelope
+0038 [Narración] | To Your Majesty.
+0039 [Narración] | By the time you read this, I'll likely be nothing more than a withered branch, burned to ash or buried in the dirt.
+0040 [Narración] | It means you've chosen a future with your companions, and in doing so, you've rejected one with me.
+0041 [Narración] | Truthfully, reaching this end leaves a bitter taste. But if this is the path you've chosen, I'll accept it and take my leave.
+0042 [Narración] | There's something I never told you. While I spent every day longing for your arrival, I feared it just as much.
+0043 [Narración] | Even if granted an audience, was I ever worthy of your salvation? Could I ever earn your approval? It's embarrassing to admit, but despite my bravado, I have no real talent. I know I lack the capability to stand by your side.
+0044 [Narración] | Even after all my research, I knew deep down that these soulless plants—no matter how strong they seemed—weren't the power you sought.
+0045 [Narración] | Perhaps this sounds like an excuse, the bitter rambling of a loser. But in the end, I simply wasn't worth saving. That's all there is to it.
+0046 [Narración] | If, on the day you reclaim your throne, you remember that a soul once offered you everything—that my devotion never wavered despite my fate—then my life was not in vain.
+0047 [Narración] | To wither away holding that belief... There is no happier end for me.
+0048 [Narración] | The Dorra in this safe came from selling my family's estate. It's clean money, and my way of cutting ties with a past I'd rather forget. Please, use it freely.
+0049 [Narración] | It may seem like a pittance when the world eventually turns against you, but being able to help, even in this small way, is my greatest honor.
+0050 [Narración] | I wish I could hear back from you, though I know that's wishful thinking.
+0051 [Narración] | Your Loyal Servant, Darcia
+0052 [Narración] | 35 days ago. The day Firenze finalized plans with Petal Bloom and the New Star Guild to launch the assassination.
+0053 [Darcia] | Welcome back, Firenze.
+0054 [Firenze] | Lady Darcia. Field recon is complete. I have the report here...
+0055 [Darcia] | Stop right there, Firenze. You shouldn't be reporting to me.==W== ==SEX12== Tyrant must be the first to hear any intelligence.
+0056 [Firenze] | My apologies. I'll keep that in mind.
+0057 [Darcia] | Good. ==SEX12== Tyrant recently retired to bed. Go wake ==SEX2== Majesty and bring ==SEX4== down to the lab. I need to make preparations.
+0058 [Firenze] | Right away,==W== Lady Darcia.
+0059 [Darcia] | Your Majesty, your light is still on. Did you leave it on for her?
+0060 [Darcia] | It's time I put that letter away.
+0061 [Darcia] | I'll set the passcode to the day I first read your story. The day you saved me.
+0062 [Darcia] | I only hope my feelings reach you, Your Majesty...
+0063 [Darcia] | And now...==W== I must face my end.==W==
+0064 [1] | ...==W==
+0065 [Firenze] | ...==W==
+0066 [Ruby] | Um... Lady Firenze? Boss?==W== What does the letter say?
+0067 [Sapphire] | ... Alright, time for us to head back, Ruby. We still have paperwork to finish.==W== Boss, Lady Firenze,==W== we'll take our leave.
+0068 [Ruby] | Huh?==W== What paperwork?
+0069 [Sapphire] | Come on!
+0070 [Firenze] | Darcia... I will never forgive you as Firenze de Feltro.==W== But ... your feelings have certainly reached Boss.
+0071 [Tú] | Yeah.
+0072 [Firenze] | You don't need to worry anymore.==W== Rest easy.
+0073 [Tú] | Yeah.
+0074 [Firenze] | I should get back to work.==W== We'll all be busy starting tomorrow—
+0075 [Tú] | Wait, Firenze. Take this check.==W== That makes a tenth of the 20 billion we need.
+0076 [Firenze] | Are you ...==W== sure about this?
+0077 [Tú] | Her letter reads like she knew this would happen.==W== If this is what Darcia wanted, we should accept it and put the money to good use.
+0078 [Firenze] | Understood. We'll do it your way.==W== See you tomorrow, Boss.
+0079 [Tú] | See you tomorrow.
+0080 [Narración] | I slide down against the open safe door and close my eyes. Memories of our time together in this room wash over me.
+0081 [1] | I'm sorry.==W== If I were stronger...==W== Maybe I could have saved you, too...==W==
+0082 [Tú] | If I had reached you==W== before you made that choice...==W== Would things be different now?
+0083 [1] | May you...==W== May you...==W== Find peace at last.
+0084 [Narración] | Good night, Darcia.

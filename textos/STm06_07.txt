@@ -1,0 +1,124 @@
+# Capítulo 6 · Milagro de un destello · 7 · A Reluctant Deal
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_135 | Mistique
+N:avg2_957 | Weed Shooter
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_121 | Empleado de Cosecha Unida
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_1250 | Empleado de Cosecha Unida
+N:avg3_1262 | United Harvest Forester
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_974 | Serena
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Seven
+0002 [Intro] | A Reluctant Deal
+0003 [Intro] | Trust established, you and Firenze exchange intel. She points out that the Bishop piece in the tank is the key to defeating Darcia. You decide to dive in to claim it, making use of your Magic immunity.
+0004 [Lugar y hora] | 18:30, Messis Month 5th, Greenhouse District, Philae, Lab Core
+0005 [Firenze] | Then I shall be direct:==W== accept Lady Darcia's allegiance, bind her with a "soul pact," and order her to surrender to HQ.
+0006 [Firenze] | Let me be perfectly clear, to avoid any ... misunderstanding.==W== Listen well. This is not a request. It is an order. And my rapier is not known for its patience.
+0007 [Firenze] | Only Darcia and her chosen few can enter this sanctum. Don't expect the Intelligent Plants outside to save you.
+0008 [Tú] | Firenze definitely has an angle. But going this far just to force my hand...==W== What's she so desperate about?
+0009 [Opción] | Take one step forward
+0010 [Narración] | A slight sting at my neck. The rapier at my throat trembles for a split second, then snaps back.
+0011 [Firenze] | Boss, you're insane. Have you no fear of death?
+0012 [Tú] | Of course I do. But we don't have time to play games. Besides—
+0013 [Tú] | You aren't on Darcia's side, are you?
+0014 [Tú] | I've pretty much figured out why you cornered me like this...==W== But I need to hear you say it, Firenze.
+0015 [Firenze] | You're right. We aren't allies. But tell me...==W== When did you realize?
+0016 [Tú] | You left too many loose ends.
+0017 [Mistique] | Which means==W== this "Anonymous User" tapped my phone today without me noticing.==W== They sent the request,==W== dropped the intel, then deleted me instantly.
+0018 [Mistique] | As a witch, I've had my share of secret informants.==W== But this is the cleanest job I've ever seen. Didn't feel a thing, can't trace a thing either.==W== Whoever they are, they're a pro.
+0019 [Tú] | First off, our internship at Production. The only person who could've "bumped into" Mistique—==W==and had the skills to tap her phone undetected—had to be a combat specialist.
+0020 [Tú] | If Ruby and Sapphire were that good, they wouldn't have been humiliated by some Mandrake Radiant Grass.
+0021 [Iris] | Wait. If someone sneaks in after the official maintenance, tweaks the settings,==W== then resets them right before the next check...==W== They could do whatever they want, unnoticed!
+0022 [Tú] | And finally, despite the chaos Joseph and the others caused, Production didn't lift a finger. As the Director in charge, that silence points straight to you.
+0023 [Firenze] | Take everyone to the Ash District. Save your explanations for the interrogation room.
+0024 [Tú] | For a split second, I honestly thought you were the one pulling the strings behind all this...
+0025 [Tú] | Until==W== I saw that map in the VIP room.
+0026 [Firenze] | Oh? And what did you find?
+0027 [1] | That was your handwriting on the map, right?==W== You marked the interrogation room in the southwest. Right on the city edge. Hop the wall, and you're in the woods.
+0028 [1] | So, you were turning a blind eye to our escape... No. You wanted us to run, didn't you?
+0029 [Firenze] | Bravo. Dealing with smart people saves me so much effort.==W== I'd planned a little "accident" outside the interrogation room, but Darcia beat me to the punch.
+0030 [Firenze] | Now, my turn. About Nyx, inside that tank...
+0031 [1] | Nyx? I see.==W== So she really is on your side.
+0032 [1] | You want me to get her out?
+0033 [Firenze] | Make no mistake. We accepted that we might be sacrificed for this plan long ago.
+0034 [Firenze] | Success is our only hope. But victory hinges on HQ's cooperation...==W== And they've dragged their feet long enough to let the whole operation spiral out of control.
+0035 [1] | Wait...==W== The legion outside. Were they supposed to attack at dawn? Is that why you were watching the sky?
+0036 [1] | Even if they're a day late, they're close by...==W== We haven't hit a dead end yet, have we?
+0037 [Firenze] | Hard to say.==W== If they were close, they certainly would have noticed the riot inside.
+0038 [Firenze] | Yet they sit idle at the Trekker Camp. Either the commander is incompetent, or the troops lack the discipline to attack after a forced march.
+0039 [Firenze] | Either way, they stand no chance against Darcia.==W== That is why, Boss, I'm offering you a soul pact. Provided you can—
+0040 [Opción] | No. I can't.
+0041 [Tú] | My soul pact doesn't control people. I can't just force a surrender.
+0042 [Tú] | She looks loyal, sure, but that loyalty runs on her own twisted logic. She doesn't blindly obey my orders.==W== And where did you hear about "soul pacts," anyway?
+0043 [Firenze] | An information broker told me...
+0044 [Tú] | Was this broker in a cloak?
+0045 [Firenze] | Yes. The one based at the Trekker Camp.
+0046 [Tú] | Serena. Figures. I'll save my breath, then. I grant a wish, and the price is your soul.
+0047 [Tú] | In other words, I take your soul, then I grant your wish.
+0048 [Firenze] | Grant my wish...
+0049 [Tú] | Yeah. But even with a pact, I can't control Darcia.
+0050 [Tú] | I can let the house arrest slide.==W== But hurting my friends? That's where I draw the line. Petal Bloom's exile, Mistique getting hurt—that's all on her.
+0051 [Tú] | I was planning to sabotage her crazy scheme anyway. Since our goals align,==W== you don't need a pact. I'll help you.
+0052 [Firenze] | Are you serious? You'll help me ...==W== for nothing?
+0053 [Tú] | Yep.==W== Honestly, I hate using soul pacts myself. So I'm not asking for any payment.
+0054 [Firenze] | Is that so? Then this negotiation is over. Pretend I never mentioned a partnership.
+0055 [Tú] | Huh? What?! Hold on, this isn't a joke!
+0056 [Firenze] | Do I look like I'm joking?==W== Besides, I refuse to owe anyone favors.
+0057 [Firenze] | Listen. Without payment, there's no liability.==W== A "price" is the only guarantee that a partner is reliable.
+0058 [Firenze] | Yet you claim you want nothing. Isn't that just saying==W== you won't take responsibility for the outcome?
+0059 [Tú] | I was being too naive...==W== Maybe Firenze's strength is that composure—she never wavers. And also...
+0060 [???] | So please, my Tyrant, don't become a star once more.
+0061 [???] | The same old road leads to the same old ends.
+0062 [Tú] | She really checkmated me there.
+0063 [Tú] | Be rational, Firenze.==W== Darcia is a formidable opponent.==W== We need every ounce of combat prowess we can get right now. You should prioritize working with me...
+0064 [Firenze] | Am I to understand ...==W== that you're begging for my assistance?
+0065 [Tú] | Huh?==W== Have our positions just reversed...
+0066 [Firenze] | Sigh...==W== You be rational. I simply expect you to show the resolve required for this.
+0067 [Firenze] | Did I not make myself clear? Let's use a more formal term then...==W== "Alliance." Our lives are on the line here,==W== so I need to know you're truly prepared for the consequences.
+0068 [Tú] | You're making a soul pact the condition for our partnership?
+0069 [Firenze] | Precisely. But don't misunderstand. This doesn't mean I trust you.==W== By the way, I heard a rumor that...
+0070 [Firenze] | Completing a soul pact makes one an official Boss Accord employee.==W== And the Accord protects its staff's souls,==W== granting immunity to harmful mental magic.
+0071 [Tú] | Tch...==W== Did Serena leak that to you, too?
+0072 [Firenze] | No...==W== It was Fuyuka... Darcia asked her about it on the day of the ceremony, and she excitedly spilled every single detail.
+0073 [Tú] | Talk about shooting ourselves in the foot...
+0074 [Firenze] | Heh, you're far too careless. But it works out for me. It proves that the convenient ability granted isn't just a fairy tale.
+0075 [Tú] | You want to protect your soul?==W== But why?==W== There are no monsters like the Garden of Parasite here. Does Darcia specialize in mental magic?
+0076 [Firenze] | You saw it yourself. That Gen-3 Intelligent Plant is no joke. I went all out to test its strength, yet...==W== I was still defeated.
+0077 [Firenze] | However, it isn't flawless.
+0078 [Tú] | Have you found a weakness?!
+0079 [Firenze] | Do you recall what Darcia said?
+0080 [Darcia] | You've likely deduced its power:==W== transferring human minds and memories.==W== Simply put, placing it in a tank of Psychic Fluid links the subject's consciousness to the network.
+0081 [Firenze] | Look.==W== At the bottom of that massive tank lies the Bishop.==W== Once we extract it, the Intelligent Plant won't be a threat anymore.
+0082 [Tú] | Fishing a chess piece out of a tank that deep won't be easy.
+0083 [Firenze] | Indeed. We face two main obstacles.==W== First, the key to the lid. Darcia keeps it on her person at all times.
+0084 [Firenze] | Second, the Psychic Fluid inside is a far more treacherous problem...==W== Even standing next to it exposes you to magic vapors that can warp your mind.
+0085 [Tú] | I see. You want to use the Boss Accord's protection to withstand the fluid, so you can dive in and grab the piece?
+0086 [Firenze] | Precisely. So I will ask one last time.==W== Boss ...==W== make a soul pact with me.
+0087 [Tú] | We are so close to defeating Darcia, and her logic is sound, but...
+0088 [Tú] | No.
+0089 [Firenze] | I'm warning you. Anyone who gets in the way of my plan is an enemy.==W== Give me an acceptable reason while I still have patience.
+0090 [Tú] | Because I'm weak.==W== If the Intelligent Plants attack while you're down there, who's going to stop it?
+0091 [Tú] | I can't buy you that kind of time.
+0092 [Firenze] | What are you getting at?
+0093 [Tú] | We play to our strengths. The alliance stands, but no soul pact.==W== The reason is simple—
+0094 [Tú] | I will be the one==W== diving into the tank.
+0095 [Tú] | You're willing to risk your life to beat Darcia; I'm willing to stake mine too.==W== I have magic immunity.==W== That fluid shouldn't affect me.
+0096 [Firenze] | Magic immunity...?!==W== That's rare.
+0097 [Tú] | Hah, looks like your intel isn't perfect.==W== Anyway, leave the piece to me. In exchange, you cover me.==W== If you fail, I'm done for.
+0098 [Firenze] | Heh...==W== Hahahaha. Very well. Since that is your choice.
+0099 [Firenze] | Then, Boss, from this moment on, we are allies against Darcia.

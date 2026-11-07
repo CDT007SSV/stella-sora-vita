@@ -1,0 +1,160 @@
+# Capítulo 4 · Más allá del sueño · Epílogo · Not Yet Settled
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Disheveled Employee | Disheveled Employee
+N:Passing Employee | Passing Employee
+N:Sleepless Employee | Sleepless Employee
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_136 | Angie
+N:avg1_156 | Nazuna
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_132 | Kaede
+N:avg3_135 | Claire
+N:avg3_140 | Empleado de Cosecha Unida
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_142 | United Harvest Researcher
+N:avg3_143 | Residente
+N:avg3_974 | Serena
+N:avg3_999 | ???
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Epilogue
+0002 [Intro] | Not Yet Settled
+0003 [Intro] | Claire is captured and taken to Emor, and Lady Gray hides in United Harvest. To get to Lady Gray and also to find clues regarding the orphanage, you start a new journey following Serena's lead.
+0004 [Lugar y hora] | 10:00, Tonitrua Month 14th, Gold District in Philae, United Harvest
+0005 [Narración] | The grand edifice of United Harvest resembled a massive anthill, with employees in black uniforms bustling to and fro.
+0006 [Fuyuka] | Um,==W== Uh,==W== excuse me...?
+0007 [Sleepless Employee] | Sorry, can't talk. My deadline's closing in.==W== Try the front desk.
+0008 [Disheveled Employee] | Executive Director? Look, I'm just a grunt. How would I know where the big shots have their offices?==W== Ask someone else.
+0009 [Narración] | Everyone was polite yet distant, leaving Fuyuka feeling like an outsider who had accidentally stumbled into the wrong hive.
+0010 [Fuyuka] | (Yikes, this is so intimidating...==W== Is this what the city is like?==W== Maybe I should just head back...)
+0011 [Fuyuka] | (No!==W== I volunteered to accept this award for Master. I can't back out now!)
+0012 [???] | Wandering around a place like this?==W== Be careful not to get lost, little one.
+0013 [Fuyuka] | Gah!==W== I'm so sorry! I'm from out of town—==W==I didn't mean to trespass!
+0014 [???] | Oh my, what an adorable kid.==W== Judging by your attire, you must be a Trekker, yes?
+0015 [Fuyuka] | I...==W== I am!
+0016 [???] | Do you have an appointment?
+0017 [Fuyuka] | Yes!==W== I-==W==I'm Fuyuka,==W== leader of the Petal Bloom Guild.
+0018 [Fuyuka] | I'm here to accept an award on behalf of the Petal Bloom Guild, the New Star Guild,==W== and ... the Boss.
+0019 [???] | I see.==W== What a happy coincidence.==W== I'll be attending the award ceremony myself.
+0020 [???] | Hmm.==W== It's hard to imagine you possessing the power to defeat giant monsters by your looks.==W== Appearances truly can be deceiving.
+0021 [Fuyuka] | Excuse me...==W== Do you know where the Executive Director's office is? I was hoping to say hello.
+0022 [???] | That would be me. Apologies, I should have introduced myself sooner.
+0023 [Darcia] | I'm Darcia,==W== the Executive Director for United Harvest here in Philae.
+0024 [Fuyuka] | Oh, so you're the Executive Director...==W== Uh,==W== eh??!
+0025 [Passing Employee] | Huh?==W== Why is Ms. Darcia talking to a Trekker?
+0026 [Fuyuka] | (P-==W==People are definitely starting to stare...==W== It really is her.)
+0027 [Darcia] | Right this way, please.
+0028 [Darcia] | You seem a little tense.==W== Is everything alright?
+0029 [Fuyuka] | I-==W==I'm fine...
+0030 [Fuyuka] | (I was expecting the Executive Director to be much more intimidating...==W== But==W== she's so gentle. She must be a good person, right?)
+0031 [Darcia] | Please, make yourself comfortable. May I offer you some tea?
+0032 [Fuyuka] | Oh, yes, please! Thank you!
+0033 [Fuyuka] | (This furniture looks like it cost a fortune.==W== I'd better be careful.)
+0034 [Darcia] | Here you are.==W== I was in Emor on business until recently,==W== so I'm afraid I'm not up to speed on matters outside the city.
+0035 [Darcia] | I was hoping you could tell me about the hunt against the Big Three.==W== I find monsters quite fascinating.
+0036 [Fuyuka] | Of course!==W== The first one we took down was the Blade of Jade.==W== It all started when Nazuka senpai and the team were ambushed...
+0037 [Narración] | One Hour Later
+0038 [Fuyuka] | In the end,==W== Boss made a soul trade with us==W== that shielded us from the Garden of Parasite's mist.
+0039 [Fuyuka] | That's how we rescued Nazuka senpai,==W== and with her leading the charge,==W== we defeated the last of them.
+0040 [Darcia] | A truly thrilling story.==W== It's a shame the Boss couldn't make it today.==W== I was hoping I'd have the chance to meet ==SEX4==.
+0041 [Fuyuka] | W-Well...==W== Actually, Boss and all of us are incredibly grateful to United Harvest for clearing our name.==W== ==SEX1== really wanted to thank you in person.
+0042 [Fuyuka] | But this was all so sudden, and since everyone was tied up with urgent work at the camp, I'm representing...
+0043 [Fuyuka] | Oh, I'm so sorry!==W== I should have explained all that from the start.
+0044 [Darcia] | It's okay.==W== I only decided on this after returning to Philae yesterday, and I didn't send word until this morning.==W== It's perfectly understandable that you couldn't rearrange your schedules.
+0045 [Darcia] | I understand you donated the bounty from defeating the Big Three to help repair the Camp?
+0046 [Fuyuka] | Um, yes.==W== The reward was for the Trekkers who defeated the monsters,==W== but taking down the Big Three was a group effort. It wasn't just the work of one or two Trekkers or guilds.
+0047 [Fuyuka] | We felt it was only right for everyone to pitch in and repair the damage the Camp sustained from the Garden of Parasite.
+0048 [Fuyuka] | Um...==W== At least, that's what the Boss and Nazuka senpai said.
+0049 [Darcia] | I see.==W== Even so, this medal is my personal recognition of the Petal Bloom's achievements...
+0050 [Darcia] | ... which is why==W== I must present it to you myself.
+0051 [Fuyuka] | This is...==W==
+0052 [Darcia] | The United Harvest Senate Medal of Honor.==W== It is our company's highest distinction, awarded to those who have made exceptional contributions==W== to the company and our city.
+0053 [Fuyuka] | Such a prestigious medal==W== ... for me?!==W== Are you sure? This must be a mistake!
+0054 [Darcia] | I had originally intended to hold a formal ceremony to elevate your guild's renown.==W== Philae's saviors should not go unrecognized.
+0055 [Darcia] | But after hearing your story, I realize my thinking was shortsighted.==W== True heroes like you earn admiration through your actions,==W== not through tedious ceremonies.
+0056 [Darcia] | Please, accept it.
+0057 [Darcia] | The bearer of this medal will forever be a friend to United Harvest.==W== And we always stand by our friends, unconditionally.
+0058 [Lugar y hora] | 12:00, Tonitrua Month 14th, Outside Philae, Trekker Camp
+0059 [Nazuna] | A little more to the left.
+0060 [Noya] | Like this?
+0061 [Nazuna] | Nope, that's too far left.==W== Can you nudge the beam back to the right a bit?
+0062 [Amber] | Right.
+0063 [Nazuna] | No, that's too far right now.
+0064 [Noya] | Hey! Are you sure about this?==W== Let's just have Iris find the spot. This thing weighs a ton.
+0065 [Kaede] | Uh, Iris?==W== I think she's turned to stone.
+0066 [Iris] | All the Dorra ... to fix the camp...==W== It's ...==W== it's just too much...
+0067 [Claire] | After everything that happened, it's strange how quiet it's gotten around here.
+0068 [Claire] | Once the camp's fixed up and the monster tracks are gone,==W== I guess people will start to forget all about the Three Grand Commissions.
+0069 [Nazuka] | Yes.==W== With everyone pitching in, it shouldn't take long to rebuild.
+0070 [Claire] | Shouldn't you be helping them? What are you doing here, visiting a sinner like me?
+0071 [Nazuka] | Back then...==W== Why were you in the camp?
+0072 [Claire] | You mean when I foolishly charged in and got caught in that magic mist?
+0073 [Nazuka] | Mm, I thought ...==W== you'd wait outside. For the mist to clear before going in to get "that thing."
+0074 [Claire] | I'll admit, I only looked out for myself.==W== It was my idea==W== to use the hunting squad to burn through the mist.
+0075 [Claire] | But I'm not so depraved that I'd lure the Garden of Parasite to the camp,==W== let alone stand by and just watch it unfold.
+0076 [Claire] | I just wanted to get "that thing" quicker,==W== so that Lady Gray would lure the Garden of Parasite away.
+0077 [Claire] | But I was a fool. She ran as soon as she got "that thing."==W== In the end, you were the one who saved me.
+0078 [Nazuka] | What exactly is "that thing"?
+0079 [Claire] | To this day, I don't know what it looks like,==W== only that it's palm-sized,==W== and it was wrapped in branches...
+0080 [Nazuka] | ...==W== ...==W==
+0081 [Claire] | I'm sorry,==W== Nazuka.
+0082 [Nazuka] | I'll be there==W== on the day of your trial.
+0083 [Claire] | I'm sorry.
+0084 [Lugar y hora] | 12:30, Tonitrua Month 14th, Silver District in Philae, Dessert Shop
+0085 [Mistique] | Ahh, that really hit the spot!
+0086 [Tú] | All done already?
+0087 [Mistique] | Oh no,==W== not the dessert!==W== I meant the exclusive scoop I got from interviewing the Boss.
+0088 [Mistique] | Thanks again for everything! I'll be sure to let you see the draft before it goes to print.
+0089 [Tú] | Sounds good. I look forward to reading your masterpiece.
+0090 [Tú] | Whew, I'm wiped. This cleanup is more exhausting than fighting the Big Three ever was.==W== I wonder how Fuyuka's doing collecting the award.
+0091 [Tú] | Now that our deal's settled, I need to go find Serena and ask about the orphanage.
+0092 [Vita] | Pardon the intrusion, Tyrant.==W== I have observed that the souls you possess and safeguard now total nine.
+0093 [Tú] | Five before I came to Philae, plus the four from Petal Bloom... Yep, that makes nine.
+0094 [Vita] | If you were to procure just one more, you would complete your first mission.
+0095 [Vita] | But I do not understand.
+0096 [Tú] | What do you mean?
+0097 [Vita] | When the Garden of Parasite was on its rampage,==W== you could have traded for the souls of every Trekker present.==W== Your collection would be several times larger than it is now.
+0098 [Vita] | But you did not do so. Why?
+0099 [Tú] | Because people aren't objects.==W== They should never be treated as just tools for me to complete a mission.
+0100 [Vita] | I do not understand.
+0101 [Tú] | Vita, do you know why I rarely ask you questions?
+0102 [Vita] | Please enlighten me, Tyrant.
+0103 [Tú] | Your top priority==W== is just making sure I complete my mission, right?
+0104 [Vita] | Yes. That aligns with your interests, Tyrant.
+0105 [Tú] | But that's just what you assume is in my best interest.
+0106 [Tú] | I'm not convinced your "help" won't harm my companions,==W== and I'm not sure completing the mission will lead to an outcome I desire.
+0107 [Tú] | Can you prove to me that it will?
+0108 [Vita] | I am processing...==W== My apologies.==W== I cannot provide such proof.
+0109 [Tú] | Then I still can't trust you.
+0110 [Tú] | And remember this:==W== my companions will always be my first priority.
+0111 [Tú] | And until you're certain about that, I might never complete this first mission of yours.
+0112 [Vita] | ...
+0113 [Vita] | You are correct. I failed to consider what you truly desire, Tyrant.
+0114 [Vita] | I will take my leave. Everything I do is to help you become a more powerful Tyrant.
+0115 [Vita] | Your wish is my command.
+0116 [Serena] | Well now, fancy meeting you here.
+0117 [Tú] | Serena. I was just on my way to find you.
+0118 [Serena] | I've been here for a little while.
+0119 [Serena] | You were tied up with that interview, and afterward, you seemed quite taken with that unique phone of yours.==W== I didn't want to interrupt.
+0120 [Tú] | Let's skip the pleasantries.==W== Can you give us the information you promised==W== about the orphanage?
+0121 [Serena] | Of course. Integrity is the foundation of good business, after all.==W== Please, take a look at this.
+0122 [Tú] | This is...
+0123 [Tú] | And you're sure this is reliable?
+0124 [Serena] | One hundred percent authentic.==W== I have my connections in the major companies, so getting these transaction records wasn't difficult.
+0125 [Serena] | All the documents for that fraudulent loan==W== were forged by a former United Harvest employee named Lady Gray.
+0126 [Serena] | And here's a little bonus info—==W==United Harvest may have issued a warrant for Lady Gray, but she's currently hiding right there, under their noses.
+0127 [Tú] | They issued a warrant while harboring the fugitive?!
+0128 [Tú] | United Harvest...==W== Are they friend or foe?
+0129 [Narración] | To Be Continued

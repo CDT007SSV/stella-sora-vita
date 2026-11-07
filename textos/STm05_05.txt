@@ -1,0 +1,189 @@
+# Capítulo 5 · Una chispa en la oscuridad · 5 · A Sandwich of Clues
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Busy Team Leader | Busy Team Leader
+N:Confused Customer | Confused Customer
+N:Curious Customer | Curious Customer
+N:Curious Girl | Curious Girl
+N:Energetic Employee | Energetic Employee
+N:Energetic Girl | Energetic Girl
+N:Excited Employee | Excited Employee
+N:Exhausted Employee | Exhausted Employee
+N:Interested Passerby | Interested Passerby
+N:Sherlock Mascot? | Sherlock Mascot?
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_138 | Nyx
+N:avg3_100 | Sylar
+N:avg3_1215 | Researcher
+N:avg3_1216 | Researcher
+N:avg3_134 | Mina
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_142 | United Harvest Researcher
+N:avg3_143 | Residente
+N:avg3_158 | Penguin Performer
+N:avg3_167 | Chica
+N:avg3_168 | Chica
+N:avg3_184 | Lady Gray
+N:avg3_200 | Ash District Boy
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | A Sandwich of Clues
+0003 [Intro] | The clues are a calculated plant, and the investigation must be proceeded with caution. Amber in a mascot suit nails the promotion task, while Noya and Fuyuka decide to wish for ingredients and crack the recipe.
+0004 [Lugar y hora] | 2:00, Calor Month 1st, Greenhouse District in Philae, United Harvest Warehouse
+0005 [Tú] | Everyone, listen. Mina's commission, Lady Gray's location, the fate of the orphanage... These aren't three separate mysteries. They are a single, connected case.
+0006 [Noya] | Connected...==W== Uh, simplify that for me? I'm lost.
+0007 [Tú] | Sort the events chronologically and you'll see it.
+0008 [Tú] | Rewind two years—
+0009 [Narración] | Monolith Calendar Year 994.
+0010 [Tú] | Firenze secures the Tawny Nightingale formula at Ash Orphanage. Immediately after, the entire place vanishes.
+0011 [Noya] | Aunt Allie took the kids and fled ...==W== because of the formula?
+0012 [Tú] | Then, two month ago—
+0013 [Narración] | Floris Month in Monolith Calendar Year 996.
+0014 [Tú] | Iris's investigation confirms that it was exactly when the Golden Nightingale emerged.
+0015 [Tú] | Simultaneously, Lady Gray forced Nazuka to hunt the Big Three. That was when the Blade of Jade fell.
+0016 [Fuyuka] | The timing of their appearance ... aligns too perfectly.==W== Surely it's not that simple?
+0017 [Tú] | Exactly. Remember, Mina said a VIP planted us in United Harvest to investigate the Golden Nightingale.
+0018 [Tú] | And right on day one, an anonymous tip about the orphanage dropped right in our laps.
+0019 [Mistique] | Too convenient. Like someone wanted us to connect the dots.
+0020 [Mistique] | I've seen plenty of fake leads in my time, but my witch's intuition? It says this is real. Or at least, part of the truth.
+0021 [Amber] | Tawny Nightingale. It ties everything together.
+0022 [Tú] | Right. Since they're generous enough to set the stage, let's play along.
+0023 [Noya] | Oh! I get it! It's like a sandwich! The Tawny Nightingale is the bread holding everything else together!
+0024 [Noya] | Basically...==W== If we take a bite out of the Golden Nightingale, we get the Orphanage and Lady Gray too?
+0025 [Tú] | Noya's metaphor is a bit crude, but practically, she's right.
+0026 [Mistique] | You know, putting all your stories together, I've actually sniffed out a lead on the Golden Nightingale.
+0027 [Tú] | Wait, seriously? Already?
+0028 [Mistique] | Done plenty of undercover work at big companies. I know how the game is played.
+0029 [Mistique] | If you want to pull something off in a massive company like this, you gotta find the blind spots in their protocol—the gray areas.
+0030 [Mistique] | Take you and Nyx today. Slacking off in the greenhouse, right? And nobody came after you for it.
+0031 [Amber] | Yeah. Nyx's excuse was "going to the infirmary." We didn't go. Nobody asked.
+0032 [Mistique] | Standard practice. The supervisor just needs a reason on paper for your absence. The infirmary checks the box. Anything else isn't their problem.
+0033 [Mistique] | As long as nothing blows back on them, they couldn't care less where an employee goes or what they're actually doing.
+0034 [Amber] | But what if someone checks with the infirmary staff? They'd find out we were never there!
+0035 [Mistique] | Easy fix.==W== Make up another excuse. "I felt better on the way," or "I was in too much pain to walk there." You get the idea.
+0036 [Mistique] | Besides, company drones don't go looking for trouble. Keeping your head down is always the smartest play, no matter the situation.
+0037 [Mistique] | Even the higher-ups, like the Directors, are swamped.==W== If they spot a chance to slack off or save themselves a headache, you bet they'll take it.
+0038 [Mistique] | Since nobody wants to rock the boat, the management ends up full of holes just waiting to be exploited.
+0039 [Noya] | Always thought these big companies were full of capable elites. Guess people don't really change, no matter where you go...
+0040 [Mistique] | Alright, recap time. How exactly did this Golden Nightingale come to be?
+0041 [Fuyuka] | How...?==W== The Tawny Nightingale recipe is top secret. Only a few higher-ups know it.
+0042 [Iris] | Plus, Production delivers stock directly to Marketing.==W== Are you saying they're the ones behind this...?
+0043 [Tú] | Production handed the whole workflow to the Mandrakes—from planting to packaging...==W== Wait. I see it. The blind spot is—
+0044 [Opción] | The Mandrake Radiant Grass
+0045 [Mistique] | Bingo. Radiant Grass runs on autopilot. They can't talk, and they definitely can't make judgment calls.
+0046 [Mistique] | Glitch or sabotage, it doesn't matter. The Radiant Grass is the weakest link in the chain.
+0047 [Fuyuka] | But how do we prove it? It's not like the Grass can tell us what happened.
+0048 [Mistique] | Every action leaves a trace. If we map the correct workflow, we can spot exactly where things went off the rails.
+0049 [Mistique] | The taste is totally different, so the recipe has to be, too. The production logs will prove it.
+0050 [Tú] | Iris, I'll get Mina to pull those logs tomorrow. Can you handle the analysis?
+0051 [Iris] | Consider it done.
+0052 [Tú] | Mistique, Amber, and I will keep digging for clues on our end.
+0053 [Amber] | Got it.
+0054 [Tú] | Here's the catch: to find the deviation, we need the original recipe.==W== And I have no clue on how to get that.
+0055 [Fuyuka] | M-Master... About that... I might have a way.==W== But I'd need Noya's help to pull it off.
+0056 [Lugar y hora] | 16:00, Calor Month 1st, Greenhouse District in Philae, United Harvest Warehouse
+0057 [Mina] | Phew... Here we go. That's every scrap of production and sales data for the Tawny Nightingale since launch. Two whole years of it.
+0058 [Iris] | Whoa, must be at least a hundred binders here!
+0059 [Mina] | That's just crate one. Ten more crates are waiting out back.
+0060 [Iris] | W-Why are there so many...?
+0061 [Mina] | Well, since the Mandrake Radiant Grass does all the heavy lifting, the staff had to prove they were still useful. So, they documented every single tiny detail of the process, to avoid getting fired.
+0062 [Mina] | Ironically, they got the axe anyway for wasting too much paper and ink.
+0063 [Iris] | That's terrifying... The company world is scarier than the Wilds.==W== You think Amber can handle Marketing all by herself?
+0064 [Mina] | She'll be fine. Nyx is looking out for her. She took me under her wing back when I was a rookie, too.
+0065 [Lugar y hora] | 17:00, Calor Month 1st, Greenhouse District in Philae, United Harvest Marketing Department
+0066 [Amber] | ...
+0067 [Confused Customer] | Hello?
+0068 [Amber] | Meow...
+0069 [Confused Customer] | What the hell?
+0070 [Amber] | Meow-Meow Donuts! A United Harvest special presentation! Buy a combo now and get—
+0071 [Nyx] | Aaaand they hung up.==W== Looks like cold calling's a bust, too. Just like the in-person pitch.
+0072 [Amber] | ...
+0073 [Nyx] | H-hey, don't get discouraged! We can still try blast messages. That's gotta be right up your alley!
+0074 [Amber] | Texting? I can do that. How does it work?
+0075 [Nyx] | Ah, shoot. Sorry, that shift wraps up by five. Maybe tomorrow?==W== Wait, tomorrow we're on street promo duty. Busiest strip in the Silver District.
+0076 [Amber] | The busiest strip...==W== That means crowds.
+0077 [Amber] | I'm no good at talking to people face-to-face...==W== But I can't back down.
+0078 [Amber] | Iris, Noya. Can you do me a favor?
+0079 [Amber] | I really want to nail this marketing job.
+0080 [Noya] | You got it. I'll swing by tomorrow to help out.
+0081 [Noya] | 
+0082 [Iris] | Do you require material on sales rhetoric? I have reference books on the subject.
+0083 [Iris] | 
+0084 [Amber] | No. I need you guys to help me make something.
+0085 [Amber] | 
+0086 [Lugar y hora] | 17:00, Calor Month 2nd, Silver District in Emor, Commercial Street
+0087 [Sherlock Mascot?] | Goo-goo-gah!
+0088 [Curious Girl] | Sherlock! Look, it's Sherlock!
+0089 [Energetic Girl] | Sherlock's tummy feels so squishy...
+0090 [Sherlock Mascot?] | Gah-gah-goo!
+0091 [Interested Passerby] | Lemme get in there! My turn!
+0092 [Interested Passerby] | Whoa... So fluffy...
+0093 [Sherlock Mascot?] | Gah-goo!
+0094 [Curious Customer] | What's on it? "United Harvest's Newest Product"...
+0095 [Curious Customer] | Well, aren't you just too cute to refuse? I'll try one.
+0096 [Nyx] | Thank you.
+0097 [Interested Passerby] | Lemme get one, too!
+0098 [Energetic Girl] | Mommy! Mommy! Buy me one!
+0099 [Nyx] | Please line up, everyone! Don't worry, there's plenty to go around.
+0100 [Narración] | A few hours later...
+0101 [Nyx] | Sold out already?! We just crushed a three-day quota in a single afternoon!
+0102 [Sherlock Mascot?] | Phew...
+0103 [Amber] | Good thing I had this costume.
+0104 [Nyx] | You're a machine. Five minutes in that thing and I'd be melting, let alone doing all those crazy stunts for hours...
+0105 [Amber] | The Wilds are worse. I'm used to it.
+0106 [Nyx] | You Trekkers have it rough...==W== Anyway, thanks to your hustle, we've earned ourselves the next two days off.
+0107 [Amber] | We could sell more. Why stop now?
+0108 [Nyx] | Nope. Overdeliver now, and they'll just raise the bar next time. Then you're screwed when you can't keep up.
+0109 [Nyx] | By the way, where'd you get that costume? That's really neat stitching. Did you make it yourself?
+0110 [Amber] | Last night. My friends helped me. Couldn't have done it without them.
+0111 [Nyx] | Made it with your friends, huh? That must be nice.
+0112 [Nyx] | So, what are they up to right now?
+0113 [Lugar y hora] | 17:00, Calor Month 2nd, Greenhouse District in Philae, United Harvest R&D Department
+0114 [Excited Employee] | Noya! Fuyuka! We did it! It actually worked!
+0115 [Excited Employee] | Those Flarebloom roots you recommended... They kick way harder than Ignis Fruit!
+0116 [Exhausted Employee] | Gimme a taste.
+0117 [Energetic Employee] | Cough cough... Hot! That burns!
+0118 [Excited Employee] | Turn this into a seasoning, and we've got a guaranteed bestseller on our hands!
+0119 [Excited Employee] | Like...==W== Extra Spicy Chocolate!
+0120 [Fuyuka] | W-will that actually taste good?
+0121 [Noya] | Heheh, first bite's mine! Bet it tastes interesting!
+0122 [Busy Team Leader] | Noya, Fuyuka. My apologies.
+0123 [Fuyuka] | Huh? Chief, w-w-why the s-sudden apology?
+0124 [Busy Team Leader] | I was prejudiced when you first joined...==W== Didn't think Trekkers from the Wilds could possibly help with our research.
+0125 [Excited Employee] | Reminds me of what the old Director used to say...
+0126 [Excited Employee] | "City folks don't know jack about the Wilds."
+0127 [Excited Employee] | Trekkers know the land way better than us. It's not often we get to have two former Trekkers on the team. Gotta treasure the chance!
+0128 [Busy Team Leader] | True. You know those wild ingredients better. I'm counting on you from here on out.
+0129 [Fuyuka] | Um, Chief? I have a suggestion.
+0130 [Busy Team Leader] | Yeah?
+0131 [Fuyuka] | To help the department better, Noya and I want to go gather new ingredients in the Wilds. And maybe visit the Monolith to wish for spices R&D is missing. Is that okay?
+0132 [Busy Team Leader] | Of course. It's more than okay.
+0133 [Busy Team Leader] | The more novel ingredients, the better!
+0134 [Fuyuka] | Th-thank you for the support, Chief! We'll head out now.
+0135 [Busy Team Leader] | Now? Isn't it a bit late? The sun's nearly down.
+0136 [Fuyuka] | Um, well, we're volunteering for overtime! If we leave now, we'll be back by morning. It won't delay our other work at all.
+0137 [Busy Team Leader] | S-such dedication... What exemplary employees!
+0138 [Fuyuka] | We'll be off then, Chief.
+0139 [Busy Team Leader] | Stay safe out there.
+0140 [Noya] | Not bad, Fuyuka! You snagged a pass without raising a single eyebrow! You were so smooth back there, you almost sounded like Boss.
+0141 [Noya] | Guess all that training is finally paying off!
+0142 [Fuyuka] | M-me? Like Master?==W== No way... I-I'm nowhere near that level yet.
+0143 [Noya] | Anyway, you killed it! Coming up with ideas like using R&D gear to reverse-engineer the Tawny Nightingale recipe... Total genius!
+0144 [Noya] | Alright, enough chatter. Let's roll!==W== Target: the Monolith!
+0145 [Noya] | We'll wish for every spice imaginable, then test every single combo.
+0146 [Noya] | With enough trial and error, we're bound to crack the code for the Tawny Nightingale recipe ... and boom!
+0147 [Noya] | Mission accomplished!
+0148 [Fuyuka] | B-but I don't actually know how to bake.==W== I'll have to leave that part to you, Noya senpai.
+0149 [Noya] | Leave it to me! Wishing for spice and baking bread happen to be my specialties!
+0150 [Noya] | Let's hop in Loxy and get changed first.
+0151 [Noya] | Phew, done... Ah, this feels so snug!==W== This gear really is the best to move in. Hehe ... hehehe.
+0152 [Fuyuka] | Ready when you are, Noya senpai!

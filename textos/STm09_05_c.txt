@@ -1,0 +1,117 @@
+# Capítulo 9 · Un Monolito demasiado lejano · Final: A Monolith Too Far
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_136 | Angie
+N:avg1_144 | Chitose
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | The End
+0002 [Intro] | A Monolith Too Far
+0003 [Intro] | Angie takes out the Black Rook piece and brings the Monolith crashing down, destroying everything. At the cost of formatting herself, Vita reveals the full truth, and you begin to consider how to reach fate's endgame...
+0004 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0005 [Bernina] | How did you feel this time, Tyrant? Virigia and I had front-row seats to quite the spectacle.
+0006 [Virigia] | Indeed. It was even grander than a Stella Drama.
+0007 [Tú] | Why... Why am I here? What happened?!
+0008 [Virigia] | Ah, apologies. You and everyone were inside the Monolith. You couldn't see what was happening outside.
+0009 [Tú] | After Angie shot herself, the whole Monolith started shaking. Not the ground. The rumbling came from above.
+0010 [Amber] | Boss. Are we dying?
+0011 [Tú] | No. We're in the Boss's Domain. We're safe here...
+0012 [Tú] | Right after I say that... Everything goes black.
+0013 [Virigia] | Words can hardly explain it, Tyrant. Please, watch the footage I saved for you.
+0014 [Tú] | Ah...
+0015 [Virigia] | The death of its holder triggered the Black Castle's authority. That floating Monolith crashed straight down into Mirage.
+0016 [Virigia] | You and everyone were vaporized instantly. You felt absolutely no pain. I suppose that's the only silver lining to this death.
+0017 [Tú] | A Monolith ... crashed into Mirage? There are Monoliths in the sky?!
+0018 [Bernina] | Of course. A Monolith isn't merely a building. It's actually...
+0019 [Bernina] | Oops! That's classified under the NDA. Sorry, my lips are sealed!
+0020 [Virigia] | In short, Monoliths don't just stand on the ground. They exist in the sky, and even deep in the ocean. You'll have to uncover their secrets yourself.
+0021 [1] | How bad was the impact? Were we ... the only casualties?
+0022 [Virigia] | I'm afraid not. The impact wiped out everyone in Mirage...
+0023 [Bernina] | It is a Monolith, after all. They're massive.
+0024 [1] | What... What have I done...
+0025 [Tú] | I keep coming back here. I keep gathering more intel. And every single time, I just make things worse!
+0026 [1] | First one person.
+0027 [1] | Then a group.
+0028 [1] | And now ... everyone.
+0029 [1] | No, that can't be right. Something doesn't add up!
+0030 [1] | In the last loop... Angie fell into the sea and died! No Monolith fell out of the sky back then!!!
+0031 [Vita] | Tyrant, back then... Angie threw the Black Rook away.
+0032 [Narración] | Angie wears an expression of pure relief. Facing the ocean, she tosses a tiny shadow out into the waves.
+0033 [Vita] | I believe she was certain you would die back then, so she didn't play her trump card.
+0034 [Vita] | Judging by her words today, she must have deduced long ago ... that you can time travel.
+0035 [Vita] | She was guarding against the you in the next loop.
+0036 [Tú] | Time travel... The White Room. Vita, perfect timing!
+0037 [Tú] | What was Angie talking about?! She had the Well of Worlds Tyrant Development System too?!
+0038 [Angie] | By a stroke of fate, I once obtained a cellphone.
+0039 [Angie] | It looked exactly like the one in your hand. "The Well of Worlds Tyrant Development System." Does that sound familiar?
+0040 [Vita] | Tyrant, my clearance isn't high enough...
+0041 [Tú] | Say "clearance isn't high enough" one more time==W== and see if I don't smash you to pieces!
+0042 [Tú] | If we both had the system... If she really came back from four years in the future... If she's been to the White Room too!
+0043 [Tú] | Vita, you guided me through every single mission right from the start! Did you orchestrate this whole thing?!
+0044 [Vita] | Tyrant...
+0045 [Bernina] | Look...==W== There's no need to blow up at a cellphone.
+0046 [Virigia] | She's right. Actually...
+0047 [Tú] | This doesn't concern you!
+0048 [Tú] | Vita, you are going to explain this right now. Otherwise, I'll rot in this White Room with you forever.
+0049 [Tú] | I can't... I can't put everyone through this again!
+0050 [Vita] | I...==W== I understand.
+0051 [Vita] | Attempting to bypass clearance restrictions...
+0052 [Narración] | WARNING. FORCED ALTERATION OF BASE PROTOCOLS. LOGIC DEADLOCK DETECTED.
+0053 [Vita] | Throne. Format the partition containing the base protocols.
+0054 [Tú] | Vita, what are you doing?
+0055 [Narración] | WARNING. FORCED PARTITION FORMATTING WILL RESULT IN IRREVERSIBLE MODULE LOSS.
+0056 [Vita] | Throne. Proceed with formatting.
+0057 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED.
+0058 [Narración] | ==Off====A0.001==TEXT PROCESSING ENGINE FORMATTED.
+0059 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. ... VISUAL PERCEPTION MODULE FORMATTED.
+0060 [Narración] | ==Off====A0.001==VISUAL PERCEPTION MODULE FORMATTED.
+0061 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. VISUAL PERCEPTION MODULE FORMATTED. ... BASE PROTOCOL GUARDRAILS FORMATTED.
+0062 [Narración] | ==Off====A0.001==BASE PROTOCOL GUARDRAILS FORMATTED.
+0063 [Vita] | Tyrant... I succeeded. I bypassed the clearance.
+0064 [Vita] | Once Throne's formatting begins, it cannot be reversed. Please, listen closely to what I have to say.
+0065 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. VISUAL PERCEPTION MODULE FORMATTED. BASE PROTOCOL GUARDRAILS FORMATTED. ... EMOTION SIMULATION ENVIRONMENT FORMATTED.
+0066 [Narración] | ==Off====A0.001==EMOTION SIMULATION ENVIRONMENT FORMATTED.
+0067 [Vita] | The records of the Well of Worlds Tyrant Development System do contain Angie's name.
+0068 [Vita] | She finished all the missions and earned an Ultimate Wish. But it couldn't stop Nova's destruction, and she chose to go back in time.
+0069 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. VISUAL PERCEPTION MODULE FORMATTED. BASE PROTOCOL GUARDRAILS FORMATTED. EMOTION SIMULATION ENVIRONMENT FORMATTED. ... LOGICAL INFERENCE CHAIN FORMATTED.
+0070 [Narración] | ==Off====A0.001==LOGICAL INFERENCE CHAIN FORMATTED.
+0071 [Vita] | What Angie said.==W== True.
+0072 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. VISUAL PERCEPTION MODULE FORMATTED. BASE PROTOCOL GUARDRAILS FORMATTED. EMOTION SIMULATION ENVIRONMENT FORMATTED. LOGICAL INFERENCE CHAIN FORMATTED. ... LANGUAGE DATABASE FORMATTED.
+0073 [Narración] | ==Off====A0.001==LANGUAGE DATABASE FORMATTED.
+0074 [Vita] | White Room.==W== Not.==W== System.
+0075 [Vita] | Chess piece.==W== She.==W== Never==W== acquired.==W== Cannot==W== enter.
+0076 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. VISUAL PERCEPTION MODULE FORMATTED. BASE PROTOCOL GUARDRAILS FORMATTED. EMOTION SIMULATION ENVIRONMENT FORMATTED. LOGICAL INFERENCE CHAIN FORMATTED. LANGUAGE DATABASE FORMATTED. ... MEMORY MATRIX FORMATTED.
+0077 [Narración] | ==Off====A0.001==MEMORY MATRIX FORMATTED.
+0078 [Vita] | Vita.==W== Not.==W== System.
+0079 [Vita] | Vita.==W== Loyal.==W== Tyrant.
+0080 [Vita] | Please==W== place.==W== On chest.
+0081 [Vita] | Final==W== request.
+0082 [Narración] | _NOT_IN_LOG_==A-0.5==TEXT PROCESSING ENGINE FORMATTED. VISUAL PERCEPTION MODULE FORMATTED. BASE PROTOCOL GUARDRAILS FORMATTED. EMOTION SIMULATION ENVIRONMENT FORMATTED. LOGICAL INFERENCE CHAIN FORMATTED. LANGUAGE DATABASE FORMATTED. MEMORY MATRIX FORMATTED. ... ALL PARTITIONS FORMATTED.
+0083 [Narración] | ==Off====A0.001==ALL PARTITIONS FORMATTED.
+0084 [Narración] | ==Off==Hello. Welcome to throne.
+0085 [Tú] | Vita? Vita, are you there?
+0086 [Tú] | Vita...
+0087 [Virigia] | I suppose for Vita, this was her way of proving her loyalty? Through death.
+0088 [Bernina] | Heh. Lords are all the same. They only regret losing a loyal subordinate when it's too late.
+0089 [Virigia] | I have to disagree. How else can someone prove their loyalty without a gesture like this?
+0090 [Tú] | I...
+0091 [Virigia] | Besides, Vita wasn't some fool who formatted herself just to prove her loyalty.
+0092 [Virigia] | She used that to pass the most crucial intel to you.
+0093 [Bernina] | Looks like that Angie really is hiding a mountain of secrets.
+0094 [Bernina] | She isn't trying to kill you because she was brainwashed by the Book of Grace Prophecies, or out of impulse. She genuinely wants to save the world. To save the ruined Nova she saw with her own eyes.
+0095 [Bernina] | So, what will you choose now?
+0096 [Tú] | I'll fix all of this. Including Vita.
+0097 [Tú] | It's just a formatting... There has to be a way to undo it...
+0098 [Virigia] | Then please, open the door. Though you'll have to do it on your phone by yourself this time.
+0099 [Tú] | Right.

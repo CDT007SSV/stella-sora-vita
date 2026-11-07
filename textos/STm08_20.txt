@@ -1,0 +1,158 @@
+# Capítulo 8 · Calor residual · 14A · Sunrise in Mirage
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_114 | Chaton
+N:avg1_139 | Allie
+N:avg1_146 | Benito
+N:avg3_100 | Sylar
+N:avg3_1222 | Guardia
+N:avg3_1311 | SaiLa F
+N:avg3_1313 | Allie
+N:avg3_157 | Guardia Imperial
+N:avg3_181 | Narida
+N:avg3_207 | Myrsha
+N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_210 | Hazana
+N:avg3_218 | Mirage Resident
+N:avg3_219 | Mirage Resident
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Fourteen
+0002 [Intro] | Sunrise in Mirage
+0003 [Intro] | You tell the crew what was in the memory. Now knowing Allie is Taffett, you set out to find White Cat's secret room. After trekking through a mine crawling with Desert Scorpions, you find Hazana guarding the door...
+0004 [Lugar y hora] | 08:00, Nebula Month 18th, Mirage, Lucky Oasis
+0005 [Tú] | Where am I... Lucky Oasis?
+0006 [Tú] | Right. Allie traded her soul with me last night so I could help her recover the memories the Monolith took.
+0007 [Tú] | I asked Vita for a trial of the Monolith Melody,==W== and we fell asleep right here.==W==
+0008 [Tú] | But ... that dream was long. Even longer than Iris's.
+0009 [Tú] | So Allie is the "Taffett" Kasimira's looking for...==W==
+0010 [Tú] | She erased her own memories and lived a completely different life to stay with those kids...==W== Who would have imagined?
+0011 [Tú] | But then...==W== Is this woman sleeping next to me the mother of the orphanage, or a White Cat soldier?
+0012 [Vita] | Good morning, Tyrant.
+0013 [Tú] | Morning, Vita.==W== You don't usually greet me. Something's up?
+0014 [Vita] | Yes. There is something I wish to discuss with you in private, Tyrant.
+0015 [Tú] | Oh, back in your white room again. You seem to like this place.
+0016 [Vita] | Not particularly. It is simply empty, which saves on processing power. I can simulate a different environment if you prefer. Shall I?
+0017 [Tú] | No, it's fine.==W== What did you want to discuss?
+0018 [Vita] | Last night, I gave you another trial of the Monolith Melody. You and Miss Allie dreamed her lost memories. Because the trial includes a memory wipe, she will forget everything when she wakes.
+0019 [Vita] | But your magic immunity cancels the wipe. You will remember everything.
+0020 [Vita] | You might be wondering: if you are immune to magic, how did you dream those memories at all? Isn't the dream itself magic?
+0021 [Vita] | Simple. The Monolith Melody isn't magic. It is a special power.
+0022 [Tú] | Wait, you knew?==W== I thought I was the only one==W== who figured out I'd keep the memories.
+0023 [Vita] | You underestimate me. As your Priest, I accounted for that.==W== And since you've been so proactive in completing your missions lately, a small bonus won't hurt.
+0024 [Vita] | Besides, don't you think the trial version is more useful to you than the full version?
+0025 [Tú] | In the full version, no one forgets what they recover. But in the trial, I'm the only one who remembers.
+0026 [Tú] | So if I'm the only one with the memories, I get to decide what they mean. Right?
+0027 [Vita] | Exactly. As expected of Tyrant. You already knew.
+0028 [Vita] | Who controls the past controls the future. Who controls the present controls the past.
+0029 [Vita] | Now you can use the present to rewrite what everyone thinks is the past, and shape their futures.
+0030 [Tú] | Thanks, Vita. You're always trying to give me the upper hand.
+0031 [Vita] | But you never take my advice. Did I miscalculate something?
+0032 [Tú] | Your logic is sound, and I know you mean well. I just don't want to be someone who calculates every move.
+0033 [Vita] | I understand. What kind of person do you wish to be, then?
+0034 [Tú] | I'm not sure yet.==W== Probably someone who trusts and supports ==SEX3== friends as we move forward together.
+0035 [Vita] | Understood. I'll make a note of it. Please excuse me.
+0036 [Tú] | Phew. Vita's always making suggestions like that.==W== If I'd listened to her from the start, I'd have turned into some mastermind plotting schemes 24/7.
+0037 [Allie] | Yawn... I slept wonderfully.==W== Good morning, ==W====PLAYER_NAME==. Waking up all on your own like a good kid.==W== You're an early bird today.
+0038 [Tú] | Hey, hey, Allie! Are you still half asleep?!
+0039 [Allie] | ... Huh?==W== Oh, sorry! I'm a mess...==W== I had a wonderful dream last night, and I guess I got carried away... ♪
+0040 [Tú] | A wonderful dream? Mind telling me what it was about?
+0041 [Allie] | Oh, well...==W== Iris, Noya, and Amber were gathered around me, calling me Mom...==W== I don't remember the details.
+0042 [Tú] | I see.==W== The Monolith Melody worked, then.==W== You won't remember that dream yourself, though. Only I can.==W== Do you want to hear about your past first?==W== If there's anything you'd rather keep private, I can leave it out...
+0043 [Allie] | No need. How could a mother lie to her children?==W== ==PLAYER_NAME==, please tell everyone what happened in those lost memories. Don't leave a single thing out.
+0044 [Lugar y hora] | 10:00, Nebula Month 18th, Mirage, The Daisy Orphanage
+0045 [Narración] | A few hours later. I recounted Allie's lost memories of Taffett and Narida to the New Star Guild and the White Cat Troupe, with every detail.
+0046 [Amber] | Aunt Allie...==W== That was a terrible injury. It must have hurt.
+0047 [Noya] | The wound healed up fast, though, right? I remember that medicine in the basement working like magic on any injury.
+0048 [Allie] | Yeah. Thanks to that medicine, it didn't even leave a scar. I suppose it wasn't serious at the time.
+0049 [Noya] | You're amazing, Aunt Allie!==W== You and Narida took down over a hundred Sentinels and Imperial Knights.==W== All of us together could barely handle ten.
+0050 [Amber] | And to think Aunt Allie is ... the strongest White Cat.==W== I still can't believe it.
+0051 [Iris] | So that's why we stopped calling you Mom and switched to Aunt Allie.==W== The Monolith must have taken that memory when we made our wishes. Thank goodness we got it back.
+0052 [Noya] | Then why did the kids who came later start calling you Mom again?
+0053 [Iris] | Because Aunt Allie...==W== I mean, Mom, has always felt like a mother to us. We started calling her that on our own when we were little, didn't we?
+0054 [Iris] | By the time they stopped hunting White Cats in Emor, Mom had forgotten the taboo herself, so everyone went back to it.==W== We were the only ones still honoring that old rule.
+0055 [Allie] | Ah, wonderful!==W== It warms my heart to hear Iris call me Mom again.==W==
+0056 [Allie] | Noya, Amber, what about you two? Are you going to follow her lead?
+0057 [Amber] | M-Mom...
+0058 [Noya] | Mom.==W== Mom,==W== Mom!==W== MOM!!==W== Haha, once you've said it, it's not that embarrassing anymore! ♪
+0059 [Allie] | That sounds wonderful. Thanks to you,==W== ==PLAYER_NAME==, my heart gets to melt at that again.
+0060 [Tú] | Haha, happy to help.
+0061 [Tú] | Guys, can we focus?==W== How did we end up discussing whether to call her Mom?==W== The assassination rumors, Iris's past, the way into the secret room. Did you all forget about those?
+0062 [Tú] | The White Cats look grim, though.==W== I wonder what they actually think about all this history.
+0063 [Kasimira] | Taffett...==W== No, since you left that name behind, we will still call you Director Allie.==W== Thank you, and thank you, Boss, for bringing the truth to light.
+0064 [Benito] | So that explains where she went. Whenever my sister vanished for months out of the year, she was in Emor.
+0065 [Kasimira] | The White Cats never killed the Empress. We were never traitors. It was all lies and slander.
+0066 [Benito] | My sister didn't go there to surrender.==W== She went to break the chains holding us back.
+0067 [Allie] | What chains do you mean?
+0068 [Narración] | We fought Desert Scorpions and Imperial Guards. We lost people every single day.==P====W== None of us knew why that Monolith mattered.==P====W== We threw our lives away out of blind honor and duty.
+0069 [Narración] | Captain Narida was the only White Cat in Mirage who had actually met the Empress.==P====W== The rest of us, myself included, only understood the basic concept of being her personal guard.==P====W== Looking back, Captain Narida must have realized it then,==P====W== that if we kept fighting like that, we would all die for a cause none of us understood.
+0070 [Benito] | My sister always wore a smile.==W== But so many nights I would catch her sitting alone on the dunes, staring at that Monolith until dawn.
+0071 [Benito] | She was desperate for a way to save us.==W== That explains why she left the desert to find Mom,==W== or Taffett back then.
+0072 [Kasimira] | At first I figured Captain Narida was trying to uncover the truth about the Empress's death and clear our name.
+0073 [Kasimira] | I thought if she recruited you, our fighting power would be secured.
+0074 [Kasimira] | But she came back from one of those trips looking like a massive weight had been lifted.
+0075 [Benito] | She stopped staring out at the Monolith all night. Instead, she started locking herself in the secret room to study a signed red Soul Stone.
+0076 [Kasimira] | Back then, I assumed she had finally found a lead on Taffett...
+0077 [Kasimira] | I never imagined she would vanish alongside the Monolith.
+0078 [Narida] | Because ... Her Majesty ordered every White Cat except you to seal off the Monolith in Mirage.==W== No one's allowed in.
+0079 [Kasimira] | She sealed the Monolith as ordered and saved the rest of us in the process.==W== She put an end to those endless battles we never understood.
+0080 [Kasimira] | That's when Mirage became what it is today. Everyone plays along in this massive performance.==W== It sounds absurd, but no one's died fighting since.
+0081 [Chaton] | Oh, I get it!==W== Amber, your pistols. When Director Allie told Narida to take the weapons away, Narida must have stashed them in the basement.==W== And then you found them!
+0082 [Benito] | I think ...==W== my sister wanted to leave those pistols as a keepsake for Mom. Even if Mom never knew they were there.
+0083 [Kasimira] | Thank you, Boss.==W== It feels like a weight I've carried for years has finally lifted.
+0084 [Kasimira] | Well then, time to keep our promise. We'll take you to the White Cats' secret room.
+0085 [Tú] | But didn't you say only Narida or Taffett could open that door?==W== Allie's memories didn't seem to hold the password you mentioned.
+0086 [Kasimira] | We already have it.==W== The password is the song==W== Captain Narida used to hum.
+0087 [Lugar y hora] | 11:00, Nebula Month 18th, Mirage, Crystal Diamond Mine
+0088 [Noya] | Wow, is this the mine shaft? Incredible! It feels like a real adventure!
+0089 [Chaton] | Heh heh heh...==W== Every time I descend underground into the abyss's darkness, my dark power surges!==W== ... Probably.
+0090 [Noya] | Yeah! Let me breathe in some of that dark power too!==W== Inhales...==W== Pffft!
+0091 [Chaton] | No!==W== You're not allowed to breathe! All the dark power down here is mine!
+0092 [Tú] | These two sure get along...
+0093 [Tú] | Come to think of it, those crystal diamonds the Imperial Guard used to pay us came from places like this.
+0094 [Iris] | A shaft this deep... How did they even dig it?==W== You can handle dirt and rock with tools, but they must have hit massive, unbreakable boulders.
+0095 [Amber] | Blast them with magic?
+0096 [Benito] | That wouldn't work. The earth around the shaft isn't stable enough. An uncontrolled explosion could easily cause a cave-in.
+0097 [Benito] | So the old miners used a method called heat and quench.
+0098 [Iris] | Heat and quench? How does that work?
+0099 [Benito] | First, you get someone with fire magic to superheat the rock.==W== Then someone with water magic douses it to cool it instantly.
+0100 [Benito] | The sudden shock makes the stone crack on its own.==W== After that, you drive wedges into the cracks to split it apart.
+0101 [Iris] | Fascinating. Miners are clever. I need to write this down.
+0102 [Amber] | You know a lot, Benito.
+0103 [Benito] | Haha, it's not like I figured it out myself.==W== An old miner who used to work here told me, I'm just passing the knowledge along.
+0104 [Tú] | We should be moving faster.==W== Why does this feel like a school trip? Are we okay taking it this easy?
+0105 [Allie] | We'll be fine.
+0106 [Tú] | Wait, did I say that out loud?
+0107 [Allie] | Hehe.==W== Nope. But I can tell what you're thinking. You're an open book,==W== ==PLAYER_NAME==.
+0108 [Tú] | Is that some kind of mom superpower?==W== No, impossible.==W== Still, that's amazing ...==W== and a little terrifying.
+0109 [Allie] | Shh. Stay sharp.==W== Someone's coming.
+0110 [Allie] | See? Everyone is on high alert.==W== Taking it easy earlier was their way to wind down before a fight.
+0111 [Tú] | True. You have everyone figured out, Allie.
+0112 [Myrsha] | Hold it, Boss. That's far enough for you lot.
+0113 [Myrsha] | And you White Cats!==W== You cave this tunnel in, and you'll regret it.
+0114 [Chaton] | Huh? We didn't do anything wrong! You're the ones conning Trekkers into forced labor.
+0115 [Myrsha] | Forced labor? We sign contracts. Our terms are better than United Harvest!==W== What's the matter, you White Cats itching to blow something up again?
+0116 [Tú] | Easy, Myrsha. We aren't here to wreck the mine.
+0117 [Tú] | We want to open the White Cats' secret room. We need to find the missing Monolith.
+0118 [Hazana] | Haha! Perfect.==W== We had no clue how to open that room. You saved us the trouble.
+0119 [Kasimira] | ...==W== And what do the Desert Scorpions want with it?
+0120 [Hazana] | Isn't it obvious?==W== This is our mine now. Everything inside the mine belongs to us. That includes the secret room.
+0121 [Kasimira] | Nonsense.==W== Let's settle this with a duel. Desert rules.
+0122 [Hazana] | A duel?==W== Hahaha!==W== Bring it on!==W==
+0123 [Noya] | Whoa! Pffft! What the hell? A sandstorm inside a mine?
+0124 [Kasimira] | Cough... Damn it, we're cut off. We can't reach Boss.
+0125 [Hazana] | I. Am. The desert.
+0126 [Hazana] | Hehehe... You should have taken our deal, Boss. Now you pay the price.
+0127 [Hazana] | ... But still, I'm not a monster. You want a duel? Fine. Since you want the room, you're fighting me.
+0128 [Hazana] | You win, the room is yours. You lose, you join the Desert Scorpions.
+0129 [Amber] | Keep dreaming.
+0130 [Noya] | Amber, Iris, let's go.
+0131 [Noya] | We're paying her back for that assassination in Philae right here.

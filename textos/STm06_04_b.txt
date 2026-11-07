@@ -1,0 +1,149 @@
+# Capítulo 6 · Milagro de un destello · 4B · Cable Car Station
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Angry Trekker | Angry Trekker
+N:Elite Soldier | Elite Soldier
+N:Shooter Intelligent Plant | Shooter Intelligent Plant
+N:Tired Trekker | Tired Trekker
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_138 | Nyx
+N:avg1_156 | Nazuna
+N:avg2_957 | Weed Shooter
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_115 | Jayhawk
+N:avg3_120 | United Harvest Forester
+N:avg3_122 | United Harvest Manager
+N:avg3_1268 | Ranged Grass
+N:avg3_1269 | Ranged Grass
+N:avg3_1270 | Darcia
+N:avg3_132 | Kaede
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Cable Car Station
+0003 [Intro] | Following the cable car route, the group escapes the city. Meanwhile, mercenaries from HQ have seized the Trekker Camp. The others learn that Darcia is suspected of rebellion, and Philae is set to become a battlefield.
+0004 [Lugar y hora] | 06:30, Messis Month 5th, Outside Philae, Cable Car Station
+0005 [Noya] | We're clear! Those overgrown grasses would need another century to catch Loxy and me!
+0006 [Iris] | Ugh, gonna be sick...==W== Everyone out! Find cover! The Intelligent Plants and mercenaries aren't far behind.
+0007 [Fuyuka] | Th-This is...?!
+0008 [Amber] | Long rope. And a car with no wheels.
+0009 [Nyx] | Not a car. It's a cable car cabin.
+0010 [Nyx] | Before the lockdown, people took this line across the lake to access the Monolith.
+0011 [Iris] | But why sealed it off? Isn't that Monolith run by United Harvest, under Grace Imperium's authority?
+0012 [Nyx] | Heard it was some "operational misconduct,"==W== but the details are classified. Even I'm in the dark.
+0013 [Nyx] | Good thing the Trekker Camp is nearby. The local branch pulls enough Artifacts from the Wilds, so they don't need this place.
+0014 [Noya] | Looks like this big old rig's been sitting here forever. Think it still works?
+0015 [Nyx] | It gets routine checks. We just pump some magic into the winch, and it'll take us straight to the island.
+0016 [Iris] | But the Lucky Oasis won't fit inside...
+0017 [Fuyuka] | If we leave it here,==W== won't the Intelligent Plants claim it?
+0018 [Noya] | No way! I am not letting Loxy become a planter for those weeds.
+0019 [Noya] | The cable car... Loxy... Got it! I have a plan. Fuyuka, let's get changed!
+0020 [Fuyuka] | Huh? Get changed?
+0021 [Fuyuka] | I'm ready. Um, Noya senpai, are we swapping the cabin for the Lucky Oasis?
+0022 [Noya] | Bingo! But I can't lift it alone. Give me a hand, Fuyuka?
+0023 [Noya] | If we can't budge it together, I'll think of something else!
+0024 [Fuyuka] | Hmm... Doesn't look too heavy.==W== Leave it to me, senpai. I've got this!
+0025 [Iris] | Miss Nyx, I've coated the station path in thin ice. Plants or soldiers... Nobody's getting up here easily.
+0026 [Nyx] | ...==W==
+0027 [Amber] | Miss Nyx? What are you looking at?
+0028 [Nyx] | Ah, sorry. I was lost in thought.
+0029 [Nyx] | Listen...==W== I need to stay and feed magic into the launch gear. You guys head to the island first.
+0030 [Iris] | Huh? Can't you power it from inside the car?
+0031 [Nyx] | No, the initial surge has to come from the station.==W== Once you land, jumpstart the terminal on the island side, and I'll take the next car over.
+0032 [Noya] | Got it!==W== We'll juice it up the second we land. You stay safe too!
+0033 [Nyx] | Amber. Catch.
+0034 [Amber] | It's ...==W== your pillow.
+0035 [Nyx] | Hold onto it for me. If you ever hit a dead end and can't decide, open it up.==W== The answer's inside.
+0036 [Amber] | The answer...==W== Understood. Please be careful.
+0037 [Narración] | Nyx presses her hands on the winch, channeling a slow stream of magic.
+0038 [Narración] | Metal screeches against metal, and the cable groans to life, carrying the suspended Lucky Oasis out over the lake.
+0039 [Narración] | The eastern sky is clear. The smoke of battle she expected is nowhere to be seen. Nyx frowns in confusion.
+0040 [Nyx] | Those people...==W== Surely they've made their move by now.
+0041 [Lugar y hora] | 06:40, Messis Month 05th, Gold District in Philae, VIP Reception Room
+0042 [1] | Phew. Hooking the Lucky Oasis to a cable line? Only Noya's crazy enough to try that. At least they got away.
+0043 [1] | Firenze, is the cable car the only way to the island? Can we take a boat?
+0044 [Firenze] | ...==W==
+0045 [Tú] | Firenze?
+0046 [Firenze] | Oh, my apologies, ==SEX12== Tyrant.==W== I was distracted by the view outside. How may I be of service?
+0047 [Tú] | I was asking if there's another way onto the island besides the cable car. A boat, maybe?
+0048 [Firenze] | Won't work. The island is ringed by sheer cliffs with nowhere to dock. Unless you have flight magic, you're taking the cable car.
+0049 [Tú] | That's a relief. Even if the Intelligent Plants overrun the station, those cars are too slow to move a real army. Noya and the others should be safe.
+0050 [Firenze] | You're the one in captivity, yet you're fussing over your friends...==W== You really are an oddity.
+0051 [Tú] | Doesn't matter. As long as my crew is free, neither you nor Darcia has any leverage on me.
+0052 [Tú] | By the way, what were you staring at? You seemed completely entranced...==W== That's not like you.
+0053 [Firenze] | The sky.
+0054 [Narración] | I follow Firenze's gaze east. There's nothing unusual as far as I can see— only the morning sun, stinging my eyes with its glare.
+0055 [Firenze] | Tsk. Looks like someone missed their appointment.
+0056 [Tú] | Missed their appointment==W==...
+0057 [Firenze] | Watching you squirm is delightful, I admit,==W== but I'm not that cruel.
+0058 [Firenze] | Lady Darcia intends to prove her worth to you. But grinding your friends down with waves of fodder... Well, that's a rather hollow victory.
+0059 [Firenze] | Anyway, that's where we stand. Make yourself at home. You're free to do as you please, provided you stay in this room. If you get bored... Why not study the map? It might help you appreciate our lovely Philae.
+0060 [Tú] | So... Did Firenze pull strings to cause this chaos?
+0061 [Tú] | She deliberately showed me that map to focus my attention on the west...==W== No, she's trying to divert everyone's gaze in that direction.
+0062 [Tú] | Which means her real target is east of Philae...==W== The Trekker Camp!==W== Nazuka!
+0063 [Lugar y hora] | 06:50, Messis Month 5th, Outside Philae, Deep Forest
+0064 [Nazuka] | ...==W==
+0065 [Nazuka] | Can I take this?
+0066 [Elite Soldier] | No way.==W== Dark until we clear the Monolith's signal zone.
+0067 [Nazuna] | You guys for real? You raided our camp at midnight, kicked us out, and now I can't even answer a phone?
+0068 [Nazuna] | Is this how United Harvest operates? What's Darcia and Firenze's play here?
+0069 [Tired Trekker] | Yeah! We left half our stuff back there. Turn around!
+0070 [Angry Trekker] | We are going back!==W== I've got active commissions. You covering my penalty fees?
+0071 [Jayhawk] | Silence! Settle down.==W== I'm Inspector Jayhawk from United Harvest. I'm running this op.
+0072 [Jayhawk] | We hear you.==W== On behalf of HQ, accept my sincerest apologies. We'll tally your losses and cover the bill. You have my word.
+0073 [Nazuka] | HQ...?==W== Then these troops aren't locals. They don't answer to Darcia or Firenze.
+0074 [Tired Trekker] | Talk's cheap. How do we know you won't stiff us?
+0075 [Angry Trekker] | Exactly! This is our livelihood. You wanna compensate us? Pay up. Now.
+0076 [Jayhawk] | We deployed fast. We're light on cash.==W== If you don't trust me, the road back is open.
+0077 [Jayhawk] | But be warned: Branch CEO Darcia has gone rogue. The Trekker Camp—and all of Philae—is about to become a war zone.
+0078 [Jayhawk] | If you value your luggage more than your life,==W== be my guest.
+0079 [Kaede] | The Trekker Camp and Philae==W==...==W== A war zone?
+0080 [Nazuka] | Boss is still down there!
+0081 [Elite Soldier] | Hey!==W== I said no phones. You deaf?
+0082 [Nazuka] | Get lost!
+0083 [Nazuka] | I don't care about your rebellion==W== or your war.
+0084 [Nazuka] | Nazuna, Kaede, we're getting Boss. Let's move!
+0085 [Lugar y hora] | 07:00, Messis Month 5th, Outside Philae, Cable Car Station
+0086 [Shooter Intelligent Plant] | Woo-yah!
+0087 [Nyx] | They're not letting up... My Soul Stone is nearly tapped out of Grace.==W== Good thing I brought this cot. It's buying me time as a barricade.
+0088 [Shooter Intelligent Plant] | Woo-yah!==W== Woo-yah!
+0089 [Nyx] | Don't bother.==W== That folding cot is magically reinforced. Your shots won't even scratch it.
+0090 [Nyx] | Phew. The Lucky Oasis should be on the island by now. Time to catch that cable car.
+0091 [Nyx] | We raised enough hell last night to draw their forces west.==W== HQ's breach in the east should be a walk in the park.
+0092 [Nyx] | Hm? A message.
+0093 [???] | It's a bust. The plan failed.
+0094 [???] | HQ never launched the assault on schedule.
+0095 [???] | Why? Did they get held up?
+0096 [???] | No. They tried to seize the Trekker Camp by force and started a riot. Now they're bogged down fighting the locals.
+0097 [???] | Darcia's plants and troops have already retaken the eastern bridge. The window for a surprise attack is gone.
+0098 [???] | How... How did this happen?!
+0099 [???] | We have no choice. I'm initiating the backup plan. Watch your back.
+0100 [Nyx] | What the hell are those idiots at HQ thinking?
+0101 [Nyx] | Lady Darcia. I'm surprised to see you handle this personally. All this for a lowly inspector?
+0102 [Darcia] | If HQ was your lifeline, their performance is ... pitiful.==W== Hehe. How does that make you feel?
+0103 [Darcia] | You went to such lengths gathering evidence, calling in the HQ army to crush me.
+0104 [Darcia] | Only for them to fall apart before even entering the city. A tragic waste of your hard work last night.
+0105 [Nyx] | You seem to forget, Lady Darcia—I'm from HQ, too.
+0106 [Nyx] | Screw the army.==W== If I take you down right here, this ends now!==W== No backup plan needed.
+0107 [Darcia] | Ngh! You... Shooting a defenseless woman? Are you insane?!==W== Ugh... It hurts... No... I don't want to die! Save me...
+0108 [Nyx] | Drop the act. You're the CEO of Philae Branch, the would-be world conqueror. Don't tell me this is the best you've got.
+0109 [Nyx] | Give it up, Darcia. You're under arrest.
+0110 [Darcia] | My, and here I thought my performance was flawless...==W== But I can't surrender just yet. I still have work to do.
+0111 [Narración] | The body on the ground contorts unnaturally. A flame ignites on her chest, instantly swelling into a blaze that consumes her, leaving only a handful of ash.
+0112 [Nyx] | Suicide? No...==W== That win was way too easy.
+0113 [Nyx] | Guh!==W== Who?!
+0114 [Narración] | Nyx hits the ground. She tries to raise her gun, but a boot slams down on her hand.
+0115 [Narración] | An instant later, cold fingers clamp around her throat.
+0116 [Narración] | Through the haze, a familiar silhouette looms over her. It is Darcia, the very woman who burned to ash moments ago.
+0117 [Darcia] | You HQ people never know your place...==W== Did you honestly think that was enough to stop me?

@@ -1,0 +1,166 @@
+# Capítulo 7 · El precio de la estrella · 10 · Ascending for a Prayer
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Knight Captain | Knight Captain
+N:avg1_103 | Amber
+N:avg1_107 | Tilia
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_136 | Angie
+N:avg1_144 | Chitose
+N:avg3_100 | Sylar
+N:avg3_129 | Guardia Imperial
+N:avg3_152 | Bastelina
+N:avg3_167 | Chica
+N:avg3_974 | Serena
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Ten 
+0002 [Intro] | Ascending for a Prayer
+0003 [Intro] | On the lake island, you bump into Tilia. Serena suddenly catches up with a warning: Omnisky Aegis is still on your trail. Despite the pursuit, you scale the Monolith and make a wish, gifting a cell phone to Chitose.
+0004 [Lugar y hora] | 12:00, Venatio Month 14th, Lake Island in Philae, Forest Edge
+0005 [Chitose] | Watch your step, my ==SEX11==.
+0006 [Tú] | Thanks.
+0007 [Tú] | Wait—is that a camp? Did another team beat us here?
+0008 [Tilia] | Huh... ==PLAYER_NAME==?! Is that you?
+0009 [Tú] | —Hm? Who's that?
+0010 [Tilia] | What a coincidence!==W== Do you remember me? We chatted briefly back in Emor...
+0011 [Tú] | Oh, right. You're...
+0012 [Tú] | That day when the giant Stellaroid trashed the Ash District, I spotted a young knight shielding some kids.
+0013 [Tilia] | You saw that?
+0014 [Tú] | You were my escort when I visited Feagin.
+0015 [Tú] | It's Tilia, right?
+0016 [Tilia] | Yes, I'm Tilia!==W== Though technically I'm not a full knight yet... Just a squire.
+0017 [Tú] | When did you get to Philae?
+0018 [Tilia] | I came here on guard duty for the banquet, and they selected me for the Monolith team!
+0019 [Tilia] | Which makes us rivals today, Boss!==W== I'd love to say "friendship first," but for the honor of the Imperial Guard, let's give this everything we've got!
+0020 [Chitose] | With me here, my ==SEX11== cannot lose.
+0021 [Tilia] | Ah, the champion of justice!==W== So ... you were looking for ==PLAYER_NAME== that day.
+0022 [Tú] | Chitose, you two know each other?
+0023 [Chitose] | Yes. She bought me a drink when I was searching for you in Emor.==W== I shall never forget the taste.
+0024 [Chitose] | Now then, brave squire. My ==SEX11== and I must press on.
+0025 [Tilia] | Goodbye! And stay safe out there!
+0026 [Tú] | Thanks. Good luck to you, too.
+0027 [Tilia] | Captain, you can come out now.
+0028 [Knight Captain] | That was close... Didn't expect to run into ==SEX4== here.==W== I threw a spear at ==SEX4== before. Sure, I didn't know who ==SEX== was, but I was still the one out of line.
+0029 [Knight Captain] | Big shots like that hold grudges. We might've only been on Creta Trading's payroll, but that won't stop them from holding it against us.
+0030 [Tilia] | ==PLAYER_NAME=='s very kind. You have nothing to worry about.
+0031 [Tilia] | Captain, they arrived after us, but they are already out searching for the Monolith entrance. Should we be dragging our feet like this? If Lady Greyhorn asks...
+0032 [Knight Captain] | Lady Greyhorn won't lose her temper over us sitting by a campfire. Trust me. Let's eat first.
+0033 [Knight Captain] | If anyone calls to rush us, tell them my unit is currently dining.
+0034 [Lugar y hora] | 12:30, Venatio Month 14th, Lake Island in Philae, Monolith Entrance
+0035 [Chitose] | My ==SEX11==, I have located the entrance.
+0036 [Narración] | Half an hour later, deep in the forest, Chitose and I find an elevator built directly into the cliff face.
+0037 [Tú] | We haven't seen a soul. Did the Omnisky Aegis team already head inside?
+0038 [1] | It's Noya.
+0039 [Noya] | Boss, we've got a problem. We can't reach the island!
+0040 [1] | Take a breath.==W== What happened?
+0041 [Noya] | Iris and Amber just met up with me. We were about to take the cable car over to back you up.
+0042 [Amber] | Got on. Cable snapped.
+0043 [1] | What—snapped?!
+0044 [1] | Is everyone okay? Anyone hurt?
+0045 [Iris] | Amber grabbed us and bailed right before the car hit the water. We're safe, but ... my heart won't stop pounding.
+0046 [Bastelina] | That was too close. Looking at the severed ends, the sabotaged cable barely held when you and Chitose crossed. Gave out the moment it took on a second load.
+0047 [Bastelina] | I've notified Albedo. They'll repair it as quickly as possible, but it won't be today.
+0048 [1] | Understood. Chitose and I will have to tackle the Monolith ourselves, then.==W== I'll count on the rest of you to back up Firenze.
+0049 [Iris] | Got it. We'll head back and lend Firenze a hand. She needs the manpower.
+0050 [Iris] | But...
+0051 [Iris] | Please be careful, Boss. Don't forget to read the Monolith safety protocols I put in your file.
+0052 [1] | I will. You stay safe out there too.
+0053 [Tú] | Phew. Let's hope it's fixed by morning.==W== Our odds are much better if both teams make wishes together.
+0054 [???] | I'm afraid that the cable car won't be an easy fix.
+0055 [Tú] | Huh?!
+0056 [???] | Industrial steel like that is incredibly hard to wish for. Even if someone manages to spawn it at the Wild Monolith, lugging something that heavy all the way out here is a nightmare.
+0057 [???] | You're looking at two or three days, minimum. Probably longer.
+0058 [1] | Then we might not even have a way back—
+0059 [Tú] | Wait. Se-Serena?! How long have you been standing there?!
+0060 [Serena] | I answered a loyal customer's call. Delivering intel the moment you need it—that's what makes me a professional.
+0061 [Serena] | That said... I mean you no harm.==W== Would you mind asking your friend to move her blade away from my neck?
+0062 [Chitose] | My ==SEX11==. A cloak materialized in the grass behind you, and this strange woman emerged from it.
+0063 [Chitose] | She speaks the truth. I sensed no malice, which is why I did not immediately cleave her in two. Still, she dared to take the position behind you.
+0064 [Chitose] | How shall we handle her? I await your orders.
+0065 [Tú] | Stand down, Chitose.==W== I know her. This is Serena.
+0066 [Tú] | She tipped us off about the hotel escape route. She's helped us a lot since we got to Philae.==W== I guess you could call her ... a friend.
+0067 [Serena] | Aw, I'm honored! The Boss actually considers me a friend.
+0068 [Serena] | But friendships are a luxury in my line of work. Please, continue to see me as a reliable business partner instead.
+0069 [Serena] | Anyway, down to business. Omnisky Aegis has two teams in play.
+0070 [Serena] | One of them hauled a massive sack into the Monolith. No idea what kind of secret weapon is in there, but it reeks of bad news.
+0071 [Tú] | We haven't even paid for your last tip, and you're selling us more?
+0072 [Serena] | Consider it on the house. Let's say I have a distaste for Omnisky Aegis. Plus, that cable car they wrecked was a precious historical site.==W== It is tied to the Armless Saint, after all.
+0073 [Serena] | Think of it as my little way of supporting the Boss. Sound fair?
+0074 [Tú] | The Armless Saint... People in Philae say it's all a myth. Even the statue's a fake.
+0075 [Serena] | Is it a myth? Is it a fake? Who knows? But I do know one thing—the Armless Saint was very real.
+0076 [Serena] | According to records from centuries ago, the Saint and attendant started from where that exact cable station is located.
+0077 [Serena] | They ziplined through the dangerous lake...
+0078 [Serena] | Scaled the Monolith, and faced down the evil deity...
+0079 [Serena] | ... To stop Philae's endless rain.
+0080 [Serena] | There were no cable cars back then, of course.
+0081 [Serena] | Someone built the station years later, commemorating the Saint's journey. Look under those cable cars and you'll still find the old plaques.
+0082 [Serena] | So anyone trying to claim the Saint never existed... Well, they must have their own motives.
+0083 [Tú] | Nazuka will love hearing this.==W== When she gets back, we should go hunting for proof together.==W== Could be fun.
+0084 [Serena] | Come to think of it, I'm looking at Philae's newest hero and an attendant with an injured hand right now. You walked that exact same path to the Monolith to end this pointless bidding war.
+0085 [Serena] | It's almost like that legendary scene. Quite a sight... Too bad someone's trying to ruin the moment.
+0086 [Tú] | Okay, now you're reaching.
+0087 [Serena] | Am I? You know what they say about history repeating itself.
+0088 [Serena] | As for my payment for that tip... Come by my room once this is all over, Boss. There's something I need to tell you in person.
+0089 [Narración] | Chitose and I bid Serena goodbye and head into the Monolith.
+0090 [Narración] | Thanks to my runs with the New Star Guild and everything Iris taught me, I know my way around these Monoliths.
+0091 [Narración] | Plus, with the layout constantly shifting, running into anyone else in here is a long shot.
+0092 [Narración] | If we keep our heads down, Omnisky Aegis shouldn't be a problem. Still...
+0093 [Lugar y hora] | 16:50, Venatio Month 14th, Philae Monolith, Floor 15
+0094 [Chitose] | My ==SEX11==, the Stellaroids on this floor are dealt with. Let us find the Wishing Box.
+0095 [Tú] | Normally we run in a squad of three. It maximizes the Monolith's buffs, and we cover each other to save energy.
+0096 [Tú] | But right now, Chitose is fighting solo. She won't admit it, but her grip on her weapon is shaking a bit. Exhaustion is catching up to her.
+0097 [Tú] | I need to find a way to help her.==W== Wait, that's it!
+0098 [Narración] | After a quick sweep of the floor, I spot a Wishing Box barely larger than my hand tucked in a corner.
+0099 [Chitose] | My ==SEX11==, will this box yield the Artifact the Grace Imperium demands?
+0100 [Tú] | Probably not. It's way too small.
+0101 [Tú] | Makes sense. We're too far down in the Monolith to find a massive one. But this will do just fine.
+0102 [Chitose] | Understood. Please step behind me. We must continue our ascent.
+0103 [Tú] | Hold on, Chitose. Let's rest here for today.
+0104 [Chitose] | My ==SEX11==, please do not worry about me. Thanks to your care, I am still fully capable of fighting.
+0105 [Tú] | Haste makes waste.==W== Honestly, I'm wiped out. Let's recharge so we can tackle the tower properly tomorrow.
+0106 [Chitose] | If you insist...==W== I will secure a place for rest at once.
+0107 [Tú] | No, no need.==W== We can catch our breath at that rest area over there. Just don't eat anything inside it.
+0108 [Chitose] | I understand.==W== I brought some meat buns I made myself. Please, have one.
+0109 [Tú] | Oh! These are uniquely shaped!==W== Thank you!
+0110 [Tú] | By the way, you don't have a phone yet, do you? What kind would you like?
+0111 [Chitose] | A-A phone?! But I am your blade. I belong at your side at all times. I have no need for such a precious Artifact.
+0112 [Tú] | Exactly. You're my blade, which means you need to answer my call at a moment's notice. It'd be inconvenient if you didn't have one, right?
+0113 [Chitose] | That ... is a fair point. But since I belong to you, please be the one who decides its appearance.
+0114 [Tú] | Alright. Here goes.
+0115 [Opción] | O almighty God of Grace, hear our prayer...
+0116 [1] | Please grant me—
+0117 [1] | A portable communication terminal.
+0118 [1] | It needs to handle long-range calls and text and photo messaging with similar devices, plus basic recording and calculator functions.
+0119 [1] | Keep it palm-sized, run it on magic, and enchant it with Heartlink.
+0120 [1] | Finally, make it look like a samurai holding a sword.
+0121 [Chitose] | My ==SEX11==, the Wishing Box is glowing...
+0122 [Tú] | That means it worked. Look, it's opening—
+0123 [Narración] | I pull a white phone from the box. It comes with a sword-shaped stylus on the back, looking exactly like a samurai and a weapon.
+0124 [Tú] | Here. It's yours, Chitose.
+0125 [Chitose] | A phone ... for me! I am forever in your debt.==W== I will tuck it safely into my bedding so no dust will ever scratch it.
+0126 [Tú] | Hey, don't bury it in your bedroll.==W== You're supposed to keep it on you.
+0127 [1] | Look. Tap them together like this, and we'll be connected.
+0128 [Chitose] | What magic is this...?!
+0129 [Narración] | We share the meat buns Chitose brought while I teach her how to type.
+0130 [Narración] | She fumbles with typing at first,==W== but soon enough,==W== she's texting me without a hitch.
+0131 [Chitose] | My ==SEX11==, this phone thing ... is incredibly convenient.
+0132 [Chitose] | I still prefer speaking face-to-face so I can look into your eyes.
+0133 [Chitose] | But a tool that can communicate my thoughts to you from afar is nothing short of revolutionary.
+0134 [Tú] | 
+0135 [Tú] | Normally, these only work within the same Monolith's range, but mine ignores that rule.
+0136 [Tú] | No matter how far apart we are, we can always talk.
+0137 [Chitose] | To hear your voice from miles away...
+0138 [Chitose] | I must double down on my training!
+0139 [Chitose] | My ==SEX11==, my heart is racing...!
+0140 [Tú] | I'm glad you're excited, but it's late.==W== I'll take first watch, so get some rest.
+0141 [Chitose] | Oh...==W== I understand. It is chilly in this Monolith. I will warm your bed at once.
+0142 [Tú] | Warm my—? That's not... Ugh, fine. As long as she lies down.==W== If I can make her drowsy, she'll fall asleep.
+0143 [Tú] | Alright, then. Go ahead.
+0144 [Chitose] | Yes, my ==SEX11==. May we talk while I warm the bed?
+0145 [Tú] | Huh?
+0146 [Chitose] | About my journey—==W==and how you helped me master the Swordless Style.

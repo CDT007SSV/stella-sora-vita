@@ -1,0 +1,165 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 6A · The Rain That Never Falls
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Resolute Sentinel of Dawn | Resolute Sentinel of Dawn
+N:Tired Sentinel of Dawn | Tired Sentinel of Dawn
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_163 | Greyhorn
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_100 | Sylar
+N:avg3_1306 | Sentinel of Dawn Soldier M
+N:avg3_1307 | Sentinel of Dawn Soldier M
+N:avg3_1308 | Sentinel of Dawn Soldier F
+N:avg3_1309 | Sentinel of Dawn Soldier F
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+N:avg3_974 | Serena
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | The Rain That Never Falls
+0003 [Intro] | Angie offered peace in exchange for your suicide and revealed the truth. Even so, talks collapsed. Gunhilde's artillery shattered the land, and in the caved-in mine tunnels, Greyhorn and her forces awaited everyone.
+0004 [Lugar y hora] | 16:40, Nebula Month 18th, Mirage, Unnamed Street
+0005 [Nazuka] | Boss, aerial recon is clear. No enemies in sight.
+0006 [Chitose] | My ==SEX11==, the buildings are secure. No signs of an ambush.
+0007 [Tú] | Looks like Angie feels an ambush here is beneath her. Or she knew we'd see right through it, and it'd be a waste of time.
+0008 [Tú] | Noya, is your gut telling you anything?
+0009 [Noya] | Hmm, nope! That uneasy feeling from earlier is gone, and we've got a handle on their magic now.
+0010 [Noya] | The bullets from the Scepter of Death... Chitose can block those, right?
+0011 [Chitose] | As long as it isn't rapid fire, I can slice them all.
+0012 [Noya] | And No. 160's time stop is useless as long as we don't actually hurt her.
+0013 [Nazuka] | Or we knock her out in one hit before she has the chance to cast it.
+0014 [Nazuka] | Gunhild's sniping is the real problem. We don't have a good way to deal with it.==W== Boss, I wove a ward into your clothes. I think ... it can block at least one shot.
+0015 [Noya] | Sigh. If only a heavy rain would shave that sand dune top. Then Gunhild wouldn't have the high ground to aim from.
+0016 [Tú] | Rain, huh...==W== It does rain in the desert, but maybe only once or twice a year. We aren't that lucky.
+0017 [Noya] | It'd be great if you really were the legendary Tyrant.==W== I dug up that old fairy tale at the orphanage the other day.
+0018 [Noya] | The Tyrant in the story summoned heavy rain to the desert with just a wave.==W== Oases appeared,==W== and beautiful flowers bloomed right out of the dunes.
+0019 [Tú] | That's just a fairy tale. In reality, you'd need the combined power of several mighty mages to pull that off, no?
+0020 [Nazuka] | Boss, watch out. Angie's crew is here.
+0021 [Tú] | Greyhorn ...==W== and the arbiter from earlier. Hello.
+0022 [Tú] | Where is Angie? She was the one who proposed this negotiation, but we get you two instead?
+0023 [No. 160] | L-Lady Angie wouldn't just show up that easily!==W== Tyrant!==W== Wh-Where are you hiding that vicious pink-haired woman?! She is absolutely forbidden from attending this negotiation!
+0024 [Tú] | Pink hair... Allie? She was quite shaken up by her earlier.
+0025 [Tú] | Prying into my companions' whereabouts before negotiations even start? Is that how the Salvation Committee does things?
+0026 [Greyhorn] | Apologies. I ask for your forgiveness on 160's behalf. She was quite rattled by that formidable orphanage director earlier and is speaking out of turn. Please overlook it.
+0027 [Greyhorn] | We are merely here to secure the perimeter. Lady Angie will arrive shortly.
+0028 [Narración] | Greyhorn unfurls the cloak in her hands. A hazy figure rapidly takes shape within it.
+0029 [Tú] | Just how many identical cloaks does she have, ready to go...
+0030 [Angie] | Tyrant. We meet again.
+0031 [Angie] | My, you have three companions too. How cautious of you.
+0032 [Tú] | Only when I deal with shady people fond of sneak attacks.
+0033 [Angie] | Heh. I came here today with the utmost sincerity to negotiate.==W== But since we clearly aren't going to get along, let's cut to the chase.
+0034 [Angie] | Your goal is to protect your companions, buy time, and escape Mirage. Am I right?
+0035 [Angie] | The Salvation Committee intercepted your Heartlink with Firenze. Your reinforcements will reach Mirage within three days.
+0036 [Angie] | Firenze likes to hold her cards close to her chest, and she knew the line might be tapped... So they will likely arrive even sooner.
+0037 [Angie] | That significantly shortens my window to kill you. A day and a half... No, to be safe, I have exactly twenty-four hours.
+0038 [Angie] | I've already seized command of the Desert Scorpions and the Imperial Guard in Mirage, but your companions are far stronger than I anticipated.
+0039 [Angie] | With so little time, I'm not absolutely certain that I can end you. Our battle would inevitably reduce Mirage to ruins, with heavy casualties on both sides.
+0040 [Angie] | Therefore, I am asking you to end your own life with this Scepter of Death. In return, I will guarantee the safety of your companions and the people of Mirage.
+0041 [Noya] | You call this a negotiation?! You toss out a few words and expect someone to kill themselves. Are you out of your mind?!
+0042 [Angie] | I am well aware this proposal falls short of your expectations. Therefore, I will add a condition.
+0043 [Angie] | Your companions may join the Salvation Committee and stay by my side. If, after observing my actions, they decide I am not actually saving the world, they may kill me at any time.
+0044 [Angie] | Even if they spare me for now, in four years, when the world is truly safe from destruction, I will ask them to take my life as recompense for yours.
+0045 [Angie] | In other words, no matter what happens, I will pay for your life with my own. If you still doubt me, your companions can bind me with a magical contract. An unbreakable one.
+0046 [Tú] | What kind of condition is this?! She'd go to this length just to see me dead...?
+0047 [Chitose] | How dare you compare my ==SEX11=='s noble life to a lowly ant like yourself?
+0048 [Tú] | Chitose, stay calm. Let me hear her out.
+0049 [1] | Angie, I understand your sincerity.
+0050 [1] | We have no personal grudge, yet you're willing to forfeit your own life just to kill me. I assume you aren't doing this for your own sake.
+0051 [Angie] | Thank you for understanding. It's always a pleasure speaking with someone reasonable.
+0052 [1] | Actually, I don't.
+0053 [1] | You claim the world is ending, and the only way to save it is to kill me, the legendary Tyrant.
+0054 [Tú] | But you're the only one saying this.==W== We've traveled through many cities,==W== and we've never seen a single sign of the end of the world. We haven't heard a single soul mention it, either.
+0055 [Tú] | And why would I, a person without memories, be the legendary Tyrant? Why must the Tyrant end the world?
+0056 [Tú] | Your entire reasoning ... wouldn't be based on that Book of Grace Prophecies, would it?
+0057 [Angie] | The Book of Grace Prophecies is merely a map. An ancient one, at that. You can only verify its contents by following it to the destination.
+0058 [Angie] | I hoped more than anyone that this map was wrong. Sadly, when the Salvation Committee and I reached its destination, we found it to be accurate. The reality is even worse than the map described.
+0059 [Angie] | The only reason you haven't seen it is that you haven't reached the true Edge of the World.
+0060 [Noya] | Isn't Mirage the Edge of the World?
+0061 [Angie] | This is merely the edge of civilization...==W== A newly formed one, barely a century old.
+0062 [Angie] | To see the true Edge of the World, you must travel west for days,==W== cross the quicksand and the mountains, all the way to where the desert meets the sea.
+0063 [Angie] | There, the earth is constantly collapsing into a pitch-black abyss.
+0064 [Angie] | The only reason none of you have heard of it is that Novians have grown accustomed to burying their heads in the sand.
+0065 [Angie] | The Nova Continent is one-third smaller today than it was two hundred years ago. The Empire has fifteen fewer cities than it did a century ago.
+0066 [Angie] | No one will tell you these things, and you will not be able to find them yourselves. Nova's libraries do not have any history books.
+0067 [Angie] | There. Now that I have told you what will happen to the world, will you believe me?
+0068 [Tú] | The earth constantly collapsing into a pitch-black abyss...==W== Isn't that...
+0069 [Nazuka] | Boss, grab my hand!
+0070 [Tú] | Is this ... an earthquake?
+0071 [Nazuka] | No, it's not an earthquake.==W== The Monolith is sinking!
+0072 [Nazuka] | Boss, it's pulling us down with it...==W== I'm sorry. We might not make it back.
+0073 [Tú] | That isn't an accidental Monolith sinking. It's a sign of the world ending...
+0074 [Tú] | Angie, I believe you.
+0075 [Angie] | Oh? That's a surprise. In ten years, you're the first person to believe me right after hearing it.==W== And I can tell, you aren't lying.
+0076 [Noya] | Even if everything you said is true, what does that have to do with ==PLAYER_NAME== being the Tyrant?!==W== ==SEX1== is our Boss! ==SEX1== has nothing to do with your stupid legends!
+0077 [Angie] | Is that so? I think even your Boss is having doubts.
+0078 [Angie] | Since you've already been to the White Cat's secret room, you must have seen that book, right?
+0079 [Tú] | That room has been sealed for years. Why do you know about the book?
+0080 [Angie] | Alas, I must have arrived so suddenly that you did not have time to finish reading it.
+0081 [Angie] | If you had read the whole thing, you would have realized it was the late Empress's diary.
+0082 [Angie] | The diary explicitly states that you are the legendary Tyrant. The late Empress even drew your portrait with her own hand.
+0083 [Angie] | I don't know how Her Highness possessed such foresight, but it is indeed irrefutable proof.
+0084 [Tú] | Even if I am the Tyrant, I will not destroy the world.
+0085 [Angie] | The world's destruction has nothing to do with your personal will! As much as I'd love to give you the final answer... Time is up, Tyrant.
+0086 [Angie] | I never expected you to surrender without a fight. For you to earn the loyalty of such exceptional Trekkers, you must possess an unshakable will.
+0087 [Angie] | You only agreed to this negotiation to buy time for your retreat, didn't you?!
+0088 [Narración] | Severance!
+0089 [Tú] | Since you know I am waiting for everyone else to evacuate, what are you waiting for?
+0090 [Angie] | You'll find out soon enough.
+0091 [Lugar y hora] | 17:00, Nebula Month 18th, Mirage, Desert Outside the City
+0092 [Tired Sentinel of Dawn] | Captain Gunhild, one base unit of ammunition is in formation. We're ready to commence bombardment.
+0093 [Gunhild] | Good work, everyone. Lady Angie has stalled the Tyrant in the designated target zone. Now is our time to fight! We will defeat the Tyrant here and now! We will protect Nova!
+0094 [Tired Sentinel of Dawn] | Yes, Ma'am!
+0095 [Gunhild] | Piercer, shift to second form! Commence bombardment!
+0096 [Narración] | Teal lightning crackles across the Piercer as its barrel rises. Its rear base extends like a Loong's claw, anchoring deep into the dune.
+0097 [Narración] | Mages line up in neat formation, each clutching several precious Soul Stones. The mage at the front places a hand on the Piercer and murmurs an ancient incantation.
+0098 [Resolute Sentinel of Dawn] | By the blood in my veins, I manifest the breath of magic. Let my body be the chain, and bury them in hellfire.
+0099 [Narración] | Surging energy channels through her body, violently pouring into the Piercer to forge a blinding magical shell.
+0100 [Narración] | The Piercer roars. Unable to withstand the overload, the mage collapses and is instantly carried off by medics on standby. The next mage steps up, murmuring the exact same incantation.
+0101 [Gunhild] | We have two full firing units at best.
+0102 [Gunhild] | If we use them all and still can't take down the Tyrant, we'll have to use our last resort.
+0103 [Lugar y hora] | 17:01, Nebula Month 18th, Mirage, Unnamed Street
+0104 [Noya] | Wh-What kind of sniping is this?! They're just bombing us blindly!
+0105 [Nazuka] | This isn't a snipe. It's an artillery bombardment... Is this the true power of that artillery camp?
+0106 [Nazuka] | Boss, Noya, Chitose, run! My windshield can't hold out much longer!
+0107 [Tú] | We leave together or not at all.
+0108 [Greyhorn] | Lady Angie, the bombardment has begun as planned. Please evacuate the battlefield. I'll handle things here.
+0109 [Angie] | Then I'll leave it to you, Greyhorn.
+0110 [Greyhorn] | Let's end this, Tyrant.
+0111 [Noya] | Dammit. How is she standing in the middle of a bombardment totally unharmed?
+0112 [Greyhorn] | Do not underestimate the defensive magic of the Imperial Guard, Trekkers.
+0113 [Chitose] | My ==SEX11==, I will hold her back.
+0114 [Nazuka] | My Soul Stone is almost out of magic!
+0115 [Tú] | Cough... What just happened? Noya, Nazuka, Chitose, are you all right?
+0116 [Nazuka] | Sorry, my shield gave out. It looks like ... we fell into an underground mineshaft.
+0117 [Noya] | How much magic does the Committee have? They blasted right through the ground. Ugh!==W== My wound—
+0118 [Chitose] | My ==SEX11==, my right arm... It won't move. I was crushed by a boulder when the ground caved in.
+0119 [Tú] | This is on me. I misjudged their strength.
+0120 [Nazuka] | You didn't misjudge anything. We still managed to buy enough time.
+0121 [Noya] | Exactly! Everyone should be heading out of the city by now. All we have to do is keep running!
+0122 [Chitose] | Life on the battlefield is fleeting as morning dew. If we find ourselves in dire straits, I only ask that you abandon me without hesitation. Do not look back.
+0123 [Tú] | Don't say that, Chitose. I'm going to get us all out of here safely. No one gets left behind.
+0124 [Greyhorn] | You aren't walking out of here, Tyrant. Lady Angie stationed my troops here in advance.
+0125 [Greyhorn] | She's lifted the restriction that limited us to targeting you only. From this moment on, we won't be holding back against your companions.
+0126 [Greyhorn] | They are indeed strong. But with their magic depleted and bodies battered, what can they possibly do now?
+0127 [Greyhorn] | This is the overwhelming gap in power between Boss Accord and the Salvation Committee.
+0128 [Greyhorn] | Tyrant, Lady Angie is willing to give you one last chance. If you pick up the phone, her previous terms still stand.
+0129 [Greyhorn] | Tsk... More reinforcements?
+0130 [Narración] | ==Off==Is someone ... picking on my children down here?
+0131 [Noya] | Mom!
+0132 [Allie] | Boss, Noya, Chitose, Nazuka. Go on ahead.
+0133 [Allie] | I'm going to hold them off here.
+0134 [Allie] | The kids at the orphanage have safely evacuated. Right now, you are the only ones I still have to worry about.
+0135 [Greyhorn] | Director Allie, you're one of the good ones, formidable too. But even you can't hold off a full Company with its restrictions lifted.
+0136 [Allie] | Really...?
+0137 [Allie] | Hello there. You on the other end of the phone, listen closely.
+0138 [Allie] | I'm going to show you just how fragile your little schemes and formations really are.

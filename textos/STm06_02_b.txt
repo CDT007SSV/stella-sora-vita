@@ -1,0 +1,140 @@
+# Capítulo 6 · Milagro de un destello · 2B · The Cost of Denial
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cautious Soldier | Cautious Soldier
+N:Proactive Team Leader | Proactive Team Leader
+N:Suspicious Officer | Suspicious Officer
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_138 | Nyx
+N:avg2_962 | Poisoned UH Employee
+N:avg2_963 | Poisoned UH Employee
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_120 | United Harvest Forester
+N:avg3_121 | Empleado de Cosecha Unida
+N:avg3_122 | United Harvest Manager
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_1265 | Firenze
+N:avg3_142 | United Harvest Researcher
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | The Cost of Denial
+0003 [Intro] | You reject Darcia's loyalty and are placed under house arrest, but Firenze, moved by your convictions, decided to collaborate with you in secret. You warn your companions to escape immediately.
+0004 [Lugar y hora] | 01:30, Messis Month 5th, Gold District, Philae, Company Hallway
+0005 [Firenze] | This way, please, ==SEX12== Tyrant.
+0006 [Narración] | Under the protection of Firenze and her soldiers, I am escorted out of Darcia's office.
+0007 [Tú] | Firenze, come on. You know better.==W== I'm the Boss from the Boss Accord, not the Tyrant from the legends.
+0008 [Firenze] | Explaining to me is pointless. That call is entirely up to Lady Darcia.
+0009 [Firenze] | Around here, if Lady Darcia says white is black, then it is black.==W== And since she says you are the "Legendary Tyrant," well...
+0010 [Tú] | ... Then I am the Tyrant?==W== That's ridiculous. You're illegally detaining me.
+0011 [Firenze] | Need I remind you where we are, ==SEX12== Tyrant? This is United Harvest. Your companions are guests here too... So I wouldn't try anything foolish if I were you.
+0012 [Firenze] | We are simply following Lady Darcia's orders. Please, don't make this difficult.
+0013 [Tú] | Using everyone's safety as leverage...==W== Darcia!==W==
+0014 [Lugar y hora] | 02:00, Messis Month 5th, Gold District, Philae, VIP Reception Room
+0015 [Firenze] | Your temporary quarters, ==SEX12== Tyrant. Please, make yourself at home.
+0016 [Firenze] | Do not leave this room. If you need anything, simply ask, and I'll have it ready.
+0017 [Tú] | How long do you plan to keep me here?
+0018 [Firenze] | That depends on you—and Lady Darcia, of course.==W== Though I imagine if you were to suddenly "remember" that you are the Tyrant, your stay might be shorter.
+0019 [Tú] | Why does it have to be me?
+0020 [Firenze] | It's not my place to speculate.==W== Perhaps only your specific talents meet Lady Darcia's standards.
+0021 [Firenze] | Now, hand over your phone and uniform. We'll show them to your subordinates for their peace of mind.
+0022 [Tú] | Hmph. They're your leverage against me, and I'm your leverage against them. Is that it?
+0023 [Firenze] | Lady Darcia believes you are surrounded by treacherous influences. She thinks they are the reason you see yourself as a Trekker, not the Tyrant.
+0024 [Tú] | That's why you separated us?==W== By the way, what if I don't give you the phone?
+0025 [Firenze] | Lady Darcia has authorized me to use force, provided I don't cause you any harm.
+0026 [Firenze] | However, I would prefer not to exercise that privilege.
+0027 [Firenze] | If you humor my curiosity with an answer, I might bend the rules. I'll take the uniform, but you can keep the phone.
+0028 [Tú] | What's the question?
+0029 [Firenze] | You could have easily feigned acceptance of Lady Darcia's loyalty. Why did you still choose to refuse?
+0030 [Tú] | She keeps saying "Lady Darcia," yet asks something that completely undermines her master. Is she testing me ... or does she have her own agenda?
+0031 [Tú] | No big reason. I just can't agree with her philosophy. That's all.
+0032 [Firenze] | Even if that choice endangers both you and your subordinates?
+0033 [Tú] | Didn't you just say this is United Harvest? We were never safe here, no matter what I chose to do.
+0034 [Tú] | I don't care about the legends. I just want to be the Boss my companions trust.
+0035 [Firenze] | The person they trust, hmm...?
+0036 [Firenze] | That trust between you... It is truly enviable.
+0037 [Firenze] | Very well. To honor our agreement, I won't ask for the phone.
+0038 [Tú] | Glad you're satisfied. Speaking of which...==W== Where did you pull that suitcase from?
+0039 [Firenze] | This? It is my luggage.==W== Don't worry, just the bare essentials—a change of clothes and a makeup kit.
+0040 [Firenze] | I only asked you to change because that cheap uniform insults your status. As for the phone...==W== You never actually had to hand it over.
+0041 [Firenze] | Lady Darcia only instructed me to stay by your side—to ensure those scheming subordinates don't lead you astray.
+0042 [Tú] | And that "force" you mentioned earlier?
+0043 [Firenze] | I was bluffing.
+0044 [Firenze] | How else would I learn your true thoughts without a little lie? However, when I said I envied the trust between you and your companions, that was the truth.
+0045 [Firenze] | Go ahead. Contact your friends. Say whatever you need to say.
+0046 [Tú] | Won't doing this ... go against Darcia's will? Aren't you worried she'll punish you?
+0047 [Firenze] | As long as I am attending to you, you cannot possibly be led astray.
+0048 [Firenze] | Besides...
+0049 [Firenze] | I am quite curious to see exactly what kind of Boss you intend to become.
+0050 [Lugar y hora] |  02:15, Messis Month 5th, Gold District, Philae, United Harvest Office
+0051 [Noya] | Yawn... Man, I'm sleepy.==W== ==PLAYER_NAME== has been in there forever. What's taking so long?
+0052 [Iris] | Boss is undoubtedly discussing complex executive matters with Darcia. They are both CEOs, after all. It's high-level strategy!
+0053 [Fuyuka] | Since Darcia's so nice... She probably won't blame Master even though we destroyed the greenhouse, right...?
+0054 [Noya] | Darcia already said that it didn't matter! Besides, wasn't she the one who saved our skins from Firenze back there?
+0055 [Fuyuka] | U-um... Then why are there so many people ... staring at us?
+0056 [Amber] | Hm? It's Boss.
+0057 [Tú] | 
+0058 [Tú] | Amber, is everyone okay?
+0059 [Amber] | 
+0060 [Amber] | Boss, we're holding up. We have food and water.
+0061 [Amber] | But there's a ton of United Harvest soldiers watching us
+0062 [Tú] | 
+0063 [Tú] | I need a favor
+0064 [Tú] | Find a way out of the city. Head to the Trekker Camp and link up with the Petal Bloom.
+0065 [Amber] | 
+0066 [Amber] | Leave the city? But you're still in Darcia's office.
+0067 [Tú] | Don't worry about me.
+0068 [Tú] | 
+0069 [Tú] | Darcia has me under house arrest. I can't escape right now.
+0070 [Tú] | If things get dangerous, just run.
+0071 [Tú] | If you guys get out safely, she can't use you as leverage against me.
+0072 [Tú] | That's the only way I'll have any bargaining power.
+0073 [Amber] | (Soldiers outside the window... Inside, too...)
+0074 [Amber] | (It's like they read our minds.)
+0075 [Amber] | (Gotta find a way out of here.)
+0076 [???] | My chest... It feels tight. Can you help me get to the infirmary?
+0077 [Proactive Team Leader] | You again? Make it quick! Don't fall behind on your quota.
+0078 [Proactive Team Leader] | You, intern, go give her a hand.
+0079 [Amber] | That's it. I'll use the trick Nyx taught me... Hope she takes the hint.
+0080 [Amber] | Nngh... It hurts...
+0081 [Noya] | Amber? Amber?! Are you okay? What's happening?!
+0082 [Amber] | My chest... Tight... Need... The infirmary...
+0083 [Nyx] | The infirmary...?!
+0084 [Nyx] | Oh no, it might be cardiac ischemia from overexertion! We have to get her to the infirmary immediately!
+0085 [Suspicious Officer] | Hold it. Lady Darcia's orders are absolute: no one leaves this room.
+0086 [Nyx] | You're citing protocol now? She's from the Boss Accord, Lady Darcia's honored guest. If she collapses on your watch, are you taking the fall?
+0087 [Suspicious Officer] | Well... I...
+0088 [Cautious Soldier] | Lady Darcia wants a partnership with Boss Accord. Our orders are technically just "protection." If a VIP gets hurt... It's our heads on the block.
+0089 [Suspicious Officer] | True... But I can't just let them walk out unmonitored.==W== Wait, I've got it.
+0090 [Suspicious Officer] | Clear the way! Stick close to them. We'll escort them there ourselves.
+0091 [Lugar y hora] | 02:45, Messis Month 5th, Greenhouse District, Philae, Greenhouse No.7
+0092 [Nyx] | Here we are. Welcome to my "infirmary."
+0093 [Fuyuka] | Infirmary?==W== There's a cot, sure, but it looks more like a hidden corner of the greenhouse...==W== My kind of place.
+0094 [Cautious Soldier] | Incoming call from Lady Darcia.
+0095 [Suspicious Officer] | Yes, Lady Darcia. We have eyes on the Trekkers now.
+0096 [Suspicious Officer] | Understood. Eliminate the Trekkers. And Nyx. Leave no survivors.
+0097 [Iris] | H-hey! What are you doing?!
+0098 [Noya] | Leave no survivors...? Wait, that means—!
+0099 [Nyx] | If Darcia's making her move now...
+0100 [Nyx] | Something must have gone down.
+0101 [Suspicious Officer] | Where's that fire coming from?!==W== Is... Is it the Compliance Department's trap?
+0102 [Nyx] | Fast reflexes, Amber. Just in time.
+0103 [Nyx] | And in here... My Feathers have room to work.
+0104 [Narración] | Several floating guns—matching the one in Nyx's hand—burst from the shrubbery.
+0105 [Narración] | Pinned by crossfire, the United Harvest soldiers drag their wounded and retreat.
+0106 [Noya] | Phew... Finally shook 'em.==W== Hey Amber, about faking sick... Did you know Darcia was gonna turn on us?
+0107 [Amber] | Wasn't me. It was Boss.==W== Look, a message from ==SEX4==.
+0108 [Fuyuka] | Master's under house arrest?!
+0109 [Iris] | How did this happen?
+0110 [Nyx] | No time to chat. The soldiers are back!
+0111 [Nyx] | I'll cover you with the Feathers. Go! Head for the main gate!
+0112 [Noya] | I'll go start Loxy!
+0113 [Noya] | Meet me at the entrance!

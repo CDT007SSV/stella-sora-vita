@@ -1,0 +1,166 @@
+# Capítulo 8 · Calor residual · 3 · Who Am I
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Blade of the East | Blade of the East
+N:Shadow of the West | Shadow of the West
+N:Voice from the North | Voice from the North
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_138 | Nyx
+N:avg1_144 | Chitose
+N:avg1_145 | Otoha
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1285 | Otoha
+N:avg3_150 | Albedo
+N:avg3_152 | Bastelina
+N:avg3_154 | Laru
+N:avg3_999 | ???
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Who Am I
+0003 [Intro] | Reflecting on this journey, you begin to question who you really are. The other three Tetrad Aspects publicly distance themselves from Angie and propose an official investigation to clear your name.
+0004 [Albedo] | Please answer one question, ==PLAYER_NAME==.==W== Would you believe, to this day, that you are the legendary Tyrant?
+0005 [Narración] | Eventually, I didn't give Albedo an answer.
+0006 [Narración] | Because I didn't know who I really was... Even now, the answer still escapes me.
+0007 [Lugar y hora] | 16:30, Venatio Month 23rd, Greenhouse District, Philae, Inside United Harvest Philae
+0008 [1] | Chitose, you thirsty?==W== Here, you can have this.
+0009 [Chitose] | Thank you, my ==SEX11==. I'd gladly take it then.==W== Gulp...==W== Whoa, what is this? I can taste the peach, and fizzy bubbles are dancing on my tongue...==W== How incredible!
+0010 [Tú] | It's carbonated.==W== The name is Pep Pep Juice. You can wish for it inside the Monolith.
+0011 [Tú] | Noya once said,==W== the fizzy kick can take your mind off all your troubles...==W==
+0012 [Tú] | But the ones from this vending machine are knockoffs produced by United Harvest Philae,==W== so it's hard to say==W== whether they actually do the trick.
+0013 [Chitose] | My ==SEX11==...==W== Are you worried that the Salvation Committee might attack again?
+0014 [Tú] | No, not when I've got a blade I can trust by my side.==W== With you here, they're barely a threat.
+0015 [Tú] | It's just that—==W==
+0016 [Tú] | Hm?==W== A flower petal...?==W==
+0017 [Chitose] | I know this petal.==W== It's the same kind that warned me and took me to you.
+0018 [Tú] | Chitose,==W== do you mind waiting here for me?
+0019 [Chitose] | As you wish.==W== Please stay sharp, my ==SEX11==.
+0020 [Narración] | Following the petals, I walk the quiet path through the factory grounds, slip through a large hole in the fence, and step into the greenhouse filled with shadow-casting sunlight and battle-ridden memories.
+0021 [Otoha] | Boss, I've been expecting you.
+0022 [Tú] | Otoha, thanks for saving me today.==W== If it weren't for you, I would've been shot by the Scepter of Death.==W== Wait, that smell from you... I remember it back at the banquet...==W==
+0023 [Otoha] | And...==W== Let's keep what happened just between us.
+0024 [1] | That strange smell...==W== It's blood, masked by flowers.
+0025 [Tú] | Otoha, are you hurt?==W== Last time, you got injured at the banquet, didn't you? Have you gone to the doctor?
+0026 [Otoha] | It's just a scratch, nothing to worry about.==W== The Sentinels' magic is too wimpy to break me.
+0027 [Otoha] | But I must say...==W== I'm truly flustered that you still remember such a trivial thing from that evening.
+0028 [Otoha] | You really have a way of winning people over.==W== That girl by your side, like a blade kept closest to the body,==W== must have been drawn to your considerate nature, too.
+0029 [Tú] | "A blade kept closest"...==W== You mean Chitose?==W== Look, you're giving me way too much credit.==W== Anyone would worry about the injured.
+0030 [Otoha] | You don't have to be so modest, Boss.==W== From that night on, I've been yours.
+0031 [Tú] | M-==W==my what?==W== What are you even talking about, Otoha?==W== When did we ever—==W==
+0032 [Otoha] | Heh heh. Why do you blush?==W== I only meant I've been on your side all along.==W== Were you imagining something else?
+0033 [Tú] | Ahem...!==W== Geez,==W== don't put it in such a way.
+0034 [Otoha] | Hehehe...==W== Please forgive me.==W== It's just that you're so adorably gullible, and I couldn't resist teasing you a little... ♪==W==
+0035 [Tú] | How am I gullible?!==W==
+0036 [Otoha] | You just escaped an ambush, yet you still went off alone without any guard, chasing some flower petals...==W== Isn't that gullible?
+0037 [Tú] | I see what you mean. But I promised—==W==
+0038 [Otoha] | Keep my free bodyguard gig a secret from everyone beyond you and the New Star Guild.
+0039 [Tú] | Besides,==W== I wasn't technically "alone."==W== Knowing you, I'm sure you were keeping an eye on me the whole time.==W== With you around, it doesn't count as "being alone."
+0040 [Otoha] | ...==W== My my.==W== A gullible Boss surely knows a lot of sweet nothings.
+0041 [Otoha] | Anyway, if my intel is correct,==W== Grace Imperium will reach out to you tomorrow to explain the situation.
+0042 [Tú] | Tomorrow?==W== Even Albedo couldn't give me a confirmed date.
+0043 [Otoha] | Heh.==W== Never underestimate how well-connected a former ninja can be.
+0044 [Otoha] | Come to think of it... You actually got the famously tight-lipped Chief Bookkeeper to talk.==W== What's your trick?
+0045 [Tú] | I didn't do anything. She came to me and shared some intel, all to prove that Grace Imperium was not the culprit.
+0046 [Otoha] | True that. But people don't go out of their way to prove themselves to you unless you've earned their respect,==W== which means you've already built trust with Grace Imperium.
+0047 [Tú] | Respect, huh... You think way too highly of me...==W== I need intel from you too.==W== Do you know where the two Sky Institute employees with Albedo went?
+0048 [Tú] | She hasn't been able to reach them since they parted ways at the hotel.
+0049 [Otoha] | You mean the cute shopkeeper and the fry fanatic with the lance?==W== Looks like they ended up with the Committee's fleeing soldiers.
+0050 [Otoha] | I can't tell whether they were taken against their will or went along with the group.==W== Either way, they're not in immediate danger. If the Committee wanted them dead, they wouldn't have bothered taking them,==W== don't you think so?
+0051 [Otoha] | Here is a kind reminder, Boss: now's not the time to worry about others. Not even I can get a full picture of the Salvation Committee's true capabilities.==W== But from what I've known, they can mobilize more resources than a large company like United Harvest.
+0052 [Tú] | When did you dig all this up? Back at the banquet, you said...==W==
+0053 [Otoha] | As the world wakes up to your existence, "nuisances" like today will keep occurring. Eventually, someone will try to eliminate you using much more brutal, direct methods...
+0054 [Otoha] | It was merely a coincidence. When I plotted against Goodwind Homecare in your shadow, I took the privilege to collect some extra leads. Out of curiosity, I started digging ... and found something huge.
+0055 [Tú] | Otoha, you saved my life when things got hairy today. And now you're still watching my back...
+0056 [Tú] | I don't know what you've found out so far, but I can't help wondering: have you been looking out for me all along? Ever since that banquet?
+0057 [Otoha] | You bet. I've been treating myself to that adorable sleeping face of yours every single night~
+0058 [Tú] | Well... I'm really lucky to have you as my ally, Otoha. I feel like I keep putting you out.
+0059 [Otoha] | You don't need to feel bad about this.==W== Hmm... If you really want to make it up to me…==W== Just be straight with me.==W== Are you the legendary Tyrant?
+0060 [Tú] | This question again,==W== huh...==W==
+0061 [???] | So please,==W== my Tyrant,==W== don't become a star once more.
+0062 [Bastelina] | Ah, you've misread it.==W== It's Boss.
+0063 [Bastelina] | The way you pronounced it,==W== Tyrant...==W== That's an ancient form.==W== It hasn't been used in a very, very long time.
+0064 [Vita] | Welcome back to the "Well of Worlds" Tyrant Development System,==W== dear Tyrant.
+0065 [Noya] | Hehe, I'll get going and take the wheel, Tyrant.==W== Give me a shout if you need anything!
+0066 [Tú] | You don't have to use that title...==W==
+0067 [Noya] | Why not? It's pretty awesome, right? Don't you all agree?
+0068 [Iris] | Well, using "Boss" seems more appropriate for official matters, considering our positions as employees of "Boss Accord."
+0069 [Amber] | I'll just use the name saved in your contacts.
+0070 [Chitose] | I am Chitose, the blade forged only for you, my ==SEX11==.
+0071 [Fuyuka] | Master... ==PLAYER_NAME==, will you be my Master?
+0072 [Nazuka] | I've ... always admired that sculpture—the one of the hero who sacrificed everything to save others.
+0073 [Darcia] | But you are Your Majesty. The one true Tyrant. I, Darcia, swear my eternal loyalty to you.
+0074 [Iris] | All Trekkers==W== are sworn to help those who've lost their memories.
+0075 [1] | Dreams, reality, lost memories...==W== "Tyrant," they call me. "Boss." "My ==SEX11==." "Master." "Hero." And "Trekker"...==W==
+0076 [1] | I've been running from that question all along.==W== But now, it's time to face it.
+0077 [Opción] | An amnesiac Trekker
+0078 [Opción] | CEO of Boss Accord
+0079 [Opción] | When they brand me as the Tyrant...
+0080 [1] | I don't think==W== I'm some important figure.
+0081 [1] | I was found inside a Wishing Box,==W== with no memory, no identity, so I could be an ordinary lost Trekker.==W==
+0082 [1] | Even my "magic immunity" trait==W== might just be the result of a desperate wish to the Monolith,==W== which would explain why I lost all my memories—too high a price for me to pay.
+0083 [Tú] | I don't see myself as the legendary Tyrant,==W== and I don't want to be some one-of-a-kind figure either.
+0084 [Tú] | I just want to live my life as a Trekker,==W== stay with my friends, on our own terms.
+0085 [Tú] | Are you satisfied with my answer?
+0086 [Otoha] | Very much so. Honestly, I don't really care who you are.==W== What truly matters is whether you can hold yourself steady when you're in a dire situation like this.
+0087 [Otoha] | Thinking about it now, asking that question was completely unnecessary.==W== You didn't flinch when I had you tied up. Why would a little "Tyrant hunt" ever shake you?
+0088 [1] | The "Tyrant" is a title.==W== And titles only matter if people acknowledge them.
+0089 [1] | If I started calling myself Ruler of Nova and demanded tithes from everyone, they'd only think I was insane.
+0090 [1] | Bastelina and Iris both told me==W== that the term "Tyrant" is an ancient form.
+0091 [1] | So even if there was a Tyrant in history,==W== they must have long been forsaken,==W== which means the title itself carries no real meaning now.
+0092 [1] | So,==W== whatever makes Angie believe I'm the Tyrant ...==W== is nothing more than her and her followers' misinterpretation.
+0093 [1] | I am who I am,==W== a Trekker who helped defend Philae alongside everyone else,==W== and the CEO of Boss Accord.==W==
+0094 [1] | If anything, I'm just the Boss in name,==W== not some apocalyptic tyrant in the prophecy.==W==
+0095 [Tú] | Are you satisfied with my answer?
+0096 [Otoha] | Very much so. Honestly, I don't really care who you are.==W== What truly matters is whether you can hold yourself steady when you're in a dire situation like this.
+0097 [Otoha] | Thinking about it now, asking that question was completely unnecessary.==W== You didn't flinch when I had you tied up. Why would a little "Tyrant hunt" ever shake you?
+0098 [1] | Heh...==W== Heh heh heh...==W== HAHAHAHA!==W==
+0099 [Otoha] | ...? ==PLAYER_NAME==, what's gotten into you?==W== Are you okay?
+0100 [Tú] | Otoha, I finally get it. Humans have limits to their abilities.
+0101 [Otoha] | H-Huh...?==W== Limits?
+0102 [Tú] | I mean, no matter how hard I've tried, I still can't change their prior beliefs.
+0103 [Otoha] | Well... Yes. That's true.
+0104 [Tú] | So if they're determined to brand me as the Tyrant, then maybe I should become one.
+0105 [Tú] | If everyone believes that I'm going to destroy the world, then maybe it's time I got my hands on that destructive power and shock them all.
+0106 [Tú] | Hear this, Otoha:==W== I will become a true Tyrant!==W==
+0107 [Tú] | Are you satisfied==W== with my answer?
+0108 [Otoha] | Very much so. Honestly, I don't really care who you are.==W== What truly matters is whether you can hold yourself steady when you're in a dire situation like this.
+0109 [Otoha] | Your answer was ... unconventional, and a little hard to follow.==W== But your resolve came through loud and clear.
+0110 [Otoha] | Well, I should be going now.==W== If I keep you occupied for too long, the faithful blade of yours might get anxious and charge in.
+0111 [Tú] | Haha... Yeah, that sounds very Chitose. There's no telling how she will react.==W== By the way,==W== is there any way I could get in touch with you, Otoha?
+0112 [Narración] | As flower petals twirl gently in the breeze,==W== the girl standing right in front of me vanishes without a trace.
+0113 [Narración] | She leaves my question hanging in the air, echoing beneath the greenhouse's glass dome.==W== But the faint scent of flowers around me gives away her presence.
+0114 [1] | Maybe she is implying that ... I don't need to contact her,==W== because she's always watching over me.
+0115 [Narración] | One Day Later
+0116 [Narración] | Just as Otoha's intel suggested, the members of the Tetrad Aspects, all except Angie, have formally reached out to us from Emor.
+0117 [Blade of the East] | We sincerely apologize for the recent violent attacks involving our personnel.
+0118 [Blade of the East] | Our investigation has confirmed that certain individuals responsible had been radicalized by the Salvation Committee, and their actions directly violated our values and principles.
+0119 [Blade of the East] | All those involved have been removed from their positions.==W== Following a thorough internal review, we have agreed to take full responsibility for any harm caused by this incident.
+0120 [Firenze] | For once, the high and mighty Grace Imperium was forced to swallow their pride and offer a genuine apology.==W== Still, it's your call to accept it or not, Boss.
+0121 [Nyx] | Their promise doesn't mean a thing unless they give us a concrete solution. If we trust them easily, we'll be the ones left to clean up the mess.==W==
+0122 [Shadow of the West] | See? They're now leery of us. I told you this would happen.==W== You're only suited for fighting. Better let me handle the negotiations.
+0123 [Shadow of the West] | Hello, hello, everyone there~ I'm speaking on behalf of the Eye of Grace.==W== You've heard of us, I assume. We have always dedicated our time to research and to working toward peace.
+0124 [Shadow of the West] | For what it's worth, our research shows that entries in the Book of Grace Prophecies are completely unreliable. Even if one of them guesses something right, it's purely by chance.
+0125 [Shadow of the West] | At the end of the day, this whole "legendary Tyrant" thing is just an outdated story buried in the dust of history, with an unknown, untraceable origin.==W== A living person like you surely doesn't fit in a tale like that.
+0126 [Tú] | So this is denying that I'm the legendary Tyrant...==W== Or perhaps, the Eye of Grace is denying the very existence of the Tyrant.
+0127 [Voice from the North] | With all due respect, I must make a correction to the outrageous claim. The Book of Grace Prophecies is a sacred scripture bestowed by the Gods. Its words bear the absolute truth.
+0128 [Voice from the North] | However, Angie and the Salvation Committee had clearly violated the doctrine of the sacred text. Later today, the Dusk Arbiters will strip Angie of all her positions and denounce the Committee as a heretical organization.
+0129 [Voice from the North] | The Dusk Arbiter would like to conduct a formal investigation on behalf of Grace Imperium to verify your identity as the Tyrant in the prophecies. Rest assured, the investigation will give a true and fair view.
+0130 [Noya] | Hey, wait!==W== Who gave you the right to make a judgement about ==PLAYER_NAME==?==W== That's not your call!
+0131 [Voice from the North] | The Dusk Arbiter has always been responsible for upholding the glory of the God of Grace and protecting the innocents from the ill-intentioned heretics.
+0132 [Voice from the North] | According to the Book of Grace Prophecies, the Tyrant exists, and their existence threatens the very fate of all Nova.
+0133 [Voice from the North] | This is not a personal matter. It concerns the world at large and demands immediate attention.==W== We trust you'll weigh the reason and cooperate with us.
+0134 [Noya] | This is beyond absurd and unacceptable!==W== Whatever your investigation concludes, you are not taking ==PLAYER_NAME== away from us!
+0135 [Tú] | Thanks, Noya.==W== But you can leave this to me.
+0136 [Noya] | B-But...==W==
+0137 [Tú] | Trust me,==W== it'll be fine.
+0138 [Narración] | I steel myself and pick up the handset of the communication Artifact.
+0139 [1] | This is ==PLAYER_NAME==. I've heard you. I will cooperate with Grace Imperium's investigation,==W== and I trust you that the result will be fair.

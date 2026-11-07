@@ -1,0 +1,131 @@
+# Capítulo 6 · Milagro de un destello · 12 · Loyalty Until the End
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Enthusiastic Student | Enthusiastic Student
+N:Enthusiastically Sabotaging Student | Enthusiastically Sabotaging Student
+N:Flattering Voice | Flattering Voice
+N:Proactive Student | Proactive Student
+N:Proactively Disruptive Student | Proactively Disruptive Student
+N:Respectful Voice | Respectful Voice
+N:avg1_110 | Firenze
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1266 | Estudiante de la Academia Luz de Gracia
+N:avg3_1267 | Estudiante de la Academia Luz de Gracia
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Twelve
+0002 [Intro] | Loyalty Until the End
+0003 [Intro] | Within the jar lies Darcia's fragmented memories: a girl shunned after her family’s sudden fall, clinging to the legend of the Tyrant for hope. In the end, you claim the Bishop piece, while she meets the end with bitter regret...
+0004 [Tú] | Glub...
+0005 [Narración] | Bubbles trail from my lips as I dive into the tank and kick hard for the bottom.
+0006 [Tú] | Visibility's awful down here. Where's that Bishop piece...?
+0007 [Flattering Voice] | You must be the new president! I heard you're from Philae—what a beautiful city. Always wanted to visit.
+0008 [Respectful Voice] | Wow, this greenhouse is gorgeous. Thank you for bringing the beauty of Philae to our Grace Light Academy.
+0009 [Flattering Voice] | Are you into gardening?==W== Me too! Do you mind if I tag along and help tend the flowers?
+0010 [Respectful Voice] | Thank you for the monthly funding support. We won't let you down!
+0011 [Flattering Voice] | I can't thank you enough for sorting out my father's job. I'll never forget this kindness.
+0012 [Tú] | The voices are getting clearer. Is the fluid's magic getting to my head?==W== No...==W== My body feels fine.
+0013 [Tú] | Focus. Need to find the Bishop.
+0014 [Tú] | Urgh... There's a light ahead—
+0015 [Proactive Student] | President! How should I transplant this one? Could you show me?
+0016 [Tú] | To protect the roots, dig wide from the outside. Carefully lift the entire root ball, soil and all.
+0017 [Enthusiastic Student] | President, why three seeds per hole? Isn't that wasteful?
+0018 [Tú] | It guarantees germination. If all three sprout, we can just thin them out later.
+0019 [Enthusiastic Student] | I see! There's a real science to gardening, isn't there?
+0020 [Tú] | Why am I messing around with these plants? And where did this gardening trivia come from...?
+0021 [Tú] | I see...==W== This must be someone else's memory. I'm just a passenger here.
+0022 [Proactive Student] | Hey, hear the news? They're holding a snap election for Student Council President.
+0023 [Enthusiastic Student] | Huh? Why? Didn't we literally just have an election?
+0024 [Proactive Student] | You're seriously out of the loop.==W== The President's dad got into a brawl at the United Harvest Senate meeting—beat another Senator to death.
+0025 [Enthusiastic Student] | Doesn't that make him a murderer??!
+0026 [Proactive Student] | Exactly. Grace Light Academy can't have a killer's child running the Student Council.==W== The election's probably rigged, anyway. Bet the winner's from Grace Imperium.
+0027 [Tú] | ...
+0028 [Proactive Student] | Shhh, drop it. She's listening.
+0029 [Narración] | From that day on, the Academy's small greenhouse goes quiet. The only sound is from a garden spade turning soil.
+0030 [Tú] | Digging away like this is actually kind of therapeutic.
+0031 [Tú] | I get the feeling the owner of this memory never cared about being the Student Council President anyway.
+0032 [Proactively Disruptive Student] | Hurry up. We need to rip all these flowers out.
+0033 [Enthusiastically Sabotaging Student] | The Grace Imperium and United Harvest feud is totally public now. If people know we used to hang out with her, we'll be blacklisted.
+0034 [Proactively Disruptive Student] | Look, I'm grateful she helped my dad, but her family drama is a completely separate issue.
+0035 [Enthusiastically Sabotaging Student] | She funded all our activities, too...==W== She was such a nice person. How'd it end up like this?
+0036 [Tú] | That's low...==W== How can they say that?
+0037 [Opción] | Intervene
+0038 [Tú] | Hey! What are you doing?==W== Someone worked hard to grow those. How can you destroy them?!
+0039 [Proactively Disruptive Student] | It's a shame, sure. The plants are innocent...==W== But once the president changes, this place gets bulldozed anyway.
+0040 [Enthusiastically Sabotaging Student] | Yeah, the greenhouse is doomed sooner or later. Can't really blame us.
+0041 [Narración] | But the two girls ignore me completely, swinging their hoes and tearing up the garden.
+0042 [Tú] | Stop it!
+0043 [Narración] | My hand swipes at the hoe but passes right through the handle, clutching nothing but air.==W== The girls make quick work of the last flower, dust off their hands, and leave.
+0044 [Tú] | So I am just a spectator in this story==W== after all?
+0045 [???] | Th...==W== Thank you... You're very kind.
+0046 [Tú] | Huh?
+0047 [Narración] | I turn to find a slender, shadowy figure standing right where I was a moment ago.
+0048 [Tú] | You can see me?
+0049 [???] | Yes, but ...==W== please don't stick up for me. If you do, they'll just paint you as a villain too.
+0050 [Narración] | The figure passes through me to pick up a fallen leaf, tucking it carefully inside a sketchbook.
+0051 [Tú] | That symbol on the cover...==W== Isn't that the Tyrant's mark?!
+0052 [Darcia] | Indeed. That is your mark.
+0053 [Tú] | D-Darcia?==W== Why are you here?
+0054 [Darcia] | Hehe.==W== Without my dramatic attire,==W== you barely recognize me, do you, Your Majesty?
+0055 [Darcia] | We are inside my memories.==W== I assume this is the Psychic Fluid at work...==W== No, not that artificial sludge.
+0056 [Darcia] | It must be your Bishop piece==W== bridging the gap==W== between our souls.
+0057 [Darcia] | I count myself fortunate==W== to be linked with Your Majesty's soul==W== in these final moments.
+0058 [Tú] | That person just now...==W== Was that you back in school?
+0059 [Darcia] | Yes.==W== My father was a Senator for United Harvest.==W== He gave his life eliminating the company's rivals during the conflict with Grace Imperium,==W== yet,==W== the Senate refused to honor his sacrifice.==W== Instead, they picked my family's fortune clean like vultures.
+0060 [Darcia] | The classmates who used to flock to me for favors vanished overnight.==W== They mirrored the Senate to turn on me,==W== bullying and mocking me.
+0061 [Darcia] | At first, I dismissed them as fools who got off on tormenting the weak.==W== I told myself I still had my garden. Even if every human on earth betrayed me, my plants never would.
+0062 [Darcia] | But when they uprooted my flowerbeds,==W== I realized I was wrong.==W== They weren't trying to get anything from me. They weren't even doing it for fun.
+0063 [Darcia] | They bullied me simply to feel safe.
+0064 [Tú] | Safe?
+0065 [Narración] | "You were way too cozy with the ex-President. Keep talking to her, and people get the wrong idea."
+0066 [Narración] | "She's a murderer's daughter, you know..."
+0067 [Narración] | "If anyone finds out we used to be friends, I'll get dragged down with her."
+0068 [Darcia] | Fear of isolation. Desperate for acceptance. Humans need a herd to feel secure,==W== and they'll happily throw their own to the wolves to stay in it.==W== We truly are pathetic creatures.
+0069 [Darcia] | In the wreckage of my garden, I found a book.==W== Heh. I imagine you can guess what was inside?
+0070 [Darcia] | Exactly. It was your story. In your story,==W== "You" suffered just like I did—betrayed time and again by those closest to you,==W== yet always rising to fight back. Your resilience spoke to me.
+0071 [Darcia] | You became my light. Because of the Tyrant,==W== I found the strength to gather the stones they cast at me==W== and use them to pave my path to power.
+0072 [Darcia] | Swearing loyalty to Your Majesty was only natural.==W== Bringing plants into your Legion, granting them minds of their own...==W== This is how I atone for the innocent flowers I failed to protect.
+0073 [Darcia] | Most importantly—==W==unlike people, plants always return your care with beauty.
+0074 [Darcia] | It may take decades, maybe centuries...==W== But I will perfect this army step by step. I won't let you down, Your Majesty.
+0075 [Darcia] | If only we could move everyone's souls into plant vessels...==W== Imagine what a peaceful, tranquil world we'd finally have.
+0076 [Tú] | You're romanticizing them.==W== Parasitic vines bleed their hosts dry, and climbers choke the very trees that support them just to steal the light.
+0077 [Tú] | Walnut leaves poison the soil to kill rivals.==W== Even the gaps in a forest canopy are just borders in a constant war for territory.
+0078 [Tú] | Darcia, that garden of peace you're imagining... It doesn't exist.
+0079 [Tú] | Just like your "light."==W== The Tyrant you worship isn't the person standing before you now.
+0080 [Tú] | You want me ...==W== to be the Tyrant from your fantasies.==W== But I'm just me.==W== I can never be the idol you've built in your mind.
+0081 [Darcia] | I know, Your Majesty.==W== I've been watching you since the moment you stepped through our doors.
+0082 [Darcia] | But I couldn't admit it. If I did, I'd be alone again.==W== After finally finding a ray of hope...==W== How could I possibly bear to let it go?
+0083 [Darcia] | Heh... Hahaha.==W== Deep down, I know. I'm no different from the humans I despise, forcing my delusions onto others just to feel a false sense of security.
+0084 [Tú] | Is that how you really feel?==W== You're right, humans are cowards. We're afraid of so many things.
+0085 [Tú] | But we're also capable of courage. We fight tooth and nail to conquer that fear for the sake of our ideals.
+0086 [Tú] | Admitting our inadequacy and still striving for a better future. Isn't that a strength in itself?
+0087 [Tú] | To me, such humanity is beautiful.
+0088 [Tú] | Darcia, stop this. It's not too late.==W== No one died in the chaos in Philae.==W== You still have a chance to make amends.
+0089 [Darcia] | A wretch like me doesn't deserve such kindness. Heh...==W== You really are the ==SEX12== Tyrant I always admired.
+0090 [Darcia] | But I'm already too far gone. I've merged myself with the cultivation tank ages ago to develop the Gen-2 Intelligent Plant.
+0091 [Darcia] | This form you see before you is the last shred of my humanity.
+0092 [Tú] | Darcia...==W== Why...==W== Why go this far?
+0093 [Darcia] | I put Firenze through the same hell I faced, yet ...==W== she was luckier. She had loyal friends.
+0094 [Darcia] | Heh...==W== All I ever wanted was to be loved.==W== To be needed.==W== To be told that==W== my existence wasn't a mistake.
+0095 [Darcia] | But seeing the people you choose to stand by your side...==W== I realized I could never be one of them. I've strayed too far from the path.
+0096 [Darcia] | So this is it...==W== The end of Darcia.
+0097 [Darcia] | But I made my peace long ago. I seek no redemption.==W== I despise humanity, and I'll remain its enemy until my dying breath.
+0098 [Darcia] | Grant me one last wish.==W== Take the chess piece ... and end me. With your own hands.
+0099 [Darcia] | I can't stand by your side, but remember this:==W== every other company in this world is your enemy.
+0100 [Tú] | Gulb...==W== What was ... that...?
+0101 [Tú] | The piece...==W== I've got the Bishop...!
+0102 [Lugar y hora] | 03:00, Messis Month 8th, Greenhouse District, Philae, Lab Core
+0103 [Firenze] | Boss, are you alright?
+0104 [Tú] | Huff, huff... I'm back.==W== Firenze, how long was I under?
+0105 [Firenze] | A minute, maybe?==W== I'm not sure. Definitely no more than two.
+0106 [Tú] | Felt like==W== a lifetime...
+0107 [Tú] | Wait, never mind that.==W== Where's Darcia? Where is she?!
+0108 [Firenze] | Right there. Looks like ...==W== she entered the tank a while ago. She's fused with the Lithe Grass Mother.
+0109 [Narración] | Your Majesty...==W== Is that you?
+0110 [Tú] | Dar—
+0111 [Narración] | Forgive me, Your Majesty. I can no longer see or hear.
+0112 [Narración] | If only I'd met you sooner... Maybe I wouldn't have lost my way...

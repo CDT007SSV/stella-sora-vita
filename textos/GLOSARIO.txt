@@ -1,0 +1,212 @@
+GLOSARIO DE TRADUCCIÓN · Stella Sora Vita
+Capítulos 4 a 9 (y especial 6.5) del lector de historias
+=======================================================
+
+Este glosario sale de cómo quedaron traducidos el prólogo y los capítulos 1 a 3
+en la app. Úsalo para que los capítulos nuevos suenen igual.
+
+
+1. CÓMO SE USAN LOS ARCHIVOS
+----------------------------
+- Hay un archivo por acto (por ejemplo STm04_01.txt) y uno por capítulo con los
+  nombres de los actos y batallas (por ejemplo STm04.txt).
+- Cada línea tiene esta forma:
+      0005 [Nazuka] | Texto en inglés
+  Traduce SOLO lo que va después de la barra "|".
+  No cambies el número ni lo que está entre [corchetes] (solo te dice quién habla).
+- Las líneas "N:avg1_133 | Nazuka" son los nombres que salen en el cuadro de diálogo.
+  Algunos ya vienen en español (los que ya estaban traducidos en los capítulos 1–3).
+- Las líneas que empiezan con # son comentarios: puedes dejarlas o borrarlas.
+- Si dejas una línea vacía después de "|", la app muestra el texto en inglés.
+- Cuando termines un archivo, súbelo a la carpeta "textos" del repo con el MISMO
+  nombre (reemplaza al que está). La app lo usa en cuanto se actualiza la página.
+- Guarda el archivo como texto normal (UTF-8). No uses Word.
+
+
+2. MARCAS QUE NO SE TRADUCEN (cópialas tal cual)
+------------------------------------------------
+==W==             Pausa dentro del mismo diálogo. Déjala en el mismo lugar.
+==PLAYER_NAME==   Nombre del Tyrant (la app pone "Sylar"). No lo cambies.
+==SEX==, ==SEX1== ... Palabras que cambian según el género del Tyrant
+                  (él/ella, Sr./Sra., etc.). La app las rellena en español.
+                  Deja la marca donde iría la palabra.
+==Off==, ==P==, ==B==  Efectos de texto. Déjalos donde estén.
+
+
+3. ESTILO
+---------
+- Español de México, natural y conversacional.
+- Entre varias personas se usa "ustedes" ("Oigan", "¿Están bien?"), nunca "vosotros".
+- El protagonista es "el Tyrant" en el juego; en el texto se dice "Tirano".
+- Cuando Cosette u otros le dicen "Boss" al protagonista: "Jefe".
+- "Trekker" y "Trekkers" se dejan en inglés.
+- Puntos suspensivos pegados: "Uf..." / "¿Eh...?"; tartamudeo con guion: "M-monstruos".
+- Interjecciones: Phew → Uf · Huh? → ¿Eh? · Hey! → ¡Oye! / ¡Oigan!
+- Comillas: «así» para citas y nombres dentro de un diálogo.
+- Los textos de la intro son título y resumen del acto:
+      Act One → Acto uno, Act Two → Acto dos ... Act Eleven → Acto once
+- Línea [Lugar y hora]: va así, con día ordinal y "del mes de":
+      16:15, Pluvia Month 27th, Outside Philae, West Forest
+      → 16:15, 27.º del mes de Pluvia, afueras de Philae, bosque oeste
+      12:00, Floris Month 27th, Emor Monolith #7, 30th Floor
+      → 12:00, 27 del mes de Floris, Emor. Monolito n.º 7, piso 30
+
+
+4. NOMBRES DE PERSONAJES
+------------------------
+Los nombres propios NO se traducen:
+Noya, Amber, Iris, Nazuka, Nazuna, Kaede, Fuyuka, Chitose, Mistique, Claire,
+Cosette, Serena, Minova, Vita, Loxy, Feagin, Bastelina, Firenze, Shimiao,
+Elis, Flavio, Rainea, Vollara, Neuvira, Aeloria...
+
+Títulos y tratamientos:
+Captain Nazuka        → Capitana Nazuka
+Lady Nazuka / Iris    → Lady Nazuka / Lady Iris
+Aunt Allie            → tía Allie
+Miss Minova           → señorita Minova
+Sister / Sis          → hermana
+Doctor (mujer)        → doctora
+Master                → Maestro / Maestra (según quién sea)
+CEO                   → director ejecutivo (o directora)
+Senators              → senadores
+
+Personajes genéricos (así salen en el cuadro de nombre):
+Generic Resident Male/Female → Residente
+Generic Trekker Male/Female  → Trekker
+Trekker Soldier              → Soldado Trekker
+Soldier A                    → Soldado
+Imperial Guard (Male/Female) → Guardia Imperial
+Guardsman A                  → Guardia
+Female Employee / Clerk      → Empleada
+Female Corp Clerk            → Empleada corporativa
+United Harvest Employee      → Empleado de Cosecha Unida
+United Harvest Worker        → Trabajador de Cosecha Unida
+Ashwind Member               → Miembro del Viento de Ceniza
+Gold District Resident       → Residente del Distrito de Oro
+Generic Ash District Boy     → Chico del Distrito de las Cenizas
+Grace Light Academy Student  → Estudiante de la Academia Luz de Gracia
+Generic Girl                 → Chica
+Redheaded Girl               → Chica pelirroja
+Gang Girl                    → Chica de la pandilla
+Cool Gang Lady               → Pandillera genial
+Generic Elderly Villager Female → Anciana del pueblo
+Lord of the Prize Claw       → Señora de la Garra de Premios
+Spectral Envoy               → Enviado espectral
+Titan-Hand Enforcer          → Ejecutor de Mano Titánica
+Gauntlet of Rage             → Guantelete de la Ira
+Steam Pot Hammer             → Martillo de la Olla de Vapor
+Projectile Striker           → Atacante de proyectiles
+Alpha Boar                   → Alpha Boar (se dejó en inglés)
+Bark Boar / Bark Boars       → Jabalí Corteza / Jabalíes Corteza
+
+
+5. LUGARES
+----------
+Emor, Philae, Mirage           → igual
+Monolith / Monoliths           → Monolito / Monolitos
+Emor Monolith #7               → Monolito n.º 7 de Emor
+Floor (30th Floor)             → piso (piso 30)
+Ash District                   → Distrito de las Cenizas
+Gold District                  → Distrito de Oro
+Outside Philae / Outside Emor  → afueras de Philae / afueras de Emor
+Near Emor Monolith #7          → cerca del Monolito n.º 7 de Emor
+Waterway                       → Canal
+Waterway Bridge                → puente del canal
+Waterway Bridge Corridor       → Pasillo del puente del canal
+Waterway Bridge Underpass      → Bajo el puente del canal
+Waterway Bridge Apex           → Cúspide del puente del canal
+Waterway Corridor              → Pasillo del canal
+Street / Commercial Street     → Calle / Calle comercial
+Underground Clinic             → Clínica clandestina
+Soul Stone Shop / Soul Shop    → Tienda de Almas
+Grace Imperium Vault           → Bóveda del Imperio de la Gracia
+Imperial Guard Prison          → Prisión de la Guardia Imperial
+Creta Trading Lobby/Corridor   → Vestíbulo / Pasillo de Creta Trading
+Trekkers' House                → Casa de los Trekkers
+Old Trekkers' House            → antigua Casa de los Trekkers
+Trekker Camp / Camp            → campamento de Trekkers / campamento
+Camp Entrance                  → entrada del campamento
+Forest Path                    → camino del bosque
+Forest Edge                    → linde del bosque
+West Forest                    → bosque oeste
+Deep in the Forest             → en lo profundo del bosque
+Clearing with Footprints       → claro con huellas
+Dessert Shop                   → pastelería
+White Room                     → Sala Blanca
+Wilds                          → Tierras Salvajes
+City of a Thousand Monoliths   → Ciudad de los Mil Monolitos
+Well of Worlds                 → Pozo de los Mundos
+Lucky Oasis                    → Lucky Oasis (también aparece "Oasis de la Suerte";
+                                 se usó más "Lucky Oasis")
+Meses: Pluvia Month → mes de Pluvia · Floris Month → mes de Floris
+
+
+6. GRUPOS, EMPRESAS E INSTITUCIONES
+-----------------------------------
+New Star Guild                 → Gremio de la Nueva Estrella
+Guild                          → Gremio
+Petal Bloom                    → Petal Bloom (no se traduce)
+Ashwind Clan / Ashwind         → Clan Viento de Ceniza / Viento de Ceniza
+United Harvest                 → Cosecha Unida
+Creta Trading                  → Creta Trading (no se traduce)
+Boss Accord (Staffing Co.)     → Boss Accord (Staffing Co.) (no se traduce)
+Scarlet Sights Media           → Scarlet Sights Media (no se traduce)
+Deepsea Finance                → Finanzas del Mar Profundo
+Grace Imperium                 → Imperio de la Gracia
+Imperial Guard(s)              → Guardia Imperial / Guardias Imperiales
+Imperial Knights               → Caballeros Imperiales
+Senate                         → Senado
+Platinum Academy               → Academia Platino
+Grace Light Academy            → Academia Luz de Gracia
+Trekker Association            → Asociación de Trekkers
+Ash Orphanage                  → Orfanato de las Cenizas
+Big Three                      → los Tres Grandes
+Nocturn Eterna                 → Nocturn Eterna (no se traduce)
+
+
+7. TÉRMINOS DEL MUNDO
+---------------------
+Tyrant                         → Tirano
+Tyrant Accord                  → Pacto del Tirano
+Tyrant Development System      → Sistema de Desarrollo de Tiranos
+Trekker / Trekkers             → Trekker / Trekkers
+Stellaroid(s)                  → Stellaroid(s)
+Artifact(s)                    → Artefacto(s)
+Grace                          → Gracia
+God of Grace                   → Dios de la Gracia
+Seal of Grace / Seal           → Sello de la Gracia / Sello
+Water of Grace                 → Agua de la Gracia
+Soul Stone(s)                  → Piedra(s) del Alma
+Soul Trading                   → Comercio de almas
+Wishing Box                    → Caja de Deseos
+Wishing Star                   → Estrella de los Deseos
+Star Pluck                     → Estrella Cosechada
+Garden of Parasite             → Jardín Parásito
+Spirit of Brutality            → Espíritu de la Brutalidad
+Monolith Meltdown              → Colapso del Monolito
+Tawny Nightingale              → Ruiseñor Leonado
+Blade of Jade                  → Espada de Jade
+Lux Stealer                    → Ladrona de Lux
+Prize Claw                     → Garra de Premios
+Hidden Lord (of the forest)    → Señora Oculta (del bosque)
+Safe                           → Caja Fuerte
+Dorra (moneda)                 → Dorra
+Pep Pep Juice                  → Pep Pep Juice (no se traduce)
+RV                             → casa rodante
+HQ                             → sede
+Nova                           → Nova
+Elementos: Aqua, Ignis, Lux, Terra, Umbra, Ventus → igual
+
+
+8. TÍTULOS DE LOS CAPÍTULOS (ya en la app)
+------------------------------------------
+Capítulo 4   Beyond the Dream                → Más allá del sueño
+Capítulo 5   A Spark in the Dark             → Una chispa en la oscuridad
+Capítulo 6   Miracle of a Flicker            → Milagro de un destello
+Especial 6.5 Overture of a Shadowy Enigma    → Obertura de un enigma sombrío
+Capítulo 7   Price of the Star               → El precio de la estrella
+Capítulo 8   Lingering Warmth                → Calor residual
+Capítulo 9   A Monolith Too Far              → Un Monolito demasiado lejano
+
+Si un término nuevo aparece varias veces, apúntalo aquí con tu traducción
+para usar siempre la misma.

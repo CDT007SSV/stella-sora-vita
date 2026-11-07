@@ -1,0 +1,177 @@
+# Capítulo 7 · El precio de la estrella · 1 · History of United Harvest
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Gibel | Gibel
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_138 | Nyx
+N:avg1_145 | Otoha
+N:avg3_100 | Sylar
+N:avg3_108 | Cosson
+N:avg3_187 | Male Flavio Resident
+N:avg3_215 | Matilda
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | History of United Harvest
+0003 [Intro] | The Grace Imperium fast-tracks the auction for the Philae Monolith's next decade of usage rights. Grand Inspector Matilda explains United Harvest's past and its current crisis, and officially asks for your help.
+0004 [Lugar y hora] | 11:00, Venatio Month 8th, Gold District in Philae, Executive Office
+0005 [Iris] | "Early Bidding Opens for Philae Monolith Usage Rights"?! This is huge!
+0006 [Noya] | Whatcha reading, Iris?==W== "Monolith Usage Rights"? What does that even mean?
+0007 [Iris] | You know how there are "City Monoliths" managed by companies? Besides the "Wild" ones we usually climb?
+0008 [Noya] | Yeah. Only company employees or hired Trekkers get to touch those. Freelancers like us are stuck with the wild ones out in the boonies.
+0009 [Amber] | Technically ... we are employees. Of Boss Accord.
+0010 [Noya] | Oh, right!
+0011 [Noya] | Hey Iris, does that mean we can climb the City Monoliths now?
+0012 [Iris] | Of course not! We don't have usage rights from the Grace Imperium, and we certainly haven't purchased any climbing permit from a licensed company.
+0013 [Noya] | Rights, permits... It's all gibberish to me.
+0014 [Iris] | Listen, Monoliths are divine gifts for the Novians.
+0015 [Iris] | And the Grace Imperium manages all Monoliths on behalf of the God of Grace.
+0016 [Iris] | They lease the City ones to companies, which require specific clearance to enter.
+0017 [Iris] | Being an employee alone isn't a free pass.
+0018 [Noya] | The Grace Imperium... The shop that sells Soul Stones? Are they really that big a deal?
+0019 [Iris] | They aren't just a shop! They're a massive conglomerate controlling the magical energy supply for all of Nova.
+0020 [Iris] | Since they hold the keys, they sell usage rights to companies, usually in ten-year contracts.
+0021 [Iris] | But after Darcia's stunt here in Philae, the Grace Imperium doubts United Harvest can manage the branch. So, they're auctioning the next ten-year contract early.
+0022 [Iris] | That auction process is what they call a "tender."
+0023 [Noya] | You make it sound so complicated. Basically, whoever throws the most Dorra at them wins, right?
+0024 [Iris] | It's not just about money. There are conditions.==W== Anyway... That's big company business. Small-time Trekkers like us wouldn't even be allowed in the building.
+0025 [Firenze] | That isn't entirely true, Iris.
+0026 [Narración] | The familiar click of heels approaches the door as a cool, composed voice interrupts the conversation.
+0027 [Firenze] | United Harvest's Philae branch must win this bid.==W== And to do that, we need to rely on the Boss's wisdom.
+0028 [Tú] | Welcome back, Firenze.
+0029 [Firenze] | Boss. Everyone. Thank you for holding down the fort while I was gone.
+0030 [Tú] | Perfect timing.==W== I don't know the details yet, but this bidding war sounds like a headache...
+0031 [Firenze] | I have a fair idea of the situation. Leave it to me, Boss.==W== In the meantime, I've brought a guest.
+0032 [Matilda] | Boss, I've heard so much about you. It is an honor. I am Matilda, Grand Inspector for United Harvest.
+0033 [Matilda] | My apologies for the sudden intrusion, but I must ask... Would you be willing to lend us a hand?
+0034 [Lugar y hora] | 11:50, Venatio Month 8th, Gold District in Philae, Executive Office
+0035 [Narración] | Matilda and I sit opposite each other on the office sofas, leaving the executive seat empty.
+0036 [Tú] | Grand Inspector Matilda, thanks for uncovering the mastermind behind the banquet attack—and for making the trip to Philae. I know how tired you must be.
+0037 [Tú] | I'm happy to help if I can...
+0038 [Tú] | But you mentioned United Harvest? Honestly, I doubt someone like me has much to offer to a company of that size.
+0039 [Matilda] | I meant what I said. As it stands, United Harvest needs the power you possess. But before I explain, I'd like you to hear a story.
+0040 [Matilda] | Are you familiar with the name Samuel?
+0041 [Noya] | Rings a bell... I've definitely heard it before somewhere.
+0042 [Amber] | Trekkers' House. On the wall. The old man with the white beard.
+0043 [Iris] | Oh! He's the legendary Trekker who conquered a dozen Wild Monoliths. They say he's the reason there aren't any "uncharted Monoliths" left in Nova.
+0044 [Matilda] | Precisely. Sixty years ago, after discovering the very last uncharted Monolith, he finally returned home to Philae.
+0045 [Matilda] | Philae was a quiet farming town back then. Though it had a local Monolith...
+0046 [Matilda] | The Monolith only yielded mediocre Artifacts. No company even bothered bidding for the rights to use it.
+0047 [Matilda] | Samuel sank his life savings into it and took out a massive loan from Deepsea Finance.
+0048 [Matilda] | He used a shell company to secure a ten-year lease through an old Trekker contact.
+0049 [Matilda] | Folks thought he'd lost it. Why trade a peaceful retirement for a worthless Monolith?
+0050 [Matilda] | But Samuel surprised everyone.
+0051 [Matilda] | He braved the Monolith alone and brought back Artifacts no one had ever seen and didn't even know how to use.
+0052 [Matilda] | After demonstration, they finally understood—they were seed chambers, automated harvesters, and powder that helps crops thrive.
+0053 [Matilda] | With those Artifacts, Samuel grew the finest wheat and vegetables in Philae.
+0054 [Matilda] | Then, he simply gave those superior seeds to the local farmers.
+0055 [Matilda] | He organized a fair-price system so farmers wouldn't undercut each other during a surplus, and no one would starve during a bad harvest. Slowly, food shortages gradually eased in cities around Philae.
+0056 [Matilda] | Ten years later, he founded United Harvest using a Seal of Grace he'd been saving. Soon, affordable grains and produce were flowing down the river to every neighboring city.
+0057 [Matilda] | The grain trade built Philae, turning a tiny settlement into the city you see today.
+0058 [Iris] | Wait, you mean ... the legendary Samuel founded United Harvest?!
+0059 [Iris] | That can't be right. Everything I've read says it started in New Orelian, bankrolled by a bunch of fruit merchants.
+0060 [Matilda] | Sigh... History is cruel. Such a monumental legacy, quietly swept under the rug.
+0061 [Matilda] | Nyx, Firenze. You both work for United Harvest. You must know Samuel's name.
+0062 [Nyx] | Yeah. Actually, almost all United Harvest employees know about him.
+0063 [Firenze] | But the official story is ... he was a terrible manager who nearly bankrupted the company.
+0064 [Firenze] | Supposedly, the business only took off after the New Orelian merchants bailed him out, transforming United Harvest into a corporate giant.
+0065 [Matilda] | Hmph. The Senate certainly works hard when it comes to revising history.
+0066 [Matilda] | Samuel founded United Harvest with a single vision: affordable, quality bread for every person in Nova.
+0067 [Matilda] | He poured his profits straight back into the land—expanding fields, building greenhouses, and improving seeds and irrigation.
+0068 [Matilda] | But Firenze isn't entirely wrong. Five years in, unprecedented storms hit Philae. That year went down as one of the worst harvests in history.
+0069 [Matilda] | The company's finances tanked. To save the farms and his workers, Samuel sold his shares to the New Orelian merchants and moved the headquarters there.
+0070 [Matilda] | Flush with new cash, United Harvest spread its farms and storefronts to every city. Better yet, their food was cheap and top-tier.
+0071 [Matilda] | Eventually, people stopped buying from anyone else. A natural market shift, I suppose.
+0072 [Noya] | Are we talking about the same company? That doesn't sound like the United Harvest we know at all.
+0073 [Iris] | Yeah. That business model sounds a lot like ... well, the ideal version of the company Firenze has been fighting for.
+0074 [Tú] | Undercut the market using deep pockets and endless supply. Sure, the customers win at first.
+0075 [Tú] | But once they're the only option left on the shelf...
+0076 [Matilda] | The story isn't over yet.
+0077 [Matilda] | Fast forward thirty years. United Harvest had become the largest grain and food supplier in all of Nova.
+0078 [Matilda] | The Senate decided it was time to reap the harvest. Only they weren't after wheat—they wanted Dorra.
+0079 [Matilda] | United Harvest gutted their product lines. Low-margin goods were axed, while top sellers saw their production costs slashed and retail prices hiked.
+0080 [Iris] | But wouldn't that ruin the flavor? They'd lose their customer base... Wait, no. They still have bustling shops in every city. Unless...
+0081 [Matilda] | Precisely what you're thinking.
+0082 [Noya] | Wait, what? Am I the only one lost here? Boss, do you know what they are talking about?
+0083 [Tú] | The food industry demands massive, long-term investment for thin margins.
+0084 [Tú] | By the time United Harvest started hiking prices, they had a thirty-year head start. No ordinary farm could ever compete with roots that deep.
+0085 [Tú] | Once they secured a monopoly, they could inflate prices unsupervised. People had no choice but to buy from them.
+0086 [Matilda] | Spot on. That is the reality of their monopoly.
+0087 [Matilda] | People have to eat. As long as the bread isn't entirely inedible ... they'll keep buying it. Eventually, they'd even get used to the taste.
+0088 [Matilda] | Tell me, my brilliant Boss... What do you make of United Harvest's success story?
+0089 [Opción] | Blinded by greed. They'll rot from the inside out eventually.
+0090 [Opción] | Nobody meant any harm, yet everyone will end up losing.
+0091 [Opción] | Boring. Spare me the corporate whitewashing.
+0092 [Tú] | Without a single competitor breathing down their neck, quality and fair pricing go out the window. They're free to strong-arm the market.
+0093 [Tú] | But people aren't fools. Whether it's the drop in quality or the soaring prices, public patience will run dry.
+0094 [Tú] | Keep this up, and it's only a matter of time before some new force—internal or external—tears them down.
+0095 [Tú] | Samuel had a noble vision, but he ignored the risks. As a result, the company became completely dependent on outside money.
+0096 [Tú] | Profit drives the economy. No matter who funded them, they were always destined for this outcome.
+0097 [Tú] | Customers naturally want the best products at the lowest prices. There's nothing wrong with that.
+0098 [Tú] | Samuel's dream matched those demands perfectly, creating a fragile cycle.
+0099 [Tú] | Nobody realized this setup would ultimately benefit no one.
+0100 [Noya] | But look at the outcome... The Senate is rolling in cash. Isn't that a happy ending? Sounds like a total win!
+0101 [Tú] | True. Though even the Senate must know they're bleeding the system dry.
+0102 [Tú] | Otherwise, nobody would resort to assassinations over the Philae branch's director seat.
+0103 [Tú] | United Harvest is clearly tearing itself apart.
+0104 [Tú] | Grand Inspector, you left out one crucial detail:==W== the Seal of Grace.
+0105 [Tú] | Sure, United Harvest expanded through massive production and deep pockets.
+0106 [Tú] | But you're likely the only agricultural firm in Nova holding a Seal of Grace.
+0107 [Matilda] | Correct.
+0108 [Tú] | A Seal of Grace lets you raise an army—but not every company chooses to do so.
+0109 [Tú] | Why would United Harvest, a food company, command a formidable private legion? Surely it isn't just for show. No. It must be because...
+0110 [Tú] | There are external forces standing in opposition to the company. Probably more than just a couple.
+0111 [Tú] | Meanwhile, your internal issues are boiling over. That assassination attempt at the banquet proves it.
+0112 [Matilda] | You hit the mark. Without Samuel's guidance, United Harvest has been morphing into a monster over the decades, a greedy monster whose only concern is the Dorra in its own pockets.
+0113 [Matilda] | The Senate fractured into warring factions. Nobody cares about the company's future anymore. Anyone who did was devoured by the rest long ago.
+0114 [Matilda] | They don't even bother checking if the soldiers' wages are paid on time. They have no idea they're sitting on a massive powder keg.
+0115 [Tú] | So that's the mess you're dealing with.==W== Honestly, I'm even more certain now that there is not much I can do to help a giant like United Harvest.
+0116 [Tú] | My guild's a company, and so is United Harvest. Under the Seal of Grace's authority, we stand on equal footing. No one outranks anyone here.
+0117 [Tú] | The only real difference is that we're Trekkers.
+0118 [Tú] | But I don't see how our time in the field can be much help when it comes to running a corporate empire.
+0119 [Matilda] | People rarely see their own worth. It seems like you haven't realized the true nature of the power you hold.
+0120 [Matilda] | This may sound odd, but as proof... Gibel Corregio, the senator who orchestrated your assassination attempt, is already in custody.
+0121 [Iris] | You caught him?! But you just arrived in Philae. How'd you even pull that off so fast?
+0122 [Matilda] | We have Boss to thank for that.
+0123 [Matilda] | Just a moment ago...
+0124 [Narración] | Half an hour ago
+0125 [Cosson] | Good day, Grand Inspector Matilda. I've been expecting you.
+0126 [Matilda] | Cosson? Thought you and your people were supposed to be retreating to Port Goldfinch.
+0127 [Cosson] | That was the plan. But en route, I received a transmission from the Senate. They've given me a temporary mandate to represent the company at the Monolith bidding here in Philae.
+0128 [Matilda] | Sounds like they really trust you.==W== Give it a few years, and you might be the talk of the Senate.
+0129 [Cosson] | You flatter me. But clinging to power after a defeat is hardly "elegant." Once I return, I intend to resign my seat and focus on rebuilding the legion.
+0130 [Matilda] | Rebuilding the legion? Are you sure? You've always obsessed over elegance, and life in the barracks is anything but.
+0131 [Cosson] | If our military were truly "elegant," we wouldn't have suffered such a humiliating defeat over unpaid wages. The whole thing was a total farce.
+0132 [Matilda] | ...
+0133 [Matilda] | Fair point. Let me make you a promise, then. To help you regain that "elegance," the Compliance Department will give you our full support.
+0134 [Cosson] | I appreciate it.==W== But the main reason I waited was to hand this individual over to you.
+0135 [Matilda] | Gibel Corregio?
+0136 [Gibel] | You traitor! You're handing me over to Compliance? My friends in New Orelian will have your head for this, Cosson!
+0137 [Matilda] | "Friends" in New Orelian, huh? Good to know. We'll just round them up right along with you.
+0138 [Gibel] | Matilda?! What are you doing here?!
+0139 [Cosson] | One more thing. Please tell the Boss and Lady Firenze that with you away from New Orelian, the Senate is moving fast. They're tabling an emergency motion today—
+0140 [Cosson] | —to shut down the Philae branch.
+0141 [Matilda] | What are they thinking? If that branch closes, food supply will drop by ten percent. That's not just a shortage. It's a continental crisis.
+0142 [Cosson] | They can't skim off the top in Philae, so they lose nothing killing it. Plus, they'll make a fortune hoarding the rest.==W== Typical inelegant behavior, wouldn't you say, Grand Inspector?
+0143 [Matilda] | But the Senate backed Gibel. He was handpicked by them to run the Philae branch next.
+0144 [Matilda] | Gibel, you orchestrated an assassination while under the Senate's wing. This is a slap in their face.==W== Are you planning to cross the New Orelian merchants?
+0145 [Cosson] | That isn't the point, Grand Inspector. This is about what's elegant. Dragging everyone down for his own petty ambition... It's pathetic.
+0146 [Cosson] | Besides, our main force only survived that massacre because the Boss commanded those Intelligent Plants with such ... undeniable elegance.
+0147 [Cosson] | It's only right. When the Boss shows such consideration, we must respond with equal elegance.
+0148 [Matilda] | Understood. You're putting a lot of faith in the Boss.==W== I'll make sure ==SEX== knows.
+0149 [Matilda] | Just look at the people you've won over. Cosson who fought you, the Goodwind assassin who targeted you...
+0150 [Matilda] | Firenze and Nyx who trust absolutely no one... Even Darcia holds you in high regard.
+0151 [Matilda] | Boss, you possess something United Harvest lost long ago: the power to earn people's trust.
+0152 [Matilda] | Please, help us. Let's save the Philae branch and keep Samuel's dream alive.
+0153 [Tú] | I was going to do that anyway.==W== Firenze is my ally, and I have friends in Philae. But more importantly—
+0154 [Tú] | Food is a necessity. Even a one-percent shortage can drive prices up until they're high enough for one percent of the population to starve. I can't just stand by and let that happen.
+0155 [Tú] | Our first priority now is figuring out how to halt the Senate's resolution... Do you have any strategy?
+0156 [Matilda] | Honestly, I'm stuck. If I were in New Orelian, I could stop them... But they knew that and waited for me to leave before striking.
+0157 [Matilda] | I'm in Philae now, and even with a witch's help, I can't get back to New Orelian in time. The Senate has me in checkmate. That's why I'm turning to you...
+0158 [Tú] | It's not checkmate yet. If you can make it to that meeting, you can turn the tide—correct?
+0159 [Tú] | Don't worry. I have a very reliable friend over in New Orelian.

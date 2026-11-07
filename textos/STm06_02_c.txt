@@ -1,0 +1,121 @@
+# Capítulo 6 · Milagro de un destello · 2C · The Servant's Servant
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cautious Soldier | Cautious Soldier
+N:Elite Soldier | Elite Soldier
+N:Suspicious Officer | Suspicious Officer
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_138 | Nyx
+N:avg2_958 | Weed Brawler
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_121 | Empleado de Cosecha Unida
+N:avg3_122 | United Harvest Manager
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_1260 | Weed Brawler
+N:avg3_1263 | Weed Brawler
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | The Servant's Servant
+0003 [Intro] | You reject Darcia in the tone of Tyrant, and instruct your companions to escape through Vita. Despite being under house arrest, your relationship with Firenze seemed to have improved somewhat.
+0004 [Lugar y hora] | 01:30, Messis Month 5th, Gold District, Philae, Company Hallway
+0005 [Firenze] | ==SEX12== Tyrant. A moment.
+0006 [Narración] | Outside the office, Firenze bars my path with her cane.
+0007 [Tú] | Firenze, your orders were to take me to my team next door. Why block my path?
+0008 [Firenze] | ==SEX12== Tyrant, Lady Darcia's loyalty is absolute. Why did you reject her?
+0009 [Tú] | As the Tyrant, I have my reasons.
+0010 [Tú] | You don't get to ask why, Firenze.
+0011 [Firenze] | I have to ask. She's the CEO of this branch. Someone of her rank offers you allegiance, and you decline. Why?
+0012 [Tú] | Ridiculous. Did Darcia put you up to this?
+0013 [Firenze] | Not at all. Purely my own curiosity. Humor me.
+0014 [Tú] | Ask all you want, I'm done explaining. Now move.
+0015 [Firenze] | Forgive me, ==SEX12== Tyrant.
+0016 [Tú] | Do you realize what you're doing? Darcia pledged herself to me. Disrespecting me insults her.
+0017 [Firenze] | I call it necessary. Enforcing her will here and now... That is how I prove my loyalty.
+0018 [Firenze] | Do you understand?
+0019 [Tú] | Loyal to the servant, but not the master...
+0020 [Tú] | My title binds Darcia, but holds no weight with Firenze.
+0021 [Firenze] | I know Lady Darcia. She's relentless. Your rejection will only paint a target on your subordinates' backs.
+0022 [Firenze] | I'm sure someone with your intellect knows exactly what that entails.
+0023 [Tú] | This looks bad. I need to get a warning out somehow...==W== Wait! I can—
+0024 [Tú] | Vita, Heartlink Amber. Tell them to leave me and run.
+0025 [Vita] | Your command is my will. Transmitting now—mimicking your tone.
+0026 [Vita] | Please stall for time while the transmission completes.
+0027 [Firenze] | Now, answer the question, ==SEX12== Tyrant. Why exactly did you reject Lady Darcia?
+0028 [Tú] | Hmph. Like I ever had a choice.==W== Fine. I'll tell you.
+0029 [Tú] | I may be the Tyrant, but my path is nothing like the one she envisions.
+0030 [Firenze] | Different paths? Intriguing.
+0031 [Vita] | Message sent, ==SEX12== Tyrant.
+0032 [Tú] | Got it, Vita.
+0033 [Firenze] | As I understand it, Lady Darcia chose to conquer Nova with absolute might, solely to lay it at your feet.
+0034 [Firenze] | And exactly what sort of path do you walk, ==SEX12== Tyrant?
+0035 [Firenze] | An explosion? But why?
+0036 [Elite Soldier] | R-Report! ==W==The Trekkers next door have escaped!
+0037 [Narración] | A few minutes earlier.
+0038 [Lugar y hora] | 01:30, Messis Month 5th, Gold District, Philae, United Harvest Office
+0039 [Noya] | ==PLAYER_NAME=='s been in there for half an hour.==W== What are they even talking about?
+0040 [Fuyuka] | Sir Joseph and Lady Gray were behind the Golden Nightingale, Mistique had company secrets on the capturer, and our fight wrecked two greenhouses.
+0041 [Fuyuka] | M-Master's probably just being questioned a bit longer. When I accepted that award last time, Lady Darcia grilled me for a whole hour.
+0042 [Iris] | You mean after we beat the Garden of Parasite and clear the Big Three?
+0043 [Fuyuka] | Y-Yeah... She said she was very interested in monsters.
+0044 [Fuyuka] | Such a prestigious medal ...==W== for me?!==W== Are you sure? This must be a mistake!
+0045 [Darcia] | I had originally intended to hold a formal ceremony to elevate your guild's renown. Philae's saviors should not go unrecognized.
+0046 [Darcia] | But after hearing your story, I realize my thinking was shortsighted.==W== True heroes like you earn admiration through your actions, not through tedious ceremonies.
+0047 [Fuyuka] | Lady Darcia is actually so kind. She really understands what we're trying to do.
+0048 [Nyx] | Is she?==W== If she "really understands," why has she posted an army right outside that door?
+0049 [Amber] | Hm? It's Boss.
+0050 [Tú] | Amber, Darcia is making her move. You're in danger. Get out now! (Sent by Vita)
+0051 [Tú] | Forget about me. Your safety is my best leverage against Darcia. Go! (Sent by Vita)
+0052 [Noya] | Amber, is that from ==PLAYER_NAME==?
+0053 [Amber] | ==SEX1== says we're in danger.
+0054 [Suspicious Officer] | Orders from Lady Darcia: wipe them out! Leave no survivors!
+0055 [Nyx] | Heads up! I hear spellcasting outside—
+0056 [Noya] | Fuyuka, help me blast the door!
+0057 [Fuyuka] | R-Right!
+0058 [Suspicious Officer] | Gah! How were they ready for us?
+0059 [Suspicious Officer] | Don't rush! Form up defense, advance slowly. These Trekkers are dangerous.
+0060 [Cautious Soldier] | Report! The room is empty.
+0061 [Suspicious Officer] | Impossible. There's no other way out.
+0062 [Cautious Soldier] | They smashed through the wall! They're headed for the greenhouses!
+0063 [Lugar y hora] | 01:35, Messis Month 5th, Gold District, Philae, Company Hallway
+0064 [Darcia] | Firenze, what do you think you're doing? How dare you show such disrespect to ==SEX12== Tyrant?
+0065 [Firenze] | Ugh—
+0066 [Firenze] | I-I'm sorry, Lady Darcia! I was only...
+0067 [Tú] | Darcia, you've got the wrong idea.
+0068 [Tú] | She only pinned me against the wall to shield me from the blast.
+0069 [Darcia] | Is that true, Firenze?
+0070 [Firenze] | ...==W== Y-Yes. That's correct.
+0071 [Darcia] | Then I stand corrected.==W== Escort ==SEX12== Tyrant to a secure room. I'll handle the Trekkers.
+0072 [Firenze] | At once.
+0073 [Tú] | Darcia, just what do you intend to do with my subordinates?
+0074 [Darcia] | ==SEX12== Tyrant, I know exactly what kind of test you've prepared for me.
+0075 [Darcia] | I'm worth far more than all your previous underlings combined, and I'll prove it to you personally.
+0076 [Lugar y hora] | 02:00, Messis Month 5th, Gold District, Philae, VIP Reception Room
+0077 [Firenze] | Here we are, ==SEX12== Tyrant. This is your temporary suite. Please, make yourself at home.
+0078 [Tú] | So, house arrest? Darcia certainly has a unique way of showing loyalty.
+0079 [Firenze] | ...
+0080 [Tú] | Is there anything else?
+0081 [Firenze] | ==SEX12== Tyrant... Why did you take my side back there?
+0082 [Tú] | Take your side? Hardly. I was just returning a favor.
+0083 [Tú] | Your tip about Darcia gave me time to warn my team. Plus, you really did take that blast for me.
+0084 [Tú] | While we're on the subject... Why go out of your way to warn me? Doesn't that count as betraying Darcia?
+0085 [Lugar y hora] | 02:45, Messis Month 5th, Greenhouse District, Philae, Greenhouse No.7
+0086 [Noya] | It never ends! How many Intelligent plants are there? Is Darcia trying to carpet all of Nova with these things?
+0087 [Iris] | Noya, pace yourself! Don't burn all your stamina!
+0088 [Noya] | We'll never get away on foot.==W== I'm getting Loxy. Cover me!
+0089 [Nyx] | Copy that. Amber and I are on it.
+0090 [Amber] | Understood.
+0091 [Fuyuka] | S-So many flying guns! They melted those plants in seconds!
+0092 [Nyx] | I stashed those weapons around the greenhouse earlier. Just didn't expect I'd actually have to use them like this.
+0093 [Darcia] | Foolish Trekkers.==W== Only I can offer true loyalty to ==SEX12== Tyrant.
+0094 [Nyx] | Fuyuka, Iris, Amber, fall back! I'll hold Darcia off.
+0095 [Amber] | Nyx, come with us.
+0096 [Nyx] | Stop arguing! Someone has to stay and cover you.==W== It's my duty as an Inspector!

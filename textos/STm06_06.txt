@@ -1,0 +1,160 @@
+# Capítulo 6 · Milagro de un destello · 6 · Gen-3 Intelligent Plants
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Gen-3 Plant Shooter | Gen-3 Plant Shooter
+N:Gen-3 Plant Warrior | Gen-3 Plant Warrior
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg2_957 | Weed Shooter
+N:avg2_958 | Weed Brawler
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1265 | Firenze
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | Gen-3 Intelligent Plants
+0003 [Intro] | To buy time, you order Darcia to keep refining the Intelligent Plants. Firenze corners you and demands you use a soul pact to force Darcia's surrender to HQ...
+0004 [Darcia] | Heheh... See, Firenze? This is the fate of the person who put your father on trial.
+0005 [Darcia] | Savor it. This is the taste of true revenge.
+0006 [Firenze] | ...
+0007 [Firenze] | Lady Darcia, with all due respect... I feel no satisfaction from this. This isn't what revenge is supposed to feel like.
+0008 [Darcia] | Huh?
+0009 [Firenze] | Four years ago, in that courtroom—
+0010 [Darcia] | Stay by my side, and I will grant you the power to crush Nyx.
+0011 [Firenze] | You promised me the power to crush Nyx.
+0012 [Firenze] | I have that power now. But you took her down yourself and turned her into a key battery for these plants.
+0013 [Firenze] | You've robbed me of the chance to finish it myself.
+0014 [Darcia] | Now that you mention it... I suppose you're right.==W== My apologies. I overlooked that detail.
+0015 [Darcia] | But rest assured, the "nutrients" don't die. For now, the Psychic Fluid and ==SEX2== Majesty's Chess Piece only skim off memory debris—trivial fragments she would have forgotten anyway.
+0016 [Darcia] | Before she suffers permanent memory damage, I'll swap her out for a more suitable specimen. Then, I'll leave her to you.
+0017 [Darcia] | Is that acceptable?
+0018 [Firenze] | Thank you for your understanding, my Lady.==W== When the time comes, I will exact my vengeance with the utmost cruelty.
+0019 [Tú] | Firenze is acting ... a little off.
+0020 [Darcia] | I look forward to watching that.
+0021 [Darcia] | Your Majesty, do you have a question?
+0022 [Tú] | These Intelligent Plants don't actually think? They're just borrowing human memories?
+0023 [Darcia] | Precisely. I use your Bishop to siphon memory debris from the nutrients and feed it to the Lithe Grass Mother. This constructs a massive cognitive model. Their reactions aren't thoughts, but instincts driven by that model.
+0024 [Tú] | Then what distinguishes the third generation from the second?
+0025 [Darcia] | Rather than bore you with a long lecture, it would be better for you to witness it firsthand.
+0026 [Darcia] | Firenze. Test the Gen-3 Intelligent Plants.
+0027 [Narración] | Two plants shuffled in—one tall, one short—indistinguishable from common Mandrake Radiant Grass.
+0028 [Narración] | Firenze unsheathed a rapier from her cane and took her stance.
+0029 [Gen-3 Plant Warrior] | Wheeee—!
+0030 [Firenze] | Fast.
+0031 [Narración] | The shorter plant lunged with impossible speed, vines lashing at Firenze from every angle.
+0032 [Narración] | Her black rapier blurred through the air...
+0033 [Narración] | It skewers the creature's eye and pins it to the wall.
+0034 [Narración] | But the taller one had already flanked her blind spot. Its pod took aim at her skull, seeds glinting with a cold, metallic sheen.
+0035 [Gen-3 Plant Shooter] | Eek—!
+0036 [Firenze] | Remarkable... I yield.
+0037 [Darcia] | Gen-3 boasts the combat prowess of Nyx, or should I say, a veteran Trekker.
+0038 [Darcia] | Facing two at once and dispatching one instantly. You performed admirably.
+0039 [Firenze] | You honor me.==W== That projectile-firing plant was indeed mimicking Nyx's tactics.
+0040 [Darcia] | Your Majesty. Does the Gen-3 Intelligent Plant meet your standards? Does my loyalty meet your approval?
+0041 [Tú] | Darcia is flaunting this power for one reason: to compel me to accept her allegiance.
+0042 [Tú] | Whatever her motives, accepting her loyalty is a one-way ticket to disaster.
+0043 [Tú] | Her "loyalty" is just a desperate obsession with validation. In the end, it'll get everyone killed.
+0044 [Tú] | So, how do I answer?
+0045 [Opción] | It's utterly useless
+0046 [Opción] | It's nothing special
+0047 [Opción] | I'm pleased
+0048 [Tú] | Your plants look formidable, but in practice? They are utterly useless.
+0049 [Darcia] | U-useless...? Your Majesty, I don't understand... In what way have I failed you?
+0050 [Tú] | Individually, yes, they rival Firenze in raw power.==W== But during that fight, they showed absolutely no teamwork.
+0051 [Tú] | When the melee unit engaged Firenze, the seed-shooter should have provided cover fire. With proper support, they could have won without a scratch.
+0052 [Tú] | Instead, your so-called "intelligent" plant completely ignored its ally's safety, choosing instead to secure a better vantage point for itself.
+0053 [Darcia] | But sacrifice is a valid tactic, Your Majesty.
+0054 [Tú] | Sacrifice is sometimes necessary. But that wasn't a tactic.
+0055 [Tú] | A single unit might defeat an average Trekker. But a hundred? They wouldn't fight the enemy—
+0056 [Tú] | They'd likely trip over each other in the confusion.
+0057 [Tú] | Do you honestly expect me to be satisfied with such flawed goods?
+0058 [Darcia] | I... Your Majesty's vision far exceeds my own. I see that now. I will begin improvements immediately.
+0059 [Tú] | Be more selective with your "nutrients." Haste makes waste.
+0060 [Tú] | And do not overuse my Bishop. Is that clear?
+0061 [Darcia] | Y-yes... As you command...
+0062 [Tú] | Phew. That should buy us some time.
+0063 [Tú] | If I praise their strength, she'll immediately press for my acceptance.
+0064 [Tú] | If I call them weak, she'll just harvest more people as "nutrients" to improve them.
+0065 [Tú] | I have to thread the needle here...
+0066 [Tú] | Honestly, these Intelligent Plants are nothing special.
+0067 [Tú] | Tell me, Darcia. Have you ever seen the Garden of Parasite?
+0068 [Darcia] | My apologies... Your Majesty. I was away at HQ when the Trekkers destroyed it. I never saw it in person.
+0069 [Tú] | The Garden of Parasite was a massive, monstrous tree. It released a kind of mist that confused friend and foe, while allowing it to control every other monster in the forest.
+0070 [Tú] | In hindsight, it likely gained those abilities through the influence of my Bishop piece.
+0071 [Tú] | Since your plants share that same origin, they should share that power.==W== And yet?
+0072 [Tú] | They ganged up two-on-one against Firenze and barely won. That satisfies you? I expected better. Go back and study the true authority of the Bishop piece.
+0073 [Darcia] | Your Majesty... I was presumptuous in my expectation. I will resume my research immediately and won't return until the plants meet your standards.
+0074 [Tú] | Phew... That should keep her off my back for a while.
+0075 [Tú] | They are exceptional specimens, Darcia.==W== You have pleased me.
+0076 [Darcia] | Your satisfaction is my highest honor.==W== Your Majesty, will you now accept my—
+0077 [Tú] | Accept your allegiance? Perhaps.==W== But first... Fill every empty tank in your lab with "nutrients." Begin cultivating the next generation immediately.
+0078 [Darcia] | Yes... Yes, of course...==W== I see it now, Your Majesty.
+0079 [Darcia] | If that is the price of your acceptance... I pay it gladly.
+0080 [Tú] | And do not insult me with inferior "nutrients."==W== I expect every specimen to be of the caliber of Nyx's.
+0081 [Darcia] | As you command, Your Majesty.
+0082 [Tú] | The Trekker Camp is practically deserted, and subjects like Nyx are hard to come by.==W== That should stall her for a while.
+0083 [Firenze] | Lady Darcia, ==SEX12== Tyrant hasn't rested since last night. Now that the demonstration is concluded...
+0084 [Darcia] | Ah, Your Majesty! I have been a negligent servant to overlook your well-being. I deserve death for such an oversight!
+0085 [Darcia] | Firenze, take two of the Gen-3 Intelligent Plant and attend to ==SEX2== Majesty. Ensure ==SEX== is comfortable.
+0086 [Gen-3 Plant Warrior] | Eek—!
+0087 [Gen-3 Plant Shooter] | Yah—!
+0088 [Tú] | If "resting" means sleeping next to these creeping horrors, I'll pass!
+0089 [Lugar y hora] | 11:00, Messis Month 5th, Gold District, Philae, VIP Reception Room
+0090 [Firenze] | Please rest easy, ==SEX12== Tyrant. I shall be right next door should you require anything.
+0091 [Tú] | Can't you take these plants with you? Who could possibly sleep with these things staring at them?
+0092 [Firenze] | My apologies. It seems they only answer to Lady Darcia.
+0093 [Tú] | Fine... So, you're Gen-3 Intelligent Plants, right? What can you actually do for me?
+0094 [Gen-3 Plant Warrior] | Eek—!
+0095 [Gen-3 Plant Shooter] | Yah—!
+0096 [Tú] | Huh? Pajamas and an eye mask... Surprisingly thoughtful.==W== Fine, I'll put them on.
+0097 [Tú] | Suddenly ... the exhaustion hits me.==W== Makes sense. I haven't closed my eyes in thirty hours.
+0098 [Tú] | With these two hovering, I can't use my phone to contact Noya or Nazuka.
+0099 [Tú] | Wait, there's still Vita. Vita, are you there?
+0100 [Vita] | I am always at your service, Tyrant.
+0101 [Tú] | Hearing that title now ... feels strange.==W== Darcia seems desperate to make me her version of a Tyrant.
+0102 [Vita] | The "Tyrant" Darcia desires is not the true Tyrant.
+0103 [Tú] | Oh? Do you know what the real Tyrant is actually like?
+0104 [Vita] | As your former Priest and current secretary, yes, I know your true self. However, with insufficient permissions. I cannot disclose that information.
+0105 [Vita] | Besides... I was the one who called you Tyrant first, just so you know.
+0106 [Tú] | Alright, alright. I know you were first.
+0107 [Vita] | I suggest you secure a soul pact immediately. Completing this task will raise your clearance level and unlock new powers.
+0108 [Vita] | To break this stalemate, please reconsider my proposal.
+0109 [Tú] | And what powers do I get, exactly? Ugh, never mind. Let me guess: "Insufficient Permissions," right?
+0110 [Vita] | Precisely. But I assure you: whatever functions you unlock will be vital to your ascension as the true Tyrant. That is the core purpose of the Well of Worlds Tyrant Development System.
+0111 [Tú] | You, Darcia... Everyone's obsessed with crowning me "Tyrant." Is it even really that good a gig?
+0112 [Tú] | Whatever. I'm in a tight spot, sure, but I'm not out of moves yet. Vita, Firenze isn't actually loyal to Darcia, is she?
+0113 [Vita] | My analysis concurs. Upon seeing Miss Nyx in custody, Firenze exhibited a spike in heart rate and rapid respiration—classic distress signals.
+0114 [Vita] | Her vitals only stabilized once Darcia confirmed Nyx's immediate safety.
+0115 [Tú] | She claims she wants revenge on Nyx, but her physiological response shows "concern."
+0116 [Tú] | That said, Darcia hasn't breathed a word about the HQ army arriving. Is she suppressing the intel, or does she just not care?
+0117 [Tú] | By the way, what were you staring at? You seemed completely entranced...==W== That's not like you.
+0118 [Firenze] | The sky.
+0119 [Narración] | I follow Firenze's gaze east. There's nothing unusual as far as I can see— only the morning sun, stinging my eyes with its glare.
+0120 [Tú] | So why was she fixated on the eastern sky back then? It's almost like she knew that the army was coming.
+0121 [Vita] | Rather than speculating in private, why not ask her directly?
+0122 [Tú] | Pointless without proof. Knowing Firenze, she won't give up her secrets that easily.
+0123 [Tú] | I need to crash. Keep eyes on Firenze for me, will you? Wake me the second she makes a move.
+0124 [Vita] | Understood. Your command is my will.
+0125 [Lugar y hora] | 18:00, Messis Month 5th, Gold District, Philae, VIP Reception Room
+0126 [Vita] | Tyrant! Tyrant, wake up!
+0127 [Tú] | Nngh... What time is it?
+0128 [Gen-3 Plant Warrior] | Weeeeee—
+0129 [Tú] | 6 PM?==W== Is that what you're saying?
+0130 [Gen-3 Plant Shooter] | Yah—!
+0131 [Vita] | ==SEX12== Tyrant, Firenze has just left the room.
+0132 [Tú] | Got it. I'm up.
+0133 [Narración] | I grab the clothes prepared by the plants, throw them on, and hurry out the door, scanning for Firenze.
+0134 [Narración] | There she is—on the stairs nearby, walking slowly toward the greenhouses.
+0135 [Tú] | Waiting for me to catch up, is she...?==W== Fine. Let's see what she wants.
+0136 [Narración] | So I follow Firenze, with the two Intelligent Plants trailing behind me.
+0137 [Narración] | We enter a greenhouse, head down the stairs,==W== and pass through the deep corridor of the underground lab.
+0138 [Tú] | Back here again?==W== She must be taking me to ... that room in the deepest part of the lab.
+0139 [Tú] | Huh? Where'd she go?
+0140 [Narración] | A glint of cold steel flashes out of nowhere, freezing just inches from my throat.
+0141 [Firenze] | You followed, ==SEX12== Tyrant. Just as I expected.
+0142 [Firenze] | Then I shall be direct:==W== accept Lady Darcia's allegiance, bind her with a "soul pact," and order her to surrender to HQ.
+0143 [Firenze] | Let me be perfectly clear, to avoid any ... misunderstanding. Listen well. This is not a request. It is an order. And my rapier is not known for its patience.

@@ -1,0 +1,158 @@
+# Capítulo 8 · Calor residual · 2 · At Daggers Drawn
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Arrogant Sentinel of Dawn | Arrogant Sentinel of Dawn
+N:Injured Sentinel of Dawn | Injured Sentinel of Dawn
+N:Knight Captain | Knight Captain
+N:Ruby & Sapphire | Ruby & Sapphire
+N:Ruthless Sentinel of Dawn | Ruthless Sentinel of Dawn
+N:avg1_103 | Amber
+N:avg1_107 | Tilia
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_136 | Angie
+N:avg1_138 | Nyx
+N:avg1_144 | Chitose
+N:avg1_150 | Laru
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_129 | Guardia Imperial
+N:avg3_136 | Ruby
+N:avg3_137 | Sapphire
+N:avg3_150 | Albedo
+N:avg3_152 | Bastelina
+N:avg3_157 | Guardia Imperial
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | At Daggers Drawn
+0003 [Intro] | Angie and the Sentinel of Dawn withdraw. You learn that Serena, acting as Director Angie, leads the private militia known as the Salvation Committee and has been testing you to determine if you are the legendary Tyrant.
+0004 [Lugar y hora] | 10:45, Venatio Month 23rd, Silver District in Philae, Unnamed Street
+0005 [Arrogant Sentinel of Dawn] | Dang it, where the hell is that sniper? They're picking us off one after another.
+0006 [Ruthless Sentinel of Dawn] | They keep changing positions, to avoid being pinned. Tch... The CEO of Boss Accord came fully prepared.
+0007 [Ruthless Sentinel of Dawn] | No CEO, not even one from United Harvest, will hire a sniper to protect her in daily business. That confirms it, ==SEX== IS the legendary Tyrant!
+0008 [Ruthless Sentinel of Dawn] | Good news is that the sniper's been burning through their magic this whole time. They must be running low by now.
+0009 [Arrogant Sentinel of Dawn] | We just need to close this street. That'll contain the Tyrant in the hotel area. Then we close in and take ==SEX4== down.
+0010 [Tilia] | Captain, what's going on? I thought United Harvest Philae brought us in to protect their facilities and safeguard the residential area. Why are we out here hunting people?
+0011 [Knight Captain] | Shh, keep it down. The order came from above. Let's just pray those two Sentinels forget we are here. I don't want another run-in with that Tyrant.
+0012 [Arrogant Sentinel of Dawn] | Oi, stop chitchatting! You're the captain, aren't you? Get your people to seal off the properties on this entire street. We can't risk letting the Tyrant escape.
+0013 [Knight Captain] | With all due respect... Whatever you call ==SEX4==, ==SEX== remains the CEO of the Boss Accord. Any action against a CEO constitutes corporate war, and the protocol requires the Imperial Guard to remain neutral in such conflicts.
+0014 [Arrogant Sentinel of Dawn] | This isn't a corporate war. The future of Nova is at stake.
+0015 [Knight Captain] | Uh... But...
+0016 [Arrogant Sentinel of Dawn] | If the Tyrant gets away, who is going to take the responsibility, you?
+0017 [Tilia] | I'll take it!
+0018 [Knight Captain] | Tilia...
+0019 [Tilia] | Boss and ==SEX3== friends protected Philae! ==SEX1== would never be the one to destroy Nova. Never!
+0020 [Arrogant Sentinel of Dawn] | And who might you be?
+0021 [Tilia] | I am Tilia, squire of the Imperial Guards.
+0022 [Arrogant Sentinel of Dawn] | Hmph... Since when does a mere squire speak out of turn?
+0023 [Ruthless Sentinel of Dawn] | You know nothing! The Book of Grace Prophecies is never wrong. The Tyrant must be executed for the sake of all Novians—
+0024 [Noya] | Hey, out of the way!
+0025 [Ruthless Sentinel of Dawn] | Gah—where did that come from...
+0026 [Arrogant Sentinel of Dawn] | W-Wait...! Are you out of your mind?! How dare you attack members of the Committee? And you slacking knights! I'll have you all thrown in jail—
+0027 [Chitose] | My ==SEX11==, the enemies have been dealt with.
+0028 [Tú] | Thanks, Chitose. I couldn't have made it without you.
+0029 [Amber] | Are you hurt, Boss?
+0030 [Iris] | Otoha sent word ahead and asked us to pick you up. Glad we made it in time.
+0031 [Tú] | Sorry if I made you worry.
+0032 [Noya] | ==PLAYER_NAME==, what happened? Why is Grace Imperium targeting you...
+0033 [Tú] | Serena is convinced that I'm the legendary Tyrant. She's been rallying Grace Imperium employees, claiming that putting me to death is the only way to save the world.
+0034 [Tú] | I don't know why she's gone this far. But not everyone in Grace Imperium is against us. Take Bastelina. She's shown us nothing but kindness.
+0035 [Tú] | And you too, Tilia. Thank you for speaking up for me. That really means a lot.
+0036 [Tilia] | Don't mention it. You risked your life to do the right thing. That's what a champion of justice looks like. A bad person would never do that.
+0037 [Knight Captain] | Ahem, she is right. The Imperial Guard always stands on the side of justice. If any of our guards attacked you earlier, they couldn't have meant it.
+0038 [Knight Captain] | We were only following orders from Grace Imperium. We have to... But we mean you no harm, Boss!
+0039 [Tú] | O... Okay?==W== I'll keep that in mind.
+0040 [Knight Captain] | As a gesture of good faith, please allow us to escort you to safety.
+0041 [Firenze] | We appreciate the thought, Captain. But now that we've arrived, there's no safer place for Boss than right here with us.
+0042 [Tú] | Firenze, you're here! And everyone at United Harvest Philae!
+0043 [Nyx] | Sorry, we tried to get here sooner... But we were a step behind.==W== Anyway, the most important thing is that you're safe.
+0044 [Firenze] | Now that we're here, I'd say the odds are even.
+0045 [Tú] | Firenze, I've already made it out. Do we really need to escalate the situation?
+0046 [Tú] | Grace Imperium's literally got an army over there. If this turns into a real fight, it could drag your company down.
+0047 [Firenze] | If United Harvest Philae cannot protect the very person who saved it and the city, if it won't stand with its allies when they're in need, then what's left of its purpose as a company?
+0048 [Firenze] | Ruby, Sapphire, secure the hotel main entrance.
+0049 [Ruby & Sapphire] | Got it!!
+0050 [Knight Captain] | We'll provide assistance.==W== Imperial Knights, form up!
+0051 [Tilia] | Wait, Captain... Didn't you just say we don't get involved in corporate wars?
+0052 [Knight Captain] | Well, those Sentinels had made it clear—
+0053 [Arrogant Sentinel of Dawn] | This isn't a corporate war.
+0054 [Knight Captain] | In that case...
+0055 [Knight Captain] | These people are nothing but bands of armed ruffians. The Imperial Guard will honor its contract with United Harvest Philae and help maintain order in the city!
+0056 [Lugar y hora] | 11:30, Venatio Month 23rd, Silver District in Philae, Hotel Room
+0057 [Injured Sentinel of Dawn] | Ma'am, the Imperial Guard has sided with the Tyrant. The tables have turned. We're being surrounded now.
+0058 [Angie] | ... Let's fall back. I underestimated the Tyrant. ==SEX1== has come better prepared than I anticipated. We need to regroup.
+0059 [Angie] | Just you wait, Tyrant.==W== For the future of Nova...
+0060 [Angie] | Next time, I'll let the thunderbolt from the Scepter of Death pierce straight through your heart...
+0061 [Angie] | ... even if it means I go down with you.
+0062 [Albedo] | Director, here you are. You owe me an explanation for this mess.
+0063 [Albedo] | Grace Imperium's actions had brought great chaos in Philae... I don't even know where to begin. You're not going anywhere until I get some answers.
+0064 [Angie] | I know you have a lot of complaints, Albedo. I do, but...
+0065 [Angie] | Saving Nova from destruction is what only matters.==W== A little chaos in Philae? A little trouble for Grace Imperium? Those are nothing.
+0066 [Angie] | Heh... Hahaha... No, they don't even qualify as problems. So tell me, why should I care?
+0067 [Albedo] | Here we go again... The same old prophecy talk. Nova's destruction is just ink on a page. Why are you so fixated on it?
+0068 [Angie] | Ah... I see, Albedo. So you've been living in a bubble, too.
+0069 [Nyx] | You're surrounded. Resistance is pointless. Drop your weapons and surrender.
+0070 [Angie] | Well, well. Look at this crowd.==W== I'm afraid that I am too busy for your audience. I'll see you all next time.
+0071 [Firenze] | You're not getting away!
+0072 [Firenze] | No way... She just vanished?!
+0073 [Nyx] | Lady Albedo, Chief Bookkeeper of the Sky Institute? I'm afraid, under the circumstances, you'll have to come with us.
+0074 [Lugar y hora] | 14:00, Venatio Month 23th, Gold District in Philae, Executive Office
+0075 [Ruby] | Report! Boss, Lady Firenze, the area around the hotel is secured. No guests were injured.
+0076 [Sapphire] | We captured four Sentinels of Dawn, but none of them acknowledged their identities.
+0077 [Sapphire] | As for casualties, thirty of our security personnel were injured. The Imperial Guard also took losses, probably a few dozen, but no exact count.
+0078 [Firenze] | Bring in the best doctors in Philae. Make sure all the injured receive proper treatment.
+0079 [Ruby & Sapphire] | Yes, ma'am!
+0080 [Nyx] | The Sentinels of Dawn are tough. Serena only brought ten of them, yet they held off more than a hundred of us, and six still made it out.
+0081 [Amber] | Their magic is on another level. Their spell is even faster than a magic bullet leaving the barrel.
+0082 [Noya] | And they're insanely strong. I can barely hold my sword during the clashing. Iris, who are those people? Private soldiers of the Grace Imperium?
+0083 [Iris] | I... I don't know either. Publicly disclosed information says they're a special unit under Grace Imperium, but that's all we got. Most people don't even know they exist.
+0084 [???] | They answer to one of the four in the Tetrad Aspects, the highest ruling council of the Grace Imperium. The Sentinels of Dawn serve as a special unit for countering Nocturn Eterna, usually stationed near the Monoliths at the edge of the world. They rarely make an appearance.
+0085 [Chitose] | My ==SEX11==, I have brought Albedo.
+0086 [Tú] | Chitose, untie her, please.==W== I ... don't think she's our enemy.
+0087 [Albedo] | No, Boss, allow me to reject your kindness. The Director of the Sky Institute has fled. As Chief Bookkeeper, I am obliged to bear the consequences.
+0088 [Tú] | The Director of the Sky Institute...==W== Just to be clear, Serena is the Director? The one trying to kill me?
+0089 [Albedo] | Yes. She ordered this hunt without the Tetrad Aspects' approval. Unfortunately, I don't have any concrete evidence to prove that. You may not be convinced.
+0090 [Noya] | Tetrad Aspects... Sentinels of Dawn... Sky Institute... So many names. My head is spinning...
+0091 [Tú] | When the Sentinels were after Chitose and me, you stepped in.==W== So... I guess I'm willing to trust you.
+0092 [Tú] | But can you walk us through everything?
+0093 [Albedo] | You really are as kind as they say. Thank you. I'll tell you everything I know.
+0094 [Albedo] | Grace Imperium has four major divisions. The Sky Institute manages the trade of Grace and Soul Stones. The Eye of Grace is dedicated to the study of magic and the operation of the university and colleges.
+0095 [Albedo] | The Dusk Arbiters serve the God of Grace and are responsible for hunting down heretics. The Sentinels of Dawn guard the Monoliths and go after Nocturn Eterna.
+0096 [Albedo] | The heads of the four divisions form the Tetrad Aspects, the highest ruling council of Grace Imperium.
+0097 [Albedo] | Major decisions can only be made and implemented when more than half of the Tetrad Aspects approve it.
+0098 [Albedo] | ... But lately, the Director has been going behind their backs, exercising her authority alone.
+0099 [Albedo] | For instance, advancing the date on the Philae Monolith auction was entirely her idea.
+0100 [Albedo] | She kept it from everyone in the Sky Institute, me included. The announcement dropped out of the blue, and we were left scrambling to prepare the venue.
+0101 [Albedo] | Worst of all, we later found out she'd been secretly communicating with Omnisky Aegis. No... It was bid-rigging.
+0102 [Albedo] | She enrolled every Sky Institute employee in expensive health insurance plans...
+0103 [Albedo] | ... all to pad the Mercurio sisters' numbers and help them climb the corporate ranks.
+0104 [Tú] | The Director brought in Omnisky Aegis to stir up bids, whereas the Imperial Guard is her long-standing backup.==W== So that means...
+0105 [Firenze] | Feels like the Director is acting up out of malice. Or is this just her way of punishing us for the Darcia incident?
+0106 [Albedo] | That's what I thought at first. Sure, it's unethical, but if it was just about knocking Philae down a peg, I could almost live with it. But then...
+0107 [Albedo] | After the bid price reached the cap of forty billion Dorras, the Director said this to me—
+0108 [Angie] | I've prepared two copies of the wishing prompt. If ==PLAYER_NAME== comes to terms with Omnisky Aegis or Deepsea Finance tonight, go with the standard version.
+0109 [Angie] | But if they decide to raise the funds all by themselves, go with the excerpt from the Book of Grace Prophecies.
+0110 [Albedo] | So you're saying... If United Harvest Philae agrees to work with another party or applies for a bank loan, you would like to withdraw your punishment?
+0111 [Angie] | Hehe. Albedo, you still don't get it.
+0112 [Angie] | This is not a punishment. It's a test.
+0113 [Tú] | A test...==W== Now that I think about it, from our very first meeting to Fuyuka's training, she's been testing me all along.
+0114 [Tú] | So she considered me the legendary Tyrant the moment I stepped into Philae?
+0115 [Tú] | No... It goes further back. Bastelina arranged our first meeting,==W== which means I was already being watched back in Emor.
+0116 [Albedo] | Bastelina had no idea about all of this. She was just doing what the Director'd asked.
+0117 [Albedo] | ==PLAYER_NAME==, I think the Director put you on her radar the moment you opened that safe.
+0118 [Albedo] | There's a secret faction inside Grace Imperium—
+0119 [Albedo] | "The Special Committee for the Salvation of the Nova Continent and Neutralization of the Tyrant." You probably know them by now.
+0120 [Albedo] | When Serena succeeded as the Chairperson of this Committee, she assumed an ancient name—Angie.
+0121 [Albedo] | And that's when she started to change.
+0122 [Albedo] | She followed the Book of Grace Prophecies to the letter and tracked every sign of the Tyrant.
+0123 [Albedo] | I don't believe in some legends or prophecy, and I can't tell you how Director Angie arrived at a conclusion that you're the Tyrant...
+0124 [Albedo] | But even for a non-believer like me, what you've done over the past six months is beyond extraordinary.
+0125 [Albedo] | Please answer one question, ==PLAYER_NAME==.==W== Would you believe, to this day, that you are the legendary Tyrant?

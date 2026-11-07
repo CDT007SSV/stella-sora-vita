@@ -1,0 +1,155 @@
+# Capítulo 7 · El precio de la estrella · Final: Status Unknown
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_118 | Coronis
+N:avg1_132 | Minova
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_138 | Nyx
+N:avg1_144 | Chitose
+N:avg1_156 | Nazuna
+N:avg1_1992 | Resident
+N:avg1_1993 | Resident
+N:avg3_100 | Sylar
+N:avg3_132 | Kaede
+N:avg3_139 | Trekker
+N:avg3_169 | Chica
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg3_176 | Loong Resident
+N:avg3_220 | Mercurio
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | The End
+0002 [Intro] | Status Unknown
+0003 [Intro] | You and Firenze take Mercurio's tempting wager. But a year later, she leaves the company, and Omnisky Aegis springs their trap. Blindsided and ambushed, you fall into a desperate situation, with your fates unknown...
+0004 [Lugar y hora] | 18:00, Venatio Month 13th, Silver District in Philae, Fenghuang Diner
+0005 [Mercurio] | Thank you for coming. It's a pleasure to finally be able to talk face-to-face.
+0006 [Mercurio] | Apologies for the modest venue. I arranged this to clear the air:==W== Omnisky Aegis has no desire to make enemies of United Harvest Philae or Boss Accord.
+0007 [Firenze] | I like Loong food, but ...==W== isn't it a bit loud in here?
+0008 [Mercurio] | The noise prevents eavesdropping. Besides, this is a Loong establishment. You don't have to worry about me pulling tricks—==W==like hiding assassins out in the hall.
+0009 [Tú] | I'm curious. Why is Omnisky Aegis fighting so hard for the Monolith? 40 billion is a terrible deal.
+0010 [Mercurio] | You're right. In fact, we aren't attached to leasing it at all. Say the word, and my company will drop our bid.
+0011 [Firenze] | So...==W== You only bid to drive up the price and meddle with us?
+0012 [Mercurio] | Oh, we aren't that petty. We had our reasons. It all goes back to that banquet...
+0013 [Tú] | So...==W== You needed a distraction. You used the auction to make headlines.
+0014 [Mercurio] | Precisely. Omnisky Aegis could use a new Monolith, but we aren't desperate enough to blow 40 billion Dorra on one.
+0015 [Firenze] | Hmph. You have it all figured out. You walk away, and we're stuck with a 40-billion lease.
+0016 [Mercurio] | True. And we feel awful about that. That's why I'm proposing a win-win solution.
+0017 [Firenze] | A win-win?
+0018 [Mercurio] | You must be wondering how you'll scrape that money together. To show our good faith, Omnisky Aegis will cover half the lease. 20 billion Dorra.
+0019 [Mercurio] | United Harvest Philae keeps full usage rights. We ask for 30 percent of the climbing rights—for every ten climbs, our Trekkers take three.
+0020 [Firenze] | You're putting up 20 billion, but you don't want usage rights or even half the climbs. Only 30 percent.
+0021 [Firenze] | Lady Mercurio, those terms are too generous.
+0022 [Mercurio] | Naturally, there are strings attached.==W== Omnisky Aegis would like to propose a wager.
+0023 [Mercurio] | If you two still work for United Harvest Philae at the next Monolith bid in ten years, Omnisky Aegis won't contest the rights—we'll help you win.
+0024 [Mercurio] | But if you no longer work for United Harvest Philae by then, we expect the company to withdraw and do everything possible to help us win.
+0025 [Firenze] | A wager on where we'll be in ten years... Fair enough.==W== But why stake this on Boss and me?
+0026 [Mercurio] | Omnisky Aegis considers you two far more valuable—and better allies—than the company itself.
+0027 [Mercurio] | We're offering these terms purely because you're at the helm. We're happy to spend extra Dorra to clear the air.
+0028 [Mercurio] | If you stay in charge, we stand as your allies. But if you step away, we expect your help in taking over Philae ourselves.
+0029 [Tú] | Then it looks like we're allies. Firenze and I will never consider abandoning this company.
+0030 [Mercurio] | That works for us. Omnisky Aegis lacks grand ambitions. We only want reliable partners in this chaotic world of Nova.
+0031 [Tú] | Her terms sound sincere, but I can't tell how true they are. I'll need to read every clause of that magic contract carefully.
+0032 [Firenze] | Mercurio, we need to discuss this privately. Barring any surprises, we'll accept the wager.
+0033 [Mercurio] | Heh. Then, to our working together. Cheers.
+0034 [Firenze] | Hold on. Now that business is settled, we have a personal question. Can you tell us about your new life insurance policies?
+0035 [Mercurio] | Oh? You're looking for insurance? Welcome. We offer several types: medical, life, and comprehensive. Which one interests you?
+0036 [Firenze] | Life insurance.
+0037 [Mercurio] | Life insurance? Hmm. People ask about it, but no one ever follows through.
+0038 [Mercurio] | After all, the policy is simple: if the insured passes away under the contract's terms, the beneficiary gets a payout.
+0039 [Mercurio] | Most people see it as betting your own life against Omnisky Aegis for a payout.
+0040 [Mercurio] | But we aren't selling a death payout. We're selling proof of your value. You two are exceptional. If the worst happens, this protects your families.
+0041 [Mercurio] | Honestly, I pushed for this policy myself, so no other child ends up like me.
+0042 [Tú] | Ends up ...==B== like you?
+0043 [Mercurio] | Picture me as a kid. My family gets into a terrible crash.
+0044 [Mercurio] | My parents shield my sister and me. They take the hit and end up in the hospital, kept breathing only by a Monolith Artifact.
+0045 [Mercurio] | We sell everything. We drown in debt. And we still lose them.
+0046 [Mercurio] | As they die, their worst agony isn't physical. It's knowing they leave us with nothing.
+0047 [Mercurio] | They beg us to stop wasting Dorra on them.
+0048 [Mercurio] | But how do we pull the plug? We lose them anyway, and go bankrupt.
+0049 [Mercurio] | Someday I'll be a mother. I push this policy so I never experience that regret again.
+0050 [Tú] | I have no idea there's such heartbreak behind this.==W== It says death insurance, but it's a beautiful way to protect people.
+0051 [Firenze] | Understood. Put us down for a thousand policies each.
+0052 [Tú] | A-A thousand?!
+0053 [Lugar y hora] | 21:00, Venatio Month 13th, Silver District in Philae, Unnamed Street
+0054 [Tú] | Firenze, I know that her story is heartbreaking, but isn't that amount overkill?
+0055 [Tú] | 100 thousand Dorra per policy. A thousand each means 200 million a year. We can't afford that!
+0056 [Firenze] | Boss, what if I tell you her parents are alive and perfectly healthy?
+0057 [Tú] | Well, that's great news...==W== Wait, what? Alive? Didn't she say they died in a car crash?
+0058 [Firenze] | That's her pitch. From what I hear, her parents have died a dozen different ways by now.
+0059 [Tú] | That's ... messed up. She really commits to the con. So why are you still buying the policies?
+0060 [Firenze] | For our survival.
+0061 [Firenze] | She plays the respectful host at dinner. It seems Omnisky Aegis wants to avoid a war.
+0062 [Firenze] | But we can't ignore the wager they propose. It's a trap.
+0063 [Tú] | You mean ...==W== they plan to kill us to win the bet?
+0064 [Firenze] | Exactly. The wager is tied to United Harvest Philae. Even if we drop dead, it's legally binding.
+0065 [Firenze] | That's why I bought the policies. At our age, dying within 20 years triggers a 100-million payout per policy.
+0066 [Tú] | A thousand policies are 100 billion. 200 billion total for both of us...
+0067 [Firenze] | Precisely. Now, they not only get nothing from killing us—it bankrupts them entirely.
+0068 [Tú] | I see. 200 million a year is a low price to keep them off our backs.
+0069 [Firenze] | By the way, Boss. Who's your beneficiary?
+0070 [Tú] | The ... New Star Guild. Why?
+0071 [Firenze] | Lucky them. If Omnisky Aegis murders us anyway, they walk away with 200 billion.
+0072 [Tú] | Why 200 billion...?==W== Wait, you didn't...
+0073 [Firenze] | Because my beneficiary is you, Boss.
+0074 [Narración] | Mercurio wasn't bluffing. The next day, Omnisky Aegis drops out and sends 20 billion Dorra to United Harvest.
+0075 [Narración] | The Imperial Guard follows suit.==W== The Philae Monolith bidding ends before the second technical review even begins.==W== As the sole candidate, United Harvest Philae wins.
+0076 [Narración] | After that, we enjoy a peaceful stretch.==W== I stay in Philae to help Firenze build the company. The New Star Guild and Petal Bloom keep trekking,==W== bouncing from Monolith to Monolith.
+0077 [Narración] | One year later
+0078 [Tú] | Yawn... Nice day today.
+0079 [Tú] | The company's finally on stable footing. Time to hit the road with Noya and the others to hunt for the orphanage.
+0080 [Tú] | Huh? Mercurio? Calling me? That's new.
+0081 [Mercurio] | Hey, good morning, Boss.
+0082 [Tú] | Morning. Here for next year's premium? Firenze already sent the payment.
+0083 [Mercurio] | Ah, thanks for the business. But that's not why I'm calling. I just quit Omnisky Aegis. I want to say goodbye.
+0084 [Tú] | Quit? Aren't you doing great? I hear you basically run half the company.
+0085 [Mercurio] | Heh, you're not wrong. But it just hit me...==W== This job is meaningless. Absolutely meaningless.
+0086 [Mercurio] | I may not look it, but I'm one of the few decent people there. Once I'm gone, watch your back.
+0087 [Tú] | Hey, is Omnisky Aegis secretly a mob front?
+0088 [Mercurio] | ... Hah, maybe it is. Goodbye, Boss.
+0089 [Tú] | Mercurio's quitting...==W== Something feels off. I should call Firenze.
+0090 [Tú] | Urgh—Something's strangling me...==W== I-I can't breathe—
+0091 [Tú] | Where... Where am I?
+0092 [Noya] | Doc, tell me straight. How's ==PLAYER_NAME==?
+0093 [Coronis] | ==SEX1== went without oxygen for too long. The brain damage is irreversible.==W== ==SEX1=='s alive, but ... there's no telling if ==SEX== will ever wake up.
+0094 [Iris] | Boss, it's me, Iris. Can you hear me? Listen. I'm singing the song that woke you up.
+0095 [Amber] | I'm hunting down the assailant.
+0096 [Fuyuka] | Master... You'll pull through this, right? You have to. You still have so much to teach me.
+0097 [Nazuna] | Boss, your assailant has been riddled with my bullets. Hurry up and wake up. We have claw machines to play!
+0098 [Kaede] | The sun is warm today. Look, I bring you flowers from the base of the Monolith. Everyone in Petal Bloom is waiting for you.
+0099 [Nazuka] | You idiot! You broke your promise! You massive idiot!
+0100 [Minova] | Thanks to you, the Ashwind kids thrive. I read to you every day... Can you hear me?
+0101 [Mistique] | Come on, Boss, this makes for a terrible headline.
+0102 [Mistique] | Tell you what—you wake up, and I'll make an exception. I take you flying for as long as you want.
+0103 [Nyx] | You and Firenze, both stuck in bed... And here I am, awake, when I'm the one who actually likes sleeping.
+0104 [Chitose] | Forgive me, my ==SEX11==. I arrived too late. From now on, I'm staying by your side. I'll never leave you again.
+0105 [Chitose] | If you never wake... Then I'll follow you into the next world.
+0106 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0107 [Tú] | What... What is happening to me?
+0108 [Bernina] | Someone strangled you on the street. At that exact moment, mercenaries ambushed Firenze.
+0109 [Virigia] | Their method was precise. They didn't kill you, just choked you out long enough to cause irreversible damage.
+0110 [Bernina] | The human brain is fragile. A few minutes without oxygen guarantees irreversible damage.
+0111 [Virigia] | You and Firenze are neither living nor dead. You appear alive, but unplug the medical Artifacts, and you die instantly.
+0112 [Bernina] | Your companions refuse to give up. They nurse you for over a decade. But eventually, your organs fail, and you die.
+0113 [Virigia] | A cruel strategy. Your friends tear that company apart to avenge you, but neither you nor Firenze can ever speak to them again.
+0114 [Tú] | Omnisky Aegis...
+0115 [Tú] | What a sick scheme—stealing Philae while dodging the life insurance payout.
+0116 [Bernina] | Nova companies, ruthless as ever.
+0117 [Virigia] | Hehe... They'll do absolutely anything for Dorra.
+0118 [Tú] | I was too naive. I thought contracts and insurance would keep them honest.
+0119 [Tú] | Vita, open the door. I'm taking these memories back with me.
+0120 [Tú] | Someday,==W== I'll wipe Omnisky Aegis off the map.
+0121 [Vita] | Your command is my will.
+0122 [Firenze] | "Not looking to monopolize"? What's Mercurio's angle here...
+0123 [Firenze] | What do you think, Boss?
+0124 [Tú] | And to think Mercurio really passes for decent at Omnisky Aegis.
+0125 [Tú] | There's no way we're working with this company.

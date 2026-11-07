@@ -1,0 +1,204 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 2A · A Moment to Breathe
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Arbiter in White | Arbiter in White
+N:Committee Elite | Committee Elite
+N:Committee Knight | Committee Knight
+N:Committee Mage | Committee Mage
+N:Composed Committee Member | Composed Committee Member
+N:Gunhild | Gunhild
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_1205 | Minova
+N:avg1_132 | Minova
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_145 | Otoha
+N:avg1_156 | Nazuna
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_1241 | Guardia Imperial
+N:avg3_1311 | SaiLa F
+N:avg3_1319 | Angie
+N:avg3_132 | Kaede
+N:avg3_157 | Guardia Imperial
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+N:avg4_104 | Stone on the Left
+N:avg4_105 | Stone on the Right
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | A Moment to Breathe
+0003 [Intro] | Noya is wounded by sniper fire, and your worried allies rush in to help. No. 160 reveals her abnormal power, crushing their morale. For their safety, you choose a temporary truce and agree to negotiate with Angie.
+0004 [Lugar y hora] | 14:30, Nebula Month 18th, Mirage, Main Street
+0005 [Noya] | Ugh, what's going on?==W== My waist feels warm...==W==
+0006 [Iris] | Noya—
+0007 [Amber] | Where are the snipers at?! Can't see through this thick sand!
+0008 [Iris] | Don't move! You're hit. I'll stop the bleeding.
+0009 [Noya] | Iris,==W== stay down!==W==
+0010 [Gunhild] | Well, well. Took a hit to the flank and still managed to play hero.==W== Fast reflexes, or just dumb luck?
+0011 [Gunhild] | Not that it matters. Your time is up.==W== Piercer locks onto a marked and no one escapes it. You're up next, blond Trekker.
+0012 [Angie] | No lethal shots, Gunhild. No permanent damage, either. Just take them out of the fight.
+0013 [Angie] | The Committee is here to kill the Tyrant and save this world.==W== We strike at the root. There is no need to butcher the Trekkers who were brainwashed into following ==SEX4==.
+0014 [Gunhild] | Ma'am, you sure know how to test a girl...==W== Sniping moving targets from this far out, and holding back the damage?
+0015 [Angie] | It is a tall order. But you can handle it, can't you?
+0016 [Gunhild] | Hah! Obviously. I'm the best gunner in Sentinel of Dawn. Make that the best in all of Nova! Since the blond Trekker's hit, time to switch target!
+0017 [Gunhild] | Piercer!==W== Lock on—
+0018 [Amber] | (That last shot came from wide open terrain...==W== There's zero cover out there...!==W== I have to keep moving and make myself the bait.)
+0019 [Gunhild] | Aww, look at you go, girl with black hair. Too bad you're a whole five kilometers away.
+0020 [Gunhild] | Piercer is the only weapon in Nova that can hit from this distance. You don't even know where to look.
+0021 [Gunhild] | Let's just clip that shoulder. No more guns for you.
+0022 [Committee Mage] | Urgh...==W==
+0023 [Gunhild] | A counter-snipe?! No way! Those dinky White Cat rifles don't have this kind of range!
+0024 [Committee Elite] | Ma'am! Captain! Get down!==W==
+0025 [Gunhild] | On the dunes behind us!? Dang it, when did she slip past?!==W== And the three Trekkers are gone too! They must have used the distraction to slip into the house!
+0026 [Otoha] | Sentinel kid, finding the safest cover is more important than aiming when it comes to sniping. Your inexperience is showing.
+0027 [Otoha] | Oops, I guess everyone knows my true colors now,==W== and it's all on you, Boss.==W== You'll hear from me once this is over, hehe.
+0028 [Gunhild] | Take cover! It's just one shooter! Third Company, search, spread out and flush them out! Secure the artillery!
+0029 [Committee Elite] | Yes, Captain!==W==
+0030 [Composed Committee Member] | Director. Captain Gunhild. Urgent report.
+0031 [Gunhild] | Go ahead.
+0032 [Composed Committee Member] | I intercepted a secret letter. Please take a look.
+0033 [Angie] | Stop right there. What's your company? I don't recognize you.
+0034 [Minova] | Tsk. Busted.==W== Guess I'll just let my bat do the talking!
+0035 [Gunhild] | Ugh! She hits hard!==W== Let me guess, another Trekker brainwashed by the Tyrant?==W== Did you seriously think you could waltz in here and attack us without any consequences?
+0036 [Gunhild] | Your precious Boss sent you here to die! You're just a pawn!
+0037 [Minova] | A pawn? Hah! Are you hearing yourself? What do you know about honor?==W== I back Boss because I want to. Nobody gives me orders.
+0038 [Minova] | Save the lecture for when you're eating dirt.==W==
+0039 [Gunhild] | (She's too close, I can't fire!==W== How the hell does a bat hit harder than my Piercer?!)
+0040 [Gunhild] | (I can't hold her off... Crap. I've got to get Director Angie clear!)
+0041 [Minova] | (Otoha's disguises are insane. I walked right into their lair.==W== Just gotta crush this sniper, grab the commander, and we're golden!)
+0042 [Minova] | Get out of my way!==W==
+0043 [Gunhild] | Ma'am, run!
+0044 [Angie] | That is far enough, Minova.
+0045 [Minova] | (My sleeve... What just tore through it? I didn't sense any magic at all...)
+0046 [Minova] | You know me?
+0047 [Angie] | The honors student from Platinum Academy, and the leader of the Ashwind Clan.==W== The streets under the Emor Waterway are only at peace because of you.
+0048 [Angie] | This is a Scepter of Death, wished into existence by your Boss, the very Tyrant we are hunting.
+0049 [Angie] | Leave while you still can.==W== You're a good person. We might be enemies right now, but I really don't want to kill you.
+0050 [Committee Elite] | The Tyrant's lackey! Surround her!
+0051 [Minova] | (The guards Otoha lured away are back. And that Scepter is bad news. Time to bail.)
+0052 [Minova] | You really think you grunts can box me in?!
+0053 [Committee Knight] | Form ranks!==W==
+0054 [Minova] | (Dammit. I usually swat these tin cans like flies, but they're rock solid in formation.)
+0055 [Kaede] | Miss Minova! Help's coming your way.
+0056 [Kaede] | Take this! Smoke...==W== Ahhh, how do you steer this scooter?!==W==
+0057 [Gunhild] | Ma'am. Minova and that Trekker from Petal Bloom vanished in the smoke. Should we go after them?
+0058 [Angie] | Stand down. Look up.
+0059 [Gunhild] | A bird?==W== No... That's a witch!
+0060 [Angie] | Mistique, from Scarlet Sights Media. Another ally to the Tyrant. Bound by her duties as a witch, she won't engage directly, but she is watching every move we make.
+0061 [Gunhild] | Just give the word and I'll shoot her out of the sky!
+0062 [Angie] | No. The Dusk Arbiter has already branded us heretics.==W== If we strictly target the Tyrant, we can prove our true intent is saving the world. That is how we clear our names.
+0063 [Angie] | But if we gun down a witch from the press, we validate every lie told about us. And if the entire world turns against the Salvation Committee, who will be left to protect Nova?
+0064 [Gunhild] | Ugh, what a headache. Why doesn't anyone get it?==W== Look at what happened to the Monoliths.==W== How is everyone so blind?!
+0065 [Angie] | Because Grace Imperium censored the news,==W== and because people are fragile. Burying their heads in the sand is the only way they know how to live.
+0066 [Angie] | You have one hour. Secure this artillery position, then we proceed as planned.
+0067 [Gunhild] | Understood. Consider it done.
+0068 [Gunhild] | Where're you going, ma'am?
+0069 [Angie] | I'm heading to Daisy Orphanage.==W== I need to see the Tyrant one last time.
+0070 [Lugar y hora] | 14:35, Nebula Month 18th, Mirage, Unnamed Street
+0071 [Nazuna] | Boss, that building up ahead is Daisy Orphanage, right?
+0072 [Tú] | Yeah.==W== I just hope Noya's team is holding up. Seven people against an entire squad of Sentinels and Knights is a massive gamble.
+0073 [Allie] | Boss... I really should have stayed behind to help them.
+0074 [Tú] | No, Iris made the right call.==W== The kids come first.==W== With all this chaos outside, they must be terrified. You are the only one who can calm them down.
+0075 [Allie] | You're right. I'll trust you.==W== Sigh... Leaving my own kids behind to fight. I am such a failure of a mother.
+0076 [Arbiter in White] | Blame yourselves for siding with the Tyrant who is going to end this world.
+0077 [Fuyuka] | Master, someone is blocking the path ahead.
+0078 [Tú] | That is the Arbiter from earlier. But why is she alone?
+0079 [Arbiter in White] | Hello there!==W== I am Arbiter No. 160 of the Dusk Arbiter.==W== I also command a company with the Salvation Committee.
+0080 [Arbiter in White] | Your friends are incredibly tough. They completely pinned down my subordinates.==W== Which means the job of capturing the Tyrant falls entirely on my shoulders.
+0081 [No. 160] | So... Little girls with white and green hair, and lady with pink... Mind stepping aside? I just want to sever the tendons in the Tyrant's limbs.
+0082 [No. 160] | Do not worry. I only want the Tyrant. I absolutely, positively will not leave a single scratch on any of you.
+0083 [Fuyuka] | I-I will not let you touch Master!==W==
+0084 [Nazuna] | Wait, that actually hit?
+0085 [No. 160] | Ugh... My stomach... It hurts...
+0086 [Fuyuka] | I-I'm sorry. ==W==I-I am so sorry! Are you okay? I thought you would dodge! It should be easy to dodge that!
+0087 [Nazuna] | She's so weak.==W== There's no need to apologize, Fuyuka. She brought this on herself. Let's go.
+0088 [No. 160] | Brought it on myself...==W== Hehehe... You are absolutely right! I totally did!==W== The feeling of my organs rupturing... Ugh!==W== It hurts so much, but I absolutely love it!
+0089 [No. 160] | Please! Give me more pain! More fear!
+0090 [Nazuna] | Y-You psycho! Stay back!
+0091 [No. 160] | Gasp... A crossbow bolt tearing through skin... Flesh getting pierced...==W== Little white-haired girl, keep punching my stomach! That heavy thud against my guts is the absolute best feeling in the world!
+0092 [No. 160] | Hehe, this pain is familiar...==W== Oh, I think ... I am almost there!
+0093 [Nazuna] | E-Ew!==W== Fuyuka, let's just knock her out!
+0094 [Allie] | Nazuna, Fuyuka, stay back! Something is wrong. She is giving off a massive aura of magic!==W==
+0095 [Narración] | It hurts... It hurts so bad... The feeling is here!
+0096 [Narración] | _NOT_IN_LOG_==Off== It hurts, it hurts, it hurts, it hurts, it hurts! I am scared, I am scared, I am scared!
+0097 [Narración] | I am sorry, it is all my fault! I will do anything, just please stop hitting me!
+0098 [Narración] | Oh God of Grace, if you truly exist...
+0099 [Narración] | Please stop the clock! Make it stop!
+0100 [Tú] | Nazuna? Fuyuka? Allie? What's wrong?
+0101 [Tú] | This is ... paralysis spell? No... Even the dust in the air is frozen completely still.
+0102 [Tú] | Did she just ... stop time? That is impossible!
+0103 [No. 160] | Oh?==W== You can actually move inside my Pause.==W== Lady Angie was right. You have a very special constitution. Magic really does not work on you.
+0104 [No. 160] | Your subordinates aren't so lucky, though.==W== I am going to show them that sometimes, death is an absolute luxury.
+0105 [Tú] | The magic... It broke?
+0106 [Tú] | Nazuna? Fuyuka? Allie? What's wrong? Are you alright?
+0107 [Fuyuka] | Sobbing... What do I do... Master... Master, say something!
+0108 [Fuyuka] | It is my fault... I.. I lost control again. I hit you!
+0109 [Tú] | Fuyuka, what are you talking about?==W== I am right here!
+0110 [Narración] | These hands... They ruin everything. I-I should cut them off. If I cut them off, I can't hurt anyone ever again.
+0111 [Narración] | Nazuna... Help me. Please, chop off my hands!
+0112 [Nazuna] | Fuyuka, don't say that!
+0113 [Tú] | Nazuna, grab her! She is under a spell!
+0114 [Nazuna] | No, it's my fault.
+0115 [Nazuna] | If I hadn't lost my temper, Boss and Nazuka wouldn't have gone after those monsters alone. They wouldn't have disappeared.
+0116 [Narración] | I wish I didn't have this stupid mouth.
+0117 [Narración] | Right, I should shoot myself in it .
+0118 [Narración] | Use my crossbow—
+0119 [Tú] | Nazuna, stop!
+0120 [No. 160] | Hehehe... Hahahaha!==W== You can't wake them up, Tyrant.
+0121 [No. 160] | They are infected with my Scars.==W== They are trapped in their absolute worst nightmares... Completely helpless.==W== They can do nothing but cry and hurt themselves.
+0122 [No. 160] | Fear is the sweetest poison. You just drown in it.==W== Someone as blindly happy as you could never understand, Tyrant.
+0123 [No. 160] | Anyway, time to drag you back to Lady Angie.==W== I wonder if this prize is enough for her to pierce my body with a Scepter of Death.
+0124 [Allie] | Kids...? Why aren't you saying anything?
+0125 [No. 160] | Oh? The pink-haired lady can still stand? Hehe, guess the Scars I gave you weren't deep enough. Let's add one more.
+0126 [Allie] | You're holding a ... knife?
+0127 [Narración] | I see... You are the one who murdered my kids.
+0128 [No. 160] | What... How are you fighting back?! No one escapes my web of fear!
+0129 [Allie] | I understand now, I do. It is because I failed to protect them. I am a terrible mother who does not deserve to live.
+0130 [No. 160] | Yes! Exactly! Hate yourself! Go on, end your own life! Lady Angie forbade me from killing you, but if you kill yourself, she can't blame me.
+0131 [Allie] | I absolutely should die. But not before I do this one thing.
+0132 [No. 160] | Wh-What is it...?
+0133 [Allie] | How dare you do this to my kids… I'll grind every last one of you to dust!
+0134 [No. 160] | E... Eek...
+0135 [Allie] | My kids… It was this hand that hurt them, wasn't it?
+0136 [No. 160] | Sh-==W==she's got me...!
+0137 [Allie] | Do you know? If you grip the hand and arm, then twist the bones like wringing out a towel…
+0138 [Allie] | A lot of vivid "paint" comes pouring out...
+0139 [Narración] | Aaaahhhhh!!!!
+0140 [Allie] | Is that all you can take?
+0141 [No. 160] | God of Grace, please stop the...
+0142 [Allie] | Trying to say your last words? Apologies, but I have zero interest in hearing my kids' murderer talk.
+0143 [Allie] | I will just crush your throat instead.
+0144 [Allie] | An attack ... with no magic?
+0145 [Angie] | Forgive the intrusion, Director Allie. But I cannot stand by and let you kill my subordinate. I don't want to see you drown in this madness either.
+0146 [No. 160] | Lady Angie... I-I am sorry. I couldn't catch the Tyrant.
+0147 [Angie] | Sleep, No. 160. You did your job.
+0148 [Fuyuka] | Master...?==W== Wait, what was I doing?
+0149 [Nazuna] | Boss...? You are right here. Wh-Why was I in such pain just now?==W== Ugh, my head! Why was I thinking those thoughts?!
+0150 [Tú] | No. 160 passed out. The spell is broken.
+0151 [Allie] | My kids, I've let you down...
+0152 [1] | Allie!
+0153 [Tú] | That state... It was exactly like that erased future I saw in the White Room.
+0154 [Tú] | No. 160 must have made her hallucinate the kids dying. But she severely underestimated what a vengeful mother is capable of.
+0155 [Angie] | It's Boss.
+0156 [Fuyuka] | Serena senpai... No, it should be Angie now... Petal Bloom and I may be in your debt,==W== but I-I'll die before I let you lay a finger on Master!
+0157 [Nazuna] | We're now enemies on a battlefield. Let's test it. Your Scepter of Death against my crossbow.
+0158 [Angie] | Heh. Chill. Tyrant, your allies are impressive. They survived a direct ambush from the Salvation Committee and even mounted a counterattack.
+0159 [Angie] | I truly do not want to hurt them. Saving this world does require all the strength we can muster.
+0160 [Angie] | So, Tyrant... Let's negotiate.
+0161 [Angie] | If you accept, the Salvation Committee will call a truce before we negotiate.
+0162 [Tú] | A truce... Fuyuka, Nazuna, and Allie have just barely survived No. 160's magic.
+0163 [Tú] | Noya's status is unclear, and we need to buy time to move the Daisy Orphanage's kids. In that case...
+0164 [Opción] | Alright. I accept.
+0165 [Angie] | Hehe. I knew you'd make the right choice.
+0166 [Angie] | You have two hours. I will be waiting here, Tyrant.

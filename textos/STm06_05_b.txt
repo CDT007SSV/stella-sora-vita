@@ -1,0 +1,137 @@
+# Capítulo 6 · Milagro de un destello · 5 · The Fall
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Aila | Aila
+N:Elite Soldier | Elite Soldier
+N:Nia | Nia
+N:United Harvest Messenger | United Harvest Messenger
+N:avg1_110 | Firenze
+N:avg1_133 | Nazuka
+N:avg1_135 | Mistique
+N:avg1_156 | Nazuna
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_108 | Cosson
+N:avg3_120 | United Harvest Forester
+N:avg3_121 | Empleado de Cosecha Unida
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_1262 | United Harvest Forester
+N:avg3_132 | Kaede
+N:avg3_134 | Mina
+N:avg3_167 | Chica
+N:avg3_168 | Chica
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | The Fall
+0003 [Intro] | Mistique gets shot by the legion over the camp; Nazuka negotiates for her medical aid. Meanwhile, Darcia reports Gen-3 Intelligent Plant progress, revealing she's imprisoned Nyx as their power source.
+0004 [Lugar y hora] | 07:10, Messis Month 5th, Silver District, Philae, Mina's Home
+0005 [Mina] | Nia, Aila, watch the house for me. I'm heading to work.
+0006 [Nia] | Huh? Why? Aren't you off today?
+0007 [Mina] | That's the thing...==W== This sudden staff holiday doesn't sit right with me, so I'm checking in.
+0008 [Mina] | Those guests from the other day are still new. As their senior, I gotta set a good example, right?
+0009 [Aila] | Hup! Here.
+0010 [Mina] | ... A sandwich?==W== You make this, Aila?
+0011 [Aila] | Nia and I made it while you were napping. Promise you'll eat, okay?
+0012 [Mina] | I promise. Off I go.
+0013 [Mina] | Mistique... Total silence since she talked to ==PLAYER_NAME==.==W== Should I ask ==PLAYER_NAME== if she's called back?
+0014 [Mina] | Then again, ==PLAYER_NAME== must be swamped...==W== Don't want to be a pest by bugging ==SEX4==...
+0015 [Mina] | Huh? Mistique!
+0016 [Mina] | Mistique? Where are you? You okay? Why haven't you been picking up?
+0017 [Mistique] | Whoa, easy. Keep it down, will ya?
+0018 [Mistique] | Spent all night racing some weird bird. We flew way outside the Philae Monolith's range. Obviously I wouldn't get your calls.
+0019 [Mistique] | Heheh, what's with the panic?==W== Aww, were you actually worried about me, Mina?
+0020 [Mina] | Obvious, isn't it?! I told you: Witch or not, you're still an employee here. Plus, you're my junior.
+0021 [Mistique] | Alright, alright. I'm right over the Trekker Camp.==W== Be back in a flash.
+0022 [Mistique] | Catch any big scoops in the city while I was gone?
+0023 [Mina] | Lady Darcia summoned ==PLAYER_NAME==. They were locked in a meeting all night. Looked like serious business.
+0024 [Mistique] | Ooh. A sit-down between the Branch CEO and the Boss? Now that is news.
+0025 [Mina] | Also, got a memo this morning. Whole company's off. Paid leave.
+0026 [Mistique] | P-Paid leave? From United Harvest?==W== That's the story of the century! Philae really is my lucky spot.
+0027 [Mistique] | Wait a sec... What's up with the Trekker Camp? Those guys aren't dressed like Trekkers.
+0028 [Mistique] | Whoa, hey! Hold your fire! I'm just a harmless witch!
+0029 [Mistique] | Gah—! I'm hit!
+0030 [Mina] | What happened? Mistique, answer me! Mistique!
+0031 [Lugar y hora] | 07:15, Messis Month 5th, Outside Philae, Trekker Camp
+0032 [1] | United Harvest HQ has troops at the Trekker Camp?
+0033 [Nazuka] | Yes. They're here to make a move on Darcia.
+0034 [Narración] | Twenty minutes ago, I got through to Nazuka.
+0035 [Narración] | Last night, HQ legions marched on Philae. They commandeered the Trekker Camp, drove everyone out to neighboring cities, and cut comms.
+0036 [Narración] | Mid-transport, she heard her phone ring.==W== Realizing it was me, she slipped her guards with Nazuna and Kaede, doubling back to mount a rescue.
+0037 [Nazuka] | Boss, Philae's becoming a warzone. Where are they holding you? I'm coming to get you.
+0038 [1] | Don't. The city's swarming with Intelligent Plants and soldiers. It's too dangerous.
+0039 [Nazuka] | Remember my wish beneath the Monolith?==W== I wished for you to stay by my side. Always.
+0040 [Nazuka] | So spare me the warnings about danger. I don't care. I just want to see you. Now.
+0041 [Nazuna] | Nazuka! The sky! Look up!
+0042 [Mistique] | Can't believe the broom snapped...==W== But a witch doesn't quit. I'm not going down like this...
+0043 [Kaede] | It's that witch who helped us.
+0044 [Nazuka] | Boss, hang on a minute.
+0045 [Nazuka] | Mistique, stay with me!
+0046 [Mistique] | Nazuka...?==W== Heh... Guess Philae's my lucky spot after all...
+0047 [Nazuna] | She's out cold! The wounds look bad...==W== If she doesn't get treatment, fast...
+0048 [Kaede] | There are meds at the Trekker Camp...==W== But the army's seized it.
+0049 [Elite Soldier] | Contact! Hostiles spotted!
+0050 [Elite Soldier] | Weapons down! We know you're Darcia's spies!
+0051 [Nazuna] | What? We're not with Darcia! We're local Trekkers!
+0052 [Cosson] | Local Trekkers, you say?
+0053 [Elite Soldier] | Commander Cosson! That witch was circling the camp. Definitely scouting us.
+0054 [Elite Soldier] | We shot her down, and these "Trekkers" rushed to save her. They're in league together.
+0055 [Nazuka] | Commander Cosson...==W== I assume you're the leader here? I'd like to negotiate on behalf of my company.
+0056 [Nazuka] | Boss, I can't believe it. Her entire attitude shifts the moment you show her that seal.
+0057 [Tú] | That's what the Seal of Grace represents—==W==the real authority a company has.
+0058 [Nazuka] | Back then... The Boss used the Seal to get United Harvest's respect. Right now, that identity is my only card.
+0059 [Cosson] | I am Cosson of the Senate, Commander of the 3rd Legion. And which company, pray tell, do you represent?
+0060 [Nazuka] | The Boss Accord. We're all employees. And this witch interviewed our CEO personally.
+0061 [Cosson] | The Boss Accord... That company that just reopened in Emor recently?==W== I've heard rumors. State your business here.
+0062 [Nazuka] | Our CEO is trapped in Philae. We're on an extraction mission.==W== This witch was scouting the perimeter when your men shot her down.
+0063 [Cosson] | Hmm. I can't verify that...==W== But infringing on rights based on guesswork is hardly elegant. Very well. I'll take you at your word. Apologies for the discourtesy.
+0064 [Cosson] | However,==W== the outskirts are now a warzone. For your safety, you'll remain under our protection until hostilities cease. I trust you understand.
+0065 [Cosson] | You there. Escort our guests to the old Trekker Association. And get a medic for the witch immediately.
+0066 [Elite Soldier] | Yes!
+0067 [Lugar y hora] | 08:00, Messis Month 5th, Gold District, Philae, VIP Reception Room
+0068 [Nazuka] | Sorry, Boss. Even the Boss Accord title didn't work. We're still stuck here.
+0069 [1] | Don't blame yourself. You made the right call. Besides, it doesn't look like these people mean us any harm.
+0070 [1] | How's Mistique?
+0071 [Kaede] | The doctor treated her, said she's out of danger, but ... she hasn't woken up yet.
+0072 [Tú] | Please, keep an eye on her for me while I'm gone.
+0073 [Nazuna] | Boss, seriously, what is going on? I don't get this war at all.==W== Why is United Harvest fighting itself? And why did Mistique and the Trekker Camp have to get dragged into it?
+0074 [1] | In a way, this is all on me.
+0075 [1] | Sorry, something's come up here. I'll have to call you back.
+0076 [United Harvest Messenger] | ==SEX12== Tyrant, Lady Firenze. The Intelligent Plant upgrade is commencing. Lady Darcia requests your presence to witness it.
+0077 [Firenze] | An upgrade? Aren't we already on the second generation of Intelligent Plants?
+0078 [United Harvest Messenger] | I am not privy to the details. Please, follow me.
+0079 [Lugar y hora] | 08:20, Messis Month 5th, Greenhouse District in Philae, Underground Lab
+0080 [Darcia] | ==SEX12== Tyrant. Welcome to my laboratory.
+0081 [Firenze] | ...
+0082 [Tú] | What's wrong with Firenze? She's seemed so distant since she saw the sky.
+0083 [Darcia] | Thanks to Your Majesty, the third generation is ready.==W== These new plants are far deadlier—a single unit can now go toe-to-toe with a veteran Trekker.
+0084 [Tú] | Mass-producing soldiers that strong... Is that even possible?
+0085 [Tú] | How is she going to achieve that?
+0086 [Darcia] | Right this way, ==SEX12== Tyrant. The core of the project lies just ahead.
+0087 [Narración] | We reach the lab's deepest chamber. Empty cultivation tanks line the metal floor, radiating an eerie, sterile chill.
+0088 [Tú] | Darcia, what are these tanks for?
+0089 [Darcia] | Your Majesty. These tanks hold "Psychic Fluid," a compound I synthesized using the Neo Solution.
+0090 [Darcia] | Its magical properties allow any subject submerged within to form a partial mental link.
+0091 [Tú] | A partial mental link... What's that got to do with the Intelligent Plants?
+0092 [Darcia] | Your Majesty, observe that massive Lithe Grass. United Harvest found that monster in the southern rainforests. It is the progenitor—the Mother—of all Intelligent Plants.
+0093 [Darcia] | Through selective breeding, I created the Mandrake Radiant Grass from her offspring—a strain capable of following simple orders.
+0094 [Darcia] | But a monster is still a monster. They can't master complex tools, let alone speak. Sometimes, we can't even control their basic movements.
+0095 [Darcia] | Such inferior creatures are unfit to serve in the Tyrant's army.
+0096 [Darcia] | I refused to accept failure. I attempted countless modifications, yet every single one ended in disappointment.
+0097 [Darcia] | Just as I hit a dead end, I acquired your Bishop piece from the Garden of Parasite.
+0098 [Tú] | I see... So this is "that thing" Claire mentioned. Though...==W== I wouldn't exactly call that piece mine.
+0099 [Darcia] | Of course it belongs to you. I merely borrowed it.
+0100 [Darcia] | You've likely deduced its power:==W== transferring human minds and memories. Simply put, placing it in a tank of Psychic Fluid links the subject's consciousness to the network.
+0101 [Darcia] | We feed that data to the Mother, who transmits it to every Gen-2 Intelligent Plant in Philae. A true evolution.
+0102 [Firenze] | Lady Darcia, are you saying...
+0103 [Darcia] | As long as we use humans as nutrients in these tanks, the plants can absorb their skills and experience.
+0104 [Darcia] | Behold, ==SEX12== Tyrant. The key nutrient for this upgrade is right here.
+0105 [Narración] | The curtain behind Darcia slowly retracts. A familiar face floats in the orange Psychic Fluid, sleeping peacefully.
+0106 [Tú] | Is that...
+0107 [Firenze] | Nyx!
+0108 [Darcia] | Heheh... See, Firenze? This is the fate of the person who put your father on trial.
+0109 [Darcia] | Savor it. This is the taste of true revenge.

@@ -1,0 +1,142 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 4A · Wise in the Fries
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Committee Members | Committee Members
+N:Dejected Committee Member | Dejected Committee Member
+N:Quiet Committee Member | Quiet Committee Member
+N:Sand-Wielding Sentinel | Sand-Wielding Sentinel
+N:Wind-Wielding Sentinel | Wind-Wielding Sentinel
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_136 | Angie
+N:avg1_150 | Laru
+N:avg1_163 | Greyhorn
+N:avg1_1996 | Noya
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_1306 | Sentinel of Dawn Soldier M
+N:avg3_1325 | Mirage Resident A (F)
+N:avg3_1326 | Mirage Resident B (F)
+N:avg3_152 | Bastelina
+N:avg3_157 | Guardia Imperial
+N:avg3_217 | No. 160
+N:avg3_219 | Mirage Resident
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Wise in the Fries
+0003 [Intro] | A little earlier. Laru helps the New Star Guild escape the mines in disguise. Greyhorn notices but lets them go, since you alone are the target. Bastelina then passes you key intel on No. 160 in a box of fries.
+0004 [Lugar y hora] | 14:50, Nebula Month 18th, Mirage, Unnamed Street
+0005 [Noya] | Huff... Huff...==W== Amber... Is that sniper still on us?
+0006 [Amber] | No eyes on us. I think we lost her.
+0007 [Iris] | Noya, you're bleeding again!
+0008 [Noya] | Ugh... Must've torn it open again when we made a run for it.
+0009 [Iris] | I'm sorry. You wouldn't have gotten shot if you hadn't covered me.
+0010 [Noya] | Don't say that, Iris. I was already hit.==W== If you went down too, Amber couldn't have dragged us both out of there.
+0011 [Noya] | Hehe, mind patching me up one more time? Oh, and help me scrub the blood off these clothes.
+0012 [Noya] | We can't let ==PLAYER_NAME== see this. ==SEX1=='ll worry sick and bench me.
+0013 [Iris] | Noya, you absolutely belong on the bench right now!==W==
+0014 [Noya] | Relax, I'm tough!==W== A little scratch won't stop me from swinging a sword. Watch!
+0015 [Noya] | Ow, ow, ow!==W== Okay... Maybe it stings a little.
+0016 [Iris] | Stop pushing yourself, Noya.==W== You're trying way too hard today... It's not like you.
+0017 [Noya] | I-I am?
+0018 [Amber] | Normally, you'd be the one saying it: if you're hurt, you rest.
+0019 [Noya] | Would I...?==W== Yeah, okay, I totally would.
+0020 [Noya] | But this time is different. It really is.
+0021 [Iris] | Different how?==W== Being trapped in Mirage by the Salvation Committee is our biggest crisis yet, sure,==W== but it's not like we have to beat them.
+0022 [Iris] | If we only need to escape, Boss will figure something out.
+0023 [Amber] | Don't panic, Noya. Even Iris isn't panicking yet.
+0024 [Noya] | It's not panic. It's my gut feeling.
+0025 [Noya] | You know my gut is never wrong. And this time just feels ...==W== different. I've only ever felt like this once before.
+0026 [Amber] | Shh. Keep your voice down.==W== The Salvation Committee up ahead.
+0027 [Iris] | It's the Imperial Guards that were trapped by Nazuna and Fuyuka in the mines! We need to turn back!
+0028 [Iris] | Oh no... The Committee is blocking this way too...
+0029 [Amber] | I'll silence them.
+0030 [Laru] | Silence who?!==W== Wait, huge misunderstanding! I'm with Boss too!
+0031 [Noya] | You're ... with Boss?
+0032 [Laru] | No time to explain!==W== Put these on and get behind me.==W==
+0033 [Lugar y hora] | 14:55, Nebula Month 18th, Mirage, Unnamed Street
+0034 [Laru] | Captain Greyhorn! And the brave souls of the First Company!==W== You must be exhausted hunting the Tyrant. Please, enjoy these special ice cream fries courtesy of Logistics!
+0035 [Dejected Committee Member] | We got pinned down in a mine by two measly Trekkers... Who has the appetite for fries?!
+0036 [Quiet Committee Member] | It's a disgrace. A stain on the Committee.
+0037 [Wind-Wielding Sentinel] | I'm sorry, that was my fault. The Tyrant's people hijacked my winds, and I didn't even notice. It's humiliating.
+0038 [Sand-Wielding Sentinel] | Same here. My scouting spell locked onto the wrong targets and dragged us all down.
+0039 [Greyhorn] | Drop it. Wins and losses are part of war.
+0040 [Greyhorn] | We took a beating in those mines, but the Committee still holds the advantage here.
+0041 [Greyhorn] | Stick to Director Angie's deployment plan, and we'll capture the Tyrant!
+0042 [Greyhorn] | Now, don't let Logistics' hard work go to waste. Eat up. We need the calories and salt.
+0043 [Committee Members] | Yes, Captain!
+0044 [Greyhorn] | Thanks for the rations, Laru. Pass my regards to your team.==W== Morale would be in the dirt without you.
+0045 [Laru] | You're too kind, Captain! Just doing our jobs.
+0046 [Greyhorn] | Hm?==W== Who are they?
+0047 [Laru] | Oh, them! The ice cream melts way too fast out of the cooler. I needed extra hands plating everything so you guys could enjoy the perfect fries!
+0048 [Laru] | So I hired a few locals to help out.
+0049 [Greyhorn] | I see. Mirage locals.
+0050 [Greyhorn] | (What a sloppy disguise. One of them even reeks of blood. Going by Gunhild's latest report...==W== These must be ==PLAYER_NAME=='s Trekker companions, and they're injured.)
+0051 [Greyhorn] | (Then again, I'm not with the Committee. I don't buy their rhetoric about saving the world for a second. I'm only here on the Grand Captain's orders.)
+0052 [Greyhorn] | (Director Angie ordered us to only target the Tyrant. I have no reason to harass these Trekkers. What they did with ==PLAYER_NAME== in Philae was an act of justice. Arresting them now violates my honor as a knight.)
+0053 [Greyhorn] | I'm full. Thanks for the food.
+0054 [Greyhorn] | Everyone! Fall in. Move out.
+0055 [Committee Members] | Yes, Captain!
+0056 [Laru] | Phew... That was close.
+0057 [Iris] | Thank you for covering for us.==W== You're Ms. Laru from the Sky Institute, right?
+0058 [Laru] | Ms? Save that for Albedo. It makes me sound ancient.
+0059 [Laru] | Call me the Fry Girl! Running into you three here must be the will of the Goddess of Fries!
+0060 [Iris] | Huh? Is this the time to talk about fries?!==W== We need to get out of here!
+0061 [Laru] | Never underestimate the fry!==W== Especially when it is perfectly coated in ice cream!
+0062 [Laru] | Lick...
+0063 [Laru] | Mmm! This is so good I could pass out~~!==W==
+0064 [Noya] | Is it that good?==W== Let me try.
+0065 [Noya] | Whoa... This is amazing!
+0066 [Amber] | Cold. Delicious.
+0067 [Iris] | Why are you all eating?!==W== Noya, you're hurt! Drop the junk food!
+0068 [Noya] | One bite won't kill me! Here, Iris, try it...==W== Wait.
+0069 [Iris] | What is it, Noya?
+0070 [Noya] | The Fry Girl... She vanished.
+0071 [Lugar y hora] | 15:40, Nebula Month 18th, Mirage, The Daisy Orphanage
+0072 [Noya] | So that is what happened.==W== That Grace Imperium lady called herself the Fry Girl,==W== but honestly? Fry Weirdo fits way better.
+0073 [Noya] | But she's definitely on our side. After we finished the fries she sent us, we found a message written all over the inside of the boxes.
+0074 [Noya] | She even protected the ink from grease with rice paper.
+0075 [Tú] | No, she must have intended not to let the ink ruin her fries. Priorities.
+0076 [Narración] | Three flattened fry boxes sit on the table before me. The cardboard is packed with neat handwriting detailing troop counts, defensive layout, and key personnel.
+0077 [Narración] | At the very bottom sits a tiny signature: Bastelina.
+0078 [Tú] | This is what Bastelina and Laru gathered when they went undercover in the Committee.
+0079 [Tú] | It says ...==W== they got their phones confiscated and lost their contacts. They couldn't reach Albedo, so they smuggled this to us instead. They want us to make it out alive.
+0080 [Tú] | We already figured some of this out... The three divisions, the elite sniper with Angie, the artillery camp outside the city.
+0081 [Tú] | But there's still a ton of solid intel here. Take this one...
+0082 [Narración] | Greyhorn. A Knight Commander of the Imperial Guard. She is not a Committee member. She is only assisting Director Angie on orders from a superior.==P== She gives it her all in battles, but she will not needlessly pursue you or your allies.
+0083 [Tú] | And this part...
+0084 [Narración] | No. 160, one of the Dusk Arbiters. She seemingly experienced severe childhood trauma and carries deep psychological scars.==P== She displays masochistic tendencies, but this is merely a trigger. She uses pain to recall her trauma, which freezes time itself all around her.==P== But this magic doesn't actually stop time. It just forcibly uses magic power to restrict the movement of anything within a certain range around her that she can see.
+0085 [Narración] | The more pain and fear she endures, the further and longer she can freeze everything around her.==P== She's not much of a fighter physically, but that dagger of hers is the real threat. A single cut plants "Fear" in her victims, forcing them to confront their worst nightmares, leaving them defenseless.==P== Additionally, No. 160 is a former inter-city operator. She can intercept Heartlink comms within a certain radius. Please use your phones cautiously.
+0086 [Tú] | So her magic really is stopping time. The more she suffers, the longer it lasts... That explains why she took Fuyuka's punch on purpose.
+0087 [Tú] | Firenze is right to be cautious. Someone in the Salvation Committee really can tap into our Heartlinks. If Nazuka and Chitose give away their location, they won't be able to swoop in and bail us out.
+0088 [Tú] | Hmm, there's more...
+0089 [Narración] | Director Angie is an amateur.==P== She lacks both tactical and magical expertise.==P====W== However, she commands loyalty from the Committee because she will sacrifice absolutely anything to save the world, which means killing you.
+0090 [Narración] | Please be extremely careful.
+0091 [Tú] | Sacrifice anything to kill me, huh?==W== Why is she so convinced the Tyrant will end the world?==W== I wonder if I can drag some answers out of her during the negotiations.
+0092 [Tú] | Anyway, this intel is huge. You did great.==W== Once we clear this mess, we owe Bastelina and Laru big time.
+0093 [Noya] | Hehe. See? Taking a hit had its perks.
+0094 [Tú] | Whoa, Noya, personal space! Your nose is practically touching mine.
+0095 [Tú] | And don't say that. There is zero perk to getting hurt. Just looking at that gash makes me wince.
+0096 [Tú] | If you mean the intel, Laru and Bastelina would've found a way to deliver it even if you were fine.
+0097 [Noya] | I wasn't talking about the intel.
+0098 [Noya] | It's been so, so long since I could just watch your profile while you're hard at work.
+0099 [Tú] | Wh-What's so great about my profile?
+0100 [Noya] | I don't know. I just like looking at it.
+0101 [Opción] | Sit next to Noya
+0102 [Tú] | Here. Stare all you want. Special treatment for the patient.
+0103 [Noya] | Ah! If you sit right next to me, my angles are all messed up!==W== No, no, the whole vibe is gone!
+0104 [Tú] | Pfft...==W== You're sentimental today.==W== Iris was right. You're not acting like yourself at all.
+0105 [Tú] | Usually, if you wanted to stare, you'd just tackle me and press your face right against mine.
+0106 [Noya] | Hey! Stop making me sound like a puppy greeting its owner!
+0107 [Noya] | Sigh... It's all because of this awful gut feeling. It's making me anxious.
+0108 [Tú] | Huh? The overwhelmingly cheerful Noya is anxious?
+0109 [Tú] | What is this gut feeling telling you?
+0110 [Noya] | ...==W== Ever since we left the White Cat's secret room... I've had this heavy premonition...
+0111 [Narración] | That today ... is the day you leave us.

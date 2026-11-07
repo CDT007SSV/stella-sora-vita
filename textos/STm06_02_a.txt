@@ -1,0 +1,154 @@
+# Capítulo 6 · Milagro de un destello · 2A · To Bargain with a Tiger
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Elite Soldier | Elite Soldier
+N:Fallen Soldier | Fallen Soldier
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_134 | Fuyuka
+N:avg1_135 | Mistique
+N:avg1_138 | Nyx
+N:avg2_957 | Weed Shooter
+N:avg2_958 | Weed Brawler
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_134 | Mina
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | To Bargain with a Tiger
+0003 [Intro] | You feign cooperation with Darcia to extract more information, but find yourself under house arrest. Meanwhile, the anonymous source who once fed you intel has cut all contact...
+0004 [Lugar y hora] | 01:30, Messis Month 5th, Gold District in Philae, Executive Office
+0005 [Narración] | After Darcia pledged her loyalty, she summoned my companions to her office and explained how I had come to be elevated as the Tyrant.
+0006 [Mina] | Lady Darcia, what are you talking about? B-Boss is your master?
+0007 [Darcia] | No. Do not insult ==SEX2== Majesty with that shallow, false name. ==SEX2== true honorific is Tyrant.
+0008 [Noya] | The Boss from Boss Accord ... is the legendary Tyrant? Uh... I'm kind of lost here...
+0009 [Tú] | That's just Darcia's side of the story.
+0010 [Amber] | Boss, working your magic again
+0011 [Amber] | 
+0012 [Amber] | How did you get Darcia so obsessed with you? She's acting like she'd do anything you ask her to.
+0013 [Tú] | Don't phrase it like that! She just ... stubbornly believes I'm the Tyrant she worships.
+0014 [Amber] | 
+0015 [Amber] | Got it. If a starving stray cat thinks you have food, it follows you around and waits to be fed.
+0016 [Amber] | So Darcia's basically the same?
+0017 [Tú] | That's not it at all! She's the Executive Director of United Harvest's Philae Branch—what could she possibly lack?
+0018 [Tú] | Anyway, let me keep her calm for now to see if I can get any information about the orphanage out of her, then we'll find a chance to escape.
+0019 [Amber] | Routes out of United Harvest and Philae City are already scouted.
+0020 [Tú] | Having you around really helps, Amber.
+0021 [Amber] | 
+0022 [Nyx] | Lady Darcia—"servant of the Tyrant"?
+0023 [Nyx] | As the Executive Director of the Philae Branch, do you have any idea what you're saying?
+0024 [Darcia] | Heh. Nyx... You truly don't understand.
+0025 [Darcia] | Everyone in United Harvest—me as Executive, Firenze as Director of Operations, you as an officer sent by HQ... Even the clerks in shops and the workers in the fields. Aren't we all servants of the Senate?
+0026 [Darcia] | If that's the case... Abandoning that vermin of a senate and pledging myself to the Tyrant instead, isn't that only natural?
+0027 [Nyx] | Darcia. You've gone insane.
+0028 [Firenze] | Nyx, where are you going?
+0029 [Nyx] | To report this to HQ. Why? Are you going to stop me?
+0030 [Darcia] | Firenze. Let her.
+0031 [Firenze] | Understood.
+0032 [Tú] | Darcia, I have a question.
+0033 [Darcia] | Your Majesty, you don't have to worry. Nyx can't escape the company.==W== The Gen-2 Intelligent Plants have every corner of the company covered.
+0034 [Tú] | Can't escape huh? So she has thought of everything. Looks like agreeing to her terms first was the right call. I shall play along.
+0035 [Tú] | That's not what I meant. When you mentioned abandoning that vermin of a senate...
+0036 [Darcia] | Yes, I meant that... It's simply a natural progression.
+0037 [Darcia] | Even comparing Your Majesty with those creatures was itself an act of major disrespect.
+0038 [Tú] | Are you planning to split the Philae Branch from United Harvest? Since you've already secured a Seal of Grace.
+0039 [Darcia] | I never considered that. Hmm... Perhaps you should decide the Philae Branch's future now, Your Majesty?
+0040 [Tú] | I walked right into that.
+0041 [Tú] | Still... Maybe I can turn this into something good.
+0042 [Opción] | Then we shall raise wages. More leaves for everyone too.
+0043 [Tú] | If the Gen-2 Intelligent Plants can replace heavy labor on farms and production lines, let them. But no layoffs.
+0044 [Tú] | This company was built on collective effort. Don't reduce it to cost and profit alone.
+0045 [Darcia] | Understood. Your Majesty's plan is truly brilliant. Now everyone at the Philae Branch will be grateful to you, ==SEX12== Tyrant.
+0046 [Tú] | Darcia is extremely respectful to me… Her loyalty … doesn't seem fake too.
+0047 [Darcia] | What about Joseph and Lady Gray? They're currently detained in the interrogation room in the Ash District for offending you.==W== I recommend execution for this unforgivable act, Your Majesty.
+0048 [Tú] | Keep them locked up. There's no need to rush.
+0049 [Tú] | Executing them now would complicate the Intelligent Plant project, wouldn't it? Think about the mercenaries...
+0050 [Darcia] | You're right. But offending Your Majesty is a capital crime.
+0051 [Darcia] | And their knowledge and experience have long been yours anyway.
+0052 [Tú] | Is that a metaphor ... or does she mean it in a literal sense?
+0053 [Tú] | Hmm... We'll come back to that. Now that the United Harvest matter is settled, I should ask about the orphanage.
+0054 [Tú] | One more thing—what exactly happened with the Ash Orphanage in Emor? Where did Aunt Allie and the children go? How did the orphanage end up with that debt?
+0055 [Darcia] | Firenze. You explain. You were the one handling it.
+0056 [Firenze] | Yes.
+0057 [Firenze] | Two summers ago, acting on Lady Darcia's orders, I went to Emor.
+0058 [Narración] | Monolith Calendar Year 994
+0059 [Lugar y hora] | 23:00, Tonitrua Month 14th, Ash District in Emor, Near the Orphanage
+0060 [Elite Soldier] | Lady Firenze, it has been over an hour, but our scout squad has not returned. It doesn't look good.
+0061 [Elite Soldier] | Our intel showed that the orphanage only had a matron named Allie and some children. They shouldn't have posed any threat to our soldiers.
+0062 [Firenze] | Then it was an ambush. Stay alert here. I'll go take a look myself.
+0063 [Elite Soldier] | Understood.
+0064 [Firenze] | That's the orphanage ahead... The lights are still on, but the children should be asleep at this hour.
+0065 [Firenze] | If it were an ambush, there'd be no reason to leave the lights on as a warning.==W== Wait—this is...
+0066 [Fallen Soldier] | Guh—
+0067 [Firenze] | Hey, are you alright?==W== Still breathing... Looks like you were calmly knocked unconscious.
+0068 [Firenze] | But there are no signs of a fight at all. What happened here...?==W== This is—a letter?
+0069 [Firenze] | Esteemed Commander,==W== I'm not sure which company you represent, but your soldiers will be asleep for a full day. Please come back by then.==W== Rest assured, we will not take anything that doesn't belong to us.
+0070 [Firenze] | A threat...? No. Our order is to retrieve the ancient relic. There's no need for a confrontation.
+0071 [Firenze] | Withdraw. We'll be back tomorrow.
+0072 [Lugar y hora] | 02:00, Messis Month 05th, Gold District in Philae, Executive Office
+0073 [Noya] | Firenze! Where did you take Aunt Allie and the children?!
+0074 [Firenze] | Calm down, Noya. We didn't do anything to them.
+0075 [Firenze] | When we returned the next day, the orphanage was already empty.
+0076 [Firenze] | This is the only thing we found in the basement—
+0077 [Firenze] | This recipe dates back a very long time. I believe it may have been the ancient relic itself... Turned out it wasn't what Lady Darcia was after.
+0078 [Firenze] | So the Tawny Nightingale recipe really was found in the orphanage, just as the mysterious messenger claimed... But that only raises more questions.
+0079 [Iris] | So you're saying... Aunt Allie took the kids and moved overnight, just like Rainea said?
+0080 [Firenze] | That seems to be the case. Whoever was protecting the orphanage neutralized our soldiers with ease.==W== Relocating the children wouldn't have been difficult, and once they went into hiding, we'd have no way of tracking them.
+0081 [Amber] | How do you explain the debt then?
+0082 [Firenze] | The fact is, I only recently learned about the debt that was pinned on the orphanage.
+0083 [Firenze] | Apparently, to raise funds, Lady Gray searched United Harvest's archives for organizations that had recently been wiped out.==W== She used those names as loan entities, exploiting information gaps between city-states to secure collateralized loans.
+0084 [Tú] | So it was loan fraud. That contract eventually fell into Feagin's hands and caused us plenty of trouble in Emor.
+0085 [Darcia] | I'm sorry, Your Majesty. I didn't think things through when I was raising funds.
+0086 [Tú] | There's no erasing what's already happened… But it's behind us now.==W== What exactly was the ancient relic you were searching for beneath the orphanage?
+0087 [Darcia] | I was looking for an ancient map, Your Majesty. According to legend, it recorded the path that leads to the Tyrant.
+0088 [Darcia] | Although Firenze never found that map, fate somehow brought us together.
+0089 [Tú] | Enough flattery.==W== That's all I have for you tonight. It's late, get some rest.
+0090 [Darcia] | Thank you for your consideration, Your Majesty.
+0091 [Lugar y hora] | 02:40, Messis Month 05th, Gold District in Philae, VIP Reception Room
+0092 [Darcia] | This room is reserved for United Harvest's honored guests. Please make yourselves comfortable.
+0093 [Darcia] | I'll have private residences prepared for all of you in Philae shortly. Please forgive our less-than-adequate hospitality.
+0094 [Fuyuka] | P-Private residences? Th-this is far too much.
+0095 [Darcia] | Since you also serve the Tyrant, there is no need to make a fuss over this modest offering.
+0096 [Darcia] | Your Majesty, I shall take my leave.
+0097 [Tú] | Good night.
+0098 [Narración] | After Darcia and Firenze closed the door, an unsettling silence fell over the room.
+0099 [Noya] | Hey, hey, hey, what's with the grim faces?
+0100 [Noya] | Iris, Amber, Fuyuka, and Mina—come test this mattress. It is insanely comfortable.
+0101 [Iris] | Well... At least Noya's still acting like her usual self.==W== Darcia may have claimed to pledge her loyalty to Tyrant, but I saw nothing but soldiers and Intelligent Plants on the way here. Isn't that basically—
+0102 [Amber] | House arrest.
+0103 [Mina] | I-I really didn't expect things to turn out like this...
+0104 [Mina] | Lady Darcia was the "big shot" behind the Golden Nightingale commission,==W== but she never intended to investigate the Tawny Nightingale, did she? Her plan all along was to get you into United Harvest, ==PLAYER_NAME==.
+0105 [Mina] | I know it's probably too late… But I'm really sorry, everyone.
+0106 [Noya] | Don't be too hard on yourself. What's done is done. Let's figure out our next move.
+0107 [Iris] | You're not going to sleep on the soft mattress?
+0108 [Noya] | Of course I am. And we're all sleeping together.==W== Smiling or crying, we're still facing the same problem... So why not smile and feel a little better~
+0109 [Noya] | Alright! Enough stressing over what's already happened. We'll get out of this together!
+0110 [Noya] | Besides, if we want to make a run for it, we'd better eat and get some rest. Right? Your Majesty~
+0111 [Tú] | You're so upbeat Noya, even at a time like this.==W== You're right—we should ease up and get a good night's rest. Then we can figure out an escape plan.
+0112 [Tú] | Once we make it to the Trekker Camp, there's nothing to be afraid of.==W== Fuyuka, could you contact the Petal Bloom?
+0113 [Fuyuka] | Yes, Master.
+0114 [Tú] | Alright then, let's all get some rest.
+0115 [Tú] | What Darcia said earlier... Should I ask Vita again?==W== Maybe I really should complete Vita's missions to grant that permission. Keep a final trump card for myself...
+0116 [Tú] | Huh? When did this...
+0117 [Narración] | "Anonymous User sent you a friend request."
+0118 [Narración] | Someone sent me a request in Heartlink without me noticing.
+0119 [Mistique] | Back at the warehouse tonight,==W== I got a friend request sent by an anonymous user.
+0120 [Tú] | The same thing happened to Mistique back then...
+0121 [Opción] | Accept request
+0122 [???] | Fool
+0123 [???] | You made the wrong choice
+0124 [???] | You'll regret this
+0125 [Tú] | Who are you?
+0126 [Narración] | Heartlink not established. Message failed to send.
+0127 [Tú] | How infuriating! Did they delete me right after sending these messages?
+0128 [Tú] | This warning… It's really unsettling.

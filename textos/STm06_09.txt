@@ -1,0 +1,136 @@
+# Capítulo 6 · Milagro de un destello · 9 · The Battle in Philae I
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cautious Soldier | Cautious Soldier
+N:Gen-3 Plant Shooter | Gen-3 Plant Shooter
+N:Gen-3 Plant Warrior | Gen-3 Plant Warrior
+N:Irritable Soldier | Irritable Soldier
+N:avg1_110 | Firenze
+N:avg1_135 | Mistique
+N:avg2_957 | Weed Shooter
+N:avg2_958 | Weed Brawler
+N:avg2_985 | Darcia
+N:avg3_100 | Sylar
+N:avg3_108 | Cosson
+N:avg3_115 | Jayhawk
+N:avg3_120 | United Harvest Forester
+N:avg3_121 | Empleado de Cosecha Unida
+N:avg3_1220 | United Harvest Forester
+N:avg3_1221 | United Harvest Forester
+N:avg3_1249 | Empleado de Cosecha Unida
+N:avg3_1251 | Empleado de Cosecha Unida
+N:avg3_1260 | Weed Brawler
+N:avg3_1263 | Weed Brawler
+N:avg3_1268 | Ranged Grass
+N:avg3_1269 | Ranged Grass
+N:avg3_134 | Mina
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_167 | Chica
+
+## Texto
+0001 [Intro] | Act Nine
+0002 [Intro] | The Battle in Philae I
+0003 [Intro] | The HQ’s Legion stalls over unpaid wages; the Plants drift into an afternoon slumber under the influence of Nyx. With the march suspended, you order Firenze to regroup with others for a counterattack...
+0004 [Lugar y hora] | 07:00, Messis Month 6th, Outside Philae, Trekker Camp
+0005 [Cosson] | Inspector Jayhawk, are the troops ready? Can we move out today?
+0006 [Jayhawk] | Ugh... Well, it's a bit of a mess. Right at the crunch, too. They're making a scene—saying they won't budge without their "assault stipend."
+0007 [Cosson] | Assault stipend? If they want a bonus, tell them they'll get paid after we take Philae.
+0008 [Jayhawk] | Not a bonus, sir. A stipend. We gotta put cold, hard Dorra in their hands now. No cash, no march.
+0009 [Cosson] | ... Enough. How did our company army come to this?
+0010 [Jayhawk] | As for "when"... It's been standard practice for five years. Assault stipend, magic usage fee, garrison pay, overtime...
+0011 [Jayhawk] | Basically, if we want them to do anything, they need to see the Dorra.
+0012 [Cosson] | Are they any different from temp workers? Sigh. Where are the fearless soldiers of the past? The ones who valued honor over life itself?
+0013 [Jayhawk] | Gone with the missing payroll, I'd guess. Last I heard, these legions haven't been paid in six months.
+0014 [Cosson] | ...
+0015 [Cosson] | Taking over these three legions was clearly a mistake.==W== Fine. Inspector Jayhawk, go to the nearest branch and secure the funds. How long will it take?
+0016 [Jayhawk] | I don't mind! But with travel time... A round trip is a week, minimum. Despite the look, I'm just a delicate flower, you know? Can't rush.
+0017 [Cosson] | Hmph... Sending a lady that far is improper. But ...==W== do you expect the Commander to go beg for wages personally? It would tarnish my elegant image.
+0018 [Lugar y hora] | 07:30, Messis Month 6th, Greenhouse District, Philae, Lab Core
+0019 [Darcia] | Your Majesty, the map.==W== Our forces—30,000 upgraded Gen-3 Intelligent Plants—are deployed along the river, awaiting orders.
+0020 [Tú] | 30,000 upgrades in one night... That's fast.
+0021 [Tú] | Mina, do we have a read on the three United Harvest legions?
+0022 [Mina] | Confirmed. We are facing the 3rd, 4th, and 5th Elite Legions. Ten years back, these units crushed a company army twice their size in a head-on collision.
+0023 [Mina] | Based on the roster, we are looking at 31,000 total personnel, 25,000 of them combat-ready.
+0024 [Mina] | Plants' recon puts the HQ at the Trekker Camp.==W== The legions are dug in to the North, East, and South.==W== No signs of aggressive movement yet.
+0025 [Tú] | They are branded "elite," but their prime was a decade ago. Aside from the NCOs, the grunts must be fresh recruits. Hard to say if the reputation still holds up.
+0026 [Tú] | The real danger is that they shoot Mistique on sight. If they storm Philae blind, the city gets leveled, and civilians get butchered.
+0027 [Tú] | In that case, priority one is containment. Not a single one of them inside city limits.
+0028 [Tú] | Darcia, detach 1,000 Gen-3s. Engage the enemy. Test their reflexes.
+0029 [Darcia] | Understood.
+0030 [Narración] | Ignoring her phone, Darcia strides to the Lithe Grass Mother. She unlocks the tank and plunges her hand into the solution, wincing in pain.
+0031 [Narración] | The Mother shudders in its tank, as if acknowledging a signal.
+0032 [Lugar y hora] | 10:00, Messis Month 6th, Outside Philae, Forest Edge
+0033 [Cautious Soldier] | Shh! Keep it down! We're on recon. You want to get us spotted?
+0034 [Irritable Soldier] | Who cares? No wages, no stipend... You expect us to fight on an empty stomach? I'm doing the bare minimum.
+0035 [Cautious Soldier] | I get it, but we're exposed here. Ambush could happen any second. Save the gripping for when we get back.
+0036 [Cautious Soldier] | Shh. Listen. Movement up ahead.
+0037 [Gen-3 Plant Warrior] | Yeee-ah!
+0038 [Cautious Soldier] | Contact! Open fire! Everyone, shoot!
+0039 [Gen-3 Plant Warrior] | Yeee-ah! Yeee-yah—
+0040 [Irritable Soldier] | What the hell are these things?! They're too fast to hit!
+0041 [Gen-3 Plant Shooter] | Gulu... Weeee—!
+0042 [Cautious Soldier] | Damn, they're swarming us...! Comms, get backup! Now!
+0043 [Irritable Soldier] | It... It's hopeless! We can't win!==W== Run for it!
+0044 [Lugar y hora] | 12:00, Messis Month 6th, Greenhouse District, Philae, Lab Core
+0045 [Darcia] | Your Majesty. In two hours, our thousand plants routed five battalions—nearly 4,000. We lost fewer than 200.
+0046 [Darcia] | With results like these, why halt the offense? If we commit the rest of the Intelligent Plants, HQ's three legions would crumble.
+0047 [Tú] | No.==W== If we go all-in, we're the ones who lose. Know why?
+0048 [Gen-3 Plant Warrior] | Zzzzz...
+0049 [Darcia] | Is it ... asleep?
+0050 [Tú] | We call them "Intelligent," but they act on the mind of their "nutrient." They've picked up Nyx's habits, including the afternoon nap.
+0051 [Mina] | Lady Darcia, ==SEX12== Tyrant. Quick count on the three hundred units guarding the lab: two-thirds are out cold, the rest are dozing off. Combat effectiveness is zero.
+0052 [Darcia] | I... I had no idea...==W== My apologies, Your Majesty! I failed to predict how the upgrade would alter their behavior.
+0053 [Tú] | Gen-3 is powerful, but arrogance creates blind spots.==W== Darcia, we need a tactic to force a surrender.
+0054 [Darcia] | Surrender...==W== I see. You want them for the Tyrant Army. Though, honestly, human soldiers are worthless compared to the plants.
+0055 [Tú] | It's not about manpower. It's a display of strength to the other companies. Mercy requires far more power than annihilation.
+0056 [Tú] | We also need to control the narrative. This isn't a Tyrant Army invasion. It's an internal dispute between Philae Branch and HQ. This version protects us.
+0057 [Tú] | If Nova hears the Tyrant declared war, our list of enemies will grow exponentially.
+0058 [Darcia] | Your foresight is awe-inspiring, Your Majesty. But ...==W== there is one thing I don't understand...
+0059 [Darcia] | You spared New Star Guild for old time's sake.==W== You treat the branch staff well to keep the peace.
+0060 [Darcia] | But why show mercy to the enemy? If HQ were winning, they wouldn't hesitate to crush us.
+0061 [Tú] | No one is born evil. Those soldiers are just ordinary people, moved by the Senate's hand.
+0062 [Tú] | Besides, these Plants have infinite potential. That is why we must use this power for good—==W==to make the world a little better.
+0063 [Tú] | Ruling by brute force, like United Harvest, earns no respect or loyalty.
+0064 [Tú] | Technically, I'm manipulating Darcia to buy us time for a counterattack... But I meant every word I just said.
+0065 [Tú] | I still don't know why Darcia worships the "Legendary Tyrant." But if I can figure out the root of that faith...
+0066 [Darcia] | Your Majesty...
+0067 [Darcia] | F-forgive me. I lost my composure and spoke out of turn...
+0068 [Darcia] | No matter what comes, I pledge my life to you, Your Majesty. Just ...==W== pardon my rudeness, but I find myself quite exhausted. May I take my leave?
+0069 [Tú] | Of course. You've worked hard. Go get some rest.==W== Since I have Mina here, I'll send Firenze out tomorrow to field-test the Gen-3 Intelligent Plants. That work for you?
+0070 [Darcia] | Thank you for your kindness.
+0071 [Firenze] | ...
+0072 [Mina] | ...
+0073 [Tú] | Hm? Darcia's finally gone, and thanks to Nyx, the plants are sound asleep. Why is everyone still quiet?
+0074 [Firenze] | Apologies.==W== Your words ... struck a chord. Anyway. What's the mission?
+0075 [Tú] | Protect Mistique. And climb the Monolith.
+0076 [Tú] | Darcia's ambitions aren't our only problem. The three legions from HQ are acting suspiciously, too.
+0077 [Tú] | I'm raiding the Trekker Camp at dawn. I'll minimize casualties,==W== but I can't control every single plant. Mistique is badly hurt; getting her out safely will be tricky. I'm trusting you to handle it.
+0078 [Firenze] | That part I get. But why climb the Monolith?
+0079 [Tú] | Heh. Being the Boss of the Boss Accord has its privileges. Or rather...==W== Let's just say I've unlocked a new authority.
+0080 [Tú] | You know how the Monolith grants Trekkers extra Grace? Big combat boost, but only while they're inside.
+0081 [Firenze] | Naturally. But that power vanishes the moment you step out, so I never gave it much thought.
+0082 [Tú] | True, but you're my employee now. What if I told you==W== that you could keep that power for a full day outside?
+0083 [Firenze] | Boss, do you realize what you're saying? That...==W== That would overturn the whole Trekker industry. No—it would change Nova itself.
+0084 [Tú] | Exactly. If word gets out, the world will descend into chaos. So...==W== Let's keep this between us.
+0085 [Tú] | I've updated Petal Bloom and New Star via Heartlink. Firenze, meet New Star on the lake island tomorrow afternoon. You'll climb with them.
+0086 [Tú] | Power up inside. Then, early on the 8th, we strike from both sides—hit Darcia, grab the key, and end all this.
+0087 [Firenze] | Wringing every drop of utility out of me...==W== Fascinating scheme. Very well. I'll play my part.
+0088 [Tú] | Appreciated. Just don't overdo it.==W== I'm counting on you to scout our infiltration route for tomorrow night.
+0089 [Firenze] | Save the sentimentality, Boss.
+0090 [Firenze] | We're in a match with no retreat. As a player of this match, you should be ready to sacrifice a pawn like me if it secures the win. See you later.
+0091 [Tú] | If you're on board, maybe drop the aggressive attitude...==W== Now, Mina. What are you doing here? Shouldn't you be home watching your sisters?
+0092 [Mina] | I got worried... Came to check on everyone. But on the way, Mistique messaged me... She's in trouble. I-I found Firenze, and she said Mistique was shot down.
+0093 [Mina] | Part of me wants to run back to my sisters, but...
+0094 [Mistique] | So...==W== If you really want to protect something, the choice is yours. Do you bury the truth in exchange for peace?==W== Or do you face it head-on, even if it means hurting others?
+0095 [Mina] | I...
+0096 [Mina] | I'm not a witch or a Trekker. I can't put my life on the line like you do. But...==W== I am a United Harvest staff member. This involves me too.
+0097 [Mina] | I may not be a hero...==W== But I want to protect this company in my own way. When I see Mistique, I want to look her in the eye and say I faced the truth—and this is my answer.
+0098 [Tú] | Heh... I get it. I see your resolve—your justice.==W== But the danger is real. Stay close; I don't trust Darcia not to try something if you're alone.
+0099 [Mina] | R-Right! Thank you, Boss!
+0100 [Lugar y hora] | 08:00, Messis Month 7th, Greenhouse District, Philae, Lab Core
+0101 [Darcia] | Your Majesty. Our forces are prepared to commence the assault on your order.
+0102 [Darcia] | Firenze has also taken a position at the Trekker Camp perimeter to monitor the Plants.
+0103 [Tú] | Then let's begin. Unleash the Gen-3 Intelligent Plants. We need to utterly crush their will to fight.

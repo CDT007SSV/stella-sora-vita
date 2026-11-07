@@ -1,0 +1,151 @@
+# Capítulo 4 · Más allá del sueño · 5 · What We Wish to Protect
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Energetic Squad Member | Energetic Squad Member
+N:Worried Squad Member | Worried Squad Member
+N:avg1_133 | Nazuka
+N:avg2_976 | Associated Tree
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_135 | Claire
+N:avg3_184 | Lady Gray
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | What We Wish to Protect
+0003 [Intro] | Following the retreat to camp, where Claire confronts Nazuka. Their desires to protect different things ultimately cause Claire to side with Lady Gray. Nazuka, at a loss, tells you the story of the One-Armed Saint.
+0004 [Lugar y hora] | 12:00, Pluvia Month 28th, Outside Philae, Trekker Camp
+0005 [Nazuka] | How are you feeling? Still seeing things?
+0006 [Energetic Squad Member] | I'm good. The hallucinations are gone.
+0007 [Worried Squad Member] | All thanks to your magic. We didn't inhale much of that mist, so a little rest was all it took.
+0008 [Energetic Squad Member] | You gotta take care of yourself too! You were pushing yourself the hardest out there!
+0009 [Nazuka] | Thanks for the concern. I have fully recovered.
+0010 [Worried Squad Member] | That's great to hear. Captain, let's go for another round! Now that we know the ropes, we can totally take down the Garden of Parasite next time.
+0011 [Energetic Squad Member] | Yeah! Though we failed today, everyone made it back in one piece. This time, we'll know what to expect!
+0012 [Nazuka] | I agree. We'll try again soon. For now, get some rest. I'm going to check on the others.
+0013 [Energetic Squad Member] | See you, Captain!
+0014 [Claire] | ...
+0015 [Claire] | Hello? This is Claire.
+0016 [Claire] | I understand. But don't make a move yet. Let me try talking to her again.
+0017 [Lugar y hora] | 13:00, Pluvia Month 28th, Outside Philae, Trekker Camp
+0018 [Tú] | It's starting to rain.==W== Good thing I bought an umbrella.
+0019 [Tú] | Noya and the others are finally clear of those illusions. I should get back and figure out what's next.
+0020 [Tú] | Is that ... Nazuka?==W== She doesn't have an umbrella. I should go help.==W== Getting sick out here in the rain would be awful.
+0021 [Tú] | Naz—==W==
+0022 [Claire] | You're here.
+0023 [Nazuka] | You insisted we meet right away.==W== What's so urgent?
+0024 [Claire] | Just wanted to confirm with you. On the next raid against the Garden of Parasite, we must secure "that thing."
+0025 [Nazuka] | Why the sudden rush? Don't tell me...
+0026 [Claire] | You got it. Lady Gray just stopped by to press the issue. She also said ... "that thing" is hidden inside its trunk.
+0027 [Nazuka] | The trunk? And how do you plan to get it? Our raid failed just today.
+0028 [Claire] | Well... Why not just capture it alive and take our sweet time? C'mon, we managed to bag the Blade of Jade. How hard can this thing be?
+0029 [Nazuka] | Capture it alive? That's far too risky. You've seen it yourself—the Garden of Parasite gets stronger by the day. We're not powerful enough yet to capture it live.
+0030 [Claire] | But we're in deep trouble if we don't get "that thing." Have you forgotten how Lady Gray threatened us?
+0031 [Nazuka] | I remember.==W== So, what's the plan?
+0032 [Claire] | The magic mist is the real problem.==W== Once we deplete that, the Garden of Parasite is just a clumsy monster swinging its branches around.
+0033 [Nazuka] | How do we deplete it?
+0034 [Claire] | With people. We'll have the squad members charge in first.
+0035 [Nazuka] | Are you insane? Claire, you know as well as I do that you'd be sending them to their deaths.
+0036 [Claire] | They'll just be inhaling some mist.==W== That's not fatal ... right?
+0037 [Nazuka] | If they start hallucinating, they'll turn on each other. The result is exactly the same.
+0038 [Nazuka] | Besides, the Garden of Parasite is already too powerful.==W== A monster this dangerous... Claire, we have to destroy it ourselves on the next hunt.
+0039 [Nazuka] | I haven't touched the 10 million Dorra from Lady Gray. After we deal with the Garden of Parasite, I'm returning it. That way, our business with United Harvest is concluded.
+0040 [Claire] | You think they'll just let us go once we're "even"?==W== Hah, that's so naive.==W== After everything we've seen, you really think we can just walk away?==W== United Harvest will never drop this.
+0041 [Nazuka] | You're the naive one, Claire!
+0042 [Nazuka] | Think about it. "That thing" can twist a mimic vine into the monstrosity we're facing. United Harvest would do anything to keep their rivals from finding out they have something that powerful.
+0043 [Nazuka] | So, the moment Lady Gray gets her hands on it, she'll have us eliminated.
+0044 [Nazuka] | But, if "that thing" is destroyed in the fight—if no one gets it and we can plausibly deny knowing what it was—United Harvest might just leave us alone.
+0045 [Claire] | No way, Nazuka, this is United Harvest! We failed them. There's no way they won't retaliate.
+0046 [Nazuka] | There is! The Big Three have been on a rampage for months, and our hunting squad has been making headlines—not just in Philae, but in other cities too.
+0047 [Nazuka] | We're not just some unknown Trekkers anymore; we're in the public eye now.
+0048 [Nazuka] | That means even a company like United Harvest can't take us out quietly. As long as we stay in the dark about what "that thing" really is, a peaceful way out of this isn't impossible.
+0049 [Claire] | So that's your angle... You've always hated the spotlight, but lately you've been actively seeking it out.
+0050 [Claire] | But what if they don't care? What if they decide to punish us for botching the job and coming back empty-handed anyway?
+0051 [Nazuka] | If it comes to that... Just say it was all my idea.==W== Act like you knew nothing. I'll take the fall for everything.
+0052 [Claire] | Hah. How noble, Nazuka. Turning on Petal Bloom to protect your friends, taking all the blame to shield the team... You've even got an out for me all planned.
+0053 [Claire] | Just like the One-Armed Saint from the legends... Sacrificing herself to save Philae.
+0054 [Nazuka] | It's not that dramatic. I just want to keep everyone safe.
+0055 [Claire] | Hmph. Heheheh.==W== Hahahaha!
+0056 [Nazuka] | Claire, what's gotten into you?
+0057 [Claire] | Surviving by not seeing "that thing"... Why didn't I think of that sooner? I guess I'm just not cut out for these clever games like you are.
+0058 [Claire] | I can't keep up with all the scheming, and I don't wanna die. So I've already signed a magic contract with Lady Gray.
+0059 [Nazuka] | A contract? What kind of contract?
+0060 [Claire] | It says as long as I follow Lady Gray's orders to the letter and search for "that thing"...
+0061 [Claire] | United Harvest will give me a fortune and a cushy job where I can earn Dorra for life, regardless of the outcome.
+0062 [Nazuka] | How could you trust someone like Lady Gray? This is United Harvest we're talking about. There's bound to be a trap or a loophole in that contract.
+0063 [Claire] | Yeah ... maybe. That's why I need your help.
+0064 [Nazuka] | Help you?
+0065 [Claire] | That's right. I told Lady Gray there's no way I can take down the Garden of Parasite alone. But with you, I know we can find a way.
+0066 [Claire] | They know how strong you are, of course. Lady Gray said if you join United Harvest and work for her, she'll let you draft the contract.
+0067 [Claire] | See? You're the key to this whole deal.
+0068 [Nazuka] | So she just wants to use us as pawns.==W== That plan to have the squad members wear down the mist... That was her idea, wasn't it?
+0069 [Claire] | You figure everything out, don't you, Nazuka? But I'm not like you. I'm out of options.
+0070 [Nazuka] | Claire, don't do this. Let me think. There has to be another way.
+0071 [Claire] | Oh? Is the great Saint gonna swoop in and solve all my problems?
+0072 [Claire] | It's impossible. I don't know how you see it, but to me, the gap between us and United Harvest is like a single raindrop against a sky full of storm clouds.
+0073 [Claire] | If you're really so amazing, why don't you just blow away the clouds above us and make this rain stop?!
+0074 [Claire] | Just like the legendary One-Armed Saint!
+0075 [Claire] | ... That's all I have to say.
+0076 [Claire] | Goodbye, Nazuka. In the end, we were never on the same path.
+0077 [Nazuka] | ...
+0078 [Tú] | Nazuka...
+0079 [Nazuka] | ==PLAYER_NAME==... You heard all that...
+0080 [Lugar y hora] | 15:00, Pluvia Month 28th, Greenhouse District in Philae
+0081 [Tú] | So this is where you first met Lady Gray?
+0082 [Nazuka] | Yeah. She was in a United Harvest uniform, looked like she held a high rank. And all the supplies she gave us later came directly from them.
+0083 [Tú] | United Harvest... They're in the grain and food industry, right?
+0084 [Nazuka] | That's right. They're the biggest company in this industry in Nova. I heard they grow seventy percent of all the grain on the continent.
+0085 [Nazuka] | They have branches in every city.
+0086 [Nazuka] | Word is that the one here in Philae is their largest.
+0087 [Tú] | Philae's climate and environment... I'm guessing it's ideal for growing crops?
+0088 [Nazuka] | That, and the influence from the Monolith in the lake.==W== Its wishing boxes are known to produce Artifacts useful for farming.
+0089 [Tú] | Hearing you put it that way, United Harvest is a true company giant. It does sound like we're a single raindrop and they're a storm cloud.
+0090 [Tú] | So what's your plan?
+0091 [Nazuka] | I don't trust Lady Gray.
+0092 [Nazuka] | Since she's trying to use Claire for some kind of scheme... I'm going to split from the hunting squad for now.
+0093 [Nazuka] | I'll take down the Garden of Parasite before Claire can... End this myself.
+0094 [Tú] | Brute force over strategy, huh? Not a bad idea, but ... isn't that a huge risk?
+0095 [Nazuka] | It is. This weather makes it impossible to use fire against the Garden of Parasite... And with Philae's rainy season here, there's no telling when the sun will be out again.
+0096 [Nazuka] | The silver lining is that monsters usually lie low in weather like this, and the main force can't push deep into the forest. So, it's not all bad.
+0097 [Nazuka] | If only I could work a miracle like the One-Armed Saint.
+0098 [Tú] | I keep hearing about the One-Armed Saint. What's the story there?
+0099 [Nazuka] | It's a local Philaen legend.
+0100 [Nazuka] | Years ago, a one-armed statue was unearthed here.
+0101 [Nazuka] | The plaque on its base had the faded word "Saint"...
+0102 [Nazuka] | ... and a nearby stone slab told her story.
+0103 [Nazuka] | Long, long ago, the people of Philae angered the god of swamps.
+0104 [Nazuka] | In its fury, the god cursed the land with endless rains, threatening to drown the city.
+0105 [Nazuka] | People begged the god to stop, but it demanded the most beautiful thing in the city as an offering.
+0106 [Nazuka] | They offered countless treasures, yet the god remained unmoved.
+0107 [Nazuka] | It was not until one day, a passing Trekker offered her own arm and hand—
+0108 [Narración] | —nimble hands capable of forging anything, that the divine silence finally broke.
+0109 [Nazuka] | The god was pleased. It stopped the rains, and the floodwaters formed a great lake with fertile shores. From then on, the people of Philae lived in prosperity.
+0110 [Nazuka] | So, that's the end of the legend. What'd you think, Boss?
+0111 [Tú] | Hmm... On the surface, it's a nice story ... but something about it feels a little creepy.
+0112 [Opción] | Admire the Saint's courage
+0113 [Opción] | Question the facts
+0114 [Opción] | Suggest another theory
+0115 [Tú] | I think the legend might've romanticized it.
+0116 [Tú] | Maybe the saint didn't just give up—maybe she fought the god, and won, though at the cost of her arm. That's why the flood stopped.
+0117 [Nazuka] | That's possible...==W== But if so, it wasn't a god. It was a demon.
+0118 [Tú] | A "god" that casually throws a fit doesn't sound like any normal god I know.
+0119 [Tú] | And in the end, it's just a statue with only one arm, right? It could've just broken off.==W== As for the storm, it was probably just a natural disaster.
+0120 [Nazuka] | Ha, so pragmatic. You really have a knack for looking at things from a purely realistic angle, Boss.
+0121 [Tú] | I mean, it's rare for an artifact dug up from the ground to be in perfect condition, isn't it?
+0122 [Nazuka] | That's a fair point.==W== I hope the truth is just like you said—that no one got hurt, and everyone just lived happily ever after.
+0123 [Tú] | Hmm... I think "offering her arm and hand" was symbolic.
+0124 [Nazuka] | Symbolic?!
+0125 [Tú] | Water doesn't just drain on its own. You need hands to dig canals and build levees to actually control a flood.
+0126 [Tú] | Maybe the people of Philae put up the statue to commemorate the person who led them in taming the waters.
+0127 [Nazuka] | Huh... That's a really practical way of looking at it, Boss.
+0128 [Nazuka] | Still, what I admire about the One-Armed Saint is her courage to make that sacrifice.
+0129 [Nazuka] | I'm a Trekker, and my time making wishes in the Monolith has taught me one thing.
+0130 [Nazuka] | If you want to gain something, you have to give something up first. Decisively.
+0131 [Nazuka] | I want to be that kind of decisive person—someone who can clear the path for everyone else.
+0132 [Tú] | I get it.==W== Well... Since you once saw me as a figure like the One-Armed Saint...
+0133 [1] | On a day like today, when we can't even use fire, let me clear the path a different way.
+0134 [Tú] | As it happens, I have an idea about how we can investigate Lady Gray and the Three Grand Commissions.

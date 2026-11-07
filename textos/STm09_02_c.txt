@@ -1,0 +1,164 @@
+# Capítulo 9 · Un Monolito demasiado lejano · 2C · The Tyrant's Tower
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cautious Committee Member | Cautious Committee Member
+N:Committee Elite | Committee Elite
+N:Committee Knight | Committee Knight
+N:Committee Mage | Committee Mage
+N:Committee Standard Bearer | Committee Standard Bearer
+N:Confused Committee Member | Confused Committee Member
+N:Defending Committee Member | Defending Committee Member
+N:Resisting Committee Member | Resisting Committee Member
+N:Sales-Pitching Mascot | Sales-Pitching Mascot
+N:avg1_108 | Kasimira
+N:avg1_114 | Chaton
+N:avg1_1195 | Stellaroid
+N:avg1_1196 | Stellaroid
+N:avg1_1197 | Stellaroid
+N:avg1_1198 | Stellaroid
+N:avg1_1199 | Stellaroid
+N:avg1_132 | Minova
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_144 | Chitose
+N:avg1_145 | Otoha
+N:avg1_156 | Nazuna
+N:avg2_938 | Glopo Duke
+N:avg2_947 | Sentinel of Dawn Soldier
+N:avg2_948 | Sentinel of Dawn Soldier
+N:avg3_1306 | Sentinel of Dawn Soldier M
+N:avg3_1307 | Sentinel of Dawn Soldier M
+N:avg3_1308 | Sentinel of Dawn Soldier F
+N:avg3_131 | Nazuna
+N:avg3_132 | Kaede
+N:avg3_133 | Portia
+N:avg3_156 | Guardia Imperial bajito
+N:avg3_157 | Guardia Imperial
+N:avg3_158 | Penguin Performer
+N:avg3_216 | Gunhild
+N:avg3_217 | No. 160
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | The Tyrant's Tower
+0003 [Intro] | You set up defenses throughout the Monolith as the battle grows intense. Though the Committee is powerful, they struggle to ascend. Holding the 45th floor alone, Chitose halts No. 160 while enduring deadly poison.
+0004 [Lugar y hora] | 15:40, Nebula Month 18th, Desert Monolith, Floor 15
+0005 [Committee Knight] | Weird. Isn't this Monolith supposed to be abandoned? It looks exactly like the ones back in the city.
+0006 [Committee Elite] | Monoliths react to people. If one sits empty long enough, it goes barren and strips down to bare rock, like what we saw just now.
+0007 [Committee Elite] | But the second people step inside, it wakes up and shifts back into the form we're used to.
+0008 [Committee Knight] | I had no idea. You Sentinels of Dawn really know your stuff.
+0009 [Committee Elite] | Heh, it's nothing. If you fight Nocturn Eterna in dormant Monoliths far from the Cities every day, you pick things up too.
+0010 [Committee Elite] | But Trekkers are the real experts. The Tyrant's forces are full of them, and we're fighting on their turf. Stay sharp.
+0011 [Committee Mage] | Understood. I've cast my strongest defensive magic on everyone. We can take four or five hits from any weapon. Even the Tyrant's lackeys can't jump us.
+0012 [Committee Knight] | Heads up. We've got movement.
+0013 [Committee Mage] | Is this ... fog? Since when does it get foggy in a Monolith?
+0014 [Narración] | Ooooh... The hatred... It burns...
+0015 [Committee Mage] | Wh-What the hell is that?!
+0016 [Narración] | How ironic… I died in this Monolith before I ever found an Artifact. Left to rot... Forgotten...
+0017 [Committee Knight] | The air... It just turned ice cold. Is that ...==W== a dead Trekker's ghost?
+0018 [Narración] | I gave my life to protect them… But they had already moved on to someone else...
+0019 [Narración] | Whatever, whatever… This lightless place makes a fine tomb… No one in this world cares about me anyway...
+0020 [Committee Elite] | Are you kidding me?! Ghosts aren't real! It must be one of the Tyrant's lackeys playing tricks!
+0021 [Narración] | B-But look! What are all those twisted shadows behind it?!
+0022 [Committee Elite] | One, two, three...==W== About twenty of them? Heh. I get it. Cheap illusion.
+0023 [Committee Elite] | The Tyrant doesn't even have that many fighters! They're just stalling. Blow the fog away!
+0024 [Committee Mage] | Raging winds, heed my call!
+0025 [???] | Hehe! You're the ones who attacked first!
+0026 [Committee Mage] | Huh? The ghost disappeared.
+0027 [Committee Knight] | Look! Those shadows are ... Stellaroids! And they're charging right at us!
+0028 [Committee Elite] | Formation! Hold them off!!!
+0029 [Nazuna] | Great job, Kaede! You dragged over quite the swarm.
+0030 [Kaede] | It's Petal Bloom's signature move. Group the Stellaroids together, then let Nazuka wipe them out.
+0031 [Nazuna] | Except today, our targets aren't the Stellaroids. It's these self-righteous Salvation Committee jerks.
+0032 [Nazuna] | Honestly, what a bunch of idiots. Do they really not know Stellaroids aggro onto whoever casts magic first?
+0033 [Committee Elite] | W-We held them off...
+0034 [Nazuka] | True. But you also burned through all your defensive magic.
+0035 [Nazuka] | You dared to hurt the person most important to me.==W== Biting winter winds, bury them in this Monolith!
+0036 [Lugar y hora] | 16:00, Nebula Month 18th, Desert Monolith, Floor 21
+0037 [Sales-Pitching Mascot] | Goo-goo-gah!
+0038 [Cautious Committee Member] | A penguin? Is that a new breed of Stellaroid?
+0039 [Committee Standard Bearer] | No, I think it's a mascot for a Monolith convenience store. Trying to drum up business.
+0040 [Confused Committee Member] | A convenience store? In a place crawling with Stellaroids?
+0041 [Committee Standard Bearer] | Yeah, they act as safe zones. You can buy magic-boosting drinks here while climbing.
+0042 [Committee Standard Bearer] | Let's check it out. The Tyrant and ==SEX3== lackeys got here way before us. They have a massive head start on gathering power, so we need this store to close the gap.
+0043 [Portia] | Welcome. What can I get for you today?
+0044 [Committee Standard Bearer] | Pool the Monolith Coins we found. We should have enough for one magic-boosting drink each.
+0045 [Portia] | Thanks for coming.
+0046 [Committee Standard Bearer] | Well, that went well. Drink up, everyone. Get your boost and let's keep climbing.
+0047 [Committee Standard Bearer] | Three hundred of us entered this Monolith. If even one squad catches up to the Tyrant, we win.
+0048 [Cautious Committee Member] | Gulp... Gulp...
+0049 [Committee Standard Bearer] | Tastes a bit off. Were these drinks always this thick?
+0050 [Confused Committee Member] | I'm ... suddenly so tired.
+0051 [Cautious Committee Member] | Can't keep my eyes open...
+0052 [Committee Standard Bearer] | Hey, snap out of it! Dammit, my eyes are heavy too... The drinks are spiked...
+0053 [Committee Standard Bearer] | I have to warn the others. The elevator... Fall back to the ground floor...
+0054 [Sales-Pitching Mascot] | Goo-goo-gaaaaaah!
+0055 [Minova] | That's a wrap. Third squad down. Your plan works like a charm, Otoha. They see a clerk and just drop their guard.
+0056 [Otoha] | Only because you make such a convincing Sherlock. A cute little penguin puts everyone at ease. Lugging this suit all the way from Philae paid off.
+0057 [Otoha] | Plus, we still need your bat for anyone who fights off the sleeping potion.
+0058 [Minova] | My bat never fails. One swing knocks them out cold. No way are we letting these guys catch up to Boss.
+0059 [Otoha] | Ah, here comes another batch. Back into character~
+0060 [Minova] | You got it!
+0061 [Sales-Pitching Mascot] | Goo—goo—gah!
+0062 [Lugar y hora] | 17:00, Nebula Month 18th, Desert Monolith, Floor 37
+0063 [Kasimira] | Chaton, covering fire!
+0064 [Chaton] | Descend,==W== World-Ending Light!==W== The great Chaton will pin them in the elevator!
+0065 [Chaton] | Hold still and be baptized by the dark power!
+0066 [Defending Committee Member] | Dammit, their firepower is too heavy! We can't even clear the doors! Are these magic bullets buffed by a Monolith blessing?!
+0067 [Resisting Committee Member] | Hold the line! Her magic isn't infinite. We push the second she swaps her Neo Solution canister!
+0068 [Kasimira] | Now, Fuyuka!
+0069 [Fuyuka] | This punch is for my Master!
+0070 [Chaton] | Whoa, that giant gauntlet shot out like a rocket! So cool! You look all soft and delicate, but your dark power is off the charts!
+0071 [Fuyuka] | N-No, it's not dark power! It's the Monolith blessing I picked based on Iris's notes... I never knew it could hit so hard!
+0072 [Kasimira] | We hold here. As long as we keep the high ground, our crossfire locks down the elevator. No matter how many Committee members they send, they're just target practice.
+0073 [Gunhild] | Don't get cocky!
+0074 [Kasimira] | One slipped through the net. Did your squad shield you?
+0075 [Resisting Committee Member] | Captain Gunhild... This is the last of ... my magic!
+0076 [Gunhild] | Piercer, Form Two! Fire!
+0077 [Kasimira] | Chaton, Fuyuka, take cover!
+0078 [Kasimira] | Cough, cough... Heavy close-range blast. Are you two alright?
+0079 [Fuyuka] | I-I'm fine. Just a few scrapes.
+0080 [Chaton] | The great Chaton only suffered a singed lock of hair! Flawlessly dodged the rest! Shame, though... I almost had a full combo.
+0081 [Gunhild] | You're quick, I'll give you that. But I already won. Once Piercer tags you, you can never escape its lock-on.
+0082 [Gunhild] | Let's see.==W== The White Cat Captain with the shotgun is behind the cabinet.==W== The sniper is behind the potted plant.
+0083 [Gunhild] | Piercer, Form One! Fire!
+0084 [Chaton] | Hey, hey! She's cheating! She has wallhacks!
+0085 [Gunhild] | It's not cheating, you ignorant alley cats. This is a relic bestowed upon me by Lady Angie.
+0086 [Gunhild] | The omniscient God of Grace blesses me. Finding your little hiding spots is child's play!
+0087 [Gunhild] | You pinned my squad long enough. Now it's my turn.
+0088 [Kasimira] | Chaton, Boss was right. Gunhild's cannon really does have this absurd ability.==W== I didn't believe it at first, but I have to admit... ==SEX1== really can see the future.
+0089 [Chaton] | Then let's use Boss's strategy and take down this cheater!
+0090 [Gunhild] | Keep running! Even if you flee to another floor, my Piercer locks on right through the floorboards.
+0091 [Gunhild] | Huh? Only two White Cats in my sights? Where did that white-haired Trekker go? Piercer should be tracking her.
+0092 [Gunhild] | If she isn't hiding around here, the only place left is ...==W== the ceiling!
+0093 [Narración] | Eek!!!
+0094 [Gunhild] | Surrender! You're out of options. The Tyrant is not worth your loyalty!
+0095 [Kasimira] | You're the one out of options.
+0096 [Chaton] | Fuyuka! Use the formation your Master taught you!
+0097 [Gunhild] | Going for close combat? Piercer packs a heavy punch. And even at this range, my lock-on works!
+0098 [Kasimira] | Yes. But you can't aim that barrel in every direction at once.
+0099 [Gunhild] | Despicable... Attacking from three angles at once.
+0100 [Gunhild] | Lady Angie... ==W==This is as far ... as I go.
+0101 [Lugar y hora] | 17:30, Nebula Month 18th, Desert Monolith, Floor 45
+0102 [No. 160] | (What the hell is going on with this Monolith? I hit the Tyrant's lackeys every few floors. It's exactly like...)
+0103 [No. 160] | (... that legendary Monolith of the Tyrant the heroes had to climb.)
+0104 [No. 160] | (I've abused my time stop to get this far. Just five more floors until I catch the Tyrant.)
+0105 [No. 160] | (I have to pave the way for Lady Angie. At any cost.)
+0106 [Chitose] | You must be the arbiter who stops time by harming herself.
+0107 [Chitose] | I am Chitose. So long as I stand here, your filthy gaze shall never cross my blade, let alone touch the hem of my ==SEX11=='s garments.
+0108 [No. 160] | (Another one?==W== The Trekker with the blade. She already knows how my magic works.==W== Heh, the Committee definitely has a mole.)
+0109 [No. 160] | (Doesn't matter. I've been slashing myself this entire climb. I've stockpiled plenty of fear.)
+0110 [No. 160] | Oh God of Grace, if you truly exist... Please stop the clock! Make it stop!
+0111 [No. 160] | Now then, elegant Trekker. You're infected with my Scar. Let's see how long you last.
+0112 [No. 160] | The botanical venom on my dagger plunges its victims into the deepest, darkest terror imaginable.==W== No escape. They just drown in their own fear.
+0113 [No. 160] | And now, magic release.
+0114 [Chitose] | Urgh...
+0115 [No. 160] | Hahaha... It's working!==W== Let me see that delicate, pretty face of yours twist and break in pure terror! I want to see how beautiful you look when you snap!
+0116 [Chitose] | How noisy. I have no desire to listen to such foul drivel.
+0117 [No. 160] | H-How is this possible?! You're poisoned!
+0118 [Chitose] | I am the blade of my ==SEX11==. As long as my ==SEX11== resides in my heart, I fear absolutely nothing!
+0119 [Chitose] | You thought a mundane poison could corrode my spirit? Utterly foolish.
+0120 [Narración] | My ==SEX11==...==P== By now, you must have reached that room. My heart is at peace.==P== Please, allow me to offer this final prayer for your journey ahead...

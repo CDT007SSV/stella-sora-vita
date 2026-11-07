@@ -1,0 +1,174 @@
+# Capítulo 8 · Calor residual · 14B · King of War
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Disappointed Policyholder | Disappointed Policyholder
+N:Former Agent | Former Agent
+N:Newspaper Kid | Newspaper Kid
+N:Novice Trekker | Novice Trekker
+N:Omnisky Aegis Agent | Omnisky Aegis Agent
+N:Omnisky Aegis Executive | Omnisky Aegis Executive
+N:Terrified Imperial Knight | Terrified Imperial Knight
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_136 | Angie
+N:avg1_163 | Greyhorn
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_1303 | Greyhorn
+N:avg3_135 | Claire
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_156 | Guardia Imperial bajito
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_197 | Feagin
+N:avg3_198 | Pandillera genial
+N:avg3_199 | Chica de la pandilla
+N:avg3_200 | Ash District Boy
+N:avg3_207 | Myrsha
+N:avg3_210 | Hazana
+N:avg3_232 | Omnisky Aegis Rep. (M)
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Fourteen
+0002 [Intro] | Lord of War
+0003 [Intro] | The Scepters of Death flood the cities, sparking a massive turf war between oppressed citizens, angry companies, and the Salvation Committee. Blaming herself, Angie puts herself behind bars...
+0004 [Narración] | Several months later.
+0005 [Greyhorn] | I'm ready. Shoot anytime.
+0006 [Angie] | Alright. I'm lined up.
+0007 [Greyhorn] | Ugh.
+0008 [Angie] | Greyhorn! Are you alright?
+0009 [Greyhorn] | I'm fine. The enchanted breastplate stopped the bullet, and the padding cushioned the blow. But ... the force still felt like a battering ram to the chest.
+0010 [Angie] | Impact aside, it stopped the bullet. That is a success. Can we mass-produce this for the Committee?
+0011 [Angie] | The Tyrant and the Desert Scorpions are bleeding our people dry with their hit-and-run tactics.
+0012 [Greyhorn] | The energy cost is massive, and the effect is brief. Enchanting a full suit only buys you thirty minutes. Five casts will drain a Soul Stone completely. The cost-to-duration ratio makes it unviable for the field.
+0013 [Greyhorn] | Plus, armor has gaps. One lucky shot in between the plates and you are dead. Trying to ward those weak points would burn an entire Soul Stone per cast.
+0014 [Angie] | An entire Soul Stone for thirty minutes? I'm no soldier, but blocking a standard magic gunshot shouldn't be that taxing.
+0015 [Greyhorn] | It shouldn't. But magic guns and the Scepters of Death operate entirely differently.==W== A magic gun simply shapes magic energy into a projectile.
+0016 [Greyhorn] | Experienced fighters sense that mana spike,==W== cast a quick ward,==W== and neutralize the hit.
+0017 [Greyhorn] | Enchanted arrows work the same way.==W== You dispel the magic aura first,==W== then parry the wooden shaft.
+0018 [Greyhorn] | Which brings us to the problem. The Scepter does not fire mana. It fires solid metal slugs.
+0019 [Greyhorn] | There is no mana signature to track before impact,==W== and it outpaces any arrow in both speed and power.
+0020 [Greyhorn] | Since we can't see the attacks coming,==W== we have to keep our shields on maximum mana output==W== constantly.
+0021 [Angie] | And we lack the time to refine the magic, or the logistics to forge better armor...
+0022 [Angie] | Heh. The Tyrant has us checkmated.
+0023 [Greyhorn] | I owe you an apology, Lady Angie.==W== I didn't believe ==PLAYER_NAME== was the legendary Tyrant. I thought you were jumping to conclusions.
+0024 [Greyhorn] | Up until now, I was only obeying the Grand Captain. I was going through the motions of helping you, nothing more.
+0025 [Angie] | So these recent battles changed your mind? You believe ==PLAYER_NAME== is the Tyrant now?
+0026 [Greyhorn] | Casualties are expected in war. That is not what convinced me.
+0027 [Greyhorn] | Flooding the cities with the Scepters of Death,==W== planting seeds of chaos across the continent...==W== Who else would orchestrate that but the Tyrant?
+0028 [Angie] | Is that how you see it? Then you've misjudged me, you've misjudged ==PLAYER_NAME==, and you completely misunderstand how this world would end.
+0029 [Greyhorn] | What do you mean?
+0030 [Angie] | The Tyrant brought chaos, yes. But ==SEX3== actions stray entirely from the prophecy.
+0031 [Angie] | Looking back, ==SEX== was never the world-ending Tyrant we thought.
+0032 [Angie] | The one responsible for shaping ==SEX4== into this ... is no one else but...
+0033 [Angie] | Me.
+0034 [Narración] | Meanwhile, at the Omnisky Aegis Business Department in Geminia.
+0035 [Omnisky Aegis Executive] | What's all that noise downstairs?
+0036 [Omnisky Aegis Agent] | That policyholder from earlier is back. His sister was rushed to an Eye of Grace hospital for heart palpitations and fainting. She needs surgery, and he expects us to cover the bills.
+0037 [Omnisky Aegis Executive] | The Eye of Grace? Does he have any idea what they charge? We are not approving that. Deny the claim.
+0038 [Omnisky Aegis Agent] | B-But we don't have a valid reason. Can we deny him outright?
+0039 [Omnisky Aegis Executive] | Do I have to teach you everything? Did he submit a pre-approval request before letting them admit her? Is the surgery considered excessive treatment? Pick one and reject him.
+0040 [Omnisky Aegis Agent] | He says she collapsed on the street and a passerby rushed her to the ER. He has all the diagnostic reports from the Eye of Grace. Everything checks out. If we deny the claim...
+0041 [Omnisky Aegis Executive] | No means no. We hit our payout cap for the month. If we authorize a payout this massive, the Senate will breathe down our necks again...==W== Hand me her file.
+0042 [Omnisky Aegis Agent] | R-Right, here it is...
+0043 [Omnisky Aegis Executive] | ... Perfect. There is our out. Reject his claim for breach of disclosure. Tell him he failed to report a pre-existing condition when he signed up.
+0044 [Omnisky Aegis Agent] | Pre-existing condition? Sorry, but I don't think his sister has any medical history of...
+0045 [Omnisky Aegis Executive] | You idiot, look right here. Does this or does this not say she once had a cavity?
+0046 [Omnisky Aegis Agent] | Huh?
+0047 [Omnisky Aegis Agent] | I am sorry, sir. Because of an irregularity when you opened the policy, we cannot approve your claim.
+0048 [Disappointed Policyholder] | Is that so... I am sorry to bother you. I will figure out another way to pay for the surgery.
+0049 [Omnisky Aegis Agent] | Wait. Even though we can't approve the claim, please take this...==W== It's a little something from my own pocket. I hope your sister recovers soon.
+0050 [Disappointed Policyholder] | I... Thank you! I can't believe there is someone this kind at Omnisky Aegis. I am glad I ran into you today. I will never forget this as long as I live!
+0051 [Omnisky Aegis Agent] | Haha... Kind, yeah right. I'm a spineless coward doing my supervisor's dirty work.
+0052 [Former Agent] | Look at you, dipping into your own savings again.==W== You know privately assisting a canceled policyholder is a strict violation of company policy, right?
+0053 [Omnisky Aegis Agent] | No, wait, it's a misunderstanding! Let me explain!
+0054 [Former Agent] | Relax, I'm messing with you. I already quit, remember? You don't have to worry about me snitching.
+0055 [Omnisky Aegis Agent] | Oh, it's you. Don't scare me like that.==W== Ever since you quit, that garbage boss has been dumping all your unfinished work on me.==W== These clients clearly meet the payout conditions, but he forces me to deny their claims and cancel their policies every single day.
+0056 [Omnisky Aegis Agent] | It kills me watching them walk away with nothing.==W== Anyway, why did you quit? You never told me.
+0057 [Former Agent] | Same exact crap you're dealing with now. He kept denying every claim, saying they did high-risk activities without prior approval.
+0058 [Former Agent] | But my entire client list was Trekkers. Was I supposed to make them file an application and sit around waiting for days every time they climbed a Monolith?
+0059 [Former Agent] | Eventually I realized it was total bullshit. I got pissed, marched up to protest, got the crap kicked out of me ... and was fired on the spot.
+0060 [Omnisky Aegis Agent] | This whole company is rotten to the core...
+0061 [Former Agent] | Damn right. That bastard's a parasite.==W== He took the safety net meant for everyone and turned it into his personal piggy bank.
+0062 [Omnisky Aegis Agent] | Footsteps... It's him! Quick, hide! He's been traveling with a whole squad of armed guards lately. If he catches you, you're dead meat!
+0063 [Former Agent] | Hide? I've been waiting for him. I came here today to settle the score once and for all.
+0064 [Omnisky Aegis Executive] | Well, well. If it isn't the trash I fired the other day.==W== What's this? You even brought a little weapon. Here for revenge?
+0065 [Former Agent] | Hah! Revenge? Don't be silly. You took such great care of me. I'm just here to return the favor.
+0066 [Omnisky Aegis Executive] | Is that right? Let's see you try. You think you can take on my entire escort by yourself?==W== Get her! Throw this loudmouth in the river to feed the fish!
+0067 [Omnisky Aegis Agent] | C-Calm down! Don't do this, you're no match for the Imperial Knights!
+0068 [Former Agent] | Oh, I'm perfectly calm. But this is about to get messy. You'd better stand back.
+0069 [Terrified Imperial Knight] | What the—! Is that ... Scepter of Death?!==W== Oh crap, fall back! Retreat!
+0070 [Omnisky Aegis Executive] | Guh... No way... I specifically prepared ...==W== a top-tier protection scroll... How did you...
+0071 [Former Agent] | Time has changed,==W== boss.
+0072 [Narración] | A few days later. In the Trekker Association outside the Emor City.
+0073 [Myrsha] | Hey, miss! Wait up! You come here a lot?
+0074 [Novice Trekker] | Uh... Yeah. I only started coming around lately.
+0075 [Myrsha] | I'm Myrsha, from the desert. What's your name?
+0076 [Novice Trekker] | Just call me Anna.
+0077 [Myrsha] | Sorry to pry, but I noticed you staring at the board forever. Can't find a good commission?
+0078 [Novice Trekker] | Yeah. Nobody wants a partner. Clients take one look at an average Trekker like me and pass.
+0079 [Myrsha] | I hear you. Standard leather armor, basic sword, fresh to the adventurer life. People size you up fast.
+0080 [Myrsha] | But hey, that's how it works everywhere in Nova.
+0081 [Myrsha] | That's why I've got the perfect weapon for you. Check this out! With this in your hands, clients will be lining up to hire you.
+0082 [Novice Trekker] | Is that ... a magic gun? I've never seen one shaped like that. But honestly, I suck at magic...
+0083 [Myrsha] | Oh, don't worry about that! This is no magic gun.==W== You ever hear of the Scepter of Death?
+0084 [Novice Trekker] | The Scepter of Death? That artifact they keep talking about on the news? I heard it's rare... The metal feels unlike anything I've ever touched.
+0085 [Myrsha] | Hehe, that's right! This is the newest Desert Scorpion product. The Scepter of Death 47.==W== Easy to use, easy to maintain. Even a kid like me can easily aim.
+0086 [Myrsha] | Only 99,999 Dorra. This Scepter came out of a Monolith yesterday. Brand new and all yours.
+0087 [Novice Trekker] | That price seems way too low for a rare Artifact.==W== Is this a scam?
+0088 [Myrsha] | Take it and try it out. If you like it, come back in a week and pay. If not, bring it back within seven days. No questions asked.
+0089 [Novice Trekker] | A Scepter of Death...! Hehe, the news calls you villains, but you Desert Scorpions are actually pretty sweet.
+0090 [Novice Trekker] | Alright, I'll borrow it then. Thanks!
+0091 [Myrsha] | Pleasure doing business with you!
+0092 [Amber] | Wow...==W== You sold it quick.
+0093 [Myrsha] | Nah, it's not me! Thank Boss. ==SEX1== pulled all kinds of Scepters from the Wishing Box. We're cashing in big time ♪
+0094 [Hazana] | But honestly, I expected more. I thought the Scepter of Death had some legendary power. Turns out it's just a handy tool.
+0095 [Iris] | That works in our favor. Once it's widespread, people will see it's not the apocalyptic weapon from the prophecies.
+0096 [Noya] | And once that happens, all those rumors about the Tyrant destroying the world will fall apart on their own.
+0097 [Hazana] | Sell the weapon cheap or give it away, then make a profit on the ammo. Haha, Boss is a damn business genius.
+0098 [Hazana] | Thanks to you, we Desert Scorpions can walk through Emor with our heads held high under the Boss Accord banner. I mean it. Thank you.
+0099 [Tú] | We look out for each other. We never would have escaped Angie's assault without your help.
+0100 [Tú] | Besides, the Scorpions have taken their fair share of hits lately too.
+0101 [Hazana] | We aren't afraid of a few casualties to get what we want.
+0102 [Noya] | Here's the weird part, though. I heard the big companies are hunting Angie even harder now that the Scepters of Death are everywhere.
+0103 [Noya] | If these Scepters are what's pushing the workers to rebel, you'd think the Senate would be gunning for us instead of her.
+0104 [Hazana] | Ha! They would love to get rid of us. But we're the only ones who know how to wish up more Scepters, so they can't afford to touch us.
+0105 [Hazana] | Trace it all back and this whole mess is Angie's fault anyway. Coming after us would be a waste of time.
+0106 [Tú] | A few major companies have actually approached me in secret. They want to partner up and sell the Scepters of Death together.
+0107 [Tú] | I turned them down. Told them Boss Accord is too busy dodging the Salvation Committee to think about partnerships right now.
+0108 [Tú] | I'm sure they got the hint—deal with the Committee first, and then we talk business.
+0109 [Iris] | You're even getting outside companies to do your work. That's some terrifying strategy, Boss.
+0110 [Amber] | Boss is smart.
+0111 [Iris] | But ... are you sure about this? Flooding the market with these Scepters... I have a bad feeling. Word is a top executive at Omnisky Aegis has been murdered.
+0112 [Myrsha] | You worry too much. Those corporate suits had it coming. Besides, we're putting power in the hands of people who never had a way to fight back.
+0113 [Myrsha] | If you ask me, this is way healthier than the old days, when your worth was measured by your magic and your wallet.
+0114 [Tú] | I see where Myrsha's coming from, but Iris isn't wrong to worry.
+0115 [Tú] | Once we're done with the Salvation Committee, I need to rethink our distribution strategy for the Scepters of Death.
+0116 [Newspaper Kid] | Breaking news! Heretic group Salvation Committee disbands!==W== Leader Angie apprehended by Knight Captain Greyhorn, awaits trial!
+0117 [Tú] | Angie... They actually caught her?!
+0118 [Narración] | Meanwhile, in the Imperial Guard Prison, Ash District in Emor.
+0119 [Greyhorn] | Right this way, Lady Angie.
+0120 [Angie] | Drop the title, please. I'm just a prisoner you arrested ... awaiting my trial.
+0121 [Greyhorn] | That's just Scarlet Sights sensationalizing. You disbanded the Salvation Committee yourself and walked in here to face trial voluntarily.
+0122 [Angie] | Heh, never mind the details. I made my mistakes, and now I have to face the consequences.
+0123 [???] | That voice... Serena? Is that you?!
+0124 [Angie] | You were on the hunting squad back then... Clara, right?
+0125 [Claire] | It's Claire!==W== Ugh... Forget it.==W== What are you doing here?
+0126 [Angie] | I misjudged ==PLAYER_NAME==. I believed ==SEX== was the Tyrant destined to destroy the world. I caused irreparable harm, and now I face judgment.
+0127 [Claire] | ==PLAYER_NAME==? You mean the Boss. Small world.
+0128 [Angie] | Small world?
+0129 [Claire] | This whole block is full of people ==SEX== took down.
+0130 [Claire] | The babbling mess next door is Feagin. Total scumbag who ran a child labor ring.
+0131 [Feagin] | Agh... Philae... Philae...
+0132 [Claire] | She couldn't stomach losing the company war. Got mixed up with Nocturn Eterna, made a Monolith wish beyond her control, and now she's ... this.
+0133 [Claire] | And those are Joseph and Lady Gray next to me. Joseph's whatever, but Lady Gray's scrap metal after Darcia squeezed every last bit of value out of her.
+0134 [Lady Gray] | Tch... Shut your mouth, Claire.==W== When I get out of this hole, I'll collect—with interest.
+0135 [Joseph] | Ah, Lady Angie, voice of the Grace Imperium. Retiring to a cell isn't the worst fate, but it does grow dull.==W== Care to help us old bones pass the time?
+0136 [Angie] | ... I see. So this is where my journey ends.
+0137 [Narración] | Angie steps into her cell, lies down on the cold stone bed, and closes her eyes.

@@ -1,0 +1,371 @@
+# Capítulo 8 · Calor residual · Final: Mom
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Allie? | Allie?
+N:Brave Knight | Brave Knight
+N:Calm Knight | Calm Knight
+N:Imperial Knights | Imperial Knights
+N:Iris & Noya & Amber | Iris & Noya & Amber
+N:Knight Captain | Knight Captain
+N:Knight Growing Braver | Knight Growing Braver
+N:Lightly Wounded Knight | Lightly Wounded Knight
+N:Mischievous Kid | Mischievous Kid
+N:Quiet Kid | Quiet Kid
+N:Scorched Knight | Scorched Knight
+N:Serious Knight | Serious Knight
+N:Severely Wounded Knight | Severely Wounded Knight
+N:The Kids | The Kids
+N:Veteran Knight | Veteran Knight
+N:avg1_103 | Amber
+N:avg1_108 | Kasimira
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_1207 | Iris
+N:avg1_136 | Angie
+N:avg1_139 | Allie
+N:avg1_1996 | Noya
+N:avg1_1997 | Soldado
+N:avg2_977 | Alpha Boar
+N:avg3_100 | Sylar
+N:avg3_1239 | Guardia Imperial
+N:avg3_1240 | Guardia Imperial
+N:avg3_1241 | Guardia Imperial
+N:avg3_129 | Guardia Imperial
+N:avg3_1313 | Allie
+N:avg3_146 | Residente del Distrito de Oro
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_156 | Guardia Imperial bajito
+N:avg3_157 | Guardia Imperial
+N:avg3_167 | Chica
+N:avg3_168 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg3_183 | Joseph
+N:avg3_184 | Lady Gray
+N:avg3_200 | Ash District Boy
+N:avg3_210 | Hazana
+N:avg3_968 | Cowardly Knight
+N:avg4_104 | Stone on the Left
+N:avg4_105 | Stone on the Right
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | The End
+0002 [Intro] | Mom
+0003 [Intro] | Joseph's new weapon catches you off guard, ending your life. The New Star Guild perishes, and Allie blames herself for failing to protect her children. Consumed by grief, Allie leaves Mirage alone for vengeance...
+0004 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0005 [Bernina] | Welcome back, Tyrant.
+0006 [Virigia] | Welcome back. You sparked a revolution in Nova with the Scepters of Death.
+0007 [Tú] | A ... revolution?==W== I ruined everything.
+0008 [Tú] | I created chaos to protect my people, only to fail them miserably...
+0009 [Bernina] | Hehe. Change doesn't mean progress. Nova sinking into chaos is still a revolution.
+0010 [Bernina] | Even ordinary folks with no magic can kill the high-and-mighty guarded by mages. That change isn't necessarily bad.
+0011 [Virigia] | But the chaos you unleashed will eventually turn on you.
+0012 [Virigia] | And judging by history, victory ultimately goes to whoever controls the resources. Still, it'd be nice if things could change, even just a little.
+0013 [Tú] | The weapon that killed me ... seemed to be some kind of landmine.
+0014 [Bernina] | Mm. It wasn't something you wished into being, but a brand-new Scepter of Death whose prayer was invented by Joseph.
+0015 [Bernina] | It's incredibly powerful. Even with bulletproof armor, Greyhorn was still blown in half.
+0016 [Tú] | Did Noya and the others ... make it?
+0017 [Virigia] | Well...
+0018 [Virigia] | You should see the recordings for yourself. The mirrors are full.
+0019 [Quiet Kid] | Mom, dinner is yummy!
+0020 [Allie] | Yeah? Want seconds? There's plenty of meat and veggies left.
+0021 [Mischievous Kid] | Mom's not looking. I'm making a run for it.
+0022 [Allie] | Not so fast...
+0023 [Allie] | You haven't finished your greens!
+0024 [Mischievous Kid] | No, no, no! I'm not eating my greens!
+0025 [Allie] | You can't be a Trekker like your big sisters if you skip your greens.
+0026 [Mischievous Kid] | That's a lie! Trekkers need to be strong, and you get strong by eating meat!
+0027 [Allie] | The Wilds don't care if you're picky. When supplies run out, you eat whatever monsters you catch or roots you dig up.
+0028 [Allie] | Those sisters you look up to? They've had to eat tree bark.
+0029 [Mischievous Kid] | Ew, they have...?==W== But greens taste bitter...
+0030 [Allie] | Hmm. I've heard kids' taste buds are different than the adults'. Some greens do taste bitter to you.
+0031 [Allie] | Tell you what. I'll cook them better next time. But today, my brave little Trekker needs to pretend these greens are Stellaroids and wipe them out.
+0032 [Allie] | Do that, and everyone gets a piece of candy.
+0033 [Mischievous Kid] | Candy! Got it. I'm a brave Trekker...
+0034 [Mischievous Kid] | Watch me wipe them out!
+0035 [Kasimira] | Director Allie.
+0036 [Allie] | Kasimira!
+0037 [Allie] | Come in and sit. Any news from the New Star Guild or Boss?
+0038 [Kasimira] | I'm sorry...
+0039 [Kasimira] | These are all that's left of them...
+0040 [Allie] | Wh-What did you say?!
+0041 [Narración] | A few months ago.
+0042 [Noya] | Everything packed and ready?
+0043 [Amber] | Yeah. All set.
+0044 [Iris] | Keep it down. You'll wake Aunt Allie.
+0045 [Allie] | You don't want to wake who up?
+0046 [Allie] | Found a note in the kitchen too... Where are you off to?
+0047 [Noya] | ... We want to go protect ==PLAYER_NAME==.
+0048 [Iris] | ==SEX1== is out there alone. Probably not eating or sleeping right.
+0049 [Allie] | Help with the investigation? Aren't the Desert Scorpions on that?
+0050 [Amber] | I don't trust Hazana.
+0051 [Allie] | Trust aside...
+0052 [Allie] | I don't think Boss will tell you where ==SEX== is.
+0053 [Iris] | Boss knows the danger. ==SEX1== has been protecting us since teaming up with the Desert Scorpions.
+0054 [Amber] | But we want to protect ==SEX4== too.
+0055 [Noya] | So we're going straight there...
+0056 [Noya] | ==SEX1== can't say no to us!
+0057 [Allie] | Go on, then.
+0058 [Noya] | Really? I thought you'd...
+0059 [Allie] | Thought I'd stop you?==W== The kids I raised would never abandon a friend.
+0060 [Noya] | Mom!
+0061 [Allie] | Oh, now I'm Mom.==W== Well, as your mother, I have one request.
+0062 [Iris] | We're listening, Mom.
+0063 [Allie] | Bring Boss home so we can finish that dinner. And once you find ==SEX4==, call me so I know you're safe.
+0064 [Amber] | We will!
+0065 [Allie] | Why... Why didn't I go with them...?
+0066 [Kasimira] | Director Allie, it's not your fault. You couldn't have left.
+0067 [Allie] | Who killed them?
+0068 [Allie] | Was it Angie? The one who was after Boss?
+0069 [Kasimira] | Not her. Angie had no part in the Scepter trade. She vanished in the Monolith over a year ago.
+0070 [Kasimira] | It was a former United Harvest employee called Lady Gray.
+0071 [Allie] | Who ... is that?
+0072 [Kasimira] | She committed a string of crimes in Philae, and was locked up after the Darcia incident.
+0073 [Kasimira] | The New Star Guild and Boss had already beaten her once. But we never expected...
+0074 [Kasimira] | ... she'd be desperate enough to betray her own employers to kill Boss.
+0075 [Kasimira] | She used them as bait, deliberately leaked the location of a secret meeting between the Senators...
+0076 [Kasimira] | ... and tricked Boss into thinking it was the perfect chance to take them all out.
+0077 [Kasimira] | But the warehouse was rigged. It was packed with explosives.
+0078 [Kasimira] | By the time we got there... We found nothing but ... this.
+0079 [Allie] | This is ... Iris's...
+0080 [Kasimira] | Lady Gray probably took Amber and Noya's weapons as trophies. They all died in the fire. Boss was with them.
+0081 [Kasimira] | Director Allie, I'm so sorry for your loss... I'll leave you be.
+0082 [Narración] | Wait!
+0083 [Narración] | Tell me where she is.
+0084 [Kasimira] | Director Allie...
+0085 [Allie] | I am not the director anymore.
+0086 [Allie] | I am Allie.
+0087 [Allie] | Noya's mother.
+0088 [Allie] | Iris's mother.
+0089 [Allie] | Amber's mother.
+0090 [Allie] | A mother ... to every child in this orphanage.
+0091 [Narración] | Why them? And Boss... Why did this have to happen?!
+0092 [Narración] | Now tell me. Tell me where that animal is!
+0093 [Kasimira] | Lady Gray took her dead employers' money and hired the Imperial Guard as her personal escort. You yourself...
+0094 [Allie] | I am not asking. Nor am I begging.
+0095 [Allie] | I won't drag your people into this. I am going to avenge my children with my own hands!
+0096 [Narración] | Now!
+0097 [Narración] | Right now!
+0098 [Narración] | Tell me!
+0099 [Allie] | Tell me where she is!!
+0100 [Mischievous Kid] | Mom, where are you going?
+0101 [Allie] | Be good and listen to Kasimira and Chaton, okay? Mom has to take a trip outside the desert. I have something important to take care of.
+0102 [Kasimira] | Director Allie... Please reconsider. If we take over the orphanage...
+0103 [Allie] | Some of White Cat's kids live here. I know you'll keep them safe. You've kept peace in Mirage, haven't you?
+0104 [Kasimira] | Alright. We will be here waiting for your return. All of us.
+0105 [Allie] | Mhm...
+0106 [Allie] | I am just fulfilling a mother's duty.
+0107 [Narración] | That day, Allie left Mirage.
+0108 [Narración] | From that day on, the Senators' nightmares bore a new name:
+0109 [Narración] | The Dark-Footed Cat.
+0110 [Narración] | One by one, everyone who conspired against the Boss and doomed the New Star Guild died.
+0111 [Narración] | No mercy. No trial. Only the footsteps of death in the dark. She was a silent cataclysm, repaying every blood debt in full.
+0112 [Narración] | Soon, only one name remains on Allie's list: Lady Gray.
+0113 [Narración] | Desperate to survive, the obscenely wealthy Lady Gray hired the finest protection the Imperial Guard could offer, booking an entire hotel for their knights.
+0114 [Narración] | It is the tightest, most expensive protection money could buy on Nova.
+0115 [Calm Knight] | Watch out! The Dark-Footed Cat is here!
+0116 [Narración] | ==Off==No army. No horns. No declaration.
+0117 [Narración] | ==Off==Only one woman, whose world had already lost all its normal color.
+0118 [Narración] | ==Off==Like an execution...
+0119 [Narración] | ==Off==... that is bound to befall.
+0120 [Knight Captain] | Form ranks!
+0121 [Knight Captain] | Shields up! Level lances!
+0122 [Imperial Knights] | Ready!
+0123 [Knight Captain] | Hold steady! She's only one woman!
+0124 [Noya] | Mom, look! We caught a huge boar in the forest today!
+0125 [Amber] | The slingshot you made works great.
+0126 [Noya] | Iris froze it with a Shwoooosh, and then Amber and I charged in and knocked it down with a Baaang!
+0127 [Iris] | I-It's not a big deal... Hehe... It was Noya who saved the day in the end.
+0128 [Amber] | Because she carried that massive boar back all on her own!
+0129 [The Kids] | We're hungry...
+0130 [Allie] | Hehe, easy now.==W== I'll get dinner started. Just wait a little longer~
+0131 [Calm Knight] | Captain!!!
+0132 [Knight Captain] | (This isn't like that duel back then...)
+0133 [Knight Captain] | (What we're facing right now ... is a war.)
+0134 [Allie] | Because... Butchering a boar this size is no small task...
+0135 [Cowardly Knight] | What the hell is she talking about?!
+0136 [Brave Knight] | Don't just stand there! Move!
+0137 [Allie] | Hang it up to drain the blood first... Then slit it open down the belly...
+0138 [Brave Knight] | Too ... fast...
+0139 [Knight Growing Braver] | You monster! Take this!
+0140 [Allie] | And the tusks ... make for wonderful crafting materials.
+0141 [Noya] | Wow, you're so strong, Mom! I couldn't even dent them with my sword...
+0142 [Knight Growing Braver] | She snapped my lance ... barehanded.
+0143 [Allie] | Heh, I'm your mom after all. A boar this size... Its hide is tough like armor. I can use them to make you some gear.
+0144 [Knight Captain] | Spread out! Nobody engage but me!
+0145 [Veteran Knight] | I'll cover you with magic, Captain!
+0146 [Knight Captain] | Do it!
+0147 [Allie] | Hey, Amber. The soup still needs time to simmer. Otherwise, it'll upset your stomach.
+0148 [Noya] | Mom, if the soup's going to take forever, let's grill some meat! I'm craving that!
+0149 [Allie] | Grilled meat? Why not.==W== Wild boar tastes amazing on the grill. You'll have to help me keep an eye on it, though, make sure it doesn't burn.
+0150 [Veteran Knight] | Primal flames,==W== surge forth and incinerate my foe!
+0151 [Allie] | Found it...==W== This cut is absolutely perfect for grilling.
+0152 [Scorched Knight] | Aaaagh!==W== It burns! My armor... It's melting!
+0153 [Knight Captain] | You monster!
+0154 [Scorched Knight] | Captain... Help...
+0155 [Knight Captain] | Dark-Footed Cat! Take me on!
+0156 [Allie] | Oh my... A little overdone. I was wondering why I smelled something burning... Mom was so careless.
+0157 [Knight Captain] | Dammit!
+0158 [Allie] | So much meat left...==W== Gotta prep it fresh. The kids are waiting…
+0159 [Veteran Knight] | Primal flames—
+0160 [Knight Captain] | Stop! Drop the spell!
+0161 [Veteran Knight] | But—
+0162 [Knight Captain] | Your spells hit hard.
+0163 [Knight Captain] | But you're missing her and roasting our own people...
+0164 [Knight Captain] | I can't listen to another knight burn alive.
+0165 [Amber] | Wow—smells amazing!
+0166 [Noya] | I'm starving!
+0167 [Iris] | Hehe, just watch the heat and it won't burn.
+0168 [Knight Captain] | Hah... Hah...
+0169 [Serious Knight] | We're the last ones standing.
+0170 [Calm Knight] | ... Is there any hope?
+0171 [Veteran Knight] | Get to the Captain. I'll buy us time.
+0172 [Veteran Knight] | Tranquil waters,==W== rise as mist and blind her!
+0173 [Veteran Knight] | She took the bait...
+0174 [Veteran Knight] | Wait! She's not even looking at me!
+0175 [Veteran Knight] | Captain!
+0176 [Knight Captain] | She stopped my hardest strike ... with just her left hand...
+0177 [Allie] | Sweethearts, come!==W== Time for dinner.
+0178 [Lightly Wounded Knight] | Captain, you're too badly wounded!
+0179 [Serious Knight] | I can hold her off. Captain, get out of here!
+0180 [Veteran Knight] | You're the only one who can still make it... We can't run anymore.
+0181 [Severely Wounded Knight] | It doesn't matter if we die... As long as you live... The unit can rebuild.
+0182 [Allie] | Just set this dish on the table ... and...
+0183 [Allie] | Done~
+0184 [Knight Captain] | ... Enough.
+0185 [Imperial Knights] | Captain...
+0186 [Knight Captain] | ... Stop.
+0187 [Knight Captain] | Please, stop.
+0188 [Knight Captain] | Our contract was to protect the client. For the honor of the Imperial Guard, we had to fulfill it.
+0189 [Knight Captain] | But it's over... We surrender. As Commander, I take full responsibility.
+0190 [Knight Captain] | My hands, my eyes, my legs, my life... Take whatever you want.
+0191 [Knight Captain] | Just ... spare my people.
+0192 [Veteran Knight] | Captain, no!
+0193 [Knight Captain] | Shut up!
+0194 [Knight Captain] | ... I took on this contract, and I brought you here. We've lost enough people today.
+0195 [Allie] | You have people you want to protect, too?
+0196 [Knight Captain] | Yes, I do... My people get to live, right?
+0197 [Allie] | Take me to Lady Gray.
+0198 [Knight Captain] | ... Come with me.
+0199 [Veteran Knight] | But Captain, what about the hefty penalty? And what are we going to tell the company?
+0200 [Knight Captain] | I will take full responsibility.
+0201 [Lady Gray] | You're finally back! Well? Is that madwoman dead?
+0202 [Lady Gray] | ... What happened to you?
+0203 [Knight Captain] | The contract is terminated. Here's your advance and the penalty fee.
+0204 [Lady Gray] | What is this? Are you out of your mind? I'm not terminating the contract! Keep your Dorra. I want you to protect me!
+0205 [Lady Gray] | I paid for my safety! I paid you to die for me, not to shove a piece of paper in my face. Where's the Imperial Guard's honor?
+0206 [Knight Captain] | Honor? I heard you once used your own employers as bait, then stole everything they owned.
+0207 [Knight Captain] | But here I am, returning your advance and paying the penalty. I'd say I'm upholding the Guard's honor just fine.
+0208 [Knight Captain] | She's all yours.
+0209 [Narración] | ==Off==Dark-Footed Cat.
+0210 [Lady Gray] | No... No. Wait! Come back!
+0211 [Lady Gray] | I'll pay you more Dorra!
+0212 [Lady Gray] | Get back here! This is an order!
+0213 [Knight Captain] | The Imperial Guard doesn't take your orders anymore.
+0214 [Lady Gray] | I know... I know you're here because of the New Star Guild.
+0215 [Lady Gray] | Look, I was only after the Boss! I never meant to hurt them. It was an accident! A complete accident!
+0216 [Lady Gray] | W-Wait... You want these, right? I paid a fortune to fix them!
+0217 [Lady Gray] | Here, take their weapons! I swear, I've prayed to the God of Grace for them every single day since it happened. Let me live, and I'll give you anything. Dorra, Artifacts, intel...
+0218 [Lady Gray] | AHHH—!
+0219 [Lady Gray] | Cough... Cough...==W== Ahh...==W== Ugh, ugh...
+0220 [Allie] | From now on...
+0221 [Allie] | You will never use that mouth to spin cheap lies and play people for fools.
+0222 [Lady Gray] | Urgh! Urgh! Urgh... Ahh... Ahh...
+0223 [Allie] | And you will never use those hands to toy with the lives of others.
+0224 [Lady Gray] | Ugh... Ugh—Ugh...!==W== Cough...==W== Ugh...
+0225 [Allie] | Since you clawed your way to the top by crushing everyone in your path...
+0226 [Narración] | ==Off==From now on, enjoy being a maggot...
+0227 [Narración] | _NOT_IN_LOG_==Off==... and crawl your way through the dirt.
+0228 [Narración] | ==Off==... and crawl your way through the dirt.
+0229 [Allie] | Alright.==W== Did everyone get enough to eat?
+0230 [Iris & Noya & Amber] | We're stuffed!
+0231 [Allie] | Good.
+0232 [Allie] | Well, since you're full... Go brush your teeth and get ready for bed.
+0233 [Noya] | We played so much today. I'm sleepy...
+0234 [Iris] | Yeah, and cooking together took forever. It got late so fast...
+0235 [Amber] | Mom. Dinner was really good.
+0236 [Iris] | Thanks, Mom.
+0237 [Noya] | Thaaaanks a million, Mom!
+0238 [Amber] | Thank you, Mom.
+0239 [Narración] | Mom!
+0240 [Allie] | I...
+0241 [Allie] | I met these wonderful children once...
+0242 [Allie] | All I wanted was to be someone they could rely on. Someone they would love...
+0243 [Allie] | I mimicked the adults around me and learned how to care for them, how to protect them, how to be a mother...
+0244 [Narración] | _NOT_IN_LOG_==Off==It's all==A1.5==
+0245 [Narración] | _NOT_IN_LOG_==Off==your==A1.3==
+0246 [Narración] | _NOT_IN_LOG_==Off==fault==A0.8==
+0247 [Narración] | _NOT_IN_LOG_==Off==fault==A0.8==
+0248 [Narración] | _NOT_IN_LOG_==Off==fault==A0.6==
+0249 [Narración] | _NOT_IN_LOG_==Off==fault==A1.2==
+0250 [Narración] | ==Off==It's all your fault.
+0251 [Narración] | ==Off==You failed to protect them.
+0252 [Narración] | ==Off==You knew the danger. But you let them go.
+0253 [Narración] | ==Off==If only you had gone with them to help Boss...
+0254 [Allie?] | They wouldn't have...
+0255 [Narración] | The orphanage...
+0256 [Allie] | I never liked that name...==W== But no matter what, it was ... our home.
+0257 [Allie] | None of us knew what our real parents looked like. But in there, I was their mother.
+0258 [Allie] | I gave them everything I had. Every bit of love I could offer...
+0259 [Allie] | I prayed they would never walk my path. Never end up like me...
+0260 [Allie] | I wanted them to grow up safe. Carefree and innocent, holding onto their dreams...
+0261 [Allie] | What choices would they make when they grew up? What kind of adults would they become?
+0262 [Allie] | I had no idea, of course.
+0263 [Allie] | Because that was their future... Theirs alone.
+0264 [Allie] | But...
+0265 [Allie] | Why...? Why my girls? How did it all go so wrong...?
+0266 [Allie?] | You know exactly why. It is all your fault...
+0267 [Allie] | My fault? No... No, it isn't. It isn't my fault...
+0268 [Allie?] | It's all your fault...
+0269 [Allie] | It isn't! Th-They were just here... Right beside me... Laughing...
+0270 [Narración] | ==Off==It's all your fault…
+0271 [Narración] | _NOT_IN_LOG_==A1.5====Off==All of this... All of this　　　　　All of this... All of this All of this... All of this
+0272 [Narración] | _NOT_IN_LOG_==Off==All of this... All of this　　　　　All of this... All of this All of this... All of this
+0273 [Allie] | Noya... Iris... Amber...
+0274 [Narración] | ==Off==... Is your fault…
+0275 [Allie] | Alright, alright, girls! Dinner's over.
+0276 [Allie] | It's already late. Be good and go to bed now.
+0277 [Allie?] | It's all your fault.
+0278 [Allie] | A dream... Right, this is only a bad dream...
+0279 [Narración] | It's all your fault.
+0280 [Allie] | That's it. It has to be a nightmare!
+0281 [Allie] | I haven't woken up yet. That's all.
+0282 [Narración] | ==Off==Haha... Once I wake up, everything will go back to normal...
+0283 [Narración] | ==Off==They will run into my arms, laughing and playing like they always do...
+0284 [Narración] | ==Off==It's all your fault.
+0285 [Allie] | Ah... If it's just a dream, there's no rush... Let's sing a song...
+0286 [Allie] | I'll sing that one... The lullaby I always sang to them when they were little.
+0287 [Allie] | If I keep singing... I'll wake up...
+0288 [Narración] | ==Off==It's all your fault.
+0289 [Narración] | ...==W==...==W==...==W==...==W==
+0290 [Allie] | Don't be afraid, my darlings. Don't be afraid...
+0291 [Allie] | Mom chased all the bad guys away...
+0292 [Allie] | So come home... Come home with Mom.
+0293 [Allie] | Come, come here... Mom will never let you face the scary world alone again.
+0294 [Allie] | Girls... Where are you going? Come back...
+0295 [Allie] | Please don't leave Mom behind...
+0296 [Allie] | Mom will keep you safe...
+0297 [Allie] | This time ... I'll protect you all. I promise.
+0298 [Allie] | Please...
+0299 [Allie] | Give me my children back.
+0300 [Allie] | Let's all go home...
+0301 [Virigia] | That is what happened after you died.
+0302 [Bernina] | That mother turned into a demon the moment she learned her children died.
+0303 [Virigia] | I suppose that is also a mother's love.
+0304 [Tú] | What... What have I done...
+0305 [Bernina] | You only used the Monolith's Artifact to protect yourself.
+0306 [Bernina] | You learned from Darcia. You kept the Desert Scorpions in check, and even convinced them to stop selling the Scepters of Death.
+0307 [Bernina] | But some power can't be put down once you pick it up.
+0308 [Tú] | I understand. The moment I started spreading the Scepters of Death to protect myself, there was no way the Novians would ever give up a weapon this convenient.
+0309 [Tú] | Anyone with the means would want a Scepter of Death, even if it were only for self-defense.
+0310 [Tú] | The best solution for the individual turned out to be the worst possible outcome for Nova.
+0311 [Tú] | I thought I had it all under control. Instead, I got my friends killed, broke Allie, and set Nova on fire.
+0312 [Tú] | Vita, open the door.==W== I am going to change everything.
+0313 [Vita] | Your command is my will.
+0314 [Hazana] | Made your choice, Boss?==W== Desert Scorpions fear absolutely nothing. Provided you can wish that Artifact into existence for us.
+0315 [Hazana] | Taking on the Salvation Committee? Not a problem for us. Out here in the desert, scorpions don't have natural predators.
+0316 [Tú] | I appreciate the offer,==W== but I won't wish for the Scepters of Death again. Sorry, Hazana.
