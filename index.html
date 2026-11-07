@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+<link rel="preconnect" href="https://stellasora.miraheze.org">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="manifest" href="manifest.webmanifest"/>
@@ -752,7 +755,7 @@ function renderBanners(){
     const ch=[b.img||"",...(b.imgAlts||[])], per=b.start?fdCorta(b.start)+" → "+fdCorta(b.end)+" · "+b.kind:(b.period||"");
     return `
   <div class="mode-card" onclick="window.open('${b.url}','_blank')">
-    <img src="${ch[0]}" alt="${esc(b.name)}" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/>
+    <img src="${th(ch[0])}" alt="${esc(b.name)}" data-alts='${JSON.stringify(ch)}' loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="evErr(this)"/>
     <div class="body"><h3>${esc(b.name)}</h3><p>${esc(per)}</p>${b.featured?`<p>Destacado: ${esc(b.featured)}</p>`:''}${st.t?`<div class="st${st.on===2?' off':''}">${st.on===2?'⛔':st.on?'🕒':'🟢'} ${st.t}</div>`:''}</div>
   </div>`}).join("");
 }
@@ -770,17 +773,19 @@ document.getElementById("modes-list").innerHTML = '<div class="hm-subgrid">'+MOD
 function rChaps(){document.getElementById("chaps").className="gx-grid";document.getElementById("chaps").innerHTML = CHAPS.map((c,i)=>{
   const sp=/\.5$/.test(String(c.number)),num=String(c.number),big=num==="0"?"✦":(sp?"★":(num.length<2?"0"+num:num));
   return `<div class="gx" data-go="ch/${c.number}">
-    <img class="bg" src="${c.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <img class="bg" src="${th(c.img,420)}" data-full="${c.img}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="thErr(this)"/>
     <span class="gx-n">${big}</span>
     <div class="gx-t"><small>${num==="0"?"Antes del capítulo 1":(sp?"Especial":"Capítulo")+" "+c.number}</small><b>${c.titleEs}</b></div>${c.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rChaps();
 
+function th(u,w){return (/Special:FilePath\//.test(u)&&u.indexOf('?')<0)?u+'?width='+(w||480):u}   // miniatura de la wiki (mucho mas ligera) para listas
+function thErr(i,mode){const f=i.dataset.full;if(f&&i.src!==f){i.dataset.full='';i.src=f}else if(mode==='hide')i.style.visibility='hidden';else i.remove()}
 function evErr(i){const a=JSON.parse(i.dataset.alts||"[]");if(a.length){i.src=a.shift();i.dataset.alts=JSON.stringify(a)}else i.remove()}
 const evChain=e=>[...(e.alts||[]),e.img];
 function rEvents(){document.getElementById("events-list").className="ge-list";document.getElementById("events-list").innerHTML = EVENTS.map((e,i)=>{
   const ch=evChain(e);
   return `<div class="ge" data-go="ev/${e.id}">
-    <div class="ge-i"><img src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/></div>
+    <div class="ge-i"><img src="${th(ch[0],640)}" alt="" data-alts='${JSON.stringify(ch)}' loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="evErr(this)"/></div>
     <div class="ge-r"><span>${esc(e.name)}</span></div>${e.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rEvents();
 function showEvent(id){
@@ -800,7 +805,7 @@ function showEvent(id){
 
 function rNova(){document.getElementById("novatimes-list").className="gx-grid";document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
   return `<div class="gn" data-go="nt/${n.id}">
-    <div class="gn-f"><img src="${n.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"/><span class="gn-tag">#${n.number}</span></div>
+    <div class="gn-f"><img src="${th(n.img,420)}" data-full="${n.img}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="thErr(this,'hide')"/><span class="gn-tag">#${n.number}</span></div>
     <div class="gn-t">${esc(n.name)}</div>${n.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rNova();
 function showNova(id){
@@ -858,7 +863,7 @@ function renderC(){
   document.getElementById('cclear').hidden=!hay;
   document.getElementById("clist").innerHTML = '<div class="gc-grid">' + list.map(c=>`
     <div class="gc r${c.rarity}" data-el="${c.element}" data-id="${c.id}">
-      <img class="gc-i" loading="lazy" alt="" src="${portC(c)}" referrerpolicy="no-referrer" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${c.imageUrl}'}else this.style.display='none'">
+      <img class="gc-i" loading="lazy" decoding="async" alt="" src="${portC(c)}" referrerpolicy="no-referrer" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${c.imageUrl}'}else this.style.display='none'">
       <span class="gc-el">${elIcon(c.element)}</span>${c.role?`<span class="gc-role ${c.role}">${ROLE_ES[c.role]||c.role}</span>`:""}
       <div class="gc-nm"><small>${estr(c.rarity,11)}</small>${c.name}</div>
     </div>`).join("") + '</div>';
@@ -1010,7 +1015,7 @@ function renderD(){
   }).sort((a,b)=>b.rarity-a.rarity||a.name.localeCompare(b.name));
   document.getElementById("dlist").innerHTML = '<div class="gd-grid">' + list.map(d=>`
     <div class="gd r${d.rarity}" data-el="${d.element}" data-url="${d.wikiUrl}">
-      <div class="gd-a"><img class="gd-i" loading="lazy" alt="" src="${d.imageUrl}" data-alts='${JSON.stringify(d.imageAlts||[])}' referrerpolicy="no-referrer" onerror="evErr(this)">
+      <div class="gd-a"><img class="gd-i" loading="lazy" decoding="async" alt="" src="${d.imageUrl}" data-alts='${JSON.stringify(d.imageAlts||[])}' referrerpolicy="no-referrer" onerror="evErr(this)">
       <span class="gc-el">${elIcon(d.element)}</span><span class="gd-s">${estr(d.rarity,11)}</span></div>
       <div class="gd-n">${d.name}</div>
     </div>`).join("") + '</div>';
@@ -1378,15 +1383,25 @@ function dcFix(x){
   x.titulo=t;x.texto=L.join("\n");return x}
 function dcOverlay(x){
   if(!window.ssvOverlay)return;
-  const m=String(x.url||"").match(/(?:x|twitter|fixupx|fxtwitter|vxtwitter)\.com\/[^/]+\/status\/(\d+)/),ok=/^https:\/\//.test(x.url||"");
-  const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-discord">Anuncio</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div>
-   <h2 class="ovt">${esc(x.titulo)}</h2><div class="ovd">${nvFecha(x.fecha)}</div>
-   ${x.img?`<img class="ovi" src="${esc(x.img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
-   ${x.texto?`<p class="ovp">${esc(x.texto)}</p>`:""}
-   ${m?`<button class="btn out" data-emb>Ver la publicación original aquí</button><div class="ovemb"></div>`:""}
-   ${ok?`<a class="btn out" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${m?"Abrir en X":"Abrir enlace"}</a>`:""}`);
-  const b=o.querySelector("[data-emb]");
-  if(b)b.onclick=()=>{o.querySelector(".ovemb").innerHTML=`<iframe src="https://platform.twitter.com/embed/Tweet.html?id=${m[1]}&theme=dark&lang=es&dnt=true" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>`;b.remove()}
+  const m=String(x.url||"").match(/(?:x|twitter|fixupx|fxtwitter|vxtwitter)\.com\/([^/]+)\/status\/(\d+)/),ok=/^https:\/\//.test(x.url||"");
+  const fb=`${x.img?`<img class="ovi" src="${esc(x.img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}${x.texto?`<p class="ovp">${esc(x.texto)}</p>`:""}`;
+  const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-discord">${m?"Publicación":"Anuncio"}</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div>
+   ${m?`<div class="ovd">${nvFecha(x.fecha)}</div><div class="ovemb"><p class="nota">Cargando publicación…</p></div>`:`<h2 class="ovt">${esc(x.titulo)}</h2><div class="ovd">${nvFecha(x.fecha)}</div>${fb}`}
+   ${ok?`<a class="btn out ovx-btn" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${m?"Ver la publicación en X":"Abrir enlace"}</a>`:""}`);
+  if(!m)return;
+  const box=o.querySelector(".ovemb");
+  const iframe=()=>{box.innerHTML=`<iframe src="https://platform.twitter.com/embed/Tweet.html?id=${m[2]}&theme=dark&lang=es&dnt=true" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" style="height:640px"></iframe>`;
+    const f=box.querySelector("iframe");let ld=false;f.onload=()=>{ld=true};setTimeout(()=>{if(!ld)box.innerHTML=`<h2 class="ovt">${esc(x.titulo)}</h2>${fb}`},9000)};
+  const ac=new AbortController(),t=setTimeout(()=>ac.abort(),6000);
+  fetch("https://api.fxtwitter.com/"+m[1]+"/status/"+m[2],{signal:ac.signal}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{
+    clearTimeout(t);const w=d&&d.tweet;if(!w)throw 0;
+    const au=w.author||{},ph=(w.media&&w.media.photos)||[],vd=(w.media&&w.media.videos)||[];
+    box.innerHTML=`<div class="xp"><div class="xp-h">${au.avatar_url?`<img src="${esc(au.avatar_url)}" alt="" referrerpolicy="no-referrer">`:""}<div><b>${esc(au.name||m[1])}</b><span>@${esc(au.screen_name||m[1])}</span></div></div>
+     <p class="xp-t">${esc(w.text||x.texto||"")}</p>
+     ${ph.map(p=>`<img class="xp-m" src="${esc(p.url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join("")}
+     ${vd.map(v=>`<video class="xp-m" controls playsinline preload="metadata" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(v.url)}"></video>`).join("")}
+     ${w.created_at?`<div class="xp-d">${esc(new Date(w.created_at).toLocaleString("es",{dateStyle:"medium",timeStyle:"short"}))}</div>`:""}</div>`;
+  }).catch(()=>{clearTimeout(t);iframe()});
 }
 const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔",app:"✦",discord:"💬",cumple:"🎂"};
 const nvFecha=f=>{try{return new Date(f).toLocaleDateString("es",{day:"numeric",month:"short"})}catch(e){return ""}};
@@ -1620,13 +1635,23 @@ function stripRootMotion(clip){
   return clip;
 }
 
-async function loadAnimClip(loader, animMeta){
-  const gltf = await loader.loadAsync(CDN + animMeta.file);
-  return gltf.animations[0] || null;
+let clipCache = new Map();
+function loadAnimClip(loader, animMeta){
+  let p = clipCache.get(animMeta.file);
+  if(!p){
+    p = loader.loadAsync(CDN + animMeta.file).then(g=>g.animations[0]||null);
+    p.catch(()=>clipCache.delete(animMeta.file));   // si falla, que se pueda reintentar
+    clipCache.set(animMeta.file, p);
+  }
+  return p;
 }
+// Nivel de calidad segun el dispositivo: movil = sin sombras reales ni antialias; gama media/baja = ademas pixel 1 y 30 fps
+const MOVIL = matchMedia('(pointer:coarse)').matches;
+const GAMA_BAJA = MOVIL && ((navigator.deviceMemory||4) <= 4 || (navigator.hardwareConcurrency||8) <= 6);
 
 window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
   disposeViewer();
+  clipCache = new Map();
   const host = document.getElementById('mv3d');
   const status = document.getElementById('mv-status');
   const bar = document.getElementById('anim-bar');
@@ -1642,14 +1667,14 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
   camera = new THREE.PerspectiveCamera(32, w/h, 0.05, 100);
   camera.position.set(0, 1.15, 2.6);
 
-  renderer = new THREE.WebGLRenderer({antialias:true, alpha:false, powerPreference:'high-performance'});
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer = new THREE.WebGLRenderer({antialias:!MOVIL, alpha:false, powerPreference:'high-performance'});
+  renderer.setPixelRatio(GAMA_BAJA ? 1 : Math.min(window.devicePixelRatio || 1, MOVIL ? 1.5 : 2));
   renderer.setSize(w, h, false);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   // Neutral tone mapping keeps albedo closer to original textures
   renderer.toneMapping = THREE.NeutralToneMapping;
   renderer.toneMappingExposure = 1.0;
-  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.enabled = !MOVIL;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   host.appendChild(renderer.domElement);
 
@@ -1670,7 +1695,7 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
 
   const key = new THREE.DirectionalLight(0xffffff, 1.15);
   key.position.set(2.2, 4.5, 2.8);
-  key.castShadow = true;
+  key.castShadow = !MOVIL;
   key.shadow.mapSize.set(1024, 1024);
   key.shadow.camera.near = 0.5;
   key.shadow.camera.far = 20;
@@ -1689,9 +1714,15 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
   rim.position.set(0.5, 2.2, -3);
   scene.add(rim);
 
+  let groundMat;
+  if(MOVIL){   // sombra falsa (circulo difuso): casi gratis frente a un mapa de sombras
+    const cv=document.createElement('canvas');cv.width=cv.height=128;const cx=cv.getContext('2d'),gr=cx.createRadialGradient(64,64,0,64,64,64);
+    gr.addColorStop(0,'rgba(0,0,0,.55)');gr.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=gr;cx.fillRect(0,0,128,128);
+    groundMat=new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(cv),transparent:true,depthWrite:false});
+  } else groundMat=new THREE.ShadowMaterial({ opacity: 0.32 });
   const ground = new THREE.Mesh(
-    new THREE.CircleGeometry(2.2, 48),
-    new THREE.ShadowMaterial({ opacity: 0.32 })
+    new THREE.CircleGeometry(MOVIL ? 0.9 : 2.2, 48),
+    groundMat
   );
   ground.rotation.x = -Math.PI / 2;
   ground.receiveShadow = true;
@@ -1700,6 +1731,9 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
   const loader = new GLTFLoader();
   clock = new THREE.Clock();
 
+  // El json de animaciones y el primer clip (Idle) se piden YA, a la vez que el modelo, para no quedar en T-pose esperando
+  const animsP = fetch(animsJsonUrl).then(r=>r.ok?r.json():null).catch(()=>null);
+  animsP.then(d=>{const cl=(d&&d.clips)||[];const c=cl.find(x=>x.name==='Idle')||cl.find(x=>x.loop)||cl[0];if(c)loadAnimClip(loader,c).catch(()=>{})});
   try {
     const modelGltf = await loader.loadAsync(glbUrl);
     currentRoot = modelGltf.scene;
@@ -1725,6 +1759,7 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
     currentRoot.position.z -= (box2.min.z + box2.max.z) / 2;
     currentRoot.position.y -= box2.min.y;
     scene.add(currentRoot);
+    currentRoot.visible = false;   // oculto hasta tener la 1ª animacion: asi nunca se ve la T-pose
     currentRoot.updateMatrixWorld(true);
 
     // Encuadre: que quepa TODO el personaje (antes la cámara lo cortaba)
@@ -1765,13 +1800,9 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
     [500,1500,3000].forEach(t=>setTimeout(()=>{ if(currentRoot) refit(); },t));
 
     let clipsMeta = [];
-    try {
-      const res = await fetch(animsJsonUrl);
-      if(res.ok){
-        const data = await res.json();
-        clipsMeta = data.clips || [];
-      }
-    } catch(e){}
+    try { const data = await animsP; clipsMeta = (data && data.clips) || []; } catch(e){}
+    const mostrar = ()=>{ if(currentRoot && !currentRoot.visible){ currentRoot.visible = true; try{ mixer.update(0); }catch(e){} refit(); } };
+    setTimeout(mostrar, 12000);   // si ninguna animacion llega, se muestra igual (mejor T-pose que nada)
 
     const want = ['Idle','ReadyLoop','Ready','Attack_P02','Victory','Show'];
     const pick = [];
@@ -1786,11 +1817,11 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
     }
     if(!pick.length && clipsMeta[0]) pick.push(clipsMeta[0]);
 
-    async function playClip(meta, btn){
+    async function playClip(meta, btn, intento){
       status.textContent = 'Cargando animación: ' + meta.name + '…';
       try {
         const clip = await loadAnimClip(loader, meta);
-        if(!clip){ status.textContent = 'Sin datos de animación'; return; }
+        if(!clip){ status.textContent = 'Sin datos de animación'; mostrar(); return; }
         stripRootMotion(clip);
         mixer.stopAllAction();
         const action = mixer.clipAction(clip);
@@ -1798,14 +1829,19 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
         action.setLoop(meta.loop ? THREE.LoopRepeat : THREE.LoopOnce, Infinity);
         if(!meta.loop) action.clampWhenFinished = true;
         action.play();
+        mixer.update(0);
+        mostrar();
         status.textContent = 'Animación: ' + meta.name + (meta.loop ? ' (loop)' : '');
         if(bar){
           bar.querySelectorAll('button').forEach(b=>b.classList.remove('on'));
           if(btn) btn.classList.add('on');
         }
       } catch(err){
-        status.textContent = 'Error animación ' + meta.name;
         console.warn(err);
+        if(!(intento>0)){ setTimeout(()=>playClip(meta, btn, 1), 800); return; }   // 1 reintento
+        const sig = pick.find(p=>p!==meta);   // si falla, probar con otra animacion
+        if(sig && !currentRoot.visible && !(intento>1)){ playClip(sig, null, 2); return; }
+        status.textContent = 'Error animación ' + meta.name; mostrar();
       }
     }
 
@@ -1821,10 +1857,14 @@ window.loadTrekkerModel = async function(glbUrl, animsJsonUrl, folder){
       });
     }
 
+    let acum = 0;
     function tick(){
       raf = requestAnimationFrame(tick);
       const dt = clock.getDelta();
-      if(mixer) mixer.update(dt);
+      acum += dt;
+      if(GAMA_BAJA && acum < 1/30) return;   // 30 fps en gama media/baja: la mitad de trabajo
+      if(mixer) mixer.update(acum);
+      acum = 0;
       controls.update();
       renderer.render(scene, camera);
     }

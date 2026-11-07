@@ -17,6 +17,10 @@ const css=document.createElement("style");css.textContent=`
 .bd-ov h2{font-size:1.5rem;margin:14px 0 4px}.bd-ov .bd-d{font-size:1rem;color:#ffe9a8;margin-bottom:14px}
 .bd-v{margin:6px auto 14px;max-width:420px;text-align:left;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:12px 14px}
 .bd-v .row{display:flex;gap:8px;margin-bottom:8px}.bd-v .row .btn{flex:1;margin:0;padding:10px}.bd-v .jp{font-size:.95rem;line-height:1.45;margin:4px 0}.bd-v .es{font-size:.9rem;color:#fff;line-height:1.45;margin:6px 0 0}.bd-v .en{font-size:.82rem;color:#cfc8ff;line-height:1.4;margin:4px 0 0;font-style:italic}
+.ov .xp{background:#15122a;border:1px solid #34305a;border-radius:16px;padding:14px;margin:0 0 14px}
+.ov .xp-h{display:flex;align-items:center;gap:10px;margin-bottom:10px}.ov .xp-h img{width:44px;height:44px;border-radius:50%}.ov .xp-h b{display:block;font-size:.95rem}.ov .xp-h span{font-size:.78rem;color:var(--t2)}
+.ov .xp-t{white-space:pre-line;font-size:.95rem;line-height:1.5;margin:0 0 10px;overflow-wrap:anywhere}.ov .xp-m{width:100%;border-radius:12px;margin:0 0 8px;display:block;background:#000}.ov .xp-d{font-size:.75rem;color:var(--t2)}
+.ov .ovemb iframe{width:100%;border:0;border-radius:14px;background:#000}
 .bd-conf{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:9001}.bd-conf i{position:absolute;top:-20px;width:8px;height:14px;opacity:.9;animation:bdf linear infinite}
 @keyframes bdf{to{transform:translateY(110vh) rotate(540deg)}}
 .cu-hero{position:relative;display:flex;gap:14px;align-items:center;border-radius:18px;padding:14px;margin-bottom:16px;background:linear-gradient(135deg,#6a55ff,#a24bd8);cursor:pointer;overflow:hidden}
