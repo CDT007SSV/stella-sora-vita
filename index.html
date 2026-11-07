@@ -247,6 +247,55 @@ body{background:
 .screen main h3.fk-h,.screen .fk-h{font-size:.78rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--a);margin:18px 0 8px}
 .screen .mode-card{overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.28)}
 .screen .nota,.screen .foot{color:var(--t2)}
+/* ===== Tarjetas estilo juego (personajes, discos, capitulos, Nova Times, eventos) ===== */
+.gc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.gc{position:relative;aspect-ratio:3/4;border-radius:12px;overflow:hidden;cursor:pointer;background:linear-gradient(160deg,#2a2550,#171233);border:2px solid rgba(255,255,255,.16);transition:transform .12s}
+.gc:active{transform:scale(.96)}
+.gc.r5{border-color:var(--gold);box-shadow:0 0 14px rgba(232,196,106,.28)}.gc.r4{border-color:var(--vio);box-shadow:0 0 12px rgba(155,123,255,.25)}.gc.r3{border-color:#5CE1E6}
+.gc img.gc-i{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}
+.gc::before{content:"";position:absolute;left:0;right:0;bottom:0;height:46%;background:linear-gradient(to top,rgba(8,6,22,.95),rgba(8,6,22,0));z-index:1}
+.gc::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;z-index:3;background:var(--elc,#7B6CFF);box-shadow:0 0 10px var(--elc,#7B6CFF)}
+.gc[data-el=Aqua]{--elc:var(--el-Aqua)}.gc[data-el=Ignis]{--elc:var(--el-Ignis)}.gc[data-el=Terra]{--elc:var(--el-Terra)}.gc[data-el=Ventus]{--elc:var(--el-Ventus)}.gc[data-el=Lux]{--elc:var(--el-Lux)}.gc[data-el=Umbra]{--elc:var(--el-Umbra)}.gc[data-el=Neutral]{--elc:var(--el-Neutral)}
+.gc-el{position:absolute;top:4px;left:4px;z-index:2;width:26px;height:26px;border-radius:9px;background:rgba(8,6,22,.72);border:1px solid var(--elc,#7B6CFF);display:flex;align-items:center;justify-content:center}
+.gc-el img{width:17px!important;height:17px!important;margin:0!important}
+.gc-role{position:absolute;top:5px;right:0;z-index:2;font-size:.6rem;font-weight:800;letter-spacing:.03em;color:#fff;padding:3px 7px 3px 9px;border-radius:8px 0 0 8px;background:#5b6cf0;box-shadow:0 2px 6px rgba(0,0,0,.4)}
+.gc-role.Vanguard{background:#e24a84}.gc-role.Support{background:#1f9e7a}.gc-role.Versatile{background:#5b6cf0}
+.gc-nm{position:absolute;left:6px;right:6px;bottom:8px;z-index:2;text-align:left;font-weight:800;font-size:.8rem;line-height:1.1;text-shadow:0 1px 4px #000}
+.gc-nm small{display:block;margin-bottom:2px;font-size:.62rem;color:var(--gold);letter-spacing:.02em}
+.gd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px 9px}
+.gd{cursor:pointer;text-align:center}.gd:active .gd-a{transform:scale(.96)}
+.gd-a{position:relative;aspect-ratio:1/1;border-radius:12px;overflow:hidden;background:linear-gradient(160deg,#2a2550,#171233);border:2px solid rgba(255,255,255,.16);transition:transform .12s}
+.gd.r5 .gd-a{border-color:var(--gold);box-shadow:0 0 12px rgba(232,196,106,.25)}.gd.r4 .gd-a{border-color:var(--vio)}.gd.r3 .gd-a{border-color:#5CE1E6}
+.gd-a img.gd-i{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.gd-a::before{content:"";position:absolute;left:0;right:0;bottom:0;height:40%;background:linear-gradient(to top,rgba(8,6,22,.9),rgba(8,6,22,0));z-index:1}
+.gd-a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;z-index:3;background:var(--elc,#7B6CFF);box-shadow:0 0 10px var(--elc,#7B6CFF)}
+.gd[data-el=Aqua]{--elc:var(--el-Aqua)}.gd[data-el=Ignis]{--elc:var(--el-Ignis)}.gd[data-el=Terra]{--elc:var(--el-Terra)}.gd[data-el=Ventus]{--elc:var(--el-Ventus)}.gd[data-el=Lux]{--elc:var(--el-Lux)}.gd[data-el=Umbra]{--elc:var(--el-Umbra)}.gd[data-el=Neutral]{--elc:var(--el-Neutral)}
+.gd .gc-el{top:4px;left:4px}.gd-s{position:absolute;left:5px;bottom:7px;z-index:2;color:var(--gold);font-size:.7rem;text-shadow:0 1px 3px #000}
+.gd-n{margin-top:5px;font-size:.72rem;font-weight:700;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+/* capitulos: tarjetas altas con numero grande y cinta */
+.gx-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.gx{position:relative;aspect-ratio:3/4.1;border-radius:12px;overflow:hidden;cursor:pointer;border:2px solid rgba(232,238,255,.8);box-shadow:inset 0 0 0 2px rgba(20,22,50,.35),0 5px 14px rgba(0,0,0,.4);background:#171233;transition:transform .12s}
+.gx:active{transform:scale(.97)}.gx img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.gx::before{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(8,6,22,.92),rgba(8,6,22,0));z-index:1}
+.gx-n{position:absolute;top:6px;right:9px;z-index:2;font-size:1.7rem;font-weight:800;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.7);letter-spacing:.02em}
+.gx-t{position:absolute;left:0;right:0;bottom:0;z-index:2}.gx-t small{display:inline-block;margin:0 0 -1px 8px;padding:2px 9px;background:rgba(255,255,255,.93);color:#1f2a4d;font-size:.62rem;font-weight:800;border-radius:6px 6px 0 0}
+.gx-t b{display:block;padding:7px 9px;background:linear-gradient(90deg,#2d4cb4,#1b2c78);font-size:.8rem;line-height:1.18;border-top:1px solid rgba(255,255,255,.25)}
+.gx-t b::before{content:"✦ ";color:#5CE1E6}
+.hm-new{z-index:4}
+/* Nova Times: foto con marco y etiqueta de numero */
+.gn{position:relative;cursor:pointer;transition:transform .12s}.gn:active{transform:scale(.97)}
+.gn-f{position:relative;background:#e9eef0;padding:5px 5px 0;border-radius:6px 6px 0 0;box-shadow:0 5px 14px rgba(0,0,0,.4)}
+.gn-f img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;background:#cfd8dc}
+.gn-tag{position:absolute;left:8px;bottom:-9px;z-index:2;background:#e8962e;color:#fff;font-weight:800;font-size:.72rem;padding:2px 9px;border-radius:5px 5px 0 0;box-shadow:0 2px 5px rgba(0,0,0,.35)}
+.gn-t{background:linear-gradient(90deg,#1f6f78,#17525c);padding:13px 9px 8px;font-size:.78rem;font-weight:700;line-height:1.2;border-radius:0 0 6px 6px;min-height:52px;overflow-wrap:anywhere}
+.gn-t::before{content:"✦ ";color:#7ee7e0}
+/* eventos: postal horizontal */
+.ge-list{display:grid;grid-template-columns:1fr!important;gap:14px;margin-bottom:12px}
+.ge{position:relative;cursor:pointer;border-radius:8px;background:#efe6d2;padding:6px 6px 0;box-shadow:0 6px 16px rgba(0,0,0,.45);transition:transform .12s}.ge:active{transform:scale(.985)}
+.ge-i{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:4px;background:#1b1838}.ge-i img{width:100%;height:100%;object-fit:cover;display:block}
+.ge-r{display:flex;align-items:center;gap:8px;padding:9px 6px 9px 4px;color:#4b3a22;font-weight:800;font-size:.85rem;line-height:1.2}
+.ge-r::before{content:"✦";flex:0 0 28px;height:28px;border-radius:50%;background:#d4333f;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,.35)}
+.ge .hm-new{top:12px;right:12px}
 /* filtros y contador */
 .btabs{display:flex;gap:8px;margin:0 0 14px}.btabs button{flex:1;padding:10px 8px;border-radius:10px;border:1px solid #3D3A55;background:0;color:var(--t2);font-size:.85rem;font-weight:600;cursor:pointer}.btabs button.on{background:var(--p);border-color:transparent;color:#fff}
 .fcount{display:flex;align-items:center;justify-content:space-between;margin:2px 0 10px;font-size:.78rem;color:var(--t2)}
@@ -616,7 +665,7 @@ function go(id){cur=id;document.body.classList.remove("home");
 }
 
 document.body.addEventListener("click", function(e){
-  const tile = e.target.closest(".tile[data-go],.hm[data-go],.hm[data-open]");
+  const tile = e.target.closest(".tile[data-go],.hm[data-go],.hm[data-open],.gx[data-go],.gn[data-go],.ge[data-go]");
   if(tile){
     tile.classList.add("flip");
     setTimeout(()=> tile.dataset.open ? window.open(tile.dataset.open,"_blank") : nav(tile.dataset.go), 280);
@@ -708,22 +757,21 @@ document.getElementById("modes-list").innerHTML = '<div class="hm-subgrid">'+MOD
     <div class="hm-cn"><strong>${esc(m.name)}</strong><i class="hm-d">${esc(m.desc)}</i></div>
   </div>`}).join("")+'</div>';
 
-function rChaps(){document.getElementById("chaps").innerHTML = CHAPS.map((c,i)=>{
-  const sp=/\.5$/.test(String(c.number)), col=sp?"c-gold":["c-pur","c-teal","c-pink","c-lav"][i%4];
-  return `<div class="hm hm-ch ${col}" data-go="ch/${c.number}">
+function rChaps(){document.getElementById("chaps").className="gx-grid";document.getElementById("chaps").innerHTML = CHAPS.map((c,i)=>{
+  const sp=/\.5$/.test(String(c.number)),num=String(c.number),big=num==="0"?"✦":(sp?"★":(num.length<2?"0"+num:num));
+  return `<div class="gx" data-go="ch/${c.number}">
     <img class="bg" src="${c.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
-    <div class="hm-sh"></div>
-    <div class="hm-cn"><i>${String(c.number)==="0"?"Antes del capítulo 1":(sp?"Especial":"Capítulo")+" "+c.number}</i><strong>${c.titleEs}</strong></div>${c.nuevo?'<span class="hm-new">NUEVO</span>':""}
+    <span class="gx-n">${big}</span>
+    <div class="gx-t"><small>${num==="0"?"Antes del capítulo 1":(sp?"Especial":"Capítulo")+" "+c.number}</small><b>${c.titleEs}</b></div>${c.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rChaps();
 
 function evErr(i){const a=JSON.parse(i.dataset.alts||"[]");if(a.length){i.src=a.shift();i.dataset.alts=JSON.stringify(a)}else i.remove()}
 const evChain=e=>[...(e.alts||[]),e.img];
-function rEvents(){document.getElementById("events-list").innerHTML = EVENTS.map((e,i)=>{
-  const col=["c-pur","c-teal","c-pink","c-lav","c-gold"][i%5], ch=evChain(e);
-  return `<div class="hm hm-ch hm-ev ${col}" data-go="ev/${e.id}">
-    <img class="bg" src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/>
-    <div class="hm-sh"></div>
-    <div class="hm-cn"><strong>${esc(e.name)}</strong></div>${e.nuevo?'<span class="hm-new">NUEVO</span>':""}
+function rEvents(){document.getElementById("events-list").className="ge-list";document.getElementById("events-list").innerHTML = EVENTS.map((e,i)=>{
+  const ch=evChain(e);
+  return `<div class="ge" data-go="ev/${e.id}">
+    <div class="ge-i"><img src="${ch[0]}" alt="" data-alts='${JSON.stringify(ch.slice(1))}' loading="lazy" referrerpolicy="no-referrer" onerror="evErr(this)"/></div>
+    <div class="ge-r"><span>${esc(e.name)}</span></div>${e.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rEvents();
 function showEvent(id){
   const e=EVENTS.find(x=>x.id===id); if(!e){showStart();return}
@@ -740,12 +788,10 @@ function showEvent(id){
   go("event");
 }
 
-function rNova(){document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
-  const col=["c-teal","c-pur","c-pink","c-lav","c-gold"][i%5];
-  return `<div class="hm hm-ch hm-ev ${col}" data-go="nt/${n.id}">
-    <img class="bg" src="${n.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/>
-    <div class="hm-sh"></div>
-    <div class="hm-cn"><i>Nova Times #${n.number}</i><strong>${esc(n.name)}</strong></div>${n.nuevo?'<span class="hm-new">NUEVO</span>':""}
+function rNova(){document.getElementById("novatimes-list").className="gx-grid";document.getElementById("novatimes-list").innerHTML = NOVA_TIMES.map((n,i)=>{
+  return `<div class="gn" data-go="nt/${n.id}">
+    <div class="gn-f"><img src="${n.img}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"/><span class="gn-tag">#${n.number}</span></div>
+    <div class="gn-t">${esc(n.name)}</div>${n.nuevo?'<span class="hm-new">NUEVO</span>':""}
   </div>`}).join("");}rNova();
 function showNova(id){
   const n=NOVA_TIMES.find(x=>x.id===id); if(!n){showStart();return}
@@ -785,6 +831,9 @@ function elIcon(el){
   return `<img src="${url}" alt="${el}" style="width:18px;height:18px;vertical-align:middle;margin-right:4px" referrerpolicy="no-referrer" onerror="this.style.display='none'">`;
 }
 
+let PORT=null;
+const portC=c=>(PORT&&PORT[c.name])||c.imageUrl;
+fetch("presets.json").then(r=>r.ok?r.json():null).then(P=>{if(!P)return;PORT={};for(const i in P)PORT[P[i].n]="https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/head/head_"+i+"01_XL.webp";if(typeof renderC==="function")renderC()}).catch(()=>{});
 function renderC(){
   const list=CHARS.filter(c=>{
     const q=norm(cQ);
@@ -797,175 +846,30 @@ function renderC(){
   const hay=cQ||cR!==null||cE||cRole||cSt||cAt;
   document.getElementById('ccount').textContent=list.length+(list.length===1?' personaje':' personajes')+(hay?' encontrados':'');
   document.getElementById('cclear').hidden=!hay;
-  document.getElementById("clist").innerHTML = '<div class="item-grid">' + list.map(c=>`
-    <div class="item-tile r${c.rarity}" data-el="${c.element}" data-id="${c.id}">
-      <img loading="lazy" alt="" src="${c.imageUrl}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
-      <div class="shade"></div>
-      <div class="lab">${c.name}<small><span class="star">${estr(c.rarity,13)}</span> · ${elIcon(c.element)}${c.element} · ${ROLE_ES[c.role]||c.role||""}</small></div>
+  document.getElementById("clist").innerHTML = '<div class="gc-grid">' + list.map(c=>`
+    <div class="gc r${c.rarity}" data-el="${c.element}" data-id="${c.id}">
+      <img class="gc-i" loading="lazy" alt="" src="${portC(c)}" referrerpolicy="no-referrer" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${c.imageUrl}'}else this.style.display='none'">
+      <span class="gc-el">${elIcon(c.element)}</span>${c.role?`<span class="gc-role ${c.role}">${ROLE_ES[c.role]||c.role}</span>`:""}
+      <div class="gc-nm"><small>${estr(c.rarity,11)}</small>${c.name}</div>
     </div>`).join("") + '</div>';
-  document.querySelectorAll("#clist .item-tile").forEach(el=>{
-    el.onclick=()=>{
-      el.classList.add("flip");
-      setTimeout(()=>nav('c/'+el.dataset.id), 260);
-      setTimeout(()=>el.classList.remove("flip"), 650);
-    };
+  document.querySelectorAll("#clist .gc").forEach(el=>{
+    el.onclick=()=>{ nav('c/'+el.dataset.id) };
   });
 }
-
-function bdayEs(b){
-  if(!b)return "—";
-  const M={January:"enero",February:"febrero",March:"marzo",April:"abril",May:"mayo",June:"junio",July:"julio",August:"agosto",September:"septiembre",October:"octubre",November:"noviembre",December:"diciembre"};
-  const m=String(b).match(/^([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?$/);
-  return m&&M[m[1]]?m[2]+" de "+M[m[1]]:b;
-}
-function showD(wikiUrl){
-  const d = DISCS.find(x => x.wikiUrl === wikiUrl);
-  if(!d){ window.open(wikiUrl, "_blank"); return; }
-  backTo = "discs";
-  document.getElementById("det-title").textContent = d.name;
-  // Arte completo: Disc_<nombre>.png de la wiki (las fichas viejas solo traian el icono)
-  const nmf=d.name.replace(/ /g,"_");
-  const arts=[...new Set(["https://stellasora.miraheze.org/wiki/Special:FilePath/"+encodeURIComponent("Disc_"+nmf)+".png",...(d.imageAlts||[]),d.imageUrl].filter(Boolean))];
-  document.getElementById("det").innerHTML = `
-    <div style="text-align:center;position:relative">
-      <a class="wikiico" href="${d.wikiUrl}" target="_blank" rel="noopener" aria-label="Ver en la wiki" title="Ver en la wiki"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></a>
-      <img class="disc-art" src="${d.imageUrl||arts[0]}" data-q="${arts.filter(u=>u!==(d.imageUrl||arts[0])).join(",")}" data-full="${arts.join(",")}" alt="${esc(d.name)}" referrerpolicy="no-referrer" onerror="skFb(this)" onclick="openLB(this.dataset.full.split(','))">
-      <p class="nota-en" style="text-align:center;margin:6px 0 0">Toca la imagen para verla completa</p>
-      <div class="badge b${d.rarity} rbig" style="margin:12px 0 6px">${estr(d.rarity,22)}</div>
-      <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
-    </div>
-    <div class="chips"><span class="chip on">${elIcon(d.element)}${d.element}</span><span class="chip on">Disco</span></div>
-    <div id="disco-box" class="ficha"></div>
-    <div class="dmore" id="dmore" hidden></div>`;
-  const box=document.getElementById("dmore");
-  box.innerHTML='<p class="nota-en">Cargando…</p>'; box.hidden=false;
-  box.id="dficha-tab";
-  /* muestra al instante la imagen de la lista (ya en cache) y cambia al arte completo cuando termine de cargar */
-  if(d.imageUrl&&arts[0]!==d.imageUrl){const im=document.querySelector("#det .disc-art"),big=new Image();big.referrerPolicy="no-referrer";big.onload=()=>{if(im&&im.isConnected)im.src=big.src};big.src=arts[0]}
-  cargarExtras().then(E=>{box.innerHTML=discExtraHtml(d,E)}).catch(()=>{box.innerHTML='<p class="nota-en">No se pudo cargar el detalle.</p>'});
-  window.discoCargar&&discoCargar(d);
-  go("detail");
-}
-
-function showC(id){
-  const c=CHARS.find(x=>x.id===id); if(!c) return;
-  backTo="chars";
-  document.getElementById("det-title").textContent=c.name;
-  const folder=c.name.replace(/ /g,"_");
-  const base=`https://cdn.jsdelivr.net/gh/StellaSoraWiki/StellaSoraModels@main/${folder}`;
-  const glb=`${base}/${folder}.glb`, animsJson=`${base}/${folder}.anims.json`;
-  const mi=c.moreInfo||{}, sk=c.skills||{}, au=c.auto||{};
-  const L={affiliation:"Afiliación",weapon:"Arma",skills:"Habilidades",address:"Residencia",experience:"Experiencia",rate:"Tarifa"};
-  const kv=Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>`<div class="kv"><b>${L[k]}</b><span>${esc(k==="weapon"?mi[k]:tr(mi[k]))}</span></div>`).join("");
-  const LA={Affiliation:"Afiliación",Skills:"Habilidades",Address:"Residencia",Experience:"Experiencia",Weapon:"Arma",Rate:"Tarifa"};
-  const dup=new Set(Object.keys(L).filter(k=>mi[k]&&mi[k]!=="—").map(k=>L[k]));
-  const kv2=(au.info||[]).map(r=>({k:LA[r.k]||r.k,v:r.v})).filter(r=>!dup.has(r.k)).map(r=>`<div class="kv"><b>${esc(r.k)}</b><span>${esc(r.k==="Arma"?r.v:tr(r.v))}</span></div>`).join("");
-  const NM={jp:"Japonés",kr:"Coreano",cn:"Chino"}, nm=au.names||{}, va=au.va||{};
-  const nmh=Object.keys(NM).filter(k=>nm[k]).map(k=>`<div class="kv"><b>Nombre (${NM[k]})</b><span>${esc(nm[k])}</span></div>`).join("");
-  const vah=[["jp","Voz japonesa"],["cn","Voz china"]].filter(x=>va[x[0]]).map(x=>`<div class="kv"><b>${x[1]}</b><span>${esc(va[x[0]])}</span></div>`).join("");
-  const atkChip=au.attack?`<span class="chip on">${au.attack==="Melee"?"Cuerpo a cuerpo":"A distancia"}</span>`:"";
-  const hasSk=Object.keys(sk).some(k=>sk[k]);
-  const skA=(au.skillsAuto||[]).map(h=>`<div class="sk"><div class="tp">${esc(h.t)}${h.cd?`<span class="cd">CD ${esc(h.cd)} s</span>`:""}</div><h4>${esc(h.n)}</h4><p>${esc(h.d)}</p></div>`).join("");
-  const potG=["Principal","Apoyo","Común"].map(g=>{
-    const L2=(au.potentials||[]).filter(x=>x.g===g); if(!L2.length)return "";
-    return `<details class="pg"><summary>Potenciales ${g==="Común"?"comunes":g==="Principal"?"principales":"de apoyo"} (${L2.length})</summary>${L2.map(x=>`<details class="pot"><summary>${esc(x.b)}</summary><div>${esc(x.d)}</div></details>`).join("")}</details>`}).join("");
-  const faltan=[...(au.skillsAuto||[]),...(au.potentials||[])].some(x=>/…/.test(x.d||""));
-  const skCard=false&&(skA||potG)?`<div class="card"><h3 style="margin:0 0 8px;font-size:1rem">${hasSk?"Datos del juego (en inglés)":"Habilidades (en inglés)"}</h3>${skA}${potG}
-    <p class="nota">Valores al nivel 10 de habilidad, calculados con los datos del juego.${faltan?" Donde aparece «…» el valor no está disponible: míralo en la wiki.":""}</p></div>`:"";
-  const SK={main:"Habilidad principal",support:"Habilidad de apoyo",ultimate:"Definitiva",potentials:"Potenciales"};
-  const sks=Object.keys(SK).filter(k=>sk[k]).map(k=>`<div class="kv"><b>${SK[k]}</b><span>${esc(sk[k])}</span></div>`).join("");
-  document.getElementById("det").innerHTML=`
-    <div class="hero r${c.rarity}" style="--heroimg:url('${c.imageUrl}')">
-    <a class="wikiico" href="${c.wikiUrl}" target="_blank" rel="noopener" aria-label="Ver en la wiki" title="Ver en la wiki"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></a>
-    <div class="char-header">
-      <img class="detail-av" src="${c.imageUrl}" alt="${esc(c.name)}" referrerpolicy="no-referrer" onerror="this.style.display='none'">
-      <div class="info">
-        <div class="badge b${c.rarity} rbig">${estr(c.rarity,22)}</div>
-        <h2>${esc(c.name)}</h2>
-      </div>
-    </div></div>
-    <div class="chips">
-      <span class="chip on">${elIcon(c.element)}${c.element}</span>
-      ${c.role?`<span class="chip on">${esc(ROLE_ES[c.role]||c.role)}</span>`:''}
-      ${c.style?`<span class="chip on">${esc(tr(c.style))}</span>`:''}${c.faction?`<span class="chip on">${esc(tr(c.faction))}</span>`:''}${atkChip}
-    </div>
-    <div id="ficha-box" class="ficha"></div>
-    <div id="perfil-box">
-    <div class="stats">
-      <div class="stat"><b>${esc(c.hp||'—')}</b><span>HP</span></div>
-      <div class="stat"><b>${esc(c.atk||'—')}</b><span>ATK</span></div>
-      <div class="stat"><b>${esc(bdayEs(mi.birthday||(c.birthday&&c.birthday!=='—'?c.birthday:au.birthday)))}</b><span>Cumpleaños</span></div>
-    </div>
-    <div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Perfil</h3>
-      <p style="font-style:italic">${esc(c.description||tr(au.profile)||'Sin descripción disponible.')}</p></div>
-    ${(nmh||vah)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Nombres y voces</h3>${nmh}${vah}</div>`:''}
-    ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
-    ${skCard}
-    <div id="skins-box"></div>
-    <div class="skin3d" id="skin3d"></div>
-    <div class="model-wrap">
-      <div id="mv3d"></div>
-      <p class="hint" id="mv-status">Cargando modelo 3D…</p>
-      <div class="anim-bar" id="anim-bar"></div>
-    </div></div>`;
-  go("detail");
-  window.fichaCargar&&fichaCargar(c);
-  Promise.all([cargarExtras(),cargarModelIdx()]).then(([E,idx])=>{
-    const b=document.getElementById("skins-box"); if(!b||cur!=="detail")return;
-    b.innerHTML=skinsHtml(c,E,idx); skin3dBar(c,idx);
-    b.querySelectorAll(".sk3d").forEach(btn=>btn.onclick=()=>{
-      const e=idx.find(x=>x.file===btn.dataset.f); if(!e)return;
-      loadModelEntry(e,folder); const t=document.getElementById("mv3d"); t&&t.scrollIntoView({behavior:"smooth",block:"center"});
-    });
-  });
-  setTimeout(()=>window.loadTrekkerModel&&window.loadTrekkerModel(glb,animsJson,folder),50);
-}
-
-document.getElementById("cs").oninput=e=>{cQ=e.target.value;renderC()};
-document.querySelectorAll("#cr .chip").forEach(ch=>{
-  ch.onclick=()=>{
-    document.querySelectorAll("#cr .chip").forEach(x=>x.classList.remove("on"));
-    ch.classList.add("on");
-    cR=ch.dataset.v?parseInt(ch.dataset.v):null;
-    renderC();
-  };
-});
-document.querySelectorAll("#ce .chip").forEach(ch=>{
-  ch.onclick=()=>{
-    const was=ch.classList.contains("on");
-    document.querySelectorAll("#ce .chip").forEach(x=>x.classList.remove("on"));
-    if(!was){ch.classList.add("on");cE=ch.dataset.v}else cE=null;
-    renderC();
-  };
-});
-
-document.querySelectorAll("#cro .chip").forEach(ch=>{
-  ch.onclick=()=>{
-    const was=ch.classList.contains("on");
-    document.querySelectorAll("#cro .chip").forEach(x=>x.classList.remove("on"));
-    cRole=null;
-    if(!was){ch.classList.add("on");cRole=ch.dataset.v}
-    renderC();
-  };
-});
 function renderD(){
   const list=DISCS.filter(d=>{
     const q=norm(dQ);
     return(!q||norm(d.name+' '+d.element).includes(q))
       &&(dR===null||d.rarity===dR)&&(!dE||d.element===dE);
   }).sort((a,b)=>b.rarity-a.rarity||a.name.localeCompare(b.name));
-  document.getElementById("dlist").innerHTML = '<div class="item-grid">' + list.map(d=>`
-    <div class="item-tile r${d.rarity}" data-el="${d.element}" data-url="${d.wikiUrl}">
-      <img loading="lazy" alt="" src="${d.imageUrl}" data-alts='${JSON.stringify(d.imageAlts||[])}' referrerpolicy="no-referrer" onerror="evErr(this)">
-      <div class="shade"></div>
-      <div class="lab">${d.name}<small><span class="star">${estr(d.rarity,13)}</span> · ${elIcon(d.element)}${d.element}</small></div>
+  document.getElementById("dlist").innerHTML = '<div class="gd-grid">' + list.map(d=>`
+    <div class="gd r${d.rarity}" data-el="${d.element}" data-url="${d.wikiUrl}">
+      <div class="gd-a"><img class="gd-i" loading="lazy" alt="" src="${d.imageUrl}" data-alts='${JSON.stringify(d.imageAlts||[])}' referrerpolicy="no-referrer" onerror="evErr(this)">
+      <span class="gc-el">${elIcon(d.element)}</span><span class="gd-s">${estr(d.rarity,11)}</span></div>
+      <div class="gd-n">${d.name}</div>
     </div>`).join("") + '</div>';
-  document.querySelectorAll("#dlist .item-tile").forEach(el=>{
-    el.onclick=()=>{
-      el.classList.add("flip");
-      setTimeout(()=>{ const d=DISCS.find(x=>x.wikiUrl===el.dataset.url); d?nav('d/'+d.name):window.open(el.dataset.url,'_blank'); }, 260);
-      setTimeout(()=>el.classList.remove("flip"), 650);
-    };
+  document.querySelectorAll("#dlist .gd").forEach(el=>{
+    el.onclick=()=>{ const d=DISCS.find(x=>x.wikiUrl===el.dataset.url); d?nav('d/'+d.name):window.open(el.dataset.url,'_blank'); };
   });
 }
 document.getElementById("ds").oninput=e=>{dQ=e.target.value;renderD()};
