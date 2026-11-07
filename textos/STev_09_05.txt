@@ -1,0 +1,137 @@
+# Evento · Una tormenta de arena y disparos · 5 · Infiltration: Into the Dark Nest
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Angry Troupe Member | Angry Troupe Member
+N:Desert Scorpion Leader | Desert Scorpion Leader
+N:Desert Scorpion Merc | Desert Scorpion Merc
+N:Enthusiastic Troupe Member | Enthusiastic Troupe Member
+N:Job-seeking Mercenary | Job-seeking Mercenary
+N:Panicked Person | Panicked Person
+N:Peer Trekker | Peer Trekker
+N:Trekker Leader | Trekker Leader
+N:Worried Troupe Member | Worried Troupe Member
+N:avg1_108 | Kasimira
+N:avg1_114 | Chaton
+N:avg1_146 | Benito
+N:avg2_967 | White Cat Mercenary
+N:avg2_968 | White Cat Mercenary
+N:avg2_982 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_1297 | Desert Scorpion Grunt M
+N:avg3_1298 | Desert Scorpion Grunt M
+N:avg3_1299 | Desert Scorpion Grunt M
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_144 | Residente
+N:avg3_207 | Myrsha
+N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_218 | Mirage Resident
+N:avg3_973 | Passing Trekker
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | Infiltration: Into the Dark Nest
+0003 [Intro] | Tracking the missing Trekkers leads them straight into the mine controlled by Desert Scorpions. Turns out the gang is kidnapping people for slave labor—Chaton immediately rushes back to the bar with the intel...
+0004 [Desert Scorpion Leader] | Alright, we're here!==W==
+0005 [Trekker Leader] | T-This is it?
+0006 [Desert Scorpion Leader] | Yep! You're here, so quit stalling and get to work!
+0007 [Trekker Leader] | Wait, we want to see the dorms and the mess hall first.
+0008 [Desert Scorpion Leader] | No dorms or mess halls here. Wanna sleep? Grab a blanket and crash on the floor. You get three meals of Tawny Nightingale bread a day.
+0009 [Peer Trekker] | Hey, wait a minute! This wasn't the deal!
+0010 [Desert Scorpion Leader] | Sure it is! We're covering room and board, ain't we?
+0011 [Trekker Leader] | And the pay?! We agreed on 10 thousand Dorra a day, per person!
+0012 [Desert Scorpion Leader] | Oh, you'll get your money.==W== Don't worry about that.
+0013 [Desert Scorpion Leader] | But...==W== You won't see a single coin until you've put in a full six months. Try to skip out early, and sorry—you walk away with nothing.
+0014 [Trekker Leader] | Hold on! We agreed to daily payouts, not getting trapped down here for half a year!
+0015 [Desert Scorpion Leader] | We do pay daily! We just settle the tab every six months, that's all. Like I said, you won't be shorted a single Dorra.
+0016 [Trekker Leader] | You bastards! We're not falling for this scam! The deal is off. We're out of here!
+0017 [Desert Scorpion Leader] | Quitting? Fine by us, we won't force you.
+0018 [Desert Scorpion Leader] | But that counts as a breach of contract. So, if you'd kindly hand over the 18-million Dorra cancellation fee right now... And don't short us a single coin, alright?
+0019 [Trekker Leader] | 18 million Dorra?! That's exactly what we'd make in half a year!
+0020 [Desert Scorpion Leader] | Bingo! It's right there in the fine print at the bottom. Don't tell me ... you signed it without reading it?
+0021 [Worried Troupe Member] | The great Chaton!==W== Over here! We can watch them from here, and they'll never spot us.
+0022 [Chaton] | Oh, thanks. You seem pretty familiar with these tunnels.
+0023 [Worried Troupe Member] | I used to work around here. Good thing the layout hasn't changed much. Glad my experience is still coming in handy.
+0024 [Chaton] | Ah, no wonder Kasimira specifically sent you along... What a worrywart.
+0025 [Worried Troupe Member] | Hey, Chaton, you dropped something...==W==
+0026 [Worried Troupe Member] | Ah...
+0027 [Chaton] | Oh, that. Kasimira had Benito sneak it into my bag.==W== Said it'd bring me luck or whatever.
+0028 [Worried Troupe Member] | Ooh, I see how it is.
+0029 [Chaton] | Is there a problem?
+0030 [Worried Troupe Member] | Nope, only asking.==W== I'm sure it'll bring us luck.
+0031 [Chaton] | Seriously?
+0032 [Trekker Leader] | You lying scumbags! Out of our way! We're leaving!
+0033 [Desert Scorpion Leader] | This is our turf. We do what we want.
+0034 [Chaton] | Huh? Aren't those the Trekkers from earlier? Why are they fighting?
+0035 [Peer Trekker] | Captain, let's beat these thugs down and bust out of here!
+0036 [Trekker Leader] | Funny.==W== I was thinking the same thing...==W==
+0037 [Trekker Leader] | Ugh—==W==
+0038 [Peer Trekker] | Captain?!
+0039 [???] | What's going on? All this noise...
+0040 [Peer Trekker] | Captain! Are you okay?! Wake up!
+0041 [Myrsha] | Quit screaming. He's knocked out. He'll wake up soon.
+0042 [Desert Scorpion Leader] | Deputy Captain? What brings you here? Do you have orders?
+0043 [Myrsha] | And you, stop wasting your breath.==W== These idiots have a death wish. Just throw them in with the monster.
+0044 [Myrsha] | Tell your men to get ready. We're heading to Philae to meet the Captain.
+0045 [Desert Scorpion Leader] | Y-Yes! Right away...
+0046 [Peer Trekker] | Damn it! Let go! I'm reporting you to the Imperial Guard and the Trekker Association!
+0047 [Myrsha] | Be my guest.==W== Assuming you make it out alive.
+0048 [Chaton] | Those scumbags...!==W== One bullet and their Deputy Captain drops. We free those Trekkers right now.
+0049 [Worried Troupe Member] | Hold on, the great Chaton! Firing now won't save them. You'll just get us all caught!
+0050 [Chaton] | B-But ... we can't just watch them get dragged away!
+0051 [Worried Troupe Member] | We've been in this exact situation before! Take a breath and think!
+0052 [Chaton] | Just like before...?
+0053 [Kasimira] | Hold. The caravan isn't in position yet.
+0054 [Chaton] | But I have a clean shot at their leader! I can drop him now!
+0055 [Kasimira] | Hold your fire!
+0056 [Chaton] | Wait any longer, and we lose the shot!!!
+0057 [Kasimira] | Chaton!==W== No!
+0058 [Chaton] | Back then... If I'd just listened to Kasimira, we wouldn't have walked into that trap.
+0059 [Chaton] | We're falling back! The others need this intel immediately.
+0060 [Enthusiastic Troupe Member] | Copy that, the great Chaton!
+0061 [Myrsha] | Looks like some reckless little kittens slipped in.
+0062 [Myrsha] | Heh. They might be useful after all.
+0063 [Kasimira] | Good work, everyone. You all did great.
+0064 [Chaton] | See? I can handle real work too, right, Kasimira?
+0065 [Kasimira] | Yeah, you made some sharp calls out there. I'm impressed.
+0066 [Angry Troupe Member] | Still, those Desert Scorpion bastards are heartless!
+0067 [Angry Troupe Member] | They're not just hogging the mine.==W== They're conning Trekkers into forced labor!
+0068 [Chaton] | Kasimira! Quit stalling! Let's go rescue them!
+0069 [Kasimira] | Easy, Chaton. You've only seen the tip of the iceberg.
+0070 [Kasimira] | We have no idea how many Desert Scorpions are still in there. If we rush in, we're walking straight into their trap.
+0071 [Benito] | What now? We can't just sit around and do nothing.
+0072 [Kasimira] | Since those Trekkers took the job here, someone must have seen them around town.
+0073 [Kasimira] | Send someone to ask around.==W== We'll likely find someone who knows them.
+0074 [Kasimira] | If we figure out how they were tricked, we might be able to sneak in too.
+0075 [Chaton] | Ah!==W== So we sneak into the heart of their base, unleash the dark power, and wipe them out in one go, right?!
+0076 [Chaton] | Then leave it all to the great Chaton!
+0077 [Kasimira] | Good. But have a solid plan before you go.
+0078 [Chaton] | Awesome! I'm heading to town to ask around. I'll bring back solid leads.
+0079 [Benito] | Don't pick any fights. If you get in trouble, come right back, got it?
+0080 [Chaton] | Yeah, yeah, I got it!
+0081 [Passing Trekker] | What? The Desert Scorpions are a huge outfit. Why would they hand a job to freelancers like us?
+0082 [Job-seeking Mercenary] | But I saw a few Trekkers with some Desert Scorpions this morning. They all went toward the old mine together.
+0083 [Chaton] | Did anyone else talk to them?
+0084 [Job-seeking Mercenary] | I don't know about that.
+0085 [Chaton] | Alright... Well, thanks for the info anyway!
+0086 [Chaton] | Uh...
+0087 [Chaton] | Walked in circles all day, and I've got zero leads.
+0088 [Chaton] | Maybe ... I should storm their dark lair and see for myself...
+0089 [Panicked Person] | H-Hold up!==W==
+0090 [Panicked Person] | You're ... asking about the Trekkers the Desert Scorpions took this morning, aren't you?
+0091 [Chaton] | Huh? Uh... Yeah...
+0092 [Panicked Person] | I-I barely got away from them! I have intel!==W==
+0093 [Panicked Person] | Help me shake these Desert Scorpions, and I'll tell you everything I know!
+0094 [Desert Scorpion Merc] | Where'd that rat go?! Split up and find him!
+0095 [Panicked Person] | Crap! They found me!
+0096 [Desert Scorpion Merc] | There you are, you little punk! Thought you could hide?
+0097 [Chaton] | Hey! What gives you the right to grab him?!
+0098 [Desert Scorpion Merc] | Mind your business! He broke his contract and owes us. We're taking him back to pay up.
+0099 [Chaton] | That penalty fee is a scam to kidnap people for slave labor!
+0100 [Desert Scorpion Merc] | Oh? You know an awful lot about our operations, little girl.
+0101 [Desert Scorpion Merc] | Tie 'em up and drag 'em back!==W==

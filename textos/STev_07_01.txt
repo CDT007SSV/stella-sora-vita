@@ -1,0 +1,117 @@
+# Evento · Enmarcando los sentimientos invisibles · 1 · The Reunion
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_115 | Firefly
+N:avg1_118 | Coronis
+N:avg1_158 | Laru
+N:avg2_980 | Atacante de proyectiles
+N:avg3_100 | Sylar
+N:avg3_205 | Igna
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | The Reunion
+0003 [Intro] | You've accepted a commission from Igna and travel to Emor, where you are reunited with Firefly—the young girl you first met during the Snowish Festival.
+0004 [Tú] | Finally... Made it...
+0005 [Tú] | This time, the client told me to meet them beneath Emor's Monolith...
+0006 [Tú] | Surely they're not expecting me to climb it, right?
+0007 [Tú] | Since this commission supposedly doesn't involve any fighting, I came alone...==W== Still, the fact that they specifically told me to come by myself feels a little strange...
+0008 [Tú] | After all, the one who got me this job was—
+0009 [Coronis] | Oh, hi, ==PLAYER_NAME==.
+0010 [Tú] | Sorry to keep you waiting.==W== So... What did you need me for?
+0011 [Coronis] | What's with that look on your face? You look like a little lab rat resigned to its fate.==W== If you're really not feeling well, I could give you a full body examination first.
+0012 [Tú] | No, no, that's really not necessary.==W== No need for all that. Not today...
+0013 [Coronis] | Then you can relax. I didn't call you here to help with my research today.
+0014 [Tú] | ... Really?
+0015 [Coronis] | Of course. Though I could always change my mind on the spot.==W== There's no test subject more appealing to me than you.
+0016 [Tú] | N-no thanks! Just get to the point already!
+0017 [Tú] | If it's not an experiment...==W== Then do you have a commission for me?
+0018 [Coronis] | That's right. More precisely, it's from an old friend of mine.
+0019 [Coronis] | She once saved my life—==W==literally.
+0020 [Tú] | Your friend...==W== Is she a doctor, too?
+0021 [Coronis] | A doctor...==W== More or less.==W== She went to the same university as I did. Her name is Igna.
+0022 [Tú] | Igna...?
+0023 [Coronis] | Have you heard of the Eye of Grace, Tyrant?
+0024 [Tú] | The Eye of Grace... If I remember right, it's an academic research institute under the Grace Imperium, right?
+0025 [Coronis] | So you do know. Igna currently works there, and apparently the project she's been handling lately is short on people.
+0026 [Coronis] | For certain reasons, I'm still not in a position to stroll openly through the streets of Emor City...==W== So I recommended you to her instead.
+0027 [Tú] | A research project? But I don't have any professional medical background.
+0028 [Coronis] | Big projects always end up outsourcing...
+0029 [Tú] | So I'm basically the temp who's gonna get blamed if anything goes wrong?!
+0030 [Coronis] | Heh. When I think of capable, well-read people, you're the first one who comes to mind.
+0031 [Coronis] | Though... I do get the feeling she never intended to ask me in the first place.
+0032 [Coronis] | What she actually asked was whether I knew anyone she could bring in to help. I doubt I was ever under consideration.
+0033 [Coronis] | So I mentioned you to her just to test the waters,==W== and she immediately got very excited. She told me she absolutely had to work with you.==W== Do you two know each other?
+0034 [Tú] | I don't think I've met her...
+0035 [Coronis] | It seems that your fame precedes you then, Tyrant.
+0036 [Coronis] | I just never expected so many people to recognize your worth.==W== Heh. Yet here I am, wishing I could keep you all to myself.
+0037 [Tú] | ... Coming from you, that somehow doesn't make me happy...
+0038 [Tú] | Wait a second. Don't tell me this friend of yours is also one of those—
+0039 [Coronis] | Heh. Don't worry. She is not a mad scientist.
+0040 [Coronis] | At the very least, she's not the kind who'd want to strap you to an examination table and experiment on you.
+0041 [Tú] | Uh... That's assuring...
+0042 [Coronis] | Still, you should probably watch out.==W== Maybe she's just hiding her obsession behind a respectable facade.
+0043 [Coronis] | I've known her for a long time, but even now,==W== I still have no idea what's really on her mind...
+0044 [Tú] | So is she actually normal or not?!
+0045 [Tú] | Sigh... Never mind.==W== Back to the point. What exactly is this commission about?
+0046 [Coronis] | That,==W== I have absolutely no idea.
+0047 [Tú] | ... Huh?
+0048 [Coronis] | Apparently it involves confidentiality. She said she would explain the details in person.
+0049 [Coronis] | But she did explicitly say that there won't be any combat involved, so you don't need to worry about that.
+0050 [Coronis] | Well? Will you take it?
+0051 [Tú] | If there's no fighting involved...==W== Then I should be okay going alone, I guess.
+0052 [???] | ~♪
+0053 [1] | Looks like someone's here. Is that the client?
+0054 [1] | No... Doesn't look like an adult...==W== Is that a lost kid?
+0055 [???] | Flowers.==W== Pretty.
+0056 [???] | Take photo.
+0057 [1] | Huh? That stray hair looks strangely familiar...
+0058 [Laru] | I see...==W== So your wish wasn't about gifts, was it?
+0059 [Firefly] | No.
+0060 [Laru] | Okay... Then, what is your wish?
+0061 [Firefly] | I wish for ...==W== a friend to play with.
+0062 [1] | Isn't this the little girl I ran into during the Snowish Festival?
+0063 [1] | She wants to go inside the Monolith to play again?
+0064 [1] | Firefly, it's me! Do you remember me?
+0065 [1] | Whoa?!
+0066 [Firefly] | ~♪
+0067 [1] | Oh, so she's taking pictures.==W==
+0068 [Firefly] | Another one.==W==
+0069 [1] | She doesn't seem to have noticed me.==W== Still, that's a relief. At least she isn't going into the Monolith...
+0070 [1] | The first time we met, she was running all over the Monolith chasing Stellaroids...==W== Honestly, seeing her with a normal hobby like this is a huge relief.
+0071 [Tú] | Is she here by herself? Where's her guardian?
+0072 [???] | Hello.
+0073 [???] | Excuse me, are you the one they call Tyrant?
+0074 [Igna] | Nice to meet you. I'm Igna, from the Eye of Grace.
+0075 [Tú] | You're my client...?
+0076 [Igna] | Yes. And it's an honor to meet you.
+0077 [Firefly] | Over here, too...==W==
+0078 [Igna] | Looked like you were about to speak to that child...==W== Do you know Firefly?
+0079 [Tú] | Yes, we've met once before.
+0080 [Igna] | I see...==W== What an unexpected coincidence.==W== If you don't mind, could you tell me in detail about that meeting?
+0081 [Tú] | No problem, I guess...
+0082 [Tú] | That's weird. Aren't we going to talk about the commission?
+0083 [Tú] | Later, we went into the Monolith together and fought Stellaroids...==W== Anyway, I kinda helped Firefly make her wish come true.
+0084 [Tú] | ... And that's basically it.
+0085 [Igna] | I see. So there was a whole episode like that during the Snowish Festival...
+0086 [Igna] | Heh. Then it seems I really did ask the right person for this commission.
+0087 [Tú] | ... Hm? What do you mean by that?
+0088 [Igna] | I mean that, since you already have experience with her, there's clearly no one more suitable for this job than you.
+0089 [Igna] | The commission is this:==W== I'd like you to look after Firefly for a while.
+0090 [Tú] | ... That's it?
+0091 [Igna] | That's it...
+0092 [Igna] | Well, it's not as simple as it sounds.
+0093 [Igna] | I imagine you've already noticed to some extent that Firefly grew up in a very unusual environment.
+0094 [Igna] | Because of that, there are many ways in which she differs from ordinary children...==W== In other words, her sense of what is normal is a little different...
+0095 [Igna] | Getting her to behave and listen can be quite a headache—
+0096 [Igna] | And that is precisely why I'm asking this of you.==W== Since the two of you already know each other, you really are a very good fit.
+0097 [Tú] | I see... If that's all the commission is, then I should be able to handle it on my own.
+0098 [Tú] | Understood. I'll take the job.
+0099 [Tú] | Come to think of it, Firefly once mentioned she had a mentor.==W== Would that be you?
+0100 [Igna] | No, that's someone else. You'll be meeting her soon enough.
+0101 [Igna] | I have other matters to attend to, so I'll leave Firefly in your care for now.==W== Once she's had her fill of fun, please take her back to her home in Emor.
+0102 [Narración] | After explaining the commission, Igna gave me Firefly's address and told me when we would next meet, then hurried off.
+0103 [Tú] | … She's a mystery, all right.

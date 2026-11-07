@@ -1,0 +1,143 @@
+# Evento · ¡Adelante, mi señora! ¡Manual de entrenamiento Plus! · 4 · New Life
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Accomplice | Accomplice
+N:Angry Trekker | Angry Trekker
+N:Artifact Merchant | Artifact Merchant
+N:Caterine & Vivian | Caterine & Vivian
+N:Curious Trekker | Curious Trekker
+N:Dubious Citizen | Dubious Citizen
+N:Scammer | Scammer
+N:Sundries Merchant | Sundries Merchant
+N:Weapon Merchant | Weapon Merchant
+N:avg1_137 | Eleanor
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_138 | Trekker
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_145 | Gold District Resident
+N:avg3_187 | Male Flavio Resident
+N:avg3_188 | Female Flavio Resident
+N:avg3_198 | Pandillera genial
+N:avg3_199 | Chica de la pandilla
+N:avg3_223 | Caterine
+N:avg3_224 | Vivian
+N:avg3_886 | Gawking Passerby
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | New Life
+0003 [Intro] | Having completed her commission, Eleanor settles into a double life as both a noble lady and a Trekker. One day, she inadvertently foils a scammer trying to sell counterfeit Artifacts.
+0004 [Eleanor] | Sorry I kept you waiting!
+0005 [Vivian] | Eleanor, you're back!
+0006 [Caterine] | How'd it go?
+0007 [Eleanor] | Perfectly! Both the Trekker Association and the client were pleased.
+0008 [Vivian] | Oh, thank goodness...
+0009 [Vivian] | I always knew you'd pull it off. Never doubted you one bit.
+0010 [Caterine] | Well...==W== She was texting me at midnight, worried sick about you.
+0011 [Vivian] | Caterine...!
+0012 [Vivian] | Oh, please! You were just as worried. You didn't sleep a wink either!
+0013 [Eleanor] | Hehe. Thank you both for caring.
+0014 [Eleanor] | By the way, did Mother and Father catch on?
+0015 [Caterine] | Relax, Vivian handled it. The adults trust her way more than they trust me.
+0016 [Caterine] | ... Anyway, since you're back safe, we need to celebrate.==W== Let's move next week's tea party up to tomorrow.
+0017 [Vivian] | Sounds perfect. What do you think, Eleanor?
+0018 [Eleanor] | ...
+0019 [Vivian] | Eleanor? What's wrong? Aren't you happy?
+0020 [Eleanor] | No, of course I am...==W== Something else crossed my mind, that's all.
+0021 [Caterine & Vivian] | ...?
+0022 [Eleanor] | Vivian, Caterine... Do you ever envy my life right now?
+0023 [Caterine] | Of course we do.
+0024 [Eleanor] | Then... Have you ever thought about ... doing the same?
+0025 [Vivian] | ...
+0026 [Caterine] | ...
+0027 [Eleanor] | You've been so supportive this whole time. If there's anything you want to pursue...
+0028 [Caterine] | Well... Yeah, I've thought about it. Especially on nights I can't sleep, staring at the ceiling.
+0029 [Eleanor] | Anything I can help with?
+0030 [Caterine] | ... Honestly, they're just silly dreams. I don't have a concrete plan.
+0031 [Vivian] | We're not as brave as you, Eleanor. If I had to put it into words...
+0032 [Vivian] | I think our biggest wish ... is to find a dream to call our own.
+0033 [Caterine] | You've got a head start right now, but don't think I'm giving up! The second I figure out my path, I'll catch right up to you.
+0034 [Caterine] | Promise you won't go too far ahead and leave us behind... Okay?
+0035 [Eleanor] | Never! We're best friends for life!
+0036 [Vivian] | Oh my, aren't you two impossibly cheesy?
+0037 [Vivian] | Caterine and I should get going.
+0038 [Eleanor] | I'll get the tea party set up. See you tomorrow!
+0039 [Vivian] | Before we go... Your life as a Trekker is properly underway now, isn't it?
+0040 [Eleanor] | Yeah. From now on, I'm either taking regular commissions as a proper Trekker or exploring Monoliths.
+0041 [Vivian] | What about your dance lessons and the shop?
+0042 [Eleanor] | I'm still taking the lessons, just not as often.
+0043 [Eleanor] | I've already talked to the boss about my goals. I'm leaving once my internship ends.
+0044 [Caterine] | Alright. If you ever get swamped, I'll talk to the boss for you.==W== I recommended you in the first place, after all. I want to see it through.
+0045 [Vivian] | Things might get tough from here on out...==W== But you're not one to give up, are you, Eleanor?
+0046 [Eleanor] | When I first started, I felt like I was drowning in work. But somehow I've gotten used to the pace.
+0047 [Eleanor] | I've knocked out a lot of commissions lately, so I'm treating myself today. Time to spend my saved-up Dorra on new gear!
+0048 [Eleanor] | I've only snuck into this market a few times...==W== It's as bustling as ever.
+0049 [Weapon Merchant] | Come on! Step right up! We have the finest weapons around, forged for mighty warriors like you. Everything you need is right here!
+0050 [Sundries Merchant] | Welcome sale today! Come on in and take a look!
+0051 [Artifact Merchant] | We sell Artifact bundles made for Trekkers! Top quality, rock-bottom prices, guaranteed authentic!
+0052 [Angry Trekker] | You scammer!==W== How do you have the nerve to show your face?
+0053 [Dubious Citizen] | You passed off a pile of junk on me! Looked fine on the shelf, but the second I tried using it at home, it fell apart!
+0054 [Artifact Merchant] | Bull! Everything I sell is the real deal. You broke it yourself so you could come back and shake me down. You want to call me a crook? Prove it!
+0055 [Angry Trekker] | You crook...!
+0056 [Curious Trekker] | Hey, looks like people are arguing over there.
+0057 [Gawking Passerby] | Think they're gonna fight?
+0058 [Eleanor] | Excuse me. What's going on here?
+0059 [Artifact Merchant] | These jerks keep calling me a fraud. I bet they're trying to squeeze me for cash.
+0060 [Artifact Merchant] | You look young, miss. Must be a rookie Trekker, right?==W== Tell you what. Want to stock up on handy gear? I'll cut you a sweet deal.
+0061 [Angry Trekker] | You crooked rat... You are lying through your teeth!
+0062 [Angry Trekker] | Don't throw your money away, miss! It's a scam!
+0063 [Artifact Merchant] | Hey, if you ain't buying, get lost! You're getting in the way of my business.
+0064 [Eleanor] | Hmm...
+0065 [Eleanor] | Could I take a look at your Artifacts first?
+0066 [Artifact Merchant] | Well, uh...
+0067 [Dubious Citizen] | What, won't even let her look? Got something to hide?
+0068 [Artifact Merchant] | Look as you want! Just be careful not to break it, haha!
+0069 [Artifact Merchant] | Here.
+0070 [Eleanor] | Hmm...==W== Judging by the design, this is a heating Artifact. Right?
+0071 [Artifact Merchant] | Sharp eye, missy! You'll want this for any trip. Headed somewhere cold? You'll be lost without it...
+0072 [Eleanor] | It is handy, but I'm afraid this Artifact is a fake.
+0073 [Artifact Merchant] | W-What? You got proof?
+0074 [Eleanor] | Look right here, everyone. This seam is a clear sign of artificial aging.
+0075 [Eleanor] | If I get it, I'm pretty sure it'll stop responding to Grace in no time.
+0076 [Artifact Merchant] | You...!
+0077 [Angry Trekker] | See? Told you he was a fraud!
+0078 [Weapon Merchant] | Run this crook out of the market!
+0079 [Sundries Merchant] | Yeah! Scumbags like him ruin business for the rest of us!
+0080 [Artifact Merchant] | How did you...==W== Wait! Even if it doesn't run on Grace, it runs on Neo Solution. Cheaper, too!
+0081 [Eleanor] | No. This replica wasn't made by a certified artisan.==W== Powering it with Neo Solution is a massive safety hazard.
+0082 [Angry Trekker] | Well said, miss!
+0083 [Angry Trekker] | And you never mentioned it was a replica either. That's fraud.
+0084 [Artifact Merchant] | I...
+0085 [Artifact Merchant] | Dammit, move!
+0086 [Angry Trekker] | Grab him!
+0087 [Dubious Citizen] | After him! Don't let him get away!
+0088 [Eleanor] | I wasn't meddling too much, was I?
+0089 [Eleanor] | I couldn't sit back and do nothing, especially when I remembered how gullible I used to be.
+0090 [Gawking Passerby] | That was amazing, miss! Are you an Artifact appraiser?
+0091 [Eleanor] | Nothing like that. I'm just a regular Trekker...
+0092 [Gawking Passerby] | A Trekker! Then I'm hiring you right now. Come look at an Artifact I bought.
+0093 [Curious Trekker] | Look at mine next!
+0094 [Eleanor] | Huh... Wait, what?
+0095 [Angry Trekker] | Ugh. We lost that crook.
+0096 [Dubious Citizen] | Slipped away faster than a rat. Popped into an alley and vanished.
+0097 [Angry Trekker] | Bet he had an accomplice waiting.
+0098 [Angry Trekker] | Oh I almost forgot. Thanks, miss. I'm sure he won't be showing his face around here again after you outed him.
+0099 [Eleanor] | Glad I could help. What's your next move?
+0100 [Dubious Citizen] | He's been prowling here for a while, so there are definitely other victims. I'm rallying everyone, and we're going to make him pay.
+0101 [Accomplice] | Look who's back. How was business today?
+0102 [Scammer] | Ugh, don't ask. A few of our old "customers" caught up with me.
+0103 [Scammer] | Time to find a new spot.
+0104 [Accomplice] | Hey, slow down. We haven't even sold off the last batch of goods.
+0105 [Accomplice] | Tsk. We've already milked these broke commoners and Trekkers dry.
+0106 [Accomplice] | If only we could hook some mark with more money than sense. We could make a killing and vanish.
+0107 [Scammer] | True. Running off with a loss like this would be pathetic.
+0108 [Scammer] | Oh, and tell the crew to step up their game on the fakes next time.==W== They looked so cheap today some little brat saw right through them. I barely made it out of there.
+0109 [Accomplice] | Haha, seriously? Talk about rotten luck.
+0110 [Accomplice] | In that case, let's lay low for a bit and scrounge up some extra muscle.
+0111 [Accomplice] | And if anyone's dumb enough to come sniffing around...==W== Heh, they won't know what hit them.

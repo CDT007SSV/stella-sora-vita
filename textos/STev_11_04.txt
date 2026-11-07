@@ -1,0 +1,138 @@
+# Evento · Surf y salpicaduras: ¡una brillante aventura de vacaciones! · 4 · Phantoms of the Sea
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cosette & Leafia | Cosette & Leafia
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_142 | Cosette
+N:avg1_155 | Shia
+N:avg1_157 | Karin
+N:avg1_160 | Willow
+N:avg2_945 | Hermit Crab
+N:avg2_982 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_161 | Leafia
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Phantoms of the Sea
+0003 [Intro] | On the return voyage, the rumored Monolith suddenly appears, but it is impossible to approach. Prompted by Cosette and guided by the hermit crab, you decide to risk sailing into the depths of the whirlpool...
+0004 [Iris] | Ah... I could get used to this peace and quiet.
+0005 [Noya] | We hit a few bumps along the way, but hey, we're finally back together!
+0006 [Noya] | Oh, speaking of which, how come Amber's phone is the only one working? Mine is still dead.
+0007 [Amber] | I stuck it between two Tawny Nightingale pieces, said a prayer, and waited for it to dry.==W== Shia taught me that.
+0008 [Iris] | The wood shavings in Tawny Nightingale probably help absorb the moisture. But uh...==W== Are they safe to eat after soaking up all that water?
+0009 [Tú] | Sure is lively out here. Looks like everyone is holding up fine. Well...==W== Almost.
+0010 [Cosette & Leafia] | Ugh... Everything is spinning...
+0011 [Willow] | Looks like those two are having a rough time.
+0012 [Tú] | It's a body constitution thing. Nothing we can do to help.
+0013 [Karin] | Sorry for the wait! Shia and I whipped up an improved batch of seasickness remedy. This will cure them for sure!
+0014 [Karin] | Here, drink this while it's hot. You'll feel better in no time.
+0015 [Tú] | Whoa... A bubbling dark mystery goo.==W== Oh yeah, that looks completely safe.
+0016 [Cosette] | This is medicine?! No way, I hate medicine...==W== Blegh...
+0017 [Karin] | Hey now! Hang on! Don't throw up in the cabin!
+0018 [Tú] | Pretend it's a special drink exclusive to this ship. You won't find it anywhere else in Nova.
+0019 [Cosette] | Special and exclusive?==W== Ugh... F-Fine.==W== I-I'll drink it!
+0020 [Cosette] | ... What a ... unique flavor...
+0021 [Leafia] | I'm ... so sleepy...
+0022 [Tú] | ... Was it bad enough to knock her out?!
+0023 [Karin] | Ah... I added some sleep-inducing herbs to help them rest. Might have overdone it...
+0024 [Willow] | It's alright. Let's let them sleep it off.
+0025 [Willow] | Leafia's seasickness is brutal as always. She knew how her body would react, but she insisted on coming anyway.
+0026 [Karin] | Yeah, she was dead set on finding that Monolith in the sea. She begged us to bring her along.
+0027 [Karin] | She's actually doing a lot better now. She couldn't even stand earlier. She was sprawled out on the deck like a puddle of mud and we couldn't pry her off.
+0028 [Tú] | The Monolith in the sea?
+0029 [Willow] | Ah, are you talking about that rumor?
+0030 [Willow] | A week ago, a fisher was rescued near Port Bellin. He got caught in a storm, drifted into the open ocean, and claimed that a Monolith appeared right on the water.
+0031 [Willow] | He was delirious when they found him, though. Everyone assumed that the Monolith was a hallucination from the trauma.
+0032 [Karin] | But you can't prove it's a hallucination without checking for yourself. Besides...
+0033 [Karin] | Leafia said she'd be fine finding absolutely nothing. She only wants to chart the truth on her map.
+0034 [Karin] | And honestly, I respect that.
+0035 [Willow] | That does sound like Leafia.
+0036 [Tú] | Are we heading out to look for it now?
+0037 [Karin] | Nope. We're heading back.
+0038 [Karin] | Leafia decided that getting you back safe is the priority. As for the Monolith, it can wait.
+0039 [Tú] | I see...
+0040 [Noya] | ==PLAYER_NAME==! Willow! Come take a look!
+0041 [Iris] | A Monolith suddenly appeared on the water!
+0042 [Tú] | What?!
+0043 [Karin] | So that's "the Monolith in the sea"...
+0044 [Tú] | Wait, what do you mean it suddenly appeared?
+0045 [Noya] | Exactly what it sounds like! The horizon was empty a second ago, and then a Monolith popped out of nowhere!
+0046 [Leafia] | What?! You actually found it?!
+0047 [Leafia] | Where?!==W== Let me see!
+0048 [Karin] | Look who's cured. One mention of the Monolith and she springs back to life.
+0049 [Karin] | So what's the move? Do we keep heading back, or...
+0050 [Leafia] | Are you kidding? It's right in front of us! Obviously we—==W==uh...
+0051 [Tú] | We made it this far. We might as well check it out.
+0052 [Leafia] | B-But...
+0053 [Willow] | Please don't worry about us. The Monolith was your main goal.==W== We'd feel awful if you turned back on our account.
+0054 [Willow] | Besides, I bet everyone here is dying to see this mystery Monolith up close. Right?
+0055 [Tú] | If we ignore it, we'll all be lying awake tonight regretting it.
+0056 [Noya] | Yeah! I know I wouldn't sleep a wink!
+0057 [Shia] | Let's get closer and see what we can find out.
+0058 [Narración] | The boat changes course and heads straight for the mysterious Monolith on the horizon.
+0059 [Leafia] | Something feels wrong.==W== We're heading right for it, but the distance isn't closing.
+0060 [Noya] | Is the Monolith moving?!
+0061 [Amber] | That's not fair...
+0062 [Karin] | Weird. The heading is dead on and the current isn't pushing us off course. Yet we aren't making any ground at all.==W== Tch.
+0063 [Tú] | Maybe it isn't a real Monolith.
+0064 [Karin] | You mean==W== it's a mirage?
+0065 [Karin] | Right! That explains everything.==W== If it's a mirage, we'll never close the gap. The actual structure isn't even there.
+0066 [Leafia] | So it is an illusion. What the fisher saw was indeed a hallucination...
+0067 [Karin] | Leafia...
+0068 [Noya] | Whoa!
+0069 [Karin] | What happened?!
+0070 [Shia] | We hit something! Hold on tight!
+0071 [Karin] | Was it a reef?==W== No, there shouldn't be any rocks out here!
+0072 [Willow] | Look in the water! Is that...
+0073 [Noya] | Not this guy again!
+0074 [Iris] | Why does it keep ramming us?!
+0075 [Willow] | Maybe it's mad==W== because we took the Automatic Vending Artifact...?
+0076 [Iris] | A-And it tracked us all the way out here to attack us?!
+0077 [Amber] | It wants payback...
+0078 [Karin] | That doesn't make sense. Stomper Crabs are docile. They don't attack unless they're backed into a corner.
+0079 [Karin] | Plus, look at it. It doesn't look angry... It looks more like ...==W== anxious?
+0080 [Iris] | You can tell what a crab is thinking?
+0081 [Karin] | It's written all over its face.
+0082 [Karin] | Besides, it looked thrilled when that Artifact fell off earlier.
+0083 [Leafia] | Hermit crabs have facial expressions?
+0084 [Noya] | I'm staring a hole through it and I still see absolutely nothing.
+0085 [Tú] | Same here...
+0086 [Karin] | L-Look, I just know, okay?!
+0087 [Shia] | Watch out, it's charging again!
+0088 [Narración] | Shia wrestles the helm to dodge the crab. The creature is relentless, refusing to back off.==W==
+0089 [Karin] | Maybe... it isn't trying to sink us. It's forcing us off course.==W== Is it trying to steer us somewhere?
+0090 [Shia] | Karin! Trouble straight ahead!
+0091 [Karin] | What is that sound? That doesn't sound right.==W== What's going on?!
+0092 [Narración] | The calm sea rips open, churning into a massive whirlpool. An eerie light pulses deep within the vortex, like a giant eye watching from the abyss.
+0093 [Karin] | Shia, turn the wheel! We're done for if we get sucked in!
+0094 [Shia] | I can't! The current is too strong. She won't turn!
+0095 [Shia] | We have to abandon ship.==W== Karin, lower the lifeboat! We need to move!
+0096 [Tú] | If a ship this size is trapped, how will a lifeboat help?
+0097 [Shia] | Lifeboats accelerate faster. If we drop it now, we can still outrun the pull!
+0098 [Karin] | I'm not leaving...
+0099 [Karin] | Shia, get everyone to safety. I'm staying behind to try and steer us clear.
+0100 [Shia] | Stop being stubborn, Karin! Did you forget Grandma's number one rule?
+0101 [Shia] | "Never pick a fight with the sea!"
+0102 [Karin] | I know! But if we abandon it, the ship is going to be torn apart...
+0103 [Karin] | This is Grandma's ship. She left it to you!
+0104 [Shia] | Karin...
+0105 [Cosette] | Um... It's safe down there...
+0106 [Karin] | What did you say?
+0107 [Cosette] | It's safe underneath the whirlpool... We'll be fine even if we get sucked in.
+0108 [Karin] | Are you out of your mind? How is that even possible?!
+0109 [Cosette] | Eep!
+0110 [Cosette] | I-I swear it's true... I've been down there before.
+0111 [Shia] | Karin, I can smell that she's telling the truth.==W== I think we can trust her.
+0112 [Karin] | If Shia says so...==W== If it's really safe down there... Then maybe...
+0113 [Leafia] | Make the call, Karin. We trust you and Shia.
+0114 [Karin] | Alright...
+0115 [Karin] | Shia, ride the current straight into the eye of the whirlpool. It's our best shot at keeping the ship in one piece.
+0116 [Shia] | You got it! Leave the wheel to me.
+0117 [Karin] | Brace yourselves, everyone! We're diving straight in!
+0118 [Karin] | Ugh...==W== Where are we?
+0119 [Karin] | ... Are we inside a Monolith?!

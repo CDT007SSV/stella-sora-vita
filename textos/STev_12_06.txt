@@ -1,0 +1,112 @@
+# Evento · ¡Adelante, mi señora! ¡Manual de entrenamiento Plus! · 6 · Undercover
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Aggressive Gang Member | Aggressive Gang Member
+N:Imprisoned Civilian | Imprisoned Civilian
+N:Imprisoned Trekker | Imprisoned Trekker
+N:Reception Merchant | Reception Merchant
+N:avg1_137 | Eleanor
+N:avg3_100 | Sylar
+N:avg3_1238 | Chica de la pandilla
+N:avg3_138 | Trekker
+N:avg3_144 | Residente
+N:avg3_187 | Male Flavio Resident
+N:avg3_188 | Female Flavio Resident
+N:avg3_199 | Chica de la pandilla
+N:avg3_223 | Caterine
+N:avg3_224 | Vivian
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | Undercover
+0003 [Intro] | With your hint, Eleanor uses her spoiled-heiress persona to bluff her way into the hideout. Inside, she finds something left by Caterine...
+0004 [Eleanor] | Now what?
+0005 [Eleanor] | Take out the guards and barge in?
+0006 [Eleanor] | Even if I could pull that off, breaking in without proof makes me the bad guy, doesn't it?
+0007 [Eleanor] | Sneak in?
+0008 [Eleanor] | Not with that many guards out front. The place is locked down tight...==W== No, too risky.
+0009 [Eleanor] | ... But this is our only lead on Caterine. We can't walk away...
+0010 [Vivian] | Eleanor, that scammer has to be in there. Got a plan yet?
+0011 [Eleanor] | Hmm... Not yet, but—
+0012 [Eleanor] | It's ... from Mentor!
+0013 [Eleanor] | Mentor—!
+0014 [Tú] | Whoa, you scared me. What happened? Why're you so worked up?
+0015 [Eleanor] | W-Well... I'm in a bit of a jam.
+0016 [Tú] | I see...
+0017 [Eleanor] | That scammer must've taken Caterine! He's right there, but I can't get near him.
+0018 [Tú] | There's a way out of this. And you're the only one who can pull it off.
+0019 [Eleanor] | Me...? How?
+0020 [Tú] | Your Trekker skills aren't the only cards you're holding, are they?
+0021 [Tú] | Think about what other identity you could use to get close. Trekkers have more freedom than anyone else. Don't let a label box you in.
+0022 [Tú] | Sometimes==W== you don't even need to cling to the Trekker title.
+0023 [Eleanor] | What do you mean...?==W== Oh! I think I get it.
+0024 [Tú] | Sounds like you figured it out.
+0025 [Eleanor] | I did! Thanks, Mentor!
+0026 [Eleanor] | ... Oh, right, I almost forgot. Did you call for a reason, Mentor?
+0027 [Tú] | Nothing major. I just had some new ideas for your training plan...==W== But that can wait.
+0028 [Tú] | Right now, saving your friend comes first. You've got this.
+0029 [Eleanor] | Right! I'll give it my all!
+0030 [Eleanor] | Vivian, I have a plan.
+0031 [Vivian] | Really?!
+0032 [Eleanor] | Remember how clueless I used to be? I got scammed left and right. Bought absolute junk, almost got kidnapped even...
+0033 [Vivian] | I remember...==W== But what does that have to do with anything?
+0034 [Eleanor] | Everything. All those embarrassing mistakes might actually save the day.==W== If Eleanor the Trekker can't get in, let's see what Lady Eleanor can pull off!
+0035 [Eleanor] | I've got the dress.
+0036 [Vivian] | Eleanor, let me—
+0037 [Eleanor] | No, Vivian. You need to head back. Let me handle this.
+0038 [Vivian] | Ngh... Are you sure I can't come with you?
+0039 [Eleanor] | It's too dangerous...==W== Thank you for coming this far with me, Vivian. But I can't drag you into this.
+0040 [Vivian] | I understand... Then at least let me help you get ready.
+0041 [Vivian] | There. Perfect.
+0042 [Vivian] | ...==W== Please be careful in there, Eleanor.
+0043 [Eleanor] | I will.
+0044 [Eleanor] | Steady, Eleanor. This is where it gets real.
+0045 [Aggressive Gang Member] | Who are you? What do you want?
+0046 [Eleanor] | I understand a merchant of rare Artifacts operates out of this house. Is he in today?==W== I'd like an audience with him, if possible.
+0047 [Aggressive Gang Member] | She looks loaded... What do we do?
+0048 [Aggressive Gang Member] | If she's a buyer, we shouldn't turn her away.==W== He'd love to meet a VIP like her, right?
+0049 [Aggressive Gang Member] | Alright, follow me.==W== But listen up: no snooping, and don't touch anything. Got it?
+0050 [Eleanor] | Rest assured, I know the rules.
+0051 [Eleanor] | The decor here is certainly ... rustic.==W== Do you actually have any Artifacts worth seeing?
+0052 [Reception Merchant] | Haha, you can't leave the best goods out in the open! Wait right here, my lady. I'll go fetch them.
+0053 [Eleanor] | This isn't the scammer from the market...
+0054 [Reception Merchant] | Sorry for the wait! Take a look at this!
+0055 [Eleanor] | And this is...?
+0056 [Reception Merchant] | Hehe, brace yourself! This multi-purpose Artifact can keep you warm, cook your meals,==W== and even protect you in a fight! A one-of-a-kind treasure!
+0057 [Eleanor] | Sounds impressive. How many Dorra?
+0058 [Reception Merchant] | Five...
+0059 [Eleanor] | Five million?
+0060 [Reception Merchant] | ... Y-Yes! Exactly! That's the price!
+0061 [Eleanor] | Birds of a feather... This one's a scammer too.
+0062 [Eleanor] | ... Still, I guess that's the kind of easy mark I used to be. I need her to lower her guard even more so I can pump her for info on the other guy...
+0063 [Reception Merchant] | W-Well? Too steep for you...?
+0064 [Eleanor] | Not at all. I didn't expect such a bargain. It's no problem whatsoever.
+0065 [Reception Merchant] | ...!
+0066 [Eleanor] | I'll take it.
+0067 [Reception Merchant] | My, you've got deep pockets, my lady! We have plenty more Artifacts in stock. If you're interested, I can bring them out for you.
+0068 [Eleanor] | Gladly. I'll wait here. Bring out everything you have.
+0069 [Reception Merchant] | Right away, my lady! Give me one moment!
+0070 [Eleanor] | The way those goons outside reacted... The scammer has to be hiding in here.
+0071 [Eleanor] | But I don't hear anyone else around. And this place isn't big enough to need all those guards out front...
+0072 [Eleanor] | Better look around before he gets back.
+0073 [Eleanor] | Huh? Is that...
+0074 [Eleanor] | Why is Caterine's fan here?! And underneath it... A secret passage?
+0075 [Eleanor] | I had no idea it was this massive down here.
+0076 [???] | ...! Who's there?
+0077 [Eleanor] | That voice...!
+0078 [Eleanor] | Caterine?!
+0079 [Caterine] | Eleanor!
+0080 [Caterine] | What are you doing here? Did they catch you too?
+0081 [Eleanor] | What happened? Are you hurt?
+0082 [Caterine] | I'm fine...==W== But how did you find this place?
+0083 [Eleanor] | Vivian and I followed your trail to this house. Then I spotted your fan in the corner upstairs...
+0084 [Caterine] | Ah! I left my spare fan behind on purpose. You caught on, Eleanor!
+0085 [???] | Is someone there?
+0086 [???] | Who is it? The Imperial Guard?
+0087 [Caterine] | Oh, right. I'm not the only one locked up down here...
+0088 [Eleanor] | You are...!
+0089 [Imprisoned Trekker] | Well, if it isn't the girl from the market!
+0090 [Imprisoned Civilian] | A-Are you here to get us out?!

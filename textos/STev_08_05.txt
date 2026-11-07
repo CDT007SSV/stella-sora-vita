@@ -1,0 +1,145 @@
+# Evento · ¡Latido! Rapsodia neoinspirada · 5 · The Show Begins
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cheering Trekker | Cheering Trekker
+N:Confident Neo Artisan | Confident Neo Artisan
+N:Curious Trekker | Curious Trekker
+N:Excited Trekker | Excited Trekker
+N:Gray | Gray
+N:Host | Host
+N:Iris & Noya & Amber | Iris & Noya & Amber
+N:Menacing Neo Artisan | Menacing Neo Artisan
+N:Picky Neo Artisan | Picky Neo Artisan
+N:Rowdy Neo Artisan | Rowdy Neo Artisan
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_131 | Bloc
+N:avg1_140 | Sparkla
+N:avg1_163 | Greyhorn
+N:avg3_100 | Sylar
+N:avg3_102 | Willow
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_212 | Leona
+N:avg3_221 | Rabbit Pie
+N:avg3_937 | The Crowd
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | The Show Begins
+0003 [Intro] | The Tech Convention officially begins, but you, Bloc, and Sparkla are still rushing toward the venue. Meanwhile, the top-seeded favorite, Leona, has already crushed the competition and set her sights on first place.
+0004 [Bloc] | Could it be Rabbit Pie? I remember she's supposed to be a housekeeping automaton, right?
+0005 [Sparkla] | Hehe. Any experienced artisan leaves room for expansion when designing an invention. Of course Rabbit Pie is no exception~
+0006 [Sparkla] | The automaton competition this time is mainly focused on survival in the Wilds. And if you ask me...==W== The most important part of surviving out there is overcoming your fear of it.
+0007 [Sparkla] | So let me put it plainly—==W==all fear comes from insufficient firepower.
+0008 [Sparkla] | But honestly, I couldn't get excited about building a combat automaton from scratch. Since I already had a perfectly good base model lying around, I'll just wire a weapons system into Rabbit Pie instead.
+0009 [Sparkla] | Sigh... The problem is, this is way too easy for me. It barely even feels like a challenge. Even overestimating it, I could finish in a few hours tops.
+0010 [Bloc] | Yes! This is it! We've totally got this in the bag!==W== My dream of becoming filthy rich overnight is finally coming true~
+0011 [Sparkla] | I'll start modifying Rabbit Pie right away. But taking apart the internals involves this little one's private secrets, so Bloc and ==PLAYER_NAME== should go get some rest first.
+0012 [Rabbit Pie] | :3 No peeking allowed~
+0013 [Bloc] | Sounds good to me! We're exhausted anyway, so we won't hold back~
+0014 [Tú] | Good night, Sparkla.
+0015 [Narración] | Maybe it was because so much had happened today, I drifted off almost immediately.
+0016 [Tú] | Zzz ... zzz...
+0017 [Bloc] | Hehe... Dorra... Two hundred million Dorra... Come flying to me...==W== Heheh... Zzz...
+0018 [Bloc] | AAAAAH!! We're screwed! Totally screwed!!
+0019 [Bloc] | Boss, wake up!! Get up already~~~~
+0020 [Tú] | Mmh... What happened?
+0021 [Bloc] | We're doomed... How did I choke this hard at the worst possible moment?!==W== Do you even know what time it is?! The convention starts in three hours!!
+0022 [Tú] | It's already that late?!==W== Iris left a bunch of missed calls too. We slept like the dead...
+0023 [Bloc] | Where's Sparkla?! Why didn't she wake us up?!
+0024 [Sparkla] | Mmmh... Bloc, you're way too loud... Keep it up, and I'll block you...
+0025 [Bloc] | Sparklaaaa!! What happened to Rabbit Pie's alarm function?! Did it break?! I didn't hear a single ring!
+0026 [Sparkla] | No way it broke~ I was exhausted after the modifications yesterday and wanted to sleep in, so I set the alarm later on purpose.
+0027 [Bloc] | That's WAY TOO LATE!! We're definitely gonna be late now, aaAAAAAHHHHH!!
+0028 [Tú] | Bloc, calm down. Aren't you always saying, "As long as Sparkla's around, everything'll work out"?
+0029 [Sparkla] | Hehe, ==PLAYER_NAME==, hearing you trust me that much is making me blush a little~♪
+0030 [Bloc] | Exactly, which is why you need to hurry up and save us!! Sparkla, you're our only hope!
+0031 [Sparkla] | Honestly, what am I gonna do with you? Since you're begging me so sincerely...
+0032 [Sparkla] | I actually prepared one last secret surprise—==W==and now it's finally time for the grand reveal!!
+0033 [Iris] | Still can't reach Boss...
+0034 [Iris] | How about Miss Willow? Has she gotten through to Bloc?
+0035 [Willow] | No answer there either...
+0036 [Noya] | Sorry... Maybe I should've gone with Boss back then...
+0037 [Amber] | Don't worry. Boss will make it here.
+0038 [Iris] | Boss is calling back!
+0039 [Iris] | Boss! You finally picked up! What happened over there?!
+0040 [1] | Iriiiiiiis—
+0041 [1] | We're—fiiiiine...==W== We'll—be—there—sooooon...==W== You—guys—go—ahead...
+0042 [Amber] | What did they say?
+0043 [Iris] | The wind's way too loud. I can barely make it out...==W== But I think they said for us to head to the venue first.
+0044 [Curious Trekker] | Um... Excuse me... Would it be okay if I tagged along with you?
+0045 [Iris] | Ah! You're the Trekker we met the other day, right? Of course!
+0046 [Noya] | And this is?
+0047 [Iris] | She's another Trekker we met at the underground market...
+0048 [Iris] | U-Um... How should I address you...?
+0049 [Curious Trekker] | Just call me Gray.
+0050 [Iris] | Miss Gray, I'm Iris.==W== These two are Noya and Amber,==W== and this is Willow.
+0051 [Noya] | What?! This person bet three million Dorra?!
+0052 [Amber] | Mm. Rich.
+0053 [Gray] | Miss Noya, Miss Amber, Miss Willow...==W== It's nice to meet you all.
+0054 [Noya] | Nice to meet you too...==W== Huh? Somehow... I feel like I've seen you somewhere before...
+0055 [Gray] | Haha, maybe we crossed paths at one of the Trekkers' Houses? I usually work around Port Goldfinch. Wouldn't surprise me if we've bumped into each other near the Monolith over there.
+0056 [Noya] | Ohhh, yeah, that actually sounds possible!
+0057 [Iris] | Are you by yourself today? What about that butler from before?
+0058 [Gray] | Hehe, I sent Cecil off to handle something else.
+0059 [Leona] | Heeey—
+0060 [Leona] | Didn't you say Sparkla was entering the competition? It's about to start, and she's still nowhere in sight?!
+0061 [Iris] | U-Um...==W== She's probably still on the way.
+0062 [Leona] | Good. I was starting to think I scared her so badly she ran off with her tail between her legs. If I don't let her experience the full power of "Ticka-Boom," I came here for nothing!
+0063 [Leona] | Oh right, I even saved you front-row seats so you could properly witness my greatness. Come with me.
+0064 [The Crowd] | There's actually a perk like that?!
+0065 [Iris & Noya & Amber] | Woooow—
+0066 [Willow] | This is incredible... No wonder they say this is the biggest Tech Convention yet.
+0067 [Leona] | That investor clearly knows what they're doing. The prize money is insanely generous.
+0068 [Gray] | Hehe... If you're already impressed now, you're in for a treat. Things are only gonna get more interesting from here.
+0069 [Iris] | Huh?! Wait, is that ... Cecil?!
+0070 [Host] | ... As the host of this year's convention, the Rockefeller family extends our sincerest gratitude to all artisans and Trekkers participating today.
+0071 [Host] | This year's convention is themed around "survival in the Wilds." Contestants will compete in two divisions: "Logistics" and "Firepower." The comprehensive performance of each entry will be judged through multiple rounds of competition!
+0072 [Host] | The Logistics Division will be scored on navigation, carrying capacity, and safety performance,==W== while the Firepower Division is simple and straightforward—an all-out battle!
+0073 [Host] | At the end, the winners of both divisions will face one final safety evaluation. If the Logistics champion withstands the Firepower champion's assault, the Logistics Division wins. Otherwise, the Firepower Division claims victory!
+0074 [Host] | And let me reiterate the grand prize—the champion will not only receive one billion Dorra, but also an exclusive sponsorship from the Rockefeller family:==W== twenty Neo Coins!
+0075 [Curious Trekker] | Those Neo Coins are supposed to be insanely valuable, right? They're giving out twenty of them?! That's one hell of an investment.
+0076 [Excited Trekker] | The strongest spear versus the strongest shield... Now that sounds exciting!
+0077 [Host] | Thirty minutes remain before the convention officially begins. Contestants, please make your final adjustments. We wish everyone the best of luck!
+0078 [Iris] | ... Why is Cecil up on stage?
+0079 [Gray] | Sorry for hiding it from you all...==W== My family is actually the main organizer behind this year's convention.
+0080 [Willow] | Huh?! If you're one of the organizers, why disguise yourself as a Trekker and join the betting pool?
+0081 [Gray] | I just wanted to secretly observe whether the invited artisans would really show up. After all, information shared between Trekkers tends to be the most reliable, right?
+0082 [Gray] | As for the betting...==W== Well, the atmosphere was just too good, haha. Besides, that amount of money is basically pocket change to me anyway, so there wasn't any deeper reason behind it.
+0083 [Leona] | That's not the issue here!==W== Why isn't Sparkla here yet?!
+0084 [Sparkla] | Hehe, so what do you think of the speed on the heavily customized "Super Action Pie" version?
+0085 [Bloc] | This is ... your ...==W== surprise...?==W== It's definitely ... surprising!==W== Bleeeurghhh...
+0086 [Tú] | I thought ... I was finally starting to get used to traveling like this...==W== But nope... Still can't handle it...==W== Bleeeurghhh...
+0087 [Sparkla] | You guys seriously can't take it anymore? Should I slow down a little?
+0088 [Tú] | If you slow down for us... We won't make it to the convention...==W== bweehh?!
+0089 [Sparkla] | Relax~ At worst we'll arrive maybe an hour behind schedule. And honestly, that'll put us right in time for the championship match anyway.
+0090 [Tú] | How is ... any of that ...==W== relaxing...
+0091 [Sparkla] | Then we can just storm into the arena and challenge the reigning champion directly. That way we skip wasting time fighting all the weaker contestants. Two birds with one stone~
+0092 [Tú] | Isn't that way too reckless...? Wouldn't they disqualify us...?==W== Bweegh...
+0093 [Bloc] | Those artisans from the NGO love wild stunts like this too, so it's fi—==W==Bleeeurghhhhhh...
+0094 [Confident Neo Artisan] | Everyone, please observe the driving performance of the Big Brain Automaton under maximum load. No matter how much cargo it carries, it can stop precisely at the designated location. I call this feature the Inertia Crusher!
+0095 [Picky Neo Artisan] | Who cares if it can park accurately? What if obstacles suddenly appear on the route? Can your so-called Big Brain avoid them perfectly?
+0096 [Confident Neo Artisan] | W-Well... That feature is planned for a future optimization update...
+0097 [Picky Neo Artisan] | Hah! Future optimization? Just admit you can't do it. Don't call it a smart transport unit—you should rename it Big Dummy instead!
+0098 [Rowdy Neo Artisan] | Get off the stage—! Get off the stage—!
+0099 [Curious Trekker] | HAHAHAHA!
+0100 [Leona] | I see now... I finally understand why Sparkla hid out in prison at first.
+0101 [Leona] | Why is everything here just a pile of scrap metal...?==W== Guess I should step in early and save everyone some time.
+0102 [Leona] | Heeey—all you idiots in the Firepower Division calling yourselves artisans—==W==how about we cut the nonsense and decide the winner right here and now?
+0103 [Leona] | ... No objections? Great, then it's settled. My Ticka-Boom will take on every single one of your machines at once. Bring it on!
+0104 [Menacing Neo Artisan] | You're all bark for someone that tiny.
+0105 [Curious Trekker] | Ohhhh, now THIS is what I came to see!
+0106 [Cheering Trekker] | Leona! You'd better win! I bet all my money on you!!
+0107 [Host] | How should we handle this?
+0108 [Gray] | No need to interfere. Miss Leona seems completely confident in herself...==W== Besides, this proposal is obviously far more entertaining, isn't it♪
+0109 [Host] | Understood!
+0110 [Host] | I hereby announce a format change for the Firepower Division—
+0111 [Narración] | From this point onward, Ticka-Boom will battle every automaton in the division simultaneously!

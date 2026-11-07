@@ -1,0 +1,107 @@
+# Evento · Un crepitante indicio de primavera · 4 · The Bait Is Set
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Curious Passerby | Curious Passerby
+N:Flustered Gang Member | Flustered Gang Member
+N:Haggard Gang Member | Haggard Gang Member
+N:Prosperity Gang Leader | Prosperity Gang Leader
+N:Tired Gang Member | Tired Gang Member
+N:avg1_113 | Shimiao
+N:avg1_141 | Chixia
+N:avg1_159 | Coronis
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_1273 | Loong Resident
+N:avg3_175 | Loong Resident
+N:avg3_176 | Loong Resident
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | The Bait Is Set
+0003 [Intro] | Using a large stockpile of fireworks, you successfully lure the smugglers straight into your trap at nightfall.
+0004 [Narración] | Chixia and Coronis shove a cart overloaded with firecrackers through the busy crowd.
+0005 [Chixia] | I hand-picked every single one of these firecrackers myself.
+0006 [Chixia] | Tweaked a few of 'em, too. They pack three times the punch...==W== No, scratch that—five times, minimum!
+0007 [Coronis] | Oh? Fascinating. I wasn't aware you dabbled in pyrotechnics.
+0008 [Chixia] | You bet! My custom crackers are actually kinda famous among enthusiasts!
+0009 [Chixia] | Like this one—sealed a talisman inside. Plays a recording when it blows.==W== This one shouts "Prosperity to You,"==W== that one screams "Money Go My Home!"
+0010 [Chixia] | And check this: my new Sky-Quaking Thunder Pillar. It's man-sized!==W== Seniors tackled me before I could test-fire it at the retreat, though...
+0011 [Coronis] | Hehe... I must say, I admire your innovation. Your commitment to field testing is quite refreshing.
+0012 [Chixia] | For real? Finally, someone who gets me!
+0013 [Chixia] | If you dig this stuff, Coronis, swing by Yunji Retreat sometime. I've got way cooler gadgets stashed away.
+0014 [Coronis] | I'd be delighted. Xuan Shi arts fascinate me. I'm sure they'll provide ample inspiration.
+0015 [Chixia] | Arts? You mean our spells?==W== Hehe... Just you wait. I'll show you my talisman skills later!==W== Try not to be too blown away, okay?
+0016 [Coronis] | I look forward to it.==W== Now then, where exactly are we heading?
+0017 [Chixia] | If we want eyes on us, let's hit the street opposite. It's packed.
+0018 [Curious Passerby] | Huh? That's a huge cart of firecrackers. You two setting up a stall?
+0019 [Curious Passerby] | Look at the size of those things! Bet they make a serious bang. Gonna be quite a show!
+0020 [Chixia] | Heh heh, you've got a sharp eye!
+0021 [Chixia] | Just look at this beauty. Pretty on the outside, sure, but the inside is a masterpiece of...==W== Ah—
+0022 [Narración] | Achoo!
+0023 [Narración] | As Chixia sneezes, a flame shoots right from the tip of her tail.
+0024 [Curious Passerby] | Whoa! The fireworks... They're catching fire!
+0025 [Chixia] | Huh? Where'd those sparks come from?!==W== Q-Quick, put it out!
+0026 [Narración] | Waters, spring forth!
+0027 [Shimiao] | You two. That is a lot of explosives you are transporting. I presume you filed the necessary declarations?
+0028 [Chixia] | D-Declarations...?
+0029 [Shimiao] | Pyrotechnics of this magnitude require mandatory reporting and inspection for both transport and storage.
+0030 [Shimiao] | Furthermore, the fuses are of inconsistent lengths, and the casings violate safety standards. These are unauthorized modifications, correct?
+0031 [Chixia] | Uh... Well...
+0032 [Shimiao] | I am unaware of your specific alterations, but unstable explosives pose a severe risk. One mistake could be catastrophic.
+0033 [Shimiao] | Do you know the danger this poses? If that fuse had not been extinguished, the resulting fire would require far more than a simple apology to resolve.
+0034 [Chixia] | I mean... Yeah, you've got a point...
+0035 [Shimiao] | For safety reasons, the Baize Bureau will take custody of this batch. We shall determine their disposal after a thorough assessment.
+0036 [Chixia] | Fine. Guess I'll have to part with my babies...==W== You take good care of 'em for me!
+0037 [Narración] | Before the watching crowd, Shimiao confiscates the entire haul of firecrackers and takes them away.
+0038 [Coronis] | She has departed. You may stop cowering now, Miss Chixia.
+0039 [Chixia] | Phew...==W== Scared me half to death. Shimiao is absolutely terrifying when she's in work mode...
+0040 [Chixia] | So... How was the acting? Pretty solid, right? Like the real deal!
+0041 [Coronis] | A splendid performance. Especially those sparks you conjured. It gave the bystanders a genuine fright.
+0042 [Chixia] | Anyway, that should do the trick, right?
+0043 [Coronis] | Yes, the intensity and frequency were sufficient. Now, we simply wait and watch.
+0044 [Narración] | Night falls outside a deserted warehouse.
+0045 [Prosperity Gang Leader] | Pick up the pace! Any slower and the patrol's gonna catch us red-handed!
+0046 [Prosperity Gang Leader] | Keep it down! All that racket... You're trying to get us caught?
+0047 [Prosperity Gang Leader] | Hey! You there! What do you think you're doing?!
+0048 [Haggard Gang Member] | Taking a breather. What's it look like?
+0049 [Prosperity Gang Leader] | Suck it up and keep moving! Every second counts right now. We don't have time for breaks!
+0050 [Tired Gang Member] | It's not that we won't... We literally can't. I haven't slept in two days...
+0051 [Prosperity Gang Leader] | Pull it together! Don't let the struggle beat you down. Let the money knock you out!
+0052 [Prosperity Gang Leader] | We're not moving firecrackers here. We're carrying next year's savings, a new house, and good karma for the next life!
+0053 [Prosperity Gang Leader] | We pull this off, and no one looks down on the Prosperity Gang again! Impressive haul for a few nights of toiling!
+0054 [???] | Shimiao's getting an impressive "haul" alright...
+0055 [Prosperity Gang Leader] | Who said that?!
+0056 [Haggard Gang Member] | D-Did ...==W== that noise just come from the firecracker pile?!
+0057 [Tired Gang Member] | Did the firecrackers just talk?! Are we hallucinating from exhaustion...?
+0058 [Chixia] | Rest assured, your ears work just fine!
+0059 [Tired Gang Member] | Oh gods, now there are firecracker spirits... I've officially lost my mind.
+0060 [Prosperity Gang Leader] | Use your head! That's obviously an enemy! D-Don't panic! There's only one of her. She can't take us all.
+0061 [Shimiao] | She is not alone.
+0062 [Haggard Gang Member] | Ah-haha... The firecracker spirits are multiplying!
+0063 [Shimiao] | Um...==W== Are you people alright?
+0064 [Prosperity Gang Leader] | Wait... You're with the Baize Bureau?!
+0065 [Shimiao] | Theft, smuggling, and now, assault with intent.==W== We have caught you red-handed with undeniable evidence. I strongly advise you to surrender immediately.
+0066 [Prosperity Gang Leader] | Tch! Can't get busted here! Forget the loot! Scatter!
+0067 [Flustered Gang Member] | On it!==W== Wait... M-My legs... Why won't they move?!
+0068 [Coronis] | It appears ...==W== the special anesthetic is finally taking hold.
+0069 [Haggard Gang Member] | Anesthetic?!==W== Did we... Did we walk straight into a setup?
+0070 [Chixia] | Took you long enough to catch on.==W== Then again, seeing how dead on your feet you were, I suppose this is expected.
+0071 [Prosperity Gang Leader] | Impossible...==W== We were careful. Covered every track. How did you sniff us out?
+0072 [Coronis] | Hehe. Simple. Our brilliant commander foresaw your every move.
+0073 [Tú] | About that... I actually have a plan...
+0074 [Tú] | We can bait them into walking right into our hands.
+0075 [Chixia] | It can't be that easy.==W== What does the plan entail?
+0076 [Tú] | Like I said, they've been smuggling firecrackers out in small batches to a hideout. Now they're just waiting to stockpile a fuller load before moving it.
+0077 [Tú] | And yesterday, they hired New Star for transport.
+0078 [Tú] | Needing extra hands meant they had already gathered enough stock. They were ready to leave Cangwu.
+0079 [Tú] | But last night, the thefts suddenly resumed.
+0080 [Tú] | This time, they broke their pattern and cleaned out every last firecracker from the victims' homes.
+0081 [Tú] | My guess is that they hit a snag yesterday. Lost the cargo, panicked, and rushed back to restock.
+0082 [Tú] | They're still hiding in the city. And nothing draws desperate thieves like a massive, unguarded pile of firecrackers.
+0083 [Tú] | And exactly as predicted, the criminals led us straight to their nest.
+0084 [Coronis] | Those firecrackers? Consider them a gift. The perfect bait, prepared just for you.
+0085 [Prosperity Gang Leader] | We were this close to a fortune! I'm not going down like this!
+0086 [Prosperity Gang Leader] | Get them!

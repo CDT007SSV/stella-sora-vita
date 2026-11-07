@@ -1,0 +1,120 @@
+# Evento · Surf y salpicaduras: ¡una brillante aventura de vacaciones! · 1 · Breeze-Delivered Commission
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_155 | Shia
+N:avg1_157 | Karin
+N:avg2_982 | Soldado Trekker
+N:avg3_159 | Horizon
+N:avg3_161 | Leafia
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Breeze-Delivered Commission
+0003 [Intro] | Intrigued by rumors of the Monolith at sea, Leafia wants to set sail to investigate. Horizon recommends two experienced seafaring Trekkers to her—Shia and Karin.
+0004 [Horizon] | You want to investigate the Monolith in the sea?
+0005 [Leafia] | That's right.==W== A fisherman got rescued from open water a few days ago.
+0006 [Leafia] | Ever since they pulled him out, he's been muttering the same thing on loop like he's sleep-talking: In the sea... A Monolith...
+0007 [Horizon] | Ah, that.==W== I heard the guy was barely coherent when they pulled him in, babbling pure nonsense. We figured it wasn't worth sending a team out over an unconfirmed rumor.
+0008 [Leafia] | But what if he did see something?
+0009 [Leafia] | If there's an uncharted Monolith out there, we need to put it on the map. Rumor or not, I have to see it for myself.
+0010 [Horizon] | I figured you'd say that. Officially, I can't assign you people or resources. But if you want to poke around on your own time, I'm not stopping you.
+0011 [Horizon] | One thing though, Leafia...==W== Have you ever sailed the open ocean?
+0012 [Leafia] | Nope.
+0013 [Leafia] | That means you have to help me figure it out.
+0014 [Horizon] | You always ask for favors like you're owed them.==W== Fine, I can't talk. Lucky for you, I saw this coming.
+0015 [Horizon] | I'll hook you up with two experts. If you want to get out on the water, they're your best bet.
+0016 [Horizon] | Oh, and when you see them,==W== see if you can ask when they'll finally drop by. My special expert seats are gathering dust over here...
+0017 [Leafia] | This should be the spot.==W== Horizon mentioned Fluflas in swimsuits... Ah, there they are!
+0018 [Leafia] | Ah, there!
+0019 [Leafia] | Excuse me, are you two...==W== Whoa!
+0020 [Shia] | Mm... Smells like paper and ink, with a hint of sunshine and soil...
+0021 [Leafia] | Wh-What are you doing?! Who goes around sniffing people the second they meet?!
+0022 [Karin] | Shia! Why do you always do this to new people?! I told you it freaks them out!
+0023 [Shia] | How else am I supposed to confirm she's the one Horizon sent without getting a read on her scent?
+0024 [Karin] | Normal people start by asking for a name!
+0025 [Leafia] | Yeah, starting with a name feels a bit safer...
+0026 [Shia] | Hehe, sorry for the scare. But identity confirmed.
+0027 [Shia] | Nice to meet you. I'm Shia, and this is Karin. We're seafaring Trekkers. If it involves the sea, we handle it.
+0028 [Shia] | And you must be Leafia. The surveyor who hauled a massive bag of tools all the way from Sailstead on a wild goose chase for a sea Monolith that might not even exist.
+0029 [Leafia] | Sounds like Horizon already filled you in on me.
+0030 [Leafia] | But to be polite, let me do this right. I'm Leafia, with the Trekker Association.
+0031 [Leafia] | I'm hoping you two can help me head out to sea and look into those sea Monolith rumors.
+0032 [Karin] | That takes some nerve.
+0033 [Karin] | Most people would write that off as a hoax or back out. Not you. You showed up hauling a giant pack.
+0034 [Karin] | I'm warning you now, surveying at sea is no joke. Underestimate the ocean, and you will pay for it.
+0035 [Leafia] | I'd never. That's why I came to you.
+0036 [Leafia] | Horizon said you two are the best seafaring Trekkers around. Real experts. I figured with you, I'd be in good hands.
+0037 [Karin] | Experts?==W== Mmm-hmm... Best... Experts...
+0038 [Leafia] | Is she okay? Did I say something weird?
+0039 [Shia] | Heh, looks like Karin's tail is pointing straight up.
+0040 [Karin] | Shia! Am not!==W== Ahem... Anyway, I believe you're serious about this. And you don't look like a scammer who'd steal our boat and sell it.
+0041 [Leafia] | That's low. Why would I do something like that?
+0042 [Shia] | Heh, Karin's cautious. But once she trusts you, she'll take good care of you.
+0043 [Karin] | Shia! You don't have to tell her all that!
+0044 [Karin] | A-Anyway... We're curious about the sea Monolith too.
+0045 [Leafia] | So you think there really is a Monolith in the sea?
+0046 [Shia] | Mm.==W== A few months ago, a mysterious light appeared out on the water. People said it was the glow of a sea Monolith.
+0047 [Shia] | Turns out it was a glowing whale skeleton. But after that, we checked some old records and found quite a few stories about a sea Monolith.
+0048 [Karin] | The sea is full of unknowns, but this kind of rumor doesn't surface from nowhere.
+0049 [Karin] | As seafaring Trekkers, we want to understand the ocean better too. Unveil its secrets.
+0050 [Leafia] | Perfect. When do we set sail?
+0051 [Karin] | Well, about that...
+0052 [Leafia] | Right, I get it. There's a ton of prep work before we can set sail, right?
+0053 [Leafia] | Like inspecting the hull, checking the sails, stocking up on water and food, and plotting a course based on currents and wind patterns...
+0054 [Shia] | All that matters, but there's something even more important.
+0055 [Leafia] | Something more important? Is it...==W== I've heard fishermen offer a prayer to the sea before heading out...
+0056 [Karin] | Not our thing.==W== Priority number one is getting you a swimsuit!
+0057 [Leafia] | Huh? Did I hear that right? Maybe I need more sleep.
+0058 [Shia] | You heard right! Let's go, we need to get you a swimsuit!
+0059 [Leafia] | B-But aren't we here to investigate the sea Monolith? What's a swimsuit got to do with that?
+0060 [Karin] | A lot! You can't seriously plan to go out in those clothes. If they get wet, not only will you be miserable, you'll barely be able to move!
+0061 [Shia] | A swimsuit is essential gear! Light, breathable, nothing to hold you back.==W== And the best part? Put on the right one, and you'll feel like diving right into the ocean!
+0062 [Shia] | Come on, don't look so horrified. You asked for our help, so we're doing our job: making sure you're prepped for the sea!
+0063 [Leafia] | Ugh...
+0064 [Leafia] | I can't believe I'm in a swimsuit... Can't focus at all... This feels wrong...
+0065 [Leafia] | Huh? That person crouching by the water...==W== Is that Karin?
+0066 [Karin] | Oh, it's you.
+0067 [Karin] | Hmm... You look the part, but you seem tense. Does it not fit?
+0068 [Leafia] | No, you picked great. I'm just not used to walking around in this...
+0069 [Leafia] | But for the mission, I'll get through it... I'd even dance in the street in this.
+0070 [Karin] | You don't have to go that far! You take things way too seriously...
+0071 [Leafia] | In the field, unexpected things happen. If you can't adapt fast, the work won't get done.
+0072 [Karin] | Right... Well, for today, take it easy.
+0073 [Karin] | I know you're itching to hit the water right now, but we're not leaving till tomorrow morning. Save your energy.
+0074 [Leafia] | You...==W== Can you read minds?!
+0075 [Karin] | As if.==W== Horizon told us in her letter. She said you'd be eager enough to swim there yourself, and begged us to hold you back.
+0076 [Leafia] | Alright.==W== If we aren't going out today, what are you doing crouching out here?
+0077 [Karin] | Uh... Looking for razor clams.
+0078 [Leafia] | Razor clams?
+0079 [Karin] | Y-Yeah! Since it's our first time meeting, I figured I'd dig up some clams and have Shia cook a nice welcome dinner.==W== Is... Is that a problem?!
+0080 [Leafia] | No, not at all. I just didn't expect you to go out of your way for me. It's a nice surprise.
+0081 [Karin] | What do you mean go out of my way?! Y-You're a guest, and we're sailing together. Of course I'd look after you!
+0082 [Karin] | Too bad the beach is dead today. I've been out here forever and barely found a thing.
+0083 [Leafia] | Oh no... What am I supposed to say?
+0084 [Leafia] | That compliment strategy Mikan taught me is way too complicated. My mind is completely blank. I can't remember a single thing.
+0085 [Leafia] | Maybe I should just stick to the clams...
+0086 [Leafia] | Um... Are razor clams hard to find?
+0087 [Karin] | Not really. You just focus and listen for any movement under the sand.==W== Oh... I think there's something here.
+0088 [Leafia] | A razor clam?
+0089 [Karin] | No, sounds like a crab.
+0090 [Narración] | Karin brushes aside a thin layer of sand, revealing a tiny crab underneath.
+0091 [Karin] | Looks like it got stranded at low tide and dried up in the sun. Poor thing didn't have the strength to crawl back, so it buried itself in the sand to hide.
+0092 [Narración] | Karin bends down, carefully picks up the limp little crab, walks to the water's edge, and gently sets it back into the sea.
+0093 [Karin] | There you go. Head on home.
+0094 [Leafia] | That's amazing... How could you tell it was a crab just from the sound?
+0095 [Karin] | Heheh. That's experience for you!
+0096 [Karin] | Shia and I have lived by the water for years.
+0097 [Karin] | Where the shells wash up at low tide, which rocks the crabs hide under, what fish swim into the shallows... I know all of it with my eyes closed.
+0098 [Leafia] | With your eyes closed...
+0099 [Karin] | Wait, do you want a blindfolded demonstration?==W== You're on! Challenge accepted!
+0100 [Leafia] | No, I'm genuinely impressed. You know this ocean better than I expected, Karin.
+0101 [Karin] | 'Course I do!
+0102 [Leafia] | Yeah... Now I see why Horizon sent me to you.
+0103 [Leafia] | You're not only expert seafarers. You actively feel and understand the sea.
+0104 [Leafia] | If there is a Monolith out in the sea, I know following you will lead us right to it.
+0105 [Karin] | Hmph. Guess you have good eyes.
+0106 [Karin] | Since you're singing my praises, I guess I have to show off a little and blow your mind!
+0107 [Leafia] | Huh?
+0108 [Karin] | Get ready to see what a reliable seafaring Trekker looks like!

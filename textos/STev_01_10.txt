@@ -1,0 +1,177 @@
+# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 10 · The Secret of the Ocean
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Bewildered Merchant | Bewildered Merchant
+N:Confused Treasure Hunter | Confused Treasure Hunter
+N:Happy Treasure Hunters | Happy Treasure Hunters
+N:Hardworking Housewife | Hardworking Housewife
+N:Hexhorn Whale | Hexhorn Whale
+N:Knowledgeable Scholar | Knowledgeable Scholar
+N:The Crowd | The Crowd
+N:Treasure Hunter Crew | Treasure Hunter Crew
+N:Treasure Hunter Deputy | Treasure Hunter Deputy
+N:Treasure Hunter Leader | Treasure Hunter Leader
+N:Worried Treasure Hunters | Worried Treasure Hunters
+N:avg1_135 | Mistique
+N:avg1_155 | Shia
+N:avg1_157 | Karin
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg2_990 | Miembro del Viento de Ceniza
+N:avg2_991 | Miembro del Viento de Ceniza
+N:avg3_100 | Sylar
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_201 | Marlene
+
+## Texto
+0001 [Intro] | Act Ten
+0002 [Intro] | The Secret of the Ocean
+0003 [Intro] | You fight off the treasure-seeking Trekkers who have been tailing you. In the chaos, you accidentally recover Granny's diary. Now, you understand the secret behind that glow.
+0004 [Karin] | Granny's diary?!
+0005 [Shia] | Yes. Granny would keep a diary while at sea and then compile it into a nautical log once she got home.
+0006 [Tú] | I remember Shia saying that the log is missing entries from this specific period.
+0007 [Karin] | If that's really Granny's diary, then once we get it, we can finally find out what happened back then.
+0008 [Karin] | That jerk showed us just a glimpse before hiding it away—How stingy.
+0009 [Shia] | She wants to use it as leverage. We need to think of something.
+0010 [Tú] | ...==W== Ah, I have an idea.
+0011 [Tú] | What we need to do is "devalue" the diary—to make her think it's worthless, and trick her into handing it over willingly.
+0012 [Treasure Hunter Leader] | Still hesitating, everyone? This diary is solid proof that Marlene was lying.
+0013 [Treasure Hunter Leader] | If you want to protect her name, you'll obediently let me go, and I'll keep it a secret for you.
+0014 [Karin] | Hmph, do you think we're that easy to fool? Why should we believe that's her diary?
+0015 [Karin] | Don't think we don't know—There's another diary by a different Trekker from that time. You're planning to trick us with that!
+0016 [Treasure Hunter Leader] | Nonsense! I just found this on this rotten ship!
+0017 [Shia] | Karin, no need to argue with her. Even if the diary is real, Granny eventually made it back to town safely, and that's all that matters.
+0018 [Tú] | Exactly. Let her think we don't care about the diary.
+0019 [Treasure Hunter Leader] | You're lying. If you truly don't care, why are you here?
+0020 [Treasure Hunter Leader] | You don't believe her whole "Ghost Ship" story either, do you? Now you must admit that it was a complete and utter lie.
+0021 [Treasure Hunter Leader] | Marlene must have secretly come back here many times over the years, and sold a lot of whale bones. What a disgrace for such a famous traveler to be so greedy for profit.
+0022 [Karin] | How dare she slander Granny like that... I'm gonna beat her into a fishcake!!
+0023 [Tú] | She's trying to provoke us. Don't fall for it.
+0024 [Shia] | Don't worry, Boss. She underestimates my trust in Granny.
+0025 [Shia] | Besides, her scent has changed—she's getting desperate now.
+0026 [Treasure Hunter Leader] | Decided yet? You wouldn't want Marlene to become infamous in town, or even throughout the world, do you?
+0027 [Shia] | Listening to you... I just feel so pathetic for you.
+0028 [Treasure Hunter Leader] | Huh?! What are you talking about!?
+0029 [Shia] | Everything you've said is just your own delusion. You have no way to prove she did anything.
+0030 [Karin] | That's right! Only a person as selfish as you would think everyone's the same! Grandma would never sell whale bones!
+0031 [Treasure Hunter Leader] | Still not giving in?
+0032 [Treasure Hunter Leader] | Fine. As you all wish, I'll reveal her wicked secrets right here in this diary!
+0033 [Treasure Hunter Leader] | Prepare yourselves for the slap!
+0034 [Tú] | Good, she's taking out the diary. Now all we have to do is...
+0035 [Shia] | Karin! Aim for her right hand!
+0036 [Karin] | Got it!
+0037 [Narración] | A bullet whizzes through the air, accurately striking the treasure hunter's hand. She cries out and drops the diary, which falls to the ground.
+0038 [Treasure Hunter Leader] | Ah! My Diary!!
+0039 [Treasure Hunter Leader] | Ahhhhh—!
+0040 [Tú] | Shia! She's falling!
+0041 [Shia] | Leave it to me!
+0042 [Narración] | Just as she was about to hit the ground, Shia leaped forward and caught her steadily.
+0043 [Treasure Hunter Leader] | I... I'm still alive...
+0044 [Shia] | Phew... You're not getting away anymore.
+0045 [Treasure Hunter Leader] | Y-You...
+0046 [Karin] | No more talking! Get out of Shia's arms right now! I'll tie you up!
+0047 [Treasure Hunter Deputy] | O-Oh, boss, you came too…
+0048 [Treasure Hunter Leader] | Hmph. We'll consider this a loss. But everyone has their day, I'll make a comeback sooner or later!
+0049 [Karin] | You dare to come here again? You should count how many lives you have first!
+0050 [Karin] | The moment your ship sails in this sea, the Hexhorn Whale won't let you off the hook!
+0051 [Hexhorn Whale] | Awooo!
+0052 [Treasure Hunter Leader] | If that's the case, why don't we make a deal? You handle the transportation, and I'll find a buyer.
+0053 [Treasure Hunter Leader] | So many bones are like gold scattered all over the place. It's such a waste to just leave them here.
+0054 [Karin] | Hey, are you done already? You're way too greedy!
+0055 [Tú] | It seems she hasn't given up yet… ==W==Can we keep these Trekkers away with just the Hexhorn Whale in the future?
+0056 [Tú] | Huh? Why do I feel this whale skeleton is dimmer than before?
+0057 [Shia] | So it's not just me...==W== I think the light on the entire island has grown dim.
+0058 [Confused Treasure Hunter] | Yeah, we've been watching their light slowly fade when we guarded here…
+0059 [Karin] | What's going on? Are these bones broken?
+0060 [Shia] | Heh, whale bones aren't like ordinary things, how could they be broken?
+0061 [Shia] | Besides, we only see this light in town every few years, right? Otherwise, we wouldn't have to wait so long to come.
+0062 [Tú] | Broken...
+0063 [Shia] | This lantern sailed with Granny for years. I was sure it was dead a few times, but she wouldn't let me get rid of it. She'd just say, "It'll sort itself out."
+0064 [Shia] | ... It still sputters on and off, even now. And she never told me why.
+0065 [Mistique] | The light emerged again after that big storm a few days back, and now the whole town's in an uproar.
+0066 [Narración] | "In the downpour of a stormy night, an eerie green glow blooms at the edge of the ink-black sea."
+0067 [Tú] | Lantern, heavy rain, light... If that's the case...
+0068 [Tú] | The lantern! Where's the lantern?
+0069 [Karin] | It's in my bag, here—
+0070 [Tú] | Knew it. It's not working again.
+0071 [Shia] | What is it, Boss? Why the sudden urgency?
+0072 [Tú] | I have a guess…
+0073 [Tú] | The first time I saw the lantern, it was glowing in the sea. Later, when it was on the ship, it went out.
+0074 [Tú] | But last time, when it fell back into the sea, it lit up again.
+0075 [Tú] | Could it mean that whenever the lantern meets water, it lights up?
+0076 [Shia] | Possible. Let me try it.
+0077 [Narración] | Shia walks to the sea and soaks the lantern in the water. A moment later, the lantern lights up, just as expected.
+0078 [Karin] | That's amazing! You're incredible, Boss. How did you know?
+0079 [Shia] | I'm guessing there's some kind of glowing material inside the lantern that's activated by water.
+0080 [Tú] | Shia, if you don't mind, can I open the lantern and check what's inside?
+0081 [Shia] | It's okay.==W== But we don't have any proper tools…
+0082 [Treasure Hunter Leader] | We have tools that can pry open this kind of lamp case. Do you wanna borrow them?
+0083 [Karin] | Thank you.==W== Wait. Why are you suddenly so cooperative?
+0084 [Treasure Hunter Leader] | Curiosity is human nature. If I wasn't curious, I wouldn't be a treasure hunter.
+0085 [Narración] | The treasure hunters bring over their tools. After a few tries, a crack appears on the outer case. I pour out the glowing substance inside.
+0086 [The Crowd] | This is...?!
+0087 [Narración] | Pieces of glowing bones lie in my palm. Their eerie-green color is exactly the same as the whale bone.
+0088 [Tú] | If I'm not mistaken, the bones inside this lantern should be from the Hexhorn Whale.
+0089 [Tú] | The first time we saw that whale skeleton, it was glowing brightly in the rain. After the rain stopped, the light had gradually faded.
+0090 [Tú] | I remember Shia mentioned that the light always appears after several days of heavy summer rain.
+0091 [Tú] | The whale bones only emit a light bright enough to be seen from town after absorbing enough water.
+0092 [Shia] | That's why the light hadn't been visible for the past few years.
+0093 [Karin] | Damn it, and those scammers were spreading rumors that Granny stole the treasure. It was actually the weather!
+0094 [Treasure Hunter Leader] | So, we spent all this time searching for treasure, and not only is there no Monolith...
+0095 [Treasure Hunter Leader] | ... But even these bones are just glowing materials?!
+0096 [Tú] | Hexhorn Whale bones were very valuable years ago.
+0097 [Treasure Hunter Leader] | What did I say? Such a magical thing must be worth a lot.
+0098 [Tú] | But with the popularization of Lantern Artifacts, people probably don't use such a troublesome and unstable method of lighting anymore.
+0099 [Shia] | That's true. This kind of lantern is almost impossible to find on the market now. I thought about taking it to get repaired, but even the craftsmen couldn't recognize it.
+0100 [Treasure Hunter Leader] | How can this be...==W== I-It's not true!
+0101 [Tú] | Alright then, I'll just have to find a way to prove it to you.
+0102 [Tú] | Hey, Mistique, you there? I've got big news for you.
+0103 [Mistique] | What's up, Boss? If it's not really explosive, I won't forgive you for disturbing my sleep★
+0104 [Tú] | It's absolutely explosive. But you have to do me a favor...
+0105 [Narración] | Five minutes later...
+0106 [Bewildered Merchant] | Whale bone lanterns? Never heard of them... You mean lanterns with whale bones as the casing?==W== If there's nothing else, I'm leaving. The morning market is about to open...
+0107 [Knowledgeable Scholar] | It was a popular type of lantern in the past. It needed to be regularly filled with water, yet too much water would block the light. It's outdated now.
+0108 [Hardworking Housewife] | Such a troublesome one. The Lantern Artifacts are so much better. They only need a little bit of magic to light up.
+0109 [Tú] | Did you hear that? These bones won't sell for a good price.
+0110 [Treasure Hunter Leader] | M-Maybe there are still places where Lantern Artifacts haven't been put to use...
+0111 [Tú] | Perhaps, but by the time you haul these heavy bones back, considering the cost of magic, storage, and making the casings for the lanterns...
+0112 [Treasure Hunter Leader] | How can this be a completely losing business...==W== I-I'm out!!
+0113 [Karin] | Nice one, Boss. You almost made her cry.
+0114 [Tú] | All clues have finally connected.
+0115 [Treasure Hunter Deputy] | B-Boss, what about our bonus...
+0116 [Worried Treasure Hunters] | And the travel allowance, transportation allowance, accommodation, and overtime pay we agreed on…
+0117 [Treasure Hunter Leader] | Cut the whining! I'm not going back on my word! How can one be a boss without integrity?
+0118 [Happy Treasure Hunters] | All hail the boss!
+0119 [Treasure Hunter Leader] | Crap... I didn't earn a single Dorra, and now I'm in a huge debt...
+0120 [Karin] | Hehe, that's what you get for being so greedy.
+0121 [Treasure Hunter Leader] | Sh-Shut it!==W== Guys, hear me out! I still got an old treasure map! Let's go now. This time we'll definitely come back rich!
+0122 [Happy Treasure Hunters] | Yoo-hoo—
+0123 [Shia] | You really think you can just walk away like that?
+0124 [Shia] | You've been slandering Granny everywhere. I haven't settled the score with you yet.
+0125 [Karin] | That's right! My salted fish bucket is ready! You all better be prepared to be beaten into fishcakes!
+0126 [Treasure Hunter Crew] | W-WE'RE SO SORRY—!!!
+0127 [Narración] | And so, the treasure hunters apologize to us, promise to clear up all the rumors about Granny, and swear they would never return to this island to disturb the Hexhorn Whale.
+0128 [Narración] | At sunrise, we set off on our return journey. The Hexhorn Whale swims alongside the boat, saying goodbye.
+0129 [Narración] | Bathed in warm morning light, Shia and Karin open the long-sealed diary:
+0130 [Narración] | ==A-1=="... Calor Month 18th, Cloudy. This is my third day on the island. Whally helped me recover the boat, but it was too damaged to repair."==P== "==A-1==Calor Month 21st, Cloudy. I found a dying Hexhorn Whale on the beach. Whally was very sad. I could only watch as it stopped breathing. I collected some shells and placed them beside it, hoping it would have a long, peaceful dream."==P== ==A-1=="Calor Month 30th, Sunny. I built a new ship and was ready to go back. Whally didn't want me to leave. I don't know if I can protect their home from other people in the future."
+0131 [Shia] | This is the last entry. I remember Granny returned to town a few days later.
+0132 [Karin] | There's nothing else? Let me see...==W== Huh? There's something written on the back cover!
+0133 [Narración] | "To the person reading this: if you are not Shia, please stop here. The following words are what I have always wanted to say but never had the chance to."
+0134 [Shia] | This is ... for me?!
+0135 [Narración] | ==A-1=="Shia, congratulations. You've figured out the truth through your own efforts. You must be an amazing seafaring Trekker now."==P== ==A-1=="The source of the light is these bones. It is neither a ghost ship, nor treasures. You must be surprised, right? Only a third-rate Trekker would be discouraged by it not being treasures."==P== ==A-1=="I believe you understand, that this island is the sacred resting place of Hexhorn Whales. To prevent greedy people from disturbing them, I will make up a ghost ship story. Please continue to protect this island in my place."
+0136 [Karin] | That's Granny. She knew those "third-rate Trekkers" would follow us.
+0137 [Tú] | And she knew you'd find your way here even before she left the island.
+0138 [Narración] | ==A-1=="I'm sorry, Shia. Please forgive me for keeping this from you all this time. You were still young, and I was worried you might accidentally let it slip. It would bring too much danger, and I fear I couldn't protect you."==P== ==A-1=="You must be all grown up now, right? I really wish I could see what you've become... But unfortunately, I won't have the chance.==P== ==A-1==Alright, don't be sad. Even if I've left this world, I will always be by your side, just like the sea.==P== ==A-1==You are my most precious treasure."
+0139 [Tú] | To Granny, the most precious treasure was Shia...
+0140 [Shia] | Thank you, Boss. Thanks to you, we got to read Granny's diary.
+0141 [Shia] | And... I finally understand what was in her heart.
+0142 [Karin] | Uwahh… Granny…
+0143 [Shia] | Oh, little Karin, why are you crying?
+0144 [Tú] | Good thing the sun is already up, or you might attract ghosts.
+0145 [Karin] | There you go again! You won't scare me anymore! Boss, just you wait...
+0146 [Shia] | Granny… Don't worry. I'm not alone anymore.
+0147 [Shia] | By my side, I already have companions, who are like family to me.

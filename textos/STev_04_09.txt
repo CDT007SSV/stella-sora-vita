@@ -1,0 +1,154 @@
+# Evento · Réquiem invernal y el gatillo del alba · 9 · The Burden of Power
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Council Member | Council Member
+N:Master | Master
+N:Researcher | Researcher
+N:avg1_120 | Canace
+N:avg1_143 | Wraith
+N:avg2_951 | Entity of Prosperity (Fire)
+N:avg3_100 | Sylar
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_168 | Chica
+N:avg3_178 | Estudiante de la Academia Luz de Gracia
+N:avg3_185 | Grace Receptionist
+N:avg3_195 | Edda
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Nine
+0002 [Intro] | The Burden of Power
+0003 [Intro] | It takes a brutal clash for Edda to realize she cannot defeat Wraith. In desperation, she tries to force Wraith's hand to finish the ritual, but Wraith refuses.
+0004 [Wraith] | Enough of this farce.
+0005 [Edda] | Ugh! You...==W== You tireless monster!
+0006 [Tú] | Edda, you're out of options. Stop this before it's too late.
+0007 [Edda] | Stop...?==W== Heh heh heh...
+0008 [Edda] | I lost my way back a long time ago!
+0009 [Tú] | How?! Why has it turned into Norstheim when we're inside a Monolith?
+0010 [Wraith] | ==PLAYER_NAME==, get back!
+0011 [Wraith] | You're running low on Grace. Quit stalling. If you've got a trump card, use it.
+0012 [Wraith] | Throw whatever you've got at me. I'll put you down every single time.
+0013 [Edda] | Hmph. Big talk.
+0014 [Wraith] | Make your point.
+0015 [Edda] | If you wanted this over, you would've pulled the trigger already.==W== But... Look around. Familiar? The day the Monolith went dark.
+0016 [Wraith] | How do you know about that day?!
+0017 [Edda] | Of course I know. Like I said—I did my homework before coming here.
+0018 [Edda] | Not just the Monolith... I dug into everything regarding Norstheim.
+0019 [Edda] | After all... I wasn't able to stand here with the person who mattered most that day.
+0020 [Edda] | I may not care for this city...==W== but who wouldn't want to know the truth about their own homeland?
+0021 [Opción] | Homeland? Then you're...
+0022 [Edda] | That's right. Born and raised. Though most people just called me the Disgrace of Norstheim.
+0023 [Edda] | Heh. I feel nothing for this place, yet it haunts the back of my mind...==W== Like a curse.
+0024 [Edda] | But you... You're from the Warlord's bloodline. You lived a comfortable life before that day, and even after… You'll never understand how I feel.
+0025 [Wraith] | You're right... Seeing what you've done, I can't pretend to understand you. But I've never forgotten my clan's honor.
+0026 [Edda] | Clan's honor?==W== Heh... Hahahaha!
+0027 [Edda] | Ahem... Excuse me. I just didn't expect such high-and-mighty words coming from you.
+0028 [Wraith] | Hm? Did I say something strange?
+0029 [Edda] | You think I don't know? Wraith, you haven't killed a single Nocturn Eterna.==W== The monsters that destroyed your home... You haven't laid a finger on them.
+0030 [Edda] | And you have the nerve to say you never forgot... Don't make me laugh.
+0031 [Opción] | Wraith, don't let her get in your head!
+0032 [Wraith] | Thanks for the warning, but I'm fine. Nothing she says changes the truth. I never forgot that honor.==W== No... Actually, you helped me reclaim it.
+0033 [Tú] | M-me? What do you mean?
+0034 [Wraith] | You heard me correctly.
+0035 [Tú] | Ah... So that's what you meant. I suppose that did happen.
+0036 [Edda] | At it again... I hate people like you...
+0037 [Edda] | Acting like you deserve everything. Flaunting everything... Everything I can never have...
+0038 [Edda] | Why do you get to have it all? Is it because I wasn't born a warrior? Or because I used that as an excuse to run away?
+0039 [Edda] | Forget it... Doesn't matter now. Just pull the trigger. End it...
+0040 [Edda] | Ugh...!
+0041 [Master] | Edda, don't force it! It's too dangerous! Put the sword down, now!
+0042 [Edda] | Sorry... I just ... wanted to try one more time...
+0043 [Master] | You're too frail. It took years of treatment just to get you on your feet.
+0044 [Edda] | Why can everyone else do it, but not me...?==W== Yesterday, they... They called me a stray. Said I'm not a real child of Norstheim...
+0045 [Master] | Who told you that?!
+0046 [Edda] | Everyone on the street...
+0047 [Master] | Listen, Edda. Ignore them. This is your home. The gates of Norstheim are always open to you.
+0048 [Master] | Don't fret about your origins or what people think... Even if you can't swing a sword, you'll find your own strength. You don't have to be a warrior to serve this city.
+0049 [Edda] | My own strength...
+0050 [Edda] | Um, Master... Actually, I snuck out to the hunting grounds last night. Saw a girl getting attacked by a monster. And then I...
+0051 [Council Member] | Defeating a massive Bark Boar with a single spell?! What incredible talent...
+0052 [Council Member] | This child... Perhaps we should send her to Grace Light Academy? No... Why not have the Eye of Grace researchers evaluate her directly?
+0053 [Master] | Edda, I want to hear your decision.
+0054 [Edda] | I... I want to go.==W== But isn't the City of a Thousand Monoliths really far...? Plus I'm basically broke...
+0055 [Council Member] | Forget the cost. A gift like yours is rare... We'll fund everything. I'll even write the recommendation myself.
+0056 [Edda] | ...
+0057 [Master] | Oh dear, crying before school even starts?
+0058 [Edda] | Because...! That means I have to leave you, Master...
+0059 [Master] | Hahaha! It's not like we'll never meet again. Just come visit during the holidays—this will always be your home!
+0060 [Narración] | Months later.
+0061 [Narración] | ==A-1==Dear Master, How have you been? It feels like ages since I left Norstheim.==P== ==A-1==I pretty much live in the library and the lab these days... But everyone here is so unique. I'm doing well and making plenty of friends.==P== ==A-1==I still miss home, though. The holidays are coming up, so I should be back to visit soon.==P== ==A-1==I'll stop here for now. I want to save the rest for when I see you. —Edda
+0062 [Edda] | Now, just need to find a courier to send this out—
+0063 [Edda] | Wah?!
+0064 [???] | Sorry! You okay?!
+0065 [Edda] | Ouch...==W== Huh?! Senior Canace?
+0066 [Canace] | Hm? Aren't you Edda? From the Elite Class?
+0067 [Edda] | Y-Yes! I'm Edda! I never expected to run into a graduate like you here...
+0068 [Canace] | Well... It's complicated. I'm stuck here under observation for a while.
+0069 [Canace] | Hm? Did you drop this?
+0070 [Edda] | Oh, right, my letter! With the holidays coming up, I wanted to send a note home before I head back...
+0071 [Canace] | Aren't you from ... the Northern City?==W== If that's the case...
+0072 [Edda] | Yes...? Why... Did something happen back in Norstheim?
+0073 [Canace] | Ah... Well, I've only heard rumors. But word is there was a massive catastrophe at the Norstheim Monolith...==W== They say it's gone dark.
+0074 [Researcher] | Hello. Are you the new researcher assigned to this unit?
+0075 [Edda] | Yes. I've been assigned to the Ancient Studies Department.
+0076 [Researcher] | Understood, let me get you registered...==W== And place of birth?
+0077 [Edda] | Place of birth... Can I put N/A?==W== My home is already—
+0078 [Narración] | —wiped off the map.
+0079 [Edda] | Master promised me that I would always have a home to return to... But since the Monolith had gone dark, I had nowhere left to go.
+0080 [Edda] | I buried myself in work, day and night, trying to forget. Then I found the truth: Nocturn Eterna destroyed the Monolith. They destroyed my home.
+0081 [Edda] | My people prided themselves on their strength. So why couldn't they stop Nocturn Eterna? For the longest time, I couldn't understand it...
+0082 [Edda] | But now...==W== I see it clearly. It's simple, really.
+0083 [Edda] | Norstheim fell for one reason: they were weaker than Nocturn Eterna. That is the only truth.
+0084 [Edda] | And if that's true...
+0085 [Edda] | Then I need power, power so absolute no enemy dares challenge it... With that, I can protect everything.
+0086 [Edda] | So I used my rank in the Eye of Grace and accessed archives meant to remain forbidden.
+0087 [Edda] | I pieced the clues together... Until I found Them, buried deep in the ruins.
+0088 [Edda] | With this power, history will never repeat itself—that one thought drove me to prepare for today.
+0089 [Edda] | The final step of the plan... Even if every ritual before this failed, as long as Wraith killed me in the end—
+0090 [Edda] | After all, the magic circle on me is my weapon. Destroying it still counts as "disarming" me... Which means the ritual could still...
+0091 [Narración] | My wish was supposed to come true...
+0092 [Wraith] | It is over.
+0093 [Edda] | Why...==W== Why didn't you shoot?! Why!
+0094 [Wraith] | The battle is done. There is no need for this.
+0095 [Edda] | Don't patronize me!
+0096 [Edda] | I get it... You're soft. Just like the other warriors. They hesitated before Nocturn Eterna, too. That indecision is why...
+0097 [Wraith] | You are wrong. You still don't understand.
+0098 [Wraith] | The strength of Norstheim never came from their weapons.
+0099 [Wraith] | They survived a harsh land by supporting one another. Their unity was their true power.
+0100 [Edda] | Sentiments like that ... didn't save Norstheim! Did they?!
+0101 [Tú] | ...!
+0102 [Wraith] | I understand your pain. But as I said... Northerners were strong because they stood together.
+0103 [Edda] | So what?! What good did it do?!
+0104 [Wraith] | As long as one of us draws breath, the city lives on. Even if we have to rebuild from a single brick elsewhere...==W== That refusal to yield is Norstheim's soul.
+0105 [Master] | Hahaha! It's not like we'll never meet again. Just come visit during the holidays—this will always be your home!
+0106 [Edda] | Then what was it all for...?
+0107 [Tú] | Edda, stop torturing yourself.
+0108 [Edda] | Tyrant...
+0109 [Tú] | You've been blaming yourself this whole time, haven't you? Hating yourself for being too far away to stop the disaster.
+0110 [Tú] | That's why you pushed yourself to the edge. Anything to numb the pain.
+0111 [Tú] | But people back home cared about you. If they saw you destroying yourself over a tragedy you couldn't control... How do you think they'd feel?
+0112 [Edda] | You think some sentimental speech is enough to stop me?
+0113 [Edda] | Don't be naive. If you don't kill me here, I might just try to restart the ritual someday.
+0114 [Wraith] | Suit yourself.
+0115 [Wraith] | I told you: pull whatever tricks you want. If you try anything, I'll just take you down again.
+0116 [Tú] | Wh-What's happening?! An earthquake?!
+0117 [Wraith] | She's out of Grace. Can't hold this space together anymore!
+0118 [Tú] | Edda! It's not safe there! Get over here!
+0119 [Wraith] | Stop! You'll get dragged in with her!
+0120 [Tú] | Whoa?! Ow... What just happened?
+0121 [Wraith] | Teleported. We're in the elevator.
+0122 [Tú] | Teleportation? Did Edda do this?
+0123 [Opción] | Reach out to Edda
+0124 [Tú] | Don't just stand there! Edda, come with us!
+0125 [Edda] | My, you really are ... hopelessly naive.
+0126 [Edda] | Heh... I was going to offer you up as sacrifices, you know.==W== Let me go, and you'll regret it sooner or later...
+0127 [Wraith] | Your acting's terrible... Who's the naive one now?
+0128 [Edda] | Apologies, but I can't let myself get caught yet. Until next time...
+0129 [Edda] | Oh... Almost forgot. Still owe you half that reward, Tyrant.
+0130 [Edda] | Can't conjure up the Dorra like this, though. So take this advice as payment instead—
+0131 [Edda] | You should take care of yourself, for there are plenty who desire you—your body, your soul... All of it.
+0132 [Narración] | Rubble falls as the platform gives way.
+0133 [Narración] | Her silhouette vanishes into the dark, leaving only a cryptic warning behind.

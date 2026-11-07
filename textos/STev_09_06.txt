@@ -1,0 +1,109 @@
+# Evento · Una tormenta de arena y disparos · 6 · Raid: Traps of the Dark Nest
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Enthusiastic Troupe Member | Enthusiastic Troupe Member
+N:Escaped Miner | Escaped Miner
+N:Excited Troupe Member | Excited Troupe Member
+N:Fellow Troupe Member | Fellow Troupe Member
+N:Loud Noise | Loud Noise
+N:Nervous Scorpion Mercenary | Nervous Scorpion Mercenary
+N:Panicked Scorpion Mercenary | Panicked Scorpion Mercenary
+N:Panicked Voice | Panicked Voice
+N:Sympathetic Troupe Member | Sympathetic Troupe Member
+N:Terrified Voice | Terrified Voice
+N:White Cat Troupe Members | White Cat Troupe Members
+N:avg1_108 | Kasimira
+N:avg1_114 | Chaton
+N:avg1_146 | Benito
+N:avg2_967 | White Cat Mercenary
+N:avg2_968 | White Cat Mercenary
+N:avg3_1228 | White Cat Mercenary
+N:avg3_1294 | Desert Scorpion Grunt F
+N:avg3_1295 | Desert Scorpion Grunt F
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_208 | Desert Scorpion Female Grunt
+N:avg3_209 | Desert Scorpion Male Grunt
+N:avg3_218 | Mirage Resident
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | Raid: Traps of the Dark Nest
+0003 [Intro] | Kasimira's gut says it's a setup. But with lives on the line, the White Cat Troupe isn't about to back down. Trap or not, they're going in!
+0004 [Benito] | See? I told you I was right.
+0005 [Benito] | We should let her try things on her own more often. It's not like she messes up every time.
+0006 [Kasimira] | You're right. She's come a long way.
+0007 [Kasimira] | I know I'm too protective.==W== But sometimes, letting go isn't easy...
+0008 [Benito] | Also, you should've given her that pendant yourself instead of having me do it.
+0009 [Benito] | When you called her back earlier, you were going to give it to her, weren't you?
+0010 [Kasimira] | Yeah... But knowing how stubborn she is, she'd never take it.
+0011 [Benito] | "You won't know how good it is unless you try it." Isn't that what she always says?
+0012 [Benito] | You two are more alike than you think. One won't talk, and the other won't listen.
+0013 [Benito] | Instead of staying stuck like this, you should sit down and actually talk to her.
+0014 [Kasimira] | I'll try. After this mission.
+0015 [Benito] | Glad to hear it.
+0016 [Chaton] | Nyahahaha! The great Chaton has returned in triumph!
+0017 [Benito] | That fast?!
+0018 [Chaton] | Heh heh. What did you expect from the wielder of the dark power? Just a quick stroll and—bam!—jackpot!
+0019 [Chaton] | Everyone, get over here! You've gotta hear this guy's story!
+0020 [Escaped Miner] | White Cat Troupe, please... You have to save us!
+0021 [Benito] | And who's this?
+0022 [Chaton] | Fished him away from a bunch of Desert Scorpion grunts. Said he was a miner who escaped the camp.
+0023 [Benito] | Wait, hold on. An escaped miner? And you saved him all by yourself?
+0024 [Chaton] | You bet! As if a few measly Desert Scorpions could stop the great Chaton!
+0025 [Kasimira] | Good work, Chaton. But I'm curious... How exactly did he escape right under their noses?
+0026 [Escaped Miner] | W-Well... There's this massive monster prowling the tunnels. It brought the digging to a dead stop.
+0027 [Escaped Miner] | But the Scorpions didn't care! They forced us to keep digging until the monster went completely berserk...==W== I slipped away in the chaos.
+0028 [Kasimira] | A monster?
+0029 [Escaped Miner] | Yeah! It's huge, and terrifyingly strong. Looks like it's nesting right in the central tunnels...
+0030 [Chaton] | Oh! We actually overheard their deputy captain talking about a monster earlier.
+0031 [Escaped Miner] | Right!==W== And that deputy captain just took half her thugs and headed for Philae!
+0032 [Escaped Miner] | The place is barely guarded right now! If I lead the way, you can save my friends!
+0033 [Kasimira] | Left for Philae...?
+0034 [Enthusiastic Troupe Member] | Yeah, we caught that part too.
+0035 [Kasimira] | With their guards spread thin... It really is the perfect opening.
+0036 [Escaped Miner] | It is! So many of my friends are still locked up in there. Please, you have to help us!
+0037 [Escaped Miner] | They're forcing them to dig right next to that monster today! They could die at any second!
+0038 [Kasimira] | Are those laborers all Trekkers?
+0039 [Escaped Miner] | Some are Trekkers they scammed, but the rest are just locals they kidnapped from Mirage...
+0040 [Kasimira] | Understood. If we break the victims out and expose this new ore vein, we can rally the whole town against the Desert Scorpions.
+0041 [Escaped Miner] | Exactly! Lives are on the line. We can't afford to wait!
+0042 [Kasimira] | But think about it... A monster shows up, and their deputy captain just conveniently leaves with half her people?
+0043 [Kasimira] | That's far too convenient. This has to be a trap.
+0044 [Chaton] | So what if it's a trap?! We can't just leave them to die!
+0045 [Escaped Miner] | She's right! We're completely expendable to the Desert Scorpions! Please, you can't turn your backs on them!
+0046 [Excited Troupe Member] | Yeah! Captain, those Desert Scorpion bastards are scum!
+0047 [Excited Troupe Member] | We've put up with them long enough. Let's make them pay!
+0048 [Sympathetic Troupe Member] | Besides...==W== If we want the town to rebel against the Desert Scorpions, we need a win to prove it's possible.
+0049 [Escaped Miner] | Yes! If you save those people, the whole town and the Trekkers will fight alongside you! I swear it!
+0050 [Kasimira] | But...
+0051 [Chaton] | Relax! With the great Chaton leading the charge, their little trap is nothing!
+0052 [Kasimira] | Alright...==W== Per Squad Three, Rule One: on any major operational decision, every member gets a vote.
+0053 [Kasimira] | Gear up, everyone. We're hitting the mine.
+0054 [White Cat Troupe Members] | Yeah!
+0055 [Panicked Scorpion Mercenary] | Damn it! Warn the others! The White Cat Troupe is here!
+0056 [Panicked Scorpion Mercenary] | Aaargh!
+0057 [Chaton] | Just as I thought. Barely any guards!
+0058 [Chaton] | Hah! Captives of this dark abyss, the great Chaton has arrived to set you free!
+0059 [Kasimira] | Even without their deputy captain, this defense is way too light. Something's wrong.
+0060 [Kasimira] | Chaton, slow down. We don't know what's waiting further in.
+0061 [Chaton] | Yeah, yeah, I hear you!
+0062 [Nervous Scorpion Mercenary] | Over here! They're over here!
+0063 [Nervous Scorpion Mercenary] | Uh...
+0064 [Chaton] | Line 'em up, knock 'em down! You're no match for me! Nya-hahaha!
+0065 [Escaped Miner] | Almost there! Just ahead!
+0066 [Escaped Miner] | Through that cave. That's where they're holding the Trekkers!
+0067 [Chaton] | Hahaha! Here I come!
+0068 [Chaton] | Whoa! What was that?!
+0069 [Fellow Troupe Member] | This mine's gonna cave in, isn't it...
+0070 [Loud Noise] | ROOOAR—!
+0071 [Escaped Miner] | Agh—it's that monster!
+0072 [Escaped Miner] | Run! Get out of here!
+0073 [Kasimira] | Wait! Don't scatter! Get back here!
+0074 [Escaped Miner] | I'm leaving this to you! I'm out of here!
+0075 [Panicked Voice] | Somebody, help!
+0076 [Terrified Voice] | No, stay back!
+0077 [Fellow Troupe Member] | Captain! The captive Trekkers and townsfolk are right there!
+0078 [Chaton] | Hmph. The true trial begins now.
+0079 [Chaton] | Leave this monster to me—the great Chaton!

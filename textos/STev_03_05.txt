@@ -1,0 +1,103 @@
+# Evento · Un crepitante indicio de primavera · 5 · Tough Gains
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:"Client" | "Client"
+N:"Client"'s Friend | "Client"'s Friend
+N:Prosperity Gang Leader | Prosperity Gang Leader
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_113 | Shimiao
+N:avg1_117 | Jinglin
+N:avg1_141 | Chixia
+N:avg1_159 | Coronis
+N:avg2_952 | Lucky
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_175 | Loong Resident
+N:avg3_176 | Loong Resident
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | Tough Gains
+0003 [Intro] | From the smugglers, you learn the truth behind your disappeared friends. You decide to launch a rescue at the Monolith, but the leader delivers a trembling warning—the legendary "Nian" resides inside.
+0004 [Prosperity Gang Leader] | Stop the beating! I surrender, okay?!
+0005 [Chixia] | Start talking and we'll go easy on you. Keep quiet, and you'll regret it!
+0006 [Prosperity Gang Leader] | I'll talk! Whatever you wanna know!
+0007 [Tú] | Just give us the truth. We'll decide your fate==W== once we've heard the full story.
+0008 [Tú] | You hired three Trekkers for a cargo run yesterday. So, where are they? Why are you the only ones who made it back?
+0009 [Prosperity Gang Leader] | Huh? Oh... Right, them... Well, see, it went down like this...
+0010 [Narración] | One day earlier.
+0011 [Noya] | Look at all these cargos... You guys moving in or something? Trying to cash in a mountain of wishes all at once?
+0012 [Amber] | Don't push yourself.
+0013 [Iris] | She's right...==W== Besides, making that many wishes costs too many memories.
+0014 ["Client"] | Oh, it's fine! Don't worry about that!
+0015 [Iris] | Are you absolutely certain...?
+0016 [Iris] | Your payment is generous...==W== Incredibly so. But we can't in good conscience stand by and watch you walk into a death trap.
+0017 ["Client"] | I get why you're worried, but trust me, it's fine. Honestly...==W== These supplies aren't for the climb.
+0018 [Noya] | Then why are we hauling all this stuff inside?
+0019 ["Client"] | I guess you aren't gonna let this go, are you? Fine. I'll level with you.
+0020 ["Client"] | I had a best friend once. We grew up together. Back when times were the hardest, we only survived because we had each other to lean on...
+0021 [Narración] | The client tearfully recounts how her best friend sacrificed herself to save her, using her final breath to smile and ask her to live on.
+0022 ["Client"] | I'm not the only one. Everyone in our group has lost someone to the Monolith—friends, family...
+0023 ["Client"] | That's why we return to the Monolith every Springseek Festival with their favorite things.
+0024 ["Client"] | They say the Monolith is a place of miracles. What if ...==W== they really could come back home to us?
+0025 [Noya] | I see... No wonder these supplies mean so much to you.
+0026 [???] | Waaah! That is the most touching thing I've ever heard!!!
+0027 ["Client"] | Wh—Where did this kid pop out from?!
+0028 [Jinglin] | Oops, sorry! I was digging for wild herbs nearby and couldn't help overhearing. Didn't mean to pry!
+0029 [Jinglin] | It was just such a moving story... I couldn't stop the tears...
+0030 [Noya] | Hold on, aren't you the manager of Jing's Bistro? What are you doing all the way out here? Shouldn't you be in Philae?
+0031 [Jinglin] | I'm back for the festival! And you guys? What brings you all the way to Cangwu?
+0032 [Iris] | We wrapped up a commission nearby and decided to stop here for a breather.
+0033 [Amber] | Boss is with us, too.
+0034 [Noya] | Seeing Jinglin reminds me of her cooking... Great, now my stomach's growling.
+0035 [Jinglin] | Hehe. Wanna drop by my place tomorrow for a family feast to kick off the new year?
+0036 [Noya] | Seriously?! Count me in!
+0037 [Jinglin] | Too bad the Springseek rush cleaned out the markets. I can't find half the ingredients I need.
+0038 [Jinglin] | Half a day of scavenging, and this handful of greens is all I've got to show for it.
+0039 [Noya] | Tag along with us to the Monolith then... Get whatever ingredients you want straight from a Wishing Box!
+0040 [Jinglin] | Brilliant idea! I'm coming with you!
+0041 ["Client"] | Ahem... Taking a kid into the Monolith seems ... risky.
+0042 [Noya] | Don't worry, I'm keeping my eyes on her. Besides, Jinglin packs a mean punch—she can handle herself.
+0043 ["Client"] | Er... Give us a second to talk it over.
+0044 ["Client"'s Friend] | What's the play? That girl's a Loong. If she sniffs out our cover...
+0045 ["Client"] | They just want to travel together. Making a scene excluding her will only make us look suspicious.
+0046 ["Client"] | Fine. Just watch your mouths. She's not local, so she probably won't notice anything off.
+0047 ["Client"] | Alright, we'll travel as a group. But keeping the young lady safe is on you.
+0048 [Noya] | Let's roll!
+0049 [Prosperity Gang Leader] | That's the gist of it... We posed as Loongs, spun a sob story, and tricked those Trekkers into hauling our firecrackers into the Monolith.
+0050 [Tú] | But why stash them inside the Monolith?
+0051 [Prosperity Gang Leader] | Moving that much powder is a nightmare. You get inspected at every city gate, and rival gangs are always looking to hijack you.
+0052 [Prosperity Gang Leader] | So we figured we'd dump the stash in the Monolith first. That allows us enter the city clean to resupply, then smuggle the goods out in small batches later.
+0053 [Prosperity Gang Leader] | It didn't matter if anyone else found it. We did our research. We know that Trekkers can only bring out Artifacts they get from the Wishing Box.
+0054 [Prosperity Gang Leader] | In a way, the Monolith is the world's safest vault.
+0055 [Tú] | These guys really covered their bases...
+0056 [Tú] | So, what went wrong?
+0057 [Prosperity Gang Leader] | Well...
+0058 [Noya] | Phew! That's the last load!
+0059 [Iris] | We'll take the other path so you can pay your respects in peace. But first, we need to settle that final payment.
+0060 ["Client"] | Oh! Right! Your fee! Let me just... Huh? Where is it?==W== Ahem... This is embarrassing. I must've rushed out without my wallet...
+0061 [Iris] | Excuse me?
+0062 ["Client"] | Tell you what—meet us at the Red Pot Restaurant at ten tomorrow morning! I swear, I'll pay you in full!
+0063 [Iris] | That's...
+0064 ["Client"] | H-Hey, don't give me that look... It's not like I'm trying to scam you.
+0065 [Amber] | Hold on. I hear something.
+0066 [Noya] | Eyes up, everyone!
+0067 [???] | ROAAAAR—
+0068 ["Client"'s Friend] | Monster! It's a monster!
+0069 [Noya] | Get back! Behind me, now!
+0070 [Prosperity Gang Leader] | That thing dropped out of nowhere and swallowed our entire haul!
+0071 [Tú] | I can't believe that... Did everyone else make it out?
+0072 [Prosperity Gang Leader] | I have no idea! We panicked and ran for our lives... We didn't realize until we got out that those three Trekkers and the girl were still inside.
+0073 [Tú] | And to make up for your losses, you decided to break into town and steal more firecrackers tonight.
+0074 [Prosperity Gang Leader] | We had no choice! Without that money, we'd be living on the streets!
+0075 [Shimiao] | Save your excuses for the Bureau. Right now, your priority is guiding us back into the Monolith to save them.
+0076 [Prosperity Gang Leader] | Y-You want to go back in there?!
+0077 [Shimiao] | Of course. They are still trapped inside.==W== We are getting them out.
+0078 [Tú] | Precisely.
+0079 [Prosperity Gang Leader] | No, no way! That thing will eat us alive! I-I got a good look at it. That monster... It has to be the legendary...
+0080 [Prosperity Gang Leader] | ... Nian.

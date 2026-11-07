@@ -1,0 +1,162 @@
+# Evento · Enmarcando los sentimientos invisibles · 5 · A Friend
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Stellaroid | Stellaroid
+N:Stellaroids | Stellaroids
+N:avg1_115 | Firefly
+N:avg1_1195 | Stellaroid
+N:avg1_1196 | Stellaroid
+N:avg1_1199 | Stellaroid
+N:avg1_120 | Canace
+N:avg2_975 | Glopo
+N:avg3_100 | Sylar
+N:avg3_205 | Igna
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | A Friend
+0003 [Intro] | You're officially Firefly's new friend. Canace gets called away, leaving you alone to look after Firefly. To cheer her up, you head back to the Monolith to wish for more film.
+0004 [Tú] | When you put it like that, there is no reason for me to refuse. I'm more than happy to be her friend.
+0005 [Canace] | Thank you, ==PLAYER_NAME==... What a relief. I think I can finally sleep well tonight.
+0006 [Firefly] | ...
+0007 [Canace] | ... Firefly? When did you get here?
+0008 [Firefly] | Just now.
+0009 [Canace] | Get bored playing by yourself?
+0010 [Firefly] | Mhm. I want to be with you, too.
+0011 [Tú] | She probably heard us. I wonder how she feels about it?
+0012 [Tú] | Better ask her directly.
+0013 [Tú] | Hey... Firefly.
+0014 [Tú] | Do you remember your wish from last year's Snowish Festival?
+0015 [Firefly] | ...?
+0016 [Firefly] | I ... wanted a friend.
+0017 [Tú] | That's right.==W== Well... How would you feel about me being your friend?
+0018 [Firefly] | Really? Tyrant, you want to be my friend?
+0019 [Tú] | I'd love to, if you'll have me.
+0020 [Firefly] | Wow... Tyrant and I are friends!
+0021 [Canace] | ... That's wonderful.
+0022 [Firefly] | ...
+0023 [Canace] | What is it?
+0024 [Firefly] | Professor, you seem tired.
+0025 [Firefly] | You haven't smiled ... in a long time.
+0026 [Canace] | Ah… Heh. Some professor I am. Now I have you worrying about me.
+0027 [Canace] | I owe you and Igna. With you here, I can finally catch my breath.
+0028 [Tú] | Glad I could help.
+0029 [Canace] | Of all the times to call...
+0030 [Canace] | Hello?
+0031 [Canace] | ... Igna. This is a surprise. You never call me first.
+0032 [Canace] | ... What's wrong? Give me the details—==W==wait, what?!
+0033 [Canace] | Those power-hungry frauds... They don't deserve to call themselves researchers!
+0034 [Canace] | Understood. I'm on my way!
+0035 [Canace] | We'll talk when I get there.
+0036 [Canace] | ...
+0037 [Canace] | Sorry, you two. An emergency came up. I have to leave for a while.
+0038 [Firefly] | A while? How long?
+0039 [Canace] | A few days, probably...==W== Sigh... I'll have to cancel those lectures I promised my students.
+0040 [Tú] | What happened?
+0041 [Canace] | ... We've got trouble.
+0042 [Canace] | Firefly, give us a minute. We need to discuss work.
+0043 [Firefly] | Got it.
+0044 [Canace] | ==PLAYER_NAME==, let's talk somewhere private.
+0045 [Tú] | Is that Igna? What's going on?
+0046 [Canace] | Sigh... Where do I even begin?
+0047 [Canace] | The lab is trying to regain control of the project. They want Firefly back.
+0048 [Canace] | ... This is our worst-case scenario.
+0049 [Tú] | Are they using her "bottleneck" as an excuse?
+0050 [Canace] | Yes. I bet they exaggerated in their reports to the higher-ups and acted on their own.... She is just an object to them. They don't care how she feels.
+0051 [Tú] | How can I help?
+0052 [Canace] | Igna and I are handling the lab. I need you to watch Firefly for me.
+0053 [Canace] | The rules I give her—like never entering the Monolith alone—are meant to keep her out of trouble...
+0054 [Canace] | But she's in your hands now. You call the shots. Trust your judgment and do what you think is best.
+0055 [Tú] | No problem. I promise to do my best.
+0056 [Firefly] | Professor?
+0057 [Tú] | Ah... I think she heard us.
+0058 [Canace] | ... It's fine. She understands more than she lets on.
+0059 [Canace] | I need to go. Firefly, make sure you listen to Tyrant, okay?
+0060 [Firefly] | Got it.
+0061 [Tú] | I talk a big game about doing my best... What am I supposed to do now?
+0062 [Firefly] | Tyrant, I'm here.
+0063 [Tú] | Huh... What's with the outfit?
+0064 [Firefly] | Pajamas. From professor.
+0065 [Tú] | Sherlock pajamas? They look cute on you.
+0066 [Firefly] | Because Sherlock is cute. I have photos and dolls, too. Want to take a look while we eat professor's snacks?
+0067 [Firefly] | Oh, and...
+0068 [Tú] | No rush. Take your time. We can hang out until bedtime.
+0069 [Tú] | Looks like your photo capturer's out of film.==W== What else do you do for fun?
+0070 [Firefly] | Drawing.
+0071 [Firefly] | Professor shows me how to draw and write.
+0072 [Firefly] | Professor says to start by "getting to know yourself."
+0073 [Firefly] | She draws me, and I draw her.
+0074 [Tú] | So... Portraits.
+0075 [Tú] | That sounds a lot like taking photos.
+0076 [Tú] | Drawings of you and Canace? I'd love to see them.
+0077 [Tú] | Is this a bunny? Why is it wearing an eyepatch?
+0078 [Firefly] | Not a bunny. It's professor's drawing of me.
+0079 [Tú] | And the eyepatch?
+0080 [Firefly] | My eye got injured. Professor says it looks cool this way.
+0081 [Tú] | I see. She drew it that way to make her feel better...
+0082 [Tú] | I have to agree! It's cool, but cute too. Great drawing.
+0083 [Tú] | What does your drawing of professor look like?
+0084 [Firefly] | This one.
+0085 [Tú] | Pfft... This Canace looks pretty fierce.
+0086 [Firefly] | That's professor getting mad after my prank.
+0087 [Firefly] | But drawing is hard. I'm bad at it.
+0088 [Tú] | I think you're a natural. Art is all about capturing a feeling, and you nailed it.
+0089 [Firefly] | Really?
+0090 [Tú] | Would I lie to you?==W== Hey, why don't we draw something together?
+0091 [Firefly] | Okay...!
+0092 [Tú] | It's been two days since Canace left. Firefly and I are getting pretty close.
+0093 [Tú] | No major disasters, either. Not to brag, but we're basically best buds at this point.
+0094 [Tú] | Do we naturally click...==W== Or am I secretly a babysitting prodigy?!
+0095 [Firefly] | ...
+0096 [Tú] | Still, Canace's total radio silence is starting to worry me.
+0097 [Tú] | Firefly has to be getting anxious with her gone this long...
+0098 [Tú] | Ahem...==W== Alright, Firefly! What should we play today?
+0099 [Firefly] | Tyrant...
+0100 [Tú] | Hmm? Wanna draw some more? Or we could play with the toys—
+0101 [Firefly] | I want to see professor.
+0102 [Tú] | ... I'm sorry. I don't know where Canace is either. I can't reach her phone.
+0103 [Firefly] | ...?
+0104 [Tú] | She isn't answering my texts either.
+0105 [Tú] | I hope nothing happened.
+0106 [Tú] | Hey, Firefly. Wanna go out for a bit? We can take some photos.
+0107 [Firefly] | But I'm out of film.
+0108 [Tú] | We'll go to the Monolith and wish for more.
+0109 [Firefly] | ... But professor said I can't go in alone.
+0110 [Tú] | She said that because if something happened, no one would be there to help you.
+0111 [Tú] | I'm not much of a fighter, but I can watch your back and get us out safely if things go wrong. I'll explain everything to her later. What do you say?
+0112 [Firefly] | Yes!
+0113 [Tú] | Alright, let's go.
+0114 [Stellaroids] | RAWR—!
+0115 [Firefly] | Heh...
+0116 [Firefly] | Did you miss me? Let's play.
+0117 [Stellaroids] | ROOAR—?!
+0118 [Tú] | I'll never get used to how strong she is...
+0119 [Tú] | She comes alive inside the Monolith.==W== It's like a playground to her.
+0120 [Tú] | Are you having fun playing with the Stellaroids?
+0121 [Firefly] | Yeah.
+0122 [Tú] | Did you play with Stellaroids before you lived with Canace?
+0123 [Firefly] | Yeah. Before, I only got to go outside one day a month.
+0124 [Firefly] | I got to fly around and play with all sorts of things...
+0125 [Firefly] | The grown-ups called it ... "comet raining"? I don't know what that means.
+0126 [Tú] | Did she mean "combat training"?
+0127 [Firefly] | I don't like the experiments. My head hurts. I always feel sick.
+0128 [Firefly] | But fighting Stellaroids doesn't hurt. It's fun.
+0129 [Tú] | I see...
+0130 [Tú] | The more I hear, the sicker it makes me.
+0131 [Tú] | Treating an innocent kid like a lab rat...==W== It's unforgivable.
+0132 [Stellaroid] | ROAAAAR—!
+0133 [Tú] | Whoa?!
+0134 [Stellaroid] | Graaagh...
+0135 [Firefly] | Tyrant is my friend. Nobody hurts ==SEX4==.
+0136 [Tú] | ... Phew. Scared me.
+0137 [Firefly] | Tyrant, are you okay?
+0138 [Tú] | I'm fine. Got careless. Thought you already wiped them all out.
+0139 [Firefly] | That's weird. It feels different today. There are ...==W== way too many toys.
+0140 [Narración] | Aaaah—!
+0141 [Narración] | Help! Somebody help me!
+0142 [Tú] | Someone calling for help? A Trekker?
+0143 [Tú] | Firefly, let's go check it out!
+0144 [Firefly] | Got it.
+0145 [Tú] | Hey?! Wait! Wait for meeee!

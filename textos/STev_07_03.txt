@@ -1,0 +1,128 @@
+# Evento · Enmarcando los sentimientos invisibles · 3 · The Guardian
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Enthusiastic Student | Enthusiastic Student
+N:Passionate Student | Passionate Student
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_115 | Firefly
+N:avg1_1198 | Stellaroid
+N:avg1_120 | Canace
+N:avg1_132 | Minova
+N:avg3_100 | Sylar
+N:avg3_178 | Estudiante de la Academia Luz de Gracia
+N:avg3_179 | Misha
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | The Guardian
+0003 [Intro] | You meet Firefly's guardian, Canace, who leads you to Grace Light Academy. There, she reveals the truth behind Firefly's identity...
+0004 [Tú] | Finally heading back... Let's hope we don't run into any more trouble.
+0005 [Firefly] | Snap.==B====W== Snap.
+0006 [Firefly] | Taking pictures... Firefly's hobby. Happy.
+0007 [Tú] | Glad you're having fun, but keep an eye on your film, okay?
+0008 [Tú] | We went through a lot to get that film. It'd be a shame to use it up all at once.
+0009 [Firefly] | Use it up?
+0010 [Firefly] | Huh?==W== Snap, snap...?
+0011 [Firefly] | ... No more pictures.
+0012 [Tú] | Ah, sorry. I should've said it sooner.
+0013 [Firefly] | ... Go back into the Monolith?
+0014 [Tú] | We can't. We snuck into the Monolith to begin with, so we need to head back today.
+0015 [Tú] | Besides, you don't want professor to worry, do you?
+0016 [Firefly] | ... Mm.
+0017 [Firefly] | —?!
+0018 [Tú] | Firefly? What's wrong?
+0019 [Firefly] | I can feel it. Professor is nearby.
+0020 [Tú] | Wait, Firefly...?!
+0021 [Firefly] | Professor!==W==
+0022 [???] | Firefly...!==W== Honestly, where did you run off to? I've been looking everywhere.
+0023 [Firefly] | I was taking pictures.
+0024 [???] | You know lying is wrong. I searched everywhere before finding you here.
+0025 [Firefly] | Not lying. I really did take pictures...
+0026 [???] | You did, did you?==W== Oh...==W== I see. You were doing something else too, weren't you?
+0027 [Firefly] | I... I don't know...
+0028 [???] | Tell me the truth.
+0029 [Firefly] | ... We went inside the Monolith.
+0030 [???] | Sigh... I figured.
+0031 [???] | Didn't we agree? No going into the Monolith without permission.
+0032 [Firefly] | ... I'm sorry.
+0033 [Tú] | ==W==Excuse me.==W== I know this is sudden, but may I say a few words?
+0034 [Tú] | Firefly had a good reason ... for going inside.
+0035 [???] | And you are...?
+0036 [Tú] | I'm ==PLAYER_NAME==, CEO of Boss Accord. Igna asked me to look after Firefly.
+0037 [???] | I see. You're the one Igna mentioned...
+0038 [Canace] | I should introduce myself, too.==W== I'm Canace.==W== Firefly's guardian, and a professor at Grace Light Academy.
+0039 [Tú] | Grace Light Academy...?
+0040 [Canace] | Igna filled me in on you.==B====W== Though she kept it brief. It was more of a one-sided notice.
+0041 [Tú] | Igna was just as concise when briefing me on the job... Is that her usual style?
+0042 [Canace] | I know it was her call, but handing Firefly over to a complete stranger worried me...
+0043 [Firefly] | Professor. Don't be mean to Tyrant.
+0044 [Canace] | ... Firefly?
+0045 [Firefly] | Tyrant is nice to me. We even played together.
+0046 [Canace] | ...
+0047 [Canace] | ... Apologies for my bluntness.==W== Her situation is complicated, but if she's defending you, you must be trustworthy.
+0048 [Canace] | Since you brought it up, please explain something for me—why did you two enter the Monolith?
+0049 [Tú] | Firefly ran out of film for her photo capturer. We went to wish for more.
+0050 [Tú] | Not that it excuses sneaking in, of course.==W== We both owe you an apology!
+0051 [Tú] | For what it's worth, she only did it to avoid troubling you.
+0052 [Canace] | ... I see.
+0053 [Canace] | I'm sorry, Firefly. I've been swamped lately and completely forgot about your film.
+0054 [Firefly] | Not ... professor's fault.
+0055 [Firefly] | It's the film's fault. It ran out too fast.
+0056 [Canace] | Heh, alright. Nobody's to blame.==W== Let's drop it.
+0057 [Canace] | She must have been a handful.
+0058 [Tú] | Don't sweat it. It's part of the job.
+0059 [Canace] | I appreciate it.
+0060 [Canace] | Actually, hearing her call you Tyrant rings a bell.==W== She's mentioned you before.
+0061 [Canace] | You kept her company during the Snowish Festival, didn't you?==W== Thank you. She had a wonderful time.
+0062 [Firefly] | Playing with Tyrant is fun.==W== That means Tyrant is a good person.
+0063 [Canace] | Heh. You certainly have a way of winning people over. You're a perfect fit.
+0064 [Tú] | Was that a compliment?
+0065 [Canace] | Igna had her reasons for sending you here...
+0066 [Canace] | But that's a conversation for later.==W== Let's get back to campus before dark.
+0067 [Tú] | So this is Grace Light Academy… The largest and most prestigious school in Nova.
+0068 [Tú] | It's every scholar's dream to study here.
+0069 [Tú] | I think Minova and I sat in on a lecture here once...
+0070 [Tú] | Iris always dreamed of seeing this sanctuary of knowledge...
+0071 [Tú] | I believe Firenze went to school here too...
+0072 [Tú] | I've never spent a day as a student, yet here I am on campus again...
+0073 [Enthusiastic Student] | Professor Canace! Do you have a second? I have a few questions...!
+0074 [Passionate Student] | Professor, I'm still stuck on that paper you reviewed. Could we go over it again?
+0075 [Canace] | Sorry. I'm tied up at the moment.
+0076 [Canace] | I have a guest today. We can go over your questions after class tomorrow.
+0077 [Enthusiastic Student] | Got it!
+0078 [Passionate Student] | See you tomorrow, professor.
+0079 [Tú] | Your students certainly love you, professor.
+0080 [Canace] | I appreciate the compliment.
+0081 [Canace] | I do try to be a good professor.==W== But it's costing me my sleep.
+0082 [Firefly] | Professor never sleeps. Lately she went from busy to super busy.
+0083 [Canace] | Haha. I am stretched a bit thin lately. It's starting to affect my actual work...
+0084 [Canace] | You're a lifesaver for taking Igna's commission.
+0085 [Canace] | Please, have a seat.==W== We need to talk.
+0086 [Canace] | Firefly, go play over there for a bit, okay? ==PLAYER_NAME== and I have something important to discuss.
+0087 [Firefly] | Okay!==W==
+0088 [Tú] | Where's she off to?
+0089 [Canace] | Her room. I blocked off an area where she can run wild.
+0090 [Canace] | Right now it's a disaster zone. Photos, snacks, toys everywhere.==W== Sigh... I'm afraid I'll have to ask for your help to clean that up, too.
+0091 [Tú] | Not a problem.
+0092 [Canace] | You're so reliable. Should've brought you on board sooner.
+0093 [Canace] | Alright, back to business. You've got questions written all over your face.==W== Ask away. I'll answer whatever I can.
+0094 [Tú] | To be honest... Except for the commission details, Igna gave me nothing else.
+0095 [Tú] | She didn't mention her connection to you, or to Firefly. I'm completely in the dark here.
+0096 [Tú] | And also—
+0097 [Firefly] | You run, I chase, so much fun...
+0098 [Tú] | She treats Stellaroids like chew toys...==W== It makes absolutely no sense. Even veteran Trekkers can't do that...
+0099 [Tú] | Tell me what's going on with Firefly—whatever you're allowed to share.==B====W== All I know is that her combat skills and personality are ... unconventional.
+0100 [Canace] | Before I answer that... How much do you know about Igna's line of work?
+0101 [Tú] | The friend who introduced me to this commission mentioned that she's a researcher for the Eye of Grace. Supposedly running some kind of research project.
+0102 [Canace] | Hm. More or less.
+0103 [Canace] | We're technically colleagues under the Grace Imperium, but she handles the core projects. Meanwhile, I'm but an ordinary teacher.
+0104 [Canace] | Colleagues or not, we live in different worlds.==W== Our paths should never have crossed.
+0105 [Canace] | But right now, we're working together to protect Firefly, to free her from the Eye of Grace's control.
+0106 [Tú] | Protect her? Free her? What do you mean?
+0107 [Canace] | Since you're going to be spending more time with Firefly, there's no point keeping you in the dark.
+0108 [Canace] | I'll give it to you straight.==W== The truth is... Firefly—
+0109 [Canace] | —used to be an experimental weapon for the Eye of Grace.

@@ -1,0 +1,99 @@
+# Evento · Mensajera radiante, espíritu de la noche santa · 5 · A Familiar Glimmer
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Carpenter's Daughter | Carpenter's Daughter
+N:avg1_115 | Firefly
+N:avg1_158 | Laru
+N:avg3_100 | Sylar
+N:avg3_167 | Chica
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | A Familiar Glimmer
+0003 [Intro] | At the carpenter's house on East 1st Street, you and Laru finally see the photo—the figure of a little girl who's faintly glowing. You realize that she and the person standing right beside you seem remarkably similar...
+0004 [???] | ...
+0005 [Laru] | That's ...==W== the same girl who ran off earlier, right?
+0006 [Tú] | I think so.
+0007 [Laru] | Hey—! Kid—!
+0008 [???] | ...!!
+0009 [Laru] | Sigh... Why did she run off again?==W== I wanted to ask if she got her gift. Maybe she's just shy...?
+0010 [Laru] | If we knew her address, we could at least deliver it to her home...==W== But the Ash District kids didn't seem to know her either... Oh well, let's not concern ourselves with that for now.
+0011 [Tú] | No worries. As long as she's on the delivery list, we'll find her eventually.
+0012 [Laru] | Yeah...==W== I want to hand it to her personally!
+0013 [Tú] | Then next time we spot her, we should get closer slowly...==W== At the very least, try not to scare her off?
+0014 [Laru] | Makes sense. For now,==W== let's finish the deliveries we still have!
+0015 [Narración] | After that, Laru and I followed the list and kept delivering gifts... And finally, we found the carpenter's daughter, the one who had that book.
+0016 [Laru] | Happy Snowish Festival—!==W== We're here with a gift delivery!
+0017 [Carpenter's Daughter] | Wow, thank you! Sorry, I should've come to get it myself...==W== It's all because I'm a bit weak...
+0018 [Laru] | No worries! No worries at all!==W== Seeing you smile is what keeps us going!
+0019 [Carpenter's Daughter] | Thank you, nice lady!
+0020 [Tú] | Whoa, you've got so many books...
+0021 [Carpenter's Daughter] | Since I can't go out much because of my health, my friends lend me these!==W== Thanks to them, I never get bored at home!
+0022 [Laru] | That's some good friends you've got there!
+0023 [Carpenter's Daughter] | Right? They even asked a Messenger to bring me a new book just now—==W==the story of the Snowish Tree Spirit!
+0024 [Laru] | Oh yeah, you still have the book, then?
+0025 [Carpenter's Daughter] | Yeah, I just started reading it, but the Snowish Tree Spirit in the photo is super pretty! All sparkly!
+0026 [Laru] | U-uh-hmm...
+0027 [Carpenter's Daughter] | Look! This is the photo.
+0028 [Tú] | I see.==W== So that's the Snowish Tree Spirit...
+0029 [Carpenter's Daughter] | You believe in the Spirit too, right!?
+0030 [Tú] | Uh...
+0031 [Opción] | Yes, I do.
+0032 [Opción] | I ... don't think spirits exist?
+0033 [Carpenter's Daughter] | Right, right! That's what I think, too!
+0034 [Tú] | Yeah. And the real Spirit must be even prettier than the one in the photo.
+0035 [Laru] | Eh...!?
+0036 [Carpenter's Daughter] | Hehe, right! Ahh... I wish I could be friends with the Spirit and play together~
+0037 [Tú] | Me too!
+0038 [Carpenter's Daughter] | Why? But she's real!
+0039 [Tú] | She looks too perfect==W== to be real...
+0040 [Laru] | Perfect?!
+0041 [Carpenter's Daughter] | But we have the photo, don't we?
+0042 [Tú] | That's what I mean. The spirit in the photo looks too perfect. I think if we saw the real one, we might actually be disappointed...
+0043 [Laru] | ...
+0044 [Tú] | Dreams are beautiful because they're always just out of reach...
+0045 [Carpenter's Daughter] | Eh? Don't you want to meet the Spirit?
+0046 [Tú] | Kind of.==W== Grown-ups can be really complicated, you know!
+0047 [Laru] | A-anyway, we finally found the photo!==W== Hoorah...
+0048 [Laru] | Alright then... Let's hurry and deliver the next gift—
+0049 [Carpenter's Daughter] | Please wait! I still have something to ask you!
+0050 [Narración] | The girl stopped us and pulled a stack of papers out from the book, all of them covered in kids' handwriting.
+0051 [Tú] | All these are ... clues about the Snowish Tree Spirit?!
+0052 [Carpenter's Daughter] | Yep! We really want to find her, so everyone wrote down all the info we gathered and all our questions.
+0053 [Carpenter's Daughter] | Like, is she a good spirit or a bad one...
+0054 [Carpenter's Daughter] | Does she use magic? And what kind would that be...?
+0055 [Carpenter's Daughter] | Does she live in the Snowish Tree...?
+0056 [Carpenter's Daughter] | What do you think?
+0057 [Laru] | Uh... Well...
+0058 [Opción] | I think she's a bad spirit!
+0059 [Opción] | I think she's a good spirit!
+0060 [Tú] | She must be an evil spirit!
+0061 [Laru] | What?!
+0062 [Carpenter's Daughter] | Why would you think that?
+0063 [Tú] | Even though she can grant people's wishes, almost no one ever saw her "in action,"==W== which means she doesn't do her job much. It's not that she can't use magic—more like she just doesn't want to, right?
+0064 [Tú] | A spirit who's always slacking off—doesn't that sound kind of evil?
+0065 [Laru] | Um...
+0066 [Tú] | I believe she's a good spirit!
+0067 [Carpenter's Daughter] | Yeah... That's what I think, too. Why do you think so?
+0068 [Tú] | Judging from the photo, she looks pretty and smart... Plus, she has a kind aura.
+0069 [Tú] | And she gives off that soft glow...==W== It looks like she's wishing for everyone else's wish to come true. So she must be a good spirit!
+0070 [Laru] | ...
+0071 [Carpenter's Daughter] | I see. I'm gonna write this down...
+0072 [Carpenter's Daughter] | Eh? What? No way—!
+0073 [Laru] | Yeah?
+0074 [Carpenter's Daughter] | Miss... You kind of look like ...==W== that Snowish Tree Spirit.
+0075 [Laru] | Eh!? D-Do I? I don't think so... And besides, isn't the Spirit supposed to be a kid?
+0076 [Carpenter's Daughter] | That's true! Spirits don't get old!
+0077 [Laru] | I wouldn't say "old"...
+0078 [Carpenter's Daughter] | Yes, I need to write this down, too...!==W== ... lady looks like Spirit... Spirits don't get old, so she's not...==W== Done!
+0079 [Tú] | Could we borrow this photo for a bit? We want to help look for the Snowish Tree Spirit.
+0080 [Carpenter's Daughter] | Sure! Make sure you find her!
+0081 [Tú] | Thanks! We'll get going then!
+0082 [Carpenter's Daughter] | Bye-bye!
+0083 [Tú] | Phew, we got the photo. Laru, I'll take a picture of it and send it to my friends. They should find her right away.
+0084 [Laru] | Nonono—please don't.
+0085 [Laru] | Ah...==W== Tyrant, you're so mean...==W== You already knew, didn't you? You just wanted to mess with me.
+0086 [Laru] | That so-called "Snowish Tree Spirit" in the photo ...==W== is me.

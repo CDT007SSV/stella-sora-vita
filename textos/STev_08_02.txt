@@ -1,0 +1,166 @@
+# Evento · ¡Latido! Rapsodia neoinspirada · 2 · Find the Genius Artisan
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Betting Trekker | Betting Trekker
+N:Curious Trekker | Curious Trekker
+N:Excited Trekker | Excited Trekker
+N:Organizer | Organizer
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_131 | Bloc
+N:avg1_140 | Sparkla
+N:avg2_982 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_102 | Willow
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_157 | Guardia Imperial
+N:avg3_185 | Grace Receptionist
+N:avg3_188 | Female Flavio Resident
+N:avg3_212 | Leona
+N:avg3_221 | Rabbit Pie
+N:avg3_937 | The Crowd
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | Find the Genius Artisan
+0003 [Intro] | At Willow's suggestion, you head to Philae's underground market, where the Tech Convention is about to begin. From the Trekkers gathered there, you learn that Sparkla is currently locked up in prison.
+0004 [Tú] | The underground market? Neo Grace Organization?
+0005 [Bloc] | All the Neo Solution and Neo-tech devices circulating on the market are made and sold by us at the Neo Grace Organization, y'know~==W== Take Sparkla and me, for example. She makes the stuff, and I sell it ♪
+0006 [Bloc] | Since anything related to Neo-tech can't exactly be sold out in the open, we do our business quietly with Trekkers in the underground market instead~
+0007 [Tú] | Aren't you worried that the Imperial Guard will shut you down?
+0008 [Bloc] | Oh hoho, it's not like we're some heinous villain organization.==W== We're just inventing things and running a small business.==W== Even if we run into the Imperial Guard, as long as we can get away, it's all good~
+0009 [Tú] | So you ARE being hunted by the Imperial Guard then?!
+0010 [Bloc] | Oh, relax!==W== These days the Imperial Guard only follows procedure anyway. There are way too many people using Neo-tech for them to arrest everyone one by one.
+0011 [Bloc] | As long as you don't use it blatantly right in front of them, there's absolutely no problem!
+0012 [Bloc] | Though... There was one thing boss Willow mentioned that's been bothering me a little...
+0013 [Willow] | You mean those NGO artisans?
+0014 [Bloc] | Yep, yep.==W== As far as I know, unless something HUGE happens, those people would never willingly show themselves~
+0015 [Bloc] | If the rumors are true, then it's probably because of "that incident"...==W== But I haven't heard anything on my end~==W== Either way, guess we'll have to head to Philae and see for ourselves.
+0016 [Willow] | Then let's meet up in Philae.
+0017 [Bloc] | Trekkers and Neo-tech artisans gathering in one place...==W== Mm~ I smell business opportunities everywhere~ Looks like Dorra herself is calling out to me,==W== fufufu~♪
+0018 [Tú] | ... You didn't forget why we came here in the first place, did you?
+0019 [Bloc] | Ah, right right!==W== Finding Sparkla!!==W== Don't worry, I didn't forget!
+0020 [Narración] | Two days later
+0021 [Tú] | We haven't even entered the city yet, and I've already seen more Trekkers out here than back at camp.
+0022 [Tú] | And there are also some...
+0023 [Tú] | ... people carrying giant boxes full of tools and weird equipment...
+0024 [Tú] | Bloc, are those the Neo-tech artisans you mentioned?
+0025 [Tú] | ... Bloc?==B====W== Bloc?==W==
+0026 [Bloc] | Welcome, welcome~ Take your time browsing~ I'm sure we've got something perfect for you~
+0027 [Bloc] | And if you really can't decide, Bloc can always give you a recommendation too, oh hoho~♪
+0028 [Tú] | ...==W==
+0029 [Bloc] | Ah, ahhh... B-Boss.
+0030 [Bloc] | I-I really AM gathering intel too! Setting up a stall is market research at its core!==W== Besides, look at all this Dorra practically walking right up to me...==W== It'd be a waste not to take it, ahahaha~
+0031 [Bloc] | A-Anyway! I've already gathered some useful information!==W== Follow me, Boss.
+0032 [Betting Trekker] | I'm betting on Leona!
+0033 [Curious Trekker] | She's the favorite to win the convention this time? Then I'm betting on her too!
+0034 [Excited Trekker] | What about the other contestants? Those odds are crazy high!
+0035 [Tú] | It's so lively... What's going on?
+0036 [Bloc] | This is exactly why all those Neo artisans gathered together in the first place—==W==the "Tech Convention"!!
+0037 [Bloc] | Normally, the people from Neo Grace Organization are scattered all across Nova. Especially those artisans. They'd rather lock themselves in their workshops inventing stuff all day.
+0038 [Bloc] | But whenever someone develops a new technology or creates some insanely impressive invention,==W== everyone gathers together to exchange information and show off their skills.
+0039 [Bloc] | —That's what they call the "Tech Convention."
+0040 [Tú] | Isn't this supposed to be an internal Neo Grace Organization event? Why are there so many Trekkers here placing bets?
+0041 [Bloc] | Well~ Usually it's just a small gathering between artisans. It normally wouldn't get this flashy with gambling and everything~ As for why it turned into this...
+0042 [Willow] | That part? I already investigated it before you arrived.
+0043 [Bloc] | Boss Willow, you're here too?!
+0044 [Tú] | And you already uncovered more information too...==W== As expected of the head of Emor's Trekkers' House!
+0045 [Willow] | Oh my, you flatter me~
+0046 [Willow] | ... Ahem.==W== According to my investigation, this Tech Convention is different from the previous ones.==W== Apparently, a major investor offered an enormous prize pool and gathered all the artisans together.
+0047 [Willow] | The investor's goal, supposedly, is to develop an automaton capable of surviving in the Wilds. That's why they invited so many outstanding artisans specializing in that field.
+0048 [Willow] | In addition, the convention opened a betting pool, so even Trekkers who normally have no interest in Neo Grace Organization products started paying attention.
+0049 [Willow] | Boss, I'm sure you've already noticed.==W== Miss Sparkla's name is on the betting list too, which confirms that she was invited as well.
+0050 [Tú] | So once the convention starts, we'll be able to meet Sparkla, right?==W== In that case, I guess the commission is basically resolved already.
+0051 [Bloc] | Looks like it~ Once we find Sparkla, I'll introduce you to her, Boss.
+0052 [Bloc] | Well then~ Since the commission is practically settled! Time for me to go make a fortune...==W== I mean, time to support my dear friend Sparkla~
+0053 [Bloc] | Boss, and boss Willow, see you later!==W==
+0054 [Bloc] | Hey there, mister! I wanna place a bet too!
+0055 [Bloc] | And of course I'm betting on the most talented artisan there is! All in on Sparkla!
+0056 [Bloc] | This entire bag of Dorra, plus ...==W== five Neo Coins! I'm putting EVERYTHING on her!
+0057 [Organizer] | Miss, are you absolutely sure?==W== Once the bet's placed, there's no taking it back.
+0058 [Bloc] | Of course I am! It's Sparkla we're talking about here.==W== She's practically guaranteed to win. I don't even need to look at the odds.
+0059 [Curious Trekker] | Whoa, now that's gutsy. Someone actually bet on the contestant with the highest odds.
+0060 [Bloc] | Hehehe...==W== Huh? Wait, what did you just say? The highest odds?==W== T-That can't be right~
+0061 [Curious Trekker] | What? Haven't you heard?==W== We just got word—Sparkla got arrested by the Imperial Guard, so she can't participate in the convention anymore.
+0062 [Bloc] | Wha-==W==what the heck is that idiot doingggg?!
+0063 [Noya] | Iris, Amber, looks like Boss already tracked down Sparkla's whereabouts.
+0064 [Iris] | That's great. Let's hurry and regroup with them.
+0065 [Amber] | Mm-hmm.
+0066 [Noya] | Huh?==W== That statue ... feels kinda familiar...==W== Wait, Bloc?!
+0067 [Bloc] | It's over... It's ALL OVER...==W== Boss, save me!!!
+0068 [The Crowd] | Ehhhh?!
+0069 [Willow] | So Miss Sparkla was locked up by the Imperial Guard?
+0070 [Tú] | Didn't you say earlier that the Imperial Guard couldn't be bothered with this stuff?
+0071 [Bloc] | Well... This is my first time dealing with something like this too...==W== I just bet my entire life savings on Sparkla... My ENTIRE life savings...
+0072 [Bloc] | If Sparkla can't compete in two days, then all the Dorra I worked so hard to save up is gonna go completely==W== down==W== the drain!
+0073 [Bloc] | Boss, please ...==W== help me out here?
+0074 [Tú] | Well... Gambling kinda means accepting the risk, right? Shouldn't this be your personal responsibility, Bloc...?
+0075 [Bloc] | I can increase the commission fee!==W== As long as Sparkla makes it to the convention, first place is basically guaranteed.
+0076 [Bloc] | How about this then...==W== We split the winnings fifty-fifty!!==W== Even half would still be an absolutely massive fortune!
+0077 [Willow] | I checked already. The prize money really is substantial. Honestly, even I'm a little tempted.==B====W==
+0078 [Tú] | ... Alright. Then let's give it a shot.==W== No time to waste. To avoid drawing too much attention,==W== Noya,==W== Bloc, and I will infiltrate the place ourselves.
+0079 [Tú] | Everyone else, stay on standby in Ash District and wait for my signal.
+0080 [The Crowd] | Got it!
+0081 [Noya] | Boss, Bloc, all the troublesome guards are taken care of!
+0082 [Tú] | Dorra really is powerful. Noya's moving way more aggressively than usual...
+0083 [Tú] | We really did just charge straight into an infiltration mission on impulse...==W== But now that I think about it, maybe we're being way too reckless... This should be fine... Hopefully...
+0084 [Bloc] | Not in this room...==W== Not here either...==W== Sparkla, where are you—
+0085 [Tú] | Shh! Quiet...
+0086 [Noya] | What is that?! Should I take it out?
+0087 [Bloc] | Wait! You're... Rabbit Pie, right?
+0088 [Rabbit Pie] | :] Correct. Greetings, Bloc.
+0089 [Bloc] | Phew... Good thing Miss Noya asked first.==W== If Rabbit Pie got hurt, we'd be in serious trouble~
+0090 [Bloc] | Sparkla absolutely adores it!
+0091 [Noya] | Whoa,==W== the craftsmanship is incredible! And it's so soft too!==W== This rabbit is adorable~
+0092 [Bloc] | Allow me to properly introduce her—==W==this is Rabbit Pie, Sparkla's custom-made adorable mechanical rabbit~
+0093 [Bloc] | If Rabbit Pie is here, then Sparkla must be nearby too~
+0094 [Bloc] | And Rabbit Pie can answer simple questions too. Here, let me show you.==W== Rabbit Pie, tell us where your master is.
+0095 [Rabbit Pie] | :] Understood. Please follow me.
+0096 [Noya] | Oooh~ What a good little bunny ♪
+0097 [Tú] | So she can even create a mechanical rabbit like this... No wonder Bloc said she was guaranteed to win first place.
+0098 [Sparkla] | What is it, Rabbit Pie? Did we get visitors?
+0099 [Rabbit Pie] | :p Correct. Identified as Bloc, plus two unidentified individuals.
+0100 [Rabbit Pie] | Preparing tea.==W== Estimated completion time: three minutes.
+0101 [Sparkla] | Rabbit Pie is such a good bunny~
+0102 [Sparkla] | Bloc, would you like an apple before tea?
+0103 [Bloc] | Mhm, yes yes~♪==W== Nom nom...==W== Whoa, this apple is super sweet!
+0104 [Bloc] | No no no, wait! Sparkla, is now really the time to casually sit around eating apples?!
+0105 [Sparkla] | Then would you rather see this half-finished puppy? Materials are limited in prison, so I only managed to make the body so far—
+0106 [Bloc] | THAT'S NOT THE POINT! You can show us the puppy anytime!==W== Right now we need to go to the Tech Convention!==W== Come on, let's go together!
+0107 [Bloc] | Do you realize I bet my entire fortune on you?! Plus FIVE whole Neo Coins!
+0108 [Sparkla] | Wow, so you really had that much faith in me. Thanks~♪
+0109 [Bloc] | No need to thank me, just hurry up and come with us...
+0110 [Sparkla] | But I'm not going ♪
+0111 [Bloc] | EHHHHH?! Why not?! You HAVE to go!!
+0112 [Sparkla] | Ever since I received the invitation letter, artisans have been sending me challenge letters every single day.
+0113 [Sparkla] | There were way too many people.==W== I couldn't even blacklist them fast enough. And whenever my mobile workshop stopped for maintenance, they'd come bother me in person too...
+0114 [Sparkla] | I got completely sick of it, so I went to the Soul Shop and deliberately showed the clerk the Neo Grace tube on my phone.
+0115 [Sparkla] | Just like I expected, they immediately contacted the Imperial Guard and brought me to this Hotel.==W== It's so peaceful here~ I absolutely love it~
+0116 [Bloc] | So you're really ... dead set ... on refusing me...?
+0117 [Sparkla] | Mm-hm. Yep.==W== I came here specifically for some peace, so why would I willingly leave?==W== Besides, Bloc, you're still on my blacklist.
+0118 [Rabbit Pie] | :] Tea is prepared.
+0119 [Noya] | Thanks, Rabbit Pie~
+0120 [Tú] | Mm~~ Smells amazing. Rabbit Pie's tea-making skills are pretty impressive.
+0121 [Sparkla] | Bloc's guests have surprisingly good taste. In that case, I'll have Rabbit Pie prepare some mo—
+0122 [Sparkla] | WAIT!?==B====W== H-How do you have ...==W== such an adorable face?!
+0123 [Sparkla] | Hehe~♪==W== Ah, finally... Finally I've found it!==W== The perfect face...==W== The one that inspires me!
+0124 [Tú] | Huh? Um... A perfect face? You mean me?
+0125 [Sparkla] | Of course!==W== Ahh, you're so cute...==W== I'm getting so excited I might start bleeding from the nose...♪
+0126 [Sparkla] | ... Bloc, you said you bet five Neo Coins on me?
+0127 [Bloc] | Yes! FIVE! A whole FIVE Neo Coins!!
+0128 [Sparkla] | Then, in exchange for bringing me such wonderful new inspiration, I suppose I can agree to make a deal with you.
+0129 [Sparkla] | I'll take you off my blacklist and go participate in that convention or whatever.==W== Once you win the prize money back, though, all five Neo Coins belong to me.
+0130 [Bloc] | Deal deal, absolutely deal!==W== Forget five, I'd give you ten if I had to!
+0131 [Sparkla] | Hehe. Every single one of those Neo Coins ...==W== will go toward the new inspiration this adorable young ==SEX13== has given me~
+0132 [Sparkla] | Rabbit Pie, pack everything up. Once we're ready, we're leaving immediately.
+0133 [Rabbit Pie] | :] Understood.
+0134 [Bloc] | Why did she suddenly change her mind?==W== Adorable face? New inspiration? I don't get it at all...==W== Boss, what exactly did you do?
+0135 [1] | Me? I didn't do anything though?!==W== Is this one of those "all geniuses are weird" situations or something...?
+0136 [Noya] | Well, whatever the reason, it worked out great for us!==W== I've already dealt with the guards on the way in, but there might be reinforcements coming soon, so stay close to me, everyone!

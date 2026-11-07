@@ -1,0 +1,150 @@
+# Evento · Para ti, mi persona más querida · 2B · Wise in Letters
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Receptionist | Receptionist
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_125 | Freesia
+N:avg1_127 | Teresa
+N:avg1_130 | Donna
+N:avg3_100 | Sylar
+N:avg3_171 | Empleada
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | Wise in Letters
+0003 [Intro] | You sort through the pile of letters alongside Freesia, hearing the story of how she met Donna. Drawing on her legal knowledge, Freesia searches public records and uncovers the recipient's information.
+0004 [Freesia] | Hello! Post Haste here for the collection.
+0005 [Receptionist] | I can't thank you enough! Here. These are the outgoing letters and parcels.
+0006 [Noya] | Whoa! The counter is buried!!
+0007 [Receptionist] | Most of these are headed for the sticks. It takes days to deliver for peanuts... Naturally, nobody wants the gig.
+0008 [Receptionist] | But having Post Haste take this load off our backs is a huge relief.
+0009 [Tú] | If this is their daily grind...==W== Must be rough for Post Haste.
+0010 [Receptionist] | I'm counting on you!
+0011 [Noya] | We just gotta haul them outside, yeah? Heave-ho!
+0012 [Tú] | I'll grab this crate...==W== Oof, it's heavy?! Oh no—!
+0013 [Freesia] | Are you okay, Boss?
+0014 [Tú] | Sorry, Freesia. It's way heavier than it looks. Almost lost my grip...
+0015 [Freesia] | Please, allow me to handle those.
+0016 [Tú] | You lifted those one-handed like it was nothing?!
+0017 [Freesia] | Leave the heavy lifting to me. Would you be so kind as to attend to the letters?
+0018 [Tú] | That mountain of mail is almost gone already...
+0019 [Tú] | Is this daily grind the secret to her strength? No, this workload is just insane... Freesia, you have my respect.
+0020 [Freesia] | Next, we sort. We verify addresses, categorize by region, then bundle neighboring locations together.
+0021 [Noya] | Talk about attention to detail. And then you have to hand-deliver every single one? That's incredible!
+0022 [Freesia] | Deliveries are Post Haste's foundation. Our principle is simple: The letter must reach its destination, no matter what.
+0023 [Tú] | It sounds simple, but just imagine the sheer effort required...
+0024 [Tú] | Is that Donna's philosophy?
+0025 [Freesia] | Yes. I'm told she's been upholding that standard since her first days as a Courier Trekker. To Donna, the connection between sender and recipient is everything.
+0026 [Freesia] | In a way, I owe my meeting with Donna to that very conviction.
+0027 [Noya] | Eh? So you weren't always with Post Haste?
+0028 [Freesia] | Correct. I used to be an Advocate.
+0029 [Noya] | Advocate!? No way! That is so cool!
+0030 [Freesia] | It's not as glamorous as you imagine... I was an Advocate in name only. Barely competent.
+0031 [Freesia] | Family expectations, professional doubts, my own mistakes...==W== The weight of it all just felt like a torrential downpour drowning me.
+0032 [Freesia] | In the end, I couldn't bear it any longer. So I ran away.
+0033 [Tú] | I never expected Freesia to have a past like that...
+0034 [Freesia] | As I wandered aimlessly... I met Donna.
+0035 [Donna] | Phew—and just like that, another letter reaches its recipient safe and sound! Mission accomplished!
+0036 [Donna] | Gotta say though, Freesia, you were incredible back there!
+0037 [Donna] | If you hadn't stepped in, that boar would've knocked me off the mountain!
+0038 [Freesia] | It's my duty to help. You did commission me as your bodyguard, after all.
+0039 [Donna] | Yeah, but the delivery's done! Technically, your job is finished.
+0040 [Freesia] | Not until I see you safely back to Port Bellin.==W== The contract stands.
+0041 [Donna] | Thank you so much!
+0042 [Donna] | So, after you drop me off at Port Bellin, what's next for you?
+0043 [Freesia] | Um...==W== I'm not sure. I suppose I'll just see where the road takes me.
+0044 [Freesia] | ... I suppose even I don't really know what my next step should be.
+0045 [Donna] | If that's the case...==W== Do you wanna join me as a courier?
+0046 [Donna] | After this commission, I'm more convinced. Having a reliable partner is truly amazing! What do you say? Come team up with me!
+0047 [Freesia] | Actually... I've been curious. Why go to such lengths just to deliver letters? This one was over a decade old. You're not even getting paid for it.
+0048 [Donna] | It's not about the money. Some things just have to be done.
+0049 [Donna] | People write letters to convey what they can't express in person, yet still wish to convey. If the letters get lost... Then those heartfelt messages never reach the heart they belong to, do they?
+0050 [Donna] | That is precisely why I became a courier. The thought that if I try just a little harder, perhaps one more person might be saved by a letter delivered in time...
+0051 [Freesia] | Saving others... It truly is an important job.
+0052 [Donna] | Right? Then starting today, Freesia, we're partners!
+0053 [Donna] | Well... The pay isn't exactly great... But if you don't want to go back just yet... You can stay with me! I can cook too! How about it? How about it?
+0054 [Freesia] | But...==W== Perhaps I have no right to be a courier. After all, I'm the one ignoring the very feelings ... that are trying to reach me.
+0055 [Donna] | Eh? You mean...
+0056 [Freesia] | When I ran away from home, my mother tucked a letter into my bag. I still haven't been able to open it...==W== How can I be a courier, when I can't even face a letter from my own family?
+0057 [Donna] | I see...==W== But I think that's all the more reason you should give it a try!
+0058 [Freesia] | Why? I can't even treat the feelings within these letters with such sincerity like you do...
+0059 [Donna] | Actually, I was just as lost as you are when I first started... I even hesitated, too, over whether or not I should open that letter addressed to me.
+0060 [Donna] | But I still became who I am today—a courier. Who knows? Maybe you too will change your mind someday, if the right opportunity comes along.
+0061 [Donna] | Just think of it as a trial run for a little while... Couriers always travel to many places, encountering all sorts of people and things... Who knows? You might just find your answers along the way.
+0062 [Freesia] | My ... answer...
+0063 [Narración] | That encounter was like a sudden gust... A wind named "Donna" that scattered the dark clouds looming in my heart.
+0064 [Freesia] | And so, I began traveling with Donna to deliver letters. Later, I met Teresa, our navigator, and slowly came to understand Donna's conviction.
+0065 [Noya] | That's so nice! A chance encounter changing the entire course of your life... Sounds so romantic!
+0066 [Tú] | So ... what did that letter from your mother actually say?
+0067 [Freesia] | That letter... To be honest, I still haven't opened it.
+0068 [Freesia] | But I believe if I keep working here, I'll eventually find an answer of my own. Not one dictated by others or my circumstances, but one chosen by my own heart. An answer belonging to me alone...
+0069 [Freesia] | So ...==W== until I find it, that letter stays sealed.
+0070 [Noya] | That's exactly what makes life so interesting! Just when you think "I'm totally done for," a new path can open up out of nowhere!
+0071 [Freesia] | True. It was precisely because I endured those difficult times that I was able to meet Donna and Teresa.
+0072 [Freesia] | Before that, I thought being an Advocate was the only path I could take... So I really am grateful to Donna. She showed me there were other ways to live.
+0073 [Tú] | Hold on... Did you say Advocate?
+0074 [Tú] | If Freesia has an Advocate license, couldn't we use her access to check the archives for "Howard"?
+0075 [Noya] | Oh! So we just look the name up and boom—mystery solved?! As long as we have Freesia with us?
+0076 [Freesia] | Well... But my license... It is currently...==W== And accessing personal information without a valid reason is prohibited.
+0077 [Freesia] | But... Let me think... The archives...
+0078 [Freesia] | Have you finished sorting the mail?
+0079 [Tú] | Ah, yeah...==W== More or less.
+0080 [Freesia] | Even without a legal license, there might be other ways.==W== Please, lend me a hand.
+0081 [Noya] | Whoa! Freesia, what are all these thick books...?
+0082 [Freesia] | According to the Nova Continent's public information disclosure act regarding city-state history, I've borrowed the archived registration records—these are documents anyone is permitted to review.
+0083 [Freesia] | Records of neighborhood transitions and ownership changes... If the Howard family truly lived in Port Bellin, we might find some trace of them here.
+0084 [Tú] | I see. Still, this is an incredible amount of paper...
+0085 [Freesia] | That letter was quite old...==W== So I borrowed the records spanning the last twenty years.
+0086 [Noya] | Twenty years?!
+0087 [Tú] | The sheer amount of information... It's enough to make my head spin...
+0088 [Freesia] | It's actually the same as sorting mail. Just focus on the necessary information and flip through the pages one by one.
+0089 [Freesia] | All we need to look for right now is the name "Howard." It's simpler than sorting all those letters.
+0090 [Freesia] | Let's divide the work!
+0091 [Noya] | I-I'll do my best!
+0092 [Noya] | Howard... Howard... Ah!==W== Found it! I found it, but...
+0093 [Tú] | Noya, what's wrong?
+0094 [Noya] | The owner of this equipment shop... His name was indeed Howard, but the shop is already closed...
+0095 [Freesia] | ... At the same address, a new equipment shop opened under the name "Justin" a few years later.
+0096 [Noya] | Did Mr. Howard move away?
+0097 [Tú] | Not sure, but I think a field investigation is necessary... If they're in the same trade, the shop that opened later might know something.
+0098 [Freesia] | Boss is right. Once Donna and the others get back, let's discuss it together.
+0099 [Tú] | Going by the intel we've gathered, this has to be Howard's place.
+0100 [Freesia] | Thanks to everyone, I can now confirm the connection between "Howard" and "Justin."
+0101 [Donna] | The Howards were a famous line of artisans. Matches Freesia's research result perfectly.
+0102 [Amber] | The reason for his disappearance fits.
+0103 [Teresa] | And the address matches my map, too! This is definitely the place!
+0104 [Iris] | Good job, Teresa!
+0105 [Donna] | Great work, everyone! It's getting late, though. Let's handle the delivery tomorrow.
+0106 [Donna] | You've all worked so hard. Tonight calls for a reward! I whipped up a feast! Dig in and eat as much as you want!
+0107 [Amber] | Zzz... Zzz...
+0108 [Noya] | Oof... I'm stuffed... Can't eat another bite...
+0109 [Tú] | Now that we're all well fed, we're all fueled up for tomorrow!==W==
+0110 [Tú] | Hm?
+0111 [Tú] | Donna? Where's she wandering off to this late...?
+0112 [Donna] | Oh! Boss? Did I wake you?
+0113 [Tú] | I was still up. Strange... I'm not sleepy at all.
+0114 [Donna] | Hehe, same here!
+0115 [Donna] | I had so much fun tonight! Maybe I'm too excited to sleep.
+0116 [Tú] | Your cooking was incredible.==W== Making all that at once... It must have been exhausting.
+0117 [Donna] | Not at all! It felt like my family suddenly got a whole lot bigger. I loved every second of it!==W== I love having everyone together, loud and lively.
+0118 [Donna] | Back at the start, it was just me delivering the letters.
+0119 [Donna] | On my own, there was no way to finish all the deliveries in one run.
+0120 [Donna] | I had to split the routes and take them day by day.
+0121 [Donna] | Looking back... I have no idea how I managed.
+0122 [Tú] | Just thinking about it gives me a headache...
+0123 [Donna] | Right?
+0124 [Donna] | But then Freesia and Teresa came along, and we started Post Haste. Now there's so much more we can achieve.
+0125 [Donna] | Through worries and joys alike, we stand together. I'm so happy these days... It actually scares me a little.
+0126 [Donna] | I just...==W== I don't ever want to be alone again.
+0127 [Tú] | Donna?
+0128 [Donna] | Ah! Whoops, that sounded kinda weird, huh?==W== I didn't mean anything deep by it! It's just...
+0129 [Donna] | Look, the workload keeps piling up! One person definitely can't deliver it all, right?==W== So what I meant was—flying solo isn't an option anymore!==W== Nope, absolutely not!
+0130 [Donna] | Anyway! Gotta get up early tomorrow, so I'm off to bed!==W== Nighty-night, Boss!
+0131 [Tú] | Goodnight.
+0132 [Tú] | What was that strange feeling just now...? For a split second, Donna looked like a child on the verge of tears...
+0133 [Donna] | I just...==W== I don't ever want to be alone again.
+0134 [Tú] | Don't ever want to be alone again, huh...

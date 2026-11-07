@@ -1,0 +1,107 @@
+# Evento · Un crepitante indicio de primavera · 3 · Through the Fog
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Hotpot Restaurant Owner | Hotpot Restaurant Owner
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_113 | Shimiao
+N:avg1_141 | Chixia
+N:avg1_151 | Yunshu
+N:avg1_159 | Coronis
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_176 | Loong Resident
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Through the Fog
+0003 [Intro] | At a hotpot restaurant, you run into Shimiao, who is investigating the firecracker thefts. As the pieces fall into place, you realize your friends' disappearance is tied to a smuggling ring...
+0004 [Chixia] | Hey, you sure we followed Senior's directions right?==W== 'Cause I'm seeing nothing on this wall!
+0005 [Coronis] | The eastern wall...==W== Miss Chixia, did your Senior mean for us to check the actual wall?
+0006 [Chixia] | Yeah. Where else?
+0007 [Coronis] | I assumed it was a metaphor. Something only a Xuan Shi could interpret.
+0008 [Chixia] | Senior knew our limits, so she translated the hexagrams into plain speech.
+0009 [Chixia] | If she said the wall on the east, she meant the wall on the east.
+0010 [Tú] | Hm? Wait, looks like there's something posted over there...
+0011 [Coronis] | A help-wanting ad?
+0012 [Coronis] | High-paying porter job. No contact info, just a meeting spot...==W== "Red Pot Restaurant," No.9 Fangcao Road?
+0013 [Chixia] | Oh! I know that place! Great hotpot. Shimiao actually cried her eyes out from the spice last time.
+0014 [Tú] | The paper's still crisp. Must be a fresh posting.
+0015 [Iris] | We've secured the commission.
+0016 [Amber] | Helping with a delivery.
+0017 [Noya] | We'll knock this out in a flash!
+0018 [Tú] | Got it.
+0019 [Tú] | They mentioned a delivery job, too...
+0020 [Tú] | They probably saw this flyer and took the gig.
+0021 [Tú] | The hotpot spot doesn't seem linked to Jinglin, but let's go ask around anyway.
+0022 [Hotpot Restaurant Owner] | Thought things had finally settled down. Can't believe this is happening again.
+0023 [Shimiao] | I understand the frustration.==W== The Baize Bureau is investigating, and we'll have answers for you soon.
+0024 [Tú] | Excuse me, I'd like to ask if—==W==huh? Shimiao?
+0025 [Shimiao] | Oh, it's you. Any luck with the search? Or are you just here for hotpot?
+0026 [Tú] | We're following a lead. Came to ask a few questions.
+0027 [Chixia] | What are you doing here? Back for round two with the Heaven-and-Hell Ultimate Spicy Hotpot?
+0028 [Shimiao] | Wh-what nonsense...==W== I'm here on duty. Investigating the stolen firecrackers.
+0029 [Tú] | Stolen firecrackers?
+0030 [Hotpot Restaurant Owner] | Sigh... Thief broke in last night. Cleaned out our entire stock of firecrackers.
+0031 [Hotpot Restaurant Owner] | It just isn't a festival without them. I tried to restock, but they're sold out everywhere.
+0032 [Hotpot Restaurant Owner] | My kid's been counting down the days. You can imagine how crushed they are now.
+0033 [Chixia] | Relatable! If I couldn't play with firecrackers as a kid, I'd have cried my eyes out.
+0034 [Chixia] | Good thing I hoarded a ton of 'em. I'll have some sent your way later.
+0035 [Hotpot Restaurant Owner] | Really? You're a lifesaver! Thanks!
+0036 [Hotpot Restaurant Owner] | Right, you mentioned ... you had questions?
+0037 [Tú] | We're looking for someone. Seen any of these girls around?
+0038 [Narración] | You show the owner the photos of the New Star Guild and Jinglin.
+0039 [Hotpot Restaurant Owner] | Why, that's Jinglin! Distant relative of mine. Stopped by just yesterday to catch up.
+0040 [Coronis] | What did you talk about?
+0041 [Hotpot Restaurant Owner] | Said she was heading out of town to harvest winter bamboo shoots. They make a great stew.
+0042 [Hotpot Restaurant Owner] | I remember those three. Came in just as the lunch rush was winding down. Sat for a bit, but ...==W== they weren't alone. Someone else was with them.
+0043 [Tú] | Someone else? Could you elaborate?
+0044 [Hotpot Restaurant Owner] | A local girl in red—seemed pretty high-energy. They didn't order anything, just chatted for a while then took off in a hurry.
+0045 [Hotpot Restaurant Owner] | Oh, right. When I served them tea, I heard them planning a trip out of the city. Something about moving valuables.
+0046 [Tú] | Thanks. That was really helpful.
+0047 [Hotpot Restaurant Owner] | It was? Glad I could help then.
+0048 [Shimiao] | We'll let you get back to business. I will notify you once we reach a conclusion regarding the stolen firecrackers.
+0049 [Hotpot Restaurant Owner] | You're welcome. Safe travels!==W== And do come back to try our signature hotpot...
+0050 [Tú] | Shimiao, when you said you had work earlier, were you referring to this firecracker theft?
+0051 [Shimiao] | Yes. The city has been plagued by a string of firecracker thefts recently.
+0052 [Shimiao] | From what we've uncovered so far, one thing is certain—the fireworks have been moved out of the city...
+0053 [Shimiao] | Unfortunately, the trail ends there. We haven't been able to locate the thieves' hideout in the vast Wilds.
+0054 [Chixia] | Wait, that rings a bell...==W== I think someone at the retreat was warning everyone to stay alert, too.
+0055 [Shimiao] | I thought the case was going cold when the thieves vanished without a trace for days ...==W== until we started receiving a flood of reports today about last night's thefts.
+0056 [Tú] | They went dark for days, only to come back and steal more?
+0057 [Shimiao] | Correct... And their mode of operating has shifted.
+0058 [Shimiao] | The earlier thefts affected many households, but only small quantities of fireworks were stolen from each.
+0059 [Shimiao] | But last night, they targeted homes with large stockpiles and cleaned them out completely. Not a single sparkler was left behind.
+0060 [Chixia] | But why steal so many? Is this guy trying to throw the biggest Springseek party in history?
+0061 [Coronis] | Working as an underground doctor in the Ash District teaches you a lot about how the gray market operates.
+0062 [Coronis] | My guess? We're dealing with smugglers.
+0063 [Chixia] | Smugglers? Seriously? What's the point of smuggling firecrackers?
+0064 [Coronis] | The firecrackers are just a front.==W== They use them to traffic gunpowder across city borders undetected.
+0065 [Coronis] | I've heard rumors of a buyer paying top coin for gunpowder. They want weapons that don't need magic. No success stories yet, though.
+0066 [Shimiao] | Fireworks production and trade in Cangwu are strictly regulated. Unauthorized export is absolutely prohibited.
+0067 [Shimiao] | That makes this a grave offense. We cannot stand by while Cangwu's goods are exploited for malicious ends.
+0068 [Tú] | Contraband... High-paying movers...
+0069 [Shimiao] | What is it? Did you realize something?
+0070 [Hotpot Restaurant Owner] | I remember those three. Came in just as the lunch rush was winding down. Sat for a bit, but ...==W== they weren't alone. Someone else was with them.
+0071 [Tú] | Based on what the restaurant owner said, the New Star Guild definitely took that commission from the ad.
+0072 [Tú] | And the job has to be moving that stolen cargo out of the city.
+0073 [Chixia] | Huh? I thought they were hauling firecrackers from inside the city to the outside?
+0074 [Tú] | Shimiao just confirmed the group has already moved the firecrackers outside city limits.
+0075 [Tú] | They likely smuggled them out in small batches to avoid detection, stockpiling everything at a hideout in the Wilds. Now that they have a full load, they're ready to move it all at once.
+0076 [Coronis] | A shipment that size requires extra hands. Hiring the New Star Guild for labor... Yes, that logic holds up.
+0077 [Coronis] | But why did Jinglin disappear?
+0078 [Chixia] | Wait! What about Yunshu's reading?
+0079 [Yunshu] | Their fates are tangled... Everyone you're seeking is gathered at the same spot, right this moment.
+0080 [Yunshu] | Rest assured, they are unharmed. They have simply been detained.
+0081 [Chixia] | If the New Star and Jinglin are together, maybe they ran into the smugglers and got stuck!
+0082 [Coronis] | Plausible... But how did Jinglin get entangled in this?
+0083 [Tú] | It's just a theory based on the divination, but here is what I suspect...
+0084 [Tú] | The New Star likely realized the nature of the job mid-transport and confronted the client.
+0085 [Tú] | And Jinglin, who was out hunting for ingredients, probably stumbled onto the scene and got dragged into the mess.
+0086 [Shimiao] | If that is the case, locating the smugglers is our top priority.
+0087 [Coronis] | But how? Tracking a group that has vanished into the Wilds is almost impossible.
+0088 [Tú] | About that... I actually have a plan...
+0089 [Tú] | We can bait them into walking right into our hands.

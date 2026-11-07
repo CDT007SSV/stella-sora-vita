@@ -1,0 +1,154 @@
+# Evento · Réquiem invernal y el gatillo del alba · 10 · Beyond the Storm
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Axe Guy | Axe Guy
+N:Mage Girl | Mage Girl
+N:Messenger Girl | Messenger Girl
+N:Miss Longsword | Miss Longsword
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_142 | Cosette
+N:avg1_143 | Wraith
+N:avg2_969 | Wandering Birds Trekker
+N:avg2_970 | Wandering Birds Trekker
+N:avg2_971 | Wandering Birds Trekker
+N:avg3_100 | Sylar
+N:avg3_150 | Albedo
+N:avg3_152 | Bastelina
+N:avg3_168 | Chica
+N:avg3_195 | Edda
+N:avg3_937 | The Crowd
+
+## Texto
+0001 [Intro] | Act Ten
+0002 [Intro] | Beyond the Storm
+0003 [Intro] | With the investigation finally wrapped up, you and Wraith wake everyone and return to Emor with the New Star Guild... It seems the "Archon" incident didn't go unnoticed after all.
+0004 [Tú] | How's everyone holding up? Any discomfort?
+0005 [Miss Longsword] | Thanks to you, ==PLAYER_NAME==, I've pretty much recovered.
+0006 [Axe Guy] | Felt a bit drained when I first woke up, but otherwise, I'm good.
+0007 [Mage Girl] | I'm doing great!
+0008 [Tú] | Thank goodness... No lasting side effects.
+0009 [Tú] | Has anyone seen Wraith?
+0010 [Tú] | Haven't seen her around since we got back.
+0011 [Miss Longsword] | She headed out a while ago. Said she was hunting for some decent "trophies."
+0012 [Wraith] | Gulp...==W== Haa... Good. It didn't freeze.
+0013 [Tú] | Wraith? What are you doing out here?
+0014 [Wraith] | Oh, ==PLAYER_NAME==. Perfect timing. Catch!
+0015 [Tú] | Whoa... Oof! Where'd you get this? And it's blackberry flavor...
+0016 [Wraith] | Don't sweat the details. Come on, cheers!
+0017 [Tú] | Uh... Cheers...
+0018 [Tú] | Hold on! Edda's still missing. We shouldn't be standing around drinking!
+0019 [Wraith] | That's exactly why we drink. Dwelling on it will just drag you down.
+0020 [Wraith] | I'm back home, I've made new friends, and we solved a crisis to boot. Isn't that enough reason for a toast?
+0021 [Wraith] | One good news after another. I'd throw a whole banquet if I could.
+0022 [Tú] | Is this the Norstheim way, too?
+0023 [Wraith] | Yes. Eat well, hunt well, study well, sleep well.
+0024 [Wraith] | Disaster strikes when you least expect it, catching you off guard... So you have to live in the moment. Enjoy it while you can. Live with no regrets.
+0025 [Tú] | Enjoy it while you can, and live with no regrets... I get it. Guess I can't say no to a toast, then.
+0026 [Wraith] | To new friends and the Northern City. Cheers.
+0027 [Narración] | Wraith raises her glass toward the Monolith, offering a silent salute.
+0028 [Wraith] | You know, something's been bugging me. I know I used that fake intel on Nocturn Eterna to expose her...
+0029 [Wraith] | But why'd you play along? You know Nocturn Eterna well, ==PLAYER_NAME==. Didn't strike you that I might be bluffing?
+0030 [Tú] | Oh, that's because...
+0031 [Edda] | Relax. I booked a backup carriage before we even left the city.
+0032 [Edda] | If things go to plan, it arrives tomorrow to pick us up.
+0033 [Tú] | Her story had holes from the start.
+0034 [Tú] | Think about it. She's meticulous. Someone that prepared doesn't just ... slip up like that.
+0035 [Tú] | Maybe deep down, she actually wanted someone to stop her? ... Maybe I'm overthinking it.
+0036 [Tú] | Look at it the other way: if Edda was truly committed to playing the victim, she wouldn't have bought your intel so fast.
+0037 [Wraith] | I see. Makes sense...==W== Anyway, ==PLAYER_NAME==, take this.
+0038 [Tú] | For me? Isn't this your treasure? You literally pointed at it earlier and called it your "clan's honor."
+0039 [Wraith] | It is. Proof of my clan's honor, no doubt.
+0040 [Wraith] | But when Edda's magic hit... I wouldn't be standing here right now if you hadn't had my back.
+0041 [Tú] | Had your back...? I was running for my life!
+0042 [Tú] | Besides, without you, we wouldn't have stood a chance. I'd have been dead meat either way.
+0043 [Wraith] | You looked pretty sharp running away, you know.
+0044 [Tú] | Why do you make it sound like you were watching a show?!
+0045 [Wraith] | I didn't just "sound" like it. I saw it. That hall was ... magical.
+0046 [Tú] | Ugh...
+0047 [Wraith] | Heh. You've got guts. I like that. Here, take this badge.
+0048 [Wraith] | It's a mark of the Norstheim warriors. Represents a bond that goes beyond life and death.
+0049 [Wraith] | My grandfather gave it to me. Said I'd eventually find a partner worthy of holding it.
+0050 [Wraith] | Anyway, that's the story. Do you want it or not?
+0051 [Tú] | Sigh... Well, since you put it like that...==W== I'll take it. Thanks.
+0052 [Wraith] | Oh, almost forgot a tiny detail...==W== Accepting this==W== makes you the giver's family.
+0053 [Tú] | Huh... Wait, WHAT?!
+0054 [Wraith] | Heh. You are a part of Norstheim now. Let's look out for each other from now on.
+0055 [Tú] | Oh... That's what you meant.
+0056 [Wraith] | Scared you?==W== Heh, were you perhaps hoping for a different kind of meaning?==W== But if that's actually what you want,==W== I'm certainly open to it.
+0057 [Tú] | Sigh... Quit teasing me.==W== Regardless,==W== I promise to keep this safe.
+0058 [Wraith] | Good. That sets my mind at ease. Alright, now that business is handled, let's head back.
+0059 [Iris] | Welcome home! Please, have some canned food.
+0060 [Tú] | Ooh,==W== another canned food party? Perfect timing. I need to catch up on the new flavors...==W== Which one should I pick?
+0061 [Amber] | I want the fish one.
+0062 [Iris] | I personally recommend the luncheon meat paired with a salad. A balanced diet is essential.
+0063 [Tú] | I'll follow your lead, then.==W== Oh, pass the dressing, please.
+0064 [Noya] | Here you go, Boss.
+0065 [Tú] | Thanks, Noya.
+0066 [Tú] | Wait.==W== Noya?! Iris and Amber, too?! What are you all doing here?
+0067 [Noya] | We're here to pick you up, obviously! We fixed up Loxy and drove a==W== loooong==W== way==W== here, just to reach you, Boss.
+0068 [Tú] | I'm not talking about the distance!==W== How did you even know where to look?
+0069 [Bastelina] | Heheh. You have the cute and charming Bastelina to thank for the intel!
+0070 [Bastelina] | Miss Wraith, I burned through my brand-new annual leave for this! You owe me big time!
+0071 [Tú] | Even Bastelina is here...==W== What actually is going on?
+0072 [Wraith] | Before we departed, I gave Bastelina our itinerary. I instructed her to find us if anything went wrong.
+0073 [Bastelina] | By the way, the other three investigators already took a carriage back.
+0074 [Iris] | I have so many questions for you, Boss, but first...
+0075 [Amber] | Who is that?
+0076 [Tú] | Ah, right. Introductions first.
+0077 [Tú] | This is Wraith. The commission got dangerous, and she saved my life more than once...==W== I wouldn't be here without her.
+0078 [Wraith] | Greetings, I am Wraith. Rest assured, I stayed with Boss for the entire mission.==W== I even kept ==SEX4== company while ==SEX== slept.
+0079 [Tú] | Okay, technically true...==W== But do you have to phrase it like that?! You're making it sound weird!
+0080 [Tú] | Listen...==W== We just slept in the same room, not in the same bed—!
+0081 [Noya] | Oh!==W== So you slept together? That's also what we did back home!
+0082 [Tú] | Huh? Well, I guess when you put it that way...==W== Wait…
+0083 [Bastelina] | ...
+0084 [Tú] | Uh...==W== Bastelina, hold on. I think you're getting the wrong idea.
+0085 [Bastelina] | Wow. You really can't judge a book by its cover. The Boss works fast.
+0086 [Tú] | Get your mind out of the gutter!
+0087 [Iris] | Regardless! Thank you for taking such good care of Boss all this time!
+0088 [Amber] | Phone. Tap?
+0089 [Tú] | Aren't you two going to back me up?! No, wait, technically she's right...==W== Ugh, I can't win!
+0090 [Wraith] | Seems like it'll be a fun night.
+0091 [Tú] | Wraith—! This is your fault! Even though I know you didn't mean it...
+0092 [Noya] | Alright.==W== Grace is refilled. Let's head back.
+0093 [Noya] | Nobody left anything behind, right?
+0094 [The Crowd] | Nope—
+0095 [Noya] | Then let's hit the road!
+0096 [Narración] | Bags packed and ready, we finally depart from the Northern City.
+0097 [Narración] | One week later...
+0098 [Bastelina] | And that covers the entire incident report.
+0099 [Albedo] | Good work. I'll sort through the files shortly.
+0100 [Albedo] | Archons descending and influencing other Monoliths...==W== Is that truly possible?
+0101 [Albedo] | We lack sufficient proof. But either way, the Archons are a threat we cannot ignore.
+0102 [Albedo] | Your intel is valuable. We'll classify this as an official business trip.
+0103 [Bastelina] | You mean ... my annual leave is safe?==W== Thanks for understanding! I'll get right back to monitoring the Boss's team.
+0104 [Albedo] | Sigh...
+0105 [Albedo] | Chariot and Ghost... Two Archons are showing signs of awakening. We can't ignore this any longer.
+0106 [Albedo] | We need to establish a dedicated crisis response unit. As for the candidates...
+0107 [Wraith] | ...
+0108 [Albedo] | Simply put: Nocturn Eterna is what destroyed your hometown.
+0109 [Albedo] | Join the Sentinel of Dawn. You need our intel, and we need your strength. I'd say that's a fair trade.
+0110 [Messenger Girl] | An elderly gentleman insisted I pass this letter to you, no matter what.
+0111 [Messenger Girl] | He told me: Norstheim is rebuilding. Don't worry about home. Just do what your heart desires.
+0112 [Edda] | You should take care of yourself, for there are plenty who desire you—your body, your soul... All of it.
+0113 [Wraith] | Looks like...==W== There's one more thing to investigate.
+0114 [Cosette] | Oh no... I think I'm lost...
+0115 [Cosette] | Hello?==W== Is anyone out there?! Anyone?!
+0116 [Cosette] | The buildings here are so run-down ... and dark ... and—==W==achoo! Freezing!
+0117 [Cosette] | Ugh... Is the Tyrant really somewhere like this?
+0118 [Cosette] | Ah! A vending Artifact!
+0119 [Cosette] | I still have some allowance from Lady Aeloria...==W== One hot drink to warm myself up shouldn't hurt, right?
+0120 [Cosette] | Huh? I put money in, but where's my drink?!
+0121 [Cosette] | Is it broken? Hello—?
+0122 [Cosette] | Oh, right! The book said a kick at a forty-five-degree angle fixes these things!==W== But if I break it, Lady Aeloria's gonna be angry again...
+0123 [Cosette] | Sigh... Forget it. I'm going ho—==W==whoa!
+0124 [Cosette] | Oww...==W== Who left this junk right here?! I'm not in the best mood right now! Watch it, or I'll...
+0125 [Cosette] | Huh? I thought it was just trash... It's actually a person?==W== Hello? Are you alive?
+0126 [Edda] | Ty...
+0127 [Cosette] | Eh? Tyrant? You know the Tyrant?==W== Hey! Don't pass out again!
+0128 [Cosette] | Wake up! It's super dangerous to sleep out here!
+0129 [Cosette] | Waaah! Someone! Anyone! Please help!

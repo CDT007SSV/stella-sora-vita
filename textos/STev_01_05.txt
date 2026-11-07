@@ -1,0 +1,110 @@
+# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 5 · Seeing is Deceiving
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Panicked Treasure Hunter | Panicked Treasure Hunter
+N:avg1_135 | Mistique
+N:avg1_155 | Shia
+N:avg1_157 | Karin
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_201 | Marlene
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | Seeing is Deceiving
+0003 [Intro] | All the clues suggest that their grandma lied.==RT==The "Ghost Ship" is merely a decoy to mislead others.==RT=="Facing the truth requires courage."
+0004 [Panicked Treasure Hunter] | Quick, get the boss on the line!
+0005 [Panicked Treasure Hunter] | We'll be doomed if things go on like this!
+0006 [Panicked Treasure Hunter] | The boss replied! She's waiting on the ship! Let's move!
+0007 [Karin] | Think you can run?! Think again! Time to see what this harpoon gun can do!
+0008 [Shia] | Karin, you pin 'em down. I'll swing around to the ship and cut off their escape.
+0009 [Karin] | On it!!
+0010 [Tú] | Those people hardly had any chance to fight back... This kind of seamless coordination is built on the trust between Shia and Karin.
+0011 [Tú] | ... Huh? Who's that on deck?
+0012 [Karin] | ... Flashbang! Everyone, get down!
+0013 [Tú] | Agh—! That's blinding!
+0014 [Narración] | My vision very soon clears, but our targets have already vanished.
+0015 [Shia] | Ah, shame. We lost them.
+0016 [Tú] | Over there! Their ship's pulling away!
+0017 [Karin] | Dammit, what a dirty trick... I'm going after them!
+0018 [Shia] | Leave them. We could be walking right into an ambush.==W== We're after the same thing—our paths will cross again.
+0019 [Karin] | Fine. But next time, they'll get what's comin' to them!
+0020 [Shia] | Boss, you okay? You didn't get hurt, did you?
+0021 [Tú] | I'm fine ... and the supplies we gathered are all intact.
+0022 [Shia] | Good. It's getting late. We should head back.
+0023 [Tú] | Shia's been quiet... Must be upset those people got away.
+0024 [Tú] | And what's this about a "diary"? Could what they said about the "Monolith" ... actually be true?
+0025 [Karin] | I'm done eating.
+0026 [Shia] | You barely ate, Karin. Something wrong with the food?
+0027 [Karin] | N-No, that's not it...==W== Dinner was great!
+0028 [Tú] | The mood here is a little thick...==W== I should probably try to lighten things up.
+0029 [Tú] | Ahem. That's on me. I prepped the fish. Guess I missed a few scales, huh?
+0030 [Shia] | Heh, ever the peacemaker, aren't you, Boss?
+0031 [Shia] | Hey, Karin. Even the Boss can tell something's weighing on you. Talk to us about it, will you?
+0032 [Karin] | You're the one who's been off since we got back. You've just been moping around, and you barely even touched your soup... Don't think I didn't notice.
+0033 [Karin] | "Talk to us about it"? Shia, you're the one holding everything in!
+0034 [Shia] | Huh? I'm not... Where's all this coming from anyway?
+0035 [Karin] | It's what those people were saying, isn't it?!==W== Ugh, I'm gonna stuff them in a salted fish barrel one by one! That'll teach 'em to spread rumors!
+0036 [Tú] | She's right! Someone oughta sew their mouths shut!
+0037 [Shia] | Hehe...==W== I don't know what to do with you two.
+0038 [Shia] | Karin, Boss, you're both right. When you can't figure something out on your own, it's better to share the burden.
+0039 [Shia] | There is something ...==W== that has been haunting me for a long, long time.
+0040 [Tú] | What?!
+0041 [Shia] | When Granny returned all those years ago, everyone saw how badly hurt she was, wrapped in bandages from head to toe.
+0042 [Shia] | But ... I'm the only one who knew the truth. She wasn't injured at all. The bandages were just for show.
+0043 [Karin] | Wh-What...? How is that possible?!
+0044 [Shia] | The first night she was back, I was too worried to sleep, so I snuck into her room to check on her.
+0045 [Shia] | And that's when I saw it. She'd taken all the bandages off. There wasn't a single scratch on her.
+0046 [Shia] | By the next morning, she was all wrapped up again... I never understood why she did it.
+0047 [Shia] | A few days later, I worked up the courage to ask. She denied everything. Said I was confusing nightmares with reality in my distress...
+0048 [Shia] | But I know what I saw. It was real.
+0049 [Tú] | I mean, if she really ran into it, there's no way she'd get away without a scratch. The ghosts in the legends aren't exactly friendly.
+0050 [Tú] | She didn't get hurt, yet pretended to be seriously injured...==W== Was it to deepen people's fear of the Ghost Ship?
+0051 [Karin] | W-Why are you making it sound even creepier—Aaaah!
+0052 [Shia] | That "diary" those people mentioned... It's been bothering me. Granny kept a meticulous ship's log for every voyage. If she couldn't write at sea, she'd fill it in the moment she got back.
+0053 [Shia] | But I leafed through her logbooks once. That specific trip was the only one without a single entry.
+0054 [Shia] | That's why on this voyage, we have to constantly get our bearings, keep a sharp lookout to log our position, and adjust our course as needed.
+0055 [Karin] | She must have left it blank on purpose, right? It'd be a huge problem if someone else got the log and tried to follow her route.
+0056 [Tú] | My thoughts exactly. With other Trekkers searching for the Ghost Ship, your grandma probably left it out on purpose.
+0057 [Tú] | We still need more intel... My companions are investigating back in town. I'll check in with them and see if they've dug up any new leads.
+0058 [Shia] | Okay. We're counting on you, Boss.
+0059 [Karin] | Your grandma was an impressive fighter! She must have beaten all the ghosts, which was why she came back unscathed!
+0060 [Tú] | If that were the case, why wouldn't she write "all ghosts defeated" in her log? The fact that she didn't ... could mean...
+0061 [Karin] | M-Mean...?
+0062 [Tú] | It means...==W== Karin might still get her chance to join the Ghost Ship's crew.
+0063 [Karin] | Aaaaah—==W==Stop it!! Now you're just messing with me, Boss!!
+0064 [Tú] | I'm just exploring the possibilities. If you're scared now, what will you do if we find a real ghost? Think you could even hold the camera steady?
+0065 [Karin] | Wh-Who says I'm scared?!
+0066 [Tú] | Look out! Behind you!
+0067 [Karin] | Waaaaaaugh—!!!
+0068 [Shia] | Hehe. Alright, Boss, that's enough teasing. Any more and poor Karin will be too scared to sleep tonight.
+0069 [Karin] | Th-That's not true! I'm totally fine sleeping by myself!
+0070 [Tú] | Heh... Looks like everyone's finally loosened up a bit.
+0071 [Narración] | It's my turn for the night watch. I sort through the intel we have and give Mistique a call.
+0072 [Tú] | ...==W== So, that's what we've got. Any updates on your end?
+0073 [Mistique] | Of course! After a few days of clandestine investigation, this witch has unearthed something spectacular!★
+0074 [Tú] | Oh? I'm all ears.
+0075 [Mistique] | Back then, several Trekker crews were tailing Marlene, but they were hit by a storm. Most of the ships turned back, all but one.
+0076 [Mistique] | One Trekker weathered the storm and kept sailing after her. He was a zealous treasure hunter, convinced there were deep-sea treasures at the source of the light.
+0077 [Tú] | Hold on... You don't think the diary that group had today belonged to him, do you?
+0078 [Tú] | But why are they so certain the light comes from a Monolith?
+0079 [Mistique] | —Because the man chronicled what he saw with his own eyes:==W== the source of the light was a colossal object on an island.
+0080 [Tú] | What?!
+0081 [Mistique] | A massive, glowing object rising from an island...==W== It could only be a Monolith right?
+0082 [Tú] | If that's the case, why do most people still cling to Marlene's version of the "Ghost Ship" story?
+0083 [Mistique] | Well, who are you more likely to trust? The living, or the dead?
+0084 [Tú] | So you're saying ... he never made it back? No wonder that crew said his luck crapped out on him.
+0085 [Mistique] | Precisely. When his ship was recovered, all that was left aboard were his skeletal remains and a diary.
+0086 [Mistique] | He was gravely injured in the storm and suffered a psychotic break. The latter half of the diary is incoherent—even his own family dismissed it as feverish delirium.
+0087 [Tú] | I see...==W== So how did his diary end up in their possession?
+0088 [Mistique] | Who knows? They likely offered a handsome sum for it. One can hardly blame the family for selling...★
+0089 [Tú] | Right...==W== By the way, was there any mention of Marlene in the diary?
+0090 [Mistique] | His family didn't mention her, no. I'll have to investigate that further~
+0091 [Mistique] | Very few people are privy to this. It took considerable effort to persuade them to talk, you know.
+0092 [Mistique] | In exchange, you need to keep close tabs on that crew for me, Boss~
+0093 [Tú] | Understood. I'll let you know the moment I learn anything.
+0094 [Tú] | Okay, at least I know where the rumor came from now. But how am I going to tell Shia and Karin?
+0095 [Tú] | They trust their grandmother so much...

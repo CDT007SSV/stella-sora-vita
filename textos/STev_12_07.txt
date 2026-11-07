@@ -1,0 +1,126 @@
+# Evento · ¡Adelante, mi señora! ¡Manual de entrenamiento Plus! · 7 · Breakout
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Angry Trekker | Angry Trekker
+N:Artifact Merchant | Artifact Merchant
+N:Gang Member | Gang Member
+N:Gang Members | Gang Members
+N:General Store Owner | General Store Owner
+N:Imprisoned Civilian | Imprisoned Civilian
+N:Imprisoned Trekker | Imprisoned Trekker
+N:Menacing Gang Member | Menacing Gang Member
+N:Scammer | Scammer
+N:Scammer's Accomplice | Scammer's Accomplice
+N:Skeptical Citizen | Skeptical Citizen
+N:Trekkers & Citizens | Trekkers & Citizens
+N:avg1_137 | Eleanor
+N:avg3_100 | Sylar
+N:avg3_1237 | Pandillera genial
+N:avg3_1238 | Chica de la pandilla
+N:avg3_138 | Trekker
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_187 | Male Flavio Resident
+N:avg3_188 | Female Flavio Resident
+N:avg3_198 | Pandillera genial
+N:avg3_199 | Chica de la pandilla
+N:avg3_223 | Caterine
+N:avg3_224 | Vivian
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Seven
+0002 [Intro] | Breakout
+0003 [Intro] | Eleanor frees the hostages from the basement. With the Imperial Guard and fellow Trekkers arriving just in time to provide backup, Eleanor joins the fray to take down the scammers and round up the whole ring.
+0004 [Narración] | One day earlier.
+0005 [Caterine] | Thank you for offering Eleanor a job.
+0006 [General Store Owner] | You flatter me. Eleanor is a rare talent. I'm the lucky one to have her, my lady.
+0007 [Caterine] | Eleanor would be delighted to hear that.==W== Well, I should get going. Have a wonderful day.
+0008 [Caterine] | Oh! I'm sorry. Are you alright?
+0009 [???] | No worries at all. It was my fault. Sorry about that.
+0010 [Caterine] | ... Eleanor's career as a Trekker is finally on track.
+0011 [Caterine] | She might not even need my help anymore. Why do I feel a little lonely already?
+0012 [Caterine] | I know. I should find her a meaningful gift to celebrate...
+0013 [Caterine] | Hmm.==W== I've looked everywhere, but nothing catches my eye.
+0014 [Artifact Merchant] | Step right up, folks! Don't miss out on these incredible deals!
+0015 [Artifact Merchant] | Practical Artifacts made specifically for Trekkers! Fair prices and completely authentic!
+0016 [Caterine] | That's it! An Artifact is the perfect gift for Eleanor's debut as a Trekker.
+0017 [Artifact Merchant] | Hey there, young lady. You look interested. Come take a look.
+0018 [Caterine] | I'd love to...==W== Wait, didn't we cross paths at the shop earlier?
+0019 [Artifact Merchant] | Oh, the lady from earlier! If you came from that shop, you must have a keen eye for Artifacts. Go ahead, take your pick.
+0020 [Artifact Merchant] | If nothing here catches your eye, I've got more items in storage. It's not far. I can take you there myself.
+0021 [Caterine] | Hmm... Alright. Please lead the way.
+0022 [Artifact Merchant] | Wait here a moment. I'll have my associates bring out our best goods from storage.
+0023 [Caterine] | Alright, thank you...
+0024 [Angry Trekker] | Everyone, over here! I found the scammer!
+0025 [Skeptical Citizen] | Quick! Don't let him slip away again!
+0026 [Caterine] | Huh? Wh-What's happening?
+0027 [Artifact Merchant] | Tch. Of all the times to show up.
+0028 [Angry Trekker] | You fraud! Give us back our Dorra!
+0029 [Skeptical Citizen] | You crook! Coming back here to set up shop again? Have you no shame?!
+0030 [Angry Trekker] | Don't fall for it, Miss! This guy is a con artist pushing fake Artifacts!
+0031 [Artifact Merchant] | ... Whatever. Good thing I came prepared.
+0032 [Artifact Merchant] | Everyone! Round them up! Don't let them ruin our plans!
+0033 [Gang Members] | Yes, sir!
+0034 [Angry Trekker] | Huh? Where'd all these people come from?
+0035 [Caterine] | Wha—?!
+0036 [Caterine] | That's everything. They've kept me locked down here ever since.
+0037 [Eleanor] | So that's what happened...
+0038 [Imprisoned Civilian] | Can you believe these thugs? Kidnapping people in broad daylight. I'm sorry you got dragged into this, Miss.
+0039 [Caterine] | Please, don't worry. Eleanor is here to rescue us. She's an amazing Trekker, so you're all in good hands.
+0040 [Eleanor] | Let me get this cell door open for you.
+0041 [Caterine] | Wait, the guards still have the keys. How are you going to do that?
+0042 [Eleanor] | Heh, Mentor taught me a trick that's perfect for this.
+0043 [Tú] | This one might just do the trick...
+0044 [Tú] | Nice. It's open!
+0045 [Eleanor] | You actually picked it...! You're amazing, Mentor!
+0046 [Eleanor] | Perfect. It's open!
+0047 [Caterine] | Amazing...
+0048 [Imprisoned Civilian] | Thank goodness, we're out.
+0049 [Imprisoned Trekker] | I can't believe you saved me again. Thank you, Miss.
+0050 [Eleanor] | Don't worry about it. Come on, we need to move.
+0051 [Caterine] | Shh! Listen. Footsteps...==W== Someone's coming.
+0052 [Imprisoned Trekker] | I-Is the scammer back?!
+0053 [Caterine] | Eleanor, w-what do we do?
+0054 [Eleanor] | There's only one exit.==W== That leaves us one option.
+0055 [Eleanor] | I'll take point. Let's go.
+0056 [Caterine] | Eleanor! That quick change was incredible! You look amazing!
+0057 [Eleanor] | Heh. Good thing I wore my Trekker gear under the dress.
+0058 [Eleanor] | Everyone, stay behind me!
+0059 [Scammer's Accomplice] | Crap, they're breaking out! That girl was a decoy! Get in here!
+0060 [Eleanor] | I'll take you on!
+0061 [Scammer's Accomplice] | I should've known you'd be trouble...!
+0062 [Scammer's Accomplice] | But you're not getting out. I called everyone back inside. Everyone, get 'em!
+0063 [Menacing Gang Member] | You got it, ma'am!
+0064 [Eleanor] | Caterine, do not leave my side!
+0065 [Caterine] | Okay...
+0066 [Eleanor] | Steady...==W== Deep breaths...
+0067 [Eleanor] | I have to protect Caterine. I have to protect everyone.
+0068 [1] | "Continuously swap weapons to execute fluid, unpredictable attacks. Keep your enemies guessing with a variety of tactics..."
+0069 [Eleanor] | Fight ...==W== like flowing water.
+0070 [Gang Member] | Gah!
+0071 [Eleanor] | Hyah!
+0072 [Caterine] | That's incredible...
+0073 [Caterine] | Eleanor...==W== It's like watching a dance. She's taking them all down with such grace.
+0074 [Trekkers & Citizens] | Let's get 'em!
+0075 [Scammer's Accomplice] | Crap... We're in trouble, huh?
+0076 [Scammer] | I'm back! What happened here?==W== Wait, you? Why is it always you...?!
+0077 [Eleanor] | You're the one who keeps doing awful things!
+0078 [Scammer] | Aaargh!
+0079 [Scammer's Accomplice] | Crap, she's out of our league!
+0080 [Scammer's Accomplice] | Fall back! Let's get out of here!
+0081 [Caterine] | ... They sure ran off fast.
+0082 [Caterine] | Eleanor, should we go after them?
+0083 [Eleanor] | No, they still have people outside.==W== Let's play it safe and slip away in the chaos.
+0084 [Vivian] | Eleanor! Caterine!
+0085 [Vivian] | Thank goodness you're both safe!
+0086 [Eleanor] | Vivian? What are you doing here? I thought you went home!
+0087 [Vivian] | I was worried, but I knew barging in would only slow you down. So I stayed outside and kept watch.
+0088 [Vivian] | Then I heard things getting rough in there, so I called the Imperial Guard.
+0089 [Vivian] | They arrived right as those thugs were making a run for it...
+0090 [Gang Members] | Dammit!
+0091 [Vivian] | As you can see, most of them got caught. But a stubborn few slipped away toward the port.
+0092 [Eleanor] | Great work, Vivian! You're a lifesaver!
+0093 [Eleanor] | Now that we have backup,==W== this might be our chance.

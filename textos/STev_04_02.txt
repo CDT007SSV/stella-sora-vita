@@ -1,0 +1,126 @@
+# Evento · Réquiem invernal y el gatillo del alba · 2 · The Frozen Ruins
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Diligent Investigator | Diligent Investigator
+N:Sharp Investigator | Sharp Investigator
+N:Supply Agent | Supply Agent
+N:The Crew | The Crew
+N:avg1_135 | Mistique
+N:avg1_143 | Wraith
+N:avg2_973 | Ejecutor de Mano Titánica
+N:avg2_974 | Martillo de la Olla de Vapor
+N:avg2_981 | Lucky Rubbi
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_1275 | Lucky Rubbi
+N:avg3_1278 | Martillo de la Olla de Vapor
+N:avg3_195 | Edda
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | The Frozen Ruins
+0003 [Intro] | In the Northern City, the commission initiator, Edda, introduces you to the members and briefs you on possible Nocturn Eterna activities within the city. You then split into teams to investigate.
+0004 [Wraith] | That's the last one.
+0005 [Edda] | Huff... Huff... Quite the bunch.
+0006 [Tú] | Good work. Everyone in one piece?
+0007 [Edda] | I appreciate the concern, Tyrant. I'm fine. And I'm sure Wraith can hold her own.
+0008 [Tú] | Glad to hear it... But bad news.==W== The carriage and driver are gone.
+0009 [Edda] | Can't blame him. Trekkers might be used to this, but for an ordinary person, running away is the only natural reaction when they see Stellaroids.
+0010 [Wraith] | No matter. The Northern City is close. If we leave now, we'll reach its Ash District by nightfall.
+0011 [Tú] | A civilian? He was sent by the Eye of Grace. Trekker or not, he should've been a professional... Am I reading too much into this?
+0012 [???] | Hey! You there! Is everyone alright?
+0013 [Edda] | Hey—what are you doing here?
+0014 [Diligent Investigator] | Ha... Hah... Ms. Edda, we were out on patrol when we heard the sounds of battle over here, so we rushed over.
+0015 [Sharp Investigator] | We ran into some Stellaroids on the way. Don't worry, we took care of them.
+0016 [Tú] | Why are there Stellaroids outside the Monolith? Is there ... a Meltdown?
+0017 [Sharp Investigator] | Yes. Since the reboot, there've been multiple minor Meltdowns.
+0018 [Diligent Investigator] | Thank goodness you're all unharmed.
+0019 [Edda] | Thank you for your hard work. I'm just glad everyone's safe.
+0020 [Tú] | A rebooted Monolith... Sudden Meltdowns ... and Nocturn Eterna...
+0021 [Edda] | Tyrant, is something on your mind?
+0022 [Tú] | I remember Aeloria,==W== that Nocturn Eterna agent.==W== Back in Emor, she used a specific spell to force a Meltdown.
+0023 [Edda] | Are you suggesting Nocturn Eterna has already infiltrated the Northern City?!
+0024 [Tú] | Just a theory. A Monolith left unmanaged long enough can trigger a Meltdown on its own.
+0025 [Edda] | I see... That hadn't occurred to me. And I promised you a safe investigation... My sincerest apologies.
+0026 [Tú] | It was unexpected. Not your fault, so no need to apologize. Let's just focus on getting to the Northern City.
+0027 [Sharp Investigator] | Right, follow us. We got here a few days ago and set up camps in the Ash District.
+0028 [Wraith] | Nocturn Eterna... Would they really come back?
+0029 [Narración] | We trail the investigator for a while, reaching our destination just as night falls.
+0030 [Sharp Investigator] | We're here. Welcome to the city humanity left behind.
+0031 [Tú] | Total ruins.==W== It looks like the aftermath of an apocalypse...
+0032 [Tú] | I've never seen anything like it...
+0033 [Diligent Investigator] | The city was abandoned once the Monolith went down. Years of neglect left it unrecognizable. Only the most durable Artifacts still work.
+0034 [Diligent Investigator] | Tens of thousands lived here once. It was the biggest city in the North. Rumor has it that their forging skills were top-tier—snagged them quite a lot of orders from the Grace Imperium.
+0035 [Sharp Investigator] | Those skills were eventually scattered across Nova following the departing citizens. By now, they may very well be lost to time.
+0036 [Edda] | Not really. Many citizens were taken in by the Grace Imperium, and their skills have been preserved as well.
+0037 [Edda] | I've also heard that ... the talents here were targeted by the Grace Imperium long ago. Back when the Monolith was still bright.
+0038 [Diligent Investigator] | As expected of Ms. Edda.==W== You certainly know the Grace Imperium better than most.
+0039 [Edda] | You flatter me.==W== We should keep moving. The warming spell on Tyrant's clothes is fading.
+0040 [Tú] | Warming spell? Now that you mention it, I haven't felt the cold at all. Is that why?
+0041 [Edda] | Precisely.==W== You are vital to this operation, Tyrant. I will do whatever it takes to keep you safe and healthy. It wouldn't be good if you caught a cold.
+0042 [Tú] | Phew, no wonder I feel all warm and toasty—this magic's pretty handy. But...==W== There seems to be someone here wearing even less than I am.==W== I remember her wearing her coat on the train, and now she's taken it off after the fight...
+0043 [Sharp Investigator] | Hey!==W== We're back, and we brought the rest of the team!
+0044 [Supply Agent] | Good work, everyone. Let me get dinner warmed up.
+0045 [Tú] | I didn't expect to find a building this intact out in the middle of nowhere.
+0046 [Edda] | They went ahead to scout and set up the base. We need this foothold to keep the investigation running smoothly.
+0047 [Diligent Investigator] | We tidied up and arranged the essentials.==W== Make yourselves at home. We'll be stationed here for a few days.
+0048 [Supply Agent] | Huh?==W== I'm short one meal. Ms. Edda, did we pick up an extra guest?
+0049 [Edda] | My apologies. Something came up on the road, and I didn't have time to radio ahead.
+0050 [Edda] | Actually, perfect timing.==W== Let me introduce our special consultant—Tyrant.
+0051 [Edda] | ==SEX1== has made contact with a Nocturn Eterna. Not many people have that kind of experience.
+0052 [Sharp Investigator] | Wait, the Boss?!==W== The one who saved Emor and Philae, runs a company,==W== and has a staff of only beautiful girls?!
+0053 [1] | Hold on!==W== Leaving aside the first part... Where did you hear that last bit?!
+0054 [Sharp Investigator] | From the witch's report on Scarlet Sights Media, obviously.
+0055 [1] | Of course==W== it's her==W==...
+0056 [Edda] | And this is our other new addition—==W==Wraith.
+0057 [Edda] | We were ambushed by Stellaroids on the way here. She took out most of them all on her own.
+0058 [Wraith] | Mmm...==W== Hm...
+0059 [Edda] | Um...==W== Wraith?
+0060 [Wraith] | Right. I'm Wraith...==W== My specialty is hunting down members of Nocturn Eterna.
+0061 [Edda] | Sorry, were you ... asleep?==W== You looked a little out of it.
+0062 [Wraith] | I wasn't sleeping. I was thinking.==W== Meeting so many new people takes time to process.
+0063 [Wraith] | By the way, who are you again?
+0064 [Edda] | Eh? What're you talking about? I'm Edda!==W== We were just in the same carriage!
+0065 [Wraith] | So it was you==W== who rode in the carriage with me earlier...
+0066 [Wraith] | Hm. If she's Edda ... and you're also unarmed...==W== Process of elimination makes you ...==W== ==PLAYER_NAME==.
+0067 [Tú] | That is a very strange way to recognize people...
+0068 [Tú] | Don't tell me we're the only two people you can actually identify.
+0069 [Wraith] | Not at all. I know Axe, Longsword, and Mage perfectly well. Impressive, right?
+0070 [Tú] | "Axe," "Longsword," and "Mage"... You identify people by their gear?
+0071 [Wraith] | Correct. A weapon—and how it's wielded—reflects the owner's soul. Easier to track than a face.
+0072 [Tú] | Like that old Loong saying, "Handwriting reveals the character"?
+0073 [Wraith] | Something like that.
+0074 [Wraith] | Take Axe and Longsword. Your blades bear identical claw marks. The two of you must be teammates.
+0075 [Wraith] | And Mage. You were born left-handed, but an injury forced you to switch hands.
+0076 [The Crew] | W-wow... Incredible...
+0077 [Tú] | That's fascinating. Like detective work.
+0078 [Edda] | Hey~ How about me?==W== No weapon, sure, but you saw me fight!
+0079 [Edda] | Take that!==W== Now you have nowhere left to run!
+0080 [Edda] | Begone!
+0081 [Wraith] | It's a blur. I was too busy protecting ==PLAYER_NAME== and neutralizing threats.
+0082 [Wraith] | I do recall that ... You're a skilled fighter, but you shouted every time you attacked. It was kinda loud.
+0083 [Edda] | That's my signature style!==W== Quit being so critical!
+0084 [Edda] | Ahem. Moving on. Since we're all acquainted,==W== let me reiterate our objective.
+0085 [Edda] | We're here to investigate the Monolith's reboot and figure out why Nocturn Eterna has surfaced in this area.
+0086 [Edda] | Nocturn Eterna left this city in shambles years ago, but recent Monolith anomalies suggest they might still be lurking nearby.==W== That's why we're pairing up—stay sharp as we scout the city for any signs of their return.
+0087 [Edda] | As for the teams... I'll partner up with Tyrant, and—
+0088 [Wraith] | I am taking ==PLAYER_NAME==.==W== ==SEX1== possesses zero combat ability. I am the logical choice for an escort.
+0089 [Edda] | Ha... Fine.==W== Then I'm with the "Axe Guy," and "Miss Longsword" takes "Mage Girl."
+0090 [Tú] | She just rolled with those nicknames? Is she trying to simplify things for Wraith?
+0091 [Edda] | But in exchange, I get to pick our patrol routes.
+0092 [Wraith] | Acceptable.
+0093 [Edda] | Everyone, get some sleep. We're all exhausted.==W== The real work starts tomorrow.
+0094 [Edda] | Oh, and Tyrant? This room is yours. We've already prepared the bed.
+0095 [Tú] | Thanks a lot. I really appreciate the help. See you in the morning.
+0096 [Tú] | Hm? Aren't you going to your room?
+0097 [Wraith] | This is where I rest.
+0098 [Tú] | But this is my room...==W== Oh, do you want to swap?==W== I don't mind—
+0099 [Wraith] | No. We are sharing this room.
+0100 [Tú] | What?
+0101 [Wraith] | Was I unclear? I meant:==W== for the next few days,==W== we are sleeping together.
+0102 [Tú] | Why is this happening?!

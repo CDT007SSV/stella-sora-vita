@@ -1,0 +1,108 @@
+# Evento · Una tormenta de arena y disparos · 4 · Start: Chaton's Investigation
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Desert Scorpion Leader | Desert Scorpion Leader
+N:Enthusiastic Troupe Member | Enthusiastic Troupe Member
+N:Peer Trekker | Peer Trekker
+N:Timid Scorpion Mercenary | Timid Scorpion Mercenary
+N:Trekker Leader | Trekker Leader
+N:Worried Troupe Member | Worried Troupe Member
+N:avg1_108 | Kasimira
+N:avg1_114 | Chaton
+N:avg1_146 | Benito
+N:avg2_967 | White Cat Mercenary
+N:avg2_968 | White Cat Mercenary
+N:avg3_1287 | Desert Scorpion F
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_209 | Desert Scorpion Male Grunt
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Start: Chaton's Investigation
+0003 [Intro] | Benito finally manages to smooth things over, and Kasimira gives the green light to let Chaton carry out a mission on her own. Before they head out, Kasimira quietly has Benito pass Chaton a pendant.
+0004 [Chaton] | Hmph! A mission like this is completely beneath the great Chaton's talents.
+0005 [Kasimira] | Protecting the children of Ash District is every bit as important as investigating the Monolith. No talent is being wasted here.
+0006 [Chaton] | I know, I know...==W== But if I'm stuck doing small jobs forever, when do I actually get to use my dark power?
+0007 [Kasimira] | Look, we've been over this...
+0008 [Benito] | Alright, alright, break it up, you two.
+0009 [Benito] | To be fair, she really shone in Cangwu and Emor this time.
+0010 [Benito] | Why don't we let Chaton take point on this next investigation?==W== What do you think?
+0011 [Chaton] | Benito!==W== You're a genius! Yes, exactly!==W== Let's go with Benito's plan!
+0012 [Kasimira] | Wait, what? No, it's not... But...
+0013 [Kasimira] | Sigh... Alright. You make a fair point. I suppose it really is about time.
+0014 [Benito] | Alright, since the Captain gave the okay, get some rest tonight, Chaton. We're heading out first thing tomorrow.
+0015 [Chaton] | Yesss!
+0016 [Chaton] | Heheh, destiny finally calls!==W== Now the great Chaton must go and recharge.
+0017 [Kasimira] | Wait, Chaton!
+0018 [Chaton] | Huh? What?
+0019 [Kasimira] | ...==W== No, never mind.==W== Get some rest.
+0020 [Benito] | Just don't get so hyped up that you can't sleep tonight!
+0021 [Chaton] | Heheh, I've got my own secret sleeping technique. Don't worry!
+0022 [Kasimira] | Ugh...
+0023 [Benito] | What's wrong? Having second thoughts?
+0024 [Kasimira] | No... I'm just ... a little uneasy.
+0025 [Benito] | Yeah. I'd be lying if I said I wasn't worried.
+0026 [Benito] | I mean, she messes up about twice as often as she succeeds.
+0027 [Kasimira] | Oh, so you know that. Then why stick up for her?
+0028 [Benito] | Because...==W== Ahem.==W== Everyone in Third Squad likes that kid, don't they?
+0029 [Benito] | Besides, she won't grow if we don't let her try.
+0030 [Kasimira] | Fair point.
+0031 [Kasimira] | Still...==W== Send a few people with her tomorrow. To be safe.
+0032 [Chaton] | Yes!==W== Finally, it's the great Chaton's time to shine!
+0033 [Chaton] | I can feel it.==W== The dark power surging inside me!==W== No problem!==W== I'm gonna crush it today!
+0034 [Chaton] | Benito! I'm heading out!
+0035 [Benito] | Wait up, Chaton!==W== Take this!
+0036 [Chaton] | What's this...?
+0037 [Benito] | A pendant from Kasimira. She said it brings good luck.
+0038 [Benito] | She wanted to give it to you herself...
+0039 [Chaton] | Hmph! I don't need her blessing!==W== The dark power protects me!
+0040 [Benito] | Take it. If you don't want Kasimira's blessing, consider it mine.
+0041 [Benito] | Also...
+0042 [Enthusiastic Troupe Member] | Yo!
+0043 [Chaton] | Hm?
+0044 [Chaton] | What are you doing here?
+0045 [Worried Troupe Member] | The Captain assigned us as your subordinates. We're here to back you up.
+0046 [Enthusiastic Troupe Member] | We made a good team back in the City of a Thousand Monoliths, didn't we?
+0047 [Chaton] | My subordinates...?==W== Here to back me up?
+0048 [Enthusiastic Troupe Member] | Yeah. Uh... Let me think. I should be calling you "the great Chaton" now, right?
+0049 [Enthusiastic Troupe Member] | Great Chaton! Let's move out!
+0050 [Chaton] | Oh! R-Right...!
+0051 [Benito] | Chaton, one more thing—you didn't forget the mission, did you?
+0052 [Chaton] | Huh? Of course not!==W== Um, well...
+0053 [Benito] | Ahem.==W== The Captain's orders: confirm if this new mine exists, and—
+0054 [Benito] | —figure out why the Desert Scorpions want to monopolize it.
+0055 [Chaton] | Right! That's it! I knew that!
+0056 [Chaton] | Alright, let's scout the desert by the mine first!
+0057 [Enthusiastic Troupe Member] | Understood, great Chaton!
+0058 [Benito] | Stay safe out there!
+0059 [Worried Troupe Member] | Dead quiet out here. If they're moving anything from the mine, this is the only way through.
+0060 [Worried Troupe Member] | They say this road was packed with ore wagons before the vein dried up. But there's not a single one now.
+0061 [Chaton] | Don't tell me we got false intel...
+0062 [Enthusiastic Troupe Member] | Too early to call it. If the Desert Scorpions want to fly under the radar, they'd move the ore at night.
+0063 [Enthusiastic Troupe Member] | One overnight sandstorm wipes the tracks totally clean, no matter how deep.
+0064 [Chaton] | Shh! Keep it down...==W== Did you hear that?
+0065 [Worried Troupe Member] | Someone's coming. Hide, quick!
+0066 [Desert Scorpion Leader] | Tch—==W==what a pain.
+0067 [Desert Scorpion Leader] | That damn deputy captain... Dumping me with all the garbage jobs first thing in the morning.
+0068 [Timid Scorpion Mercenary] | Keep your voice down!
+0069 [Timid Scorpion Mercenary] | If she hears you say that, we're dead meat!
+0070 [Desert Scorpion Leader] | Hah? What, you think she's got super-hearing?
+0071 [Trekker Leader] | Excuse me... That job you mentioned... Does it actually pay well?
+0072 [Chaton] | Trekkers? Why are they mixing with the Desert Scorpions?
+0073 [Desert Scorpion Leader] | Don't worry! The mine's dead short on hands right now.
+0074 [Desert Scorpion Leader] | Put in a few days' work, and you'll walk away with a fat payout. Beats digging in the dirt for Artifacts, right?
+0075 [Timid Scorpion Mercenary] | Yeah! We even cover room and board!
+0076 [Peer Trekker] | Ooh! That does sound pretty great!
+0077 [Trekker Leader] | Talk about lucky. Can't believe we snagged a commission like this.
+0078 [Desert Scorpion Leader] | Haha, you got that right!
+0079 [Desert Scorpion Leader] | If our deputy captain wasn't such a softie, you Trekkers would never get a shot like this.
+0080 [Trekker Leader] | Y-Yeah... You're absolutely right!
+0081 [Chaton] | Unless I'm hearing things, they were just talking about the mine.
+0082 [Enthusiastic Troupe Member] | Sounds like they're hiring?
+0083 [Enthusiastic Troupe Member] | But there hasn't been a peep in town about the mine looking for workers.
+0084 [Worried Troupe Member] | Let's tail them and see what's going on...
+0085 [Chaton] | Hehehe... Is it finally time? Time to infiltrate the underground lair consumed by darkness?
+0086 [Chaton] | Alright! Leave it to the great Chaton to drag the truth into the light!

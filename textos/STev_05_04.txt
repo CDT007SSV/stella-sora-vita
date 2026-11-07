@@ -1,0 +1,119 @@
+# Evento · Para ti, mi persona más querida · 4 · Letter Thief Encounter
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Howard | Howard
+N:Treasure Hunter | Treasure Hunter
+N:Treasure Hunter Leader | Treasure Hunter Leader
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_125 | Freesia
+N:avg1_127 | Teresa
+N:avg1_130 | Donna
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg2_990 | Miembro del Viento de Ceniza
+N:avg2_991 | Miembro del Viento de Ceniza
+N:avg3_100 | Sylar
+N:avg3_139 | Trekker
+N:avg3_211 | Treasure Hunter Leader
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Four
+0002 [Intro] | Letter Thief Encounter
+0003 [Intro] | Following Teresa's intel, you track the missing mail. On the street, you bump into those treasure hunters from earlier, now collecting old letters. Freesia draws her weapon instantly…
+0004 [Howard] | ... After all this time, perhaps some things are better left buried.
+0005 [Narración] | He stares at the envelope, weighing it in his hand.
+0006 [Narración] | The young Trekkers had given him a relic— a letter weathered by decades of silence.
+0007 [Narración] | This is surely from the one I've tried to cast out of my mind… I don't even need to open it to know who it is.
+0008 [Narración] | Reading it will only tear open old wounds. But I can't seem to just toss it away. What a burden…
+0009 [Howard] | If only someone would just take this thing off my hands...
+0010 [Narración] | It is as if the universe hears his wish—
+0011 [Freesia] | The letter... It's gone...?!
+0012 [Donna] | Teresa, walk us through what happened.
+0013 [Teresa] | Mm... As you requested, Donna, I staked out the place and kept an eye on Mr. Howard for a bit...
+0014 [Teresa] | Mr. Howard went inside...==W== He was holding the envelope, so Donna's delivery was a success!
+0015 [Teresa] | But he didn't open it. He just left it on the windowsill... Hope he didn't trash it...
+0016 [Teresa] | Yawn—==W==no, no, no. Job's not done! Can't snooze now...
+0017 [Teresa] | Mmm... But I've been up way too late ... with all these commissions lately...==W== No... Gotta ... stay ... awake...
+0018 [Teresa] | Zzz... Zzz...
+0019 [Teresa] | Gah—! What?! What's happening?! What was that noise—
+0020 [Teresa] | Did I seriously fall asleep?!==W== Ah, right, the letter...
+0021 [Teresa] | Huh—?!
+0022 [Narración] | A large hole was left in the tightly shut window, and the letter on the sill had vanished into thin air.
+0023 [Teresa] | What just happened?! Is Mr. Howard okay—==W==hm?
+0024 [Treasure Hunter] | Wait up, Cap! You're going way too fast!
+0025 [Treasure Hunter Leader] | Quit stalling! We gotta move before someone else swipes the letters—
+0026 [Teresa] | The letters...?
+0027 [Teresa] | I saw that group sprinting toward the harbor. Something about them felt off...
+0028 [Teresa] | But I was worried about Mr. Howard... By the time I checked on him and looked back, I'd lost them...==W== At least he looked unscathed.
+0029 [Donna] | Right... Well, that's a relief.
+0030 [Donna] | Teresa... Did you notice a girl with them? Wearing a bandana, carrying a huge pack?
+0031 [Teresa] | Yeah! I did!==W== She had this giant bag—it was practically her size!
+0032 [Donna] | I knew it...!==W== It has to be them... That same crew from the other day looking for the letter.
+0033 [???] | Hey. You.
+0034 [Donna] | Me? What's up?
+0035 [???] | Seen an old letter around here? It has something hard inside.
+0036 [Donna] | They claimed they were volunteer couriers, just like us...
+0037 [Freesia] | But that was clearly a lie... They were scoundrels planning to steal the letter all along!
+0038 [Teresa] | Sorry! If I'd paid closer attention, none of this would have happened...
+0039 [Donna] | Hey, it's okay. Panicking won't fix anything. We need a plan.
+0040 [Donna] | First order of business: tracking down those "letter thieves."
+0041 [Iris] | Wait. You aren't seriously planning to fight them, are you?
+0042 [Tú] | They even broke windows to force their way in... Aren't they a bit dangerous?
+0043 [Donna] | Post Haste has one job: getting every single letter safely into the recipient's hands!
+0044 [Donna] | Even when people are miles apart, a letter keeps their connection alive... When someone writes a letter, they're pouring their heart out on paper.
+0045 [Donna] | I swear on my name as a courier, I will retrieve that important letter. I will get it back and deliver it properly!
+0046 [Tú] | Donna...
+0047 [Donna] | Besides! If word gets out that "Post Haste lost a letter in Port Bellin," our brand is toast!
+0048 [Donna] | We handle almost all local deliveries now. I can't have people doubting our competence!==W== On behalf of Post Haste, I have to fix this!
+0049 [Teresa] | I'm with you!
+0050 [Freesia] | As am I.==W== Stealing private letters is simply unforgivable.
+0051 [Donna] | That said, this wasn't part of the deal...==W== Tell you what: Post Haste will hunt down the thieves.==W== New Star stays here and sorts the backlog. Sounds fair?
+0052 [Noya] | Don't be a stranger! If you're manhunting, you'll need all the help you can get.
+0053 [Iris] | Our contract is to assist Post Haste's work. If retrieving a lost letter counts as a duty, then technically, we're obligated to help.
+0054 [Donna] | But it could get messy... I shouldn't drag your whole guild into this...
+0055 [Amber] | I am better at punishing bad guys.
+0056 [Tú] | We're all on board. Let's do this together.
+0057 [Donna] | You guys...
+0058 [Donna] | Since you put it that way... I'll take you up on that offer!
+0059 [Noya] | Alright, it's decided! Let's go catch some thieves!
+0060 [Tú] | Donna and Teresa said one of the thieves was... "A girl with a backpack her size," right?
+0061 [Tú] | Wait... That rings a bell. I've seen a girl like that... Where was it again?
+0062 [???] | Gah!
+0063 [Tú] | S-Sorry, are you alright?
+0064 [Treasure Hunter Leader] | Hey! Watch where you're going! You almost knocked my gear everywhere!
+0065 [Tú] | Ah.
+0066 [Treasure Hunter Leader] | Heh heh... Much obliged for paving the way. You'll have to forgive our uninvited entrance.
+0067 [Treasure Hunter Leader] | Sh-Shut it!==W== Guys, hear me out! I still got an old treasure map! Let's go now. This time we'll definitely come back rich!
+0068 [Tú] | It's you—! From Hexhorn Whale's island...!
+0069 [Treasure Hunter Leader] | AAAHHH! THAT FACE!! I'd know that mug—!
+0070 [Donna] | Boss, what's wrong...?==W== Ah, it's her!
+0071 [Tú] | So you really are the culprit...
+0072 [Treasure Hunter Leader] | "Culprit"?! What does that mean?
+0073 [Donna] | Huh? Boss, do you know this person?
+0074 [Tú] | Long story short, we have a history...
+0075 [Tú] | Why did you steal the letter?
+0076 [Treasure Hunter Leader] | Uh... Letter?
+0077 [Treasure Hunter Leader] | Hey, you over there! We've met, right? We are ...==W== delivering letters for free! That's right, just helping out!
+0078 [Treasure Hunter Leader] | Besides, I am a Trekker traversing the continent for legendary treasure—a woman of grand ambition! Not like those petty thieves, mind you!
+0079 [Treasure Hunter] | Woooow!!! Cap, you're so cool!!
+0080 [Freesia] | Your bag's nearly full—must've been taking on many jobs, yet we've never heard of you guys, even though we're in the same line of work.
+0081 [Treasure Hunter] | Boss! I just picked up this letter...! Is there any room left in your bag?
+0082 [Treasure Hunter Leader] | You moron! Shut the...
+0083 [Donna] | "Picked up"...?
+0084 [Freesia] | So, you weren't actually hired to deliver them.
+0085 [Treasure Hunter Leader] | Tch. Well, guess the jig is up...
+0086 [Treasure Hunter Leader] | Yeah, you're right! The letters in my bag are our tickets to the treasure!
+0087 [Treasure Hunter Leader] | Legend says there's a treasure map hidden inside an old envelope just like that one! We've been busting our humps searching everywhere for a lead like this!
+0088 [Treasure Hunter Leader] | You call it stealing? Don't make me laugh. In the treasure-hunting biz, the only rule is "finders keepers."
+0089 [Treasure Hunter Leader] | We found it, so it's ours! And I'm not handing it over to anyone!
+0090 [Freesia] | Incorrect. A letter belongs to the person it's addressed to. No stranger has the right to take it. No exceptions.
+0091 [Freesia] | You stole more than paper. You stole someone's heart and soul.
+0092 [Treasure Hunter Leader] | "Heart and soul"? Look at this tattered thing! It was clearly tossed out because nobody wanted it! If it's trash, it's up for grabs!
+0093 [Treasure Hunter Leader] | Hey, wait a minute... Why are you mimicking how I speak?! You're stealing my whole brand image!
+0094 [Freesia] | Enough talk. I shall let my Reason's Edge communicate the rest.
+0095 [Freesia] | This duel will settle our dispute—and cleanse your sins—right here and now.

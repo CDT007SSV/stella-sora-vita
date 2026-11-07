@@ -1,0 +1,124 @@
+# Evento · Un crepitante indicio de primavera · 1 · Familiar Face in a Million
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Noya & Amber | Noya & Amber
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_113 | Shimiao
+N:avg1_117 | Jinglin
+N:avg1_141 | Chixia
+N:avg1_159 | Coronis
+N:avg3_100 | Sylar
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_146 | Residente del Distrito de Oro
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_167 | Chica
+N:avg3_169 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_171 | Empleada
+N:avg3_175 | Loong Resident
+N:avg3_176 | Loong Resident
+N:avg3_200 | Ash District Boy
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Familiar Face in a Million
+0003 [Intro] | The New Star Guild has gone missing in Cangwu! While out searching for them, you cross paths with Coronis, who's on her own search for Jinglin.
+0004 [Noya] | Whoa, Cangwu is huge!
+0005 [Amber] | Crowded.
+0006 [Iris] | Perfect timing. We hit a Loong festival. That's why the streets are way busier than usual.
+0007 [Noya] | A recent festival? Oh, you mean Lovers' Day?
+0008 [Noya] | Had no idea the Loong went this hard for Lovers' Day! They must be romance pros!
+0009 [Iris] | No, that's not...
+0010 [Noya] | Huh? Wait, are they bad at it?
+0011 [Iris] | That's not what I meant!
+0012 [Amber] | Then what?
+0013 [Tú] | Actually,==W== it's the "Springseek Festival"—the biggest festival of the year for the Loong.
+0014 [Tú] | They say every Loong who can make the trip comes back to Cangwu to celebrate with family and friends.
+0015 [Iris] | Exactly! Wait, how do you know all that,==W== ==PLAYER_NAME==?
+0016 [Tú] | Read it in this pamphlet. It even lists the local food spots and souvenirs.
+0017 [Noya] | Sweet! I've been dying to try authentic Loong hotpot!
+0018 [Amber] | Souvenir stalls over there.==W== Wanna take a look.
+0019 [Iris] | Rest assured, hotpot and souvenirs are happening.==W== I even snagged a discount at the inn. We're finally in Cangwu, so let's make it count!
+0020 [Noya & Amber] | Hooray!
+0021 [Iris] | But first, we've got business to take care of...
+0022 [Opción] | Grab some hotpot?
+0023 [Opción] | Check out the souvenirs?
+0024 [Opción] | Check in at the inn?
+0025 [Iris] | Wrong. Priority number one is...
+0026 [Iris] | ... Taking commissions and raking in Dorra!
+0027 [Tú] | Commissions? Right now?
+0028 [Iris] | You bet!==W== Holiday rates are through the roof. We'd be crazy to walk away from a payday like this!
+0029 [Iris] | Stack the cash now, then splurge later without guilt!
+0030 [Noya] | Count me in!
+0031 [Amber] | Agreed.
+0032 [Tú] | Fair point. Should we head to the Trekkers' House?
+0033 [Iris] | We'll handle the commission. Boss, you go ahead and get us checked in.
+0034 [Iris] | If we miss the check-in window, we lose that discount.
+0035 [Tú] | Got it. Catch you later.
+0036 [Iris] | Right. See you tonight.
+0037 [Noya] | Tonight, we feast!
+0038 [Amber] | We'll be back soon.
+0039 [Narración] | And just like that, the three girls of the New Star Guild vanished into the bustling streets of Cangwu.
+0040 [Tú] | A whole night has passed, and still no sign of them.
+0041 [Iris] | We've secured the commission.
+0042 [Amber] | Helping with a delivery.
+0043 [Noya] | We'll knock this out in a flash!
+0044 [Tú] | Got it.
+0045 [Tú] | You done yet?
+0046 [Tú] | It's getting late. Are you coming back tonight?
+0047 [Tú] | Is something wrong? I can't reach any of you.
+0048 [Tú] | Please reply when you see this.
+0049 [Tú] | I'm really worried.
+0050 [Tú] | Calls aren't connecting, and total silence on texts.
+0051 [Tú] | Even the staff at the Trekkers' House haven't seen them.
+0052 [Tú] | Didn't they say they picked up the commission there?
+0053 [Tú] | I suppose I should report this...
+0054 [Tú] | To get to the Baize Bureau...==W== Do I go this way, or was it that way?
+0055 [???] | Oh my. If it isn't my adorable assistant.
+0056 [Tú] | Huh?
+0057 [Narración] | I follow the voice. The streets of Cangwu are bustling as ever.==W== But among the festive sights, a familiar—yet striking—figure stands out.
+0058 [Opción] | Coronis?
+0059 [Coronis] | I didn't expect to see you here. Consider this a pleasant holiday surprise.
+0060 [Opción] | What brings you here?
+0061 [Opción] | And ... what are you wearing?
+0062 [Coronis] | I received an invitation, so I decided to take a vacation here in Cangwu.
+0063 [Opción] | I see...
+0064 [Coronis] | What is it? Is my attire distracting you?
+0065 [Opción] | N-no, not at all...
+0066 [Tú] | I don't even know where I'm supposed to look!!
+0067 [Coronis] | I had this custom-made.
+0068 [Coronis] | When in Cangwu, do as the Loong do. It's all part of the fun, isn't it?
+0069 [Coronis] | It allows me to blend into the environment. I prefer not to draw unnecessary attention to myself.
+0070 [Tú] | No, you stick out even more now!==W== Everyone is staring at you...
+0071 [Coronis] | You seem so intrigued. Shall I take you to the tailor? We could get an outfit made for you, too.
+0072 [Opción] | That's kind of you... But I'll pass.
+0073 [Coronis] | Really? A pity. I was curious to see how you would look in Loong's fashion.
+0074 [Coronis] | Since we're both here, why don't we walk together? You could guide me through the sights of Cangwu...
+0075 [Coronis] | Or so I'd like to say. But I have urgent matters to attend to.==W== ==PLAYER_NAME==, do you know the way to the Baize Bureau?
+0076 [Tú] | You're heading to the Bureau too? Perfect. I'm actually on my way there right now.
+0077 [Coronis] | "Too"? Has anything happened?
+0078 [Tú] | Yeah. My friends, the New Star Guild members, have gone missing.
+0079 [Coronis] | What a coincidence.==W== I can't reach Jinglin, either.
+0080 [Tú] | What?
+0081 [Shimiao] | I see.
+0082 [Shimiao] | ==PLAYER_NAME== arrived near Cangwu with Noya, Amber, and Iris on a commission, stopping here to rest and resupply.
+0083 [Shimiao] | After arriving yesterday, the three of them split off with you to take a side commission. After that, ==PLAYER_NAME== lost contact with them.
+0084 [Shimiao] | As for Ms. Coronis, she has known Jinglin since treating her mother in Philae. She came here on vacation at Jinglin's invitation.
+0085 [Shimiao] | However, when she visited Jinglin's home yesterday, she learned that Jinglin had gone out and never returned.
+0086 [Tú] | I still can't reach any of them. We'd look for clues ourselves, but we don't know our way around as Coronis and I are new to Cangwu.
+0087 [Shimiao] | I understand. Ordinarily, I'd lead the search myself, but I have urgent official business I cannot step away from...
+0088 [Shimiao] | I will, however, alert my colleagues to keep a lookout. If any leads surface, I'll notify you immediately.
+0089 [???] | In that case, leave it to me!
+0090 [Shimiao] | Chixia? What are you doing here?
+0091 [Chixia] | Got sent on an errand run, what else?
+0092 [Chixia] | Ta-da! Behold, Shimiao's Miaovelous Sword, polished and good as new! The seniors even added some mods—you're gonna love 'em!
+0093 [Shimiao] | New mods... Right. Thank you. Please pass on my regards to your seniors as well.
+0094 [Chixia] | No biggie!
+0095 [Chixia] | Anyway, I heard what you were saying.==W== Missing friends? That sounds pretty serious.
+0096 [Chixia] | Since Shimiao's stuck at her desk, I, the great Xuan Shi Chixia, will help you track them down!

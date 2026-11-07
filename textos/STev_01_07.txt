@@ -1,0 +1,111 @@
+# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 7 · Beneath the Shadow
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Clumsy Treasure Hunter | Clumsy Treasure Hunter
+N:Thuggish Treasure Hunter | Thuggish Treasure Hunter
+N:Treasure Hunter Leader | Treasure Hunter Leader
+N:avg1_155 | Shia
+N:avg1_157 | Karin
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg2_990 | Miembro del Viento de Ceniza
+N:avg3_100 | Sylar
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Seven
+0002 [Intro] | Beneath the Shadow
+0003 [Intro] | A giant Hexhorn Whale attacks, but you and Karin manage to shake it off. Just as you think the danger is over, Shia gets caught in a whirlpool. In that moment of despair, that eerie green glow silently emerges.
+0004 [Karin] | Th-that sound... It's a Hexhorn Whale! Ugh, those giant fellas are the absolute worst to deal with!
+0005 [Karin] | It's all my fault. I totally jinxed us. Now a real sea monster's here...
+0006 [Karin] | This is bad. We gotta reach Shia, now!
+0007 [Tú] | Shia just called. The signal cut out almost immediately—the waves must be too rough.
+0008 [Tú] | She must've run into the monster, too. She told us to go without her...
+0009 [Karin] | Go without her?! No way!==W== She's out there all by herself! We have to go save her, right now!
+0010 [Tú] | Karin, calm down. We don't know her exact position. Rushing in blind could make things worse.
+0011 [Tú] | Let's get our facts straight and come up with a plan. You don't want to put her in more danger, do you?
+0012 [Karin] | Okay... You're right. Deep breaths...
+0013 [Karin] | A Hexhorn Whale this huge... We can't win a head-on fight. Gotta avoid its attacks...==W== C'mon, think. What would Shia do?
+0014 [Karin] | Ah, I've got it! Boss,==W== I need you to back me up.
+0015 [Tú] | Tell me what to do.
+0016 [Karin] | I'll be the bait. You take the helm and follow my lead, Boss. We'll lure the Hexhorn Whale away, then lose it.
+0017 [Tú] | Bait? You think it'll take it that easily?
+0018 [Karin] | Shia said whales are sensitive to bright lights. I can get its attention with a flare.
+0019 [Karin] | As long as it's chasing us, it's not chasing her. We'll keep it occupied and buy her time to meet up with us.
+0020 [Tú] | If Shia saw the monster too, she can't be far... This is risky, but it's our only shot.
+0021 [Tú] | Understood. We'll do it your way.
+0022 [Karin] | I'm counting on you, Boss!
+0023 [Tú] | But Shia entrusted you to me. If things get dangerous, I'm prioritizing your safety.
+0024 [Karin] | Pfft, don't worry about me!==W== After this is over, I'm treating you to a deluxe seafood platter! On me!
+0025 [Karin] | Hey, big fella! Got some suuuper tasty fish over here for ya! Come and get it!
+0026 [Narración] | Karin launched a flare into the sky. A blinding light erupted, and the Hexhorn Whale's attention snapped toward it.
+0027 [Tú] | Karin, it's charging straight for us!
+0028 [Karin] | Steer the ship! Don't let it ram us!
+0029 [Narración] | More flares burst across the sky, but the Hexhorn Whale was still on our tail, relentless. It looked pissed.
+0030 [Karin] | We've travelled so far, dammit... How is it still on our tail?!==W== Alright, time for Plan B—
+0031 [Karin] | Boss! Get the high-pressure gas tank from the cabin! If we use it for a boost...
+0032 [Tú] | We can finally lose it!
+0033 [Karin] | Exactly! But it packs a serious punch, so keep a death grip on that helm!
+0034 [Tú] | No problem. I'm ready!
+0035 [Karin] | Three, two, one...==W== HIT IT!
+0036 [Karin] | FULL SPEED AHEAD—!!
+0037 [Narración] | The tank erupted in a thick white cloud, the force of it nearly lifting the ship clean out of the water.
+0038 [Tú] | Wait, we're going way too fast!!
+0039 [Karin] | It worked...==W== Boss, you alright?
+0040 [Tú] | I'm fine...==W== What about the Hexhorn Whale?!
+0041 [Karin] | It's gone...==W== I think we lost it.
+0042 [Tú] | Good. But let's stay sharp.
+0043 [Karin] | Wait, what's that sound...?
+0044 [Karin] | Ah! Shia's drone!
+0045 [Shia] | Karin! Boss—
+0046 [Shia] | I saw the flares and came as fast as I could! Nice work, you two!
+0047 [Karin] | Shia! Thank goodness...==W== You're finally...
+0048 [Narración] | The sea around Shia suddenly started to churn. A massive whirlpool opened up right beneath her, sucking our ship straight towards the center.
+0049 [Karin] | A whirlpool! Boss, take the helm! I'll get Shia!
+0050 [Tú] | Hold on—that huge shadow under the water... Is that...
+0051 [Tú] | Shia! GET OUT OF THERE—!!!
+0052 [Narración] | A dark shadow erupted from the sea. The Hexhorn Whale's roar unleashes a monstrous wave, instantly engulfing Shia.
+0053 [Narración] | The wave tossed our ship skyward, flinging Karin and me into the air.
+0054 [Tú] | Dammit, the ship's going to capsize—!!
+0055 [Narración] | Just as I was about to plunge into the ocean, a grappling hook shot out from where Shia was, securing me and Karin to the ship's railing.
+0056 [Karin] | Shia—!!!
+0057 [???] | Well now... Looks like a complete wipeout.
+0058 [Thuggish Treasure Hunter] | Boss! Target Mackerel's status is unknown. No movement from Puffer or Shark. Awaiting your orders!
+0059 [Treasure Hunter Leader] | No rush. Keep watching. You know what they say: when two dogs fight for a bone, the third one runs away with it.
+0060 [Treasure Hunter Leader] | Let them and that monster beat each other black and blue. Then we can just swoop in and clean up.
+0061 [Thuggish Treasure Hunter] | You're a genius, boss! Everything is proceeding exactly as you've foreseen!
+0062 [Treasure Hunter Leader] | Heh heh. After this score, I'll go down as the greatest seafaring Trekker Carlo Town has ever known!
+0063 [Treasure Hunter Leader] | That old man's diary wasn't complete nonsense—"Marlene was swallowed by a great whirlpool. She must be dead."
+0064 [Treasure Hunter Leader] | Ah, is this the cycle of fate? That both Marlene and her granddaughter would fail to escape the whirlpool's grasp...
+0065 [Treasure Hunter Leader] | Wait a minute! If Marlene had died back then ...==W== who was it that later returned to Carlo Town?!
+0066 [Treasure Hunter Leader] | D-Don't tell me ... she was a ...==W== g-g-ghost?!
+0067 [Treasure Hunter Leader] | Waaaaaaaaah—!!
+0068 [Clumsy Treasure Hunter] | Boss?! Boss, what's wrong?!
+0069 [Thuggish Treasure Hunter] | It's all your fault! You sneaked up on her and scared her half to death! Don't you know she's terrified of ghosts?!
+0070 [Clumsy Treasure Hunter] | S-Sorry, boss! I was just bringing you a late-night snack ... and forgot to knock...
+0071 [Treasure Hunter Leader] | A ghost! GHOST! Stay away from me—!!
+0072 [Karin] | (sob) ... Shia...
+0073 [Karin] | What... What do we do now, Boss...?
+0074 [Tú] | The Hexhorn Whale and Shia were gone. Did that whirlpool just swallow them both?
+0075 [Narración] | The Hexhorn Whale's charge actually freed us from the whirlpool's pull. Now we were just adrift in calmer waters.
+0076 [Tú] | We'll wait for the whirlpool to die down, then we'll go find Shia. Chances are they were both pulled to the same place.
+0077 [Karin] | But...
+0078 [Tú] | Hey, she'll be okay. The boat was about to capsize, and she still nailed that shot with her grappling hook.
+0079 [Karin] | You're right...==W== Shia has to be okay! She's probably riding that whale's giant fin like a surfboard right now!
+0080 [Tú] | That's one monster of a surfboard. Only Shia could handle that.
+0081 [Karin] | Yeah! Shia's the best seafaring Trekker there is. She's gotta be fine!
+0082 [Tú] | Good, she's pulling herself together...
+0083 [Karin] | Okay, let's get ready to set off anytime! First, we need to get this deck cleaned up. It's a complete disaster.
+0084 [Karin] | We also need to fish our supplies out of the water and dry them off. I'll take this side, you check over there.
+0085 [Narración] | As Karin and I fished the scattered crates out of the sea, a familiar glimmer in the distance caught my eye.
+0086 [Tú] | Ah! It's the old lantern...
+0087 [Tú] | Huh? Why is it ... glowing again?
+0088 [Narración] | While I was staring at the lantern floating on the water, Karin stumbled over and shoved the binoculars into my hands, her face pale with terror.
+0089 [Karin] | B-Boss... L-Look ... over there...
+0090 [Tú] | Yeah? What's up?
+0091 [Tú] | ... A Ghost Ship?!
+0092 [Tú] | No, wait. That silhouette... It can't be a ship...
+0093 [Karin] | It... It looks like an island...
+0094 [Karin] | The light ... is not coming from the Ghost Ship...?

@@ -1,0 +1,115 @@
+# Evento · Brisa soleada y mares azules: ¡check-in para un verano acogedor! · 6 · A Bad Start
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Talkative Treasure Hunter | Talkative Treasure Hunter
+N:Treasure Hunter Leader | Treasure Hunter Leader
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_140 | Sparkla
+N:avg1_160 | Willow
+N:avg2_945 | Hermit Crab
+N:avg2_991 | Miembro del Viento de Ceniza
+N:avg3_100 | Sylar
+N:avg3_211 | Treasure Hunter Leader
+N:avg4_999 | Vita
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | A Bad Start
+0003 [Intro] | You borrow a boat to track down the hermit crab. Unfortunately, your boat veers off course in a storm and hits a reef. When you regain consciousness, you find yourself on an unknown island with Willow.
+0004 [Treasure Hunter Leader] | We scraped together everything we had for this boat. We'll let you take it just this once. Keep her in one piece!
+0005 [Treasure Hunter Leader] | Our future is in your hands! You have to get that Automatic Vending Artifact back!
+0006 [Noya] | Okay, okay, we hear you. That's the third time you've said that.
+0007 [Talkative Treasure Hunter] | Cap, bad news! Another guest is complaining. You need to go deal with it!
+0008 [Treasure Hunter Leader] | What? I'm on my way!
+0009 [Treasure Hunter Leader] | Please! I'm counting on you!
+0010 [Noya] | She sure can run. Are complaints that scary?
+0011 [Willow] | They can definitely be a headache.
+0012 [Iris] | Even someone as reliable as you gets complaints?
+0013 [Willow] | That's the workplace for you.
+0014 [Willow] | Anyway, back to business. Before we head out, does anyone here know how to sail?
+0015 [Iris] | Well...
+0016 [Amber] | I played a sailing arcade game at the Monolith once.
+0017 [Noya] | Err... I drove Loxy into the water once. Does that count?
+0018 [Willow] | It doesn't.==W== What about you, ==PLAYER_NAME==?
+0019 [Tú] | I've been out on the water before and know the basics,==W== but...
+0020 [Willow] | ... In that case, I'll take the helm.==W== ==PLAYER_NAME==, can you assist?
+0021 [Tú] | No problem.
+0022 [Iris] | There's nothing you can't do, Willow.
+0023 [Willow] | I had some basic training in Sailstead, but I'm no expert.==W== A seasoned sailor would be ideal, but this is an emergency. We can't afford to wait.
+0024 [Willow] | Hold on tight, everyone. We're heading out.
+0025 [Amber] | Reporting. No sign of the target.
+0026 [Iris] | Nothing over here either...
+0027 [Willow] | That hermit crab we ran into looks like a monster called a Stomper Crab.
+0028 [Willow] | They move in a straight line and need to surface for air from time to time.
+0029 [Willow] | So as long as we keep heading in the same direction, we should be able to track it down.
+0030 [Tú] | ...
+0031 [Willow] | Something wrong, ==PLAYER_NAME==?
+0032 [Tú] | The wind's picking up...==W== And those clouds in the distance worry me a little.
+0033 [Willow] | The weather changes fast at sea. We need to stay sharp.
+0034 [Noya] | I see it! Dead ahead!
+0035 [Willow] | Let's go after it!
+0036 [Iris] | This rain is pouring. I can't see a thing...
+0037 [Iris] | Ahh!
+0038 [Willow] | Iris!==W== Everyone, grab something and hold on!
+0039 [Narración] | Another massive wave slams into the hull. The ship is tossed high into the air before crashing back down. The mast shakes violently, throwing the bow off course.
+0040 [Narración] | From somewhere below comes a sudden, sharp crack.
+0041 [Noya] | What was that?
+0042 [Willow] | The keel might be damaged...
+0043 [Tú] | Willow, rocks to port!
+0044 [Willow] | No good! Rudder's dead!
+0045 [Tú] | I'm going for the sails!
+0046 [Willow] | Don't! It's too dangerous!
+0047 [Tú] | Ugh!
+0048 [Narración] | The mast eventually gives out against the gale, snapping in two with a deafening crack.
+0049 [Narración] | The rope jerks violently in my hands. I'm yanked off the deck and plunged into the sea before I can even react.
+0050 [Willow] | ==PLAYER_NAME==!
+0051 [Tú] | Cough... Cough, cough, cough...!
+0052 [Willow] | Thank goodness. You're awake.
+0053 [Tú] | Willow...?
+0054 [Willow] | Don't try to get up yet. Are you dizzy? Does anything hurt?
+0055 [Tú] | I'll live... Feels like my insides got tossed around by the waves. Swallowed half the ocean, too. I'm full enough to skip lunch today.
+0056 [Willow] | You're still cracking jokes. That's a good sign.
+0057 [Tú] | Is this ...==W== a deserted island?
+0058 [Willow] | Yeah. I scouted the area while you were out. No sign of human life anywhere.
+0059 [Tú] | What about the others?
+0060 [Willow] | I'm sorry...==W== Pulling you to shore took everything I had. I don't know what happened to the rest of them...
+0061 [Tú] | Let me try Heartlink. My phone can reach anyone, no matter how far away they are.
+0062 [Tú] | Weird, the screen's dead. Don't tell me it broke...
+0063 [Vita] | Tyrant, I must correct a misconception. The Throne never breaks.
+0064 [Tú] | Then what's the problem?
+0065 [Vita] | Water has breached the device. It is currently inoperable.
+0066 [Tú] | That's the exact definition of broken!
+0067 [Vita] | Let me reiterate. The Throne never breaks. It is merely temporarily out of service.
+0068 [Vita] | I also do not appreciate being wet.
+0069 [Tú] | Some Priest you are... Fine, you're dismissed.
+0070 [Vita] | Your command is my will.
+0071 [Willow] | What is it?
+0072 [Tú] | Ahaha... So, fun fact, my phone hates water...==W== It's not going to be any help right now.
+0073 [Willow] | So even you can't reach the others, huh...
+0074 [Tú] | Don't worry. They're all pros. They can handle whatever gets thrown at them.
+0075 [Willow] | True... We need to focus on keeping ourselves safe.
+0076 [Willow] | Let's find shelter from the rain. Once we rest up, we'll figure out a way to call for help.
+0077 [Tú] | Good idea.
+0078 [Willow] | Let's stop here for a bit. Wait right here.
+0079 [Narración] | Soon, Willow returns carrying branches, vines, and massive leaves. A blade pops from her prosthetic, and she expertly cuts the materials to pitch a makeshift tent.
+0080 [Tú] | That blade's spinning fast... Oh, her prosthetic has a built-in auto-saw...==W== Makes sense...
+0081 [Tú] | Wait! You have an auto-saw in your arm?!
+0082 [Willow] | Hmm? Curious?
+0083 [Willow] | When Sparkla built this for me, I told her I needed to handle complex situations. So, she packed an entire multi-tool kit inside.
+0084 [Willow] | She even added a propeller. I thought it was overkill, but it definitely came in handy today.
+0085 [Tú] | A ... propeller...?
+0086 [Willow] | Yep. Otherwise, no way I could have dragged you through those massive waves to this island on my own.
+0087 [Willow] | It's still warm from running at max power. If you're cold, you can hug it to warm up.
+0088 [Tú] | I'm good. Appreciate the offer, though...
+0089 [Willow] | Hehe. By the way, how are you holding up?
+0090 [Tú] | I'm okay, just a little drained.
+0091 [Willow] | Then let's rest a bit longer. We'll head out once you get some energy back.
+0092 [Willow] | I scouted the area earlier. No signs of large beasts or monsters.
+0093 [Willow] | But we're too low down here. Higher ground is safer. Next up, we should try to find a cave or something to take shelter.
+0094 [Tú] | Even when things look bad, I feel safe with you around, Willow.
+0095 [Narración] | The deserted island before us is unfamiliar and dangerous.
+0096 [Narración] | But Willow's smile makes it easy to believe there's always a way forward, no matter how bad things get.

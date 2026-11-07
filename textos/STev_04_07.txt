@@ -1,0 +1,109 @@
+# Evento · Réquiem invernal y el gatillo del alba · 7 · The Archons
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Attendant | Attendant
+N:Strange Old Man | Strange Old Man
+N:avg1_143 | Wraith
+N:avg2_982 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_109 | Grandpa Chai
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_195 | Edda
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Seven
+0002 [Intro] | The Archons
+0003 [Intro] | Conflict erupts between you, Wraith, and Edda. In a momentary lapse, Wraith's consciousness gets imprisoned. Edda then reveals her true purpose: To awake the mighty "Archons."
+0004 [Tú] | Wraith?! Hang in there! Hey!
+0005 [Tú] | Wraith!!!
+0006 [Edda] | It's no use. Now that the circle's active, her mind is already gone from that shell.
+0007 [Tú] | I fell for it. Edda's attack was a trap—she wanted Wraith to shield me and come closer...==W== But ... why did the circle activate on me?
+0008 [Tú] | Wait... Did you...?!
+0009 [Tú] | It's okay. Danger's gone...==W== Come on, deep breath.
+0010 [Edda] | Huff... Huff...Your heartbeat, Tyrant... It makes me feel so safe.
+0011 [Tú] | When you pretended to panic and hugged me, you planted the circle on my clothes?
+0012 [Edda] | Exactly~ Quite convincing, wasn't it? The warming spell I cast on your clothes earlier was just to hide the sigil.==W== Tyrant, you are too gullible.
+0013 [Edda] | You should be grateful you ran into kind old me. If it had been Nocturn Eterna who found you... Well...
+0014 [Tú] | What did you do to Wraith?!
+0015 [Edda] | Hmph. This Monolith might be drained, but phase one is complete...==W== This domain belongs to Them now.
+0016 [Edda] | They seized her mind and cast it into a rift in spacetime. She's gone for good.
+0017 [Tú] | Who is this "They" you keep talking about?
+0018 [Edda] | I don't usually share my secrets, but for Tyrant, I suppose I can make an exception.
+0019 [Edda] | After all, I still need you two to see my plan through.
+0020 [Tú] | Why do you need me?
+0021 [Edda] | This world may worship supreme beings like the God of Grace... But in Norstheim, we revere something else entirely. They are—
+0022 [Narración] | The Archons.
+0023 [Edda] | They once commanded the Monoliths and demanded fear ... until the Grace Imperium tried to erase them from history.
+0024 [Edda] | I'm not like those fools. I found the remnants in ruins and banned scriptures, and I learned the truth of their power.
+0025 [Edda] | The Archons are fickle, however. Few are ever deemed worthy to become their "Kin."
+0026 [Edda] | But in my search... I was lucky enough to earn Their gaze.
+0027 [Edda] | In that instant, it all became clear. The cryptic runes, the whispers in the dark... Suddenly, I understood everything!
+0028 [Edda] | The one who blessed me, without a doubt, is the Archon who holds the authority of "War."
+0029 [Edda] | And to bring the Archon of War into this world... I will gladly sacrifice everything!
+0030 [Tú] | That's a lot to process... But is that why you tricked Wraith into coming all this way?
+0031 [Edda] | That's right. The moment I mentioned Nocturn Eterna, she agreed to follow. Easy, too.
+0032 [Edda] | Only if warriors powerful enough join the ritual will They be satisfied.
+0033 [Tú] | Then why me? I'm as good a fighter as an ordinary person with no magic.
+0034 [Edda] | The Archons exist beyond the laws of reality. The summoning ritual merely anchors their passage into this world. To draw Their attention, besides performing the rites They favor... A "special individual" is also required.
+0035 [Edda] | As the Tyrant, you are the final piece of the puzzle. The most critical component—the Witness.
+0036 [Edda] | As long as you stand here, within the ritual, They will surely take notice. That's what makes you ... special!
+0037 [Edda] | I'd planned to just lock you up, but ...==W== that nuisance was sharper than I gave her credit for. I never found an opening.
+0038 [Tú] | Wraith was protecting me from the start...==W== Did she have Edda figured out all along?
+0039 [Edda] | Hmph. Doesn't matter now! You've disrespected the Archon, and you'll pay the price!
+0040 [Tú] | Wait! Don't hurt Wraith! Look, this is all just in your head! Those ancient texts, the legends—none of them are proven!
+0041 [Edda] | Silence. Even coming from you, Tyrant, that tests my patience.
+0042 [Edda] | Hmph. Seeing is believing. Before the ritual ends, allow me to show you...
+0043 [Edda] | ... what I've sacrificed to reach this exact moment!
+0044 [Tú] | What ... is that...?
+0045 [Narración] | A tide of raw magic rushes toward Edda, shaking the entire floor.
+0046 [Narración] | Thick darkness spreads through the air, something vile and unhinged stirring within it.
+0047 [Tú] | No... I can't stare at it. It's stealing my senses.
+0048 [Edda] | The ritual ... is nearly complete.
+0049 [Edda] | Come, Tyrant. Etch this moment into your memory.
+0050 [Wraith] | Ugh... Where==W== ... am I?
+0051 [Wraith] | Let me think... I blocked that spell for ==PLAYER_NAME==, then I was swallowed by that strange light ... and lost consciousness...
+0052 [Wraith] | Did I fail? Wait... Don't tell me this is...
+0053 [Wraith] | "Lavish decorations. Grand halls. A sanctuary overflowing with food and wine, echoing with beautiful verses..."
+0054 [Wraith] | "The final resting place for all Northern souls—the Hall of Everfeast..."
+0055 [Wraith] | Still... This place looks more like Emor's luxury hotel.
+0056 [???] | Oh? A fresh face. Are you new here?
+0057 [Wraith] | No, I'm...
+0058 [???] | Mm~ If you're reporting in, go see the Vice Commander. He's at the far end of the long table.
+0059 [Wraith] | ("Assistant Commander"? Shouldn't a place like this have a "Chieftain" or "Warlord"...?)
+0060 [Wraith] | Understood. Thanks.
+0061 [Strange Old Man] | "A fool is best silent in company. For if he speaks not, none shall know of his ignorance."
+0062 [Strange Old Man] | It seems a ghost still clinging to "life" has wandered into our land of exile.
+0063 [Wraith] | "Ghost"? You mean me? Sorry, but I don't plan on dying today.
+0064 [Attendant] | Watch your tone! You stand before the Legion's Vice Commander!
+0065 [Strange Old Man] | Let her be. We perished on that battlefield long ago. Now, we are nothing but lingering wills trapped within the weapons.
+0066 [Wraith] | (Wills within a weapon... Does he mean those ancient weapons?)
+0067 [Wraith] | (That explains it. The ones who lost control were influenced by these spirits.)
+0068 [Strange Old Man] | Young soul, you still seem lost. Perhaps you should reflect on—
+0069 [Wraith] | My partner's in danger. Sorry, but I don't have time for this.
+0070 [Strange Old Man] | Haha, in a rush? Then I'll be blunt.==W== This is a war camp. You must prove you deserve to leave.
+0071 [Wraith] | Hmph... "Might makes right," huh? You should've just led with that.
+0072 [Strange Old Man] | Fighting would be meaningless. Just look, child.
+0073 [Narración] | The old man points out the window. A scene reflects in Wraith's eyes—
+0074 [Wraith] | ==PLAYER_NAME==!
+0075 [Strange Old Man] | That Kin's next move is to destroy your weapon. You're out of time.
+0076 [Tú] | She's not bluffing... The ritual is nearly complete. I have to stop this now, or Wraith won't make it!
+0077 [Edda] | Tyrant, please watch closely. For peace. For Nova. For a world free from the clutch of Nocturn Eterna... Everything I've done.
+0078 [Tú] | And what does summoning this Archon have to do with that?
+0079 [Edda] | Oh my! Apologies. I got so caught up praising Them, I forgot to mention the connection.
+0080 [Edda] | Once the Archon of War fully descends, He will transform this entire Monolith into a fortress of war.
+0081 [Edda] | With the Monolith fully fortified, Nocturn Eterna won't be able to infiltrate or sabotage it.
+0082 [Edda] | The Monolith will never go dark again, nor will the Cities' tragedy repeat itself again...
+0083 [Tú] | So this is ... your final answer?
+0084 [Tú] | I understand.
+0085 [Opción] | Step forward
+0086 [Edda] | Ah, I see that you understand. You will be safe. I didn't deceive you.
+0087 [Edda] | As the Witness, you're different from us. Just take a seat in the "spectator stands" and watch the duel unfold.
+0088 [Tú] | You're wrong, Edda.
+0089 [Opción] | Lift Wraith's weapon
+0090 [Tú] | I don't believe in the Archons, nor will I sit safely in some "spectator seat."
+0091 [Tú] | I'll protect==W== my companion myself!

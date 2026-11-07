@@ -1,0 +1,138 @@
+# Evento · Réquiem invernal y el gatillo del alba · 1 · To the Northern City
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Coachman | Coachman
+N:Familiar Lady | Familiar Lady
+N:Familiar Voice | Familiar Voice
+N:Gentle Lady | Gentle Lady
+N:avg1_103 | Amber
+N:avg1_106 | Aeloria
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_132 | Minova
+N:avg1_143 | Wraith
+N:avg2_973 | Ejecutor de Mano Titánica
+N:avg2_974 | Martillo de la Olla de Vapor
+N:avg3_100 | Sylar
+N:avg3_1278 | Martillo de la Olla de Vapor
+N:avg3_1279 | Martillo de la Olla de Vapor
+N:avg3_1280 | Martillo de la Olla de Vapor
+N:avg3_129 | Guardia Imperial
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_157 | Guardia Imperial
+N:avg3_195 | Edda
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | To the Northern City
+0003 [Intro] | You wake up in a carriage heading to the snow-swept North. At Wraith's reminder, you recall your journey to the North for a special commission.
+0004 [1] | Cold... So cold...
+0005 [Narración] | I can't feel my limbs anymore. My mind is drifting into the fog.
+0006 [Narración] | The enemy is closing in, and I have no one to cover my back.
+0007 [1] | Guess they finally found me...
+0008 [Narración] | A sharp blade stands before me. A voice inside promises that if I take it, the pain will end.
+0009 [Narración] | Seize it... And then... Strike down those who dare... defy... the Tyrant!
+0010 [Narración] | It is exactly what they deserve.
+0011 [1] | Power... I need power...
+0012 [1] | Absolute, overwhelming power to bring the world to its knees.
+0013 [Familiar Voice] | Tyrant, no! Do not touch that cursed weapon!
+0014 [Familiar Voice] | Wake up from this nightmare! Your true enemy is...
+0015 [???] | Oh. Finally back with us. You know, sleeping in this cold is a great way to die.
+0016 [???] | Without a heating Artifact, you'd freeze solid even inside this carriage.
+0017 [???] | Or did you seriously rush to the North without doing any homework?
+0018 [Tú] | Carriage... The North...?==W== Ugh, my head is spinning... Where am I?
+0019 [Narración] | I try to sit up, but a weight on my shoulder pins me down.
+0020 [Familiar Lady] | Mmm... Wait... I still don't get that part... My deadline is... Zzz...
+0021 [Tú] | What is going on? Why am I in a carriage with these two?
+0022 [Tú] | Uh, who is she...?
+0023 [???] | She's the client for this commission. Have you forgotten already?
+0024 [Tú] | Client...? Right, I took a commission heading the North.==W== Ugh... My head feels heavy. I can't think straight.
+0025 [???] | You look pale. Want some water?
+0026 [Tú] | Thanks,==W== but my friends must have packed a bottle for me before I left. Should be right here...
+0027 [Narración] | Guided by memory, I feel around until my fingers finally brush against a bottle behind me.
+0028 [Tú] | Here it is. My Pep Pep Ju—==W==huh? W-what even is this?!
+0029 [Narración] | A few weeks earlier.
+0030 [Noya] | Hmm... Here, and there. Pretty nasty damage.==W== But hey, swap the broken bits for new ones and it's problem solved.
+0031 [Minova] | Easy fix. The local Monolith is accessible again. We can wish for the parts we need.
+0032 [Iris] | But we need a ton of them, which means we're stuck here for the long haul.
+0033 [Amber] | Can't take new commissions.
+0034 [Tú] | Fighting and fixing cars aren't exactly my strengths. Perhaps I can make myself useful in other ways.
+0035 [Tú] | While you handle repairs, I'll run some simple commissions solo.
+0036 [Iris] | On your own, Boss?
+0037 [Tú] | Don't worry. I'll stick to jobs that take brains, not brawn. You know how those go.
+0038 [Iris] | I guess, but still...
+0039 [Noya] | As long as it's not a combat gig, it's fine! You know how capable Boss is, right Iris?
+0040 [Iris] | Alright... Counting on you then, Boss.
+0041 [Amber] | Good luck, Boss!
+0042 [Minova] | Leave the repairs to us. We'll have the Lucky Oasis back in tip-top shape before you know it.
+0043 [Tú] | Right, better get moving. I'll head to the Trekker Association to see if anything suits me.
+0044 [Noya] | Ah! Wait up, Boss!
+0045 [Noya] | Catch!
+0046 [Tú] | Whoa... Got it.
+0047 [Noya] | It's Pep Pep Juice! Good for the nerves. If you run into trouble, take a sip and you'll be fine!
+0048 [Tú] | I'd prefer to stay out of trouble, but ...==W== thanks, Noya! See ya!
+0049 [Iris] | And off ==SEX== go...==W== I really hope this works out...
+0050 [Noya] | Don't sweat it, Iris. Boss can handle it.
+0051 [Iris] | I know, but I just can't shake this bad feeling...
+0052 [Minova] | Weird... Has anyone seen my rust remover? It was right here a second ago.
+0053 [Iris] | Didn't you leave it by the toolbox earlier?
+0054 [Minova] | I did. But I turned my back for one second and it magically became a Pep Pep Juice...?
+0055 [Noya] | Oh, that's mine! Perfect timing, I'm parched!
+0056 [Noya] | Wait. Didn't I just give that to Boss? Why is it sitting over here?
+0057 [Iris] | ... Noya, please tell me you didn't just blindly throw the first thing you grabbed...
+0058 [Noya] | ...==W== ...==W== ...
+0059 [Noya] | I am so sorry, Boss—!
+0060 [Narración] | I headed to the Trekker Association solo to find work. But...
+0061 [Tú] | A total bust! Forget about regular commissions—I can't even find a stray cat to rescue.
+0062 [Tú] | This is bad. I talked a pretty big game back there. If I'm striking out here, maybe I should try my luck in the Gold District...
+0063 [???] | Eek!
+0064 [Tú] | Ah... Sorry! You okay!?
+0065 [Gentle Lady] | I'm fine. That was my fault... Too busy scanning the crowd for someone I didn't watch my step.
+0066 [Gentle Lady] | Oh my. Now that I get a good look... You're the Tyrant, aren't you? Just the person I need.
+0067 [Edda] | Ahem. Pardon my manners. I'm Edda, a researcher with the Eye of Grace.
+0068 [Tú] | The Eye of Grace... Canace mentioned them. They're the intellectual elite, the absolute peak of academia and research on this continent.
+0069 [Tú] | What does the Eye of Grace want with me?
+0070 [Edda] | I have a commission for you, actually. But it's crowded here. Let's speak somewhere private.
+0071 [Edda] | This should work.==W== My apologies, but this involves classified intel. We need to keep this strictly between us.
+0072 [Tú] | Understood. I'm listening.
+0073 [Edda] | Ever hear of the Northern City? Nocturn Eterna destroyed its Monolith, snuffing out its light. The city's been abandoned ever since.
+0074 [Tú] | I've only read about it in books.
+0075 [Edda] | You've likely encountered the culprit responsible. The Nocturn Eterna on this wanted poster.
+0076 [Tú] | It's her...!?
+0077 [Edda] | I knew it. You recognize her. We've recently received reports that Norstheim's Monolith has suddenly reactivated.
+0078 [Edda] | We're assembling an expedition to investigate. But we need a consultant—someone with firsthand experience dealing with a Nocturn Eterna.
+0079 [Tú] | So that's why you're here. But isn't Norstheim a massive trek from here...?
+0080 [Edda] | Rest assured, the Eye of Grace covers all expenses. Besides, it's a routine investigation. No danger involved.
+0081 [Tú] | The Lucky Oasis repairs are going to take a while, and suitable jobs are hard to come by right now...
+0082 [Tú] | Got it. Count me in. I'll help with the investigation.
+0083 [Edda] | Really? Thank you so much! I feel a lot safer knowing the Tyrant is coming with us.
+0084 [Tú] | One condition, though. I need half the commission paid upfront to my guild.==W== It's a long trip, and I want to make sure they're covered while I'm gone.
+0085 [Edda] | No problem. The funds from the Eye of Grace will reach them by tomorrow.
+0086 [Edda] | Oh, actually, there is one more thing...
+0087 [???] | Excuse me.
+0088 [Tú] | Hm...?
+0089 [???] | I couldn't help but overhear you mention the Nocturn Eterna. If you're heading to the Northern City...
+0090 [???] | I'm coming too.
+0091 [Tú] | Okay, I think I've got a handle on everything that's happened...
+0092 [Tú] | That sleeping girl is Edda from the Eye of Grace. And this woman... She claims to be a Sentinel of Dawn who tracks Nocturn Eterna.
+0093 [Tú] | You're ... Wraith? I don't remember her dressing like this...
+0094 [Wraith] | By the look of it, you're starting to remember. You've been in rough shape since we got here—passed out a few times, actually.
+0095 [Tú] | Ugh... My ears are still ringing...==W== But I'll be okay.
+0096 [Wraith] | Follow my lead. Breathe in ... and out...Open up your chest, steady your breathing.
+0097 [Tú] | Hiss… Phew…
+0098 [Tú] | Huh... That actually worked. The dizziness is gone. No more ringing too.
+0099 [Wraith] | Typical reaction for a first-timer in Norstheim. It just hit you harder than most.
+0100 [Wraith] | Sorry to press you the moment you wake up, but I need to know... You said you knew the Nocturn Eterna on those wanted posters. Is that true?
+0101 [Tú] | You mean Aeloria?==W== Well, the thing is...
+0102 [Tú] | What was that?!
+0103 [Coachman] | S-Stellaroids...?! What are they doing out here!?
+0104 [Edda] | Tyrant, are you hurt?! Where did a swarm like this come from...?
+0105 [Wraith] | Get back, you lot!
+0106 [Wraith] | I'll handle them!
+0107 [Edda] | L-Let me help too!
+0108 [Tú] | Sorry, I'm counting on yo—
+0109 [Tú] | Wait! Wraith, what is with that outfit?!
+0110 [Wraith] | Save the questions. We've got a problem to deal with first.

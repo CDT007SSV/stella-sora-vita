@@ -1,0 +1,129 @@
+# Evento · ¡Aventura audaz! El barco fantasma ronda las profundidades · 3 · Mysteries and Scents
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_155 | Shia
+N:avg1_157 | Karin
+N:avg3_100 | Sylar
+N:avg3_201 | Marlene
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Mysteries and Scents
+0003 [Intro] | You learn about Shia and Karin's purpose for this journey: They seek to clear their grandmother's name. For some reason, Shia is unusually affectionate toward you…
+0004 [Shia] | Thirteen years ago, a mysterious light appeared over the sea, plunging the whole town into panic—people thought it was a sign, an omen of some coming disaster.
+0005 [Shia] | Granny was the best seafaring Trekker around, so with a brand-new ship and the town's hopes behind her, she sailed out to learn the truth.
+0006 [Shia] | Three days and nights she sailed ... and she finally reached it.
+0007 [Shia] | —But it wasn't just light. It was a massive Ghost Ship, glowing in the dead of night.
+0008 [Marlene] | ...
+0009 [Marlene] | So the legends... They're true.
+0010 [Shia] | Granny was gone for almost two weeks. Everyone thought we'd lost her.
+0011 [Tú] | What happened next?
+0012 [Shia] | Then one morning, someone found her passed out on the beach. She'd made it back in a tiny, rickety rowboat.
+0013 [Shia] | She was covered in bandages, clothes in shreds, worn down to nothing... I was scared stiff when I saw her.
+0014 [Shia] | When she woke up, she told us what happened.
+0015 [Marlene] | Never ...==W== ever ... go near those waters.
+0016 [Marlene] | Once you're in the Ghost Ship's territory, there's no escape.
+0017 [Marlene] | The ghosts ... they crawl onto your ship when you're not looking, choke you, and claw at your skin ... anything to drag you under.
+0018 [Marlene] | I tried to fight them off with a weapon, but my effort was to no avail. I had to abandon my ship...==W== If it wasn't for that spare boat... I'd just be another ghost aboard it now.
+0019 [Tú] | Ghost Ship... So it's actually real? I thought it was just a myth.
+0020 [Karin] | The sea's full of things you wouldn't believe.
+0021 [Karin] | That's what makes it so enticing!
+0022 [Tú] | But if you know it's the Ghost Ship, why risk heading back out there?
+0023 [Shia] | Because some people in town don't believe what Granny said.
+0024 [Shia] | They think the light is some huge sunken treasure.
+0025 [Shia] | And that the Ghost Ship was just a story she made up to keep the treasure for herself...
+0026 [Tú] | No wonder some folks just laughed at us when we asked about the Ghost Ship.
+0027 [Tú] | I'm afraid they think it's just a hoax.
+0028 [Shia] | Since then, the light has appeared every few years. Whether it's a coincidence or not, it always shows up after continuous summer downpours. And since that's when storms are most frequent, no one dares to go out to sea.
+0029 [Shia] | But it stopped appearing a few years ago ... right around when Granny passed away.
+0030 [Shia] | So people started this awful rumor that the light vanished 'cause Granny took all the treasure before she died.
+0031 [Karin] | She was trying to protect everyone, and they call her a liar... It's so messed up.
+0032 [Shia] | But after that big storm a few days back, the light finally returned. This is our chance. We have to find that Ghost Ship.
+0033 [Tú] | Oh, I get it now. You're doing this to clear your grandmother's name, right?
+0034 [Karin] | Exactly. And the jerks spreading those lies? They hired their own Trekkers and are bragging they'll "find the treasure within a week."
+0035 [Karin] | ...==W== A big storm should just get rid of 'em. Right?
+0036 [Tú] | Did she just say what I think she said...? No, I must've misheard...
+0037 [Karin] | Right? Right? Right? Right? Right? Right? Right?! RIGHT?!
+0038 [Tú] | Okay, that is terrifying!!
+0039 [Shia] | Granny never cared about the rumors, but I can't stand people trashing her name.
+0040 [Shia] | ... And yeah, I need to solve the mystery she left behind.
+0041 [Tú] | A mystery? So her grandma was hiding another secret?
+0042 [Karin] | You bet! A stupid ghost ship doesn't scare us!
+0043 [Karin] | Besides, we even got a special camera from the Trekker Association to catch those ghosts on film!
+0044 [Tú] | Hmm, if you actually got a shot of the Ghost Ship...
+0045 [Karin] | —We can take cursed photos! ==W==That'll curse all the jerks who bad-mouthed Grandma! For generations! Right?!
+0046 [Tú] | C-Curse...? Okay, definitely didn't mishear that...
+0047 [Tú] | Anyway, we're after the same thing.
+0048 [Tú] | Wonder if they'd let me join...
+0049 [Tú] | Ahem. Got a proposal for you two.
+0050 [Shia] | A proposal?
+0051 [Karin] | What is it? Out with it.
+0052 [Tú] | Since we're all here investigating the light, mind if I tag along?
+0053 [Tú] | I can't swim or sail, but I'm quick on my feet, and I can pull my weight. Another pair of hands, right?
+0054 [Karin] | Hmm...==W== What do you think, Shia?
+0055 [Karin] | Sounds good, but what if ==SEX=='s actually a bad person?
+0056 [Karin] | Like, ==SEX== could finish our food when we're asleep ... or worse, mess with the rudder!
+0057 [Shia] | Hehe, don't you worry, Karin~♪ Boss isn't a bad person.
+0058 [Tú] | Oh? You're sure?
+0059 [Shia] | Hehe, just a feeling.
+0060 [Tú] | Does she have some kind of special ability...?
+0061 [Shia] | So, Karin? What's the verdict?
+0062 [Karin] | Fine. Your gut's never wrong. I'm in~
+0063 [Karin] | Welcome to the crew!
+0064 [Shia] | Glad to have you, Boss~
+0065 [Tú] | Glad to be here. This is my first time at sea, so I'll be counting on you to show me the ropes.
+0066 [Shia] | Mhmm! We'll take good care of you. Don't worry!♪
+0067 [Karin] | No sweat! The sea's got our back! Smooth sailing ahead!
+0068 [Tú] | Whoa—!
+0069 [Tú] | ... Thought I'd have trouble sleeping on a ship, but I was out like a light.
+0070 [Tú] | It's dead quiet in here. Are they still asleep?
+0071 [Shia] | Mornin', Boss♪
+0072 [Tú] | Whoa! You scared me!
+0073 [Shia] | Sleep okay? How was your first night at sea?
+0074 [Tú] | Great. Wasn't as rocky as I expected, and the bedding smelled ... nice.
+0075 [Shia] | Oh, you noticed... ==W==Sorry 'bout that. It's the blanket Karin and I use.
+0076 [Tú] | ... Oh! You really didn't have to. The floor would've been fine.
+0077 [Shia] | Don't be silly. You're part of the crew now, Boss. We look after our own.
+0078 [Tú] | Alright, if you say so. Thanks, I appreciate it.
+0079 [Tú] | By the way, I thought I heard a weird noise last night. Was everything okay?
+0080 [Shia] | Just the waves. They got pretty rough for a bit. I was surprised you slept through it.==W== You were totally knocked out...♪
+0081 [Tú] | W-Wait, were you watching me sleep?
+0082 [Narración] | The cabin lurches, and a triumphant shout rings out from the deck.
+0083 [Karin] | WHOA! What a HUGE cod! I finally caught one!
+0084 [Karin] | Come on! Let's see who's stronger, you or me!
+0085 [Tú] | Karin? What is she doing?
+0086 [Shia] | She's been up fishing since dawn. Said she wanted to impress you.
+0087 [Tú] | How big is that fish for her to be making all that racket...
+0088 [Tú] | Aah—!!!
+0089 [Narración] | A much more violent jolt rocks the cabin. The floorboards heave, and I lose my footing, toppling backward.
+0090 [Narración] | Right before I hit the floor, Shia yanks the blanket off the bed and shoves it under me. I land in a soft heap.
+0091 [Shia] | Phew, close one.==W== You okay, Boss?
+0092 [Opción] | Ugh, I'm fine...
+0093 [Opción] | Thanks for saving me ... again. You're okay?
+0094 [Shia] | I'm good. ==W==Good thing, too. If you'd hit that floor, you could've really cracked your head open.
+0095 [Opción] | No kidding...
+0096 [Opción] | This blanket of yours was a lifesaver.
+0097 [Shia] | Hehe♪ Don't be shy, you can praise me some more, you know~?
+0098 [Opción] | W-well... I could...
+0099 [Opción] | But maybe we should, y'know, get up first?
+0100 [Opción] | We're ... kinda close...
+0101 [Narración] | Shia's hair tickles my neck. She leans in close, taking a soft sniff right by my ear.
+0102 [Opción] | H-Hey, what're you doing...?!
+0103 [Shia] | A moment this perfect? Couldn't pass it up.
+0104 [Opción] | Perfect?
+0105 [Shia] | Yep. That freshly awake scent is the purest. If I'm gonna check, it's gotta be now~
+0106 [Shia] | C'mere♪...
+0107 [Shia] | Knew it. You've got a trustworthy scent, Boss. You just might be the key to solving my little mystery.
+0108 [Opción] | You can tell all that just from my scent...?
+0109 [Shia] | Heh, didn't you know? Us bunnies have a keen sense of smell.
+0110 [Shia] | Still... There's something else I can't quite place.==W== Guess I'll need another sniff.
+0111 [Opción] | Okay, timeout—
+0112 [Karin] | I got it! I finally got it!!
+0113 [Karin] | Shia, look! I...
+0114 [Karin] | ... I did ...==W== it...?
+0115 [Tú] | ...==W== Oops.
+0116 [Shia] | Whoa~! It's huge!♪ ==W==How should we cook it? Stewed? Fried? Or maybe...
+0117 [Karin] | You—
+0118 [Karin] | WHAT ARE YOU DOING?!!

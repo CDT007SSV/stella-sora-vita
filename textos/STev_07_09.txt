@@ -1,0 +1,134 @@
+# Evento · Enmarcando los sentimientos invisibles · 9 · An Ordinary Girl
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_115 | Firefly
+N:avg1_120 | Canace
+N:avg3_100 | Sylar
+N:avg3_205 | Igna
+
+## Texto
+0001 [Intro] | Act Nine
+0002 [Intro] | An Ordinary Girl
+0003 [Intro] | By her own strength, Firefly has broken free from the shackles of the experiments and reclaimed her true self. With you and Canace by her side, she is sure to grow healthily...
+0004 [Tú] | How's Firefly?
+0005 [Canace] | Don't worry. Not a scratch on her, and her breathing is steady. She's unconscious from exhaustion.
+0006 [Canace] | We're lucky it's nothing serious.
+0007 [Tú] | That's a relief.
+0008 [Narración] | Just a while ago, we escaped the Monolith and carried an unconscious Firefly back to Canace's office.
+0009 [Tú] | ... Who is it?
+0010 [Igna] | Sorry to interrupt.
+0011 [Canace] | Igna?
+0012 [Igna] | I dropped everything the second the report came in.
+0013 [Igna] | I have the full picture. Thank you for keeping Firefly safe.
+0014 [Tú] | It's the other way around. Firefly saved us.
+0015 [Igna] | Even so, without you there, I doubt she'd make it out alone.
+0016 [Igna] | That Monolith was Firefly's training ground. Tampering with its internal space alters the Stellaroid count... Someone is clearly weaponizing the technology.
+0017 [Tú] | ... Is this whole disaster the work of the people trying to capture her?
+0018 [Igna] | We need more concrete evidence, but I know who's behind this.
+0019 [Igna] | Ironically, this crisis yields the perfect outcome. Her emotional bond with you triggers a massive breakthrough.
+0020 [Igna] | Her new combat data shatters every previous record. The numbers speak for themselves.
+0021 [Igna] | No one handles Avalanche better than Firefly.
+0022 [Igna] | For us, this is excellent news. For certain others... It's a nightmare.
+0023 [Canace] | The scheming researchers?
+0024 [Igna] | Precisely. Right now, they're likely shaking in their boots back at the lab.
+0025 [Igna] | They staked their careers on defying the higher-ups and proved nothing but their incompetence. Their credibility at the Eye of Grace is shot.
+0026 [Igna] | They will pay for this. I'm launching an internal investigation to ensure this never happens again.
+0027 [Canace] | ... I'll leave it to you.
+0028 [Igna] | Also, I want Firefly in a specialized facility. Once she recovers, we'll run a full checkup.
+0029 [Canace] | That'd be best.==W== Give me a minute.==W== Let me pack and we'll go together.==W==
+0030 [Igna] | Before we do, there's an important matter to discuss...==W== About Firefly's future. Her living situation and education.
+0031 [Igna] | Asking you to take her in was a stopgap. After this incident, her safety is fully guaranteed.
+0032 [Igna] | Professor Canace, you're busy. Perhaps it's time to entrust Firefly to someone else reliable?
+0033 [Canace] | Like ... you?
+0034 [Igna] | Precisely.
+0035 [Igna] | The data proves she needs a healthy, unrestricted environment to reach her potential.
+0036 [Igna] | You have my word: she won't suffer any mistreatment in her new home.
+0037 [Canace] | ...
+0038 [Igna] | ... Heh. I'm with the Eye of Grace. It's only natural you don't trust me.
+0039 [Canace] | You've got it wrong. That's not what I meant...
+0040 [Igna] | If you have concerns, we can sign a magical contract.
+0041 [Igna] | I offer an environment where her talents can flourish—along with a much better life than the one she's living.
+0042 [Canace] | ...
+0043 [Canace] | A better ... life...
+0044 [Tú] | Mind if I cut in?
+0045 [Igna] | Care to share your thoughts, Tyrant?
+0046 [Tú] | Should we really dictate her future without asking her first?
+0047 [Tú] | I think we need to respect Firefly's wishes.
+0048 [Firefly] | Ugh...
+0049 [Canace] | I agree. Let her decide for herself when she wakes up then.
+0050 [Igna] | I understand.
+0051 [Igna] | Though I'm afraid the outcome is already set in stone...
+0052 [Narración] | Several days later
+0053 [Canace] | We're back, ==PLAYER_NAME==.
+0054 [Canace] | Sorry to keep you waiting. I didn't think it'd take this long.
+0055 [Tú] | Don't worry. I'm not leaving until Firefly's situation is settled.
+0056 [Tú] | I wouldn't be able to sleep if I left without knowing she was okay.
+0057 [Canace] | Heh, you're such a worrywart.
+0058 [Firefly] | Tyrant!
+0059 [Tú] | Firefly!
+0060 [Tú] | How are you feeling? Everything okay?
+0061 [Firefly] | Yeah.
+0062 [Firefly] | I feel amazing!
+0063 [Firefly] | I have enough energy to stay up and play with Tyrant all night!
+0064 [Tú] | Haha, glad to hear it.
+0065 [Igna] | Seeing how close you all are... Heh. Makes me a bit jealous.
+0066 [Tú] | Igna, thank you for treating Firefly.
+0067 [Igna] | I am merely fulfilling my duties. Ultimately, this incident is a "lapse" on our organization's part.
+0068 [Tú] | So, what about Firefly's custody? Has a decision been made?
+0069 [Igna] | The answer is obvious.
+0070 [Igna] | Firefly is here of her own free will.==W== That is her answer.
+0071 [Firefly] | I want to stay with professor and Tyrant.
+0072 [Tú] | Firefly...
+0073 [Igna] | Then I won't intrude any further...==W== Before I leave, I have a word of caution for you both.
+0074 [Igna] | We may have guaranteed Firefly the life she wants, but the surveillance won't stop.
+0075 [Igna] | As long as she controls Avalanche, the Eye of Grace will regard her as a dangerous weapon. Absolute freedom is out of the question.
+0076 [Igna] | Should anything unexpected happen—
+0077 [Canace] | No. Firefly isn't a weapon anymore.
+0078 [Canace] | From now on, she's an ordinary little girl.
+0079 [Canace] | If anything like this ever happens again, I'll put a stop to it.==W== Me ... and ==PLAYER_NAME==.
+0080 [Tú] | I'll be there in a heartbeat.==W== No matter what, Firefly's life is her own.
+0081 [Igna] | Thank you for the reassurance.
+0082 [Igna] | I'll take my leave, then...
+0083 [Tú] | Igna,==W== I want to thank you again.
+0084 [Tú] | We couldn't have saved Firefly without you.
+0085 [Igna] | You're welcome. I gained a great deal from this as well.
+0086 [Igna] | ... And the best part was getting to know you.
+0087 [Igna] | I like to line up my trump cards in advance. Expect more commissions from me in the future.==W== I hope you won't turn me down.
+0088 [Tú] | Igna...==W== You never know what she's thinking.
+0089 [Canace] | I've known her longer, but she's still a mystery to me.
+0090 [Canace] | I'm sure you've noticed: Igna treats Firefly well, but likely only because she's a valuable test subject—not because she cares about her.
+0091 [Canace] | We fundamentally disagree there, making it hard for me to trust her.
+0092 [Tú] | As long as we know she won't hurt Firefly, that's enough for me. We can't expect everyone to think like us.
+0093 [Canace] | Very convincing.
+0094 [Canace] | ... Anyway, are you heading back?
+0095 [Tú] | Yeah. Mission accomplished, so I'm heading out tomorrow. Everyone at the New Star Guild is probably worried about me.
+0096 [Firefly] | ... No.
+0097 [Firefly] | Tyrant, don't go...
+0098 [Firefly] | Professor, Firefly, Tyrant... We stay together.
+0099 [Tú] | Thanks, Firefly... But I have to go back.
+0100 [Firefly] | No. Stay together.
+0101 [Firefly] | Stay by Firefly's side. Forever.
+0102 [Tú] | Hmm... This is tricky.
+0103 [Canace] | Firefly. I know how you feel, but you have to be reasonable.
+0104 [Canace] | ==PLAYER_NAME== is an amazing Trekker with a duty to help people. That means traveling all over the Nova Continent. If you're ==SEX3== true friend, you won't get in the way of ==SEX3== work. You know that, don't you?
+0105 [Firefly] | ...
+0106 [Firefly] | Tyrant is Firefly's only friend. If we say goodbye... I will be lonely.
+0107 [Tú] | I'll always be your friend, no matter where I am. And it won't be long before we see each other again.
+0108 [Firefly] | ...?
+0109 [Tú] | Didn't Canace just say? A Trekker's job is to travel everywhere. I can come visit you anytime I want.
+0110 [Firefly] | ... Really?
+0111 [Tú] | Yep. Plus, Emor is the center of the continent. I'll pass through all the time—==W==whoa?!
+0112 [Tú] | Wh-What's wrong...?
+0113 [Firefly] | If you're leaving tomorrow, Tyrant, we're playing tonight! I won't let you sleep!
+0114 [Tú] | Wait, you were serious about staying up all night?!
+0115 [Tú] | Sigh... Alright, you win. The three of us are having a slumber party tonight!
+0116 [Firefly] | A slum-ber par-ty? What's that? It sounds fun... Let's do that.
+0117 [Canace] | Heh. Looks like we'll be seeing a lot of each other. I'll be counting on your help until Firefly grows up.
+0118 [Canace] | ... You know, you've done a lot for us lately, and I haven't properly thanked you.
+0119 [Canace] | It was a coincidence, but I'm grateful it was you who found Firefly.
+0120 [Firefly] | Tyrant, my best friend.
+0121 [Tú] | I should be thanking you. Firefly is my best friend, too.
+0122 [Narración] | And so, the girl who once closed herself off begins a new chapter in her life—
+0123 [Narración] | —taking her first step toward becoming an ordinary girl...

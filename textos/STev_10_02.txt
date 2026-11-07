@@ -1,0 +1,159 @@
+# Evento · Brisa soleada y mares azules: ¡check-in para un verano acogedor! · 2 · With Swimsuits & Brooms
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Noya & Iris & Amber | Noya & Iris & Amber
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_131 | Bloc
+N:avg1_160 | Willow
+N:avg3_100 | Sylar
+N:avg3_102 | Willow
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | With Swimsuits & Brooms
+0003 [Intro] | You arrive at the resort, but it's much quieter than you expected. After a quick cleanup, you change into your swimsuits, ready to enjoy the sunny beach by the sea.
+0004 [Noya] | We're fiiiiiinally here!
+0005 [Noya] | Look at that water! The sky!==W== The breeze! And these houses are gorgeous!
+0006 [Iris] | The brochure highlighted the beautiful town scenery, crystal-clear water, and premium service.
+0007 [Iris] | Strolling down these streets to the sound of the waves...==W== It's the ultimate peaceful getaway.
+0008 [Tú] | It is quiet. You wouldn't guess this is a popular resort.
+0009 [Amber] | Hardly anyone here.
+0010 [Willow] | A bit too quiet, isn't it? The beach is practically empty. It looks nothing like the bustling resort in the brochure.
+0011 [Noya] | We're on vacation! Don't sweat the details. Let's go check out our rooms!==W== Ocean-view suite, here we come!
+0012 [Noya] | Ooh, is this our room? Looks great!
+0013 [Iris] | You can see the ocean from the balcony! It's gorgeous...
+0014 [Amber] | Approximately thirty meters to the shoreline. Clear evacuation route in case of an emergency.
+0015 [Noya] | And this bed looks fancy! I bet it's super comfortable!
+0016 [Willow] | Noya, if you're about to dive onto that bed—wait.
+0017 [Noya] | Huh? What's wrong?
+0018 [Willow] | Everyone, look at the floor.
+0019 [Tú] | The floor? What's on the...==W== Oh!
+0020 [Willow] | There's a thick layer of dust. You can see the footprints we just left.
+0021 [Willow] | It's on the desk, too. Dust this thick takes time to build up. No one has cleaned this room in days.
+0022 [Noya] | Wait, aren't resorts supposed to clean every day?
+0023 [Iris] | They should...==W== Should we ask the front desk for a different room?
+0024 [Noya] | That's too much hassle! We can just clean it up ourselves!
+0025 [Willow] | But...
+0026 [Noya] | Come on, let's start cleaning! Time is Dorra!
+0027 [Willow] | Alright, alright.
+0028 [Narración] | A few minutes later.
+0029 [Willow] | Noya, I grabbed two buckets of water.
+0030 [Iris] | Found some clean rags.
+0031 [Noya] | Nice! I'm all set too!
+0032 [Noya] | Ta-da—!
+0033 [Iris] | You already changed into swimsuits?!
+0034 [Amber] | I changed too.
+0035 [Iris] | Wait, even you, Amber...?
+0036 [Noya] | We're at the beach! Of course we wear swimsuits! Come on, hurry up and change!
+0037 [Willow] | Swimsuits have nothing to do with cleaning... We can change when we actually hit the water.
+0038 [Noya] | But changing gets me motivated!
+0039 [Amber] | Morale boost.
+0040 [Iris] | Sigh, I can't with you two... ==W====PLAYER_NAME==, say something.
+0041 [Opción] | Sun! Sand! Ocean! Swimsuits!
+0042 [Opción] | Let's clean up first, then change
+0043 [Opción] | How about a compromise?
+0044 [Tú] | Ahem...
+0045 [Iris] | ==PLAYER_NAME==? You too?!
+0046 [Tú] | Well... The vacation vibes got to me...
+0047 [Willow] | Let it go, Iris.
+0048 [Willow] | Seeing everyone this excited makes me want to get to the beach, too.
+0049 [Iris] | I guess ... you're right.
+0050 [Willow] | Alright. To get this place cleaned thoroughly and quickly, here's the plan.
+0051 [Willow] | Noya sweeps,==W== Amber wipes the furniture,==W== and Iris makes the beds.==W== ==PLAYER_NAME==, you're with me. We'll handle the luggage and clutter.
+0052 [Noya & Iris & Amber] | Got it!
+0053 [Tú] | She hands out chores like guild commissions. Classic Trekkers' House pro.
+0054 [Tú] | Noya, Amber. I know you're eager to hit the beach, but...
+0055 [Tú] | ... Sorry. I'm with Iris and Willow on this one.
+0056 [Noya] | Aww, no fair—!
+0057 [Amber] | Betrayed ... by Boss...
+0058 [Tú] | Cleaning a room in swimsuits is just too weird. I can't do it...
+0059 [Tú] | The faster we finish cleaning, the faster we get to the beach. We'll change then.
+0060 [Willow] | Ahem. Since there are no objections, let's get to work. Here are your assignments.
+0061 [Willow] | Noya sweeps,==W== Amber wipes the furniture,==W== and Iris makes the beds. ==W== ==PLAYER_NAME==, you're with me. We'll handle the luggage and clutter.
+0062 [Noya & Iris & Amber] | Got it!
+0063 [Tú] | She hands out chores like guild commissions. Classic Trekkers' House pro.
+0064 [Tú] | We just need a solution that keeps everyone happy.
+0065 [Tú] | One side wants to change right now, and the other wants to wait until we're done cleaning.
+0066 [Tú] | So... What if we change while we clean?
+0067 [Iris] | ==PLAYER_NAME==, do you even hear yourself right now...?
+0068 [Tú] | No, wait, hear me out! A reward system could boost our motivation...
+0069 [Tú] | Like ... a milestone system. Clean a bit, change one item. Clean more, change another...
+0070 [Tú] | Uh...
+0071 [Tú] | Pretend I didn't say anything. Let's just finish cleaning so we can hit the beach.
+0072 [Willow] | Ahem. Since there are no objections, let's get to work. Here are your assignments.
+0073 [Willow] | Noya sweeps,==W== Amber wipes the furniture,==W== and Iris makes the beds. ==W== ==PLAYER_NAME==, you're with me. We'll handle the luggage and clutter.
+0074 [Noya & Iris & Amber] | Got it!
+0075 [Tú] | She hands out chores like guild commissions. Classic Trekkers' House pro.
+0076 [Narración] | Under Willow's direction, the room is spotless in no time.
+0077 [Iris] | Phew, much better. Now...
+0078 [Noya] | The ocean! Here I come!
+0079 [Amber] | Hmm-hmm! ♪
+0080 [Iris] | Hey, wait up—
+0081 [Iris] | No stopping them. Let's change and catch up.
+0082 [Willow] | Iris...
+0083 [Iris] | Huh?
+0084 [Willow] | Should it really be like this? Isn't it a bit ... skimpy?
+0085 [Iris] | That's how swimsuits are!
+0086 [Willow] | I hardly ever wear stuff like this. Not ... used to it at all.
+0087 [Iris] | You look great! We picked this one because we knew it'd suit you.
+0088 [Willow] | Oh...
+0089 [Iris] | Totally! And ==PLAYER_NAME== picked it out. You trust ==SEX3== taste, right?
+0090 [Iris] | Come on, everyone's waiting.
+0091 [Noya] | Ah, finally!
+0092 [Iris] | Sorry for the wait, everyone.
+0093 [Willow] | Why're you so quiet? You're making me self-conscious.
+0094 [Noya] | Because you look incredible!
+0095 [Amber] | Stunning.
+0096 [Iris] | Yeah, we're mesmerized...
+0097 [Willow] | Thank you, everyone.
+0098 [Willow] | Iris said you picked this out, ==PLAYER_NAME==?
+0099 [Tú] | Yeah. The moment I saw it in the store, I knew it'd suit you. Glad I was right.
+0100 [Willow] | Thanks for picking it out. You've got a great eye.
+0101 [Willow] | And ...==W== this new prosthetic. I owe you for that too.
+0102 [Willow] | Bloc told me you talked Sparkla out of adding a bunch of extra features...
+0103 [Tú] | Don't mention it. I gave her a little advice, that's all.
+0104 [Noya] | Now that we're all changed, let's hit the water and have a blast!
+0105 [Willow] | Noya, hold on a second.
+0106 [Noya] | Huh? What now—?
+0107 [Willow] | No one gets in the water without warming up first. That means at least three minutes of proper stretching.
+0108 [Willow] | Or you'll cramp up halfway out, and we'll end up dragging you back to shore. Got it?
+0109 [Noya] | Fine—
+0110 [Iris] | The water's nice and cool, and the sand is so soft... This is so relaxing...
+0111 [Willow] | Iris, that's far enough.
+0112 [Iris] | Huh?
+0113 [Willow] | There's a rip current right there. Go any further, and the waves could drag you out.
+0114 [Iris] | A r-rip current? I didn't even notice...
+0115 [Willow] | The water might look calm, but the currents are unpredictable. Don't wander off too far by yourself.
+0116 [Iris] | Okay, I'll be careful.
+0117 [Willow] | Good. Once you're warmed up, stay in the safe zones. And absolutely nobody leaves my sight!
+0118 [Noya] | Yeah, yeah, got it!
+0119 [Willow] | ==PLAYER_NAME==, aren't you going in?
+0120 [Tú] | I think I'll sunbathe for a bit.
+0121 [Willow] | Put on sunscreen first. The sun looks mild, but it'll still burn you.
+0122 [Noya] | You brought that too?!
+0123 [Willow] | Of course. We're at the beach.
+0124 [Tú] | You're always reliable, Willow...
+0125 [Iris] | Yeah... With Willow in charge, we don't need to worry. We follow her lead.
+0126 [Iris] | Being this relaxed... It's heaven...
+0127 [Amber] | Willow, Willow.
+0128 [Willow] | What happened?
+0129 [Amber] | I want to go in, but I can't swim well...==W== Can you teach me?
+0130 [Willow] | Sure.
+0131 [Noya] | I'll teach you too, Amber!
+0132 [Amber] | No. You tossed me in water, said I'd figure it out.
+0133 [Noya] | Hey—that's how I learned!
+0134 [Willow] | Don't worry, Amber. We're doing it the proper way this time.
+0135 [Amber] | Yeah~
+0136 [Iris] | ==PLAYER_NAME==, you can't swim either, right?
+0137 [Tú] | Yeah. I might not dissolve in water... But I still can't swim.
+0138 [Iris] | Why not learn now? We rarely get beach vacations. It'd be a waste staying dry on the sand.
+0139 [Tú] | Good point... I'll think about it.
+0140 [Narración] | The distant sound of waves and laughter drifts faintly to my ears.
+0141 [Tú] | Willow is practically our leader. With her in charge, we don't have to worry about Noya and Amber.
+0142 [Iris] | It's a relief having her around.
+0143 [Iris] | This ocean breeze feels amazing...
+0144 [Iris] | If only every day could be this relaxing...
