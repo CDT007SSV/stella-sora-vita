@@ -30,7 +30,7 @@ const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none
 #rd .rd-box.cg .rd-tx{color:#fff;font-size:calc(var(--u)*4)}
 #rd .rd-box.cg .rd-nx{right:16%;bottom:calc(var(--u)*5)}#rd .rd-box.cg .rd-nx svg{fill:#fff}
 #rd .rd-sp{position:absolute;bottom:-42%;height:128%;transform:translateX(-50%);animation:rdIn .35s;pointer-events:none;transition:left var(--d,0s) var(--e,linear),bottom var(--d,0s) var(--e,linear),height var(--d,0s) var(--e,linear),opacity var(--d,0s) var(--e,linear)}
-#rd .rd-sp img{height:100%;width:auto;display:block}
+#rd .rd-sp img{height:100%;width:auto;display:block;transition:opacity var(--d,0s) var(--e,linear)}
 #rd .rd-emo,#rd .rd-memo{position:absolute;font-size:calc(var(--u)*8);line-height:1;animation:rdPop .45s;pointer-events:none;filter:drop-shadow(0 1px 3px rgba(0,0,0,.5));z-index:3}
 #rd .rd-emo.img,#rd .rd-memo.img{font-size:0}
 #rd .rd-emo.img img{height:calc(var(--u)*13);width:auto;display:block}
@@ -330,6 +330,7 @@ function lay(w){
   w.style.bottom=Math.round(b*10)/10+"%";w.style.height=Math.round(h*10)/10+"%";
 }
 function place(w,x,y,sc,al,d,ez){
+  if(d>0)void w.offsetWidth; /* aplica el estado inicial antes de animar (si el sprite se acaba de crear) */
   if(d!=null){w.style.setProperty("--d",d+"s");w.style.setProperty("--e",ease(ez))}
   if(x!=null)w.style.left=Math.round(x*1000)/10+"%";
   if(y!=null||sc!=null){
@@ -337,7 +338,7 @@ function place(w,x,y,sc,al,d,ez){
     lay(w);
     if(sc!=null)w.firstChild.style.transform=sc<0?"scaleX(-1)":"";
   }
-  if(al!=null)w.style.opacity=al;
+  if(al!=null){if(d>0)void w.firstChild.offsetWidth;w.firstChild.style.opacity=al}
 }
 function setChar(id,pose,expr,x,y,sc,st,em,al){
   const l=spriteList(id,pose,expr);if(!l)return;
@@ -347,7 +348,7 @@ function setChar(id,pose,expr,x,y,sc,st,em,al){
     const im=document.createElement("img");im.referrerPolicy="no-referrer";
     im.onerror=()=>{const q=JSON.parse(im.dataset.q||"[]");if(q.length){im.src=q.shift();im.dataset.q=JSON.stringify(q)}else{w.remove();if(S.chars[id]===w)delete S.chars[id]}};
     w.appendChild(im);sg(st).querySelector(".rd-chars").appendChild(w);S.chars[id]=w;
-    w.style.left="50%";w.style.opacity=al==null?1:al}
+    w.style.left="50%";im.style.opacity=al==null?1:al;if(al===0)w.style.animation="none"}
   w.dataset.pose=pose||"a";pon(w.firstChild,l);
   place(w,x==null?null:x,y==null?0:y,sc==null?1:sc,al,0);
   emoji(w,em,"rd-emo",w.firstChild);
@@ -359,7 +360,13 @@ function ctl(id,pose,expr,em,x,y,sc,al,sh,ez,d){
   if(em)emoji(w,em,"rd-emo",w.firstChild);
   if(sh)shake(w,sh,"CharShakeType");
 }
-function hideCh(id){const w=S.chars[id];if(w){w.remove();delete S.chars[id]}}
+function hideCh(id,d){const w=S.chars[id];if(!w)return;delete S.chars[id];if(d>0)setTimeout(()=>w.remove(),d*1000+30);else w.remove()}
+function clearSc(ch,d,box){
+  if(ch){objx();el.querySelectorAll(".rd-hd").forEach(c=>c.remove());
+    for(const k in S.chars){const w=S.chars[k];if(d>0){w.style.setProperty("--d",d+"s");w.firstChild.style.opacity=0;w.querySelectorAll(".rd-emo").forEach(e=>e.remove());setTimeout(()=>w.remove(),d*1000+30)}else w.remove()}
+    S.chars={}}
+  if(box){const b=el.querySelector(".rd-box");b.style.visibility="hidden";el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";b.querySelectorAll(".rd-memo").forEach(x=>x.remove());el.querySelector(".rd-nx").style.display="none"}
+}
 function mrt(m,pose,face,em,sh){
   if(m>=3){S.mc=0;const b=el.querySelector(".rd-box");b.classList.remove("face");b.querySelectorAll(".rd-memo").forEach(x=>x.remove());return}
   if(face)faceSet(pose,face);
@@ -477,10 +484,10 @@ function avanza(){
       case"se":se(s[1]);break;
       case"show":setChar(s[1],s[2],s[3],s[4],s[5],s[6],s[7],s[8],s[9]);break;
       case"ctl":ctl(s[1],s[2],s[3],s[4],s[5],s[6],s[7],s[8],s[9],s[10],s[11]);break;
-      case"hide":hideCh(s[1]);break;
+      case"hide":hideCh(s[1],s[2]);break;
       case"mrt":mrt(s[1],s[2],s[3],s[4],s[5]);break;
       case"chd":chd(s[1],s[2],s[3],s[4],s[5],s[6]);break;
-      case"clear":hideAll();break;
+      case"clear":if(s.length>1)clearSc(s[1],s[2],s[3]);else hideAll();break;
       case"intro":card('<small>'+esc(s[1])+'</small><h2>'+esc(s[2])+'</h2><p>'+esc(s[3])+'</p><button class="rd-b" data-a="ok" style="margin-top:18px">Comenzar</button>');return;
       case"head":card('<p style="font-size:1.1rem">'+esc(s[1])+'</p><button class="rd-b" data-a="ok" style="margin-top:18px">Continuar</button>');return;
       case"say":say(s[1],s[2],s[3],s[4]);return;
