@@ -3,7 +3,7 @@
 const FILE="https://stellasora.miraheze.org/wiki/Special:FilePath/";
 const SEX={"==SEX==":["ella","él"],"==SEX1==":["Ella","Él"],"==SEX2==":["Su","Su"],"==SEX3==":["su","su"],"==SEX4==":["ella","él"],"==SEX5==":["suya","suyo"],"==SEX6==":["Sra.","Sr."],"==SEX7==":["Srta.","Sr."],"==SEX8==":["sí misma","sí mismo"],"==SEX9==":["chica","chico"],"==SEX10==":["hermanas","hermanos"],"==SEX11==":["señora","señor"],"==SEX12==":["Señora","Señor"],"==SEX13==":["dama","caballero"],"==SEX14==":["cabello blanco","cabello negro"],"==SEX15==":["mujer","hombre"],"==SEX16==":["bruja","brujo"],"==SEX17==":["Señorita","Señor"],"==SEX18==":["falda","pantalón"],"==SEX19==":["criada","mayordomo"],"==SEX20==":["camisa","camiseta"],"==SEX21==":["dama","caballero"]};
 const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
-const css=`#rd{position:fixed;inset:0;z-index:99999;background:#000;display:none;flex-direction:column;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;--u:7px;font-family:"Nunito","Segoe UI",system-ui,sans-serif;font-size:calc(var(--u)*3.6)}
+const css=`#rd{touch-action:manipulation;position:fixed;inset:0;z-index:99999;background:#000;display:none;flex-direction:column;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;--u:7px;font-family:"Nunito","Segoe UI",system-ui,sans-serif;font-size:calc(var(--u)*3.6)}
 #rd.rot{inset:auto;top:0;left:0;width:100vh;height:100vw;width:100dvh;height:100dvw;transform-origin:top left;transform:rotate(90deg) translateY(-100%)}
 #rd.on{display:flex}
 #rd .rd-st{position:relative;flex:1;overflow:hidden;background:#0a0818}
@@ -433,6 +433,9 @@ function fxs(n,nd){
 }
 function ocultaCaja(){const b=el.querySelector(".rd-box");if(!b||b.style.visibility==="hidden")return;b.style.transition="opacity .15s linear";b.style.opacity="0";el.querySelector(".rd-nx").style.display="none"}
 function hideAll(){objx();el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd").forEach(c=>c.remove());S.chars={}}
+/* texto con el resto reservado (invisible): la caja no cambia de tamaño ni se re-acomoda al escribir */
+function setTx(tx,shown,rest){tx.textContent=shown;if(rest){const r=document.createElement("span");r.style.visibility="hidden";r.textContent=rest;tx.appendChild(r)}}
+function restoDe(i,seg){return seg.slice(i)+S.segs.slice(S.si+1).join("")}
 function say(spk,t,ty,vo){
   ty=ty||0;const noLog=/_NOT_IN_LOG_/.test(t);t=fx(t);voz(vo);S.pend=0;{const b0=el.querySelector(".rd-box");b0.style.transition="none";b0.style.visibility="";b0.style.opacity="";el.querySelector(".rd-tx").textContent=""}
   const mcL=spk==="avg3_100"||ty===1||ty===2;
@@ -453,15 +456,15 @@ function say(spk,t,ty,vo){
     S.at=setTimeout(()=>{S.at=0;if(S&&!S.card&&!S.choice)avanza()},Math.max(900,plain.replace(/\n/g,"").length*30));
     return;
   }
-  tipea();
+  setTx(tx,"",S.full);tipea();
 }
 function tipea(){
   const tx=el.querySelector(".rd-tx"),seg=S.segs[S.si],base=S.shown;let i=0;
-  S.timer=setInterval(()=>{i++;tx.textContent=base+seg.slice(0,i);if(i>=seg.length)finSeg()},30);
+  S.timer=setInterval(()=>{i++;if(i>=seg.length){finSeg();return}setTx(tx,base+seg.slice(0,i),restoDe(i,seg))},30);
 }
 function finSeg(){
   clearInterval(S.timer);S.timer=0;
-  S.shown+=S.segs[S.si];el.querySelector(".rd-tx").textContent=S.shown;
+  S.shown+=S.segs[S.si];setTx(el.querySelector(".rd-tx"),S.shown,S.segs.slice(S.si+1).join(""));
   if(S.si<S.segs.length-1){S.si++;S.pend=1;avanza()}
   else el.querySelector(".rd-nx").style.display="";
 }
@@ -469,7 +472,7 @@ function finTipeo(){finSeg()}
 function vacia(){ /* si el guion no reanuda el texto, lo completa */
   if(!S.pend)return;S.pend=0;
   S.shown+=S.segs.slice(S.si).join("");S.si=S.segs.length-1;
-  el.querySelector(".rd-tx").textContent=S.shown;el.querySelector(".rd-nx").style.display="";
+  setTx(el.querySelector(".rd-tx"),S.shown,"");el.querySelector(".rd-nx").style.display="";
 }
 function autoSig(){}
 function pick(i){
