@@ -40,6 +40,8 @@ def pem(secreto):
     return k.private_bytes(S.Encoding.PEM, S.PrivateFormat.PKCS8, S.NoEncryption()).decode()
 
 def main():
+    if os.environ.get("PRUEBA") == "1":
+        return prueba()
     todos = items(); ids = [x["id"] for x in todos]
     est = cargar(ESTADO, None)
     if est is None:                       # primera vez: solo marcar
@@ -72,6 +74,21 @@ def main():
                 print("Error", type(e).__name__)
     if muertos: http(worker + "/gone", admin, {"endpoints": muertos}); print("Suscripciones caducadas borradas:", len(muertos))
     json.dump({"enviados": (ids + list(vistos))[:300]}, open(ESTADO, "w"), indent=1)
+
+def prueba():
+    worker, admin, priv = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", ""), os.environ.get("VAPID_PRIVADA", "")
+    print("Secretos:", bool(worker), bool(admin), bool(priv))
+    subs = http(worker + "/list", admin); print("Suscritos:", len(subs))
+    from pywebpush import webpush, WebPushException
+    ruta = os.path.join(tempfile.mkdtemp(), "v.pem"); open(ruta, "w").write(pem(priv))
+    m = {"title": "Stella Sora Vita", "body": "Aviso de prueba: las notificaciones funcionan", "url": URL_APP + "#news"}
+    for s in subs:
+        try:
+            webpush(subscription_info=s, data=json.dumps(m), vapid_private_key=ruta, vapid_claims={"sub": "mailto:noreply@example.com"}, ttl=3600); print("Enviado OK")
+        except WebPushException as e:
+            print("Error", getattr(e.response, "status_code", "?"), str(e)[:200])
+        except Exception as e:
+            print("Error", type(e).__name__, str(e)[:200])
 
 if __name__ == "__main__":
     main()

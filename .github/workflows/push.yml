@@ -1,6 +1,10 @@
 name: Notificaciones push
 on:
   workflow_dispatch:
+    inputs:
+      prueba:
+        description: "1 = mandar aviso de prueba"
+        default: "0"
   schedule:
     - cron: "10,40 * * * *"
 permissions:
@@ -20,6 +24,7 @@ jobs:
           PUSH_WORKER: ${{ secrets.PUSH_WORKER }}
           PUSH_ADMIN: ${{ secrets.PUSH_ADMIN }}
           VAPID_PRIVADA: ${{ secrets.VAPID_PRIVADA }}
+          PRUEBA: ${{ github.event.inputs.prueba }}
         run: python3 generar_push.py
       - name: Guardar estado
         run: |
