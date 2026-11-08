@@ -160,7 +160,7 @@ let root,T=null,mode="list";
 .tm-pr-c{background:#ff6ec7;color:#1a0b18}.tm-pr-m{background:#a78bfa;color:#140a2b}.tm-pr-o{background:#4b4870;color:#ddd}
 .tm-tg{border-radius:7px;padding:2px 7px;font-size:.66rem;font-weight:800;white-space:nowrap}
 .tm-sy{font-size:.88rem;margin:4px 0;line-height:1.35}.tm-sy.ok{color:#5fe0a0}.tm-sy.w{color:#ffcf6a}.tm-sy.i{color:#cfc8ff}.tm-sg{font-size:.82rem;color:var(--t2);margin:3px 0 3px 14px}.tm-sg b{color:#cfc8ff;font-weight:600}
-.tm-dm{opacity:.45}.tm-rc{box-shadow:0 0 0 2px #5fe0a0}.tm-bd{display:block;font-size:.65rem;color:var(--t2);margin-top:1px}.tm-rc .tm-bd{color:#5fe0a0;font-weight:700}
+.tm-rc{box-shadow:0 0 0 2px #5fe0a0}.tm-rec{display:block;font-size:.62rem;font-weight:700;color:#5fe0a0;margin-top:2px}.tm-bd{display:block;font-size:.65rem;color:var(--t2);margin-top:1px}
 .tm-hint{font-size:.8rem;color:var(--t2);margin:2px 0 4px}
 .tm-dh{display:flex;align-items:baseline;justify-content:space-between;padding:12px 12px 6px}.tm-dh b{font-size:1rem}.tm-dh small{color:var(--t2);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 .tm-dg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 12px 10px}
@@ -216,7 +216,7 @@ function picker(titulo,items,onPick,opts){
   openM(m);
   const G=m.querySelector(".tm-gr");
   const pint=()=>{const n=norm(q);const R=items.filter(i=>(!n||norm(i.n).includes(n))&&(!fe||i.el===fe)&&(!fr||i.r===fr));
-    G.innerHTML=R.map((i,k)=>`<button class="tm-gt${opts.sq?" dsq":""}${i.dim?" tm-dm":""}${i.sc===3?" tm-rc":""}" data-k="${k}" style="--tc:${ec(i.el)}"><span class="tm-pe" style="background:${ec(i.el)}"></span>${i.img?`<img class="tm-pa" src="${e(i.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:""}<span class="tm-ps">${i.r?star(i.r,12):""}</span><span class="tm-pn">${e(i.n)}</span>${i.bd?`<span class="tm-bd">${e(i.bd)}</span>`:""}</button>`).join("")||"<p class='nota' style='grid-column:1/-1'>Sin resultados.</p>";
+    G.innerHTML=R.map((i,k)=>`<button class="tm-gt${opts.sq?" dsq":""}${i.dim?" tm-dm":""}${i.rec?" tm-rc":""}" data-k="${k}" style="--tc:${ec(i.el)}"><span class="tm-pe" style="background:${ec(i.el)}"></span>${i.img?`<img class="tm-pa" src="${e(i.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:""}<span class="tm-ps">${i.r?star(i.r,12):""}</span><span class="tm-pn">${e(i.n)}</span>${i.rec?`<span class="tm-rec">👍 Recomendado</span>`:""}${i.bd?`<span class="tm-bd">${e(i.bd)}</span>`:""}</button>`).join("")||"<p class='nota' style='grid-column:1/-1'>Sin resultados.</p>";
     G.querySelectorAll(".tm-gt").forEach(b=>b.onclick=()=>{const it=R[+b.dataset.k];closeM(m);onPick(it)})};
   m.querySelector("input").oninput=ev=>{q=ev.target.value;pint()};
   m.querySelectorAll(".tm-fl").forEach(f=>f.onclick=ev=>{const b=ev.target.closest("[data-v]");if(!b)return;f.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c===b));if(f.dataset.f==="e")fe=b.dataset.v;else fr=+b.dataset.v;pint()});
@@ -229,11 +229,11 @@ const charItems=sl=>{
   let dom=ot[0].element;for(const k in cn)if(cn[k]>cn[dom])dom=k;
   const mono=cn[dom]>=2||ot.length===1,have=ot.filter(c=>c.element===dom).map(c=>c.role),miss=RO.filter(r=>!have.includes(r));
   base.forEach(i=>{const rol=RN[i.ro]||"";
-    if(ot.some(c=>c.id===i.id)){i.sc=0;i.dim=1;i.bd="En el equipo";return}
+    if(ot.some(c=>c.id===i.id)){i.sc=0;i.bd="En el equipo";return}
     if(!mono){i.sc=0;i.bd=rol;return}
-    if(i.el===dom&&miss.includes(i.ro)){i.sc=3;i.bd="★ "+rol}
+    if(i.el===dom&&miss.includes(i.ro)){i.sc=3;i.bd=rol;i.rec=1}
     else if(i.el===dom){i.sc=2;i.bd=rol+" (repetido)"}
-    else{i.sc=1;i.dim=1;i.bd=rol}});
+    else{i.sc=1;i.bd=rol}});
   return base.map((x,k)=>[x,k]).sort((a,b)=>(b[0].sc||0)-(a[0].sc||0)||a[1]-b[1]).map(x=>x[0]);
 };
 const discItems=()=>discs().map(d=>({n:d.name,el:d.element,r:d.rarity,img:imgD(d)}));
