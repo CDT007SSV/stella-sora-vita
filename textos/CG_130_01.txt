@@ -1,0 +1,106 @@
+# Historia de Donna · 1 · The Different Donna (Part I)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Gentle Elder | Gentle Elder
+N:Kindly Elder | Kindly Elder
+N:The Girl's Mother | The Girl's Mother
+N:avg1_130 | Donna
+N:avg3_100 | Sylar
+N:avg3_109 | Grandpa Chai
+N:avg3_143 | Residente
+N:avg3_166 | Anciana del pueblo
+N:avg3_168 | Chica
+N:avg3_927 | Little Girl
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | The Different Donna (Part I)
+0003 [Intro] | Donna the courier knows every corner of this town—this is the Donna you know.
+0004 [1] | Weird... This should be the spot.
+0005 [1] | Noya and the others are swamped, so I'm stuck on supply duty.==W== But seriously... Where is this shop?
+0006 [1] | Hm? Someone just tugged on my sleeve...
+0007 [Tú] | A little girl... Was she the one tugging at me?
+0008 [Tú] | Hey there. You need something?
+0009 [Little Girl] | Ugh...
+0010 [Little Girl] | Waaaaah!!
+0011 [Tú] | W-Wait! Why the sudden tears?!
+0012 [Little Girl] | I-I can't find my house!! Mommy... Where are you—
+0013 [Tú] | Are you lost?
+0014 [Tú] | Alright, shh... Don't cry. I'll help you. Do you know where you live?
+0015 [Little Girl] | Waahh... Mommy...
+0016 [Tú] | She's not talking... But I can't just leave her like this...
+0017 [Donna] | Huh? I swear I heard a kid crying...==W== Oh? It's Boss!
+0018 [Tú] | Donna! Perfect timing!
+0019 [Donna] | Is it now?
+0020 [Donna] | This kid...==W== She lost or something?
+0021 [Donna] | Oh!==W== Or did you do something to make her cry, Boss?!
+0022 [Tú] | Huge misunderstanding!==W== I didn't do a thing!
+0023 [Donna] | Hehe, I'm kidding! I know you wouldn't pull anything weird, Boss.
+0024 [Donna] | So, what's going on?
+0025 [Tú] | Well, it's like this...
+0026 [Donna] | Ah, so she really is lost.
+0027 [Tú] | Looks like it, only...
+0028 [Little Girl] | Waaaaah!!==W== I want Mommy!! I wanna go home!!
+0029 [Tú] | I tried asking where she lives, but she's crying so hard I couldn't understand a thing. It's impossible to get through to her.
+0030 [Donna] | Hmm... Mind if I give it a shot?
+0031 [Donna] | There, there. Scary being all alone, huh? Don't worry, I'm here to take you back to your mommy. So dry those tears, okay?
+0032 [Little Girl] | (sniff) Can you really ... find my mommy?
+0033 [Tú] | That got her to stop crying?!
+0034 [Donna] | You bet! I'm a Courier Trekker! No matter the location, I always make the delivery!
+0035 [Little Girl] | A Courier Trekker... That's so cool!
+0036 [Donna] | Hehe! Isn't it just? Now, can you tell me where you live?==W== Or maybe there's something nearby that stands out?
+0037 [Little Girl] | Um... There's a toy store next to my house,==W== and a really, really big tree!
+0038 [Donna] | A toy store and a big tree... Pretty sure I've been by there on my rounds.==W== Alrighty, let's get you home!
+0039 [Tú] | You're a lifesaver...==W== But do you still have work to do? I hope this hasn't taken up too much of your time...
+0040 [Donna] | No sweat! I actually just dropped off my last letter for the day. Come on, let's get her home!
+0041 [Donna] | —And then, keep straight down this road. Once we see the flower shop, we'll take a left into the alley.
+0042 [Little Girl] | Th-thank you...
+0043 [Tú] | The poor kid looks so pale... Being lost must have really terrified her.
+0044 [Tú] | Still, pinning down the location with just that... You're definitely living up to your name as a Courier Trekker.
+0045 [Donna] | I deliver on this street all the time. Do it enough and you just memorize the layout!
+0046 [Kindly Elder] | Well, isn't it Donna! Thanks again for getting that letter from my son the other day.
+0047 [Gentle Elder] | Post Haste is always so reliable. We'll be counting on you next time, too.
+0048 [Donna] | You got it! Just give me a holler whenever you need something sent!
+0049 [Little Girl] | Are Courier Trekkers really that cool?
+0050 [Donna] | Heh, you know it! High mountains, deep oceans, even the top of the Monolith!==W== If it's on the Nova Continent, we'll get it there on time!
+0051 [Little Girl] | Whoa... That's awesome! If I write a letter someday, could you deliver it for me too?
+0052 [Donna] | You bet!==W== We'll make sure it reaches the right person safe and sound!
+0053 [Little Girl] | Okay! When I need to send a letter, I'll ask you for help!
+0054 [Tú] | You've really got a way with people, Donna.
+0055 [Donna] | Being cheerful and friendly to everyone is just how it should be, right?
+0056 [Donna] | Besides...
+0057 [Donna] | Staying on everyone's good side is how we keep business booming at Post Haste!
+0058 [Tú] | So it's about the PR... You really are a born leader. Always looking out for Post Haste.
+0059 [Donna] | Oh, the flower store! Turn left at the next corner.
+0060 [Little Girl] | I know this place! We're reaching my house!
+0061 [Donna] | Awesome! Why don't you show us the way, then?
+0062 [Little Girl] | Okay! Come on, over here!
+0063 [Donna] | Whoa! Slow down a sec!
+0064 [1] | ... Then again,==W== I doubt she's doing this just for Post Haste's sake.
+0065 [Donna] | Hey Boss! Keep up or I'm leaving you in the dust!
+0066 [1] | Ah—right behind you.
+0067 [Little Girl] | Mommy! I'm home!
+0068 [The Girl's Mother] | Oh, good grace... Where on earth did you go?! I was worried sick!
+0069 [Little Girl] | I... I'm sorry...
+0070 [Little Girl] | But I met this super cool courier lady! She brought me all the way back!
+0071 [The Girl's Mother] | You really are a handful... I am so sorry for the trouble she caused you.
+0072 [Donna] | No trouble at all! We're just relieved she's home safe and sound.
+0073 [The Girl's Mother] | We'll head inside now. Come on, say thank you.
+0074 [Little Girl] | Thank you! I'm gonna write a letter, so come visit me again, okay?
+0075 [Donna] | You got it—pinky promise! See ya later!
+0076 [Tú] | Phew... Good thing you were there. I wouldn't have had a clue what to do on my own.
+0077 [Donna] | No sweat! We gotta look out for each other, right?==W== But... Well, if you really want to thank me...==W==
+0078 [Donna] | You could send a few big-ticket commissions my way ... or maybe some new clients?==W== Hehe, just kidding!==W== Catch you later, Boss!
+0079 [Tú] | See ya. Guess I should get back to my shopping list...
+0080 [Tú] | Ah—!
+0081 [Donna] | Hm? What's up?
+0082 [Tú] | Well... Noya and the others sent me on a supply run, but I couldn't find that shop...
+0083 [Tú] | The way here was pretty confusing, and I didn't memorize it... Pretty sure I'm totally lost now.
+0084 [Donna] | Hahaha... So it's your turn to get lost now, Boss?==W== Didn't they give you a map or something?
+0085 [Tú] | They did... But it starts from the Lucky Oasis! We've walked so far that it's basically useless now!
+0086 [Donna] | You sound pretty confident for someone who's lost... Here, lemme see.
+0087 [Donna] | Oh, this place? I made a delivery there just last week. Come on, I'll take you.
+0088 [Tú] | Really?! Thank you!
+0089 [Donna] | No biggie! Let's go. Stick close so you don't get lost again!

@@ -1,0 +1,116 @@
+# Historia de Tilia · 1 · Masked Knight Tilia (Part I)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Annoyed Driver | Annoyed Driver
+N:Artifact Vehicle Driver | Artifact Vehicle Driver
+N:Cheerful Passerby | Cheerful Passerby
+N:Furious Driver | Furious Driver
+N:Gossipy Passerby | Gossipy Passerby
+N:Monster Cart Driver | Monster Cart Driver
+N:Out-of-Breath Girl | Out-of-Breath Girl
+N:Relaxed Passerby | Relaxed Passerby
+N:Snarky Passerby | Snarky Passerby
+N:avg1_107 | Tilia
+N:avg3_100 | Sylar
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_141 | Trabajador de Cosecha Unida
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_166 | Anciana del pueblo
+N:avg3_168 | Chica
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Masked Knight Tilia (Part I)
+0003 [Intro] | Crisis Awaits! The Tempest Never Fades
+0004 [Narración] | It's early morning. I'm making my way through the Ash District in Emor, hunting for a legendary drama rental shop.
+0005 [Tú] | Heard they've got rare Stella Dramas, and even some vintage Flavio flicks. Hmm ... what to watch?
+0006 [Tú] | Huh?==W== What's going on here? The whole street is blocked.
+0007 [Monster Cart Driver] | Hey!==W== I'm on a tight schedule! What's the holdup?
+0008 [Artifact Vehicle Driver] | Who knows?==W== This road's always jammed. No one gives an inch. Probably a wreck.
+0009 [Tú] | A wreck?
+0010 [Narración] | At the front of the traffic snaking down the road, a blue scooter sits right in the middle. Someone even strung up a "caution line" with some cloth.
+0011 [Tú] | That scooter looks familiar. Wait, could it be?
+0012 [???] | Sorry for the delay, drivers!==W== Just one more moment! If you're crossing, please hurry up!
+0013 [Relaxed Passerby] | This road's impossible to cross in the morning! Thanks to you, I might actually get to work on time!
+0014 [Cheerful Passerby] | Seriously! I thought the Imperial Guards were useless, but hey, here's one who's actually doing her job.
+0015 [Annoyed Driver] | Hmph. What's her problem? The Guard never used to do this stuff.
+0016 [Furious Driver] | She's wasting our time. Got nothing better to do?
+0017 [Tú] | Oh, so it's not a wreck. An Imperial Guard's directing traffic.
+0018 [???] | Thanks for your patience! Traffic can get moving now!==W== Sorry for the trouble, everyone!
+0019 [Narración] | The knight apologizes and pushes her scooter aside.
+0020 [Narración] | Instantly, engines roar. The stone road vanishes under a wave of vehicles, leaving no space for pedestrians.
+0021 [???] | Hey! If it isn't the Boss!
+0022 [Tú] | Tilia!
+0023 [???] | Mornin'—==W==WHOA!==W==?
+0024 [Tú] | Whoa, you okay?!
+0025 [???] | Oww, ow... Tripped on a rock. This helmet really blocks my view.
+0026 [Tilia] | Ah, never mind.==W== Mornin'! Out for a walk?
+0027 [Tú] | Nah, looking for a shop. You on duty?
+0028 [Tilia] | Sort of...==W== As you can see, the morning traffic here is crazy, and people are desperate to get across.
+0029 [Tú] | Yeah. Thankfully you're here.
+0030 [Snarky Passerby] | You hear what happened? Some Imperial Guard knight just went and blocked off the whole area.
+0031 [Gossipy Passerby] | Huh? But I heard she's the reason those people could even get across the street.
+0032 [Snarky Passerby] | No way. An Imperial Guard actually lifting a finger for us common folk? As if.
+0033 [Snarky Passerby] | Probably spotted a Senator in the crowd.==W== Those Guards only care about kissing up to the powerful.
+0034 [Tilia] | ...
+0035 [Tú] | Don't listen to them. They spew nonsense.==W== Plenty of the people you helped across were grateful==W==.
+0036 [Tú] | Anyway, Tilia, let's get moving. How did that knight qualification test go the other day?
+0037 [Tilia] | The test... I failed.
+0038 [Tú] | Great. Way to bring up a sore subject.
+0039 [Tilia] | But I can probably guess why.
+0040 [Tilia] | It just means I wasn't good enough. I failed to grasp the true spirit of a knight. I just have to push myself even harder on the path to justice!
+0041 [Tú] | I think you're plenty hardworking as it is.
+0042 [Tilia] | No, that's not it... I ...==W== I always mess things up and annoy everyone.
+0043 [Tilia] | See how all those drivers thought I was wasting their time just now? Just wish I'd handled it better.
+0044 [Tú] | Looks like what those people said really got to her.
+0045 [Tú] | Tilia, why do you want to join the Imperial Guard? Uphold justice?
+0046 [Tilia] | Because ...==W== because that's what they did in Masked Knights!
+0047 [Tilia] | All the Masked Knights would show up when someone's in trouble, drop an awesome one-liner, beat the bad guys, and save the day!
+0048 [Tilia] | And their finishing move lines were the absolute coolest!
+0049 [Tú] | Awesome one-liners, huh? Like—
+0050 [Opción] | "The laws of victory are absolute!"
+0051 [Opción] | "Now, let's break down your sins!"
+0052 [Opción] | "Let's go get barbecue tonight."
+0053 [Tilia] | Huh? You watch Masked Knights too, Boss?==W== But... I don't recognize any of those lines. Which knight says them?
+0054 [Tú] | Ahaha, just some lines I saw in the Monoliths. They kinda just popped into my head.
+0055 [Tilia] | Huh? You watch Masked Knights too, Boss?==W== But... I don't recognize any of those lines. Which knight says them?
+0056 [Tú] | Ahaha, just some lines I saw in the Monoliths. They kinda just popped into my head.
+0057 [Tilia] | Huh? Barbecue?==W== I'd love to, but what does that have to do with Masked Knights?
+0058 [Tú] | Oh, uh, nothing. Just got a sudden craving for it.
+0059 [Tú] | Guess Tilia hasn't seen that particular Stella Drama.
+0060 [Tilia] | My all-time favorite line is from an episode of Masked Knights that I watched as a kid.
+0061 [Tilia] | Knight Justus couldn't use fancy magic and his weapon was nothing special, but he never quit. Whenever his enemies would laugh at him, he'd just say—
+0062 [Tilia] | "Exactly! I will become an ally of justice!"
+0063 [Tilia] | I just think that's the best line ever.
+0064 [Tilia] | S-Sorry... Lost myself a little there. That's so embarrassing.
+0065 [Tilia] | Phew...
+0066 [Tilia] | Anyway! No matter what happens, I'll always be an ally of justice!
+0067 [Tilia] | So even if I fail the exam, I'm not gonna lose heart!
+0068 [Tú] | She's already bounced back. That's a relief.
+0069 [Tú] | Well, I should get moving. Still gotta find that shop.
+0070 [Tilia] | Oh, wait!
+0071 [Tú] | What is it?
+0072 [Tilia] | Boss, what shop are you looking for? I know this area like the back of my hand. Let me help you out.
+0073 [Tú] | Oh, I wouldn't want to bother you. Aren't you on duty?
+0074 [Tilia] | No, no, it's no bother at all! I'm actually off today... I'm just, uh, doing some voluntary patrols.
+0075 [Tú] | Voluntarily? That's ... pretty hardcore.
+0076 [Tilia] | I... I've always heard that the slow bird has to start flying early.==W== I'm not naturally talented, so if I want to pass the knight's exam, I just have to work harder than anyone else.
+0077 [Tilia] | Do more things, more good deeds that help others! I'll win through sheer numbers!
+0078 [Tú] | Wow. She's so single-minded and positive. It's almost blinding.
+0079 [Tilia] | A Masked Knight once said, "No good deed is too small"!
+0080 [Tilia] | So please, Boss, let me help you. Helping someone in need is what justice is all about!
+0081 [Tú] | Did a Masked Knight really say that? I'm pretty sure it was some hero with two swords...==W== But, ah well.
+0082 [Tú] | She's so fired up, I can't really say no.
+0083 [Tú] | Alright, sure. I'd appreciate that.
+0084 [Tú] | The shop I'm looking for is one with a lot of...
+0085 [???] | K-Knight ... you're a knight, aren't you?
+0086 [Tilia] | I ... I'm not a full knight yet. Just a squire.
+0087 [Out-of-Breath Girl] | I-I don't know the difference, but please, you have to help us!
+0088 [Tilia] | What is it? Slow down, what happened?
+0089 [Out-of-Breath Girl] | The farm! Our farm is being attacked by giants!
+0090 [Tilia] | G-Giants?!

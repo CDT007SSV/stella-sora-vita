@@ -1,0 +1,95 @@
+# Historia de Canace · 1 · The Secret After-Class Paper (Part I)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:??? | ???
+N:Companion Student | Companion Student
+N:Devoted Student | Devoted Student
+N:Inquiring Student | Inquiring Student
+N:Lonely Student | Lonely Student
+N:Noble-Looking Student | Noble-Looking Student
+N:Passing Student | Passing Student
+N:Students Drawn by News | Students Drawn by News
+N:avg1_120 | Canace
+N:avg3_100 | Sylar
+N:avg3_176 | Loong Resident
+N:avg3_177 | Estudiante de la Academia Luz de Gracia
+N:avg3_178 | Estudiante de la Academia Luz de Gracia
+N:avg3_179 | Misha
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | The Secret After-Class Paper (Part I)
+0003 [Intro] | No one mentioned that a Freelance Trekker also has to write papers!
+0004 [Narración] | Grace Light Academy in Emor is the largest and most prestigious school in Nova.
+0005 [Narración] | It's a true breeding ground for the elite and has produced countless famous figures across every industry.
+0006 [Passing Student] | Guess what? I got into Professor Canace's class.
+0007 [Companion Student] | Seriously? That Monolith Studies course everyone's dying to get into—the one with the lottery system?==W== Take me with you, I'm totally sitting in!
+0008 [Passing Student] | Don't you have another class during that time? If you skip and get caught, there goes your participation grade.
+0009 [Companion Student] | Yeah, you're right... Sigh, where's the luck?
+0010 [Tú] | Canace sure is popular with the students. Her commission for me...
+0011 [Canace] | Sorry to bother you out of the blue, ==PLAYER_NAME==. I'm working on a new paper about the Monolith.
+0012 [Canace] | Could you come to campus tomorrow so we could have a chat? I could really use your help.
+0013 [Tú] | Can I really be of any help? When I don't even remember who I am?
+0014 [???] | Huh?! You seriously expect me to buy that?
+0015 [Tú] | What was that...
+0016 [Canace] | Whether you "buy" it or not, an F is still an F, even if you miss the passing line by just one point.
+0017 [Noble-Looking Student] | Yeah, one lousy point! Can't you just let it slide? Having to retake the exam because of one lousy point is just a waste of my time!
+0018 [Canace] | Let it slide?==W== If we started bending the rules for things like this, the whole world would've fallen apart by now.
+0019 [Canace] | Listen up. The clothes you wear, the customized Artifact vehicle you ride, even the luxury villa you live in...==B== Every one of those was built with strict numerical precision.
+0020 [Canace] | Do you really think it is just about adjusting a number? It changes everything here and there.
+0021 [Noble-Looking Student] | Who... Who cares about any of that!
+0022 [Canace] | Sigh... If you still don't get it after all that, then you're never going to make any progress.
+0023 [Noble-Looking Student] | What...!? Do you have any idea who my father is? How dare you talk to me like that!?
+0024 [Canace] | Galerius Licinius, a senior manager for Deepsea Finance in Philae.
+0025 [Canace] | Though born into a lesser branch of an old family, he built up immense wealth and a reputation to match.
+0026 [Canace] | Your father's all the way in Philae and arranged for you to study back home. If he saw you acting like this...
+0027 [Noble-Looking Student] | How do you know all that!? You're just a professor—how dare you investigate...!
+0028 [Canace] | I know everything about my students, from their daily routines to their family backgrounds. That's what you get from "just a professor."
+0029 [Canace] | Besides, you're just a kid who doesn't even know who your own professor is, and you try to throw your family name around to scare people.==W== Such a disgrace to your family name.
+0030 [Noble-Looking Student] | Th-that's enough lecturing!
+0031 [Tú] | She doesn't even need to raise her voice. Her talk has its own strength... So intimidating.
+0032 [Canace] | Some people really are a lost cause. Looks like this branch of the Licinius family won't be making a comeback anytime soon...==W== Hmm?
+0033 [Tú] | Canace got surrounded by a mob of students!
+0034 [Tú] | Could it be that kid from earlier came back for retaliation?==W== I'd better go help—
+0035 [Devoted Student] | P-Professor Canace! I'm your biggest, biggest, biggest fan—!!
+0036 [Devoted Student] | I can't believe I ran into you here! I didn't get into your course. Would it be possible for you to offer a few more?
+0037 [Lonely Student] | Professor Canace! Could I ... have lunch with you?
+0038 [Inquiring Student] | Professor! I have a question about the Monolith studies. Do you have a minute?
+0039 [Canace] | No need to rush~ I'll answer everyone's questions patiently. Please line up first.
+0040 [Students Drawn by News] | Professor! We're freshmen and it's our first time meeting you! Can we get your autograph? Sign our uniforms, please!
+0041 [Canace] | Hmm... Sorry, uniform is a no-go, but something like notebooks would be alright...
+0042 [Students Drawn by News] | Yeah, we have notebooks! Here, please!
+0043 [Tú] | Ah... And here I thought they came to retaliate. How silly of me.
+0044 [Tú] | But with so many people crowding around, there's no way to get close... Guess I'll just have to wait until Canace is done.
+0045 [Canace] | Alright, everyone, the next class is about to start. Make sure you make it on time.
+0046 [Narración] | With that, all the students start to disperse.
+0047 [Canace] | Whew... Even the freshmen showed up this time. Really was a bit too much.
+0048 [Tú] | And that's why they call you the most popular professor of Grace Light Academy.
+0049 [Canace] | Honestly... teasing others like that isn't very nice, you know?==W== But never mind. Since you're here, let's head to my office and get down to business.
+0050 [Canace] | I'll try to make it short.
+0051 [Canace] | I asked for you because I wanted your help with writing this—
+0052 [Tú] | "An Investigation and Theoretical Model of Magic Flow inside the Monolith"?
+0053 [Canace] | Yes, I'm studying the flow of magic inside the Monolith, hoping to build a basic model. But there are some data that are difficult to obtain, so all I have right now is a draft.
+0054 [Tú] | "When a Trekker uses magic inside the Monolith, does the total amount of magic in the world actually decrease"...? I don't really get it.
+0055 [Tú] | You know me—I'm insulated from all magic effects. I know nothing about it.
+0056 [Canace] | And that is exactly what I need from you. I've designed a magic circle to measure magic flow inside the Monolith, but my own magic always interferes in the measurement process.
+0057 [Canace] | So, if you come with me to the Monolith and activate the circle using this magic scroll, it'll keep other people's magic, including my own, from interfering with the results.
+0058 [Tú] | Hmm... That's fine but... I can't handle Stellaroids on my own.
+0059 [Canace] | Don't worry, I'll clear out all the Stellaroids on that floor ahead of time.==W== With me there, nothing will touch you.
+0060 [Tú] | Wow!
+0061 [Canace] | I may be just a professor, but I do know several powerful attack spells. I regularly take dozens of students into the Monolith for fieldwork.
+0062 [Tú] | So dependable. No wonder all your students love you.
+0063 [Canace] | Hehehe... I wouldn't go as far as that...
+0064 [Tú] | Although... I don't think I've ever heard you mention that you can do attack spells?
+0065 [Canace] | Well... How should I put it? Some things are better left off the record. That's why it doesn't show up in any official documents.
+0066 [Canace] | Anyway, it's not that I can't fight. And I've got plenty of experience tackling the Monolith.
+0067 [Canace] | So put your mind at ease and just stay behind me.
+0068 [Tú] | The magic scroll is ready and the circle is set.
+0069 [Tú] | So, Canace... I'm counting on you.
+0070 [Canace] | Roger that. I'll go deal with the Stellaroids.
+0071 [Canace] | Here I go—==W==Ah?!
+0072 [Tú] | Canace? Canace?
+0073 [Canace] | Zzz...
+0074 [Tú] | HEY, HEY, HEY! You can't sleep here! What about the Stellaroids up ahead?!

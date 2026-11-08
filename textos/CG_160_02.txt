@@ -1,0 +1,118 @@
+# Historia de Suntide Willow · 2 · A Hustling Holiday (Part II)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Apprentice Seafaring Trekker | Apprentice Seafaring Trekker
+N:Man Under Attack | Man Under Attack
+N:Panicked Girl | Panicked Girl
+N:Robbery Victim | Robbery Victim
+N:Trekkers | Trekkers
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_160 | Willow
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg2_991 | Miembro del Viento de Ceniza
+N:avg3_100 | Sylar
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_168 | Chica
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | A Hustling Holiday (Part II)
+0003 [Intro] | Work??? Vacation??? Forget it—another event has popped up!
+0004 [Tú] | Yesterday's safety lecture ate up the whole day. I barely got to enjoy the trip.==B====W== Today I'm going to kick back and get some proper rest—
+0005 [Apprentice Seafaring Trekker] | Miss Willow, about the boat schedule...
+0006 [Robbery Victim] | Miss Willow! The suspect's sketch is done!
+0007 [Willow] | Everyone! I'll handle your requests one by one. Please form a line.
+0008 [Tú] | Willow... What's going on here...?
+0009 [Willow] | Oh, it's you.==W== Until the supervisor arrives, I'm running the inquiry desk for tourists and sailing Trekkers.
+0010 [Willow] | Basically, this is a temporary branch of the Trekker Association.
+0011 [Tú] | But aren't we on vacation?!
+0012 [Willow] | Ah, sorry...==W== I'm swamped right now. Can it wait?
+0013 [Willow] | Next, please—!==W==
+0014 [Tú] | ...
+0015 [Willow] | Phew... Finally a breather. Better grab a quick bite while I can—
+0016 [Tú] | Willow, you're pushing yourself too hard...==W== I bought a bunch of food. Want to join me?
+0017 [Willow] | You don't mind? That's great!
+0018 [Willow] | Seafood pizza, Windhowl Island chow mein ... plus tropical drinks and shaved ice!==W== Everything looks amazing.
+0019 [Tú] | I didn't know what you'd prefer, so I grabbed one of everything that looked good. Glad you like it.
+0020 [Willow] | ...==PLAYER_NAME==, have you been waiting to eat with me this whole time?
+0021 [Tú] | It hasn't been that long...!
+0022 [Willow] | Honestly, you didn't have to wait. You should've eaten first.
+0023 [Tú] | How could I eat first when you're skipping meals to work?
+0024 [Willow] | Sorry for making you worry.==W== But I couldn't turn a blind eye...
+0025 [Willow] | You saw all the chaos yesterday. Plus, this time of year brings a lot of Trekkers through here.
+0026 [Willow] | Trekkers unfamiliar with sailing run into problems all the time.==W== I figured they needed somewhere to go for advice, so I set up this temporary office.
+0027 [Tú] | I'm not saying it's a bad idea—it's great.==W== But doesn't that mean you get zero rest?
+0028 [Willow] | It's fine. Compared to working at the Emor Trekkers' House, this is practically a vacation.
+0029 [Willow] | Oh wait, we're already on vacation.
+0030 [Tú] | ... Glad you remembered.
+0031 [Willow] | Ahaha, how could I forget...
+0032 [Tú] | Honestly... Hardworking is a virtue, but making a habit of burning out isn't.
+0033 [Tú] | I get where you are coming from, but at this rate—
+0034 [Willow] | Oh, right. I got the notice. They finalized the new supervisor.
+0035 [Tú] | Really?!
+0036 [Willow] | Yep. I checked with Trekker Association HQ, too. They're sending official staff soon.
+0037 [Tú] | That's a relief. I thought you were planning to run this whole place yourself...
+0038 [Willow] | Handing things off is part of the job. Two more days, and it shouldn't be this crazy—
+0039 [Panicked Girl] | Miss Willow!!!!==W== At the beach! Hurry!!!
+0040 [Willow] | Hey, deep breaths. What's going on?==W==
+0041 [Panicked Girl] | Huff... Huff... In the water...
+0042 [Willow] | What's in the water?
+0043 [Panicked Girl] | A monster! It's dragging a boat around and wrecking everything!
+0044 [Willow] | What?!
+0045 [Willow] | Everyone, clear the way!==W==
+0046 [Willow] | ==PLAYER_NAME==, get everyone on the beach to safety!
+0047 [Tú] | On it!
+0048 [Willow] | Wait, why is a monster dragging a boat around?
+0049 [Apprentice Seafaring Trekker] | It probably bit a hook.==W== Here,==W== look through the telescope.
+0050 [Willow] | Are you serious?! Hey! You on the boat! Can you hear me?!
+0051 [Man Under Attack] | Waaah! Somebody heeelp!!!
+0052 [Willow] | Drop the fishing rod! Now!!
+0053 [Man Under Attack] | No way! Do you know how hard it was to hook a catch this big?!
+0054 [Willow] | Do you want the fish or do you want to live?! Let go!
+0055 [Man Under Attack] | Eek! Okay, okay, I'm dropping it!!
+0056 [Tú] | Willow, the beach is clear.
+0057 [Willow] | Thanks, big help. We should be good here too...==W== Wait, what?
+0058 [Man Under Attack] | M-Miss Willow! The monster's still circling the boat—Aaaagh?!
+0059 [Tú] | It broke free. Why's it attacking the boat?!
+0060 [Willow] | That monster... No way. Is that a Mutated Shark?!
+0061 [Tú] | Mutated Shark?
+0062 [Willow] | It's a shark monster. Once it goes berserk, it's lethal. Its destructive power rivals a Monolith Meltdown.
+0063 [Willow] | They're relentless. Even if the boat makes shore, it'll follow.==W== We have to strike first.
+0064 [Tú] | What?! But it's out in the water. How do we even fight that?
+0065 [Willow] | ...==PLAYER_NAME==, I have a plan.
+0066 [Man Under Attack] | Eek! Wh-What am I supposed to do?!
+0067 [Man Under Attack] | Am I gonna end up as fish food?! Nooo!
+0068 [Willow] | Mister! Calm down and do exactly what I say!
+0069 [Willow] | Full throttle, straight for the shallows! We'll intercept it there!
+0070 [Man Under Attack] | What?!==W== If I hit the shallows, I'll run aground! That's suicide!
+0071 [Willow] | The rescue team's on standby! Trust me and come in full speed!
+0072 [Willow] | If you wait, you're dead! Might as well take the gamble!
+0073 [Man Under Attack] | Dammit, I've got no other choice...!==W== Chaaarge—!!!
+0074 [Willow] | Thank goodness... He's trusting me.
+0075 [Tú] | Willow! I've got the ranged Trekkers lined up!
+0076 [Amber] | Ready when you are.
+0077 [Willow] | ==PLAYER_NAME==, everyone, thanks!==W== Take your positions and move on my signal!
+0078 [Willow] | Just a little closer...==W== Three,==W== two,==W== one...
+0079 [Willow] | Now! Fire!==W==
+0080 [Tú] | Cough, cough...!==W== What an impact... Is the Mutated Shark down?!
+0081 [Willow] | ... Target down.==W== Great work, everyone!
+0082 [Trekkers] | We did it—!!!
+0083 [Iris] | Your tactics won this, Miss Willow. Incredible.
+0084 [Willow] | Hehe, only because you all jumped in without hesitation.
+0085 [Man Under Attack] | Th-Thank goodness... I'm safe...
+0086 [Man Under Attack] | Shame, though... I almost had that big catch.
+0087 [Willow] | Such a shame? Use yourself as bait next time.
+0088 [Man Under Attack] | Eek! M-Miss Willow?!
+0089 [Willow] | Your life or the fish—which matters more? You were at my lecture yesterday.
+0090 [Willow] | What's the number one rule of sailing? Answer me!
+0091 [Man Under Attack] | S-Safety first...
+0092 [Willow] | Exactly. Remember that.==W== Otherwise...
+0093 [Willow] | You'll end up as fish food and monster bait.
+0094 [Man Under Attack] | Eeeeeek! I'm sorry! I've learned my lesson!
+0095 [1] | Noted. I should never tick Willow off...

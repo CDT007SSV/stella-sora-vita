@@ -1,0 +1,74 @@
+# Historia de Freesia · 1 · A Bonding Duel (Part I)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_125 | Freesia
+N:avg3_100 | Sylar
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | A Bonding Duel (Part I)
+0003 [Intro] | You accept a commission to be Post Haste's special delivery person. What duties await?
+0004 [Freesia] | Come, Boss. This is our final showdown.
+0005 [Tú] | Yup. I won't go easy on you.
+0006 [Freesia] | Then I will do the countdown.
+0007 [Freesia] | Three,==W== two...
+0008 [Tú] | Ugh, the rain's coming down so hard. I can barely keep my eyes open.
+0009 [Tú] | How did it come to this...
+0010 [Narración] | This morning
+0011 [Narración] | Because of a commission, I show up at Post Haste bright and early.
+0012 [Freesia] | Good morning to you, Boss. ==W==It has been quite some time—I do hope you have been faring well.
+0013 [Tú] | What's with the formality? And a full-on hat tip?
+0014 [Freesia] | Thank you for taking on my commission. With Donna and Teresa away today, you've really helped us out here at Post Haste.
+0015 [Tú] | Don't mention it, I'm happy to be your special delivery person. So, what do you need me to do?
+0016 [Freesia] | Your role will simply be to navigate the delivery routes, and I shall do the rest.
+0017 [Tú] | Navigate the routes?
+0018 [Freesia] | Yes. The highlighted points on the map show where we'll be heading.
+0019 [Freesia] | I usually deliver letters by bike as it's more efficient. Normally I'd stop to check the map, but today I'm on a tight schedule with much to do, so I'll have to trouble you for directions.
+0020 [Tú] | Got it. Let me take a look at the map...==W== We sure are hitting a lot of places.
+0021 [Freesia] | I did the math last night. I'll be biking a total of 57 kilometers.==W== Not counting the rest stops, it should take about four and a half hours.
+0022 [Tú] | F-four and a half hours...?!
+0023 [Freesia] | It's actually a light day. Normally we're out for five or six hours.
+0024 [Tú] | That sounds like a lot of work...==W== But how will I guide you?
+0025 [Tú] | Don't tell me you're planning to ride the bike while I run alongside you?
+0026 [Freesia] | Aha...That would be highly disrespectful … and impractical.
+0027 [Freesia] | I asked Teresa to make a few modifications to the bike.
+0028 [Tú] | ...==W== That's just...adding a seat on the back.
+0029 [Freesia] | Exactly.
+0030 [Freesia] | With this addition, I can carry a passenger while making deliveries. The back seat gives you a good view for navigation.
+0031 [Tú] | I see.==W== Then I'll be counting on you to give me a ride.
+0032 [Freesia] | You're most welcome. Shall we depart?==B== Just remember to hold on tight when you're on...
+0033 [Tú] | Hold on tight? To what?
+0034 [Opción] | Sit on the back seat
+0035 [Freesia] | … To me.
+0036 [Tú] | ==W==Wait, Freesia, I'm not ready—
+0037 [Freesia] | Boss, we've arrived.==W== You look rather pale... Are you feeling alright?
+0038 [Tú] | It's nothing...==W== Just … feeling a bit ...==W== queasy.
+0039 [Freesia] | My sincere apologies. I should have thought it out better.
+0040 [Freesia] | In the future, I could add a sunshade over the back seat to block direct sunlight.
+0041 [Tú] | Is it possible that ...==W== you rode the bike too fast?==B== We practically flew down that slope.
+0042 [Freesia] | Ah. What you say makes sense.==W== And here I thought that downhill was the perfect time to … accelerate.
+0043 [Tú] | It's not like you are racing somebody!
+0044 [Freesia] | Thank you for pointing that out. I shall be extra careful in the future.
+0045 [Freesia] | I'll go park the bike in the open area over there. Please wait just a moment.
+0046 [Tú] | Huh? That sound...
+0047 [Freesia] | Why is it not moving? Is something stuck? Let me try again...
+0048 [Tú] | Wait, stop!
+0049 [Freesia] | Sorry. I went too hard...
+0050 [Freesia] | Judging by the sound, something's broken again.
+0051 [Tú] | Again? You mean this has happened before?
+0052 [Freesia] | Ever since I started using this bicycle, something breaks almost every three days.
+0053 [Freesia] | Loose chains, bent handlebars, flat tires, broken bells...==W== I'm always troubling Teresa with something that needs to be fixed.
+0054 [Freesia] | Maybe riding a bicycle is not for me, Boss.
+0055 [Freesia] | I don't like to ...==W== cause trouble for people.
+0056 [Tú] | "Artifacts Jinx Syndrome"... Could that urban legend be real?
+0057 [Tú] | They say some people have a peculiar constitution: Artifacts tend to break really easily when they handle them.
+0058 [Tú] | It's okay. If it breaks, just fix it.
+0059 [Tú] | I'm guessing Teresa's the type who actually enjoys working on bikes?
+0060 [Freesia] | That is true... She really enjoys taking things apart.
+0061 [Tú] | Then it's not a problem.
+0062 [Tú] | Besides, you are such an excellent bike rider. Don't let your skills go to waste.
+0063 [Tú] | I just took a quick look. It's just the chain that came off. Should be fine once it's back on.
+0064 [Freesia] | Thank you, Boss.
+0065 [Freesia] | Next time...==W== I'll be more careful.

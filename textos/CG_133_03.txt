@@ -1,0 +1,103 @@
+# Historia de Nazuka · 3 · Whispers in the Wind (Part III)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Assailant Leader | Assailant Leader
+N:Assailants | Assailants
+N:Fierce-Looking Assailant | Fierce-Looking Assailant
+N:Hot-Blooded Assailant | Hot-Blooded Assailant
+N:Souvenir Vendor | Souvenir Vendor
+N:avg1_133 | Nazuka
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_143 | Residente
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Whispers in the Wind (Part III)
+0003 [Intro] | What I said that day is a secret; someday, I'll tell you what's truly in my heart.
+0004 [Nazuka] | You said "lucky" just now, eh?==W== I think so, too. It's time to make up for my mistake.
+0005 [Fierce-Looking Assailant] | Hah, did you hear that? She thinks she can take us three on by herself.
+0006 [Hot-Blooded Assailant] | You're just a barely famous Trekker. You'll regret crossing us!
+0007 [Assailant Leader] | That's right! Listen up, guys—once I give the signal, charge!
+0008 [Assailant Leader] | As for me...==W== I'll be off!
+0009 [Tú] | Huh...?
+0010 [Assailants] | Huh...?
+0011 [Nazuka] | As if I'd let you!
+0012 [Nazuka] | O' leaves that with the wild wind play, weave now a wall to bar the way!
+0013 [Tú] | We talked about this before. The attackers already knew about Nazuka and kept avoiding her. The ones left wouldn't dare face her head-on.
+0014 [Tú] | I thought I'd get caught up in the fight, but at this rate...
+0015 [Tú] | It's already over in an instant... Amazing.
+0016 [Tú] | A wall of wind and leaves blocking their escape...==W== You used this magic before, when fighting the Spirit of Brutality, right?
+0017 [Nazuka] | Heh, you remembered. The wind barrier doesn't just defend me; it traps the enemy inside.
+0018 [Tú] | Scouting, attack, capture... Nazuka really can do it all.
+0019 [Tú] | So... It's over?
+0020 [Nazuka] | I've called for reinforcements. They're on their way.
+0021 [Nazuka] | Once we get these guys to tell us where the others are hiding, the rest won't be a problem.==W== That'll wrap up our patrol for today.
+0022 [Nazuka] | Thanks for keeping me company. And...==W== I'm so so sorry. Even with me here, you still got a scare.
+0023 [Tú] | Nazuka...
+0024 [Tú] | I just got a deer bite, that's all.
+0025 [Tú] | Don't worry about it. I just wanted to help you catch those criminals.
+0026 [Tú] | Now we can relax and stroll around the market, right? Haha.
+0027 [Nazuka] | Still, if I'd captured them all earlier, I wouldn't have had to drag you into all this.
+0028 [Nazuka] | Sorry.
+0029 [Tú] | There seems to be some sort of misunderstanding.
+0030 [Tú] | Did you think I was blaming you?
+0031 [Nazuka] | You weren't?
+0032 [Tú] | Of course not.
+0033 [Tú] | You just made one mistake. You're way too hard on yourself.
+0034 [Tú] | I only wanted to repay your trust, that's all.
+0035 [Tú] | You are the perfect fighter, but I just wanted to help, even if that meant being the decoy.
+0036 [Tú] | In the end, I didn't do much, but I'm still glad I got to work with you.
+0037 [Nazuka] | Hehe...
+0038 [Tú] | Hmm?
+0039 [Nazuka] | I just realized... We both try so hard to live up to each other's expectations.
+0040 [Tú] | That's true.
+0041 [Nazuka] | But ==PLAYER_NAME==, to me, you're already one of a kind—a partner I can't replace.
+0042 [Nazuka] | So please don't overthink it.
+0043 [Nazuka] | As long as you stay with me, then...
+0044 [Nazuka] | ...
+0045 [Tú] | Then what?
+0046 [Nazuka] | That's a secret.==W== I want to keep this feeling to myself, for now.
+0047 [Tú] | Now you've got me even more curious. Guess I'll just have to work harder until you tell me yourself.
+0048 [Nazuka] | I'm looking forward to it.
+0049 [Tú] | Now, what's next? We already had those skewers, so I'm not hungry.
+0050 [Tú] | Oh, by the way, Nazuka, let's go back to that souvenir shop from earlier.
+0051 [Nazuka] | Why?
+0052 [Tú] | I'm curious about the pinwheel thing.
+0053 [Tú] | You reacted oddly back then. Does it mean something I don't know about?
+0054 [Nazuka] | That is actually...
+0055 [Tú] | Another tough question?
+0056 [Tú] | Then let me put it this way... If I gave you a pinwheel, would it make you happy?
+0057 [Nazuka] | Yes.
+0058 [Tú] | All right, that settles it.
+0059 [Tú] | Excuse me, could I have one of those pinwheels from before?
+0060 [Souvenir Vendor] | Sure thing.
+0061 [Tú] | Here. It's for you.
+0062 [Nazuka] | B-==W==Boss…?!==W== This...==W== pinwheel...==W== Can I really accept this?
+0063 [Opción] | Hm? Does it bother you?
+0064 [Nazuka] | N-No, not at all!==W== I just, uh...==W== No,==W== it's no==W== bother…
+0065 [Nazuka] | I was...==W== just a little surprised, that's all.==W== But I'm really happy.==W== Th-Thank you.
+0066 [Opción] | So what does giving a pinwheel mean, anyway?
+0067 [Nazuka] | That...==W== I can't tell you.==W== Not even you.==W== It's a secret.
+0068 [Opción] | Then … can I give one to someone else?
+0069 [Nazuka] | What...!? ==W==Err...==W== You're a meanie!
+0070 [Opción] | Then just tell me?
+0071 [Nazuka] | Because I can't.==W== But,==W== promise me you won't give anyone else a pinwheel. ==W==Oh, and,==W== don't ask anyone else what it means to give someone a pinwheel.
+0072 [Nazuka] | Also...==W== Don't tell anyone else==W== that you gave me one.==W== Promise?
+0073 [Opción] | You've got a lot of rules. But I'll agree.
+0074 [Nazuka] | O-Okay…==W== That's good.==W== In that case,==W== I may just give you a pinwheel too…
+0075 [Nazuka] | But after I do,==W== you absolutely,==W== absolutely==W== must never tell anyone else.==W== Got it?==W== Absolutely!
+0076 [Opción] | Alright, then this is our little secret.
+0077 [Nazuka] | Ah...==W== Hehe,==W== thank you.==W==This pinwheel...==W== I will always treasure it...==W== And I hope==W== you'll always treasure yours.
+0078 [Tú] | Speaking of which, these two pinwheels seem to look a little different.
+0079 [Nazuka] | Of course, that's the characteristic of handmade pinwheels from Philae—the difference lies in the details of the craftsmanship.
+0080 [Tú] | So every windmill is "one of a kind"...
+0081 [Tú] | That truly makes it meaningful.
+0082 [Nazuka] | So, if you don't have anything else coming,==W== shall we walk around the market together?
+0083 [Tú] | Gladly.
+0084 [Nazuka] | Thanks... Then, let's go.
+0085 [Narración] | With pinwheels in hand, the two of us strolled through the bustling market, our steps light and easy, until==W== night finally fell...

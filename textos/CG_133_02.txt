@@ -1,0 +1,86 @@
+# Historia de Nazuka · 2 · Whispers in the Wind (Part II)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Assailant Leader | Assailant Leader
+N:Fierce-Looking Assailant | Fierce-Looking Assailant
+N:Hot-Blooded Assailant | Hot-Blooded Assailant
+N:avg1_133 | Nazuka
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | Whispers in the Wind (Part II)
+0003 [Intro] | The real reason for being late is a secret; I just wanted to share your burden.
+0004 [Nazuka] | Someone tried to attack the market. They were going to break through from that direction.==W== Luckily, no one was hurt. But by the time I got here, the culprits had already fled.
+0005 [Tú] | Sounds like this attack was planned in advance.
+0006 [Nazuka] | They tried to disrupt the peace of this camp...==W== And I won't let them get away.
+0007 [Tú] | I understand how you feel, but they've already escaped. What's your next move?
+0008 [Nazuka] | I have a rough idea as to where they might be.
+0009 [Tú] | What do you mean?
+0010 [Nazuka] | Actually, the reason I was late today was that I was investigating a suspicious group's hideout.
+0011 [Nazuka] | I caught some of them, but the rest managed to escape. That was my mistake.
+0012 [Tú] | I see.
+0013 [Tú] | That's why you asked me to join the patrol?
+0014 [Nazuka] | Yeah. I was hoping maybe you'd notice something I missed, given your insight...==W== Didn't expect them to assault the camp in the open.
+0015 [Tú] | That's so like you, Nazuka.
+0016 [Tú] | So, do you know what they're after?
+0017 [Nazuka] | Most likely supplies. Since the hunting squad disbanded, security around the camp's gotten weaker. They've already carried out several thefts.
+0018 [Tú] | If they managed to slip past you, they must be pretty crafty.
+0019 [Nazuka] | They know I'm after them and are being careful. They've changed hideouts multiple times in just a few days.
+0020 [Nazuka] | But today, they went too far. To attack openly like this... I'm taking them all down, no matter what.
+0021 [Tú] | I'll help you.
+0022 [Nazuka] | Thanks, but I don't want you taking unnecessary risks.
+0023 [Tú] | I know it's dangerous. And not to brag, I definitely look like the fragile type.
+0024 [Nazuka] | That's definitely not something one brags about...
+0025 [Tú] | Still, that might work in our favor. The weaker I look, the more they'll let their guard down.
+0026 [Tú] | I can serve as bait to draw them out.
+0027 [Nazuka] | But...!
+0028 [Tú] | I have someone I can rely on. If anything happens, you'll protect me, right, Nazuka?
+0029 [Nazuka] | Ugh...!
+0030 [Nazuka] | All right. We did make a promise, after all.
+0031 [Nazuka] | So, what exactly is your plan?
+0032 [Tú] | We go straight for the source. Do you have any leads on where they might be? We can check one by one.
+0033 [Nazuka] | Judging from the direction they fled, it's likely the forest...==W== There's a suspicious spot there. It was already on my list.
+0034 [Tú] | Then it's settled. Lead the way.
+0035 [Nazuka] | Let's follow the plan.
+0036 [1] | Got it!
+0037 [Nazuka] | ==SEX1== is gone...
+0038 [Nazuka] | ==PLAYER_NAME== can't use magic, I really shouldn't have let ==SEX4== go alone.
+0039 [Nazuka] | But...
+0040 [1] | "I have someone I can rely on. If anything happens, you'll protect me, right, Nazuka?"
+0041 [Nazuka] | How am I supposed to respond to that?
+0042 [Nazuka] | But that kind of trust really means a lot to me.
+0043 [Nazuka] | The old me would've never imagined feeling this way.
+0044 [Nazuka] | Meeting ==SEX4== has really changed me...
+0045 [Tú] | Hey! Are you...
+0046 [Nazuka] | ==PLAYER_NAME==!?
+0047 [Nazuka] | No... That shout... Something's happened!
+0048 [Nazuka] | —Are you okay!?
+0049 [Tú] | Eek! You're way too friendly...==W== Nazuka, help meee!
+0050 [Nazuka] | Pfft...==W== And here I thought something must have happened. It's just a deer!
+0051 [Tú] | Don't laugh! It's too strong—ow!==W== Okay, okay, you want me to pet you, right?
+0052 [Nazuka] | A wild deer being this friendly, huh...==W== Guess animals really like you.
+0053 [Tú] | Now's not the time to analyze that!==W== Hey! Don't chew my clothes! You'll get sick!
+0054 [Nazuka] | The deer knows you won't hurt it.
+0055 [Tú] | Are you saying I'm too gentle, or too weak? Ugh, fine, I'll take that as a compliment...
+0056 [Nazuka] | Wait—did you hear that?==W== Shh, stay quiet.
+0057 [Tú] | Nazuka and the deer both turned toward the forest... Something's there.
+0058 [Tú] | Footsteps...==W== Someone's coming.
+0059 [Assailant Leader] | You're not getting away! My dinner!
+0060 [Nazuka] | ...
+0061 [Fierce-Looking Assailant] | Hey, look! It's the deer that got away earlier!
+0062 [Hot-Blooded Assailant] | Didn't think dinner would come find us! Talk about lucky!
+0063 [Tú] | Nazuka, are they—
+0064 [Nazuka] | Yup.
+0065 [Tú] | So this deer came to us for help.
+0066 [Hot-Blooded Assailant] | Hey... Isn't that Lady Nazuka!?
+0067 [Assailant Leader] | You actually came chasing after us even after the explosion?
+0068 [Tú] | So what if we did?
+0069 [Assailant Leader] | Hmph, of course you wouldn't just let us go...
+0070 [Fierce-Looking Assailant] | Let's all give them a proper beating so they won't dare chase us again!
+0071 [Nazuka] | You said "lucky" just now, eh?==W== I think so, too. It's time to make up for my mistake.

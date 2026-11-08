@@ -1,0 +1,85 @@
+# Historia de Kasimira · 2 · A Lucky Day (Part 2)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Dessert Shop Clerk | Dessert Shop Clerk
+N:Gluttonous Rabbit | Gluttonous Rabbit
+N:avg1_108 | Kasimira
+N:avg3_100 | Sylar
+N:avg3_143 | Residente
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | A Lucky Day (Part 2)
+0003 [Intro] | Where to Find a Lucky Charm? In the Woods, or in a Cookie?
+0004 [Tú] | You're paying me ten times the usual rate just to find a four-leaf clover?
+0005 [Kasimira] | That's right. I've got something really important to do today. And without a good luck charm... ==W==I just don't feel confident.
+0006 [Tú] | Whoa, whoa, ten times the pay for a lucky charm? You're a battle-hardened White Cat mercenary! You seriously believe in that stuff?
+0007 [Kasimira] | Today's lucky charm is the wishbone I got a month ago when I played the wishbone game with Chaton.
+0008 [Kasimira] | I carefully cleaned it and kept it safe in a hidden pocket, but now it's gone.
+0009 [Tú] | You probably lost it during the simulation battle.
+0010 [Kasimira] | No, no. It just got used up.
+0011 [Tú] | Got used up? What do you mean?
+0012 [Kasimira] | You know how people "build up good karma"? I think luck works kind of like that. The luck you save up over time gets spent when something lucky happens.
+0013 [Kasimira] | I won just now because of a dud. I think ... that wishbone fulfilled its purpose by balancing that out. That's why it vanished.
+0014 [Tú] | Hmm... ==W==I kind of get it... But also kind of don't...
+0015 [Tú] | Anyway, forget the tenfold commission. I'll do my best to help you find one. As for whether we actually can... ==W==Well, that's up to fate.
+0016 [Kasimira] | I'm sure you can. You're the one with the lucky number 8, aren't you?
+0017 [Tú] | What lucky number...? ==W==If the shopkeeper had given me different change yesterday, it wouldn't have been 8 coins at all.
+0018 [Tú] | Wait a sec... So the change plus the coins I already had made exactly eight... Could that actually be some kind of lucky sign?
+0019 [Tú] | Nah, no way...
+0020 [Tú] | Kasimira! Come! I found one.
+0021 [???] | Gurgle...
+0022 [Tú] | Woah, what's this?
+0023 [???] | Guuchuu—!
+0024 [Tú] | No way I'm letting you snatch that four-leaf clover after all that effort! Gotcha, you little thief!
+0025 [Kasimira] | What is it, Boss? Did you run into a monster?
+0026 [Kasimira] | Oh, it's a wild rabbit. So cute.
+0027 [Tú] | It suddenly leapt out and ate the four-leaf clover I just found.
+0028 [Kasimira] | What?!
+0029 [Tú] | Uh... Why'd you suddenly pull out a combat knife?
+0030 [Kasimira] | I've heard that a rabbit's left foot can be used as a good luck charm, too.
+0031 [Gluttonous Rabbit] | Wah—
+0032 [Kasimira] | I don't really buy that, though.
+0033 [Narración] | As she speaks, Kasimira pulls out some herbs from her cloak, carefully chops them up, and starts applying them to the rabbit's left foot as an emergency salve.
+0034 [Kasimira] | Look, this rabbit's left foot is injured.
+0035 [Kasimira] | If it really holds good luck, no way it would get hurt so easily.
+0036 [Tú] | A fierce mercenary, but surprisingly gentle about things like this.
+0037 [Kasimira] | All right, all done. Go hide out in your burrow for a few days. The wound will heal in no time.
+0038 [Gluttonous Rabbit] | Guuchuu—!
+0039 [Kasimira] | See you next time.
+0040 [Tú] | You're pretty skilled at bandaging.
+0041 [Tú] | I didn't expect to see such a gentle side of you, Kasimira.
+0042 [Kasimira] | W-What do you mean gentle...?! ==W==T-Those herbs would've wilted anyway if I didn't use them... Gotta replace them regularly, that's all...
+0043 [Tú] | Alright, I see now. So Kasimira, it's not really about WHAT the charm is, right? You just want a charm, any kind would do.
+0044 [Kasimira] | Hmm...
+0045 [Tú] | I know a place where you can get a charm really easily.
+0046 [Kasimira] | Smells so good... ==W==Is this a dessert shop?
+0047 [Tú] | On that table over there are the shop's limited-edition treats—==W==fortune cookies. Each one has a little slip of paper inside with a different prediction written on it.
+0048 [Kasimira] | Hmm, let me try.
+0049 [Kasimira] | Hmm?
+0050 [Tú] | What did you get?
+0051 [Kasimira] | Su... ==W==Super bad luck?!
+0052 [Tú] | Huh?! No way! They're not supposed to put fortunes like that in a fortune cookie...
+0053 [Dessert Shop Clerk] | Excuse me, miss, you picked the wrong one. The fortune cookies are on a different table. What you have is one of our "Divine Omen Cookies."
+0054 [Kasimira] | W-Wrong one...? ==W==No—this must be a sign from the God of Grace... ==W==A warning that today's not the right day for that important task.
+0055 [Tú] | Don't get so down! There are tons of ways to boost your luck—
+0056 [Tú] | —like the lucky koi in front of Fenghuang Diner, or the beckoning cat at Goodwind Homecare...
+0057 [Tú] | Whoa, I've never seen Kasimira this down before. I've gotta think of a way to cheer her up!
+0058 [Tú] | Excuse me, do you have any super lucky desserts here?
+0059 [Dessert Shop Clerk] | Super lucky, huh? Then how about trying our newest product, ==W==the Horseshoe Fortune Cookie?
+0060 [Kasimira] | What's that?
+0061 [Dessert Shop Clerk] | It's a cookie based on a good-luck legend Trekkers got from inside the Monolith.
+0062 [Dessert Shop Clerk] | Legend says a devil forced a blacksmith to make him shoes, but the smith nailed red-hot horseshoes to his feet, driving him off. So horseshoes came to symbolize protection and luck.
+0063 [Tú] | What a strange legend...
+0064 [Kasimira] | I see... ==W==The devil, horseshoe, and shoes... ==W==I get it now. I'll take one, please.
+0065 [Kasimira] | Not bad at all... ==W==So, what's the fortune inside the cookie?
+0066 [Tú] | What is it this time?
+0067 [Kasimira] | "Ichi-go ichi-e," meaning "once in a lifetime"... ==W==Just as I thought.
+0068 [Kasimira] | Boss, would you stay with me a little longer? I think ... I'm finally ready to do that important thing.
+0069 [Tú] | Of course I will. But... ==W==you still haven't found your lucky charm, have you? "Ichi-go ichi-e"... ==W==Doesn't exactly sound like a good-luck kind of fortune.
+0070 [Kasimira] | No, no—the God of Grace has already given me a sign. I've got my answer now.
+0071 [Kasimira] | Boss, what I'm about to do... I want you to be there as a witness.
+0072 [Tú] | Alright. Since we've come this far, I'll stick with you to the very end.

@@ -1,0 +1,109 @@
+# Historia de Nazuka · 1 · Whispers in the Wind (Part I)
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Anxious Trekker | Anxious Trekker
+N:Energetic Trekker | Energetic Trekker
+N:Flustered Trekker | Flustered Trekker
+N:Skewer Vendor | Skewer Vendor
+N:Souvenir Vendor | Souvenir Vendor
+N:avg1_133 | Nazuka
+N:avg3_100 | Sylar
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_143 | Residente
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Whispers in the Wind (Part I)
+0003 [Intro] | The meaning of the pinwheel gift is a secret that would never be told.
+0004 [Narración] | I'd arranged to patrol the market near the Trekker Camp with Nazuka. But when the time came, she still hadn't shown up...
+0005 [Tú] | I didn't get the time and location wrong, did I?
+0006 [Tú] | It's strange for Nazuka to be late. It's not like her at all...==W== Ah, there she is.
+0007 [Nazuka] | Sorry I'm late. Work got really hectic.
+0008 [Tú] | No worries, I haven't been waiting long. Catch your breath first.
+0009 [Nazuka] | Thanks... Whew...==W== I really am sorry.
+0010 [Tú] | Don't sweat it. I appreciate the thought.
+0011 [Nazuka] | Yeah... Still...
+0012 [Nazuka] | Let me make it up to you, yeah? Like...==W== Is there anything you'd like, Boss?
+0013 [Tú] | Hmmm, since you asked...
+0014 [Nazuka] | Uh...
+0015 [Tú] | It just so happens that I'm a little hungry. How about we grab a meal together?
+0016 [Nazuka] | Ahhh...
+0017 [Nazuka] | M-Maybe later! Let's do our patrol first!
+0018 [Nazuka] | Today's objective is to check if there's anyone suspicious around here.
+0019 [Energetic Trekker] | Lady Nazuka! Thanks for your hard work!
+0020 [Nazuka] | You, too. How's the camp?
+0021 [Energetic Trekker] | Everything's normal so far.
+0022 [Nazuka] | Good. Let me know right away if anything comes up.
+0023 [Skewer Vendor] | Hey, isn't that Nazuka! Come try this! It's a thank-you for all you do for the camp. Your friend can have some too.
+0024 [Nazuka] | Thanks, that's kind of you. We're on patrol right now, though. Maybe later...
+0025 [Skewer Vendor] | Got it. But if you take too long, there might not be any left.
+0026 [Tú] | Well, since it's so nice of you to offer, I'll just try a little bit.
+0027 [Nazuka] | You know we're still on duty, right? Eating while patrolling is a bit...
+0028 [Tú] | It's like they say, you can't work on an empty stomach. And certainly not if someone's stomach keeps growling next to you, either.
+0029 [Tú] | And hey, this counts as your compensation, Okay? Thanks to you, I got to eat this for free.
+0030 [Nazuka] | Sorry, could I have one more skewer?
+0031 [Skewer Vendor] | Sure! Eat as much as you like. My treat. The meat today's top quality.
+0032 [Nazuka] | Well then, don't mind if I do...
+0033 [Nazuka] | This is ...==W== amazing!
+0034 [Skewer Vendor] | Hahaha! Told you! Enjoy it!
+0035 [Nazuka] | Actually... I am kind of hungry. I can focus better on a full stomach. Thank you so much.
+0036 [Tú] | Of course. After all, we all count on you for emergencies, Nazuka.
+0037 [Souvenir Vendor] | Lady Nazuka!==W== Could it be that you are here with your sweetheart?==W== Wow, are you two on a date?
+0038 [Nazuka] | Eh? No, no...==W== ==SEX1== is just here to help me with the patrol.
+0039 [Souvenir Vendor] | Haha, no need to hide it! Oh, by the way, what do you think of this?
+0040 [Tú] | This is...==W== A pinwheel?
+0041 [Souvenir Vendor] | That's right. It's the symbol of Philae! It's a popular keepsake for couples these days, said to have a lovely meaning...
+0042 [Nazuka] | Like I said, we are not in that kind of relationship.
+0043 [Souvenir Vendor] | But you two look perfect together...==W== Then, how about getting this as a gift to bring you two even closer?
+0044 [Nazuka] | I'm this close to getting mad at you.
+0045 [Souvenir Vendor] | Haha, sorry, sorry. I just thought it'd be nice if Lady Nazuka could do some free publicity for us. Oh well~
+0046 [Nazuka] | That's what I thought.==W== ==PLAYER_NAME==, let's go.
+0047 [Tú] | Okay...
+0048 [Tú] | Was it just my imagination, or did she purposely cut that vendor off?
+0049 [Narración] | A few minutes earlier.
+0050 [Narración] | For Nazuka, today's been a hard day to stay calm.
+0051 [Nazuka] | Being late was bad enough, and now her stomach had to rumble on top of it...==W== How careless.
+0052 [Souvenir Vendor] | Lady Nazuka!==W== Could it be that you are here with your sweetheart?==W== Wow, are you two on a date?
+0053 [Nazuka] | Eh? No, no...==W== ==SEX1== is just here to help me with the patrol.
+0054 [Nazuka] | A date!? W-Well, I did meet up with ==SEX4== here, and we did eat skewers together...==W== Do people really think we look like a couple?
+0055 [Souvenir Vendor] | Haha, no need to hide it! Oh, by the way, what do you think of this?
+0056 [Nazuka] | What's this?
+0057 [1] | This is...==W== A pinwheel?
+0058 [Souvenir Vendor] | That's right. It's the symbol of Philae! It's a popular keepsake for couples these days, said to have a lovely meaning...
+0059 [Nazuka] | It's that old local folklore, right?==W== The pinwheel turns with the wind. To exchange them with someone means you're both promising to stay with each other... Which means...
+0060 [Nazuka] | Until death... Do us part.
+0061 [Nazuka] | No... I absolutely cannot let ==PLAYER_NAME== know of this.
+0062 [Nazuka] | Like I said, we are not in that kind of relationship.
+0063 [Souvenir Vendor] | But you two look perfect together...==W== Then, how about getting this as a gift to bring you two even closer?
+0064 [Nazuka] | Look perfect together? Me and ==PLAYER_NAME==? Really...?==W== No, stop it, Nazuka! Get a grip!
+0065 [Nazuka] | I'm this close to getting mad at you.
+0066 [Souvenir Vendor] | Haha, sorry, sorry. I just thought it'd be nice if Lady Nazuka could do some free publicity for us. Oh well~
+0067 [Nazuka] | That's what I thought.==W== ==PLAYER_NAME==, let's go.
+0068 [Nazuka] | So, was that all just sales talk ... or...
+0069 [Tú] | Why has Nazuka gone quiet all of a sudden...
+0070 [Tú] | I knew it... That pinwheel really caught her eye...
+0071 [Tú] | Nazuka, I'm curious...
+0072 [Nazuka] | Hmm?
+0073 [Tú] | Did you interrupt that shopkeeper on purpose?
+0074 [Tú] | Do those pinwheels have some special meaning behind them?
+0075 [Nazuka] | Uh... That's actually...
+0076 [Tú] | !?
+0077 [Flustered Trekker] | What was that sound? Was that an explosion somewhere?
+0078 [Anxious Trekker] | An explosion!? S-Should we run!?
+0079 [Flustered Trekker] | Look! Smoke's rising from the camp entrance!
+0080 [Tú] | What's going on...?
+0081 [Nazuka] | I'll check it out. ==PLAYER_NAME==, please stay here and wait for me.
+0082 [Tú] | Wait! I'm coming, too!==W== Ah, she's already gone. Must be nice to have magic.
+0083 [Tú] | Never mind. Guess I'll walk.
+0084 [Tú] | Where is Nazuka?
+0085 [Nazuka] | Boss, you still followed me.
+0086 [Tú] | I said I'd patrol with you today. I'm not letting you do this alone.
+0087 [Nazuka] | Fair enough. You're never the type to stand by and watch.
+0088 [Tú] | Did you find out what caused the explosion?
+0089 [Nazuka] | Someone tried to attack the market. They were going to break through from that direction. Luckily, no one was hurt.==W== But by the time I got here, the culprits had already fled.
+0090 [Tú] | Sounds like this attack was planned in advance.
+0091 [Nazuka] | They tried to disrupt the peace of this camp... And I won't let them get away.
+0092 [Narración] | Nazuka looked into the distance. Her eyes burned with resolve.
