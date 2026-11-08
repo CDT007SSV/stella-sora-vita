@@ -242,7 +242,7 @@ function tf(st,o,k0){
 function stopShakes(){try{el.getAnimations({subtree:true}).forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}}
 function shake(e,n,k){
   try{e.getAnimations().forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}
-  if(!n||n==="stop"||n==="still")return;
+  if(!n||n==="stop"||n==="still"||(window.ssvCfg&&ssvCfg("sh")===0))return;
   const p=(SH[k]||{})[n];if(!(p instanceof Array)||!e.animate)return;
   const sx=p[0]||0,sy=p[1]||0,du=p[2]||.3,vb=p[3]||2,lp=p[4],u=S.u/10.8,N=Math.max(2,Math.round(vb*2)),f=[];
   for(let i=0;i<=N;i++){const d=lp?1:1-i/N,g=i%2?-1:1;f.push({translate:(g*sx*d*u)+"px "+(g*sy*d*u)+"px"})}
@@ -272,7 +272,7 @@ function bgUrl(n){ /* devuelve la URL ya conocida (string), null si no existe, o
     const im=new Image();im.referrerPolicy="no-referrer";
     im.onload=()=>{BGC[n]=l[i];res(l[i])};im.onerror=()=>probar(i+1);im.src=l[i]};probar(0)});
   return BGC[n]=p}
-function precargaBg(steps){const v=new Set();(function r(a){for(const s of a||[]){if(!(s instanceof Array))continue;if(s[0]==="bg"&&typeof s[1]==="string"&&!/^(BG_)?(Black|White)/i.test(s[1]))v.add(s[1]);if(s[0]==="choice"&&s[2])s[2].forEach(r)}})(steps);[...v].slice(0,60).forEach(n=>bgUrl(n))}
+function precargaBg(steps){if(window.ssvCfg&&ssvCfg("pre")===0)return;const v=new Set();(function r(a){for(const s of a||[]){if(!(s instanceof Array))continue;if(s[0]==="bg"&&typeof s[1]==="string"&&!/^(BG_)?(Black|White)/i.test(s[1]))v.add(s[1]);if(s[0]==="choice"&&s[2])s[2].forEach(r)}})(steps);[...v].slice(0,60).forEach(n=>bgUrl(n))}
 function stage(i,io){
   const e=sg(i);if(!e||!i)return;
   e.classList.toggle("on",io===0);
@@ -584,7 +584,7 @@ window.abrirLector=async function(id){try{await window.__meta}catch(e){}
   await iniciar(id,null,!!CAPS[chOf(id)]);
 };
 /* precarga: baja los sprites de la historia por adelantado, de 3 en 3, en el orden en que aparecen */
-function precarga(steps,tok){
+function precarga(steps,tok){if(window.ssvCfg&&ssvCfg("pre")===0)return;
   const u=[],vis=new Set();
   (function rec(a){(a||[]).forEach(s=>{
     if(!Array.isArray(s))return;

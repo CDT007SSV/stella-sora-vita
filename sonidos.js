@@ -18,5 +18,6 @@ function icon(){const b=document.getElementById("nsnd");if(!b)return;b.innerHTML
 function init(){const b=document.getElementById("nsnd");if(b){icon();b.addEventListener("click",ev=>{ev.stopPropagation();on=!on;try{localStorage.setItem(K,on?"1":"0")}catch(e){}icon();if(on)vs=0,vita()})}
   get("vita");setTimeout(vita,700)}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
-window.ssvSnd={play,vita};
+function set(v){on=!!v;try{localStorage.setItem(K,on?"1":"0")}catch(e){}if(on)vs=0,vita()}
+window.ssvSnd={play,vita,set,get:()=>on};
 })();
