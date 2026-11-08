@@ -618,6 +618,15 @@ async function txCap(ch){
   t.split(/\r?\n/).forEach(l=>{const m=l.match(/^\s*(@?[\w]+)\s*\|\s?(.*)$/);if(!m)return;const k=m[1],v=m[2].trim();if(!v)return;
     CTX[ch][k]=v;if(k[0]!=="@"&&NOMB[k]){const n=NOMB[k],i=n.indexOf(" · ");NOMB[k]=/^Final: /.test(n)?"Final: "+v:(i>=0?n.slice(0,i+3)+v:v)}});
 }
+let AUTO=null;
+async function avisoAuto(id){
+  try{if(!AUTO){const t=await txGet("textos/_auto.txt");AUTO=(t||"").split(/\r?\n/).map(x=>x.trim()).filter(Boolean)}
+    if(!AUTO.includes("textos/"+id+".txt")&&!AUTO.includes("textos/"+chOf(id)+".txt"))return;
+    const o=el.querySelector(".rd-auto")||document.createElement("div");o.className="rd-auto";
+    o.textContent="Traducción automática, en revisión";
+    o.style.cssText="position:absolute;top:calc(env(safe-area-inset-top,0px) + 8px);left:50%;transform:translateX(-50%);z-index:30;padding:5px 12px;border-radius:14px;background:rgba(20,16,50,.85);border:1px solid #3a3560;color:#cfc8ff;font-size:.72rem;pointer-events:none;transition:opacity .6s;opacity:1";
+    el.appendChild(o);setTimeout(()=>{o.style.opacity=0},5000);setTimeout(()=>o.remove(),5800)}catch(e){}
+}
 async function iniciar(id,prev,hold){
   let d;try{const r=await fetch("lector-"+id+".json");if(!r.ok)throw 0;d=await r.json()}catch(e){alert("No se pudo cargar la historia.");return}
   if(d.tx){d.id=d.id||id;await Promise.all([txActo(d),txCap(chOf(id))])}
@@ -629,6 +638,6 @@ async function iniciar(id,prev,hold){
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
   el.querySelector(".rd-fxl").innerHTML="";el.querySelector(".rd-cur").style.opacity=0;el.querySelector(".rd-box").style.visibility="";
   S.mc=0;if(prev)S.vp=prev.vp;try{const mv=document.querySelector('meta[name=viewport]');if(mv&&!/viewport-fit/.test(mv.content)){S.vp=mv.content;mv.content=mv.content+",viewport-fit=cover"}}catch(e){}
-  btnG();btnM();btnZ();btnE();btnF();try{precarga(d.steps,S.pt);precargaBg(d.steps)}catch(x){}card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();
+  btnG();btnM();btnZ();btnE();btnF();try{precarga(d.steps,S.pt);precargaBg(d.steps)}catch(x){}card(false);el.classList.add("on");stopShakes();fit();setTimeout(fit,400);if(hold)actos(true);else avanza();avisoAuto(id);
 }
 })();
