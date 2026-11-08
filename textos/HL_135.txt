@@ -1,0 +1,319 @@
+# Heartlink de Mistique: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Mistique] | Heyyyyy! Mistique here on the EXCLUSIVE line!
+A01.0002 [Mistique] | Got any hot scoops? Lemme know FIRST!
+A01.0003 [Tú] | SURE THING!
+
+## Conversación A02
+A02.0001 [Mistique] | u free?
+A02.0002 [Mistique] | r u free?? u free? u free? u free? HELLOOO???
+A02.0003 [Opción] | Stop spamming
+A02.0004 [Opción] | What's the emergency?
+A02.0005 [Opción] | busy busy busy busy busy busy
+A02.0006 [Mistique] | Finally! I got BIG NEWS!
+A02.0007 [Mistique] | Nah no emergency, just BIG NEWS!
+A02.0008 [Mistique] | BIG NEWS BIG NEWS BIG NEWS!!!!!
+A02.0009 [Mistique] | Trekker saw phantoms of "people they know" inside the Monolith!
+A02.0010 [Mistique] | Which means I might run into ANOTHER ME!
+A02.0011 [Mistique] | Take me with you!! You must know the Monolith inside out by now, right?
+A02.0012 [Opción] | Uh, I'm still pretty new to this...
+A02.0013 [Opción] | Our guild just started...
+A02.0014 [Opción] | YOU should take the lead
+A02.0015 [Mistique] | Sweet! Just don't forget to invite me on your next adventure, k?
+
+## Conversación A03
+A03.0001 [Mistique] | Counting on you for today's interview!
+A03.0002 [Mistique] | Just text me back right here, okay? hehe
+A03.0003 [Opción] | What's the question?
+A03.0004 [Opción] | Uh, when did I agree to this??
+A03.0005 [Opción] | Sorry, we failed to deliver your message.
+A03.0006 [Mistique] | Whoa, no need to be so formal!
+A03.0007 [Mistique] | U can just say yes now!
+A03.0008 [Mistique] | Heh! Nice try, but u can't hide from my sources!
+A03.0009 [Mistique] | Okay, here it comes! So tell me, Boss:
+A03.0010 [Mistique] | What exactly motivated you to become the Boss of Tyrant Accord?
+A03.0011 [Mistique] | Don't wanna talk about it?
+A03.0012 [Opción] | To protect more Trekkers!
+A03.0013 [Opción] | To make more money!
+A03.0014 [Opción] | To meet more lovely ladies!
+A03.0015 [Mistique] | Whoa, that's...a really serious answer
+A03.0016 [Mistique] | Kinda makes things awkward. People these days want spice, not straightforward heroics...
+A03.0017 [Mistique] | Ooooh, I get it. So the Boss needs funding just as much as followers...
+A03.0018 [Mistique] | Sounds like a juicy conspiracy! This is gonna make a huge headline!
+A03.0019 [Mistique] | GASP! SCANDAL ALERT! So that's the REAL reason tons of ladies gather under the Tyrant Accord!
+A03.0020 [Mistique] | Hey!! C'mon, I'm trying to do a serious interview here! News needs FACTS!
+A03.0021 [Tú] | It's kinda complicated. Hard to explain in a text.
+A03.0022 [Mistique] | Fair point. Guess I need more than just a quick chat to write a really good story...
+A03.0023 [Mistique] | Anyway, thx! Catch ya for the next interview!
+A03.0024 [Mistique] | I'll pay you for the interview next time!
+
+## Conversación A04
+A04.0001 [Mistique] | Helllooooo?
+A04.0002 [Mistique] | Anyone there?
+A04.0003 [Opción] | What's up this time?
+A04.0004 [Opción] | Miss me already?
+A04.0005 [Opción] | Helllooooo?
+A04.0006 [Mistique] | Great! Wait no, actually it's terrible.
+A04.0007 [Mistique] | Ugh, I don't think I can finish this story anymore
+A04.0008 [Tú] | What's wrong?
+A04.0009 [Mistique] | The victim doesn't wanna be named, and the suspect is still out there
+A04.0010 [Mistique] | Even the Guards' getting nowhere. What good is my writing gonna do? I'm just a witch with a pen.
+A04.0011 [Mistique] | Makes me wonder if any of this is even worth it...
+A04.0012 [Opción] | A witch brings truth to light
+A04.0013 [Opción] | A witch always helps the people
+A04.0014 [Opción] | A witch creates drama
+A04.0015 [Mistique] | Whoa, you think that highly of me?!
+A04.0016 [Mistique] | I dunno if I deserve such a noble title yet!
+A04.0017 [Mistique] | Well yeah, hehe, it's a bonus!
+A04.0018 [Mistique] | Everyone deserves to know what's really going on!
+A04.0019 [Mistique] | LOLOLOLOL
+A04.0020 [Mistique] | We don't stir the drama, we just deliver it piping hot!
+A04.0021 [Mistique] | Thanks!
+A04.0022 [Mistique] | Seriously, chatting with you made me feel way better
+A04.0023 [Mistique] | A witch can't let a little trouble scare her off!
+
+## Conversación A05
+A05.0001 [Mistique] | Heyyyy! Boss! Whatcha doing?
+A05.0002 [Opción] | Grinding away over here.
+A05.0003 [Opción] | Making big money
+A05.0004 [Opción] | Trying to catch some Zs
+A05.0005 [Mistique] | Such a hard worker! Love it!
+A05.0006 [Mistique] | Hey, wanna swing by later? Got some new pics to show ya!
+A05.0007 [Opción] | Can't wait to see your masterpiece!
+A05.0008 [Opción] | They aren't just selfies, are they...
+A05.0009 [Opción] | Are these for me?
+A05.0010 [Mistique] | Finally, someone with taste! Gonna run all my pics by you first now!
+A05.0011 [Mistique] | I'm not that vain, okay?!
+A05.0012 [Mistique] | Well...okay, maybe! But lemme print some more copies first!
+A05.0013 [Mistique] | I'll broom over later to grab ya!
+A05.0014 [Mistique] | Know you're swamped, but take care of yourself, okay?
+
+## Conversación A06
+A06.0001 [Mistique] | Soooo... I heard they literally dug you out of the Monolith?
+A06.0002 [Opción] | Yeah...still trying to figure that part out myself
+A06.0003 [Opción] | Yep. Pretty wild, right?
+A06.0004 [Opción] | False! I actually fell from the sky like a star.
+A06.0005 [Mistique] | Ah, memory loss... It's practically a Trekker starter pack item.
+A06.0006 [Mistique] | Totally wild! That's pure headline gold!
+A06.0007 [Mistique] | Haha, so you ride broomsticks like me?
+A06.0008 [Mistique] | THE BOSS'S LEGENDARY JOURNEY—EXCLUSIVE INTERVIEW!
+A06.0009 [Mistique] | Love the headline...but where should I even start...
+A06.0010 [Mistique] | C'mon, I've been your loyal groupie for so long! At least give me this scoop!
+A06.0011 [Opción] | Isn't that headline a little dramatic?
+A06.0012 [Opción] | Make sure that interview fee hits my account!
+A06.0013 [Opción] | I'm actually hurt! I thought our friendship goes beyond!
+A06.0014 [Mistique] | Heheheh … you can't run...
+A06.0015 [Mistique] | Gonna keep you right where I want you...
+A06.0016 [Mistique] | And sloooowly uncover ALL your secrets!!! Mwahaha!
+A06.0017 [Mistique] | I'm gonna embed myself in your life, dig up your past, and be THERE for every single future plot twist!
+A06.0018 [Tú] | Good luck with that!
+A06.0019 [Mistique] | Don't think this'll be easy on you!
+A06.0020 [Mistique] | Seriously, if anything big happens, don't let the scoop happen without me there!
+
+## Conversación A07
+A07.0001 [Mistique] | I'm so done with this job!
+A07.0002 [Tú] | What's wrong?
+A07.0003 [Mistique] | Whyyyy do I always miss the big news?!
+A07.0004 [Mistique] | Meanwhile, you're headline material wherever you go!
+A07.0005 [Opción] | News doesn't just fall outta the sky!
+A07.0006 [Opción] | You could BE the news
+A07.0007 [Opción] | Stick with me, then
+A07.0008 [Mistique] | True... If I just keep following you...
+A07.0009 [Mistique] | Promise you won't get totally sick of me tho?
+A07.0010 [Mistique] | Like, your official witch-on-the-scene reporter...
+A07.0011 [Mistique] | A witch, right in the middle of the action...
+A07.0012 [Mistique] | The Witch and the Boss...
+A07.0013 [Mistique] | Hmph! I'm always spilling the tea for you. Where's your juicy gossip?!
+A07.0014 [Opción] | My story isn't juicy enough
+A07.0015 [Opción] | I'm not ready to share
+A07.0016 [Opción] | Mystery is part of my charm
+A07.0017 [Mistique] | BREAKING NEWS: Brilliant Witch Defeated by Silver-Tongued Boss!
+A07.0018 [Mistique] | Gave It Her All, But Still No Scoop!
+A07.0019 [Mistique] | I'm playing the long game tho.
+A07.0020 [Mistique] | I can wait for the day you spill everything...
+
+## Conversación A08
+
+## Conversación A09
+A09.0001 [Mistique] | Ohohoho! This witch is totally leveling up her game lately!
+A09.0002 [Mistique] | Ever since we teamed up, everything's been going so much better!
+A09.0003 [Opción] | Must treat this top-tier witch with respect!
+A09.0004 [Opción] | You're my trusty partner in crime!
+A09.0005 [Opción] | My life's counting on you
+A09.0006 [Mistique] | The legendary Witch and the fabled Boss … hehehe
+A09.0007 [Mistique] | Never thought the reporter chasing news would end up being news!
+A09.0008 [Mistique] | Let's find some more chaos to get into!
+A09.0009 [Mistique] | Make a splash in this world!
+
+## Conversación A10
+A10.0001 [Mistique] | My dreams … a witch's dreams
+A10.0002 [Mistique] | They're filled with wondrous flavors.
+A10.0003 [Mistique] | Lanterna, Pumpka... Wish this witch packed more magic sometimes...
+A10.0004 [Opción] | Isn't your magic already strong?
+A10.0005 [Opción] | What crazy scheme are you cooking up?
+A10.0006 [Opción] | Belief makes it real
+A10.0007 [Mistique] | Are you kidding?! It's all flash! I need wayyy more...
+A10.0008 [Mistique] | Heheheh, just imagine if I had the power to make actual miracles happen...
+A10.0009 [Mistique] | Seriously?! Magic is really that easy to get?!
+A10.0010 [Mistique] | Hypothetically, if I ever turned into some kinda big bad villain, would you hunt me down?
+A10.0011 [Mistique] | Just curious. Hehehehehe
+A10.0012 [Mistique] | Being a witch means anything is possible!
+
+## Conversación B01
+B01.0001 [Mistique] | AHHH!!!
+B01.0002 [Mistique] | Boss!!! I'm literally dying over here!
+B01.0003 [Opción] | What's got you so beat?
+B01.0004 [Opción] | Look on the bright side
+B01.0005 [Tú] | Look on the bright side.
+B01.0006 [Tú] | If you drop dead on the job, the workers' comp payout will be huge.
+B01.0007 [Mistique] | Wow. Heartless that much?
+B01.0008 [Mistique] | I am a witch dedicated to THE TRUTH!
+B01.0009 [Mistique] | If I die, it's a massive loss for the whole Nova!
+B01.0010 [Tú] | Hahaha
+B01.0011 [Tú] | Just kidding.
+B01.0012 [Tú] | But seriously, what are you working on?
+B01.0013 [Mistique] | That investigative report on the underground Magical Girls
+B01.0014 [Mistique] | Company wants to "optimize our promo strategy" for that sector
+B01.0015 [Mistique] | So naturally, they dumped all the research on me
+B01.0016 [Mistique] | Not only do I have to do the field visits
+B01.0017 [Mistique] | I also have to pull all-nighters writing it up
+B01.0018 [Tú] | Oof. That's rough.
+B01.0019 [Mistique] | Tell me about it...
+B01.0020 [Tú] | Hang in there!
+B01.0021 [Tú] | When you're done, let's go grab some drinks!
+B01.0022 [Mistique] | Yessss!!!
+
+## Conversación B02
+B02.0001 [Mistique] | Thinking of upgrading my photo capturer
+B02.0002 [Tú] | What's up?
+B02.0003 [Tú] | Is your current one giving you trouble?
+B02.0004 [Mistique] | Nope
+B02.0005 [Mistique] | Just saw the latest model at the store
+B02.0006 [Mistique] | It looks way smaller and has a ton more features
+B02.0007 [Tú] | But...?
+B02.0008 [Mistique] | It costs a fortune!
+B02.0009 [Mistique] | That's like six months of my writing fees. I'd have to starve just to afford it
+B02.0010 [Tú] | You could just go to the Monolith and wish for a new one
+B02.0011 [Mistique] | But what if the one I wish for ends up worse than the one I have?
+B02.0012 [Mistique] | Actually, now that I look at my old one
+B02.0013 [Mistique] | It's not like it's unusable
+B02.0014 [Mistique] | It still works pretty great
+B02.0015 [Tú] | Don't fall into the consumerism trap.
+B02.0016 [Mistique] | You're right!
+B02.0017 [Mistique] | I'll pass
+
+## Conversación B03
+B03.0001 [Mistique] | Hey Boss!
+B03.0002 [Mistique] | Where are you?
+B03.0003 [Opción] | Why?
+B03.0004 [Opción] | Inside Loxy
+B03.0005 [Tú] | Inside Loxy.
+B03.0006 [Mistique] | Notice anything weird on South Street in the Ash District? Like way too many people?
+B03.0007 [Tú] | Maybe?
+B03.0008 [Tú] | I do see a crowd heading that way.
+B03.0009 [Mistique] | Follow them. Now
+B03.0010 [Mistique] | Find out what's happening
+B03.0011 [Mistique] | Report back to me the second you know
+B03.0012 [Tú] | Shouldn't a star witch be handling this herself?
+B03.0013 [Mistique] | Ugh, I'm undercover at a factory
+B03.0014 [Mistique] | Stuck here I'm afraid
+B03.0015 [Mistique] | Do this for me, please?
+B03.0016 [Mistique] | And snap a few pics while you're at it
+B03.0017 [Mistique] | You're the best, Boss!
+B03.0018 [Mistique] | Dinner's on me!
+
+## Conversación B04
+B04.0001 [Mistique] | Hehehe
+B04.0002 [Mistique] | Hehehe
+B04.0003 [Mistique] | Hehehe
+B04.0004 [Opción] | What's with the snickering?
+B04.0005 [Opción] | Hehehe
+B04.0006 [Mistique] | Never mind.
+B04.0007 [Mistique] | It's just...
+B04.0008 [Mistique] | You won't be laughing for long
+B04.0009 [Tú] | ?
+B04.0010 [Mistique] | BREAKING NEWS!
+B04.0011 [Mistique] | Boss Accord CEO Caught Littering Outside United Harvest HQ!
+B04.0012 [Tú] | ?
+B04.0013 [Tú] | Says who?
+B04.0014 [Tú] | I did not!
+B04.0015 [Tú] | News is supposed to be based on facts!
+B04.0016 [Tú] | You can't just make stuff up!
+B04.0017 [Mistique] | But you totally did, though?
+B04.0018 [Mistique] | I've even got pics!
+B04.0019 [Mistique] | Wanna see?
+B04.0020 [Tú] | ?
+B04.0021 [Tú] | I didn't!
+B04.0022 [Mistique] | For real?
+B04.0023 [Mistique] | Try to remember
+B04.0024 [Tú] | Okay fine, I tossed a can.
+B04.0025 [Tú] | But it went in the bin!
+B04.0026 [Mistique] | Are you reeeally sure?
+B04.0027 [Tú] | ...
+B04.0028 [Tú] | I missed the first time.
+B04.0029 [Tú] | But I picked it up and got it in the bin!
+B04.0030 [Mistique] | See? Was that so hard?
+B04.0031 [Tú] | That's taking things completely out of context!
+B04.0032 [Mistique] | Who cares about context once the story is out?
+B04.0033 [Tú] | Hold on.
+B04.0034 [Tú] | You were following me again!
+B04.0035 [Mistique] | Wasn't me
+B04.0036 [Mistique] | Got a tip from a concerned citizen
+B04.0037 [Tú] | There was nobody else at United Harvest that day.
+B04.0038 [Tú] | What citizen?!
+B04.0039 [Mistique] | Haha, just messing with you
+B04.0040 [Mistique] | Okay, I was following you. But I didn't take any pictures
+B04.0041 [Mistique] | Still, for a CEO, you're not great at handling bad press
+B04.0042 [Mistique] | You should hire me as your personal PR consultant
+B04.0043 [Tú] | Aren't you the source of all my bad press?
+
+## Conversación B05
+B05.0001 [Mistique] | Got any juicy scoops happening lately, Boss?
+B05.0002 [Opción] | Oh yeah, tons
+B05.0003 [Opción] | What for?
+B05.0004 [Opción] | Nope
+B05.0005 [Tú] | Oh yeah, tons.
+B05.0006 [Mistique] | Spill! Spill!
+B05.0007 [Mistique] | Lemme see if it's print-worthy
+B05.0008 [Tú] | It's just boring daily trivia. Who'd want to read about that?
+B05.0009 [Mistique] | Lemme see if it's print-worthy
+B05.0010 [Tú] | Nothing news-worthy here.
+B05.0011 [Tú] | Nope.
+B05.0012 [Mistique] | Really? Nothing at all?
+B05.0013 [Mistique] | If I don't write something soon
+B05.0014 [Mistique] | I can kiss next month's paycheck goodbye
+B05.0015 [Mistique] | No money means...
+B05.0016 [Tú] | Fine, fine.
+B05.0017 [Tú] | But seriously, it's all just boring trivia.
+B05.0018 [Tú] | Nothing worth reporting.
+B05.0019 [Mistique] | No no no
+B05.0020 [Mistique] | For a big-shot entrepreneur like you,
+B05.0021 [Mistique] | even the weeds in your garden are headline material!
+B05.0022 [Tú] | Then I definitely shouldn't tell you anything.
+B05.0023 [Tú] | Also
+B05.0024 [Tú] | I'm charging you an Information Access Fee!
+B05.0025 [Mistique] | Oki!
+B05.0026 [Mistique] | Boss Exposed as Heartless Profiteer!
+B05.0027 [Mistique] | That's my headline!
+B05.0028 [Tú] | ?
+
+## Conversación B06
+B06.0001 [Mistique] | You know what's the best part
+B06.0002 [Mistique] | about being a witch like me?
+B06.0003 [Opción] | Being the envy of many?
+B06.0004 [Opción] | No clue
+B06.0005 [Mistique] | Nope, wrong
+B06.0006 [Tú] | No clue.
+B06.0007 [Mistique] | Heh
+B06.0008 [Mistique] | It's getting the exclusive scoop before anyone else
+B06.0009 [Tú] | Oh?
+B06.0010 [Mistique] | A super cheap drink spot just popped up in the Silver District
+B06.0011 [Mistique] | Their chocolate coffee slushies are to die for
+B06.0012 [Mistique] | We gotta go try it
+B06.0013 [Mistique] | before it blows up and the lines get crazy!
+B06.0014 [Tú] | Sit tight.
+B06.0015 [Tú] | On my way.

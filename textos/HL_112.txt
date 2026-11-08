@@ -1,0 +1,353 @@
+# Heartlink de Noya: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Noya] | Heya heya!
+A01.0002 [Noya] | Let me know if you get this, ==PLAYER_NAME==!
+A01.0003 [Opción] | Yup, message received
+A01.0004 [Opción] | No, I haven't received it
+A01.0005 [Tú] | Yup, message received
+A01.0006 [Noya] | Eh? Is it a bug on my end?
+A01.0007 [Tú] | No, I just sent it twice because I was so excited
+A01.0008 [Noya] | Heh, I did the same thing when I used a cellphone for the first time
+A01.0009 [Noya] | I even broke the "send" button
+A01.0010 [Noya] | Huh? No? Is there something wrong with this phone?
+A01.0011 [Noya] | How much does a new cellphone cost?
+A01.0012 [Noya] | Maybe ask Iris later
+A01.0013 [Noya] | Wait a minute! You did get my message!
+A01.0014 [Tú] | I think there's candy inside my pocket. Interested?
+A01.0015 [Noya] | Sure!!
+A01.0016 [Noya] | Oh, I almost forgot the important stuff
+A01.0017 [Noya] | If you feel unwell for any reason at all, let us know, okay?
+A01.0018 [Noya] | We'll take good care of you since we brought you out of the Monolith!
+
+## Conversación A02
+A02.0001 [Noya] | Awww, the Tawny Nightingale today... It was like eating sawdust.
+A02.0002 [Opción] | Maybe it's been left out too long?
+A02.0003 [Tú] | Maybe it's been left out too long and expired.
+A02.0004 [Noya] | I don't think so... Every time we go shopping, Iris makes it a point to test the bread's texture
+A02.0005 [Noya] | She picks the relative soft ones because they are fresher
+A02.0006 [Noya] | If Tawny Nightingale sits out there for too long, its texture will go from woody to stony
+A02.0007 [Tú] | Ah, another pro life tip
+A02.0008 [Noya] | This bread is shockingly packed with sawdust, it feels like I'm chewing on wood
+A02.0009 [Noya] | I really miss the time when we got unbelievably lucky and managed to buy a bag of Tawny Nightingale that was actually soft...
+A02.0010 [Noya] | Even though we paid for it with several days worth of bad luck afterwards
+A02.0011 [Noya] | If I could reverse time and go back, I would still...pick up that bag of bread...
+A02.0012 [Tú] | Enough!
+A02.0013 [Tú] | Our first priority must be improving our food supply!
+A02.0014 [Noya] | Hey, ==PLAYER_NAME==, are you going to make it rain Dorra for us?
+A02.0015 [Tú] | Is there any way to improve our luck?
+A02.0016 [Noya] | Huh?
+A02.0017 [Tú] | Of course, making money is important,
+A02.0018 [Tú] | But when it comes to Tawny Nightingale, luck might be even more crucial
+A02.0019 [Tú] | We need to tackle the problem from both sides!
+A02.0020 [Noya] | You're totally right!
+A02.0021 [Noya] | Let's ask Amber and Iris and see if they have any ideas!
+
+## Conversación A03
+A03.0001 [Noya] | I can't find it... I can't find my film reel!!
+A03.0002 [Opción] | Don't rush, take your time and think about where you put it last
+A03.0003 [Opción] | What film reel? When did you last see it? Could it have just been misplaced?
+A03.0004 [Tú] | Could it be underneath that pile of cushions inside Loxy?
+A03.0005 [Tú] | Somebody left a Runic Disc there last time
+A03.0006 [Tú] | I almost sat on it and broke it
+A03.0007 [Noya] | I checked. It's not there...
+A03.0008 [Noya] | Wow, that's a lot of questions all at once
+A03.0009 [Noya] | Let me think...
+A03.0010 [Noya] | It is called The Bear Squad. I watched it so many times!
+A03.0011 [Noya] | After watching it last time, I put it...
+A03.0012 [Noya] | I can't remember at all...
+A03.0013 [Noya] | AHHH!!
+A03.0014 [Tú] | ?
+A03.0015 [Noya] | Iris found it!
+A03.0016 [Tú] | Where was it?
+A03.0017 [Noya] | The gap between sofa cushions... The black case blended right into the shadows. The perfect hiding spot for it!
+A03.0018 [Noya] | Luckily, Iris was reaching in underneath to grab a Dorra. She stretched her hand all the way in and found it
+A03.0019 [Noya] | I would have been so sad if I lost The Bear Squad...
+A03.0020 [Tú] | There's an empty space under the armchair. Just use that as its designated spot from now~
+A03.0021 [Tú] | That way, you'll never lose it again
+A03.0022 [Noya] | Yeah!
+
+## Conversación A04
+A04.0001 [Noya] | I had terrible nightmare last night...
+A04.0002 [Opción] | Must have been really bad to have scared you like this, Noya
+A04.0003 [Noya] | Loxy vs Braude...
+A04.0004 [Tú] | Huh?
+A04.0005 [Noya] | I dreamed that Loxy transformed into an Autobot
+A04.0006 [Noya] | And got into a big fight with Braude!
+A04.0007 [Tú] | Braude? I seem to recall...
+A04.0008 [Noya] | It's the name of the teddy bear that I carry with me
+A04.0009 [Noya] | In my dream, it grew really big, even bigger than a Monolith. It broke the Monolith in the city center of Emor in half with a single paw swipe
+A04.0010 [Noya] | But Loxy wasn't ready to admit defeat. It dragged Braude and they broke the Waterway
+A04.0011 [Noya] | Loxy's antifreeze and Braude's cotton stuffing were scattered all over the place...
+A04.0012 [Noya] | Seeing that made me so sad!!
+A04.0013 [Tú] | Who won in the end?
+A04.0014 [Noya] | I don't know. By the time they got to round 23, Emor's Monolith exploded
+A04.0015 [Noya] | Braude held Loxy in the arms, crying, as they both died in the flames together...
+A04.0016 [Tú] | I'm getting the feeling that a lot happened during those 23 rounds...
+A04.0017 [Noya] | I can tell you all that I remember!
+A04.0018 [Noya] | Typing is too slow. I'll switch to talking~
+
+## Conversación A05
+A05.0001 [Noya] | We found something amazing on our shopping trip today! Guess what it is!
+A05.0002 [Opción] | Antifreeze
+A05.0003 [Opción] | Butter cookies
+A05.0004 [Opción] | Kitty cookies
+A05.0005 [Tú] | The antifreeze that you've wanted for so long?
+A05.0006 [Noya] | Nope!
+A05.0007 [Tú] | Freshly baked butter cookies?
+A05.0008 [Noya] | Nope!
+A05.0009 [Tú] | Cookies with cute kitten designs on them?
+A05.0010 [Noya] | Nope!
+A05.0011 [Tú] | Then what?
+A05.0012 [Noya] | What we got was—
+A05.0013 [Noya] | A fresh, juicy big steak!!!!
+A05.0014 [Tú] | You mean...
+A05.0015 [Noya] | I'll cook the steak tonight~~
+A05.0016 [Tú] | Yay! Finally, a break from Tawny Nightingale!!!
+A05.0017 [Tú] | After so many years, Noya is cooking for us once more...
+A05.0018 [Noya] | You're overreacting. It's only been a month.
+A05.0019 [Tú] | When you're chewing on wood, a day sure feels like a year...
+A05.0020 [Noya] | You should eat extra today!
+A05.0021 [Tú] | No, let's stick to the usual and decide the winner with rock-paper-scissors!
+A05.0022 [Noya] | Then get ready for me to ten-peat!
+
+## Conversación A06
+A06.0001 [Noya] | Farewell, my youth~~
+A06.0002 [Opción] | What's gotten into you?
+A06.0003 [Noya] | This story I was following on "Trekker's Story Collection," it just ended!
+A06.0004 [Tú] | Even your punctuations are telling...
+A06.0005 [Tú] | Oh, you mean that side story from the Twin Stars series?
+A06.0006 [Noya] | Sob... Yes, that's the one...
+A06.0007 [Noya] | I thought the author wrote the side story because they wanted to make up for the original ending...
+A06.0008 [Noya] | How naive I was
+A06.0009 [Noya] | In the end, Galavera still didn't get her star
+A06.0010 [Tú] | But as long as she holds onto her dream, it's not the end
+A06.0011 [Noya] | Yes! You're right!
+A06.0012 [Noya] | Galavera and Daria's adventures haven't ended
+A06.0013 [Noya] | I'm gonna go get Iris
+A06.0014 [Noya] | I'm going to get her to send a letter to the magazine for me. Maybe the author will write a side story to the side story!
+
+## Conversación A07
+A07.0001 [Noya] | Boss
+A07.0002 [Noya] | Iris went to take another certificate exam today
+A07.0003 [Noya] | And I think Amber is taking care of a cat that's just given birth to a litter
+A07.0004 [Noya] | In other words, we are in charge of watching over Loxy
+A07.0005 [Opción] | What you mean?
+A07.0006 [Opción] | Ah yeah I get it
+A07.0007 [Tú] | Are you implying something, Noya?
+A07.0008 [Noya] | Cast your mind back to the last time we were in charge of the RV
+A07.0009 [Noya] | What did we do?
+A07.0010 [Tú] | We got scammed by someone faking an accident on the road
+A07.0011 [Tú] | We spent the better part of the day doing repairs
+A07.0012 [Noya] | That's not what I meant!
+A07.0013 [Tú] | Oh... You mean you want to...
+A07.0014 [Tú] | You mean you want to...
+A07.0015 [Tú] | Take Loxy to go on a joyride again?
+A07.0016 [Noya] | Teehee!
+A07.0017 [Noya] | I promise I'll drive slow this time
+A07.0018 [Noya] | See, I've got Iris' recording with me
+A07.0019 [Tú] | You came prepared... You want to drive that bad?
+A07.0020 [Noya] | Yeah!
+A07.0021 [Noya] | Heck yeah!!!!
+A07.0022 [Tú] | Alright then
+A07.0023 [Tú] | To tell you the truth, I do miss the rush of driving like maniacs
+A07.0024 [Tú] | It's like the wildest dream
+A07.0025 [Noya] | Let's gooooo~
+
+## Conversación A08
+A08.0001 [Noya] | Peach or sweet orange?
+A08.0002 [Noya] | How about lemon?
+A08.0003 [Noya] | Grape sounds tasty, too...
+A08.0004 [Noya] | Cola? What kind of flavor is that?
+A08.0005 [Noya] | Wait wait wait, where did all these Pep Pep Juice come from?
+A08.0006 [Opción] | It's your birthday, Noya, you can have any Pep Pep that you want
+A08.0007 [Noya] | Wow!!
+A08.0008 [Noya] | In that case... Can I take the whole shebang?
+A08.0009 [Tú] | Of course. Whatever you ask, you shall receive!
+A08.0010 [Noya] | Thank you, Boss!
+A08.0011 [Noya] | Did it take you long to collect all these?
+A08.0012 [Tú] | It wasn't too bad. I just found a Monolith which produced a lot of these
+A08.0013 [Tú] | Amber and Iris did the collecting.
+A08.0014 [Tú] | I was in charge of transport!
+A08.0015 [Noya] | Then I'll wait for them to come back before opening any of these~
+A08.0016 [Tú] | You don't want to try the new flavors right away?
+A08.0017 [Noya] | These came from you all. I want to share them with all of you!
+
+## Conversación A09
+A09.0001 [Noya] | Next time, maybe we can take higher level commissions!
+A09.0002 [Noya] | I'm, SUPER STRONG now!
+A09.0003 [Opción] | Now you get to read a few more volumes of The Trekker's Handwritten Encyclopedia!
+A09.0004 [Opción] | Here's a trophy for you, the ultimate hardworking Trekker!
+A09.0005 [Opción] | Please accept these energy drinks!
+A09.0006 [Noya] | I have a hard time processing the text. Maybe take a break?
+A09.0007 [Noya] | Thank you, thank you~
+A09.0008 [Noya] | So many all at once?!
+A09.0009 [Tú] | Level up and grow stronger!
+A09.0010 [Tú] | Just like the level 999 Cryo in Tamago Pet!
+A09.0011 [Noya] | Level 999 Cryo... Doesn't sound all that powerful.
+
+## Conversación A10
+A10.0001 [Noya] | Wow, without realizing it, we've already collected so many Runic Discs
+A10.0002 [Noya] | Especially these. They have us three on the cover
+A10.0003 [Opción] | Must be some good memories
+A10.0004 [Noya] | Be they good or bad, as long as I can recall something that we did together
+A10.0005 [Noya] | I consider that lucky enough!
+A10.0006 [Tú] | I also think it's very lucky that
+A10.0007 [Tú] | I get to be a Trekker with you all
+A10.0008 [Noya] | Hehe, do you feel the same way?
+A10.0009 [Opción] | Of course
+A10.0010 [Opción] | Just kidding
+A10.0011 [Noya] | Wow, I didn't expect such emotional words...
+A10.0012 [Noya] | I'm going to forward this to Amber and Iris!
+A10.0013 [Tú] | Just playing with ya
+A10.0014 [Tú] | Alright, alright
+A10.0015 [Tú] | That's how I feel as well
+A10.0016 [Noya] | Hehe, I'm going to send this to Amber and Iris!
+A10.0017 [Noya] | I HAVE GOOD NEWS!!
+A10.0018 [Noya] | Iris says that it's been a while since we had good food
+A10.0019 [Noya] | So tonight I will cook with my heart's content
+A10.0020 [Noya] | She even gave me a lot of money to buy food
+A10.0021 [Noya] | Hehe, I'll prepare a feast for sure!
+
+## Conversación B01
+B01.0001 [Noya] | Waaah...!
+B01.0002 [Noya] | Boss! Boss!
+B01.0003 [Tú] | What's wrong?
+B01.0004 [Noya] | It's Iris!
+B01.0005 [Noya] | I can't have anything but Tawny Nightingale for a whole month!
+B01.0006 [Tú] | What's going on?
+B01.0007 [Tú] | Are we going bankrupt?
+B01.0008 [Tú] | That can't be. Things were fine just yesterday...?
+B01.0009 [Noya] | It's not that
+B01.0010 [Noya] | Iris cancelled my pudding budget for this month
+B01.0011 [Tú] | Oh
+B01.0012 [Tú] | That's because you bought two servings of pudding for yourself last month
+B01.0013 [Tú] | And ate Iris's, on top of that...
+B01.0014 [Tú] | But what does that have to do with Tawny Nightingale?
+B01.0015 [Noya] | Because I still want to eat pudding this month
+B01.0016 [Noya] | To save up enough money for that, I won't be able to eat anything but Tawny Nightingale
+B01.0017 [Tú] | Eating it every day isn't healthy
+B01.0018 [Tú] | If you really want pudding
+B01.0019 [Tú] | I'll share half of mine with you
+B01.0020 [Tú] | Saving meal money just to buy pudding...
+B01.0021 [Tú] | This is just not a good idea
+B01.0022 [Noya] | Really? You mean it!?
+B01.0023 [Tú] | Yeah
+B01.0024 [Noya] | YES! I know you are the best ever, Boss!
+
+## Conversación B02
+B02.0001 [Noya] | Lately, whenever I go out for a drive, I keep running into things that really piss me off
+B02.0002 [Opción] | Highway scammers again?
+B02.0003 [Opción] | Did something happen?
+B02.0004 [Opción] | You don't drive, you speed, there's a difference
+B02.0005 [Noya] | More or less
+B02.0006 [Noya] | Basically, I'm super pissed off
+B02.0007 [Tú] | What happened?
+B02.0008 [Noya] | Same scam act as last time all over again
+B02.0009 [Noya] | No, I really did drive safely this time
+B02.0010 [Noya] | They were the ones driving recklessly!
+B02.0011 [Noya] | So I've been preparing a plan
+B02.0012 [Tú] | What plan?
+B02.0013 [Noya] | I'm going to mod Loxy specifically for this
+B02.0014 [Noya] | Add a ram bar and spiked wheel rims
+B02.0015 [Noya] | Turn Loxy into a reaper chariot!
+B02.0016 [Tú] | That'll hurt innocent people!
+B02.0017 [Tú] | Driving a chariot like that inside the city will definitely get you stopped by the Imperial Guard
+B02.0018 [Noya] | Just kidding, heh heh
+B02.0019 [Tú] | You scared me there
+B02.0020 [Noya] | It's not healthy to bottle up anger
+B02.0021 [Noya] | I'm just venting
+B02.0022 [Noya] | I wouldn't really do it
+B02.0023 [Tú] | That's what I figured
+B02.0024 [Tú] | If I do all those mods
+B02.0025 [Tú] | Loxy's performance will take a dive
+B02.0026 [Noya] | Yeah
+B02.0027 [Noya] | Instead of trying to deal with all the idiots on the road, it's more important to just drive in a way that feels comfortable
+
+## Conversación B03
+B03.0001 [Noya] | You know there is a new flavor of Pep Pep Juice now!
+B03.0002 [Noya] | I wished one out from the Wishing Box, so I'm gonna try that first
+B03.0003 [Noya] | If it's good, I'll go get a few more for everyone!
+B03.0004 [Tú] | Which flavor is that?
+B03.0005 [Noya] | Cherry-Cola
+B03.0006 [Noya] | Have you had it before, Boss?
+B03.0007 [Opción] | Vaguely...
+B03.0008 [Opción] | No, what's that?
+B03.0009 [Noya] | Is it good?
+B03.0010 [Tú] | I don't remember
+B03.0011 [Noya] | No worries, I'm opening it now for a sip
+B03.0012 [Noya] | Probably just cola with cherry flavor?
+B03.0013 [Noya] | Or cherry juice mixed into cola?
+B03.0014 [Noya] | I dunno
+B03.0015 [Noya] | But I'm gonna find out, right now!
+B03.0016 [Tú] | How is it?
+B03.0017 [Noya] | Horrific!
+B03.0018 [Noya] | Agh!
+B03.0019 [Noya] | Into the trash...
+B03.0020 [Noya] | Never again!
+
+## Conversación B04
+B04.0001 [Noya] | Boss!
+B04.0002 [Noya] | Boss Boss!
+B04.0003 [Tú] | What is it?
+B04.0004 [Noya] | I watched a Stella Drama about racing recently
+B04.0005 [Noya] | There was one shot that was super cool!
+B04.0006 [Tú] | Which was?
+B04.0007 [Noya] | The passenger pulls the handbrake while the driver times it
+B04.0008 [Noya] | And together they drift through the corner!
+B04.0009 [Tú] | That sounds like amazing teamwork!
+B04.0010 [Noya] | Right, right?
+B04.0011 [Noya] | So, I was thinking...
+B04.0012 [Noya] | Given how tight we are...
+B04.0013 [Opción] | Dangerous stunt performed by professionals, do not try this at home
+B04.0014 [Opción] | I don't know how to drive...
+B04.0015 [Noya] | Come on, we'll find somewhere wide open
+B04.0016 [Noya] | Nothing bad's gonna happen
+B04.0017 [Noya] | All you have to do is pull the handbrake
+B04.0018 [Noya] | Easy-peasy
+B04.0019 [Tú] | No can do. No way
+B04.0020 [Tú] | ...
+B04.0021 [Tú] | ...
+B04.0022 [Tú] | Okay, fine
+B04.0023 [Tú] | But just one time please, no do-overs
+B04.0024 [Noya] | It's gonna work for sure
+B04.0025 [Noya] | Have some faith in our bond
+
+## Conversación B05
+B05.0001 [Noya] | Boss, got any free time these days?
+B05.0002 [Opción] | As free as you like
+B05.0003 [Opción] | Nope
+B05.0004 [Noya] | Remember that Tamago Pet I've been raising all this time?
+B05.0005 [Noya] | There's a new feature now
+B05.0006 [Noya] | Now you can tap to add friends, just like with phones!
+B05.0007 [Noya] | It'll only take a tiny bit of your time
+B05.0008 [Noya] | You just log in and feed it once a day
+B05.0009 [Tú] | Is this the Tamago Pet that you've been raising all this time?
+B05.0010 [Noya] | Yup yup
+B05.0011 [Noya] | There's a new feature now
+B05.0012 [Noya] | Now you can tap to add friends, just like with phones!
+B05.0013 [Noya] | Boss, you should get one too! Let's play together!
+B05.0014 [Noya] | It's super simple
+B05.0015 [Tú] | Okay
+B05.0016 [Tú] | You can show me how to do it when I get back this evening
+
+## Conversación B06
+B06.0001 [Noya] | What do you want for dinner tonight?
+B06.0002 [Opción] | Steak
+B06.0003 [Opción] | Seafood
+B06.0004 [Opción] | Anything is fine
+B06.0005 [Noya] | On it!
+B06.0006 [Noya] | On it!
+B06.0007 [Noya] | No "anything is fine" allowed
+B06.0008 [Tú] | I don't know what I want to eat, honest
+B06.0009 [Tú] | I'm fine with whatever you wanna eat
+B06.0010 [Noya] | Okay, then I'll decide for both of us
+B06.0011 [Tú] | So, what's going on?
+B06.0012 [Noya] | Heheh
+B06.0013 [Noya] | I helped a vendor at the market move some goods today
+B06.0014 [Noya] | And the reward was picking one ingredient to take home
+B06.0015 [Noya] | So tonight, we feast!
+B06.0016 [Tú] | Yaaay!

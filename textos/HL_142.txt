@@ -1,0 +1,286 @@
+# Heartlink de Cosette: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Cosette] | Added
+A01.0002 [Cosette] | I'll buy a soda for you next time
+A01.0003 [Cosette] | The vending machine next to Abyss Star Financial
+A01.0004 [Cosette] | There's a milk-flavored soda that's good
+A01.0005 [Tú] | Oh, cool~
+
+## Conversación A02
+A02.0001 [Cosette] | $^dda@*$$#%
+A02.0002 [Tú] | ????
+A02.0003 [Tú] | Did something happen?
+A02.0004 [Tú] | Hello??
+A02.0005 [Cosette] | I think it was just my sausage fingers; I was working
+A02.0006 [Cosette] | Sorry
+A02.0007 [Tú] | You scared me...
+A02.0008 [Cosette] | Today, I'm busy
+A02.0009 [Cosette] | I'l buy you another soda next time to apologize
+A02.0010 [Tú] | No need! The most important thing is you are okay!
+
+## Conversación A03
+A03.0001 [Cosette] | Do you have a bit of free time today, Boss?
+A03.0002 [Opción] | Yes?
+A03.0003 [Opción] | I'm a bit busy. What's going on?
+A03.0004 [Cosette] | Like I said last time, I want to buy you a soda
+A03.0005 [Cosette] | And apologize to you
+A03.0006 [Cosette] | Are you free to hang out right now?
+A03.0007 [Cosette] | Like I said last time, I want to buy you a soda
+A03.0008 [Cosette] | And apologize to you
+A03.0009 [Cosette] | If today's not good, tomorrow is fine, too
+A03.0010 [Cosette] | I have tomorrow off
+A03.0011 [Tú] | I told you there's no need for any of that!!
+A03.0012 [Tú] | ...
+A03.0013 [Tú] | Okay, gotcha. Let's set a time~
+A03.0014 [Tú] | And you can come with me to check out the bookstore~
+A03.0015 [Cosette] | Sure
+
+## Conversación A04
+A04.0001 [Cosette] | Boss, I found it—that cilantro-flavored yogurt I mentioned before
+A04.0002 [Cosette] | You want to come check it out?
+A04.0003 [Cosette] | Or
+A04.0004 [Cosette] | I can deliver it to you...
+A04.0005 [Opción] | ...Cilantro? Seriously?
+A04.0006 [Opción] | What kind of flavor is cilantro?
+A04.0007 [Cosette] | Yes, it's a yogurt
+A04.0008 [Cosette] | Very yummy
+A04.0009 [Cosette] | A bit like green grass
+A04.0010 [Cosette] | You should definitely try it, Boss
+A04.0011 [Tú] | Well... Since you are so insistent...
+A04.0012 [Tú] | I'll try it
+A04.0013 [Cosette] | Hooray
+A04.0014 [Cosette] | I'll bring it over to you right now
+A04.0015 [Tú] | Right now???
+
+## Conversación A05
+A05.0001 [Cosette] | Boss! Boss!
+A05.0002 [Cosette] | There was this vending machine
+A05.0003 [Cosette] | I put money in and two cans came out
+A05.0004 [Cosette] | What should I do? Shove the extra one back in?
+A05.0005 [Opción] | Well, since it came out already, just take it
+A05.0006 [Opción] | I don't think you can shove it back in. You can try...
+A05.0007 [Cosette] | But I only paid for one...
+A05.0008 [Cosette] | Is that really okay?
+A05.0009 [Tú] | Don't worry about it, it's all because the vending machine
+A05.0010 [Tú] | Just take it
+A05.0011 [Cosette] | No, it won't go back in
+A05.0012 [Cosette] | What should I do?
+A05.0013 [Tú] | You'll have to take it
+A05.0014 [Tú] | Consider it a bit of luck for the day
+A05.0015 [Cosette] | Ugh
+A05.0016 [Cosette] | Novians sure have a complicated way of doing things
+
+## Conversación A06
+A06.0001 [Cosette] | Boss!
+A06.0002 [Tú] | You discovered yet another drink flavor, eh?
+A06.0003 [Cosette] | How did you know?
+A06.0004 [Opción] | Because I have the All-Seeing Eye
+A06.0005 [Opción] | Because every time you discover a new drink flavor, you always use an exclamation mark
+A06.0006 [Cosette] | Really?
+A06.0007 [Cosette] | You're amazing, Boss...
+A06.0008 [Cosette] | Eh? Really?
+A06.0009 [Cosette] | You're amazing, Boss...
+A06.0010 [Tú] | So what flavor is it this time?
+A06.0011 [Cosette] | Inferno Chili Sparkling Water
+A06.0012 [Tú] | ...
+A06.0013 [Cosette] | But what is this "Inferno," anyway? Is it where the chili comes from?
+
+## Conversación A07
+A07.0001 [Cosette] | Boss...
+A07.0002 [Tú] | What's up?
+A07.0003 [Cosette] | Just now, somebody at Deepsea Finance told me that
+A07.0004 [Cosette] | My flavor preferences
+A07.0005 [Cosette] | Are really weird
+A07.0006 [Cosette] | ...
+A07.0007 [Cosette] | Is that true?
+A07.0008 [Tú] | Well...it's alright
+A07.0009 [Cosette] | Really?
+A07.0010 [Cosette] | She said that no one would drink a fishy-flavored beverage—it tastes disgusting...
+A07.0011 [Tú] | A fishy-flavored drink... What even is that?
+A07.0012 [Cosette] | It's made of fishwort grass juice
+A07.0013 [Tú] | ...
+A07.0014 [Cosette] | Is there a problem?
+A07.0015 [Tú] | No... I mean...it's just that...
+A07.0016 [Tú] | It's unique
+A07.0017 [Cosette] | Really?
+A07.0018 [Cosette] | I'll bring one to you next time, it's very good
+A07.0019 [Tú] | Huh?
+
+## Conversación A08
+A08.0001 [Cosette] | Are you planning to go out today, Boss?
+A08.0002 [Cosette] | I have today off
+A08.0003 [Tú] | That's perfect~I wanted to hang out with you today~
+A08.0004 [Cosette] | Wow, really?
+A08.0005 [Tú] | Of course. Don't you remember what day is today?
+A08.0006 [Cosette] | Today...?
+A08.0007 [Cosette] | Is today a special day?
+A08.0008 [Tú] | You became an official Novian citizen on this day
+A08.0009 [Tú] | Didn't you say before that you don't know your own birthday?
+A08.0010 [Tú] | Then how about treating the day you started your new life as your birthday
+A08.0011 [Cosette] | Birthday... Is that a thing?
+A08.0012 [Tú] | Sure
+A08.0013 [Tú] | Today we'll have a feast, eat cake, and go to the amusement park
+A08.0014 [Cosette] | !!!
+A08.0015 [Cosette] | That's great, thank you, Boss
+
+## Conversación A09
+A09.0001 [Cosette] | Boss, are you going to train today as well?
+A09.0002 [Tú] | You don't like training?
+A09.0003 [Cosette] | ...
+A09.0004 [Cosette] | It's not that I don't like training
+A09.0005 [Cosette] | It's just that, as Nocturn Eterna, I did some stuff that were bad for the Novians
+A09.0006 [Cosette] | I don't know if they want to see my face again
+A09.0007 [Cosette] | So...
+A09.0008 [Tú] | But that's all in the past
+A09.0009 [Cosette] | Is it really alright
+A09.0010 [Cosette] | For me to hang out with everybody else?
+A09.0011 [Opción] | Of course!
+A09.0012 [Opción] | Unless you don't want to?
+A09.0013 [Tú] | As long as you want to, you are more than welcome
+A09.0014 [Cosette] | No!! That's not what I meant!!
+A09.0015 [Cosette] | I just don't want to make any trouble for you...
+A09.0016 [Tú] | Don't overthink it!
+A09.0017 [Tú] | We'll wait for you. You have to come!
+
+## Conversación A10
+A10.0001 [Cosette] | The Runic Disc that you gave me
+A10.0002 [Cosette] | Has some really nice music
+A10.0003 [Cosette] | I really like it
+A10.0004 [Cosette] | Thank you, Boss
+A10.0005 [Tú] | Oh, that's great then!
+A10.0006 [Cosette] | The only thing is
+A10.0007 [Cosette] | I suddenly remembered some things from long ago
+A10.0008 [Tú] | Good things?
+A10.0009 [Cosette] | Yes...
+A10.0010 [Cosette] | About the one who saved me...
+A10.0011 [Cosette] | She's the one who made me want to become stronger
+A10.0012 [Cosette] | To have the strength to repay her kindness
+A10.0013 [Cosette] | I am so thankful to her
+A10.0014 [Tú] | Must be some precious memories
+
+## Conversación B01
+B01.0001 [Cosette] | Boss
+B01.0002 [Cosette] | Why is something moving inside my bottle?
+B01.0003 [Tú] | Something moving??
+B01.0004 [Tú] | Don't tell me it's bugs?!
+B01.0005 [Cosette] | Bugs?
+B01.0006 [Cosette] | So can I still drink it?
+B01.0007 [Tú] | NO!!! Throw it away!!!
+B01.0008 [Tú] | Did you leave it open for a long time?
+B01.0009 [Cosette] | Opened it last week. Forgot the cap when I went out
+B01.0010 [Cosette] | Then I went on a mission
+B01.0011 [Cosette] | Wait, no
+B01.0012 [Cosette] | No mission!
+B01.0013 [Cosette] | Right!
+B01.0014 [Tú] | ...
+B01.0015 [Tú] | Anyway, it's gone bad. Don't drink it.
+B01.0016 [Tú] | Absolutely will not drink!
+
+## Conversación B02
+B02.0001 [Cosette] | Where are you right now, Boss?
+B02.0002 [Opción] | Ash District, Emor
+B02.0003 [Opción] | Sailstead Port
+B02.0004 [Tú] | Ash District, Emor.
+B02.0005 [Tú] | Checking out the Soul Shop.
+B02.0006 [Tú] | Sailstead Port.
+B02.0007 [Tú] | Hanging out at the Trekker Association HQ.
+B02.0008 [Cosette] | Oh. Noted
+B02.0009 [Tú] | Why?
+B02.0010 [Cosette] | Confirming target coordinates
+B02.0011 [Cosette] | Required for the kidnapping
+B02.0012 [Tú] | ...
+B02.0013 [Tú] | You know you aren't supposed to tell me that, right?
+B02.0014 [Cosette] | Irrelevant. You will not detect me
+B02.0015 [Cosette] | Success is still highly probable
+B02.0016 [Tú] | Uh, aren't you standing right next to that vending Artifact?
+B02.0017 [Cosette] | How did you see me?!
+
+## Conversación B03
+B03.0001 [Cosette] | Boss, listen to me
+B03.0002 [Cosette] | Whatever you do, DO NOT get out of the car
+B03.0003 [Tú] | Uh... Why?
+B03.0004 [Cosette] | Your horoscope says you're going to have "terrible luck in travel" today
+B03.0005 [Cosette] | So, purely for your own safety
+B03.0006 [Cosette] | You'd better just stay put
+B03.0007 [Tú] | This friendly warning smells suspiciously like a trap.
+B03.0008 [Cosette] | No!
+B03.0009 [Cosette] | Just because Aeloria says "people love doing the opposite of what they're told"
+B03.0010 [Cosette] | doesn't mean I'm counting on that!
+B03.0011 [Tú] | Oh...
+B03.0012 [Tú] | So let me get this straight. You're crouching right outside the door
+B03.0013 [Tú] | waiting for me to get rebellious and walk out
+B03.0014 [Tú] | so you can kidnap me?
+B03.0015 [Cosette] | ...
+B03.0016 [Cosette] | Man, nothing gets past the Boss
+B03.0017 [Cosette] | How did you figure it out?!
+B03.0018 [Cosette] | Since I've been exposed
+B03.0019 [Cosette] | I shall make my retreat
+B03.0020 [Tú] | Your face is literally smooshed against the window!
+B03.0021 [Tú] | You're the worst liar ever!
+
+## Conversación B04
+B04.0001 [Cosette] | Milk x2
+B04.0002 [Cosette] | Liquid Jade x4
+B04.0003 [Cosette] | Peach Soda x2
+B04.0004 [Cosette] | Yogurt x2
+B04.0005 [Tú] | ...? Okay?
+B04.0006 [Cosette] | Huh????????????
+B04.0007 [Cosette] | Why are you replying here, Boss??
+B04.0008 [Tú] | Huh???
+B04.0009 [Cosette] | Eh??
+B04.0010 [Cosette] | Wait, is this not my memo app?
+B04.0011 [Tú] | So, are you heading out to the store?
+B04.0012 [Cosette] | Gonna go get drinks!
+B04.0013 [Cosette] | Wanna come, Boss? Heard they have a new soda flavor
+B04.0014 [Tú] | Sure. I need to pick up some daily supplies anyway.
+B04.0015 [Cosette] | Okay. I'll wait for you by the entrance
+
+## Conversación B05
+B05.0001 [Cosette] | Boss, do you know where I can get a nail file?
+B05.0002 [Tú] | Pretty sure most general stores carry them.
+B05.0003 [Cosette] | A store...
+B05.0004 [Tú] | Do you need it right now?
+B05.0005 [Tú] | If you're in a hurry, maybe just borrow one from a nearby Soul Shop?
+B05.0006 [Cosette] | A Soul Shop? Aren't those run by the Grace Imperium?
+B05.0007 [Cosette] | No. No, definitely not.
+B05.0008 [Cosette] | I can't let the Grace Imperium know. I need it to file down my horns
+B05.0009 [Tú] | Horns?
+B05.0010 [Cosette] | !
+B05.0011 [Cosette] | No, wait, I meant...
+B05.0012 [Cosette] | File down soy milk!
+B05.0013 [Cosette] | Right. I saw someone do it once. Yeah, soy milk.
+B05.0014 [Cosette] | So
+B05.0015 [Cosette] | A file
+B05.0016 [Cosette] | That's what it's for
+B05.0017 [Tú] | Uh...
+B05.0018 [Tú] | Okay then
+B05.0019 [Cosette] | I'm going to the store now
+B05.0020 [Cosette] | Soy milk is delicious!
+
+## Conversación B06
+B06.0001 [Cosette] | Boss. I have a favor to ask
+B06.0002 [Opción] | What is it?
+B06.0003 [Opción] | I am NOT letting you "kidnap" me!
+B06.0004 [Cosette] | So. I need you to let me pretend I captured you
+B06.0005 [Cosette] | Need a photo proof
+B06.0006 [Cosette] | I really need material for my monthly report!
+B06.0007 [Cosette] | I didn't even say it yet! How'd you know?!
+B06.0008 [Tú] | Because you try this every time!
+B06.0009 [Cosette] | Plz
+B06.0010 [Cosette] | Just one photo
+B06.0011 [Cosette] | I really need material for my monthly report!
+B06.0012 [Tú] | Not falling for that again.
+B06.0013 [Tú] | That's what you said last time.
+B06.0014 [Tú] | Then you tried to haul me off the second the ropes were tight!
+B06.0015 [Cosette] | That was
+B06.0016 [Cosette] | A reflex!
+B06.0017 [Cosette] | I promise I won't do it this time
+B06.0018 [Tú] | Forget that. Want to try a new drink?
+B06.0019 [Tú] | I just scored some Wasabi Coffee Drink.
+B06.0020 [Cosette] | What even is that?!
+B06.0021 [Cosette] | Send loc! I'm coming over!
+B06.0022 [Sistema] | You shared your location with Cosette.

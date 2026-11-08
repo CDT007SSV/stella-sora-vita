@@ -1,0 +1,433 @@
+# Heartlink de Ann: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Tú] | ?
+A01.0002 [Ann] | No
+A01.0003 [Ann] | I am
+A01.0004 [Ann] | Ann
+A01.0005 [Ann] | !
+A01.0006 [Tú] | Oh, it's you
+A01.0007 [Tú] | You borrowed this phone from the village chief?
+A01.0008 [Ann] | Yeah
+A01.0009 [Ann] | I am
+A01.0010 [Ann] | Ann
+A01.0011 [Ann] | Typing
+A01.0012 [Ann] | Now
+A01.0013 [Tú] | You type slow so you want me to wait for you, yeah?
+A01.0014 [Ann] | Bo
+A01.0015 [Ann] | ss
+A01.0016 [Ann] | y
+A01.0017 [Tú] | Amazing
+
+## Conversación A02
+A02.0001 [Ann] | I want to
+A02.0002 [Ann] | Practicing
+A02.0003 [Ann] | My
+A02.0004 [Ann] | Typing!
+A02.0005 [Opción] | Wow, you're making great progress~
+A02.0006 [Opción] | Can you keep up with me~?
+A02.0007 [Ann] | Whoosh...
+A02.0008 [Ann] | I want to
+A02.0009 [Ann] | Get faster
+A02.0010 [Tú] | Hohoho~
+A02.0011 [Tú] | Can you keep up with me~?
+A02.0012 [Ann] | You want to
+A02.0013 [Ann] | Race
+A02.0014 [Ann] | Coco
+A02.0015 [Ann] | With
+A02.0016 [Ann] | Coco
+A02.0017 [Tú] | Never mind, I'm just kidding~
+A02.0018 [Ann] | Hmph
+A02.0019 [Ann] | Whoosh...
+A02.0020 [Ann] | It is time
+A02.0021 [Ann] | I promised
+A02.0022 [Ann] | Only 10 phone time
+A02.0023 [Ann] | Need to help
+A02.0024 [Ann] | Farm work
+A02.0025 [Tú] | You're such a nice kid. TTYL~
+A02.0026 [Ann] | Yeah!
+
+## Conversación A03
+A03.0001 [Ann] | Sniffle
+A03.0002 [Tú] | What is it, Little Ann?
+A03.0003 [Ann] | I want to
+A03.0004 [Ann] | Grow taller
+A03.0005 [Opción] | If you eat well and get plenty of sleep every day, you'll grow taller for sure
+A03.0006 [Opción] | It depends on your genes
+A03.0007 [Tú] | Ann, you'll only grow taller if you eat well and get plenty of sleep every day
+A03.0008 [Ann] | Really
+A03.0009 [Tú] | Really
+A03.0010 [Ann] | Really really
+A03.0011 [Tú] | Really really
+A03.0012 [Ann] | So
+A03.0013 [Ann] | I believe you
+A03.0014 [Ann] | Bossy
+A03.0015 [Ann] | What are
+A03.0016 [Ann] | Genes
+A03.0017 [Tú] | It's something you're born with
+A03.0018 [Ann] | Hmm
+A03.0019 [Ann] | Then Bossy
+A03.0020 [Ann] | Has smart
+A03.0021 [Ann] | Genes
+A03.0022 [Tú] | Ahaha... Thanks
+A03.0023 [Tú] | Wait, why does it feel like she's the one doing the comforting here
+A03.0024 [Tú] | Actually, Ann, you've been secretly growing taller at night all this time
+A03.0025 [Tú] | You can't fit into clothes from a few years ago anymore, right?
+A03.0026 [Ann] | Yes! Yes!
+A03.0027 [Ann] | I get it now!
+A03.0028 [Ann] | Then I will
+A03.0029 [Ann] | Go to sleep right now!
+A03.0030 [Tú] | Remember to give the phone back to Chief before you fall asleep
+
+## Conversación A04
+A04.0001 [Ann] | mumu
+A04.0002 [Tú] | mumu?
+A04.0003 [Ann] | mumumu
+A04.0004 [Opción] | mumumu!
+A04.0005 [Opción] | mufuuuuu!
+A04.0006 [Opción] | hamuhamu!
+A04.0007 [Ann] | mumumu~
+A04.0008 [Tú] | mufuuuu!
+A04.0009 [Ann] | mumumu!
+A04.0010 [Ann] | I dont know this
+A04.0011 [Ann] | Bossy lose
+A04.0012 [Tú] | What makes this sound?
+A04.0013 [Ann] | Camel beast
+A04.0014 [Tú] | Heh~
+A04.0015 [Tú] | How did you know, Ann?
+A04.0016 [Ann] | I help with the farm
+A04.0017 [Ann] | I read books at Grandpa Chai house
+A04.0018 [Tú] | Ah, I see
+A04.0019 [Ann] | I want to see
+A04.0020 [Ann] | A real camel beast
+A04.0021 [Ann] | But...
+A04.0022 [Ann] | they dont live here
+A04.0023 [Tú] | Heheh~I have one right here
+A04.0024 [Ann] | Really!?
+A04.0025 [Ann] | Where!?
+A04.0026 [Tú] | We'll swing by in a bit and take you for a ride
+A04.0027 [Tú] | It's a reward for all your hard work helping out in the village
+A04.0028 [Ann] | HURRAY
+
+## Conversación A05
+A05.0001 [Ann] | Bossy!
+A05.0002 [Ann] | You there?
+A05.0003 [Tú] | I'm here
+A05.0004 [Tú] | What's going on?
+A05.0005 [Ann] | I saw
+A05.0006 [Ann] | Two grown-ups dressed in black!
+A05.0007 [Ann] | I think they are
+A05.0008 [Ann] | Messing up the fields!
+A05.0009 [Opción] | Are you sure?
+A05.0010 [Opción] | Stay calm, wait for me to come over
+A05.0011 [Opción] | What? Let Coco deal with them!
+A05.0012 [Tú] | Maybe they are just scarecrows?
+A05.0013 [Ann] | No way!
+A05.0014 [Ann] | Scarecrows dont move!
+A05.0015 [Tú] | I thought you would believe in the fairytales.
+A05.0016 [Tú] | Stay calm, Ann, and wait for me to come over
+A05.0017 [Ann] | No I cant!
+A05.0018 [Ann] | This cant wait!
+A05.0019 [Tú] | It's not like you can do anything, stay put
+A05.0020 [Ann] | Cantwaitcantwaitcantwait!
+A05.0021 [Ann] | Youre so right Bossy!
+A05.0022 [Ann] | We cant let them get away!
+A05.0023 [Tú] | Wait, I was just trash talking
+A05.0024 [Tú] | You aren't really going after them, are you?
+A05.0025 [Ann] | I cant just sit here!
+A05.0026 [Ann] | I am going!
+A05.0027 [Tú] | Hey, wait up!
+A05.0028 [Tú] | Ann?
+
+## Conversación A06
+A06.0001 [Ann] | Its raining
+A06.0002 [Tú] | It's raining over here, too
+A06.0003 [Ann] | Coco
+A06.0004 [Ann] | Is sticking her tongue out
+A06.0005 [Tú] | Because it gets so muggy when it rains
+A06.0006 [Ann] | Hmm
+A06.0007 [Ann] | Whoosh...
+A06.0008 [Tú] | What are you doing?
+A06.0009 [Ann] | I am blowing air
+A06.0010 [Ann] | From my phone
+A06.0011 [Ann] | Towards Bossy
+A06.0012 [Opción] | Don't overwork yourself
+A06.0013 [Opción] | So nice and cool
+A06.0014 [Tú] | Don't overwork yourself, Ann
+A06.0015 [Tú] | Let Coco do it
+A06.0016 [Ann] | No need
+A06.0017 [Ann] | Bubble is doing it for us
+A06.0018 [Tú] | I'm so envious...
+A06.0019 [Tú] | It's so nice and cool~
+A06.0020 [Ann] | Really
+A06.0021 [Ann] | Then I will have Bubble do it
+A06.0022 [Tú] | Huh? Wait!
+A06.0023 [Ann] | Ah!
+A06.0024 [Ann] | The phone
+A06.0025 [Ann] | Got blown away!
+A06.0026 [Tú] | I've had enough airflow! It's cool here!
+A06.0027 [Tú] | You can stop now!
+A06.0028 [Tú] | Oh, I think the rain has stopped
+A06.0029 [Ann] | Wow you are right!
+A06.0030 [Ann] | I will head out to play!
+A06.0031 [Tú] | Don't forget to wear your rain boots!
+
+## Conversación A07
+A07.0001 [Ann] | Bossy!
+A07.0002 [Ann] | I have a surprise for you
+A07.0003 [Ann] | Guess
+A07.0004 [Opción] | A drawing board
+A07.0005 [Opción] | A medal
+A07.0006 [Opción] | The Coco Experience for a day
+A07.0007 [Tú] | Let me think
+A07.0008 [Tú] | It's a drawing board, isn't it?
+A07.0009 [Ann] | Huh
+A07.0010 [Ann] | Bossy like to draw?
+A07.0011 [Ann] | Then I will
+A07.0012 [Ann] | Give you the new one!
+A07.0013 [Tú] | Wow, you actually meant it?
+A07.0014 [Tú] | Wait, you meant to give me something else, right?
+A07.0015 [Ann] | Oh right!
+A07.0016 [Tú] | Would it be a commendation medal?
+A07.0017 [Ann] | I havent made that one yet
+A07.0018 [Ann] | Wait!
+A07.0019 [Ann] | Its not time for the award yet!
+A07.0020 [Ann] | Bossy didnt hear me saying that!
+A07.0021 [Ann] | That doesnt count!
+A07.0022 [Tú] | Okay~
+A07.0023 [Tú] | Thank you anyway.
+A07.0024 [Tú] | The Coco Experience for a day
+A07.0025 [Ann] | Huh?
+A07.0026 [Ann] | Bossy
+A07.0027 [Ann] | Want to be Coco for a day? Running wild in the woods feels pretty great
+A07.0028 [Tú] | Wait a minute...
+A07.0029 [Tú] | Why would you think that...
+A07.0030 [Tú] | I give up, show me
+A07.0031 [Ann] | Haha
+A07.0032 [Ann] | Come see!
+A07.0033 [Ann] | What do you think!?
+A07.0034 [Tú] | Are these random weeds?
+A07.0035 [Ann] | These arent weeds!
+A07.0036 [Ann] | They are strawberries!
+A07.0037 [Ann] | I am growing them
+A07.0038 [Ann] | When they are ripe I will give them to Bossy
+A07.0039 [Ann] | Grandpa Chai says I can grow more
+A07.0040 [Ann] | I can give them to Noya and everyone else!
+A07.0041 [Tú] | Have to say, I did not expect this
+A07.0042 [Tú] | Thank you, little Ann~
+A07.0043 [Ann] | Are you looking forward to it?
+A07.0044 [Tú] | Looking forward to it so much!
+A07.0045 [Sistema] | You are eagerly waiting for the tasty strawberries to ripen.
+
+## Conversación A08
+A08.0001 [Tú] | Beep beep~
+A08.0002 [Tú] | The all-knowing, all-powerful Boss is
+A08.0003 [Tú] | Wishing you a
+A08.0004 [Tú] | Happy Birthday
+A08.0005 [Tú] | Beep beep~
+A08.0006 [Ann] | Wow!
+A08.0007 [Ann] | Amazing!
+A08.0008 [Ann] | How did you know Bossy!?
+A08.0009 [Tú] | Hehe~
+A08.0010 [Tú] | I'm the Boss, is there anything that I don't know?
+A08.0011 [Tú] | I got a small cake for our birthday girl
+A08.0012 [Ann] | Oh...
+A08.0013 [Ann] | But I ate already
+A08.0014 [Ann] | I am kinda full...
+A08.0015 [Tú] | I see
+A08.0016 [Tú] | Well, then...
+A08.0017 [Ann] | Question!
+A08.0018 [Ann] | When is Bossy's birthday?
+A08.0019 [Tú] | Huh? Well...
+A08.0020 [Ann] | Ten! Nine! Eight! Seven!
+A08.0021 [Ann] | Three! Two! One!
+A08.0022 [Ann] | Time is up!
+A08.0023 [Ann] | I couldnt remember
+A08.0024 [Ann] | So I can only eat half of the cake
+A08.0025 [Ann] | When I remember Bossy's birthday
+A08.0026 [Ann] | Then I can eat the other half!
+A08.0027 [Tú] | Okay, then it's a deal~
+
+## Conversación A09
+A09.0001 [Tú] | Got home?
+A09.0002 [Tú] | That was a hard training session, thank you taking Coco and Bubble along with you
+A09.0003 [Tú] | Hmm?
+A09.0004 [Opción] | Ann, be a good girl
+A09.0005 [Opción] | Nice to see you here, Chief
+A09.0006 [Tú] | ?
+A09.0007 [Tú] | You aren't Ann, are you?
+A09.0008 [Tú] | ?
+A09.0009 [Tú] | You aren't Ann, are you?
+A09.0010 [Tú] | Could it be...
+A09.0011 [Tú] | Eh, Coco?
+A09.0012 [Tú] | Seriously?
+A09.0013 [Tú] | I'm shocked at myself for thinking of that in an instant...
+
+## Conversación A10
+A10.0001 [Ann] | Bossy!
+A10.0002 [Ann] | That thing just now!
+A10.0003 [Ann] | zi~~~~~
+A10.0004 [Ann] | pia!
+A10.0005 [Ann] | Dun dun~
+A10.0006 [Ann] | What was it?
+A10.0007 [Tú] | You mean the Runic Disc?
+A10.0008 [Tú] | The kind that plays music
+A10.0009 [Ann] | The music is nice!
+A10.0010 [Ann] | But
+A10.0011 [Ann] | I also heard
+A10.0012 [Ann] | Other ones voices
+A10.0013 [Tú] | Did they ring a bell?
+A10.0014 [Ann] | Hmm
+A10.0015 [Ann] | I dont know
+A10.0016 [Ann] | One of them was very gentle
+A10.0017 [Ann] | The other one very dependable
+A10.0018 [Ann] | Hmm
+A10.0019 [Ann] | And there was another one
+A10.0020 [Ann] | A little bit like Coco
+A10.0021 [Ann] | But different
+A10.0022 [Tú] | Maybe you can see them again in your dreams
+A10.0023 [Ann] | Oh right!
+A10.0024 [Ann] | Thank you Bossy!
+A10.0025 [Ann] | I will try that!
+
+## Conversación B01
+B01.0001 [Ann] | Coco
+B01.0002 [Ann] | Hates
+B01.0003 [Ann] | Baths...
+B01.0004 [Ann] | Super dirty
+B01.0005 [Tú] | Guess Ignis really is weak against Aqua.
+B01.0006 [Ann] | Hm?
+B01.0007 [Tú] | Ahem
+B01.0008 [Tú] | I mean, since Coco uses fire magic
+B01.0009 [Tú] | it makes sense she'd hate water.
+B01.0010 [Tú] | Just wipe the dirty spots with a damp towel. Dry her off after.
+B01.0011 [Ann] | Oki!
+B01.0012 [Ann] | I'm
+B01.0013 [Ann] | Gonna
+B01.0014 [Ann] | Get her!
+B01.0015 [Tú] | Don't get too carried away, alright?
+
+## Conversación B02
+B02.0001 [Ann] | Hey Bossy!
+B02.0002 [Ann] | How
+B02.0003 [Ann] | to
+B02.0004 [Ann] | take pics
+B02.0005 [Tú] | Hm? You want to learn how to take photos?
+B02.0006 [Ann] | Yeah!
+B02.0007 [Tú] | Look for the icon on your phone that looks like a Photo Capturer.
+B02.0008 [Tú] | Tap that and you're ready to snap some shots.
+B02.0009 [Ann] | Then what?
+B02.0010 [Tú] | After that, you'll have to figure things out yourself.
+B02.0011 [Tú] | Try taking pics of the people and stuff around you first.
+B02.0012 [Ann] | I'm
+B02.0013 [Ann] | gonna practice!
+B02.0014 [Ann] | Oki!
+B02.0015 [Tú] | Can't wait to see your photos!
+
+## Conversación B03
+B03.0001 [Ann] | Bubble
+B03.0002 [Ann] | just
+B03.0003 [Ann] | sneezed so hard
+B03.0004 [Ann] | It went flying!
+B03.0005 [Tú] | Haha, I can just picture it.
+B03.0006 [Tú] | So anyway,
+B03.0007 [Tú] | how did you two meet?
+B03.0008 [Ann] | I'm
+B03.0009 [Ann] | Coco
+B03.0010 [Ann] | Saw some bad guys in masks.
+B03.0011 [Tú] | Oh, so you rescued Bubble from them?
+B03.0012 [Tú] | Ahh, that makes sense.
+B03.0013 [Tú] | Of course, our Scout Squad Captain to the rescue.
+
+## Conversación B04
+B04.0001 [Ann] | I...
+B04.0002 [Ann] | Got in trouble
+B04.0003 [Tú] | What happened?
+B04.0004 [Ann] | Waaah
+B04.0005 [Ann] | I
+B04.0006 [Ann] | miss
+B04.0007 [Ann] | you, Bossy…
+B04.0008 [Ann] | Me and Coco
+B04.0009 [Ann] | We
+B04.0010 [Ann] | Snuck out
+B04.0011 [Ann] | And got lost...
+B04.0012 [Tú] | Oh boy.
+B04.0013 [Tú] | You know you can just text me if you miss me.
+B04.0014 [Ann] | I
+B04.0015 [Ann] | wanna see you
+B04.0016 [Tú] | If you apologize nicely to the Chief,
+B04.0017 [Tú] | I'll swing by for a visit next time I'm in the area.
+B04.0018 [Ann] | I'll say sorry!
+B04.0019 [Tú] | Good girl.
+B04.0020 [Tú] | I'll bring your favorite snacks.
+B04.0021 [Ann] | Coco says
+B04.0022 [Ann] | She wants some too
+B04.0023 [Tú] | Don't worry, plenty for the both of you.
+
+## Conversación B05
+B05.0001 [Ann] | I...
+B05.0002 [Ann] | Had a nightmare
+B05.0003 [Ann] | about
+B05.0004 [Ann] | people who looked just like me
+B05.0005 [Ann] | So many of them
+B05.0006 [Ann] | They tried to take me away
+B05.0007 [Tú] | But you wouldn't go with them, right?
+B05.0008 [Ann] | Yeah...
+B05.0009 [Ann] | I like it here
+B05.0010 [Ann] | Don't wanna leave
+B05.0011 [Tú] | Then it's okay.
+B05.0012 [Tú] | If you don't want to go, it won't happen.
+B05.0013 [Ann] | How come?
+B05.0014 [Tú] | Because nightmares just try to scare you.
+B05.0015 [Tú] | They're weak if you aren't afraid.
+B05.0016 [Ann] | Oh!
+B05.0017 [Ann] | Thanks, Bossy!
+B05.0018 [Ann] | Then I won't be scared of
+B05.0019 [Ann] | your nightmares either
+B05.0020 [Ann] | Because I'm gonna
+B05.0021 [Ann] | protect you!
+B05.0022 [Tú] | I knew I could count on you.
+
+## Conversación B06
+B06.0001 [Ann] | I
+B06.0002 [Ann] | Just lost
+B06.0003 [Ann] | A tooth!
+B06.0004 [Tú] | !
+B06.0005 [Tú] | How did that happen?
+B06.0006 [Ann] | The Chief says
+B06.0007 [Ann] | I'm losing my baby teeth
+B06.0008 [Tú] | You gave me a heart attack... Glad you're okay.
+B06.0009 [Ann] | But now that it's out
+B06.0010 [Ann] | What do I do with it?
+B06.0011 [Opción] | Put it under your pillow
+B06.0012 [Opción] | Throw it onto the roof
+B06.0013 [Tú] | A fairy comes at night and swaps it for a Dorra.
+B06.0014 [Ann] | Then I'm
+B06.0015 [Ann] | not going to bed!
+B06.0016 [Ann] | I wanna wait up and play with her!
+B06.0017 [Tú] | Staying up all night again? Like last time?
+B06.0018 [Tú] | Hm?
+B06.0019 [Ann] | Ugh...
+B06.0020 [Ann] | I'm sorry...
+B06.0021 [Ann] | Hm?
+B06.0022 [Ann] | Why?
+B06.0023 [Tú] | Honestly, I have no idea.
+B06.0024 [Tú] | But friends from Loong and Goodwind tell me that's just what you do.
+B06.0025 [Ann] | Bossy knows so many people!
+B06.0026 [Ann] | Did they all lose
+B06.0027 [Ann] | their teeth too?
+B06.0028 [Tú] | Yup.
+B06.0029 [Tú] | That's how everyone grows up.
+B06.0030 [Sistema] | Ann has gone offline.
+B06.0031 [Sistema] | Ann has come online.
+B06.0032 [Ann] | Just now
+B06.0033 [Ann] | I threw it up there!
+B06.0034 [Tú] | Nice job.
+B06.0035 [Tú] | Losing a tooth is proof you're getting big.
+B06.0036 [Ann] | Really?!
+B06.0037 [Ann] | Then I wanna
+B06.0038 [Ann] | lose a whole bunch!
+B06.0039 [Tú] | That's more of a one-at-a-time thing…

@@ -1,0 +1,378 @@
+# Heartlink de Coronis: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Coronis] | This is my contact info.
+A01.0002 [Coronis] | If you change your mind at any point, just come find me at the clinic~
+A01.0003 [Opción] | ...That's not gonna happen
+A01.0004 [Opción] | I changed my mind.
+A01.0005 [Tú] | ...That's not gonna happen!
+A01.0006 [Coronis] | Is that so?
+A01.0007 [Coronis] | What a shame.
+A01.0008 [Coronis] | Really?
+A01.0009 [Coronis] | If you joke with me like that, I might take it seriously.
+A01.0010 [Coronis] | You are such a rare and precious specimen—if I don't do some research on you...
+A01.0011 [Coronis] | I will regret it for the rest of my life~
+A01.0012 [Coronis] | That was a joke.
+A01.0013 [Coronis] | Alright then, I'll be looking forward to the day you visit my clinic of your own volition~
+
+## Conversación A02
+A02.0001 [Coronis] | I have just acquired a new specimen
+A02.0002 [Coronis] | Want to see?
+A02.0003 [Opción] | ...Pass.
+A02.0004 [Opción] | What is it?
+A02.0005 [Coronis] | Really?
+A02.0006 [Coronis] | It's a cute little thing!
+A02.0007 [Coronis] | It's a cute little thing
+A02.0008 [Coronis] | I'll send it to you
+A02.0009 [Tú] | Isn't this just a common butterfly specimen?
+A02.0010 [Coronis] | Huh?
+A02.0011 [Tú] | No, it's nothing...
+A02.0012 [Coronis] | I see
+A02.0013 [Coronis] | The kind of specimens that you wish to see~
+A02.0014 [Coronis] | Next time you visit the clinic, I'll show them to you~
+A02.0015 [Tú] | No!! That's not what I meant!!
+
+## Conversación A03
+A03.0001 [Coronis] | I've prepared a new medicine for improving one's sleep
+A03.0002 [Coronis] | Are you interested in giving it a try?
+A03.0003 [Opción] | Can I refuse?
+A03.0004 [Opción] | Can I refuse?
+A03.0005 [Coronis] | Do you really wish to refuse?
+A03.0006 [Coronis] | I can give you a free checkup in exchange
+A03.0007 [Tú] | How is that a fair exchange...?
+A03.0008 [Tú] | You just want to research my body!!
+A03.0009 [Coronis] | This was specially made for you—I heard that you haven't been sleeping well.
+A03.0010 [Coronis] | I am very concerned about you
+A03.0011 [Tú] | ...Drop the pretense, will you?
+A03.0012 [Tú] | None of it is true!!
+A03.0013 [Coronis] | Aww, you got me there
+A03.0014 [Coronis] | What a pity, I was hoping to gather some clinical data on you
+A03.0015 [Coronis] | I shall think of a better reason next time
+A03.0016 [Coronis] | Hopefully you will not turn me down then~
+
+## Conversación A04
+A04.0001 [Coronis] | Did you know?
+A04.0002 [Coronis] | Even if all that remains of a person is a set of skeletons, the bones can still tell a story.
+A04.0003 [Tú] | ...Just what are you talking about? It sounds terrifying.
+A04.0004 [Coronis] | Terrifying?
+A04.0005 [Coronis] | I can tell a person's gender by their pelvis, and their age by their teeth
+A04.0006 [Coronis] | Broken bones leave marks. Toxins and medication also leave traces on one's bones
+A04.0007 [Coronis] | Very romantic, don't you think?
+A04.0008 [Opción] | Uh...
+A04.0009 [Opción] | May...maybe?
+A04.0010 [Tú] | It's the kind of romance that only you can understand, Coronis.
+A04.0011 [Tú] | Even though I don't really see it...
+A04.0012 [Coronis] | Is that so...
+A04.0013 [Coronis] | What a pity.
+A04.0014 [Coronis] | Maybe it's because you haven't seen enough dead bodies.
+A04.0015 [Coronis] | Perhaps if you look at more of them, you'll come to understand their beauty.
+A04.0016 [Coronis] | Next time I prepare a specimen, I will invite you to watch.
+A04.0017 [Tú] | No thanks!
+
+## Conversación A05
+A05.0001 [Coronis] | Boss, I have a question for you
+A05.0002 [Coronis] | Do you have a way to manage your monthly expenses?
+A05.0003 [Opción] | Control my expenses? My motto is that "Not buying it means 100% off."
+A05.0004 [Opción] | Nope. Money is meant to be spent.
+A05.0005 [Opción] | Hmm... Maybe try bookkeeping?
+A05.0006 [Coronis] | ...
+A05.0007 [Coronis] | What you say seems to make sense
+A05.0008 [Coronis] | But it's impossible to put into practice, isn't it?
+A05.0009 [Coronis] | ...
+A05.0010 [Coronis] | I quite admire your way of thinking
+A05.0011 [Coronis] | Sounds like a good idea
+A05.0012 [Coronis] | I shall try it if I get the chance
+A05.0013 [Tú] | Why asking me this all the sudden?
+A05.0014 [Coronis] | The clinic's expenses have been mysteriously increasing every month
+A05.0015 [Coronis] | If I don't take action, the clinic might end up in the red
+A05.0016 [Coronis] | Never mind. I just thought I'd ask
+
+## Conversación A06
+A06.0001 [Coronis] | Why do humans need to work in order to make money?
+A06.0002 [Coronis] | Why isn't passion and dedication rewarded with money?
+A06.0003 [Coronis] | Wasting scientific research time on such trivial matters is a waste of talent
+A06.0004 [Tú] | ????
+A06.0005 [Tú] | Did something happen?
+A06.0006 [Coronis] | ...
+A06.0007 [Coronis] | Nothing
+A06.0008 [Coronis] | The human brain uses rambling nonsense as a way to balance emotions
+A06.0009 [Coronis] | This is a normal physiological phenomenon
+A06.0010 [Coronis] | Please don't mind me
+A06.0011 [Tú] | ...
+A06.0012 [Tú] | That was also rambling, wasn't it?
+A06.0013 [Coronis] | Is it so obvious?
+A06.0014 [Coronis] | You are sharp
+A06.0015 [Tú] | So, what happened?
+A06.0016 [Coronis] | No, today's patient was very boring, that's all
+A06.0017 [Coronis] | Standard injury from a trip to the Monolith
+A06.0018 [Coronis] | I gave the guy a quick stitch, it'll heal up in just a few days
+A06.0019 [Tú] | Isn't that a good thing?
+A06.0020 [Coronis] | Yeah, sort of. But I was hoping for some challenging cases
+
+## Conversación A07
+A07.0001 [Coronis] | Oh by the way
+A07.0002 [Coronis] | Didn't you say that you wanted to see my right eye?
+A07.0003 [Opción] | Oh yeah! The enchanted right eye!
+A07.0004 [Opción] | I said that...?
+A07.0005 [Opción] | If I look at it, will I turn into stone?
+A07.0006 [Coronis] | What? Where did you get that from?
+A07.0007 [Coronis] | Didn't you?
+A07.0008 [Coronis] | Am I remembering this wrong?
+A07.0009 [Coronis] | You are good at joking, Boss
+A07.0010 [Coronis] | Never mind
+A07.0011 [Coronis] | I will be calibrating my prosthetic eye this afternoon
+A07.0012 [Coronis] | Please come find me at the clinic if you are interested
+A07.0013 [Coronis] | Oh, I almost forgot!
+A07.0014 [Coronis] | A patient at the clinic gave me a bag of snacks today
+A07.0015 [Coronis] | I will leave it there for you
+A07.0016 [Tú] | ...Did I even say I was going?
+A07.0017 [Coronis] | You won't be coming, then?
+A07.0018 [Opción] | I will...!
+A07.0019 [Coronis] | It's a deal, then
+A07.0020 [Coronis] | Don't keep me waiting for too long
+
+## Conversación A08
+A08.0001 [Coronis] | I made two extra bottles of hemostatic powder, good for stopping bleeding
+A08.0002 [Coronis] | If you want them, feel free to pick them up
+A08.0003 [Tú] | I just remembered, there's something I want to tell you
+A08.0004 [Coronis] | Yes? What is it?
+A08.0005 [Opción] | Happy birthday, Coronis!
+A08.0006 [Coronis] | Birthday?
+A08.0007 [Coronis] | Oh, is today already the Woodcarver Day?
+A08.0008 [Coronis] | Thank you for reminding me
+A08.0009 [Tú] | I knew you'd forget!
+A08.0010 [Coronis] | I don't celebrate my birthdays so it's natural for me to forget.
+A08.0011 [Coronis] | After all, it comes around every year.
+A08.0012 [Coronis] | But I'm interested in learning...
+A08.0013 [Coronis] | How did you know when my birthday is?
+A08.0014 [Tú] | Uh...
+A08.0015 [Tú] | Don't ask
+A08.0016 [Coronis] | Oh? Seems like there's a story here
+A08.0017 [Coronis] | But thank you for remembering it for me~
+
+## Conversación A09
+A09.0001 [Coronis] | The power of the scythe allows me to levitate
+A09.0002 [Coronis] | But honestly, I still have no idea how it actually works
+A09.0003 [Coronis] | Would be nice if I could thoroughly look into it
+A09.0004 [Tú] | There should be any number of artifacts that allow one to fly.
+A09.0005 [Coronis] | That's true, but
+A09.0006 [Coronis] | This scythe is not an Monolith artifact
+A09.0007 [Tú] | Huh?
+A09.0008 [Coronis] | Too bad there is only one
+A09.0009 [Coronis] | Otherwise, I'd love to take it apart and see what's inside
+A09.0010 [Tú] | Even though you don't fully understand this weapon, you still wield it with such skill
+A09.0011 [Tú] | You are amazing, Coronis
+A09.0012 [Coronis] | Huh?
+A09.0013 [Coronis] | Fighting with weapons is also a natural survival instinct
+A09.0014 [Coronis] | But my passion lies in studying its mechanism
+A09.0015 [Coronis] | Maybe if I uncover its secret, I would be able to figure out that other matter as well
+A09.0016 [Coronis] | Well, it's just me babbling to myself
+A09.0017 [Coronis] | Please forget what I've said
+
+## Conversación A10
+A10.0001 [Coronis] | Human memory is a strange maze
+A10.0002 [Coronis] | After you forget something
+A10.0003 [Coronis] | Even if you get to see it again in real time, if you can't organically recall it on your own, you will only feel like an observer
+A10.0004 [Opción] | What happened?
+A10.0005 [Coronis] | Nothing
+A10.0006 [Coronis] | It's just that some images flashed through my mind while I was listening to the Runic Disc
+A10.0007 [Coronis] | They are supposed to be my memory
+A10.0008 [Coronis] | But apart from a sense of familiarity, I cannot confirm that this is truly mine
+A10.0009 [Coronis] | It's as if I'm watching a movie with myself as the protagonist
+A10.0010 [Coronis] | Without any sense of real personal experience
+A10.0011 [Coronis] | ...
+A10.0012 [Coronis] | My apologies, I'm babbling again
+A10.0013 [Tú] | No need to apologize over something like this!!
+A10.0014 [Tú] | I'm really happy that you're sharing all this with me
+A10.0015 [Coronis] | Is that so?
+A10.0016 [Coronis] | As long as you don't find it annoying
+
+## Conversación B01
+B01.0001 [Coronis] | My god
+B01.0002 [Coronis] | This is just...
+B01.0003 [Opción] | Is just what...?
+B01.0004 [Opción] | Huh?
+B01.0005 [Coronis] | This is just pure art!
+B01.0006 [Coronis] | The art of potions!
+B01.0007 [Coronis] | You're definitely going to want to taste this
+B01.0008 [Coronis] | This batch is simply flawless
+B01.0009 [Opción] | I'm reporting this to the Imperial Guard
+B01.0010 [Opción] | What is it?
+B01.0011 [Coronis] | Why?
+B01.0012 [Coronis] | It's just a new fizzy tablet I invented
+B01.0013 [Coronis] | A new fizzy tablet I invented
+B01.0014 [Tú] | A fizzy tablet?
+B01.0015 [Coronis] | Yes
+B01.0016 [Coronis] | Just drop it in water
+B01.0017 [Coronis] | and it turns the water into a drink or a potion
+B01.0018 [Tú] | Amazing!
+B01.0019 [Tú] | And here I thought...
+B01.0020 [Coronis] | Thought what?
+B01.0021 [Tú] | Never mind
+
+## Conversación B02
+B02.0001 [Coronis] | Are you free?
+B02.0002 [Opción] | Nope
+B02.0003 [Opción] | What's up
+B02.0004 [Coronis] | ...
+B02.0005 [Coronis] | Do me a favor
+B02.0006 [Tú] | Nope
+B02.0007 [Coronis] | ...
+B02.0008 [Coronis] | Come to the clinic
+B02.0009 [Tú] | No
+B02.0010 [Tú] | Pass
+B02.0011 [Coronis] | This is important
+B02.0012 [Tú] | Don't care
+B02.0013 [Tú] | You're totally gonna grab me once I get there
+B02.0014 [Tú] | and run experiments on me
+B02.0015 [Coronis] | It's not like that
+B02.0016 [Coronis] | I needed to check on a patient
+B02.0017 [Coronis] | So I'm not in the clinic right now
+B02.0018 [Coronis] | And I forgot to turn off the reaction kettle for the potions
+B02.0019 [Tú] | Is it...
+B02.0020 [Tú] | gonna explode?
+B02.0021 [Coronis] | Possibly
+B02.0022 [Coronis] | So for the sake of the rare specimens in my room
+B02.0023 [Coronis] | And so I have a place to sleep tonight
+B02.0024 [Coronis] | Can you please get there and turn off the reaction kettle
+B02.0025 [Tú] | But I don't know how to
+B02.0026 [Coronis] | There's a red handle on it, just turn it left
+B02.0027 [Coronis] | If the clinic blows up, I'll have to crash with your guild for a while
+B02.0028 [Tú] | I'm on my way!
+
+## Conversación B03
+B03.0001 [Coronis] | Have you been shedding a lot of hair lately?
+B03.0002 [Opción] | No
+B03.0003 [Opción] | I'm not gonna buy shampoo from you
+B03.0004 [Coronis] | That's a problem
+B03.0005 [Coronis] | I'm not trying to sell shampoo
+B03.0006 [Coronis] | I have run out of your hair samples
+B03.0007 [Coronis] | Next time you shed some hair
+B03.0008 [Coronis] | Bring it to me
+B03.0009 [Tú] | Fine... As long as you're not experimenting on me
+B03.0010 [Tú] | Wait a minute!
+B03.0011 [Tú] | How do you even have my hair in the first place!
+B03.0012 [Coronis] | Oh, that
+B03.0013 [Coronis] | When you came in for a checkup last time
+B03.0014 [Coronis] | I collected some in secret
+B03.0015 [Tú] | Did you collect what fell off
+B03.0016 [Tú] | Or did you yank it out
+B03.0017 [Coronis] | Relax
+B03.0018 [Coronis] | You're still young
+B03.0019 [Coronis] | It will take a lot for you to go bald
+B03.0020 [Tú] | Nonono!
+B03.0021 [Tú] | Hair is precious!
+
+## Conversación B04
+B04.0001 [Coronis] | Come have a meal with me
+B04.0002 [Coronis] | My treat
+B04.0003 [Opción] | What are you up to this time?
+B04.0004 [Opción] | Sounds nice! COMING!
+B04.0005 [Coronis] | What am I up to?
+B04.0006 [Coronis] | What kind of person do you think I am?
+B04.0007 [Tú] | Some mad scientist who wants to turn me into a specimen
+B04.0008 [Coronis] | That part is true enough
+B04.0009 [Tú] | See! I knew it!
+B04.0010 [Coronis] | But not this time
+B04.0011 [Coronis] | Then meet me tonight at the entrance of Jing's Bistro
+B04.0012 [Tú] | Why are you suddenly treating me to a meal?
+B04.0013 [Tú] | Something's fishy...
+B04.0014 [Coronis] | Not at all
+B04.0015 [Coronis] | Back when you worked as my assistant
+B04.0016 [Coronis] | Remember how we had that patient who claimed he had a brain lesion?
+B04.0017 [Opción] | Oh, right
+B04.0018 [Opción] | I don't remember
+B04.0019 [Coronis] | I gave him placebo meds for a while
+B04.0020 [Coronis] | Now he thinks he is CURED and paid me a huge thank-you fee
+B04.0021 [Coronis] | So I figured I'd treat my excellent assistant to a nice meal
+B04.0022 [Tú] | But he wasn't really sick, was he?
+B04.0023 [Coronis] | Of course he wasn't, but I'm a great doctor
+B04.0024 [Tú] | Agree to disagree
+B04.0025 [Coronis] | Anyway, don't forget, come to Jing's Bistro tonight
+B04.0026 [Coronis] | I shall be waiting
+
+## Conversación B05
+B05.0001 [Coronis] | Don't forget to come back for your follow-up
+B05.0002 [Tú] | My what?
+B05.0003 [Coronis] | ...
+B05.0004 [Coronis] | Oops, wrong person
+B05.0005 [Coronis] | Too many patients lately
+B05.0006 [Coronis] | Hard to keep up
+B05.0007 [Tú] | Need help?
+B05.0008 [Coronis] | ...
+B05.0009 [Coronis] | Better not
+B05.0010 [Coronis] | Don't come
+B05.0011 [Tú] | Pigs do fly, after all
+B05.0012 [Tú] | You're telling me to not go to your clinic
+B05.0013 [Coronis] | The seasonal flu is making the rounds in Ash District
+B05.0014 [Coronis] | You might catch it if you come
+B05.0015 [Tú] | Is it serious?
+B05.0016 [Coronis] | Fairly serious
+B05.0017 [Coronis] | I can't even get a single corpse sample
+B05.0018 [Tú] | So... Not serious, then
+B05.0019 [Coronis] | I've developed a special antidote
+B05.0020 [Coronis] | Which I've been distributing these past few days
+B05.0021 [Coronis] | They should all recover soon
+B05.0022 [Coronis] | Make sure you take care of yourself, too
+
+## Conversación B06
+B06.0001 [Coronis] | My potion research has hit a bottleneck
+B06.0002 [Tú] | Bottleneck? You?
+B06.0003 [Coronis] | No, I mean I just don't know what to research next
+B06.0004 [Coronis] | Sleep potion, hemostatic potion, energizing potion...
+B06.0005 [Coronis] | Is there anything you would like?
+B06.0006 [Coronis] | I can try making it
+B06.0007 [Opción] | A potion that's the equivalent of three full meals
+B06.0008 [Opción] | A potion that heals wounds instantly
+B06.0009 [Opción] | A potion that makes you invisible
+B06.0010 [Tú] | That would save my guild during food shortages
+B06.0011 [Coronis] | Hmm...
+B06.0012 [Coronis] | I did make one that makes you not want to eat for three whole days
+B06.0013 [Coronis] | So that would basically save you nine meals
+B06.0014 [Tú] | Not ... want to eat for three whole days?
+B06.0015 [Coronis] | Correct
+B06.0016 [Coronis] | Main ingredient was bugs
+B06.0017 [Coronis] | Plus herbs and nutrients
+B06.0018 [Tú] | I'm not having that!
+B06.0019 [Coronis] | What are you talking about
+B06.0020 [Coronis] | Bugs are super nutritious
+B06.0021 [Coronis] | You could honestly substitute them for several meals, in theory
+B06.0022 [Tú] | Stop, just stop
+B06.0023 [Coronis] | Hmm...
+B06.0024 [Coronis] | With current tech, impossible
+B06.0025 [Coronis] | But I do want to try researching that
+B06.0026 [Coronis] | Instant healing
+B06.0027 [Coronis] | Its principle is similar to United Harvest's plant gene mods
+B06.0028 [Tú] | So there's a risk of it turning me into a monster?
+B06.0029 [Coronis] | Correct
+B06.0030 [Coronis] | Fairly high risk, I would say
+B06.0031 [Coronis] | But if you're willing to be my test subject...
+B06.0032 [Tú] | So you DO want to experiment on me!
+B06.0033 [Coronis] | Don't get so worked up
+B06.0034 [Coronis] | Think of the contribution to science
+B06.0035 [Coronis] | You should be proud
+B06.0036 [Coronis] | If I succeed in making this
+B06.0037 [Coronis] | People will honor your memory for generations to come
+B06.0038 [Tú] | But if you fail
+B06.0039 [Tú] | I'll just transform into a monster and get taken out by the Imperial Guard at sight!
+B06.0040 [Coronis] | Relax
+B06.0041 [Coronis] | I'd use Charon to take you out before that happens
+B06.0042 [Coronis] | Invisibility, huh?
+B06.0043 [Coronis] | Hmm...
+B06.0044 [Coronis] | A good idea, to be sure
+B06.0045 [Coronis] | Even though I'm not sure if it's possible
+B06.0046 [Coronis] | But I can already predict this
+B06.0047 [Coronis] | If this is a potion that you drink
+B06.0048 [Coronis] | Then only your body would become invisible; your clothes, not so much
+B06.0049 [Tú] | You mean...
+B06.0050 [Coronis] | Yep, once you drink it, you'd have to take all your clothes off
+B06.0051 [Coronis] | Otherwise it wouldn't work
+B06.0052 [Tú] | Can't you make the clothes invisible, too?
+B06.0053 [Coronis] | Then it has to be something you rub on your body and clothes
+B06.0054 [Coronis] | But then the timing gets tricky
+B06.0055 [Tú] | How do you mean?
+B06.0056 [Coronis] | If it wears off on your body before it does on your clothes...
+B06.0057 [Tú] | Never mind

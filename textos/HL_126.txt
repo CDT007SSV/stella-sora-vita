@@ -1,0 +1,381 @@
+# Heartlink de Flora: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Flora] | I use this phone for non-work stuff
+A01.0002 [Flora] | Let's add each other so we can stay in touch
+A01.0003 [Opción] | Why do you have two phones?
+A01.0004 [Opción] | How about give the other one to me
+A01.0005 [Flora] | You've got to keep your work and your private life separate
+A01.0006 [Flora] | It's common sense to someone in the show business
+A01.0007 [Tú] | How about give the other one to me, since you have two
+A01.0008 [Flora] | I'll think about it~
+A01.0009 [Tú] | Really?
+A01.0010 [Flora] | Hehe~ If you join OpenSky Agency, I'll let you manage my work account~
+A01.0011 [Tú] | Maybe when I'm on the verge of starvation
+A01.0012 [Flora] | I hope It doesn't have to come to this.
+A01.0013 [Flora] | Anyway, if you need help with anything, just reach out to me here
+A01.0014 [Flora] | I will read it—if I'm not too busy~
+
+## Conversación A02
+A02.0001 [Flora] | It's burning hot...
+A02.0002 [Flora] | ==PLAYER_NAME==, do you have anything to bring the temp down?
+A02.0003 [Tú] | Are you sick?
+A02.0004 [Flora] | No, it's just that my body overheats easily
+A02.0005 [Opción] | Shaved ice
+A02.0006 [Opción] | Cooling Artifact
+A02.0007 [Opción] | Iris
+A02.0008 [Tú] | How about eating something cold, like shaved ice
+A02.0009 [Flora] | Sounds nice, and I've heard that in Cang Wu there's something like that
+A02.0010 [Flora] | It's called... Tong sui, I think?
+A02.0011 [Tú] | You've never been to Cang Wu?
+A02.0012 [Flora] | I wish, but my work schedule is stuffed full all the way into the next year
+A02.0013 [Tú] | How about an artifact with cooling properties
+A02.0014 [Flora] | I'd love to, but other performers need it more
+A02.0015 [Flora] | And I need to set it to maximum if I were to use it
+A02.0016 [Tú] | Well, Iris from my guild is your cure
+A02.0017 [Flora] | The girl who plays ice? Send her to me, pronto!
+A02.0018 [Tú] | Don't get too excited, I was just brainstorming
+A02.0019 [Flora] | Tch...
+A02.0020 [Flora] | Ah, the water's getting warm—I need to go change it
+A02.0021 [Tú] | You're taking a bath?
+A02.0022 [Flora] | That's right, I'm taking emergency shelter inside the hotel room's bathtub
+A02.0023 [Flora] | It started as a cold water bath but now it's practically a hot spring
+A02.0024 [Tú] | Just how much heat does your body give off...
+A02.0025 [Flora] | It's not like I chose to be this way!
+
+## Conversación A03
+A03.0001 [Tú] | You busy?
+A03.0002 [Flora] | I was just practicing a moment ago, but now I can take a break
+A03.0003 [Tú] | You're working so hard
+A03.0004 [Flora] | Ahaha... Yeah, breaking up fights is definitely exhausting...
+A03.0005 [Tú] | Which big shots are at each other's throats this time?
+A03.0006 [Flora] | The playwright and the producer got into it
+A03.0007 [Flora] | The former insisted that a key inner monologue can't be left out
+A03.0008 [Flora] | While the latter realized that without going over the budget to build a new set, this part of the performance would come off as very stiff
+A03.0009 [Opción] | I think the playwright has the right idea
+A03.0010 [Opción] | I think the producer has the right idea
+A03.0011 [Opción] | What do you think?
+A03.0012 [Tú] | For stage plays, actors really need to voice their character's inner thoughts, don't they?
+A03.0013 [Flora] | Ah~ You know your stuff, I'm surprised~
+A03.0014 [Flora] | But that kid's acting skills are a bit lacking, so I'm worried the change might stress her out even more
+A03.0015 [Tú] | If they change the set, they'll need to rehearsal again. Is there enough time for that?
+A03.0016 [Flora] | Hurry! Use your big boss brain and think of something!
+A03.0017 [Tú] | I wish I could
+A03.0018 [Tú] | I'm more interested in knowing your take on the whole thing
+A03.0019 [Flora] | Me?
+A03.0020 [Flora] | I just sit back and enjoyed the show
+A03.0021 [Tú] | The more drama, the better, huh?
+A03.0022 [Flora] | Their arguments are a form of artistic exchange, so we don't intervene unless it's absolutely necessary
+A03.0023 [Flora] | But don't worry, they'll stop arguing eventually
+A03.0024 [Flora] | Then they'll make up and the work continues
+A03.0025 [Tú] | You sound very sure
+A03.0026 [Flora] | It's my team, so I'm used to it
+
+## Conversación A04
+A04.0001 [Flora] | ==PLAYER_NAME==
+A04.0002 [Flora] | Are you interested in starring in a play with me?
+A04.0003 [Opción] | I'm no actor
+A04.0004 [Opción] | I'd be great at acting
+A04.0005 [Tú] | Sorry, acting is not one of my strong suits
+A04.0006 [Flora] | That's totally fine—it's all about spontaneity, nothing to do with acting skills
+A04.0007 [Tú] | Sure, I've got the chops
+A04.0008 [Flora] | Wonderful! It just so happens that I need a partner.
+A04.0009 [Tú] | Hold on, can you tell me what kind of play is it first?
+A04.0010 [Flora] | My bad, I almost forgot...
+A04.0011 [Flora] | Simply put, it's just stopping whatever you're doing right now
+A04.0012 [Flora] | Pretend to be someone else and live their life
+A04.0013 [Flora] | It's perfect for people who often need to come up with creative ideas
+A04.0014 [Flora] | Experiencing a different life every now and then can help you break free from a rut
+A04.0015 [Opción] | Sounds really complicated
+A04.0016 [Opción] | Difficult to put into practice
+A04.0017 [Tú] | Difficult for me to put into practice...
+A04.0018 [Flora] | Don't worry, if you're interested, you can look into it first
+A04.0019 [Flora] | This ex-Flavio star has decided to take you under her wings~
+A04.0020 [Tú] | What kind of roles do you usually play?
+A04.0021 [Flora] | Last time, I played a washed-out singer who returned to her hometown and struggled to make a living
+A04.0022 [Tú] | Sounds normal enough. What about this time?
+A04.0023 [Flora] | Since it'll be the two of us this time, we should do something with two protagonists
+A04.0024 [Flora] | Let's play hunters tracking down witches in the city!
+A04.0025 [Tú] | Completely different vibes!
+
+## Conversación A05
+A05.0001 [Flora] | ==PLAYER_NAME==
+A05.0002 [Flora] | Are you in the RV right now?
+A05.0003 [Tú] | Yeah, what's up?
+A05.0004 [Flora] | Can I hide at your place? Just for a bit.
+A05.0005 [Opción] | Are you in debt?
+A05.0006 [Opción] | Are you being followed?
+A05.0007 [Opción] | Come here to slack off?
+A05.0008 [Tú] | Are you trying to run away to avoid paying your debt?
+A05.0009 [Flora] | As if!
+A05.0010 [Flora] | If I was running away from debtors, I wouldn't be calling on you...
+A05.0011 [Tú] | Think I might rat you out?
+A05.0012 [Flora] | You wouldn't be that heartless, would you ==PLAYER_NAME==~
+A05.0013 [Flora] | Uh... You wouldn't, right...?
+A05.0014 [Flora] | Hmph~
+A05.0015 [Flora] | I'm Flora, Magician Maximus
+A05.0016 [Flora] | I know exactly how to handle a situation like this~
+A05.0017 [Tú] | How?
+A05.0018 [Flora] | Either with violence or money
+A05.0019 [Tú] | That gives me an idea...
+A05.0020 [Flora] | Don't even joke about that. If you need money, I can just give you some...
+A05.0021 [Flora] | I work flexible time!
+A05.0022 [Tú] | But you still have to stick to the agreed work schedules, don't you!
+A05.0023 [Flora] | I've finished my work already
+A05.0024 [Flora] | Wait a minute!
+A05.0025 [Flora] | I'm the one who requests a commission!
+A05.0026 [Tú] | Ok but seriously, if you need help, just come
+A05.0027 [Flora] | Finally!!!
+A05.0028 [Tú] | ?
+A05.0029 [Flora] | Oh...
+A05.0030 [Flora] | Finally... There is hope!
+A05.0031 [Tú] | Need me to buy some more snacks?
+A05.0032 [Flora] | Yes please!
+A05.0033 [Tú] | ...
+A05.0034 [Flora] | Ahaha...
+
+## Conversación A06
+A06.0001 [Flora] | So I'm thinking, aren't guild leaders and producers basically the same kind of job?
+A06.0002 [Tú] | What do you mean?
+A06.0003 [Flora] | You see, a guild leader is responsible for leading and mentoring the Trekkers under their wing
+A06.0004 [Flora] | And they have to deal with a lot of paperwork
+A06.0005 [Flora] | A producer also needs to mentor and train their artists
+A06.0006 [Flora] | They also have to negotiate those long-winded contracts
+A06.0007 [Flora] | If Trekkers and Paperworks are the same to Artists and Contracts, then set Guild Leaders equal to Producers. So, QED
+A06.0008 [Opción] | You're a genius!
+A06.0009 [Opción] | Can't argue with that
+A06.0010 [Flora] | So if a guild leader is also a producer
+A06.0011 [Flora] | How should she be called?
+A06.0012 [Tú] | Uh... Guild Producer?
+A06.0013 [Flora] | Great name, but as far as I know, there is only one Magician Maximus who has ever claimed that job title
+A06.0014 [Flora] | And now she needs a business partner
+A06.0015 [Flora] | ==PLAYER_NAME==! You should come be a producer, too!
+A06.0016 [Flora] | Help me out!
+A06.0017 [Opción] | So that's what it is
+A06.0018 [Opción] | The real intention is revealed!
+A06.0019 [Flora] | Being a producer is really interesting!
+A06.0020 [Flora] | You totally should be one!
+A06.0021 [Tú] | You're acting weird today!
+A06.0022 [Tú] | Is the pressure getting to you?
+A06.0023 [Flora] | If you have to deal with so many complicated documents and contracts every day
+A06.0024 [Flora] | And when you rehearse with the team, you have to take the center stage yourself
+A06.0025 [Flora] | You'd go crazy, too
+
+## Conversación A07
+A07.0001 [Flora] | That's it...
+A07.0002 [Flora] | It's all crashing down on me...
+A07.0003 [Flora] | It's all hopeless...
+A07.0004 [Tú] | Flora, is that you? Why are you so moody all the sudden?
+A07.0005 [Flora] | Yes, I'm Flora! Magician Maximus!
+A07.0006 [Flora] | But it's not like I'm some all-knowing and all-powerful being!
+A07.0007 [Flora] | Once in a while I just get into one of these moods!
+A07.0008 [Tú] | Just calm down! This isn't like you!
+A07.0009 [Tú] | Okay okay, As the Tyrant of the Ancient, I will listen to anyone and everyone's confessions
+A07.0010 [Tú] | O lost Magician, tell me what is getting you so down
+A07.0011 [Flora] | I've sinned... Lord Tyrant...
+A07.0012 [Flora] | I lost my temper during practicing with this kid who made the same mistake twenty times
+A07.0013 [Flora] | What should I do... I really didn't mean to...
+A07.0014 [Flora] | I'm really worried that I ruined her day...
+A07.0015 [Flora] | Did I destroy her dreams...
+A07.0016 [Opción] | In a way, that kid sounds pretty impressive...
+A07.0017 [Opción] | It takes a special trait to repeat the same mistake twenty times
+A07.0018 [Tú] | In a way, that kid sounded pretty impressive...
+A07.0019 [Tú] | Cough...
+A07.0020 [Tú] | I forgive you for committing the sin of wrath
+A07.0021 [Tú] | Calm yourself down and talk to her again
+A07.0022 [Flora] | Thank you! The Supreme Lord Tyrant!
+A07.0023 [Flora] | Oh...
+A07.0024 [Flora] | Oops, my fingers moved faster than my brain did...
+A07.0025 [Tú] | You done?
+A07.0026 [Flora] | Yeah, I feel a little bit better now...
+A07.0027 [Tú] | You know, you didn't need to put on that charade just to have that talk with me
+A07.0028 [Flora] | After all, I'm Flora, Magician Maximus
+A07.0029 [Flora] | How could I ever need help from an ordinary—
+A07.0030 [Tú] | "Once in a while I just..."
+A07.0031 [Flora] | AAAAAAAAAAAHHHHH!!!
+A07.0032 [Flora] | That's enough! Just stop, please!
+A07.0033 [Flora] | Okay so I'm sorry for my frivolous talk!
+A07.0034 [Flora] | Don't tell anyone about this, or my image will be completely ruined!
+
+## Conversación A08
+A08.0001 [Tú] | Flora
+A08.0002 [Flora] | Hmm? What is it?
+A08.0003 [Tú] | What are you doing?
+A08.0004 [Flora] | Just finished my performance, now I'm backstage, removing makeup.
+A08.0005 [Tú] | What are you doing afterwards?
+A08.0006 [Flora] | Afterwards... Just go back and lie down
+A08.0007 [Tú] | I see. Now I'll show you a magic trick
+A08.0008 [Tú] | I will use a single sentence to make you remember something important
+A08.0009 [Flora] | Huh?
+A08.0010 [Tú] | Happy birthday, Flora
+A08.0011 [Flora] | Oh that's today? I guess I've been so busy lately that it completely slipped my mind
+A08.0012 [Flora] | I can take off my makeup later—I need to head out first
+A08.0013 [Tú] | Buy food for your birthday celebration?
+A08.0014 [Flora] | You're half right
+A08.0015 [Flora] | Everyone's been working hard lately, so this is the perfect occasion to treat everyone to something nice
+A08.0016 [Tú] | What about the other half?
+A08.0017 [Flora] | Hah, you'll find out soon enough~
+
+## Conversación A09
+A09.0001 [Tú] | After one training session, I feel like I'm about to be roasted alive
+A09.0002 [Flora] | Sorry! I should've taken it easier on you!
+A09.0003 [Flora] | It's been so long since I've done proper training sessions
+A09.0004 [Tú] | Is the magic you usually perform that powerful, too?
+A09.0005 [Flora] | Of course not!
+A09.0006 [Flora] | But it is true that fire is the most dangerous element of all!
+A09.0007 [Flora] | Magic is an instrument that you make of it, much like a kitchen knife
+A09.0008 [Flora] | You can use it to make great food
+A09.0009 [Flora] | Or use it to hurt people...
+A09.0010 [Flora] | It all depends on the ability of the user. Those who can't control it will end up hurting themselves in the end.
+A09.0011 [Tú] | I've learned something new about magicians...
+A09.0012 [Flora] | Sorry about that, ==PLAYER_NAME==
+A09.0013 [Flora] | To make it up for you, I'll take you to the best dessert place in town
+A09.0014 [Flora] | I heard they have parfaits now
+A09.0015 [Tú] | Okay, I do need to get my temp down...
+
+## Conversación A10
+A10.0001 [Flora] | I thought Runic Discs were just urban legends.
+A10.0002 [Flora] | I had no idea they actually existed
+A10.0003 [Flora] | Being able to make people recall past memories—magic that powerful feels like cheating...
+A10.0004 [Opción] | But all these memories belong to you
+A10.0005 [Opción] | You're the one who made this Runic Disc what it is
+A10.0006 [Flora] | Yes, but I'd like to put it in a different way
+A10.0007 [Flora] | It was the butterfly from the distant past flapping its wings, triggering a chain reaction of fate
+A10.0008 [Flora] | Having experienced all this, met all of you
+A10.0009 [Flora] | Everyone had a hand in the making of this magic happening
+A10.0010 [Tú] | So I'm like a magician's assistant?
+A10.0011 [Flora] | Of course, if it weren't for you, the butterfly would have never returned to me
+A10.0012 [Flora] | So thank you, really...
+A10.0013 [Flora] | But don't tell anyone about this side of me, okay?
+A10.0014 [Tú] | Taboos of magic, I know
+
+## Conversación B01
+B01.0001 [Flora] | Do you practice your signature, ==PLAYER_NAME==?
+B01.0002 [Tú] | I'm not exactly a celebrity, you know
+B01.0003 [Flora] | But you're a CEO, right?
+B01.0004 [Flora] | Sometimes you have to sign things over and over.
+B01.0005 [Tú] | So, do you have any practice tips?
+B01.0006 [Flora] | Hehe~ I was waiting for you to ask.
+B01.0007 [Flora] | Hang on a minute, I'll grab some tools and teach you in person~
+B01.0008 [Tú] | You're just trying to sneak out, aren't you?
+B01.0009 [Flora] | ...
+B01.0010 [Tú] | ...
+B01.0011 [Flora] | No, I'm not.
+
+## Conversación B02
+B02.0001 [Flora] | I made a small mistake during today's performance.
+B02.0002 [Tú] | You did? That's unusual
+B02.0003 [Tú] | What happened?
+B02.0004 [Flora] | For a moment, I lost control of my wand. Luckily, nobody noticed.
+B02.0005 [Flora] | I checked it after I got offstage, but I couldn't find anything wrong.
+B02.0006 [Tú] | I don't really get how wands work...
+B02.0007 [Tú] | But maybe the problem lies with its user?
+B02.0008 [Tú] | Have you been performing non-stop lately?
+B02.0009 [Flora] | Well, I've been busy...
+B02.0010 [Tú] | Go get some rest, Flora. For your health
+B02.0011 [Flora] | Yeah, true...
+B02.0012 [Flora] | I can't believe I instantly started blaming my wand.
+B02.0013 [Flora] | Thanks for the reminder. I'll rearrange my upcoming show schedule.
+
+## Conversación B03
+B03.0001 [Flora] | This might sound like it's coming out of nowhere, but I want to ask...
+B03.0002 [Flora] | Do I seem like someone who dwells on the past?
+B03.0003 [Opción] | Yes, you do
+B03.0004 [Opción] | I don't think it matters
+B03.0005 [Tú] | You do bring up the past sometimes
+B03.0006 [Tú] | But I don't think it matters
+B03.0007 [Tú] | We're all made up of countless past moments
+B03.0008 [Tú] | Even this conversation right now will be the past in a few seconds
+B03.0009 [Tú] | The present is already the past; and the past was, at one point, the future.
+B03.0010 [Flora] | It's all connected, like a magic trick.
+B03.0011 [Tú] | See, you do get it
+B03.0012 [Flora] | I just sometimes wonder if I talk about the past too much with people.
+B03.0013 [Flora] | Does it come off as self-centered?
+B03.0014 [Tú] | Having a lot of past experiences is a good thing. A luxury that I don't have
+B03.0015 [Flora] | Then... Can the me of today become a part of your past in the future?
+B03.0016 [Tú] | Woah, when did you become such a smooth-talker?
+B03.0017 [Flora] | Ha! Turned the tables on you~
+
+## Conversación B04
+B04.0001 [Flora] | ==PLAYER_NAME==, are you free later?
+B04.0002 [Tú] | Yeah, why?
+B04.0003 [Flora] | Hmm...
+B04.0004 [Flora] | I feel like going out.
+B04.0005 [Tú] | That doesn't sound like work
+B04.0006 [Tú] | Where are you? I'll come meet you
+B04.0007 [Flora] | Why didn't you ask me what I wanted to do?
+B04.0008 [Tú] | I didn't want to pry, in case it was a personal matter
+B04.0009 [Flora] | Why are you being so distant?
+B04.0010 [Flora] | Aren't we way past that? Like, didn't we bare all to each other?
+B04.0011 [Tú] | STOP STOP STOP
+B04.0012 [Tú] | Putting me aside for a moment...
+B04.0013 [Tú] | If someone else saw this conversation, what would you do?
+B04.0014 [Flora] | Don't worry. Nobody can touch my phone except for Fannie
+B04.0015 [Tú] | And she doesn't have a problem with that?
+B04.0016 [Flora] | Well... she does tell me all the time not to cause trouble for you.
+B04.0017 [Tú] | Yet what you're doing isn't anything near...
+B04.0018 [Flora] | Ehehe~
+
+## Conversación B05
+B05.0001 [Flora] | I've decided. I want to buy some new outfits for going out.
+B05.0002 [Tú] | For business? I don't know much about that
+B05.0003 [Flora] | No, not for business. The kind I'd wear when I go out with you.
+B05.0004 [Tú] | You always just wear those same loose hoodies
+B05.0005 [Flora] | You just don't get it, ==PLAYER_NAME==.
+B05.0006 [Flora] | Sometimes changing clothes also changes one's mood.
+B05.0007 [Tú] | Alright, what kind of clothes do you want to try?
+B05.0008 [Flora] | What style do you think suits me?
+B05.0009 [Opción] | Intellectual and elegant
+B05.0010 [Opción] | Androgynous and cool
+B05.0011 [Opción] | Cute in a landmine style
+B05.0012 [Tú] | Intellectual, mature, yet elegant
+B05.0013 [Flora] | That sounds nice~
+B05.0014 [Flora] | I've been wanting to try some dresses on.
+B05.0015 [Flora] | I had no idea you liked this kind of style though, ==PLAYER_NAME==.
+B05.0016 [Tú] | I just think it matches your stage presence the best
+B05.0017 [Flora] | Got it, got it~ I hear you~
+B05.0018 [Tú] | How about a cool, androgynous style?
+B05.0019 [Flora] | I don't mind, but why?
+B05.0020 [Tú] | First of all, it helps you with concealing your identity
+B05.0021 [Tú] | Second, I think you could pull off a new look
+B05.0022 [Flora] | Is that right...? Hehe...
+B05.0023 [Tú] | I heard there's a style that's "cute but super toxic"
+B05.0024 [Flora] | Oh yeah, I've heard about that recently.
+B05.0025 [Flora] | But... You'd actually want me to wear something like that...?
+B05.0026 [Tú] | I think it could be worth a try?
+B05.0027 [Flora] | I feel like I'd need some mental prep for that.
+B05.0028 [Flora] | But if you really want to see it, ==PLAYER_NAME==, I'll give it my best shot.
+B05.0029 [Flora] | Anyway, just talking about it isn't going to get us anywhere.
+B05.0030 [Flora] | No day like today. Let's go pick something out right now.
+B05.0031 [Tú] | Okay, I'll come get you
+B05.0032 [Flora] | No, this time, I'll come to you.
+B05.0033 [Flora] | Just wait for me~
+
+## Conversación B06
+B06.0001 [Flora] | I saw you from the VIP section at today's show.
+B06.0002 [Flora] | Thanks for coming~
+B06.0003 [Tú] | My guild just got into town, and we're still very busy with all the commissions
+B06.0004 [Tú] | Sorry I couldn't help with the rehearsals
+B06.0005 [Flora] | Perish the thought! Just you being here has made me very happy.
+B06.0006 [Flora] | Gave me extra energy on stage.
+B06.0007 [Tú] | Yeah, I could tell. Some of those tricks were extra flashy. Really enjoyed it
+B06.0008 [Flora] | Ah, Fannie's calling me to pack now.
+B06.0009 [Tú] | You're leaving already? I thought you'd stay a few days more
+B06.0010 [Flora] | Schedule calls. We're traveling separately. It's already super lucky that we ran into each other.
+B06.0011 [Flora] | So, you wanna go for a walk right now?
+B06.0012 [Tú] | Now?
+B06.0013 [Flora] | Yeah, I'll be done packing soon. I can hang out with you for a bit before I leave.
+B06.0014 [Tú] | But you're still wearing your stage outfit. Aren't you worried...?
+B06.0015 [Flora] | This chance to see each other is rare. I don't want to miss it.
+B06.0016 [Flora] | If someone sees us and starts spreading rumors, so be it~
+B06.0017 [Tú] | Well, since you put it that way, how could I say no?
+B06.0018 [Tú] | But while you're packing, I'm going to change into something else, too
+B06.0019 [Flora] | Since when did you get so conscious about your image?
+B06.0020 [Tú] | Hey, if I'm gonna be with Flora the Magician Maximus, I need to wear something that matches the occasion~
+B06.0021 [Tú] | I've got a nice outfit put together. You may look forward to it
+B06.0022 [Flora] | Oh. You smooth talker, you.
+B06.0023 [Tú] | Try to keep your cool when you see me, okay?
+B06.0024 [Flora] | Roger that~

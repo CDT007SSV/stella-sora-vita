@@ -1,0 +1,205 @@
+# Heartlink de Allie: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Allie] | So, this means we're friends, right?
+A01.0002 [Allie] | Can you see my texts, ==PLAYER_NAME==?
+A01.0003 [Opción] | Yep! I see them!
+A01.0004 [Allie] | Oh, thank goodness.
+A01.0005 [Allie] | I've never talked to anyone with a phone before.
+A01.0006 [Opción] | You've never used a phone?
+A01.0007 [Opción] | Didn't the New Star Guild add you?
+A01.0008 [Allie] | I mean... I have used them...
+A01.0009 [Allie] | But it's not like I have contacts, or anyone to text.
+A01.0010 [Allie] | So I just never bothered.
+A01.0011 [Allie] | Mmm...
+A01.0012 [Allie] | They couldn't afford phones when they first set out as Trekkers.
+A01.0013 [Allie] | If you hadn't brought them all the way here...
+A01.0014 [Allie] | We probably never would have connected.
+A01.0015 [Tú] | Ah, gotcha.
+A01.0016 [Allie] | I gotta go, the kids need me.
+A01.0017 [Allie] | Let's talk later!
+
+## Conversación A02
+A02.0001 [Tú] | Everything okay? Did something happen?
+A02.0002 [Allie] | Not really.
+A02.0003 [Allie] | Just wrapped up my chores, so I'm a little tired.
+A02.0004 [Allie] | Isn't this the sweating emoji?
+A02.0005 [Opción] | Uh... That's not exactly what it means.
+A02.0006 [Allie] | Huh?
+A02.0007 [Allie] | You sweat when you work hard, right?
+A02.0008 [Allie] | And sweating means you're tired.
+A02.0009 [Allie] | Is that wrong?
+A02.0010 [Allie] | Now that I think about it, Iris sends me this one from time to time.
+A02.0011 [Allie] | Is she working too hard lately?
+A02.0012 [Tú] | Well, knowing Iris...
+A02.0013 [Tú] | When she sends it, there's a very good chance...
+A02.0014 [Tú] | She actually is exhausted.
+A02.0015 [Allie] | See?
+A02.0016 [Allie] | Told you.
+A02.0017 [Allie] | What's wrong?
+A02.0018 [Allie] | Are you tired too, ==PLAYER_NAME==?
+A02.0019 [Tú] | Ah, no.
+A02.0020 [Tú] | Never mind. I'm good.
+
+## Conversación A03
+A03.0001 [Allie] | Have you eaten today, ==PLAYER_NAME==?
+A03.0002 [Opción] | Yep!
+A03.0003 [Opción] | Nope
+A03.0004 [Tú] | Reporting in! Plate cleared!
+A03.0005 [Allie] | Well done!
+A03.0006 [Tú] | Got busy, haven't had a chance yet.
+A03.0007 [Allie] | Hmm...
+A03.0008 [Allie] | What's more important than taking care of yourself?
+A03.0009 [Tú] | We had an urgent commission.
+A03.0010 [Tú] | Just finished.
+A03.0011 [Tú] | Eating right now!
+A03.0012 [Allie] | Good!
+
+## Conversación A04
+A04.0001 [Allie] | Can't believe it's actually raining in Mirage today.
+A04.0002 [Allie] | Tell me you brought an umbrella, ==PLAYER_NAME==.
+A04.0003 [Opción] | Nope
+A04.0004 [Opción] | Yep
+A04.0005 [Tú] | But I found a rock to hide under
+A04.0006 [Tú] | And the New Star Guild is already on their way with Loxy
+A04.0007 [Tú] | Sure
+A04.0008 [Tú] | I never leave home without one!
+A04.0009 [Tú] | Don't worry!
+A04.0010 [Allie] | Oh, good...
+A04.0011 [Tú] | Who expects a downpour in the middle of a desert?
+A04.0012 [Tú] | Definitely caught me off guard
+A04.0013 [Allie] | I've never seen it rain this hard here either.
+A04.0014 [Tú] | The weather's been totally crazy lately
+A04.0015 [Tú] | Could someone be messing with it using magic?
+A04.0016 [Allie] | I don't think magic like that exists.
+A04.0017 [Tú] | Good point
+A04.0018 [Tú] | Oh
+A04.0019 [Tú] | Loxy just pulled up
+A04.0020 [Tú] | I'm hopping in
+A04.0021 [Allie] | Let's chat when you get home.
+A04.0022 [Tú] | Will do!
+
+## Conversación A05
+A05.0001 [Allie] | ==PLAYER_NAME==, wanna hear a story about Noya when she was little?
+A05.0002 [Opción] | Where did this come from?
+A05.0003 [Opción] | Feels a bit intrusive, no?
+A05.0004 [Allie] | I was cleaning out some boxes today.
+A05.0005 [Allie] | Found her old baby blanket.
+A05.0006 [Allie] | Brought back some memories.
+A05.0007 [Allie] | But...
+A05.0008 [Allie] | I really don't think she'd mind.
+A05.0009 [Allie] | Especially if it's you.
+A05.0010 [Allie] | She used to kick her blankets off in her sleep all the time.
+A05.0011 [Allie] | I'd tuck her in...
+A05.0012 [Allie] | Turn my back for two seconds, and she'd kick it right off again.
+A05.0013 [Allie] | So I came up with a fix.
+A05.0014 [Tú] | Which was?
+A05.0015 [Allie] | I tied the blanket to the bed frame with rope so she couldn't kick it away.
+A05.0016 [Allie] | Then I'd just untie it before she woke up.
+A05.0017 [Allie] | She never suspected a thing.
+A05.0018 [Tú] | Brutally effective.
+
+## Conversación A06
+A06.0001 [Allie] | Boss! Boss!
+A06.0002 [Allie] | When are you coming back to play with us?!
+A06.0003 [Opción] | Who is this...?
+A06.0004 [Allie] | Oh.
+A06.0005 [Allie] | Sorry about that.
+A06.0006 [Allie] | The kids swiped my phone.
+A06.0007 [Tú] | Ah, that explains it
+A06.0008 [Allie] | Ever since you hung out with them last time...
+A06.0009 [Allie] | The Boss is practically a celebrity around here.
+A06.0010 [Allie] | All of them can't wait for you to come back.
+A06.0011 [Tú] | I'm flattered
+A06.0012 [Allie] | Honestly, I'd also dashjlhdajsf
+A06.0013 [Tú] | What?
+A06.0014 [Allie] | Give me one sec
+A06.0015 [Allie] | A boy just took a tumble in the yard.
+A06.0016 [Tú] | Is he okay?
+A06.0017 [Allie] | Yeah, just a scraped knee.
+A06.0018 [Allie] | Gotta go patch him up.
+A06.0019 [Tú] | Need a hand?
+A06.0020 [Allie] | If you have the time, ==PLAYER_NAME==.
+A06.0021 [Tú] | On my way
+
+## Conversación A07
+A07.0001 [Allie] | Why are you still up?
+A07.0002 [Allie] | Loxy's lights are still on.
+A07.0003 [Opción] | We're asleep!
+A07.0004 [Opción] | We just forgot to turn the lights off
+A07.0005 [Allie] | Then who's texting me?
+A07.0006 [Allie] | How do you sleep with such bright lights?
+A07.0007 [Allie] | Be honest.
+A07.0008 [Allie] | What are you doing?
+A07.0009 [Tú] | We're...
+A07.0010 [Tú] | Watching that Stella Drama we wished out of the Monolith today
+A07.0011 [Allie] | Seriously...
+A07.0012 [Allie] | Pulling another all-nighter, huh?
+A07.0013 [Tú] | Sorry!
+A07.0014 [Tú] | Going to bed right now!
+A07.0015 [Tú] | And why are you still up, Allie?
+A07.0016 [Allie] | I was just finishing my rounds and tucking the kids in.
+A07.0017 [Allie] | That's when I saw your car parked in the yard with the lights blazing.
+A07.0018 [Allie] | Alright, I'm going to bed too.
+A07.0019 [Allie] | Turn off the screen, you hear me?
+A07.0020 [Tú] | Yes, ma'am!
+
+## Conversación A08
+A08.0001 [Allie] | Are you free, ==PLAYER_NAME==?
+A08.0002 [Opción] | Happy Birthday!
+A08.0003 [Allie] | Huh?
+A08.0004 [Tú] | Isn't it your birthday today?
+A08.0005 [Allie] | Let me check the calendar...
+A08.0006 [Allie] | Wow, I guess it is. Time flies.
+A08.0007 [Allie] | Thank you.
+A08.0008 [Allie] | Anyway, back to my question. Are you free today?
+A08.0009 [Opción] | Sure am
+A08.0010 [Opción] | What's up?
+A08.0011 [Allie] | Come over to the orphanage for dinner tonight.
+A08.0012 [Tú] | Perfect, I'll bring the cake!
+A08.0013 [Allie] | Just bring yourself! No need to buy a cake.
+A08.0014 [Tú] | It's a birthday! Cake is non-negotiable!
+A08.0015 [Allie] | Alright, alright.
+A08.0016 [Allie] | See you tonight.
+A08.0017 [Tú] | See you
+
+## Conversación A09
+A09.0001 [Allie] | Everyone's become so strong.
+A09.0002 [Allie] | Noya, Amber, Iris... All of them.
+A09.0003 [Tú] | You bet they have
+A09.0004 [Allie] | Seeing them like this...
+A09.0005 [Allie] | I guess I can finally stop worrying so much.
+A09.0006 [Allie] | Noya might even be able to beat me in a fight now.
+A09.0007 [Tú] | Let's not get crazy
+A09.0008 [Tú] | You're still a powerhouse, Allie!
+A09.0009 [Tú] | Plus, you work perfectly with everyone
+A09.0010 [Allie] | That's a team effort.
+A09.0011 [Allie] | It's Amber's covering fire and Iris's support that makes it work.
+A09.0012 [Tú] | No, seriously
+A09.0013 [Tú] | You're more than strong enough on your own
+A09.0014 [Allie] | Haha.
+A09.0015 [Allie] | Alright, I'll take your word for it.
+A09.0016 [Allie] | Still, seeing the kids grow this fast...
+A09.0017 [Allie] | I'd be lying if I said I didn't feel the pressure.
+A09.0018 [Allie] | Time to step up my own training.
+A09.0019 [Allie] | Don't fall behind either, ==PLAYER_NAME==!
+
+## Conversación A10
+A10.0001 [Allie] | Those memories...
+A10.0002 [Allie] | And fighting alongside the White Cat Troupe today...
+A10.0003 [Opción] | Allie?
+A10.0004 [Allie] | Sorry.
+A10.0005 [Allie] | Don't worry about me.
+A10.0006 [Allie] | I just got a little caught up in the past.
+A10.0007 [Allie] | About the past burned on this record.
+A10.0008 [Allie] | But that mercenary, Taffett...
+A10.0009 [Allie] | She's been gone a long time now.
+A10.0010 [Allie] | All that's left is Allie, the mother of the orphanage.
+A10.0011 [Tú] | Exactly!
+A10.0012 [Tú] | And you're the best Mom your kids could ever ask for!
+A10.0013 [Allie] | Thank you, ==PLAYER_NAME==.
+A10.0014 [Allie] | For helping me revisit those memories today.
+A10.0015 [Tú] | Anytime

@@ -26,7 +26,7 @@ for v in D.values():
     if v['DatingEventType']==5 and v.get('Name'):
         cid=v['DatingEventParams'][0]
         by.setdefault(cid,{'a':[],'d':[]})['d'].append({'i':v['Id'],'n':tx(TD,v['Name']),'p':tx(TD,v.get('Clue')),'m':tx(TD,v.get('Memory')),
-            'd':[tx(TD,v.get('Desc1')),tx(TD,v.get('Desc2')),tx(TD,v.get('Desc3'))],'x':v.get('Affinity') or 0})
+            'x':v.get('Affinity') or 0,'g':v.get('CG') or ''})
 nuevos=[]
 for cid,o in sorted(by.items()):
     nm=(PR.get(str(cid)) or {}).get('n','')
@@ -34,7 +34,7 @@ for cid,o in sorted(by.items()):
     for x in o['a']:x.pop('s',None);x['t']=clean(x['t'],nm);x['c']=clean(x['c'],nm);x['u']=clean(x['u'],nm)
     o['d'].sort(key=lambda x:x['i'])
     for x in o['d']:
-        x['n']=clean(x['n'],nm);x['p']=clean(x['p'],nm);x['m']=clean(x['m'],nm);x['d']=[clean(t,nm) for t in x['d']]
+        x['n']=clean(x['n'],nm);x['p']=clean(x['p'],nm);x['m']=clean(x['m'],nm)
     json.dump(o,open(REPO+'afinidad/%d.json'%cid,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
     pt=REPO+'textos/AF_%d.txt'%cid
     if os.path.exists(pt):continue
@@ -48,11 +48,9 @@ for cid,o in sorted(by.items()):
             f.write('a%d.t | %s\n'%(x['i'],L(x['t'])))
             if x['c']:f.write('a%d.c | %s\n'%(x['i'],L(x['c'])))
             if x['u']:f.write('a%d.u | %s\n'%(x['i'],L(x['u'])))
-        f.write('\n## Citas (n = nombre, 1-3 = escena, p = pista, m = recuerdo)\n')
+        f.write('\n## Citas (n = nombre, p = pista, m = recuerdo)\n')
         for x in o['d']:
             f.write('d%d.n | %s\n'%(x['i'],L(x['n'])))
-            for k,t in enumerate(x['d'],1):
-                if t:f.write('d%d.%d | %s\n'%(x['i'],k,L(t)))
             if x['p']:f.write('d%d.p | %s\n'%(x['i'],L(x['p'])))
             if x['m']:f.write('d%d.m | %s\n'%(x['i'],L(x['m'])))
     nuevos.append('textos/AF_%d.txt'%cid)

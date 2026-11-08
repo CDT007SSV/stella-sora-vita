@@ -1,0 +1,309 @@
+# Heartlink de Laru: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Laru] | Booyah! We're contacts now
+A01.0002 [Laru] | Next time you're planning a work escape, count me in
+A01.0003 [Tú] | I'm literally the Boss
+A01.0004 [Laru] | Pssh, you don't understand how satisfying it is to procrastinate at work
+A01.0005 [Laru] | Anyway, gotta bounce! Fishing time!
+A01.0006 [Laru] | The Great Laru is gonna hook a huge one today!
+
+## Conversación A02
+A02.0001 [Laru] | WHERE IS MY ASSISTANT?! WHERE'S MY CREW?!
+A02.0002 [Laru] | WHERE U AT RN?? ANSWER ME NOW!!
+A02.0003 [Opción] | In your office
+A02.0004 [Opción] | What's the emergency this time?
+A02.0005 [Laru] | DOESN'T MATTER WHERE!! YOU HAVE TO SEE THIS!!!
+A02.0006 [Laru] | HURRY HURRY HURRY!!
+A02.0007 [Laru] | CHECK OUT THE ABSOLUTE UNIT I JUST LANDED!
+A02.0008 [Laru] | Thing's gotta be like TEN POUNDS!!
+A02.0009 [Tú] | That's massive!
+A02.0010 [Laru] | Even random seagull passing by were like "Daaang, nice fish!!"
+A02.0011 [Tú] | Look, not to burst your bubble
+A02.0012 [Tú] | But you need to get back here ASAP if you want to survive this
+A02.0013 [Laru] | ??
+A02.0014 [Tú] | I'm. In. Your. Office.
+A02.0015 [Laru] | ????
+A02.0016 [Tú] | I am chatting with Albedo.
+A02.0017 [Laru] | ...
+A02.0018 [Laru] | AAAAH buy me some time!! I'm omw back!!!!
+
+## Conversación A03
+A03.0001 [Laru] | Heyyy, haven't seen you around lately?
+A03.0002 [Laru] | Off having fun without me??
+A03.0003 [Laru] | Wanna come grab some fries?
+A03.0004 [Laru] | They're fresh outta the fryer! Better hurry before the seagulls get 'em!
+A03.0005 [Tú] | Are you sure you actually work here?
+A03.0006 [Tú] | How are you out getting fries again?
+A03.0007 [Laru] | Eh, boring details. Stop asking questions! C'mon, meet me at the pier.
+A03.0008 [Laru] | ...
+A03.0009 [Laru] | Uhhh, never mind, don't bother coming.
+A03.0010 [Tú] | What now?
+A03.0011 [Laru] | Uh oh. A seagull just jacked your fries...
+A03.0012 [Tú] | ???
+A03.0013 [Laru] | Yeah, and not only did it steal your fries, it left a little...surprise...on my hand.
+A03.0014 [Tú] | Don't tell me it's...
+A03.0015 [Laru] | AAAAAAAH I'M SO GROSS!!!!
+
+## Conversación A04
+A04.0001 [Laru] | Ugh...
+A04.0002 [Laru] | Ughhhhh...
+A04.0003 [Tú] | What's wrong?
+A04.0004 [Laru] | This meeting's been for two hours straight.
+A04.0005 [Laru] | I've literally fallen asleep three times already! And it's still not over!
+A04.0006 [Opción] | You sitting through a whole meeting? That's rare.
+A04.0007 [Opción] | Sounds like a good time for another nap then
+A04.0008 [Laru] | I'D RATHER NOT BEEE!!
+A04.0009 [Laru] | I was just about to make a break for it, but Albedo caught me right at the door!
+A04.0010 [Laru] | Dragged me right back in and stuck me in the front row
+A04.0011 [Laru] | Can't! My back is totally killing me from sitting here forever
+A04.0012 [Laru] | I need to get outta here and get some fresh air like, rn.
+A04.0013 [Tú] | Can't you just use the "gotta use the restroom" excuse?
+A04.0014 [Laru] | Oh!!
+A04.0015 [Laru] | The number one classic escape move! How did it slip my mind?!
+A04.0016 [Laru] | Thx for the reminder! Operation Escape starts!
+
+## Conversación A05
+A05.0001 [Laru] | OKAY LEMME TELL YOU!!
+A05.0002 [Laru] | I AM SO MAD RIGHT NOW!!!
+A05.0003 [Tú] | ???
+A05.0004 [Tú] | What's wrong?
+A05.0005 [Laru] | So I brought this new bait today, right? And I accidentally spilled like, HALF THE BAG.
+A05.0006 [Laru] | At first I was like, whatever, extra bait, guess I'm celebrating my massive haul early!
+A05.0007 [Laru] | BUT THEN! Guess what happens?
+A05.0008 [Laru] | First some people started arguing nearby, then others started fighting!
+A05.0009 [Laru] | And then someone just started chucking trash into the river!
+A05.0010 [Laru] | ALL THE FISH GOT SCARED AWAY!!!
+A05.0011 [Laru] | Half a bag of bait down the drain and I got totally SKUNKED!
+A05.0012 [Opción] | (Laugh at her)
+A05.0013 [Opción] | (Comfort her)
+A05.0014 [Tú] | Hahaha, wow, that's rough!
+A05.0015 [Laru] |  Don't laugh!!
+A05.0016 [Laru] | I'm seriously about to explode here!
+A05.0017 [Tú] | Oof, that's some seriously bad luck...
+A05.0018 [Tú] | How about some fries? My treat.
+A05.0019 [Laru] | No need, already stuffing my face with some comfort fries.
+A05.0020 [Laru] | Ah, never mind.
+A05.0021 [Laru] | These fries are actually pretty amazing today, so I guess I'll forgive those idiots. For now.
+A05.0022 [Laru] | But if I see them again, I swear I'm gonna jab 'em right in the butt with my lance.
+
+## Conversación A06
+A06.0001 [Laru] | Hey, don't you think
+A06.0002 [Laru] | Today is just perfect? Beautiful breeze, not a cloud in the sky
+A06.0003 [Opción] | Did someone steal your phone? Who is this??
+A06.0004 [Opción] | What are you talking about?
+A06.0005 [Laru] | I forgot my fishing rod when I left this morning
+A06.0006 [Laru] | So now I'm ditching work with nothing to do
+A06.0007 [Laru] | Where are you?? C'mon, let's grab some fries
+A06.0008 [Tú] | Not everyone can just slack off whenever they feel like it!
+A06.0009 [Laru] | Yeah yeah, so are you coming or not?
+A06.0010 [Opción] | Where?
+A06.0011 [Opción] | Nope
+A06.0012 [Laru] | The pier! I'll be waiting!
+A06.0013 [Laru] | C'mooon!! Pleeeease!!
+A06.0014 [Laru] | I'll be at the pier waiting!
+
+## Conversación A07
+A07.0001 [Laru] | Okay, hypothetical situation: Let's say I don't wanna be in the office today
+A07.0002 [Laru] | Could you maybe, possibly, send a commission request to our Grace Imperium
+A07.0003 [Laru] | say you're heading to a Monolith and urgently need assistance from someone like ME?
+A07.0004 [Opción] | Not a chance
+A07.0005 [Opción] | What are you scheming now?
+A07.0006 [Laru] | Aww, don't say no so fast!
+A07.0007 [Laru] | How about a bribe? Fresh, hot fries, courtesy of your Great Laru!
+A07.0008 [Laru] | Soooo? Whaddya say?
+A07.0009 [Laru] | Just help me out this one time
+A07.0010 [Laru] | Pleeeease?
+A07.0011 [Tú] | But if you want to go to the Monolith, why do I need to send the commission?
+A07.0012 [Laru] | Duh! Because tagging along with you Trekkers to the Monolith is way easier!
+A07.0013 [Laru] | I can fudge the hours on the form
+A07.0014 [Laru] | And zero boring work reports when I get back
+A07.0015 [Tú] | Ah, so that's the angle...
+A07.0016 [Laru] | Pleeeease?
+A07.0017 [Laru] | Next big fish I catch is all yours, promise!
+A07.0018 [Tú] | Just this once. Don't make it a habit.
+A07.0019 [Laru] | YES! I knew you were the best Boss ever
+
+## Conversación A08
+A08.0001 [Laru] | Guess where I am right now!
+A08.0002 [Tú] | Where?
+A08.0003 [Laru] | C'mon, take a guess first
+A08.0004 [Opción] | Shouldn't you be at the office right about now?
+A08.0005 [Opción] | Fishing again??
+A08.0006 [Opción] | Out hunting for fries again?
+A08.0007 [Tú] | Shouldn't you be at the office right now?
+A08.0008 [Laru] | Pfft, office? At this hour? As if!
+A08.0009 [Tú] | ...
+A08.0010 [Laru] | ...
+A08.0011 [Laru] | Hey! Is fishing seriously the only thing you think I do?
+A08.0012 [Tú] | And getting fries at the pier.
+A08.0013 [Laru] | ...
+A08.0014 [Laru] | Hey, there are lots of awesome fry spots, you know.
+A08.0015 [Tú] | True, but if you're at the pier, besides fries
+A08.0016 [Tú] | maybe you'll get other unexpected surprises?
+A08.0017 [Laru] | ...
+A08.0018 [Laru] | Can't you say something nice for once?
+A08.0019 [Tú] | Alright, spill it. Where are you really?
+A08.0020 [Tú] | Isn't it your birthday today? I got you a cake
+A08.0021 [Laru] | Huh? Wait, that's today??
+A08.0022 [Laru] | Oh wow, you're right! Hahaha, it totally slipped my mind!
+A08.0023 [Laru] | I'm actually right downstairs
+A08.0024 [Tú] | ????
+A08.0025 [Tú] | Well, get yourself up here then! Cake's waiting!
+
+## Conversación A09
+A09.0001 [Laru] | So, I've been thinking about something lately
+A09.0002 [Laru] | You know how my lance conducts electricity, right?
+A09.0003 [Laru] | What if, like, during a thunderstorm, I just hurl it and stick it right into some enemy?
+A09.0004 [Laru] | Wouldn't it turn into a lightning rod?
+A09.0005 [Laru] | One massive bolt from the sky and ZAP! Instant toasted bad guy!
+A09.0006 [Laru] | Gives off a divine punishment vibe, don't you think?
+A09.0007 [Tú] | ...
+A09.0008 [Tú] | Okay, but before you chuck your lance
+A09.0009 [Tú] | aren't you holding it?
+A09.0010 [Laru] | Well, yeah, duh?
+A09.0011 [Tú] | So how exactly do you plan to make sure the lightning fries the enemy and not you?
+A09.0012 [Laru] | Uh... Right.
+A09.0013 [Laru] | Ugh...
+A09.0014 [Tú] | What sent your head down this particular rabbit hole?
+A09.0015 [Laru] | Just some dumb assignment. We have to demonstrate our combat techniques.
+A09.0016 [Laru] | Guess it's back to the drawing board.
+
+## Conversación A10
+A10.0001 [Laru] | What's this?
+A10.0002 [Laru] | Music??
+A10.0003 [Tú] | It's a disc record I found in the Monolith.
+A10.0004 [Tú] | For some reason, I feel like you should have it.
+A10.0005 [Laru] | Okay. But what's the point of the music?
+A10.0006 [Laru] | Although, anything from a Monolith probably has some kinda special function, right?
+A10.0007 [Laru] | Like maybe if I play it, it'll hypnotize all the fish in the water
+A10.0008 [Laru] | and they'll just line up one by one to jump on my hook?
+A10.0009 [Tú] | ...
+A10.0010 [Tú] | Is fishing literally the only thing in your mind?
+A10.0011 [Laru] | Well, now that you mention it...
+A10.0012 [Laru] | This music does sound kinda familiar
+A10.0013 [Laru] | Like I've heard it somewhere before...
+A10.0014 [Tú] | Sounds familiar to me too. You always hum a little tune when you reel in a big fish
+A10.0015 [Laru] | Huh? I do??
+A10.0016 [Tú] | You absolutely do.
+A10.0017 [Tú] | That little song you hum sounds a lot like this
+A10.0018 [Laru] | Seriously?? I don't even realize I'm doing it!
+A10.0019 [Laru] | Whatever, I'll take this disc off your hands.
+A10.0020 [Laru] | Definitely gonna try it out on my next fishing trip
+
+## Conversación B01
+B01.0001 [Laru] | You have NO idea
+B01.0002 [Laru] | Queen Laru just did the coolest thing ever!
+B01.0003 [Opción] | What did you do?
+B01.0004 [Laru] | I caught a fish
+B01.0005 [Laru] | A massive 20-pounder! A total monster!
+B01.0006 [Tú] | Don't you do that all the time?
+B01.0007 [Laru] | No no no
+B01.0008 [Laru] | That's just the start
+B01.0009 [Laru] | I was parading my catch around town to show it off when I ran into a poor mother and daughter from the Ash District
+B01.0010 [Laru] | They looked so hungry, so I just gave them the fish
+B01.0011 [Laru] | Well?! Isn't Queen Laru just the sweetest saint alive?!
+B01.0012 [Laru] | Okay, go ahead. Praise me!
+B01.0013 [Tú] | That was actually really sweet of you.
+B01.0014 [Tú] | Praise.
+B01.0015 [Laru] | ...
+B01.0016 [Laru] | Why does that sound so sarcastic? Are you mocking me?
+B01.0017 [Tú] | ?
+B01.0018 [Tú] | No way!! I mean it! Seriously! From the bottom of my heart!
+B01.0019 [Laru] | Heh. Alright then, I'll believe you this time
+
+## Conversación B02
+B02.0001 [Laru] | Boss!
+B02.0002 [Laru] | What are you in the mood for supper?
+B02.0003 [Opción] | Why?
+B02.0004 [Opción] | You treating?
+B02.0005 [Laru] | I dug up a HUGE bucket of clams today
+B02.0006 [Laru] | Wanna come help me eat 'em?
+B02.0007 [Laru] | I guess you could say that?
+B02.0008 [Tú] | You agreed way too fast. Definitely a trap...
+B02.0009 [Laru] | I'm innocent! You wound me!!
+B02.0010 [Laru] | I caught a bunch of massive crabs today
+B02.0011 [Laru] | Wanna come help me eat 'em?
+B02.0012 [Tú] | Ooh, nice.
+B02.0013 [Tú] | Count me in, then.
+B02.0014 [Laru] | Yay!
+B02.0015 [Laru] | Great! So when you come over
+B02.0016 [Laru] | make sure to grab some roast chicken, bread, dessert, drinks... Oh, and a fruit basket would be perfect!
+B02.0017 [Tú] | ...
+B02.0018 [Tú] | So THAT was your plan all along!
+
+## Conversación B03
+B03.0001 [Laru] | Just had a huge epiphany while I was fishing
+B03.0002 [Tú] | What?
+B03.0003 [Laru] | You know how a standard workday is eight hours?
+B03.0004 [Laru] | If I speedrun all that work and finish in just ONE hour
+B03.0005 [Laru] | I get to slack off for the other seven
+B03.0006 [Laru] | Which basically means my hourly rate for that one hour of actual work is 8x the normal wage!
+B03.0007 [Laru] | Logic checks out, doesn't it?
+B03.0008 [Tú] | ...
+B03.0009 [Tú] | Does Albedo know this is how your brain works when you're skipping your shift?
+B03.0010 [Laru] | Come on, you have to admit this is a groundbreaking discovery!
+B03.0011 [Laru] | I really am a genius
+
+## Conversación B04
+B04.0001 [Laru] | I've got a major business proposal for you
+B04.0002 [Laru] | We need to talk
+B04.0003 [Tú] | ... What are you plotting now?
+B04.0004 [Laru] | I think we should revisit that idea from last time
+B04.0005 [Tú] | Last time?
+B04.0006 [Tú] | What idea?
+B04.0007 [Laru] | You know, the one where
+B04.0008 [Laru] | you poach me from Grace Imperium, put me on your payroll, and let me work for you instead
+B04.0009 [Laru] | Then boom, you instantly have a cute girl on your staff
+B04.0010 [Laru] | Amazing deal, right?
+B04.0011 [Tú] | And what value would you actually bring to the company?
+B04.0012 [Laru] | A beautiful but useless mascot?
+B04.0013 [Tú] | ............
+B04.0014 [Tú] | Go splash some cold water on your face. You're dreaming.
+
+## Conversación B05
+B05.0001 [Laru] | Boss!
+B05.0002 [Tú] | No fish pics. No dinner. No hiring your friends. And no, I don't want to discuss "the truth of the universe."
+B05.0003 [Laru] | Hey hey hey!
+B05.0004 [Laru] | That's so heartless!
+B05.0005 [Laru] | You stole all my lines! What am I supposed to say now?
+B05.0006 [Tú] | Bastelina just messaged me. She said Albedo is hunting you down.
+B05.0007 [Tú] | Should I send her a screenshot of this chat?
+B05.0008 [Laru] | No no no!
+B05.0009 [Laru] | I just baited the water here! I can't let the bait go to waste!
+B05.0010 [Tú] | Well, that depends on the bribe.
+B05.0011 [Laru] | Three bags of fries
+B05.0012 [Laru] | Plus one fish from today's catch
+B05.0013 [Laru] | Deal? That's pretty generous, right?
+B05.0014 [Tú] | You say that every time, but you always come back empty-handed...
+B05.0015 [Laru] | ...
+B05.0016 [Laru] | You didn't have to call me out like that!
+B05.0017 [Tú] | Alright, I'm just messing with you.
+B05.0018 [Tú] | But seriously, get back to the office. Albedo is really looking for you.
+B05.0019 [Laru] | ... Ugh, fine
+B05.0020 [Laru] | Thanks for the heads-up. I'll pack up and head back
+
+## Conversación B06
+B06.0001 [Laru] | Guess what's on my mind right now
+B06.0002 [Laru] | Get it right and you get a prize
+B06.0003 [Tú] | ...
+B06.0004 [Tú] | You're obsessing over the size of that fish that got away earlier.
+B06.0005 [Laru] | Okay, but that fish WAS huge!
+B06.0006 [Laru] | Wait, no! That's not it! Guess again
+B06.0007 [Tú] | It's not about fishing? Seriously?
+B06.0008 [Tú] | Then is it some new trick for slacking off without getting caught?
+B06.0009 [Laru] | Nope, not even close
+B06.0010 [Tú] | So, what is it then?
+B06.0011 [Laru] | Obviously...
+B06.0012 [Laru] | I'm thinking about YOU!
+B06.0013 [Laru] | Hahahaha! Well? Was that cheesy enough for ya?
+B06.0014 [Laru] | ...
+B06.0015 [Laru] | Okay okay, my bad. Just joking
+B06.0016 [Tú] | Your boss is standing right next to me. She read everything.
+B06.0017 [Laru] | ...
+B06.0018 [Laru] | S-seriously?
+B06.0019 [Tú] | Gotcha.
+B06.0020 [Laru] | You nearly gave me a heart attack!

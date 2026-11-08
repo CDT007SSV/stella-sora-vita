@@ -1,0 +1,246 @@
+# Heartlink de Caramel: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Caramel] | Tell me what you wanna hear, and I'll play it for ya!
+A01.0002 [Tú] | Are you... Caramel?
+A01.0003 [Caramel] | Oh! Silly me, I forgot to introduce myself.
+A01.0004 [Caramel] | Yup, that's me!
+
+## Conversación A02
+A02.0001 [Caramel] | ==PLAYER_NAME==!
+A02.0002 [Tú] | What is it?
+A02.0003 [Caramel] | How about a private concert?
+A02.0004 [Opción] | Not right now
+A02.0005 [Opción] | Sure, I'd like that
+A02.0006 [Caramel] | Aww...
+A02.0007 [Caramel] | Actually... I've got no cash for food.
+A02.0008 [Caramel] | Could you maybe spot me a little? I promise I'll play for you next time!
+A02.0009 [Caramel] | Sweet!
+A02.0010 [Caramel] | Sooo...could I maybe get paid upfront?
+A02.0011 [Caramel] | Sobs, I have no money for food
+A02.0012 [Tú] | Sounds like you're in a real pinch
+A02.0013 [Tú] | How about I just give you some cash?
+A02.0014 [Caramel] | Nope, I have standards as a musician!
+A02.0015 [Caramel] | We have our pride, y'know!
+A02.0016 [Caramel] | So! I'll come play for my dinner right now! Sound good?!
+
+## Conversación A03
+A03.0001 [Caramel] | Hey ==PLAYER_NAME==! What kinda tunes are you into?
+A03.0002 [Opción] | Popular ones
+A03.0003 [Opción] | Obscure ones
+A03.0004 [Caramel] | Okay, I get it!
+A03.0005 [Caramel] | So that's how you stay connected with the masses!
+A03.0006 [Caramel] | Clever!
+A03.0007 [Caramel] | Okay, I get it!
+A03.0008 [Caramel] | Gotta have that unique taste to be the Boss, right?
+A03.0009 [Caramel] | It all makes sense now!
+A03.0010 [Tú] | It's not that complicated. I just like what I like
+A03.0011 [Caramel] | Wisdom of simplicity! Even cooler!
+
+## Conversación A04
+A04.0001 [Caramel] | ==PLAYER_NAME==! I invented a new recipe!
+A04.0002 [Caramel] | Bassteamed eggs!
+A04.0003 [Caramel] | Wanna be my taste-tester?
+A04.0004 [Opción] | That sounds kinda spooky
+A04.0005 [Opción] | Sounds like a culinary disaster
+A04.0006 [Caramel] | Hey, I just seasoned 'em in some sick bass grooves while they cook!
+A04.0007 [Tú] | That's...uh...
+A04.0008 [Tú] | Maybe I should just spot you some cash for actual groceries?
+A04.0009 [Caramel] | Whaaat?! My musical cuisine is awesome!
+
+## Conversación A05
+A05.0001 [Caramel] | ==PLAYER_NAME==!
+A05.0002 [Caramel] | You gotta be my producer!
+A05.0003 [Opción] | No way I'm qualified.
+A05.0004 [Opción] | What even is a producer?
+A05.0005 [Caramel] | Don't sell yourself short!
+A05.0006 [Caramel] | You're ==PLAYER_NAME==! You can do anything!
+A05.0007 [Tú] | Pretty sure "music pro" wasn't in the Boss' job description...
+A05.0008 [Caramel] | Wait, really? That's weird
+A05.0009 [Caramel] | A producer is...y'know...uh...the person who...
+A05.0010 [Caramel] | Look! The point is, I heard that once you get a producer
+A05.0011 [Caramel] | the awesome music ideas just start flowing!
+A05.0012 [Tú] | I think you might've misunderstood how that works
+A05.0013 [Caramel] | How do I convince you to be my producer?
+A05.0014 [Tú] | Let me hear some more of your playing first
+A05.0015 [Caramel] | You got it! No problem!
+A05.0016 [Caramel] | Anytime, anywhere!
+
+## Conversación A06
+A06.0001 [Caramel] | Producer!
+A06.0002 [Tú] | Since when am I your producer...
+A06.0003 [Caramel] | Hehe, you get my music the best. Let's just roll with it!
+A06.0004 [Opción] | If you insist...
+A06.0005 [Opción] | Whatever makes you happy
+A06.0006 [Caramel] | Soooo next time ur hitting up the Monolith, can I tag along?
+A06.0007 [Tú] | Can you fight?
+A06.0008 [Caramel] | No clue
+A06.0009 [Caramel] | BUT! The second I start play my bass, those Stellaroids always book it
+A06.0010 [Tú] | That's actually kinda useful
+A06.0011 [Caramel] | Yeah, it's super handy, but kinda bums me out.
+A06.0012 [Caramel] | Wish they'd be my audience
+A06.0013 [Tú] | Maybe someday you'll win them over
+A06.0014 [Caramel] | That'd be a dream come true
+A06.0015 [Caramel] | Give me more chances to perform!
+
+## Conversación A07
+A07.0001 [Caramel] | Producer...
+A07.0002 [Tú] | What's wrong?
+A07.0003 [Caramel] | Thanks again for everything
+A07.0004 [Caramel] | I feel way more confident playing for people now!
+A07.0005 [Tú] | You always seemed pretty confident to me
+A07.0006 [Caramel] | Pfft, no way! I just get lost in the groove and forget anyone's watching
+A07.0007 [Caramel] | Can we go on another inspiration journey sometime soon?
+A07.0008 [Tú] | Sure thing
+A07.0009 [Caramel] | FOR REAL?! YESSS!
+A07.0010 [Caramel] | On my way right now!
+A07.0011 [Tú] | Whoa there. Do you even know where we're going?
+A07.0012 [Caramel] | Not exactly
+A07.0013 [Tú] | ...
+A07.0014 [Caramel] | What's wrong, Producer?
+A07.0015 [Tú] | Let's maybe make a plan before running out the door next time
+A07.0016 [Tú] | We've got all the time in the world. That's what producers are for, right?
+A07.0017 [Caramel] | OK! We can make
+A07.0018 [Caramel] | plans
+
+## Conversación A08
+A08.0001 [Caramel] | Birthday content temporarily blocked
+
+## Conversación A09
+A09.0001 [Caramel] | I feel it
+A09.0002 [Tú] | Feel what?
+A09.0003 [Caramel] | My bass skills just hit a whole new level!
+A09.0004 [Caramel] | Now even those Stellaroids will stick around for my riffs!
+A09.0005 [Tú] | Not to burst your bubble, but they might just run away faster
+A09.0006 [Caramel] | What? Why would they do that?
+A09.0007 [Caramel] | Is my amp too loud or something?
+A09.0008 [Tú] | Maybe your music is just too mind-blowing...
+A09.0009 [Caramel] | You think so?
+A09.0010 [Caramel] | We should totally test it out
+A09.0011 [Tú] | You can take point this time
+A09.0012 [Tú] | I have faith in you
+A09.0013 [Caramel] | Why do I feel like there's a catch?
+
+## Conversación A10
+A10.0001 [Caramel] | Amazing track!
+A10.0002 [Caramel] | It's like a whole movie playing in my head right now!
+A10.0003 [Caramel] | Yeah...that performance... I was there
+A10.0004 [Caramel] | Down in the audience, completely mesmerized
+A10.0005 [Tú] | You're really into live shows
+A10.0006 [Caramel] | Gotta study the masters to become one yourself
+A10.0007 [Caramel] | We all level up by learning from each other
+A10.0008 [Tú] | But who was performing?
+A10.0009 [Caramel] | It's all fuzzy...but weirdly familiar at the same time
+A10.0010 [Caramel] | I'm actually tearing up. Been forever since music hit me this hard
+A10.0011 [Caramel] | Don't worry though! It'll come back to me eventually
+A10.0012 [Caramel] | With you helping me out, I'll crack this mystery for sure!
+
+## Conversación B01
+B01.0001 [Caramel] | Omg emergency
+B01.0002 [Caramel] | I'm done for
+B01.0003 [Caramel] | Producer—!
+B01.0004 [Tú] | Whoa, slow down.
+B01.0005 [Tú] | What's going on? Why the panic?
+B01.0006 [Caramel] | My... My bass...
+B01.0007 [Caramel] | Midas is broken—!
+B01.0008 [Tú] | What?!
+B01.0009 [Tú] | Okay, that IS a disaster.
+B01.0010 [Caramel] | Waaaah what do i do
+B01.0011 [Caramel] | Do i find a repair guy?
+B01.0012 [Caramel] | But i'm broke ... like cant-afford-lunch broke...
+B01.0013 [Tú] | Don't panic yet. Just breathe.
+B01.0014 [Tú] | We'll fix her, buy a new one. We can even make a wish at the Monolith...
+B01.0015 [Tú] | I'll do whatever it takes to help.
+B01.0016 [Tú] | That's what I'm here for.
+B01.0017 [Caramel] | Producer...
+B01.0018 [Caramel] | Ah wait, never mind
+B01.0019 [Tú] | ?
+B01.0020 [Caramel] | Ehe... Turns out i was just passing out from hunger
+B01.0021 [Caramel] | Vision got blurry for a sec. Midas is actually totally fine
+B01.0022 [Caramel] | What a relief lol
+B01.0023 [Tú] | That is NOT a relief!!
+B01.0024 [Tú] | Stay put. I'm coming over right now!
+
+## Conversación B02
+B02.0001 [Caramel] | Producer, quick question
+B02.0002 [Caramel] | Do you think I should've debuted in a group instead?
+B02.0003 [Tú] | A little late to be asking that, isn't it?
+B02.0004 [Caramel] | Well, a "band" isn't really supposed to be just one person
+B02.0005 [Tú] | I admit, it is a little unusual.
+B02.0006 [Tú] | Couldn't find anyone to stick with long-term?
+B02.0007 [Caramel] | Hmm...
+B02.0008 [Caramel] | The musicians I've played with were all nice enough
+B02.0009 [Caramel] | But it always felt like something was missing
+B02.0010 [Tú] | I'm sure you'll find the right fit eventually.
+B02.0011 [Tú] | Or honestly? It might not even matter if you don't.
+B02.0012 [Tú] | Because whoever you play with, whatever the instrument
+B02.0013 [Tú] | you always find a way to harmonize perfectly.
+B02.0014 [Caramel] | Thanks for saying that
+B02.0015 [Caramel] | You know, whenever I talk to you, Producer
+B02.0016 [Caramel] | It feels like all my doubts just clear away
+
+## Conversación B03
+B03.0001 [Caramel] | Producer!! Hey!!
+B03.0002 [Caramel] | I've got huge news!
+B03.0003 [Tú] | What's up?
+B03.0004 [Caramel] | I was gonna wait to tell you in person later
+B03.0005 [Caramel] | But never mind, i can't wait
+B03.0006 [Caramel] | I'm seriously too excited
+B03.0007 [Tú] | That excited, huh?
+B03.0008 [Caramel] | I got paid for the gig!
+B03.0009 [Caramel] | So i can finally pay you back
+B03.0010 [Caramel] | for all those meals you covered for me
+B03.0011 [Caramel] | Gonna pay it all off in one go!
+B03.0012 [Tú] | That's great news. But no rush—feel free to just pay back a portion for now.
+B03.0013 [Tú] | Did you make sure to keep enough for your own living expenses?
+B03.0014 [Caramel] | Oh...
+B03.0015 [Caramel] | Thanks for reminding me. Totally forgot about that part
+B03.0016 [Caramel] | I'll tell u the rest when we meet up!
+
+## Conversación B04
+B04.0001 [Caramel] | Producer, you know a lot about music, right?
+B04.0002 [Opción] | Just a little
+B04.0003 [Opción] | Honestly? Not really
+B04.0004 [Tú] | Just a little.
+B04.0005 [Caramel] | I knew it
+B04.0006 [Caramel] | You never show off. So humble
+B04.0007 [Tú] | Honestly? Not really.
+B04.0008 [Caramel] | Eh? You aren't just being modest?
+B04.0009 [Caramel] | Hmm... I get it
+B04.0010 [Caramel] | That's what people call "talent," right?
+B04.0011 [Tú] | Why the sudden question?
+B04.0012 [Caramel] | Because I noticed something a while ago
+B04.0013 [Caramel] | Producer, you really understand people's hearts
+B04.0014 [Caramel] | Most people just hear the melody
+B04.0015 [Caramel] | But you "see" the story behind it
+B04.0016 [Caramel] | Aaaah, I wish I had a gift like that...
+
+## Conversación B05
+B05.0001 [Caramel] | Producer
+B05.0002 [Caramel] | Feeling kinda down right now...
+B05.0003 [Tú] | How come?
+B05.0004 [Tú] | Hungry again?
+B05.0005 [Tú] | I'll send some snacks over.
+B05.0006 [Caramel] | Nooo not that
+B05.0007 [Caramel] | Actually... It's about my songwriting
+B05.0008 [Caramel] | Not feeling inspired lately
+B05.0009 [Caramel] | Nothing i write feels fun anymore...
+B05.0010 [Tú] | Yeah, that's tough.
+B05.0011 [Tú] | Every creator hits a wall eventually.
+B05.0012 [Caramel] | So, Producer...
+B05.0013 [Caramel] | Come out with me right now! Let's go find some inspiration!
+
+## Conversación B06
+B06.0001 [Caramel] | Producer, big news!
+B06.0002 [Caramel] | I'm gonna be performing on stage for the competition!
+B06.0003 [Tú] | You passed the prelims already?
+B06.0004 [Tú] | Congrats! That's huge.
+B06.0005 [Caramel] | Hehe couldn't have done it without your support
+B06.0006 [Caramel] | You'll stick with me through the whole thing, right?
+B06.0007 [Tú] | Of course. That's my job.
+B06.0008 [Caramel] | Yay!
+B06.0009 [Caramel] | Hope i can make it to the biggest stage someday
+B06.0010 [Caramel] | and have you right there in the front row, listening to me play

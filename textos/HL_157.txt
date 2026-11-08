@@ -1,0 +1,232 @@
+# Heartlink de Karin: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Karin] | Finally
+A01.0002 [Karin] | Seriously, we've known each other for a while now. Why are we only adding each other now?
+A01.0003 [Tú] | Because all kinds of stuff kept getting in the way!
+A01.0004 [Karin] | I don't care. Next time, you're not allowed to forget
+A01.0005 [Tú] | How would there even be a next time after we've already added each other?
+A01.0006 [Tú] | When you get a new phone?
+A01.0007 [Tú] | Or if I delete...
+A01.0008 [Karin] | Aahh!
+A01.0009 [Karin] | Don't you dare!
+A01.0010 [Karin] | The point is, don't forget that I'm on your friends list now!
+A01.0011 [Karin] | Remember to talk to me!
+A01.0012 [Tú] | Roger that~
+
+## Conversación A02
+A02.0001 [Karin] | Hey~
+A02.0002 [Karin] | Stand right there don't move
+A02.0003 [Tú] | What's up?
+A02.0004 [Tú] | You are literally standing right across from me right now
+A02.0005 [Tú] | Why are you texting me?
+A02.0006 [Karin] | Because I'm practicing—
+A02.0007 [Tú] | Practicing what?
+A02.0008 [Tú] | Why did you suddenly walk away?
+A02.0009 [Karin] | This distance is perfect
+A02.0010 [Tú] | Perfect for what?
+A02.0011 [Karin] | My target practice
+
+## Conversación A03
+A03.0001 [Karin] | Heeey—
+A03.0002 [Karin] | You were sneaking glances at me just now, weren't you?
+A03.0003 [Tú] | Nah
+A03.0004 [Karin] | Yes, you were. I noticed
+A03.0005 [Tú] | I was only looking at Shia. She's right next to you
+A03.0006 [Karin] | !!!
+A03.0007 [Karin] | Don't look!
+A03.0008 [Karin] | Close your eyes!
+A03.0009 [Tú] | Then I won't be able to walk, will I?
+A03.0010 [Karin] | Then I'll hold your hand and lead you
+A03.0011 [Karin] | That's right, you're basically a pet, so I have to keep an eye on you or you'll get into trouble!
+A03.0012 [Tú] | Usually, the seeing-eye dog is the one doing the leading...
+A03.0013 [Karin] | !!!
+A03.0014 [Karin] | Ugggh...!
+A03.0015 [Karin] | Why are you snickering?!
+A03.0016 [Tú] | Now you're the one stealing glances at me
+A03.0017 [Tú] | Hehe~
+
+## Conversación A04
+A04.0001 [Karin] | Pop quiz!
+A04.0002 [Karin] | Give me the realest, rawest, most unfiltered, straight-to-the-point answer I've ever heard!
+A04.0003 [Karin] | What kind of dessert do you like?
+A04.0004 [Opción] | Sea-salt cake
+A04.0005 [Opción] | Squid crackers
+A04.0006 [Tú] | Sea-salt cake, I guess
+A04.0007 [Karin] | Heh...
+A04.0008 [Karin] | Isn't that for little kids?
+A04.0009 [Tú] | Not a fan?
+A04.0010 [Karin] | I do like it, but...
+A04.0011 [Karin] | That's got nothing to do with it!
+A04.0012 [Karin] | Ehhhh? You like those...?
+A04.0013 [Tú] | What's wrong with that? I'm a savory-snack person
+A04.0014 [Karin] | Those are sometimes used as fish bait, you know...
+A04.0015 [Tú] | Ugh! Why didn't you tell me earlier?!
+A04.0016 [Karin] | Pfft... Hahahaha~ Look at your face~
+A04.0017 [Karin] | If it really was fish bait, would they actually sell it to people?
+A04.0018 [Tú] | Karin-brand snacks
+A04.0019 [Karin] | Never heard of that
+A04.0020 [Karin] | HOLD ON!!!
+A04.0021 [Karin] | Don't make it weird!!
+A04.0022 [Tú] | I was just kidding
+A04.0023 [Tú] | What I meant was, I'll go with whatever you like
+A04.0024 [Karin] | ... That makes absolutely zero sense
+A04.0025 [Tú] | So why are you asking me this all of a sudden?
+A04.0026 [Karin] | I'm in town, and I figured I'd pick up some snacks to bring back
+A04.0027 [Tú] | Then you don't need to ask me. You should ask Shia, right?
+A04.0028 [Karin] | I already know what Shia likes. I'm asking you
+A04.0029 [Tú] | I haven't even been staying at your place that long, though...
+A04.0030 [Karin] | Stay longer, then!
+A04.0031 [Karin] | Finish the snacks before you leave!
+
+## Conversación A05
+A05.0001 [Karin] | That was pretty dangerous, really...
+A05.0002 [Karin] | Why did you take up swimming all of a sudden?
+A05.0003 [Tú] | Seeing how amazing you and Shia are makes me feel a bit wistful
+A05.0004 [Karin] | You idiot
+A05.0005 [Karin] | Just think about how long we've been training
+A05.0006 [Karin] | Besides, when we practiced, we had each other watching our backs
+A05.0007 [Karin] | Though, honestly, it was mostly Shia watching mine...
+A05.0008 [Tú] | Yeah, I'm sorry...
+A05.0009 [Karin] | Come on, cheer up
+A05.0010 [Karin] | You wanted to practice, right?
+A05.0011 [Karin] | Fine, I'll practice with you
+A05.0012 [Tú] | Really!?
+A05.0013 [Karin] | Think of it as a reward for how well you've been behaving lately...
+A05.0014 [Karin] | But the tide's coming in now, so the beach isn't a good place for it
+A05.0015 [Karin] | Oh, I know. You can practice your form in the inflatable pool
+A05.0016 [Tú] | Are you getting in the pool, too?
+A05.0017 [Karin] | Of course. I have to hold your hand, don't I?
+A05.0018 [Tú] | Mhm...
+A05.0019 [Karin] | What's wrong? Are you getting cold feet?
+A05.0020 [Tú] | No, I mean... It just occurred to me, but...
+A05.0021 [Tú] | Does this count as bathing together?
+A05.0022 [Karin] | fjio!!...gs**fds^!
+A05.0023 [Karin] | Pervert!
+A05.0024 [Karin] | I can't believe it!!!
+A05.0025 [Karin] | Boss, you're such a pervert!!!!
+
+## Conversación A06
+A06.0001 [Karin] | Ugh...
+A06.0002 [Karin] | My eyes...
+A06.0003 [Karin] | So dry and uncomfortable...
+A06.0004 [Tú] | Did you strain your eyes?
+A06.0005 [Karin] | It is not...
+A06.0006 [Karin] | I was so tired yesterday that when I got back, I lay down on the bed and fell asleep right away
+A06.0007 [Karin] | I forgot to take my contacts out...
+A06.0008 [Tú] | Why do you have to take them out before bed? Is it bad to keep wearing them?
+A06.0009 [Karin] | Yeah...
+A06.0010 [Karin] | I don't know how it works, but it is written on the instructions that come with the contact lenses I wished...
+A06.0011 [Karin] | "It's best not to sleep while wearing them."
+A06.0012 [Karin] | Now I understand why...
+A06.0013 [Tú] | Then take them out for now. You probably shouldn't go out today either
+A06.0014 [Tú] | You don't like wearing those thick glasses, right?
+A06.0015 [Karin] | Hmph. You sure are good at guessing
+A06.0016 [Tú] | I also know you'll be bored at home by yourself today
+A06.0017 [Karin] | Hmph
+A06.0018 [Karin] | Why do you understand me so well?
+A06.0019 [Karin] | I hate you
+A06.0020 [Karin] | Take this!
+A06.0021 [Tú] | Arghhh—I might drop dead
+A06.0022 [Karin] | Just how old are you...
+A06.0023 [Tú] | So, do you want me to come over or not~
+A06.0024 [Karin] | I never said you couldn't...
+A06.0025 [Karin] | Hurry up...
+A06.0026 [Tú] | Okay, okay~
+
+## Conversación A07
+A07.0001 [Sistema] | You have a missed call.
+A07.0002 [Sistema] | You have a missed call.
+A07.0003 [Sistema] | You have a missed call.
+A07.0004 [Sistema] | Karin poked you.
+A07.0005 [Sistema] | Karin poked you.
+A07.0006 [Karin] | Hello??? Anybody home???
+A07.0007 [Tú] | What's up?
+A07.0008 [Karin] | Finally!
+A07.0009 [Karin] | Thought maybe you lost your phone
+A07.0010 [Tú] | I just got back after a commission...
+A07.0011 [Tú] | Whoa, so many calls...
+A07.0012 [Tú] | Anything you want me to do?
+A07.0013 [Karin] | Nope
+A07.0014 [Tú] | Huh?
+A07.0015 [Karin] | Am I not allowed to call on you if nothing happened?
+A07.0016 [Tú] | That's not what I meant...
+A07.0017 [Tú] | There should at least be a reason, right...?
+A07.0018 [Opción] | Feeling hungry?
+A07.0019 [Tú] | Oh! I get it now
+A07.0020 [Tú] | You wanna eat, don't you
+A07.0021 [Karin] | As if!
+A07.0022 [Tú] | Don't tell me you've been doing surveillance on me
+A07.0023 [Karin] | No way!
+A07.0024 [Karin] | I mean, I do have to keep an eye on you...
+A07.0025 [Karin] | But not like that!
+A07.0026 [Tú] | So, what is it then?
+A07.0027 [Karin] | I... I was just thinking...
+A07.0028 [Karin] | I was looking through an animal encyclopedia earlier, and I saw something about rabbits
+A07.0029 [Karin] | It said rabbits can get sick if they get too lonely...
+A07.0030 [Tú] | Ah yeah I got it
+A07.0031 [Tú] | I'm kind of curious about that book now, too
+A07.0032 [Tú] | Can I come over and read it with you?
+A07.0033 [Karin] | Suit yourself
+A07.0034 [Tú] | I'll be there soon
+
+## Conversación A08
+A08.0001 [Karin] | (Stare)
+A08.0002 [Tú] | Huh?
+A08.0003 [Karin] | (Stare)
+A08.0004 [Karin] | (Keep staring)
+A08.0005 [Tú] | I know, I know~
+A08.0006 [Karin] | What do you know?
+A08.0007 [Tú] | Don't be so impatient. All in good time, yeah?
+A08.0008 [Tú] | I'm picking things out with Shia right now
+A08.0009 [Karin] | You mean, a present?!
+A08.0010 [Tú] | Oh, that was taken care of way back then
+A08.0011 [Tú] | Right now, we're actually picking out a cake
+A08.0012 [Karin] | I wanna come!
+A08.0013 [Karin] | I wanna pick it out with you guys!
+A08.0014 [Tú] | You just wait at home, okay? Can't have the birthday girl do all the work
+A08.0015 [Tú] | Oh, I forgot to say it this morning, so I'll say it now
+A08.0016 [Tú] | Happy birthday, Karin!
+A08.0017 [Karin] | Heheh...
+
+## Conversación A09
+A09.0001 [Karin] | Are, are you alright...?
+A09.0002 [Karin] | You looked really pale just now
+A09.0003 [Tú] | Of course I did...
+A09.0004 [Tú] | Anyone would be scared if they saw a shark half the size of a boat
+A09.0005 [Karin] | Sorry. That was actually "Boss Shark"
+A09.0006 [Karin] | Sometimes when we're hunting out at sea, it just suddenly shows up
+A09.0007 [Tú] | That sounds dangerous...
+A09.0008 [Tú] | Doesn't it attack people?
+A09.0009 [Karin] | When it meets you for the first time, sure
+A09.0010 [Karin] | So I fought it, but in the end, neither of us would back down
+A09.0011 [Karin] | Then I found out it likes fish cakes, so sometimes I toss it some as an escort fee
+A09.0012 [Karin] | When it's around, it keeps other big sea creatures from coming over and causing trouble
+A09.0013 [Karin] | But most of the time, it's the real troublemaker!
+A09.0014 [Tú] | What a strange bond you two have
+A09.0015 [Karin] | Exactly...
+A09.0016 [Karin] | And this time it gave you a scare, too
+A09.0017 [Karin] | I'll remember this. Next time I see it, I'm bonking that giant head
+A09.0018 [Tú] | You're surprisingly impressive when it comes to things like this, Karin
+A09.0019 [Karin] | Hmph~
+A09.0020 [Karin] | You're only realizing that now?
+
+## Conversación A10
+A10.0001 [Karin] | Can sounds carry memories, too?
+A10.0002 [Tú] | Of course they can. You can safely say sound is a part of memory itself
+A10.0003 [Karin] | I heard a strange melody in the Monolith just now...
+A10.0004 [Karin] | For a moment, it felt like I remembered something
+A10.0005 [Tú] | I see. No wonder you suddenly froze
+A10.0006 [Karin] | Hmm...
+A10.0007 [Karin] | Usually, this is where you'd say you didn't hear anything
+A10.0008 [Tú] | True. But we're inside a Monolith right now. Anything can happen here
+A10.0009 [Tú] | So my guess is, you must have heard a melody from your memories
+A10.0010 [Karin] | Okay. Even though I don't really get it...
+A10.0011 [Karin] | But... That memory was like a kind of fruit
+A10.0012 [Karin] | The first bite tasted bitter, but then, very quickly, there was a sweet aftertaste
+A10.0013 [Tú] | The way you described that, Karin. That was so you
+A10.0014 [Karin] | What's that supposed to mean? You're making fun of me again...
+A10.0015 [Karin] | Fine. Since I got to experience something amazing this time, I'll let it slide

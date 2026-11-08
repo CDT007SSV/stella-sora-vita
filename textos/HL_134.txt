@@ -1,0 +1,265 @@
+# Heartlink de Fuyuka: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Fuyuka] | Hello, Master. We ... we finally meet again.
+A01.0002 [Opción] | How have you been lately?
+A01.0003 [Opción] | Glad to have you as my student.
+A01.0004 [Fuyuka] | I've been doing great—thanks to you!
+A01.0005 [Fuyuka] | N-no, it's the other way around!
+A01.0006 [Fuyuka] | I hope I can have more chances to learn from you!
+
+## Conversación A02
+A02.0001 [Fuyuka] | Master, I ... I've been a little troubled lately.
+A02.0002 [Fuyuka] | At the camp, people I've never met keep greeting me.
+A02.0003 [Fuyuka] | They're all so friendly. Some even look like they admire me.
+A02.0004 [Fuyuka] | But I don't know their names, and I never know how to respond.
+A02.0005 [Tú] | Looks like you've become quite the celebrity, Fuyuka.
+A02.0006 [Fuyuka] | E-eek, M-Master, please don't make fun of me.
+A02.0007 [Opción] | You need my help?
+A02.0008 [Opción] | That's the price of fame.
+A02.0009 [Fuyuka] | I'm not really used to it yet, but ... I want to deal with it on my own.
+A02.0010 [Fuyuka] | I-I know... It just takes some getting used to, still...
+A02.0011 [Tú] | You've got this!
+A02.0012 [Fuyuka] | Yes, I'll do my best!
+
+## Conversación A03
+A03.0001 [Tú] | Fuyuka, there's something I've always wondered.
+A03.0002 [Fuyuka] | Y-yes, Master?
+A03.0003 [Tú] | Your weapon looks unusual... It's big and heavy.
+A03.0004 [Tú] | How do you maintain it?
+A03.0005 [Fuyuka] | There's nothing special...
+A03.0006 [Fuyuka] | I oil it regularly, wipe it clean after battles
+A03.0007 [Fuyuka] | and store it in a special cabinet at home.
+A03.0008 [Fuyuka] | When I'm out in the Wilds, though,
+A03.0009 [Fuyuka] | sometimes it's too big to fit anywhere properly,
+A03.0010 [Fuyuka] | so I just keep it by my side.
+A03.0011 [Opción] | You don't worry about losing it?
+A03.0012 [Opción] | I see. It is way too heavy.
+A03.0013 [Fuyuka] | No, most people can't even lift it.
+A03.0014 [Fuyuka] | Y-yes.
+A03.0015 [Fuyuka] | A few have tried, but I'm the only one who can.
+A03.0016 [Tú] | Impressive, Fuyuka.
+A03.0017 [Fuyuka] | Hehe, I guess I do have some confidence in my strength.
+A03.0018 [Fuyuka] | If you ever need help with any heavy lifting, Master, please let me know!
+
+## Conversación A04
+A04.0001 [Tú] | Fuyuka, there's something that's always puzzled me.
+A04.0002 [Fuyuka] | Yes?
+A04.0003 [Tú] | Don't you feel hot wearing like that?
+A04.0004 [Tú] | Your outfit always gives off such a winter vibe.
+A04.0005 [Fuyuka] | Uh... I never noticed...
+A04.0006 [Tú] | It looks all warm and fuzzy. I can imagine it's perfect for winter.
+A04.0007 [Tú] | But what about summer?
+A04.0008 [Fuyuka] | ...
+A04.0009 [Tú] | Doesn't it make you prone to sweating?
+A04.0010 [Fuyuka] | No! I don't sweat!
+A04.0011 [Fuyuka] | A-and even if I did, I wouldn't smell. So please don't worry!
+A04.0012 [Tú] | Uh, that's not what I meant...
+
+## Conversación A05
+A05.0001 [Fuyuka] | Today's the meetup day for the Petal Bloom and the New Star Guild!
+A05.0002 [Fuyuka] | Could you please bring everyone in New Star Guild over, Master?
+A05.0003 [Tú] | How unusual.
+A05.0004 [Tú] | Usually it's Kaede or Nazuna who does the inviting.
+A05.0005 [Fuyuka] | Umm... I... I volunteered for the job.
+A05.0006 [Fuyuka] | I'd like to handle these invitations from now on.
+A05.0007 [Fuyuka] | I figured... If I can't even talk about things like this with you, Master...
+A05.0008 [Fuyuka] | It'll be even harder with anyone else.
+A05.0009 [Tú] | Then I'm honored to be your practice partner.
+
+## Conversación A06
+A06.0001 [Fuyuka] | Master! It is an urgent situation!!!
+A06.0002 [Opción] | What's wrong?
+A06.0003 [Opción] | Did the dog eat your homework?
+A06.0004 [Fuyuka] | I have something important I'd like to discuss with you.
+A06.0005 [Fuyuka] | Huh?! What Dog? What homework?
+A06.0006 [Fuyuka] | What do you mean, Master?
+A06.0007 [Tú] | Ahem. Nothing, just my feeble attempt at humor.
+A06.0008 [Tú] | Just tell me.
+A06.0009 [Fuyuka] | R-right. So, there's going to be a joint operation soon—
+A06.0010 [Fuyuka] | We'll be partnering up with another guild.
+A06.0011 [Fuyuka] | And ... I'm not sure how to carry myself around them.
+A06.0012 [Tú] | Don't worry. I've been paying close attention to your battles.
+A06.0013 [Tú] | Just do what you always do.
+A06.0014 [Fuyuka] | That's all...?
+A06.0015 [Tú] | Yup. That's all.
+A06.0016 [Fuyuka] | B-but unlike the other leaders...
+A06.0017 [Fuyuka] | I can't do speeches or pep talks...
+A06.0018 [Tú] | Every leader has their own strengths.
+A06.0019 [Tú] | Yours is leading from the front.
+A06.0020 [Tú] | When people see you charging ahead
+A06.0021 [Tú] | they'll find their courage too.
+A06.0022 [Fuyuka] | You ... really think so?
+A06.0023 [Fuyuka] | I think I'm beginning to understand...
+
+## Conversación A07
+A07.0001 [Fuyuka] | Do you have a bit of free time today, Master?
+A07.0002 [Fuyuka] | Th-there's a place that I'd like to go to.
+A07.0003 [Fuyuka] | Would you come with me?
+A07.0004 [Tú] | Would this be a date?
+A07.0005 [Fuyuka] | ...!
+A07.0006 [Tú] | Just kidding.
+A07.0007 [Fuyuka] | D-date...!
+A07.0008 [Fuyuka] | Going on a date with someone like me would be a total waste of time!
+A07.0009 [Fuyuka] | I just... I feel like I've grown a bit
+A07.0010 [Fuyuka] | and I've been seeing things differently lately.
+A07.0011 [Fuyuka] | And I'd like to share some thoughts with you.
+A07.0012 [Tú] | I'm looking forward to it.
+A07.0013 [Tú] | Also, being with you is never a waste of time.
+A07.0014 [Tú] | I just want to get that on the record.
+A07.0015 [Fuyuka] | Uh... Yes. I understand.
+
+## Conversación A08
+A08.0001 [Tú] | Happy birthday!
+A08.0002 [Fuyuka] | Eh? Birthday?
+A08.0003 [Fuyuka] | Oh—it's your birthday today, Master?
+A08.0004 [Fuyuka] | Happy birthday!
+A08.0005 [Fuyuka] | Thank you for everything you've done for me.
+A08.0006 [Tú] | ...
+A08.0007 [Tú] | I meant ... it's your birthday today.
+A08.0008 [Tú] | I'm here to celebrate you.
+A08.0009 [Fuyuka] | Whaaat?!
+A08.0010 [Fuyuka] | S-sorry, I got it mixed up!
+A08.0011 [Fuyuka] | Then, Master, will you come to my birthday party?
+A08.0012 [Tú] | I'm heading over right now!
+A08.0013 [Fuyuka] | T-that's great! I'll start getting ready!
+
+## Conversación A09
+A09.0001 [Tú] | I've been watching you fight lately.
+A09.0002 [Tú] | You seem much more at ease out there.
+A09.0003 [Fuyuka] | Y-yes! It's all thanks to your training, Master.
+A09.0004 [Fuyuka] | I finally understand what strength really means.
+A09.0005 [Fuyuka] | When I think only of protecting my friends
+A09.0006 [Fuyuka] | I can fight at my full power.
+A09.0007 [Tú] | Keep up the good work.
+A09.0008 [Fuyuka] | Yup, I will!
+
+## Conversación A10
+A10.0001 [Fuyuka] | I listened to the Runic Disc you sent me last time, Master.
+A10.0002 [Tú] | Yeah?
+A10.0003 [Fuyuka] | It feels ... nostalgic, somehow.
+A10.0004 [Tú] | Everyone says that.
+A10.0005 [Tú] | Did you think of things from the past?
+A10.0006 [Fuyuka] | Y-yes...
+A10.0007 [Fuyuka] | Unlike those amazing Trekkers
+A10.0008 [Fuyuka] | I've had a perfectly ordinary past.
+A10.0009 [Fuyuka] | I grew up in a small town, around ordinary people.
+A10.0010 [Fuyuka] | But ... I don't know how to put it...
+A10.0011 [Tú] | That kind of ordinary life is precisely what's worth protecting.
+A10.0012 [Fuyuka] | Y-yes! Exactly!
+A10.0013 [Fuyuka] | You can read me like a book...
+A10.0014 [Fuyuka] | Heh, after hearing that track, I feel so full of energy.
+A10.0015 [Fuyuka] | Thank you, Master!
+
+## Conversación B01
+B01.0001 [Fuyuka] | Master!
+B01.0002 [Tú] | What is it? You sound unusually happy
+B01.0003 [Fuyuka] | Hehe, the senpais have been saying that I've improved a lot lately
+B01.0004 [Fuyuka] | They say I'm starting to look like a proper guild leader
+B01.0005 [Tú] | Congrats! Good for you!
+B01.0006 [Tú] | I'm sure more and more people will recognize your leadership abilities!
+B01.0007 [Fuyuka] | Yeah!
+B01.0008 [Fuyuka] | I'm so grateful for having you as my Master
+B01.0009 [Tú] | It's not just because of me
+B01.0010 [Tú] | All this comes from your willingness to work hard and change yourself
+B01.0011 [Tú] | Keep it up
+
+## Conversación B02
+B02.0001 [Fuyuka] | Master...
+B02.0002 [Fuyuka] | I feel like working for a company
+B02.0003 [Fuyuka] | is completely different from being a Trekker
+B02.0004 [Tú] | One values rules, structure, and stability
+B02.0005 [Tú] | The other stands for freedom and adventure
+B02.0006 [Tú] | It's natural to feel out of place
+B02.0007 [Fuyuka] | But whenever I think that you'll help me
+B02.0008 [Fuyuka] | I feel like I can face either kind of life
+B02.0009 [Fuyuka] | Ah... Does that trouble you?
+B02.0010 [Tú] | Of course not
+B02.0011 [Tú] | Whenever you want, you can come to me for help
+B02.0012 [Fuyuka] | Yay!
+B02.0013 [Fuyuka] | Hehe, I feel relieved again...
+
+## Conversación B03
+B03.0001 [Fuyuka] | Master!
+B03.0002 [Fuyuka] | There's something I still don't quite understand
+B03.0003 [Tú] | What is it?
+B03.0004 [Fuyuka] | Whenever I go to accept commissions with the senpais
+B03.0005 [Fuyuka] | I get so nervous every time that I can't say a word
+B03.0006 [Fuyuka] | But they always tell me it's fine, I should just keep looking like that
+B03.0007 [Fuyuka] | And the clients don't seem to mind, either
+B03.0008 [Fuyuka] | Still, I'm afraid that I'm being impolite...
+B03.0009 [Tú] | Fuyuka, that's because other people see you like that
+B03.0010 [Tú] | They saw you as the stern, unsmiling type to begin with
+B03.0011 [Tú] | Even though that's far from the truth
+B03.0012 [Tú] | It makes people with bad intentions think twice before trying to trick you
+B03.0013 [Fuyuka] | I see
+B03.0014 [Fuyuka] | Still... Can I really keep this up forever?
+B03.0015 [Tú] | If you want to show your true self to others
+B03.0016 [Tú] | You'll need to put in more effort than you do now
+B03.0017 [Tú] | But I'm with you, Fuyuka
+B03.0018 [Fuyuka] | Okay. Thank you, Master!
+
+## Conversación B04
+B04.0001 [Fuyuka] | Master! Master!
+B04.0002 [Fuyuka] | Please praise me!
+B04.0003 [Tú] | It's rare to see you so eager
+B04.0004 [Tú] | Did something happen?
+B04.0005 [Fuyuka] | I've gotten to the point where I can ask to do out-of-town commissions on my own
+B04.0006 [Fuyuka] | and communicate directly with clients!
+B04.0007 [Tú] | Wow, that's a big deal
+B04.0008 [Tú] | How did you accomplish this?
+B04.0009 [Fuyuka] | It's as you taught me last time
+B04.0010 [Fuyuka] | Explain the situation as clearly as possible during the initial contact phase
+B04.0011 [Fuyuka] | Then plan for contingencies and figure out what to say in case they happened
+B04.0012 [Tú] | That helps with completing the commission itself, too
+B04.0013 [Fuyuka] | Yeah!
+B04.0014 [Tú] | Just remember to watch out for unplannable risks
+B04.0015 [Fuyuka] | Hehe, that's why before every trip
+B04.0016 [Fuyuka] | I would always set a time with others
+B04.0017 [Fuyuka] | If anything went wrong, they would come and back me up
+B04.0018 [Tú] | That's amazing. You really thought it through
+B04.0019 [Tú] | You've truly grown
+
+## Conversación B05
+B05.0001 [Fuyuka] | Master, would you come to the forest with me?
+B05.0002 [Tú] | It's rare for you to invite me like this
+B05.0003 [Fuyuka] | I usually worry about bothering you too much
+B05.0004 [Fuyuka] | But this time, it's not just about me
+B05.0005 [Fuyuka] | I want to visit some old friends with you
+B05.0006 [Tú] | Friends who live in the forest?
+B05.0007 [Tú] | Oh, you mean that bird pack?
+B05.0008 [Tú] | They might have flown away by now
+B05.0009 [Tú] | Winter has come to an end
+B05.0010 [Tú] | They should be heading to their next destination
+B05.0011 [Fuyuka] | Yes, I just want to make sure
+B05.0012 [Tú] | Sure, I'll go with you
+B05.0013 [Fuyuka] | Thank you, Master!
+
+## Conversación B06
+B06.0001 [Fuyuka] | Come to think of it, you're always encouraging and praising me
+B06.0002 [Tú] | ?
+B06.0003 [Tú] | Because you always work hard
+B06.0004 [Tú] | Or is criticism what you actually want?
+B06.0005 [Fuyuka] | N-no way!
+B06.0006 [Fuyuka] | Just imagining you scolding me makes me want to cry!
+B06.0007 [Fuyuka] | I'm already tearing up now...
+B06.0008 [Tú] | Don't! I was just joking!
+B06.0009 [Fuyuka] | I... I was just worried that maybe you're being too nice...
+B06.0010 [Fuyuka] | And not always telling me the truth
+B06.0011 [Fuyuka] | Maybe I'm not that great...
+B06.0012 [Tú] | Fuyuka, you've always been good at a lot of things
+B06.0013 [Fuyuka] | Such as...?
+B06.0014 [Opción] | You're super strong
+B06.0015 [Opción] | You're excellent at stealth
+B06.0016 [Fuyuka] | That really is my only strong point
+B06.0017 [Tú] | Even while fully equipped, you can move without making a sound
+B06.0018 [Fuyuka] | ... Uh, that's because... I was always scared of running into people...
+B06.0019 [Fuyuka] | So that's how I got my stealth skills
+B06.0020 [Tú] | The point is
+B06.0021 [Tú] | even if you never changed at all, nobody can look down on you
+B06.0022 [Tú] | And now, you're been even more awesome
+B06.0023 [Fuyuka] | Master...
+B06.0024 [Fuyuka] | Your words always warm my heart

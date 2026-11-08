@@ -14,7 +14,7 @@ function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&
 /* Emblemas (CharGem del juego): cada Trekker trae 3 emblemas fijos (Púa 70, Rombo 80, Estelar 90); el jugador solo elige las estadísticas (hasta 4 por emblema) */
 const EMT={1:{n:"Devoto",c:"#ff7a7a"},2:{n:"Explorador",c:"#4fd6a8"},3:{n:"Defensor",c:"#62aaff"}},EMS={1:"Púa",2:"Rombo",3:"Estelar"};
 const EMP={1:[[20,2],[35,36],[20,28],[5,36]],2:[[20,3],[36,20],[20,37],[4,20]],3:[[20,2],[25,15],[38,20],[25,25],[20,38],[15,25],[2,20],[15,15]]};
-const EMIC="https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/equipment/";
+const EMIC="https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/equipment/",emUrl=m=>EMIC+"chargem_"+"abc"[m.f-1]+"_0"+m.t+".webp";
 let EMD=null;
 fetch("emblemas.json").then(r=>r.ok?r.json():null).then(d=>{EMD=d}).catch(()=>{});
 const emInfo=id=>({id,t:Math.floor(id/100),f:id%100,ic:(id%100)*100+Math.floor(id/100)});
@@ -26,7 +26,7 @@ const emImg=(s,id,z)=>{const x=id>=1000?emItem(s,id):null;return x&&x.iu?`<img c
 const emLabel=(s,id)=>{const x=emItem(s,id);return x.n+" "+x.v};
 function emOfSlot(s){const sl=T.slots[s];if(!sl||!sl.c||!EMD||!PR)return null;const g=gidOf(PR,sl.c);return g&&EMD.slots[g]?EMD.slots[g].map(emInfo):null}
 function embSvg(m,z){return `<svg viewBox="0 0 40 40" width="${z}" height="${z}"><polygon points="${EMP[m.f].map(p=>p.join(",")).join(" ")}" fill="${EMT[m.t].c}" fill-opacity=".9" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>`}
-function embIcon(m,z){return `<span class="tm-ei" style="width:${z}px;height:${z}px"><img src="${EMIC}${m.ic}/${m.ic}.webp" width="${z}" height="${z}" alt="" loading="lazy" onerror="this.parentNode.innerHTML=this.dataset.f" data-f="${embSvg(m,z).replace(/"/g,"&quot;")}"></span>`}
+function embIcon(m,z){return `<span class="tm-ei" style="width:${z}px;height:${z}px"><img src="${emUrl(m)}" width="${z}" height="${z}" alt="" loading="lazy" onerror="this.parentNode.innerHTML=this.dataset.f" data-f="${embSvg(m,z).replace(/"/g,"&quot;")}"></span>`}
 function embBlock(s,ed){
   const L=emOfSlot(s);if(!L)return"";const G=T.slots[s].g||[[],[],[]];
   if(!ed&&!G.some(a=>a.length))return"";
@@ -387,7 +387,7 @@ async function imagen2(){
   const hHead=190,hCols=Math.max(colH(0),colH(1),colH(2)),hDisc=(dm.length||ds.length)?320:0,hNote=nt.length?40+nt.length*38+30:0;
   const H=hHead+hCols+hDisc+hNote+90;
   const cv=document.createElement("canvas");cv.width=W;cv.height=H;const c=cv.getContext("2d");
-  const urls=new Set();[0,1,2].forEach(s=>{const ch=charOf(T.slots[s].c);if(ch)urls.add(imgC(ch));PL[s].forEach(x=>urls.add(x.p.iu))});T.discs.forEach(D=>{const d=D&&discOf(D.n);if(d)urls.add(imgD(d))});
+  const urls=new Set();[0,1,2].forEach(s=>{const ch=charOf(T.slots[s].c);if(ch)urls.add(imgC(ch));PL[s].forEach(x=>urls.add(x.p.iu))});T.discs.forEach(D=>{const d=D&&discOf(D.n);if(d)urls.add(imgD(d))});[0,1,2].forEach(s=>{const L=emL[s];if(L&&emG(s).some(a=>a.length))L.forEach(m=>urls.add(emUrl(m)))});
   const IM={};await Promise.all([...urls].map(async u=>{IM[u]=await loadImg(u)}));
   let g=c.createLinearGradient(0,0,W,H);g.addColorStop(0,"#1c1650");g.addColorStop(.5,"#0f0c2a");g.addColorStop(1,"#0a0820");c.fillStyle=g;c.fillRect(0,0,W,H);
   c.fillStyle="rgba(123,108,255,.08)";for(let y=0;y<H;y+=32)for(let x=(y/32%2)*16;x<W;x+=32){c.beginPath();c.arc(x,y,2,0,7);c.fill()}
@@ -411,7 +411,7 @@ async function imagen2(){
     c.fillStyle="#cfc8ff";c.font="bold 22px sans-serif";c.textAlign="right";c.fillText(PL[s].length+" potenciales",x0+CW-20,y0+34);c.textAlign="left";
     if(EHs(s)){let ey=y0+maxPot+16;c.fillStyle="#9d93ff";c.font="bold 22px sans-serif";c.fillText("EMBLEMAS",x0+24,ey);ey+=12;
       emL[s].forEach((m,k)=>{const a=emG(s)[k],h=34+Math.max(1,a.length)*30,tx=x0+20,tw=CW-40;c.fillStyle="rgba(255,255,255,.06)";rr(c,tx,ey,tw,h,14);c.fill();c.strokeStyle=EMT[m.t].c;c.lineWidth=3;rr(c,tx,ey,tw,h,14);c.stroke();
-        const z=.8,ox=tx+14,oy=ey+8;c.beginPath();EMP[m.f].forEach((p,i)=>{const X=ox+p[0]*z,Y=oy+p[1]*z;i?c.lineTo(X,Y):c.moveTo(X,Y)});c.closePath();c.fillStyle=EMT[m.t].c;c.fill();c.strokeStyle="#fff";c.lineWidth=2;c.lineJoin="round";c.stroke();
+        const eim=IM[emUrl(m)];if(eim)c.drawImage(eim,tx+10,ey+6,48,48);else{const z=.8,ox=tx+14,oy=ey+8;c.beginPath();EMP[m.f].forEach((p,i)=>{const X=ox+p[0]*z,Y=oy+p[1]*z;i?c.lineTo(X,Y):c.moveTo(X,Y)});c.closePath();c.fillStyle=EMT[m.t].c;c.fill();c.strokeStyle="#fff";c.lineWidth=2;c.lineJoin="round";c.stroke()}
         c.fillStyle="#fff";c.font="bold 20px sans-serif";c.fillText("Nivel "+LVL[k]+" · "+EMS[m.f]+" · "+EMT[m.t].n,tx+56,ey+30);
         c.font="20px sans-serif";c.fillStyle="#cfc8ff";if(!a.length)c.fillText("—",tx+56,ey+58);a.forEach((id,q)=>c.fillText("• "+emLabel(s,id),tx+56,ey+58+q*30));
         ey+=h+8})}

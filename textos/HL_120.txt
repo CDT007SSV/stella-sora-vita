@@ -1,0 +1,389 @@
+# Heartlink de Canace: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Canace] | Hello
+A01.0002 [Canace] | This is my personal number
+A01.0003 [Canace] | Please contact me on this number from now on
+A01.0004 [Opción] | Okay
+A01.0005 [Opción] | So, you don't have a work phone?
+A01.0006 [Canace] | Good. Have a nice trip
+A01.0007 [Canace] | No
+A01.0008 [Canace] | I don't like having too many rules
+A01.0009 [Canace] | Whether it's work or personal, just contact me directly
+A01.0010 [Canace] | ...
+A01.0011 [Canace] | By the way, I'm not great with cellphones
+A01.0012 [Canace] | If possible, I prefer face-to-face communication
+A01.0013 [Tú] | What's the point of cellphones, then?
+A01.0014 [Canace] | Good question
+A01.0015 [Canace] | I don't know
+A01.0016 [Tú] | Huh?
+A01.0017 [Canace] | I'll look into this after I'm done with all 12 meetings I've got lined up
+
+## Conversación A02
+A02.0001 [Canace] | ...
+A02.0002 [Canace] | ...
+A02.0003 [Canace] | ...
+A02.0004 [Canace] | ...
+A02.0005 [Tú] | ?
+A02.0006 [Tú] | Butt dial?
+A02.0007 [Canace] | Uh-oh
+A02.0008 [Canace] | Sorry. I fell asleep
+A02.0009 [Tú] | Being a teacher is tough, huh?
+A02.0010 [Canace] | Nah, it's not that bad
+A02.0011 [Canace] | It's just the boring paper I'm reading
+A02.0012 [Canace] | It makes me drowsy
+A02.0013 [Tú] | Is it one of the papers you have to grade?
+A02.0014 [Canace] | No. My students are way better than this
+A02.0015 [Canace] | It's for my own learning
+A02.0016 [Tú] | Wait, a teacher gotta keep learning too?
+A02.0017 [Canace] | Of course. we have to submit research programs
+A02.0018 [Canace] | write papers
+A02.0019 [Canace] | give open classes
+A02.0020 [Canace] | and prepare for annually lecturer evaluations
+A02.0021 [Tú] | Busier than a beaver, I mean a student
+A02.0022 [Canace] | You're right. I even go to bed later than they do because I'm always up working
+A02.0023 [Tú] | How long did you sleep last time?
+A02.0024 [Canace] | Two hours.
+A02.0025 [Tú] | Please, go catch up on your sleep.
+
+## Conversación A03
+A03.0001 [Canace] | Today I'm visiting another school
+A03.0002 [Canace] | The students there are forced to read aloud at the top of their lungs during morning reading
+A03.0003 [Opción] | Maybe it's to wake them up
+A03.0004 [Opción] | Is it because they knew you were coming?
+A03.0005 [Canace] | I get all that, but...
+A03.0006 [Canace] | They're still kids. Their bodies are still growing
+A03.0007 [Canace] | It will do them far more harm than good if they end up injuring their vocal cords because of it
+A03.0008 [Canace] | If they had known I was coming, they probably would have ran away screaming
+A03.0009 [Tú] | You scare them that much?
+A03.0010 [Canace] | I'm known as the Devil Teacher
+A03.0011 [Canace] | I thought it was a cool moniker and mentioned it in class
+A03.0012 [Canace] | Before I knew it, a boy burst into tears. He was kneeling on the ground, apologizing
+A03.0013 [Canace] | It wasn't until afterwards that I found out he was the one who came up with the name
+A03.0014 [Tú] | Wow, that is scary...
+A03.0015 [Canace] | Well, to come back to my original point...
+A03.0016 [Canace] | I have always loathed doing unproductive things just for appearance's sake
+A03.0017 [Canace] | That's why I suggested to the headmaster to let the students do the morning reading in their own way
+A03.0018 [Canace] | There's no need to force anything. No need to pretend for anyone
+A03.0019 [Canace] | After the students learned of this, they were extremely grateful to me
+A03.0020 [Tú] | Naturally
+
+## Conversación A04
+A04.0001 [Canace] | I have a question for you, if you don't mind.
+A04.0002 [Tú] | Go ahead.
+A04.0003 [Canace] | Do you know what gyaru-talk is?
+A04.0004 [Opción] | I don't know.
+A04.0005 [Opción] | Why?
+A04.0006 [Canace] | I heard the girls in my class talking about it.
+A04.0007 [Canace] | Seems to be some trend that originated in Flavio
+A04.0008 [Tú] | They probably got it off a Monolith book...
+A04.0009 [Canace] | That is possible, yes...
+A04.0010 [Tú] | So, what does it sound like?
+A04.0011 [Canace] | Give me a moment...
+A04.0012 [Canace] | It's like...
+A04.0013 [Canace] | Heyyy~ Wassup?
+A04.0014 [Tú] | ...
+A04.0015 [Canace] | Why did you fall silent?
+A04.0016 [Tú] | No... I'm having a hard time imagining your expression right now.
+A04.0017 [Canace] | Please don't.
+A04.0018 [Canace] | I want to know what my students are thinking
+A04.0019 [Canace] | Why do they have a different way of communication every day
+A04.0020 [Tú] | That's just how young people live
+A04.0021 [Canace] | I see
+A04.0022 [Canace] | Guess it's time to blend in and embrace the youthful vibe
+A04.0023 [Canace] | Any suggestions on where to start?
+A04.0024 [Tú] | My suggestion would be to not start at all
+A04.0025 [Canace] | It's hard to understand the young.
+A04.0026 [Tú] | You aren't that much older than your students
+A04.0027 [Canace] | Have you heard of the saying of "five-year generation gap"?
+A04.0028 [Canace] | I'm one generation ahead of my oldest students, two when it comes the youngest ones
+A04.0029 [Canace] | Even if I'm the youngest professor here
+A04.0030 [Tú] | I feel like this conversation is entering into a dangerous territory...
+A04.0031 [Tú] | Let's stop here
+A04.0032 [Canace] | You're right.
+A04.0033 [Canace] | But thank you. Talking with you has made me feel a lot better
+A04.0034 [Canace] | I have to go attend another meeting now. Goodbye
+
+## Conversación A05
+A05.0001 [Canace] | !@...&%(#
+A05.0002 [Tú] | What's happening!?
+A05.0003 [Canace] | de#wmi3&jdinmw
+A05.0004 [Tú] | You fell asleep again?
+A05.0005 [Canace] | uh-uh...
+A05.0006 [Canace] | ...
+A05.0007 [Canace] | whoooo hasss time
+A05.0008 [Canace] | to sleep!!!
+A05.0009 [Tú] | Looks like you're sleepwalking
+A05.0010 [Canace] | Im nootsleepwalkin
+A05.0011 [Tú] | And it's pretty out of hand
+A05.0012 [Tú] | Are you okay? Are you at the school or at home?
+A05.0013 [Tú] | Do you need me to contact...
+A05.0014 [Canace] | whodoyathinkiam
+A05.0015 [Canace] | i had classes 21 day in a roll
+A05.0016 [Canace] | Tutored a bunch of kids
+A05.0017 [Canace] | Pplus sooooo many meetins
+A05.0018 [Canace] | Ppl talkin nonsense
+A05.0019 [Canace] | ahhh
+A05.0020 [Tú] | Okay. Okay.
+A05.0021 [Tú] | You're overworked, Canace. Please get some rest ASAP
+A05.0022 [Canace] | ...
+A05.0023 [Canace] | all this when
+A05.0024 [Canace] | i want to goo somewhere with you toooo
+A05.0025 [Tú] | ...
+A05.0026 [Tú] | We will when we get the opportunity
+
+## Conversación A06
+A06.0001 [Canace] | Uh-oh
+A06.0002 [Canace] | Found it!
+A06.0003 [Canace] | This brings back memories...
+A06.0004 [Tú] | What did you find?
+A06.0005 [Canace] | I'll show you in a sec
+A06.0006 [Canace] | ...
+A06.0007 [Canace] | Oh no!
+A06.0008 [Canace] | It broke!
+A06.0009 [Tú] | I'm sorry for your loss.
+A06.0010 [Tú] | Nobody can stem the tide of time
+A06.0011 [Tú] | Well...
+A06.0012 [Canace] | My old school uniform
+A06.0013 [Canace] | I can just barely fit in
+A06.0014 [Canace] | Then the button at the collar just popped off
+A06.0015 [Canace] | I put on weight after I started working...
+A06.0016 [Tú] | Uh...
+A06.0017 [Tú] | I don't think that's it
+A06.0018 [Canace] | Oh no!
+A06.0019 [Tú] | What is it now?
+A06.0020 [Canace] | The second button came off
+A06.0021 [Tú] | ...
+
+## Conversación A07
+A07.0001 [Canace] | There's something I'm curious about.
+A07.0002 [Canace] | Do you make it a habit to learn new things?
+A07.0003 [Opción] | It's always a good idea to learn new skills.
+A07.0004 [Opción] | I'm very pragmatic.
+A07.0005 [Tú] | It's always a good idea to learn new skills. It can't hurt
+A07.0006 [Canace] | I guess that's only to be expected. I'm the same way
+A07.0007 [Canace] | No matter how busy I am day-to-day, I always make time to sit down and learn something new
+A07.0008 [Tú] | I'm very pragmatic. I only learn new things when I need to
+A07.0009 [Canace] | Ah, that's the first I've heard of it
+A07.0010 [Canace] | By the way, what are you learning right now?
+A07.0011 [Tú] | How to move someone who's out cold
+A07.0012 [Canace] | ...
+A07.0013 [Canace] | I... I know.
+A07.0014 [Canace] | I was so tired the other day. I fell asleep in your RV
+A07.0015 [Tú] | So...
+A07.0016 [Tú] | Which new field are you looking into, Canace?
+A07.0017 [Canace] | Dancing
+A07.0018 [Canace] | Didn't expect that one, did you?
+A07.0019 [Opción] | No, I didn't
+A07.0020 [Opción] | Nope
+A07.0021 [Tú] | No, I didn't.
+A07.0022 [Canace] | Hah! People are going to be so surprised!
+A07.0023 [Tú] | Not all that surprised.
+A07.0024 [Canace] | How so?
+A07.0025 [Tú] | Just a gut feeling
+A07.0026 [Canace] | Sometimes your instincts are spot-on
+A07.0027 [Canace] | To tell you the truth, I was born into an aristocratic family, so dancing was a required subject
+A07.0028 [Canace] | But after I got kicked out, my dancing skills grew rusty
+A07.0029 [Canace] | The Academy holds a social dance every year
+A07.0030 [Canace] | But I've never had the right partner. Or more like, nobody dared to be my partner
+A07.0031 [Tú] | That sounds...so sad...
+A07.0032 [Canace] | Eh?
+A07.0033 [Canace] | You mean you are interested?
+A07.0034 [Canace] | Then I'll have to find the proper attire for you
+A07.0035 [Tú] | I didn't say anything!
+A07.0036 [Tú] | Ann?
+A07.0037 [Tú] | Hey now!
+
+## Conversación A08
+A08.0001 [Tú] | Canace
+A08.0002 [Tú] | Happy Birthday
+A08.0003 [Canace] | ?
+A08.0004 [Canace] | Happy birthday? To whom?
+A08.0005 [Tú] | You. Who else?
+A08.0006 [Canace] | Uh-oh...
+A08.0007 [Canace] | Wow, it actually is my birthday today
+A08.0008 [Tú] | You don't celebrate birthdays?
+A08.0009 [Canace] | No
+A08.0010 [Canace] | Besides, it's not right of me to receive presents
+A08.0011 [Tú] | Is there anything you want to do today?
+A08.0012 [Canace] | Hmm...
+A08.0013 [Tú] | This is too sudden. I can't think of anything right now
+A08.0014 [Canace] | How about you decide for me?
+A08.0015 [Tú] | Are you sure?
+A08.0016 [Canace] | I trust you will make the right decision
+A08.0017 [Tú] | Well, then...
+A08.0018 [Opción] | Enjoy the day as much as you can
+A08.0019 [Opción] | Do something that you've always wanted to do but never got around to it
+A08.0020 [Tú] | Try to enjoy this day as much as you can
+A08.0021 [Tú] | Whether it's shopping or relaxing, take the opportunity of your birthday to treat yourself
+A08.0022 [Canace] | I see. Birthdays can have this kind of meaning, huh?
+A08.0023 [Canace] | Now that I think about it, my shoulders have been feeling pretty sore lately from sitting too much
+A08.0024 [Tú] | Do you want to go somewhere and relax a bit?
+A08.0025 [Canace] | Hmmm... I heard there's a hot spring great for treating soreness
+A08.0026 [Canace] | I'd like to go there if possible
+A08.0027 [Tú] | We can drive you there
+A08.0028 [Canace] | Oh, that's great~ A car drive is nice, too
+A08.0029 [Tú] | How about doing something that you've always wanted to do but never got around to?
+A08.0030 [Tú] | It's your special day—use it as an excuse to go for it!
+A08.0031 [Canace] | I see. So that's how people spend their birthdays
+A08.0032 [Canace] | Come to think of it, I've never joined any society activities
+A08.0033 [Canace] | Maybe I can go get a taste of it. I just need to change into casual clothes
+A08.0034 [Tú] | That's all you want?
+A08.0035 [Canace] | It's already a luxury to me
+A08.0036 [Canace] | Uh-oh...
+A08.0037 [Canace] | I've got a department meeting to attend
+A08.0038 [Canace] | I need to prepare
+A08.0039 [Tú] | Oh no! It's your special day...
+A08.0040 [Canace] | Hah. Don't feel so bad for me
+A08.0041 [Canace] | Since you have designed a full special day schedule for me
+A08.0042 [Canace] | Let's just pick a day to celebrate and I promise I will follow the schedule you made. Any day can be a birthday!
+
+## Conversación A09
+A09.0001 [Tú] | Good training today
+A09.0002 [Tú] | Thank you, Canace, for doing a mock battle with us
+A09.0003 [Canace] | It's nothing. Forget it
+A09.0004 [Tú] | Still, I was so surprised. Even though I knew you're a Trekker
+A09.0005 [Tú] | I didn't expect you to be such a great fighter
+A09.0006 [Tú] | You were able to simultaneously suppress frontal attacks from Noya and Iris while also defending against Amber's attack from behind
+A09.0007 [Canace] | It's just because I have more experience. Keep it up and you'll surpass me one day
+A09.0008 [Canace] | Oh by the way, is Amber okay? I'm afraid I overdid it
+A09.0009 [Tú] | She's fine, just frustrated by the defeat. Threw herself into training again
+A09.0010 [Canace] | Ahaha... I'll have to bring a cake with me the next time I come over to visit
+A09.0011 [Tú] | I think she'll like it
+A09.0012 [Tú] | Speaking of which, I found a thick piece of chalk on the scene--did you drop it?
+A09.0013 [Canace] | Ah, I was wondering where did my Self-Defense Knife go
+A09.0014 [Canace] | I guess my body moved instinctively when Amber ambushed me
+A09.0015 [Canace] | Really fortunate that she was able to dodge it
+A09.0016 [Tú] | I want to see what damage it can do
+A09.0017 [Canace] | Hmm...
+A09.0018 [Canace] | Just enough to punch through a few load-bearing pillars
+A09.0019 [Tú] | ...
+A09.0020 [Tú] | Please don't mention this to her the next time you come to visit
+A09.0021 [Canace] | Yes, that's what I figured.
+
+## Conversación A10
+A10.0001 [Tú] | Canace, I heard you asked for a day off yesterday
+A10.0002 [Canace] | Yes. I needed the time to confirm something for myself
+A10.0003 [Canace] | Anything you want me to do?
+A10.0004 [Opción] | Not really, it's just that...
+A10.0005 [Opción] | I'm a bit surprised
+A10.0006 [Tú] | I'm a bit surprised
+A10.0007 [Tú] | That's all
+A10.0008 [Tú] | Does it have anything to do with the Runic Disc?
+A10.0009 [Canace] | ...
+A10.0010 [Canace] | I'm sorry, but I don't want to give you a wishy-washy answer
+A10.0011 [Canace] | It would affect your judgment and goes against my way of doing things
+A10.0012 [Canace] | So until everything becomes clear, let's just pretend it never happened
+A10.0013 [Canace] | But rest assured, I've always had this feeling that...
+A10.0014 [Canace] | If you keep following this path
+A10.0015 [Canace] | One of those days, the two parallel lines will eventually intersect
+A10.0016 [Canace] | When that day comes, the bonds you've forged between individuals around you will propel you to take a crucial step toward the truth
+A10.0017 [Canace] | And I'm just one of those many individuals
+A10.0018 [Tú] | I see
+A10.0019 [Tú] | I won't ask you any more about that
+A10.0020 [Canace] | Yeah
+A10.0021 [Canace] | See you at the dawn of truth
+
+## Conversación B01
+B01.0001 [Canace] | Boss. Interested in a side gig?
+B01.0002 [Tú] | What gig?
+B01.0003 [Canace] | I'm sending you a photo capturer. A present.
+B01.0004 [Canace] | Need you to record the Trekkers climbing the Monolith.
+B01.0005 [Canace] | Might use the footage for my classes.
+B01.0006 [Tú] | Couldn't you just lend it to me?
+B01.0007 [Tú] | Why let me keep it?
+B01.0008 [Canace] | Well, since I'm asking for a favor
+B01.0009 [Canace] | I'll set it up as a commission so you get paid.
+B01.0010 [Canace] | Um...
+B01.0011 [Canace] | Honestly... If I could, I'd rather be climbing with you guys.
+B01.0012 [Tú] | Too busy, right?
+B01.0013 [Canace] | Exactly.
+B01.0014 [Tú] | Just send the request. I'm in.
+B01.0015 [Canace] | That's great.
+B01.0016 [Canace] | I appreciate it.
+
+## Conversación B02
+B02.0001 [Tú] | Hm?
+B02.0002 [Tú] | Canace?
+B02.0003 [Tú] | Wait. That didn't look like a pocket dial.
+B02.0004 [Tú] | Who is this?
+B02.0005 [Sistema] | Canace has gone offline.
+B02.0006 [Sistema] | Canace has come online.
+B02.0007 [Canace] | Sorry, Boss. Did you need something?
+B02.0008 [Tú] | Was someone else just using your...
+B02.0009 [Canace] | Why? What happened?
+B02.0010 [Tú] | No, never mind...
+
+## Conversación B03
+B03.0001 [Canace] | Heard some teachers talking about a special kind of bread today.
+B03.0002 [Canace] | Apparently, if you write notes on it and eat it, you memorize whatever's written instantly.
+B03.0003 [Tú] | Pretty sure that's just a manga trope.
+B03.0004 [Canace] | True. Would be nice if it were real, though.
+B03.0005 [Tú] | You're a teacher. Thought you'd hate shortcuts like that.
+B03.0006 [Canace] | Well, skipping the tedious, painful part of memorization sounds appealing.
+B03.0007 [Canace] | I wouldn't mind that at all.
+B03.0008 [Canace] | But exploring the knowledge yourself is the fun part.
+B03.0009 [Canace] | Whether it's rote memorization or eating magic bread...
+B03.0010 [Canace] | Personally
+B03.0011 [Canace] | I prefer learning through hands-on practice and application.
+
+## Conversación B04
+B04.0001 [Canace] | Emergency...
+B04.0002 [Tú] | Coming from you
+B04.0003 [Tú] | that actually sounds terrifying...
+B04.0004 [Tú] | So what happened?
+B04.0005 [Canace] | I...
+B04.0006 [Canace] | Just sent my formal dress for professional cleaning.
+B04.0007 [Canace] | But I miscalculated the timing.
+B04.0008 [Canace] | Mother is coming for an inspection, and I can't get the dress back in time.
+B04.0009 [Tú] | Uhh...
+B04.0010 [Tú] | If you don't mind the cost, you could just buy a new one?
+B04.0011 [Canace] | Oh, right!
+B04.0012 [Canace] | Why didn't I think of that!
+B04.0013 [Tú] | Wait, for real?
+B04.0014 [Canace] | I don't really spend money, so I've saved up.
+B04.0015 [Canace] | More than enough for a dress.
+B04.0016 [Canace] | Boss, are you free later?
+B04.0017 [Tú] | I mean, I guess.
+B04.0018 [Canace] | Come with me then. I need an objective evaluation.
+
+## Conversación B05
+B05.0001 [Canace] | Made my escape.
+B05.0002 [Tú] | A teacher playing hooky?
+B05.0003 [Canace] | It wasn't class.
+B05.0004 [Canace] | Faculty mixer.
+B05.0005 [Tú] | What's that?
+B05.0006 [Canace] | It's where they trap a bunch of exhausted teachers with piles of grading to do
+B05.0007 [Canace] | and force us to "bond" when we'd rather just go home.
+B05.0008 [Tú] | Sounds like prison.
+B05.0009 [Canace] | So I bailed.
+B05.0010 [Canace] | I'm not doing prison a second time.
+B05.0011 [Tú] | A second time?
+B05.0012 [Canace] | Never mind.
+B05.0013 [Canace] | Anyway, sneaking out to play on my phone like this
+B05.0014 [Canace] | makes me feel like I'm back in school.
+B05.0015 [Tú] | You used to do that as a student?
+B05.0016 [Canace] | Actually, no.
+B05.0017 [Tú] | So you got more rebellious after becoming a teacher.
+
+## Conversación B06
+B06.0001 [Canace] | Vacation starts soon.
+B06.0002 [Tú] | Holidays aren't really a "thing" for us Trekkers.
+B06.0003 [Tú] | Freelance life, you know.
+B06.0004 [Tú] | So, got any plans?
+B06.0005 [Canace] | I want to see you.
+B06.0006 [Tú] | Me?
+B06.0007 [Tú] | But you rarely get time off. Shouldn't you relax?
+B06.0008 [Canace] | That's exactly why I have to make it count.
+B06.0009 [Canace] | I actually did some homework on this.
+B06.0010 [Canace] | Wanna go to a hot spring resort with me?
+B06.0011 [Canace] | Supposed to be the perfect place to de-stress.
+B06.0012 [Tú] | I'm down, but funds are tight...
+B06.0013 [Canace] | My treat.
+B06.0014 [Tú] | When do we leave?
+B06.0015 [Canace] | Hehe
+B06.0016 [Canace] | Don't rush. Break hasn't even started yet.
+B06.0017 [Canace] | But I'll text you the second it's official.

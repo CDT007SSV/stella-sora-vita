@@ -1,0 +1,315 @@
+# Heartlink de Jinglin: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Jinglin] | Welcome, welcome!
+A01.0002 [Jinglin] | If you have any suggestions regarding the service or dishes at Huaijing Restaurant, please feel free to contact me directly!
+A01.0003 [Opción] | Sure thing, Manager Jinglin
+A01.0004 [Opción] | No problem, Manager Jinglin
+A01.0005 [Tú] | Any first-time customer promotion?
+A01.0006 [Jinglin] | Of course! And it's a good one!
+A01.0007 [Jinglin] | New customers will receive a complimentary signature stir-fry dish~
+A01.0008 [Jinglin] | Spend over 6,000 Dorra and you'll also receive a discount coupon: 3,000 off for every 5,000 spent.
+A01.0009 [Tú] | Wow, that is such a good deal!
+A01.0010 [Jinglin] | Yeah, but we have our own coupon policy~
+A01.0011 [Jinglin] | You can use up to two coupons per visit, and you'll get an extra one after you use them
+A01.0012 [Tú] | An extra one?
+A01.0013 [Jinglin] | We hope to get repeat customers this way, you included~
+A01.0014 [Tú] | That's a good business model.
+A01.0015 [Jinglin] | Thank you~
+
+## Conversación A02
+A02.0001 [Jinglin] | Heyhey, do you prefer salty or sweet?
+A02.0002 [Opción] | Salty
+A02.0003 [Opción] | Sweet
+A02.0004 [Opción] | As long as it tastes good!
+A02.0005 [Tú] | Salty, when it comes down to it
+A02.0006 [Tú] | Most of the time, our guild members subsist on Tawny Nightingale with a pinch of salt
+A02.0007 [Tú] | When Noya does the grilling, she also likes to put a lot of spices and salt on the meat
+A02.0008 [Tú] | She says doing that is from firsthand knowledge amongst Trekkers.
+A02.0009 [Jinglin] | Not sure why it is the case, but I'll take this down!
+A02.0010 [Tú] | Sweet stuff, for sure!
+A02.0011 [Tú] | Most of the time, our guild members subsist on Tawny Nightingale with a pinch of salt
+A02.0012 [Tú] | When Noya does the grilling, she also likes to put a lot of spices and salt on the meat.
+A02.0013 [Tú] | But sweet stuff is what picks me up!
+A02.0014 [Jinglin] | Hehe, I'm the same way~
+A02.0015 [Tú] | It doesn't matter, as long as it tastes good!
+A02.0016 [Jinglin] | Hehe, seems like you aren't picky. In that case...
+A02.0017 [Tú] | In that case?
+A02.0018 [Jinglin] | The long and short of it is, Huaijing Restaurant is looking for Trekkers to serve as dish testers as part of our new business expansion plan!
+A02.0019 [Jinglin] | If you like salty food, we will have you try our new salty dishes~
+A02.0020 [Jinglin] | And if you have a sweet tooth...
+A02.0021 [Tú] | You will have me try the new sweet dishes?
+A02.0022 [Jinglin] | That's right!
+A02.0023 [Tú] | What does a dish tester do exactly?
+A02.0024 [Jinglin] | Our restaurant introduces new dishes every quarter, and the dishes testers get to try them for free
+A02.0025 [Jinglin] | After tasting, testers are required to fill out a questionnaire and provide their feedback on the new dishes~
+A02.0026 [Jinglin] | If you happen to be in Philae when we're launching new dishes, be sure to stop by!
+A02.0027 [Tú] | Sure thing!
+A02.0028 [Jinglin] | Hope to see you soon!
+
+## Conversación A03
+A03.0001 [Jinglin] | Hehe, look what I got: "Scientific Mahjong Playing Guide 3.0!"
+A03.0002 [Opción] | Gimme a copy
+A03.0003 [Opción] | Meh, pass
+A03.0004 [Tú] | ...They're on version 3.0 already?
+A03.0005 [Jinglin] | Hehe, the other day my mom and I went back to Cang Wu, and I asked Shimiao to compile this for me!
+A03.0006 [Tú] | Thanks, but I'll pass. No amount of science can fix bad luck and a lousy hand...
+A03.0007 [Jinglin] | No, no, this version will definitely help!
+A03.0008 [Tú] | 3.0 already? That was fast
+A03.0009 [Jinglin] | Hehe, the other day my mom and I went back to Cang Wu, and I asked Shimiao to compile this for me!
+A03.0010 [Tú] | ...
+A03.0011 [Tú] | ...
+A03.0012 [Tú] | Wow, this version has a lot of illustrations
+A03.0013 [Tú] | Even though they don't help at all with understanding the formulas Shimiao wrote
+A03.0014 [Jinglin] | Oh, the illustrations were drawn by Chixia...
+A03.0015 [Jinglin] | She's my hometown neighbor's great-uncle's sister-in-law's daughter's cousin.
+A03.0016 [Tú] | In short, a friend, got it
+A03.0017 [Jinglin] | She suggested adding something to make the whole thing more readable and personally created these "masterpieces"!
+A03.0018 [Jinglin] | I saw them! Masterpieces, in a way.
+A03.0019 [Tú] | Alright then
+A03.0020 [Tú] | As long as you think so
+A03.0021 [Jinglin] | Make sure you read it through carefully~
+A03.0022 [Jinglin] | Next time when you come, if you can beat me in mahjong
+A03.0023 [Jinglin] | Your whole guild can eat for free!
+A03.0024 [Tú] | I'll immediate get everybody else on this as well!
+
+## Conversación A04
+A04.0001 [Jinglin] | (Stare)
+A04.0002 [Jinglin] | (Stare)
+A04.0003 [Opción] | What happened?
+A04.0004 [Tú] | What happened? What's going on?
+A04.0005 [Jinglin] | You haven't gotten the questionnaire back to me yet!
+A04.0006 [Tú] | Oh no!
+A04.0007 [Tú] | We suddenly got a lot of commissions these past few days. I meant to turn it in soon...
+A04.0008 [Jinglin] | A lot of commissions...
+A04.0009 [Jinglin] | That's great!
+A04.0010 [Jinglin] | That means you and everybody else in New Star Guild won't have to eat Tawny Nightingale everyday!
+A04.0011 [Jinglin] | The questionnaire can wait. Making money comes first!
+A04.0012 [Tú] | Jinglin...
+A04.0013 [Tú] | You are so understanding...
+A04.0014 [Jinglin] | The hardworking members deserve a good meal!
+A04.0015 [Jinglin] | How about having it at Huaijing?
+A04.0016 [Tú] | I see—
+A04.0017 [Tú] | Talk about ulterior motives!
+A04.0018 [Jinglin] | Hehe, I think it is a great idea!
+A04.0019 [Tú] | It just so happens we are close to Philae right now...
+A04.0020 [Tú] | Could Miss Manager please reserve a large table for us? We'll see you tonight!
+
+## Conversación A05
+A05.0001 [Jinglin] | (Sigh)
+A05.0002 [Jinglin] | (Sigh)
+A05.0003 [Jinglin] | Maybe learning grammar takes talent. What do you think, Boss?
+A05.0004 [Opción] | Got a bad score on your test?
+A05.0005 [Opción] | Couldn't memorize them for your test?
+A05.0006 [Jinglin] | So bad... I got nine out of ten grammar questions wrong, and the one I got right was just a lucky guess
+A05.0007 [Tú] | That takes a certain kind of talent, too
+A05.0008 [Jinglin] | No, it was a quiz my mom gave me
+A05.0009 [Jinglin] | I got nine out of ten grammar questions wrong, and the one I got right was just a lucky guess
+A05.0010 [Tú] | That takes a certain kind of talent, too
+A05.0011 [Jinglin] | Stop laughing at me
+A05.0012 [Tú] | Let me teach you a trick I learned from a teacher—a handy mnemonic!
+A05.0013 [Jinglin] | You mean the one that goes like "three short, one long—pick the longest; three long, one short—pick the shortest"?
+A05.0014 [Tú] | Wow. You know that one, too?
+A05.0015 [Tú] | Some things are just universal no matter which city you live in
+A05.0016 [Jinglin] | But it didn't do me any good
+A05.0017 [Tú] | Which shows there are no shortcuts to learning. You just have to do it the hard way in the future!
+A05.0018 [Jinglin] | Well, it's not like I have a choice.
+A05.0019 [Jinglin] | Mom confiscated my mahjong tiles. If I fail the quiz again next week, I won't ever see them again
+A05.0020 [Jinglin] | Make sure you hide the set of mahjong tiles that I gave you!
+A05.0021 [Jinglin] | If things go south next week... That set of tiles will be my last hope!
+
+## Conversación A06
+A06.0001 [Jinglin] | How is it that you can always tell what I'm feeling?
+A06.0002 [Jinglin] | You did it when we were playing Mahjong last time
+A06.0003 [Jinglin] | And when I couldn't figure out my homework
+A06.0004 [Jinglin] | And when we didn't get the "Outstanding Business" award this quarter.
+A06.0005 [Opción] | It's because I have the power of observation
+A06.0006 [Opción] | It's because I can read your mind
+A06.0007 [Tú] | It's because I have the power of observation, of course
+A06.0008 [Tú] | You don't know? You have this tell.
+A06.0009 [Jinglin] | What do you mean?
+A06.0010 [Tú] | It's because I can read your mind, of course
+A06.0011 [Jinglin] | You can do that???
+A06.0012 [Tú] | You didn't really believe it, did you!?
+A06.0013 [Jinglin] | Of course not!!
+A06.0014 [Tú] | Actually, it's because you have this tell
+A06.0015 [Jinglin] | What do you mean?
+A06.0016 [Tú] | The tell is your tail!
+A06.0017 [Jinglin] | (Sigh)
+A06.0018 [Tú] | When you're happy, you shake your tail upward three times—once to the left and twice to the right.
+A06.0019 [Tú] | When you are sad, it just droops.
+A06.0020 [Tú] | When you're angry, it puffs up like woah
+A06.0021 [Tú] | Not to mention...
+A06.0022 [Jinglin] | AHHH!!!
+A06.0023 [Jinglin] | STOP
+A06.0024 [Jinglin] | You're making me feeling like I'm a kid!
+A06.0025 [Jinglin] | I'm going to get my tail under control from now on!
+
+## Conversación A07
+A07.0001 [Jinglin] | Ta-da! I have good news to share!
+A07.0002 [Jinglin] | We are replacing our wine cabinet with a new one!
+A07.0003 [Jinglin] | We are keeping so many bottles for our customers that the current cabinet is getting too small
+A07.0004 [Jinglin] | So we're going to replace it with something bigger, taller~
+A07.0005 [Opción] | Here's to your great success!
+A07.0006 [Opción] | Hope your business thrives!
+A07.0007 [Jinglin] | I've left an empty row
+A07.0008 [Jinglin] | The most prominent spot!
+A07.0009 [Jinglin] | My mom says it's the manager's pejorative, hehehe
+A07.0010 [Tú] | Manager's pejorative?
+A07.0011 [Jinglin] | Yes, a whole row of bottles from you!
+A07.0012 [Jinglin] | Hmm... Now that I have said it, it's more like the Boss' prerogative
+A07.0013 [Tú] | The Boss' prerogative... Sounds very impressive!
+A07.0014 [Jinglin] | It's only impressive if the whole row is filled up
+A07.0015 [Jinglin] | It's empty right now~
+A07.0016 [Tú] | Guess I'll have to work even harder from now on!
+A07.0017 [Jinglin] | Don't forget!
+
+## Conversación A08
+A08.0001 [Jinglin] | Heh...heheh
+A08.0002 [Jinglin] | Boss! Look!
+A08.0003 [Opción] | This looks sooooo tasty
+A08.0004 [Tú] | This looks sooooo tasty!!!
+A08.0005 [Jinglin] | Today is my birthday, so my mom made this bowl of noodles for me~~
+A08.0006 [Tú] | Happy birthday, Jinglin!
+A08.0007 [Jinglin] | Thank you, Boss~~
+A08.0008 [Jinglin] | Don't tell anybody else this, Boss
+A08.0009 [Jinglin] | Before this year, when my mom was sick, it was always Grandpa Qin who made me birthday noodles.
+A08.0010 [Jinglin] | It's not that they weren't tasty, and I definitely didn't want to make my mom to go through all that trouble, but...
+A08.0011 [Jinglin] | I really wanted to eat birthday noodles made by her
+A08.0012 [Jinglin] | So last year on my birthday, I made a secret wish, hoping that Mom would get healthy again
+A08.0013 [Jinglin] | And that... She would make me birthday noodles
+A08.0014 [Tú] | Your wish came true today!
+A08.0015 [Jinglin] | Yup!
+A08.0016 [Jinglin] | When Grandpa Qin said my mom made these noodles, I was so happy!
+A08.0017 [Jinglin] | And my mom promised me that she'd make me these every year on my birthday from now on
+A08.0018 [Jinglin] | Ok I gotta go eat my noodles before they become mushy!
+
+## Conversación A09
+A09.0001 [Jinglin] | Wow...
+A09.0002 [Jinglin] | Wow!!!
+A09.0003 [Jinglin] | The Trekker training course works better than I thought!
+A09.0004 [Opción] | I'm ready to accept all your praises
+A09.0005 [Tú] | I'm ready to accept all your praises!
+A09.0006 [Jinglin] | Praise praise praise!
+A09.0007 [Jinglin] | In my dreams, I can handle the chefs who come into the restaurant looking for trouble and confront the thugs that harass Cai!
+A09.0008 [Tú] | Not what I expected to hear...
+A09.0009 [Tú] | I had no idea running a restaurant is such a tough business.
+A09.0010 [Jinglin] | Well, in my dreams it is
+A09.0011 [Jinglin] | Before I trained, whenever I ran into bad people in my dreams, all I wanted to do was run
+A09.0012 [Jinglin] | But now I have the courage to face them and protect everyone else!
+A09.0013 [Jinglin] | And it's thanks to you, Boss!
+
+## Conversación A10
+A10.0001 [Jinglin] | I got the Runic Disc you sent me, Boss.
+A10.0002 [Jinglin] | The cover is so interesting
+A10.0003 [Opción] | Each Disc's cover is unique
+A10.0004 [Jinglin] | So mine's unique, too?
+A10.0005 [Tú] | Of course
+A10.0006 [Tú] | The cover, the melody, and the memories sealed within it are all irreplaceable
+A10.0007 [Jinglin] | Memories... I see!
+A10.0008 [Jinglin] | You are so amazing, Boss!
+A10.0009 [Jinglin] | Hmph, figure that out for yourself
+
+## Conversación B01
+B01.0001 [Jinglin] | Hey Boss, wanna come eat at Jing's Bistro today?
+B01.0002 [Jinglin] | I came up with a new dish~
+B01.0003 [Jinglin] | And I wanna invite you to come try it~
+B01.0004 [Tú] | Count me in!
+B01.0005 [Tú] | What kind of new dish?
+B01.0006 [Jinglin] | Customers kept saying my egg fried noodles and egg fried rice are great
+B01.0007 [Jinglin] | But one portion isn't enough to fill you up
+B01.0008 [Jinglin] | And if you order both, you can't finish
+B01.0009 [Jinglin] | So I made an improved version!
+B01.0010 [Jinglin] | Egg fried roodles!
+B01.0011 [Tú] | Sounds tasty, but
+B01.0012 [Tú] | that's a total carb bomb!
+B01.0013 [Jinglin] | Anyway, drop by later and try it~
+
+## Conversación B02
+B02.0001 [Jinglin] | Boss! Boss!
+B02.0002 [Jinglin] | Do you think I should make some savory dishes, too?
+B02.0003 [Tú] | Why the sudden interest?
+B02.0004 [Jinglin] | Because whenever I finish dessert I want savory snacks
+B02.0005 [Jinglin] | And after savory snacks I want dessert again
+B02.0006 [Jinglin] | By that logic
+B02.0007 [Jinglin] | If Jing's Bistro serves both sweet and savory dishes
+B02.0008 [Jinglin] | Then customers would never leave
+B02.0009 [Jinglin] | Sweet then savory, savory then sweet
+B02.0010 [Tú] | I get what you mean
+B02.0011 [Tú] | But people can't just eat forever
+B02.0012 [Jinglin] | Oh! True that
+B02.0013 [Tú] | But expanding the menu is a nice idea
+B02.0014 [Tú] | If you make something new, I wanna try it too~
+B02.0015 [Jinglin] | Haha, then just you wait~
+B02.0016 [Jinglin] | Once I come out with new dishes, you'll be my very first taste tester!
+
+## Conversación B03
+B03.0001 [Jinglin] | The wild mushrooms up in the mountains should be ready now, right?
+B03.0002 [Jinglin] | Boss, wanna go mushroom picking with me this week?
+B03.0003 [Opción] | Mushroom picking?
+B03.0004 [Opción] | That sounds really fun
+B03.0005 [Jinglin] | Yeah! Wild mushrooms taste amazing in both soups and stir-fries
+B03.0006 [Jinglin] | Every year around this time
+B03.0007 [Jinglin] | Lots of Loong go into the mountains to do mushroom picking
+B03.0008 [Tú] | When do we leave?
+B03.0009 [Jinglin] | There's a guide who knows the mountains leading a group this Saturday
+B03.0010 [Jinglin] | Wanna come?
+B03.0011 [Tú] | Yes yes
+
+## Conversación B04
+B04.0001 [Jinglin] | Oh no, oh no, oh no.
+B04.0002 [Jinglin] | My mom checked my schoolwork today
+B04.0003 [Jinglin] | I failed my quiz and she said that's because I spent too much time playing mahjong
+B04.0004 [Tú] | Did you stay up all night playing again?
+B04.0005 [Jinglin] | Just once! Last weekend
+B04.0006 [Jinglin] | Anyway
+B04.0007 [Jinglin] | Mom said she's confiscating my mahjong tiles
+B04.0008 [Jinglin] | Can you maybe...
+B04.0009 [Jinglin] | hang onto them for me for a while?
+B04.0010 [Tú] | Should be okay...
+B04.0011 [Tú] | Tell you what, you leave them with me
+B04.0012 [Tú] | And when you pass your quiz next time
+B04.0013 [Tú] | You can have them back
+B04.0014 [Jinglin] | Okay okay
+B04.0015 [Jinglin] | Uh... Something about this feels off
+
+## Conversación B05
+B05.0001 [Jinglin] | Boss, I have good news to share with you!
+B05.0002 [Tú] | Yes?
+B05.0003 [Jinglin] | I looked through some old books recently
+B05.0004 [Jinglin] | They said you can cook herbs with food to make medicinal meals
+B05.0005 [Jinglin] | Gramps knows herbs really well, so I asked him to make a recipe for my mom
+B05.0006 [Jinglin] | She's been eating it for a month and she seems to be getting a bit better!
+B05.0007 [Jinglin] | If this works out
+B05.0008 [Jinglin] | She might fully recover soon!
+B05.0009 [Tú] | Wow! That's amazing news!
+B05.0010 [Tú] | You should celebrate!
+B05.0011 [Jinglin] | Yeah! Good idea!
+B05.0012 [Jinglin] | But Mom can't really go out right now...
+B05.0013 [Tú] | Then do what you're best at
+B05.0014 [Tú] | A delicious feast, plus a handmade get-well-soon card?
+B05.0015 [Tú] | It's the thought that counts
+B05.0016 [Jinglin] | Yeah! You're right!
+B05.0017 [Jinglin] | I'll get started right now!
+
+## Conversación B06
+B06.0001 [Jinglin] | Boss, are you free tomorrow?
+B06.0002 [Jinglin] | We're gonna go dig for wild greens. Wanna come?
+B06.0003 [Tú] | ?
+B06.0004 [Tú] | Didn't you say you were going to thoroughly clean the restaurant tomorrow?
+B06.0005 [Jinglin] | Yeah
+B06.0006 [Jinglin] | Early morning we'll gather greens, then hit the market, do the cleaning job in the afternoon, then play mahjong with some regulars in the evening
+B06.0007 [Tú] | Wow, kids
+B06.0008 [Tú] | Where do you get all that energy?
+B06.0009 [Jinglin] | This is normal, isn't it?
+B06.0010 [Jinglin] | When you run a restaurant
+B06.0011 [Jinglin] | You're up before five to prep, open at eight, close at ten in the evening, then clean the kitchen afterward
+B06.0012 [Jinglin] | And maybe do a supply run in between
+B06.0013 [Tú] | That's truly impressive...
+B06.0014 [Jinglin] | So are you coming with us tomorrow morning?
+B06.0015 [Jinglin] | It's gonna be fun!
+B06.0016 [Tú] | OK OK
+B06.0017 [Tú] | I'll try my best to get up...

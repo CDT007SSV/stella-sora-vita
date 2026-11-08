@@ -1,0 +1,406 @@
+# Heartlink de Teresa: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Teresa] | Boss!
+A01.0002 [Teresa] | Boss!
+A01.0003 [Teresa] | I finally managed to add you as a friend!
+A01.0004 [Opción] | Hi, I look forward to working with you
+A01.0005 [Opción] | Don't say that
+A01.0006 [Tú] | Hi, I look forward to working with you~
+A01.0007 [Teresa] | Got it!
+A01.0008 [Teresa] | And I look forward to your guidance!
+A01.0009 [Tú] | Don't say that, you sound like l am not approachable...
+A01.0010 [Teresa] | No no no!
+A01.0011 [Teresa] | You are the third contact I added on this phone!
+A01.0012 [Tú] | Are the first two Donna and Freesia...?
+A01.0013 [Teresa] | How did you know!
+A01.0014 [Tú] | Ahaha...
+A01.0015 [Teresa] | Oh, I got another post delivery task!
+A01.0016 [Teresa] | See you later, Boss!
+
+## Conversación A02
+A02.0001 [Teresa] | Boss
+A02.0002 [Teresa] | I'm making mushroom soup, are you interested?
+A02.0003 [Opción] | I didn't know you could cook
+A02.0004 [Opción] | Are these mushrooms poisonous?
+A02.0005 [Teresa] | I'm a bona fide Trekker, after all!
+A02.0006 [Teresa] | I may not have my mom's cooking skills
+A02.0007 [Teresa] | But I do make a nice mushroom soup!
+A02.0008 [Tú] | I'm seeing you in a whole new light now
+A02.0009 [Tú] | Just to double confirm
+A02.0010 [Tú] | The mushrooms aren't poisonous, right?
+A02.0011 [Teresa] | I know how to tell the edible mushrooms from the poisonous ones!
+A02.0012 [Teresa] | If... If you don't believe me...
+A02.0013 [Teresa] | I'll show you!
+A02.0014 [Tú] | Why are you so nervous? Didn't you say you could tell them apart?
+A02.0015 [Tú] | But seriously
+A02.0016 [Tú] | Don't you need to keep an eye on it?
+A02.0017 [Teresa] | On what?
+A02.0018 [Tú] | Your pot
+A02.0019 [Teresa] | OH NO!!!
+
+## Conversación A03
+A03.0001 [Teresa] | I just saw an Artifact identical to mine at a street vendor's stall!
+A03.0002 [Tú] | Are you thinking about buying a pair of new goggles?
+A03.0003 [Teresa] | It's a keyboard!
+A03.0004 [Tú] | Keyboard... You mean the Artifact that you always carry with you?
+A03.0005 [Teresa] | Yes! It feels really nice to the touch!
+A03.0006 [Tú] | Touch... What do you normally do with it?
+A03.0007 [Teresa] | Do with it...? I use it to relax, of course
+A03.0008 [Teresa] | When I'm tired, I lie on it... It helps me unwind!
+A03.0009 [Tú] | You use it for back massages?
+A03.0010 [Teresa] | Yeah, it works wonders
+A03.0011 [Tú] | Hmm...
+A03.0012 [Tú] | I guess that's one way to use it
+A03.0013 [Teresa] | Huh? Boss, did I use it wrong?
+
+## Conversación A04
+A04.0001 [Teresa] | I've got nothing to do...
+A04.0002 [Teresa] | I've already finished my letter deliveries for the day
+A04.0003 [Teresa] | Donna and Freesia have gone out, leaving me to watch the house by myself
+A04.0004 [Opción] | You've got some alone time
+A04.0005 [Opción] | I know what's going to happen next
+A04.0006 [Tú] | Good. You've got some alone time
+A04.0007 [Tú] | You can do whatever you want
+A04.0008 [Tú] | Two thieves will try to break into your home
+A04.0009 [Tú] | And you'll need to make creative use of common household items to fend them off
+A04.0010 [Teresa] | Well, I know this plot from that Monolith movie
+A04.0011 [Teresa] | You can't scare me
+A04.0012 [Tú] | Oh well~
+A04.0013 [Teresa] | Argh... There's nothing to do...
+A04.0014 [Tú] | Are you about to nod off?
+A04.0015 [Teresa] | Yeah...
+A04.0016 [Tú] | Are you lying down?
+A04.0017 [Teresa] | Yeah
+A04.0018 [Tú] | Try not to drop your phone on your face
+A04.0019 [Teresa] | I dropped it on my nose...
+A04.0020 [Teresa] | I'm bleeding...
+A04.0021 [Teresa] | Band-aid... My band-aid...
+A04.0022 [Tú] | Well that will keep me busy for a while at least...
+
+## Conversación A05
+A05.0001 [Teresa] | Waaah... I was so bad that I got thrown out
+A05.0002 [Opción] | Everybody has to start somewhere
+A05.0003 [Opción] | So you are aware of the problem
+A05.0004 [Opción] | Teresa never admits defeat!
+A05.0005 [Tú] | Don't let it bother you
+A05.0006 [Teresa] | That was so embarrassing, good thing I didn't bring Donna and the others along.
+A05.0007 [Teresa] | Sniffling...
+A05.0008 [Teresa] | It's so not fair!
+A05.0009 [Tú] | So you still haven't told me what actually happened
+A05.0010 [Teresa] | Oh yeah... Sorry, I forgot...
+A05.0011 [Teresa] | I brought a bunch of new stuff to sell at the second-hand market
+A05.0012 [Teresa] | But people said they belong to the garbage bin
+A05.0013 [Teresa] | The truth is, they were just abandoned
+A05.0014 [Teresa] | None of them were actually broken...
+A05.0015 [Teresa] | I... I couldn't make them see my point, so I just came back for now...
+A05.0016 [Tú] | Second-hand goods have to look good
+A05.0017 [Tú] | Get them cleaned up first, then maybe you'll be able to get better prices
+A05.0018 [Teresa] | Okay...
+A05.0019 [Tú] | Cheer up
+A05.0020 [Tú] | If it weren't for you, they might just rot somewhere
+A05.0021 [Teresa] | Yeah!
+A05.0022 [Teresa] | Thank you for talking with me, Boss!
+
+## Conversación A06
+A06.0001 [Teresa] | Boss, do you game?
+A06.0002 [Opción] | When I've got the time
+A06.0003 [Opción] | I'm not good at it
+A06.0004 [Opción] | I'm a gaming god
+A06.0005 [Tú] | When I've got the time, I play a bit
+A06.0006 [Teresa] | Me, too
+A06.0007 [Teresa] | I once bought a second-hand handheld game console with only grayscale graphics
+A06.0008 [Teresa] | But I was worried that I might get addicted to it and let it affect my job
+A06.0009 [Teresa] | So I asked Donna to seal it away for me
+A06.0010 [Tú] | I'm not good at it; I'm a total newbie when it comes to games
+A06.0011 [Teresa] | I can't believe there's something you aren't good at
+A06.0012 [Teresa] | Hehe, somehow it's a comforting thought
+A06.0013 [Teresa] | Just as I thought!
+A06.0014 [Teresa] | Well, to come back to my original point...
+A06.0015 [Teresa] | A while ago, I delivered a letter for a Trekker
+A06.0016 [Teresa] | They gave me a game cartridge they'd found inside a Monolith
+A06.0017 [Teresa] | It's a game where players scavenge in a post-apocalyptic world
+A06.0018 [Teresa] | It looks like a lot of fun. Do you want to play it with me?
+A06.0019 [Opción] | Sure, we can take turns and switch when one dies
+A06.0020 [Opción] | Watch me clear the game in one shot
+A06.0021 [Tú] | Sure, watch me clear the game in one shot!
+A06.0022 [Teresa] | Yeah!
+A06.0023 [Teresa] | Nobody else is at Post Haste today. I'll wait for you here!
+
+## Conversación A07
+A07.0001 [Teresa] | Boss?
+A07.0002 [Teresa] | Do you need a band-aid
+A07.0003 [Tú] | I appreciate the thought, but I'm not hurt
+A07.0004 [Teresa] | It's always nice to be prepared
+A07.0005 [Teresa] | Or do you have your own special way of healing?
+A07.0006 [Opción] | My body heals itself—the human body is amazing, isn't it?
+A07.0007 [Opción] | Health insurance, the ultimate lifesaver
+A07.0008 [Opción] | I'm the Boss, hehe
+A07.0009 [Tú] | Huh? My body always heals itself no matter what
+A07.0010 [Tú] | The human body is amazing, isn't it?
+A07.0011 [Teresa] | I...I can heal myself, too
+A07.0012 [Teresa] | The process is hard, that's all...
+A07.0013 [Tú] | I recommend a personal health insurance policy from Deepsea Finance Financial
+A07.0014 [Tú] | All minor illnesses and prescriptions are covered
+A07.0015 [Teresa] | I didn't expect there'd be a service like this
+A07.0016 [Teresa] | But just thinking about anything related to magic contracts gives me a headache
+A07.0017 [Teresa] | So I really don't want to look into it...
+A07.0018 [Tú] | I'm the Boss, little girl!
+A07.0019 [Tú] | Invincible against all poisons, immune to all damages!
+A07.0020 [Teresa] | That sounds like a line from some game!
+A07.0021 [Tú] | When have you ever seen me get injured?
+A07.0022 [Teresa] | Huh... I guess you're right...
+A07.0023 [Teresa] | So jealous... I wish I had that kind of body, too
+A07.0024 [Teresa] | Then I wouldn't have to worry about getting injured when I'm protecting others
+A07.0025 [Tú] | That's why you should be careful while fighting
+A07.0026 [Tú] | Even if you have band-aids, you should still try to avoid getting hurt as much as possible
+A07.0027 [Teresa] | Well...
+A07.0028 [Teresa] | Okay...
+
+## Conversación A08
+A08.0001 [Tú] | Teresa, happy birthday~
+A08.0002 [Teresa] | Thank you, Boss
+A08.0003 [Teresa] | I was delivering letters
+A08.0004 [Tú] | Even on your birthday?
+A08.0005 [Teresa] | Delivery task has nothing to do with what day it is today~
+A08.0006 [Tú] | But I found a place great for setting off fireworks!
+A08.0007 [Teresa] | Boss, could you recommend to me some small-scale fireworks?
+A08.0008 [Opción] | Sparklers
+A08.0009 [Opción] | Fountain fireworks
+A08.0010 [Opción] | Spinning top fireworks
+A08.0011 [Tú] | How about sparklers?
+A08.0012 [Teresa] | Good idea
+A08.0013 [Teresa] | They may be small, but they're very bright
+A08.0014 [Teresa] | But can I hold two of them at the same time?
+A08.0015 [Tú] | Sure, it's your birthday, after all
+A08.0016 [Tú] | How about fountain fireworks?
+A08.0017 [Teresa] | Ohohoh!
+A08.0018 [Teresa] | I've always wanted to try that!
+A08.0019 [Tú] | Time to make your dream into reality
+A08.0020 [Tú] | How about spinning top fireworks?
+A08.0021 [Teresa] | What are those? They sound cool!
+A08.0022 [Tú] | It gives off sparks and then shoots up into the sky, spinning
+A08.0023 [Teresa] | I definitely want to try those!
+A08.0024 [Tú] | I'll bring them over right now
+A08.0025 [Teresa] | I'm happy!
+A08.0026 [Teresa] | Super happy!!!
+A08.0027 [Tú] | You're this excited?
+A08.0028 [Teresa] | Because I'm spending my birthday with you, Boss!
+A08.0029 [Teresa] | Which makes it a very special day!
+A08.0030 [Teresa] | I'll wait for you right here!
+
+## Conversación A09
+A09.0001 [Tú] | There's something I want to ask you
+A09.0002 [Teresa] | Fire away
+A09.0003 [Tú] | Just how do you swing that giant sword?
+A09.0004 [Teresa] | Oh... I haven't told you about it, have I?
+A09.0005 [Teresa] | I found this sword inside a forest ruin
+A09.0006 [Teresa] | I don't know why but it linked itself to me
+A09.0007 [Teresa] | Before I knew it, I was able to lift this sword
+A09.0008 [Opción] | No pic, no proof
+A09.0009 [Opción] | What kind of price did you pay, then?
+A09.0010 [Teresa] | I wish I could have taken a photo!
+A09.0011 [Teresa] | But I actually got my phone from my dad
+A09.0012 [Teresa] | It's so old that it doesn't have a camera
+A09.0013 [Tú] | Really~?
+A09.0014 [Teresa] | Really!
+A09.0015 [Teresa] | Uh... What do you mean?
+A09.0016 [Tú] | You see this kind of trope in Monolith recovered novels and mangas all the time
+A09.0017 [Tú] | Amazing powers always come with a price tag attached
+A09.0018 [Teresa] | Noooo! I'm very young! And I still have tons of deliveries to make!
+A09.0019 [Teresa] | At least wait till I've finished delivering them!
+A09.0020 [Tú] | That's why those things only happen in made-up stories
+A09.0021 [Tú] | You're still alive and kicking, so I'm sure you're fine
+
+## Conversación A10
+A10.0001 [Teresa] | Boss
+A10.0002 [Teresa] | Was that the Runic Disc?
+A10.0003 [Tú] | Yes, did it remind you of something?
+A10.0004 [Teresa] | Yes.
+A10.0005 [Teresa] | If I close my eyes, I feel like I can see my parents' face
+A10.0006 [Teresa] | Clearer than in any dream
+A10.0007 [Opción] | You miss them?
+A10.0008 [Opción] | How about going back for a visit when you've got the time?
+A10.0009 [Teresa] | A little bit, yeah
+A10.0010 [Teresa] | But I want to hone my skills a bit more first
+A10.0011 [Teresa] | So I can show my dad just how much I've grown when I do go back!
+A10.0012 [Teresa] | I want to, but I can't just leave Donna and Freesia to deal with everything at Post Haste.
+A10.0013 [Teresa] | But maybe I can find a time when we're all free.
+A10.0014 [Teresa] | Then we can take a vacation there!
+A10.0015 [Tú] | Every now and then, send a letter back to let them know you're doing okay
+A10.0016 [Teresa] | You're right, Boss
+A10.0017 [Teresa] | But...
+A10.0018 [Teresa] | Who would deliver such a letter...
+A10.0019 [Tú] | ...
+A10.0020 [Teresa] | ...
+A10.0021 [Teresa] | I better go see if I can switch my shift!
+
+## Conversación B01
+B01.0001 [Teresa] | Cooking ... is actually kinda hard...
+B01.0002 [Tú] | Why the sudden interest?
+B01.0003 [Teresa] | Well, Donna and Freesia are both coming back late today
+B01.0004 [Teresa] | So I've just been sitting here hungry
+B01.0005 [Teresa] | And I started thinking, maybe I should learn to cook or something...
+B01.0006 [Tú] | Yeah, at least you'd be able to handle emergencies
+B01.0007 [Tú] | Before you met those two, Teresa, how did you manage three meals a day?
+B01.0008 [Teresa] | Let me think...
+B01.0009 [Teresa] | When I was still living at home, Mom packed meals for me
+B01.0010 [Teresa] | After I struck out on my own, I just picked wild fruit in the forest and stuff
+B01.0011 [Tú] | You were living like a total wild person!
+B01.0012 [Tú] | Didn't you ever eat something you shouldn't have?
+B01.0013 [Teresa] | Nope! I learned how to identify wild plants really early on~
+B01.0014 [Teresa] | Sometimes I could even sell them for a few Dorra~
+B01.0015 [Tú] | I guess life really does find a way...
+
+## Conversación B02
+B02.0001 [Teresa] | Hmm...
+B02.0002 [Teresa] | Why is it that even when I try so hard to be careful, I still end up causing all kinds of trouble?
+B02.0003 [Tú] | I've heard a saying:
+B02.0004 [Tú] | "The more you worry about something happening, the more likely it is to happen."
+B02.0005 [Teresa] | It works like that?!
+B02.0006 [Tú] | Being too careful just makes you unable to focus
+B02.0007 [Teresa] | No wonder I mess up the things I care about the most
+B02.0008 [Teresa] | But how am I supposed to prevent bad things from happening?
+B02.0009 [Tú] | We're just mortals. We can't predict every bad thing
+B02.0010 [Tú] | But we have experience. That's how we protect ourselves against the risks
+B02.0011 [Tú] | You're pretty sharp with traps when you're treasure hunting, aren't you, Teresa?
+B02.0012 [Teresa] | Am I...?
+B02.0013 [Teresa] | I feel like I mess up all the time...
+B02.0014 [Tú] | That's because you always venture into dangerous situations. Most people aren't as capable as you
+B02.0015 [Tú] | And aren't you more agile now compared to before?
+B02.0016 [Teresa] | Really...?
+B02.0017 [Teresa] | Hehe, I think I'm starting to get it, Boss
+
+## Conversación B03
+B03.0001 [Teresa] | I went treasure hunting today and all I found was a button
+B03.0002 [Teresa] | It was red, about half the size of my palm
+B03.0003 [Teresa] | And it's covered by a clear lid
+B03.0004 [Opción] | A knick-knack at best
+B03.0005 [Opción] | Can you sell something like that?
+B03.0006 [Opción] | Best not to touch it
+B03.0007 [Tú] | Seems pretty useless
+B03.0008 [Tú] | I feel like it's a knick-knack at best
+B03.0009 [Teresa] | Yeah, that's what I figured, too
+B03.0010 [Teresa] | If I could take it apart, maybe I could turn it into a doorbell
+B03.0011 [Tú] | Maybe the Neo Grace Organization would be interested in it
+B03.0012 [Teresa] | In a button like this?
+B03.0013 [Tú] | I think those tech maniacs would love it
+B03.0014 [Tú] | Sounds suspicious. Best just leave it alone
+B03.0015 [Teresa] | What do you think it is, Boss?
+B03.0016 [Tú] | Could be the trigger for some mechanism
+B03.0017 [Teresa] | But I didn't see any mechanism nearby...
+B03.0018 [Teresa] | Eh...
+B03.0019 [Teresa] | I opened the lid to get a closer look and accidentally pressed it...
+B03.0020 [Tú] | How do you "accidentally" press it?!
+B03.0021 [Tú] | So what happened?
+B03.0022 [Teresa] | It's a sound device!
+B03.0023 [Teresa] | All it does is say, "I'm hungry."
+B03.0024 [Teresa] | It just keeps going, "I'm hungry, I'm hungry."
+B03.0025 [Teresa] | Kinda fun!
+B03.0026 [Tú] | This thing...
+B03.0027 [Tú] | Could it be a toy for pets?
+
+## Conversación B04
+B04.0001 [Teresa] | I have a question for you, Boss, if you don't mind
+B04.0002 [Tú] | Yeah?
+B04.0003 [Teresa] | A friend of mine wants to give a gift to another friend of hers
+B04.0004 [Teresa] | But that other friend is surrounded by a lot of cool people
+B04.0005 [Teresa] | So they get all kinds of cool gifts
+B04.0006 [Teresa] | My friend is worried...
+B04.0007 [Tú] | She's worried that her gift is too ordinary, maybe even handmade
+B04.0008 [Tú] | She's afraid it won't be good enough for her friend, right?
+B04.0009 [Teresa] | How did you know!?
+B04.0010 [Opción] | I know everything
+B04.0011 [Opción] | This "friend" of yours...
+B04.0012 [Tú] | I know what you're about to type the moment you start typing
+B04.0013 [Teresa] | Really? Then I won't type anything
+B04.0014 [Tú] | Don't push it~
+B04.0015 [Teresa] | Wahh!
+B04.0016 [Teresa] | Okay, kidding aside!
+B04.0017 [Tú] | This "friend" of yours wouldn't happen to be...
+B04.0018 [Teresa] | She really is a friend, I swear!
+B04.0019 [Tú] | But didn't you say the only contacts in your phone are Donna, Freesia, and me?
+B04.0020 [Teresa] | I, I make friends in real life, too!
+B04.0021 [Tú] | Okay, okay~
+B04.0022 [Tú] | Anyway, this might sound weird, but...
+B04.0023 [Tú] | I don't think that person your friend likes would look down on a gift given from the heart
+B04.0024 [Teresa] | Really?!
+B04.0025 [Tú] | Yeah, in things like this, it's better to be direct
+B04.0026 [Teresa] | Okay! I'll do that!
+B04.0027 [Teresa] | Uh, I mean, I'll tell my friend to do that!
+B04.0028 [Teresa] | Thank you, Boss!
+
+## Conversación B05
+B05.0001 [Teresa] | I got a package from home today
+B05.0002 [Tú] | Oh?
+B05.0003 [Tú] | What's inside?
+B05.0004 [Teresa] | My dad sent it. A book he wrote when he was young
+B05.0005 [Teresa] | The thing is, I found an illustration tucked inside
+B05.0006 [Teresa] | It's a drawing I did as a kid. It must have gotten stuck in his book back then
+B05.0007 [Teresa] | Ehehe. It's a drawing of "what I want to be when I grow up."
+B05.0008 [Tú] | Heh. Now I'm actually curious
+B05.0009 [Teresa] | Hehe~ Wanna guess what I drew, Boss?
+B05.0010 [Opción] | A legendary Trekker
+B05.0011 [Opción] | A great messenger
+B05.0012 [Opción] | A dream house owner
+B05.0013 [Tú] | You wanted to be a legendary Trekker, just like your dad?
+B05.0014 [Teresa] | I did think my dad was the coolest when I was little!
+B05.0015 [Teresa] | But my ambitions didn't stop there~
+B05.0016 [Tú] | You wanted to become a great messenger?
+B05.0017 [Teresa] | It would be touching if one looked back and realized that they'd already fulfilled their childhood dream
+B05.0018 [Teresa] | But sorry, beep beep~
+B05.0019 [Teresa] | Wrong guess. I didn't even know what a messenger was back then~
+B05.0020 [Tú] | "Hello dream house, open the door!"
+B05.0021 [Tú] | "We can do anything, right..."
+B05.0022 [Teresa] | Wait a minute!
+B05.0023 [Teresa] | That's just an ad from the Monolith!
+B05.0024 [Teresa] | Ready for the answer?
+B05.0025 [Teresa] | I actually wanted to be a "hero"!
+B05.0026 [Tú] | Hmph. I knew you were coming to get me, after all
+B05.0027 [Teresa] | WWWWWait...!
+B05.0028 [Teresa] | Not that kind of hero!
+B05.0029 [Teresa] | The hero from fairy tale picture books
+B05.0030 [Teresa] | My mom even made me a hero outfit based on the one in the book
+B05.0031 [Tú] | Your parents sound so supportive~
+B05.0032 [Teresa] | One of those days, I'll bring you back home with me!
+B05.0033 [Teresa] | I've always wanted to introduce you to my mom and dad~
+B05.0034 [Tú] | Cool, I can't wait!
+
+## Conversación B06
+B06.0001 [Teresa] | Boss~Boss~
+B06.0002 [Teresa] | I bought a recording of an adventure-type Stella Drama
+B06.0003 [Teresa] | Wanna watch it together?
+B06.0004 [Tú] | Sure. I'll come over
+B06.0005 [Teresa] | Hold on!
+B06.0006 [Tú] | What is it?
+B06.0007 [Teresa] | It's an old recording, so it needs a specific model of projector Artifact to play it
+B06.0008 [Tú] | Ah... Yeah, that's too bad
+B06.0009 [Tú] | So maybe we could...
+B06.0010 [Teresa] | Aahh!
+B06.0011 [Teresa] | Wait! Wait!
+B06.0012 [Teresa] | Let me check the warehouse and see if I have that model!
+B06.0013 [Sistema] | Teresa has gone offline
+B06.0014 [Sistema] | Teresa has come online
+B06.0015 [Teresa] | I found one! I found one!
+B06.0016 [Tú] | You never cease to amaze me
+B06.0017 [Tú] | Okay, I'll come over...
+B06.0018 [Teresa] | Aahh!
+B06.0019 [Tú] | What now?
+B06.0020 [Teresa] | This projector ... is pretty busted
+B06.0021 [Teresa] | I don't know if I can fix it
+B06.0022 [Teresa] | We've gotta at least try! Gimme a minute, Boss!
+B06.0023 [Sistema] | Teresa has gone offline
+B06.0024 [Sistema] | Teresa has come online
+B06.0025 [Teresa] | After all my hard work...
+B06.0026 [Teresa] | It's officially beyond repair...
+B06.0027 [Tú] | Teresa...
+B06.0028 [Teresa] | Hm?
+B06.0029 [Tú] | There are some alleys in Port Bellin I haven't explored yet
+B06.0030 [Tú] | Would you mind taking me around?
+B06.0031 [Teresa] | !
+B06.0032 [Teresa] | Hold on! I'll be right there~
+B06.0033 [Teresa] | I promise I'll be fast this time!
+B06.0034 [Tú] | Safe travels~

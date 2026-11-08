@@ -1,0 +1,151 @@
+# Heartlink de Otoha: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Otoha] | Alright, here's my contact info.
+A01.0002 [Otoha] | Just let me know if you ever need a hand with anything.
+A01.0003 [Tú] | Do you provide housekeeping services too?
+A01.0004 [Otoha] | ...
+A01.0005 [Tú] | What's wrong?
+A01.0006 [Otoha] | Nothing...
+A01.0007 [Otoha] | I just didn't expect that to be your very first question.
+A01.0008 [Otoha] | But of course. If you need it, I'd handle those services personally for you.
+A01.0009 [Tú] | "Personally"? Now that just sounds like a scam.
+A01.0010 [Otoha] | Care to take a guess?
+
+## Conversación A02
+A02.0001 [Otoha] | Tell me, Boss, how well do you know the moon?
+A02.0002 [Tú] | You mean like its symbolism?
+A02.0003 [Otoha] | Anything goes.
+A02.0004 [Tú] | Madness? Reunions?
+A02.0005 [Tú] | I read up on some of those concepts back in the Monolith.
+A02.0006 [Otoha] | Very well.
+A02.0007 [Otoha] | The Monolith also houses a few books on astrology and astronomy.
+A02.0008 [Otoha] | They say the moon only ever reveals one side to us.
+A02.0009 [Otoha] | While the other half remains forever hidden in the dark.
+A02.0010 [Tú] | Makes it feel rather elusive, doesn't it?
+A02.0011 [Tú] | Still, it's crazy how such different concepts apply to the same thing...
+A02.0012 [Otoha] | Well, that's the moon for you.
+
+## Conversación A03
+A03.0001 [Otoha] | Nanoha always seems so happy around you.
+A03.0002 [Otoha] | Knowing that puts my mind at ease.
+A03.0003 [Opción] | Wait, how do you know we went out?
+A03.0004 [Opción] | What are you talking about?
+A03.0005 [Tú] | Are you ... stalking us?!
+A03.0006 [Otoha] | Let's not go that far.
+A03.0007 [Otoha] | But when I want to know something, I have my ways of finding out.
+A03.0008 [Tú] | Yikes. That's creepy...
+A03.0009 [Tú] | Oh?
+A03.0010 [Otoha] | Pay it no mind, I'm just thinking out loud.
+A03.0011 [Tú] | But seriously, how did you know?
+A03.0012 [Otoha] | I was running the shop today. I even passed you the bottle of water you bought.
+A03.0013 [Tú] | !!!
+A03.0014 [Tú] | That was YOU?!
+A03.0015 [Otoha] | I'll let you be the judge of that.
+
+## Conversación A04
+A04.0001 [Otoha] | [Goodwind Homecare Reminder: It's clear and sunny outside, perfect for drying clothes.]
+A04.0002 [Otoha] | [Reply "0" to unsubscribe, "1" to continue your subscription.]
+A04.0003 [Opción] | 0
+A04.0004 [Opción] | 1
+A04.0005 [Tú] | You aren't actually with Goodwind Homecare, right?
+A04.0006 [Tú] | Then what's with the act?
+A04.0007 [Otoha] | Hehe.
+A04.0008 [Otoha] | It's fun to slip into character every now and then.
+A04.0009 [Tú] | Back to your old job again?
+A04.0010 [Otoha] | Of course not. It's just a little role-play.
+A04.0011 [Tú] | Come to think of it, this message looks familiar.
+A04.0012 [Otoha] | Oh? How so?
+A04.0013 [Tú] | ... Wait, I remember now.
+A04.0014 [Tú] | So that's what you meant by "role-playing."
+A04.0015 [Tú] | Nanoha sent me this exact same text once.
+A04.0016 [Otoha] | Hehe. I'm glad you're paying attention, Boss.
+A04.0017 [Otoha] | If you'd forgotten a message she worked so hard on...
+A04.0018 [Otoha] | Well, I might never forgive you.
+
+## Conversación A05
+A05.0001 [Otoha] | Got a question for you.
+A05.0002 [Otoha] | Notice any fabric merchants while you were in Philae?
+A05.0003 [Opción] | Can't say I did.
+A05.0004 [Opción] | I think I saw one?
+A05.0005 [Tú] | You looking to buy some fabric?
+A05.0006 [Otoha] | Just keeping an eye out for a specific batch, that's all.
+A05.0007 [Tú] | You mean the fabric shop next to the Soul Shop?
+A05.0008 [Otoha] | No, probably not that one.
+A05.0009 [Tú] | What kind of fabric are you looking for anyway?
+A05.0010 [Tú] | They might have something like it in the Monolith.
+A05.0011 [Otoha] | I highly doubt it's something you'd find in the Monolith.
+A05.0012 [Otoha] | Never mind, though.
+A05.0013 [Otoha] | I'm sure it'll turn up when the time is right.
+
+## Conversación A06
+A06.0001 [Otoha] | Boss, are you into role-playing?
+A06.0002 [Opción] | I used to play pretend as an employee in a company.
+A06.0003 [Opción] | I'm not really sure...
+A06.0004 [Otoha] | You sure know how to entertain yourself.
+A06.0005 [Tú] | Does reading novels count?
+A06.0006 [Tú] | You know, putting yourself in the story, laughing and crying along with the main character.
+A06.0007 [Otoha] | Of course it does.
+A06.0008 [Otoha] | Deep down, I think everyone enjoys role-playing.
+A06.0009 [Otoha] | You can become whoever you want, start completely fresh as many times as you like.
+A06.0010 [Otoha] | Every new persona is a brand new start.
+
+## Conversación A07
+A07.0001 [Otoha] | Are you in Emor recently?
+A07.0002 [Opción] | I am.
+A07.0003 [Opción] | Nope
+A07.0004 [Tú] | Yeah, I am. You here too?
+A07.0005 [Otoha] | What a coincidence. Want to grab a drink?
+A07.0006 [Tú] | We actually just headed out of town. Why?
+A07.0007 [Otoha] | Oh, bad timing then.
+A07.0008 [Otoha] | I was just passing through and wondering if you'd like to grab a drink.
+A07.0009 [Otoha] | I know a cafe around here that makes amazing desserts.
+A07.0010 [Tú] | You really do love your sweets, huh.
+A07.0011 [Tú] | I might take a rain check, though. Let me see...
+A07.0012 [Otoha] | Sure. Let's catch up when you're free next.
+
+## Conversación A08
+A08.0001 [Otoha] | Got any free time today, Boss?
+A08.0002 [Tú] | Ah! I know what this is about!
+A08.0003 [Otoha] | Shh—
+A08.0004 [Otoha] | It's a secret. Don't spoil it.
+A08.0005 [Tú] | Alright, alright...
+A08.0006 [Otoha] | If you're free, come meet me at that dessert shop.
+A08.0007 [Otoha] | I have a matcha cake waiting for you.
+A08.0008 [Tú] | Ah, nothing beats the classic Goodwind taste.
+A08.0009 [Otoha] | Oh, it gets better.
+A08.0010 [Otoha] | I made sure the chef doubled the usual amount of matcha powder.
+
+## Conversación A09
+A09.0001 [Otoha] | I'd heard you weren't much of a fighter...
+A09.0002 [Otoha] | ... But I didn't realize you were this helpless.
+A09.0003 [Tú] | Sorry to disappoint...
+A09.0004 [Otoha] | Or is this all just a clever act?
+A09.0005 [Otoha] | If so, your performance is flawless. Truly a masterclass in deception.
+A09.0006 [Tú] | ...
+A09.0007 [Tú] | You're giving me way too much credit.
+A09.0008 [Otoha] | I figured as much.
+A09.0009 [Otoha] | Still, I could show you a few tricks to keep yourself safe, if you're interested.
+A09.0010 [Otoha] | I'm actually quite a capable mentor.
+A09.0011 [Otoha] | Just say the word whenever you're ready to learn.
+
+## Conversación A10
+A10.0001 [Otoha] | Boss, do you remember that Disc?
+A10.0002 [Tú] | Of course. You looked stunning in it.
+A10.0003 [Otoha] | Now, here's a little riddle for you.
+A10.0004 [Otoha] | Was that really me, or actually one of my clones?
+A10.0005 [Tú] | Is this some kind of test?
+A10.0006 [Tú] | I can barely tell you two apart when you're standing right in front of me, let alone in a still picture...
+A10.0007 [Otoha] | Fair point.
+A10.0008 [Tú] | What brought on such a strange question?
+A10.0009 [Otoha] | Listening to that Disc just stirred up some old memories.
+A10.0010 [Otoha] | Unpleasant ones, unfortunately.
+A10.0011 [Otoha] | I find myself wondering... Was it really me standing among those flowers that night?
+A10.0012 [Otoha] | When memories start to blur, you lose track of even yourself.
+A10.0013 [Otoha] | Ah, sorry. I didn't mean to ramble.
+A10.0014 [Tú] | It's fine... I just wish I had some way to actually help.
+A10.0015 [Otoha] | Just listening is help enough.
+A10.0016 [Otoha] | It's getting late. Go get some rest.

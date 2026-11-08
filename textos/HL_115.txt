@@ -1,0 +1,220 @@
+# Heartlink de Firefly: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Firefly] | I have you on my phone!
+A01.0002 [Firefly] | next time
+A01.0003 [Firefly] | go out and play
+A01.0004 [Tú] | Even the way you text feels very Firefly-like~
+A01.0005 [Firefly] | me like?
+A01.0006 [Firefly] | do not understand
+A01.0007 [Firefly] | next off day
+A01.0008 [Firefly] | go play in the forest!
+A01.0009 [Opción] | Sure, sure~
+A01.0010 [Opción] | Why the forest?
+A01.0011 [Firefly] | want to go to the river
+A01.0012 [Firefly] | there are fish that jump up and fly!
+A01.0013 [Firefly] | because the river
+A01.0014 [Firefly] | have fish that can fly!
+A01.0015 [Tú] | Really?
+A01.0016 [Firefly] | really!
+A01.0017 [Firefly] | so, we go!
+A01.0018 [Firefly] | promise
+
+## Conversación A02
+A02.0001 [Firefly] | Tyrant
+A02.0002 [Firefly] | inside the monolith
+A02.0003 [Firefly] | I found this!
+A02.0004 [Opción] | You went to the Monolith again?
+A02.0005 [Opción] | What's this?
+A02.0006 [Firefly] | yes yes
+A02.0007 [Firefly] | sherlock is there too
+A02.0008 [Firefly] | I like!
+A02.0009 [Firefly] | sherlock penguin plushie
+A02.0010 [Firefly] | is tiny
+A02.0011 [Firefly] | I like!
+A02.0012 [Tú] | You really do like Sherlock.
+A02.0013 [Firefly] | sherlock plays with me
+A02.0014 [Firefly] | sherlock is nice!
+A02.0015 [Tú] | That Sherlock? Plays with people?
+A02.0016 [Firefly] | yeah!
+A02.0017 [Firefly] | next time!
+A02.0018 [Firefly] | I take you!
+
+## Conversación A03
+A03.0001 [Firefly] | Tyrant
+A03.0002 [Firefly] | I want to tell you something
+A03.0003 [Tú] | What is it?
+A03.0004 [Firefly] | my stray hair
+A03.0005 [Firefly] | has magic
+A03.0006 [Tú] | Magic?
+A03.0007 [Firefly] | if you mess with it
+A03.0008 [Firefly] | witch will curse you
+A03.0009 [Firefly] | into
+A03.0010 [Firefly] | a little stone
+A03.0011 [Opción] | Huh???
+A03.0012 [Opción] | Are you joking?
+A03.0013 [Firefly] | I'm serious
+A03.0014 [Firefly] | so no mess with my stray hair
+A03.0015 [Firefly] | very dangerous
+A03.0016 [Firefly] | nope
+A03.0017 [Firefly] | professor also knows
+A03.0018 [Firefly] | you can ask her
+A03.0019 [Tú] | I see...
+A03.0020 [Firefly] | ...
+A03.0021 [Firefly] | just kidding
+A03.0022 [Firefly] | since it's you
+A03.0023 [Firefly] | you can touch it
+
+## Conversación A04
+A04.0001 [Firefly] | Tyrant
+A04.0002 [Firefly] | just now a witch riding a broom
+A04.0003 [Firefly] | told me a secret
+A04.0004 [Tú] | What is it?
+A04.0005 [Firefly] | well
+A04.0006 [Firefly] | if a can of pep pep juice is left on the table
+A04.0007 [Firefly] | you need to make sure the word "pep" is facing the front
+A04.0008 [Firefly] | only then can you seal it
+A04.0009 [Firefly] | if not
+A04.0010 [Firefly] | the juice will run away by itself in the middle of the night
+A04.0011 [Opción] | ... Who told you that?
+A04.0012 [Opción] | Uh...
+A04.0013 [Firefly] | hmm
+A04.0014 [Firefly] | someone in purple
+A04.0015 [Firefly] | her name
+A04.0016 [Firefly] | can't remember
+A04.0017 [Tú] | It's alright. If you just finish drinking it, it will not run away
+A04.0018 [Firefly] | really!?
+A04.0019 [Firefly] | but if I drink it, it will be gone
+A04.0020 [Firefly] | seal it is better
+
+## Conversación A05
+A05.0001 [Opción] | What happened?
+A05.0002 [Firefly] | want to go play
+A05.0003 [Firefly] | don't want to study
+A05.0004 [Firefly] | don't like grown-ups
+A05.0005 [Tú] | Haha, Firefly, you're still just a kid after all
+A05.0006 [Firefly] | not a kid
+A05.0007 [Firefly] | don't like Tyrant
+A05.0008 [Tú] | Eh???
+A05.0009 [Firefly] | come with me to monolith
+A05.0010 [Firefly] | then I forgive you
+A05.0011 [Tú] | Exactly what I expected~
+A05.0012 [Tú] | But you have class today, so let's wait until the next day off.
+A05.0013 [Tú] | I'll bring you some tasty little cakes.
+A05.0014 [Firefly] | really?
+A05.0015 [Firefly] | don't lie
+A05.0016 [Firefly] | liars' pants get on fire!
+
+## Conversación A06
+A06.0001 [Firefly] | Tyrant
+A06.0002 [Firefly] | choose
+A06.0003 [Firefly] | left or right
+A06.0004 [Tú] | Huh?????
+A06.0005 [Firefly] | hurry!
+A06.0006 [Firefly] | Tyrant choose!
+A06.0007 [Opción] | Uh... Left?
+A06.0008 [Opción] | Uh... Right?
+A06.0009 [Firefly] | I knew it
+A06.0010 [Firefly] | the one on the left is bigger, so it feels better to hug
+A06.0011 [Firefly] | I decided!
+A06.0012 [Firefly] | I'm going to grab that big penguin plush!
+A06.0013 [Firefly] | hmm
+A06.0014 [Firefly] | the one on the right is smaller and cuter
+A06.0015 [Firefly] | I can carry it around with me
+A06.0016 [Firefly] | I decided!
+A06.0017 [Firefly] | I'm going to grab that little penguin charm!
+A06.0018 [Firefly] | thank you, Tyrant!
+
+## Conversación A07
+A07.0001 [Firefly] | Tyrant Tyrant Tyrant
+A07.0002 [Tú] | ???
+A07.0003 [Tú] | What is it?
+A07.0004 [Firefly] | went into the monolith
+A07.0005 [Firefly] | brought back a present for you
+A07.0006 [Tú] | Wow, for me??
+A07.0007 [Firefly] | but you have to guess what I brought
+A07.0008 [Firefly] | and only if you guess right, will I give it to you!
+A07.0009 [Tú] | Eh!!!
+A07.0010 [Tú] | Lemme guess
+A07.0011 [Opción] | Is it a Sherlock Penguin Plushie?
+A07.0012 [Opción] | Is it a bottle of Pep Pep Juice?
+A07.0013 [Opción] | Don't tell me it's a piece of Stellaroid wreckage...?
+A07.0014 [Firefly] | nope!
+A07.0015 [Firefly] | Tyrant guessed wrong!
+A07.0016 [Firefly] | pep juice?
+A07.0017 [Firefly] | never seen it.
+A07.0018 [Firefly] | Tyrant guessed wrong!
+A07.0019 [Firefly] | hmm
+A07.0020 [Firefly] | wanted to.
+A07.0021 [Firefly] | but too big to carry!
+A07.0022 [Tú] | Oh...
+A07.0023 [Tú] | So... I lost my present already?
+A07.0024 [Firefly] | Tyrant don't cry
+A07.0025 [Firefly] | I almost there
+A07.0026 [Firefly] | Tyrant's present, delivered right to your door!
+A07.0027 [Tú] | Wha-what!?
+A07.0028 [Firefly] | Tyrant!
+A07.0029 [Firefly] | open the window!
+
+## Conversación A08
+A08.0001 [Firefly] | Tyrant
+A08.0002 [Firefly] | I want to tell you something.
+A08.0003 [Opción] | What's up?
+A08.0004 [Opción] | I want to tell you something, too
+A08.0005 [Firefly] | today!
+A08.0006 [Firefly] | is my birthday!
+A08.0007 [Firefly] | do you want
+A08.0008 [Firefly] | eat birthday cake with me?
+A08.0009 [Tú] | Of course I do!
+A08.0010 [Tú] | I got you a present, too!
+A08.0011 [Firefly] | ?
+A08.0012 [Firefly] | Tyrant go first!
+A08.0013 [Tú] | It is your birthday today, so I prepared a present for you~
+A08.0014 [Firefly] | present!
+A08.0015 [Firefly] | you know when my birthday is?
+A08.0016 [Tú] | Mm, I heard it from Canace.
+A08.0017 [Firefly] | Firefly, happy!
+A08.0018 [Firefly] | thank you, Tyrant!
+
+## Conversación A09
+A09.0001 [Firefly] | you are so right, Tyrant!
+A09.0002 [Tú] | ???
+A09.0003 [Firefly] | playing with people
+A09.0004 [Firefly] | very happy
+A09.0005 [Opción] | What do you mean?
+A09.0006 [Opción] | You mean ... the team training from last time?
+A09.0007 [Firefly] | last time!
+A09.0008 [Firefly] | the game we played at the training grounds!
+A09.0009 [Firefly] | my job was to grab people and fly!
+A09.0010 [Firefly] | very fun
+A09.0011 [Firefly] | yeah!
+A09.0012 [Firefly] | today
+A09.0013 [Firefly] | I played with somebody again!
+A09.0014 [Firefly] | we flew together
+A09.0015 [Firefly] | so much fun!
+A09.0016 [Tú] | Hahaha, really? Who were you training with this time?
+A09.0017 [Firefly] | who?
+A09.0018 [Firefly] | don't know!
+A09.0019 [Firefly] | I grabbed someone at the training grounds!
+A09.0020 [Tú] | Huh???
+A09.0021 [Firefly] | so happy!
+
+## Conversación A10
+A10.0001 [Firefly] | I
+A10.0002 [Firefly] | don't like this
+A10.0003 [Opción] | This Disc?
+A10.0004 [Opción] | What's wrong?
+A10.0005 [Firefly] | don't like
+A10.0006 [Firefly] | this music, nice
+A10.0007 [Firefly] | but it makes my heart feel heavy
+A10.0008 [Firefly] | This disc
+A10.0009 [Firefly] | plays really good music
+A10.0010 [Firefly] | but hearing it makes me sad
+A10.0011 [Tú] | The music is beautiful, but it makes you unhappy?
+A10.0012 [Firefly] | when I am listening, happy
+A10.0013 [Firefly] | after I finish listening, sad
+A10.0014 [Firefly] | don't like this feeling
+A10.0015 [Tú] | That does sound complicated. Maybe you can just skip it.

@@ -437,6 +437,7 @@ body.bgm-on .screen{padding-bottom:84px}
     <button type="button" id="nbell" class="nbell" data-nav="news" aria-label="Novedades" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><span class="ndot" hidden></span></button>
   </header>
   <button type="button" id="stbar" class="stbar"><span class="sb-i"><svg viewBox="0 0 24 24" width="20" height="20" fill="#ffd76a" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span><span><b>Contador de stamina</b><small>Toca para configurarlo</small></span><span class="sb-a">›</span></button>
+  <button type="button" id="hlbar" class="stbar hlbar"><span class="sb-i"><svg viewBox="0 0 24 24" width="20" height="20" fill="#9ec3ff" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"><path d="M4 4h16v12H9l-5 4z"/></svg></span><span><b>Heartlink</b><small>Las conversaciones del teléfono del juego</small></span><span class="sb-a">›</span></button>
   <button type="button" id="betafb" class="betafb" hidden>✦ Versión beta · Cuéntanos qué te parece <span>›</span></button>
   <div id="ticker" class="tick" data-nav="news" role="button" tabindex="0" hidden><span class="tk-l">NUEVO</span><span class="tk-t" id="tk-t"></span><span class="tk-a">›</span></div>
   <div class="hm-wrap">
@@ -594,6 +595,11 @@ body.bgm-on .screen{padding-bottom:84px}
   <main><div id="teams-root"></div></main>
 </div>
 
+<div id="s-heartlink" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Heartlink</h2></div>
+  <main><div id="hl-root"></div></main>
+</div>
+
 <div id="s-stamina" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Stamina</h2></div>
   <main><div id="stamina-root"></div></main>
@@ -641,6 +647,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="teams.js"></script>
 <script src="cumples.js"></script>
 <script src="stamina.js"></script>
+<script src="heartlink.js"></script>
 <script src="sonidos.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
@@ -652,7 +659,7 @@ const estr=(n,h)=>(n>=3&&n<=5)?`<img class="stars" src="${ESTR_URL}${n}star.png"
 const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 try{localStorage.removeItem("ss_favs")}catch(e){}
-const PARENT={stamina:"",teams:"",about:"",news:"",builds:"teams",build:"builds",chars:"",cumples:"chars",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
+const PARENT={stamina:"",heartlink:"",teams:"",about:"",news:"",builds:"teams",build:"builds",chars:"",cumples:"chars",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
 function nav(h){if(location.hash==="#"+h)return;navFlag=true;depth++;location.hash=h}
 function goBack(){if(depth>0){depth--;history.back();return}
   const p=cur==="detail"?backTo:(PARENT[cur]||"");location.replace("#"+p);}
@@ -688,6 +695,7 @@ function go(id){cur=id;document.body.classList.remove("home");
   if(id==="news"&&window.nvSeen)window.nvSeen();
   if(id==="teams"&&window.teamsShow)window.teamsShow();
   if(id==="stamina"&&window.staminaShow)window.staminaShow();
+  if(id==="heartlink"&&window.hlShow)window.hlShow();
   if(id==="cumples"&&window.cumplesShow)window.cumplesShow();
   if(id==="builds"&&window.communityShow)window.communityShow();
 }

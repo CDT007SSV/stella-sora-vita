@@ -1,0 +1,295 @@
+# Heartlink de Amber: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Amber] | Ta-da!
+A01.0002 [Amber] | Let me know if you have any questions!
+A01.0003 [Opción] | Typing, is hard.
+A01.0004 [Opción] | NP. It's like coming home
+A01.0005 [Opción] | *&......%$#2
+A01.0006 [Amber] | You don't need to type out all the punctuations!
+A01.0007 [Amber] | It's easy. I'll teach you next time
+A01.0008 [Amber] | Looks like muscle memory is alive and well
+A01.0009 [Amber] | Cellphones are very useful in Nova. Makes life a lot easier
+A01.0010 [Amber] | Don't just press any random key! You'll break it!
+A01.0011 [Tú] | Sorry. That was an accident
+A01.0012 [Amber] | Really?
+A01.0013 [Amber] | Cellphones aren't exactly cheap. You need to take good care of it
+
+## Conversación A02
+A02.0001 [Amber] | Hey, ==PLAYER_NAME==, know any quick ways to make a Dorra or two?
+A02.0002 [Tú] | You want to make money?
+A02.0003 [Amber] | Yeah
+A02.0004 [Amber] | Because I saw Iris going over our ledger. She looked like she was about to cry
+A02.0005 [Amber] | Noya's pudding budget also got axed for the month
+A02.0006 [Amber] | Both of them looked so sad
+A02.0007 [Amber] | Maybe the guild really is in trouble.
+A02.0008 [Amber] | I'm thinking maybe I should sell my phone
+A02.0009 [Tú] | Don't worry, I went over those books
+A02.0010 [Tú] | Noya bought two servings of pudding last month
+A02.0011 [Tú] | And ate Iris'...
+A02.0012 [Amber] | Huh?
+A02.0013 [Tú] | They were sad because of the pudding
+A02.0014 [Amber] | ...
+
+## Conversación A03
+A03.0001 [Amber] | I went into the woods to observe Shrubshews today
+A03.0002 [Tú] | Got any good pics?
+A03.0003 [Amber] | Yeah
+A03.0004 [Amber] | Their sumo competitions are so interesting
+A03.0005 [Amber] | They will even do this thing where three of them team up to make a giant Shrubshews
+A03.0006 [Amber] | That way they can win the competition easy-peasy
+A03.0007 [Amber] | ==PLAYER_NAME==, which kind of Shrubshew do you like most?
+A03.0008 [Amber] | When they are annoyed? When they're all chubby? Or when they camouflage themselves as tree stumps?
+A03.0009 [Opción] | The tree stumps look really natural
+A03.0010 [Opción] | Uh... The chubby ones, I guess.
+A03.0011 [Opción] | They are cute when they're annoyed!
+A03.0012 [Amber] | As expected, you've got good taste
+A03.0013 [Amber] | These are the pics I took today. So many cute ones...
+A03.0014 [Amber] | Really? I like the chubby ones the most, too!
+A03.0015 [Amber] | These are some of the pics I picked out. You'll definitely like them
+A03.0016 [Amber] | Wow, Boss.
+
+## Conversación A04
+A04.0001 [Amber] | ==PLAYER_NAME==, I just remembered, tomorrow is Stellaring Butterfly day
+A04.0002 [Opción] | Nice name
+A04.0003 [Opción] | So?
+A04.0004 [Opción] | I know. it's a holiday
+A04.0005 [Amber] | Yeah, they are golden in color. Real pretty
+A04.0006 [Amber] | Do you know why it's called that?
+A04.0007 [Amber] | Nope
+A04.0008 [Amber] | You see Stellaring Butterflies everywhere in early summer
+A04.0009 [Amber] | On this day, they will break out of their cocoons together in the flower fields
+A04.0010 [Amber] | Every year, right on the clock. That's why the day is named after them
+A04.0011 [Amber] | It's gonna be so pretty!
+A04.0012 [Amber] | So, ==PLAYER_NAME==, I was thinking...
+A04.0013 [Tú] | You wanna go see the butterflies?
+A04.0014 [Amber] | Yeah
+A04.0015 [Tú] | Sure thing! We can take a detour on the way to the Monolith
+A04.0016 [Amber] | Really?
+A04.0017 [Tú] | Since you mentioned it...
+A04.0018 [Tú] | Iris and Noya wouldn't miss it for the world
+A04.0019 [Amber] | Thanks, ==PLAYER_NAME==!
+
+## Conversación A05
+A05.0001 [Tú] | By the way, there's something I've always wanted to ask...
+A05.0002 [Amber] | ?
+A05.0003 [Tú] | How do you make your "tail," that black strap of you, as flexible as limbs?
+A05.0004 [Amber] | ...
+A05.0005 [Amber] | it's not hard
+A05.0006 [Amber] | With a bit of magic and consistent training, you'd be able to do it without breaking a sweat too, ==PLAYER_NAME==
+A05.0007 [Tú] | (No, I don't think so...)
+
+## Conversación A06
+A06.0001 [Amber] | Boss, have you ever had Teddy Bear Ice Lemon Tea?
+A06.0002 [Opción] | Never heard of it
+A06.0003 [Opción] | Yeah. What about it?
+A06.0004 [Opción] | You mean the trendy new drink...
+A06.0005 [Tú] | You mean the trendy new drink?
+A06.0006 [Amber] | From the name, you'd think it's related to teddy bears
+A06.0007 [Amber] | I spent 1,000 Dorra to get one...
+A06.0008 [Amber] | Then I realized that they just had bear-shaped ice cubes in the drink
+A06.0009 [Opción] | It's like taking candy from a baby
+A06.0010 [Opción] | These days a lot of businesses like to use weird gimmicks
+A06.0011 [Opción] | it's a drink. Just what kind of teddy bear were you expecting?
+A06.0012 [Amber] | Bears are fuzzy, right?
+A06.0013 [Amber] | I thought maybe the drink would taste fuzzy, too
+A06.0014 [Amber] | But no. Nothing like that
+A06.0015 [Amber] | And it was full of ice
+A06.0016 [Amber] | Can I report them to the Imperial Guard for false advertising?
+A06.0017 [Tú] | They might not care
+A06.0018 [Amber] | Fine...
+
+## Conversación A07
+A07.0001 [Amber] | ==PLAYER_NAME==, I figured it out
+A07.0002 [Opción] | ?
+A07.0003 [Opción] | What do you mean?
+A07.0004 [Opción] | What?! How?
+A07.0005 [Amber] | Not that I know what you're talking about...
+A07.0006 [Amber] | But...
+A07.0007 [Amber] | I figured out how to stop being so shy
+A07.0008 [Tú] | All you need is building a little self-confidence—
+A07.0009 [Amber] | All I need to do is meow 100 times a day
+A07.0010 [Tú] | ...
+A07.0011 [Amber] | I bumped into a girl on the street yesterday
+A07.0012 [Amber] | She said if I follow her method, I can speak with confidence
+A07.0013 [Amber] | Basically, I just need to have good conversations 100 times a day to someone I'm comfortable with
+A07.0014 [Opción] | Okay, I'm ready
+A07.0015 [Opción] | Why the meows?
+A07.0016 [Opción] | Don't force it. Just follow your heart
+A07.0017 [Amber] | Meow!
+A07.0018 [Amber] | Meow! Meow meow!
+A07.0019 [Tú] | Oh, so you're typing it?
+A07.0020 [Amber] | Hmm...
+A07.0021 [Amber] | Because I'm good at it. Meow~
+A07.0022 [Amber] | And you seem to like it, ==PLAYER_NAME==
+A07.0023 [Amber] | Hmm, is that so?
+A07.0024 [Amber] | Alright, ==PLAYER_NAME==. Since you say so...
+A07.0025 [Amber] | I'll keep it the way it is now!
+
+## Conversación A08
+A08.0001 [Tú] | Happy birthday to you~
+A08.0002 [Tú] | Happy birthday to you~
+A08.0003 [Amber] | ==PLAYER_NAME==, what are you...?
+A08.0004 [Tú] | Celebrating your birthday!
+A08.0005 [Amber] | Yeah, I know.
+A08.0006 [Amber] | ==PLAYER_NAME==, before you showed up, every year on this day...
+A08.0007 [Amber] | Noya and Iris celebrated with me
+A08.0008 [Amber] | We would sing together and buy something tasty to eat.
+A08.0009 [Amber] | But it never made too much sense to me.
+A08.0010 [Amber] | Why is the day a person is born special?
+A08.0011 [Amber] | How is it different from the other days?
+A08.0012 [Tú] | To each their own, but...
+A08.0013 [Tú] | To me, the reason this day is special is because...
+A08.0014 [Tú] | You are very important to me.
+A08.0015 [Amber] | Ah... I get it now.
+A08.0016 [Amber] | Then next time, when it's your birthday, I want to celebrate it with you too, ==PLAYER_NAME==.
+A08.0017 [Amber] | I'll sing the birthday song for you.
+A08.0018 [Tú] | Looking forward to it.
+
+## Conversación A09
+A09.0001 [Amber] | Ever since you joined us, I feel like the fights are getting easier and easier
+A09.0002 [Opción] | It's because you all have worked very hard
+A09.0003 [Opción] | Strategy really helps!
+A09.0004 [Opción] | Hah! That's my wits at work!
+A09.0005 [Amber] | Really?
+A09.0006 [Amber] | But it's really only since ==PLAYER_NAME== joined us
+A09.0007 [Tú] | Maybe I'm your lucky star, so to speak
+A09.0008 [Amber] | It's true. You're a great strategist, ==PLAYER_NAME==
+A09.0009 [Amber] | Not sure if it's just my mind playing tricks on me, but I feel like I am lighter and faster than before
+A09.0010 [Tú] | That's what happens when you relax
+A09.0011 [Tú] | Don't worry about it. Just be yourselves
+A09.0012 [Amber] | That's amazing!
+A09.0013 [Amber] | So where are we heading next, my Lord Tyrant?
+A09.0014 [Tú] | To the next Monolith, of course
+A09.0015 [Amber] | Yup, I get it
+A09.0016 [Amber] | I'll work even harder from now on!
+
+## Conversación A10
+A10.0001 [Tú] | Did you receive the Runic Disc I sent just now?
+A10.0002 [Tú] | Something tells me it's special
+A10.0003 [Amber] | This music makes me nostalgic...
+A10.0004 [Opción] | I'll give it to you, then
+A10.0005 [Opción] | If you like it, take it
+A10.0006 [Opción] | The Disc will call to its owner
+A10.0007 [Amber] | ...
+A10.0008 [Amber] | That may be so, but...
+A10.0009 [Amber] | Are you sure you want to give it to me?
+A10.0010 [Tú] | I believe in you
+A10.0011 [Amber] | Okay
+A10.0012 [Amber] | I won't let you down, ==PLAYER_NAME==!
+
+## Conversación B01
+B01.0001 [Amber] | ==PLAYER_NAME==, have you seen Inky lately?
+B01.0002 [Opción] | Nope.
+B01.0003 [Opción] | Saw her near the pond last night.
+B01.0004 [Amber] | Haven't seen her for more than two days now
+B01.0005 [Amber] | Maybe she found something fun to do somewhere
+B01.0006 [Tú] | Probably out on a hunt
+B01.0007 [Amber] | Does hunting really take that long?
+B01.0008 [Amber] | Don't tell me she starved to death...
+B01.0009 [Tú] | Relax! She always catches her own food, right?
+B01.0010 [Tú] | She's not going to starve just after a couple of days.
+B01.0011 [Amber] | True that
+B01.0012 [Amber] | Maybe she'll be back tomorrow
+B01.0013 [Amber] | I'll wait a bit longer
+B01.0014 [Tú] | Yeah!
+B01.0015 [Tú] | Saw her near the pond last night
+B01.0016 [Tú] | It looked like she was going after the fish
+B01.0017 [Amber] | Oh, so Inky's gone fishing
+B01.0018 [Amber] | I am thinking maybe we should buy some cat food for her
+B01.0019 [Amber] | The stuff at the pet shop looks really tasty.
+B01.0020 [Tú] | It might look tasty to you, but what about to Inky
+B01.0021 [Tú] | What if we buy it and she doesn't like it
+B01.0022 [Amber] | Then I'll eat it
+B01.0023 [Tú] | People can't eat cat food
+B01.0024 [Amber] | But it really does look delicious
+B01.0025 [Tú] | Is this really for Inky or just for you...
+B01.0026 [Amber] | For me
+
+## Conversación B02
+B02.0001 [Amber] | ==PLAYER_NAME==, do you know anything about gunfighting?
+B02.0002 [Opción] | A bit, yeah
+B02.0003 [Opción] | No. What's that?
+B02.0004 [Tú] | It's some kind of close-quarters combat, but using guns, right?
+B02.0005 [Amber] | Yeah
+B02.0006 [Amber] | That's the one
+B02.0007 [Amber] | I saw it the other day in a Stella Drama
+B02.0008 [Amber] | A kind of close-quarters combat using guns
+B02.0009 [Amber] | Saw it the other day in a Stella Drama
+B02.0010 [Amber] | I've been practicing it lately
+B02.0011 [Amber] | But making bullets curve is way too hard
+B02.0012 [Tú] | I'm not sure which drama you watched, Amber
+B02.0013 [Tú] | But no way, bullets can't curve
+B02.0014 [Amber] | They said it is useful in close combat
+B02.0015 [Amber] | If I master it, I can hit enemies hiding behind walls
+B02.0016 [Tú] | I wouldn't count on it...
+
+## Conversación B03
+B03.0001 [Amber] | She sells seashells by the seashore
+B03.0002 [Amber] | How much wood would a woodchuck chuck
+B03.0003 [Amber] | If a woodchuck could chuck wood?
+B03.0004 [Tú] | Tongue-twisters?
+B03.0005 [Amber] | Yup
+B03.0006 [Amber] | There's a speed-typing competition coming up
+B03.0007 [Amber] | I want to enter
+B03.0008 [Tú] | So you're practicing, huh
+B03.0009 [Tú] | You type so fast
+B03.0010 [Tú] | I'm sure you'll win!
+B03.0011 [Amber] | Thx
+B03.0012 [Amber] | Are you interested in entering, Boss?
+B03.0013 [Amber] | But your phone is really big...
+B03.0014 [Tú] | You have to use your own phone in the competition?
+B03.0015 [Amber] | Yeah
+B03.0016 [Tú] | Doesn't that mean people with smaller phones have the advantage?
+B03.0017 [Amber] | No worries
+B03.0018 [Amber] | I can lend you mine
+B03.0019 [Tú] | Sounds perfect!
+B03.0020 [Tú] | Let's enter together then!
+
+## Conversación B04
+B04.0001 [Amber] | The sky is super clear today
+B04.0002 [Tú] | Yeah!
+B04.0003 [Amber] | Boss, are you coming to sleep on Loxy's roof tonight?
+B04.0004 [Tú] | The roof?
+B04.0005 [Amber] | Yeah!
+B04.0006 [Amber] | The stars will look amazing tonight
+B04.0007 [Amber] | Wanna do some stargazing with me?
+B04.0008 [Tú] | Won't we get cold?
+B04.0009 [Amber] | Nope, I have extra blankets
+B04.0010 [Tú] | See you on the roof tonight, then!
+
+## Conversación B05
+B05.0001 [Opción] | What's up?
+B05.0002 [Opción] | Cute
+B05.0003 [Amber] | Right?
+B05.0004 [Amber] | I thought this emoji was super cute all the sudden
+B05.0005 [Amber] | So I wanted to show it to you
+B05.0006 [Amber] | When Inky came back the last time, he also had a flower on him
+B05.0007 [Amber] | Just like this one
+B05.0008 [Opción] | Seriously?
+B05.0009 [Opción] | Maybe when Inky was busy squeezing through the bushes
+B05.0010 [Amber] | Really
+B05.0011 [Amber] | The flower happened to land right on his head
+B05.0012 [Tú] | You got a pic? I wanna see
+B05.0013 [Tú] | it landed right on his head by pure chance
+B05.0014 [Amber] | Yeah, that makes sense
+B05.0015 [Amber] | I was about to take a photo
+B05.0016 [Amber] | But the flower fell off
+B05.0017 [Tú] | What a pity!
+
+## Conversación B06
+B06.0001 [Amber] | Boss, do you want to get a pet?
+B06.0002 [Opción] | Yeah
+B06.0003 [Opción] | Nope
+B06.0004 [Amber] | I can be your pet
+B06.0005 [Amber] | But I wanna be your pet, Boss
+B06.0006 [Tú] | ???
+B06.0007 [Amber] | Because if I am
+B06.0008 [Amber] | Someone will play with me every day
+B06.0009 [Amber] | and feed me
+B06.0010 [Amber] | and I wouldn't have to work
+B06.0011 [Tú] | Stop, stop
+B06.0012 [Tú] | I wanna be Amber's pet too

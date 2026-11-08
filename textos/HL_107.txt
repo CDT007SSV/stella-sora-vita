@@ -1,0 +1,284 @@
+# Heartlink de Tilia: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Tilia] | Hihihi!
+A01.0002 [Tilia] | Newbie squire Tilia, Defender of Justice!
+A01.0003 [Tilia] | At your service!
+A01.0004 [Tú] | Spunky, aren't you?
+A01.0005 [Tilia] | Of course.
+A01.0006 [Tilia] | Red is the color of passion and bravery!
+A01.0007 [Opción] | Isn't your designated color yellow?
+A01.0008 [Opción] | Red?
+A01.0009 [Tilia] | No, I'm talking about the color of the heart!
+A01.0010 [Tilia] | Yes, red like the color of one's heart!
+A01.0011 [Tilia] | Gotta go patrol now. Catch you later!
+
+## Conversación A02
+A02.0001 [Tilia] | Sorry... I can't come over today...
+A02.0002 [Tilia] | Not just today... In fact, from now on...
+A02.0003 [Opción] | ??? What happened?
+A02.0004 [Opción] | TI-LI-A!
+A02.0005 [Tilia] | Sob...
+A02.0006 [Tilia] | No need to exaggerate this much... You are too cooperative.
+A02.0007 [Tilia] | My leg's injured... And I smell.
+A02.0008 [Tilia] | You won't mind, ==PLAYER_NAME==, will you?
+A02.0009 [Tú] | Is it serious?
+A02.0010 [Tilia] | No, just a leg ligament sprain...
+A02.0011 [Tilia] | It's just that...the doctor said I'll need a week off to rest.
+A02.0012 [Tilia] | Which means no perfect attendance bonus this month for me.
+A02.0013 [Tú] | So what happened, exactly?
+A02.0014 [Tilia] | While patrolling Little Lantern Street today, I saw a poster for the Round Table Squad.
+A02.0015 [Tilia] | I got a little too caught up staring at it and accidentally drove the Lapis Eagle into the bushes.
+A02.0016 [Tilia] | Then... I fell into a trash can.
+A02.0017 [Tú] | ...
+A02.0018 [Tilia] | You said you didn't mind, ==PLAYER_NAME==!
+A02.0019 [Tú] | Next time, be careful when you drive. Don't look around so much
+
+## Conversación A03
+A03.0001 [Tilia] | During my recent patrols...
+A03.0002 [Tilia] | I noticed something...
+A03.0003 [Tú] | Huh?
+A03.0004 [Tilia] | The Lapis Eagle is too slow.
+A03.0005 [Tilia] | Sometimes it can't even keep up with a casual skater.
+A03.0006 [Opción] | Maybe its top speed is capped?
+A03.0007 [Opción] | But as they say, Routes are countless, Safety is foremost
+A03.0008 [Tilia] | No! The Lapis Eagle has a soul of its own!
+A03.0009 [Tilia] | But if I'm too slow...
+A03.0010 [Tilia] | I won't be able to catch crime offenders.
+A03.0011 [Tilia] | I guess I'll have to modify the Lapis Eagle after all.
+A03.0012 [Tilia] | But it's against the Imperial Guards' rules.
+A03.0013 [Tilia] | If I follow the rules, I won't be able to uphold justice.
+A03.0014 [Tilia] | But if I break the rules, then I'm turning back on justice itself...
+A03.0015 [Tilia] | What a dilemma.
+A03.0016 [Tú] | As long as it looks cool, right?
+A03.0017 [Tilia] | Looks cool...!
+A03.0018 [Tilia] | Yeah, that's right!
+A03.0019 [Tilia] | I get it now!
+A03.0020 [Tilia] | Thanks, ==PLAYER_NAME==!
+
+## Conversación A04
+A04.0001 [Tilia] | I went to a Masked Knight fan meetup the other day...
+A04.0002 [Tú] | You met up with other fans?
+A04.0003 [Tilia] | Yup.
+A04.0004 [Tú] | But you don't look too happy about it.
+A04.0005 [Tilia] | Well...they all thought I was a security guard, not one of the fans.
+A04.0006 [Tú] | Wait, what were you wearing?
+A04.0007 [Tú] | Let me guess...
+A04.0008 [Tilia] | Imperial Guard standard-issue armor, of course.
+A04.0009 [Tilia] | And I had the helmet on too.
+A04.0010 [Tú] | I knew it. No wonder they were confused.
+A04.0011 [Tilia] | (Crying face) With the helmet on, I was totally masked!
+A04.0012 [Tilia] | I looked exactly like a masked knight!
+
+## Conversación A05
+A05.0001 [Tilia] | Boss, I have something I want to ask you!
+A05.0002 [Tú] | ?
+A05.0003 [Tilia] | I want to hang out with somebody...
+A05.0004 [Tilia] | No... I mean patrol with somebody...
+A05.0005 [Tilia] | But Noya went off to train.
+A05.0006 [Tilia] | Iris needed to study for her exam.
+A05.0007 [Tilia] | And I haven't seen Amber since this morning.
+A05.0008 [Tilia] | Kaydoke doesn't have the time, either...
+A05.0009 [Tilia] | So ==PLAYER_NAME==, you are my last hope!
+A05.0010 [Tú] | I haven't got the time
+A05.0011 [Tilia] | You-you're busy, too?
+A05.0012 [Tú] | Yeah. I haven't finished playing the game I just bought
+A05.0013 [Tilia] | Don't just stay cooped up at home all the time. It's not good for your health.
+A05.0014 [Tilia] | It's so nice out. Let's take a walk.
+A05.0015 [Tú] | I've got nothing to say to people with actual lives
+A05.0016 [Tilia] | Please?
+A05.0017 [Tilia] | Pretty pretty pretty please?
+A05.0018 [Opción] | Fine, fine. I give up
+A05.0019 [Opción] | Okay, okay, I get it
+A05.0020 [Tilia] | Yaaay!
+A05.0021 [Tilia] | I knew it! You're the best!
+
+## Conversación A06
+A06.0001 [Tilia] | ==PLAYER_NAME==!
+A06.0002 [Tilia] | Wanna see the dragon with me?
+A06.0003 [Tú] | ...Dragon? Are you serious?
+A06.0004 [Tilia] | Of course!
+A06.0005 [Tú] | Where? In a cave? Or a castle?
+A06.0006 [Tilia] | Inside the Imperial Guard Museum of History.
+A06.0007 [Tú] | Oh, the one you mentioned before.
+A06.0008 [Tilia] | Yes.
+A06.0009 [Tilia] | It's normally closed off to the public.
+A06.0010 [Tilia] | But a Gold District school's students are coming here on a field trip.
+A06.0011 [Tilia] | Thus a rare opportunity presents itself.
+A06.0012 [Tilia] | I thought of you right away.
+A06.0013 [Tilia] | Aren't I a good friend? Come, come.
+A06.0014 [Tú] | ...Tilia
+A06.0015 [Tilia] | ??
+A06.0016 [Tú] | Be honest with me. You just want me to help you with watching the kids, isn't it?
+A06.0017 [Tilia] | ...!
+A06.0018 [Tilia] | You...you figured it out?
+A06.0019 [Tú] | Yes, I figured it out
+A06.0020 [Tilia] | Waaah... Please help me...
+
+## Conversación A07
+A07.0001 [Tilia] | Good morning.
+A07.0002 [Tú] | Morning. What have you been up to lately?
+A07.0003 [Tilia] | Arranging flowers, attending concerts, and having afternoon tea with friends.
+A07.0004 [Tú] | ?
+A07.0005 [Tilia] | ??
+A07.0006 [Opción] | Who are you?
+A07.0007 [Opción] | Did you lose your phone?
+A07.0008 [Tilia] | Ehh? Oh, it is ==PLAYER_NAME==! But why?
+A07.0009 [Tilia] | No...it's not like that...
+A07.0010 [Tilia] | I'm sorry. I thought you were one of my parents checking up on me
+A07.0011 [Tú] | They like you doing those thing?
+A07.0012 [Tilia] | No. I just didn't want them to worry about me.
+A07.0013 [Tilia] | Didn't want them to think I was still running around, getting into trouble.
+A07.0014 [Tú] | You were always like this eh?
+A07.0015 [Tilia] | Heheheh. I was a troublemaker.
+A07.0016 [Tilia] | Not much has changed actually. I still like the same things.
+A07.0017 [Tilia] | Maybe I just haven't grown up at all?
+A07.0018 [Tú] | I think it's different.
+A07.0019 [Tú] | You used to have a dream. Now you are on your way to realize that dream.
+A07.0020 [Tilia] | ...
+A07.0021 [Tilia] | Ah...
+A07.0022 [Tilia] | Well put... Thank you, ==PLAYER_NAME==.
+A07.0023 [Tilia] | All the sudden I'm very confidence.
+
+## Conversación A08
+A08.0001 [Tilia] | Today is a special day, ==PLAYER_NAME==!
+A08.0002 [Tú] | That's right. It's your birthday, isn't it?
+A08.0003 [Tilia] | It's Masked Knights annual day!
+A08.0004 [Tilia] | Huh?
+A08.0005 [Tú] | Hmm?
+A08.0006 [Tilia] | Oh... Right, I guess it's my birthday today...
+A08.0007 [Tú] | You didn't realize it?
+A08.0008 [Tilia] | I was so excited that I forgot.
+A08.0009 [Tilia] | Haha, I guess birthdays aren't really a big deal to me...
+A08.0010 [Tú] | Oh well...
+A08.0011 [Tú] | I've got the present and the cake. Came over when you're free
+A08.0012 [Tú] | Noya, Iris, and Amber are here, too
+A08.0013 [Tú] | We'll celebrate together
+A08.0014 [Tilia] | You went to all that trouble for me? I'm so touched...!
+A08.0015 [Tú] | We also got you a limited-edition Masked Knights merch
+A08.0016 [Tilia] | Sob...
+A08.0017 [Tilia] | I... I love you all so much!
+
+## Conversación A09
+A09.0001 [Tilia] | ==PLAYER_NAME==!
+A09.0002 [Tilia] | As I expected, my initial decision turned out to be the correct one.
+A09.0003 [Opción] | What initial decision?
+A09.0004 [Opción] | What do you mean?
+A09.0005 [Tilia] | At the very, very beginning. Did I say back then?
+A09.0006 [Tilia] | When we met. Back then, I thought...
+A09.0007 [Tilia] | One can't really uphold justice by being a lone wolf.
+A09.0008 [Tilia] | After fighting alongside you, I've become even more certain of this.
+A09.0009 [Tilia] | I've become unquestionably stronger.
+A09.0010 [Tilia] | And I'm one step closer to realizing my dream.
+A09.0011 [Tú] | That's thanks to having comrades like you.
+A09.0012 [Tilia] | I'll train even harder.
+A09.0013 [Tilia] | Let's grow stronger together!
+
+## Conversación A10
+A10.0001 [Tilia] | I got the Runic Disc you sent me last time.
+A10.0002 [Tú] | Did you listen to it? What do you think?
+A10.0003 [Tilia] | Hard to put into words.
+A10.0004 [Tú] | Did you like it or not?
+A10.0005 [Tilia] | I liked it, I guess... The thing is...
+A10.0006 [Tilia] | It wasn't what I expected.
+A10.0007 [Tilia] | I had...mixed feelings about it.
+A10.0008 [Tilia] | It made me think of some things from the past.
+A10.0009 [Tú] | It's rare to see your nostalgic side
+A10.0010 [Tilia] | What do you mean? I am capable of having delicate emotions, too.
+A10.0011 [Tú] | Did it make you sad?
+A10.0012 [Tilia] | Not so much sad...
+A10.0013 [Tilia] | I remembered the dream that I had. That hasn't changed.
+A10.0014 [Tilia] | I want to become the true knight, a hero who can protect everyone.
+A10.0015 [Tú] | Yes, I'm sure you can do it
+
+## Conversación B01
+B01.0001 [Tilia] | The Imperial Guard's vibes are all wrong
+B01.0002 [Tú] | So you noticed it?
+B01.0003 [Tilia] | A lot of people don't know anything about the old knight legends
+B01.0004 [Tilia] | Isn't that weird?
+B01.0005 [Tilia] | We have so many famous knights in history!
+B01.0006 [Tú] | That's true
+B01.0007 [Tú] | Guess people just aren't that excited about old stories anymore
+B01.0008 [Tilia] | What a shame
+B01.0009 [Tú] | But you could try recommending your favorite classic stories to colleagues around you
+B01.0010 [Tú] | Or newer stories in the same vein
+B01.0011 [Tilia] | Thanks
+B01.0012 [Tilia] | I know what to do now!
+
+## Conversación B02
+B02.0001 [Tilia] | Can I ask you something
+B02.0002 [Tilia] | What kind of hobbies do you have?
+B02.0003 [Tú] | That's pretty broad
+B02.0004 [Tilia] | So when I talk about the things I like...
+B02.0005 [Tilia] | What's your reaction?
+B02.0006 [Tilia] | Does it feel sudden or awkward?
+B02.0007 [Tú] | Not at all
+B02.0008 [Tú] | Honestly, by listening to people talk about their hobbies
+B02.0009 [Tú] | I may pick up a new one along the way
+B02.0010 [Tú] | That's actually a hobby of mine
+B02.0011 [Tilia] | That's a bit complex!
+B02.0012 [Tilia] | But now I feel relieved, haha
+
+## Conversación B03
+B03.0001 [Tilia] | The competition's coming up soon
+B03.0002 [Tilia] | Will you come cheer for me?
+B03.0003 [Tú] | What competition?
+B03.0004 [Tilia] | Weighted cross-country
+B03.0005 [Tú] | Haven't you already taken first place before?
+B03.0006 [Tú] | I always thought you had amazing stamina
+B03.0007 [Tú] | Do you have some kind of training routine?
+B03.0008 [Tilia] | Mostly just patrolling and working, I guess
+B03.0009 [Tilia] | Oh, right
+B03.0010 [Tilia] | In order to become a knight
+B03.0011 [Tilia] | I used to do a lot of special training!
+B03.0012 [Tilia] | Want me to teach you?
+B03.0013 [Tilia] | It's not too late to start!
+B03.0014 [Tú] | What kind of special training?
+B03.0015 [Tilia] | If I remember right, long-distance runs in full armor...
+B03.0016 [Tú] | Yeah, I think we know why you took first place
+
+## Conversación B04
+B04.0001 [Tilia] | Boss, the helmet I gave you
+B04.0002 [Tilia] | Do you still have it?
+B04.0003 [Tú] | Of course
+B04.0004 [Tilia] | Hehe, then are you free tomorrow?
+B04.0005 [Tú] | I guess, but
+B04.0006 [Tú] | Is there a connection between those two questions?
+B04.0007 [Tilia] | I'm gonna attend a Masked Knight tribute event
+B04.0008 [Tilia] | And I want to do a transformation performance on stage with you
+B04.0009 [Tilia] | Ta-da—Masked Knights duo entrance!
+B04.0010 [Tú] | I mean, I could...
+B04.0011 [Tú] | But I might not be very good at it
+B04.0012 [Tilia] | Then let's practice together!
+
+## Conversación B05
+B05.0001 [Tilia] | I really want to go to that place again
+B05.0002 [Tú] | You mean that wheat field?
+B05.0003 [Tilia] | Yes! I knew you'd get me
+B05.0004 [Tilia] | So, wanna go?
+B05.0005 [Tú] | Of course, let's go together
+B05.0006 [Tilia] | You're not even going to ask why?
+B05.0007 [Tú] | No need
+B05.0008 [Tú] | You just "happen to have the time," right? Same here
+B05.0009 [Tilia] | Hehe, you really get me
+B05.0010 [Tilia] | I'll bike over to pick you up!
+B05.0011 [Tú] | Ride safe
+
+## Conversación B06
+B06.0001 [Tilia] | I finally figured it out!
+B06.0002 [Tú] | What?
+B06.0003 [Tilia] | A way to stand guard in the blazing heat with a helmet on
+B06.0004 [Tilia] | Without passing out!
+B06.0005 [Tú] | Maybe it's better to just quit doing that...
+B06.0006 [Tilia] | I'm working on it, honest
+B06.0007 [Tilia] | But as a knight, I want to overcome my weaknesses
+B06.0008 [Tilia] | So recently
+B06.0009 [Tilia] | I went to a hot spring place!
+B06.0010 [Tú] | That's special training, too?
+B06.0011 [Tilia] | Exactly. At first I wanted to go in with my helmet on
+B06.0012 [Tilia] | But the staff wouldn't let me
+B06.0013 [Tilia] | So I just enjoyed the hot spring without my helmet
+B06.0014 [Tú] | See, it works just fine

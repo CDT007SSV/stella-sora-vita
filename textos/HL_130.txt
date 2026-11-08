@@ -1,0 +1,366 @@
+# Heartlink de Donna: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Donna] | Hello, I'm Donna from Post Haste! Nice to meet you!
+A01.0002 [Donna] | If you ever need a letter delivered, feel free to contact me anytime~
+A01.0003 [Donna] | Since it's you, I can even offer a discount~
+A01.0004 [Opción] | A special discount for a friend?
+A01.0005 [Opción] | This is starting to sound like a sales pitch...
+A01.0006 [Donna] | Yup! Five percent off!
+A01.0007 [Donna] | Not a bad deal, right?
+A01.0008 [Donna] | Hahah yeah, I've been told that a lot.
+A01.0009 [Donna] | But I only give discounts to friends, okay? Five percent off, just for you!
+A01.0010 [Donna] | Okay okay, I was just kidding~
+A01.0011 [Donna] | Very nice to meet you~
+A01.0012 [Donna] | Just don't actually block me! I'm not to do sales!
+
+## Conversación A02
+A02.0001 [Donna] | ==PLAYER_NAME==, Quick Quiz, off the top of your head!
+A02.0002 [Donna] | If you had to pick one: whale, dolphin, or shark?
+A02.0003 [Opción] | Whale?
+A02.0004 [Opción] | Dolphin, I think.
+A02.0005 [Opción] | ... Shark, I guess?
+A02.0006 [Donna] | Ahh, whale... That's the same one Teresa picked!
+A02.0007 [Donna] | A deep-sea spirit and singer. A solid choice, too.
+A02.0008 [Donna] | Dolphin? Then you picked the same one as Freesia~
+A02.0009 [Donna] | They are cute, too~
+A02.0010 [Donna] | I knew you'd pick shark, haha! Same as me!
+A02.0011 [Donna] | Sharks are so cool!
+A02.0012 [Opción] | Is this some kind of personality test?
+A02.0013 [Opción] | ... You're not trying to trick me, are you?
+A02.0014 [Donna] | Hahaha, no no no~
+A02.0015 [Donna] | We want to get a new rug for Post Haste~
+A02.0016 [Donna] | But the three of us all picked different patterns, so we wanted to ask you to be the tiebreaker~
+A02.0017 [Donna] | Anyway, thanks!
+
+## Conversación A03
+A03.0001 [Donna] | Hey, question for you!
+A03.0002 [Donna] | If you had the chance right now to put your best friend in a suuuuuper cute maid outfit...
+A03.0003 [Donna] | Would you make them wear it?
+A03.0004 [Opción] | Oh yeah!!
+A03.0005 [Opción] | Not if they don't want to...
+A03.0006 [Donna] | I knew you'd say that!
+A03.0007 [Donna] | Great, we're on the same side!
+A03.0008 [Donna] | So you are the lawful-good type after all?
+A03.0009 [Donna] | Are you sure you wouldn't wanna see it?
+A03.0010 [Tú] | Ahaha...
+A03.0011 [Tú] | I do... A bit...
+A03.0012 [Donna] | Well, then...
+A03.0013 [Donna] | Since you want to see it as well, I'll go get things ready!
+A03.0014 [Donna] | Just look forward to our next meeting!
+
+## Conversación A04
+A04.0001 [Donna] | Beep beep! Beep beep!
+A04.0002 [Donna] | May day! May day!
+A04.0003 [Donna] | ==PLAYER_NAME==, please respond! Please respond!
+A04.0004 [Tú] | ???
+A04.0005 [Tú] | What happened?
+A04.0006 [Donna] | Spot check! Have you seen A Big Shark yet?
+A04.0007 [Opción] | What's that?
+A04.0008 [Opción] | I think I've heard of it.
+A04.0009 [Opción] | Yup, saw it already.
+A04.0010 [Donna] | It's a new Stella Drama that just came out!
+A04.0011 [Donna] | It's about a giant shark that suddenly grows legs and can walk from the sea onto land.
+A04.0012 [Donna] | Doesn't that sound fun?
+A04.0013 [Donna] | So you've heard of it, too?!
+A04.0014 [Donna] | I found out that it's a Stella Drama made by some rich guy just for fun, and it's being shown in lots of places lately.
+A04.0015 [Donna] | The open-air theater near us is screening it, too!
+A04.0016 [Donna] | Ehhhhh!!!!
+A04.0017 [Donna] | Was it good?
+A04.0018 [Donna] | Actually, don't tell me. I don't want spoilers!!
+A04.0019 [Tú] | You want to go see it?
+A04.0020 [Donna] | I do!
+A04.0021 [Donna] | But Freesia and Teresa both said it's not their kind of thing.
+A04.0022 [Donna] | So I was wondering if you might wanna go watch it with me.
+A04.0023 [Tú] | Sure.
+A04.0024 [Donna] | Really?!
+A04.0025 [Donna] | Then how about the day after tomorrow, 2 p.m.? Does that work?
+A04.0026 [Tú] | Works for me.
+A04.0027 [Donna] | Hurray!
+A04.0028 [Donna] | See you then!
+
+## Conversación A05
+A05.0001 [Donna] | I have a secret that I want to tell you. Wanna hear it?
+A05.0002 [Opción] | What is it?
+A05.0003 [Opción] | Nope!
+A05.0004 [Donna] | I just noticed something...
+A05.0005 [Donna] | Behind Post Haste...
+A05.0006 [Donna] | A little blue flower has bloomed!
+A05.0007 [Donna] | Ta-da! Look!
+A05.0008 [Donna] | Ehhhhh??!!!
+A05.0009 [Donna] | No! You gotta hear this!!
+A05.0010 [Donna] | Look, this grew behind Post Haste!
+A05.0011 [Donna] | A little blue flower!
+A05.0012 [Tú] | Oh, it really is blue...
+A05.0013 [Donna] | Right?! Isn't that amazing?
+A05.0014 [Donna] | Maybe it's a sign that Post Haste is about to make a lot of money!
+A05.0015 [Tú] | Haha, maybe!
+A05.0016 [Donna] | Someone just came in, I've got to go greet them!
+A05.0017 [Donna] | Come, money, come! Talk to you later!
+
+## Conversación A06
+A06.0001 [Donna] | Ugh...
+A06.0002 [Tú] | What is it?
+A06.0003 [Donna] | We went over budget again this month...
+A06.0004 [Donna] | At this rate... We're never going to save any money!!
+A06.0005 [Tú] | Hey, money always finds a way. Pat pat.
+A06.0006 [Donna] | Why can't Dorra just fall in love with each other if you put them together, get married, and make baby Dorra?
+A06.0007 [Donna] | If only...
+A06.0008 [Donna] | Wait. Maybe there's some kind of Artifact in a Monolith that lets Dorra multiply on their own?
+A06.0009 [Opción] | There's no such thing!!
+A06.0010 [Opción] | Hmm... You never know.
+A06.0011 [Donna] | Let me dream a little!
+A06.0012 [Donna] | But... What if?
+A06.0013 [Donna] | You think so, too?!
+A06.0014 [Donna] | Maybe... We can try a Monolith?
+A06.0015 [Tú] | Huh?! Are you serious?!
+A06.0016 [Donna] | Hahaha, just kidding!
+A06.0017 [Donna] | Money has to be earned the honest way... I mean, I keep telling myself that.
+A06.0018 [Donna] | But it's okay to complain once in a while, right?
+A06.0019 [Donna] | Sorry, that was silly of me.
+A06.0020 [Opción] | Not silly at all.
+A06.0021 [Tú] | Feeling discouraged sometimes... That's just part of being human.
+A06.0022 [Donna] | Are you comforting me?
+A06.0023 [Donna] | I'm taking it as you comforting me, ==PLAYER_NAME==~
+A06.0024 [Donna] | Thank you!
+
+## Conversación A07
+A07.0001 [Donna] | I'd like to ask you something.
+A07.0002 [Tú] | ?
+A07.0003 [Donna] | Uh... Well...
+A07.0004 [Tú] | What is it?
+A07.0005 [Donna] | The thing is...
+A07.0006 [Opción] | Just out with it!
+A07.0007 [Opción] | You're scaring me...
+A07.0008 [Donna] | Uh... I mean...
+A07.0009 [Donna] | It's hard for me to say this...
+A07.0010 [Donna] | Why are you scared!!
+A07.0011 [Donna] | It's just hard for me to say, okay!
+A07.0012 [Tú] | So...
+A07.0013 [Donna] | Uh... Right...
+A07.0014 [Donna] | Didn't I say before that I'd make you an outfit?
+A07.0015 [Donna] | It's done...
+A07.0016 [Donna] | So whenever you have time, could you come by Post Haste?
+A07.0017 [Donna] | If it doesn't fit right, I can adjust it for you on the spot~
+A07.0018 [Tú] | What??!!
+A07.0019 [Tú] | Really?!
+A07.0020 [Donna] | Really!!
+A07.0021 [Donna] | Then it's settled!
+A07.0022 [Donna] | This weekend. I'll be waiting for you at Post Haste!
+
+## Conversación A08
+A08.0001 [Donna] | Hello there, Your Excellency, the mighty Boss~
+A08.0002 [Donna] | Do you know what day is today?
+A08.0003 [Opción] | I do!
+A08.0004 [Opción] | A day for sleeping in.
+A08.0005 [Opción] | What is it?
+A08.0006 [Donna] | What?! You do?!
+A08.0007 [Donna] | I don't believe it!
+A08.0008 [Tú] | It's your birthday today.
+A08.0009 [Tú] | Happy birthday to you~
+A08.0010 [Donna] | Huh?! How'd you know?!
+A08.0011 [Donna] | Another day for sleeping in?
+A08.0012 [Donna] | Do you ever not sleep in?
+A08.0013 [Tú] | Haha...
+A08.0014 [Tú] | So, what day is today?
+A08.0015 [Donna] | Obviously...
+A08.0016 [Donna] | The birthday of the unbelievably adorable yours truly!
+A08.0017 [Tú] | Oh oh, I got it!
+A08.0018 [Tú] | You know, Teresa told me a few days ago!
+A08.0019 [Donna] | Eh...?
+A08.0020 [Donna] | Obviously...
+A08.0021 [Donna] | The birthday of the unbelievably adorable yours truly!
+A08.0022 [Tú] | Really?
+A08.0023 [Donna] | ...
+A08.0024 [Donna] | Hey! What kind of reaction is that?! Aren't you supposed to say "happy birthday" in a situation like this?!
+A08.0025 [Tú] | Because...
+A08.0026 [Tú] | I was going to say it to you this evening.
+A08.0027 [Donna] | Huh...?
+A08.0028 [Tú] | We wanted it to be a surprise.
+A08.0029 [Tú] | We got a cake and presents and everything.
+A08.0030 [Donna] | Huh?
+A08.0031 [Donna] | HUUUUUH????!!!!
+A08.0032 [Donna] | Oh come on!!! Making such a big fuss is embarrassing!!!
+A08.0033 [Tú] | Too late~ See you tonight at Post Haste!
+
+## Conversación A09
+A09.0001 [Donna] | Today's training was really interesting!
+A09.0002 [Donna] | It's amazing. It was just a simple little game, but it got everyone saying things you normally never hear.
+A09.0003 [Donna] | Did you come up with that game yourself?
+A09.0004 [Opción] | No, I got it from a book.
+A09.0005 [Opción] | I did~
+A09.0006 [Donna] | A book?
+A09.0007 [Donna] | Guess reading is good for you, after all.
+A09.0008 [Donna] | Wow, that's impressive!
+A09.0009 [Donna] | I'd never come up with something like that.
+A09.0010 [Donna] | So next time we have team training, will there be little games like that again?
+A09.0011 [Tú] | Sure!
+A09.0012 [Tú] | Next time it'll be a different one.
+A09.0013 [Donna] | Wah!
+A09.0014 [Donna] | I'm already looking forward to it!
+
+## Conversación A10
+A10.0001 [Donna] | Hey...
+A10.0002 [Donna] | That thing you just gave me, uh...
+A10.0003 [Opción] | What is it?
+A10.0004 [Donna] | There was a piece of music in it that felt strangely familiar.
+A10.0005 [Donna] | And for some reason...
+A10.0006 [Donna] | It suddenly brought a memory back to me.
+A10.0007 [Tú] | What was it?
+A10.0008 [Donna] | It was about how we first decided to start Post Haste.
+A10.0009 [Donna] | I think it was one afternoon. The three of us were sorting through letters together.
+A10.0010 [Donna] | Teresa asked whether we should give our little courier crew a name.
+A10.0011 [Donna] | And just like that, we became Post Haste.
+A10.0012 [Donna] | But ... it's strange. Before I heard that music...
+A10.0013 [Donna] | I knew that moment had happened, but the memory itself felt blurry somehow...
+A10.0014 [Tú] | At least now you remember it again. The important memories are still there.
+A10.0015 [Donna] | Right you are.
+A10.0016 [Donna] | Anyway, thanks for the disc!
+
+## Conversación B01
+B01.0001 [Donna] | Hmm...
+B01.0002 [Tú] | Yes?
+B01.0003 [Donna] | I just can't think of anything
+B01.0004 [Tú] | Think of anything for what?
+B01.0005 [Donna] | A new outfit, of course
+B01.0006 [Donna] | I made new outfits for Teresa and Freesia recently
+B01.0007 [Donna] | And both of them keep telling me that I should make one for myself, too
+B01.0008 [Tú] | I suppose they have a point
+B01.0009 [Tú] | You've been wearing this outfit for quite a while now
+B01.0010 [Donna] | But I just can't come up with any ideas
+B01.0011 [Tú] | Why not ask Teresa and Freesia what they think?
+B01.0012 [Donna] | Hmm...
+B01.0013 [Donna] | Before I ask them, I'd rather hear what you think!
+B01.0014 [Tú] | ... Me?
+B01.0015 [Tú] | But I don't know anything about fashion or design
+B01.0016 [Donna] | That's okay
+B01.0017 [Donna] | What matters is what kind of style you like
+B01.0018 [Donna] | Cute? Glam? Cool?
+B01.0019 [Tú] | Uh... Um... Well...
+B01.0020 [Opción] | Cute
+B01.0021 [Opción] | Glam
+B01.0022 [Opción] | Cool
+B01.0023 [Tú] | Cute it is!
+B01.0024 [Donna] | Cute...
+B01.0025 [Tú] | Glam it is!
+B01.0026 [Donna] | Ah!
+B01.0027 [Donna] | You mean the sort of thing you'd wear to a banquet, right?
+B01.0028 [Donna] | I've never tried that kind of style before
+B01.0029 [Donna] | Cool?
+B01.0030 [Donna] | Something like what I usually wear for climbing Monoliths?
+B01.0031 [Tú] | Yeah... Something like that
+B01.0032 [Donna] | I think I've got an idea now
+B01.0033 [Tú] | Eh?
+B01.0034 [Donna] | Thanks~
+
+## Conversación B02
+B02.0001 [Donna] | Do you like cookies?
+B02.0002 [Tú] | Huh? That's random
+B02.0003 [Donna] | The owner of the dessert shop where I worked last time
+B02.0004 [Donna] | gave me a whole bunch of cookies
+B02.0005 [Donna] | I thought I'd share some with you
+B02.0006 [Tú] | I see
+B02.0007 [Donna] | If you want some, I'll bring some over
+B02.0008 [Tú] | No, no, you don't have to
+B02.0009 [Tú] | I can come pick them up myself
+B02.0010 [Tú] | There's no need to go to all that trouble
+B02.0011 [Donna] | No way!
+B02.0012 [Donna] | We're Post Haste!
+B02.0013 [Donna] | We can't have the customer come pick things up themselves!
+B02.0014 [Donna] | I'll bring them over to you right now
+
+## Conversación B03
+B03.0001 [Donna] | I watched a Stella Drama just now
+B03.0002 [Tú] | What was it about?
+B03.0003 [Donna] | A courier
+B03.0004 [Donna] | Basically...
+B03.0005 [Donna] | A courier gave it everything she have and overcame one obstacle after another
+B03.0006 [Donna] | to deliver a letter containing vital intel to the right people
+B03.0007 [Tú] | Ah!
+B03.0008 [Tú] | That sounds a lot like you, Donna
+B03.0009 [Donna] | Yeah...
+B03.0010 [Donna] | But I think I've still got a long way to go before I can compare myself to her
+B03.0011 [Donna] | At this point, I don't think I could cross a battlefield, evade enemies, and infiltrate their stronghold at the end
+B03.0012 [Tú] | Maybe you just haven't had the opportunity to prove yourself yet
+B03.0013 [Donna] | Eh?
+B03.0014 [Donna] | I wouldn't want to prove myself in that way!
+B03.0015 [Donna] | War everywhere...
+B03.0016 [Donna] | Things are much better the way they are now
+B03.0017 [Tú] | No no no
+B03.0018 [Tú] | That's not what I meant...
+B03.0019 [Tú] | Anyway!
+B03.0020 [Tú] | I'm sure that one day, Donna, you will become a great courier just like that lady in the drama
+B03.0021 [Donna] | Ehehe
+B03.0022 [Donna] | Really?
+B03.0023 [Tú] | Mm-hmm!
+B03.0024 [Donna] | Then I'd better keep improving myself
+B03.0025 [Tú] | You can totally do it!
+
+## Conversación B04
+B04.0001 [Donna] | That outfit I made for you last time
+B04.0002 [Donna] | Does it fit okay?
+B04.0003 [Tú] | Yeah
+B04.0004 [Tú] | Fits great
+B04.0005 [Donna] | Nice!
+B04.0006 [Donna] | If you ever need anything else
+B04.0007 [Donna] | Like having old clothes patched, or if you want something new
+B04.0008 [Donna] | You can always come to me!
+B04.0009 [Tú] | Really?
+B04.0010 [Tú] | I'm starting to feel like I'm taking advantage of you
+B04.0011 [Donna] | Not at all
+B04.0012 [Tú] | Um...
+B04.0013 [Tú] | Well...
+B04.0014 [Donna] | What is it?
+B04.0015 [Tú] | My pajamas got a hole in them
+B04.0016 [Tú] | Do you think...
+B04.0017 [Tú] | You could possibly...
+B04.0018 [Donna] | Sure thing!
+B04.0019 [Donna] | Should I come pick them up, or do you want to bring them over next time you're here?
+B04.0020 [Tú] | I'll just bring them with me next time
+
+## Conversación B05
+B05.0001 [Donna] | I've finally managed to save up a little money
+B05.0002 [Donna] | I should figure out what to spend it on
+B05.0003 [Tú] | Why?
+B05.0004 [Tú] | Isn't that money ... saved?
+B05.0005 [Donna] | Yeah?
+B05.0006 [Donna] | But the whole point of saving money is so you can spend it when you need it later, right?
+B05.0007 [Donna] | Everyone in Post Haste just got back from delivery
+B05.0008 [Donna] | So I was thinking of treating everyone to a big meal!
+B05.0009 [Tú] | I mean, I get it
+B05.0010 [Tú] | But you've worked so hard to save that money
+B05.0011 [Tú] | If you just spend it like this, isn't that basically the same as not having saved it at all?
+B05.0012 [Donna] | Hmmm...
+B05.0013 [Donna] | You do have a point
+B05.0014 [Donna] | Then how about this?
+B05.0015 [Donna] | I'll take out a little of it and buy some groceries
+B05.0016 [Donna] | And cook a nice meal right here at Post Haste!
+B05.0017 [Tú] | Yeah!
+B05.0018 [Donna] | You gotta come, yeah~?
+
+## Conversación B06
+B06.0001 [Donna] | We picked up a new job recently
+B06.0002 [Tú] | Oh?
+B06.0003 [Donna] | Delivering milk
+B06.0004 [Donna] | Basically, we deliver fresh milk to everyone's doorstep at the same time every morning.
+B06.0005 [Tú] | That sounds great
+B06.0006 [Donna] | But you have to get up super early for milk delivery
+B06.0007 [Donna] | Like going to the pasture and pick up the milk before dawn
+B06.0008 [Donna] | We're taking turns with it for now
+B06.0009 [Donna] | Me first, then Freesia, then Teresa
+B06.0010 [Donna] | But sometimes Teresa oversleeps
+B06.0011 [Tú] | Sounds like you've been working really hard
+B06.0012 [Donna] | Oh, by the way
+B06.0013 [Donna] | You drink milk in the morning?
+B06.0014 [Donna] | Tomorrow's my turn
+B06.0015 [Tú] | If it's on your way
+B06.0016 [Tú] | I'd like a bottle, yes
+B06.0017 [Donna] | Then tomorrow I'll deliver yours first, and everyone else's afterward
+B06.0018 [Donna] | That way, it'll definitely be on my way!
+B06.0019 [Donna] | Anyway, I'll sign off for now
+B06.0020 [Donna] | Gotta turn in early
+B06.0021 [Donna] | Good night
+B06.0022 [Tú] | Yup, good night

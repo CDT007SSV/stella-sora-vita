@@ -1,0 +1,250 @@
+# Heartlink de Nazuna: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Nazuna] | yohooo!
+A01.0002 [Nazuna] | THE LORD OF THE PRIZE CLAW IS HERE!
+A01.0003 [Opción] | You're Nazuna, right?
+A01.0004 [Opción] | Is this Nazuna?
+A01.0005 [Nazuna] | mhm, that's me!
+A01.0006 [Nazuna] | of course it is
+A01.0007 [Tú] | We should go hit the claw machines sometime!
+A01.0008 [Nazuna] | CAN'T WAIT!
+
+## Conversación A02
+A02.0001 [Nazuna] | ==PLAYER_NAME==... i'm so bored...
+A02.0002 [Tú] | Nazuna.
+A02.0003 [Tú] | Me too.
+A02.0004 [Nazuna] | let's go do something!
+A02.0005 [Opción] | Finished your work?
+A02.0006 [Opción] | Let's go!
+A02.0007 [Nazuna] | not yet...
+A02.0008 [Tú] | Then get to it!
+A02.0009 [Nazuna] | but i still have work to do...
+A02.0010 [Tú] | Then get it done!
+A02.0011 [Nazuna] | ughhh...
+
+## Conversación A03
+A03.0001 [Nazuna] | ==PLAYER_NAME==... so hungryyy...
+A03.0002 [Tú] | Nazuna.
+A03.0003 [Tú] | Same here.
+A03.0004 [Nazuna] | but i don't wanna eat instant noodles any more
+A03.0005 [Nazuna] | i want something yummy
+A03.0006 [Tú] | Philae is an important grain production area for United Harvest
+A03.0007 [Tú] | There should be plenty of good food here.
+A03.0008 [Nazuna] | well, there's a lot of it, i guess
+A03.0009 [Nazuna] | but the food in philae is all about quantity
+A03.0010 [Nazuna] | doesn't mean it's actually any good
+
+## Conversación A04
+A04.0001 [Nazuna] | so, ==PLAYER_NAME==! what do you know about united harvest?
+A04.0002 [Opción] | A little.
+A04.0003 [Opción] | A lot.
+A04.0004 [Nazuna] | ughhh...
+A04.0005 [Nazuna] | oooh!
+A04.0006 [Tú] | Why the sudden interest in the United Harvest?
+A04.0007 [Tú] | Thinking of getting an office job?
+A04.0008 [Nazuna] | ugh ... no way...
+A04.0009 [Nazuna] | but there's one thing i probably have in common with their office workers
+A04.0010 [Tú] | And that is?
+A04.0011 [Nazuna] | we both want the company to go bankrupt already
+
+## Conversación A05
+A05.0001 [Nazuna] | i've made up my mind!
+A05.0002 [Nazuna] | can't go on like this anymore!
+A05.0003 [Tú] | Ohhh! Don't tell me...!
+A05.0004 [Nazuna] | i'm gonna defend my daily life with everything i've got!
+A05.0005 [Tú] | Define "defend."
+A05.0006 [Nazuna] | i'm gonna work extra hard at slacking off, and waste time with all my might
+A05.0007 [Nazuna] | that's the life i gotta defend
+A05.0008 [Tú] | O... kay then.
+A05.0009 [Nazuna] | wanna come over and help me defend it?
+A05.0010 [Tú] | On my way to join the cause!
+
+## Conversación A06
+A06.0001 [Nazuna] | had a weird dream last night
+A06.0002 [Nazuna] | guess what it was about
+A06.0003 [Opción] | How should I know?
+A06.0004 [Opción] | Hmm... Claw machines?
+A06.0005 [Nazuna] | oh ==PLAYER_NAME==...
+A06.0006 [Nazuna] | what else can it be besides claw machines
+A06.0007 [Nazuna] | oooh! you know me so well, ==PLAYER_NAME==
+A06.0008 [Nazuna] | in my dream i was trying to grab a Count Chompchomp the Shark in the claw machine
+A06.0009 [Nazuna] | but i lost my grip and it fell
+A06.0010 [Nazuna] | then the claw machine god appeared
+A06.0011 [Nazuna] | and it asked me:
+A06.0012 [Nazuna] | "did you drop... this golden Count Chompchomp the Shark, or this silver one?"
+A06.0013 [Nazuna] | i said neither
+A06.0014 [Tú] | And then what?
+A06.0015 [Nazuna] | and then i woke up...
+
+## Conversación A07
+A07.0001 [Nazuna] | ==PLAYER_NAME==
+A07.0002 [Tú] | What is it?
+A07.0003 [Nazuna] | i sewed a boss plushie
+A07.0004 [Tú] | !
+A07.0005 [Tú] | Hah! I'm just that amazing.
+A07.0006 [Nazuna] | shouldn't I be getting the praise...?
+A07.0007 [Opción] | Jk, jk.
+A07.0008 [Opción] | We're both amazing!
+A07.0009 [Tú] | You're really good at sewing, Nazuna.
+A07.0010 [Tú] | But your sewing skills are definitely more amazing.
+A07.0011 [Nazuna] | heheh
+A07.0012 [Nazuna] | it took me a whole week
+A07.0013 [Nazuna] | i even picked out a fabric specially for it
+A07.0014 [Nazuna] | i'm gonna put it somewhere everyone can see it
+A07.0015 [Tú] | Yay!
+A07.0016 [Tú] | But no sticking pins in it, okay?
+A07.0017 [Nazuna] | heheh... depends on what kind of mood i'm in...
+
+## Conversación A08
+A08.0001 [Nazuna] | ==PLAYER_NAME==—
+A08.0002 [Nazuna] | about that
+A08.0003 [Nazuna] | u didn't forget, right?
+A08.0004 [Opción] | Forget what...?
+A08.0005 [Opción] | That thing...?
+A08.0006 [Nazuna] | no way...
+A08.0007 [Nazuna] | i'm seriously gonna cry now...
+A08.0008 [Tú] | Alright, I'm just teasing.
+A08.0009 [Tú] | Happy birthday!
+A08.0010 [Tú] | We've got cake, so get over here.
+A08.0011 [Nazuna] | YAY!
+A08.0012 [Nazuna] | save some extra seats for my friends
+A08.0013 [Nazuna] | Count Chompchomp the Shark needs a soft cushion
+A08.0014 [Nazuna] | and King High Flyer needs an extra stool
+A08.0015 [Nazuna] | and Princess Windrise HAS to sit right next to me
+
+## Conversación A09
+A09.0001 [Nazuna] | ==PLAYER_NAME==...
+A09.0002 [Nazuna] | training's so tiring...
+A09.0003 [Nazuna] | i don't wanna go anymore...
+A09.0004 [Tú] | What are you talking about?
+A09.0005 [Tú] | Aren't you a famous Trekker?
+A09.0006 [Nazuna] | that was... before...
+A09.0007 [Nazuna] | i'm retired now...
+A09.0008 [Tú] | Nazuna, snap out of it!
+A09.0009 [Opción] | You'll get rusty.
+A09.0010 [Opción] | What about your guild?
+A09.0011 [Nazuna] | ...whatever... i'm no longer who i used to be...
+A09.0012 [Nazuna] | the guild... well...! uh...
+A09.0013 [Nazuna] | okay...
+A09.0014 [Nazuna] | guess i gotta try a little...
+
+## Conversación A10
+A10.0001 [Nazuna] | ==PLAYER_NAME==, remember that old record?
+A10.0002 [Tú] | I remember!
+A10.0003 [Nazuna] | it had me on it, and everyone else
+A10.0004 [Nazuna] | we were so close back then
+A10.0005 [Nazuna] | felt like nothing could ever tear us apart
+A10.0006 [Tú] | And then?
+A10.0007 [Nazuna] | uh...
+A10.0008 [Nazuna] | kinda forgot the details...
+A10.0009 [Nazuna] | anyway, i'm sure we'll be like that again someday!
+A10.0010 [Tú] | Really?
+A10.0011 [Tú] | You're just going to wait for time to fix everything?
+A10.0012 [Tú] | I think you should be more proactive about it.
+A10.0013 [Tú] | Don't let this chance slip away.
+A10.0014 [Nazuna] | you're right ==PLAYER_NAME==
+A10.0015 [Nazuna] | i won't let go this time!
+
+## Conversación B01
+B01.0001 [Nazuna] | I saw a report that said
+B01.0002 [Nazuna] | 40% of grown-ups still have plush toys
+B01.0003 [Nazuna] | and 30% sleep with a plushie toy every night
+B01.0004 [Nazuna] | Hehe
+B01.0005 [Nazuna] | That's totally me!
+B01.0006 [Nazuna] | Do you keep plushies on your bed, too?
+B01.0007 [Opción] | I don't have plush toys...
+B01.0008 [Opción] | I'm afraid I'd crush them in my sleep, so I put them somewhere else
+B01.0009 [Opción] | I do
+B01.0010 [Nazuna] | ???
+B01.0011 [Nazuna] | I'll get you one next time
+B01.0012 [Nazuna] | That makes sense. It'd be bad if they got damaged
+B01.0013 [Nazuna] | Didn't expect you to have such refined taste
+B01.0014 [Tú] | I feel like you are a full-blown plushie addict
+B01.0015 [Nazuna] | I knew that full well. No hope for the likes of me, hehe
+B01.0016 [Nazuna] | But that fluffy texture... Once you start touching it, you can't stop
+B01.0017 [Nazuna] | It's so comforting!
+
+## Conversación B02
+B02.0001 [Nazuna] | ==PLAYER_NAME==, do you know?
+B02.0002 [Nazuna] | I've been put in charge of training some newcomers
+B02.0003 [Tú] | That's great! Instructor Nazuna~
+B02.0004 [Nazuna] | You sure about that?
+B02.0005 [Nazuna] | When Kaede first asked me about it, I actually wanted to turn it down...
+B02.0006 [Tú] | Eh... What did you tell her?
+B02.0007 [Nazuna] | That my legs felt sore and I had an acne breakout
+B02.0008 [Nazuna] | And something about success knocking on my door
+B02.0009 [Tú] | And how did that turn out?
+B02.0010 [Nazuna] | All of them were rejected, every single one. Looks like I'll have to learn to be strong this time...
+B02.0011 [Tú] | Aren't you being a bit overdramatic...?
+B02.0012 [Nazuna] | You know how some people desperately collect responsibilities, and then desperately try to dump them
+B02.0013 [Nazuna] | But I, the Lord Nazuna, play no such games
+B02.0014 [Nazuna] | Don't worry. Since I've taken the job on, I'll see it through to the end
+
+## Conversación B03
+B03.0001 [Nazuna] | ==PLAYER_NAME==
+B03.0002 [Nazuna] | Do you think I'm mature?
+B03.0003 [Tú] | Huh? Why?
+B03.0004 [Nazuna] | Some new Trekker recruits recently... Ahem...
+B03.0005 [Nazuna] | They're saying I act all immature...
+B03.0006 [Nazuna] | Sigh... Young people these days...
+B03.0007 [Tú] | Instructor Nazuna, you're acting all high and mighty...
+B03.0008 [Nazuna] | You know, there was a time when I thought being a grown-up was very cool indeed
+B03.0009 [Nazuna] | Wearing crisply pressed clothes, holding résumé with my teeth
+B03.0010 [Nazuna] | But you know me. I realized that kind of life is not me
+B03.0011 [Tú] | Uh...
+B03.0012 [Tú] | Indeed...
+B03.0013 [Nazuna] | And I won't be able to carry my friends with me all the time
+B03.0014 [Nazuna] | Or wear cute clothes
+B03.0015 [Nazuna] | Forget it, forget it. I'm gonna keep being a kid for the next twenty years, at least
+
+## Conversación B04
+B04.0001 [Nazuna] | ==PLAYER_NAME==, I've started a bulk order purchase
+B04.0002 [Nazuna] | That's right, it's for plushie toys
+B04.0003 [Tú] | Why the bulk order?
+B04.0004 [Nazuna] | Ah, the thing is...
+B04.0005 [Nazuna] | Custom-made plushies are very very expensive!
+B04.0006 [Nazuna] | If I can get other people to buy together
+B04.0007 [Nazuna] | The cost then gets spread out
+B04.0008 [Tú] | So what kind of plush are you after this time?
+B04.0009 [Nazuna] | Hehe
+B04.0010 [Nazuna] | A 16-inch Sherlock, winter outfit version!
+B04.0011 [Tú] | Don't you already have something similar...?
+B04.0012 [Nazuna] | No no no, this one's completely different from before
+B04.0013 [Nazuna] | I'll show it to you once it's made!
+B04.0014 [Nazuna] | And now as the Manager, I'm gonna go whip that bulk order into shape, since I'm the sponsor, organizer and all
+B04.0015 [Nazuna] | Seeya~
+B04.0016 [Tú] | M-Manager...
+
+## Conversación B05
+B05.0001 [Nazuna] | Wahhhhh!! ==PLAYER_NAME==!
+B05.0002 [Tú] | What's up?
+B05.0003 [Nazuna] | Someone actually badmouthed me! Me!
+B05.0004 [Tú] | What did they say?
+B05.0005 [Nazuna] | They said I set the bulk order price really high and made a huge profit from it
+B05.0006 [Tú] | So how much was one plush?
+B05.0007 [Nazuna] | Only sixteen thousand Dorra each, and it even comes with handmade clothes
+B05.0008 [Tú] | That's pretty reasonable
+B05.0009 [Tú] | Considering it's 16 inches
+B05.0010 [Nazuna] | Exactly! Other places charge over twenty thousand for a 12-inch!
+B05.0011 [Nazuna] | It was purely a labor of love!
+B05.0012 [Nazuna] | It has to be other shady business owners who's badmouthing me out of jealousy!
+B05.0013 [Tú] | Pat, pat~
+
+## Conversación B06
+B06.0001 [Nazuna] | It arrived! ==PLAYER_NAME== It's finally here!
+B06.0002 [Opción] | Could it be...?
+B06.0003 [Opción] | You mean...
+B06.0004 [Tú] | My new friend, all 16 inches of it!
+B06.0005 [Tú] | Sherlock, winter outfit version!
+B06.0006 [Nazuna] | Hehe
+B06.0007 [Nazuna] | That's right! After powering through all kinds of slander and rumors...
+B06.0008 [Nazuna] | The bulk order has finally come through!
+B06.0009 [Nazuna] | I even reserved one for you~
+B06.0010 [Tú] | ! Nice!
+B06.0011 [Nazuna] | But right now it's just the base doll... No winter outfit yet...
+B06.0012 [Tú] | Hm? Why?
+B06.0013 [Nazuna] | The outfit won't arrive for another month...

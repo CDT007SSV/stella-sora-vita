@@ -1,0 +1,446 @@
+# Heartlink de Iris: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Iris] | Hello
+A01.0002 [Iris] | I'm Iris
+A01.0003 [Opción] | Hello hello
+A01.0004 [Opción] | I'm ==PLAYER_NAME==
+A01.0005 [Opción] | Your profile pic is so cute
+A01.0006 [Iris] | Oh, thanks...
+A01.0007 [Iris] | It's a pic I took a while back
+A01.0008 [Iris] | I liked it so much that I used it for my profile
+A01.0009 [Iris] | ==PLAYER_NAME==, your profile pic is nice, too
+A01.0010 [Iris] | Looks like this phone still works
+A01.0011 [Iris] | The Quick Add function works
+A01.0012 [Iris] | And it sends/receives messages normally.
+A01.0013 [Iris] | Yay, now I don't have to come up with the money for a new phone
+A01.0014 [Opción] | You sound very relieved
+A01.0015 [Opción] | That's such good news
+A01.0016 [Iris] | After all, the guild really is broke...
+A01.0017 [Iris] | Oh right, let me properly introduce myself
+A01.0018 [Iris] | My name is Iris. I'm in charge of the guild's logistics and bookkeeping
+A01.0019 [Iris] | I lay out long-term goals and organize short-term tasks for our members
+A01.0020 [Iris] | I do supply inventories regularly and remind everyone not to waste money
+A01.0021 [Iris] | I also help Amber with her messy hair and drag Noya out of bed every day
+A01.0022 [Iris] | In short, just let me know if you need anything, anything at all. Don't be shy!
+
+## Conversación A02
+A02.0001 [Iris] | ==PLAYER_NAME==, do you have any plans for your next day off?
+A02.0002 [Opción] | Take a stroll
+A02.0003 [Opción] | Sleep in
+A02.0004 [Opción] | Haven't decided
+A02.0005 [Tú] | Treat myself to nice food and drink
+A02.0006 [Tú] | And maybe buy a book...
+A02.0007 [Tú] | I'll stay in bed all day, sleeping
+A02.0008 [Tú] | Nobody is going to get me out of bed!
+A02.0009 [Tú] | There's nothing that I have to do
+A02.0010 [Tú] | I can figure it out tomorrow
+A02.0011 [Iris] | That is your style.
+A02.0012 [Tú] | What about you girls?
+A02.0013 [Iris] | Noya is planning on seeing the musical The Bear Squad
+A02.0014 [Iris] | Amber says she'll go into the woods to observe the Shrubshews
+A02.0015 [Iris] | As for me...
+A02.0016 [Iris] | I'll do two mock tests from this year's Grace Imperium recruitment program
+A02.0017 [Opción] | Huh?
+A02.0018 [Opción] | Mock what?
+A02.0019 [Iris] | Mock tests from Grace Imperium recruitment program
+A02.0020 [Iris] | I bought the newest edition of Mastering Grace Imperium's Written Tests
+A02.0021 [Iris] | It's a selection of recruitment interview questions from these past three years
+A02.0022 [Iris] | I've been too busy to get around to them.
+A02.0023 [Iris] | On my precious day off, I'm going to go through as many questions as I can
+A02.0024 [Iris] | So that I can relax
+A02.0025 [Tú] | Sounds like something you would do
+
+## Conversación A03
+A03.0001 [Iris] | I'm so sleepy...
+A03.0002 [Iris] | ==PLAYER_NAME==, if you're out already, could you bring me back some coffee?
+A03.0003 [Iris] | Not the kind from the Monoliths
+A03.0004 [Iris] | I want faux coffee made from koopei beans, the cheaper the better
+A03.0005 [Opción] | I'll bring you a cup, mildly bitter at room temperature
+A03.0006 [Opción] | I'll bring you a cup, no ice, medium bitterness
+A03.0007 [Opción] | I'll bring you a cup, extra ice and extra bitter
+A03.0008 [Iris] | I don't do mildly bitter.
+A03.0009 [Iris] | The more bitter, the better. Thanks
+A03.0010 [Iris] | Just tell the cafe staff that
+A03.0011 [Iris] | I want it extra bitter, with a lot of ice
+A03.0012 [Iris] | Yes!
+A03.0013 [Iris] | Thank you
+A03.0014 [Iris] | I took on too much freelance paperwork by accident
+A03.0015 [Iris] | The client is rushing me, saying it needs to be delivered by tomorrow
+A03.0016 [Iris] | Only faux coffee will get me through tonight...
+A03.0017 [Iris] | Haha! I love work!
+
+## Conversación A04
+A04.0001 [Iris] | I want to get more certificates
+A04.0002 [Opción] | Don't you have a lot already?
+A04.0003 [Opción] | Give yourself a break.
+A04.0004 [Iris] | I do, but I feel like they aren't enough
+A04.0005 [Iris] | But I'd feel more secure with more certificates
+A04.0006 [Iris] | If I come cross some nice commission or freelance work
+A04.0007 [Iris] | But can't take them on because I don't have the right certificate...
+A04.0008 [Iris] | I'll be very disappointed...
+A04.0009 [Opción] | There will always be another commission
+A04.0010 [Opción] | Hmm... That does make sense
+A04.0011 [Iris] | We don't get to pick when we are in dire need of money
+A04.0012 [Iris] | I want to be able to provide financial backup for the guild
+A04.0013 [Iris] | That will take some pressure off you guys, too...
+A04.0014 [Iris] | Right?
+A04.0015 [Iris] | The more certificates, the better
+A04.0016 [Iris] | That way I can take more jobs
+A04.0017 [Iris] | And it will take some pressure off you guys, too...
+A04.0018 [Iris] | So, I made a schedule for the certificate tests ahead
+A04.0019 [Iris] | First, get certified as a professional smile expert
+A04.0020 [Iris] | Then, get certified as a poetry therapist
+A04.0021 [Iris] | And a vending machine operator's license
+A04.0022 [Iris] | A Level 2 Monolith Food Analyst Certificate
+A04.0023 [Iris] | Professional Puffloon Racing Judge Certificate
+A04.0024 [Iris] | I'm going to start with these!
+A04.0025 [Tú] | Not sure what all those are, but I'm behind you 100%!
+
+## Conversación A05
+A05.0001 [Iris] | ==PLAYER_NAME==, are you there?
+A05.0002 [Iris] | Do you have a minute?
+A05.0003 [Tú] | Yeah
+A05.0004 [Tú] | What is it?
+A05.0005 [Iris] | Please don't tell anybody what I'm about to say to you.
+A05.0006 [Iris] | Please?
+A05.0007 [Opción] | Oooo, a little secret just for me?
+A05.0008 [Opción] | I promise not to tell!
+A05.0009 [Iris] | Promise me you won't tell first
+A05.0010 [Tú] | Okay, I promise.
+A05.0011 [Tú] | Even if Mistique ties me to a tree upside down and torture me
+A05.0012 [Tú] | I'll still keep my mouth shut!
+A05.0013 [Iris] | Okay, that makes me feel better...
+A05.0014 [Iris] | ==PLAYER_NAME==
+A05.0015 [Iris] | Help me.
+A05.0016 [Tú] | Are you in some kind of trouble?
+A05.0017 [Tú] | Where are you? I'll get Noya and Amber and we'll come to you in no time.
+A05.0018 [Iris] | No, don't get the others.
+A05.0019 [Iris] | Wait until nighttime, then come to Garden Cross Street in Silver District.
+A05.0020 [Iris] | There is a bakery called "Don't Eat Cake, Eat Bread."
+A05.0021 [Iris] | Stand in front of the shop and look to the left front; you'll see a small alleyway.
+A05.0022 [Iris] | Walk to the alley entrance and stop in front of the vending machine there.
+A05.0023 [Iris] | And then
+A05.0024 [Tú] | And then?
+A05.0025 [Iris] | And then, get me out from the vending machine.
+A05.0026 [Tú] | ???
+A05.0027 [Tú] | How did you get in there in the first place?
+A05.0028 [Iris] | Well, I was doing temp work today...
+A05.0029 [Iris] | And the assignment was to work as a salesperson inside the vending machine
+A05.0030 [Iris] | I had no trouble getting in.
+A05.0031 [Iris] | But after my shift ended, I got stuck at the backdoor. So now I can't get out...
+A05.0032 [Iris] | ==PLAYER_NAME==, you cannot let anyone else know of this.
+A05.0033 [Iris] | Sneak in by yourself and get me out tonight.
+A05.0034 [Iris] | Please?
+
+## Conversación A06
+A06.0001 [Iris] | I really want to just stay in bed
+A06.0002 [Iris] | Want to just stay at home without working
+A06.0003 [Iris] | Want to get paid a lot without working for it
+A06.0004 [Iris] | I want to slack off
+A06.0005 [Iris] | I reallllllly want to slack off!
+A06.0006 [Opción] | Iris?
+A06.0007 [Opción] | Who's this?
+A06.0008 [Tú] | Is this Iris?
+A06.0009 [Tú] | Who's this? Give the phone back to Iris!
+A06.0010 [Iris] | I'm sorry, Boss
+A06.0011 [Iris] | It was a moment of weakness
+A06.0012 [Tú] | No worries. I have this kind of thoughts all the time.
+A06.0013 [Tú] | I was just a little bit shocked
+A06.0014 [Tú] | that you would want to slack off, too...
+A06.0015 [Iris] | Actually...
+A06.0016 [Iris] | The reason I'm working so hard now is so that I won't have to in the future
+A06.0017 [Iris] | Once I have saved up a lot of money
+A06.0018 [Iris] | When I don't have to worry about us becoming homeless or going broke...
+A06.0019 [Iris] | I'll slack off so hard!
+A06.0020 [Iris] | I'll buy a huge house for everyone in the guild
+A06.0021 [Iris] | So that we can all just stay at home without working!
+A06.0022 [Tú] | Sounds nice! I'll hold you to it!
+A06.0023 [Iris] | Yes!
+
+## Conversación A07
+A07.0001 [Iris] | How has it been since you joined the guild?
+A07.0002 [Iris] | Is there anything you're having trouble with?
+A07.0003 [Iris] | How does it feel to climb the Monoliths with us?
+A07.0004 [Opción] | Pretty good
+A07.0005 [Opción] | What's with all these questions all the sudden?
+A07.0006 [Tú] | A place to sleep and three meals a day
+A07.0007 [Tú] | Lots of trips to Monoliths
+A07.0008 [Tú] | Can't beat that!
+A07.0009 [Iris] | That's good to know...
+A07.0010 [Tú] | It's been quite a while since I have joined New Star Guild
+A07.0011 [Tú] | A bit too late for doing an orientation, don't you think?
+A07.0012 [Tú] | Could it be that my probationary period is up?
+A07.0013 [Tú] | And now you're doing evals?
+A07.0014 [Iris] | No! Not like that!
+A07.0015 [Iris] | It's not an orientation. And New Star Guild doesn't have a probationary period
+A07.0016 [Iris] | I was just thinking...
+A07.0017 [Iris] | Our situation has improved so much ever since you joined us, ==PLAYER_NAME==
+A07.0018 [Iris] | We no longer have to worry about where's the next meal going to come from
+A07.0019 [Iris] | We no longer struggle to get good commissions because of poor performances
+A07.0020 [Iris] | Nor do we end up paying huge penalties because of some crooked magic contracts
+A07.0021 [Iris] | Boss, you really saved the New Star Guild from falling apart
+A07.0022 [Iris] | Life's getting better for us every day
+A07.0023 [Opción] | We have all worked hard for it
+A07.0024 [Opción] | You're going to make me blush
+A07.0025 [Iris] | I'm sure you could join any big guild and do great there.
+A07.0026 [Iris] | But I like the New Star Guild as it is now
+A07.0027 [Iris] | I like being a Trekker alongside you and everybody else in the guild
+A07.0028 [Iris] | So...
+A07.0029 [Iris] | So...
+A07.0030 [Iris] | If there's anything bothering you at all, you have to tell me!
+A07.0031 [Iris] | I'll think of a way to make it right!
+A07.0032 [Iris] | Even if it's a problem that can't be solved immediately, I'll work to make the situation better for you!
+A07.0033 [Iris] | Please don't go about pretending everything is fine
+A07.0034 [Iris] | Maybe you've got all these negative feelings bottled up
+A07.0035 [Iris] | You don't want to upset us, so you say nothing
+A07.0036 [Iris] | You just put up with it...
+A07.0037 [Iris] | Until one day you can't anymore and just walk out on us without telling anyone!
+A07.0038 [Tú] | You sure have got a whole detailed scenario going there...
+A07.0039 [Tú] | But I really haven't got any complaints
+A07.0040 [Tú] | And I'm not planning on switching guilds
+A07.0041 [Iris] | I'm so relieved to hear that.
+
+## Conversación A08
+A08.0001 [Iris] | They're acting all weird.
+A08.0002 [Opción] | Who?
+A08.0003 [Opción] | Weird how?
+A08.0004 [Opción] | Not really.
+A08.0005 [Iris] | Noya and Amber. They're acting all weird
+A08.0006 [Iris] | Just, totally weird.
+A08.0007 [Iris] | I haven't even said anything yet...
+A08.0008 [Iris] | Just now, Noya told me that...
+A08.0009 [Iris] | She was hungry last night and really, really, really wanted to eat instant noodles
+A08.0010 [Iris] | But then she thought about how we were down to our last cup
+A08.0011 [Iris] | So she made do with Tawny Nightingale instead
+A08.0012 [Iris] | Then she wanted to fry some bacon to go with it
+A08.0013 [Iris] | But we were low on bacon, too, so she only spread half a spoonful of jam on it
+A08.0014 [Iris] | But once she got back in bed, she felt like she hadn't satisfied her cravings at all
+A08.0015 [Iris] | She was tossing and turning into the wee hours
+A08.0016 [Iris] | Finally she gave in. She got up, ate the instant noodles, fried the bacon
+A08.0017 [Iris] | ...Alongside thirty eggs and fifty sausages
+A08.0018 [Iris] | She cleaned up our entire food supply
+A08.0019 [Iris] | But how did she even manage to eat all that?
+A08.0020 [Tú] | Uh
+A08.0021 [Iris] | Then Amber showed up and told me...
+A08.0022 [Iris] | At first, she wanted to climb through the sunroof onto the roof to feel the breeze
+A08.0023 [Iris] | But apparently the breeze there wasn't strong enough for her
+A08.0024 [Iris] | So she went up a tree
+A08.0025 [Iris] | But then slipped and fell
+A08.0026 [Iris] | Right through the sunroof and into the cabin
+A08.0027 [Iris] | She smashed our newly bought pillow to pieces
+A08.0028 [Iris] | But how on earth do you smash a pillow into pieces?
+A08.0029 [Tú] | Uh...
+A08.0030 [Iris] | Now, the two of them are heading out to replace the items and restock
+A08.0031 [Opción] | Sounds like something those two would do
+A08.0032 [Opción] | I don't even know what to say
+A08.0033 [Iris] | Normally
+A08.0034 [Iris] | Noya wouldn't be sitting around waiting for me to wake up over something like this
+A08.0035 [Iris] | She even cried as she apologized, asking me to wait for her inside the RV
+A08.0036 [Iris] | Said that I shouldn't go anywhere until they came back
+A08.0037 [Iris] | As for Amber
+A08.0038 [Iris] | There's no way she would fall from a tree
+A08.0039 [Iris] | All this is very suspicious
+A08.0040 [Tú] | Haha, I think you're overthinking this...
+A08.0041 [Iris] | ==PLAYER_NAME==, where are you now?
+A08.0042 [Tú] | I'm feeding the pigeons in the city square!
+A08.0043 [Iris] | Really? You mean you aren't concocting some scheme with those two?
+A08.0044 [Iris] | Fine, maybe I really am being paranoid.
+A08.0045 [Iris] | Today is my birthday
+A08.0046 [Iris] | I saved some money from my side jobs. Let's go out to eat something nice
+A08.0047 [Iris] | We'll go when you come back!
+A08.0048 [Tú] | Okay, we'll go when we come back!
+
+## Conversación A09
+A09.0001 [Iris] | ==PLAYER_NAME==, I have a big favor to ask...
+A09.0002 [Opción] | Talk to me
+A09.0003 [Opción] | What is it?
+A09.0004 [Opción] | Scared
+A09.0005 [Tú] | For you,
+A09.0006 [Tú] | I'd do anything!
+A09.0007 [Tú] | I'll walk over hot coals
+A09.0008 [Tú] | Move heaven and earth!
+A09.0009 [Iris] | Nothing dramatic as all that...
+A09.0010 [Tú] | I'll listen and then decide
+A09.0011 [Tú] | If you want me to tell Noya to go easy on the snacks
+A09.0012 [Tú] | No can do.
+A09.0013 [Iris] | I wouldn't ask you to do that...
+A09.0014 [Tú] | You're not gonna ask us to cut expenses starting next month, are you?
+A09.0015 [Iris] | No, no, it's not like that.
+A09.0016 [Iris] | I'm not that heartless.
+A09.0017 [Iris] | I wanted to ask if you can go into the Monolith with me so I can do special training.
+A09.0018 [Tú] | Special training?
+A09.0019 [Iris] | Yes...
+A09.0020 [Iris] | From our last few trips to the Monolith, I realized that we have a weakness
+A09.0021 [Iris] | Noya and Amber are great with their weapons
+A09.0022 [Iris] | And you're good at strategizing
+A09.0023 [Iris] | But sometimes we still drop the ball
+A09.0024 [Iris] | And that's because I'm the weak link in the team
+A09.0025 [Tú] | But
+A09.0026 [Iris] | Oh, you don't need to try to make me feel better
+A09.0027 [Iris] | I'm not strong, and my reflexes aren't sharp—facts are facts...
+A09.0028 [Iris] | But I want to work with the team
+A09.0029 [Tú] | So that's why you want to do special training
+A09.0030 [Iris] | At the very least, I need to stop tripping when we're dodging.
+A09.0031 [Tú] | Sure, I'll go with you
+A09.0032 [Iris] | Yay!
+A09.0033 [Iris] | As soon as I get ready, we'll head out!
+
+## Conversación A10
+A10.0001 [Iris] | Since becoming a Trekker, just how many memories have I lost...?
+A10.0002 [Iris] | Sure, most of them are unimportant
+A10.0003 [Iris] | But I'm sure I've also forgotten important things along the way
+A10.0004 [Tú] | It's a problem every Trekker must face.
+A10.0005 [Iris] | Yeah...
+A10.0006 [Iris] | I understand that it's inevitable
+A10.0007 [Iris] | But sometimes, I find myself obsessing over it
+A10.0008 [Iris] | I want to know what exactly have I forgotten
+A10.0009 [Iris] | We are so lucky that we've met you, ==PLAYER_NAME==
+A10.0010 [Iris] | Now we can glimpse into our past thanks to the Runic Disc
+A10.0011 [Tú] | Iris's past was...
+A10.0012 [Opción] | Very cool
+A10.0013 [Opción] | Very mysterious
+A10.0014 [Opción] | Surprising, yet makes perfect sense
+A10.0015 [Iris] | No, no, I'm just an average person
+A10.0016 [Iris] | That memory is indeed quite mysterious
+A10.0017 [Tú] | As one might expect of you.
+A10.0018 [Iris] | I had no idea...
+A10.0019 [Iris] | That I memorized Ancient Novian so many times...
+A10.0020 [Iris] | And forgot it each time.
+A10.0021 [Iris] | Memorize and forget, memorize and forget, over and over again
+A10.0022 [Iris] | Well, I guess that's what learning is
+A10.0023 [Tú] | No no, this is all because of Monoliths
+A10.0024 [Iris] | But there's no way around it.
+A10.0025 [Iris] | There is some consolation in the thought that at least I don't have to sit for exams recently
+A10.0026 [Iris] | I really should go
+A10.0027 [Iris] | I'll go memorize it again
+
+## Conversación B01
+B01.0001 [Iris] | Feels like I really should learn another language
+B01.0002 [Opción] | Knowing Novian should be enough, right?
+B01.0003 [Opción] | Are you planning to move to another city and out-compete the locals for jobs?
+B01.0004 [Iris] | If I know more languages, I'll have more job opportunities
+B01.0005 [Iris] | That's part of it, yes
+B01.0006 [Iris] | But more importantly
+B01.0007 [Iris] | Our journey will take us through all kinds of places across Nova
+B01.0008 [Iris] | If I can speak other languages
+B01.0009 [Iris] | Things will be much easier on the road
+B01.0010 [Tú] | That's true
+B01.0011 [Iris] | So I'm thinking of starting with the Loong language
+B01.0012 [Tú] | Good luck!
+
+## Conversación B02
+B02.0001 [Iris] | ==PLAYER_NAME==, I need to talk to you about something
+B02.0002 [Opción] | What is it?
+B02.0003 [Iris] | Whatever you do, don't share your pudding with Noya
+B02.0004 [Tú] | Huh?
+B02.0005 [Tú] | Why is that?
+B02.0006 [Iris] | Noya bought two servings of pudding for herself last month
+B02.0007 [Iris] | And then she ate my portion, too
+B02.0008 [Iris] | So I axed her pudding budget for this month
+B02.0009 [Iris] | She'll definitely come to you to whine about it
+B02.0010 [Iris] | And then you'll feel sorry for her
+B02.0011 [Iris] | And give half of your pudding to her
+B02.0012 [Tú] | How do you know all this?
+B02.0013 [Iris] | Because this isn't the first time
+B02.0014 [Iris] | Before you joined
+B02.0015 [Iris] | Amber was her target
+B02.0016 [Iris] | Wait
+B02.0017 [Iris] | Don't tell me she's already done it
+B02.0018 [Tú] | No, no
+B02.0019 [Iris] | Good
+B02.0020 [Iris] | She needs to learn her lesson this time
+B02.0021 [Iris] | Don't give her any, okay
+B02.0022 [Tú] | I won't
+B02.0023 [Tú] | I promise
+
+## Conversación B03
+B03.0001 [Iris] | ==PLAYER_NAME==, do you know of any way to make Noya drive more safely
+B03.0002 [Opción] | It's not like she's ever gotten into an accident, right?
+B03.0003 [Opción] | Limit the horsepower?
+B03.0004 [Opción] | Let air out of the tires?
+B03.0005 [Iris] | That's true, but...
+B03.0006 [Iris] | There's a first time for everything...
+B03.0007 [Iris] | And if that happens...
+B03.0008 [Iris] | First of all, we haven't got any money to repair Loxy
+B03.0009 [Iris] | Plus, the medical bills alone would crush our fragile finance
+B03.0010 [Iris] | Then we'll be in for some dark, dark times...
+B03.0011 [Tú] | Stop, stop... Don't catastrophize
+B03.0012 [Iris] | Ugh...
+B03.0013 [Tú] | Like putting something under the gas pedal so Noya can't press it all the way
+B03.0014 [Iris] | Good idea
+B03.0015 [Iris] | But what if something urgent happens and she needs to accelerate quickly?
+B03.0016 [Tú] | That would make her drive slower
+B03.0017 [Iris] | But also make driving even more dangerous
+B03.0018 [Iris] | Guess it's back to the drawing board
+
+## Conversación B04
+B04.0001 [Iris] | ==PLAYER_NAME==, I feel like our finance's in much better shape lately
+B04.0002 [Tú] | Isn't that a good thing?
+B04.0003 [Iris] | No no no!
+B04.0004 [Iris] | It's weird
+B04.0005 [Iris] | Think about it
+B04.0006 [Iris] | Before you joined
+B04.0007 [Iris] | I wouldn't go so far as to say that
+B04.0008 [Iris] | our finances were in a death spiral
+B04.0009 [Iris] | but we were seriously poor
+B04.0010 [Tú] | That's true
+B04.0011 [Tú] | When you three brought me out of the Monolith
+B04.0012 [Tú] | You kept saying
+B04.0013 [Tú] | "We were about to go broke."
+B04.0014 [Iris] | Yes!
+B04.0015 [Iris] | But afterwards
+B04.0016 [Iris] | Even though now we have one more mouth to feed
+B04.0017 [Iris] | And adding up all the daily expenses
+B04.0018 [Iris] | Our quality of life actually keeps improving?
+B04.0019 [Opción] | Maybe you imagined some of the bad stuff
+B04.0020 [Opción] | We've been doing pretty well on commissions lately
+B04.0021 [Iris] | That could be true, yeah
+B04.0022 [Iris] | But after you joined, we definitely started making more money
+B04.0023 [Iris] | And more friends
+B04.0024 [Iris] | I guess what I'm trying to say is
+B04.0025 [Iris] | Thank you, ==PLAYER_NAME==
+
+## Conversación B05
+B05.0001 [Iris] | The client from a few days ago was really generous
+B05.0002 [Iris] | We even got paid extra, did not expect that
+B05.0003 [Tú] | How much in total?
+B05.0004 [Iris] | Almost 100 thousand Dorra
+B05.0005 [Opción] | I want a feast!
+B05.0006 [Opción] | I want to go shopping!
+B05.0007 [Opción] | We should save it
+B05.0008 [Iris] | But... I was planning on saving this money
+B05.0009 [Iris] | But... I was planning on saving this money
+B05.0010 [Iris] | Yeah, that's how I feel as well
+B05.0011 [Iris] | But we worked really hard for such a big payout
+B05.0012 [Iris] | Feels wrong to not celebrate it properly
+B05.0013 [Tú] | How about we use some of the money
+B05.0014 [Tú] | And have a nice meal together
+B05.0015 [Tú] | We can either have Noya make it or go to a restaurant
+B05.0016 [Iris] | Hmm...
+B05.0017 [Iris] | Let's do what you say, ==PLAYER_NAME==
+
+## Conversación B06
+B06.0001 [Iris] | 111
+B06.0002 [Opción] | What is it?
+B06.0003 [Opción] | What happened!
+B06.0004 [Iris] | I'm doing the guild's budget for next month
+B06.0005 [Iris] | Is there anything special that you need, ==PLAYER_NAME==?
+B06.0006 [Opción] | Special?
+B06.0007 [Opción] | Not at the moment
+B06.0008 [Iris] | Things that should be bought with guild fund
+B06.0009 [Iris] | Like Loxy's maintenance fluid, or exploration gear
+B06.0010 [Iris] | Then I'll go ask Noya and Amber
+B06.0011 [Tú] | Why are you asking this all the sudden?
+B06.0012 [Iris] | Because it's been a while since our last supply run
+B06.0013 [Iris] | We should restock and do proper maintenance
+B06.0014 [Iris] | And it's gonna cost quite a bit
+B06.0015 [Iris] | So we need to make a plan
+B06.0016 [Tú] | I see
+B06.0017 [Tú] | You're working so hard, Iris
+B06.0018 [Iris] | If you need something, ==PLAYER_NAME==
+B06.0019 [Iris] | Just send me a list
+B06.0020 [Tú] | Okay

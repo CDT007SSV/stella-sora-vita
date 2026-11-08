@@ -1,0 +1,230 @@
+# Heartlink de Chaton: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Chaton] | Here! My contact info.
+A01.0002 [Chaton] | Don't you dare delete it!
+A01.0003 [Opción] | Got it, great Chaton.
+A01.0004 [Opción] | Who are you?
+A01.0005 [Chaton] | Hmph. Just what I'd expect from a fellow wielder of the dark power.
+A01.0006 [Chaton] | HUH?!!!
+A01.0007 [Chaton] | It's ME, THE GREAT CHATION!!!!
+A01.0008 [Chaton] | Anyway!
+A01.0009 [Chaton] | I'll hit you up if I need anything.
+A01.0010 [Chaton] | Don't delete me!
+
+## Conversación A02
+A02.0001 [Chaton] | Hey! Guess what the great Chaton is up to right now?
+A02.0002 [Chaton] | I just smashed my own record in the Monolith!
+A02.0003 [Chaton] | Pretty amazing, right?!
+A02.0004 [Chaton] | Just as I thought—the only one who can beat me is myself!
+A02.0005 [Chaton] | Well? Are you bowing down in awe yet?
+A02.0006 [Opción] | ... You pretty much said it all yourself.
+A02.0007 [Chaton] | What? You got a problem with that?
+A02.0008 [Chaton] | That's because you take forever to reply!
+A02.0009 [Chaton] | A Tyrant can't be this bad at texting, you know?
+A02.0010 [Chaton] | If you go up against someone as fast as me...
+A02.0011 [Chaton] | You won't even be able to get a word in
+A02.0012 [Chaton] | See?
+A02.0013 [Chaton] | Literally speechless, hahahaha!
+A02.0014 [Tú] | ...
+A02.0015 [Tú] | Yeah, definitely.
+A02.0016 [Tú] | But anyway, congrats on breaking your record again.
+A02.0017 [Chaton] | ??????????
+A02.0018 [Chaton] | Wh-Why are you saying that all of a sudden?!
+A02.0019 [Chaton] | I'm gonna go celebrate! Done talking to you!
+A02.0020 [Tú] | ...?
+
+## Conversación A03
+A03.0001 [Chaton] | I tried a new game.
+A03.0002 [Chaton] | The games coming out of the Monolith lately are a total letdown.
+A03.0003 [Chaton] | Beat it without even trying.
+A03.0004 [Chaton] | Couldn't even hold the great Chaton's attention!
+A03.0005 [Tú] | That's just because you're too good.
+A03.0006 [Chaton] | ...
+A03.0007 [Tú] | ?
+A03.0008 [Chaton] | Obviously the great Chaton is the best!
+A03.0009 [Chaton] | Don't think flattery will get you anywhere!
+A03.0010 [Tú] | Yeah, yeah.
+A03.0011 [Tú] | Then here's hoping the next one actually gives the great Chaton a real challenge!
+A03.0012 [Chaton] | Oh, right!
+A03.0013 [Chaton] | Actually, there's one more game I haven't touched yet.
+A03.0014 [Chaton] | Pretty sure it's co-op.
+A03.0015 [Chaton] | When I boot it up, you're playing it with me!
+A03.0016 [Tú] | Wait, what?
+A03.0017 [Chaton] | It's settled!
+A03.0018 [Chaton] | If you dare stand me up...
+A03.0019 [Chaton] | I'll have the White Cat Troupe hunt you across the entire continent!
+
+## Conversación A04
+A04.0001 [Chaton] | The great Chaton read the stars tonight, and beheld a profound darkness looming in the cosmos!
+A04.0002 [Chaton] | Which is why I've decided to pull off something huge.
+A04.0003 [Opción] | ?? What are you up to?
+A04.0004 [Opción] | Isn't the night sky always dark?
+A04.0005 [Chaton] | Heh heh...
+A04.0006 [Chaton] | Let's go monster hunting!
+A04.0007 [Chaton] | No, no, no...
+A04.0008 [Chaton] | It's different! The darkness of dark power is like...
+A04.0009 [Chaton] | A brilliantly colorful black!
+A04.0010 [Chaton] | Anyway! It's just different!
+A04.0011 [Chaton] | So let's go monster hunting!
+A04.0012 [Tú] | Monster hunting?
+A04.0013 [Chaton] | What? Got your attention?
+A04.0014 [Chaton] | I knew the Tyrant shared my dark resonance!
+A04.0015 [Tú] | ...
+A04.0016 [Tú] | Sure, maybe...
+A04.0017 [Chaton] | Then what are we waiting for?
+A04.0018 [Chaton] | Hurry up and get out of Loxy!
+A04.0019 [Chaton] | Or I'm blowing it up!
+A04.0020 [Tú] | ?
+A04.0021 [Tú] | When did you even get here?
+A04.0022 [Chaton] | Just now!
+
+## Conversación A05
+A05.0001 [Chaton] | Heh heh! The great Chaton pulled off something EPIC today!
+A05.0002 [Opción] | What is it?
+A05.0003 [Opción] | What kind of trouble did you stir this time?
+A05.0004 [Opción] | Is Kasimira blowing you off again?
+A05.0005 [Chaton] | Hehe~
+A05.0006 [Chaton] | I taught those crooked shooting gallery scammers a lesson they won't forget!
+A05.0007 [Chaton] | The great Chaton is straight-up a hero today!
+A05.0008 [Chaton] | Hey! What's THAT supposed to mean?!
+A05.0009 [Chaton] | I saw something shady going down and had to step in!
+A05.0010 [Chaton] | I helped a little girl get her prize back from those dirty scammers!
+A05.0011 [Chaton] | This has NOTHING to do with Kasimira!
+A05.0012 [Chaton] | I was just walking past a street shooting gallery this afternoon
+A05.0013 [Chaton] | And decided to teach those cheating cheapskates a lesson!
+A05.0014 [Tú] | Oh? What exactly did you do?
+A05.0015 [Chaton] | Just called them out on their little scam.
+A05.0016 [Chaton] | And guess what else?
+A05.0017 [Chaton] | I wiped the floor with them!
+A05.0018 [Tú] | That's not exactly something to brag about!
+A05.0019 [Chaton] | You gotta hit 'em hard so they don't even think about trying it again.
+A05.0020 [Chaton] | A Tyrant like you gets that logic, right?
+A05.0021 [Tú] | Alright... You make a fair point...
+
+## Conversación A06
+A06.0001 [Chaton] | Yo Tyrant, you got any cash on you?
+A06.0002 [Chaton] | Bring me some.
+A06.0003 [Chaton] | Quick.
+A06.0004 [Chaton] | Meet me at that street we always hit up.
+A06.0005 [Opción] | Huh??? Is this some kind of ... scam?
+A06.0006 [Opción] | What's going on? Is everything alright??
+A06.0007 [Chaton] | It's NOT a scam, okay?!
+A06.0008 [Chaton] | Just get over here already!
+A06.0009 [Chaton] | Bring some Dorra.
+A06.0010 [Chaton] | I need about 100000.
+A06.0011 [Chaton] | Nothing! I just don't have enough cash on me!
+A06.0012 [Chaton] | Hurry up and get here!
+A06.0013 [Chaton] | I'll kick your butt if you're late!
+A06.0014 [Tú] | Alright, alright...
+A06.0015 [Tú] | But you could at least tell me what happened?
+A06.0016 [Chaton] | ...
+A06.0017 [Chaton] | My gun accidentally went off and shattered a dessert shop's window.
+A06.0018 [Chaton] | Do NOT tell anyone! Or I'll murder you!
+A06.0019 [Tú] | Accidentally...?
+A06.0020 [Chaton] | You gotta believe me! It really was an accident!
+A06.0021 [Chaton] | Anyway, just get over here NOW!!
+
+## Conversación A07
+A07.0001 [Chaton] | Tyrant
+A07.0002 [Chaton] | You know where Kasimira is?
+A07.0003 [Opción] | ???
+A07.0004 [Tú] | No idea. Why?
+A07.0005 [Chaton] | We were supposed to have a showdown at the training grounds today.
+A07.0006 [Chaton] | Is she seriously standing me up again?!
+A07.0007 [Tú] | Why are you always trying to duel Kasimira?
+A07.0008 [Chaton] | Hmph. Beating her is the only way I'll become the strongest in the White Cat Troupe!
+A07.0009 [Chaton] | And prove I'm worthy of my sacred title—the sole inheritor of the dark power within the White Cat Troupe
+A07.0010 [Tú] | ...
+A07.0011 [Tú] | You're always going on about being an "inheritor"
+A07.0012 [Tú] | So who exactly did you inherit this dark power from?
+A07.0013 [Tú] | Because there's no one else like you in the Troupe right now.
+A07.0014 [Chaton] | There used to be...
+A07.0015 [Chaton] | But for some reason, they aren't around anymore.
+A07.0016 [Chaton] | Which is exactly why the great Chaton has another important mission:
+A07.0017 [Chaton] | To act as the spark and restore the dark power to the White Cat Troupe!
+A07.0018 [Tú] | ... That makes absolutely zero sense.
+A07.0019 [Chaton] | ...
+A07.0020 [Chaton] | Whatever. I'm sick of waiting. I wanna go hang out in the Monolith.
+A07.0021 [Chaton] | Wanna come?
+A07.0022 [Opción] | I need to go, too?
+A07.0023 [Opción] | Alright, let's go.
+A07.0024 [Chaton] | Yeah.
+A07.0025 [Chaton] | Catch you at the usual spot then!
+A07.0026 [Chaton] | Don't take forever! Get going now!
+
+## Conversación A08
+A08.0001 [Chaton] | Seriously, you still haven't texted me?!
+A08.0002 [Chaton] | Don't tell me you actually forgot?!
+A08.0003 [Opción] | Forgot what?
+A08.0004 [Opción] | Ah... I was literally just about to text you.
+A08.0005 [Chaton] | Ugh, obviously!
+A08.0006 [Chaton] | It's the great Chaton's birthday!
+A08.0007 [Chaton] | So where's my present? And my birthday blessings?!
+A08.0008 [Chaton] | Oh, really?
+A08.0009 [Chaton] | Because if you weren't texting me for my birthday...
+A08.0010 [Chaton] | I'd show up right behind you with my rifle loaded...!
+A08.0011 [Tú] | You're so impatient. How am I supposed to surprise you now?
+A08.0012 [Chaton] | A surprise?!
+A08.0013 [Chaton] | Wait, you actually got me a surprise?!
+A08.0014 [Chaton] | Where is it?! What kind of present is it??
+A08.0015 [Tú] | Well, it's not a surprise if I just tell you!
+A08.0016 [Tú] | Anyway, Happy Birthday.
+A08.0017 [Tú] | As for your present, you'll have to come get it yourself!
+A08.0018 [Chaton] | Fine, since you actually put some effort in, the great Chaton shall forgive your insolence.
+A08.0019 [Chaton] | I expect cake today.
+A08.0020 [Chaton] | Make sure you've got some ready for me!
+
+## Conversación A09
+A09.0001 [Chaton] | Ugh, training is the worst...
+A09.0002 [Chaton] | I'm already practically invincible.
+A09.0003 [Chaton] | So why do I still have to do this?
+A09.0004 [Tú] | Where's this coming from?
+A09.0005 [Chaton] | The Troupe forces us to do these daily drills.
+A09.0006 [Chaton] | And some stupid "tactical assessment" every month...
+A09.0007 [Chaton] | As if the great Chaton needs any of that!
+A09.0008 [Opción] | You know what they say: keep your soldiers sharp for when it counts.
+A09.0009 [Opción] | Even the great Chaton has to keep leveling up her skills.
+A09.0010 [Chaton] | The great Chaton is no foot soldier!
+A09.0011 [Tú] | Careful, or your dark powers might start leaking away!
+A09.0012 [Chaton] | Yeah, right. I'm not falling for that.
+A09.0013 [Chaton] | I want actual combat, not these boring drills.
+A09.0014 [Chaton] | Like taking on the Wilds or the Monolith!
+A09.0015 [Tú] | Sure, but running live ops out there every single day...
+A09.0016 [Tú] | That would burn through your budget instantly, wouldn't it?
+A09.0017 [Chaton] | Budget?
+A09.0018 [Chaton] | What budget?
+A09.0019 [Tú] | Travel, rations, ammo...
+A09.0020 [Tú] | Plus, live combat takes all day. Think about it...
+A09.0021 [Tú] | You'd have zero time left for video games.
+A09.0022 [Chaton] | ...
+A09.0023 [Chaton] | Wait, hold on! I definitely need my gaming hours.
+A09.0024 [Chaton] | Maybe daily combat is a bad idea.
+
+## Conversación A10
+A10.0001 [Chaton] | Whoa! Is this...
+A10.0002 [Chaton] | The legendary...
+A10.0003 [Chaton] | Dark Power Crystal?!!!!!!!
+A10.0004 [Opción] | Uh... Yeah, let's go with that.
+A10.0005 [Opción] | Just kidding. It's really not.
+A10.0006 [Chaton] | Mmm... This music is amazing!
+A10.0007 [Chaton] | I don't believe you!
+A10.0008 [Chaton] | The music is way too good!
+A10.0009 [Chaton] | Excellent!
+A10.0010 [Chaton] | The great Chaton is pleased!
+A10.0011 [Chaton] | Name your reward, Tyrant!
+A10.0012 [Tú] | Reward?
+A10.0013 [Chaton] | Yep!
+A10.0014 [Chaton] | Well, since the Tyrant can't decide...
+A10.0015 [Chaton] | I'll just pick for you!
+A10.0016 [Chaton] | Your reward shall be—
+A10.0017 [Chaton] | Me doubling my efforts to help you reclaim your true dark power!
+A10.0018 [Tú] | Huh?
+A10.0019 [Chaton] | So let's go take on some commissions!
+A10.0020 [Chaton] | Bigger ones! Harder ones!
+A10.0021 [Chaton] | Commissions worthy of a true Tyrant!
+A10.0022 [Tú] | W-Wait hold on!!!!
+A10.0023 [Chaton] | I'm already at the Trekker Association! Hurry up and get over here, Tyrant!

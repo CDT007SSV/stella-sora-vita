@@ -1,0 +1,315 @@
+# Heartlink de Shimiao: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Shimiao] | I am Shimiao from Baize Bureau. Would you happen to be ==PLAYER_NAME==?
+A01.0002 [Opción] | Hi! Yes, it's me!
+A01.0003 [Opción] | Yes, ==PLAYER_NAME== reporting in
+A01.0004 [Shimiao] | Okay, now I can confirm that this is your number
+A01.0005 [Tú] | Why? Didn't we add each other face to face?
+A01.0006 [Shimiao] | Yeah, I remember that
+A01.0007 [Shimiao] | It's just protocols
+A01.0008 [Shimiao] | Lately, monsters have been spotted in the wilderness around Cang Wu City
+A01.0009 [Shimiao] | So stay sharp out there
+A01.0010 [Tú] | I see, thanks for the heads-up
+A01.0011 [Shimiao] | I look forward to working with you
+
+## Conversación A02
+A02.0001 [Shimiao] | Reminder from [Baize Bureau]: If you encounter someone claiming to be a Xuan Shi master of feng shui or fortune-telling, please verify their identity with care.
+A02.0002 [Shimiao] | Scams such as "paying to change your fate" or "advance payments required" are common. Please stay vigilant and stay on your guard!
+A02.0003 [Opción] | How would I verify that?
+A02.0004 [Opción] | Cancel
+A02.0005 [Shimiao] | An official Xuan Shi should have a graduation certificate from their Xuanist Association. You may ask them for their registered ID
+A02.0006 [Shimiao] | Once you have the number, send it to Baize Bureau's official number. The on-duty staff for the day will verify its authenticity
+A02.0007 [Tú] | Can I just send it to you directly?
+A02.0008 [Shimiao] | Of course.
+A02.0009 [Shimiao] | Raising fraud awareness is a public duty
+A02.0010 [Tú] | Alright, alright, I get it!
+A02.0011 [Tú] | With someone as responsible as Shimiao... No wonder everyone has such a great impression of Cang Wu!
+A02.0012 [Shimiao] | No, it's not because of me. It's thanks to everyone who lives here.
+A02.0013 [Shimiao] | And... Thank you.
+A02.0014 [Tú] | Hehe, last time we didn't get a chance to fully experience it
+A02.0015 [Tú] | Next time, we must go on an in-depth tour of Cang Wu!
+A02.0016 [Tú] | But first, we have to save enough money
+A02.0017 [Shimiao] | Good luck with that
+
+## Conversación A03
+A03.0001 [Shimiao] | ==PLAYER_NAME==, the Bureau recently received a banner of commendation.
+A03.0002 [Shimiao] | It read, "Shimiaovelous!"
+A03.0003 [Shimiao] | Signed, "Anonymous Passerby Trekker"
+A03.0004 [Shimiao] | Was it from you?
+A03.0005 [Opción] | Bingo
+A03.0006 [Opción] | Oi? I don't remember such a thing
+A03.0007 [Opción] | Nah, not me. I swear!
+A03.0008 [Tú] | Of course, there was a reason for that
+A03.0009 [Tú] | Oi? Oi oi oi? I don't remember such a thing
+A03.0010 [Shimiao] | You look like you're lying.
+A03.0011 [Tú] | Oh well, busted!
+A03.0012 [Shimiao] | Ah, so it is you.
+A03.0013 [Tú] | Somebody asked me to send that. Somebody who wished to remain anonymous
+A03.0014 [Tú] | You really helped her out and she wanted to thank you
+A03.0015 [Tú] | But she couldn't come visit Cang Wu, so I gave her an idea
+A03.0016 [Shimiao] | You mean, the banner of commendation?
+A03.0017 [Tú] | I suggested that she make a banner of commendation and then get a Post Haste courier to deliver it to Cang Wu
+A03.0018 [Tú] | This way, even though she can't come to thank you in person, she is still able to properly express her gratitude, right?
+A03.0019 [Shimiao] | ...
+A03.0020 [Shimiao] | ...Alright, I truly appreciate the thought, but there's no need to send a banner next time
+A03.0021 [Tú] | But banners are like kudos! Those who do good things should be properly recognized!
+A03.0022 [Shimiao] | Fine. But please, use less dramatic terms next time
+A03.0023 [Shimiao] | Now my colleagues keep calling me "Shimiaovelous"
+A03.0024 [Opción] | Would pay to see that.
+A03.0025 [Opción] | Got a video? I want to verify that.
+A03.0026 [Shimiao] | You'd enjoy that, wouldn't you?
+
+## Conversación A04
+A04.0001 [Shimiao] | I heard that Mirage is a city famous for its love of spicy food?
+A04.0002 [Opción] | You are interested, Shimiao?
+A04.0003 [Opción] | Mirage's love of spice is known far and wide
+A04.0004 [Tú] | That much is true. You are interested, Shimiao?
+A04.0005 [Tú] | It seems Mirage's fame for spiciness has traveled far and wide, even reaching the people of Cang Wu!
+A04.0006 [Shimiao] | It just so happens that Fenghuang Diner is holding this competition called "No Spice No Life."
+A04.0007 [Tú] | ...
+A04.0008 [Shimiao] | They're soliciting opinions from restaurant-goers.
+A04.0009 [Shimiao] | Especially the customers who frequent the ultra-spicy hotpot restaurants in the city—they all received a questionnaire.
+A04.0010 [Tú] | So eating spicy food is one of your hobbies, Shimiao?
+A04.0011 [Shimiao] | Well, it's a bit complicated, but I do frequent hotpot restaurants a lot.
+A04.0012 [Shimiao] | The questionnaire asked whether they would be willing to try specialty foods from other cities, such as Mirage's ultra-spicy wrap.
+A04.0013 [Shimiao] | So I'm thinking, if Fenghuang Diner really ends up inviting Mirage's restaurants to Cang Wu for the event...
+A04.0014 [Shimiao] | The Bureau and the Loong Guards must make plans for the occasion.
+A04.0015 [Tú] | You are planning so far ahead...
+A04.0016 [Shimiao] | Better safe than sorry.
+A04.0017 [Shimiao] | We've got a saying in Cang Wu: Failing to plan is planning to fail
+A04.0018 [Shimiao] | Anything you do, preparation leads to success, while a lack of preparation leads to failure.
+A04.0019 [Shimiao] | ==PLAYER_NAME==, if you are interested in Loong sayings, you can refer to this book, "Loong Proverbs and Idioms: A Compendium."
+
+## Conversación A05
+A05.0001 [Opción] | Who are you! Why are you using such cute emoji stickers!
+A05.0002 [Tú] | You are not the Shimiao I know!
+A05.0003 [Shimiao] | That wasn't me.
+A05.0004 [Shimiao] | It's my day off. I'm tutoring the neighbor's kid. She took my phone when I wasn't paying attention.
+A05.0005 [Shimiao] | And...sent you a bunch of things.
+A05.0006 [Shimiao] | Sorry.
+A05.0007 [Opción] | Your emoji stickers were really cute
+A05.0008 [Opción] | Send me more
+A05.0009 [Tú] | Your emoji stickers were really cute~
+A05.0010 [Tú] | I'm shocked! I cannot imagine you had saved emoji stickers like those
+A05.0011 [Tú] | Send them to me! Even I don't have those!
+A05.0012 [Tú] | I'm shocked! I cannot imagine you had saved emoji stickers like those
+A05.0013 [Shimiao] | These are from my colleagues at the bureau. They use them a lot when they're chatting with each other
+A05.0014 [Shimiao] | And you seem to like them, too.
+A05.0015 [Tú] | Sending an emoji every now and then makes the conversation feel way more relaxed
+A05.0016 [Shimiao] | I see...
+A05.0017 [Tú] | You should use them, too, Shimiao! You have so many saved already!
+A05.0018 [Shimiao] | I was thinking about that... So...
+A05.0019 [Shimiao] | Could I practice using them on you?
+A05.0020 [Shimiao] | Until I can master the timing of emoji sticker usage.
+A05.0021 [Tú] | Sure thing! I'm calling it right now—you'll love them so much that you won't be able to have a phone convo without them!
+
+## Conversación A06
+A06.0001 [Shimiao] | Aobelle's tour seems to be adding another show in Cang Wu.
+A06.0002 [Opción] | Since you said it, Shimiao, it must be happening!
+A06.0003 [Opción] | Really?
+A06.0004 [Tú] | Since you said, Shimiao, I’m sure it’s true!
+A06.0005 [Shimiao] | Thank you for trusting in me.
+A06.0006 [Tú] | Eh eh eh? Really? Really?!
+A06.0007 [Shimiao] | Yes. We've received a permit application from Aobelle's team and are already drafting a crowd control plan for the event
+A06.0008 [Tú] | It is good to see you are using the emoji stickers so fluently now...
+A06.0009 [Tú] | There's nothing left for me to teach you, Shimiao!
+A06.0010 [Shimiao] | Recently, my colleagues at the bureau have been initiating conversations with me much more frequently than before
+A06.0011 [Shimiao] | Of course, only on phone
+A06.0012 [Shimiao] | They prefer to communicate with me via phone
+A06.0013 [Tú] | After all... You do look very intimidating in person!
+A06.0014 [Tú] | A journey of a thousand miles begins with a single step... I'm using that saying correctly, right?
+A06.0015 [Shimiao] | Your mastery of Loong sayings puts the preschoolers in Cang Wu to shame
+A06.0016 [Tú] | ...Go me!
+
+## Conversación A07
+A07.0001 [Shimiao] | I'm going to buy some tools to put into my Multifunction Ruler Box tomorrow.
+A07.0002 [Opción] | Shimiao's Miaovelous Sword!
+A07.0003 [Opción] | What is a sword-shaped Multifunction Ruler Box?
+A07.0004 [Tú] | It's known as Shimiao's Miaovelous Sword!
+A07.0005 [Shimiao] | Fine, it's Shimiao's Miaovelous Sword then.
+A07.0006 [Tú] | I know it only by Shimiao's Miaovelous Sword!
+A07.0007 [Shimiao] | Fine, it's Shimiao's Miaovelous Sword then.
+A07.0008 [Shimiao] | So if there's anything you want put into it, let me know and I'll buy it
+A07.0009 [Tú] | What about snacks?
+A07.0010 [Tú] | That way we can munch on them whenever we want!
+A07.0011 [Shimiao] | In theory, the storage box can hold anything
+A07.0012 [Shimiao] | That includes snacks
+A07.0013 [Shimiao] | Please make a list of snacks you want to eat. I'll try to buy everything I can find here in Cang Wu for you
+A07.0014 [Tú] | Shimiao... Shimiao... Right now, you're as amazing as that amazing Blue Round-Headed Cat!
+A07.0015 [Shimiao] | A Blue Round-Headed Cat? What's that?
+A07.0016 [Tú] | It's the protagonist of a Monolith movie
+A07.0017 [Tú] | It can pull out all sorts of things from its pocket to solve problems for its friends!
+A07.0018 [Shimiao] | Sounds interesting
+A07.0019 [Shimiao] | Next time, take me to see that movie too, please?
+A07.0020 [Tú] | It's a deal then—no backing out, okay?
+
+## Conversación A08
+A08.0001 [Shimiao] | ==PLAYER_NAME==, Iris has told me of your plan
+A08.0002 [Opción] | Huh? What are you talking about?
+A08.0003 [Opción] | No... Iris...
+A08.0004 [Tú] | No... Iris... How did she spoil the surprise?
+A08.0005 [Shimiao] | She didn't mean to...
+A08.0006 [Shimiao] | We were having dessert together. She said you want her to pick out a cake
+A08.0007 [Tú] | Yeah, I did ask for her help
+A08.0008 [Tú] | Fine. I was trying to pick a birthday cake for you
+A08.0009 [Tú] | Look!!!
+A08.0010 [Shimiao] | Uh, it's... It's nice
+A08.0011 [Tú] | The photo doesn't do it justice
+A08.0012 [Tú] | This flower on the cake can spin while playing the birthday song!
+A08.0013 [Tú] | This is the most unique birthday cake in the entire continent, bar none
+A08.0014 [Tú] | You should be getting it soon!
+A08.0015 [Shimiao] | Ah... I am hearing the doorbell
+A08.0016 [Shimiao] | ...
+A08.0017 [Shimiao] | ...
+A08.0018 [Shimiao] | The entire office has gathered around me to watch the cake
+A08.0019 [Shimiao] | The cake is great but I have just one question
+A08.0020 [Shimiao] | How can I turn this flower off? It doesn't seem to stop
+A08.0021 [Tú] | Haha, I forgot to tell you...
+A08.0022 [Tú] | It will only stop the music and the spinning when it runs out of magic power
+A08.0023 [Shimiao] | How long would that take?
+A08.0024 [Tú] | This one is the super long-lasting model; I heard it can spin for three days and nights straight!
+A08.0025 [Shimiao] | Okay. This is truly the most unique birthday cake in the entire continent, bar none
+
+## Conversación A09
+A09.0001 [Shimiao] | New Star Guild's training method is right on par with the large guilds
+A09.0002 [Opción] | How can you tell?
+A09.0003 [Shimiao] | For example, just now, Noya suddenly stepped into the trap you had set up
+A09.0004 [Shimiao] | It helped honing everyone's trap-disarming skills
+A09.0005 [Shimiao] | And then there's Amber, leading everyone in tracking the migration of Shrubshews family through these woods
+A09.0006 [Tú] | Ahaha...
+A09.0007 [Tú] | It's as you say. All these were planned training exercises...
+
+## Conversación A10
+A10.0001 [Shimiao] | I wrote a letter to my sister yesterday
+A10.0002 [Opción] | Huh, that came out of nowhere
+A10.0003 [Shimiao] | It's because of the Disc that you gave me...
+A10.0004 [Tú] | It brought back memories?
+A10.0005 [Shimiao] | Yes.
+A10.0006 [Shimiao] | I was attending my sister's graduation ceremony along with my parents
+A10.0007 [Shimiao] | She was Yanquan Academy's top graduate of her grade. She even gave a speech as the student representative
+A10.0008 [Tú] | Wow, your whole family is so accomplished!
+A10.0009 [Shimiao] | I could never compare to my sister
+A10.0010 [Shimiao] | She's pretty famous in Cang Wu. She gets a lot of attention
+A10.0011 [Shimiao] | My parents are very proud of my sister.
+A10.0012 [Opción] | And I'm sure now they're very proud of you, too, Shimiao!
+A10.0013 [Shimiao] | Haha.
+A10.0014 [Shimiao] | I wasn't looking for someone to comfort me, but thank you
+A10.0015 [Shimiao] | It's just that the Disc brought back these memories for me
+
+## Conversación B01
+B01.0001 [Shimiao] | There was an incident in Cangwu today.
+B01.0002 [Shimiao] | A kid accidentally threw a firecracker into someone's yard and set some stuff on fire.
+B01.0003 [Opción] | That's super dangerous!
+B01.0004 [Shimiao] | Luckily they noticed it fast, and the yard didn't have much in it, so the damage wasn't too bad.
+B01.0005 [Tú] | That really is a relief.
+B01.0006 [Tú] | It's been so dry lately, we all need to be careful.
+B01.0007 [Shimiao] | I thought the same, so I drafted a proposal today to run some fire-safety campaigns in Cangwu to raise awareness.
+B01.0008 [Shimiao] | Although...
+B01.0009 [Tú] | Yeah?
+B01.0010 [Shimiao] | If they end up putting me in charge of it, then I...
+B01.0011 [Shimiao] | I don't know.
+B01.0012 [Tú] | Don't worry. I know you, Shimiao, and I know you'll be fine!
+B01.0013 [Shimiao] | Really...?
+B01.0014 [Shimiao] | If even you say so, ==PLAYER_NAME==, then I'll believe I can do it!
+
+## Conversación B02
+B02.0001 [Shimiao] | This month's bulletin board has been completed.
+B02.0002 [Shimiao] | Should you need to, please review it at the community notice board.
+B02.0003 [Tú] | ?
+B02.0004 [Tú] | What's this?
+B02.0005 [Sistema] | Ten minutes later...
+B02.0006 [Shimiao] | Eh, wrong person?
+B02.0007 [Shimiao] | Oh... Can't unsend.
+B02.0008 [Shimiao] | Sorry, ==PLAYER_NAME==, that was supposed to go to my supervisor.
+B02.0009 [Opción] | I thought you were inviting me to review your work
+B02.0010 [Opción] | Even you send messages to the wrong person, huh
+B02.0011 [Shimiao] | Um...
+B02.0012 [Shimiao] | You are welcome to, if you'd like.
+B02.0013 [Shimiao] | I was too busy just now, I didn't look at the avatar.
+B02.0014 [Tú] | Still, I didn't know you could draw stuff for those bulletin boards.
+B02.0015 [Shimiao] | It's nothing special, but if you'd like to see it, come over.
+B02.0016 [Tú] | Really? Then I'm coming.
+B02.0017 [Shimiao] | You mean... Now?
+B02.0018 [Tú] | Is this a bad time?
+B02.0019 [Shimiao] | No, it's not. Come, please.
+
+## Conversación B03
+B03.0001 [Shimiao] | I'd like to ask you something, ==PLAYER_NAME==.
+B03.0002 [Tú] | Yeah?
+B03.0003 [Tú] | What is it?
+B03.0004 [Shimiao] | Do I ... look scary?
+B03.0005 [Opción] | No...?
+B03.0006 [Opción] | You do look a bit serious.
+B03.0007 [Tú] | Why do you ask?
+B03.0008 [Shimiao] | So I guess it's true...
+B03.0009 [Tú] | Uh, what do you mean?
+B03.0010 [Shimiao] | A senior told me today my expression is too serious.
+B03.0011 [Shimiao] | When I stand next to the supply post, I don't look like I'm giving out goods, I look like I'm hunting criminals.
+B03.0012 [Tú] | Bwahahahahahahaha—
+B03.0013 [Shimiao] | I knew it...
+B03.0014 [Tú] | No no, that's not it!
+B03.0015 [Tú] | It's just that once you said it, I suddenly pictured it...
+B03.0016 [Tú] | Being serious isn't a bad thing!
+B03.0017 [Shimiao] | Really?
+B03.0018 [Tú] | Really!
+
+## Conversación B04
+B04.0001 [Shimiao] | ==PLAYER_NAME==... Help!
+B04.0002 [Tú] | What's wrong?!
+B04.0003 [Shimiao] | A huge cockroach showed up in my office!
+B04.0004 [Shimiao] | What do I do...?
+B04.0005 [Tú] | Eh? A cockroach?
+B04.0006 [Tú] | Wait for me, I'll come over and deal with it!
+B04.0007 [Shimiao] | Ah
+B04.0008 [Tú] | What happened?! Are you okay?!
+B04.0009 [Shimiao] | It's fine, you don't have to come anymore...
+B04.0010 [Tú] | ?
+B04.0011 [Shimiao] | It suddenly flew up, I freaked out, grabbed something and threw at it.
+B04.0012 [Shimiao] | I think... I killed it...
+B04.0013 [Tú] | Glad to hear it.
+B04.0014 [Tú] | Didn't expect you to be scared of bugs, though. I thought you were absolutely fearless.
+B04.0015 [Shimiao] | Hmm...
+B04.0016 [Shimiao] | They look gross, so...
+B04.0017 [Shimiao] | But if you're scared of them, too, then even if it's gross, I'll still try my best to protect you.
+
+## Conversación B05
+B05.0001 [Tú] | Shimiao? What's going on?
+B05.0002 [Shimiao] | Lemme tell you this, ==PLAYER_NAME==.
+B05.0003 [Shimiao] | I HAVE
+B05.0004 [Shimiao] | MASTERED CHILI PEPPERS!!!
+B05.0005 [Shimiao] | From this day on, I shall be known as Shimiao, Conqueror of All Chili Peppers!
+B05.0006 [Tú] | ??????
+B05.0007 [Tú] | What are you talking about?
+B05.0008 [Tú] | Are you eating that ultra-spicy hotpot again?
+B05.0009 [Shimiao] | Strange.
+B05.0010 [Shimiao] | I didn't even tell you yet.
+B05.0011 [Shimiao] | How did you know...
+B05.0012 [Shimiao] | You really are amazing, Boss.
+B05.0013 [Tú] | You're drunk on peppers again, aren't you...
+B05.0014 [Tú] | Stay where you are, I'm coming to pick you up.
+B05.0015 [Shimiao] | I'm not driml@#￥%...
+B05.0016 [Tú] | Okay okay, you're not drunk
+B05.0017 [Tú] | Just sit still and don't run off!
+
+## Conversación B06
+B06.0001 [Shimiao] | I'd like to ask you something, ==PLAYER_NAME==.
+B06.0002 [Tú] | Yes? What is it?
+B06.0003 [Shimiao] | I ordered some chili peppers a few days ago, and the shipment just arrived at my door.
+B06.0004 [Tú] | Chili peppers?
+B06.0005 [Shimiao] | Yes... Lots and lots of chili peppers...
+B06.0006 [Tú] | Oh I get it, you want me to help you portion and store them
+B06.0007 [Tú] | Like the ones I saw at your place last time.
+B06.0008 [Shimiao] | No, when I placed the order, I accidentally entered two extra 0s...
+B06.0009 [Shimiao] | I now have 100 pounds of chili peppers at my door...
+B06.0010 [Tú] | ... What?
+B06.0011 [Shimiao] | Can you think of something... anything to help me...
+B06.0012 [Tú] | Uhh...
+B06.0013 [Tú] | Then... Why not sell them to the hotpot restaurant?
+B06.0014 [Tú] | They need tons of chili peppers for spicy dishes, right?
+B06.0015 [Shimiao] | Good idea!
+B06.0016 [Shimiao] | You are so reliable, ==PLAYER_NAME==!
+B06.0017 [Shimiao] | Thanks!
