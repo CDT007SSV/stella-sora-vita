@@ -145,7 +145,8 @@ for chn in sorted(bych):
     if not lua:continue
     pre=sorted(lua)[0].split('_')[0];m=re.fullmatch(r'STm(\d+)(x5)?',pre)
     if not m:continue
-    dg=int(m.group(1));dg=dg//1000 if dg>=1000 else dg;num=str(dg)+('.5' if m.group(2) else '')
+    dg=int(m.group(1));esp=m.group(2) or dg>=1000
+    dg=dg//1000-1 if dg>=1000 else dg;num=str(dg)+('.5' if esp else '')  # los especiales de historia principal (STm10001...) son el capitulo anterior + .5
     ttl=TES.get(num) or TEN.get(num) or ''
     head=('Capítulo '+num if '.' not in num else 'Especial '+num)+(' · '+ttl if ttl else '')
     byid={v['StoryId']:v for v in st};chap_lines=[]
