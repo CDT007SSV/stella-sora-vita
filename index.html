@@ -428,6 +428,17 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 #bgmbar .bgm-pp{background:rgba(255,255,255,.14);color:#fff;min-width:44px}#bgmbar .bgm-st{background:#e0556f;color:#fff}
 body.bgm-on .screen{padding-bottom:84px}
 </style>
+<style id="glass">
+/* Botones de navegacion con estilo vidrio esmerilado (todos iguales) */
+.nsearch,.nbell,.topbar>button:first-child,.tm-bk,.back-story,#bk{
+ background:linear-gradient(145deg,rgba(255,255,255,.18),rgba(255,255,255,.05))!important;
+ border:1px solid rgba(255,255,255,.2)!important;color:#e9e5ff!important;
+ -webkit-backdrop-filter:blur(12px) saturate(150%);backdrop-filter:blur(12px) saturate(150%);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 4px 14px rgba(0,0,0,.28)}
+.topbar>button:first-child,.back-story,#bk{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;padding:0;font-size:1.3rem;line-height:1}
+.tm-bk{display:inline-flex;align-items:center;border-radius:12px;padding:8px 14px;margin-bottom:10px;font-size:.9rem}
+.nsearch:active,.nbell:active,.topbar>button:first-child:active,.tm-bk:active{background:linear-gradient(145deg,rgba(255,255,255,.28),rgba(255,255,255,.1))!important}
+</style>
 </head>
 <body class="home">
 <div id="splash" onclick="this.classList.add('out')"><b>Stella Sora</b><span></span><div class="vw"><u></u><u></u><u></u><u></u><u></u><u></u><u></u><u></u><u></u></div><i>VITA</i><em class="betab">BETA</em></div>
