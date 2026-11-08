@@ -8,6 +8,7 @@ import json, os, re, time, urllib.parse, urllib.request
 
 TOK = re.compile(r"(==[A-Za-z_]+==|<[^>]*>|\[[^\]]*\]|\\n|\n|⟦\d+⟧|[⟨⟩]|https?://\S+|\{[^}]*\})")
 CACHE = {}
+BLOQUEADO = [False]
 
 def gtx(s):
     """prueba varios servidores gratuitos y reintenta con pausa si responden 429"""
@@ -16,8 +17,9 @@ def gtx(s):
     urls = ["https://translate.googleapis.com/translate_a/single?" + q,
             "https://clients5.google.com/translate_a/t?" + q2,
             "https://translate.google.com/translate_a/single?" + q]
+    if BLOQUEADO[0]: raise RuntimeError("traductor bloqueado")
     err = None
-    for ronda in range(3):
+    for ronda in range(2):
         for u in urls:
             try:
                 r = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36"})
@@ -30,7 +32,8 @@ def gtx(s):
                 if d and isinstance(d[0], list) and d[0] and isinstance(d[0][0], str): return "".join(d[0])
             except Exception as ex:
                 err = ex
-        time.sleep(20 * (ronda + 1))
+        time.sleep(15)
+    BLOQUEADO[0] = True
     raise err or RuntimeError("sin respuesta")
 
 def trozo(s):
