@@ -6,7 +6,7 @@ const emo=id=>SS+"avgphoneemojimsg/"+id+".webp",pic=id=>SS+"avgphoneimagemsg/"+i
 const tx=s=>e(String(s||"").replace(/==PLAYER_NAME==/g,PN).replace(/<[^>]*>/g,"")).replace(/\\n/g,"<br>");
 let IDX=null,PR=null;const DC={},TR={};
 (function css(){const s=document.createElement("style");s.textContent=`
-.hlbar{margin-top:0}
+.stbar-row{display:flex;gap:8px;align-items:stretch;margin:6px 12px}.stbar-row .stbar{flex:1;width:auto;margin:0;min-width:0}.stbar-row .stbar .sb-a{display:none}.stbar-row .stbar b{font-size:.88rem}
 .hl{max-width:520px;margin:0 auto;padding:4px 0 30px}
 .hl-ph{border-radius:26px;border:3px solid #3b5bb5;background:linear-gradient(180deg,#eef4ff,#dfe9ff);color:#24366b;overflow:hidden;box-shadow:0 8px 30px rgba(20,30,90,.45)}
 .hl-h{display:flex;align-items:center;gap:10px;padding:14px 16px 8px}
@@ -114,5 +114,5 @@ async function vChat(cid,gi){
   run();
 }
 window.hlShow=function(){vList()};
-const b=document.getElementById("hlbar");if(b)b.onclick=()=>{if(typeof go==="function")go("heartlink")};
+const b=document.getElementById("hlbar");if(b)b.onclick=()=>{if(typeof nav==="function")nav("heartlink")};
 })();

@@ -576,7 +576,6 @@ window.__meta=fetch("lector-meta.json",{cache:"no-cache"}).then(r=>r.ok?r.json()
 window.abrirLector=async function(id){try{await window.__meta}catch(e){}
   build();
   try{const st=document.getElementById("bgm-st");if(st&&document.getElementById("bgmbar").classList.contains("on"))st.click()}catch(e){}
-  try{const de=document.documentElement;if(de.requestFullscreen)await de.requestFullscreen({navigationUI:"hide"})}catch(e){}
   try{if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock("landscape")}catch(e){}
   let pr=null;try{pr=localStorage.getItem("rdp"+chOf(id))}catch(e){}
   await iniciar(id,null,!!CAPS[chOf(id)]);
