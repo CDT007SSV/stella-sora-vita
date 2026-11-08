@@ -10,12 +10,28 @@ TOK = re.compile(r"(==[A-Za-z_]+==|<[^>]*>|\[[^\]]*\]|\\n|\n|⟦\d+⟧|[⟨⟩]|
 CACHE = {}
 
 def gtx(s):
+    """prueba varios servidores gratuitos y reintenta con pausa si responden 429"""
     q = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "es", "dt": "t", "q": s})
-    r = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + q, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(r, timeout=20) as f:
-        d = json.loads(f.read().decode())
-    time.sleep(0.15)
-    return "".join(x[0] for x in d[0] if x and x[0])
+    q2 = urllib.parse.urlencode({"client": "dict-chrome-ex", "sl": "auto", "tl": "es", "dt": "t", "q": s})
+    urls = ["https://translate.googleapis.com/translate_a/single?" + q,
+            "https://clients5.google.com/translate_a/t?" + q2,
+            "https://translate.google.com/translate_a/single?" + q]
+    err = None
+    for ronda in range(3):
+        for u in urls:
+            try:
+                r = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36"})
+                with urllib.request.urlopen(r, timeout=20) as f:
+                    d = json.loads(f.read().decode())
+                time.sleep(0.4)
+                if d and isinstance(d[0], list) and d[0] and isinstance(d[0][0], list):
+                    return "".join(x[0] for x in d[0] if x and x[0])
+                if d and isinstance(d[0], str): return d[0]
+                if d and isinstance(d[0], list) and d[0] and isinstance(d[0][0], str): return "".join(d[0])
+            except Exception as ex:
+                err = ex
+        time.sleep(20 * (ronda + 1))
+    raise err or RuntimeError("sin respuesta")
 
 def trozo(s):
     if not re.search(r"[A-Za-z]{3}", s): return s
