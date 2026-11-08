@@ -159,6 +159,7 @@ let root,T=null,mode="list";
 .tm-lvc{background:#221E3A;border-radius:7px;padding:2px 7px;font-size:.7rem;font-weight:800;white-space:nowrap}
 .tm-pr-c{background:#ff6ec7;color:#1a0b18}.tm-pr-m{background:#a78bfa;color:#140a2b}.tm-pr-o{background:#4b4870;color:#ddd}
 .tm-tg{border-radius:7px;padding:2px 7px;font-size:.66rem;font-weight:800;white-space:nowrap}
+.tm-sy{font-size:.88rem;margin:4px 0;line-height:1.35}.tm-sy.ok{color:#5fe0a0}.tm-sy.w{color:#ffcf6a}.tm-sy.i{color:#cfc8ff}.tm-sg{font-size:.82rem;color:var(--t2);margin:3px 0 3px 14px}.tm-sg b{color:#cfc8ff;font-weight:600}
 .tm-hint{font-size:.8rem;color:var(--t2);margin:2px 0 4px}
 .tm-dh{display:flex;align-items:baseline;justify-content:space-between;padding:12px 12px 6px}.tm-dh b{font-size:1rem}.tm-dh small{color:var(--t2);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 .tm-dg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 12px 10px}
@@ -461,6 +462,34 @@ async function imagen2(){
   };
 }
 
+
+/* ---------- sinergia: mono-elemental + Vanguard / Versatil / Apoyo ---------- */
+const RN={Vanguard:"Vanguard",Versatile:"Versátil",Support:"Apoyo"},RO=["Vanguard","Versatile","Support"];
+function synergy(){
+  const ch=T.slots.map(x=>charOf(x.c)).filter(Boolean);if(!ch.length)return"";
+  const cnt={};ch.forEach(c=>cnt[c.element]=(cnt[c.element]||0)+1);
+  let dom=ch[0].element;for(const k in cnt)if(cnt[k]>cnt[dom])dom=k;
+  const L=[],full=ch.length===3,mono=cnt[dom]===ch.length;
+  if(mono&&full)L.push(["ok",`Equipo mono-elemental (${dom})`]);
+  else if(mono)L.push(["ok",`Todos son ${dom}: buen camino a mono-elemental`]);
+  else{const f=ch.filter(c=>c.element!==dom).map(c=>`${c.name} (${c.element})`).join(", ");L.push(["w",`No es mono-elemental. Fuera de ${dom}: ${f}`])}
+  const on=ch.filter(c=>c.element===dom),have=on.map(c=>c.role),miss=RO.filter(r=>!have.includes(r));
+  if(full&&!miss.length&&mono)L.push(["ok","Composición completa: Vanguard + Versátil + Apoyo"]);
+  else{
+    const dup=RO.filter(r=>have.filter(x=>x===r).length>1);
+    if(dup.length)L.push(["w","Repetido: "+dup.map(r=>RN[r]).join(", ")]);
+    
+    if(miss.length)L.push(["i","Te falta: "+miss.map(r=>RN[r]).join(" / ")]);
+  }
+  const inT=new Set(ch.map(c=>c.id)),sug=[];
+  if(miss.length)miss.forEach(r=>{
+    const o=chars().filter(c=>c.element===dom&&c.role===r&&!inT.has(c.id)).sort((a,b)=>b.rarity-a.rarity).slice(0,3);
+    if(o.length)sug.push(`<div class="tm-sg"><b>${RN[r]} de ${dom}:</b> ${o.map(c=>e(c.name)).join(", ")}</div>`)});
+  return `<div class="tm-sl tm-syn"><div class="tm-dh"><b>Sinergia</b><small>${e(dom)}</small></div>`+
+    L.map(x=>`<div class="tm-sy ${x[0]}">${x[0]==="ok"?"✓":x[0]==="w"?"⚠":"•"} ${x[1]}</div>`).join("")+sug.join("")+
+    `<p class="tm-hint">Recomendado: equipo de un solo elemento con un Vanguard, un Versátil y un Apoyo.</p></div>`;
+}
+
 /* ---------- editor ---------- */
 function slotHtml(s){
   const S=T.slots[s],c=charOf(S.c);S.__r=s===0?"main":"support";
@@ -478,6 +507,7 @@ function vEdit(){
   root.innerHTML=`<button class="tm-bk" data-a="back">‹ Mis equipos</button>
    <input class="tm-in tm-name" id="tm-name" placeholder="Ponle nombre a tu equipo" maxlength="60" value="${e(T.name)}">
    ${[0,1,2].map(slotHtml).join("")}
+   ${synergy()}
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b><small>${T.discs.slice(0,3).filter(Boolean).length}/3</small></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,true)).join("")}</div>
     <div class="tm-dh"><b>De apoyo y recomendados</b><small>${T.discs.slice(3).filter(Boolean).length}/6</small></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,true)).join("")}</div></div>
    <div class="tm-sl"><div class="tm-dh"><b>Récord y notas</b><small>opcional</small></div><div class="tm-sec"><input class="tm-in" id="tm-score" inputmode="numeric" placeholder="Tu récord (puntaje)" maxlength="20" value="${e(T.score)}"><textarea class="tm-ta" id="tm-note" placeholder="Cómo se juega, qué tomar si no sale un potencial, rotación…" maxlength="500">${e(T.note)}</textarea></div></div>
@@ -500,6 +530,7 @@ function vView(){
   root.innerHTML=`<button class="tm-bk" data-a="back">${fromCom?"‹ Builds de la comunidad":"‹ Mis equipos"}</button>
    <div class="tm-fh"><div class="nota" style="margin:0">${T.__ro?"BUILD DE LA COMUNIDAD":"FICHA DE EQUIPO"}</div><h3>${e(T.name||"Equipo sin nombre")}</h3>${T.__al?`<p>Por <b>${e(T.__al)}</b></p>`:""}${T.score?`<p>Récord: <b>${e(T.score)}</b></p>`:""}${T.note?`<p>${e(T.note)}</p>`:""}</div>
    ${[0,1,2].map(s=>{T.slots[s].__r=s===0?"main":"support";const c=charOf(T.slots[s].c);return `<div class="tm-sl"><div class="tm-lab">${ROLE[s]}</div>`+(c?banner(s,false)+`<div class="tm-pb"><div class="tm-pbh"><span>Potenciales · <span id="tm-pc${s}">0</span></span></div><div id="tm-pl${s}"></div></div>${embBlock(s,false)}`:`<p class="tm-hint" style="padding:12px">Sin personaje.</p>`)+`</div>`}).join("")}
+   ${synergy()}
    <div class="tm-sl"><div class="tm-dh"><b>Discos principales</b></div><div class="tm-dg">${[0,1,2].map(i=>discTile(i,false)||"").join("")}</div>
     ${T.discs.slice(3).some(Boolean)?`<div class="tm-dh"><b>De apoyo y recomendados</b></div><div class="tm-dg">${[3,4,5,6,7,8].map(i=>discTile(i,false)).join("")}</div>`:""}</div>
    ${T.__ro?`<button class="btn" data-a="savecopy">Guardar en mis equipos</button>
