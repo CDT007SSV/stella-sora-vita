@@ -28,7 +28,8 @@ async function cron(env) {
       const v = await env.SUBS.get(k.name); if (!v) continue;
       const t = JSON.parse(v); if (t.at > now) continue;
       const h = k.name.split(":")[1];
-      await env.SUBS.put("m:" + h, JSON.stringify({ title: t.title, body: t.body, url: t.url }), { expirationTtl: 3600 });
+      const q = JSON.parse((await env.SUBS.get("m:" + h)) || "[]"); q.push({ title: t.title, body: t.body, url: t.url });
+      await env.SUBS.put("m:" + h, JSON.stringify(q.slice(-10)), { expirationTtl: 3600 });
       let st = 0; try { st = await avisar(t.sub.endpoint, env); } catch (e) {}
       if (st === 404 || st === 410) { await env.SUBS.delete(h); }
       await env.SUBS.delete(k.name);
@@ -51,27 +52,28 @@ export default {
       }
       if (u.pathname === "/unsub" && req.method === "POST") {
         const s = await req.json();
-        if (s && typeof s.endpoint === "string") { const h = await hid(s.endpoint); await env.SUBS.delete(h); await env.SUBS.delete("t:" + h + ":stamina"); }
+        if (s && typeof s.endpoint === "string") { const h = await hid(s.endpoint); await env.SUBS.delete(h); await env.SUBS.delete("t:" + h + ":stamina");  /* los demas avisos caducan solos */ }
         return json({ ok: 1 }, 200, o);
       }
       if (u.pathname === "/timer" && req.method === "POST") {      // aviso programado (p. ej. stamina llena)
         if (!OK.includes(o)) return json({ error: "origen" }, 403, o);
         const b = await req.json(), sb = b && b.sub, now = Date.now();
         if (!sb || typeof sb.endpoint !== "string" || !/^https:\/\//.test(sb.endpoint) || sb.endpoint.length > 600 || !sb.keys || typeof sb.keys.p256dh !== "string" || typeof sb.keys.auth !== "string") return json({ error: "datos" }, 400, o);
-        if (typeof b.kind !== "string" || !/^[a-z]{1,12}$/.test(b.kind) || typeof b.at !== "number" || b.at < now - 60000 || b.at > now + 3 * 864e5) return json({ error: "datos" }, 400, o);
+        if (typeof b.kind !== "string" || !/^[a-z0-9]{1,16}$/.test(b.kind) || typeof b.at !== "number" || b.at < now - 60000 || b.at > now + 45 * 864e5) return json({ error: "datos" }, 400, o);
         const t = { sub: { endpoint: sb.endpoint, keys: { p256dh: sb.keys.p256dh, auth: sb.keys.auth } }, at: b.at, title: String(b.title || "").slice(0, 80), body: String(b.body || "").slice(0, 160), url: String(b.url || "").slice(0, 20) };
-        await env.SUBS.put("t:" + await hid(sb.endpoint) + ":" + b.kind, JSON.stringify(t), { expirationTtl: 4 * 86400 });
+        await env.SUBS.put("t:" + await hid(sb.endpoint) + ":" + b.kind, JSON.stringify(t), { expirationTtl: 50 * 86400 });
         return json({ ok: 1 }, 200, o);
       }
       if (u.pathname === "/msg" && req.method === "GET") {      // el telefono pide el texto del aviso (se borra al leerlo)
         const h = u.searchParams.get("h") || "";
         if (!/^[0-9a-f]{64}$/.test(h)) return json({}, 200, o);
-        const v = await env.SUBS.get("m:" + h); if (v) await env.SUBS.delete("m:" + h);
-        return json(v ? JSON.parse(v) : {}, 200, o);
+        const q = JSON.parse((await env.SUBS.get("m:" + h)) || "[]"), m = q.shift();
+        if (q.length) await env.SUBS.put("m:" + h, JSON.stringify(q), { expirationTtl: 3600 }); else await env.SUBS.delete("m:" + h);
+        return json(m || {}, 200, o);
       }
       if (u.pathname === "/cancel" && req.method === "POST") {
         const b = await req.json();
-        if (b && typeof b.endpoint === "string" && typeof b.kind === "string" && /^[a-z]{1,12}$/.test(b.kind)) await env.SUBS.delete("t:" + await hid(b.endpoint) + ":" + b.kind);
+        if (b && typeof b.endpoint === "string" && typeof b.kind === "string" && /^[a-z0-9]{1,16}$/.test(b.kind)) await env.SUBS.delete("t:" + await hid(b.endpoint) + ":" + b.kind);
         return json({ ok: 1 }, 200, o);
       }
       if (u.pathname === "/due" && req.method === "GET") {

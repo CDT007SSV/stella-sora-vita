@@ -57,6 +57,7 @@ function dias(m,d){const h=new Date(),a=new Date(h.getFullYear(),h.getMonth(),h.
 const fecha=(m,d)=>d+" de "+MES[m-1];
 const cuando=n=>n===0?"¡Hoy!":n===1?"Mañana":"en "+n+" días";
 
+window.cumplesDatos=lista;
 window.cumplesHoy=async function(){const L=await lista();return L.filter(x=>dias(x.m,x.d)===0)};
 
 function confeti(){
