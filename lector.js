@@ -255,15 +255,19 @@ function shake(e,n,k){
 function ease(n){n=n||"Linear";return n==="Linear"?"linear":/^InOut/.test(n)?"ease-in-out":/^In/.test(n)?"ease-in":"ease-out"}
 function setBg(n,st,d){
   st=st||0;const bg=layer(st);if(!bg)return;try{bg.getAnimations().forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}
-  if(d>0){const o=bg.cloneNode(false);o.className="rd-bgo";o.style.setProperty("--d",d+"s");o.style.opacity=1;bg.parentNode.insertBefore(o,bg.nextSibling);
-    requestAnimationFrame(()=>requestAnimationFrame(()=>{o.style.opacity=0}));setTimeout(()=>o.remove(),d*1000+150)}
+  let o=null; /* copia del fondo anterior que se desvanece; empieza a desvanecerse cuando el nuevo ya esta decodificado (evita el parpadeo) */
+  if(d>0){o=bg.cloneNode(false);o.className="rd-bgo";o.style.setProperty("--d",d+"s");o.style.opacity=1;bg.parentNode.insertBefore(o,bg.nextSibling)}
+  const fin=()=>{if(!o)return;const x=o;o=null;requestAnimationFrame(()=>requestAnimationFrame(()=>{x.style.opacity=0}));setTimeout(()=>x.remove(),d*1000+150)};
   S.tr["b"+st]={x:0,y:0,s:1};bg.style.transition="none";bg.style.transform="none";bg.style.transformOrigin="50% 50%";
-  if(/^(BG_)?Black/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#000";return}
-  if(/^(BG_)?White$/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#fff";return}
+  if(/^(BG_)?Black/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#000";fin();return}
+  if(/^(BG_)?White$/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#fff";fin();return}
   const tk=bg._tk=(bg._tk||0)+1;
-  const poner=u=>{if(bg._tk!==tk)return; /* un fondo más nuevo ya se pidió: este llegó tarde */
-    if(!u){miss(n);bg.style.backgroundImage="none";bg.style.background="radial-gradient(circle at 50% 30%,#2a1f55,#0a0818)";return}
-    bg.style.background="";bg.style.backgroundSize="cover";bg.style.backgroundPosition="center";bg.style.backgroundImage="url('"+u+"')"};
+  const poner=u=>{if(bg._tk!==tk){fin();return} /* un fondo más nuevo ya se pidió: este llegó tarde */
+    if(!u){miss(n);bg.style.backgroundImage="none";bg.style.background="radial-gradient(circle at 50% 30%,#2a1f55,#0a0818)";fin();return}
+    const ap=()=>{if(bg._tk!==tk){fin();return}
+      bg.style.background="";bg.style.backgroundSize="cover";bg.style.backgroundPosition="center";bg.style.backgroundImage="url('"+u+"')";fin()};
+    const im=new Image();im.referrerPolicy="no-referrer";im.src=u;
+    if(im.decode)im.decode().then(ap,ap);else ap()};
   const c=bgUrl(n);if(typeof c==="string"||c===null)poner(c);else c.then(poner);
 }
 const BGC={};
