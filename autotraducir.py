@@ -10,7 +10,7 @@ TOK = re.compile(r"(==[A-Za-z_]+==|<[^>]*>|\[[^\]]*\]|\\n|\n|⟦\d+⟧|[⟨⟩]|
 CACHE = {}
 
 def gtx(s):
-    q = urllib.parse.urlencode({"client": "gtx", "sl": "en", "tl": "es", "dt": "t", "q": s})
+    q = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "es", "dt": "t", "q": s})
     r = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + q, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(r, timeout=20) as f:
         d = json.loads(f.read().decode())
@@ -50,7 +50,7 @@ def main():
             try:
                 n = archivo(r); auto.append(r); print("Traducido", r, n, "lineas")
             except Exception as ex:
-                print("FALLO", r, type(ex).__name__); resto.append(r)
+                print("FALLO", r, type(ex).__name__, getattr(ex, "code", ""), str(ex)[:120]); resto.append(r)
         open(pf, "w", encoding="utf-8").write("".join(x + "\n" for x in resto))
         if auto:
             af = "textos/_auto.txt"
