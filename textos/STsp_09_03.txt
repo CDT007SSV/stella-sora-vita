@@ -3,10 +3,10 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Imperial Guard Newbie | Imperial Guard Newbie
-N:Knight Captain | Knight Captain
-N:Panicked Mercenary | Panicked Mercenary
-N:The Boss | The Boss
+N:Imperial Guard Newbie | Guardia Imperial novato
+N:Knight Captain | Capitán de los caballeros
+N:Panicked Mercenary | Mercenario aterrado
+N:The Boss | La Jefa
 N:avg1_135 | Mistique
 N:avg2_982 | Soldado Trekker
 N:avg3_100 | Sylar
@@ -14,90 +14,90 @@ N:avg3_1239 | Guardia Imperial
 N:avg3_129 | Guardia Imperial
 N:avg3_146 | Residente del Distrito de Oro
 N:avg3_157 | Guardia Imperial
-N:avg3_957 | Imperial Knight
+N:avg3_957 | Caballero Imperial
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | One-Day Partner (Part III)
-0003 [Intro] | Mistique takes a photo of you all tied up and sends it out as an "invitation," which is taken up by an unexpected party just a few days later.
-0004 [Mistique] | Yes, yes, that's it.==W== Look a bit more innocent. A bit more desperate!
-0005 [Tú] | This is so weird. Why are you taking photos of me tied up?
-0006 [Tú] | Shouldn't you be taking more pictures of the scam operation itself?
-0007 [Mistique] | Relax, I've already taken plenty of those. Now, over here—look this way.
-0008 [Mistique] | Since we can't get out, why not create a reason that forces them to let us out?
-0009 [Mistique] | And these photos of you will serve as the all-important invitation.
-0010 [Tú] | Invitation?
-0011 [Mistique] | Exactly. Something far more interesting than a simple exposé~
-0012 [Narración] | A few days later...
-0013 [Panicked Mercenary] | This is bad! Ma'am! The Imperial Guard has surrounded the building!
-0014 [The Boss] | What's with the panic? Same as always, slip them some Dorra and send them on their way.
-0015 [Panicked Mercenary] | We can't! This time the Imperial Guard was hired by Grace Imperium. Bribery won't work...
-0016 [The Boss] | What? Grace Imperium?
-0017 [Mistique] | Oh, they're here! This is gonna be fun.
-0018 [Tú] | Wait, what exactly happened? Why would Grace Imperium...
-0019 [Mistique] | Because I leaked the news that the CEO of the Boss Accord was kidnapped in Philae. With your photos attached.
-0020 [Tú] | K-kidnapped?!==W== Well... Those photos do kind of look like that.
-0021 [Mistique] | Think about it. A famous CEO being kidnapped in Philae. That doesn't look good for Grace Imperium, either.
-0022 [Mistique] | Plus, if they come swooping in and save your life, just imagine how much leverage they'll get from you.
-0023 [Tú] | You just completely used me... And leverage for what? I have nothing to give to them!
-0024 [Mistique] | Don't worry, you won't lose out. That's why I only gave the intel to Grace Imperium!
-0025 [Mistique] | Didn't the ringleader say it herself? Demand creates consumption. The same applies to information.
-0026 [Mistique] | As long as the company thinks dismantling this ring is worthwhile, you won't lose out even if they don't get extra leverage.
-0027 [Mistique] | If the headline reads, New Scam Syndicate Busted, Grace Imperium Secures Philae, that's great publicity for them too, isn't it?
-0028 [Tú] | You really put a lot of thought into this... No matter how it turns out, Grace Imperium wins.
-0029 [Tú] | But how did you even send that information out?
-0030 [Mistique] | I'm a Witch, you know. Something this trivial wouldn't stump me.
-0031 [Knight Captain] | Stop resisting! Release the CEO of the Boss Accord immediately!
-0032 [The Boss] | Wait, isn't there some kind of misunderstanding? We haven't got any CEO here.
-0033 [Knight Captain] | Don't play dumb. These photos are incontrovertible proof!
-0034 [The Boss] | Isn't that ... Lutty's lover?==W== Damn it—don't tell me that girl planned this from the start!
-0035 [Knight Captain] | That reaction... So ==SEX== really is here. Search the place! Start with that warehouse! We must secure the CEO!
-0036 [Tú] | Secure me... They're talking like I'm some kind of loot.
-0037 [Mistique] | Of course you are loot. The lucky person who beats everyone else to it and becomes your "savior" will reap endless rewards.
-0038 [Mistique] | They might even ask you to use your company title to help them line their own pockets.
-0039 [Tú] | No! Seriously, that would be a disaster!
-0040 [Mistique] | I'm kidding. I told you I wouldn't let you lose out.==W== Go wait by the window. I'll take my broom and have a look.
-0041 [Tú] | Where are you going?
-0042 [Mistique] | With a spectacle like this, of course I have to see it in person★
-0043 [The Boss] | Wait! This is private property! You have no right to enter!
-0044 [Knight Captain] | Trying to hide things? You look suspicious!
-0045 [The Boss] | Tch...
-0046 [Mistique] | Ma'am, bad news! The Guard's also blocked off the back entrance. What are you going to do now~
-0047 [The Boss] | Lutty! You're the one who brought them here!
-0048 [Mistique] | Hey, hey, don't drag me—who's Lutty?! I don't know any Lutty—
-0049 [Mistique] | Stop pulling on me!==W== The photos are going to fall out!
-0050 [The Boss] | What?!
-0051 [Knight Captain] | These are ... photos of the fake Artifacts?
-0052 [Imperial Guard Newbie] | Captain, this phone contains photos taken during the actual scams!
-0053 [Imperial Knight] | Captain! We found a large number of suspected stolen phones in the warehouse!
-0054 [The Boss] | Stop! Stop! That's not how it is, please, I can explain!
-0055 [Mistique] | Hehe~ That look of despair on your face is perfection itself! I shall title it "A Scammer Scammed." What do you think?
-0056 [The Boss] | A broom? You are...
-0057 [Mistique] | I shall generously let you in on a secret: No matter how clever you think you are, the truth always comes to light in the end.
-0058 [Mistique] | You have tomorrow's front-page headlines to look forward to, boss!
-0059 [The Boss] | Wait! Come back! Damn you!
-0060 [Mistique] | Ah, sorry to have kept you waiting, Tyrant! We should get out of here fast. With this much commotion, my colleagues are probably already on their way.
-0061 [Tú] | Isn't that a good thing? We could expose everything together.
-0062 [Mistique] | Not necessarily. I know Witches better than you do.
-0063 [Mistique] | The CEO of the Boss Accord standing right there, with an unidentified beautiful girl in tow... That's the perfect setup for a tabloid piece. Guess which topic they'll go after?
-0064 [Tú] | Yeah... That would be a problem.
-0065 [Mistique] | Right? Hop on the broom. Let's go!
-0066 [Mistique] | Undercover mission: accomplished★ I gathered SOOO much fascinating news material. I'm stoked!
-0067 [Tú] | Thank goodness nothing went wrong... You really are a professional Witch.
-0068 [Mistique] | Yes, let me hear the praises! I didn't survive all those battlefields for nothing.
-0069 [Tú] | By the way, there's something I've been wanting to ask you!
-0070 [Mistique] | What is it? I'm in a great mood right now, so I'll answer anything.
-0071 [Tú] | Mistique... Why are you dressed like that?==W== Wasn't your undercover role a rich young lady who ran away from home for love?
-0072 [Tú] | When people think "rich young lady," don't they usually mean flashy brand dresses?
-0073 [Mistique] | Hey, are you questioning my taste?!
-0074 [Tú] | No, not at all! It just felt unlike you to choose something that didn't match the role...
-0075 [Mistique] | You've got it all wrong.
-0076 [Tú] | Hm?
-0077 [Mistique] | There's a reason more important than that!
-0078 [Mistique] | W-we were supposed to be a couple, right? So... Um...
-0079 [Mistique] | So that's why I chose this outfit... Isn't it cute?! Dialing up the cute factor in front of your partner is only natural, isn't it?!
-0080 [Tú] | The cute factor...
-0081 [Mistique] | Argh, you're just terrible! You made me say all that embarrassing stuff!==W== I'm never wearing it again, so if you wanna take a look, do it while you can!
-0082 [Narración] | As if to hide her bashfulness, Mistique grabbed me and pulled me onto the broom.
-0083 [Narración] | As the broom sliced through the star-filled sky, the noise and worries of the mortal world gradually fell away, leaving no one to disturb this temporary "couple."
-0084 [Narración] | Only the stars overhead noticed the faint blush spreading across the Witch's cheeks.
+0001 [Intro] | Acto tres
+0002 [Intro] | Pareja por un día (Parte III)
+0003 [Intro] | Mistique te toma una foto con todo y ataduras y la envía como «invitación», que es aceptada por una parte inesperada apenas unos días después.
+0004 [Mistique] | Sí, sí, así.==W== Pon una cara un poco más inocente. ¡Un poco más desesperada!
+0005 [Tú] | Esto es rarísimo. ¿Por qué me tomas fotos con las ataduras puestas?
+0006 [Tú] | ¿No deberías tomar más fotos de la operación de estafa en sí?
+0007 [Mistique] | Relájate, ya tomé muchísimas de esas. Ahora, por aquí: mira hacia acá.
+0008 [Mistique] | Como no podemos salir, ¿por qué no crear un motivo que los obligue a dejarnos salir?
+0009 [Mistique] | Y estas fotos tuyas servirán como la invitación fundamental.
+0010 [Tú] | ¿Invitación?
+0011 [Mistique] | Exacto. Algo mucho más interesante que un simple reportaje de denuncia~
+0012 [Narración] | Unos días después...
+0013 [Panicked Mercenary] | ¡Esto está mal! ¡Señora! ¡La Guardia Imperial rodeó el edificio!
+0014 [The Boss] | ¿Por qué tanto pánico? Como siempre, suéltales unas Dorras y que se vayan.
+0015 [Panicked Mercenary] | ¡No podemos! Esta vez la Guardia Imperial fue contratada por el Imperio de la Gracia. El soborno no funcionará...
+0016 [The Boss] | ¿Qué? ¿El Imperio de la Gracia?
+0017 [Mistique] | ¡Oh, ya llegaron! Esto se va a poner divertido.
+0018 [Tú] | Espera, ¿qué fue exactamente lo que pasó? ¿Por qué el Imperio de la Gracia...?
+0019 [Mistique] | Porque filtré la noticia de que el director ejecutivo de Boss Accord fue secuestrado en Philae. Con tus fotos adjuntas.
+0020 [Tú] | ¿S-secuestrado?==W== Bueno... Esas fotos sí se ven así.
+0021 [Mistique] | Piénsalo. Un famoso director ejecutivo secuestrado en Philae. Eso tampoco le conviene al Imperio de la Gracia.
+0022 [Mistique] | Además, si llegan de golpe y te salvan la vida, imagina cuánta ventaja obtendrán de ti.
+0023 [Tú] | Me usaste por completo... ¿Y ventaja para qué? ¡No tengo nada que darles!
+0024 [Mistique] | No te preocupes, no saldrás perdiendo. ¡Por eso solo le di la información al Imperio de la Gracia!
+0025 [Mistique] | ¿Acaso no lo dijo la propia cabecilla? La demanda genera consumo. Lo mismo aplica a la información.
+0026 [Mistique] | Mientras la empresa considere que desmantelar esta red vale la pena, no saldrás perdiendo aunque no obtengan ventaja extra.
+0027 [Mistique] | Si el titular dice «Desarticulan nuevo sindicato de estafas, el Imperio de la Gracia asegura Philae», es excelente publicidad para ellos también, ¿no?
+0028 [Tú] | De verdad le diste muchas vueltas... Sea cual sea el resultado, el Imperio de la Gracia gana.
+0029 [Tú] | Pero ¿cómo hiciste para enviar esa información?
+0030 [Mistique] | Soy una Bruja, ¿sabes? Algo tan trivial no me detendría.
+0031 [Knight Captain] | ¡Dejen de resistirse! ¡Liberen de inmediato al director ejecutivo de Boss Accord!
+0032 [The Boss] | Un momento, ¿no habrá algún malentendido? Aquí no tenemos a ningún director ejecutivo.
+0033 [Knight Captain] | No se haga la tonta. ¡Estas fotos son una prueba irrefutable!
+0034 [The Boss] | ¿Ese no es ... el gran amor de Lutty?==W== Maldición... ¡no me digas que esa chica planeó todo desde el principio!
+0035 [Knight Captain] | Esa reacción... Así que ==SEX== de verdad está aquí. ¡Registren el lugar! ¡Comiencen por esa bodega! ¡Debemos asegurar al director ejecutivo!
+0036 [Tú] | Asegurarme... Hablan de mí como si fuera un botín.
+0037 [Mistique] | Claro que eres un botín. La persona afortunada que llegue primero y se convierta en tu «salvador» cosechará recompensas infinitas.
+0038 [Mistique] | Hasta podrían pedirte que uses tu cargo en la empresa para ayudarles a llenarse los bolsillos.
+0039 [Tú] | ¡No! En serio, ¡eso sería un desastre!
+0040 [Mistique] | Es broma. Te dije que no dejaría que salieras perdiendo.==W== Ve a esperar junto a la ventana. Tomaré mi escoba para echar un vistazo.
+0041 [Tú] | ¿A dónde vas?
+0042 [Mistique] | Con un espectáculo como este, ¡por supuesto que tengo que verlo en persona★!
+0043 [The Boss] | ¡Alto! ¡Esto es propiedad privada! ¡No tienen derecho a entrar!
+0044 [Knight Captain] | ¿Intenta ocultar cosas? ¡Se ve sospechosa!
+0045 [The Boss] | Tsk...
+0046 [Mistique] | ¡Señora, malas noticias! La Guardia también bloqueó la entrada trasera. ¿Qué va a hacer ahora~?
+0047 [The Boss] | ¡Lutty! ¡Tú fuiste quien los trajo aquí!
+0048 [Mistique] | Oiga, oiga, no me arrastre... ¿¡quién es Lutty!? No conozco a ninguna Lutty—
+0049 [Mistique] | ¡Deje de jalarme!==W== ¡Se van a caer las fotos!
+0050 [The Boss] | ¿¡Qué!?
+0051 [Knight Captain] | ¿Estas son ... fotos de los Artefactos falsos?
+0052 [Imperial Guard Newbie] | ¡Capitán, este teléfono contiene fotos tomadas durante las estafas reales!
+0053 [Imperial Knight] | ¡Capitán! ¡Encontramos una gran cantidad de teléfonos presuntamente robados en la bodega!
+0054 [The Boss] | ¡Alto! ¡Alto! ¡No es lo que parece, por favor, puedo explicarlo!
+0055 [Mistique] | Jeje~ ¡Esa cara de desesperación es la perfección misma! La titularé «La estafadora estafada». ¿Qué te parece?
+0056 [The Boss] | ¿Una escoba? Tú eres...
+0057 [Mistique] | Generosamente te revelaré un secreto: por más lista que te creas, la verdad siempre sale a la luz al final.
+0058 [Mistique] | ¡Ve esperando los titulares de la primera plana de mañana, jefa!
+0059 [The Boss] | ¡Espera! ¡Regresa! ¡Maldita!
+0060 [Mistique] | Ah, ¡perdón por la espera, Tirano! Tenemos que irnos de aquí rápido. Con tanto alboroto, mis colegas probablemente ya vienen en camino.
+0061 [Tú] | ¿No es algo bueno? Podríamos exponerlo todo juntos.
+0062 [Mistique] | No necesariamente. Yo conozco a las Brujas mejor que tú.
+0063 [Mistique] | El director ejecutivo de Boss Accord ahí parado, con una hermosa joven sin identificar a su lado... Es el escenario perfecto para una nota de espectáculos. Adivina a qué tema irán.
+0064 [Tú] | Sí... Eso sería un problema.
+0065 [Mistique] | ¿Verdad? Súbete a la escoba. ¡Vámonos!
+0066 [Mistique] | Misión encubierta: ¡cumplida★! Reuní MUUUCHO material noticioso fascinante. ¡Estoy eufórica!
+0067 [Tú] | Qué alivio que nada saliera mal... De verdad eres una Bruja profesional.
+0068 [Mistique] | ¡Sí, quiero oír los elogios! No sobreviví a todos esos campos de batalla para nada.
+0069 [Tú] | Por cierto, ¡hay algo que quería preguntarte!
+0070 [Mistique] | ¿Qué es? Estoy de buen humor ahorita, así que responderé lo que sea.
+0071 [Tú] | Mistique... ¿Por qué vas vestida así?==W== ¿No era tu papel encubierto el de una joven rica que se escapó de casa por amor?
+0072 [Tú] | Cuando se piensa en una «joven rica», ¿no se suelen imaginar vestidos llamativos de marca?
+0073 [Mistique] | ¡Oye! ¿¡Estás cuestionando mi gusto!?
+0074 [Tú] | ¡No, para nada! Solo me pareció raro en ti elegir algo que no encajara con el papel...
+0075 [Mistique] | Te equivocas por completo.
+0076 [Tú] | ¿Mm?
+0077 [Mistique] | ¡Hay una razón más importante que esa!
+0078 [Mistique] | S-se suponía que éramos pareja, ¿no? Así que... Eh...
+0079 [Mistique] | Por eso elegí este atuendo... ¡¿A que es lindo?! Subir el nivel de lindura frente a tu pareja es lo más natural, ¿no?
+0080 [Tú] | La lindura...
+0081 [Mistique] | ¡Argh, eres terrible! ¡Me hiciste decir todas esas cosas vergonzosas!==W== No me lo volveré a poner, así que si quieres verlo, ¡hazlo mientras puedas!
+0082 [Narración] | Como para ocultar su timidez, Mistique me agarró y me subió a la escoba.
+0083 [Narración] | Mientras la escoba cortaba el cielo estrellado, el ruido y las preocupaciones del mundo mortal fueron desvaneciéndose, sin dejar a nadie que perturbara a esta «pareja» temporal.
+0084 [Narración] | Solo las estrellas en lo alto notaron el leve rubor que se extendía por las mejillas de la Bruja.

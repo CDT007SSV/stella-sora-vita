@@ -3,101 +3,101 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Silent Plant | Silent Plant
-N:Strange Plant | Strange Plant
+N:Silent Plant | Planta silenciosa
+N:Strange Plant | Planta extraña
 N:avg1_110 | Firenze
 N:avg1_116 | Ridge
 N:avg2_957 | Weed Shooter
 N:avg2_958 | Weed Brawler
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | A Day of Harvest (Part I)
-0003 [Intro] | Ridge, engrossed in tending to her greenhouse plants, made a huge mistake: she mistakes her boss, who has come to patrol, for a vegetable thief...
-0004 [Narración] | Inside the maze-like greenhouse, eerie noises sometimes echo, like something ghostly at work.
-0005 [Ridge] | Light... Moisture... All good. That should do it.
-0006 [Ridge] | Shade-loving plants, sun-loving plants...==W== Plants that need regular watering, plants that prefer dry conditions...
-0007 [Ridge] | Sorting and planting them was a lot of work, but now it's so much easier.==W== Hehe, this feels really satisfying.
-0008 [Ridge] | Hey, you all grow strong, okay?
-0009 [Ridge] | Wh-what was that noise?!
-0010 [Ridge] | Th-the water pipe got smashed?
-0011 [Ridge] | Eek!
-0012 [Ridge] | This is bad. I need to get someone to fix it, fast.
-0013 [Ridge] | Ugh,==W== not another report...
-0014 [Ridge] | Wait a minute... This mark...==W== Oh,==W== so it was you guys...
+0001 [Intro] | Acto uno
+0002 [Intro] | Un día de cosecha (Parte I)
+0003 [Intro] | Ridge, absorta en el cuidado de las plantas de su invernadero, comete un enorme error: confunde a su jefa, que viene de patrulla, con una ladrona de verduras...
+0004 [Narración] | Dentro del invernadero, que es como un laberinto, a veces resuenan ruidos extraños, como si algo fantasmal estuviera trabajando.
+0005 [Ridge] | Luz... Humedad... Todo bien. Con eso debería bastar.
+0006 [Ridge] | Plantas que aman la sombra, plantas que aman el sol...==W== Plantas que necesitan riego regular, plantas que prefieren condiciones secas...
+0007 [Ridge] | Clasificarlas y sembrarlas fue muchísimo trabajo, pero ahora todo es mucho más fácil.==W== Jeje, esto es muy satisfactorio.
+0008 [Ridge] | Oigan, crezcan fuertes, ¿sí?
+0009 [Ridge] | ¿¡Q-qué fue ese ruido!?
+0010 [Ridge] | ¿L-la tubería de agua quedó destrozada?
+0011 [Ridge] | ¡Iiik!
+0012 [Ridge] | Esto está mal. Necesito que alguien lo repare, rápido.
+0013 [Ridge] | Ugh,==W== otro reporte no...
+0014 [Ridge] | Un momento... Esta marca...==W== Ah,==W== así que fueron ustedes...
 0015 [Strange Plant] | ...
 0016 [Silent Plant] | ...
-0017 [Ridge] | Stop pretending you don't understand me!==W== Even if you keep quiet about it, I know it was you guys!
-0018 [Ridge] | Why can't you just get along?! Fighting every day and wrecking company property! I've had it!
-0019 [Ridge] | Do you know how many reports I've written because of you?==W== Want me to bring them all over and make you flip through them page by page?!
-0020 [Strange Plant] | Squeak—!
-0021 [Silent Plant] | Eek—! Yeek—!
-0022 [Ridge] | Oh, so you dare fight back? You've got some nerve! TAKE THIS!
-0023 [Ridge] | Phew... Finally dealt with.
-0024 [Ridge] | So tired... I wanna rest. I'll do one last round greenhouse check and then head back...
-0025 [Ridge] | Hopefully there won't be any more surprises today, like that mysterious veggie thief who shows up now and then...
-0026 [Firenze] | These are ...==W== tomatoes?
-0027 [Firenze] | They look shiny and plump. Didn't expect a harvest like this in this greenhouse.
-0028 [Firenze] | I thought it'd be something like monsters disguised as tomatoes.
-0029 [Ridge] | Gotcha! Finally!
-0030 [Ridge] | Prepare yourself, culprit!
-0031 [Firenze] | ... Culprit? What are you talking about?
-0032 [Ridge] | Playing dumb won't help you!==W== You've been caught red-handed with that tomato!
-0033 [Ridge] | Can't believe you're trying to wriggle out of it==W== even now...
-0034 [Ridge] | Huh? You look kind of familiar...==W== Sorry, um, have I seen you somewhere before?
-0035 [Firenze] | I'm Firenze. Does the name ring a bell?
-0036 [Ridge] | Firenze?! Y-you mean that...==W== The boss everyone says is super scary...?!
-0037 [Ridge] | ... I'm done for,==W== totally done for!==W== Now that I've offended a big shot, I'm gonna get turned into flower fertilizer and buried here!
-0038 [Ridge] | ... Uh... Uh,==W== Lady Firenze... I'm so sorry...
-0039 [Firenze] | It's fine. United Harvest employs a lot of people. It's completely normal not to recognize every colleague.
-0040 [Firenze] | Anyway, please put the shovel down for now. I've got some questions for you.
-0041 [Ridge] | Y-yeah, sure...
-0042 [Firenze] | What's wrong? Standing that far away makes it hard to talk. Here, come closer.
-0043 [Ridge] | O-Okay, I will.
-0044 [Ridge] | I'm so very sorry, Lady Firenze. I...
-0045 [Firenze] | I told you not to stand so far away. Avoiding me for no reason just makes the whole thing even more awkward, you know.
-0046 [Ridge] | Waaah, I'm sorry, you must be exhausted, please have some rest—!==W== I'll take my leave now!
-0047 [Ridge] | I'm done, I'm done, I've been caught... This is really the end of the line...==W== I'm definitely gonna get turned into organic fertilizer for growing delicious vegetables...!
-0048 [Firenze] | What kind of person do you take me for?
-0049 [Firenze] | Have you calmed down yet?
-0050 [Ridge] | (sob) Yeah...
-0051 [Firenze] | Relax. I've never cared much about pointless formalities.
-0052 [Firenze] | I just want to confirm one thing. These tomatoes in this corner, you planted them, right?
-0053 [Ridge] | Y-yes...
-0054 [Firenze] | What happened to the plants that were supposed to be here?
-0055 [Ridge] | This greenhouse is currently unused. There was nothing scheduled to be planted.
-0056 [Firenze] | Who gave the order to leave it empty?
-0057 [Ridge] | I don't know.
-0058 [Ridge] | These past few years, the management kept changing the directives. All the plants that were growing just fine got pulled out. After that, no one really paid attention to the empty greenhouse.
-0059 [Ridge] | I figured leaving it unused was a waste, so I planted some common vegetables and fruits...
-0060 [Firenze] | The level of mismanagement is worse than I thought.
-0061 [Ridge] | I'm sorry, I know it was wrong of me! But the food itself hasn't done anything wrong—
-0062 [Firenze] | Planting without permission does violate regulations. However...
-0063 [Firenze] | Given how chaotic things were, the fact that you still worked so diligently is no small thing. That deserves praise, not punishment.
-0064 [Ridge] | Huh? Are you ... praising me...?
-0065 [Firenze] | That's right, I'm praising you. Going forward, the company will do its utmost to ensure normal production order and the personal safety of its employees.
-0066 [Firenze] | I believe your work also deserves more attention and recognition.
-0067 [Ridge] | Chaos... Going forward, the company... Uh, Lady Firenze... I don't really understand...
-0068 [Ridge] | Does that mean something big happened in the company recently?
-0069 [Firenze] | You didn't hear the sounds coming from outside while you were working?
-0070 [Firenze] | Explosions, fires... The commotion from that battle was quite something.
-0071 [Ridge] | W-w-what?! That happened?! In the city?!
-0072 [Ridge] | Oh, right, I did hear some "bang"s, "boom"s, and crashing noises days ago...
-0073 [Ridge] | I just thought someone's lab had blown up again and ignored it...
-0074 [Firenze] | Heh, how interesting. It seems you're the type who completely disappears into your own world once absorbed in work.
-0075 [Firenze] | Your name is Ridge, right? I'll remember it.
-0076 [Ridge] | I took over a greenhouse without permission and didn't get punished. I was even encouraged...==W== I knew the rumors were wrong. Lady Firenze is obviously a wonderful person.==W== I... I should repay her kindness...
-0077 [Ridge] | R-right, um... Lady Firenze, I have something I want to give you!
-0078 [Ridge] | Huff... Huff... Um, here!==W== Please, take these.
-0079 [Firenze] | Tomatoes, potatoes, pumpkins, corn... You grew all of these?
-0080 [Ridge] | Yes! They've all been washed. Ready to eat!
-0081 [Firenze] | I see. Thank you, I'll give them a try.
-0082 [Firenze] | Mm, juicy, sweet, great texture,==W== and most importantly, fresh.
-0083 [Ridge] | Hehe, I'm so glad you like them.
-0084 [Firenze] | This taste brings back memories of United Harvest from the days gone by.
-0085 [Ridge] | ... Days gone by?
-0086 [Firenze] | Don't mind me.
-0087 [Firenze] | I hope you keep that passion and continue working hard. I look forward to tasting more of your delicious tomatoes in the future.
-0088 [Ridge] | No problem, farming is my middle name!==W== I'll defend this greenhouse to my last breath. I won't let you down!
-0089 [Firenze] | Hehe, very good... Keep up that spirit.
-0090 [Firenze] | The company's future may well rest in the hands of people who, like her, remain loyal to their ideals.
+0017 [Ridge] | ¡Dejen de hacerse los que no me entienden!==W== ¡Aunque se queden callados, sé que fueron ustedes!
+0018 [Ridge] | ¿¡Por qué no pueden llevarse bien!? ¡Peleándose todos los días y destrozando la propiedad de la empresa! ¡Ya me harté!
+0019 [Ridge] | ¿Saben cuántos reportes he escrito por culpa de ustedes?==W== ¿¡Quieren que los traiga todos y los haga hojearlos página por página!?
+0020 [Strange Plant] | ¡Chirp—!
+0021 [Silent Plant] | ¡Iik—! ¡Yiik—!
+0022 [Ridge] | Ah, ¿así que se atreven a defenderse? ¡Qué descaro! ¡TOMEN ESTO!
+0023 [Ridge] | Uf... Por fin los controlé.
+0024 [Ridge] | Qué cansancio... Quiero descansar. Haré una última ronda por el invernadero y luego regreso...
+0025 [Ridge] | Ojalá hoy no haya más sorpresas, como ese misterioso ladrón de verduras que aparece de vez en cuando...
+0026 [Firenze] | Estos son ...==W== ¿tomates?
+0027 [Firenze] | Se ven brillantes y regordetes. No esperaba una cosecha así en este invernadero.
+0028 [Firenze] | Pensé que serían algo como monstruos disfrazados de tomates.
+0029 [Ridge] | ¡Te atrapé! ¡Por fin!
+0030 [Ridge] | ¡Prepárate, culpable!
+0031 [Firenze] | ... ¿Culpable? ¿De qué estás hablando?
+0032 [Ridge] | ¡Hacerte la tonta no te servirá!==W== ¡Te atraparon con las manos en la masa, con ese tomate!
+0033 [Ridge] | No puedo creer que intentes zafarte==W== incluso ahora...
+0034 [Ridge] | ¿Eh? Se te hace conocida la cara...==W== Perdón, eh, ¿te he visto en alguna parte?
+0035 [Firenze] | Soy Firenze. ¿Te suena el nombre?
+0036 [Ridge] | ¿¡Firenze!? ¿T-te refieres a la...==W== ¿¡la jefa que todos dicen que da muchísimo miedo!?
+0037 [Ridge] | ... ¡Estoy acabada,==W== totalmente acabada!==W== Ahora que ofendí a alguien tan importante, ¡me convertirán en abono de flores y me enterrarán aquí!
+0038 [Ridge] | ... E-eh... E-eh,==W== Lady Firenze... Lo siento muchísimo...
+0039 [Firenze] | No pasa nada. Cosecha Unida emplea a mucha gente. Es completamente normal no reconocer a cada colega.
+0040 [Firenze] | Bueno, baja la pala por ahora. Tengo algunas preguntas para ti.
+0041 [Ridge] | S-sí, claro...
+0042 [Firenze] | ¿Qué pasa? Estar tan lejos dificulta la conversación. Ven, acércate.
+0043 [Ridge] | E-está bien, ya voy.
+0044 [Ridge] | Lo siento muchísimo, Lady Firenze. Yo...
+0045 [Firenze] | Te dije que no te pararas tan lejos. Evitarme sin motivo solo hace todo más incómodo, ¿sabes?
+0046 [Ridge] | ¡Buaaah, perdón, debe de estar agotada, por favor descanse—!==W== ¡Me retiro ahora mismo!
+0047 [Ridge] | Estoy acabada, estoy acabada, me atraparon... Este es de verdad el fin...==W== ¡Seguro me convertirán en abono orgánico para cultivar verduras deliciosas...!
+0048 [Firenze] | ¿Qué clase de persona crees que soy?
+0049 [Firenze] | ¿Ya te calmaste?
+0050 [Ridge] | (sollozo) Sí...
+0051 [Firenze] | Tranquila. Nunca me han importado mucho las formalidades inútiles.
+0052 [Firenze] | Solo quiero confirmar una cosa. Estos tomates de esta esquina, ¿los sembraste tú, verdad?
+0053 [Ridge] | S-sí...
+0054 [Firenze] | ¿Qué pasó con las plantas que se suponía que estarían aquí?
+0055 [Ridge] | Este invernadero actualmente no se usa. No había nada programado para sembrar.
+0056 [Firenze] | ¿Quién dio la orden de dejarlo vacío?
+0057 [Ridge] | No lo sé.
+0058 [Ridge] | En estos últimos años, la gerencia estuvo cambiando las directrices. Todas las plantas que crecían muy bien las arrancaron. Después de eso, a nadie le importó realmente el invernadero vacío.
+0059 [Ridge] | Pensé que dejarlo sin uso era un desperdicio, así que sembré algunas verduras y frutas comunes...
+0060 [Firenze] | El nivel de mala gestión es peor de lo que pensaba.
+0061 [Ridge] | ¡Lo siento, sé que estuvo mal de mi parte! Pero la comida en sí no ha hecho nada malo—
+0062 [Firenze] | Sembrar sin permiso sí viola el reglamento. Sin embargo...
+0063 [Firenze] | Dado lo caótico de la situación, que aun así hayas trabajado con tanta diligencia no es poca cosa. Eso merece elogio, no castigo.
+0064 [Ridge] | ¿Eh? ¿Está ... elogiándome...?
+0065 [Firenze] | Así es, te elogio. De ahora en adelante, la empresa hará todo lo posible por asegurar el orden normal de la producción y la seguridad personal de sus empleados.
+0066 [Firenze] | Creo que tu trabajo también merece más atención y reconocimiento.
+0067 [Ridge] | Caos... De ahora en adelante, la empresa... Eh, Lady Firenze... No entiendo muy bien...
+0068 [Ridge] | ¿Eso significa que pasó algo grande en la empresa recientemente?
+0069 [Firenze] | ¿No escuchaste los sonidos que venían de afuera mientras trabajabas?
+0070 [Firenze] | Explosiones, incendios... El alboroto de esa batalla fue algo impresionante.
+0071 [Ridge] | ¿¡Q-q-qué!? ¿¡Eso pasó!? ¿¡En la ciudad!?
+0072 [Ridge] | Ah, cierto, hace unos días sí escuché unos «pum», «bum» y ruidos de cosas rompiéndose...
+0073 [Ridge] | Solo pensé que el laboratorio de alguien había explotado otra vez y lo ignoré...
+0074 [Firenze] | Je, qué interesante. Parece que eres de las personas que desaparecen por completo en su propio mundo una vez absortas en el trabajo.
+0075 [Firenze] | Te llamas Ridge, ¿verdad? Lo recordaré.
+0076 [Ridge] | Me adueñé de un invernadero sin permiso y no me castigaron. Hasta me animaron...==W== Sabía que los rumores eran falsos. Lady Firenze es obviamente una persona maravillosa.==W== Yo... debería corresponder a su amabilidad...
+0077 [Ridge] | ¡C-cierto, eh... Lady Firenze, tengo algo que quiero darle!
+0078 [Ridge] | Uf... Uf... Eh, ¡aquí tiene!==W== Por favor, acéptelos.
+0079 [Firenze] | Tomates, papas, calabazas, maíz... ¿Cultivaste todo esto?
+0080 [Ridge] | ¡Sí! ¡Todos están lavados y listos para comer!
+0081 [Firenze] | Ya veo. Gracias, los probaré.
+0082 [Firenze] | Mm, jugosos, dulces, de buena textura,==W== y lo más importante, frescos.
+0083 [Ridge] | Jeje, me alegra mucho que le gusten.
+0084 [Firenze] | Este sabor me trae recuerdos de Cosecha Unida de tiempos pasados.
+0085 [Ridge] | ... ¿Tiempos pasados?
+0086 [Firenze] | No me hagas caso.
+0087 [Firenze] | Espero que conserves esa pasión y sigas esforzándote. Espero probar más de tus deliciosos tomates en el futuro.
+0088 [Ridge] | ¡No hay problema, la agricultura es mi segundo nombre!==W== Defenderé este invernadero hasta mi último aliento. ¡No la voy a decepcionar!
+0089 [Firenze] | Jeje, muy bien... Mantén ese ánimo.
+0090 [Firenze] | El futuro de la empresa bien podría estar en manos de personas que, como ella, siguen siendo leales a sus ideales.

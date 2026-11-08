@@ -3,9 +3,9 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Alarmed Passerby | Alarmed Passerby
-N:Imperial Guard Knight | Imperial Guard Knight
-N:Robber | Robber
+N:Alarmed Passerby | Transeúnte alarmado
+N:Imperial Guard Knight | Caballero de la Guardia Imperial
+N:Robber | Ladrón
 N:avg1_107 | Tilia
 N:avg2_982 | Soldado Trekker
 N:avg3_100 | Sylar
@@ -14,86 +14,86 @@ N:avg3_157 | Guardia Imperial
 N:avg3_189 | Kaydoke
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | Soul of a Guard, Heart of a Knight (Part III)
-0003 [Intro] | Champions of justice will never tolerate evil on this land! The promotional film was a huge success, and the story of Knight Tilia is far from over.
-0004 [Tilia] | You! Pull over!
-0005 [Robber] | Tch, seriously? Someone's actually chasing me?==W== Guess I need to step on it!
-0006 [Alarmed Passerby] | Whoa—watch where you're going!
-0007 [Tilia] | Stop right there! Reckless driving isn't allowed here!
-0008 [Robber] | Hah! Since when do bad guys care about traffic regulations?
-0009 [Tilia] | There are too many people on the streets... If this chase keeps up, someone's gonna get hurt.==W== I need to come up with a plan—
-0010 [Robber] | Hahaha! At that speed? You'll never catch me in a million years!
-0011 [Tilia] | You say that now!
-0012 [Robber] | Tch, persistent little pest! But I've got more than this up my sleeve!
-0013 [Robber] | I'll show you who rules these streets! Bye-bye, Imperial Guard trash!
-0014 [Tilia] | Good, he's heading away from the crowd. Don't have to worry about hitting people now.
-0015 [Robber] | Heh, these back alleys are a maze. That useless knight must be lost by now~
-0016 [Tilia] | Stop the bike! This is your last warning!
-0017 [Robber] | W-What?
-0018 [Tilia] | Give yourself up! There's no escape!
-0019 [Robber] | Drop the tough girl act! The Imperial Guard's a joke! Ain't nobody catches me!
-0020 [Tilia] | Perfect—got him to turn right. Up ahead is...
-0021 [Robber] | Phew... Finally shakes her off...
-0022 [Robber] | Hahahaha! Like I said! I'm the king of the streets—
-0023 [Robber] | Wait, what the hell is that sound?!
-0024 [Narración] | Before he can finish, an engine roars overhead; Tilia swoops down like a hawk, landing squarely in front of him.
-0025 [Tilia] | I am Tilia of the Imperial Guard!==W== And I declare that your reckless ride ends here!
-0026 [Robber] | No way... How can you move this fast?!
-0027 [Tilia] | Your speed only brings disaster. Mine is born to uphold justice.
-0028 [Tilia] | From the very start, you never had a chance.
-0029 [Tilia] | Evildoers will be punished!
-0030 [Tilia] | Masked Knight Tilia! Transform!
-0031 [Robber] | Wait—where did you even pull that spear and shield from?!
-0032 [Tilia] | For Freedom and Glory!
-0033 [Robber] | D-don't come any closer!==W== I'm anti-violence! Help!
-0034 [Tilia] | Dispensing justice—!
-0035 [Robber] | I give up... I give up...
-0036 [Robber] | But I don't get it... Just how the hell did you even catch up with me? No way those busted Guard scooters can outpace mine!
-0037 [Tilia] | With just the bike's speed, I couldn't. So I kept forcing you into making turns, herding you exactly where I wanted you to go. Once I could predict your route, Lapis Eagle and I would get there ahead of you for sure.
-0038 [Robber] | Im-impossible! Every turn I took was optimal—the fastest route! You're saying all that was part of your plan?! But I know these streets like the back of my hand, how did I miss this...
-0039 [Tilia] | That just means I know them even better than you do.
-0040 [Robber] | What?!==W==Fine... You win...
-0041 [Tilia] | By the honor of the knights, the Imperial Guard will never tolerate evil on this land!
-0042 [Tilia] | You are under arrest!
-0043 [Kaydoke] | Looks like she didn't need our help.
-0044 [Tilia] | Kay! Boss! You came too, huh~
-0045 [Tú] | Impressive work, Tilia. We knew you could do it.
-0046 [Tilia] | Just doing my job!
-0047 [Tilia] | Too bad I tore my film outfit a bit while I was at it.
-0048 [Tilia] | Sorry, Boss. Thanks for helping, but we probably can't finish shooting today.
-0049 [Tú] | Don't worry about it. You did the right thing.
-0050 [Tilia] | Yeah... You're right. If the Masked Knight was here, he would have done the same thing.
-0051 [Tilia] | I fulfilled my duty as a knight. No regrets!
-0052 [Tilia] | Oh... Well, technically I'm still just a squire.
-0053 [Tilia] | Guess playing "Imperial Guard Knight" all morning got to my head...
-0054 [Kaydoke] | It suits you, Knight lady~
-0055 [Tilia] | Stop making fun of me, Kay!
-0056 [Kaydoke] | I'm not. You've always been more of a knight than anyone in the Imperial Guard.
-0057 [Tú] | That's right. To us, you've always been a knight.
-0058 [Tilia] | Hee hee... Thanks, you two!
-0059 [Tilia] | Now let's take this robber back to headquarters.
-0060 [Tilia] | Ugh... Even though I said "no regrets," just thinking about writing that report later makes my head hurt...
-0061 [Kaydoke] | So? Got some good footage?
-0062 [Tú] | Oh yeah. Tons of it. Especially this last part! Look at this shot.
-0063 [Kaydoke] | Oh wow! That one's perfect!
-0064 [Tilia] | What are you two doing there?
-0065 [Tú] | Well... Tilia, don't worry about the filming, and no need to grovel to your superiors, either.
-0066 [Tilia] | Eh?
-0067 [Tú] | While you were chasing the robber, I had Kaydoke drive me after you. We filmed the whole thing.
-0068 [Tilia] | Huh? You filmed me?!
-0069 [Tú] | This footage can be turned into a fantastic promo piece with just a bit of editing.
-0070 [Kaydoke] | By the way, your riding skills got to the next level, didn't it? I was pushing full throttle just to keep up.
-0071 [Tilia] | R-really...? I didn't even notice. I just wanted to catch the robber... Hehe.
-0072 [Tilia] | Thank you, Boss! Thank you, Kay!
-0073 [Narración] | A week later, the Imperial Guard's new semi-documentary promo was released. It became an instant hit.
-0074 [Narración] | The highlight of the entire film was the knight's heroic pursuit of the criminal, and her stirring lines became a catch phrase.
-0075 [Narración] | A lot of Masked Knight fans even praised it as a spiritual successor to the series.
-0076 [Imperial Guard Knight] | Hello—you must be ==PLAYER_NAME==, correct? Please come with us.
-0077 [Tú] | Uh... I didn't do nothing...
-0078 [Imperial Guard Knight] | No, no, you misunderstand. We're inviting you to a new shoot.
-0079 [Tú] | Eh?
-0080 [Imperial Guard Knight] | Your last work, Heart of a Knight, was a huge success. The higher-ups at the company absolutely loved it.
-0081 [Imperial Guard Knight] | So they're extending an invitation to you to film the sequel. Please, we'd be honored if you'd accept!
-0082 [Tú] | Oh... That shooting.
-0083 [Narración] | Looks like Tilia and I will get busy again soon.
+0001 [Intro] | Acto tres
+0002 [Intro] | Alma de guardia, corazón de caballero (Parte III)
+0003 [Intro] | ¡Los paladines de la justicia jamás tolerarán el mal en esta tierra! El video promocional fue un gran éxito, y la historia de la caballero Tilia está lejos de terminar.
+0004 [Tilia] | ¡Tú! ¡Detente!
+0005 [Robber] | Tsk, ¿en serio? ¿De verdad alguien me persigue?==W== ¡Parece que tengo que acelerar!
+0006 [Alarmed Passerby] | ¡Oiga, fíjese por dónde va!
+0007 [Tilia] | ¡Alto ahí! ¡Aquí no se permite manejar de forma imprudente!
+0008 [Robber] | ¡Ja! ¿Desde cuándo a los malos les importan los reglamentos de tránsito?
+0009 [Tilia] | Hay demasiada gente en las calles... Si la persecución continúa, alguien saldrá lastimado.==W== Tengo que idear un plan—
+0010 [Robber] | ¡Jajaja! ¿A esa velocidad? ¡No me alcanzarás ni en un millón de años!
+0011 [Tilia] | ¡Eso dices ahora!
+0012 [Robber] | ¡Tsk, qué pesada y persistente! ¡Pero todavía tengo más trucos bajo la manga!
+0013 [Robber] | ¡Te voy a enseñar quién manda en estas calles! ¡Adiós, basura de la Guardia Imperial!
+0014 [Tilia] | Bien, se está alejando de la multitud. Ya no hay que preocuparse por atropellar a nadie.
+0015 [Robber] | Je, estos callejones son un laberinto. Esa caballero inútil ya debe de estar perdida~
+0016 [Tilia] | ¡Detén la moto! ¡Es tu última advertencia!
+0017 [Robber] | ¿Q-qué?
+0018 [Tilia] | ¡Ríndete! ¡No hay escapatoria!
+0019 [Robber] | ¡Deja el numerito de chica ruda! ¡La Guardia Imperial es una burla! ¡Nadie me atrapa!
+0020 [Tilia] | Perfecto: lo hice girar a la derecha. Más adelante está...
+0021 [Robber] | Fiu... Por fin me la quité de encima...
+0022 [Robber] | ¡Jajajaja! ¡Como dije! ¡Soy el rey de las calles—
+0023 [Robber] | ¿¡Espera, qué demonios es ese ruido!?
+0024 [Narración] | Antes de que termine, un motor ruge sobre su cabeza; Tilia desciende en picada como un halcón y aterriza justo frente a él.
+0025 [Tilia] | ¡Soy Tilia, de la Guardia Imperial!==W== ¡Y declaro que tu imprudente carrera termina aquí!
+0026 [Robber] | No puede ser... ¿¡Cómo te puedes mover tan rápido!?
+0027 [Tilia] | Tu velocidad solo trae desastre. La mía nació para defender la justicia.
+0028 [Tilia] | Desde el principio, nunca tuviste oportunidad.
+0029 [Tilia] | ¡Los malhechores serán castigados!
+0030 [Tilia] | ¡Caballero Enmascarado Tilia! ¡Transformación!
+0031 [Robber] | ¡Espera—¿de dónde sacaste esa lanza y ese escudo!?
+0032 [Tilia] | ¡Por la Libertad y la Gloria!
+0033 [Robber] | ¡N-no te acerques más!==W== ¡Soy contrario a la violencia! ¡Auxilio!
+0034 [Tilia] | ¡Impartiendo justicia—!
+0035 [Robber] | Me rindo... Me rindo...
+0036 [Robber] | Pero no entiendo... ¿Cómo diablos lograste alcanzarme? ¡Es imposible que esas destartaladas motos de la Guardia sean más rápidas que la mía!
+0037 [Tilia] | Solo con la velocidad de la moto no habría podido. Así que te fui obligando a dar vueltas, llevándote justo a donde yo quería. Una vez que pude predecir tu ruta, el Águila Lapislázuli y yo llegaríamos antes que tú sin falta.
+0038 [Robber] | ¡Im-imposible! ¡Cada vuelta que di fue la óptima, la ruta más rápida! ¿¡Dices que todo eso era parte de tu plan!? Pero yo conozco estas calles como la palma de mi mano, ¿cómo se me pasó esto...?
+0039 [Tilia] | Eso solo significa que yo las conozco aún mejor que tú.
+0040 [Robber] | ¿¡Qué!?==W==Está bien... Ganaste...
+0041 [Tilia] | ¡Por el honor de los caballeros, la Guardia Imperial jamás tolerará el mal en esta tierra!
+0042 [Tilia] | ¡Estás arrestado!
+0043 [Kaydoke] | Parece que no necesitaba nuestra ayuda.
+0044 [Tilia] | ¡Kay! ¡Jefe! Ustedes también vinieron, ¿eh~?
+0045 [Tú] | Qué trabajo tan impresionante, Tilia. Sabíamos que podías lograrlo.
+0046 [Tilia] | ¡Solo cumplía con mi deber!
+0047 [Tilia] | Lástima que de paso se me rasgó un poco el traje de la grabación.
+0048 [Tilia] | Perdón, Jefe. Gracias por ayudar, pero probablemente no podamos terminar de grabar hoy.
+0049 [Tú] | No te preocupes. Hiciste lo correcto.
+0050 [Tilia] | Sí... Tienes razón. Si el Caballero Enmascarado estuviera aquí, habría hecho lo mismo.
+0051 [Tilia] | Cumplí con mi deber de caballero. ¡Sin remordimientos!
+0052 [Tilia] | Ah... Bueno, técnicamente todavía soy solo escudera.
+0053 [Tilia] | Creo que hacer de «Caballero de la Guardia Imperial» toda la mañana se me subió a la cabeza...
+0054 [Kaydoke] | Te queda bien, señorita caballero~
+0055 [Tilia] | ¡Deja de burlarte de mí, Kay!
+0056 [Kaydoke] | No me burlo. Siempre has sido más caballero que cualquiera en la Guardia Imperial.
+0057 [Tú] | Así es. Para nosotros, siempre has sido caballero.
+0058 [Tilia] | Jijiji... ¡Gracias, ustedes dos!
+0059 [Tilia] | Ahora llevemos a este ladrón a la sede.
+0060 [Tilia] | Ugh... Aunque dije «sin remordimientos», con solo pensar en escribir ese reporte después me duele la cabeza...
+0061 [Kaydoke] | ¿Y bien? ¿Conseguiste buen material?
+0062 [Tú] | Claro que sí. Un montón. ¡Sobre todo esta última parte! Mira esta toma.
+0063 [Kaydoke] | ¡Guau! ¡Esa quedó perfecta!
+0064 [Tilia] | ¿Qué hacen ustedes dos ahí?
+0065 [Tú] | Pues... Tilia, no te preocupes por la grabación, y tampoco hace falta que te humilles ante tus superiores.
+0066 [Tilia] | ¿Eh?
+0067 [Tú] | Mientras perseguías al ladrón, le pedí a Kaydoke que me llevara tras de ti. Grabamos todo.
+0068 [Tilia] | ¿¡Eh!? ¿¡Me grabaron!?
+0069 [Tú] | Con solo un poco de edición, este material puede convertirse en una pieza promocional fantástica.
+0070 [Kaydoke] | Por cierto, tus habilidades de manejo subieron de nivel, ¿verdad? Yo iba a todo gas solo para mantenerme a tu ritmo.
+0071 [Tilia] | ¿D-de verdad...? Ni lo noté. Solo quería atrapar al ladrón... Jeje.
+0072 [Tilia] | ¡Gracias, Jefe! ¡Gracias, Kay!
+0073 [Narración] | Una semana después, se estrenó el nuevo video promocional semidocumental de la Guardia Imperial. Se volvió un éxito instantáneo.
+0074 [Narración] | Lo más destacado de toda la película fue la heroica persecución del criminal por parte de la caballero, y sus emotivas líneas se volvieron una frase célebre.
+0075 [Narración] | Muchos fans del Caballero Enmascarado incluso lo elogiaron como un sucesor espiritual de la serie.
+0076 [Imperial Guard Knight] | Hola—usted es ==PLAYER_NAME==, ¿correcto? Acompáñenos, por favor.
+0077 [Tú] | Eh... Yo no hice nada...
+0078 [Imperial Guard Knight] | No, no, malentendió. Queremos invitarle a una nueva grabación.
+0079 [Tú] | ¿Eh?
+0080 [Imperial Guard Knight] | Su trabajo anterior, Corazón de caballero, fue un enorme éxito. A los altos mandos de la empresa les encantó.
+0081 [Imperial Guard Knight] | Por eso le extienden una invitación para filmar la secuela. ¡Por favor, sería un honor que aceptara!
+0082 [Tú] | Ah... Esa grabación.
+0083 [Narración] | Parece que Tilia y yo volveremos a estar ocupados muy pronto.

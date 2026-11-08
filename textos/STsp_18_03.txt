@@ -3,10 +3,10 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Malicious Trekker | Malicious Trekker
-N:Monster | Monster
-N:Prey-Chasing Trekker | Prey-Chasing Trekker
-N:Staff-Wielding Trekker | Staff-Wielding Trekker
+N:Malicious Trekker | Trekker malicioso
+N:Monster | Monstruo
+N:Prey-Chasing Trekker | Trekker cazapresas
+N:Staff-Wielding Trekker | Trekker con bastón
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -18,113 +18,113 @@ N:avg3_100 | Sylar
 N:avg3_1246 | Alpha Boar
 N:avg3_1247 | Alpha Boar
 N:avg3_1248 | Alpha Boar
-N:avg3_937 | The Crowd
+N:avg3_937 | La multitud
 N:avg3_970 | Iris y Amber
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | Slumbering Where Autumn Tilts (Part III)
-0003 [Intro] | She may forget many things, but she has never forgotten to protect you.
-0004 [Prey-Chasing Trekker] | Dammit! How'd a catch that big get away?!
-0005 [Staff-Wielding Trekker] | So much for the payout. What now?
-0006 [Malicious Trekker] | Hold up, look over there. Forget the beast, that's a real payday. Is that a car?
-0007 [Prey-Chasing Trekker] | An Artifact car, and barely a scratch on it! Who leaves a beauty like this out in the Wilds? We're rich!
-0008 [1] | ... Crap, terrible timing. Noya's in no shape to fight. I need to signal Amber and Iris for backup...
-0009 [1] | Oh no, they're moving in...!==W== I need to buy some time.
-0010 [Malicious Trekker] | Check the perimeter! If it's clear, we take it!
-0011 [Tú] | Hey! Step away from our car!
-0012 [Prey-Chasing Trekker] | Huh? Someone's actually here!
-0013 [Malicious Trekker] | Hmph. ==SEX1== probably doesn't even know which end of the sword to hold. Ignore ==SEX4==.
-0014 [Malicious Trekker] | Look at this thing. A ride this fine is totally wasted on a nobody like you.
-0015 [Tú] | I can't let them find out Noya's inside...
-0016 [Tú] | It's my property. What I do with it is my business. Back off.
-0017 [Malicious Trekker] | Wait, this is yours? I figured you were the guard dog.
-0018 [Malicious Trekker] | I know how guilds like yours work. They leave the dead weight behind to watch the bags! Hahaha!
-0019 [Malicious Trekker] | Hand over the keys. City laws don't mean squat out here in the Wilds.
-0020 [Tú] | They aren't backing down...==W== Time to bluff!
-0021 [Tú] | When you're as strong as I am, you don't need a guild. Companions just slow me down.
-0022 [Malicious Trekker] | Oh yeah?==W== One spell and you'll be begging for mercy! Light 'em up!
-0023 [Staff-Wielding Trekker] | Eat this!
-0024 [Staff-Wielding Trekker] | W-What?! ==SEX1== took that hit without a scratch...!
-0025 [Tú] | Like I said. Crushing third-rate thugs like you doesn't even take effort.
-0026 [Tú] | What, done already? No need to go easy on me.
-0027 [Staff-Wielding Trekker] | Dammit, this one's no pushover...!
-0028 [Prey-Chasing Trekker] | Tch...==W== Ain't worth dying over. Fall back!
-0029 [Tú] | Phew...==W== Managed to scare them off.
-0030 [Noya] | Amazing...==W== You talked them down all on your own...
-0031 [Noya] | ... I'm the one who should be holding a sword right now. I should be protecting you.
-0032 [Tú] | They're gone. Now we just wait for Iris and Amber to get back.
-0033 [Tú] | ... An earthquake?!
-0034 [Tú] | No! Monsters! Is this what those thugs were hunting?!
-0035 [Tú] | Crap! They think we're with them!
-0036 [Monster] | Roooaaar!!!
-0037 [Tú] | Whoa, easy! I'm not the one hunting you!
-0038 [Noya] | Get back!
-0039 [Tú] | Noya?!
-0040 [Noya] | Ugh...!==W== My sword... It's so heavy...
-0041 [Tú] | Noya! You're in no condition to fight!
-0042 [Noya] | You're always taking care of me...==W== So let me protect you too...!
-0043 [Tú] | Don't push it! You can barely even stand!
-0044 [Noya] | Sonic Slash!
-0045 [Monster] | Raaaargh!
-0046 [Noya] | —Gale Storm!
-0047 [Monster] | Gragh...!
-0048 [Tú] | She actually scared them off...
-0049 [Noya] | This time...==W== I kept you safe...
-0050 [Tú] | Noya!
-0051 [Opción] | Noya, stay with me! Can you hear me?! Noya!!
-0052 [Noya] | Huh...==W== What was I doing...?==W== ==PLAYER_NAME== is calling my name...==W== Did I pass out?
-0053 [Opción] | Her breathing is steady.
-0054 [Opción] | She just fell asleep. I don't think she hit her head...
-0055 [Noya] | Always worrying about everyone else...==W== Even though you're the first one to dive into danger.
-0056 [Noya] | You know...==W== Ever since we first met, something about you just felt strangely familiar.
-0057 [Noya] | You had just woken up. Your memories were gone.==W== Yet you still stepped up to help us.
-0058 [Noya] | Starting a whole new company on the spot just to win a war... I could never come up with something that brilliant, not in a lifetime.
-0059 [Noya] | You became Fuyuka's Master, always cheering her on from the sidelines...
-0060 [Noya] | When the Spirit of Brutality targeted you, I was so terrified...==W== But no matter how dangerous it gets, you always stand fast by our side.
-0061 [Noya] | You were the one who helped Nazuka find peace. Even the strongest people have their fragile moments...
-0062 [Noya] | ... So what about you? Do you ever have moments where you just can't hold on anymore?
-0063 [Noya] | I never expected our infiltration of United Harvest to stir such chaos...
-0064 [Noya] | Firenze, Nyx, Mistique, and Mina...==W== Everyone was fighting so desperately...
-0065 [Noya] | And there you were, always throwing yourself onto the front lines...
-0066 [Noya] | ... I worry about you. I really do.
-0067 [Noya] | ... Am I even strong enough==W== to keep up with you?
-0068 [Noya] | ==PLAYER_NAME==...==W== Wait for me...
-0069 [Opción] | Is she talking in her sleep...?
-0070 [Opción] | I'm right here, Noya. I'm not going anywhere.
-0071 [Noya] | Promise ...==W== me...
-0072 [Opción] | Yeah, it's a promise. You, me, Iris, Amber...
-0073 [Opción] | The New Star Guild is sticking together. Don't worry.
-0074 [Narración] | The late autumn warmth, the soft afternoon sun. I lay there with her on the soft grass.
-0075 [Narración] | I just watched over her, quietly keeping her safe. Until my own thoughts finally melted into the quiet afternoon.
-0076 [Tú] | Mng...==W== A familiar ceiling...==W== Did I doze off, too?
-0077 [Tú] | Everything's a blur...==W== Wait, shoot!
-0078 [Tú] | Noya?!
-0079 [Noya] | Huh? Me?!
-0080 [Tú] | Noya! You're back to normal?
-0081 [Noya] | You bet I am! Fully recovered and ready to roll!
-0082 [Iris] | Honestly, the one nursing the patient ended up asleep outside ==SEX8==. What if you'd caught a cold too, Boss?
-0083 [Amber] | Noya carried you back inside.
-0084 [Tú] | Wait, Noya carried me...?!
-0085 [Noya] | Yep! You're way lighter than a Wishing Box anyway. Piece of cake! ♪
-0086 [Noya] | By the way, I never noticed before... ==PLAYER_NAME==, you talk in your sleep, too!
-0087 [Tú] | Yep...==W== She's definitely back to her old self.
-0088 [Tú] | I didn't say anything weird,==W== did I...?
-0089 [Noya] | Nope! Oh, but your cheeks get super squishy when you sleep. Poking them was so fun!
-0090 [Iris] | Squishy...?!
-0091 [Noya] | Iris, you totally want to try it too, right? Come on!
-0092 [Tú] | H-Hold on! Iris, don't join her!
-0093 [Amber] | I want to poke too ♪
-0094 [Noya] | Alright, that's three against one! Majority rules! Heh, brace yourself!
-0095 [Tú] | Have mercy!!
-0096 [Noya] | Loxy is in perfect shape, and Grace is topped off!
-0097 [Noya] | Time to head back to the city and turn in those commissions! I heard we've got a big job coming up in a few days!
-0098 [Iris y Amber] | Let's go!
-0099 [Noya] | Huh? What's wrong, ==PLAYER_NAME==?
-0100 [Tú] | Noya...==W== Do you remember anything that happened today?
-0101 [Iris] | I highly doubt it. She's like this every year.
-0102 [Noya] | Aww, what's this? Do you want me to poke your cheeks again?
-0103 [Tú] | No! Never mind. Let's hit the road.
-0104 [Tú] | Iris was right. She has absolutely no memory of it...==W== I'll ask her about it another time.
-0105 [Noya] | Is everyone ready?!
-0106 [The Crowd] | New Star Guild, moving out!!
+0001 [Intro] | Acto tres
+0002 [Intro] | Durmiendo donde el otoño se inclina (Parte III)
+0003 [Intro] | Puede que olvide muchas cosas, pero nunca ha olvidado protegerte.
+0004 [Prey-Chasing Trekker] | ¡Maldición! ¡¿Cómo se nos escapó una presa tan grande?!
+0005 [Staff-Wielding Trekker] | Adiós a la recompensa. ¿Ahora qué?
+0006 [Malicious Trekker] | Esperen, miren allá. Olviden a la bestia, eso sí es un buen botín. ¿Eso es un vehículo?
+0007 [Prey-Chasing Trekker] | ¡Un vehículo Artefacto, y casi sin un rasguño! ¿Quién deja una belleza así en las Tierras Salvajes? ¡Somos ricos!
+0008 [1] | ... Rayos, pésimo momento. Noya no está en condiciones de pelear. Tengo que avisarle a Amber y a Iris para que vengan de refuerzo...
+0009 [1] | ¡Oh no, se acercan...!==W== Necesito ganar algo de tiempo.
+0010 [Malicious Trekker] | ¡Revisen el perímetro! ¡Si está despejado, nos lo llevamos!
+0011 [Tú] | ¡Oigan! ¡Aléjense de nuestro vehículo!
+0012 [Prey-Chasing Trekker] | ¿Eh? ¡Sí hay alguien aquí!
+0013 [Malicious Trekker] | Bah. Seguro que ==SEX1== ni siquiera sabe de qué lado se agarra la espada. Ignoren a ==SEX4==.
+0014 [Malicious Trekker] | Mírenlo bien. Un transporte tan fino se desperdicia con un don nadie como tú.
+0015 [Tú] | No puedo dejar que descubran que Noya está adentro...
+0016 [Tú] | Es de mi propiedad. Lo que haga con él es asunto mío. Retrocedan.
+0017 [Malicious Trekker] | Espera, ¿esto es tuyo? Creí que eras el perro guardián.
+0018 [Malicious Trekker] | Sé cómo funcionan los gremios como el tuyo. ¡Dejan al lastre atrás para cuidar los equipajes! ¡Jajaja!
+0019 [Malicious Trekker] | Entrega las llaves. Las leyes de la ciudad no valen nada aquí en las Tierras Salvajes.
+0020 [Tú] | No retroceden...==W== ¡Hora de fanfarronear!
+0021 [Tú] | Cuando eres tan fuerte como yo, no necesitas un gremio. Los compañeros solo me retrasan.
+0022 [Malicious Trekker] | ¿Ah, sí?==W== ¡Un hechizo y estarás rogando piedad! ¡Préndanlo!
+0023 [Staff-Wielding Trekker] | ¡Toma esto!
+0024 [Staff-Wielding Trekker] | ¡¿Q-qué?! ¡==SEX1== recibió ese golpe sin un rasguño...!
+0025 [Tú] | Como dije. Aplastar matones de tercera como ustedes ni siquiera requiere esfuerzo.
+0026 [Tú] | ¿Qué, ya terminaron? No hace falta que se contengan conmigo.
+0027 [Staff-Wielding Trekker] | Maldición, este no es ningún debilucho...
+0028 [Prey-Chasing Trekker] | Tch...==W== No vale la pena morir por esto. ¡Retirada!
+0029 [Tú] | Uf...==W== Logré espantarlos.
+0030 [Noya] | Increíble...==W== Los hiciste desistir tú solo...
+0031 [Noya] | ... Yo soy quien debería estar empuñando una espada ahora. Debería estar protegiéndote.
+0032 [Tú] | Se fueron. Ahora solo esperamos a que Iris y Amber regresen.
+0033 [Tú] | ... ¡¿Un temblor?!
+0034 [Tú] | ¡No! ¡Monstruos! ¡¿Es esto lo que esos matones estaban cazando?!
+0035 [Tú] | ¡Rayos! ¡Creen que estamos con ellos!
+0036 [Monster] | ¡¡¡Rooooaaar!!!
+0037 [Tú] | ¡Whoa, tranquilo! ¡Yo no soy quien te caza!
+0038 [Noya] | ¡Atrás!
+0039 [Tú] | ¡¿Noya?!
+0040 [Noya] | Ugh...==W== Mi espada... Pesa tanto...
+0041 [Tú] | ¡Noya! ¡No estás en condiciones de pelear!
+0042 [Noya] | Siempre me cuidas...==W== ¡Así que déjame protegerte a ti también...!
+0043 [Tú] | ¡No te esfuerces! ¡Apenas puedes mantenerte en pie!
+0044 [Noya] | ¡Corte Sónico!
+0045 [Monster] | ¡Raaaargh!
+0046 [Noya] | —¡Tormenta Vendaval!
+0047 [Monster] | ¡Gragh...!
+0048 [Tú] | De verdad los espantó...
+0049 [Noya] | Esta vez...==W== te mantuve a salvo...
+0050 [Tú] | ¡Noya!
+0051 [Opción] | ¡Noya, quédate conmigo! ¡¿Me oyes?! ¡¡Noya!!
+0052 [Noya] | Eh...==W== ¿Qué estaba haciendo...?==W== ==PLAYER_NAME== está llamando mi nombre...==W== ¿Me desmayé?
+0053 [Opción] | Su respiración es estable.
+0054 [Opción] | Solo se quedó dormida. Creo que no se golpeó la cabeza...
+0055 [Noya] | Siempre preocupándote por todos los demás...==W== Aunque eres la primera en lanzarte al peligro.
+0056 [Noya] | Sabes...==W== Desde que nos conocimos, algo en ti me resultaba extrañamente familiar.
+0057 [Noya] | Acababas de despertar. Habías perdido tus recuerdos.==W== Aun así diste un paso al frente para ayudarnos.
+0058 [Noya] | Fundar una compañía completamente nueva en el acto solo para ganar una guerra... A mí jamás se me ocurriría algo tan brillante, ni en toda una vida.
+0059 [Noya] | Te convertiste en el Maestro de Fuyuka, siempre animándola desde las bandas...
+0060 [Noya] | Cuando el Espíritu de la Brutalidad te tomó como objetivo, estaba aterrada...==W== Pero por muy peligroso que se ponga, siempre te mantienes firme a nuestro lado.
+0061 [Noya] | Fuiste tú quien ayudó a Nazuka a encontrar la paz. Hasta los más fuertes tienen momentos frágiles...
+0062 [Noya] | ... Entonces, ¿y tú? ¿Alguna vez tienes momentos en los que simplemente ya no puedes aguantar más?
+0063 [Noya] | Nunca esperé que nuestra infiltración en Cosecha Unida causara tanto caos...
+0064 [Noya] | Firenze, Nyx, Mistique y Mina...==W== Todos peleaban con tanta desesperación...
+0065 [Noya] | Y ahí estabas tú, siempre lanzándote a la primera línea...
+0066 [Noya] | ... Me preocupas. De verdad.
+0067 [Noya] | ... ¿Seré siquiera lo bastante fuerte==W== para seguirte el ritmo?
+0068 [Noya] | ==PLAYER_NAME==...==W== Espérame...
+0069 [Opción] | ¿Estará hablando dormida...?
+0070 [Opción] | Aquí estoy, Noya. No me voy a ir a ninguna parte.
+0071 [Noya] | Prométeme ...==W== que...
+0072 [Opción] | Sí, es una promesa. Tú, yo, Iris, Amber...
+0073 [Opción] | El Gremio de la Nueva Estrella se mantiene unido. No te preocupes.
+0074 [Narración] | La calidez del otoño tardío, el suave sol de la tarde. Me recosté con ella sobre la suave hierba.
+0075 [Narración] | Solo la cuidé, manteniéndola a salvo en silencio. Hasta que mis propios pensamientos por fin se disolvieron en la tranquila tarde.
+0076 [Tú] | Mng...==W== Un techo familiar...==W== ¿Me venció el sueño a mí también?
+0077 [Tú] | Todo es borroso...==W== Espera, ¡rayos!
+0078 [Tú] | ¡¿Noya?!
+0079 [Noya] | ¿Eh? ¡¿Yo?!
+0080 [Tú] | ¡Noya! ¿Volviste a la normalidad?
+0081 [Noya] | ¡Claro que sí! ¡Totalmente recuperada y lista para la acción!
+0082 [Iris] | En serio, a quien cuidaba a la paciente le ganó el sueño afuera, junto a ==SEX8==. ¿Y si te hubieras resfriado también, Jefe?
+0083 [Amber] | Noya te cargó de vuelta adentro.
+0084 [Tú] | Espera, ¡¿Noya me cargó...?!
+0085 [Noya] | ¡Sip! De todos modos pesas mucho menos que una Caja de Deseos. ¡Pan comido! ♪
+0086 [Noya] | Por cierto, nunca me había dado cuenta... ¡==PLAYER_NAME==, tú también hablas en sueños!
+0087 [Tú] | Sí...==W== Definitivamente ya volvió a ser la de siempre.
+0088 [Tú] | No dije nada raro,==W== ¿verdad...?
+0089 [Noya] | ¡Nop! Oh, pero tus mejillas se ponen súper blanditas cuando duermes. ¡Picarlas fue muy divertido!
+0090 [Iris] | ¡¿Blanditas...?!
+0091 [Noya] | ¡Iris, seguro que tú también quieres probarlo! ¡Anda!
+0092 [Tú] | ¡E-espera! ¡Iris, no te unas a ella!
+0093 [Amber] | Yo también quiero picar ♪
+0094 [Noya] | ¡Muy bien, tres contra uno! ¡Gana la mayoría! ¡Je, prepárate!
+0095 [Tú] | ¡Piedad!!
+0096 [Noya] | ¡Loxy está en perfecto estado y la Gracia está al tope!
+0097 [Noya] | ¡Es hora de volver a la ciudad y entregar esos encargos! ¡Escuché que tenemos un trabajo grande dentro de unos días!
+0098 [Iris y Amber] | ¡Vamos!
+0099 [Noya] | ¿Eh? ¿Qué pasa, ==PLAYER_NAME==?
+0100 [Tú] | Noya...==W== ¿Recuerdas algo de lo que pasó hoy?
+0101 [Iris] | Lo dudo mucho. Es así todos los años.
+0102 [Noya] | Aww, ¿qué es esto? ¿Quieres que te pique las mejillas otra vez?
+0103 [Tú] | ¡No! Olvídalo. Pongámonos en marcha.
+0104 [Tú] | Iris tenía razón. No tiene absolutamente ningún recuerdo...==W== Se lo preguntaré en otra ocasión.
+0105 [Noya] | ¡¿Están todas listas?!
+0106 [The Crowd] | ¡Gremio de la Nueva Estrella, en marcha!!

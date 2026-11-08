@@ -3,13 +3,13 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Arrogant Gang Member | Arrogant Gang Member
-N:Girl with Helmet Off | Girl with Helmet Off
-N:Helmeted Girl | Helmeted Girl
-N:Peer Trekker | Peer Trekker
-N:Silver-Haired Girl | Silver-Haired Girl
-N:Strong Gang Member | Strong Gang Member
-N:Tender Voice | Tender Voice
+N:Arrogant Gang Member | Pandillero arrogante
+N:Girl with Helmet Off | Chica sin casco
+N:Helmeted Girl | Chica con casco
+N:Peer Trekker | Trekker compañero
+N:Silver-Haired Girl | Chica de cabello plateado
+N:Strong Gang Member | Pandillero fortachón
+N:Tender Voice | Voz tierna
 N:avg1_103 | Amber
 N:avg1_107 | Tilia
 N:avg1_111 | Iris
@@ -25,92 +25,92 @@ N:avg3_139 | Trekker
 N:avg3_157 | Guardia Imperial
 N:avg3_198 | Pandillera genial
 N:avg3_199 | Chica de la pandilla
-N:avg3_973 | Passing Trekker
+N:avg3_973 | Trekker de paso
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | The Chill of the Blade, the Warmth of Your Grip (Part II)
-0003 [Intro] | Having received a single meal of kindness, Chitose followed her lifesaver's steps, and along the way, took it upon herself to do good and stop evil.
-0004 [Chitose] | (The city feels... much rowdier than usual today. I need to find my lifesaver fast.)
-0005 [Chitose] | (... This feeling. Raw hostility.)
-0006 [Arrogant Gang Member] | Hey—you! Haven't seen your face around here before.
-0007 [Strong Gang Member] | What's on your back? Think you can just waltz through our turf without payin' the toll?
-0008 [Chitose] | A toll...?
-0009 [Chitose] | I carry no goods.
-0010 [Strong Gang Member] | Hah?!
-0011 [Arrogant Gang Member] | What, you think you're better than us?!
-0012 [Chitose] | Please, step aside. If you were hurt, I...
-0013 [Arrogant Gang Member] | —She's actually comin' at us—You—!
-0014 [Strong Gang Member] | Damn it! It's been ages since we had a good scrap. And this one's pickin' a fight!
-0015 [Chitose] | I had no choice...==W== My apologies.
-0016 [Chitose] | (Now that I've eaten, my body feels so light... So this is what starving does to you...)
-0017 [Chitose] | (It seems this sort of street wisdom is vital when traveling alone.)
-0018 [Silver-Haired Girl] | —Huh?!
-0019 [Chitose] | (Tsk—someone else?)
-0020 [Silver-Haired Girl] | Ah! My drink! You sliced it in two halves!
-0021 [Chitose] | My deepest apologies for the intrusion... But I am in the midst of battle.
-0022 [Silver-Haired Girl] | My ... drink.
-0023 [Narración] | The silver-haired girl's hand clamped down on mine. An incredible magical power crackled at her fingertips.
-0024 [Chitose] | This power... What is it?
-0025 [Silver-Haired Girl] | Slashed...
-0026 [Silver-Haired Girl] | YOU SLASHED MY DRINK! I barely touched it!
-0027 [Chitose] | The situation is dire... We can settle this later—
-0028 [Arrogant Gang Member] | Hey! Where d'you think you're goin'?
-0029 [Strong Gang Member] | Yeah, pay the toll! Unless you want trouble!
-0030 [Silver-Haired Girl] | Who are you? Wait... If I wreck these goons for you, will you buy me a drink?
-0031 [Chitose] | Buy? So... if I were to treat you to a beverage, you would forgive my offense?
-0032 [Silver-Haired Girl] | Yep, totally!
-0033 [Chitose] | Understood. I shall compensate you for the lost drink.
-0034 [Silver-Haired Girl] | Awesome! It's a deal, then—
-0035 [Chitose] | (Those claws... So that's where the strange magical power I felt was coming from!)
-0036 [Silver-Haired Girl] | Alright, I'm goin' in!
-0037 [Chitose] | Then I shall assist.
-0038 [Arrogant Gang Member] | Dammit! Can't even lay a finger on 'em...
-0039 [Strong Gang Member] | Forget the toll... We're gonna get ourselves killed... Agh—urk!
-0040 [Silver-Haired Girl] | All done. So, we're good, right?
-0041 [Chitose] | (Phew. I'm glad my aura did not harm her.)
-0042 [Silver-Haired Girl] | Yo, a deal's a deal. I handled 'em, so you owe me a drink.
-0043 [Chitose] | Indeed. I shall just retrieve my ...==W== purse ...==W== which is right—
-0044 [Chitose] | Ah, slipped my mind, but it seems I have ... already spent all my travel funds.
-0045 [Silver-Haired Girl] | Huh?! What about my drink then...?
-0046 [Helmeted Girl] | Excuse me, you two! Sorry to interrupt—I'm on patrol. Heard local gangs were shaking people down again. You seen anything?
-0047 [Helmeted Girl] | W-Wait! Why is there a whole crew of thugs passed out on the ground!?
-0048 [Helmeted Girl] | Don't tell me the gangs already—whoa, you two took them down?
-0049 [Chitose] | Pardon me, but what exactly is a "gang"?
-0050 [Helmeted Girl] | Huh? Aren't these guys gang members?
-0051 [Helmeted Girl] | Uh ... wait. Don't tell me you're the gang members instead?!==W== Was I totally fooled!?
-0052 [Girl with Helmet Off] | So, it was you two!==W== You're the ones who took down those thugs and kept the town safe.
-0053 [Chitose] | My name is Chitose. I am but a blade passing through on a journey of training.==W== I am now searching for ... my lifesaver who fed me.
-0054 [Cosette] | I... I'm Cosette.
-0055 [Tilia] | Let me introduce myself! Tilia, a new knight with the Imperial Guard!==W== To celebrate meeting a pair of heroes, the first round of drink is on me! Cosette, what'll you have?
-0056 [Cosette] | Wow, that's so nice of you! Thanks, Tilia!
-0057 [Tilia] | You too, Chitose, of course! C'mon, pick whatever you want!
-0058 [Chitose] | Then I shall...
-0059 [Chitose] | (I can't get any closer... I might hurt them.)
-0060 [Cosette] | What are you in the mood for, Chitose?==W== This machine's got tons of good stuff.
-0061 [Chitose] | (Cosette's hand ... so close! No, I can't let her...)
-0062 [Cosette] | Hey... What's wrong? Aren't you happy about the free drink?
-0063 [Chitose] | It's not that... It's just, I have only just been shown the kindness of a meal.
-0064 [Tilia] | You mentioned you were looking for someone... What do they look like? Were they with anyone? Maybe I can help!
-0065 [Chitose] | Really?
-0066 [Chitose] | Really? My lifesaver was in the company of...==W== someone with golden hair,==W== another with blue...==W== and...
-0067 [Tilia] | Oh! You must mean those Trekkers! They just got back to Emor recently. Right now, they're helping the Ashwind Clan fight back against Creta Trading.
-0068 [Tilia] | They've got a real fight on their hands...==W== I heard some knights took commissions from Creta Trading. Looks like the company's ready to play dirty.
-0069 [Chitose] | Which means my lifesaver is in danger?
-0070 [Chitose] | Forgive me... I must go. At once.
-0071 [Tilia] | Oh, right! Didn't mean to keep you!
-0072 [Tilia] | Right! I just saw them heading for the clinic. Know where that is? I can point you to—
-0073 [Chitose] | That won't be necessary, thank you. I must take my leave.
-0074 [Cosette] | Next time, I'll pick, a drink for you.
-0075 [Tilia] | Okay, then—! Watch yourself out there!
-0076 [Chitose] | When the time is right... when this blade is fully forged...
-0077 [Chitose] | (It's just a feeling ... but they should be just ahead.)
-0078 [Chitose] | (—! It's my lifesaver!)
-0079 [Chitose] | Please, wait—
-0080 [Passing Trekker] | Argh—! My pauldron's cracked! What did you do?!
-0081 [Peer Trekker] | Agh—! Ow! My hand—how did it get cut?!
-0082 [Tender Voice] | Chitose... This is your final lesson. Are you ready?
-0083 [Chitose] | Yes, I am.
-0084 [Chitose] | Even though I may bring harm to my lifesaver in my current state...
-0085 [Chitose] | I must repay this debt of kindness!
-0086 [Chitose] | I have no choice then... I shall assist them from the shadows.
+0001 [Intro] | Acto dos
+0002 [Intro] | El frío de la hoja, el calor de tu mano (Parte II)
+0003 [Intro] | Tras recibir una sola comida como muestra de bondad, Chitose siguió los pasos de quien la salvó y, en el camino, se echó a cuestas la tarea de hacer el bien y detener el mal.
+0004 [Chitose] | (La ciudad está... mucho más alborotada de lo normal hoy. Tengo que encontrar pronto a quien me salvó.)
+0005 [Chitose] | (... Esta sensación. Hostilidad pura.)
+0006 [Arrogant Gang Member] | ¡Oye, tú! No te había visto por aquí.
+0007 [Strong Gang Member] | ¿Qué traes en la espalda? ¿Crees que puedes pasearte por nuestro territorio sin pagar la cuota?
+0008 [Chitose] | ¿Una cuota...?
+0009 [Chitose] | No llevo mercancía.
+0010 [Strong Gang Member] | ¡¿Haaah?!
+0011 [Arrogant Gang Member] | ¡¿Qué, te crees mejor que nosotros?!
+0012 [Chitose] | Por favor, háganse a un lado. Si resultaran heridos, yo...
+0013 [Arrogant Gang Member] | —¡De verdad viene hacia nosotros—! ¡Tú—!
+0014 [Strong Gang Member] | ¡Maldición! ¡Hacía siglos que no teníamos una buena pelea! ¡Y esta viene a buscarla!
+0015 [Chitose] | No tuve opción...==W== Mis disculpas.
+0016 [Chitose] | (Ahora que he comido, mi cuerpo se siente tan ligero... Así que esto es lo que el hambre le hace a uno...)
+0017 [Chitose] | (Parece que este tipo de sabiduría callejera es vital para viajar sola.)
+0018 [Silver-Haired Girl] | —¡¿Eh?!
+0019 [Chitose] | (Tsk, ¿alguien más?)
+0020 [Silver-Haired Girl] | ¡Ah! ¡Mi bebida! ¡La partiste en dos mitades!
+0021 [Chitose] | Mis más sinceras disculpas por la intromisión... Pero estoy en medio de un combate.
+0022 [Silver-Haired Girl] | Mi... bebida.
+0023 [Narración] | La mano de la chica de cabello plateado se cerró sobre la mía. Un poder mágico increíble crepitaba en la punta de sus dedos.
+0024 [Chitose] | Este poder... ¿qué es?
+0025 [Silver-Haired Girl] | Cortada...
+0026 [Silver-Haired Girl] | ¡CORTASTE MI BEBIDA! ¡Apenas le di un sorbo!
+0027 [Chitose] | La situación es grave... Podemos arreglar esto después—
+0028 [Arrogant Gang Member] | ¡Oye! ¿A dónde crees que vas?
+0029 [Strong Gang Member] | ¡Sí, paga la cuota! ¡A menos que quieras problemas!
+0030 [Silver-Haired Girl] | ¿Quién eres? Espera... Si te destrozo a estos matones, ¿me compras una bebida?
+0031 [Chitose] | ¿Comprar? Entonces... si te invitara una bebida, ¿perdonarías mi ofensa?
+0032 [Silver-Haired Girl] | ¡Sip, claro!
+0033 [Chitose] | Entendido. Compensaré la bebida perdida.
+0034 [Silver-Haired Girl] | ¡Genial! Entonces, trato hecho—
+0035 [Chitose] | (Esas garras... ¡Así que de ahí venía el extraño poder mágico que sentí!)
+0036 [Silver-Haired Girl] | ¡Muy bien, voy con todo!
+0037 [Chitose] | Entonces la ayudaré.
+0038 [Arrogant Gang Member] | ¡Maldición! No les podemos ni poner un dedo encima...
+0039 [Strong Gang Member] | Olvídate de la cuota... Nos van a matar... ¡Agh—urk!
+0040 [Silver-Haired Girl] | Listo. Entonces estamos a mano, ¿no?
+0041 [Chitose] | (Uf. Me alegra que mi aura no le haya hecho daño.)
+0042 [Silver-Haired Girl] | Oye, un trato es un trato. Yo me encargué de ellos, así que me debes una bebida.
+0043 [Chitose] | Cierto. Solo tengo que sacar mi... ==W==monedero...==W== que está justo—
+0044 [Chitose] | Ah, se me había olvidado, pero parece que ya... gasté todo el dinero de mi viaje.
+0045 [Silver-Haired Girl] | ¡¿Eh?! ¿Y entonces qué pasa con mi bebida...?
+0046 [Helmeted Girl] | ¡Disculpen, ustedes dos! Perdón por interrumpir: estoy de patrulla. Escuché que las pandillas de la zona estaban extorsionando a la gente otra vez. ¿Han visto algo?
+0047 [Helmeted Girl] | ¡E-espera! ¡¿Por qué hay toda una banda de matones inconscientes en el suelo?!
+0048 [Helmeted Girl] | No me digan que las pandillas ya... ¡oh! ¿Ustedes dos los derrotaron?
+0049 [Chitose] | Perdón, pero ¿qué es exactamente una «pandilla»?
+0050 [Helmeted Girl] | ¿Eh? ¿Estos tipos no son pandilleros?
+0051 [Helmeted Girl] | Eh... un momento. ¡¿No me digan que los pandilleros son ustedes?!==W== ¡¿Me engañaron por completo?!
+0052 [Girl with Helmet Off] | ¡Así que fueron ustedes dos!==W== Fueron ustedes quienes derrotaron a esos matones y mantuvieron a salvo el pueblo.
+0053 [Chitose] | Me llamo Chitose. Soy solo una hoja de paso en un viaje de entrenamiento.==W== Ahora busco a... quien me salvó dándome de comer.
+0054 [Cosette] | Y-yo soy Cosette.
+0055 [Tilia] | ¡Permítanme presentarme! ¡Soy Tilia, una nueva caballera de la Guardia Imperial!==W== ¡Para celebrar que conocí a un par de heroínas, la primera ronda de bebidas va por mi cuenta! Cosette, ¿qué vas a querer?
+0056 [Cosette] | ¡Guau, qué amable! ¡Gracias, Tilia!
+0057 [Tilia] | ¡Tú también, Chitose, por supuesto! ¡Vamos, elige lo que quieras!
+0058 [Chitose] | Entonces yo...
+0059 [Chitose] | (No puedo acercarme más... Podría lastimarlas.)
+0060 [Cosette] | ¿Qué se te antoja, Chitose?==W== Esta máquina tiene un montón de cosas buenas.
+0061 [Chitose] | (¡La mano de Cosette... tan cerca! No, no puedo permitir que ella...)
+0062 [Cosette] | Oye... ¿Qué pasa? ¿No te alegra la bebida gratis?
+0063 [Chitose] | No es eso... Es que apenas me habían mostrado la bondad de una comida.
+0064 [Tilia] | Mencionaste que buscabas a alguien... ¿Cómo es? ¿Andaba con alguien más? ¡Tal vez pueda ayudarte!
+0065 [Chitose] | ¿De verdad?
+0066 [Chitose] | ¿De verdad? Quien me salvó iba acompañado de...==W== alguien de cabello dorado,==W== otra de cabello azul...==W== y...
+0067 [Tilia] | ¡Ah! ¡Seguro hablas de esos Trekkers! Acaban de regresar a Emor. Ahora mismo están ayudando al Clan Viento de Ceniza a plantarle cara a Creta Trading.
+0068 [Tilia] | Tienen una pelea difícil entre manos...==W== Escuché que unos caballeros aceptaron encargos de Creta Trading. Parece que la compañía está dispuesta a jugar sucio.
+0069 [Chitose] | ¿Eso significa que quien me salvó está en peligro?
+0070 [Chitose] | Perdónenme... Debo irme. De inmediato.
+0071 [Tilia] | ¡Ah, claro! ¡No quería entretenerte!
+0072 [Tilia] | ¡Cierto! Los acabo de ver dirigirse a la clínica. ¿Sabes dónde queda? Puedo indicarte...
+0073 [Chitose] | No será necesario, gracias. Debo retirarme.
+0074 [Cosette] | La próxima vez yo te elegiré una bebida.
+0075 [Tilia] | ¡Está bien, entonces! ¡Cuídate mucho!
+0076 [Chitose] | Cuando llegue el momento... cuando esta hoja esté completamente forjada...
+0077 [Chitose] | (Es solo una corazonada... pero deben estar justo adelante.)
+0078 [Chitose] | (—¡Es quien me salvó!)
+0079 [Chitose] | Por favor, esperen—
+0080 [Passing Trekker] | ¡Argh—! ¡Mi hombrera está rota! ¡¿Qué hiciste?!
+0081 [Peer Trekker] | ¡Agh—! ¡Ay! Mi mano... ¡¿cómo se cortó?!
+0082 [Tender Voice] | Chitose... Esta es tu lección final. ¿Estás lista?
+0083 [Chitose] | Sí, lo estoy.
+0084 [Chitose] | Aunque en mi estado actual podría hacerle daño a quien me salvó...
+0085 [Chitose] | ¡Debo saldar esta deuda de bondad!
+0086 [Chitose] | No me queda otra... Los ayudaré desde las sombras.

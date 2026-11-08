@@ -3,9 +3,9 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Curious Clerk | Curious Clerk
-N:Excited Supplier | Excited Supplier
-N:Gossipy Clerk | Gossipy Clerk
+N:Curious Clerk | Empleado curioso
+N:Excited Supplier | Proveedor emocionado
+N:Gossipy Clerk | Empleado chismoso
 N:avg1_150 | Laru
 N:avg3_144 | Residente
 N:avg3_150 | Albedo
@@ -14,69 +14,69 @@ N:avg3_185 | Grace Receptionist
 N:avg3_196 | Empleada corporativa
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | The Old Timer and the Newcomer (Part I)
-0003 [Intro] | To escape the grasp of her demon-of-a-boss, Albedo, Laru claimed she was taking Bastelina to the Trekker Association to show her the ropes.
-0004 [Albedo] | Laru! Care to explain these expense reports properly?
-0005 [Albedo] | Weren't you taking the supplier out for lunch? How did you end up ordering ten large "Monolith fries"?
-0006 [Laru] | Uh... That was the business meal with the supplier...==W== Can't I reimburse that?
-0007 [Albedo] | And this one! "Master-grade fishing gear set"? Were you planning to catch your own dinner?
-0008 [Laru] | That ...==W== that was a gift! A gift for the supplier...
-0009 [Albedo] | LOOK ME IN THE EYE.==W== And say that again!
-0010 [Curious Clerk] | Waaah... Albedo's really mad this time.
-0011 [Gossipy Clerk] | But since it's Laru getting yelled at, that's pretty normal.
-0012 [Bastelina] | Haha... Another day, another scolding for Laru. Just the natural order of things.
-0013 [Bastelina] | Hmmm, as her adorable junior, I guess I'll have to find a way to bail her out...
-0014 [Albedo] | Business entertainment, huh? This isn't your first time taking supplier out for fries, is it?
-0015 [Albedo] | That contract could've been signed right after lunch, but instead you took them fishing all afternoon! Just what were you thinking?
-0016 [Laru] | Well, they said they liked fishing too...
-0017 [Albedo] | More like you finished the contract in the morning and just didn't wanna go back to the office, so you went fishing.
-0018 [Albedo] | Even if we let that slide—why did you have to go all the way into the Wilds? What if you ran into monsters?!
-0019 [Laru] | That's where the big fish are! And even if monsters showed up, I could handle them easily.
-0020 [Albedo] | Big fish, huh?==W== Then where's the contract, after all that hard work of yours?
-0021 [Laru] | The contract...==W== I did get it signed, but after I got back to the office it kinda ... disappeared...
-0022 [Albedo] | Honestly, I don't care how you get things done as long as you get them done. But now you've even lost the contract...
-0023 [Laru] | I didn't lose it! It just got misplaced!
-0024 [Albedo] | That's called losing it!
-0025 [Bastelina] | Uh—Excuse me, Miss Albedo? There's a supplier waiting outside who wishes to see you, urgently.
-0026 [Albedo] | Perfect! Let him in!==W== I'll deal with you later!
-0027 [Excited Supplier] | Miss Albedo, I apologize for showing up without an appointment. I hope I'm not intruding.
-0028 [Albedo] | Not at all! In fact, I was planning to visit you myself to apologize for yesterday's poor hospitality. Please, have a seat.
-0029 [Excited Supplier] | Poor hospitality? Miss Laru's reception was far from poor!==W== On the contrary, I had a wonderful time.
-0030 [Albedo] | A wonderful time?
-0031 [Excited Supplier] | The place she chose for lunch was quite unique, and those fries were surprisingly delicious...
-0032 [Excited Supplier] | But what really amazed me was that... That afternoon, under her guidance, I caught the biggest fish of my life!
-0033 [Laru] | Oh, that was nothing! We can go again sometime. I know plenty of other good fishing spots!
-0034 [Excited Supplier] | Yes! Please do take me next time!
-0035 [Excited Supplier] | Oh, right... I actually came here today to return this contract. After fishing yesterday, I accidentally took your copy with me. My apologies.
-0036 [Excited Supplier] | By way of apology, we're offering a ten-percent discount on the final purchase price. Thank you for your time. I'll take my leave now.
-0037 [Albedo] | Ah, allow me to walk you out.
-0038 [Bastelina] | Safe travels!
-0039 [Narración] | The supplier left, and as the office door clicked shut, silence filled the room.
-0040 [Albedo] | You got lucky this time!
-0041 [Laru] | So ... does that mean my expense reports are approved?
-0042 [Albedo] | Go to accounting later and go through the usual process.
-0043 [Laru] | Yes! Thank you!==W== Then I'll be on my way!
-0044 [Albedo] | Hold it! I'm not done yet! We still need to talk about your work attitude!
-0045 [Laru] | Oh, that reminds me of something!
-0046 [Laru] | Bastelina! Since your probation just ended, I never did bring you up to date with our procurement work with the Trekker Association, did I?
-0047 [Bastelina] | Eh? No, I don't think so...
-0048 [Laru] | And today just happens to be our scheduled meeting day with them! Let's get going!
-0049 [Bastelina] | But... Miss Albedo looks mad...
-0050 [Laru] | It's fine, it's fine~ You're a full-time employee now, Bastelina! You've gotta get familiar with your job fast! No slacking off!
-0051 [Albedo] | Do you even hear yourself?
-0052 [Laru] | Eh? But I'm not Bastelina...
-0053 [Albedo] | (sigh) Never mind. Just go, you two.==W== I must had accumulated some bad karma in a previous life to get a subordinate like that...
-0054 [Laru] | Escape successful!
-0055 [Bastelina] | So ... what exactly is our procurement business with the Trekker Association?
-0056 [Laru] | Well, you know how we need tons of Artifacts for our research and projects, right? We outsource all that collection work to the Trekker Association and settle account regularly.
-0057 [Bastelina] | I see! Let me write that down...
-0058 [Laru] | No need for that...
-0059 [Laru] | I just said that so we could get out from her office.
-0060 [Laru] | Our "regular meetings" with the Trekker Association are only technically on a schedule. We can actually drop by whenever we want. I was literally just there a few days ago.
-0061 [Bastelina] | Then... Are we still going?
-0062 [Laru] | We said we would, so we might as well go, if only for appearance's sake. Don't wanna get caught.
-0063 [Laru] | That reminds me! Bastelina, you haven't met Willow yet, have you?
-0064 [Bastelina] | Willow? I think I've seen that name on a partner list before...
-0065 [Laru] | She's the head of the Trekker Association's Emor City branch. And she's an old friend of mine!
-0066 [Laru] | You can meet her today and get a sense of how we work with the Trekker Association.
+0001 [Intro] | Acto uno
+0002 [Intro] | La veterana y la novata (Parte I)
+0003 [Intro] | Para escapar de las garras de su jefa demonio, Albedo, Laru dijo que llevaría a Bastelina a la Asociación de Trekkers para enseñarle cómo funciona todo.
+0004 [Albedo] | ¡Laru! ¿Quieres explicarme como se debe estos reportes de gastos?
+0005 [Albedo] | ¿No ibas a invitar al proveedor a comer? ¿Cómo terminaste pidiendo diez porciones grandes de «papas Monolito»?
+0006 [Laru] | Eh... Esa fue la comida de negocios con el proveedor...==W== ¿No puedo pedir el reembolso?
+0007 [Albedo] | ¡Y este! ¿«Juego de equipo de pesca de grado maestro»? ¿Pensabas pescar tu propia cena?
+0008 [Laru] | Eso...==W== ¡eso fue un regalo! Un regalo para el proveedor...
+0009 [Albedo] | MÍRAME A LOS OJOS.==W== ¡Y repítelo!
+0010 [Curious Clerk] | Waaah... Albedo está furiosa de verdad esta vez.
+0011 [Gossipy Clerk] | Pero como a quien regañan es a Laru, es bastante normal.
+0012 [Bastelina] | Jaja... Otro día, otro regaño para Laru. Es el orden natural de las cosas.
+0013 [Bastelina] | Mmm, como su adorable subordinada, supongo que tendré que encontrar la manera de sacarla del apuro...
+0014 [Albedo] | ¿Atención a clientes, eh? No es la primera vez que llevas a un proveedor a comer papas fritas, ¿verdad?
+0015 [Albedo] | ¡Ese contrato pudo haberse firmado justo después de comer, pero en lugar de eso lo llevaste a pescar toda la tarde! ¡¿En qué estabas pensando?!
+0016 [Laru] | Bueno, dijo que a él también le gustaba pescar...
+0017 [Albedo] | Más bien terminaste el contrato en la mañana y no querías volver a la oficina, así que te fuiste a pescar.
+0018 [Albedo] | Aun si pasamos eso por alto... ¿por qué tuviste que ir hasta las Tierras Salvajes? ¡¿Y si te topabas con monstruos?!
+0019 [Laru] | ¡Ahí están los peces grandes! Y aunque aparecieran monstruos, podría con ellos fácilmente.
+0020 [Albedo] | ¿Peces grandes, eh?==W== Entonces, después de todo tu arduo trabajo, ¿dónde está el contrato?
+0021 [Laru] | El contrato...==W== Sí logré que lo firmara, pero cuando volví a la oficina como que... desapareció...
+0022 [Albedo] | Sinceramente, no me importa cómo hagas las cosas mientras las hagas. Pero ahora hasta perdiste el contrato...
+0023 [Laru] | ¡No lo perdí! ¡Solo lo extravié!
+0024 [Albedo] | ¡Eso se llama perderlo!
+0025 [Bastelina] | Eh... ¿disculpe, señorita Albedo? Hay un proveedor esperando afuera que desea verla, con urgencia.
+0026 [Albedo] | ¡Perfecto! ¡Que pase!==W== ¡Contigo me ocupo después!
+0027 [Excited Supplier] | Señorita Albedo, le pido disculpas por presentarme sin cita. Espero no importunar.
+0028 [Albedo] | ¡Para nada! De hecho, pensaba ir a visitarlo yo misma para disculparme por la mala hospitalidad de ayer. Por favor, tome asiento.
+0029 [Excited Supplier] | ¿Mala hospitalidad? ¡La atención de la señorita Laru estuvo lejos de ser mala!==W== Al contrario, la pasé de maravilla.
+0030 [Albedo] | ¿La pasó de maravilla?
+0031 [Excited Supplier] | El lugar que eligió para comer era bastante singular, y esas papas fritas estaban sorprendentemente deliciosas...
+0032 [Excited Supplier] | Pero lo que de verdad me asombró fue que... ¡esa tarde, bajo su guía, pesqué el pez más grande de mi vida!
+0033 [Laru] | ¡Ay, eso no fue nada! ¡Podemos ir otra vez algún día! ¡Conozco muchos otros buenos lugares de pesca!
+0034 [Excited Supplier] | ¡Sí! ¡Por favor, llévame la próxima vez!
+0035 [Excited Supplier] | Ah, cierto... De hecho vine hoy para devolver este contrato. Después de pescar ayer, sin querer me llevé su copia. Mis disculpas.
+0036 [Excited Supplier] | Como disculpa, le ofrecemos un diez por ciento de descuento sobre el precio final de compra. Gracias por su tiempo. Me retiro ahora.
+0037 [Albedo] | Ah, permítame acompañarlo.
+0038 [Bastelina] | ¡Buen viaje!
+0039 [Narración] | El proveedor se marchó y, al cerrarse la puerta de la oficina con un clic, el silencio llenó la sala.
+0040 [Albedo] | ¡Esta vez tuviste suerte!
+0041 [Laru] | Entonces... ¿eso significa que mis reportes de gastos están aprobados?
+0042 [Albedo] | Ve a contabilidad más tarde y haz el trámite de siempre.
+0043 [Laru] | ¡Sí! ¡Gracias!==W== ¡Entonces me voy!
+0044 [Albedo] | ¡Alto ahí! ¡Todavía no termino! ¡Aún tenemos que hablar de tu actitud en el trabajo!
+0045 [Laru] | ¡Ah, eso me recuerda algo!
+0046 [Laru] | ¡Bastelina! Como tu período de prueba acaba de terminar, nunca te puse al día con nuestro trabajo de adquisiciones con la Asociación de Trekkers, ¿verdad?
+0047 [Bastelina] | ¿Eh? No, creo que no...
+0048 [Laru] | ¡Y justo hoy es nuestro día programado de reunión con ellos! ¡Vámonos!
+0049 [Bastelina] | Pero... la señorita Albedo se ve enojada...
+0050 [Laru] | ¡No pasa nada, no pasa nada~! ¡Ya eres empleada de planta, Bastelina! ¡Tienes que familiarizarte rápido con tu trabajo! ¡Nada de holgazanear!
+0051 [Albedo] | ¿Te estás oyendo?
+0052 [Laru] | ¿Eh? Pero yo no soy Bastelina...
+0053 [Albedo] | (suspiro) Olvídalo. Vayan, ustedes dos.==W== Debí haber acumulado mal karma en una vida pasada para tener una subordinada así...
+0054 [Laru] | ¡Escape exitoso!
+0055 [Bastelina] | Entonces... ¿en qué consiste exactamente nuestro negocio de adquisiciones con la Asociación de Trekkers?
+0056 [Laru] | Bueno, ya sabes que necesitamos montones de Artefactos para nuestras investigaciones y proyectos, ¿verdad? Subcontratamos toda esa recolección a la Asociación de Trekkers y saldamos cuentas con regularidad.
+0057 [Bastelina] | ¡Ya veo! Déjame anotarlo...
+0058 [Laru] | No hace falta...
+0059 [Laru] | Solo dije eso para que pudiéramos salir de su oficina.
+0060 [Laru] | Nuestras «reuniones periódicas» con la Asociación de Trekkers solo técnicamente tienen horario. En realidad podemos pasar cuando queramos. Estuve ahí hace apenas unos días.
+0061 [Bastelina] | Entonces... ¿todavía vamos?
+0062 [Laru] | Dijimos que iríamos, así que mejor vamos, aunque sea por las apariencias. No quiero que nos descubran.
+0063 [Laru] | ¡Eso me recuerda! Bastelina, todavía no conoces a Willow, ¿verdad?
+0064 [Bastelina] | ¿Willow? Creo que he visto ese nombre antes en una lista de socios...
+0065 [Laru] | Es la jefa de la sucursal de la Asociación de Trekkers en la ciudad de Emor. ¡Y es una vieja amiga mía!
+0066 [Laru] | Hoy puedes conocerla y hacerte una idea de cómo trabajamos con la Asociación de Trekkers.

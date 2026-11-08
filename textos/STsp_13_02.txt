@@ -3,8 +3,8 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Suspicious Sidekick | Suspicious Sidekick
-N:Suspicious Trekker | Suspicious Trekker
+N:Suspicious Sidekick | Compinche sospechosa
+N:Suspicious Trekker | Trekker sospechosa
 N:avg1_119 | Nanoha
 N:avg1_137 | Eleanor
 N:avg3_100 | Sylar
@@ -14,116 +14,116 @@ N:avg3_199 | Chica de la pandilla
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | The Missy and the Saucy Maid (Part II)
-0003 [Intro] | Accidentally caught up in a kidnapping with a junior?! Don't give up—you can definitely escape.
-0004 [Tú] | I've slammed against this door a dozen times, but it won't budge.==W== Eleanor, any luck?
-0005 [Eleanor] | No use. The windows are sealed shut. I can't even smash the glass.
-0006 [Tú] | Must be some kind of locking mechanism. We're in trouble...
-0007 [Suspicious Sidekick] | Hahaha! Give it up! You're never getting out of this house!
-0008 [Suspicious Trekker] | This has always been our turf! Good thing we kept those intruder traps active.
-0009 [Suspicious Sidekick] | Can't believe we hooked a rich little princess from the Gold District! Hahaha!
-0010 [Suspicious Trekker] | I was planning to squeeze more cash out of her, but now...==W== We'll just hold her family to ransom.
-0011 [Suspicious Trekker] | Heheh. Now, how much should we ask for?
-0012 [Suspicious Sidekick] | Blame yourself! Naive little brat, you seriously underestimated what the Trekker life is about.
-0013 [Eleanor] | ... Hah... I'm so ridiculously gullible. Maybe I'm just not cut out to be a Trekker...
-0014 [Tú] | It's not your fault. I don't know you well enough yet, but I do know one thing...
-0015 [Tú] | A bunch of thugs doesn't get to decide your path in life.
-0016 [Tú] | Truth is, I don't have much more experience as a Trekker than you do. But here's what I do know:
-0017 [Tú] | To be a Trekker is to be freer than anyone else.
-0018 [Tú] | Following your gut, adventuring without chains... That describes every Trekker I've ever met.
-0019 [Tú] | If you want to be the real deal, ignore them. Stick to the reason you started this journey in the first place.
-0020 [Eleanor] | Mentor... Thank you.
-0021 [Eleanor] | Actually ... this isn't the first time I've got myself into a mess like this.==W== I got kidnapped once as a kid. They held me for a huge ransom then, too.
-0022 [Eleanor] | Our head maid stepped in and saved me just in time.==W== Turns out, she used to be a Trekker.
-0023 [Tú] | A retired Trekker... Is she the reason you wanted to become one?
-0024 [Eleanor] | Yeah. Since that day, I swore I'd grow up to be just like her—==W==a cool, capable adult who protects others.
-0025 [Tú] | I see. Then we definitely can't sit around waiting to be rescued, can we?
-0026 [Eleanor] | You're absolutely right, Mentor! Let's find a way out of here together!
-0027 [Tú] | My guild is inside the Monolith, so they're out of reach. We need another angle...
-0028 [Eleanor] | Mentor, may I show you what's in my suitcase?
-0029 [Eleanor] | I've also got a bunch of props I collected back in the day…
-0030 [Eleanor] | Maybe some of them might actually come in handy!
-0031 [Tú] | Sure, let's see what you've got...
-0032 [Eleanor] | Ta-daaa!
-0033 [Eleanor] | I bought some from retired Trekkers, snagged others at auctions...==W== Basically, this is the result! W-Well? What do you think?
-0034 [Opción] | This is seriously impressive!
-0035 [Eleanor] | Huh? R-Really?
-0036 [Tú] | Yeah... It's way more than I expected.
-0037 [Tú] | You've been hauling an entire arsenal around with you this whole time?
-0038 [Eleanor] | Arsenal? Wait, you can use these as weapons?
-0039 [Eleanor] | I just knew I had to buy 'em. No clue how to actually use any of it... Hehe.
-0040 [Tú] | I-I see...==W== An arms dealer would have a field day with this stash.
-0041 [Tú] | This case is packed tight. Isn't it heavy?
-0042 [Eleanor] | It's heavy, sure. It was a struggle at first, but I kinda just got used to it. I bring this case on every commission, after all.
-0043 [Eleanor] | I bet for a battle-hardened Trekker, this weight is just a warm-up...==W== I've got to toughen up!
-0044 [Tú] | ...==W== I really did land myself a promising junior.
-0045 [Tú] | Well, with a haul this big, something's gotta be useful.
-0046 [Tú] | Some of these are too loud. Wouldn't want to alert the gang downstairs.
-0047 [Tú] | This blade is too big for the keyhole...==W== Wait, got it!
-0048 [Tú] | This one might just do the trick...
-0049 [Tú] | Nice. It's open!
-0050 [Eleanor] | You actually picked it...! You're amazing, Mentor!
-0051 [Tú] | Shh, someone's coming.
-0052 [Tú] | Right outside... We got lucky. She didn't notice the lock.
-0053 [Suspicious Trekker] | Hey. Where's that maid? You didn't lose her, did you?
-0054 [Suspicious Sidekick] | In the other room. Door's locked tight.
-0055 [Suspicious Trekker] | Good. Remember: no one gets out to raise the alarm. We only need the rich girl. If the others try anything funny... Don't hold back.
-0056 [Suspicious Sidekick] | Got it!
-0057 [Eleanor] | Ugh...! Those people...==W== I dragged Nanoha into this...
-0058 [Tú] | Stay calm. We'll figure this out.
-0059 [Eleanor] | S-Sorry. Lost my cool for a second.
-0060 [Tú] | Situation's tight, sure, but we will get Nanoha back. Don't worry.
-0061 [Tú] | She's probably locked downstairs. We just need to find a way in...
-0062 [Eleanor] | Mentor, wait. I just realized something. They said they only need the rich girl... Right?
-0063 [Eleanor] | That means they won't hurt me. Not easily, anyway.
-0064 [Tú] | True...==W== Wait. You don't mean...
-0065 [Tú] | You want to be the bait?
-0066 [Eleanor] | Yes. I'll draw them away. Mentor, you use that commotion to save Nanoha. Is that okay?
-0067 [Eleanor] | I... I know it's dangerous. But this whole mess started because of me...
-0068 [Eleanor] | I can't just stand by while Nanoha's in danger.
-0069 [Eleanor] | If I'm serious about my dream, I can't be a coward.
-0070 [Tú] | Understood. Let's do it your way.
-0071 [Eleanor] | Thanks, Mentor!
-0072 [Tú] | But promise me one thing: don't be reckless.
-0073 [Tú] | If things get dangerous, your safety comes first. Okay?
-0074 [Eleanor] | I won't forget, Mentor!
-0075 [Tú] | Hmm... Oh, right. If you run into trouble, just use whatever weapons you have on you.
-0076 [Tú] | Like this one. Even you should be able to handle it.
-0077 [Tú] | As for when to use it...
-0078 [Eleanor] | I see! So that's the brilliant strategy of the Boss!
-0079 [Eleanor] | I'm off then!
-0080 [Tú] | Good luck.
-0081 [Tú] | Perfect. Eleanor lured the guards away. Now's my chance...
-0082 [???] | Wah!
-0083 [Tú] | Huh? What was that noise...
-0084 [Nanoha] | Ah...!
-0085 [Tú] | They're all down... Did you do this, Nanoha?
-0086 [Nanoha] | You caught me.
-0087 [Tú] | I had a feeling you weren't just an ordinary maid. I just never expected you ... to be this skilled.
-0088 [Tú] | But this actually makes things a lot easier.
-0089 [Tú] | Nanoha, let's get out of here.
-0090 [Nanoha] | You ... aren't going to ask for an explanation?
-0091 [Nanoha] | Besides, we're practically strangers. You could have run... Why come back for me?
-0092 [Tú] | Because I can't abandon innocent people. And right now, whoever you really are, we're fighting the same enemy.
-0093 [Tú] | So, how about we team up? You in?
-0094 [Nanoha] | You certainly have a way with words...==W== I'll cooperate. But please, not a word to Miss Eleanor.
-0095 [Nanoha] | I can't reveal my methods to a client. It's ...==W== against protocol. Please understand.
-0096 [Tú] | Deal. My lips are sealed.
-0097 [Suspicious Sidekick] | Got her!
-0098 [Suspicious Trekker] | You little brat! Made us work for that one!
-0099 [Tú] | Damn it, they have Eleanor! Go, now!
-0100 [Eleanor] | L-Let go of me!
-0101 [Eleanor] | I promise I won't run! Just trust me—!
-0102 [Suspicious Trekker] | Sure thing. Once I snap your legs, I'll trust you plenty!
-0103 [Eleanor] | Eeek—!
-0104 [Tú] | Eleanor! Use it, now!
-0105 [Eleanor] | Mentor!==W== Alright... Chew on this!
-0106 [Suspicious Trekker] | Whoa! W-What the hell?! Smoke?!
-0107 [Suspicious Trekker] | Cough! Cough! My eyes! They're burning!
-0108 [Suspicious Trekker] | Cough... The girl! She's getting away!
-0109 [Suspicious Sidekick] | Cap, trouble! We can't see a damn thing!==W== Achoo—!
-0110 [Suspicious Sidekick] | Cap? Where are you, Cap...==W== Gwah!
-0111 [Tú] | Hmph. You guys started this. Don't blame us for playing dirty.
-0112 [Tú] | Surprise! Your hostage was a bomb...==W== Well, a smoke bomb, technically.
-0113 [Tú] | Eleanor, move! On me!
+0001 [Intro] | Acto dos
+0002 [Intro] | La señorita y la criada descarada (Parte II)
+0003 [Intro] | ¿¡Atrapados por accidente en un secuestro junto a una junior!? No te rindas: seguro que pueden escapar.
+0004 [Tú] | Me he estrellado contra esta puerta una docena de veces, pero no cede.==W== Eleanor, ¿tuviste suerte?
+0005 [Eleanor] | Nada. Las ventanas están selladas. Ni siquiera puedo romper el cristal.
+0006 [Tú] | Debe de ser algún tipo de mecanismo de cierre. Estamos en problemas...
+0007 [Suspicious Sidekick] | ¡Jajaja! ¡Ríndanse! ¡Jamás saldrán de esta casa!
+0008 [Suspicious Trekker] | ¡Este siempre ha sido nuestro territorio! Qué bueno que mantuvimos activas esas trampas contra intrusos.
+0009 [Suspicious Sidekick] | ¡No puedo creer que hayamos pescado a una princesita rica del Distrito de Oro! ¡Jajaja!
+0010 [Suspicious Trekker] | Pensaba sacarle más dinero, pero ahora...==W== Pediremos rescate a su familia.
+0011 [Suspicious Trekker] | Jejeje. A ver, ¿cuánto deberíamos pedir?
+0012 [Suspicious Sidekick] | ¡Échate la culpa a ti misma! Mocosa ingenua, subestimaste de verdad lo que es la vida de un Trekker.
+0013 [Eleanor] | ... Ja... Qué ridículamente crédula soy. Quizá simplemente no estoy hecha para ser Trekker...
+0014 [Tú] | No es tu culpa. Todavía no te conozco lo suficiente, pero sí sé una cosa...
+0015 [Tú] | Un montón de matones no decide el rumbo de tu vida.
+0016 [Tú] | La verdad es que no tengo mucha más experiencia que tú como Trekker. Pero esto sí sé:
+0017 [Tú] | Ser Trekker es ser más libre que cualquier otra persona.
+0018 [Tú] | Seguir tu instinto, aventurarte sin cadenas... Eso describe a todos los Trekkers que he conocido.
+0019 [Tú] | Si quieres ser una de verdad, ignóralos. Apégate a la razón por la que empezaste este camino.
+0020 [Eleanor] | Mentor... Gracias.
+0021 [Eleanor] | En realidad ... no es la primera vez que me meto en un lío así.==W== Una vez me secuestraron de niña. También entonces pidieron un rescate enorme.
+0022 [Eleanor] | Nuestra jefa de sirvientas intervino y me salvó justo a tiempo.==W== Resulta que antes era Trekker.
+0023 [Tú] | Una Trekker retirada... ¿Es ella la razón por la que querías convertirte en una?
+0024 [Eleanor] | Sí. Desde ese día juré que crecería para ser igual que ella—==W==una adulta genial y capaz que protege a los demás.
+0025 [Tú] | Ya veo. Entonces definitivamente no podemos quedarnos esperando a que nos rescaten, ¿verdad?
+0026 [Eleanor] | ¡Tienes toda la razón, Mentor! ¡Encontremos juntos la forma de salir de aquí!
+0027 [Tú] | Mi gremio está dentro del Monolito, así que no pueden ayudarnos. Necesitamos otro enfoque...
+0028 [Eleanor] | Mentor, ¿puedo mostrarte lo que hay en mi maleta?
+0029 [Eleanor] | También tengo un montón de objetos que coleccioné hace tiempo…
+0030 [Eleanor] | ¡Quizá algunos de ellos sí sirvan!
+0031 [Tú] | Claro, veamos qué tienes...
+0032 [Eleanor] | ¡Tan-tan!
+0033 [Eleanor] | Compré algunos a Trekkers retirados, conseguí otros en subastas...==W== ¡Básicamente, este es el resultado! ¿Q-qué te parece?
+0034 [Opción] | ¡Esto es realmente impresionante!
+0035 [Eleanor] | ¿Eh? ¿D-de verdad?
+0036 [Tú] | Sí... Es muchísimo más de lo que esperaba.
+0037 [Tú] | ¿Has estado cargando todo un arsenal contigo todo este tiempo?
+0038 [Eleanor] | ¿Arsenal? Espera, ¿se pueden usar como armas?
+0039 [Eleanor] | Solo supe que tenía que comprarlas. Ni idea de cómo usarlas en realidad... Jeje.
+0040 [Tú] | Y-ya veo...==W== Un traficante de armas se daría un festín con este alijo.
+0041 [Tú] | Esta maleta está llena a reventar. ¿No pesa?
+0042 [Eleanor] | Pesa, sí. Al principio me costaba trabajo, pero me fui acostumbrando. Llevo esta maleta a todos los encargos, después de todo.
+0043 [Eleanor] | Seguro que para un Trekker curtido en batalla, este peso es solo calentamiento...==W== ¡Tengo que endurecerme!
+0044 [Tú] | ...==W== De verdad me tocó una junior prometedora.
+0045 [Tú] | Bueno, con un botín tan grande, algo tiene que servir.
+0046 [Tú] | Algunas de estas hacen demasiado ruido. No quisiera alertar a la pandilla de abajo.
+0047 [Tú] | Esta hoja es demasiado grande para la cerradura...==W== ¡Espera, ya sé!
+0048 [Tú] | Esta podría funcionar...
+0049 [Tú] | Bien. ¡Está abierta!
+0050 [Eleanor] | ¡Realmente la abriste...! ¡Eres increíble, Mentor!
+0051 [Tú] | Shh, alguien viene.
+0052 [Tú] | Justo afuera... Tuvimos suerte. No notó la cerradura.
+0053 [Suspicious Trekker] | Oye. ¿Dónde está la sirvienta? No la perdiste, ¿verdad?
+0054 [Suspicious Sidekick] | En la otra habitación. La puerta está bien cerrada.
+0055 [Suspicious Trekker] | Bien. Recuerda: nadie sale a dar la alarma. Solo necesitamos a la niña rica. Si los demás intentan algo raro... No se contengan.
+0056 [Suspicious Sidekick] | ¡Entendido!
+0057 [Eleanor] | ¡Ugh...! Esas personas...==W== Arrastré a Nanoha a esto...
+0058 [Tú] | Calma. Encontraremos una solución.
+0059 [Eleanor] | P-perdón. Perdí la calma por un segundo.
+0060 [Tú] | La situación es crítica, sí, pero recuperaremos a Nanoha. No te preocupes.
+0061 [Tú] | Seguramente está encerrada abajo. Solo tenemos que encontrar la forma de entrar...
+0062 [Eleanor] | Mentor, espera. Acabo de darme cuenta de algo. Dijeron que solo necesitan a la niña rica... ¿Verdad?
+0063 [Eleanor] | Eso significa que no me harán daño. Al menos, no fácilmente.
+0064 [Tú] | Cierto...==W== Espera. No me digas que...
+0065 [Tú] | ¿Quieres ser el señuelo?
+0066 [Eleanor] | Sí. Los alejaré. Mentor, aprovecha el alboroto para salvar a Nanoha. ¿Te parece bien?
+0067 [Eleanor] | Y-yo sé que es peligroso. Pero todo este lío empezó por mi culpa...
+0068 [Eleanor] | No puedo quedarme de brazos cruzados mientras Nanoha está en peligro.
+0069 [Eleanor] | Si hablo en serio sobre mi sueño, no puedo ser cobarde.
+0070 [Tú] | Entendido. Hagámoslo a tu manera.
+0071 [Eleanor] | ¡Gracias, Mentor!
+0072 [Tú] | Pero prométeme una cosa: no seas imprudente.
+0073 [Tú] | Si las cosas se ponen peligrosas, tu seguridad es lo primero. ¿De acuerdo?
+0074 [Eleanor] | ¡No lo olvidaré, Mentor!
+0075 [Tú] | Mmm... Ah, cierto. Si te metes en problemas, usa cualquier arma que lleves contigo.
+0076 [Tú] | Como esta. Hasta tú deberías poder manejarla.
+0077 [Tú] | En cuanto a cuándo usarla...
+0078 [Eleanor] | ¡Ya veo! ¡Así que esa es la brillante estrategia del Jefe!
+0079 [Eleanor] | ¡Entonces me voy!
+0080 [Tú] | Buena suerte.
+0081 [Tú] | Perfecto. Eleanor alejó a los guardias. Ahora es mi oportunidad...
+0082 [???] | ¡Wah!
+0083 [Tú] | ¿Eh? ¿Qué fue ese ruido...?
+0084 [Nanoha] | ¡Ah...!
+0085 [Tú] | Están todos noqueados... ¿Fuiste tú, Nanoha?
+0086 [Nanoha] | Me descubrió.
+0087 [Tú] | Tenía la sospecha de que no eras una sirvienta común. Solo que nunca esperé ... que fueras tan hábil.
+0088 [Tú] | Pero esto en realidad facilita mucho las cosas.
+0089 [Tú] | Nanoha, salgamos de aquí.
+0090 [Nanoha] | ¿No ... va a pedirme una explicación?
+0091 [Nanoha] | Además, somos prácticamente desconocidos. Podría haber huido... ¿Por qué volvió por mí?
+0092 [Tú] | Porque no puedo abandonar a personas inocentes. Y ahora mismo, seas quien seas, luchamos contra el mismo enemigo.
+0093 [Tú] | Entonces, ¿qué tal si nos aliamos? ¿Te apuntas?
+0094 [Nanoha] | Vaya que sabe usar las palabras...==W== Cooperaré. Pero, por favor, ni una palabra a la señorita Eleanor.
+0095 [Nanoha] | No puedo revelar mis métodos a una clienta. Va ...==W== contra el protocolo. Por favor, entienda.
+0096 [Tú] | Trato hecho. Mis labios están sellados.
+0097 [Suspicious Sidekick] | ¡La atrapamos!
+0098 [Suspicious Trekker] | ¡Mocosa! ¡Nos hiciste trabajar para atraparte!
+0099 [Tú] | ¡Maldición, tienen a Eleanor! ¡Vamos, ya!
+0100 [Eleanor] | ¡S-suéltenme!
+0101 [Eleanor] | ¡Prometo que no huiré! ¡Solo confíen en mí—!
+0102 [Suspicious Trekker] | Claro que sí. ¡En cuanto te rompa las piernas, confiaré en ti de sobra!
+0103 [Eleanor] | ¡Iiik—!
+0104 [Tú] | ¡Eleanor! ¡Úsala, ahora!
+0105 [Eleanor] | ¡Mentor!==W== Muy bien... ¡Prueba esto!
+0106 [Suspicious Trekker] | ¡Guau! ¿¡Q-qué demonios!? ¿¡Humo!?
+0107 [Suspicious Trekker] | ¡Cof! ¡Cof! ¡Mis ojos! ¡Arden!
+0108 [Suspicious Trekker] | Cof... ¡La chica! ¡Se está escapando!
+0109 [Suspicious Sidekick] | ¡Jefa, problemas! ¡No se ve nada!==W== ¡Achú—!
+0110 [Suspicious Sidekick] | ¿Jefa? ¿Dónde está, Jefa...?==W== ¡Guaj!
+0111 [Tú] | Hmph. Ustedes empezaron esto. No nos culpen por jugar sucio.
+0112 [Tú] | ¡Sorpresa! Su rehén era una bomba...==W== Bueno, una bomba de humo, técnicamente.
+0113 [Tú] | ¡Eleanor, muévete! ¡Conmigo!

@@ -3,9 +3,9 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Arrogant Robber | Arrogant Robber
-N:Cunning Robber | Cunning Robber
-N:Robbery Ringleader | Robbery Ringleader
+N:Arrogant Robber | Ladrón arrogante
+N:Cunning Robber | Ladrón astuto
+N:Robbery Ringleader | Cabecilla de los ladrones
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -14,121 +14,121 @@ N:avg1_1196 | Stellaroid
 N:avg1_1197 | Stellaroid
 N:avg1_1198 | Stellaroid
 N:avg1_149 | Gerie
-N:avg2_954 | Crispy Hooves
+N:avg2_954 | Pezuñas Crujientes
 N:avg2_983 | Soldado Trekker
 N:avg2_984 | Soldado Trekker
 N:avg3_100 | Sylar
-N:avg3_1281 | Crispy Hooves
+N:avg3_1281 | Pezuñas Crujientes
 N:avg3_138 | Trekker
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | You, In My Eyes (Part Ⅲ)
-0003 [Intro] | You successfully take down the scammer Trekker group, while a dangerous tremor shakes the Monolith. Gerie teleports the New Star Guild to safety—except you.
-0004 [Iris] | Huff, huff... We've been climbing forever... Where is that Trekker, anyway?
-0005 [Amber] | Don't know. But we haven't missed a spot.
-0006 [Noya] | If we haven't seen them yet, they gotta be in the Boss's Domain!
-0007 [Gerie] | Tyrant, your little friends are worried, yet you seem composed. Why is that?
-0008 [Tú] | If I answer, let me guess—my score goes up again?
-0009 [Gerie] | Heheh. Silence itself is an answer. Very on-brand for the legendary Tyrant.
-0010 [Tú] | Sigh... Let's cut the chatter. I'm calm because this feels wrong. You noticed it too, didn't you?
-0011 [Gerie] | Sharp as ever, Tyrant. There are indeed discrepancies.
-0012 [Gerie] | Exhibit A: The blood on that phone is ancient, meaning it had been silent for ages, yet it rang the second we found it. A bit too convenient, no?
-0013 [Gerie] | Exhibit B: If a Trekker dropped it during an attack, where's the mess? No struggle marks, no scattered gear—nothing.
-0014 [Gerie] | Exhibit C: The Trekkers were ambushed by Stellaroids on previous floors, yet they could sprint all the way to the Boss's Domain unscathed? Please.
+0001 [Intro] | Acto tres
+0002 [Intro] | Tú, en mis ojos (Parte Ⅲ)
+0003 [Intro] | Logras derrotar al grupo de Trekkers estafadores, mientras un peligroso temblor sacude el Monolito. Gerie teletransporta al Gremio de la Nueva Estrella a un lugar seguro, excepto a ti.
+0004 [Iris] | Uf, uf... Llevamos una eternidad subiendo... ¿Dónde está ese Trekker, de todos modos?
+0005 [Amber] | No sé. Pero no nos hemos saltado ningún lugar.
+0006 [Noya] | Si todavía no los hemos visto, ¡tienen que estar en el Dominio del Jefe!
+0007 [Gerie] | Tirano, tus amigas están preocupadas, pero tú te ves en calma. ¿A qué se debe?
+0008 [Tú] | Si respondo, adivino: ¿mi puntaje sube otra vez?
+0009 [Gerie] | Jejeje. El silencio mismo es una respuesta. Muy propio del legendario Tirano.
+0010 [Tú] | Suspiro... Dejemos la charla. Estoy en calma porque algo no cuadra. Tú también lo notaste, ¿verdad?
+0011 [Gerie] | Agudo como siempre, Tirano. En efecto, hay discrepancias.
+0012 [Gerie] | Prueba A: la sangre del teléfono es antiquísima, o sea que llevaba años en silencio, pero sonó en el instante en que lo encontramos. Demasiado conveniente, ¿no?
+0013 [Gerie] | Prueba B: si un Trekker lo dejó caer durante un ataque, ¿dónde está el desorden? No hay marcas de forcejeo, ni equipo regado, nada.
+0014 [Gerie] | Prueba C: los Trekkers fueron emboscados por Stellaroids en los pisos anteriores, ¿y aun así pudieron correr hasta el Dominio del Jefe sin un rasguño? Por favor.
 0015 [Tú] | ...
-0016 [Gerie] | Since we're on the same page, why not call them off? It's likely a trap. No need to walk right into the snare.
-0017 [Tú] | No. We keep moving.
-0018 [Gerie] | Why?
-0019 [Tú] | You're wasting your breath. My guild isn't stupid. They know it smells like a trap. But what if there's a one-percent chance someone does need saving? They'll take that bet.
-0020 [Gerie] | Oh? Walking into a trap with your eyes wide open... Sounds like plain old recklessness.
-0021 [Tú] | Not reckless. It's solidarity. Trekkers look out for their own—we all know how easily it could be us next time.
-0022 [Tú] | They saved me once, too. If they hadn't...==W== Well, we wouldn't be having this lovely chat.
-0023 [Gerie] | Fascinating. I suppose that warrants an update to your Heresy Score. Let's call it seventy points~
-0024 [Tú] | Hold up! I just saw through a trap. Why does that raise my score?! And seriously, what is your grading rubric anyway?!
-0025 [Gerie] | You see through the nature of things with ease. The legendary Tyrant possessed that same sharp insight. Ten points.
-0026 [Gerie] | It takes a villain to know a villain. You saw through them because you're even more wicked than they are, aren't you?
-0027 [Tú] | Fine... Can't argue with that logic. What about the other twenty?
-0028 [Gerie] | You dread a higher score, yet you still speak up for your friends. Hmm. The legendary Tyrant was also known for righteousness and for facing challenges head-on. Ten points.
-0029 [Tú] | You really just make this up as you go... And the last ten?
-0030 [Gerie] | You walked calmly into a likely trap.==W== That tells me you believe you and your friends can handle anything. The legendary Tyrant possessed that same absolute confidence. Ten points.
-0031 [Tú] | With a bodyguard who cleared a whole floor of Stellaroids in five minutes on our side, I figured any trap would be a joke.
-0032 [Gerie] | Amusing. You've even calculated me into your plans...==W== Not bad. That manipulative streak suits the Tyrant perfectly.
-0033 [Gerie] | So then—==W==command me as you wish. I'm eager to evaluate your leadership skills.
-0034 [Tú] | Then I won't hold back.
-0035 [Tú] | Gerie, split off and stay hidden. Wait for us to flush the enemy out, then flank them from behind.
-0036 [Gerie] | Alright,==W== alright~ Hehe, now things are getting interesting.
-0037 [Iris] | Boss, we're here. The caller said she's hiding nearby.
-0038 [Amber] | I'll scout from above.
-0039 [Noya] | Hey! Anyone here? Give us a shout if you can hear me.
-0040 [Amber] | Noya! Watch your back!
-0041 [Noya] | Stellaroids?! Does that mean the Trekker who called us is already...
-0042 [Iris] | Stay sharp! Stick together and keep ==PLAYER_NAME== in the center!
-0043 [Amber] | My Soul Stone. Out of Grace.
-0044 [Iris] | Hang in there! It's the last one!
-0045 [Noya] | I-It's over... I can no longer lift my sword...
-0046 [???] | Impressive. You're tougher than you look.
-0047 [???] | Yeah, fighting them fair and square would've been a hassle.
-0048 [Iris] | Are you ... the ones who called for help? Is everyone okay?
-0049 [Robbery Ringleader] | Bwahahaha! Would you get a load of this girl?
-0050 [Cunning Robber] | She actually thinks we're victims!
-0051 [Robbery Ringleader] | We aren't waiting for a rescue, moron. We were fishing, and you took the bait. Get it now? Drop the Dorra and your gear. Now do as I say and I might let you live.
-0052 [Tú] | You're the ones behind the missing Trekkers, aren't you?
-0053 [Arrogant Robber] | Heh, took you long enough. The last bunch played nice, so we stripped them clean and dumped them in the next city over.
-0054 [Tú] | And the rumors about the Dusk Arbiter hunting heretics...==W== You planted those too?
-0055 [Cunning Robber] | So what? Those guys are secretive creeps anyway. I make up one little lie and everyone gobbles it up.
-0056 [Tú] | Sigh... You are hopeless.
-0057 [Arrogant Robber] | Hmph. The only hopeless ones here are you naive idiots.
-0058 [Noya] | Exploiting people's kindness to rob them? You make me sick!
-0059 [Robbery Ringleader] | It's the most efficient way. You've wasted all your Grace on those Stellaroids we lured here, haven't you—==W==huh? What are you staring at?
-0060 [Tú] | And there's their confession... Did you catch all that, Gerie?
-0061 [Robbery Ringleader] | Gerie... That name rings a bell...
-0062 [Narración] | Slandering the Dusk Arbiter. Defiling the God of Grace. Heretics.
-0063 [Narración] | Weaponizing Stellaroids. Abusing the God's creations. Heretics.
-0064 [Arrogant Robber] | W-When did she get behind us?!
-0065 [Cunning Robber] | Don't tell me that's the real Gerie?!
-0066 [Robbery Ringleader] | Scram! Get out of here!
-0067 [Arrogant Robber] | Agh! I can't move! My feet are frozen!
-0068 [Cunning Robber] | M-Magic?! How are you casting spells?!
-0069 [Amber] | We fooled you.
-0070 [Iris] | You know what they say. Too clever for your own good.
-0071 [Noya] | End of the line! Have fun in prison!
-0072 [Robbery Ringleader] | You rats ... think you can trap me?! If I'm going down, I'm taking you with me! Activate every array! No one leaves alive!
-0073 [Noya] | Wait... No attack?
-0074 [Robbery Ringleader] | Hahaha! Those aren't attacks. They're bait to drag every Stellaroid in the Monolith right to us!
-0075 [Robbery Ringleader] | You Trekkers, that Arbiter... We all die together!
-0076 [Amber] | Boss. Hundreds of Stellaroids inbound.
-0077 [Noya] | That's a real pain.
-0078 [Gerie] | Heh. Step back, Trekkers. I'll take it from here.
-0079 [Iris] | That looks terrifying... Is that ... a coffin?
-0080 [Gerie] | One of my lovely little toys. Please, step inside.
-0081 [Noya] | Getting in a coffin while I'm still breathing? That's asking for bad juju! No way!
-0082 [Amber] | Boss. Save me.
-0083 [Iris] | Wait! Where's Boss?! Don't tell me...
-0084 [Gerie] | You talk too much. Your Boss is already tucked in tight.
-0085 [Gerie] | Don't be scared, Trekkers. I'm just shipping you safely to the elevator.
-0086 [Gerie] | What comes next ... might be a little too thrilling for your eyes.
-0087 [Gerie] | Let the execution begin!
-0088 [Narración] | Gerie hooks a finger on her noose and yanks hard. Instantly, time inside the Monolith seems to freeze.
-0089 [Narración] | A piercing screech erupts,==W== mingling with the screams of humans and Stellaroids alike. It's a scene straight out of a horror Stella Drama.
-0090 [Narración] | But the real terror comes when I try to listen in. The strange statue holding me suddenly clicks open on its own...
-0091 [Tú] | What... What is going on...?!
-0092 [Gerie] | Oh my. I thought I'd shipped all the nuisances away. Seems one guest just refuses to leave.
-0093 [Gerie] | To think my summoned torture device couldn't hold you... Boss, you really are the true Tyrant.
-0094 [Tú] | I'm immune to magic... Summoned devices don't work on me.
-0095 [Gerie] | Fair enough. Then allow me to enlighten you... As to why the Dusk Arbiters are back in business.
-0096 [Gerie] | A Soul Shop filed a report. Said they found a customer with magic immunity.
-0097 [Tú] | That was me...
-0098 [Gerie] | When someone like that shows up, the legendary apocalypse isn't far behind.
-0099 [Gerie] | That's why we Arbiters, wielders of relics, are free to walk the earth again.
-0100 [Gerie] | I'll let you in on another secret. This isn't just a noose. It's a relic: the Soul Rope.
-0101 [Gerie] | When I tug on it, I burn through a ton of magic. But it lets me get my hands on the souls of everyone nearby.
-0102 [Gerie] | Then, with a twitch of a finger, I can choke the life out of those fragile little souls.
-0103 [Gerie] | But... Oh, but...
-0104 [Gerie] | I can't see your soul at all! Hehe... Heh...
-0105 [Gerie] | One who's immune to a supreme relic can only be a heretic...==W== A dangerously powerful one.
-0106 [Tú] | There's gotta be a mistake...
-0107 [Gerie] | A mistake? Let me be the judge of that—personally.
-0108 [Gerie] | We're alone in this Monolith now.
-0109 [Gerie] | Come on, Tyrant, let me see all of you!
+0016 [Gerie] | Ya que estamos de acuerdo, ¿por qué no los llamas de vuelta? Probablemente sea una trampa. No hace falta meterse de lleno en el lazo.
+0017 [Tú] | No. Seguimos avanzando.
+0018 [Gerie] | ¿Por qué?
+0019 [Tú] | Pierdes el tiempo. Mi gremio no es tonto. Saben que huele a trampa. Pero ¿y si hay una probabilidad del uno por ciento de que alguien sí necesite ayuda? Apostarán por eso.
+0020 [Gerie] | ¿Oh? Meterse en una trampa con los ojos bien abiertos... Suena a simple imprudencia.
+0021 [Tú] | No es imprudencia. Es solidaridad. Los Trekkers se cuidan entre sí: todos sabemos con qué facilidad podríamos ser los siguientes.
+0022 [Tú] | Ellos también me salvaron una vez. Si no lo hubieran hecho...==W== Bueno, no estaríamos teniendo esta agradable charla.
+0023 [Gerie] | Fascinante. Supongo que eso justifica actualizar tu Puntaje de Herejía. Digamos que setenta puntos~
+0024 [Tú] | ¡Un momento! ¡Acabo de ver a través de una trampa! ¿¡Por qué eso sube mi puntaje!? ¡Y en serio, ¿cuál es tu criterio de calificación?!
+0025 [Gerie] | Ves con facilidad la naturaleza de las cosas. El legendario Tirano poseía esa misma perspicacia. Diez puntos.
+0026 [Gerie] | Hace falta un villano para reconocer a otro villano. Los descubriste porque tu maldad supera a la de ellos, ¿no es así?
+0027 [Tú] | Está bien... No puedo discutir con esa lógica. ¿Y los otros veinte?
+0028 [Gerie] | Temes un puntaje más alto, y aun así hablas por tus amigas. Mmm. El legendario Tirano también era conocido por su rectitud y por afrontar los desafíos de frente. Diez puntos.
+0029 [Tú] | De verdad te lo inventas sobre la marcha... ¿Y los últimos diez?
+0030 [Gerie] | Entraste con calma a una probable trampa.==W== Eso me dice que crees que tú y tus amigas pueden con cualquier cosa. El legendario Tirano poseía esa misma confianza absoluta. Diez puntos.
+0031 [Tú] | Con una guardaespaldas que despejó un piso entero de Stellaroids en cinco minutos de nuestro lado, supuse que cualquier trampa sería una broma.
+0032 [Gerie] | Divertido. Me has incluido hasta en tus cálculos...==W== Nada mal. Ese lado manipulador le queda perfecto al Tirano.
+0033 [Gerie] | Entonces—==W==ordéname lo que quieras. Estoy ansiosa por evaluar tus habilidades de liderazgo.
+0034 [Tú] | Entonces no me contendré.
+0035 [Tú] | Gerie, sepárate y mantente oculta. Espera a que saquemos al enemigo de su escondite y luego atácalo por la retaguardia.
+0036 [Gerie] | Muy bien,==W== muy bien~ Jeje, ahora sí se pone interesante.
+0037 [Iris] | Jefe, ya llegamos. Quien llamó dijo que se esconde cerca.
+0038 [Amber] | Exploraré desde arriba.
+0039 [Noya] | ¡Oigan! ¿Hay alguien aquí? Griten si pueden oírme.
+0040 [Amber] | ¡Noya! ¡Cuida tu espalda!
+0041 [Noya] | ¿¡Stellaroids!? ¿Eso significa que el Trekker que nos llamó ya...?
+0042 [Iris] | ¡Mantengan la guardia! ¡Quédense juntas y mantengan a ==PLAYER_NAME== en el centro!
+0043 [Amber] | Mi Piedra del Alma. Sin Gracia.
+0044 [Iris] | ¡Aguanta! ¡Es el último!
+0045 [Noya] | S-se acabó... Ya no puedo levantar la espada...
+0046 [???] | Impresionante. Eres más dura de lo que aparentas.
+0047 [???] | Sí, pelear con ellas limpiamente habría sido una molestia.
+0048 [Iris] | ¿Ustedes son ... quienes pidieron ayuda? ¿Están todos bien?
+0049 [Robbery Ringleader] | ¡Bwajajaja! ¿Escuchen a esta chica?
+0050 [Cunning Robber] | ¡De verdad cree que somos víctimas!
+0051 [Robbery Ringleader] | No esperamos rescate, tonta. Estábamos pescando y ustedes picaron el anzuelo. ¿Ahora sí entienden? Suelten las Dorras y su equipo. Hagan lo que digo y quizá las deje vivir.
+0052 [Tú] | Ustedes son los responsables de los Trekkers desaparecidos, ¿verdad?
+0053 [Arrogant Robber] | Je, tardaron en notarlo. El último grupo cooperó, así que los dejamos en cueros y los tiramos en la ciudad vecina.
+0054 [Tú] | ¿Y los rumores sobre los Árbitros del Ocaso cazando herejes...?==W== ¿Esos también los sembraron ustedes?
+0055 [Cunning Robber] | ¿Y qué? Esos tipos son unos raros reservados de todos modos. Invento una mentirita y todos se la tragan.
+0056 [Tú] | Suspiro... No tienen remedio.
+0057 [Arrogant Robber] | Hmph. Los únicos sin remedio aquí son ustedes, ingenuos idiotas.
+0058 [Noya] | ¿Aprovecharse de la bondad de la gente para robarles? ¡Me dan asco!
+0059 [Robbery Ringleader] | Es la forma más eficiente. Gastaron toda su Gracia en esos Stellaroids que atrajimos hasta aquí, ¿verdad—==W==¿eh? ¿Qué miras?
+0060 [Tú] | Y ahí está su confesión... ¿Lo captaste todo, Gerie?
+0061 [Robbery Ringleader] | Gerie... Ese nombre me suena...
+0062 [Narración] | Calumniar a los Árbitros del Ocaso. Profanar al Dios de la Gracia. Herejes.
+0063 [Narración] | Usar Stellaroids como arma. Abusar de las creaciones del Dios. Herejes.
+0064 [Arrogant Robber] | ¿¡C-cuándo se puso detrás de nosotros!?
+0065 [Cunning Robber] | ¿¡No me digan que esa es la verdadera Gerie!?
+0066 [Robbery Ringleader] | ¡Largo! ¡Salgan de aquí!
+0067 [Arrogant Robber] | ¡Agh! ¡No puedo moverme! ¡Mis pies están congelados!
+0068 [Cunning Robber] | ¿¡M-magia!? ¿¡Cómo están lanzando hechizos!?
+0069 [Amber] | Los engañamos.
+0070 [Iris] | Ya sabes lo que dicen. Pasarse de listo tiene su precio.
+0071 [Noya] | ¡Hasta aquí llegaron! ¡Disfruten la cárcel!
+0072 [Robbery Ringleader] | Ratas ... ¿¡creen que pueden atraparme!? ¡Si me hundo, me los llevo conmigo! ¡Activen todas las matrices! ¡Nadie sale con vida!
+0073 [Noya] | Espera... ¿No hay ataque?
+0074 [Robbery Ringleader] | ¡Jajaja! ¡Eso no son ataques! ¡Son un cebo para arrastrar hasta aquí a todos los Stellaroids del Monolito!
+0075 [Robbery Ringleader] | Ustedes, Trekkers, esa Árbitra... ¡Todos moriremos juntos!
+0076 [Amber] | Jefe. Cientos de Stellaroids en camino.
+0077 [Noya] | Eso sí es un fastidio.
+0078 [Gerie] | Je. Háganse a un lado, Trekkers. Yo me encargo desde aquí.
+0079 [Iris] | Eso se ve aterrador... ¿Eso es ... un ataúd?
+0080 [Gerie] | Uno de mis adorables jueguitos. Por favor, pasen adentro.
+0081 [Noya] | ¿¡Meterme en un ataúd estando viva!? ¡Eso es de muy mala suerte! ¡Ni hablar!
+0082 [Amber] | Jefe. Sálvame.
+0083 [Iris] | ¡Espera! ¿¡Dónde está el Jefe!? No me digas que...
+0084 [Gerie] | Hablas demasiado. Tu Jefe ya está bien arropado.
+0085 [Gerie] | No tengan miedo, Trekkers. Solo las estoy enviando a salvo al elevador.
+0086 [Gerie] | Lo que viene ... quizá sea demasiado emocionante para sus ojos.
+0087 [Gerie] | ¡Que comience la ejecución!
+0088 [Narración] | Gerie engancha un dedo en su soga y tira con fuerza. De inmediato, el tiempo dentro del Monolito parece congelarse.
+0089 [Narración] | Un chillido penetrante estalla,==W== mezclándose con los gritos de humanos y Stellaroids por igual. Es una escena sacada de un Stella Drama de terror.
+0090 [Narración] | Pero el verdadero terror llega cuando intento escuchar. La extraña estatua que me sujeta se abre de pronto por sí sola...
+0091 [Tú] | ¿Qu-qué está pasando...?
+0092 [Gerie] | Oh, vaya. Creí haber enviado lejos a todos los estorbos. Parece que un invitado se niega a irse.
+0093 [Gerie] | Pensar que mi dispositivo de tortura invocado no pudo retenerte... Jefe, de verdad eres el auténtico Tirano.
+0094 [Tú] | Soy inmune a la magia... Los dispositivos invocados no funcionan conmigo.
+0095 [Gerie] | Es justo. Entonces permíteme iluminarte... sobre por qué los Árbitros del Ocaso han vuelto a la acción.
+0096 [Gerie] | Una Tienda de Almas presentó un reporte. Dijeron que encontraron a un cliente con inmunidad a la magia.
+0097 [Tú] | Ese fui yo...
+0098 [Gerie] | Cuando aparece alguien así, el apocalipsis legendario no tarda en llegar.
+0099 [Gerie] | Por eso nosotros, los Árbitros, portadores de reliquias, volvemos a caminar libremente por el mundo.
+0100 [Gerie] | Te revelaré otro secreto. Esto no es solo una soga. Es una reliquia: la Cuerda de Almas.
+0101 [Gerie] | Cuando tiro de ella, consumo una enorme cantidad de magia. Pero me permite tomar las almas de todos los que están cerca.
+0102 [Gerie] | Luego, con un movimiento del dedo, puedo estrangular la vida de esas frágiles almitas.
+0103 [Gerie] | Pero... Oh, pero...
+0104 [Gerie] | ¡No puedo ver tu alma en absoluto! Jeje... Je...
+0105 [Gerie] | Alguien inmune a una reliquia suprema solo puede ser un hereje...==W== Uno peligrosamente poderoso.
+0106 [Tú] | Debe de haber un error...
+0107 [Gerie] | ¿Un error? Déjame ser yo quien lo juzgue, en persona.
+0108 [Gerie] | Ahora estamos solos en este Monolito.
+0109 [Gerie] | ¡Vamos, Tirano, déjame verte por completo!

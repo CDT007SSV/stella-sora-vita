@@ -3,7 +3,7 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Giant Stellaroid | Giant Stellaroid
+N:Giant Stellaroid | Stellaroid gigante
 N:Stellaroid | Stellaroid
 N:avg1_118 | Coronis
 N:avg2_973 | Ejecutor de Mano Titánica
@@ -15,107 +15,107 @@ N:avg3_206 | Noctiluna
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | Captive of Truth (PartII)
-0003 [Intro] | What kind of ordeal could have caused Coronis's eye to become like this? And what secret, profound enough to overturn all understanding, makes her dare to touch the taboo of the Grace Imperium?
-0004 [Narración] | Two months before Coronis's arrest—
-0005 [Coronis] | Hmm. The lab needs a new high-mag scope Artifact. Plus, I'm running low on specimen preservative...
-0006 [Coronis] | Oh, right. Igna wanted a new scalpel set. I'll make a wish for that too while I'm at the Monolith.
-0007 [Coronis] | But... I need a solid cover story. If Igna finds out I wandered into a hazard zone like this...
-0008 [Coronis] | Hm? What's that noise?
-0009 [Stellaroid] | ROOAR—
-0010 [Coronis] | Huh? A Stellaroid?
-0011 [Coronis] | Why are they out of the Monolith?==W==
-0012 [???] | Plan succeeded. The spell is active. Stellaroids are flooding out in droves.
-0013 [???] | Heh... Excellent. This Monolith will go dark in days. Withdraw before the surge reaches you.
-0014 [???] | Understood. But... I'm concerned. There are too many of them. If innocent people nearby get caught in the surge...
-0015 [???] | "Innocent"? Only Trekkers lurk near Monoliths. Desperados blinded by greed, fully expecting to fight monsters.
-0016 [???] | When you walk into the lion's den, you accept you might get eaten. Their fate is not our concern.
-0017 [???] | But...
-0018 [???] | Stick to the order. Don't let your bleeding heart ruin this.
-0019 [???] | Y-Yes...
-0020 [Coronis] | T-This must be the "Monolith Meltdown" from the textbooks!
-0021 [Coronis] | To think I'd walk right into it... A once-in-a-lifetime phenomenon.==W== I need a closer look.
-0022 [Giant Stellaroid] | ROOAR—
-0023 [Coronis] | Tch. Well, this is a nuisance.
-0024 [???] | Hm? What was that sound?==W== Coming from the elevator...
-0025 [???] | Look at all these Stellaroid remains... Was someone trapped here?
-0026 [???] | No bodies. Maybe they got away...==W== Wait. Is that ... an injured Trekker?!
-0027 [???] | Hang on! Can you hear me?
+0001 [Intro] | Acto dos
+0002 [Intro] | Cautiva de la verdad (Parte II)
+0003 [Intro] | ¿Qué clase de calvario pudo hacer que el ojo de Coronis quedara así? ¿Y qué secreto, tan profundo como para trastocar toda comprensión, la lleva a atreverse a tocar el tabú del Imperio de la Gracia?
+0004 [Narración] | Dos meses antes del arresto de Coronis—
+0005 [Coronis] | Mmm. El laboratorio necesita un nuevo Artefacto de microscopio de alto aumento. Además, me estoy quedando sin conservador para especímenes...
+0006 [Coronis] | Ah, cierto. Igna quería un nuevo juego de bisturís. También pediré un deseo por eso mientras esté en el Monolito.
+0007 [Coronis] | Pero... necesito una buena coartada. Si Igna descubre que me metí a una zona de peligro como esta...
+0008 [Coronis] | ¿Mm? ¿Qué es ese ruido?
+0009 [Stellaroid] | ¡ROOAR—!
+0010 [Coronis] | ¿Eh? ¿Un Stellaroid?
+0011 [Coronis] | ¿Por qué están fuera del Monolito?==W==
+0012 [???] | El plan tuvo éxito. El hechizo está activo. Los Stellaroids están saliendo en masa.
+0013 [???] | Je... Excelente. Este Monolito se apagará en unos días. Retírate antes de que la oleada te alcance.
+0014 [???] | Entendido. Pero... estoy preocupada. Son demasiados. Si personas inocentes cerca quedan atrapadas en la oleada...
+0015 [???] | ¿«Inocentes»? Cerca de los Monolitos solo merodean Trekkers. Desesperados cegados por la codicia, que esperan pelear contra monstruos.
+0016 [???] | Cuando entras en la guarida del león, aceptas que podrías ser devorado. Su destino no es asunto nuestro.
+0017 [???] | Pero...
+0018 [???] | Apégate a la orden. No dejes que tu corazón blando lo arruine todo.
+0019 [???] | S-sí...
+0020 [Coronis] | ¡E-este debe de ser el «Colapso del Monolito» de los libros de texto!
+0021 [Coronis] | Pensar que caería de lleno en uno... Un fenómeno que ocurre una vez en la vida.==W== Necesito verlo de cerca.
+0022 [Giant Stellaroid] | ¡ROOAR—!
+0023 [Coronis] | Tsk. Bueno, esto es una molestia.
+0024 [???] | ¿Mm? ¿Qué fue ese sonido?==W== Viene del elevador...
+0025 [???] | Cuántos restos de Stellaroid... ¿Alguien quedó atrapado aquí?
+0026 [???] | No hay cuerpos. Quizá escaparon...==W== Espera. ¿Eso es ... un Trekker herido?
+0027 [???] | ¡Aguanta! ¿Me escuchas?
 0028 [Coronis] | ...
-0029 [???] | You've lost a lot of blood! Stay calm—I'm going to heal you with magic.
-0030 [???] | Tch—more Stellaroids... Hold tight! I'm getting you out of here.
-0031 [Narración] | One day later.
-0032 [Coronis] | Ungh...
-0033 [???] | You awake?
-0034 [Coronis] | Sss—my right eye hurts... Where am I?
-0035 [???] | Don't move. A Stellaroid got your right eye. I stopped the bleeding with magic, but the eyeball ruptured. I'm sorry... I couldn't save it.
-0036 [???] | You're safe in my hideout now, though. No monsters here.
-0037 [Coronis] | You stopped the bleeding with magic? ==W==Wait! Are you healing me using magic?
-0038 [Coronis] | Agh—it hurts...
-0039 [???] | Stop moving—you're a strange one... You lost an eye, yet you're focused on the magic?
-0040 [Coronis] | People have two eyes precisely for situations like this. You only lost one—the other one still works fine.
-0041 [Coronis] | But healing magic! How can you use that? Not even the Eye of Grace—no, nobody in Nova knows that spell.
-0042 [???] | Huh? You Novians can't use it? That magic is ... pretty standard.
-0043 [Coronis] | Standard? The Eye of Grace records are clear—every single experiment on healing magic has failed.
-0044 [Coronis] | Wait... Did you just say ... "You Novians"?
-0045 [Coronis] | White hair... Pointed ears... Long, twisted horns.
-0046 [Coronis] | You're a Bayan... Are you from Nocturn Eterna?!
-0047 [???] | Took you long enough. You're slow, Novian.
-0048 [Coronis] | If Nocturn Eterna has healing magic... Then it is possible? Theoretically, we Novians should be able to replicate it!
-0049 [Coronis] | Hey, could you do that ag—==W==sorry, haven't even introduced myself.
-0050 [Coronis] | I'm Coronis. May I ask your name? You don't have to answer, but ... I'd like to know who saved me.
-0051 [???] | Name's...==W== Noctiluna.
-0052 [Coronis] | Noctiluna, could you cast that spell again? Look, I got too excited and tore the wound open!
-0053 [Noctiluna] | Ugh... Fine. Lie down.
-0054 [Narración] | Noctiluna places a palm over the wound. A cold white light flashes, and the pain fades.
-0055 [Coronis] | Wait, got a mirror? I need to see this!
-0056 [Coronis] | ... Fascinating. The shattered lens didn't regenerate, but the tissue healed naturally. Pain's gone too...==W== So if the structure is intact, full recovery is possible?!
-0057 [Coronis] | Incredible magic! Noctiluna, how does it even work?!
-0058 [Noctiluna] | Has ... anyone ever told you that you're weird?
-0059 [Noctiluna] | A normal Novian would've started with, "What's your purpose?" or "Why are you here?"
-0060 [Noctiluna] | But you're obsessed with my magic... This isn't how I pictured this going.
-0061 [Coronis] | Define "normal." Or "abnormal." It's all subjective.
-0062 [Coronis] | Why waste time on semantics when the mysteries of biology are far more fascinating?
-0063 [Noctiluna] | Okay, she's definitely got a screw loose!!==W== ... So, you're seriously not afraid of us?
-0064 [Coronis] | Why should I be? Aside from the horns, are Bayans really distinct from us?
-0065 [Coronis] | Physiologically speaking, we're practically the same species, aren't we?
-0066 [Coronis] | Speaking of which, may I touch them? I need to know—are they keratin or solid bone?
-0067 [Noctiluna] | Are... Are you seriously a Novian?
-0068 [Noctiluna] | Horns are vital! You can't just let people touch them—not even our own kin!
-0069 [Coronis] | Is that so? How intriguing.
-0070 [Noctiluna] | Look... Your wound's healed, so start moving. This isn't a place for Novians.
-0071 [Coronis] | I refuse.
-0072 [Noctiluna] | Weird... I thought we spoke the same language. Am I not clear? This is a Nocturn Eterna stronghold now. You aren't welcome here.
-0073 [Coronis] | My injured eye still throbs, you know. If I leave your side and the wound tears open on the way back... Well, I'm done for.
-0074 [Coronis] | Besides, the Monolith Meltdown was recent. This area could be crawling with Stellaroids. Please, let me stay until I make a full recovery.
-0075 [Noctiluna] | Well... I...
-0076 [Coronis] | I promise I won't touch your horns or cause any trouble. Deal?
-0077 [Noctiluna] | Ugh, fine. Three days. That should be plenty of time to heal up.
-0078 [Narración] | Three days later.
-0079 [Noctiluna] | Coronis! How did you manage to hurt yourself again?!
-0080 [Coronis] | I can't help it. My right eye is blind, my field of view is narrow, and my depth perception is shot... I simply lost my footing.==W== Noctiluna, quick, heal—
-0081 [Noctiluna] | Liar! I saw you skipping stones by the lake this morning—perfect aim every time! How could you possibly tumble down a gentle slope like this?
-0082 [Noctiluna] | You hurt yourself on purpose, didn't you? You're doing this just to make me cast that spell again!
-0083 [Coronis] | Well... I knew you wouldn't explain the principles to me directly. So, using myself as a test subject seemed like a fair compromise.
+0029 [???] | ¡Perdiste mucha sangre! Mantén la calma: voy a curarte con magia.
+0030 [???] | Tsk, más Stellaroids... ¡Agárrate fuerte! Te voy a sacar de aquí.
+0031 [Narración] | Un día después.
+0032 [Coronis] | Ugh...
+0033 [???] | ¿Ya despertaste?
+0034 [Coronis] | Sss, me duele el ojo derecho... ¿Dónde estoy?
+0035 [???] | No te muevas. Un Stellaroid te alcanzó el ojo derecho. Detuve el sangrado con magia, pero el globo ocular se rompió. Lo siento... No pude salvarlo.
+0036 [???] | Pero ahora estás a salvo en mi escondite. Aquí no hay monstruos.
+0037 [Coronis] | ¿Detuviste el sangrado con magia? ==W==¡Espera! ¿Me estás curando con magia?
+0038 [Coronis] | Agh, duele...
+0039 [???] | Deja de moverte, eres muy extraña... Perdiste un ojo y estás concentrada en la magia.
+0040 [Coronis] | Las personas tienen dos ojos precisamente para situaciones como esta. Solo perdí uno; el otro funciona perfectamente.
+0041 [Coronis] | ¡Pero la magia curativa! ¿Cómo puedes usarla? Ni siquiera el Ojo de la Gracia, no, nadie en Nova conoce ese hechizo.
+0042 [???] | ¿Eh? ¿Ustedes los novianos no pueden usarla? Esa magia es ... bastante común.
+0043 [Coronis] | ¿Común? Los registros del Ojo de la Gracia son claros: todos los experimentos con magia curativa han fracasado.
+0044 [Coronis] | Espera... ¿Acabas de decir ... «ustedes los novianos»?
+0045 [Coronis] | Cabello blanco... Orejas puntiagudas... Cuernos largos y retorcidos.
+0046 [Coronis] | Eres Bayan... ¿¡Eres de Nocturn Eterna!?
+0047 [???] | Tardaste en notarlo. Eres lenta, noviana.
+0048 [Coronis] | Si Nocturn Eterna tiene magia curativa... ¿Entonces es posible? ¡En teoría, los novianos deberíamos poder replicarla!
+0049 [Coronis] | Oye, ¿podrías hacerlo otra vez—==W==perdón, ni siquiera me he presentado.
+0050 [Coronis] | Soy Coronis. ¿Puedo preguntar tu nombre? No tienes que responder, pero ... me gustaría saber quién me salvó.
+0051 [???] | Me llamo...==W== Noctiluna.
+0052 [Coronis] | Noctiluna, ¿podrías lanzar ese hechizo otra vez? ¡Mira, me emocioné demasiado y se me abrió la herida!
+0053 [Noctiluna] | Ugh... Está bien. Acuéstate.
+0054 [Narración] | Noctiluna coloca la palma sobre la herida. Un destello de luz blanca y fría aparece, y el dolor se desvanece.
+0055 [Coronis] | Espera, ¿tienes un espejo? ¡Necesito ver esto!
+0056 [Coronis] | ... Fascinante. El cristalino destrozado no se regeneró, pero el tejido sanó de forma natural. El dolor también desapareció...==W== Entonces, si la estructura está intacta, ¿es posible una recuperación total?
+0057 [Coronis] | ¡Qué magia increíble! ¡Noctiluna, ¿cómo funciona en realidad?!
+0058 [Noctiluna] | ¿Alguien te ha dicho ... que eres rara?
+0059 [Noctiluna] | Una noviana normal habría empezado con «¿Cuál es tu propósito?» o «¿Por qué estás aquí?».
+0060 [Noctiluna] | Pero estás obsesionada con mi magia... Esto no es como me imaginé que iría.
+0061 [Coronis] | Define «normal». O «anormal». Todo es subjetivo.
+0062 [Coronis] | ¿Para qué perder tiempo en semántica cuando los misterios de la biología son mucho más fascinantes?
+0063 [Noctiluna] | ¡Ok, definitivamente le falta un tornillo!!==W== ... Entonces, ¿de verdad no nos tienes miedo?
+0064 [Coronis] | ¿Por qué debería? Aparte de los cuernos, ¿los Bayan son realmente distintos de nosotros?
+0065 [Coronis] | Fisiológicamente hablando, somos prácticamente la misma especie, ¿no?
+0066 [Coronis] | Hablando de eso, ¿puedo tocarlos? Necesito saber: ¿son de queratina o de hueso sólido?
+0067 [Noctiluna] | ¿E-eres de verdad una noviana?
+0068 [Noctiluna] | ¡Los cuernos son vitales! No puedes dejar que cualquiera los toque, ¡ni siquiera los de nuestra propia gente!
+0069 [Coronis] | ¿Es así? Qué intrigante.
+0070 [Noctiluna] | Mira... Tu herida ya sanó, así que ponte en marcha. Este no es lugar para novianos.
+0071 [Coronis] | Me niego.
+0072 [Noctiluna] | Qué raro... Pensé que hablábamos el mismo idioma. ¿No me expliqué? Esto ahora es un bastión de Nocturn Eterna. No eres bienvenida aquí.
+0073 [Coronis] | Sabes, mi ojo herido todavía palpita. Si me alejo de ti y la herida se abre en el camino de vuelta... pues estoy acabada.
+0074 [Coronis] | Además, el Colapso del Monolito fue reciente. Esta zona podría estar plagada de Stellaroids. Por favor, déjame quedarme hasta recuperarme por completo.
+0075 [Noctiluna] | Bueno... Yo...
+0076 [Coronis] | Prometo que no tocaré tus cuernos ni causaré problemas. ¿Trato?
+0077 [Noctiluna] | Ugh, está bien. Tres días. Debería ser tiempo de sobra para que sanes.
+0078 [Narración] | Tres días después.
+0079 [Noctiluna] | ¡Coronis! ¿¡Cómo lograste lastimarte otra vez!?
+0080 [Coronis] | No puedo evitarlo. Mi ojo derecho está ciego, mi campo de visión es estrecho y mi percepción de profundidad está arruinada... Simplemente perdí el equilibrio.==W== Noctiluna, rápido, cura—
+0081 [Noctiluna] | ¡Mentirosa! ¡Esta mañana te vi lanzando piedras al lago, con puntería perfecta cada vez! ¿Cómo podrías caerte por una pendiente tan suave?
+0082 [Noctiluna] | Te lastimaste a propósito, ¿verdad? ¡Lo haces solo para que lance ese hechizo otra vez!
+0083 [Coronis] | Bueno... Sabía que no me explicarías los principios directamente. Así que usarme como sujeto de prueba me pareció un compromiso justo.
 0084 [Noctiluna] | ...
-0085 [Noctiluna] | Unbelievable. Come here.
-0086 [Coronis] | Hmm... Fascinating. An itch, like flesh regenerating at an accelerated rate. Is the mechanism based on hyper-stimulating the body's natural recovery?
-0087 [Noctiluna] | Stop speculating. I will not share our secrets with a Novian.
-0088 [Noctiluna] | And stop injuring yourself. I mean it—this is the last time.==W== Do not treat this lightly; it drains a significant amount of magic.
-0089 [Coronis] | Significant magic drain, you say...
-0090 [Coronis] | In the last two days, you've cast that spell on me five times. Yet, your Soul Stone's glow hasn't dimmed in the slightest. Conversely, you appear visibly more exhausted after every incantation.
-0091 [Coronis] | My hypothesis is that the magic you're burning isn't the Grace from the Soul Stone at all.
+0085 [Noctiluna] | Increíble. Ven acá.
+0086 [Coronis] | Mmm... Fascinante. Una comezón, como si la carne se regenerara a ritmo acelerado. ¿El mecanismo se basa en hiperestimular la recuperación natural del cuerpo?
+0087 [Noctiluna] | Deja de especular. No compartiré nuestros secretos con una noviana.
+0088 [Noctiluna] | Y deja de lastimarte. Hablo en serio: esta es la última vez.==W== No lo tomes a la ligera; consume una cantidad considerable de magia.
+0089 [Coronis] | Consume una cantidad considerable de magia, dices...
+0090 [Coronis] | En los últimos dos días, me has lanzado ese hechizo cinco veces. Y aun así, el brillo de tu Piedra del Alma no ha disminuido en lo más mínimo. En cambio, pareces visiblemente más agotada después de cada conjuro.
+0091 [Coronis] | Mi hipótesis es que la magia que consumes no es en absoluto la Gracia de la Piedra del Alma.
 0092 [Noctiluna] | ...
-0093 [Noctiluna] | Coronis. You know too much.
-0094 [Coronis] | The Loong have a saying: "If one learns the truth in the morning, one may die without regret at sunset."
-0095 [Coronis] | If you intend to silence me, could I make one final request? Before I die, tell me the truth behind your magic and its power source.
-0096 [Noctiluna] | You ... really are a freak.
-0097 [Noctiluna] | I will tell you only this: We of the Nocturn Eterna have no need for what you Novians call "Grace."==W== We do not demean ourselves with stolen magic.
-0098 [Coronis] | "Stolen"? What exactly do you mean?
-0099 [Noctiluna] | ... Time for you to go. Head east for a day. You'll hit the road to the city-states.
-0100 [Coronis] | Hmm... Fair enough. Thank you for the insight.
-0101 [Noctiluna] | Catch.
-0102 [Coronis] | What's this? An exquisite prosthetic... You made this?
-0103 [Noctiluna] | Yeah... It won't bring your sight back, but it looks like a real eye.
-0104 [Noctiluna] | Call it ... compensation for the injury. Now we're even.
+0093 [Noctiluna] | Coronis. Sabes demasiado.
+0094 [Coronis] | Los Loong tienen un dicho: «Si uno aprende la verdad por la mañana, puede morir sin remordimientos al atardecer».
+0095 [Coronis] | Si piensas silenciarme, ¿podría hacerte una última petición? Antes de morir, dime la verdad detrás de tu magia y su fuente de poder.
+0096 [Noctiluna] | Tú ... de verdad eres un bicho raro.
+0097 [Noctiluna] | Solo te diré esto: los de Nocturn Eterna no necesitamos lo que ustedes los novianos llaman «Gracia».==W== No nos rebajamos a usar magia robada.
+0098 [Coronis] | ¿«Robada»? ¿A qué te refieres exactamente?
+0099 [Noctiluna] | ... Es hora de que te vayas. Ve hacia el este durante un día. Llegarás al camino de las ciudades-estado.
+0100 [Coronis] | Mmm... Es justo. Gracias por la información.
+0101 [Noctiluna] | Atrapa.
+0102 [Coronis] | ¿Qué es esto? Una prótesis exquisita... ¿La hiciste tú?
+0103 [Noctiluna] | Sí... No te devolverá la vista, pero parece un ojo de verdad.
+0104 [Noctiluna] | Considéralo ... una compensación por la herida. Ahora estamos a mano.

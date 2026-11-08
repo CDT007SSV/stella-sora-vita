@@ -3,8 +3,8 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Director Knight | Director Knight
-N:Imperial Guard Knight | Imperial Guard Knight
+N:Director Knight | Caballero director
+N:Imperial Guard Knight | Caballero de la Guardia Imperial
 N:avg1_107 | Tilia
 N:avg3_100 | Sylar
 N:avg3_1222 | Guardia
@@ -13,82 +13,82 @@ N:avg3_157 | Guardia Imperial
 N:avg3_189 | Kaydoke
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | Soul of a Guard, Heart of a Knight (Part I)
-0003 [Intro] | A scolded heroine, a cameraman roped in halfway, and a ragtag crew that can't work together. The Imperial Guard's promotional film starts shooting now!
-0004 [Narración] | On this land, there is ... there is a kind of power...
-0005 [Narración] | It ... it doesn't come from the gods, or from magic—
-0006 [Narración] | It comes from our in-inner courage!
-0007 [Narración] | The Imperial Guard!
-0008 [Narración] | It is not just a name! It is ...
-0009 [Narración] | ... it is the embodiment of a kind of s-s-spirit!
-0010 [Narración] | Cut! Cut!
-0011 [Director Knight] | What's with all the stammering?! Can't you even deliver one line properly?!
-0012 [Tilia] | I'm so sorry!
-0013 [Director Knight] | Hey, cameraman! Anything usable in that take?
-0014 [Tú] | Nothing so far...
-0015 [Tilia] | I–I can do it again! I'll definitely get it right this time!
-0016 [Director Knight] | Forget it, forget it. It's already noon. I'm taking a lunch break. We'll continue in the afternoon.
-0017 [Director Knight] | Ugh, are we even gonna finish shooting today? I don't wanna waste another day off on this.
-0018 [Kaydoke] | This isn't working. Tilia's way too nervous... She can't get through her lines properly.
-0019 [Tú] | Yeah...
-0020 [Narración] | The knights grumbled as they walked off, leaving only Tilia behind, apologizing over and over.
-0021 [Narración] | As for why I ended up as the cameraman at the Imperial Guard's base... That goes back to this morning.
-0022 [Imperial Guard Knight] | Here we are.
-0023 [Imperial Guard Knight] | Just to check one more time... You do know how to use a professional record-camera Artifact, right?
-0024 [Imperial Guard Knight] | Not a point-and-shoot one for amateurs. An actual, professional-grade one.
-0025 [Tú] | I sorta know how to use it, but I'm no professional.
-0026 [Imperial Guard Knight] | That's fine. I wasn't expecting you to do a top job.
-0027 [Imperial Guard Knight] | Hey, Kaydoke! I found someone who knows how to work the camera!
-0028 [Kaydoke] | Got it, got it. I'm busy calibrating the gear. Just send them over!
-0029 [Imperial Guard Knight] | Go find the red-haired girl over there. If you're not sure about anything, ask her.
-0030 [Tú] | Hello.
-0031 [Kaydoke] | So you're the temp cameraman they found...==W== Huh? Well, if it isn't the Boss!
-0032 [Tú] | You're ... Tilia's blacksmith friend, right?
-0033 [Kaydoke] | Didn't think you'd remember me. I go by Kaydoke.
-0034 [Kaydoke] | Heh, what a coincidence...==W==Tilia! You've got a visitor!
-0035 [Tilia] | Coming, coming—Who's—
-0036 [Tilia] | Eh? Ehhhh!?==W== Bo-Boss?! Why are you here?!
-0037 [Narración] | I explained why I'd shown up.
-0038 [Tilia] | Oh, so you're here to help, Boss! Awesome~
-0039 [Tilia] | Our original cameraman got hit by a carriage this morning. He's fine, but his wrist's hurt, so he can't work today.
-0040 [Tú] | That explains why the Imperial Guards came rushing to the Trekkers' House to post an urgent commission.
-0041 [Tú] | So what are you filming, anyway? The knight who brought me only said it was a recording job.
-0042 [Kaydoke] | They didn't even bother explaining the assignment to you before bringing you here? Typical Guard behavior.
-0043 [Kaydoke] | The higher-ups want a promo video for the Imperial Guard. ==W==Something like ... "showing the guards' spirit, improving public image, attracting new recruits"—that sort of thing.
-0044 [Kaydoke] | And as for the star of the show—none other than our Tilia!
-0045 [Tú] | So that's why you're in that outfit. It really suits you, Tilia.
-0046 [Tilia] | Awww, shucks...==W== Hehehe...
-0047 [Director Knight] | Everyone in position? We start filming in ten minutes!
-0048 [Tilia] | So soon?! I'll go review my lines again...
-0049 [Kaydoke] | Then I'll take Boss to get familiar with the recording setup.
-0050 [Tú] | Okay thanks. Please do.
-0051 [Tilia] | Hehe... With you two here, I feel a lot steadier.
-0052 [Tú] | Good luck! We're both here for morale support!
-0053 [Tilia] | Right! Let's nail this promo in one go!
-0054 [Tilia] | She was all raring to go before the filming actually started. However...
-0055 [Tilia] | Sigh... How did it come to this...
-0056 [Tú] | You've worked hard. Here, have some water.
-0057 [Tilia] | I'm sorry... I just wasted everyone's time. The seniors went out of their ways to get me this chance, and I still messed it up...
-0058 [Kaydoke] | It's not your fault. They didn't even give you any time to get used to the camera. They only told you about the shoot last night! That's like setting you up to fail.
-0059 [Tú] | Last night? Seriously?
-0060 [Kaydoke] | Yeah. The higher-ups suddenly decided they wanted a promo video, but none of the knights wanted the job. Especially not the lead role.
-0061 [Kaydoke] | You know the Guard's reputation out there... No one wants to show their face in the video and become a laughingstock.
-0062 [Kaydoke] | So they kept passing it around like a hot potato until it landed on Tilia. She spent the whole night memorizing her lines.
-0063 [Kaydoke] | If you ask me, none of the knights here actually care about the job. They're all just doing the bare minimum to hand something in to their superiors. Tilia's the only one taking it seriously.
-0064 [Tilia] | I get what you mean, Kay. It's true that the Imperial Guard's public image is not great these days...
-0065 [Tilia] | But once we put on a cool, inspiring video, maybe people would start to see the Guard differently.==W== That's why I really want to show the world what an Imperial Knight should be!
-0066 [Kaydoke] | Hmm, I knew you'd say that. Since you're trying so hard, I can't just leave you to struggle alone.
-0067 [Kaydoke] | So what now? With your poor acting, you can hardly expect people to get what a proper Imperial Knight is supposed to look like.
-0068 [Tilia] | Ugh...==W== I don't know why, but the second I face the camera, my mind just blanks. All the lines I memorized go "poof"...
-0069 [Tú] | Maybe it's time for a different approach?
-0070 [Tilia] | You have something in mind, Boss?
-0071 [Tú] | A friend of mine in Flavio once said, people freeze up in front of cameras because they're thinking too much about acting.
-0072 [Tú] | But the more you try to "act," the more awkward it looks.
-0073 [Tú] | So, instead of thinking about "acting," you should try to become the role itself.
-0074 [Tilia] | "Become the role itself"?
-0075 [Tú] | Tilia, in your eyes, who's the coolest, most inspiring knight?
-0076 [Tilia] | The Masked Knight, of course!
-0077 [Tú] | Then try to imagine that you are the Masked Knight. As the Masked Knight, what would you say to others? What would you want them to feel?
-0078 [Tilia] | I'm Masked Knight... Hmm...
-0079 [Tilia] | If I were the Masked Knight...!
+0001 [Intro] | Acto uno
+0002 [Intro] | Alma de guardia, corazón de caballero (Parte I)
+0003 [Intro] | Una heroína regañada, un camarógrafo reclutado a medio camino y un equipo improvisado que no logra trabajar en conjunto. ¡El video promocional de la Guardia Imperial comienza a rodarse ahora!
+0004 [Narración] | En esta tierra existe ... existe una clase de poder...
+0005 [Narración] | No ... no proviene de los dioses ni de la magia—
+0006 [Narración] | ¡Proviene de nuestro va-valor interior!
+0007 [Narración] | ¡La Guardia Imperial!
+0008 [Narración] | ¡No es solo un nombre! Es ...
+0009 [Narración] | ... ¡es la encarnación de un es-es-espíritu!
+0010 [Narración] | ¡Corte! ¡Corte!
+0011 [Director Knight] | ¿¡Qué es todo ese tartamudeo!? ¿¡Ni siquiera puedes decir una línea como se debe!?
+0012 [Tilia] | ¡Lo siento muchísimo!
+0013 [Director Knight] | ¡Oye, camarógrafo! ¿Se puede aprovechar algo de esa toma?
+0014 [Tú] | Por ahora nada...
+0015 [Tilia] | ¡P-puedo repetirla! ¡Esta vez seguro me sale bien!
+0016 [Director Knight] | Olvídalo, olvídalo. Ya es mediodía. Me voy a comer. Seguimos por la tarde.
+0017 [Director Knight] | Uf, ¿siquiera vamos a terminar de grabar hoy? No quiero desperdiciar otro día libre en esto.
+0018 [Kaydoke] | Esto no funciona. Tilia está demasiado nerviosa... No logra decir sus líneas bien.
+0019 [Tú] | Sí...
+0020 [Narración] | Los caballeros se fueron refunfuñando, dejando solo a Tilia, que se disculpaba una y otra vez.
+0021 [Narración] | Para explicar cómo acabé de camarógrafo en la base de la Guardia Imperial... hay que remontarse a esta mañana.
+0022 [Imperial Guard Knight] | Aquí es.
+0023 [Imperial Guard Knight] | Solo para confirmar una vez más... Sí sabes usar un Artefacto de grabación profesional, ¿verdad?
+0024 [Imperial Guard Knight] | No uno de esos sencillos para aficionados. Uno profesional de verdad.
+0025 [Tú] | Más o menos sé usarlo, pero no soy profesional.
+0026 [Imperial Guard Knight] | Está bien. No esperaba que hicieras un trabajo de primera.
+0027 [Imperial Guard Knight] | ¡Oye, Kaydoke! ¡Encontré a alguien que sabe manejar la cámara!
+0028 [Kaydoke] | Entendido, entendido. Estoy ocupada calibrando el equipo. ¡Mándalo para acá!
+0029 [Imperial Guard Knight] | Busca a la chica pelirroja de allá. Si tienes dudas de algo, pregúntale a ella.
+0030 [Tú] | Hola.
+0031 [Kaydoke] | Así que tú eres el camarógrafo temporal que encontraron...==W== ¿Eh? ¡Vaya, pero si es el Jefe!
+0032 [Tú] | Tú ... eres la amiga herrera de Tilia, ¿verdad?
+0033 [Kaydoke] | No pensé que me recordarías. Me llamo Kaydoke.
+0034 [Kaydoke] | Je, qué coincidencia...==W==¡Tilia! ¡Tienes visita!
+0035 [Tilia] | Ya voy, ya voy—¿Quién—
+0036 [Tilia] | ¿Eh? ¿¡Ehhh!?==W== ¿¡J-Jefe!? ¿¡Qué haces aquí!?
+0037 [Narración] | Le expliqué por qué había aparecido.
+0038 [Tilia] | ¡Ah, así que vienes a ayudar, Jefe! ¡Genial~!
+0039 [Tilia] | Nuestro camarógrafo original fue atropellado por un carruaje esta mañana. Está bien, pero se lastimó la muñeca y hoy no puede trabajar.
+0040 [Tú] | Con razón los Guardias Imperiales llegaron corriendo a la Casa de los Trekkers a publicar un encargo urgente.
+0041 [Tú] | Y bien, ¿qué van a grabar? El caballero que me trajo solo dijo que era un trabajo de grabación.
+0042 [Kaydoke] | ¿Ni siquiera se molestaron en explicarte el encargo antes de traerte? Típico de la Guardia.
+0043 [Kaydoke] | Los de arriba quieren un video promocional de la Guardia Imperial. ==W==Algo así como ... «mostrar el espíritu de los guardias, mejorar la imagen pública, atraer nuevos reclutas», ese tipo de cosas.
+0044 [Kaydoke] | ¡Y la estrella del show es nada más y nada menos que nuestra Tilia!
+0045 [Tú] | Así que por eso llevas ese uniforme. Te queda muy bien, Tilia.
+0046 [Tilia] | Ayyy, no es para tanto...==W== Jejeje...
+0047 [Director Knight] | ¿Todos en sus posiciones? ¡Empezamos a grabar en diez minutos!
+0048 [Tilia] | ¿¡Tan pronto!? Voy a repasar mis líneas otra vez...
+0049 [Kaydoke] | Entonces yo llevo al Jefe a familiarizarse con el equipo de grabación.
+0050 [Tú] | Bien, gracias. Adelante.
+0051 [Tilia] | Jeje... Con ustedes dos aquí me siento mucho más tranquila.
+0052 [Tú] | ¡Mucha suerte! ¡Los dos estamos aquí para apoyarte!
+0053 [Tilia] | ¡Sí! ¡Hagamos este video promocional de una sola vez!
+0054 [Tilia] | Estaba llena de entusiasmo antes de que empezara la grabación. Sin embargo...
+0055 [Tilia] | Suspiro... ¿Cómo llegamos a esto...?
+0056 [Tú] | Hiciste un gran esfuerzo. Toma, bebe un poco de agua.
+0057 [Tilia] | Lo siento... Acabo de hacerles perder el tiempo a todos. Mis superiores se esforzaron por darme esta oportunidad y aun así la eché a perder...
+0058 [Kaydoke] | No es tu culpa. Ni siquiera te dieron tiempo para acostumbrarte a la cámara. ¡Apenas anoche te avisaron de la grabación! Es como prepararte para fracasar.
+0059 [Tú] | ¿Anoche? ¿En serio?
+0060 [Kaydoke] | Sí. Los de arriba decidieron de repente que querían un video promocional, pero ningún caballero quería el trabajo. Mucho menos el papel principal.
+0061 [Kaydoke] | Ya sabes la reputación que tiene la Guardia allá afuera... Nadie quiere mostrar la cara en el video y convertirse en el hazmerreír.
+0062 [Kaydoke] | Así que se lo fueron pasando como papa caliente hasta que le tocó a Tilia. Se pasó toda la noche memorizando sus líneas.
+0063 [Kaydoke] | Si me preguntas, a ninguno de los caballeros de aquí le importa realmente el trabajo. Todos hacen lo mínimo para entregarles algo a sus superiores. Tilia es la única que se lo toma en serio.
+0064 [Tilia] | Entiendo lo que dices, Kay. Es verdad que la imagen pública de la Guardia Imperial no es muy buena últimamente...
+0065 [Tilia] | Pero si hacemos un video genial e inspirador, quizá la gente empiece a ver a la Guardia de otra manera.==W== ¡Por eso quiero mostrarle al mundo cómo debe ser un Caballero Imperial!
+0066 [Kaydoke] | Mmm, sabía que dirías eso. Si te estás esforzando tanto, no puedo dejarte batallar sola.
+0067 [Kaydoke] | ¿Y ahora qué? Con tu actuación tan floja, no esperes que la gente entienda cómo debe verse un verdadero Caballero Imperial.
+0068 [Tilia] | Ugh...==W== No sé por qué, pero en cuanto me pongo frente a la cámara, mi mente se queda en blanco. Todas las líneas que memoricé se esfuman, ¡puf!...
+0069 [Tú] | ¿Y si probamos un enfoque diferente?
+0070 [Tilia] | ¿Tienes algo en mente, Jefe?
+0071 [Tú] | Una amistad mía de Flavio me dijo una vez que la gente se paraliza frente a las cámaras porque piensa demasiado en actuar.
+0072 [Tú] | Pero cuanto más intentas «actuar», más forzado se ve.
+0073 [Tú] | Así que, en lugar de pensar en «actuar», intenta convertirte en el personaje mismo.
+0074 [Tilia] | ¿«Convertirme en el personaje mismo»?
+0075 [Tú] | Tilia, ¿quién es para ti el caballero más genial e inspirador?
+0076 [Tilia] | ¡El Caballero Enmascarado, por supuesto!
+0077 [Tú] | Entonces trata de imaginar que eres el Caballero Enmascarado. Como el Caballero Enmascarado, ¿qué les dirías a los demás? ¿Qué querrías que sintieran?
+0078 [Tilia] | Soy el Caballero Enmascarado... Mmm...
+0079 [Tilia] | ¡Si yo fuera el Caballero Enmascarado...!
