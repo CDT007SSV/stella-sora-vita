@@ -18,8 +18,11 @@ const EMIC="https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/asse
 let EMD=null;
 fetch("emblemas.json").then(r=>r.ok?r.json():null).then(d=>{EMD=d}).catch(()=>{});
 const emInfo=id=>({id,t:Math.floor(id/100),f:id%100,ic:(id%100)*100+Math.floor(id/100)});
-const emStat=id=>EMD&&EMD.stats.find(x=>x.id===id);
-function emPool(f){if(!EMD)return[];const st=EMD.stats;return f===1?st.filter(x=>x.g===1):f===2?st.filter(x=>x.g===2):st.filter(x=>x.g===1||x.g>=3)}
+const LVL=[70,80,90],emStat=id=>EMD&&EMD.stats.find(x=>x.id===id);
+function emPots(s){const sl=T.slots[s];if(!sl||!sl.c||!PR)return[];const g=gidOf(PR,sl.c),P=g&&PR[g];if(!P)return[];const F=FC[sl.c],ls=F&&F.potenciales?[].concat((F.potenciales.main||{}).l||[],(F.potenciales.support||{}).l||[]):[];
+  return (s===0?P.mn:P.an).concat(P.cm||[]).map(id=>{const en=P.names[id]||String(id),x=ls.find(y=>y.ne===en);return{id,n:x?x.n:en,v:EMD.pot}})}
+function emItem(s,id){if(id<1000){const x=emStat(id);return x||{n:"?",v:""}}return emPots(s).find(x=>x.id===id)||{n:"Potencial",v:EMD?EMD.pot:"+3"}}
+const emLabel=(s,id)=>{const x=emItem(s,id);return x.n+" "+x.v};
 function emOfSlot(s){const sl=T.slots[s];if(!sl||!sl.c||!EMD||!PR)return null;const g=gidOf(PR,sl.c);return g&&EMD.slots[g]?EMD.slots[g].map(emInfo):null}
 function embSvg(m,z){return `<svg viewBox="0 0 40 40" width="${z}" height="${z}"><polygon points="${EMP[m.f].map(p=>p.join(",")).join(" ")}" fill="${EMT[m.t].c}" fill-opacity=".9" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>`}
 function embIcon(m,z){return `<span class="tm-ei" style="width:${z}px;height:${z}px"><img src="${EMIC}${m.ic}/${m.ic}.webp" width="${z}" height="${z}" alt="" loading="lazy" onerror="this.parentNode.innerHTML=this.dataset.f" data-f="${embSvg(m,z).replace(/"/g,"&quot;")}"></span>`}
@@ -27,14 +30,15 @@ function embBlock(s,ed){
   const L=emOfSlot(s);if(!L)return"";const G=T.slots[s].g||[[],[],[]];
   if(!ed&&!G.some(a=>a.length))return"";
   return `<div class="tm-pb"><div class="tm-pbh"><span>Emblemas</span></div><div class="tm-el">${L.map((m,k)=>{const a=G[k]||[];
-    return `<div class="tm-er" style="--tc:${EMT[m.t].c}"${ed?` data-a="emb" data-s="${s}" data-k="${k}"`:""}>${embIcon(m,44)}<div class="tm-ex"><b>${EMS[m.f]} · ${EMT[m.t].n}</b>${a.length?a.map(i=>`<span>${e((emStat(i)||{}).n||"?")}</span>`).join(""):`<small>${ed?"Toca para elegir estadísticas":"—"}</small>`}</div></div>`}).join("")}</div></div>`}
-function embPicker(s,k){
-  const L=emOfSlot(s);if(!L||!L[k])return;const m=L[k],pool=emPool(m.f),cur=((T.slots[s].g||[[],[],[]])[k]||[]).slice();
+    return `<div class="tm-er" style="--tc:${EMT[m.t].c}"${ed?` data-a="emb" data-s="${s}" data-k="${k}"`:""}>${embIcon(m,44)}<div class="tm-ex"><b>Nivel ${LVL[k]} · ${EMS[m.f]} · ${EMT[m.t].n}</b>${a.length?a.map(i=>`<span>${e(emLabel(s,i))}</span>`).join(""):`<small>${ed?"Toca para elegir estadísticas":"—"}</small>`}</div></div>`}).join("")}</div></div>`}
+async function embPicker(s,k){
+  const L=emOfSlot(s);if(!L||!L[k])return;await getF(T.slots[s].c);const m=L[k],cur=((T.slots[s].g||[[],[],[]])[k]||[]).slice();
+  const st=EMD.pool[m.f].map(emStat),gs=[["Estadísticas",st.filter(x=>x.g===1)],["Nivel de habilidad",st.filter(x=>x.g===2)]];
+  if(m.f===3)gs.push(["Nivel de potencial (de este Trekker)",emPots(s)]);
   const mo=document.createElement("div");mo.className="tm-md";
-  const gr=EMD.grupos,seen=[];pool.forEach(x=>{const g=Math.min(x.g,3);if(!seen.includes(g))seen.push(g)});
-  mo.innerHTML=`<div class="tm-mh"><div class="tm-mt"><b>${EMS[m.f]} · ${EMT[m.t].n}</b><button class="chip" data-x="1">Listo</button></div><p class="nota" id="em-n"></p><div class="tm-ex" id="em-sel"></div></div><div class="tm-mb"><p class="nota">Toca una estadística para agregarla; puedes repetirla. Toca una agregada (arriba) para quitarla.</p>${seen.map(g=>`<h4 class="tm-gh">${e(gr[g]==="Potenciales"?"Nivel de potencial":gr[g])}</h4><div class="tm-ch">${pool.filter(x=>Math.min(x.g,3)===g).map(x=>`<button class="chip" data-id="${x.id}">${e(x.n)}</button>`).join("")}</div>`).join("")}</div>`;
+  mo.innerHTML=`<div class="tm-mh"><div class="tm-mt"><b>Nivel ${LVL[k]} · ${EMS[m.f]} · ${EMT[m.t].n}</b><button class="chip" data-x="1">Listo</button></div><p class="nota" id="em-n"></p><div class="tm-sel" id="em-sel"></div></div><div class="tm-mb"><p class="nota">Toca una estadística para agregarla (puedes repetir). Se muestra el valor máximo posible. Para quitar una, toca su ✕ arriba.</p>${gs.filter(g=>g[1].length).map(g=>`<h4 class="tm-gh">${e(g[0])}</h4><div class="tm-ch">${g[1].map(x=>`<button class="chip" data-id="${x.id}">${e(x.n)} <small>${e(x.v)}</small></button>`).join("")}</div>`).join("")}</div>`;
   openM(mo);
-  const draw=()=>{mo.querySelector("#em-n").textContent=cur.length+"/4 estadísticas";const bx=mo.querySelector("#em-sel");bx.innerHTML=cur.map((i,q)=>`<span data-q="${q}">${e((emStat(i)||{}).n||"?")} ✕</span>`).join("");bx.querySelectorAll("[data-q]").forEach(el=>el.onclick=()=>{cur.splice(+el.dataset.q,1);draw()});
+  const draw=()=>{mo.querySelector("#em-n").textContent=cur.length+"/4 estadísticas";const bx=mo.querySelector("#em-sel");bx.innerHTML=cur.length?cur.map((i,q)=>`<button class="tm-sc" data-q="${q}"><span>${e(emLabel(s,i))}</span><i>✕</i></button>`).join(""):'<small>Aún no eliges ninguna</small>';bx.querySelectorAll("[data-q]").forEach(el=>el.onclick=()=>{cur.splice(+el.dataset.q,1);draw()});
     mo.querySelectorAll("[data-id]").forEach(b=>{const n=cur.filter(x=>x===+b.dataset.id).length;b.classList.toggle("on",n>0);b.dataset.n=n>1?"×"+n:""})};
   draw();
   mo.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>{if(cur.length<4){cur.push(+b.dataset.id);draw()}});
@@ -44,7 +48,7 @@ function embPicker(s,k){
 function fix(t){
   t.slots=[0,1,2].map(i=>{const s=(t.slots||[])[i]||{},p={};
     for(const k in (s.p||{})){const v=s.p[k];if(typeof v==="number"){if(v>0)p[k]={l:v,pr:"m"}}else if(v&&v.l>0)p[k]={l:Math.min(9,+v.l|0),pr:PRI[v.pr]?v.pr:"m"}}
-    const g=[0,1,2].map(k=>{const a=Array.isArray(s.g)&&Array.isArray(s.g[k])?s.g[k]:[];return a.map(Number).filter(x=>x>0&&x<100).slice(0,4)});
+    const g=[0,1,2].map(k=>{const a=Array.isArray(s.g)&&Array.isArray(s.g[k])?s.g[k]:[];return a.map(Number).filter(x=>x>0).slice(0,4)});
     return{c:String(s.c||""),p,g}});
   const d=(t.discs||[]).slice(0,NDISC).map(x=>x&&x.n?{n:String(x.n),a:Math.max(0,Math.min(8,+x.a||0))}:null);while(d.length<NDISC)d.push(null);
   t.discs=d;t.name=String(t.name||"").slice(0,60);t.note=String(t.note||"").slice(0,500);t.score=String(t.score||"").slice(0,20);t.id=t.id||uid();return t}
@@ -118,7 +122,7 @@ let root,T=null,mode="list";
 .tm-eg,.tm-eg3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .tm-et{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:74px;padding:8px 4px;border-radius:12px;border:2px dashed #4a4670;background:rgba(14,12,30,.5);color:#cfc8ff;cursor:pointer;font:inherit}
 .tm-et.f{border:2px solid var(--tc);background:rgba(20,16,50,.8)}
-.tm-el{display:flex;flex-direction:column;gap:8px}.tm-er{display:flex;gap:10px;align-items:center;padding:8px;border-radius:12px;border:2px solid var(--tc);background:rgba(20,16,50,.8);cursor:pointer}.tm-ex{display:flex;flex-wrap:wrap;gap:4px;flex:1}.tm-ex b{width:100%;font-size:.78rem}.tm-ex span{font-size:.7rem;padding:2px 7px;border-radius:9px;background:rgba(157,147,255,.2);color:#e8e4ff}.tm-ex small{color:#9d98c4;font-size:.7rem}.tm-ei{display:inline-flex;flex:none}.tm-ch{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}.tm-ch .chip[data-n]:not([data-n=""])::after{content:" " attr(data-n);font-weight:800}.tm-gh{margin:10px 0 6px;font-size:.8rem;color:#9d93ff}
+.tm-el{display:flex;flex-direction:column;gap:8px}.tm-er{display:flex;gap:10px;align-items:center;padding:8px;border-radius:12px;border:2px solid var(--tc);background:rgba(20,16,50,.8);cursor:pointer}.tm-ex{display:flex;flex-wrap:wrap;gap:4px;flex:1}.tm-ex b{width:100%;font-size:.78rem}.tm-ex span{font-size:.7rem;padding:2px 7px;border-radius:9px;background:rgba(157,147,255,.2);color:#e8e4ff}.tm-ex small{color:#9d98c4;font-size:.7rem}.tm-ei{display:inline-flex;flex:none}.tm-ch{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}.tm-ch .chip[data-n]:not([data-n=""])::after{content:" " attr(data-n);font-weight:800}.tm-sel{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.tm-sel small{color:#9d98c4;font-size:.85rem}.tm-sc{display:flex;align-items:center;gap:8px;padding:8px 8px 8px 14px;border-radius:14px;border:2px solid #7B6CFF;background:rgba(123,108,255,.28);color:#fff;font:inherit;font-weight:700;font-size:.9rem}.tm-sc i{font-style:normal;width:26px;height:26px;border-radius:50%;background:#ff5d7a;display:flex;align-items:center;justify-content:center;font-size:.8rem}.tm-ch .chip small{opacity:.7;font-size:.72rem;margin-left:3px}.tm-gh{margin:10px 0 6px;font-size:.8rem;color:#9d93ff}
 .tm-et small{font-size:.66rem;font-weight:700;line-height:1.15;text-align:center;color:#e8e4ff}
 .tm-eb{font-size:1.5rem;color:var(--a)}
 .tm-et .tm-dx{position:absolute;top:3px;right:3px;width:20px;height:20px;border-radius:50%;background:rgba(0,0,0,.65);color:#fff;font-size:.65rem;display:flex;align-items:center;justify-content:center}
@@ -312,7 +316,7 @@ async function decodeV3(j){
   const nameOf={};for(const n in I.ids)nameOf[I.ids[n]]=n;
   (j.d||[]).slice(0,NDISC).forEach((x,i)=>{if(!x)return;const m=String(x).match(/^(\d+)\.(\d)$/);if(m&&nameOf[m[1]])t.discs[i]={n:nameOf[m[1]],a:+m[2]}});
   for(let s=0;s<3;s++){
-    const slug=(j.c||[])[s];if(!slug)continue;t.slots[s]={c:String(slug),p:{},g:String((j.e||[])[s]||"..").split(".").slice(0,3).map(x=>x?x.split("-").map(Number).filter(n=>n>0&&n<100).slice(0,4):[])};
+    const slug=(j.c||[])[s];if(!slug)continue;t.slots[s]={c:String(slug),p:{},g:String((j.e||[])[s]||"..").split(".").slice(0,3).map(x=>x?x.split("-").map(Number).filter(n=>n>0).slice(0,4):[])};
     const g=gidOf(P,slug),F=await getF(slug),role=s===0?"main":"support";
     if(!g||!F||!F.potenciales)continue;
     const T2=F.potenciales[role]||F.potenciales.main;
@@ -407,8 +411,8 @@ async function imagen2(){
     if(EHs(s)){let ey=y0+maxPot+16;c.fillStyle="#9d93ff";c.font="bold 22px sans-serif";c.fillText("EMBLEMAS",x0+24,ey);ey+=12;
       emL[s].forEach((m,k)=>{const a=emG(s)[k],h=34+Math.max(1,a.length)*30,tx=x0+20,tw=CW-40;c.fillStyle="rgba(255,255,255,.06)";rr(c,tx,ey,tw,h,14);c.fill();c.strokeStyle=EMT[m.t].c;c.lineWidth=3;rr(c,tx,ey,tw,h,14);c.stroke();
         const z=.8,ox=tx+14,oy=ey+8;c.beginPath();EMP[m.f].forEach((p,i)=>{const X=ox+p[0]*z,Y=oy+p[1]*z;i?c.lineTo(X,Y):c.moveTo(X,Y)});c.closePath();c.fillStyle=EMT[m.t].c;c.fill();c.strokeStyle="#fff";c.lineWidth=2;c.lineJoin="round";c.stroke();
-        c.fillStyle="#fff";c.font="bold 20px sans-serif";c.fillText(EMS[m.f]+" · "+EMT[m.t].n,tx+56,ey+30);
-        c.font="20px sans-serif";c.fillStyle="#cfc8ff";if(!a.length)c.fillText("—",tx+56,ey+58);a.forEach((id,q)=>c.fillText("• "+((emStat(id)||{}).n||"?"),tx+56,ey+58+q*30));
+        c.fillStyle="#fff";c.font="bold 20px sans-serif";c.fillText("Nivel "+LVL[k]+" · "+EMS[m.f]+" · "+EMT[m.t].n,tx+56,ey+30);
+        c.font="20px sans-serif";c.fillStyle="#cfc8ff";if(!a.length)c.fillText("—",tx+56,ey+58);a.forEach((id,q)=>c.fillText("• "+emLabel(s,id),tx+56,ey+58+q*30));
         ey+=h+8})}
     let py=y0+160;const gs=grp(s);
     if(!gs.length){c.fillStyle="#8a85b5";c.font="28px sans-serif";c.fillText("Sin potenciales elegidos",x0+24,py+34)}

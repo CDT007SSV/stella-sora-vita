@@ -5,7 +5,7 @@ const K="ssv_snd",WIKI="https://stellasora.miraheze.org/wiki/Special:FilePath/";
 /* Sonidos del propio juego (los mismos "se_NNN" que usa el lector). Para cambiar uno, cambia el numero.
    click = sonido al presionar; vita = el sonido con el que habla Vita en el juego. Prueba otros en prueba-sonidos.html */
 const SE={vita:["se_398"]}, /* se prueba el primero y, si no existe en la wiki, el siguiente */
-FILES={vita:SE.vita.map(x=>WIKI+x+".ogg")},VOL={vita:.45};
+FILES={vita:SE.vita.map(x=>WIKI+x+".ogg")},VOL={vita:.3};
 let on=true;try{on=localStorage.getItem(K)!=="0"}catch(e){}
 const buf={};
 function get(n){if(!buf[n]){const L=FILES[n],a=new Audio();let i=0;a.preload="auto";a.onerror=()=>{if(++i<L.length)a.src=L[i];else a._bad=1};a.src=L[0];buf[n]=a}return buf[n]}
