@@ -1,0 +1,142 @@
+# Capítulo 10 · 1 · Yesterday Once More
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_136 | Angie
+N:avg1_162 | Alina
+N:avg2_940 | Puppet Soldier
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1327 | Puppet Soldier (Initial Coordinates)
+N:avg3_1328 | Puppet Soldier (Initial Coordinates)
+N:avg3_182 | Elis
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Yesterday Once More
+0003 [Intro] | After long being trapped in the White Room, you awaken once more from the Wishing Box to find two familiar yet unfamiliar faces. You assume the role of an Acolyte, but cannot escape her scrutiny…
+0004 [Angie] | Farewell. And now... Join me, and become the foundation of the new world!
+0005 [Amber] | Boss. Are we dying?
+0006 [Iris] | Sitting here with you... Turning into a beacon for other Trekkers... It's not a bad way to go, Boss.
+0007 [Noya] | Boss, stay awake! Keep your eyes open and look at me! There's so much of the world we haven't seen yet!
+0008 [???] | So please, my Tyrant, don't become a star once more.
+0009 [???] | The same old road leads to the same old ends.
+0010 [Narración] | ♪~==W==♪~==W==♫~==W==♫~==W==♪~==W==♪~==W==♫~==W==♫~
+0011 [Tú] | Huh? This voice... It's from back then?
+0012 [Narración] | Did I go back? Back to when the New Star Guild first found me?!
+0013 [Narración] | ==Off==I get another chance!
+0014 [Opción] | Open my eyes
+0015 [???] | Master!==W== You're finally awake!
+0016 [???] | It seems your companion is awake.
+0017 [Tú] | Iris... Noya... I'm so glad to see you again.
+0018 [???] | Iris? Noya? Listen here, sinner. Neither of those is the name you gave me earlier. Is this person truly your "Master"?
+0019 [Tú] | Huh? What are they talking about? Master?
+0020 [???] | Hmph. What does a backwater Night Watcher know? This is a perfectly normal side effect of magic practice.
+0021 [???] | Master, you've mistaken me for Iris again! It's me, Elis. Iris's older sister. Your loyal, humble slave.
+0022 [Opción] | Elis...?
+0023 [Elis] | Yes, Elis! It's the lovely name you bestowed upon me.
+0024 [Elis] | Your head must be spinning. But don't worry. It just proves your resurrection magic was a success.
+0025 [Elis] | Don't try to speak. Just rest. You'll recover shortly.
+0026 [Tú] | What's going on? She looks exactly like Iris, but claims to be her older sister... Elis?
+0027 [Tú] | And Noya's tone is completely off. Sinner?==W== Wait. This isn't the Lucky Oasis... Is this a prison cart?
+0028 [???] | Silence! You deceitful sinner.
+0029 [???] | You're desperately trying to keep ==SEX4== quiet. Struck a nerve?
+0030 [???] | Let me guess. You don't even know this person. And ==SEX== certainly isn't your "Master."
+0031 [Elis] | Ugh, talking to a simpleton like you is exhausting. Fine. Wash out your ears and listen closely.
+0032 [Elis] | My Master is a servant of Goddess Trivia, the favored of Demigod Lucilla, and the most promising Acolyte in Emor.
+0033 [Elis] | In Emor, anyone seeking to become a full Priest must offer an original spell at Goddess Trivia's temple.
+0034 [Elis] | But crafting magic is dangerous. It's incredibly easy for an unrefined spell to corrupt the caster's mind and scramble their memories.
+0035 [Elis] | To keep others safe, my merciful Master locked ==SEX8== away in a tower in the Wilds to attempt the impossible:
+0036 [Elis] | The resurrection magic.
+0037 [???] | Resurrection ... magic...==W== Liar. Magic like that doesn't exist.
+0038 [Elis] | Exactly! That's why it had to be created from scratch! And thanks to my Master's sheer genius, ==SEX== has perfected it!
+0039 [Elis] | You saw it yourself over the past few days.
+0040 [Elis] | My Master had no heartbeat, no breath, no body heat. Yet look at ==SEX4== now. Completely alive!
+0041 [Elis] | Doesn't that prove the magic worked?
+0042 [???] | I don't buy it. You obviously used a spell to put ==SEX4== in a state of suspended animation.
+0043 [???] | Step aside. I have a few questions for your "Master."
+0044 [Elis] | Watch your place, Night Watcher! You have no authority to interrogate a noble Acolyte.
+0045 [Tú] | So the knight who looks like Noya is hunting down Iris...
+0046 [Tú] | No. She's hunting Elis, who just looks exactly like Iris. And I somehow got dragged into it, which is why we're sharing a cage.
+0047 [Tú] | That leaves two possibilities.
+0048 [Tú] | One: Elis is lying through her teeth. That entire monologue was just feeding me my lines.
+0049 [Tú] | She wants me to play along as this noble Acolyte so we can pull rank and shake our captor.
+0050 [Tú] | Two: Elis is telling the truth. She really has a sister named Iris, and she actually knows an Acolyte who studies resurrection magic and looks exactly like me.
+0051 [Tú] | Like a coincidence that massive even exists!
+0052 [Tú] | Come to think of it... Where exactly are we? Goddess Trivia? Demigod Lucilla? Emor is the only name I recognize.
+0053 [Tú] | Does that mean I'm still in Nova?==W== No. There have been no slaves on Nova for ages.
+0054 [1] | Did walking through that door in the White Room drop me into a parallel world?
+0055 [Tú] | Maybe... I'm still dreaming? Or could it be ... this is all just a hallucination from the moment I was beheaded?
+0056 [Tú] | What do you think, Vita?
+0057 [Tú] | ... Right. What am I doing? Vita broke trying to save me.
+0058 [Tú] | Ugh, enough spiraling. Wherever I am, priority one is getting out of this cage. Time to chat with the Night Watcher.
+0059 [Opción] | Elis, ask the Night Watcher to step over here.
+0060 [Elis] | Master? You don't need to entertain the whims of a lowly Night Watcher.
+0061 [Elis] | She threw us in this cage without a shred of proof! She's completely barbaric.
+0062 [Elis] | Once we reach the city, I'll find her Patron and ensure she is severely punished.
+0063 [???] | Honorable ==SEX12== Acolyte.==W== I am Alina Colossi, a Night Watcher of Filanis. I serve under Archon Olympia.
+0064 [Alina] | For your own safety, I need to ask you a few questions. If it turns out I've misjudged your identities, I will apologize and accept Lady Olympia's punishment.
+0065 [Tú] | Go ahead. I just woke up, and my head is still spinning, but I'll answer whatever I can.
+0066 [Tú] | A misunderstanding obviously landed us in this cage. Hopefully, we can clear the air now.
+0067 [Alina] | Tell me. Are you familiar with the Missing Saintess Incident from three years ago?
+0068 [Narración] | Elis gives me a meaningful look. Looks like she wants me to say yes.
+0069 [Tú] | This Night Watcher clearly respects the title. If we want out of here, I need to lean hard into this Acolyte persona.
+0070 [Tú] | ... Looks like I'm playing along with Elis for now.
+0071 [Tú] | I need to keep my answers vague. Give her nothing to poke holes in.
+0072 [Tú] | Three years ago... That rings a bell. But what does that have to do with locking us in a cage?
+0073 [Alina] | Take a look at this portrait.
+0074 [Tú] | ... This is!
+0075 [Alina] | A word in private, if you would.
+0076 [Narración] | Alina leads me out of the cart to a tree several meters away... Just far enough to keep Elis from eavesdropping.
+0077 [Alina] | Your slave looks very much like the missing Saintess.==W== If I may ask, when and where did she become your slave?
+0078 [Tú] | So Elis might be the missing Saintess. That explains the pursuit.
+0079 [Tú] | But I'm already committed to this Acolyte act. Elis and I sink or swim together. I'll just have to play along.
+0080 [Tú] | Elis and I met in Emor four years ago. The timeline doesn't match your missing Saintess. She just happens to look like the portrait.
+0081 [Alina] | I see. I understand.==W== It appears I was mistaken. I apologize for confusing your slave with the Saintess.
+0082 [Alina] | Once we reach Filanis, I will explain this to my Patron. You will be compensated, and I will accept my punishment.
+0083 [Tú] | No need for punishment. I recently fell into a deathlike slumber while researching magic anyway.
+0084 [Tú] | It's an easy mistake to make. Just don't treat us as suspects anymore.
+0085 [Alina] | You are as humble as you are merciful, ==SEX12== Acolyte. Thank you for your forgiveness. I'll release your slave from the cart at once.
+0086 [Alina] | By the way, I grew up in Emor. I really miss the Grand Arena. On match days, the crowds were massive, and tickets were almost impossible to get. Did you ever catch a match?
+0087 [Tú] | Emor has an arena...? That's news to me.==W== Matches sound like a huge deal there. If I say yes, she'll quiz me on the details.==W== I need a believable excuse to brush her off.
+0088 [Tú] | Ahem. Unfortunately not.
+0089 [Tú] | As an Acolyte, my studies leave me with little free time. And ... tickets are practically impossible to get, just as you said.
+0090 [Elis] | Master. You've returned.
+0091 [Tú] | Yeah. We cleared the air. She's letting you out.
+0092 [Alina] | ==SEX12== Acolyte, there is something you should know. The rumors about the missing Saintess aren't entirely accurate.
+0093 [Tú] | Oh?
+0094 [Alina] | The public believes a Saintess mysteriously vanished during a ritual at Emor's tower three years ago. Supposedly abducted by a powerful mage.
+0095 [Alina] | But as a Night Watcher of Filanis,==W== I was told the truth behind it.
+0096 [Alina] | There was no abduction. The Fallen Saintess staged the whole thing. She abandoned her sworn god and fled the ritual.
+0097 [Alina] | To hide her tracks, she has been roaming between cities for the past three years, silencing anyone who found out. Fifteen people are dead because of her.
+0098 [Alina] | Her specialty is bewitching innocents to act as her shields. Her victims unknowingly defend her and lie to cover her tracks.
+0099 [Tú] | Elis is the Fallen Saintess? And I'm under her spell?==W== No. I am immune to magic. I can't be bewitched.
+0100 [Alina] | Your elegant bearing and fine clothes tell me you are indeed an Acolyte, or at least someone of equal standing.
+0101 [Alina] | Your eyes are clear. You aren't under any spell. Which begs the question: why are you covering for a sinner and willingly lying for her?
+0102 [Tú] | L-Lying?
+0103 [Alina] | When speaking of Elis, you never once called her your slave. You don't view her as property. A true master would never carry ==SEX8== that way.
+0104 [Alina] | It seems to me there's no master-servant relationship between the two of you.
+0105 [Alina] | Of course, that alone wasn't enough to condemn you. But your next slip proved you are definitely not from Emor.
+0106 [Alina] | The Grand Arena doesn't sell tickets. There are no tickets. Spectators get in using free clay tokens.
+0107 [Tú] | What? But you said...
+0108 [Alina] | By the way, I grew up in Emor. I really miss the Grand Arena. On match days, the crowds were massive, and tickets were almost impossible to get. Did you ever catch a match?
+0109 [Alina] | Forgive my little deception.
+0110 [Alina] | The woman before you is extremely dangerous. She calls herself your slave for a reason.
+0111 [Elis] | M-Master... Don't listen to her, I'm your most loyal...
+0112 [Alina] | Sinner! No sudden movements. Take your hand off the stone on your chest.
+0113 [Elis] | Heh. Who knew a backwater like Filanis bred such a sharp Night Watcher.
+0114 [Elis] | God of Magic,==W== blanket the earth in the mists of the underworld.==W== Blind my foes,==W== that I may walk unseen.
+0115 [Alina] | An invisibility spell?
+0116 [Alina] | Let spark become flame.==W== Reveal the unseen!
+0117 [Elis] | Heh heh. Just because the chant says unseen doesn't mean it makes you invisible.
+0118 [Alina] | A haste spell?!
+0119 [Elis] | Thanks for the assist, "Acolyte." If you hadn't led her ten paces away, I never would have had time to prep my magic circle.
+0120 [Elis] | Well then, until next time. Sharp Night Watcher, kind Acolyte.
+0121 [Alina] | ... Did she just animate the abandoned puppets in the forest?
+0122 [Alina] | Acolyte. Shut the cart door and stay inside. It's the safest place for you right now.
+0123 [Alina] | I'll clear out these puppets!

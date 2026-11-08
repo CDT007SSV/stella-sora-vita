@@ -571,7 +571,9 @@ function actos(hold){
     const t=g.querySelector(".act")||g.querySelector(".cur");if(t&&t.scrollIntoView)try{t.scrollIntoView({inline:"center",block:"nearest"})}catch(e){}
   });
 }
-window.abrirLector=async function(id){
+/* lector-meta.json lo genera generar_lector.py cada dia: capitulos, siguiente acto y botones de historias nuevas (sin tocar este archivo) */
+window.__meta=fetch("lector-meta.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(m=>{if(m){Object.assign(CAPS,m.CAPS||{});Object.assign(SIG,m.SIG||{});Object.assign(NOMB,m.NOMB||{});Object.assign(ALT,m.ALT||{})}return m}).catch(()=>null);
+window.abrirLector=async function(id){try{await window.__meta}catch(e){}
   build();
   try{const st=document.getElementById("bgm-st");if(st&&document.getElementById("bgmbar").classList.contains("on"))st.click()}catch(e){}
   try{const de=document.documentElement;if(de.requestFullscreen)await de.requestFullscreen({navigationUI:"hide"})}catch(e){}

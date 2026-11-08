@@ -1,0 +1,135 @@
+# Capítulo 10 · 8 · A Forbidden Wish
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Lulu | Lulu
+N:Slave Trader | Slave Trader
+N:avg1_162 | Alina
+N:avg2_978 | Rovina
+N:avg3_100 | Sylar
+N:avg3_1335 | Filanis Citizen Male
+N:avg3_1336 | Filanis Citizen Male
+N:avg3_1339 | Filanis Slave Girl
+N:avg3_1340 | Filanis Slave Girl
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_168 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_182 | Elis
+N:avg3_225 | Leita
+N:avg3_228 | Filanis Citizen (M)
+N:avg3_229 | Filanis Slave
+
+## Texto
+0001 [Intro] | Act Eight
+0002 [Intro] | A Forbidden Wish
+0003 [Intro] | Children vanish across Filanis, and many blame the Fallen Saintess. Alina no longer suspects you and Elis, and reveals why she is so desperate to know about the resurrection magic.
+0004 [Lugar y hora] | 18:10, The Fifth Month 26th, Off the Coast of Filanis, Rundown Insula
+0005 [Alina] | Under Archon Olympia's rule, Filanis has long been a peaceful, orderly city-state. Its people lived in harmony, and serious crimes were almost unheard of.
+0006 [Alina] | For years, we Night Watchers had little to do beyond catching thieves, putting out fires, and driving off monsters that strayed too close to the city.
+0007 [Alina] | A month ago, that peace was shattered.==W== A young girl vanished from her home,==W== and despite all the searching her family and I did, we found no trace of her.
+0008 [Alina] | At first, I thought she might have fallen into the water and been swept away from Filanis.==W== But then...==W==
+0009 [Alina] | A week later, a second child disappeared,==W== this time outside Filanis.==W== According to the family, the child had only gone out to buy bread and never came back.
+0010 [Alina] | All Filanian children know how to swim, so the odds of two of them accidentally falling into the water were far too low. Lulu and I searched every cellar and abandoned house in Filanis, but found nothing.
+0011 [Tú] | Kidnapping? But no one ever came to demand a ransom. Could it have been trafficking?
+0012 [Alina] | That was my thought as well, so I widened the search and kept a close watch on foreign travelers. Around the same time, rumors of the Fallen Saintess began to spread.
+0013 [Alina] | Many people were convinced the Fallen Saintess had slipped into Filanis==W== and taken those poor children away to devour them.
+0014 [Elis] | Come on, ==W==no matter how wicked the Fallen Saintess is supposed to be,==W== she wouldn't eat children!
+0015 [Alina] | Of course, it was a ridiculous rumor. In fact...==W== I don't believe the Fallen Saintess was responsible for those crimes,==W== or for any of those deaths.
+0016 [Elis] | Hm? Why do you think that?
+0017 [Alina] | If she were really on the run, moving from city to city would be the worst choice. She'd be better off disappearing into some remote place and waiting until people forgot about her.
+0018 [Alina] | A Saintess who managed to escape a sacrifice can't be a fool. I don't think she'd do something as stupid as killing people to hide her identity, only to expose herself in the process.
+0019 [Elis] | But ... those crimes really did happen...
+0020 [Alina] | I read about a case like that in Filanis's library.
+0021 [Alina] | A serial killer who was blamed for thirty deaths had actually only killed five. The other twenty-five were copycat crimes, pinned on the still-unidentified killer.
+0022 [Tú] | You mean ... the Fallen Saintess was framed.==W== Then why did you try to arrest Elis in the forest under that name?==W==
+0023 [Alina] | The so-called Fallen Saintess may not even exist. It could just be a name people made up as the rumors spread.
+0024 [Alina] | But the criminals using that name as cover for all kinds of crimes… They're very real.
+0025 [Narración] | Several days earlier.
+0026 [Lulu] | Captain Alina,==W== another child has gone missing.
+0027 [Alina] | Another one? That's the third now...==W== Lulu,==W== have you found out anything about that Fallen Saintess rumor?
+0028 [Lulu] | Well, if I had to name one lead...==W== A strange man showed up at the bathhouse yesterday.
+0029 [Alina] | A strange man?
+0030 [Lulu] | A traveler with money to burn. They say he even holds the title of knight.==W== But he kept staring at people's teeth and skin, sizing them up...==W== Like he was inspecting merchandise.
+0031 [Alina] | That habit... Don't tell me he's a slave trader?
+0032 [Lulu] | He was going around the bathhouse telling people stories about the Fallen Saintess. But he's an outsider...==W== How does he know our local rumors so well?
+0033 [Alina] | Very suspicious. He may be the one who took the children. I've heard that in some distant city-states, nobles don't care for ordinary slaves. They prefer abducted ones, especially those who once came from respectable families.
+0034 [Alina] | Lulu, let's go find him!
+0035 [Alina] | Stop right there. I'm Alina of the Filanis Night Watch. I'm inspecting your wagon.
+0036 [Slave Trader] | Hah, Filanis really does like to overreach.==W== We're out in the wilds now, not in your city.
+0037 [Lulu] | Captain Alina, those wagons...==W== No, they're cages. There are several slaves inside.
+0038 [Slave Trader] | Hah. We never brought slaves into Filanis, so we haven't broken any of Archon Olympia's laws.==W== Wait. You look familiar.==W== Ah, you're that bathhouse girl!
+0039 [Alina] | No matter where it happens, treating people like toys or merchandise is evil. And you're also suspected of kidnapping and spreading panic. I'm taking you back for questioning.
+0040 [Slave Trader] | Ridiculous. There are only two of you, and you think you can haul us back?==W== Boys, looks like we're adding two prime new goods to the cart. Draw your weapons!
+0041 [Alina] | Know your place!==W== Lulu, keep them alive. We still need them to tell us where the children are.
+0042 [Lulu] | Understood, Captain.
+0043 [Alina] | We defeated the slavers, but the missing children weren't among the slaves in the cages.
+0044 [Alina] | There was a tower in the forest on their way. I feared they might be hiding the kidnapped children there, so I sent Lulu back to the city and drove one of the prison wagons to the tower myself...==W== And that's where I ran into you.
+0045 [Elis] | So that's what happened. You'd just taken down a group of slavers, and they were spreading rumors about the Fallen Saintess. Then you saw me, looking just like the wanted sketch, so of course your mind went there. Totally makes sense.
+0046 [Alina] | Actually... I never really thought you were the Fallen Saintess. For one, you don't have the eyes of someone who's killed before. And for another, I've always believed the Fallen Saintess was just a figure exaggerated by rumor.
+0047 [Alina] | I only said it to see how you'd react...==W== Just a little trick we Night Watchers use when questioning thieves: start with a bigger accusation and see if they flinch.
+0048 [Elis] | Then what did you think I'd done?
+0049 [Alina] | That you might've been working with the slavers. Or maybe ... a grave robber.
+0050 [Elis] | Hey, come on, use your eyes!==W== I'm this cute and charming, and you thought I was a slaver or a grave robber?
+0051 [Alina] | Uh... Because you were standing next to an absurdly lavish coffin, and inside was the breathless ==PLAYER_NAME==.
+0052 [Tú] | Yeah, I can see how that would've looked like grave robbing. Heh.==W== So you threw both me and the coffin into the wagon as evidence of Elis's "crime."
+0053 [Alina] | That's right. I'm sorry...
+0054 [Tú] | No need to apologize. In that state, anyone would've thought I was a corpse.
+0055 [Tú] | So that's why your attitude changed later... I "came back to life," and Elis protected me on her own. Which meant she couldn't have been a grave robber, or a slaver.
+0056 [Alina] | Right. But I still had doubts about who you really were...==W== So I brought you back to Filanis.
+0057 [Tú] | And that's because...?
+0058 [Alina] | Elis acted perfectly natural for a slave. But you, as her master...==W== You had none of that air of superiority. And the way you treated her wasn't like a slave at all. It was more like ...==W== a friend.
+0059 [Tú] | R-Really...
+0060 [Elis] | (I'll keep playing your slave.==W== But seriously, be a bit more ruthless with me. Show some authority! Nobody treats a slave as gently as you do.)
+0061 [Tú] | Elis did warn me about that, but I just couldn't do it... No matter how hard I try, I can't treat a living person like a slave.
+0062 [Alina] | So I started to wonder if maybe both of you were slaves. The high-ranking kind, the ones who serve Archons or Demigods.==W== You escaped together, and pretending to be master and slave was simply the easiest cover.
+0063 [Tú] | So...==W== You brought us to Filanis to protect us, and to help us start over there with new identities.
+0064 [Alina] | Yes. If Archon Olympia discovered you were slaves, she would most likely set you free.
+0065 [Elis] | You're almost so kind it doesn't even feel real.
+0066 [Elis] | Your Patron Olympia, ruler of Filanis, may forbid the people of Filanis from keeping slaves, but that doesn't mean you have to leave the city and rescue slaves out in the wilds, does it? Wouldn't that just bring trouble to her?
+0067 [Alina] | Archon Olympia always said that anyone who steps into Filanis should do so as a free person. She supports us in freeing slaves by peaceful means whenever possible, and punishing those who profit from selling them.
+0068 [Alina] | And ... I used to be a slave too. I know what it feels like to be treated like an object. So I'll help you however I can.
+0069 [Alina] | ... Why do slaves even exist? Why can't people just live peacefully together?
+0070 [Elis] | Of course it's because...==W== Everyone has wishes they want fulfilled, and some people can only get what they want by sacrificing others.
+0071 [Elis] | Hmph, don't go thinking everyone is as naive as you two idiots. You keep being this gullible, and one day it'll get you killed.
+0072 [Alina] | Thanks for the warning.==W== But...==W== After you tried to escape from the bathhouse and Saintess Leita caught you, I started to rethink who you really were. You probably aren't slaves.
+0073 [Alina] | Elis, you're the runaway Saintess, aren't you? And ==PLAYER_NAME== is a noble of some standing who, for reasons I don't know, chose to help you.
+0074 [Elis] | Huh!? What nonsense are you talking about? How could I possibly be a Saintess?
+0075 [Tú] | That's a pretty sharp guess. No wonder she is a Night Watcher... Aside from one thing she couldn't possibly know, that I'm from another world, she's basically right.
+0076 [Alina] | When Saintess Leita was trying to determine who you were... She looked like she recognized you, and even deliberately helped cover for you.
+0077 [Alina] | Normally... An innocent person would have no reason to flee through the sewers like that. But when it came to you hiding under the carriage, she brushed it off by mocking you.
+0078 [Alina] | So I looked into it...==W== Into Saintess Leita's past before she became a true Saintess, and found that she was from the same class as the runaway Saintess.
+0079 [Alina] | Everyone in that class had a clear record, except for the runaway Saintess. None of the others could possibly have ended up in Filanis as a slave,==W== which leaves only one possibility...
+0080 [Elis] | Even if I did know that Saintess, it doesn't prove anything...==W== We didn't have to meet during training. Maybe we were just neighbors back in Emor...==W== Yeah, neighbors!
+0081 [Alina] | How could a Saintess possibly be neighbors with a slave? If you're saying she was neighbors with ==PLAYER_NAME== instead, then at the bathhouse...==W== Saintess Leita looked like she didn't know ==PLAYER_NAME== at all.
+0082 [Elis] | I... I can explain that too...
+0083 [Tú] | Elis, stop struggling.==W== I think Alina isn't saying all this to turn us in. After all, she never brought up any of these doubts during the bathhouse test.
+0084 [Alina] | Archon Olympia has never issued a warrant for the runaway Saintess in Filanis. Lord Coppelius once told me that he didn't believe the runaway Saintess did anything wrong.
+0085 [Alina] | And during all this time, even after being locked in a prison cart, the two of you never did anything dangerous. As one of Filanis's Night Watchers, I have no reason to arrest Elis.
+0086 [Tú] | I don't think that's the whole story though. Back at the bathhouse entrance...
+0087 [Alina] | Could you tell me about the resurrection magic?
+0088 [Alina] | Name your price...==W== I'll give you anything I have!
+0089 [Alina] | T-==W==Truly...?==W== May I ask about the tower and wishes?
+0090 [1] | You clearly had something you wanted to ask me.==W== If our identities were exposed, we'd either be arrested or forced to run.==W== And then you'd never get the answer you were looking for, right?
+0091 [Alina] | It's shameful, really. I was fortunate enough to be granted noble status, and though I bear the title of "Knight," my heart is still full of selfish desires.
+0092 [Alina] | ==PLAYER_NAME==, you're right. I do have my own motives in this matter.==W== I really do want ... to learn that knowledge from you.
+0093 [Alina] | So please, don't think of me ... as some selfless good person who's only trying to help you.
+0094 [Tú] | Everyone has desires.==W== As long as those motives don't harm anyone else, I don't think there's anything wrong with them.
+0095 [Tú] | Do you want to continue our earlier conversation? About the tower and wishes?
+0096 [Alina] | Yes... Only Saintesses and Priests can enter Filanis's tower to make wishes, but a knight like me can also earn a once-in-a-lifetime chance after accumulating enough merit.
+0097 [Alina] | I want to make a wish for my companions, but I don't know ... how should I do it to bring about the result I want.
+0098 [Alina] | So I was hoping to ask you how wishing actually works.
+0099 [Elis] | Make a wish for your companions? You only get one chance in your whole life. Shouldn't you think about yourself too?
+0100 [Alina] | I... I owe them. No matter what, I want to repay them.
+0101 [Elis] | There are other ways to repay someone... This is a wish we're talking about. A wish that can grant anything!
+0102 [Tú] | Anything?!
+0103 [Alina] | Yes... I think this is the only way I can repay them. Please, come with me. I'll take you to them.
+0104 [Narración] | Elis and I follow Alina out through the back door of the Insula.
+0105 [Narración] | We trek through the forest for more than ten minutes. Only when even Filanis's Monolith has vanished behind the trees does Alina finally stop.
+0106 [Alina] | These are the companions I spoke of.
+0107 [Tú] | This is ... a graveyard? Sorry, we didn't know...
+0108 [Alina] | No need to apologize. I should have told you sooner.==W== A year ago, this Night Watcher of Filanis, Alina ... was still a gladiator in Emor.
+0109 [Elis] | What? A gladiator? The kind of famous star who fights in the Grand Arena and basks in the crowd's cheers?
+0110 [Alina] | Those kinds of gladiators do exist, yes. But I had nothing to do with that world.
+0111 [Alina] | Back then... I was nothing more than a gladiator slave without even a name...

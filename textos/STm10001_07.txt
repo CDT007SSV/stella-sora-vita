@@ -1,0 +1,128 @@
+# Capítulo 10 · 7 · A Night Watcher's Daily Routine
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Angry Filanian | Angry Filanian
+N:Excited Filanian | Excited Filanian
+N:Fierce Filanian | Fierce Filanian
+N:Injured Girl | Injured Girl
+N:Lulu | Lulu
+N:Onlooking Filanian | Onlooking Filanian
+N:Rowdy Filanian | Rowdy Filanian
+N:avg1_162 | Alina
+N:avg1_1992 | Resident
+N:avg2_978 | Rovina
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1332 | Alina
+N:avg3_1335 | Filanis Citizen Male
+N:avg3_1341 | SaiLa F
+N:avg3_144 | Residente
+N:avg3_182 | Elis
+N:avg3_227 | Filanis Elder
+N:avg3_228 | Filanis Citizen (M)
+N:avg3_229 | Filanis Slave
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Seven
+0002 [Intro] | A Night Watcher's Daily Routine
+0003 [Intro] | Alina shields a girl accused of being the Fallen Saintess from the angry mobs. Your status as an Acolyte helps her out, and to earn her trust, you and Elis join the Night Watchers.
+0004 [Lugar y hora] | 16:30, The Fifth Month 26th, Filanis Island, Central Avenue
+0005 [Alina] | Just look at her. She's no Fallen Saintess. She's just a poor slave who can't even cast a simple spell.
+0006 [Excited Filanian] | There are no slaves in Filanis!==W== It's a trick! She must be the Fallen Saintess in disguise!
+0007 [Alina] | If you won't believe me, I'll take her to the High Priest. Let him pass judgment.
+0008 [Angry Filanian] | Ha. Hiding behind the High Priest the second things get tough. Must be nice being a Night Watcher.
+0009 [Angry Filanian] | My kid's been missing for a month! And you useless Night Watchers haven't done a damn thing about it!
+0010 [Angry Filanian] | We finally caught the monster, and instead of taking her head, you shield her! What, are you working for her?!
+0011 [Fierce Filanian] | Throw her in the bathhouse! The water will prove what she is soon enough.
+0012 [Excited Filanian] | Yeah! Test her right now!
+0013 [Alina] | Look at how frail she is. Throwing her in that water is practically a death sentence!
+0014 [Alina] | On my honor as a Night Watcher, I swear I'll interrogate her and get you your answers.==W== But right now, she needs a healer. Step aside.
+0015 [Injured Girl] | Ugh... It hurts...==W==
+0016 [Angry Filanian] | Like hell! You question her right here.
+0017 [Excited Filanian] | Yeah, right here, right now!
+0018 [Alina] | (Something feels off...==W== Why is everyone so worked up?==W== Never mind that...==W== I have to get this child out of here first.)
+0019 [Alina] | Back off. You are interfering with a Night Watcher. I will force my way through if I have to.
+0020 [Fierce Filanian] | Force your way through?==W== Hah. You might be a Knight, but so am I.==W== And I know how to use a sword.
+0021 [Rowdy Filanian] | Damn right! We were born and bred in Filanis, and we've bled in the wars! We aren't letting some outsider walk all over us. Show her who's boss!
+0022 [Onlooking Filanian] | Yeah! Give her hell!
+0023 [Fierce Filanian] | Well?==W== If you really want to take that Fallen Saintess, you'll have to go through me. Let's see if you actually deserve that title.
+0024 [Alina] | (What do I do? Their swordplay is amateur at best.==W== I could easily break through, but not without hurting someone.)
+0025 [Alina] | (My duty is to protect the citizens of Filanis, not harm them.==W== But if we stay here...==W== This girl is going to...)
+0026 [???] | What is the meaning of this?==W== Clear the road! You're blocking the honorable Acolyte's path!
+0027 [Rowdy Filanian] | An Acolyte?==W== Since when do we have an Acolyte in Filanis?
+0028 [Onlooking Filanian] | I heard a traveling Acolyte just arrived in the city. Word is High Priest Coppelius treats ==SEX4== like royalty.==W== Look, that's got to be ==SEX4==.
+0029 [Rowdy Filanian] | Hmm...==W== Those striking features,==W== clothes I've never even seen before...==W== Yeah, that's definitely a noble we shouldn't cross.
+0030 [Tú] | What seems to be the problem? What's with all this commotion?
+0031 [Fierce Filanian] | Honorable Acolyte! We didn't mean to block your path.==W== It's just... We caught the Fallen Saintess! But this Night Watcher refuses to see justice done.==W== She's trying to smuggle the criminal away!
+0032 [Tú] | Oh? If it isn't Alina.==W== Fancy running into you here.
+0033 [Alina] | Good morning, ==SEX12== Acolyte.==W== I take full responsibility for my earlier negligence.==W== Once I get this child to a healer, I'll turn myself in for punishment.
+0034 [Tú] | That won't do, Alina. Did you not hear these good citizens?==W== They are calling for the execution of the Fallen Saintess. You can't just brush them off and go heal her.
+0035 [Alina] | But Acolyte, this child isn't...
+0036 [Tú] | No buts.==W== I may be a visiting Acolyte who shouldn't meddle, but as a Night Watcher of Filanis, it's your duty to listen to the people.
+0037 [Excited Filanian] | You're dead right! Spoken like a true Acolyte! Finally, someone in charge who actually has our backs.
+0038 [Onlooking Filanian] | Unlike a certain Night Watcher who'd rather protect criminals than do her actual job!
+0039 [Fierce Filanian] | Hey! You heard the Acolyte. Fall in line, Night Watcher!
+0040 [Alina] | I...==W== I understand. ==SEX12== Acolyte, give the order. I will do as you command.
+0041 [Tú] | Since you've all left this decision in my hands, I suppose I must oblige.
+0042 [Tú] | Alina, escort this Fallen Saintess to my quarters. I will interrogate her myself.
+0043 [Lugar y hora] | 10:30, The Fifth Month 26th, Outside Filanis Island, Rundown Insula
+0044 [Elis] | Done checking her. The bad news is, both her body and mind are wrecked.
+0045 [Elis] | Chronic starvation and severe abuse have shattered her psyche.==W== Also, someone tampered with her memory using magic.==W== Getting anything useful out of her right now is impossible.
+0046 [Lulu] | It's... It's that bad?!==W== Those slaver scum deserve to rot!==W== C-Can she recover?==W==
+0047 [Elis] | Oh my.==W== Look who's suddenly putting her faith in a "vile parasite who willingly became a slave."
+0048 [Lulu] | I...==W== I'm sorry. I was way out of line back at the bathhouse. I didn't mean it.
+0049 [Elis] | Hmph, no need to apologize.==W== Do I look like the type to hold a grudge?==W== Relax. That was just the bad news. Here comes the good.
+0050 [Elis] | She's got a long list of issues, but none of them are fatal.==W== Her body just needs rest. Once she gets her strength back, the memory damage inflicted by magic should clear up on its own.
+0051 [Elis] | Here. I wrote a prescription. Keep her on this for two weeks, and she'll be a whole new person.
+0052 [Lulu] | Cabbage, honey, chicken, fish sauce, figs, dates, chickpeas...==W== Wait, this is just a grocery list.
+0053 [Elis] | Exactly. Forget the herbs. What this girl really needs is a hearty meal.
+0054 [Lulu] | Got it!==W== I'm on it!
+0055 [Elis] | Phew.==W== Master, let's get her into the bedroom so she can rest.==W== You there, Night Watcher,==W== come give us a hand.==W==
+0056 [Narración] | Alina offers her own bedroom to the girl. As we tuck the girl in, she continues to stare blankly, muttering a plea for her life. Still...==W== The sheer terror on her face is starting to fade.
+0057 [Tú] | This world is far crueler than I thought. Elis and Alina must be the rare exceptions. What happened today...==W== That's the grim reality for everyone else.
+0058 [Alina] | Thank you for stepping in, Acolyte. If you hadn't...==W== That girl and I would have been trapped on the island. We might have actually needed High Priest Coppelius to bail us out.
+0059 [Tú] | Don't mention it. I didn't do much.==W== Just threw my weight around and used what they didn't know against them.
+0060 [Tú] | Good thing they didn't know I'm staying with you. Me bringing her here for an "interrogation" is the same as you bringing her here for treatment.
+0061 [Tú] | You think they'll catch on? An angry mob showing up at your insula is the last thing you need.
+0062 [Alina] | Rest assured, those people rarely set foot off the island. They have no idea what goes on out here.
+0063 [Tú] | Good. Then we can focus on treating the girl.
+0064 [Tú] | Speaking of which,==W== why were they so convinced she was the Fallen Saintess?==W== I thought Filanis didn't have slaves.
+0065 [Alina] | I will explain everything shortly.==W== But before that...==W==
+0066 [Alina] | ==SEX12== Acolyte, I made a grave mistake when I wrongfully accused Elis of being the Fallen Saintess and locked you both in a prisoner cart.==W== I am ready for my punishment.
+0067 [Tú] | Ah,==W== this must be what Elis told me about...==W==
+0068 [Elis] | Alina also has to apologize and meet whatever demands we make, so long as they don't "cause death or permanent scarring."==W== Oh,==W== and they nearly threw her out of Filanis.
+0069 [Tú] | I don't really want to punish her.==W== There's no need.==W== Plus,==W== Alina was just doing her job.
+0070 [Tú] | From an outsider's perspective,==W== Elis and I looked sketchy as hell.
+0071 [Elis] | Psst. Master, Master.==W== Come here for a second.
+0072 [1] | What do you think, Elis? We really don't need to punish Alina over this. You even spoke up for her earlier.
+0073 [Elis] | True,==W== but you can't just wave it off and ask for nothing. It breaks character.
+0074 [Elis] | Besides, this is the perfect opportunity to get Alina on our side.
+0075 [Tú] | Get her on our side?
+0076 [Elis] | Yes! Think about it. What is our top priority right now?
+0077 [Tú] | Securing a solid identity. One that holds up to scrutiny.
+0078 [Elis] | Exactly. Our cover story already fooled the Saintess and the High Priest. The only wild card left is this Night Watcher.
+0079 [Elis] | On our way to Filanis... We left quite a few holes in our story. If she starts digging into them...
+0080 [Tú] | Fair point. So, what's the plan?
+0081 [Elis] | Heh. She's way too uptight. Aside from Lulu, I doubt she has a single friend in the world.
+0082 [Elis] | People like her are like marble statues. You can neither bribe nor threaten them.==W== If we want to win her over,==W== we have to corrupt her first.
+0083 [Tú] | Corrupt her?
+0084 [Elis] | I just mean getting her to loosen up. If we can get her to reveal what she wants, we can give her exactly that.
+0085 [Tú] | Hmm...==W== I see.
+0086 [Elis] | If you think that's too slow, I did invent a soul trading spell that binds the signer's movements.==W== You could use this chance to help me test it out...==W==
+0087 [Elis] | Hey! Where are you going?!==W== We haven't even gone over the talking points yet!
+0088 [1] | Alina, I've decided on your punishment.
+0089 [Alina] | Name it, and I will do my utmost to compensate you both.
+0090 [Tú] | Let us join the Night Watchers and patrol with you.==W== Also, treat Elis and me as your equals, not your superiors.==W== Drop all the formalities.
+0091 [Alina] | Understood. I will...==W== Wait,==W== ==SEX12== Acolyte, what did you just say?
+0092 [Tú] | Calling me "==SEX12==" is a violation of the terms. Just call me ==PLAYER_NAME==, and call her Elis.
+0093 [Elis] | Master?!
+0094 [Tú] | And you can stop calling me "Master." We need to blend in. It's about time I restore my slave to the status of a free woman.
+0095 [Tú] | We don't have a physical contract, so let's just have Alina act as our witness.
+0096 [Alina] | I ...==W== understand.==W== I will bear witness to ==PLAYER_NAME== freeing the slave, Elis.
+0097 [Elis] | Hah...==W== I really don't get you.==W== What is going on inside that head of yours?
+0098 [Tú] | Good. No one is using titles anymore. I like this.==W== So...==W== Captain Alina, give the order.
+0099 [Tú] | As the newest recruits of the Night Watchers, what's our first move?
+0100 [Alina] | Well...==W==Then let's discuss the connection between the Fallen Saintess and the recent disappearances in Filanis.

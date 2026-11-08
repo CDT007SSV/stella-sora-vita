@@ -1,0 +1,161 @@
+# Capítulo 10 · 2 · The City of Perfection
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Listless Puppet | Listless Puppet
+N:avg1_111 | Iris
+N:avg1_162 | Alina
+N:avg3_100 | Sylar
+N:avg3_1321 | Puppet Soldier (Initial Coordinates)
+N:avg3_1322 | Puppet Soldier (Initial Coordinates)
+N:avg3_1323 | Puppet Soldier (Initial Coordinates)
+N:avg3_1324 | Puppet Soldier (Initial Coordinates)
+N:avg3_182 | Elis
+N:avg4_106 | Puppet Soldier (Initial Coordinates)
+
+## Texto
+0001 [Intro] | Act Two
+0002 [Intro] | The City of Perfection
+0003 [Intro] | Elis saves you from the dolls, easing Alina's suspicions. Over the following days, you and Elis grow closer through palm-written chats. Reaching Filanis, you feel a faint familiarity…
+0004 [Listless Puppet] | Creak, creak.
+0005 [Tú] | These puppets are relentless. Alina hacked them to pieces before she ran off, but...
+0006 [Tú] | Now they're actually tearing off their own limbs and slapping together five new bodies.
+0007 [Tú] | Thank goodness for sturdy bars. Mindless bashing won't leave a dent.
+0008 [Tú] | At this rate... I'll be perfectly safe right here until I starve.
+0009 [Tú] | But unless someone rescues me, I'll end up starving forever.
+0010 [Tú] | Alright, panicking won't help. Time to retrace my steps.
+0011 [Tú] | I remember...==W== I tried to use my ability to "undo a move" and beat Angie. To find a way out where nobody had to die.
+0012 [Tú] | But that meant throwing my own life away. I'd be dead if Vita hadn't blocked the shot with the Throne.
+0013 [Tú] | The Throne shattered. I woke up locked in the White Room, with no Monolith staff in sight. It was just an endless void.
+0014 [Tú] | I walked and walked ... until my mind went numb. Then I heard a familiar voice and pushed open another door.
+0015 [Tú] | Which dumped me here.==W== It feels like waking up on the Lucky Oasis all over again, except...
+0016 [Tú] | Noya is a Night Watcher,==W== Iris is the Fallen Saintess,==W== and Amber ... is nowhere in sight.
+0017 [Tú] | ... Is this a dream? No, you can't dream up things you don't know.
+0018 [Tú] | An illusion inside the White Room? Another world entirely? I have no idea.
+0019 [Tú] | Doesn't matter. I found an exit in the White Room, which means I haven't lost yet.
+0020 [Tú] | Getting my head chopped off wasn't ideal, but I still squeezed through the door of fate.
+0021 [Tú] | Dead end or not, there's a way out of here. For the others, and for Vita... I have to get back!
+0022 [Tú] | What is going on? Why is the carriage shaking?
+0023 [Listless Puppet] | Clack, clack.
+0024 [Tú] | Wait, why are they all crowding one side of the cart?!
+0025 [Listless Puppet] | Creak, clack.
+0026 [Tú] | They're trying to tip it! If it falls, they can reach me through the bars!
+0027 [Tú] | Alina! Get back here! The cage is giving way!
+0028 [Narración] | God of Magic, grant me your blazing holy fire...
+0029 [Tú] | That silhouette...==W== Elis?
+0030 [Narración] | ... Burn away these wicked woods!
+0031 [Tú] | F-Fire magic?! Hey, don't roast me alive!
+0032 [Listless Puppet] | Groan...
+0033 [Tú] | Oh... Wind blades...
+0034 [Elis] | See, my dear Master? You always end up needing me. That Night Watcher is completely useless.
+0035 [Elis] | She saw those bars and figured brute force wouldn't cut it. But she forgot these things have half a brain. An iron wall means nothing if the enemy can just climb over it.
+0036 [Tú] | Why are you here? Alina is close. If she sees you, she'll arrest you. You should go.
+0037 [Elis] | Oh? My Master actually worries about me. I'm flattered.
+0038 [Elis] | I'm a murderous Fallen Saintess, remember?
+0039 [Elis] | You've seen my face and heard my voice. Aren't you afraid I'll silence my only witness?
+0040 [Tú] | If you came to silence me, you wouldn't have saved me. Letting the puppets do it would be much easier.
+0041 [Tú] | Besides... You might be the Fallen Saintess, but I don't think you'll kill to cover your tracks.
+0042 [Elis] | Fascinating. You woke up half an hour ago, and we just met. Where is this trust coming from?
+0043 [Elis] | Don't tell me ... you fell for my looks, or do you just enjoy hearing me call you Master?
+0044 [Tú] | Because==W== I refuse to believe anyone with Iris's face is a murderer...==W==Heh. Good luck saying that out loud.
+0045 [Tú] | Ahem. It's not your looks. It's how you operate.
+0046 [Elis] | Not my looks, huh? I get it. You are charmed. You just have other reasons to trust me.
+0047 [Elis] | Now I'm curious. What exactly did my actions give away?
+0048 [Tú] | Well... This cheeky attitude is nothing like Iris. I'd better just spell it out for her.
+0049 [Tú] | You're a powerful mage. If you're a ruthless killer, there is no need for you to drag a groggy amnesiac into a fake identity.
+0050 [Tú] | Alina is a veteran. She poked holes in my answers in seconds. Against someone like that, a magical ambush would've been your best bet.
+0051 [Tú] | When we stepped outside, you did lay down a magic circle. But it was a haste spell, non-lethal.
+0052 [Tú] | Habits are hard to break. You avoid hurting people, and you clearly tried to keep me out of the crossfire. You're no ruthless killer.
+0053 [Elis] | Tsk. What a day. First a sharp Night Watcher, and now a Master bending over backward to prove my innocence.
+0054 [Elis] | Enough about me. We need to move.
+0055 [Elis] | Hiyah!
+0056 [Tú] | You're stealing the whole cart?!
+0057 [Elis] | Exactly. Let's see that Night Watcher catch us now. She can stay in this forest and play with those junk piles all night.
+0058 [Elis] | Oho, more roadblocks.
+0059 [Elis] | God of Magic, grant me your blazing holy fire... Burn away these wicked woods!
+0060 [Tú] | Right magic, wrong chant. She has some bizarre casting habits...
+0061 [Tú] | Wait, did the puppets' faces just change color?
+0062 [Elis] | The wind blades ... disappeared?! Do they have anti-wind wards on them?!
+0063 [Listless Puppet] | Creak, creak.
+0064 [Elis] | How about this!
+0065 [Elis] | God of Magic, let the swiftest wings of the forest heed my command. Cleanse this clamorous world!
+0066 [Elis] | H-How is that possible? No one wastes two different wards on scrap!==W== Wait... Not just wards. They're feeding on my magic!
+0067 [Tú] | Elis, look out!
+0068 [Listless Puppet] | Creak...
+0069 [Elis] | Ugh... My magic is useless. We're surrounded.
+0070 [Tú] | Get inside! The cage will hold them!
+0071 [Elis] | I can't. If I open the door now, they'll flood inside,==W== and we're both dead...
+0072 [Elis] | Upon the foundation of my soul, with my spirit as the mortar... I seal my Master's cage. Weather the storm, stand firm against the gale, endure the searing flame...
+0073 [Tú] | Elis, what are you doing?!
+0074 [Elis] | I finally met someone who understands me. I'm not letting you die today, Acolyte. This is all the magic I have left. Take it.
+0075 [Elis] | This ward should hold... At least until the Night Watcher returns...==W==
+0076 [Tú] | Elis!!
+0077 [Alina] | Radiant Flame!
+0078 [Alina] | They suddenly got tougher. I don't recognize the magic warding them...
+0079 [Tú] | Alina, cut off the magic! They are absorbing it from your blade!
+0080 [Alina] | Ah, I see.==W== Then I will cut them down with pure steel!
+0081 [Alina] | Just as I thought. This is much easier.
+0082 [Alina] | Stay away from the cart!
+0083 [Alina] | This is the final strike!
+0084 [Tú] | Incredible... She cut through fifty,==W== no, at least a hundred puppets on pure swordplay alone?!
+0085 [Alina] | ==SEX12== Acolyte, are you alright? Any injuries?
+0086 [Tú] | I was safe in the cart. Go find Elis! The puppets just buried her!
+0087 [Elis] | M-Master, I'm fine.
+0088 [Alina] | Don't worry. Your slave had the good sense to duck beneath the wreckage for cover while I was swinging.
+0089 [Elis] | You are one to talk! That last swing nearly took my head off!
+0090 [Elis] | Wait. What did you just call me?
+0091 [Alina] | I checked the puppets in the forest. Your magic did not animate them.==W== Furthermore, I saw what you did...
+0092 [Alina] | You used your last reserves of magic shielding the Acolyte just as you were about to be overrun. A Fallen Saintess would never do such a thing. A fiercely loyal slave would.
+0093 [Alina] | You may still be the Fallen Saintess hiding behind a clever disguise, but this truth lies beyond my mortal judgment now.
+0094 [Alina] | I am taking you both to Filanis. My Patron,==W== the great Archon Olympia, will judge your identity and decide your fate.
+0095 [Narración] | Three days later.
+0096 [Narración] | ==A-2==After Alina abruptly ceased her interrogation, we resumed our journey.==P== ==A-1==On paper, Elis remains a sinner and I her suspect accomplice. Yet Alina treats us exactly like an Acolyte and ==SEX3== attendant, affording us all the respect the titles carried.==P== ==A-1==Even our three daily meals are leagues better than her own rations.
+0097 [Narración] | Bouncing along in the cart, Elis and I grow closer, developing a highly unorthodox method of conversation.
+0098 [Elis] | (Trace it with me again, ==PLAYER_NAME==! An Acolyte who cannot even write ==SEX3== own name is a fatal flaw.)
+0099 [Tú] | (Understood. One more time. Is this right?)
+0100 [Elis] | (Barely. Your handwriting is a disaster.)
+0101 [Elis] | (I will handle all the writing from now on. It perfectly fits the personal slave disguise anyway.)
+0102 [Tú] | (Why did Alina abandon the interrogation the other day? Any thoughts?)
+0103 [Elis] | (A few. She is sharp. She likely noticed the same discrepancy you did. My behavior is nothing like the Fallen Saintess she knows about.)
+0104 [Elis] | (Plus, you look the part of a noble. Wrongfully arresting your personal slave would land her a severe reprimand from her Patron.)
+0105 [Tú] | (But you really are the runaway Saintess, right?)
+0106 [Elis] | (There's no point hiding it from you. I fled the ritual, but I've just been studying magic in a tower near Emor for three years.)
+0107 [Elis] | (I know nothing of those crimes. When we get out, I'll show you my daily journals in the tower. They'll prove my innocence!)
+0108 [Elis] | (I was fast asleep a few days ago in the tower.)
+0109 [Elis] | (Then that Night Watcher just burst in with a portrait and tried to arrest me.)
+0110 [Elis] | (I ran through the Monolith. Just as I was about to collapse, I spotted an ornate coffin.)
+0111 [Elis] | (I went to hide inside, but surprise, you were already in it.)
+0112 [Elis] | (You were dressed like royalty, so I claimed you were an Acolyte in a resurrection trance, and I was your slave standing guard.)
+0113 [Tú] | (Volunteering to be a slave... Is that really necessary?)
+0114 [Elis] | (You really don't remember anything. Slaves are property. If she wants to arrest me, she needs your permission first.)
+0115 [Elis] | (As long as I claim to be yours, she has to verify your ownership before dragging me away, Fallen Saintess or not.)
+0116 [Elis] | (So she loaded you and the coffin onto the cart for an investigation. She even warned me that if our identities didn't match, she'd charge me with desecrating a corpse.)
+0117 [Elis] | (Thanks to you, I bought some time. Otherwise, I'd be in shackles with no way to draw a single magic circle.)
+0118 [Elis] | (Speaking of which, who are you? And why were you in a coffin at the top of that Monolith? I never saw anyone go up there in three years.)
+0119 [Tú] | There is no possible way I can explain crossing into this world through the White Room... I'll just have to give her the abridged version.
+0120 [Tú] | (I'm no Acolyte, and I'm from far, far away. As for why I ended up in the Monolith with that coffin, I honestly have no idea.)
+0121 [Elis] | (Doesn't matter. You look the part anyway. No one will doubt the Acolyte disguise. Just let me do the talking in Filanis so we don't blow our cover.)
+0122 [Elis] | (I'll keep playing your slave.==W== But seriously, be a bit more ruthless with me. Show some authority! Nobody treats a slave as gently as you do.)
+0123 [Elis] | (The same applies to the Night Watcher. Drop the polite facade. It breaks character. But if she serves you well, offer a suitable reward.)
+0124 [Tú] | (I understand. I will try.)
+0125 [Tú] | (Speaking of which... Is this palm-writing trick actually fooling Alina?)
+0126 [Elis] | (Undoubtedly. She is preoccupied with the horses. And even if she suspects conspiracy, I have other ways to divert her attention.)
+0127 [Alina] | Esteemed sinners. We have arrived.
+0128 [Tú] | Crap, we were so focused I didn't even notice the cart stop.==W== We're busted!
+0129 [Elis] | Ah... Master.
+0130 [Tú] | Wh-What?
+0131 [Elis] | When you rub it like that, it feels ...==W== strange. Could you be ...==W== a little gentler with your fingers?
+0132 [Tú] | Uh... R-Right. Got it...
+0133 [Tú] | What kind of insane cover story is this?!
+0134 [Alina] | Ahem. Intimate eccentricities between master and slave are to be expected,==W== but you have lingered quite long enough. It is time to disembark.
+0135 [Tú] | Disembark? Here?
+0136 [Alina] | Considering your presumed status, parading you into the city in a prisoner cart before the facts are clear would be a disgrace.
+0137 [Elis] | Ahem. How exceptionally thoughtful of you. My Master is a distinguished Acolyte. ==SEX1== absolutely cannot present ==SEX8== to the Archon in such filth.
+0138 [Alina] | Indeed. Considering your situation, I specifically chose a bathhouse closed to the public today. We are the only ones here.
+0139 [Elis] | How thoughtful. Though this place hardly looks fit to house a bathhouse. Is Filanis really this backwater?
+0140 [Alina] | This is not Filanis proper. It is merely a spontaneous settlement erected on the outskirts.
+0141 [Alina] | Behold. The city gleaming in the sunlight on the lake island, built around that tower.
+0142 [Tú] | A Monolith on a lake island ...==W== and this exact street layout.
+0143 [Tú] | Is this ...==W== Philae?
+0144 [Alina] | That is the true Filanis.==W== The great City of Perfection.

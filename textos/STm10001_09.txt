@@ -1,0 +1,136 @@
+# Capítulo 10 · 9 · The Gladiator
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Arena Slave Owner | Arena Slave Owner
+N:Injured Gladiator | Injured Gladiator
+N:No. 18 | No. 18
+N:Senior Gladiator | Senior Gladiator
+N:Slightly Famous Gladiator | Slightly Famous Gladiator
+N:Yonon | Yonon
+N:Young Gladiator | Young Gladiator
+N:avg1_162 | Alina
+N:avg2_940 | Puppet Soldier
+N:avg2_941 | Olympia (Puppet)
+N:avg3_1327 | Puppet Soldier (Initial Coordinates)
+N:avg3_1328 | Puppet Soldier (Initial Coordinates)
+N:avg3_1329 | Puppet Soldier (Initial Coordinates)
+N:avg3_1331 | Noya
+N:avg3_143 | Residente
+N:avg3_227 | Filanis Elder
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Nine
+0002 [Intro] | The Gladiator
+0003 [Intro] | Alina reveals her past as a gladiator who lived among slaves. She won freedom by defeating magic puppets, but failed to save her companions who had fought and died beside her, and that regret turned into her wish.
+0004 [Senior Gladiator] | Hey, No. 18. You're up.
+0005 [???] | Yes.
+0006 [Senior Gladiator] | Listen. The more blood spilled, the more the crowd goes wild, especially when it's a dainty girl like you. Doesn't matter if it's your blood or your opponent's... They'll be overjoyed either way. Understand?
+0007 [???] | Yes.
+0008 [Senior Gladiator] | Well, if you could fight your way to fame, then you can say goodbye to this filthy place forever.
+0009 [Senior Gladiator] | You would live in a mansion that smells of myrrh and frankincense. Lounge on silk cushions stuffed with swan feathers by a crystal-clear pond, sipping chilled mead like some fine young lady…
+0010 [Senior Gladiator] | Haha! Now that's what I call living. Bet you dream of a life like that too, huh?
+0011 [???] | Yes.
+0012 [Senior Gladiator] | ...Jeez. "Yes, yes"… Is that the only word you know? Are you a puppet or something?
+0013 [???] | Yes.
+0014 [Senior Gladiator] | Ugh, fine. Forget it. Go on. A wimp with that empty look like yours would probably just die and get dragged out right away.
+0015 [Alina] | In the heart of Emor stands a theater where the curtains never fall.
+0016 [Alina] | With towering walls as its curtains and yellow sand as its stage. The lavishly dressed audiences sit in the sunlight, while the slaves in chains stand there in a daze, never seeing the light of day.
+0017 [Alina] | People call the Grand Arena "the heart that pumps life into Emor."
+0018 [Alina] | But it is never glory that keeps that heart beating... It is the blood that paints the sand red.
+0019 [Narración] | I was born beneath those high walls, and I inherited my parents' shackles without ever taking a name.
+0020 [Narración] | No one asks a slave's child what they want to be when they grow up. From the moment they are born, their master decides their role and attaches strings to them like a puppet.
+0021 [Narración] | The only choice I was ever allowed to make ... was the weapon to fight with. I chose the sword.
+0022 [Narración] | The arena is run by twin Archons. The elder sister leases out the venue and the slaves, while the younger one sells tickets and hosts the event they market as "gladiator fight"...
+0023 [Narración] | Masters would control the slaves,==W== commanding them to struggle, scream,==W== then fall to please the crowd.
+0024 [Injured Gladiator] | Um... Thank you for going easy on me earlier.
+0025 [???] | Put some honey on your wound. It'll help keep it from festering.
+0026 [Yonon] | R-Really? Oh, I'm Yonon... What's your name?
+0027 [No. 18] | 18.
+0028 [Yonon] | That's your number, right? I have one too—103. But I'm not asking for your number…
+0029 [No. 18] | I don't have a name, nor do I need one.
+0030 [Young Gladiator] | Come on, Yonon. Come here so I can patch you up.
+0031 [Slightly Famous Gladiator] | Yonon, you sure it's safe to talk to that kid? Who knows what she's thinking? You better stay away in case she stabs you in the back...
+0032 [Yonon] | Stab? But she's a kind girl...==W== I don't think she would harm me…
+0033 [Narración] | Gladiators don't have proper names like the audience members do.
+0034 [Alina] | Of course, some gladiators would give themselves names based on their fighting style, hoping the crowd would remember them...
+0035 [Narración] | Even so, I never thought of taking a name for myself. After all, we were objects, the masters' property.
+0036 [Narración] | To a gladiator, a "name" is nothing more than a price tag, something to make you worth more on the market.
+0037 [Narración] | I'd rather hone my swordsmanship than waste time on that.
+0038 [Narración] | Every time I brought down an opponent in the arena, the crowd would clench their fists, raise their thumbs, and urge me to end the show with a finishing blow.
+0039 [Alina] | But ... I wasn't interested in following their orders, let alone killing in their favor.
+0040 [Alina] | So in my bouts, I would cut my opponents' skin open with the tip of my sword, but avoid all the major blood vessels or tendons.
+0041 [Narración] | That way, blood would spray a lot, but no one would lose their life.
+0042 [Alina] | But little did I know... In that arena with no way out, all hope would only lead to more devastating despair...
+0043 [Narración] | One year ago,==W== the Archon of Filanis arrived with a huge batch of magical puppets. That lady with kind heart intended to have them replace the slaves.
+0044 [Narración] | But she did not know. The audience couldn't care less about the skills or showmanship. It was the shedding of blood of the living that they craved.
+0045 [Narración] | To welcome the Archon of Filanis, the twin Archons who run the arena set up a grand fight: a duel between gladiators and magical puppets.
+0046 [Narración] | But it was never a stage to test the puppets' abilities. It was a slaughterhouse for the magical puppets to get rid of the "old puppets" who no longer obeyed their masters religiously.
+0047 [Yonon] | 18, here. This is for you.
+0048 [No. 18] | Yonon? Is this ... a sword?
+0049 [Yonon] | Yeah. We're about to fight the magical puppets, right?
+0050 [Yonon] | Your sword is falling apart so... We put our money together and bought you a new one.
+0051 [No. 18] | For me...? Why?
+0052 [Yonon] | Um... As a thanks for all the help, I guess? Ahaha... If it weren't for you, we'd probably all be long dead by now.
+0053 [Yonon] | A-Anyway, the sword's yours now. Hehe… And good luck with the fight. If anyone is to defeat those puppets, it's you, 18. So we're counting on you.
+0054 [Yonon] | Oh, of course we'll do our best, too. But those puppets probably won't go easy on us like you do, so I'm a little worried...
+0055 [Narración] | I contemplated whether to tell her, that I wasn't fighting for anyone's sake, and that I was only resisting the fate the arena had decided for me.
+0056 [Narración] | But ... the weight of the sword in my hand touched my heart, and words failed me. It was the first gift I had ever received in my life.
+0057 [Narración] | Not a reward, but an actual gift...
+0058 [Narración] | A few days later, the arena's master sent the ones whose lives I had saved, their wounds not yet healed, into the battle against the magical puppets.
+0059 [Narración] | The fight began at the sacred hour of midnight. The great arena lit over a thousand bonfires for the grand spectacle.
+0060 [Narración] | At first, the puppets only moved stiffly, and seemed helpless against our teamwork.
+0061 [Narración] | However, their magically reinforced bodies and insane mimicry made them tougher opponents than we'd expected.
+0062 [Narración] | The puppets soon absorbed our techniques and tactics ... and turned the tide of battle. My allies, already injured, fell one by one.
+0063 [Narración] | Spattered blood hissed harshly in the bonfires... But even that sound was drowned out by the roaring cheers.
+0064 [Narración] | The audience's bloodthirsty eyes at that moment were more terrifying than those puppets.
+0065 [Narración] | Fortunately, what the puppets had copied was my swordsmanship. So my fallen comrades hadn't suffered fatal wounds. At the same time, I saw a chance to win in their mimicry.
+0066 [Narración] | _NOT_IN_LOG_==Off==Puppets that feel no pain... ==A0.8==
+0067 [Narración] | _NOT_IN_LOG_==Off==Let's settle this. ==A0.8==
+0068 [Narración] | _NOT_IN_LOG_==Off== See if your magic will run out... ==A0.8==
+0069 [Narración] | _NOT_IN_LOG_==Off==... before my sword breaks!!==A0.8==
+0070 [Narración] | ==Off==Puppets that feel no pain... Let's settle this. See if your magic will run out before my sword breaks!!
+0071 [Narración] | How I managed to hold out...==W== I no longer remember.
+0072 [Narración] | In the end, as dawn broke, amid cheers loud enough to shake the arena, I collapsed alongside the last remaining puppet to the blood-soaked sand.
+0073 [Alina] | And … when I next awoke, I was in a carriage bound for Filanis.==W== Archon Olympia, the Archon of Filanis, had bought me, set me free, and granted me the rank of Knight.
+0074 [Alina] | Archon Olympia told me she would advance her research into magical puppets that could replace and one day, free all slaves.
+0075 [Narración] | That was also when the name "Alina Colossi" was born into this world.
+0076 [Narración] | To repay my debt to Archon Olympia, I became a Night Watcher of Filanis. And I swore to protect the perfect city she had built—a city with no slaves.
+0077 [Narración] | When I joined the Night Watch, Archon Olympia even paid me ten years' wages in advance... I had lived as a slave and had no idea what to do with money.
+0078 [Narración] | So I returned to Emor with a great sum of gold coins. I wanted to buy the freedom of my wounded companions.
+0079 [Narración] | Just as I had made it through that night and seen the dawn, I wanted my companions to see that light too.
+0080 [Arena Slave Owner] | Yonon? Sorry, never heard that name before.
+0081 [Arena Slave Owner] | ...Oh, wait a minute. I think the previous 103 did go by that name...
+0082 [Alina] | Previous? What do you mean?
+0083 [Arena Slave Owner] | Just what I said. Slaves who die in the Arena get their numbers passed on, right? Everyone who fought the puppets was dead. Naturally, all their numbers got reassigned to new slaves.
+0084 [Alina] | Wh-Don't lie to me...! Those puppets shouldn't have killed anyone!
+0085 [Arena Slave Owner] | Wh-Whoa, Knight lady, please calm down...! I ain't lying to you or nothing, see?
+0086 [Arena Slave Owner] | Most of the fighters in that match were severely wounded anyway, and the arena doesn't feed idlers... Some of them lasted half a day... And the toughest ones a few days longer... That's all.
+0087 [Arena Slave Owner] | Some of 'em only got minor injuries, but... They got thrown right back into the arena, including 103. Used to test the puppets' skills, or so I hear.
+0088 [Arena Slave Owner] | So anyway, right now I can get you a gladiator slave of much finer quality than those. And if you want a memento of that match, I've got the ID tags of two fighters... Heh heh, buy a slave and I'll throw 'em in as a gift.
+0089 [Narración] | The familiar ID tag slipped through my fingers and fell into the pool of blood beneath the arena that never dries.
+0090 [Narración] | ==Off==The magical puppets did take the stage in the arena... But they never saved any slaves.
+0091 [Alina] | I'm sorry... I came back too late...
+0092 [Alina] | I'm sorry... We were supposed to have already won...
+0093 [Alina] | I'm sorry... I couldn't save a single one of you...
+0094 [Narración] | In the waves of deafening cheers from the arena, I wandered aimlessly through the streets of Emor.
+0095 [Narración] | The most popular show now features slaves fighting magical puppets instead of each other. It's just a one-sided massacre, more to the audience's liking.
+0096 [Alina] | And it's all because... I proved in that match that slaves and magical puppets could fight each other...
+0097 [Alina] | I... I stripped everyone of their way out with my own hands...
+0098 [Alina] | ... No, not yet. It's not over yet. It can't be.
+0099 [Narración] | It was then that I remembered the story about the tower that Yonon once mentioned.
+0100 [Yonon] | Hey, 18, did you know?! They say if you go into that tower and make a wish, then any wish will come true!
+0101 [Yonon] | Hmm… "Please don't let me be born a slave ever again in my next life..." Do you think this would work?
+0102 [No. 18] | No use thinking about it. It's only for Senators, Priests, and Saintesses. Gladiators have no place there.
+0103 [Yonon] | I know, I know. A little wishful thinking doesn't hurt. If we ever survive this, maybe one of us would get lucky someday?
+0104 [Yonon] | And if one of us does make it into the tower... They could wish on our behalf! "Please don't let any of us be born a slave in our next lives"!
+0105 [Alina] | If gold coins can't bring you back... I'll offer anything more precious than gold. I'll do whatever it takes.
+0106 [Alina] | Since death has taken you away, I'll go to that tower to make a wish. I'll bring everyone back myself.
+0107 [Alina] | With this sword from you, I swear... I will climb the ranks until I earn the right to enter that tower.
+0108 [Alina] | That blood-soaked sand will not be where your stories end.
+0109 [Alina] | This is how No. 18, a former gladiator,==W== has become Alina, a Night Watcher.
+0110 [Alina] | No. 18 once took up the sword simply to survive.
+0111 [Alina] | But that is no longer the only reason "Alina" wields this sword. I want to see everyone again... To properly apologize.
+0112 [Alina] | To tell them I'm truly sorry for failing them... For not being with them when they were suffering. I'm really ... truly sorry.

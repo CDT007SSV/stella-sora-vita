@@ -1,0 +1,126 @@
+# Capítulo 10 · 6 · The Meaning of the Saintess
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Lulu | Lulu
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_162 | Alina
+N:avg2_941 | Olympia (Puppet)
+N:avg2_942 | Coppelius
+N:avg2_978 | Rovina
+N:avg3_100 | Sylar
+N:avg3_1335 | Filanis Citizen Male
+N:avg3_182 | Elis
+N:avg3_227 | Filanis Elder
+N:avg3_228 | Filanis Citizen (M)
+
+## Texto
+0001 [Intro] | Act Six
+0002 [Intro] | A Saintess' Purpose
+0003 [Intro] | In Alina's insula, you and Elis speak more about this world. This "Nova" doesn't match your understanding of it at all. As for Elis herself, she is a Saintess regarded as a "consumable."
+0004 [Lugar y hora] | 15:00, The Fifth Month 26th, Outside Filanis Island, Rundown Insula
+0005 [Elis] | In Nova, your magic skill dictates your status. And that magic skill is eighty percent talent, twenty percent sweat.
+0006 [Elis] | Basically, your whole life is pretty much mapped out before you're even born. Bloodline beats all.
+0007 [Elis] | Got high magic aptitude? You get to be a noble.==W== Can't cast a spell to save your life, then you're stuck as a commoner, a freedman, or a slave.
+0008 [Tú] | Hmm... So power is the only thing that matters?==W== What if a noble has a kid with zero talent?
+0009 [Elis] | That kid gets demoted to a commoner. A caring parent might set them up for life, but no magic means no title. They can kiss any public office goodbye.
+0010 [Tú] | And if a slave's kid is born with the gift?
+0011 [Elis] | Magic talent like that is rare. The second a kid shows it, a noble adopts the kid and frees the parents. They will no longer be slaves.
+0012 [Elis] | That's assuming they ever get tested,==W== of course. If their luck is rotten, well, they stay slaves.
+0013 [Tú] | Brutal system. But in a twisted way... I guess it's fair.
+0014 [Elis] | The lowest rung of the nobility is the Knight. Historically, that meant magic users who brought their own weapons and horses to fight for the city.
+0015 [Elis] | Nowadays, it's mostly just people with mediocre magic and deep pockets. Well...==W== Except Alina.
+0016 [Elis] | Knights handle the city's public offices. They don't get a salary. They actually have to fund public affairs out of their own pockets.
+0017 [Tú] | Out of their own pockets? You mean ...==W== Alina pays for the entire Night Watcher operation herself? Why would anyone take a thankless job like that?
+0018 [Elis] | Thankless? Please. Where there's power, the gold follows. As for why Alina is dead broke... Your guess is as good as mine.
+0019 [Elis] | A step above Knights are the Priests. Masters of magic, devoted to Goddess Trivia. That's your cover.
+0020 [Elis] | You're technically an Acolyte, not a full Priest yet. But since Acolytes are bound for greatness, everyone treats them like the real deal.
+0021 [Tú] | So I get the special treatment, but without the actual responsibilities of a full Priest. Convenient.
+0022 [Tú] | Did you map all this out on the fly when I woke up?
+0023 [Elis] | Obviously. You don't survive three years on the run without thinking on your feet.
+0024 [Elis] | I mean, I spent most of it hiding in a tower, but I still had to buy groceries.
+0025 [Tú] | What's above a Priest?
+0026 [Elis] | High Priests and Senators. The former are their city's highest authority on communion with the Goddess of Magic. The latter sit on their stone benches in the Novian Senate, dictating the fate of the entire continent.
+0027 [Elis] | Above them are the Archons. They rule the cities and the divine towers, and they write the laws. Alina's Patron is the Archon of Filanis.
+0028 [Tú] | Divine towers... We call the Monoliths gifts from the God of Grace too, but here, they worship a Goddess of Magic...
+0029 [Tú] | Is this just a difference in faith? Or ... a completely different world?
+0030 [Elis] | And at the absolute top, leading the Senate and the people of Nova... The Consuls. They are Demigods.
+0031 [Elis] | There's only a handful of them. They live in total seclusion, blessed with impossibly long lifespans and unprecedented magic.
+0032 [Elis] | They rotate power every year, taking turns at the helm. But they mostly just stick to the existing routine. Nothing really changes.
+0033 [Tú] | So magic is basically a "degree" here. Don't go to a good school, you don't get into a top company. And those noble titles are just corporate ladder tiers.
+0034 [Tú] | Except studying takes actual work, while Magic is a genetic lottery.
+0035 [Tú] | Thanks, Elis.==W== That puts my cover's rank into perspective. I know how to handle these people now.
+0036 [Elis] | You catch on fast. You really are some sheltered noble kid, aren't you?
+0037 [Tú] | Far from it... My hometown has rich and poor, sure, and plenty of fancy titles. We just don't have this rigid nobility system. You are a great teacher.
+0038 [Elis] | Teacher...==W== Hmm. I suppose I have taught you a lot. I'll take it.
+0039 [Elis] | Teacher. Teacher...==W== You know, being called that feels pretty good!
+0040 [Tú] | Well then, your student has two more questions for you.
+0041 [Elis] | Ask away!
+0042 [Tú] | You said magic is eighty percent talent. But you still have to learn spells, right? Does hard work really count for that little?
+0043 [Elis] | Of course. Your talent dictates which spells you can even learn in the first place. You can study as hard as you want, but without the aptitude, you still get a zero.
+0044 [Tú] | W-Wait, seriously?
+0045 [Elis] | Let me break it down. Casting requires magic. Magic comes from our spiritual energy, but everyone's built differently.
+0046 [Elis] | Some naturally convert spiritual energy into magic. Others store massive amounts of it, or control it better. Hit the jackpot with all three, and bam, you're a future High Priest.
+0047 [Elis] | Then there's me...==W== Five minutes in a magic-infused bath and I pass out. My body just rejects it. I could memorize every spell in existence and still wouldn't have the magic to cast them.
+0048 [Tú] | Makes sense. When you were throwing spells around in the forest, you were drawing from this Soul Stone right?
+0049 [Elis] | H-How did you know that?==W== Oh, right. You muttered "Soul Stone" during your bathhouse test...
+0050 [Tú] | Well... That's what we call them back home. Everyone has one. They store magic, and you just tap into it whenever you need a spell.
+0051 [Elis] | Impossible!!! I bled for those experiments for years! This is supposed to be one of a kind!
+0052 [Elis] | And you're telling me your entire hometown is using them?!
+0053 [Elis] | Did I ... just reinvent the wheel?! I was banking on this to make a fortune!
+0054 [Tú] | Ah, hey... Don't let it get to you. Reinventing the wheel still takes genius, right? Plus, nobody in Filanis has one yet.
+0055 [Elis] | Hmm...==W== Fair point! Even if someone in a distant land beat me to the punch, as long as Nova's in the dark, I can still rake in the gold!
+0056 [Tú] | You're still a wanted fugitive. Bit early to map out your business empire, isn't it?
+0057 [Elis] | A girl's gotta plan ahead! Besides, how else am I supposed to fund my escape? Oh, and we're splitting that Filanis compensation money fifty-fifty.
+0058 [Tú] | Thrifty and cautious.==W== She really does act like Iris.
+0059 [Elis] | Hey, hey! Eyes on the teacher! Are you spacing out thinking about some other girl?
+0060 [Elis] | You did the exact same thing in the prisoner cart. Looked right at me and called me someone else's name. Hmph.
+0061 [Tú] | Sorry. It's just...==W== You and Alina look so much like my friends from back home.
+0062 [Tú] | I...==W== I don't even know if I'll ever get to see them again.
+0063 [Elis] | ... I understand how you feel.==W== But please don't treat me as a substitute. Not even in your head. Absolutely not.
+0064 [Elis] | My name is Elis. E-lis.==W== I'm not Iris, nor am I anyone else.
+0065 [Elis] | I know it sounds harsh, but I hate it. Especially...==W== Especially coming from you!
+0066 [Tú] | I'm sorry... That's my fault. I didn't consider your feelings. We're companions. I shouldn't look at you and see someone else.
+0067 [Elis] | Companions? Who said we're companions?!==W== Don't make it sound so buddy-buddy. We're co-conspirators. Accomplices. Fugitives on the same sinking ship.
+0068 [Tú] | Those sound pretty buddy-buddy to me...
+0069 [Tú] | Loud and clear. You're Elis. E-lis. Not Iris.
+0070 [Elis] | Hmph, that's more like it. Since I'm your teacher, I will magnanimously forgive you this once. Now, what's your second question?
+0071 [Tú] | Elis, why didn't you mention Saintesses in that list of nobilities? The one in Filanis seems to carry as much weight as a High Priest.
+0072 [Elis] | Heh. A Saintess's main job is praying to the gods in the tower. They don't belong to the nobility.
+0073 [Tú] | So are they citizens? Freedmen? Or some other transcendent class?
+0074 [Elis] | None of the above.
+0075 [Tú] | Um...==W== They can't be slaves, right?
+0076 [Elis] | Not that either.==W== We Saintesses are just "objects."
+0077 [Tú] | Objects?!
+0078 [Elis] | What does it take to start a fire?
+0079 [Tú] | A spark... And some kindling, like dry branches or grass...
+0080 [Elis] | And when the flames die out, do you bother checking on the cold ashes?
+0081 [Tú] | No, not really...==W== At most I'll check for embers so they don't start a wildfire.
+0082 [Elis] | Heh. We Saintesses are exactly that. Objects you use up and forget about.
+0083 [Elis] | Every Saintess is a "defective product" with magic talent. Take me, for instance. My magic tolerance is terrible. If there's even a little magic in me, I have to release it, or it makes me sick.
+0084 [Elis] | With a body like this, I can memorize spells, but I can never cast them properly. So ...==W== I'm just a defect.
+0085 [Elis] | But even defects have their uses. The big shots raise us with great care. Treat us like noble ladies, teach us magic and history... All so we can march up to the altar in the tower and make our offering to the gods when they snap their fingers.
+0086 [Tú] | Make an offering... You don't mean...
+0087 [Elis] | Sacrificing ourselves to the gods in the tower. We pay with our lives to grant their wishes.
+0088 [Elis] | We're ... just the spark and the fuel for their desires. A rare, expensive "object." Naturally, they keep us safe and hand us a scrap of authority... Right up until they burn us.
+0089 [Tú] | Wh-What are you talking about?! Why would your people wish like that?! That's not how the Monolith works at all! You find a Wishing Box, ready your prayer, picture the Artifact, and just say the words!
+0090 [Elis] | Oh, is that how they wish in your hometown? Sounds a lot kinder.==W== Too bad I wasn't born there. And Nova isn't your home.
+0091 [Tú] | It's wrong. There's something fundamentally messed up with how you make wishes here.
+0092 [Tú] | If someone dragged me into an idiotic ritual like that, I'd run too. I'm so glad you got out!
+0093 [Elis] | Glad...? Do you honestly mean that?==W== Granting wishes ... is a Saintess's job. It's our fate. No one in Nova is supposed to run from it.
+0094 [Tú] | What could matter more than a human life?! Fate...==W== Fate is meant to be broken!
+0095 [Elis] | ... Pfft. Listen to you talk big. "Fate is meant to be broken"...==W== Such arrogance. Need I remind you we're one slip-up away from the executioner's block?
+0096 [Elis] | But... I don't hate that arrogance. Because when I ran from the altar, I wasn't thinking about any of that either. My only thought was: I don't want to die! I don't want to die!
+0097 [Elis] | I guess that makes me pretty arrogant too.==W== You really are special...
+0098 [Tú] | Sorry. I haven't eaten since yesterday, and we've been talking for a while. Does Alina have ... anything to eat around here?
+0099 [Elis] | She does. She left us some homemade breakfast before heading out on patrol.==W== Here, a ham sandwich.
+0100 [Tú] | Breakfast made by Alina...==W== If she cooks anything like Noya, I'm in for a treat.
+0101 [Tú] | I'll gracefully have a bite then.
+0102 [Tú] | Wh... What is this? Did I just bite into a rock?!
+0103 [Elis] | Hahaha. That Night Watcher's cooking is downright lethal. Her bread could deflect arrows.
+0104 [Tú] | Nope. Not Noya. Alina is nothing like Noya at all!
+0105 [Lulu] | ==SEX12== Acolyte! And ...==W== you, the slave. Thank the gods you're both here.
+0106 [Lulu] | Quick, come with me! Captain Alina needs backup! The Fallen Saintess is here!
+0107 [Elis] | The Fallen Saintess?!
