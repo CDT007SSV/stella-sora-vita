@@ -82,7 +82,7 @@ function paint(){
   info.innerHTML=c.full?`<div class="st-row"><span>Estado</span><b>Llena, ya puedes entrar</b></div>`
     :`<div class="st-row"><span>Siguiente punto en</span><b>${Math.floor(c.nextIn/60000)}:${p2(Math.floor(c.nextIn/1000)%60)}</b></div><div class="st-row"><span>Llena en</span><b>${dur(c.fullAt-Date.now())}</b></div><div class="st-row"><span>Se llena</span><b>${hora(c.fullAt)}</b></div>`;
 }
-function tick(){clearInterval(tm);paint();tm=setInterval(()=>{const r=document.getElementById("stamina-root");if(!r||!r.isConnected||!r.closest(".screen.on")){clearInterval(tm);return}paint()},1000)}
+function tick(){clearInterval(tm);paint();sched();tm=setInterval(()=>{const r=document.getElementById("stamina-root");if(!r||!r.isConnected||!r.closest(".screen.on")){clearInterval(tm);return}paint()},1000)}
 window.staminaShow=tick;
 function bar(){
   const b=document.getElementById("stbar");if(!b)return;const s=load(),c=calc(s);

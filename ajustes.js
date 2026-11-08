@@ -106,9 +106,19 @@ document.addEventListener("click",e=>{
   if(e.target.id==="aj-clr"){
     const go=()=>location.reload();
     (async()=>{try{if(window.caches){const ks=await caches.keys();await Promise.all(ks.map(k=>caches.delete(k)))}
-      if(navigator.serviceWorker){const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.map(x=>x.unregister()))}}catch(x){}go()})();
+      if(navigator.serviceWorker){const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.map(x=>x.update().catch(()=>{})))}}catch(x){}go()})();
   }
 });
+/* si el aviso estaba activado pero el telefono perdio la suscripcion, se vuelve a crear sola */
+async function repara(){
+  const cf=window.SSV_PUSH||{};
+  if(ls("ssv_push","0")!=="1"||!cf.worker||!cf.vapid||!("serviceWorker" in navigator)||!("PushManager" in window)||!window.Notification||Notification.permission!=="granted")return;
+  try{const reg=await navigator.serviceWorker.ready;let sub=await reg.pushManager.getSubscription();
+    if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(cf.vapid)});
+    await fetch(cf.worker+"/sub",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(sub.toJSON())});
+    if(window.stSched)window.stSched()}catch(e){}
+}
+setTimeout(repara,2500);
 window.ajShow=render;
 window.ssvPush={on:()=>val("push"),worker:()=>(window.SSV_PUSH||{}).worker||"",msg:()=>MSG,
   enable:async()=>{if(!val("push"))await pushToggle();return val("push")},
