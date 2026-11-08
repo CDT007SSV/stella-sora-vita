@@ -222,14 +222,20 @@ function picker(titulo,items,onPick,opts){
   m.querySelectorAll(".tm-fl").forEach(f=>f.onclick=ev=>{const b=ev.target.closest("[data-v]");if(!b)return;f.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c===b));if(f.dataset.f==="e")fe=b.dataset.v;else fr=+b.dataset.v;pint()});
   m.querySelector("[data-x]").onclick=()=>closeM(m);pint();
 }
+let RK=null;
+fetch("ranking.json").then(r=>r.ok?r.json():null).then(j=>{RK=j&&j.equipos||null}).catch(()=>{});
 const charItems=sl=>{
   const base=chars().map(c=>({n:c.name,el:c.element,r:c.rarity,img:imgC(c),id:c.id,ro:c.role}));
   const ot=T.slots.filter((x,i)=>i!==sl).map(x=>charOf(x.c)).filter(Boolean);if(!ot.length)return base.map(i=>(i.bd=RN[i.ro]||"",i));
+  const on=ot.map(c=>c.name),bst={};
+  if(RK)RK.forEach(t=>{const m=t.s.map(x=>x.n);if(on.every(n=>m.includes(n)))m.forEach(n=>{if(!on.includes(n)&&(bst[n]||0)<t.pct)bst[n]=t.pct})});
   const cn={};ot.forEach(c=>cn[c.element]=(cn[c.element]||0)+1);
   let dom=ot[0].element;for(const k in cn)if(cn[k]>cn[dom])dom=k;
   const mono=cn[dom]>=2||ot.length===1,have=ot.filter(c=>c.element===dom).map(c=>c.role),miss=RO.filter(r=>!have.includes(r));
   base.forEach(i=>{const rol=RN[i.ro]||"";
     if(ot.some(c=>c.id===i.id)){i.sc=0;i.bd="En el equipo";return}
+    const nm=base.find(z=>z===i)&&(charOf(i.id)||{}).name;
+    if(bst[nm]){i.sc=4+bst[nm];i.bd="Del ranking";i.rec=1;return}
     if(!mono){i.sc=0;i.bd=rol;return}
     if(i.el===dom&&miss.includes(i.ro)){i.sc=3;i.bd=rol;i.rec=1}
     else if(i.el===dom){i.sc=2;i.bd=rol+" (repetido)"}
