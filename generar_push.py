@@ -66,6 +66,12 @@ def timers():
 def main():
     if os.environ.get("PRUEBA") == "1":
         return prueba()
+    if os.environ.get("PRUEBA") == "2":
+        worker, admin = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", "")
+        print("Suscritos:", len(http(worker + "/list", admin)))
+        d = http(worker + "/due", admin)
+        print("Timers vencidos sin enviar:", d if not isinstance(d, list) else [(x.get("id", "")[-20:], x.get("at"), x.get("title")) for x in d])
+        return
     todos = items(); ids = [x["id"] for x in todos]
     est = cargar(ESTADO, None)
     if est is None:                       # primera vez: solo marcar
