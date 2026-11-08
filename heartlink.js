@@ -111,8 +111,8 @@ async function vChat(cid,gi){
     ft.querySelector("[data-k=n]").onclick=()=>step();
     ft.querySelector("[data-k=all]").onclick=()=>{while(Q.length&&Q[0].t!=="ch"){add(Q.shift())}run()};
   }
-  /* los primeros mensajes aparecen solos */
-  run();
+  /* el primer mensaje aparece solo */
+  step();
 }
 window.hlShow=function(){const m=decodeURIComponent(location.hash).match(/^#heartlink\/(\d+)(?:\/(\d+))?/);if(m)vChat(+m[1],+(m[2]||0));else vList()};
 const b=document.getElementById("hlbar");if(b)b.onclick=()=>{if(typeof nav==="function")nav("heartlink")};

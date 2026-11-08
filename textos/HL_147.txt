@@ -4,243 +4,243 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Caramel] | Tell me what you wanna hear, and I'll play it for ya!
-A01.0002 [Tú] | Are you... Caramel?
-A01.0003 [Caramel] | Oh! Silly me, I forgot to introduce myself.
-A01.0004 [Caramel] | Yup, that's me!
+A01.0001 [Caramel] | ¡Dime qué quieres escuchar y te lo toco!
+A01.0002 [Tú] | ¿Eres... Caramel?
+A01.0003 [Caramel] | ¡Oh! Qué despistada, olvidé presentarme.
+A01.0004 [Caramel] | ¡Sip, soy yo!
 
 ## Conversación A02
-A02.0001 [Caramel] | ==PLAYER_NAME==!
-A02.0002 [Tú] | What is it?
-A02.0003 [Caramel] | How about a private concert?
-A02.0004 [Opción] | Not right now
-A02.0005 [Opción] | Sure, I'd like that
+A02.0001 [Caramel] | ¡==PLAYER_NAME==!
+A02.0002 [Tú] | ¿Qué pasa?
+A02.0003 [Caramel] | ¿Qué tal un concierto privado?
+A02.0004 [Opción] | Ahorita no
+A02.0005 [Opción] | Claro, me encantaría
 A02.0006 [Caramel] | Aww...
-A02.0007 [Caramel] | Actually... I've got no cash for food.
-A02.0008 [Caramel] | Could you maybe spot me a little? I promise I'll play for you next time!
-A02.0009 [Caramel] | Sweet!
-A02.0010 [Caramel] | Sooo...could I maybe get paid upfront?
-A02.0011 [Caramel] | Sobs, I have no money for food
-A02.0012 [Tú] | Sounds like you're in a real pinch
-A02.0013 [Tú] | How about I just give you some cash?
-A02.0014 [Caramel] | Nope, I have standards as a musician!
-A02.0015 [Caramel] | We have our pride, y'know!
-A02.0016 [Caramel] | So! I'll come play for my dinner right now! Sound good?!
+A02.0007 [Caramel] | En realidad... no tengo dinero para comer.
+A02.0008 [Caramel] | ¿Podrías prestarme un poquito? ¡Prometo tocar para ti la próxima vez!
+A02.0009 [Caramel] | ¡Genial!
+A02.0010 [Caramel] | Entoncesss... ¿podría cobrar por adelantado?
+A02.0011 [Caramel] | Buaa, no tengo dinero para comer
+A02.0012 [Tú] | Parece que estás en un buen aprieto
+A02.0013 [Tú] | ¿Y si te doy un poco de efectivo?
+A02.0014 [Caramel] | ¡Nop, tengo mis estándares como música!
+A02.0015 [Caramel] | ¡Tenemos nuestro orgullo, ¿sabes?!
+A02.0016 [Caramel] | ¡Así que! ¡Voy a tocar para ganarme la cena ahora mismo! ¿Qué dices?
 
 ## Conversación A03
-A03.0001 [Caramel] | Hey ==PLAYER_NAME==! What kinda tunes are you into?
-A03.0002 [Opción] | Popular ones
-A03.0003 [Opción] | Obscure ones
-A03.0004 [Caramel] | Okay, I get it!
-A03.0005 [Caramel] | So that's how you stay connected with the masses!
-A03.0006 [Caramel] | Clever!
-A03.0007 [Caramel] | Okay, I get it!
-A03.0008 [Caramel] | Gotta have that unique taste to be the Boss, right?
-A03.0009 [Caramel] | It all makes sense now!
-A03.0010 [Tú] | It's not that complicated. I just like what I like
-A03.0011 [Caramel] | Wisdom of simplicity! Even cooler!
+A03.0001 [Caramel] | ¡Oye, ==PLAYER_NAME==! ¿Qué tipo de música te gusta?
+A03.0002 [Opción] | La popular
+A03.0003 [Opción] | La poco conocida
+A03.0004 [Caramel] | ¡Ya entiendo!
+A03.0005 [Caramel] | ¡Así es como mantienes el vínculo con las masas!
+A03.0006 [Caramel] | ¡Ingenioso!
+A03.0007 [Caramel] | ¡Ya entiendo!
+A03.0008 [Caramel] | Hay que tener un gusto único para ser el Jefe, ¿verdad?
+A03.0009 [Caramel] | ¡Ahora todo tiene sentido!
+A03.0010 [Tú] | No es tan complicado. Solo me gusta lo que me gusta
+A03.0011 [Caramel] | ¡La sabiduría de la sencillez! ¡Aún más genial!
 
 ## Conversación A04
-A04.0001 [Caramel] | ==PLAYER_NAME==! I invented a new recipe!
-A04.0002 [Caramel] | Bassteamed eggs!
-A04.0003 [Caramel] | Wanna be my taste-tester?
-A04.0004 [Opción] | That sounds kinda spooky
-A04.0005 [Opción] | Sounds like a culinary disaster
-A04.0006 [Caramel] | Hey, I just seasoned 'em in some sick bass grooves while they cook!
-A04.0007 [Tú] | That's...uh...
-A04.0008 [Tú] | Maybe I should just spot you some cash for actual groceries?
-A04.0009 [Caramel] | Whaaat?! My musical cuisine is awesome!
+A04.0001 [Caramel] | ¡==PLAYER_NAME==! ¡Inventé una receta nueva!
+A04.0002 [Caramel] | ¡Huevos al Bajovapor!
+A04.0003 [Caramel] | ¿Quieres probarla primero?
+A04.0004 [Opción] | Suena medio espeluznante
+A04.0005 [Opción] | Suena a desastre culinario
+A04.0006 [Caramel] | ¡Oye, solo los sazono con ritmos de bajo brutales mientras se cocinan!
+A04.0007 [Tú] | Eso es... eh...
+A04.0008 [Tú] | ¿Y si mejor te presto dinero para comprar comida de verdad?
+A04.0009 [Caramel] | ¡¿Quéee?! ¡Mi cocina musical es genial!
 
 ## Conversación A05
-A05.0001 [Caramel] | ==PLAYER_NAME==!
-A05.0002 [Caramel] | You gotta be my producer!
-A05.0003 [Opción] | No way I'm qualified.
-A05.0004 [Opción] | What even is a producer?
-A05.0005 [Caramel] | Don't sell yourself short!
-A05.0006 [Caramel] | You're ==PLAYER_NAME==! You can do anything!
-A05.0007 [Tú] | Pretty sure "music pro" wasn't in the Boss' job description...
-A05.0008 [Caramel] | Wait, really? That's weird
-A05.0009 [Caramel] | A producer is...y'know...uh...the person who...
-A05.0010 [Caramel] | Look! The point is, I heard that once you get a producer
-A05.0011 [Caramel] | the awesome music ideas just start flowing!
-A05.0012 [Tú] | I think you might've misunderstood how that works
-A05.0013 [Caramel] | How do I convince you to be my producer?
-A05.0014 [Tú] | Let me hear some more of your playing first
-A05.0015 [Caramel] | You got it! No problem!
-A05.0016 [Caramel] | Anytime, anywhere!
+A05.0001 [Caramel] | ¡==PLAYER_NAME==!
+A05.0002 [Caramel] | ¡Tienes que ser mi Producer!
+A05.0003 [Opción] | Ni de broma tengo la preparación.
+A05.0004 [Opción] | ¿Qué es un Producer?
+A05.0005 [Caramel] | ¡No te menosprecies!
+A05.0006 [Caramel] | ¡Eres ==PLAYER_NAME==! ¡Puedes hacer lo que sea!
+A05.0007 [Tú] | Casi seguro que «experto en música» no estaba en la descripción del puesto del Jefe...
+A05.0008 [Caramel] | Espera, ¿en serio? Qué raro
+A05.0009 [Caramel] | Un Producer es... ya sabes... eh... la persona que...
+A05.0010 [Caramel] | ¡Mira! ¡La cosa es que escuché que cuando tienes un Producer
+A05.0011 [Caramel] | las ideas musicales geniales empiezan a fluir solas!
+A05.0012 [Tú] | Creo que entendiste mal cómo funciona eso
+A05.0013 [Caramel] | ¿Cómo te convenzo de que seas mi Producer?
+A05.0014 [Tú] | Primero déjame escucharte tocar un poco más
+A05.0015 [Caramel] | ¡Hecho! ¡Sin problema!
+A05.0016 [Caramel] | ¡Cuando y donde quieras!
 
 ## Conversación A06
-A06.0001 [Caramel] | Producer!
-A06.0002 [Tú] | Since when am I your producer...
-A06.0003 [Caramel] | Hehe, you get my music the best. Let's just roll with it!
-A06.0004 [Opción] | If you insist...
-A06.0005 [Opción] | Whatever makes you happy
-A06.0006 [Caramel] | Soooo next time ur hitting up the Monolith, can I tag along?
-A06.0007 [Tú] | Can you fight?
-A06.0008 [Caramel] | No clue
-A06.0009 [Caramel] | BUT! The second I start play my bass, those Stellaroids always book it
-A06.0010 [Tú] | That's actually kinda useful
-A06.0011 [Caramel] | Yeah, it's super handy, but kinda bums me out.
-A06.0012 [Caramel] | Wish they'd be my audience
-A06.0013 [Tú] | Maybe someday you'll win them over
-A06.0014 [Caramel] | That'd be a dream come true
-A06.0015 [Caramel] | Give me more chances to perform!
+A06.0001 [Caramel] | ¡Producer!
+A06.0002 [Tú] | ¿Desde cuándo soy tu Producer...?
+A06.0003 [Caramel] | Jeje, tú eres quien mejor entiende mi música. ¡Sigamos así sin más!
+A06.0004 [Opción] | Si insistes...
+A06.0005 [Opción] | Lo que te haga feliz
+A06.0006 [Caramel] | Entoncesss, la próxima vez que vayas al Monolito, ¿puedo acompañarte?
+A06.0007 [Tú] | ¿Sabes pelear?
+A06.0008 [Caramel] | Ni idea
+A06.0009 [Caramel] | ¡PERO! En cuanto empiezo a tocar mi bajo, ¡esos Stellaroids siempre salen corriendo!
+A06.0010 [Tú] | Eso en realidad es bastante útil
+A06.0011 [Caramel] | Sí, es súper práctico, pero me da un poco de bajón.
+A06.0012 [Caramel] | Ojalá fueran mi público
+A06.0013 [Tú] | Quizá algún día los conquistes
+A06.0014 [Caramel] | Sería un sueño hecho realidad
+A06.0015 [Caramel] | ¡Dame más oportunidades de tocar!
 
 ## Conversación A07
 A07.0001 [Caramel] | Producer...
-A07.0002 [Tú] | What's wrong?
-A07.0003 [Caramel] | Thanks again for everything
-A07.0004 [Caramel] | I feel way more confident playing for people now!
-A07.0005 [Tú] | You always seemed pretty confident to me
-A07.0006 [Caramel] | Pfft, no way! I just get lost in the groove and forget anyone's watching
-A07.0007 [Caramel] | Can we go on another inspiration journey sometime soon?
-A07.0008 [Tú] | Sure thing
-A07.0009 [Caramel] | FOR REAL?! YESSS!
-A07.0010 [Caramel] | On my way right now!
-A07.0011 [Tú] | Whoa there. Do you even know where we're going?
-A07.0012 [Caramel] | Not exactly
+A07.0002 [Tú] | ¿Qué pasa?
+A07.0003 [Caramel] | Gracias otra vez por todo
+A07.0004 [Caramel] | ¡Ahora me siento mucho más segura tocando para la gente!
+A07.0005 [Tú] | A mí siempre me pareciste bastante segura
+A07.0006 [Caramel] | ¡Pff, para nada! Solo me pierdo en el ritmo y me olvido de que alguien me mira
+A07.0007 [Caramel] | ¿Podemos ir a otro viaje de inspiración pronto?
+A07.0008 [Tú] | Claro que sí
+A07.0009 [Caramel] | ¡¿EN SERIO?! ¡SIII!
+A07.0010 [Caramel] | ¡Voy para allá ahora mismo!
+A07.0011 [Tú] | Oye, tranquila. ¿Siquiera sabes adónde vamos?
+A07.0012 [Caramel] | No exactamente
 A07.0013 [Tú] | ...
-A07.0014 [Caramel] | What's wrong, Producer?
-A07.0015 [Tú] | Let's maybe make a plan before running out the door next time
-A07.0016 [Tú] | We've got all the time in the world. That's what producers are for, right?
-A07.0017 [Caramel] | OK! We can make
-A07.0018 [Caramel] | plans
+A07.0014 [Caramel] | ¿Qué pasa, Producer?
+A07.0015 [Tú] | Quizá deberíamos hacer un plan antes de salir corriendo la próxima vez
+A07.0016 [Tú] | Tenemos todo el tiempo del mundo. Para eso están los Producers, ¿no?
+A07.0017 [Caramel] | ¡Vale! Podemos hacer
+A07.0018 [Caramel] | planes
 
 ## Conversación A08
-A08.0001 [Caramel] | Birthday content temporarily blocked
+A08.0001 [Caramel] | Contenido de cumpleaños bloqueado temporalmente
 
 ## Conversación A09
-A09.0001 [Caramel] | I feel it
-A09.0002 [Tú] | Feel what?
-A09.0003 [Caramel] | My bass skills just hit a whole new level!
-A09.0004 [Caramel] | Now even those Stellaroids will stick around for my riffs!
-A09.0005 [Tú] | Not to burst your bubble, but they might just run away faster
-A09.0006 [Caramel] | What? Why would they do that?
-A09.0007 [Caramel] | Is my amp too loud or something?
-A09.0008 [Tú] | Maybe your music is just too mind-blowing...
-A09.0009 [Caramel] | You think so?
-A09.0010 [Caramel] | We should totally test it out
-A09.0011 [Tú] | You can take point this time
-A09.0012 [Tú] | I have faith in you
-A09.0013 [Caramel] | Why do I feel like there's a catch?
+A09.0001 [Caramel] | Lo estoy sintiendo
+A09.0002 [Tú] | ¿Qué cosa?
+A09.0003 [Caramel] | ¡Mis habilidades con el bajo acaban de subir a un nivel totalmente nuevo!
+A09.0004 [Caramel] | ¡Ahora hasta esos Stellaroids se quedarán a escuchar mis riffs!
+A09.0005 [Tú] | No quiero arruinarte la ilusión, pero quizá solo huyan más rápido
+A09.0006 [Caramel] | ¿Qué? ¿Por qué harían eso?
+A09.0007 [Caramel] | ¿Mi amplificador está muy fuerte o qué?
+A09.0008 [Tú] | Quizá tu música es demasiado alucinante...
+A09.0009 [Caramel] | ¿Tú crees?
+A09.0010 [Caramel] | Deberíamos probarlo
+A09.0011 [Tú] | Esta vez puedes ir al frente
+A09.0012 [Tú] | Confío en ti
+A09.0013 [Caramel] | ¿Por qué siento que hay trampa?
 
 ## Conversación A10
-A10.0001 [Caramel] | Amazing track!
-A10.0002 [Caramel] | It's like a whole movie playing in my head right now!
-A10.0003 [Caramel] | Yeah...that performance... I was there
-A10.0004 [Caramel] | Down in the audience, completely mesmerized
-A10.0005 [Tú] | You're really into live shows
-A10.0006 [Caramel] | Gotta study the masters to become one yourself
-A10.0007 [Caramel] | We all level up by learning from each other
-A10.0008 [Tú] | But who was performing?
-A10.0009 [Caramel] | It's all fuzzy...but weirdly familiar at the same time
-A10.0010 [Caramel] | I'm actually tearing up. Been forever since music hit me this hard
-A10.0011 [Caramel] | Don't worry though! It'll come back to me eventually
-A10.0012 [Caramel] | With you helping me out, I'll crack this mystery for sure!
+A10.0001 [Caramel] | ¡Qué tema tan increíble!
+A10.0002 [Caramel] | ¡Es como si estuviera pasando una película entera en mi cabeza ahora mismo!
+A10.0003 [Caramel] | Sí... esa presentación... yo estuve ahí
+A10.0004 [Caramel] | Abajo, entre el público, completamente hipnotizada
+A10.0005 [Tú] | De verdad te gustan los conciertos en vivo
+A10.0006 [Caramel] | Hay que estudiar a los maestros para convertirse en uno
+A10.0007 [Caramel] | Todos subimos de nivel aprendiendo unos de otros
+A10.0008 [Tú] | ¿Pero quién se presentaba?
+A10.0009 [Caramel] | Todo está borroso... pero a la vez raramente familiar
+A10.0010 [Caramel] | En realidad se me están saltando las lágrimas. Hacía siglos que la música no me pegaba tan fuerte
+A10.0011 [Caramel] | ¡Pero no te preocupes! Al final lo recordaré
+A10.0012 [Caramel] | ¡Con tu ayuda, seguro resuelvo este misterio!
 
 ## Conversación B01
-B01.0001 [Caramel] | Omg emergency
-B01.0002 [Caramel] | I'm done for
-B01.0003 [Caramel] | Producer—!
-B01.0004 [Tú] | Whoa, slow down.
-B01.0005 [Tú] | What's going on? Why the panic?
-B01.0006 [Caramel] | My... My bass...
-B01.0007 [Caramel] | Midas is broken—!
-B01.0008 [Tú] | What?!
-B01.0009 [Tú] | Okay, that IS a disaster.
-B01.0010 [Caramel] | Waaaah what do i do
-B01.0011 [Caramel] | Do i find a repair guy?
-B01.0012 [Caramel] | But i'm broke ... like cant-afford-lunch broke...
-B01.0013 [Tú] | Don't panic yet. Just breathe.
-B01.0014 [Tú] | We'll fix her, buy a new one. We can even make a wish at the Monolith...
-B01.0015 [Tú] | I'll do whatever it takes to help.
-B01.0016 [Tú] | That's what I'm here for.
+B01.0001 [Caramel] | Dios mío, emergencia
+B01.0002 [Caramel] | Estoy perdida
+B01.0003 [Caramel] | ¡Producer—!
+B01.0004 [Tú] | Vaya, tranquila.
+B01.0005 [Tú] | ¿Qué está pasando? ¿Por qué el pánico?
+B01.0006 [Caramel] | Mi... mi bajo...
+B01.0007 [Caramel] | ¡Midas está roto—!
+B01.0008 [Tú] | ¡¿Qué?!
+B01.0009 [Tú] | Vale, eso SÍ es un desastre.
+B01.0010 [Caramel] | Buaaa qué hago
+B01.0011 [Caramel] | ¿Busco a alguien que lo repare?
+B01.0012 [Caramel] | Pero estoy en la ruina ... tan en la ruina que no puedo pagar ni el almuerzo...
+B01.0013 [Tú] | Todavía no entres en pánico. Solo respira.
+B01.0014 [Tú] | Lo arreglaremos, o compraremos uno nuevo. Hasta podemos pedirlo como deseo en el Monolito...
+B01.0015 [Tú] | Haré lo que sea para ayudar.
+B01.0016 [Tú] | Para eso estoy aquí.
 B01.0017 [Caramel] | Producer...
-B01.0018 [Caramel] | Ah wait, never mind
-B01.0019 [Tú] | ?
-B01.0020 [Caramel] | Ehe... Turns out i was just passing out from hunger
-B01.0021 [Caramel] | Vision got blurry for a sec. Midas is actually totally fine
-B01.0022 [Caramel] | What a relief lol
-B01.0023 [Tú] | That is NOT a relief!!
-B01.0024 [Tú] | Stay put. I'm coming over right now!
+B01.0018 [Caramel] | Ah, espera, olvídalo
+B01.0019 [Tú] | ¿?
+B01.0020 [Caramel] | Jeje... Resulta que solo me estaba desmayando de hambre
+B01.0021 [Caramel] | Se me nubló la vista un momento. Midas está perfectamente bien
+B01.0022 [Caramel] | Qué alivio jaja
+B01.0023 [Tú] | ¡Eso NO es un alivio!
+B01.0024 [Tú] | ¡Quédate donde estás! ¡Voy para allá ahora mismo!
 
 ## Conversación B02
-B02.0001 [Caramel] | Producer, quick question
-B02.0002 [Caramel] | Do you think I should've debuted in a group instead?
-B02.0003 [Tú] | A little late to be asking that, isn't it?
-B02.0004 [Caramel] | Well, a "band" isn't really supposed to be just one person
-B02.0005 [Tú] | I admit, it is a little unusual.
-B02.0006 [Tú] | Couldn't find anyone to stick with long-term?
-B02.0007 [Caramel] | Hmm...
-B02.0008 [Caramel] | The musicians I've played with were all nice enough
-B02.0009 [Caramel] | But it always felt like something was missing
-B02.0010 [Tú] | I'm sure you'll find the right fit eventually.
-B02.0011 [Tú] | Or honestly? It might not even matter if you don't.
-B02.0012 [Tú] | Because whoever you play with, whatever the instrument
-B02.0013 [Tú] | you always find a way to harmonize perfectly.
-B02.0014 [Caramel] | Thanks for saying that
-B02.0015 [Caramel] | You know, whenever I talk to you, Producer
-B02.0016 [Caramel] | It feels like all my doubts just clear away
+B02.0001 [Caramel] | Producer, una pregunta rápida
+B02.0002 [Caramel] | ¿Crees que debí debutar en un grupo?
+B02.0003 [Tú] | Un poco tarde para preguntarlo, ¿no?
+B02.0004 [Caramel] | Bueno, una «banda» no debería ser de una sola persona
+B02.0005 [Tú] | Admito que es un poco inusual.
+B02.0006 [Tú] | ¿No encontraste a nadie con quien quedarte a largo plazo?
+B02.0007 [Caramel] | Mmm...
+B02.0008 [Caramel] | Los músicos con los que he tocado fueron todos muy amables
+B02.0009 [Caramel] | Pero siempre sentí que faltaba algo
+B02.0010 [Tú] | Seguro que con el tiempo encontrarás al indicado.
+B02.0011 [Tú] | ¿O sinceramente? Quizá ni siquiera importe si no lo encuentras.
+B02.0012 [Tú] | Porque con quien sea que toques, con el instrumento que sea
+B02.0013 [Tú] | siempre encuentras la forma de armonizar a la perfección.
+B02.0014 [Caramel] | Gracias por decir eso
+B02.0015 [Caramel] | Sabes, cada vez que hablo contigo, Producer
+B02.0016 [Caramel] | siento que todas mis dudas se despejan
 
 ## Conversación B03
-B03.0001 [Caramel] | Producer!! Hey!!
-B03.0002 [Caramel] | I've got huge news!
-B03.0003 [Tú] | What's up?
-B03.0004 [Caramel] | I was gonna wait to tell you in person later
-B03.0005 [Caramel] | But never mind, i can't wait
-B03.0006 [Caramel] | I'm seriously too excited
-B03.0007 [Tú] | That excited, huh?
-B03.0008 [Caramel] | I got paid for the gig!
-B03.0009 [Caramel] | So i can finally pay you back
-B03.0010 [Caramel] | for all those meals you covered for me
-B03.0011 [Caramel] | Gonna pay it all off in one go!
-B03.0012 [Tú] | That's great news. But no rush—feel free to just pay back a portion for now.
-B03.0013 [Tú] | Did you make sure to keep enough for your own living expenses?
+B03.0001 [Caramel] | ¡¡Producer!! ¡¡Oye!!
+B03.0002 [Caramel] | ¡Tengo noticias enormes!
+B03.0003 [Tú] | ¿Qué pasa?
+B03.0004 [Caramel] | Iba a esperar para decírtelo en persona más tarde
+B03.0005 [Caramel] | Pero da igual, no puedo esperar
+B03.0006 [Caramel] | De verdad estoy emocionadísima
+B03.0007 [Tú] | ¿Tan emocionada, eh?
+B03.0008 [Caramel] | ¡Me pagaron por el concierto!
+B03.0009 [Caramel] | ¡Así que por fin puedo devolverte el dinero
+B03.0010 [Caramel] | de todas esas comidas que me pagaste!
+B03.0011 [Caramel] | ¡Lo liquidaré todo de una vez!
+B03.0012 [Tú] | Eso es una gran noticia. Pero sin prisa, puedes devolver solo una parte por ahora.
+B03.0013 [Tú] | ¿Te aseguraste de guardar lo suficiente para tus propios gastos?
 B03.0014 [Caramel] | Oh...
-B03.0015 [Caramel] | Thanks for reminding me. Totally forgot about that part
-B03.0016 [Caramel] | I'll tell u the rest when we meet up!
+B03.0015 [Caramel] | Gracias por recordármelo. Se me olvidó por completo esa parte
+B03.0016 [Caramel] | ¡Te cuento el resto cuando nos veamos!
 
 ## Conversación B04
-B04.0001 [Caramel] | Producer, you know a lot about music, right?
-B04.0002 [Opción] | Just a little
-B04.0003 [Opción] | Honestly? Not really
-B04.0004 [Tú] | Just a little.
-B04.0005 [Caramel] | I knew it
-B04.0006 [Caramel] | You never show off. So humble
-B04.0007 [Tú] | Honestly? Not really.
-B04.0008 [Caramel] | Eh? You aren't just being modest?
-B04.0009 [Caramel] | Hmm... I get it
-B04.0010 [Caramel] | That's what people call "talent," right?
-B04.0011 [Tú] | Why the sudden question?
-B04.0012 [Caramel] | Because I noticed something a while ago
-B04.0013 [Caramel] | Producer, you really understand people's hearts
-B04.0014 [Caramel] | Most people just hear the melody
-B04.0015 [Caramel] | But you "see" the story behind it
-B04.0016 [Caramel] | Aaaah, I wish I had a gift like that...
+B04.0001 [Caramel] | Producer, sabes mucho de música, ¿verdad?
+B04.0002 [Opción] | Solo un poco
+B04.0003 [Opción] | ¿Sinceramente? La verdad no
+B04.0004 [Tú] | Solo un poco.
+B04.0005 [Caramel] | Lo sabía
+B04.0006 [Caramel] | Nunca presumes. Qué humildad
+B04.0007 [Tú] | ¿Sinceramente? La verdad no.
+B04.0008 [Caramel] | ¿Eh? ¿No lo dices por modestia?
+B04.0009 [Caramel] | Mmm... Ya entiendo
+B04.0010 [Caramel] | Eso es lo que la gente llama «talento», ¿verdad?
+B04.0011 [Tú] | ¿A qué viene la pregunta de repente?
+B04.0012 [Caramel] | Porque hace un rato noté algo
+B04.0013 [Caramel] | Producer, de verdad entiendes el corazón de la gente
+B04.0014 [Caramel] | La mayoría solo oye la melodía
+B04.0015 [Caramel] | Pero tú «ves» la historia que hay detrás
+B04.0016 [Caramel] | Aaaah, ojalá tuviera un don así...
 
 ## Conversación B05
 B05.0001 [Caramel] | Producer
-B05.0002 [Caramel] | Feeling kinda down right now...
-B05.0003 [Tú] | How come?
-B05.0004 [Tú] | Hungry again?
-B05.0005 [Tú] | I'll send some snacks over.
-B05.0006 [Caramel] | Nooo not that
-B05.0007 [Caramel] | Actually... It's about my songwriting
-B05.0008 [Caramel] | Not feeling inspired lately
-B05.0009 [Caramel] | Nothing i write feels fun anymore...
-B05.0010 [Tú] | Yeah, that's tough.
-B05.0011 [Tú] | Every creator hits a wall eventually.
-B05.0012 [Caramel] | So, Producer...
-B05.0013 [Caramel] | Come out with me right now! Let's go find some inspiration!
+B05.0002 [Caramel] | Me siento medio decaída ahora mismo...
+B05.0003 [Tú] | ¿Por qué?
+B05.0004 [Tú] | ¿Otra vez hambre?
+B05.0005 [Tú] | Te mandaré unos bocadillos.
+B05.0006 [Caramel] | Nooo, no es eso
+B05.0007 [Caramel] | En realidad... es por mi composición
+B05.0008 [Caramel] | Últimamente no me llega la inspiración
+B05.0009 [Caramel] | Nada de lo que escribo se siente divertido ya...
+B05.0010 [Tú] | Sí, eso es difícil.
+B05.0011 [Tú] | Todo creador se topa con un muro tarde o temprano.
+B05.0012 [Caramel] | Entonces, Producer...
+B05.0013 [Caramel] | ¡Sal conmigo ahora mismo! ¡Vamos a buscar inspiración!
 
 ## Conversación B06
-B06.0001 [Caramel] | Producer, big news!
-B06.0002 [Caramel] | I'm gonna be performing on stage for the competition!
-B06.0003 [Tú] | You passed the prelims already?
-B06.0004 [Tú] | Congrats! That's huge.
-B06.0005 [Caramel] | Hehe couldn't have done it without your support
-B06.0006 [Caramel] | You'll stick with me through the whole thing, right?
-B06.0007 [Tú] | Of course. That's my job.
-B06.0008 [Caramel] | Yay!
-B06.0009 [Caramel] | Hope i can make it to the biggest stage someday
-B06.0010 [Caramel] | and have you right there in the front row, listening to me play
+B06.0001 [Caramel] | ¡Producer, grandes noticias!
+B06.0002 [Caramel] | ¡Voy a tocar en el escenario de la competencia!
+B06.0003 [Tú] | ¿Ya pasaste las eliminatorias?
+B06.0004 [Tú] | ¡Felicidades! Eso es enorme.
+B06.0005 [Caramel] | Jeje no lo habría logrado sin tu apoyo
+B06.0006 [Caramel] | Te quedarás conmigo durante todo el proceso, ¿verdad?
+B06.0007 [Tú] | Claro. Ese es mi trabajo.
+B06.0008 [Caramel] | ¡Yupi!
+B06.0009 [Caramel] | Ojalá algún día llegue al escenario más grande
+B06.0010 [Caramel] | y te tenga justo ahí en primera fila, escuchándome tocar

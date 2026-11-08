@@ -3,9 +3,9 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Lively Young Maid | Lively Young Maid
-N:Passerby | Passerby
-N:The Nameless Phantom | The Nameless Phantom
+N:Lively Young Maid | Joven sirvienta animada
+N:Passerby | Transeúnte
+N:The Nameless Phantom | El Fantasma Sin Nombre
 N:avg1_119 | Nanoha
 N:avg1_145 | Otoha
 N:avg3_100 | Sylar
@@ -19,113 +19,113 @@ N:avg3_202 | Isaki
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Memory Recollection
-0002 [Intro] | Petals of Blooming Mirage
-0003 [Intro] | As the breeze dies and the blooms fade, the world awakes to find the floral expanse is but a woven dream.
-0004 [Narración] | Tonight at midnight, I will arrive to claim the Pure White Piece. —The Nameless Phantom
-0005 [Tú] | Is this ...==W== a calling card?==W== "The Pure White Piece"...==W== Is it the Seal of Grace?
-0006 [Tú] | I've never heard of this thief, though.==W== Maybe it's just a prank?==W== But then again, if it isn't...
-0007 [1] | What am I supposed to do?==W== The New Star Guild won't be back from their commission for two days. If the thief visits now, I'm defenseless...
-0008 [1] | Ah, right!==W== I still have that business card. Maybe I'll give Goodwind Homecare a try...
-0009 [Tú] | Where is she?==W== We're supposed to meet right around here.
-0010 [Lively Young Maid] | Sorry to keep you waiting! Goodwind Homecare, at your service!==W== You're ==PLAYER_NAME==, right? The one who requested a bodyguard?
-0011 [Tú] | Huh?==W== Oh...==W== Yeah, that's me. And you are...?
-0012 [Lively Young Maid] | Senpais are swamped right now, so I'm filling in for them!==W== Don't you worry. I'll keep you safe!
-0013 [Tú] | Alright...==W== I'm counting on you.
-0014 [Lively Young Maid] | Leave it to me!==W== By the way, mind if I take a look at the seal before we get to work?
-0015 [Lively Young Maid] | I need to be familiar with the real one, otherwise I might not notice if it's swapped for a fake.
-0016 [Tú] | Fair point.==W== It's right h—
-0017 [Lively Young Maid] | Hehe...==W== You're still such an easy mark, aren't you?
-0018 [Tú] | Wait... That tone.==W== You can't be...?!
-0019 [Lively Young Maid] | You need to keep your guard up.==W== If I were the phantom thief, I'd have swiped that seal ages ago.
-0020 [Tú] | Otoha?!==W== Wh-What are you doing here?
-0021 [Tú] | Your voice doesn't match the face at all! I never would have guessed...==W== Gwah!?
-0022 [Passerby] | S-sorry! I'm in a rush!==W== My apologies—!
-0023 [Tú] | Hey!==W== Watch where you're going, lady.==W== My bad, Otoha...
-0024 [Tú] | Wait, where'd she go?
-0025 [Tú] | She was standing right here...==W== How'd she vanish like that?
-0026 [???] | Hehe...
-0027 [Otoha] | Don't bother looking. That was just a magical clone of me.
-0028 [Tú] | A clone?==W== You mean I've been talking to...?
-0029 [Otoha] | Spot on. That Goodwind maid was nothing more than a magic illusion.==W== What do you think? Isn't it flawless?
-0030 [Tú] | It's impressive,==W== but why waste such high-level magic on me?
-0031 [Otoha] | Isn't it obvious?==W== I wanted to see you all flustered.
-0032 [Tú] | What a total waste of talent!
-0033 [Otoha] | Hmm...==W== A calling card from a phantom thief.
-0034 [Tú] | That's right. I'd like to hire you as a bodyguard, to be safe.
-0035 [Otoha] | Sure.==W== But Boss,==W== doesn't this letter seem off to you?==W== Did it never cross your mind==W== that I might've staged the whole thing?
-0036 [Tú] | I'd be lying if I said the thought never crossed my mind. But you don't have a motive.
-0037 [Otoha] | Who knows?==W== Maybe I only put on this little show because I was just dying to see you, Boss?
-0038 [Tú] | You're too skilled for a clumsy ruse like that. If you wanted to see me, you'd just drop in.
-0039 [Tú] | Even if you were hiding something, you'd probably slip in disguised as someone I trust.==W== If you were playing for keeps, you wouldn't leave a single trace for me to find.
-0040 [Tú] | And you certainly wouldn't have broken character so early.
-0041 [Otoha] | Hehe...==W== So, you even noticed I left those gaps on purpose. That's very insightful.
-0042 [Otoha] | My apologies for the little test.==W== You're right, of course. This thief has nothing to do with me.
-0043 [Otoha] | Now, back to business. Let's get ready for our uninvited guest.
-0044 [Tú] | ... And tie another rope to secure it...==W== Alright, I think this should do it.
-0045 [Tú] | Whew. Setting up even one trap is a total workout. Hope she's alright.
-0046 [1] | Otoha, I'm all done over here. Anything else you need a hand with?
-0047 [Otoha] | Wait, Boss! Don't step there—!
-0048 [1] | Gah!==W== M-My shin!==W== My shiiiiiin—!!
-0049 [Otoha] | Be careful...==W== I've already rigged this whole area. Please, try to stay put.
-0050 [Otoha] | Is your leg alright?
-0051 [Tú] | I'm fine.==W== Sorry for breaking your trap, though...
-0052 [Otoha] | Don't worry about it.==W== It was just a trap—==W==okay, restored.
-0053 [Tú] | W-Wow.==W== You fixed that in a heartbeat. Took me forever just to set one up...
-0054 [Otoha] | Occupational hazard. I've had plenty of practice with my hands.
-0055 [Otoha] | Aside from that shin-buster, I've prepped arrows, boulders, explosives...==W== All sorts of fun—==W==I mean, delightful traps.
-0056 [Tú] | ... Your explanation's terrifying.==W== Glad I triggered a "safer" one.
-0057 [Tú] | But this is a public area. Are you sure turning it into a minefield is a good idea?
-0058 [Otoha] | No worries.==W== I've leaked a rumor about hazardous waste on-site. That'll keep the crowds away until tomorrow.
-0059 [Tú] | ...==W== You think of everything.
-0060 [Otoha] | Hehe. There will be no collateral damage when it comes to a true professional.
-0061 [Otoha] | Well then.==W== That's all for preparations. Let's relax with some tea and treats while we wait for our guest to drop in.
-0062 [Otoha] | Boss...==W== Are you ready?
-0063 [Tú] | Yeah, good to go on my end.
-0064 [Otoha] | That's the spirit. And it's midnight in...==W== Three,==W== two,==W== one—
-0065 [???] | Bwa-ha-ha-ha!
-0066 [The Nameless Phantom] | Behold the rising star among phantom thieves—the Nameless Phantom! True to my calling card, I've come for the Pure White Piece—
-0067 [The Nameless Phantom] | WHAAAAAAAAAAAHHHHH!!!
-0068 [Tú] | O-Ouch...==W== Exactly how many traps are there...?
-0069 [The Nameless Phantom] | I heard that the Boss is weak. Wasn't expecting such a massive "welcome gift"...
-0070 [The Nameless Phantom] | But I'm a phantom thief! I never walk away from a prize! Like the card says, the Seal of Grace is mine!
-0071 [Otoha] | Oh my. Still standing? You're tougher than you look.==W== Please stay back, Boss.
-0072 [The Nameless Phantom] | Dammit... Nobody said the Boss had a bodyguard like this...
-0073 [Otoha] | I'm on the payroll. It's only right that I give my client their money's worth. Hehe...==W== Prepare yourself.
-0074 [The Nameless Phantom] | Huh? That umbrella...==W== W-Wait, is that a weapon!?
-0075 [Otoha] | Sure is. Chic, don't you think?
-0076 [Otoha] | You're barely on your feet...==W== Ready to throw in the towel?
-0077 [The Nameless Phantom] | Forgive me, but I've got people counting on me!!
-0078 [Tú] | Otoha...?!
-0079 [The Nameless Phantom] | Hahaha!! How's that for a gift in return!==W== What'd you say? Taste my magic!
-0080 [The Nameless Phantom] | Alright, I'll just take the Seal—
-0081 [Otoha] | Leaving so soon? We're not finished here.
-0082 [The Nameless Phantom] | No way! I knocked you out!
-0083 [The Nameless Phantom] | C-Clone magic…!?==W== I see. What I just defeated was just a fake!
-0084 [Otoha] | Heh. Took you long enough. Maybe try to aim better this time.
-0085 [The Nameless Phantom] | Dammit, just stand still and get hit!!
-0086 [Otoha] | Your aim is perfect...==W== But you don't have the sharpest eyes.
-0087 [Otoha] | A magical clone only works if there's a real body to mimic.
-0088 [Otoha] | But sometimes ...==W== even I can't tell which one's real.
-0089 [Otoha] | Well... Enough chit-chat.==W== Time to bring the curtain down.
-0090 [Otoha] | Farewell.
-0091 [The Nameless Phantom] | Gwaaaaah!!
-0092 [The Nameless Phantom] | Ugh... I-I'm sorry...==W== I've learned my lesson...
-0093 [Tú] | You look like a regular guy to me.==W== Why play phantom thief and go after the Seal of Grace of all things?
-0094 [The Nameless Phantom] | I... I just happened to overhear those bigwigs talking about it...==W== That the Boss possesses a priceless Seal of Grace.
-0095 [Otoha] | Bigwigs? Who?
-0096 [The Nameless Phantom] | N-No idea.==W== A few days ago, a company in the Gold District held a grand opening ceremony, and I was hired as a cleaner there. That's when I overheard their conversation.
+0001 [Intro] | Evocación del recuerdo
+0002 [Intro] | Pétalos de espejismo en flor
+0003 [Intro] | Cuando la brisa se apaga y las flores se marchitan, el mundo despierta y descubre que la extensión floral no era más que un sueño tejido.
+0004 [Narración] | Esta noche a medianoche llegaré a reclamar la Pieza Blanco Puro. —El Fantasma Sin Nombre
+0005 [Tú] | ¿Esto es ...==W== una tarjeta de aviso?==W== «La Pieza Blanco Puro»...==W== ¿Será el Sello de la Gracia?
+0006 [Tú] | Aunque nunca he oído hablar de este ladrón.==W== ¿Será solo una broma?==W== Pero, si no lo es...
+0007 [1] | ¿Qué se supone que haga?==W== El Gremio de la Nueva Estrella no volverá de su encargo hasta dentro de dos días. Si el ladrón viene ahora, no tengo con qué defenderme...
+0008 [1] | ¡Ah, cierto!==W== Todavía tengo esa tarjeta de presentación. Quizá pruebe con Goodwind Homecare...
+0009 [Tú] | ¿Dónde está?==W== Se supone que nos veríamos por aquí.
+0010 [Lively Young Maid] | ¡Perdón por la espera! ¡Goodwind Homecare, a su servicio!==W== Usted es ==PLAYER_NAME==, ¿verdad? ¿Quien solicitó un guardaespaldas?
+0011 [Tú] | ¿Eh?==W== Oh...==W== Sí, soy yo. ¿Y tú eres...?
+0012 [Lively Young Maid] | ¡Las senpais están desbordadas ahora, así que las estoy reemplazando!==W== No se preocupe. ¡Yo me encargo de su seguridad!
+0013 [Tú] | Está bien...==W== Cuento contigo.
+0014 [Lively Young Maid] | ¡Déjelo en mis manos!==W== Por cierto, ¿le importa si le echo un vistazo al sello antes de ponernos a trabajar?
+0015 [Lively Young Maid] | Necesito conocer el verdadero, o quizá no note si lo cambian por uno falso.
+0016 [Tú] | Buen punto.==W== Está aq—
+0017 [Lively Young Maid] | Jeje...==W== Sigues siendo una presa tan fácil, ¿verdad?
+0018 [Tú] | Espera... Ese tono.==W== ¿¡No serás...!?
+0019 [Lively Young Maid] | Tienes que mantener la guardia en alto.==W== Si yo fuera la ladrona fantasma, ya habría robado ese sello hace tiempo.
+0020 [Tú] | ¿¡Otoha!?==W== ¿Q-qué haces aquí?
+0021 [Tú] | ¡Tu voz no combina nada con tu cara! Nunca lo habría adivinado...==W== ¿¡Gwah!?
+0022 [Passerby] | ¡P-perdón! ¡Tengo prisa!==W== ¡Mis disculpas—!
+0023 [Tú] | ¡Oye!==W== Fíjese por dónde va, señora.==W== Perdón, Otoha...
+0024 [Tú] | Espera, ¿adónde se fue?
+0025 [Tú] | Estaba justo aquí...==W== ¿Cómo desapareció así?
+0026 [???] | Jeje...
+0027 [Otoha] | No te molestes en buscar. Era solo un clon mágico mío.
+0028 [Tú] | ¿Un clon?==W== ¿Quieres decir que he estado hablando con...?
+0029 [Otoha] | Exacto. Esa sirvienta de Goodwind no era más que una ilusión mágica.==W== ¿Qué te parece? ¿No es impecable?
+0030 [Tú] | Es impresionante,==W== pero ¿por qué desperdiciar magia de tan alto nivel conmigo?
+0031 [Otoha] | ¿No es obvio?==W== Quería verte alterarte.
+0032 [Tú] | ¡Qué desperdicio total de talento!
+0033 [Otoha] | Mmm...==W== Una tarjeta de aviso de un ladrón fantasma.
+0034 [Tú] | Así es. Quisiera contratarte como guardaespaldas, por precaución.
+0035 [Otoha] | Claro.==W== Pero Jefe,==W== ¿no te parece extraña esta carta?==W== ¿Nunca se te ocurrió==W== que yo pude haber armado todo esto?
+0036 [Tú] | Mentiría si dijera que nunca se me ocurrió. Pero no tienes motivo.
+0037 [Otoha] | ¿Quién sabe?==W== ¿Quizá solo monté este pequeño show porque me moría de ganas de verte, Jefe?
+0038 [Tú] | Eres demasiado hábil para una treta tan torpe. Si quisieras verme, simplemente aparecerías.
+0039 [Tú] | Incluso si ocultaras algo, probablemente te colarías disfrazada de alguien de mi confianza.==W== Si jugaras en serio, no dejarías ni un solo rastro para que lo encuentre.
+0040 [Tú] | Y desde luego no habrías roto el personaje tan pronto.
+0041 [Otoha] | Jeje...==W== Así que hasta notaste que dejé esos huecos a propósito. Qué perspicaz.
+0042 [Otoha] | Mis disculpas por la pequeña prueba.==W== Tienes razón, por supuesto. Este ladrón no tiene nada que ver conmigo.
+0043 [Otoha] | Ahora, a lo nuestro. Preparémonos para nuestro invitado no invitado.
+0044 [Tú] | ... Y ato otra cuerda para asegurarlo...==W== Bien, creo que con esto bastará.
+0045 [Tú] | Uf. Armar incluso una sola trampa es todo un ejercicio. Espero que ella esté bien.
+0046 [1] | Otoha, ya terminé por aquí. ¿Necesitas ayuda con algo más?
+0047 [Otoha] | ¡Espera, Jefe! ¡No pises ahí—!
+0048 [1] | ¡Gah!==W== ¡M-mi espinilla!==W== ¡Mi espiniiiilla—!!
+0049 [Otoha] | Ten cuidado...==W== Ya preparé toda esta zona. Por favor, trata de no moverte de aquí.
+0050 [Otoha] | ¿Te encuentras bien de la pierna?
+0051 [Tú] | Estoy bien.==W== Perdón por romper tu trampa, eso sí...
+0052 [Otoha] | No te preocupes.==W== Era solo una trampa—==W==listo, restaurada.
+0053 [Tú] | ¡G-guau!==W== La arreglaste en un abrir y cerrar de ojos. A mí me costó una eternidad armar una...
+0054 [Otoha] | Gajes del oficio. He tenido mucha práctica con las manos.
+0055 [Otoha] | Aparte de ese rompe-espinillas, he preparado flechas, rocas, explosivos...==W== Toda clase de trampas divertidas—==W==digo, encantadoras.
+0056 [Tú] | ... Tu explicación da miedo.==W== Qué bueno que activé una «más segura».
+0057 [Tú] | Pero esta es un área pública. ¿Seguro que convertirla en un campo minado es buena idea?
+0058 [Otoha] | Descuida.==W== Filtré un rumor sobre residuos peligrosos en el lugar. Eso mantendrá alejada a la gente hasta mañana.
+0059 [Tú] | ...==W== Piensas en todo.
+0060 [Otoha] | Jeje. No habrá daños colaterales con una verdadera profesional.
+0061 [Otoha] | Bueno.==W== Eso es todo para los preparativos. Relajémonos con té y bocadillos mientras esperamos que nuestro invitado se presente.
+0062 [Otoha] | Jefe...==W== ¿Todo listo de tu parte?
+0063 [Tú] | Sí, por mi parte todo listo.
+0064 [Otoha] | Ese es el espíritu. Y faltan para la medianoche...==W== Tres,==W== dos,==W== uno—
+0065 [???] | ¡Bwa-ja-ja-ja!
+0066 [The Nameless Phantom] | ¡Contemplen a la estrella emergente de los ladrones fantasma: el Fantasma Sin Nombre! Fiel a mi tarjeta de aviso, he venido por la Pieza Blanco Puro—
+0067 [The Nameless Phantom] | ¡¡¡WAAAAAAAAAAAHHHHH!!!
+0068 [Tú] | A-ay...==W== ¿Exactamente cuántas trampas hay...?
+0069 [The Nameless Phantom] | Oí que el Jefe es débil. No esperaba un «regalo de bienvenida» tan enorme...
+0070 [The Nameless Phantom] | ¡Pero soy un ladrón fantasma! ¡Nunca me voy sin mi botín! ¡Como dice la tarjeta, el Sello de la Gracia es mío!
+0071 [Otoha] | Oh, vaya. ¿Sigues en pie? Eres más duro de lo que pareces.==W== Por favor, quédate atrás, Jefe.
+0072 [The Nameless Phantom] | Maldición... Nadie dijo que el Jefe tuviera un guardaespaldas así...
+0073 [Otoha] | Estoy en la nómina. Lo correcto es que mi cliente reciba lo que paga. Jeje...==W== Prepárate.
+0074 [The Nameless Phantom] | ¿Eh? Esa sombrilla...==W== ¡E-espera, es un arma!?
+0075 [Otoha] | Así es. Elegante, ¿no crees?
+0076 [Otoha] | Apenas te sostienes en pie...==W== ¿Listo para tirar la toalla?
+0077 [The Nameless Phantom] | ¡Perdóname, pero hay gente que cuenta conmigo!!
+0078 [Tú] | ¿¡Otoha...!?
+0079 [The Nameless Phantom] | ¡¡Jajaja!! ¡Qué tal ese regalo a cambio!==W== ¿Qué dijiste? ¡Prueba mi magia!
+0080 [The Nameless Phantom] | Muy bien, me llevaré el Sello—
+0081 [Otoha] | ¿Te vas tan pronto? No hemos terminado aquí.
+0082 [The Nameless Phantom] | ¡Imposible! ¡Te dejé fuera de combate!
+0083 [The Nameless Phantom] | ¡¿M-magia de clones…!?==W== Ya veo. ¡Lo que acabo de derrotar era solo una copia!
+0084 [Otoha] | Je. Tardaste bastante. Quizá esta vez intenta apuntar mejor.
+0085 [The Nameless Phantom] | ¡Maldición, solo quédate quieta y recibe el golpe!!
+0086 [Otoha] | Tu puntería es perfecta...==W== Pero no tienes la vista más aguda.
+0087 [Otoha] | Un clon mágico solo funciona si hay un cuerpo real que imitar.
+0088 [Otoha] | Pero a veces ...==W== ni yo misma sé cuál es el verdadero.
+0089 [Otoha] | Bueno... Basta de charla.==W== Es hora de bajar el telón.
+0090 [Otoha] | Adiós.
+0091 [The Nameless Phantom] | ¡¡Gwaaaaah!!
+0092 [The Nameless Phantom] | Ugh... L-lo siento...==W== Aprendí la lección...
+0093 [Tú] | Me pareces un tipo normal.==W== ¿Por qué hacerte el ladrón fantasma e ir tras el Sello de la Gracia, justo eso?
+0094 [The Nameless Phantom] | Yo... Yo solo escuché por casualidad a esos peces gordos hablar de ello...==W== Que el Jefe posee un Sello de la Gracia de valor incalculable.
+0095 [Otoha] | ¿Peces gordos? ¿Quiénes?
+0096 [The Nameless Phantom] | N-ni idea.==W== Hace unos días, una empresa del Distrito de Oro celebró una gran ceremonia de inauguración y me contrataron ahí como limpiador. Entonces oí su conversación.
 0097 [Tú] | ...
-0098 [Otoha] | Boss, looks like you'll have to be more careful from now on.==W== Mine are not the only eyes watching you in the shadows. Hehe.
-0099 [Tú] | Yeah, I'll remember that.==W== By the way, what's with this phantom thief identity?
-0100 [The Nameless Phantom] | Don't you think ...==W== it's cool?
-0101 [Otoha] | Call yourself what you want. You're still just a petty thief at the end of the day.
-0102 [The Nameless Phantom] | Ouch...==W== I guess so...
-0103 [Otoha] | If you're serious about making money, get an honest job.==W== Here. Take this card.
-0104 [Otoha] | An acquaintance of mine runs this workshop.==W== With your knack for magic, the pay should be decent.
-0105 [The Nameless Phantom] | Th-Thank you so much!==W== I'll never forget your kindness!
-0106 [Tú] | Phew.==W== Glad that's finally over.==W== Thanks, Otoha. I couldn't have kept the Seal of Grace safe without your help.
-0107 [Otoha] | Hehe, I could hardly refuse you, Boss.==W== Besides, having you owe me a favor is a nice bonus.
-0108 [Tú] | Why does it sound like bad news to me?
-0109 [Tú] | By the way... Is this the real you? Or am I still talking to a clone?
-0110 [Otoha] | Hehe, isn't it obvious?==W== I'm the real deal—the one and only~
+0098 [Otoha] | Jefe, parece que tendrás que tener más cuidado de ahora en adelante.==W== No soy la única que te vigila desde las sombras. Jeje.
+0099 [Tú] | Sí, lo tendré presente.==W== Por cierto, ¿qué es eso de la identidad de ladrón fantasma?
+0100 [The Nameless Phantom] | ¿No crees ...==W== que es genial?
+0101 [Otoha] | Llámate como quieras. Al final del día sigues siendo un simple ladrón.
+0102 [The Nameless Phantom] | Auch...==W== Supongo que sí...
+0103 [Otoha] | Si de verdad quieres ganar dinero, consigue un trabajo honesto.==W== Toma. Quédate con esta tarjeta.
+0104 [Otoha] | Un conocido mío dirige este taller.==W== Con tu talento para la magia, la paga debería ser decente.
+0105 [The Nameless Phantom] | ¡M-muchas gracias!==W== ¡Nunca olvidaré tu bondad!
+0106 [Tú] | Uf.==W== Qué bueno que por fin terminó todo.==W== Gracias, Otoha. No habría podido mantener a salvo el Sello de la Gracia sin tu ayuda.
+0107 [Otoha] | Jeje, difícilmente podría negarme a ti, Jefe.==W== Además, que me debas un favor es un buen extra.
+0108 [Tú] | ¿Por qué me suena a mala noticia?
+0109 [Tú] | Por cierto... ¿Eres la verdadera tú? ¿O sigo hablando con un clon?
+0110 [Otoha] | Jeje, ¿no es obvio?==W== Soy la de verdad, la única e inigualable~

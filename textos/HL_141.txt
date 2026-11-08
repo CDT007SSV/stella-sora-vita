@@ -4,291 +4,291 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Chixia] | Oh, hi!
-A01.0002 [Chixia] | Should be good now, right?
-A01.0003 [Chixia] | Hit me up anytime for commissions or just the latest tea!
-A01.0004 [Chixia] | I'm out in the wilds a lot
-A01.0005 [Chixia] | So if I don't text back right away, signal's probably trash
-A01.0006 [Chixia] | I'd mean no offence...
-A01.0007 [Tú] | Sure thing
+A01.0001 [Chixia] | ¡Ah, hola!
+A01.0002 [Chixia] | Ya debería funcionar bien, ¿no?
+A01.0003 [Chixia] | ¡Escríbeme cuando quieras para encargos o para los últimos chismes!
+A01.0004 [Chixia] | Ando mucho por zonas salvajes
+A01.0005 [Chixia] | Así que si no te respondo enseguida, seguro la señal está pésima
+A01.0006 [Chixia] | Sin mala intención...
+A01.0007 [Tú] | Claro
 
 ## Conversación A02
-A02.0001 [Chixia] | Where u at?
-A02.0002 [Opción] | Me? In the Artifact shop in Emor
-A02.0003 [Opción] | Right now? In Philae
-A02.0004 [Opción] | Just got out of the Monolith
-A02.0005 [Chixia] | Where u at?
-A02.0006 [Chixia] | Where u at?
-A02.0007 [Chixia] | Where u at?
-A02.0008 [Tú] | ??? Chixia?
-A02.0009 [Chixia] | Where u at?
-A02.0010 [Chixia] | Where u at?
-A02.0011 [Chixia] | Where u at?
-A02.0012 [Chixia] | Where u at?
-A02.0013 [Chixia] | Where u at?
-A02.0014 [Tú] | What's going on??
-A02.0015 [Chixia] | Where u at?
-A02.0016 [Chixia] | Where u at?
-A02.0017 [Chixia] | What? Why did it send so many times??
-A02.0018 [Tú] | ????
-A02.0019 [Chixia] | Ahhh so sorry ==PLAYER_NAME==, I pocket texted you
-A02.0020 [Tú] | Scared me there
+A02.0001 [Chixia] | ¿Dónde andas?
+A02.0002 [Opción] | ¿Yo? En la tienda de Artefactos de Emor
+A02.0003 [Opción] | ¿Ahorita? En Philae
+A02.0004 [Opción] | Acabo de salir del Monolito
+A02.0005 [Chixia] | ¿Dónde andas?
+A02.0006 [Chixia] | ¿Dónde andas?
+A02.0007 [Chixia] | ¿Dónde andas?
+A02.0008 [Tú] | ¿¿¿Chixia???
+A02.0009 [Chixia] | ¿Dónde andas?
+A02.0010 [Chixia] | ¿Dónde andas?
+A02.0011 [Chixia] | ¿Dónde andas?
+A02.0012 [Chixia] | ¿Dónde andas?
+A02.0013 [Chixia] | ¿Dónde andas?
+A02.0014 [Tú] | ¿¿Qué está pasando??
+A02.0015 [Chixia] | ¿Dónde andas?
+A02.0016 [Chixia] | ¿Dónde andas?
+A02.0017 [Chixia] | ¿Qué? ¿¿Por qué se envió tantas veces??
+A02.0018 [Tú] | ¿¿¿¿????
+A02.0019 [Chixia] | Ahhh perdón, ==PLAYER_NAME==, te mandé un mensaje desde el bolsillo
+A02.0020 [Tú] | Me diste un susto
 
 ## Conversación A03
 A03.0001 [Chixia] | ==PLAYER_NAME==
-A03.0002 [Chixia] | You're in Emor lately right? right? right?
-A03.0003 [Tú] | Yes? What's up?
-A03.0004 [Chixia] | I'm in Emor too!
-A03.0005 [Chixia] | Let's grab some food!
-A03.0006 [Chixia] | Fenghuang Diner on the east side of commercial street at noon
-A03.0007 [Chixia] | Be there or be square!
-A03.0008 [Tú] | Hey! Don't just decide stuff for me!
-A03.0009 [Chixia] | Too late, no backsies! See ya there!
+A03.0002 [Chixia] | Andas en Emor últimamente, ¿verdad? ¿verdad? ¿verdad?
+A03.0003 [Tú] | ¿Sí? ¿Qué pasa?
+A03.0004 [Chixia] | ¡Yo también estoy en Emor!
+A03.0005 [Chixia] | ¡Vamos a comer algo!
+A03.0006 [Chixia] | En el Comedor Fenghuang, en el lado este de la calle comercial, al mediodía
+A03.0007 [Chixia] | ¡Nos vemos ahí, sin falta!
+A03.0008 [Tú] | ¡Oye! ¡No decidas las cosas por mí!
+A03.0009 [Chixia] | ¡Muy tarde, no hay vuelta atrás! ¡Nos vemos!
 
 ## Conversación A04
-A04.0001 [Chixia] | Found a movie in the Monolith today
-A04.0002 [Chixia] | The Haunting of Orpheus
-A04.0003 [Opción] | Sounds kinda spooky?
-A04.0004 [Opción] | Oh yeah, I've seen that one!
-A04.0005 [Chixia] | W-well, it's not that spooky
-A04.0006 [Tú] | Kinda boring tbh
-A04.0007 [Chixia] | I
-A04.0008 [Chixia] | I totally agree!!
-A04.0009 [Chixia] | Feel like my training's really paying off lately!
-A04.0010 [Tú] | Training?
-A04.0011 [Chixia] | Hahahaha
-A04.0012 [Chixia] | Nothing! Forget I said anything!
-A04.0013 [Chixia] | Oh btw, wanna come check out the Monolith? Found some other cool stuff too
-A04.0014 [Tú] | Right now...?
-A04.0015 [Chixia] | You'll come, right?! C'mon! I'll be waiting!
-A04.0016 [Tú] | ???
-A04.0017 [Tú] | Lemme guess...you're too scared to come back alone again, huh?
-A04.0018 [Chixia] | UGH! Shut up!
-A04.0019 [Tú] | Alright. Hang tight, I'm on my way.
+A04.0001 [Chixia] | Hoy encontré una película en el Monolito
+A04.0002 [Chixia] | «El embrujo de Orfeo»
+A04.0003 [Opción] | ¿Suena medio espeluznante?
+A04.0004 [Opción] | ¡Ah, sí, esa ya la vi!
+A04.0005 [Chixia] | N-no, no es tan espeluznante
+A04.0006 [Tú] | Qué aburrida, la verdad
+A04.0007 [Chixia] | Yo
+A04.0008 [Chixia] | ¡¡Estoy totalmente de acuerdo!!
+A04.0009 [Chixia] | ¡Siento que mi entrenamiento está dando frutos últimamente!
+A04.0010 [Tú] | ¿Entrenamiento?
+A04.0011 [Chixia] | Jajajaja
+A04.0012 [Chixia] | ¡Nada! ¡Olvida lo que dije!
+A04.0013 [Chixia] | Ah, por cierto, ¿quieres venir a echar un vistazo al Monolito? También encontré otras cosas geniales
+A04.0014 [Tú] | ¿Ahorita...?
+A04.0015 [Chixia] | ¡Vas a venir, ¿verdad?! ¡Anda! ¡Te espero!
+A04.0016 [Tú] | ¿¿¿???
+A04.0017 [Tú] | A ver si adivino... te da miedo volver sola otra vez, ¿verdad?
+A04.0018 [Chixia] | ¡UGH! ¡Cállate!
+A04.0019 [Tú] | Está bien. Aguanta, ya voy para allá.
 
 ## Conversación A05
-A05.0001 [Chixia] | I'M SO DEAD
-A05.0002 [Chixia] | ==PLAYER_NAME==, SAVE ME PLZ
-A05.0003 [Opción] | ????
-A05.0004 [Tú] | I mighta kinda accidentally
-A05.0005 [Chixia] | set Master's sacred scripture on fire...
-A05.0006 [Tú] | So that means...
-A05.0007 [Tú] | The scripture's only half burnt, but the whole study is soaked...
-A05.0008 [Opción] | No saving that. Go confess to Master
-A05.0009 [Opción] | Pretend you got possessed by a ghost
-A05.0010 [Chixia] | Are you kidding me??? That would never work!
-A05.0011 [Chixia] | Faking being possessed in front of a Xuan Shi? How stupid do you think I am?!
-A05.0012 [Tú] | Okay okay, yeah, you're screwed. Go confess then.
-A05.0013 [Chixia] | Guess there's no other way...
-A05.0014 [Chixia] | Here comes another lecture...
+A05.0001 [Chixia] | ESTOY MUERTÍSIMA
+A05.0002 [Chixia] | ==PLAYER_NAME==, SÁLVAME PORFA
+A05.0003 [Opción] | ¿¿¿¿????
+A05.0004 [Tú] | Creo que sin querer, más o menos
+A05.0005 [Chixia] | le prendí fuego a la escritura sagrada del Maestro...
+A05.0006 [Tú] | Entonces eso significa...
+A05.0007 [Tú] | La escritura solo se quemó a medias, pero todo el estudio quedó empapado...
+A05.0008 [Opción] | Eso ya no tiene arreglo. Ve a confesárselo al Maestro
+A05.0009 [Opción] | Finge que te poseyó un fantasma
+A05.0010 [Chixia] | ¿¿¿Estás bromeando??? ¡Eso jamás funcionaría!
+A05.0011 [Chixia] | ¿Fingir posesión frente a un Xuan Shi? ¡¿Qué tan tonta crees que soy?!
+A05.0012 [Tú] | Vale, vale, sí, estás perdida. Ve a confesar entonces.
+A05.0013 [Chixia] | Supongo que no hay otra opción...
+A05.0014 [Chixia] | Ya viene otro sermón...
 
 ## Conversación A06
-A06.0001 [Chixia] | I AM A GENIUS
-A06.0002 [Chixia] | Check it! Another SUPER DUPER AWESOME fire talisman by me!
-A06.0003 [Tú] | Uhhh...
-A06.0004 [Opción] | Is that...a dog?
-A06.0005 [Opción] | Is that...a pig?
-A06.0006 [Chixia] | Where do you even see a dog in that?!!!
-A06.0007 [Chixia] | Where do you even see a pig in that?!!!
-A06.0008 [Chixia] | It's a DRAGON! A dragon head!
-A06.0009 [Chixia] | Do you have any appreciation for abstract artistic expression??
+A06.0001 [Chixia] | SOY UNA GENIA
+A06.0002 [Chixia] | ¡Mira esto! ¡Otro talismán de fuego SUPER MEGA GENIAL hecho por mí!
+A06.0003 [Tú] | Eeeh...
+A06.0004 [Opción] | ¿Eso es... un perro?
+A06.0005 [Opción] | ¿Eso es... un cerdo?
+A06.0006 [Chixia] | ¡¡¡¿¿Dónde ves un perro ahí??!!!
+A06.0007 [Chixia] | ¡¡¡¿¿Dónde ves un cerdo ahí??!!!
+A06.0008 [Chixia] | ¡Es un DRAGÓN! ¡Una cabeza de dragón!
+A06.0009 [Chixia] | ¿¿No tienes aprecio por la expresión artística abstracta??
 A06.0010 [Tú] | ...
-A06.0011 [Tú] | Can't say I do. It's definitely...abstract
-A06.0012 [Chixia] | Anyway, it's a super duper powerful fire talisman!
-A06.0013 [Chixia] | Next time you're around, I'll demo it for ya
+A06.0011 [Tú] | Pues no mucho. Definitivamente es... abstracto
+A06.0012 [Chixia] | ¡En fin, es un talismán de fuego súper mega poderoso!
+A06.0013 [Chixia] | La próxima vez que andes por aquí, te lo demuestro
 
 ## Conversación A07
-A07.0001 [Chixia] | Something's been bothering me
-A07.0002 [Tú] | What is it?
-A07.0003 [Chixia] | I just feel like
-A07.0004 [Chixia] | you don't really care about me
-A07.0005 [Tú] | Whoa! Don't get the wrong idea!
-A07.0006 [Chixia] | being scared of the dark and ghosts
-A07.0007 [Chixia] | ?
-A07.0008 [Chixia] | Wrong idea about what?
-A07.0009 [Tú] | Uhhh...
-A07.0010 [Tú] | I meant, yeah, of course. So what if you're scared of ghosts? It's no big deal.
-A07.0011 [Tú] | Yeah, that's it.
-A07.0012 [Chixia] | But don't you think it's kinda weird?
-A07.0013 [Chixia] | I'm a Xuan Shi, yet I jump at shadows...
-A07.0014 [Tú] | Nah, everyone's got weakness.
-A07.0015 [Tú] | It's not weird at all.
-A07.0016 [Chixia] | Really...
-A07.0017 [Chixia] | Anyway! I wanna hit the Monolith next week. You'll come with me, right?
-A07.0018 [Tú] | Sure. I don't have anything planned next week
-A07.0019 [Chixia] | Awesome! It's a date then! Be there or be square
+A07.0001 [Chixia] | Algo me ha estado molestando
+A07.0002 [Tú] | ¿Qué es?
+A07.0003 [Chixia] | Es que siento que
+A07.0004 [Chixia] | no te importo de verdad
+A07.0005 [Tú] | ¡Uy! ¡No te lo tomes a mal!
+A07.0006 [Chixia] | por tenerle miedo a la oscuridad y a los fantasmas
+A07.0007 [Chixia] | ¿?
+A07.0008 [Chixia] | ¿Que no me lo tome a mal, qué?
+A07.0009 [Tú] | Eeeh...
+A07.0010 [Tú] | Quise decir, sí, claro. ¿Y qué si le tienes miedo a los fantasmas? No es para tanto.
+A07.0011 [Tú] | Sí, eso es.
+A07.0012 [Chixia] | ¿Pero no crees que es medio raro?
+A07.0013 [Chixia] | Soy una Xuan Shi y aun así me sobresalto con las sombras...
+A07.0014 [Tú] | Nah, todos tenemos puntos débiles.
+A07.0015 [Tú] | No es raro en absoluto.
+A07.0016 [Chixia] | En serio...
+A07.0017 [Chixia] | ¡En fin! Quiero ir al Monolito la semana que viene. Vienes conmigo, ¿verdad?
+A07.0018 [Tú] | Claro. No tengo nada planeado la semana que viene
+A07.0019 [Chixia] | ¡Genial! ¡Es una cita, entonces! Nos vemos ahí, sin falta
 
 ## Conversación A08
-A08.0001 [Chixia] | Ugh, there was something I needed to remember...
-A08.0002 [Chixia] | I swear I was thinking about it right before I crashed last night, but now I can't remember it at all!
-A08.0003 [Opción] | Isn't today your birthday? Happy B-day!
-A08.0004 [Opción] | Okay, lemme guess
-A08.0005 [Opción] | You said yesterday you were getting a cake
-A08.0006 [Chixia] | Huh?
-A08.0007 [Chixia] | AAAAAH RIGHT IT'S MY BIRTHDAY! I gotta go get cake!
-A08.0008 [Tú] | Uh-oh! Looks like someone overslept
-A08.0009 [Tú] | That bakery sells out super fast
-A08.0010 [Tú] | Today's your birthday, right?
-A08.0011 [Tú] | Happy birthday!
-A08.0012 [Chixia] | That's not what I...
-A08.0013 [Chixia] | Wait, is today my birthday?
-A08.0014 [Chixia] | Seriously?? Does that mean I need to get a cake?
-A08.0015 [Chixia] | Master says you have to eat cake on your birthday to grow taller!
-A08.0016 [Tú] | Isn't today your birthday? Happy B-day!
-A08.0017 [Chixia] | AAAAAH THE CAKE!!!!
-A08.0018 [Chixia] | Oh no... That place only makes a few each day...
-A08.0019 [Chixia] | I'm not gonna get one this year...
-A08.0020 [Tú] | Don't be so sure about that
-A08.0021 [Chixia] | ???
-A08.0022 [Tú] | Stood in line for you bright and early
-A08.0023 [Tú] | And I had the baker draw you on it!
-A08.0024 [Tú] | You're welcome ;)
-A08.0025 [Chixia] | HUUUUUH?!!!
-A08.0026 [Chixia] | BUT WHY AM I BREATHING FIRE?!!! I DO NOT BREATHE FIRE!!
-A08.0027 [Tú] | Soooo you still gonna eat it or...
+A08.0001 [Chixia] | Ugh, había algo que tenía que recordar...
+A08.0002 [Chixia] | Juro que lo estaba pensando justo antes de quedarme dormida anoche, ¡pero ahora no me acuerdo de nada!
+A08.0003 [Opción] | ¿No es hoy tu cumpleaños? ¡Feliz cumple!
+A08.0004 [Opción] | A ver, déjame adivinar
+A08.0005 [Opción] | Ayer dijiste que ibas a comprar un pastel
+A08.0006 [Chixia] | ¿Eh?
+A08.0007 [Chixia] | ¡¡¡AAAAAH CIERTO, ES MI CUMPLEAÑOS!!! ¡Tengo que ir por el pastel!
+A08.0008 [Tú] | ¡Uh-oh! Parece que alguien se quedó dormida
+A08.0009 [Tú] | Esa pastelería se agota súper rápido
+A08.0010 [Tú] | Hoy es tu cumpleaños, ¿verdad?
+A08.0011 [Tú] | ¡Feliz cumpleaños!
+A08.0012 [Chixia] | Eso no es lo que yo...
+A08.0013 [Chixia] | Espera, ¿hoy es mi cumpleaños?
+A08.0014 [Chixia] | ¿¿En serio?? ¿Eso significa que tengo que comprar un pastel?
+A08.0015 [Chixia] | ¡El Maestro dice que hay que comer pastel en tu cumpleaños para crecer más alta!
+A08.0016 [Tú] | ¿No es hoy tu cumpleaños? ¡Feliz cumple!
+A08.0017 [Chixia] | ¡¡¡AAAAAH EL PASTEL!!!!
+A08.0018 [Chixia] | Ay no... Ese lugar solo hace unos pocos al día...
+A08.0019 [Chixia] | Este año no voy a conseguir ninguno...
+A08.0020 [Tú] | No lo des por perdido
+A08.0021 [Chixia] | ¿¿¿???
+A08.0022 [Tú] | Hice fila por ti bien temprano
+A08.0023 [Tú] | ¡Y le pedí al pastelero que te dibujara encima!
+A08.0024 [Tú] | De nada ;)
+A08.0025 [Chixia] | ¡¡¡¿¿¿EEEEH???!!!
+A08.0026 [Chixia] | ¡¡¡¿¿POR QUÉ ESTOY ESCUPIENDO FUEGO??!!! ¡¡YO NO ESCUPO FUEGO!!
+A08.0027 [Tú] | Entoncesss, ¿te lo vas a comer o...
 A08.0028 [Chixia] | ...
-A08.0029 [Chixia] | Gimme plz
+A08.0029 [Chixia] | Dámelo porfa
 
 ## Conversación A09
-A09.0001 [Chixia] | AAAAH SORRY!
-A09.0002 [Chixia] | I totally forgot about squad practice today!!
-A09.0003 [Chixia] | I overslept!!
-A09.0004 [Opción] | Knew it
-A09.0005 [Opción] | Huh?
-A09.0006 [Tú] | It got rained out anyway
-A09.0007 [Tú] | I sent you a text about it
-A09.0008 [Tú] | It got rained out. I sent you a message about it
-A09.0009 [Tú] | Didn't you see it?
-A09.0010 [Chixia] | Just saw it...
-A09.0011 [Chixia] | Oh thank goodness! For a sec I thought I flaked on you
-A09.0012 [Chixia] | Back to sleep for me then, byeee
+A09.0001 [Chixia] | ¡¡¡AAAAH PERDÓN!!!
+A09.0002 [Chixia] | ¡¡Me olvidé por completo de la práctica del escuadrón de hoy!!
+A09.0003 [Chixia] | ¡¡Me quedé dormida!!
+A09.0004 [Opción] | Lo sabía
+A09.0005 [Opción] | ¿Eh?
+A09.0006 [Tú] | De todos modos se canceló por la lluvia
+A09.0007 [Tú] | Te mandé un mensaje sobre eso
+A09.0008 [Tú] | Se canceló por la lluvia. Te mandé un mensaje al respecto
+A09.0009 [Tú] | ¿No lo viste?
+A09.0010 [Chixia] | Apenas lo vi...
+A09.0011 [Chixia] | ¡Ay, qué alivio! Por un segundo pensé que te había quedado mal
+A09.0012 [Chixia] | Entonces me voy a seguir durmiendo, chaooo
 
 ## Conversación A10
-A10.0001 [Chixia] | So about that Disc today...
-A10.0002 [Chixia] | It just doesn't feel like the regular ones.
-A10.0003 [Tú] | Something weird about it?
-A10.0004 [Chixia] | Hmm...
-A10.0005 [Chixia] | Can't really explain it.
-A10.0006 [Chixia] | Just got a weird vibe from it.
-A10.0007 [Tú] | If it makes you uncomfortable, maybe throw it away?
-A10.0008 [Chixia] | Throwing it away feels wrong though.
-A10.0009 [Chixia] | Ah, never mind.
-A10.0010 [Chixia] | It's not like it feels bad or anything.
-A10.0011 [Chixia] | Besides...
-A10.0012 [Chixia] | You gave it to me. I can't just throw it away, can I?
+A10.0001 [Chixia] | Sobre ese Disco de hoy...
+A10.0002 [Chixia] | No se siente como los normales.
+A10.0003 [Tú] | ¿Tiene algo raro?
+A10.0004 [Chixia] | Mmm...
+A10.0005 [Chixia] | No sé cómo explicarlo.
+A10.0006 [Chixia] | Solo me dio una vibra extraña.
+A10.0007 [Tú] | Si te incomoda, ¿quizá deberías tirarlo?
+A10.0008 [Chixia] | Pero tirarlo se siente mal.
+A10.0009 [Chixia] | Ah, olvídalo.
+A10.0010 [Chixia] | No es que me dé mala espina ni nada.
+A10.0011 [Chixia] | Además...
+A10.0012 [Chixia] | Tú me lo diste. No puedo simplemente tirarlo, ¿o sí?
 A10.0013 [Chixia] | ...
 A10.0014 [Chixia] | ...............
-A10.0015 [Tú] | What's wrong?
-A10.0016 [Chixia] | So you DO use emojis
-A10.0017 [Chixia] | That was way too cringe, let's never do that again
-A10.0018 [Tú] | Hey...
-A10.0019 [Tú] | Cringe! Look who's talking!
+A10.0015 [Tú] | ¿Qué pasa?
+A10.0016 [Chixia] | O sea que SÍ usas emojis
+A10.0017 [Chixia] | Eso estuvo demasiado cringe, no lo volvamos a hacer nunca
+A10.0018 [Tú] | Oye...
+A10.0019 [Tú] | ¡Qué oso! ¡Mira quién habla!
 
 ## Conversación B01
-B01.0001 [Chixia] | Guess what? One of my seniors is coming back.
-B01.0002 [Tú] | Which one?
-B01.0003 [Chixia] | You know, the one you met before!
-B01.0004 [Opción] | Yunshu?
-B01.0005 [Chixia] | Yup, that's her!
-B01.0006 [Chixia] | Wonder what kinda goodies she's bringing me this time
-B01.0007 [Tú] | Jiyue?
-B01.0008 [Chixia] | Bingo!
-B01.0009 [Chixia] | Ugh... Except Jiyue always loves messing with me when she visits
-B01.0010 [Chixia] | Wait, hold on! That's not the point!
-B01.0011 [Chixia] | Huh?
-B01.0012 [Chixia] | Where was I again...?
-B01.0013 [Tú] | You said your senior is coming back.
-B01.0014 [Chixia] | Then what?
-B01.0015 [Tú] | And you never finished.
-B01.0016 [Chixia] | Whatever! I'll tell you when I remember!
+B01.0001 [Chixia] | ¿Adivina qué? Una de mis hermanas mayores va a volver.
+B01.0002 [Tú] | ¿Cuál?
+B01.0003 [Chixia] | ¡Ya sabes, la que conociste antes!
+B01.0004 [Opción] | ¿Yunshu?
+B01.0005 [Chixia] | ¡Sip, esa misma!
+B01.0006 [Chixia] | Me pregunto qué cosas ricas me traerá esta vez
+B01.0007 [Tú] | ¿Jiyue?
+B01.0008 [Chixia] | ¡Bingo!
+B01.0009 [Chixia] | Ugh... Solo que a Jiyue siempre le encanta molestarme cuando viene
+B01.0010 [Chixia] | ¡Espera, un momento! ¡Ese no es el punto!
+B01.0011 [Chixia] | ¿Eh?
+B01.0012 [Chixia] | ¿En qué estaba...?
+B01.0013 [Tú] | Dijiste que tu hermana mayor va a volver.
+B01.0014 [Chixia] | ¿Y luego qué?
+B01.0015 [Tú] | Y no terminaste.
+B01.0016 [Chixia] | ¡Lo que sea! ¡Te lo diré cuando me acuerde!
 
 ## Conversación B02
-B02.0001 [Sistema] | Your friend poked you to show off her stunning artwork.
-B02.0002 [Sistema] | Your friend poked you to show off her stunning artwork.
-B02.0003 [Sistema] | Your friend poked you to show off her stunning artwork.
-B02.0004 [Tú] | Uhh... What is this?
-B02.0005 [Chixia] | Showing you my latest masterpiece!
-B02.0006 [Chixia] | Well? Am I giving off "Grandmaster" vibes, or what?
-B02.0007 [Tú] | Did you actually send something? Or is the chat glitching?
-B02.0008 [Sistema] | Your friend poked you to show off her stunning artwork.
-B02.0009 [Chixia] | You can't see it?
-B02.0010 [Tú] | That's just a system notification. It doesn't magically send the picture for you!
-B02.0011 [Chixia] | Wait, really?
-B02.0012 [Chixia] | Then how am I supposed to show you?
-B02.0013 [Tú] | Maybe take a photo with your phone?
-B02.0014 [Chixia] | Phones can take pictures??
-B02.0015 [Tú] | You seriously didn't know that?
-B02.0016 [Chixia] | Lemme try...
-B02.0017 [Chixia] | Whoa, it works!
-B02.0018 [Chixia] | But why's it all blurry...
-B02.0019 [Chixia] | I need to investigate this further. Talk later!
+B02.0001 [Sistema] | Tu amiga te dio un toquecito para presumirte su impresionante obra de arte.
+B02.0002 [Sistema] | Tu amiga te dio un toquecito para presumirte su impresionante obra de arte.
+B02.0003 [Sistema] | Tu amiga te dio un toquecito para presumirte su impresionante obra de arte.
+B02.0004 [Tú] | Eeeh... ¿Qué es esto?
+B02.0005 [Chixia] | ¡Te muestro mi última obra maestra!
+B02.0006 [Chixia] | ¿Y bien? ¿Tengo aires de «Gran Maestra» o qué?
+B02.0007 [Tú] | ¿De verdad enviaste algo? ¿O el chat está fallando?
+B02.0008 [Sistema] | Tu amiga te dio un toquecito para presumirte su impresionante obra de arte.
+B02.0009 [Chixia] | ¿No puedes verla?
+B02.0010 [Tú] | ¡Eso es solo una notificación del sistema! ¡No envía la imagen por arte de magia!
+B02.0011 [Chixia] | Espera, ¿en serio?
+B02.0012 [Chixia] | ¿Entonces cómo se supone que te la muestre?
+B02.0013 [Tú] | ¿Quizá tomándole una foto con tu teléfono?
+B02.0014 [Chixia] | ¿¿Los teléfonos pueden tomar fotos??
+B02.0015 [Tú] | ¿En serio no lo sabías?
+B02.0016 [Chixia] | Déjame probar...
+B02.0017 [Chixia] | ¡Guau, funciona!
+B02.0018 [Chixia] | Pero ¿por qué sale toda borrosa...
+B02.0019 [Chixia] | Tengo que investigar esto más a fondo. ¡Hablamos luego!
 
 ## Conversación B03
 B03.0001 [Tú] | ...?
-B03.0002 [Tú] | What's with all these?
-B03.0003 [Chixia] | Jinglin just sent me a whole bunch of stickers!
-B03.0004 [Tú] | I've got some too.
-B03.0005 [Chixia] | Ooh, that's cute. Don't have that one yet
-B03.0006 [Chixia] | Snagged it
-B03.0007 [Chixia] | Yikes, Master is here checking my homework
-B03.0008 [Chixia] | Talk later!
+B03.0002 [Tú] | ¿Qué son todos estos?
+B03.0003 [Chixia] | ¡Jinglin me acaba de mandar un montón de stickers!
+B03.0004 [Tú] | Yo también tengo algunos.
+B03.0005 [Chixia] | Ooh, qué lindo. Ese todavía no lo tengo
+B03.0006 [Chixia] | Ya lo agarré
+B03.0007 [Chixia] | Uy, el Maestro está aquí revisando mi tarea
+B03.0008 [Chixia] | ¡Hablamos luego!
 
 ## Conversación B04
-B04.0001 [Chixia] | ==PLAYER_NAME==, can you come over? Like, right now?
-B04.0002 [Tú] | What happened?
-B04.0003 [Chixia] | There's a creepy shadow hovering outside my room!
-B04.0004 [Tú] | Huh??
-B04.0005 [Tú] | Seriously?
-B04.0006 [Chixia] | I'm serious!!!
-B04.0007 [Chixia] | Thought it was just someone passing by at first
-B04.0008 [Chixia] | But now it's practically pressed against the glass!!
+B04.0001 [Chixia] | ==PLAYER_NAME==, ¿puedes venir? O sea, ahorita mismo.
+B04.0002 [Tú] | ¿Qué pasó?
+B04.0003 [Chixia] | ¡Hay una sombra espeluznante rondando afuera de mi cuarto!
+B04.0004 [Tú] | ¿¿Eh??
+B04.0005 [Tú] | ¿En serio?
+B04.0006 [Chixia] | ¡¡¡Hablo en serio!!!
+B04.0007 [Chixia] | Al principio pensé que era alguien que pasaba
+B04.0008 [Chixia] | ¡¡Pero ahora está prácticamente pegada al vidrio!!
 B04.0009 [Chixia] | AaaaaHHH
-B04.0010 [Chixia] | Get over here!!! I'm freaking out!!
-B04.0011 [Tú] | Alright, alright, on my way.
-B04.0012 [Chixia] | Oh... Never mind...
-B04.0013 [Tú] | ?
-B04.0014 [Chixia] | False alarm...
-B04.0015 [Tú] | Huh?
-B04.0016 [Chixia] | It was just a junior calling me for dinner
-B04.0017 [Chixia] | Let me guess. Nearsighted and forgot her glasses?
-B04.0018 [Chixia] | She mistook my window for the door
-B04.0019 [Chixia] | Scared the living daylights out of me...
+B04.0010 [Chixia] | ¡¡¡Ven para acá!!! ¡¡Me estoy muriendo del susto!!
+B04.0011 [Tú] | Vale, vale, ya voy.
+B04.0012 [Chixia] | Oh... Olvídalo...
+B04.0013 [Tú] | ¿?
+B04.0014 [Chixia] | Falsa alarma...
+B04.0015 [Tú] | ¿Eh?
+B04.0016 [Chixia] | Era solo una discípula menor que venía a llamarme a cenar
+B04.0017 [Chixia] | Déjame adivinar. ¿Miope y se le olvidaron los lentes?
+B04.0018 [Chixia] | Confundió mi ventana con la puerta
+B04.0019 [Chixia] | Casi me da un infarto...
 
 ## Conversación B05
-B05.0001 [Chixia] | You free this weekend?
-B05.0002 [Opción] | Yes?
-B05.0003 [Opción] | Guess
-B05.0004 [Chixia] | Perfect!
-B05.0005 [Chixia] | I'll take that as a yes. Nice!
-B05.0006 [Chixia] | I snagged a Monolith commission for the weekend
-B05.0007 [Chixia] | Come along as my assistant!
-B05.0008 [Chixia] | Don't worry, we can totally work something out for the pay
-B05.0009 [Tú] | Which middle-of-nowhere Monolith are you too chicken to hit solo this time?
-B05.0010 [Chixia] | Hey, I can totally handle it by myself!
-B05.0011 [Chixia] | Just figured having you around would make it more fun
-B05.0012 [Chixia] | You wouldn't say no to me, right?
-B05.0013 [Tú] | Hard to say.
-B05.0014 [Chixia] | Aww come on, pleeease! You gotta come!
-B05.0015 [Chixia] | It's not like there are weird ghost rumors about the place or anything
-B05.0016 [Chixia] | And absolutely NO monsters!
-B05.0017 [Chixia] | Plus I heard it's sunny with a great view
-B05.0018 [Tú] | ... You just gave yourself away.
-B05.0019 [Tú] | Fine, I get it. I'll be there.
-B05.0020 [Chixia] | Knew I could count on you!
+B05.0001 [Chixia] | ¿Estás libre este fin de semana?
+B05.0002 [Opción] | ¿Sí?
+B05.0003 [Opción] | Adivina
+B05.0004 [Chixia] | ¡Perfecto!
+B05.0005 [Chixia] | Lo tomaré como un sí. ¡Qué bien!
+B05.0006 [Chixia] | Conseguí un encargo en un Monolito para el fin de semana
+B05.0007 [Chixia] | ¡Ven conmigo como mi asistente!
+B05.0008 [Chixia] | No te preocupes, seguro nos ponemos de acuerdo con el pago
+B05.0009 [Tú] | ¿A qué Monolito en medio de la nada te da miedo ir sola esta vez?
+B05.0010 [Chixia] | ¡Oye, yo puedo con él perfectamente sola!
+B05.0011 [Chixia] | Solo pensé que contigo sería más divertido
+B05.0012 [Chixia] | No me dirías que no, ¿verdad?
+B05.0013 [Tú] | Difícil decirlo.
+B05.0014 [Chixia] | ¡Aww, anda, porfaaa! ¡Tienes que venir!
+B05.0015 [Chixia] | No es como si hubiera rumores raros de fantasmas en ese lugar ni nada
+B05.0016 [Chixia] | ¡Y absolutamente NADA de monstruos!
+B05.0017 [Chixia] | Además, escuché que hace sol y tiene una vista genial
+B05.0018 [Tú] | ... Te delataste solita.
+B05.0019 [Tú] | Bueno, ya entendí. Ahí estaré.
+B05.0020 [Chixia] | ¡Sabía que podía contar contigo!
 
 ## Conversación B06
-B06.0001 [Chixia] | Guess what?
-B06.0002 [Chixia] | I just mastered this super cool spell
-B06.0003 [Chixia] | Gotta show you next time we meet
-B06.0004 [Tú] | What kind of spell?
-B06.0005 [Chixia] | So, I conjure up a ball of energy, and then—whoosh—launch it into the sky
-B06.0006 [Chixia] | And then—bam! It bursts open
-B06.0007 [Chixia] | The move is called Golden Trees and Silver Flowers. Bet it looks amazing at night
-B06.0008 [Tú] | So ... fireworks?
-B06.0009 [Tú] | I'll have to see that.
-B06.0010 [Chixia] | Haha, no problem! Leave it to me!
-B06.0011 [Chixia] | Actually
-B06.0012 [Chixia] | If it's gonna explode anyway, maybe I can change the shape?
-B06.0013 [Chixia] | Like, have it fly up and turn into a giant fire dragon
-B06.0014 [Chixia] | Or a ferocious tiger?
-B06.0015 [Chixia] | Wait, that might actually work... I'm gonna go try it!
+B06.0001 [Chixia] | ¿Adivina qué?
+B06.0002 [Chixia] | Acabo de dominar un hechizo súper genial
+B06.0003 [Chixia] | Tengo que mostrártelo la próxima vez que nos veamos
+B06.0004 [Tú] | ¿Qué tipo de hechizo?
+B06.0005 [Chixia] | Bueno, conjuro una bola de energía y luego —¡fiuuu!— la lanzo al cielo
+B06.0006 [Chixia] | Y luego —¡pum!— estalla
+B06.0007 [Chixia] | La técnica se llama Árboles de Oro y Flores de Plata. Seguro se ve increíble de noche
+B06.0008 [Tú] | O sea... ¿fuegos artificiales?
+B06.0009 [Tú] | Tendré que verlo.
+B06.0010 [Chixia] | ¡Jaja, no hay problema! ¡Déjamelo a mí!
+B06.0011 [Chixia] | En realidad
+B06.0012 [Chixia] | Si de todos modos va a explotar, ¿y si cambio la forma?
+B06.0013 [Chixia] | Por ejemplo, que suba y se convierta en un dragón de fuego gigante
+B06.0014 [Chixia] | ¿O en un tigre feroz?
+B06.0015 [Chixia] | Espera, eso podría funcionar... ¡voy a probarlo!

@@ -3,9 +3,9 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Bookstall Owner | Bookstall Owner
-N:Monster | Monster
-N:The Kids | The Kids
+N:Bookstall Owner | Dueño del puesto de libros
+N:Monster | Monstruo
+N:The Kids | Los niños
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
@@ -17,111 +17,111 @@ N:avg3_143 | Residente
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Memory Recollection
-0002 [Intro] | Bedtime Story
-0003 [Intro] | A blank storybook, yet it holds endless possibilities.
-0004 [Tú] | Allie, kitchen's done.==W== Where do you need me next?
-0005 [Allie] | Hmm,==W== could you tidy up the bookshelf?==W== Heh heh, with Boss helping, we can finish the cleaning in no time!
-0006 [Tú] | Allie, you've always taken care of me. Now it's my turn to help.
-0007 [Tú] | Alright, let's get to it. First, take the books out and dust them off.
-0008 [Tú] | Huh?==W== No title on the cover.==W== And the pages==W== are completely blank.
-0009 [Allie] | Oh, the New Start Book! That takes me back.
-0010 [Tú] | The New Start Book? That's a book?
-0011 [Allie] | Hehe, it's all blank pages, no wonder you're confused.==W== Anyway, break time. Boss, want to hear a story about when everyone was still a kid?
-0012 [Tú] | Oh, I'd love to hear it,==W== but I don't want to pry...
-0013 [Allie] | Don't worry, they won't mind.==W== This goes back to when I first opened the Ash Orphanage...
-0014 [Noya] | Mom, I want an adventurer story tonight!
-0015 [Iris] | Noya, we read that one yesterday. Let's pick a different one.
-0016 [Amber] | I want kitty story.
-0017 [Noya] | We read that kitty story a million times! I want something new!
-0018 [Allie] | Fair enough. We've read these same books to shreds... No wonder they're getting restless.
-0019 [Allie] | Tell you what. Mom will go get a new picture book tomorrow.
-0020 [Noya] | Really?!
-0021 [Allie] | You bet! Leave it to me. Pinky swear.
-0022 [Amber] | Can't wait.
-0023 [Iris] | Thanks, Mom!
-0024 [Narración] | The next morning...
-0025 [Allie] | Remember what we agreed on? One sentence each. Iris, you start.
-0026 [Iris] | Don't open the door for strangers!
-0027 [Noya] | No using the stove until Mom gets back!
-0028 [Amber] | Not one step outside until Mom's home.
-0029 [Allie] | Perfect. Be good and look after the house, okay?
-0030 [Iris] | ... Mom, you promise you'll come right back?
-0031 [Allie] | I promise.==W== It's a quick trip for a book. I'll be right back.==W== Bye, loves!
-0032 [The Kids] | Be careful out there—
-0033 [Allie] | I can't let them down. I need to find a book that's really interesting.
-0034 [Allie] | Whoa. Guess I was naive. Were picture books always this pricey?
-0035 [Bookstall Owner] | Sorry about that... We haven't had new stock in ages.==W== Not many Trekkers go out of their way to wish for books...
-0036 [Allie] | Wait, these are all from Monolith wishes?
-0037 [Bookstall Owner] | Yep! Books from the Wishing Box are way more interesting than the regular ones!
-0038 [Allie] | Huh. Okay...
-0039 [Allie] | It's still early. If I'm going to make this happen, I should head to the Monolith now.
-0040 [Allie] | Finally, a Wishing Box!==W== Took a lot longer than I thought, but at least I found one.
-0041 [Allie] | Now I won't be going home empty-handed. Time to make a wish!
-0042 [Allie] | O mighty God of Grace, please hear my prayer...==W== Please grant me a picture book==W== that Noya, Amber, and Iris will all love.
-0043 [Allie] | It's opening...==W== Let me see what kind of book the God of Grace has given us!
-0044 [Allie] | Huh?! Eeeehhhh?!
-0045 [Allie] | I definitely wished for a picture book! But this thing is totally blank! No pictures, no words, nothing!
-0046 [Allie] | Did I wish it wrongly somehow? I pictured them the whole time... A book that would make them smile...
-0047 [Allie] | This is bad. I promised them.==W== Am I seriously going to have to find another Wishing Box?
-0048 [Allie] | No. Finding this one took way too long. If I don't get back soon, they'll definitely worry.
-0049 [Allie] | Sigh... I'll have to try again another day. Time to head home.
-0050 [Allie] | Good thing I stopped. I didn't even notice the sun went down...==W== The kids must be worried sick. I need to hurry—
-0051 [???] | Aaaah!==W==
-0052 [Allie] | What was that? Wait, is that...?!
-0053 [Iris] | F-Freeze!
-0054 [Amber] | It didn't work!?
-0055 [Noya] | Iris, Amber, get back!
-0056 [Monster] | Roaaar!
-0057 [The Kids] | Mom, help—!
-0058 [Allie] | Hyaaah!!
-0059 [Iris] | Huh...? Mom?
-0060 [Allie] | What are you doing out here?!
-0061 [Amber] | W-We were looking for you...
-0062 [Allie] | But I told you I'd be back! Why didn't you stay home? Do you have any idea how dangerous that was?!
-0063 [Amber] | S-Sorry... But...
-0064 [Iris] | We thought you went missing. We were scared...
-0065 [Noya] | It's our fault. We were being selfish about wanting a new book... You already do enough for us. We upset you, didn't we?
-0066 [Noya] | I don't want a new book anymore! I want you, Mom! Please don't leave us...!
-0067 [Allie] | Oh, sweethearts...
-0068 [Allie] | I'm sorry. It's my fault for coming back late and worrying you.
-0069 [Allie] | It's okay. Don't worry, Mom isn't going anywhere.
-0070 [Amber] | R-Really...?
-0071 [Allie] | I promise. I love you the most. I would never leave you all behind.
-0072 [The Kids] | Sniff... Waaaaah! Mom...!
-0073 [Allie] | I thought making a wish at the Monolith was what was best for them... But they need more than just a new storybook.
-0074 [Allie] | They need my company and love... I've been going about this all wrong.
-0075 [Allie] | I'm sorry for upsetting you, kids. Come on. Let's go home.
-0076 [The Kids] | Okay...!
-0077 [Amber] | Where did you go, Mom?
-0078 [Allie] | I went to the Monolith. I made a wish for a new storybook.
-0079 [Noya] | Wait, what?! You were out till this late ... because of us?
-0080 [Iris] | And we couldn't even keep our promise to stay home.==W== We're sorry, Mom...
-0081 [Allie] | It was a last-minute decision. This is on me. No more apologies, okay?
-0082 [Noya] | ... Mom, is that the book from the Monolith? I bet it's an adventure story!
-0083 [Amber] | Story about kitties?
-0084 [Iris] | You two! Give Mom a break!
-0085 [Allie] | It's fine, Iris.==W== Wait... What if...
-0086 [Allie] | I see...==W== I know what to do. They're going to love this.
-0087 [Amber] | Mom, why is this book empty?
-0088 [Allie] | This is called a New Start Book.
-0089 [Noya] | A New Start Book?
-0090 [Allie] | That's right. We can give a new start to a story together and create a book of our own.
-0091 [Iris] | We get to make up the story? Wow, that sounds fun!
-0092 [Allie] | Right? I'll start us off. Once upon a time, there lived three children named Noya, Amber, and Iris.
-0093 [Noya] | Wait, it's about us?!
-0094 [Allie] | It sure is. If you lived in a story, what would you want to do?
-0095 [Noya] | I wanna go on an adventure!
-0096 [Iris] | I want to ride a boat...
-0097 [Amber] | I wanna be friends with a kitty.
-0098 [Allie] | Perfect. Let's go with that.==W== Noya and Iris set sail on an adventure. On the boat, they met Amber with her kitty, and the three became best friends.
-0099 [The Kids] | Wow...!
-0100 [Allie] | This is your story. You can fill it with your dreams.==W== That's why it's called a New Start Book.
-0101 [Allie] | Now tell Mom, what else do you want to do?
-0102 [Tú] | I see... You were all making the story together. No wonder they never got bored of it.
-0103 [Allie] | Yes. The God of Grace had already granted my wish back then.
-0104 [Allie] | What I wanted wasn't the book. It was to live up to their hopes and see them smile.
-0105 [Allie] | Looking back, I even complained about it at the time.==W== I feel a little guilty now.
-0106 [Tú] | Still, weaving all their wild ideas into a single story must have been hard.
-0107 [Allie] | You get used to it. If you'd like, I can read from it tonight. It's been a while.
-0108 [Allie] | Speaking of which, why don't you tell me the story of your dreams, Boss?
+0001 [Intro] | Evocación del recuerdo
+0002 [Intro] | Cuento para dormir
+0003 [Intro] | Un libro de cuentos en blanco, pero que encierra infinitas posibilidades.
+0004 [Tú] | Allie, la cocina está lista.==W== ¿Dónde me necesitas ahora?
+0005 [Allie] | Mmm,==W== ¿podrías ordenar el librero?==W== ¡Je, je, con la ayuda del Jefe terminaremos la limpieza en un santiamén!
+0006 [Tú] | Allie, siempre has cuidado de mí. Ahora me toca ayudarte a mí.
+0007 [Tú] | Bien, manos a la obra. Primero, saquemos los libros y quitémosles el polvo.
+0008 [Tú] | ¿Eh?==W== No hay título en la portada.==W== Y las páginas==W== están completamente en blanco.
+0009 [Allie] | ¡Oh, el Libro de Nuevos Comienzos! Cuántos recuerdos.
+0010 [Tú] | ¿El Libro de Nuevos Comienzos? ¿Eso es un libro?
+0011 [Allie] | Jeje, todas las páginas están en blanco, con razón te confunde.==W== En fin, hora del descanso. Jefe, ¿quieres escuchar una historia de cuando todos eran niños?
+0012 [Tú] | Oh, me encantaría escucharla,==W== pero no quiero entrometerme...
+0013 [Allie] | No te preocupes, no les importará.==W== Esto se remonta a cuando abrí el Orfanato de las Cenizas por primera vez...
+0014 [Noya] | ¡Mamá, esta noche quiero un cuento de aventureros!
+0015 [Iris] | Noya, ese lo leímos ayer. Escojamos uno distinto.
+0016 [Amber] | Yo quiero cuento de gatito.
+0017 [Noya] | ¡Ese cuento de gatito lo leímos un millón de veces! ¡Quiero algo nuevo!
+0018 [Allie] | Tienen razón. Hemos leído estos mismos libros hasta gastarlos... Con razón se están impacientando.
+0019 [Allie] | Les diré qué haremos. Mamá irá mañana a comprar un libro ilustrado nuevo.
+0020 [Noya] | ¿¡En serio!?
+0021 [Allie] | ¡Por supuesto! Déjenlo en mis manos. Promesa de meñique.
+0022 [Amber] | No puedo esperar.
+0023 [Iris] | ¡Gracias, mamá!
+0024 [Narración] | A la mañana siguiente...
+0025 [Allie] | ¿Recuerdan lo que acordamos? Una frase cada uno. Iris, empieza tú.
+0026 [Iris] | ¡No abrir la puerta a desconocidos!
+0027 [Noya] | ¡No usar la estufa hasta que mamá regrese!
+0028 [Amber] | Ni un paso afuera hasta que mamá esté en casa.
+0029 [Allie] | Perfecto. Pórtense bien y cuiden la casa, ¿de acuerdo?
+0030 [Iris] | ... Mamá, ¿prometes que volverás enseguida?
+0031 [Allie] | Lo prometo.==W== Es un viaje rápido por un libro. Vuelvo enseguida.==W== ¡Adiós, mis amores!
+0032 [The Kids] | Ten cuidado allá afuera—
+0033 [Allie] | No puedo defraudarlos. Tengo que encontrar un libro que sea de verdad interesante.
+0034 [Allie] | Vaya. Supongo que fui ingenua. ¿Siempre han sido tan caros los libros ilustrados?
+0035 [Bookstall Owner] | Lo siento... Hace siglos que no recibimos mercancía nueva.==W== No muchos Trekkers se toman la molestia de pedir libros como deseo...
+0036 [Allie] | Espera, ¿estos son todos de deseos de los Monolitos?
+0037 [Bookstall Owner] | ¡Sí! ¡Los libros de la Caja de Deseos son mucho más interesantes que los normales!
+0038 [Allie] | Vaya. Bueno...
+0039 [Allie] | Todavía es temprano. Si voy a lograrlo, debería ir ya al Monolito.
+0040 [Allie] | ¡Por fin, una Caja de Deseos!==W== Tardé mucho más de lo que pensaba, pero al menos encontré una.
+0041 [Allie] | Ahora no volveré a casa con las manos vacías. ¡Es hora de pedir un deseo!
+0042 [Allie] | Oh, poderoso Dios de la Gracia, escucha mi plegaria...==W== Concédeme un libro ilustrado==W== que les encante a Noya, Amber e Iris.
+0043 [Allie] | Se está abriendo...==W== ¡Veamos qué clase de libro nos ha dado el Dios de la Gracia!
+0044 [Allie] | ¿¡Eh!? ¿¡Eeeehhhh!?
+0045 [Allie] | ¡Yo pedí un libro ilustrado, sin duda! ¡Pero esto está totalmente en blanco! ¡Sin imágenes, sin palabras, nada!
+0046 [Allie] | ¿Habré pedido mal el deseo? Los imaginé todo el tiempo... Un libro que los hiciera sonreír...
+0047 [Allie] | Esto es malo. Se los prometí.==W== ¿De verdad tendré que buscar otra Caja de Deseos?
+0048 [Allie] | No. Encontrar esta me tomó demasiado. Si no vuelvo pronto, seguro se preocuparán.
+0049 [Allie] | Suspiro... Tendré que intentarlo otro día. Hora de volver a casa.
+0050 [Allie] | Qué bueno que me detuve. Ni siquiera noté que se hizo de noche...==W== Los niños deben de estar muy preocupados. Tengo que darme prisa—
+0051 [???] | ¡Aaaah!==W==
+0052 [Allie] | ¿Qué fue eso? Espera, ¿eso es...?!
+0053 [Iris] | ¡Q-quieto!
+0054 [Amber] | ¿¡No funcionó!?
+0055 [Noya] | ¡Iris, Amber, atrás!
+0056 [Monster] | ¡Roaaar!
+0057 [The Kids] | ¡Mamá, ayúdanos—!
+0058 [Allie] | ¡Hyaaah!!
+0059 [Iris] | ¿Eh...? ¿Mamá?
+0060 [Allie] | ¿¡Qué hacen aquí afuera!?
+0061 [Amber] | N-nosotros te estábamos buscando...
+0062 [Allie] | ¡Pero les dije que volvería! ¿Por qué no se quedaron en casa? ¿¡Tienen idea de lo peligroso que fue!?
+0063 [Amber] | P-perdón... Pero...
+0064 [Iris] | Pensamos que habías desaparecido. Teníamos miedo...
+0065 [Noya] | Es nuestra culpa. Fuimos egoístas queriendo un libro nuevo... Ya haces suficiente por nosotros. Te molestamos, ¿verdad?
+0066 [Noya] | ¡Ya no quiero un libro nuevo! ¡Te quiero a ti, mamá! ¡Por favor no nos dejes...!
+0067 [Allie] | Ay, mis cielos...
+0068 [Allie] | Lo siento. Es mi culpa por llegar tarde y preocuparlos.
+0069 [Allie] | Está bien. No se preocupen, mamá no se va a ninguna parte.
+0070 [Amber] | ¿D-de verdad...?
+0071 [Allie] | Lo prometo. Los amo con todo mi corazón. Jamás los dejaría atrás.
+0072 [The Kids] | Snif... ¡Waaaaah! ¡Mamá...!
+0073 [Allie] | Pensé que pedir un deseo en el Monolito era lo mejor para ellos... Pero necesitan más que un simple libro de cuentos.
+0074 [Allie] | Necesitan mi compañía y mi cariño... He estado haciéndolo todo mal.
+0075 [Allie] | Perdón por disgustarlos, niños. Vamos. Volvamos a casa.
+0076 [The Kids] | ¡Está bien...!
+0077 [Amber] | ¿Adónde fuiste, mamá?
+0078 [Allie] | Fui al Monolito. Pedí un deseo para conseguir un libro de cuentos nuevo.
+0079 [Noya] | ¿¡Qué!? ¿Estuviste fuera hasta tan tarde ... por nosotros?
+0080 [Iris] | Y ni siquiera pudimos cumplir nuestra promesa de quedarnos en casa.==W== Perdón, mamá...
+0081 [Allie] | Fue una decisión de último minuto. La culpa es mía. No más disculpas, ¿de acuerdo?
+0082 [Noya] | ... Mamá, ¿ese es el libro del Monolito? ¡Seguro es un cuento de aventuras!
+0083 [Amber] | ¿Cuento de gatitos?
+0084 [Iris] | ¡Ustedes dos! ¡Déjenle un respiro a mamá!
+0085 [Allie] | Está bien, Iris.==W== Espera... ¿Y si...?
+0086 [Allie] | Ya veo...==W== Ya sé qué hacer. Les va a encantar.
+0087 [Amber] | Mamá, ¿por qué está vacío este libro?
+0088 [Allie] | Esto se llama un Libro de Nuevos Comienzos.
+0089 [Noya] | ¿Un Libro de Nuevos Comienzos?
+0090 [Allie] | Así es. Podemos darle un nuevo comienzo a una historia entre todos y crear un libro propio.
+0091 [Iris] | ¿Nosotros inventamos la historia? ¡Guau, qué divertido!
+0092 [Allie] | ¿Verdad? Yo empiezo. Había una vez tres niños llamados Noya, Amber e Iris.
+0093 [Noya] | ¿¡Espera, es sobre nosotros!?
+0094 [Allie] | Claro que sí. Si vivieran en un cuento, ¿qué les gustaría hacer?
+0095 [Noya] | ¡Yo quiero irme de aventura!
+0096 [Iris] | Yo quiero viajar en un barco...
+0097 [Amber] | Yo quiero ser amiga de un gatito.
+0098 [Allie] | Perfecto. Hagámoslo así.==W== Noya e Iris zarparon en una aventura. En el barco conocieron a Amber con su gatito, y los tres se hicieron mejores amigos.
+0099 [The Kids] | ¡Guau...!
+0100 [Allie] | Esta es su historia. Pueden llenarla con sus sueños.==W== Por eso se llama Libro de Nuevos Comienzos.
+0101 [Allie] | Ahora díganle a mamá, ¿qué más quieren hacer?
+0102 [Tú] | Ya veo... Hacían la historia entre todos. Con razón nunca se aburrían de ella.
+0103 [Allie] | Sí. El Dios de la Gracia ya había cumplido mi deseo en aquel entonces.
+0104 [Allie] | Lo que yo quería no era el libro. Era estar a la altura de sus esperanzas y verlos sonreír.
+0105 [Allie] | Mirándolo ahora, hasta me quejé en su momento.==W== Me siento un poco culpable.
+0106 [Tú] | Aun así, tejer todas sus ocurrencias en una sola historia debió de ser difícil.
+0107 [Allie] | Te acostumbras. Si quieres, esta noche puedo leerlo. Hace tiempo que no lo hago.
+0108 [Allie] | Hablando de eso, ¿por qué no me cuentas la historia de tus sueños, Jefe?

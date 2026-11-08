@@ -4,242 +4,242 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Ridge] | Hello, boss.
-A01.0002 [Ridge] | Dropping by for an inspection?
-A01.0003 [Tú] | Uhh...
-A01.0004 [Opción] | Not your boss.
-A01.0005 [Opción] | Don't work here.
-A01.0006 [Ridge] | whoa?!
-A01.0007 [Ridge] | yeah, i figured...
-A01.0008 [Ridge] | a fringe department like ours
-A01.0009 [Ridge] | a visit from management would be a once-in-a-blue-moon thing...
+A01.0001 [Ridge] | Hola, jefe.
+A01.0002 [Ridge] | ¿Vienes de inspección?
+A01.0003 [Tú] | Eh...
+A01.0004 [Opción] | No soy tu jefe.
+A01.0005 [Opción] | No trabajo aquí.
+A01.0006 [Ridge] | ¡¿qué?!
+A01.0007 [Ridge] | sí, me lo imaginaba...
+A01.0008 [Ridge] | a un departamento marginal como el nuestro
+A01.0009 [Ridge] | la gerencia solo lo visitaría muy de vez en cuando...
 
 ## Conversación A02
-A02.0001 [Ridge] | Boss, some of the crops i was trying to grow finally sprouted!
-A02.0002 [Tú] | Awesome!
-A02.0003 [Tú] | Anything edible?
-A02.0004 [Ridge] | there are some berries. i'll bring some over for you!
-A02.0005 [Tú] | Anything special about them?
-A02.0006 [Ridge] | they're much sweeter than normal berries
-A02.0007 [Tú] | Requesting United Harvest mass-produce immediately!
-A02.0008 [Ridge] | but there's a downside...
-A02.0009 [Ridge] | their growing conditions are super strict
-A02.0010 [Ridge] | so for now, we can only grow them on a small scale
-A02.0011 [Tú] | Oh ... okay.
+A02.0001 [Ridge] | ¡jefe, algunos de los cultivos que intentaba sembrar por fin brotaron!
+A02.0002 [Tú] | ¡Genial!
+A02.0003 [Tú] | ¿Algo comestible?
+A02.0004 [Ridge] | hay unas bayas. ¡te traeré algunas!
+A02.0005 [Tú] | ¿Tienen algo de especial?
+A02.0006 [Ridge] | son mucho más dulces que las bayas normales
+A02.0007 [Tú] | ¡Solicito que Cosecha Unida las produzca en masa de inmediato!
+A02.0008 [Ridge] | pero hay un inconveniente...
+A02.0009 [Ridge] | sus condiciones de cultivo son súper estrictas
+A02.0010 [Ridge] | así que por ahora solo se pueden cultivar a pequeña escala
+A02.0011 [Tú] | Ah... vale.
 
 ## Conversación A03
-A03.0001 [Ridge] | hey boss, i dug up something hard in the fields today
-A03.0002 [Tú] | Treasure?
-A03.0003 [Ridge] | ... it was actually something i buried a long time ago...
-A03.0004 [Opción] | Dorra you saved?
-A03.0005 [Opción] | A hidden Artifact?
-A03.0006 [Ridge] | nope
-A03.0007 [Ridge] | it was my emergency food stash
-A03.0008 [Ridge] | but i buried it and then completely forgot about it
-A03.0009 [Ridge] | only remembered when i dug it up today...
-A03.0010 [Tú] | Is the food inside still good?
-A03.0011 [Ridge] | it is! it's the kind of food that keeps for a long time
-A03.0012 [Ridge] | and i stored it really well
-A03.0013 [Ridge] | so i checked it and buried it again! :)
+A03.0001 [Ridge] | oye jefe, hoy desenterré algo duro en los campos
+A03.0002 [Tú] | ¿Un tesoro?
+A03.0003 [Ridge] | ... en realidad era algo que enterré hace mucho...
+A03.0004 [Opción] | ¿Dorra que ahorraste?
+A03.0005 [Opción] | ¿Un Artefacto oculto?
+A03.0006 [Ridge] | nop
+A03.0007 [Ridge] | era mi reserva de comida de emergencia
+A03.0008 [Ridge] | pero la enterré y luego me olvidé por completo
+A03.0009 [Ridge] | solo me acordé al desenterrarla hoy...
+A03.0010 [Tú] | ¿La comida de adentro sigue buena?
+A03.0011 [Ridge] | ¡sí! es de esa comida que se conserva por mucho tiempo
+A03.0012 [Ridge] | y la guardé muy bien
+A03.0013 [Ridge] | ¡así que la revisé y la volví a enterrar! :)
 
 ## Conversación A04
-A04.0001 [Ridge] | hey boss, are you free today?
-A04.0002 [Opción] | I'm free!
-A04.0003 [Opción] | What's up?
-A04.0004 [Ridge] | my 20th cellar is almost finished today
-A04.0005 [Ridge] | wanted to invite you over
-A04.0006 [Tú] | Wait, 20?!
-A04.0007 [Ridge] |  hehe... i guess i just kept digging and... here we are...
-A04.0008 [Ridge] | there's just one cellar door left, and i was hoping we could install it together
-A04.0009 [Ridge] | finishing the last step with you...
-A04.0010 [Ridge] | that would be really meaningful!
-A04.0011 [Tú] | Okay! I'm on my way!
+A04.0001 [Ridge] | oye jefe, ¿estás libre hoy?
+A04.0002 [Opción] | ¡Estoy libre!
+A04.0003 [Opción] | ¿Qué pasa?
+A04.0004 [Ridge] | hoy casi termino mi cueva número 20
+A04.0005 [Ridge] | quería invitarte
+A04.0006 [Tú] | ¡¿Espera, 20?!
+A04.0007 [Ridge] | jeje... creo que seguí cavando y... aquí estamos...
+A04.0008 [Ridge] | solo falta una puerta de cueva y esperaba que la instaláramos juntos
+A04.0009 [Ridge] | terminar el último paso contigo...
+A04.0010 [Ridge] | ¡sería muy significativo!
+A04.0011 [Tú] | ¡Vale! ¡Voy para allá!
 
 ## Conversación A05
-A05.0001 [Ridge] | boss, whenever i'm munching on tawny nightingale
-A05.0002 [Ridge] | i always think about this one argument...
-A05.0003 [Tú] | I'm all ears.
-A05.0004 [Ridge] | a lot of people think
-A05.0005 [Ridge] | that united harvest's new tech is destroying our traditions
-A05.0006 [Ridge] | Philae is just full of artificial food these days
-A05.0007 [Tú] | They've got a point.
-A05.0008 [Ridge] | but at the end of the day, it did boost food production
-A05.0009 [Ridge] | without all the related artifacts and their replicas...
-A05.0010 [Ridge] | we couldn't possibly feed this many people
-A05.0011 [Ridge] | being able to eat is what's most important!
-A05.0012 [Tú] | Exactly!
-A05.0013 [Ridge] | but tawny nightingale really does taste awful lol
-A05.0014 [Ridge] | the bland taste really gets you thinking...
+A05.0001 [Ridge] | jefe, cada vez que estoy mascando ruiseñor leonado
+A05.0002 [Ridge] | siempre pienso en cierta discusión...
+A05.0003 [Tú] | Soy todo oídos.
+A05.0004 [Ridge] | mucha gente piensa
+A05.0005 [Ridge] | que la nueva tecnología de Cosecha Unida está destruyendo nuestras tradiciones
+A05.0006 [Ridge] | Philae está llena de comida artificial estos días
+A05.0007 [Tú] | Tienen razón.
+A05.0008 [Ridge] | pero al final del día, sí aumentó la producción de alimentos
+A05.0009 [Ridge] | sin todos los artefactos relacionados y sus réplicas...
+A05.0010 [Ridge] | no podríamos alimentar a tanta gente
+A05.0011 [Ridge] | ¡poder comer es lo más importante!
+A05.0012 [Tú] | ¡Exacto!
+A05.0013 [Ridge] | pero el ruiseñor leonado de verdad sabe horrible jaja
+A05.0014 [Ridge] | el sabor insípido te hace pensar...
 
 ## Conversación A06
-A06.0001 [Ridge] | a relative asked me again the other day
-A06.0002 [Ridge] | as someone with a college education
-A06.0003 [Ridge] | why i ended up farming after graduation
-A06.0004 [Tú] | And you said...?
-A06.0005 [Ridge] | i don't see anything wrong with it
-A06.0006 [Ridge] | sure, there are plenty of people cooped up in their labs
-A06.0007 [Ridge] | working hard to cultivate all sorts of plants
-A06.0008 [Ridge] | convinced those strange new things will change the world
-A06.0009 [Tú] | And did they?
-A06.0010 [Ridge] | hmm, it's not really a matter of if they did or not
-A06.0011 [Ridge] | the point is, when everyone is busy with high-level design
-A06.0012 [Ridge] | someone has to stay on the ground and worry about the yield
-A06.0013 [Tú] | True. Ideas without roots are just dreams.
-A06.0014 [Ridge] | i've stood at the top of the company's high-rise and looked out
-A06.0015 [Ridge] | but in the end, i chose a quiet life on a small hill...
+A06.0001 [Ridge] | el otro día un familiar me volvió a preguntar
+A06.0002 [Ridge] | como alguien con estudios universitarios
+A06.0003 [Ridge] | por qué terminé dedicándome al campo después de graduarme
+A06.0004 [Tú] | ¿Y qué dijiste...?
+A06.0005 [Ridge] | no le veo nada de malo
+A06.0006 [Ridge] | claro, hay muchísima gente encerrada en sus laboratorios
+A06.0007 [Ridge] | esforzándose por cultivar todo tipo de plantas
+A06.0008 [Ridge] | convencida de que esas cosas nuevas y extrañas cambiarán el mundo
+A06.0009 [Tú] | ¿Y lo hicieron?
+A06.0010 [Ridge] | mmm, no se trata realmente de si lo hicieron o no
+A06.0011 [Ridge] | el punto es que, cuando todos están ocupados con el diseño de alto nivel
+A06.0012 [Ridge] | alguien tiene que quedarse en tierra y preocuparse por el rendimiento
+A06.0013 [Tú] | Cierto. Las ideas sin raíces son solo sueños.
+A06.0014 [Ridge] | he estado en lo alto del rascacielos de la empresa y he mirado el panorama
+A06.0015 [Ridge] | pero al final, elegí una vida tranquila en una colina pequeña...
 
 ## Conversación A07
-A07.0001 [Ridge] | boss... i get worried about you and your company sometimes
-A07.0002 [Tú] | Wh... what's wrong?
-A07.0003 [Ridge] | your company doesn't have any physical assets
-A07.0004 [Ridge] | and you don't even have a permanent office!
-A07.0005 [Ridge] | it seems so precarious!
-A07.0006 [Tú] | Uhh...
-A07.0007 [Tú] | Now that you mention it... I guess that's true.
-A07.0008 [Ridge] | if you ever go bankrupt...
-A07.0009 [Ridge] | you'll be out on the streets...
-A07.0010 [Ridge] | and have to go hungry...
-A07.0011 [Ridge] | i can't even bear to imagine it... :'(
-A07.0012 [Tú] | Why am I suddenly going bankrupt?!
-A07.0013 [Ridge] | so
-A07.0014 [Ridge] | i've decided to share my cellars with you
-A07.0015 [Tú] | W-wait... Are you sure about this?
-A07.0016 [Ridge] | it's okay
-A07.0017 [Ridge] | any of my cellars on the continent can be your safe house
-A07.0018 [Tú] | Holy... just how many have you dug...
+A07.0001 [Ridge] | jefe... a veces me preocupo por ti y tu empresa
+A07.0002 [Tú] | ¿Q-qué pasa?
+A07.0003 [Ridge] | tu empresa no tiene ningún activo físico
+A07.0004 [Ridge] | ¡y ni siquiera tienen una oficina permanente!
+A07.0005 [Ridge] | ¡parece tan precario!
+A07.0006 [Tú] | Eh...
+A07.0007 [Tú] | Ahora que lo mencionas... creo que es cierto.
+A07.0008 [Ridge] | si alguna vez se declaran en quiebra...
+A07.0009 [Ridge] | terminarán en la calle...
+A07.0010 [Ridge] | y pasando hambre...
+A07.0011 [Ridge] | ni siquiera soporto imaginarlo... :'(
+A07.0012 [Tú] | ¡¿Por qué de repente voy a quebrar?!
+A07.0013 [Ridge] | así que
+A07.0014 [Ridge] | he decidido compartir mis cuevas contigo
+A07.0015 [Tú] | E-espera... ¿Estás seguro de esto?
+A07.0016 [Ridge] | está bien
+A07.0017 [Ridge] | cualquiera de mis cuevas del continente puede ser tu refugio
+A07.0018 [Tú] | Santo cielo... ¿cuántas has cavado?
 
 ## Conversación A08
-A08.0001 [Ridge] | boss? you there?
-A08.0002 [Opción] | Yep!
-A08.0003 [Ridge] | it's my birthday today!
-A08.0004 [Ridge] | we could go to my special cellar together
-A08.0005 [Tú] | Special cellar? There are different cellars?
-A08.0006 [Ridge] | it's where i keep all the good stuff i'm saving for special occasions
-A08.0007 [Ridge] | not only is everything in there top-grade
-A08.0008 [Ridge] | this cellar is also really spacious
-A08.0009 [Ridge] | it has a table, chairs, a pot, and even a bed!
-A08.0010 [Tú] | That's practically a bunker!
-A08.0011 [Ridge] | that's right!
-A08.0012 [Ridge] | so
-A08.0013 [Ridge] | will you come?
-A08.0014 [Tú] | Of course!
-A08.0015 [Ridge] | don't bring anyone else
-A08.0016 [Ridge] | this special cellar
-A08.0017 [Ridge] | is just for the two of us
+A08.0001 [Ridge] | ¿jefe? ¿estás ahí?
+A08.0002 [Opción] | ¡Sí!
+A08.0003 [Ridge] | ¡hoy es mi cumpleaños!
+A08.0004 [Ridge] | podríamos ir juntos a mi cueva especial
+A08.0005 [Tú] | ¿Cueva especial? ¿Hay cuevas distintas?
+A08.0006 [Ridge] | ahí guardo todo lo bueno que reservo para ocasiones especiales
+A08.0007 [Ridge] | no solo todo lo de ahí es de primera calidad
+A08.0008 [Ridge] | esta cueva también es muy espaciosa
+A08.0009 [Ridge] | ¡tiene mesa, sillas, una olla e incluso una cama!
+A08.0010 [Tú] | ¡Es prácticamente un búnker!
+A08.0011 [Ridge] | ¡así es!
+A08.0012 [Ridge] | entonces
+A08.0013 [Ridge] | ¿vendrás?
+A08.0014 [Tú] | ¡Claro!
+A08.0015 [Ridge] | no traigas a nadie más
+A08.0016 [Ridge] | esta cueva especial
+A08.0017 [Ridge] | es solo para nosotros dos
 
 ## Conversación A09
-A09.0001 [Ridge] | ehehe that battle just now
-A09.0002 [Ridge] | i did pretty good, right?
-A09.0003 [Tú] | You were amazing!
-A09.0004 [Tú] | Those little plants look so cute.
-A09.0005 [Tú] | Btw, can they grow fruit?
-A09.0006 [Tú] | Like berries or something…
-A09.0007 [Ridge] | ah, not really
-A09.0008 [Ridge] | even if they did, i bet they wouldn’t taste good
-A09.0009 [Ridge] | delicious fruit takes time to grow and ripen
-A09.0010 [Tú] | Aww, what a shame...
-A09.0011 [Ridge] | but if you ever get a craving
-A09.0012 [Ridge] | you can always come to me for some fresh fruit!
+A09.0001 [Ridge] | ejeje esa batalla de hace rato
+A09.0002 [Ridge] | me salió bastante bien, ¿verdad?
+A09.0003 [Tú] | ¡Estuviste increíble!
+A09.0004 [Tú] | Esas plantitas se ven muy lindas.
+A09.0005 [Tú] | Por cierto, ¿pueden dar fruto?
+A09.0006 [Tú] | ¿Como bayas o algo así…?
+A09.0007 [Ridge] | ah, no mucho
+A09.0008 [Ridge] | aunque dieran, seguro no sabrían bien
+A09.0009 [Ridge] | la fruta deliciosa necesita tiempo para crecer y madurar
+A09.0010 [Tú] | Ay, qué lástima...
+A09.0011 [Ridge] | pero si te antojas de algo
+A09.0012 [Ridge] | ¡siempre puedes venir conmigo por fruta fresca!
 
 ## Conversación A10
-A10.0001 [Ridge] | boss, boss! i had a nightmare last night!
-A10.0002 [Ridge] | it was so scary!
-A10.0003 [Tú] | What did you dream about?
-A10.0004 [Tú] | Don't tell me...
-A10.0005 [Opción] | Someone raided your cellar?
-A10.0006 [Ridge] | y... yeah, that was it...
-A10.0007 [Ridge] | woke me right up in a panic
-A10.0008 [Ridge] | i was gonna reinforce it this morning
-A10.0009 [Tú] | So where are you starting?
-A10.0010 [Ridge] | ehehe
-A10.0011 [Ridge] | i realized it was just a nightmare after all ^^
-A10.0012 [Ridge] | the cellar is perfectly safe
-A10.0013 [Tú] | That's good. You have way too many cellars anyway.
-A10.0014 [Tú] | If you actually had to reinforce them, it'd probably take like, a year.
-A10.0015 [Ridge] | probably longer than that...
+A10.0001 [Ridge] | ¡jefe, jefe! ¡anoche tuve una pesadilla!
+A10.0002 [Ridge] | ¡fue muy aterradora!
+A10.0003 [Tú] | ¿Qué soñaste?
+A10.0004 [Tú] | No me digas...
+A10.0005 [Opción] | ¿Alguien asaltó tu cueva?
+A10.0006 [Ridge] | s-sí, eso fue...
+A10.0007 [Ridge] | me despertó de golpe, aterrado
+A10.0008 [Ridge] | esta mañana iba a reforzarla
+A10.0009 [Tú] | ¿Y por dónde empiezas?
+A10.0010 [Ridge] | ejeje
+A10.0011 [Ridge] | me di cuenta de que al final solo fue una pesadilla ^^
+A10.0012 [Ridge] | la cueva está perfectamente a salvo
+A10.0013 [Tú] | Qué bueno. De todos modos tienes demasiadas cuevas.
+A10.0014 [Tú] | Si de verdad tuvieras que reforzarlas, probablemente tardarías como un año.
+A10.0015 [Ridge] | probablemente más que eso...
 
 ## Conversación B01
-B01.0001 [Ridge] | Boss, something weird happened!
-B01.0002 [Tú] | What is it?
-B01.0003 [Ridge] | My clothes actually shrank!
-B01.0004 [Ridge] | When I tried to put them on earlier today
-B01.0005 [Ridge] | They were so tight!
-B01.0006 [Tú] | Did they shrink in the wash?
-B01.0007 [Ridge] | But I didn't even wash them
-B01.0008 [Ridge] | I couldn't fasten the button at the waist at all!
+B01.0001 [Ridge] | ¡Jefe, pasó algo raro!
+B01.0002 [Tú] | ¿Qué pasó?
+B01.0003 [Ridge] | ¡Mi ropa de verdad se encogió!
+B01.0004 [Ridge] | Cuando intenté ponérmela hoy más temprano
+B01.0005 [Ridge] | ¡Me quedaba muy apretada!
+B01.0006 [Tú] | ¿Se encogió al lavarla?
+B01.0007 [Ridge] | Pero ni siquiera la lavé
+B01.0008 [Ridge] | ¡No pude abrochar el botón de la cintura para nada!
 B01.0009 [Tú] | ...
 B01.0010 [Tú] | ...
-B01.0011 [Tú] | Maybe...
-B01.0012 [Ridge] | No way!
-B01.0013 [Ridge] | Clothes suddenly shrinking is rare, but it does happen occasionally. That must be it!
-B01.0014 [Tú] | Exactly! You're just going through a growth spurt!
+B01.0011 [Tú] | Quizá...
+B01.0012 [Ridge] | ¡No puede ser!
+B01.0013 [Ridge] | Que la ropa se encoja de repente es raro, pero a veces pasa. ¡Debe de ser eso!
+B01.0014 [Tú] | ¡Exacto! ¡Solo estás pasando por un estirón!
 
 ## Conversación B02
-B02.0001 [Ridge] | Boss!
-B02.0002 [Ridge] | This is bad, this is really bad!
-B02.0003 [Tú] | Eh? What happened?
-B02.0004 [Ridge] | A few days ago I bought a box of cookies
-B02.0005 [Ridge] | When I opened it today, I realized
-B02.0006 [Opción] | They went bad?
-B02.0007 [Opción] | They got stolen?
-B02.0008 [Ridge] | Not quite, but...
-B02.0009 [Ridge] | The box's packaging had some see-through parts
-B02.0010 [Ridge] | From the outside it looks like there are lots of cookies
-B02.0011 [Ridge] | but the space you can't see is completely cookie-free...
-B02.0012 [Ridge] | Wah... I got scammed again...
+B02.0001 [Ridge] | ¡Jefe!
+B02.0002 [Ridge] | ¡Esto es malo, muy malo!
+B02.0003 [Tú] | ¿Eh? ¿Qué pasó?
+B02.0004 [Ridge] | Hace unos días compré una caja de galletas
+B02.0005 [Ridge] | Cuando la abrí hoy, me di cuenta de que
+B02.0006 [Opción] | ¿Se echaron a perder?
+B02.0007 [Opción] | ¿Te las robaron?
+B02.0008 [Ridge] | No exactamente, pero...
+B02.0009 [Ridge] | El empaque de la caja tenía partes transparentes
+B02.0010 [Ridge] | Desde afuera parece que hay un montón de galletas
+B02.0011 [Ridge] | pero el espacio que no se ve está completamente libre de galletas...
+B02.0012 [Ridge] | Buaa... Me estafaron otra vez...
 
 ## Conversación B03
-B03.0001 [Ridge] | Boss, I had a dream last night
-B03.0002 [Ridge] | I dreamed I became a Shrubshrew
-B03.0003 [Tú] | That's not so bad
-B03.0004 [Ridge] | Eh?
-B03.0005 [Ridge] | Boss, do you think being a Shrubshrew sounds fun?
-B03.0006 [Opción] | Running around everywhere and gnawing on things sounds pretty fun
-B03.0007 [Ridge] | That's true!
-B03.0008 [Ridge] | Boss, check if you have any of the following Shrubshrew traits
-B03.0009 [Ridge] | Bad sleeping schedule
-B03.0010 [Ridge] | Eating in bed and being a picky eater
-B03.0011 [Ridge] | You see something you like, and you get the urge to lick it
-B03.0012 [Ridge] | Shedding easily
-B03.0013 [Ridge] | Afraid of people
-B03.0014 [Tú] | STOP STOP STOP
-B03.0015 [Tú] | I lost count already...
+B03.0001 [Ridge] | Jefe, anoche tuve un sueño
+B03.0002 [Ridge] | Soñé que me convertía en un Shrubshrew
+B03.0003 [Tú] | No suena tan mal
+B03.0004 [Ridge] | ¿Eh?
+B03.0005 [Ridge] | Jefe, ¿crees que ser un Shrubshrew suena divertido?
+B03.0006 [Opción] | Correr por todos lados y roer cosas suena bastante divertido
+B03.0007 [Ridge] | ¡Es verdad!
+B03.0008 [Ridge] | Jefe, revisa si tienes alguna de las siguientes características de Shrubshrew
+B03.0009 [Ridge] | Horario de sueño desordenado
+B03.0010 [Ridge] | Comer en la cama y ser quisquilloso con la comida
+B03.0011 [Ridge] | Ves algo que te gusta y te dan ganas de lamerlo
+B03.0012 [Ridge] | Mudar el pelaje con facilidad
+B03.0013 [Ridge] | Miedo a la gente
+B03.0014 [Tú] | ALTO ALTO ALTO
+B03.0015 [Tú] | Ya perdí la cuenta...
 
 ## Conversación B04
-B04.0001 [Ridge] | Boss! Boss!
-B04.0002 [Ridge] | I've been trying out a new hobby lately
-B04.0003 [Tú] | And what would that be?
-B04.0004 [Ridge] | Bonsai!
-B04.0005 [Tú] | You mean, miniature gardening in a pot?
-B04.0006 [Ridge] | It's like this
-B04.0007 [Ridge] | Pruning branches and arranging the scenery. From a certain angle it looks really beautiful
-B04.0008 [Ridge] | But I'm also told that
-B04.0009 [Ridge] | Interfering too much with how plants grow can backfire
-B04.0010 [Ridge] | The more you prune, the messier the branches grow
-B04.0011 [Ridge] | Sometimes, if you just let them grow freely, you end up with an unexpected micro-landscape
+B04.0001 [Ridge] | ¡Jefe! ¡Jefe!
+B04.0002 [Ridge] | Últimamente estoy probando un nuevo pasatiempo
+B04.0003 [Tú] | ¿Y cuál sería?
+B04.0004 [Ridge] | ¡Bonsái!
+B04.0005 [Tú] | ¿Te refieres a la jardinería en miniatura en una maceta?
+B04.0006 [Ridge] | Es así
+B04.0007 [Ridge] | Podar ramas y arreglar el paisaje. Desde cierto ángulo se ve muy hermoso
+B04.0008 [Ridge] | Pero también me han dicho que
+B04.0009 [Ridge] | Intervenir demasiado en el crecimiento de las plantas puede salir mal
+B04.0010 [Ridge] | Cuanto más podas, más desordenadas crecen las ramas
+B04.0011 [Ridge] | A veces, si las dejas crecer libremente, acabas con un microjardín inesperado
 
 ## Conversación B05
-B05.0001 [Ridge] | Boss!
-B05.0002 [Ridge] | I planted some climbing vines in the pot
-B05.0003 [Ridge] | They're slowly growing upward along the trellis
-B05.0004 [Tú] | Wow!
-B05.0005 [Ridge] | Even if you give them a planned direction with a trellis
-B05.0006 [Ridge] | Plants often have ideas of their own
-B05.0007 [Ridge] | With all sorts of intentions and forces interacting
-B05.0008 [Ridge] | They'll grow into unique shapes in the end
-B05.0009 [Tú] | Gardening has so much philosophy in it!
+B05.0001 [Ridge] | ¡Jefe!
+B05.0002 [Ridge] | Planté unas enredaderas en la maceta
+B05.0003 [Ridge] | Van creciendo despacio hacia arriba por el enrejado
+B05.0004 [Tú] | ¡Guau!
+B05.0005 [Ridge] | Aunque les des una dirección planeada con un enrejado
+B05.0006 [Ridge] | Las plantas suelen tener ideas propias
+B05.0007 [Ridge] | Con todo tipo de intenciones y fuerzas que interactúan
+B05.0008 [Ridge] | Al final crecerán con formas únicas
+B05.0009 [Tú] | ¡La jardinería tiene mucha filosofía!
 
 ## Conversación B06
-B06.0001 [Ridge] | Boss!
-B06.0002 [Ridge] | The bonsai I mentioned before has fully grown
-B06.0003 [Tú] | Awesome!
-B06.0004 [Tú] | All your careful labor has finally come into fruition!
-B06.0005 [Ridge] | Hehe~
-B06.0006 [Ridge] | I thought about it and decided to give it to you
-B06.0007 [Tú] | But you spent so much effort on it!
-B06.0008 [Tú] | You're really giving it to me?
-B06.0009 [Ridge] | It's fine
-B06.0010 [Ridge] | The Lucky Oasis doesn't have any greenery yet, right?
-B06.0011 [Ridge] | Please, take it
-B06.0012 [Ridge] | What's an oasis without some green plants?
-B06.0013 [Tú] | Okay!
+B06.0001 [Ridge] | ¡Jefe!
+B06.0002 [Ridge] | El bonsái del que te hablé ya creció por completo
+B06.0003 [Tú] | ¡Genial!
+B06.0004 [Tú] | ¡Todo tu cuidadoso trabajo por fin dio frutos!
+B06.0005 [Ridge] | Jeje~
+B06.0006 [Ridge] | Lo pensé y decidí regalártelo
+B06.0007 [Tú] | ¡Pero le dedicaste mucho esfuerzo!
+B06.0008 [Tú] | ¿De verdad me lo vas a dar?
+B06.0009 [Ridge] | Está bien
+B06.0010 [Ridge] | El Lucky Oasis todavía no tiene nada de vegetación, ¿verdad?
+B06.0011 [Ridge] | Por favor, tómalo
+B06.0012 [Ridge] | ¿Qué es un oasis sin plantas verdes?
+B06.0013 [Tú] | ¡Vale!

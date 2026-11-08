@@ -4,309 +4,309 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Wraith] | Wraith here.
-A01.0002 [Wraith] | I'll be using this for our comms from now on.
-A01.0003 [Tú] | Copy that.
-A01.0004 [Wraith] | Ping me immediately if you run into trouble.
-A01.0005 [Tú] | You're surprisingly reliable.
-A01.0006 [Wraith] | Actually, don't bother.
-A01.0007 [Wraith] | I'm monitoring you 24/7 anyway.
-A01.0008 [Tú] | Okay, that might be too reliable of you...
+A01.0001 [Wraith] | Aquí Wraith.
+A01.0002 [Wraith] | A partir de ahora usaré esto para nuestras comunicaciones.
+A01.0003 [Tú] | Recibido.
+A01.0004 [Wraith] | Avísame de inmediato si te metes en problemas.
+A01.0005 [Tú] | Eres sorprendentemente confiable.
+A01.0006 [Wraith] | En realidad, no te molestes.
+A01.0007 [Wraith] | De todos modos te monitoreo las 24 horas.
+A01.0008 [Tú] | Vale, eso quizá ya es demasiado confiable...
 
 ## Conversación A02
-A02.0001 [Wraith] | Just published my latest weapon write-up.
-A02.0002 [Wraith] | Did you catch it in the new issue?
-A02.0003 [Tú] | I saw it.
-A02.0004 [Tú] | Though they really buried it in the bottom corner...
-A02.0005 [Wraith] | Good enough.
-A02.0006 [Tú] | Seriously, does that not bug you?
-A02.0007 [Tú] | You're always relegated to the margins.
-A02.0008 [Wraith] | It's just a side gig. If it helps people, I'm satisfied.
-A02.0009 [Wraith] | Besides, I did make the front page once.
-A02.0010 [Tú] | What was the headline?!
-A02.0011 [Wraith] | The Absolute Worst, Most Gimmicky Weapons
-A02.0012 [Tú] | Were you trying to start a war?!
-A02.0013 [Wraith] | Yeah... I learned to keep my head down after that.
+A02.0001 [Wraith] | Acabo de publicar mi última reseña de armas.
+A02.0002 [Wraith] | ¿La viste en el número nuevo?
+A02.0003 [Tú] | La vi.
+A02.0004 [Tú] | Aunque la dejaron enterrada en la esquina inferior...
+A02.0005 [Wraith] | Con eso basta.
+A02.0006 [Tú] | En serio, ¿no te molesta?
+A02.0007 [Tú] | Siempre te relegan a los márgenes.
+A02.0008 [Wraith] | Es solo un trabajo extra. Si ayuda a la gente, con eso me basta.
+A02.0009 [Wraith] | Además, una vez sí salí en la portada.
+A02.0010 [Tú] | ¡¿Cuál era el titular?!
+A02.0011 [Wraith] | Las Peores Armas, las Más Rebuscadas de Todas
+A02.0012 [Tú] | ¡¿Querías empezar una guerra?!
+A02.0013 [Wraith] | Sí... Aprendí a mantener un perfil bajo después de eso.
 
 ## Conversación A03
 A03.0001 [Wraith] | 1111111
 A03.0002 [Wraith] | 111111111111111
 A03.0003 [Wraith] | 11111111111
-A03.0004 [Opción] | What's going on?
+A03.0004 [Opción] | ¿Qué está pasando?
 A03.0005 [Opción] | 2222222
-A03.0006 [Wraith] | Hm?
-A03.0007 [Wraith] | Why am I sending so many messages?
-A03.0008 [Tú] | You didn't type those?
-A03.0009 [Wraith] | Negative.
-A03.0010 [Wraith] | Has my phone been hijacked?!
-A03.0011 [Tú] | Who has the skills...
-A03.0012 [Wraith] | Running a security sweep now!
-A03.0013 [Sistema] | Wraith has gone offline.
-A03.0014 [Sistema] | Wraith has gone offline.
-A03.0015 [Sistema] | Wraith has come online.
-A03.0016 [Wraith] | Odd. Zero signs of intrusion.
-A03.0017 [Tú] | I doubt it's a hacker.
-A03.0018 [Tú] | Did you lean on the screen? Where was your phone?
-A03.0019 [Wraith] | On my desk.
-A03.0020 [Tú] | And what were you doing?
-A03.0021 [Wraith] | Working. I had to reach way across the table to grab a spare part.
-A03.0022 [Tú] | I think I've solved the mystery...
-A03.0023 [Wraith] | Hm?
+A03.0006 [Wraith] | ¿Mm?
+A03.0007 [Wraith] | ¿Por qué estoy enviando tantos mensajes?
+A03.0008 [Tú] | ¿No los escribiste tú?
+A03.0009 [Wraith] | Negativo.
+A03.0010 [Wraith] | ¡¿Habrán secuestrado mi teléfono?!
+A03.0011 [Tú] | ¿Quién tendría la habilidad...
+A03.0012 [Wraith] | ¡Ejecutando un barrido de seguridad ahora!
+A03.0013 [Sistema] | Wraith se ha desconectado.
+A03.0014 [Sistema] | Wraith se ha desconectado.
+A03.0015 [Sistema] | Wraith se ha conectado.
+A03.0016 [Wraith] | Extraño. Cero señales de intrusión.
+A03.0017 [Tú] | Dudo que sea un hacker.
+A03.0018 [Tú] | ¿Te apoyaste en la pantalla? ¿Dónde estaba tu teléfono?
+A03.0019 [Wraith] | En mi escritorio.
+A03.0020 [Tú] | ¿Y qué hacías?
+A03.0021 [Wraith] | Trabajando. Tuve que estirarme por toda la mesa para tomar una pieza de repuesto.
+A03.0022 [Tú] | Creo que ya resolví el misterio...
+A03.0023 [Wraith] | ¿Mm?
 
 ## Conversación A04
-A04.0001 [Wraith] | Close call!
-A04.0002 [Tú] | What happened?!
-A04.0003 [Wraith] | N-nothing...
-A04.0004 [Wraith] | Just about chugged a bottle of panel liner instead of my water.
-A04.0005 [Opción] | What's panel liner?
-A04.0006 [Opción] | How do you even mix those up...
-A04.0007 [Wraith] | It's an oil-based enamel.
-A04.0008 [Wraith] | We used to wish for it from the Monolith just to varnish furniture.
-A04.0009 [Wraith] | But turned out it adds amazing depth to plastic models.
-A04.0010 [Tú] | ... Good thing you stopped yourself in time.
-A04.0011 [Wraith] | Doesn't it look totally different from water?
-A04.0012 [Wraith] | I was in the zone. Wasn't looking.
-A04.0013 [Tú] | Be glad you realized before swallowing...
-A04.0014 [Wraith] | Guess it's time to organize my workbench. And my living area...
-A04.0015 [Tú] | I'll come over and help you tidy up.
-A04.0016 [Wraith] | Sorry to be a bother...
-A04.0017 [Wraith] | You know the spot. I'll be waiting.
+A04.0001 [Wraith] | ¡Por poco!
+A04.0002 [Tú] | ¡¿Qué pasó?!
+A04.0003 [Wraith] | N-nada...
+A04.0004 [Wraith] | Casi me bebo de un trago una botella de líquido para líneas de panel en lugar de mi agua.
+A04.0005 [Opción] | ¿Qué es el líquido para líneas de panel?
+A04.0006 [Opción] | ¿Cómo se pueden confundir...
+A04.0007 [Wraith] | Es un esmalte a base de aceite.
+A04.0008 [Wraith] | Antes lo pedíamos como deseo al Monolito solo para barnizar muebles.
+A04.0009 [Wraith] | Pero resultó que le da una profundidad increíble a los modelos de plástico.
+A04.0010 [Tú] | ... Menos mal que te detuviste a tiempo.
+A04.0011 [Wraith] | ¿No se ve totalmente distinto al agua?
+A04.0012 [Wraith] | Estaba en lo mío. No estaba mirando.
+A04.0013 [Tú] | Alégrate de haberte dado cuenta antes de tragar...
+A04.0014 [Wraith] | Supongo que es hora de ordenar mi mesa de trabajo. Y mi área de vivienda...
+A04.0015 [Tú] | Iré a ayudarte a ordenar.
+A04.0016 [Wraith] | Perdón por la molestia...
+A04.0017 [Wraith] | Ya sabes dónde es. Te espero.
 
 ## Conversación A05
-A05.0001 [Wraith] | Shadow One to Base.
-A05.0002 [Wraith] | Do you copy?
-A05.0003 [Wraith] | Over.
-A05.0004 [Tú] | Base here.
-A05.0005 [Tú] | Sector clear.
-A05.0006 [Tú] | Over.
-A05.0007 [Wraith] | Heh. I'm satisfied.
-A05.0008 [Wraith] | Thanks for humoring me. Always wanted to try that.
-A05.0009 [Tú] | Anytime.
+A05.0001 [Wraith] | Sombra Uno a Base.
+A05.0002 [Wraith] | ¿Me copia?
+A05.0003 [Wraith] | Cambio.
+A05.0004 [Tú] | Aquí Base.
+A05.0005 [Tú] | Sector despejado.
+A05.0006 [Tú] | Cambio.
+A05.0007 [Wraith] | Je. Con eso me basta.
+A05.0008 [Wraith] | Gracias por seguirme el juego. Siempre quise probar eso.
+A05.0009 [Tú] | Cuando quieras.
 
 ## Conversación A06
-A06.0001 [Wraith] | Ugh... It's so hot...
-A06.0002 [Wraith] | Is it always this sweltering out here?
-A06.0003 [Tú] | You just grew up in a freezer, remember?
-A06.0004 [Tú] | Today is actually pretty mild.
-A06.0005 [Wraith] | Overheating before my weapon does...
-A06.0006 [Wraith] | I'd become a laughingstock if anyone found out.
-A06.0007 [Wraith] | Conclusion: I need immediate cooling.
-A06.0008 [Wraith] | I just happened to pass a dessert shop.
-A06.0009 [Wraith] | And their ice cream just happened to offer a buy-one-get-one deal.
+A06.0001 [Wraith] | Ugh... Hace tanto calor...
+A06.0002 [Wraith] | ¿Siempre hace un calor sofocante por aquí?
+A06.0003 [Tú] | Es que creciste en un congelador, ¿recuerdas?
+A06.0004 [Tú] | Hoy en realidad está bastante templado.
+A06.0005 [Wraith] | Sobrecalentándome antes que mi arma...
+A06.0006 [Wraith] | Sería el hazmerreír si alguien se enterara.
+A06.0007 [Wraith] | Conclusión: necesito enfriarme de inmediato.
+A06.0008 [Wraith] | Casualmente pasé frente a una heladería.
+A06.0009 [Wraith] | Y casualmente su helado tenía una oferta de dos por uno.
 A06.0010 [Tú] | ...
-A06.0011 [Tú] | This is just an excuse to...
-A06.0012 [Wraith] | It is not.
-A06.0013 [Tú] | Uh, actually...
-A06.0014 [Wraith] | No, not at all.
+A06.0011 [Tú] | Esto es solo una excusa para...
+A06.0012 [Wraith] | No lo es.
+A06.0013 [Tú] | Eh, en realidad...
+A06.0014 [Wraith] | No, para nada.
 A06.0015 [Tú] | ...
 A06.0016 [Wraith] | ...
-A06.0017 [Wraith] | Okay, fine. I admit.
-A06.0018 [Wraith] | It's a limited time offer. Please get here, stat!
+A06.0017 [Wraith] | Está bien, lo admito.
+A06.0018 [Wraith] | Es una oferta por tiempo limitado. ¡Ven aquí cuanto antes!
 
 ## Conversación A07
-A07.0001 [Wraith] | Stumbled on a real find at the market the other day.
-A07.0002 [Tú] | Let me guess, another weapon?
-A07.0003 [Wraith] | Nope.
-A07.0004 [Wraith] | Check this out.
-A07.0005 [Wraith] | Never thought I'd find a piece of home all the way out here.
-A07.0006 [Tú] | Is that a harp?
-A07.0007 [Wraith] | Spot on. And it's in pristine condition.
-A07.0008 [Tú] | Just for display?
-A07.0009 [Wraith] | No. I actually play.
-A07.0010 [Tú] | You're kidding.
-A07.0011 [Wraith] | Surprised?
-A07.0012 [Wraith] | Can't blame you. I suppose I usually only talk about weapons and models.
-A07.0013 [Wraith] | But I've been playing since I was a kid.
-A07.0014 [Wraith] | Heard it was the hardest instrument to learn, so naturally, I had to master it.
-A07.0015 [Tú] | That sounds exactly like you.
-A07.0016 [Wraith] | Been a while, but I started practicing the moment I got it.
-A07.0017 [Wraith] | Finally got my touch back today.
-A07.0018 [Tú] | Mind if I come listen?
-A07.0019 [Wraith] | Feel free to come.
-A07.0020 [Wraith] | That's exactly why I'm texting.
-A07.0021 [Wraith] | Weather's perfect for playing outside.
-A07.0022 [Wraith] | I'm right near my place. Come on over.
-A07.0023 [Wraith] | Don't miss this. I want you to hear a true melody of Norstheim.
+A07.0001 [Wraith] | El otro día encontré algo especial en el mercado.
+A07.0002 [Tú] | A ver si adivino, ¿otra arma?
+A07.0003 [Wraith] | No.
+A07.0004 [Wraith] | Mira esto.
+A07.0005 [Wraith] | Jamás pensé que encontraría un pedacito de mi hogar tan lejos.
+A07.0006 [Tú] | ¿Eso es un arpa?
+A07.0007 [Wraith] | Exacto. Y está en perfecto estado.
+A07.0008 [Tú] | ¿Solo de adorno?
+A07.0009 [Wraith] | No. De hecho la toco.
+A07.0010 [Tú] | Estás bromeando.
+A07.0011 [Wraith] | ¿Te sorprende?
+A07.0012 [Wraith] | No te culpo. Supongo que normalmente solo hablo de armas y modelos.
+A07.0013 [Wraith] | Pero toco desde que era niño.
+A07.0014 [Wraith] | Escuché que era el instrumento más difícil de aprender, así que, naturalmente, tenía que dominarlo.
+A07.0015 [Tú] | Eso suena exactamente a ti.
+A07.0016 [Wraith] | Hacía tiempo que no, pero empecé a practicar en cuanto lo conseguí.
+A07.0017 [Wraith] | Hoy por fin recuperé el toque.
+A07.0018 [Tú] | ¿Te importa si voy a escuchar?
+A07.0019 [Wraith] | Ven con confianza.
+A07.0020 [Wraith] | Justo por eso te escribo.
+A07.0021 [Wraith] | El clima está perfecto para tocar afuera.
+A07.0022 [Wraith] | Estoy cerca de mi casa. Ven.
+A07.0023 [Wraith] | No te lo pierdas. Quiero que escuches una verdadera melodía de Norstheim.
 
 ## Conversación A08
-A08.0001 [Wraith] | Just wrapped up a new weapon review. Got a sec to check it?
-A08.0002 [Tú] | Sure, but first things first.
-A08.0003 [Opción] | Happy Birthday, Wraith!
-A08.0004 [Wraith] | Birthday?
-A08.0005 [Wraith] | Define "birthday."
-A08.0006 [Tú] | Huh?
-A08.0007 [Tú] | You've never heard of a birthday?
-A08.0008 [Wraith] | Give me a second.
-A08.0009 [Wraith] | Hmm... I see.
-A08.0010 [Wraith] | Just looked it up. I think I grasp the concept now.
-A08.0011 [Wraith] | We didn't do that kind of thing back home.
-A08.0012 [Wraith] | We only celebrated dates that mattered to the whole tribe.
-A08.0013 [Tú] | Makes sense!
-A08.0014 [Tú] | However...
-A08.0015 [Wraith] | Don't worry. I know the rule: When in Philae, do as Philae people do.
-A08.0016 [Wraith] | So, did you prepare a cake?
-A08.0017 [Tú] | Yep, was just about to tell you.
-A08.0018 [Wraith] | Thanks. I won't let your efforts go to waste.
-A08.0019 [Wraith] | Sprinting to your coordinates now. I'll be there in a flash.
-A08.0020 [Tú] | Fast as the wind, as always!
-A08.0021 [Wraith] | Since it's my first birthday here...
-A08.0022 [Wraith] | I want to spend it with you.
-A08.0023 [Tú] | With pleasure!
+A08.0001 [Wraith] | Acabo de terminar una reseña de arma nueva. ¿Tienes un segundo para revisarla?
+A08.0002 [Tú] | Claro, pero lo primero es lo primero.
+A08.0003 [Opción] | ¡Feliz cumpleaños, Wraith!
+A08.0004 [Wraith] | ¿Cumpleaños?
+A08.0005 [Wraith] | Define «cumpleaños».
+A08.0006 [Tú] | ¿Eh?
+A08.0007 [Tú] | ¿Nunca habías oído hablar de un cumpleaños?
+A08.0008 [Wraith] | Dame un segundo.
+A08.0009 [Wraith] | Mmm... Ya veo.
+A08.0010 [Wraith] | Acabo de buscarlo. Creo que ya entiendo el concepto.
+A08.0011 [Wraith] | Allá en casa no hacíamos ese tipo de cosas.
+A08.0012 [Wraith] | Solo celebrábamos las fechas que importaban a toda la tribu.
+A08.0013 [Tú] | ¡Tiene sentido!
+A08.0014 [Tú] | Sin embargo...
+A08.0015 [Wraith] | No te preocupes. Conozco la regla: a donde fueres, haz lo que vieres. En Philae, como los de Philae.
+A08.0016 [Wraith] | Entonces, ¿preparaste un pastel?
+A08.0017 [Tú] | Sí, justo iba a decírtelo.
+A08.0018 [Wraith] | Gracias. No dejaré que tu esfuerzo se desperdicie.
+A08.0019 [Wraith] | Corriendo hacia tus coordenadas. Llegaré en un abrir y cerrar de ojos.
+A08.0020 [Tú] | ¡Rápido como el viento, como siempre!
+A08.0021 [Wraith] | Como es mi primer cumpleaños aquí...
+A08.0022 [Wraith] | quiero pasarlo contigo.
+A08.0023 [Tú] | ¡Con gusto!
 
 ## Conversación A09
-A09.0001 [Wraith] | My weapon storage is packed.
-A09.0002 [Wraith] | Time to expand the capacity.
-A09.0003 [Tú] | I've actually been meaning to ask...
-A09.0004 [Tú] | With your massive collection, why do you only ever use that one?
-A09.0005 [Wraith] | Every weapon has a unique specialty.
-A09.0006 [Wraith] | You need to deploy them in the right combat scenario to maximize their potential.
-A09.0007 [Wraith] | That is why I review them.
-A09.0008 [Tú] | I'm officially calling you the Weapon Master.
-A09.0009 [Tú] | So do you stick to that bayonet for the same reason?
-A09.0010 [Wraith] | Well...
-A09.0011 [Wraith] | Actually, there is a bit of personal bias involved.
-A09.0012 [Wraith] | This one has been with me the longest. It's an heirloom from my father.
-A09.0013 [Wraith] | It was damaged in an accident, but I managed to reforge it by fusing it with another weapon.
-A09.0014 [Tú] | A symbol of your new life here, maybe?
-A09.0015 [Wraith] | Heh. You read my mind.
+A09.0001 [Wraith] | Mi almacén de armas está lleno.
+A09.0002 [Wraith] | Es hora de ampliar la capacidad.
+A09.0003 [Tú] | De hecho llevaba tiempo queriendo preguntarte...
+A09.0004 [Tú] | Con tu colección tan enorme, ¿por qué siempre usas solo esa?
+A09.0005 [Wraith] | Cada arma tiene una especialidad única.
+A09.0006 [Wraith] | Hay que desplegarlas en el escenario de combate adecuado para aprovechar al máximo su potencial.
+A09.0007 [Wraith] | Por eso las reseño.
+A09.0008 [Tú] | Te nombro oficialmente Maestro de Armas.
+A09.0009 [Tú] | ¿Entonces te quedas con esa bayoneta por la misma razón?
+A09.0010 [Wraith] | Bueno...
+A09.0011 [Wraith] | En realidad, hay un poco de sesgo personal.
+A09.0012 [Wraith] | Esta es la que lleva más tiempo conmigo. Es una reliquia de mi padre.
+A09.0013 [Wraith] | Se dañó en un accidente, pero logré reforjarla fusionándola con otra arma.
+A09.0014 [Tú] | ¿Un símbolo de tu nueva vida aquí, quizá?
+A09.0015 [Wraith] | Je. Me leíste la mente.
 
 ## Conversación A10
-A10.0001 [Wraith] | Tell me.
-A10.0002 [Wraith] | Do memories have a durability stat, just like weapons?
-A10.0003 [Tú] | Depends on the memory.
-A10.0004 [Tú] | The deeper the impression, the harder it is to wear down.
-A10.0005 [Wraith] | It's a memory of spring.
-A10.0006 [Wraith] | My homeland only knew winter. I never understood what "spring" really meant until I came here.
-A10.0007 [Wraith] | It was beautiful. It brought ... peace.
-A10.0008 [Wraith] | I can't think of any other way to describe it.
-A10.0009 [Tú] | Isn't that a good thing?
-A10.0010 [Wraith] | It is nice. But I let it slip away...
-A10.0011 [Wraith] | Why did that happen...
-A10.0012 [Opción] | Then let's just go find it again.
-A10.0013 [Wraith] | Find it again...
-A10.0014 [Wraith] | You're right. How could I overlook something so simple?
-A10.0015 [Wraith] | But you're the one who helped me recover it.
-A10.0016 [Wraith] | Thank you. That is one thing I promise I'll never forget.
-A10.0017 [Tú] | You're exaggerating!
+A10.0001 [Wraith] | Dime.
+A10.0002 [Wraith] | ¿Los recuerdos tienen un valor de durabilidad, igual que las armas?
+A10.0003 [Tú] | Depende del recuerdo.
+A10.0004 [Tú] | Cuanto más profunda la huella, más difícil es que se desgaste.
+A10.0005 [Wraith] | Es un recuerdo de primavera.
+A10.0006 [Wraith] | Mi tierra solo conocía el invierno. Nunca entendí qué significaba realmente «primavera» hasta que llegué aquí.
+A10.0007 [Wraith] | Era hermosa. Traía... paz.
+A10.0008 [Wraith] | No se me ocurre otra forma de describirla.
+A10.0009 [Tú] | ¿No es algo bueno?
+A10.0010 [Wraith] | Es agradable. Pero dejé que se me escapara...
+A10.0011 [Wraith] | ¿Por qué pasó eso...
+A10.0012 [Opción] | Entonces vayamos a encontrarla de nuevo.
+A10.0013 [Wraith] | Encontrarla de nuevo...
+A10.0014 [Wraith] | Tienes razón. ¿Cómo pude pasar por alto algo tan sencillo?
+A10.0015 [Wraith] | Pero fuiste tú quien me ayudó a recuperarla.
+A10.0016 [Wraith] | Gracias. Eso es algo que prometo que jamás olvidaré.
+A10.0017 [Tú] | ¡Exageras!
 
 ## Conversación B01
-B01.0001 [Wraith] | I recently checked out the secondhand market for models.
-B01.0002 [Tú] | Yeah? How was it?
-B01.0003 [Wraith] | It got me a bit worked up.
-B01.0004 [Wraith] | Somebody was selling a model they'd assembled but never painted.
-B01.0005 [Tú] | I guess
-B01.0006 [Tú] | They probably finished putting it together and then decided painting it was too much work
-B01.0007 [Wraith] | Guess so.
-B01.0008 [Wraith] | But.
-B01.0009 [Wraith] | If you've already decided to build it
-B01.0010 [Wraith] | How can you just give up halfway through?
-B01.0011 [Wraith] | If they were too busy lately and didn't have time to paint it, I could understand that.
-B01.0012 [Wraith] | But just putting it up for sale to someone else... No.
-B01.0013 [Wraith] | I don't get it.
+B01.0001 [Wraith] | Hace poco fui al mercado de segunda mano de modelos.
+B01.0002 [Tú] | ¿Sí? ¿Qué tal?
+B01.0003 [Wraith] | Me alteró un poco.
+B01.0004 [Wraith] | Alguien vendía un modelo que había armado pero nunca pintó.
+B01.0005 [Tú] | Supongo
+B01.0006 [Tú] | que terminó de armarlo y luego decidió que pintarlo era demasiado trabajo
+B01.0007 [Wraith] | Supongo que sí.
+B01.0008 [Wraith] | Pero.
+B01.0009 [Wraith] | Si ya decidiste armarlo
+B01.0010 [Wraith] | ¿cómo puedes rendirte a la mitad?
+B01.0011 [Wraith] | Si hubiera andado con mucho trabajo últimamente y no tuviera tiempo de pintarlo, lo entendería.
+B01.0012 [Wraith] | Pero ponerlo a la venta para que lo tenga otro... No.
+B01.0013 [Wraith] | No lo entiendo.
 
 ## Conversación B02
-B02.0001 [Wraith] | Do you know what happened to me today?
-B02.0002 [Tú] | No clue
-B02.0003 [Wraith] | Someone said they read one of my weapon reviews
-B02.0004 [Wraith] | And found the weapon that suited them best because of it.
-B02.0005 [Tú] | Oh!
-B02.0006 [Tú] | Isn't that great!
-B02.0007 [Wraith] | Totally yes.
-B02.0008 [Wraith] | Now I know
-B02.0009 [Wraith] | that my effort really has helped other people
+B02.0001 [Wraith] | ¿Sabes qué me pasó hoy?
+B02.0002 [Tú] | Ni idea
+B02.0003 [Wraith] | Alguien dijo que leyó una de mis reseñas de armas
+B02.0004 [Wraith] | Y que gracias a ella encontró el arma que mejor le queda.
+B02.0005 [Tú] | ¡Oh!
+B02.0006 [Tú] | ¡Qué bueno!
+B02.0007 [Wraith] | Totalmente.
+B02.0008 [Wraith] | Ahora sé
+B02.0009 [Wraith] | que mi esfuerzo de verdad ha ayudado a otras personas
 
 ## Conversación B03
-B03.0001 [Wraith] | I'm thinking of starting a new series soon.
-B03.0002 [Wraith] | It'll be called
-B03.0003 [Wraith] | Trying Out the Most Unusual Weapons in the World.
-B03.0004 [Tú] | What made you think of that?
-B03.0005 [Wraith] | Because I ran into a gang the other day. They had no idea what they were doing.
-B03.0006 [Wraith] | I mean, I drove them off without breaking a sweat.
-B03.0007 [Wraith] | But the weapons they dropped while running away were pretty interesting.
-B03.0008 [Tú] | What kind of weapons?
-B03.0009 [Wraith] | How should I put it...
-B03.0010 [Wraith] | They were fluid.
-B03.0011 [Tú] | Fluid?
-B03.0012 [Wraith] | Yeah. If you swing one with only light force, it stays rigid like a sword or hammer.
-B03.0013 [Wraith] | But if you put enough force into it, the end of the weapon lashes out like a whip.
-B03.0014 [Tú] | Sounds like something you can only get by wishing inside a Monolith
-B03.0015 [Wraith] | Yeah, I think so.
-B03.0016 [Wraith] | But it also got me curious.
-B03.0017 [Wraith] | Once I finish reviewing this fluid weapon
-B03.0018 [Wraith] | I'm going to look for the most unusual weapons in the world
-B03.0019 [Wraith] | And turn it into a long-running review series.
-B03.0020 [Tú] | Looking forward to it!
+B03.0001 [Wraith] | Estoy pensando en empezar una nueva serie pronto.
+B03.0002 [Wraith] | Se llamará
+B03.0003 [Wraith] | Probando las Armas Más Inusuales del Mundo.
+B03.0004 [Tú] | ¿Qué te hizo pensar en eso?
+B03.0005 [Wraith] | Porque el otro día me topé con una pandilla. No tenían idea de lo que hacían.
+B03.0006 [Wraith] | O sea, los ahuyenté sin esfuerzo alguno.
+B03.0007 [Wraith] | Pero las armas que soltaron al huir eran bastante interesantes.
+B03.0008 [Tú] | ¿Qué clase de armas?
+B03.0009 [Wraith] | ¿Cómo lo explico...
+B03.0010 [Wraith] | Eran fluidas.
+B03.0011 [Tú] | ¿Fluidas?
+B03.0012 [Wraith] | Sí. Si las blandes con poca fuerza, se mantienen rígidas como una espada o un martillo.
+B03.0013 [Wraith] | Pero si les pones suficiente fuerza, el extremo del arma se lanza como un látigo.
+B03.0014 [Tú] | Suena a algo que solo se consigue pidiéndolo como deseo en un Monolito
+B03.0015 [Wraith] | Sí, creo que sí.
+B03.0016 [Wraith] | Pero también me dio curiosidad.
+B03.0017 [Wraith] | En cuanto termine de reseñar esta arma fluida
+B03.0018 [Wraith] | voy a buscar las armas más inusuales del mundo
+B03.0019 [Wraith] | Y convertirlo en una serie de reseñas de larga duración.
+B03.0020 [Tú] | ¡Tengo muchas ganas de verla!
 
 ## Conversación B04
 B04.0001 [Wraith] | Ah...
-B04.0002 [Wraith] | It's so hot
-B04.0003 [Wraith] | I'm gonna melt
-B04.0004 [Tú] | Summers be like that...
-B04.0005 [Wraith] | I can't even make myself go out
-B04.0006 [Wraith] | and buy ice cream
-B04.0007 [Tú] | Wraith, don't tell me you're getting a heatstroke
-B04.0008 [Wraith] | A geatstoke
-B04.0009 [Wraith] | qhats' that?
-B04.0010 [Tú] | Oh, no
-B04.0011 [Tú] | I think you really do have one
-B04.0012 [Wraith] | Huh?
-B04.0013 [Tú] | Just wait there
-B04.0014 [Tú] | I'll buy some ice cream and come over right now
-B04.0015 [Tú] | Drink plenty of water until I get there!
-B04.0016 [Wraith] | Okay...
+B04.0002 [Wraith] | Qué calor
+B04.0003 [Wraith] | Me voy a derretir
+B04.0004 [Tú] | Así son los veranos...
+B04.0005 [Wraith] | Ni siquiera puedo obligarme a salir
+B04.0006 [Wraith] | a comprar helado
+B04.0007 [Tú] | Wraith, no me digas que tienes una insolación
+B04.0008 [Wraith] | Un ainsolación
+B04.0009 [Wraith] | qeu es eso?
+B04.0010 [Tú] | Ay, no
+B04.0011 [Tú] | Creo que de verdad tienes una
+B04.0012 [Wraith] | ¿Eh?
+B04.0013 [Tú] | Espera ahí
+B04.0014 [Tú] | Compraré helado y voy para allá ahora mismo
+B04.0015 [Tú] | ¡Bebe mucha agua hasta que llegue!
+B04.0016 [Wraith] | Vale...
 
 ## Conversación B05
-B05.0001 [Wraith] | I still want to ask.
-B05.0002 [Wraith] | Are you sure you don't need a weapon?
-B05.0003 [Tú] | Even if I did, I wouldn't know how to use one
-B05.0004 [Tú] | Though I have been practicing a little
-B05.0005 [Wraith] | You should still keep a small knife or something on you.
-B05.0006 [Wraith] | For self-defense.
-B05.0007 [Tú] | Self-defense?
-B05.0008 [Wraith] | I can't always be there to protect you.
-B05.0009 [Wraith] | What if you run into danger when you're all alone?
+B05.0001 [Wraith] | Todavía quiero preguntarte.
+B05.0002 [Wraith] | ¿Seguro que no necesitas un arma?
+B05.0003 [Tú] | Aunque la necesitara, no sabría usarla
+B05.0004 [Tú] | Aunque sí he estado practicando un poco
+B05.0005 [Wraith] | Aun así deberías llevar contigo un cuchillo pequeño o algo así.
+B05.0006 [Wraith] | Para defensa propia.
+B05.0007 [Tú] | ¿Defensa propia?
+B05.0008 [Wraith] | No siempre puedo estar ahí para protegerte.
+B05.0009 [Wraith] | ¿Y si te topas con peligro sin nadie más?
 B05.0010 [Tú] | Hmph
-B05.0011 [Tú] | If it really came to that...
-B05.0012 [Wraith] | Huh?
-B05.0013 [Wraith] | You mean...
-B05.0014 [Wraith] | You've got some kind of secret weapon?
-B05.0015 [Tú] | Heh heh...
-B05.0016 [Tú] | Of course I do
-B05.0017 [Tú] | Who do you think I am?
-B05.0018 [Tú] | If I really ended up in danger all by myself
-B05.0019 [Tú] | My intelligence would naturally be my greatest weapon!
-B05.0020 [Tú] | What?
-B05.0021 [Tú] | You don't believe me?
-B05.0022 [Wraith] | It's not that.
-B05.0023 [Wraith] | I do believe you.
-B05.0024 [Wraith] | After all, I've never seen that particular "weapon" on anyone else before.
-B05.0025 [Tú] | That was a compliment, right?
-B05.0026 [Wraith] | Just stating a fact.
-B05.0027 [Wraith] | Still
-B05.0028 [Wraith] | That alone isn't enough.
-B05.0029 [Wraith] | If you ever find yourself in danger, find a way to contact me first.
-B05.0030 [Wraith] | Use that intelligence of yours to figure out how. Leave the rest to me.
-B05.0031 [Tú] | Fine, fine. As you command
+B05.0011 [Tú] | Si de verdad llegara a eso...
+B05.0012 [Wraith] | ¿Eh?
+B05.0013 [Wraith] | Quieres decir...
+B05.0014 [Wraith] | ¿que tienes algún tipo de arma secreta?
+B05.0015 [Tú] | Je je...
+B05.0016 [Tú] | Claro que sí
+B05.0017 [Tú] | ¿Quién crees que soy?
+B05.0018 [Tú] | Si de verdad terminara en peligro sin nadie cerca
+B05.0019 [Tú] | ¡mi inteligencia sería, naturalmente, mi mejor arma!
+B05.0020 [Tú] | ¿Qué?
+B05.0021 [Tú] | ¿No me crees?
+B05.0022 [Wraith] | No es eso.
+B05.0023 [Wraith] | Sí te creo.
+B05.0024 [Wraith] | Después de todo, nunca había visto esa «arma» en particular en nadie más.
+B05.0025 [Tú] | Eso fue un cumplido, ¿verdad?
+B05.0026 [Wraith] | Solo constato un hecho.
+B05.0027 [Wraith] | Aun así
+B05.0028 [Wraith] | Eso solo no basta.
+B05.0029 [Wraith] | Si alguna vez te encuentras en peligro, busca la forma de contactarme primero.
+B05.0030 [Wraith] | Usa esa inteligencia tuya para averiguar cómo. Del resto me encargo yo.
+B05.0031 [Tú] | Está bien, está bien. Como ordene
 
 ## Conversación B06
-B06.0001 [Wraith] | By the way, do you know what an all-you-can-eat buffet is?
-B06.0002 [Wraith] | I went to the Trekker Association the other day to submit my review
-B06.0003 [Wraith] | And saw a new restaurant that had opened by the roadside.
-B06.0004 [Wraith] | It was some kind of buffet, asking for fifty thousand Dorra per person.
-B06.0005 [Tú] | Oh, that means you pay the entry fee and then eat as much as you want
-B06.0006 [Tú] | I'd definitely never eat enough to get my money's worth
-B06.0007 [Tú] | And the restaurant definitely wouldn't let you, anyway
-B06.0008 [Tú] | Otherwise, how would they make any money?
-B06.0009 [Wraith] | Oh, you don't?
-B06.0010 [Wraith] | Interesting...
-B06.0011 [Tú] | What is it?
-B06.0012 [Tú] | You want to give it a try, Wraith?
-B06.0013 [Tú] | If it's you, I bet you could absolutely eat your money's worth
-B06.0014 [Wraith] | Hah, you know that's right.
-B06.0015 [Wraith] | One time I went a whole week without eating and then ate nearly a hundred thousand Dorra's worth of food in one go.
-B06.0016 [Wraith] | Fifty thousand is nothing.
-B06.0017 [Wraith] | Well then, how about it?
-B06.0018 [Wraith] | Wanna go together?
-B06.0019 [Wraith] | My treat.
-B06.0020 [Wraith] | I'll eat enough to make up your share, too, while I'm at it.
-B06.0021 [Tú] | Are you sure the owner won't throw us out halfway through...?
+B06.0001 [Wraith] | Por cierto, ¿sabes qué es un buffet libre?
+B06.0002 [Wraith] | El otro día fui a la Asociación de Trekkers a entregar mi reseña
+B06.0003 [Wraith] | Y vi un restaurante nuevo que abrió a la orilla del camino.
+B06.0004 [Wraith] | Era una especie de buffet que cobraba cincuenta mil Dorra por persona.
+B06.0005 [Tú] | Ah, eso significa que pagas la entrada y luego comes todo lo que quieras
+B06.0006 [Tú] | Yo jamás comería lo suficiente para que valga la pena
+B06.0007 [Tú] | Y el restaurante tampoco te dejaría, de todos modos
+B06.0008 [Tú] | Si no, ¿cómo ganarían dinero?
+B06.0009 [Wraith] | Oh, ¿tú no?
+B06.0010 [Wraith] | Interesante...
+B06.0011 [Tú] | ¿Qué pasa?
+B06.0012 [Tú] | ¿Quieres probarlo, Wraith?
+B06.0013 [Tú] | Siendo tú, seguro podrías comer lo que vale tu dinero con creces
+B06.0014 [Wraith] | Ja, y que lo digas.
+B06.0015 [Wraith] | Una vez pasé una semana entera sin comer y luego me comí casi cien mil Dorra en comida de una sola vez.
+B06.0016 [Wraith] | Cincuenta mil no es nada.
+B06.0017 [Wraith] | Bueno, ¿qué dices?
+B06.0018 [Wraith] | ¿Vamos juntos?
+B06.0019 [Wraith] | Va por mi cuenta.
+B06.0020 [Wraith] | De paso comeré lo suficiente para cubrir también tu parte.
+B06.0021 [Tú] | ¿Seguro que el dueño no nos echará a la mitad...?

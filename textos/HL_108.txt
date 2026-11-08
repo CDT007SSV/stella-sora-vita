@@ -4,263 +4,263 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Kasimira] | Hello
-A01.0002 [Kasimira] | This is my work phone. If you have a commission for me, please contact me by phone
-A01.0003 [Tú] | Sure
+A01.0001 [Kasimira] | Hola
+A01.0002 [Kasimira] | Este es mi celular de trabajo. Si tienes un encargo para mí, contáctame por teléfono
+A01.0003 [Tú] | Claro
 
 ## Conversación A02
-A02.0001 [Tú] | Captain, I want to report something!
+A02.0001 [Tú] | ¡Capitana, quiero reportar algo!
 A02.0002 [Kasimira] | ?
-A02.0003 [Kasimira] | What is it
-A02.0004 [Opción] | Chaton said one day she'll replace you as the captain
-A02.0005 [Opción] | Chaton said "Pfft, one of those days, I'll become the captain"
-A02.0006 [Opción] | Chaton seems to be eying your captaincy
+A02.0003 [Kasimira] | ¿Qué pasa
+A02.0004 [Opción] | Chaton dijo que un día te reemplazará como capitana
+A02.0005 [Opción] | Chaton dijo «Pfft, uno de estos días seré la capitana»
+A02.0006 [Opción] | Parece que Chaton le tiene el ojo a tu puesto de capitana
 A02.0007 [Kasimira] | ...
 A02.0008 [Kasimira] | ...
-A02.0009 [Kasimira] | That's fine
-A02.0010 [Kasimira] | She's always like that
-A02.0011 [Kasimira] | It's the drama queen in her
-A02.0012 [Tú] | The relationships within your troupe seem pretty complicated
-A02.0013 [Kasimira] | It's all fine
-A02.0014 [Kasimira] | Even though she says things like that all the time
-A02.0015 [Kasimira] | Chaton's a real softie at heart
-A02.0016 [Tú] | You know them well
-A02.0017 [Kasimira] | Of course, that's one of the captain's duties
+A02.0009 [Kasimira] | Está bien
+A02.0010 [Kasimira] | Siempre es así
+A02.0011 [Kasimira] | Es la reina del drama que lleva dentro
+A02.0012 [Tú] | Las relaciones dentro de tu compañía parecen bastante complicadas
+A02.0013 [Kasimira] | Todo está bien
+A02.0014 [Kasimira] | Aunque diga cosas así todo el tiempo
+A02.0015 [Kasimira] | Chaton es un pan de Dios en el fondo
+A02.0016 [Tú] | Los conoces bien
+A02.0017 [Kasimira] | Por supuesto, es uno de los deberes de la capitana
 
 ## Conversación A03
-A03.0001 [Tú] | Captain, I want to report something!
+A03.0001 [Tú] | ¡Capitana, quiero reportar algo!
 A03.0002 [Kasimira] | ?
-A03.0003 [Opción] | I saw a Troupe member entering the game room
-A03.0004 [Opción] | Somebody snuck into the game room
-A03.0005 [Opción] | Some Troupe members are hooked on games
-A03.0006 [Kasimira] | I see
-A03.0007 [Kasimira] | Give me the names and I'll double their morning training load tomorrow
-A03.0008 [Kasimira] | But do tell me, how did you find out?
+A03.0003 [Opción] | Vi a un miembro de la Compañía entrando a la sala de juegos
+A03.0004 [Opción] | Alguien se coló en la sala de juegos
+A03.0005 [Opción] | Algunos miembros de la Compañía están enganchados a los juegos
+A03.0006 [Kasimira] | Ya veo
+A03.0007 [Kasimira] | Dame los nombres y mañana duplicaré su carga de entrenamiento matutino
+A03.0008 [Kasimira] | Pero dime, ¿cómo te enteraste?
 A03.0009 [Tú] | ...
-A03.0010 [Kasimira] | You were there, too, weren't you
-A03.0011 [Kasimira] | "Those who dwell in The Wilds cannot afford to neglect their training even for a single day, regret always comes too late."
-A03.0012 [Kasimira] | Of course, this is just one of White Cat Troupe's rules. You do not need to follow it
-A03.0013 [Kasimira] | But I think it does contain a kernel of universal truth
+A03.0010 [Kasimira] | Tú también estabas ahí, ¿verdad?
+A03.0011 [Kasimira] | «Quienes habitan las Tierras Salvajes no pueden permitirse descuidar el entrenamiento ni un solo día, el arrepentimiento siempre llega tarde».
+A03.0012 [Kasimira] | Por supuesto, esta es solo una de las reglas de la Compañía del Gato Blanco. No necesitas seguirla
+A03.0013 [Kasimira] | Pero creo que encierra un fondo de verdad universal
 A03.0014 [Tú] | ...
-A03.0015 [Tú] | (Kasimira is lecturing again...)
-A03.0016 [Kasimira] | Hey, keep your thoughts to yourself
+A03.0015 [Tú] | (Kasimira está sermoneando otra vez...)
+A03.0016 [Kasimira] | Oye, guárdate tus pensamientos
 
 ## Conversación A04
-A04.0001 [Kasimira] | Boss, do you think I've grown old
-A04.0002 [Tú] | What do you mean?
-A04.0003 [Kasimira] | I said something during training
-A04.0004 [Kasimira] | Like, "young people these days are not what they used to be..."
-A04.0005 [Kasimira] | They said I sounded like an old geezer
-A04.0006 [Kasimira] | But that's what our instructors said to us back when I was in training
-A04.0007 [Kasimira] | Could it be that I've fallen behind the times
-A04.0008 [Opción] | Sounds about right for somebody who can't figure out how to use a cellphone
-A04.0009 [Opción] | Yeah, seriously antiquated
-A04.0010 [Opción] | As it turns out, the young people from the previous generation were already no good
-A04.0011 [Kasimira] | No! It's not like that
-A04.0012 [Kasimira] | I just don't want to develop a reliance on phones
-A04.0013 [Tú] | Yeah, yeah
-A04.0014 [Kasimira] | Exactly. So you noticed too...
-A04.0015 [Tú] | But that's why Kasimira is so dependable
+A04.0001 [Kasimira] | Jefe, ¿crees que me he vuelto vieja
+A04.0002 [Tú] | ¿A qué te refieres?
+A04.0003 [Kasimira] | Dije algo durante el entrenamiento
+A04.0004 [Kasimira] | Algo como «los jóvenes de hoy ya no son lo que eran...»
+A04.0005 [Kasimira] | Dijeron que sonaba como una vieja gruñona
+A04.0006 [Kasimira] | Pero eso nos decían nuestros instructores cuando yo estaba en entrenamiento
+A04.0007 [Kasimira] | ¿Será que me he quedado atrás con los tiempos
+A04.0008 [Opción] | Suena a alguien que no sabe usar un celular
+A04.0009 [Opción] | Sí, seriamente anticuada
+A04.0010 [Opción] | Resulta que los jóvenes de la generación anterior ya eran un desastre
+A04.0011 [Kasimira] | ¡No! No es eso
+A04.0012 [Kasimira] | Es que no quiero volverme dependiente de los celulares
+A04.0013 [Tú] | Sí, sí
+A04.0014 [Kasimira] | Exacto. Así que tú también lo notaste...
+A04.0015 [Tú] | Pero por eso Kasimira es tan confiable
 A04.0016 [Kasimira] | ...
-A04.0017 [Kasimira] | Could you not lump me in with the previous generation, please
-A04.0018 [Kasimira] | You aren't that much younger than me, ==PLAYER_NAME==, are you
-A04.0019 [Tú] | Sorry, I said it without thinking
-A04.0020 [Tú] | You're always so reliable, that's why people think of you as older than you actually are
-A04.0021 [Kasimira] | Hum, I knew you are all in cahoots
-A04.0022 [Kasimira] | Whatever
+A04.0017 [Kasimira] | ¿Podrías no meterme en el mismo saco que la generación anterior, por favor
+A04.0018 [Kasimira] | No eres mucho menor que yo, ==PLAYER_NAME==, ¿o sí
+A04.0019 [Tú] | Perdón, lo dije sin pensar
+A04.0020 [Tú] | Siempre eres tan confiable que por eso la gente te considera mayor de lo que eres en realidad
+A04.0021 [Kasimira] | Hum, sabía que todos están confabulados
+A04.0022 [Kasimira] | Como sea
 
 ## Conversación A05
-A05.0001 [Tú] | The White Cat Troupe members all seem to be very interested in the game room
-A05.0002 [Kasimira] | A little bit of relaxation never hurt
-A05.0003 [Kasimira] | Work hard, play hard
-A05.0004 [Kasimira] | So I use access to the game room as a reward aiming to bring the most out of everyone
-A05.0005 [Kasimira] | Besides, who doesn't like games
-A05.0006 [Opción] | Do you play, too?
-A05.0007 [Opción] | I thought the captain wouldn't go in for that sort of thing
-A05.0008 [Opción] | I'm surprised that you think this way
+A05.0001 [Tú] | Los miembros de la Compañía del Gato Blanco parecen estar muy interesados en la sala de juegos
+A05.0002 [Kasimira] | Un poco de relajación nunca está de más
+A05.0003 [Kasimira] | A trabajar duro, a jugar duro
+A05.0004 [Kasimira] | Así que uso el acceso a la sala de juegos como recompensa para sacar lo mejor de cada uno
+A05.0005 [Kasimira] | Además, a quién no le gustan los juegos
+A05.0006 [Opción] | ¿Tú también juegas?
+A05.0007 [Opción] | Pensé que la capitana no se metería en ese tipo de cosas
+A05.0008 [Opción] | Me sorprende que pienses así
 A05.0009 [Kasimira] | ...
-A05.0010 [Kasimira] | You've got the wrong idea about me
-A05.0011 [Kasimira] | Even someone as boring as me can appreciate the fun of gaming
-A05.0012 [Kasimira] | Even mother cats initially teach their kittens to hunt through games
-A05.0013 [Kasimira] | Games are very special to us White Cats
-A05.0014 [Kasimira] | They're a bit like threads that have been passed down through generations...
-A05.0015 [Tú] | Threads?
-A05.0016 [Kasimira] | Yes. Threads that bind us together through friendship and fate
-A05.0017 [Kasimira] | Work hard, play hard, that has always been White Cat's way
+A05.0010 [Kasimira] | Tienes una idea equivocada de mí
+A05.0011 [Kasimira] | Incluso alguien tan aburrida como yo puede apreciar la diversión de jugar
+A05.0012 [Kasimira] | Hasta las gatas madre enseñan al principio a cazar a sus gatitos mediante juegos
+A05.0013 [Kasimira] | Los juegos son algo muy especial para nosotros, los Gatos Blancos
+A05.0014 [Kasimira] | Son un poco como hilos que se han transmitido a través de generaciones...
+A05.0015 [Tú] | ¿Hilos?
+A05.0016 [Kasimira] | Sí. Hilos que nos unen mediante la amistad y el destino
+A05.0017 [Kasimira] | Trabajar duro y jugar duro, esa ha sido siempre la forma del Gato Blanco
 A05.0018 [Tú] | ...
-A05.0019 [Tú] | We talked a lot today
-A05.0020 [Tú] | You talked about a lot of personal stuff on your work phone. Doesn't that go against the rules?
-A05.0021 [Kasimira] | Wait, do you guys use a different phone for personal stuff?
-A05.0022 [Kasimira] | Sorry, this is the only phone I have
-A05.0023 [Tú] | But you said that this was your work phone when we first started
-A05.0024 [Kasimira] | Yes, I initially bought the phone for work purposes
-A05.0025 [Kasimira] | And it's the only phone I have. Is there a problem?
+A05.0019 [Tú] | Hoy hablamos mucho
+A05.0020 [Tú] | Hablaste de muchas cosas personales en tu celular de trabajo. ¿No va contra las reglas?
+A05.0021 [Kasimira] | Espera, ¿ustedes usan otro celular para cosas personales?
+A05.0022 [Kasimira] | Perdón, este es el único celular que tengo
+A05.0023 [Tú] | Pero dijiste que este era tu celular de trabajo cuando empezamos
+A05.0024 [Kasimira] | Sí, compré el celular en un principio con fines laborales
+A05.0025 [Kasimira] | Y es el único celular que tengo. ¿Hay algún problema?
 A05.0026 [Tú] | ...
-A05.0027 [Tú] | Do you know that you're easily misunderstood by others?
+A05.0027 [Tú] | ¿Sabes que los demás te malinterpretan fácilmente?
 A05.0028 [Kasimira] | ?
 
 ## Conversación A06
-A06.0001 [Kasimira] | Boss, do you need tissues
+A06.0001 [Kasimira] | Jefe, ¿necesitas pañuelos desechables
 A06.0002 [Tú] | ?
-A06.0003 [Kasimira] | So here's what happened
-A06.0004 [Kasimira] | When I was shopping today, the supermarket owner told me they were hosting a gacha event
-A06.0005 [Kasimira] | I tried five times but all I got was a measly Fourth Prize
-A06.0006 [Opción] | So it got to you?
-A06.0007 [Opción] | I get it. Coming in fourth sucks
-A06.0008 [Opción] | It's not the top, but it's not the bottom, either...
-A06.0009 [Kasimira] | So in short, now our troupe has extra tissues
-A06.0010 [Tú] | Gotcha. I'll take them for the New Star Guild
-A06.0011 [Kasimira] | Thanks. You are such a big help
+A06.0003 [Kasimira] | Te explico lo que pasó
+A06.0004 [Kasimira] | Cuando estaba de compras hoy, el dueño del supermercado me dijo que estaban haciendo un evento de gacha
+A06.0005 [Kasimira] | Lo intenté cinco veces y lo único que saqué fue un miserable Cuarto Premio
+A06.0006 [Opción] | ¿Así que te afectó?
+A06.0007 [Opción] | Te entiendo. Quedar en cuarto lugar es una lata
+A06.0008 [Opción] | No es lo máximo, pero tampoco lo peor...
+A06.0009 [Kasimira] | En resumen, ahora nuestra compañía tiene pañuelos de sobra
+A06.0010 [Tú] | Entendido. Me los llevo para el Gremio de la Nueva Estrella
+A06.0011 [Kasimira] | Gracias. Eres una gran ayuda
 
 ## Conversación A07
-A07.0001 [Kasimira] | Boss
-A07.0002 [Kasimira] | Do you have some free time to spare
-A07.0003 [Tú] | What is it?
-A07.0004 [Kasimira] | Come to think of it, I didn't get to see you playing the arcade last time
-A07.0005 [Kasimira] | The more I thought about it, the more I thought, what a shame!
-A07.0006 [Kasimira] | How about it? Want to play against me
-A07.0007 [Kasimira] | If I lose, I'll pay for your tokens
-A07.0008 [Opción] | Lower your expectations, please. I'm no good at it
-A07.0009 [Opción] | Nah, there's no way I can beat you!
-A07.0010 [Opción] | I have absolutely no chance
-A07.0011 [Kasimira] | ...?
-A07.0012 [Kasimira] | Really? And here I thought you could give me a run for my money
-A07.0013 [Tú] | I'll go if it's some kind of cooperative game
-A07.0014 [Kasimira] | No problem
-A07.0015 [Kasimira] | Then we can see who contributes more points at the end
-A07.0016 [Tú] | Have you been listening to me at all?
+A07.0001 [Kasimira] | Jefe
+A07.0002 [Kasimira] | ¿Tienes algo de tiempo libre
+A07.0003 [Tú] | ¿Qué pasa?
+A07.0004 [Kasimira] | Ahora que lo pienso, no llegué a verte jugar en la sala de arcade la última vez
+A07.0005 [Kasimira] | Cuanto más lo pensaba, más me decía, ¡qué lástima!
+A07.0006 [Kasimira] | ¿Qué te parece? ¿Quieres jugar contra mí
+A07.0007 [Kasimira] | Si pierdo, te pago las fichas
+A07.0008 [Opción] | Baja tus expectativas, por favor. No se me da bien
+A07.0009 [Opción] | Nah, ¡no hay forma de que te venza!
+A07.0010 [Opción] | No tengo ninguna posibilidad
+A07.0011 [Kasimira] | ¿...?
+A07.0012 [Kasimira] | ¿En serio? Y yo que pensaba que podrías darme batalla
+A07.0013 [Tú] | Iré si es algún tipo de juego cooperativo
+A07.0014 [Kasimira] | Sin problema
+A07.0015 [Kasimira] | Entonces podemos ver quién aporta más puntos al final
+A07.0016 [Tú] | ¿Me has estado escuchando siquiera?
 
 ## Conversación A09
-A09.0001 [Tú] | Captain Kasimira, can I ask you a question?
-A09.0002 [Kasimira] | What is it
-A09.0003 [Kasimira] | No need to be so formal. Out with it
-A09.0004 [Tú] | I always have this feeling that you are different from the rest of the White Cat Troupe members
-A09.0005 [Opción] | The other cats prefer ranged attacks or sniping
-A09.0006 [Opción] | But Kasimira, you seem to be great at melee
-A09.0007 [Opción] | Your area of expertise...seems to differ?
-A09.0008 [Kasimira] | Oh, that
-A09.0009 [Kasimira] | That's a sign of the changing times
-A09.0010 [Kasimira] | The new members have it really easy these days
-A09.0011 [Kasimira] | In the old days, melee training was taken very seriously
-A09.0012 [Kasimira] | But times change
-A09.0013 [Kasimira] | Nowadays, it's hard to find people who can teach CQC skills
-A09.0014 [Tú] | I see...
-A09.0015 [Tú] | Thank you, captain. I'm glad we had this talk
-A09.0016 [Kasimira] | You're welcome. I usually don't get a chance to talk about these things
-A09.0017 [Kasimira] | Talking about White Cat's history makes me happy
+A09.0001 [Tú] | Capitana Kasimira, ¿puedo hacerte una pregunta?
+A09.0002 [Kasimira] | Dime
+A09.0003 [Kasimira] | No hace falta ser tan formal. Suéltalo
+A09.0004 [Tú] | Siempre tengo la sensación de que eres diferente al resto de los miembros de la Compañía del Gato Blanco
+A09.0005 [Opción] | Los otros gatos prefieren los ataques a distancia o la puntería
+A09.0006 [Opción] | Pero Kasimira, parece que eres excelente en el cuerpo a cuerpo
+A09.0007 [Opción] | Tu especialidad...¿parece ser distinta?
+A09.0008 [Kasimira] | Ah, eso
+A09.0009 [Kasimira] | Eso es señal de que los tiempos cambian
+A09.0010 [Kasimira] | Los nuevos miembros lo tienen muy fácil hoy en día
+A09.0011 [Kasimira] | En los viejos tiempos, el entrenamiento cuerpo a cuerpo se tomaba muy en serio
+A09.0012 [Kasimira] | Pero los tiempos cambian
+A09.0013 [Kasimira] | Hoy en día es difícil encontrar a gente que enseñe habilidades de combate cercano
+A09.0014 [Tú] | Ya veo...
+A09.0015 [Tú] | Gracias, capitana. Me alegra que hayamos tenido esta charla
+A09.0016 [Kasimira] | De nada. Normalmente no tengo oportunidad de hablar de estas cosas
+A09.0017 [Kasimira] | Hablar de la historia del Gato Blanco me hace feliz
 
 ## Conversación A10
-A10.0001 [Kasimira] | Thank you for coming to help with our training
-A10.0002 [Kasimira] | Everyone, myself included, have learned a lot
-A10.0003 [Opción] | You are most welcome
-A10.0004 [Opción] | We are partners
-A10.0005 [Opción] | It's natural for Trekkers to help each other
-A10.0006 [Kasimira] | Well-said
-A10.0007 [Kasimira] | Not only are you a good strategist, your character is also truly admirable
-A10.0008 [Kasimira] | You keep surprising me, ==PLAYER_NAME==
-A10.0009 [Kasimira] | My expectation for you keeps growing
+A10.0001 [Kasimira] | Gracias por venir a ayudar con nuestro entrenamiento
+A10.0002 [Kasimira] | Todos, incluida yo, hemos aprendido mucho
+A10.0003 [Opción] | No hay de qué
+A10.0004 [Opción] | Somos compañeros
+A10.0005 [Opción] | Es natural que los Trekkers se ayuden entre sí
+A10.0006 [Kasimira] | Bien dicho
+A10.0007 [Kasimira] | No solo eres un buen estratega, tu carácter también es verdaderamente admirable
+A10.0008 [Kasimira] | Sigues sorprendiéndome, ==PLAYER_NAME==
+A10.0009 [Kasimira] | Mis expectativas sobre ti siguen creciendo
 
 ## Conversación B01
-B01.0001 [Kasimira] | Boss, there's something I want to discuss with you.
-B01.0002 [Tú] | What is it?
+B01.0001 [Kasimira] | Jefe, hay algo que quiero hablar contigo.
+B01.0002 [Tú] | ¿Qué pasa?
 B01.0003 [Kasimira] | ?
-B01.0004 [Kasimira] | You seem surprised?
-B01.0005 [Tú] | No. It's just that even over text, your tone feels serious
-B01.0006 [Tú] | Caught me by surprise
-B01.0007 [Kasimira] | It's about a commission request, after all
-B01.0008 [Kasimira] | Seriousness is warranted
-B01.0009 [Tú] | Then why don't we meet in person?
-B01.0010 [Kasimira] | Would that work?
-B01.0011 [Kasimira] | I thought someone as important as you would always be busy
-B01.0012 [Tú] | Nah, it's not that
-B01.0013 [Tú] | I can always make time for you
-B01.0014 [Kasimira] | Hearing that makes me happy. See you soon
+B01.0004 [Kasimira] | ¿Pareces sorprendido?
+B01.0005 [Tú] | No. Es que incluso por texto, tu tono se siente serio
+B01.0006 [Tú] | Me tomó por sorpresa
+B01.0007 [Kasimira] | Se trata de una solicitud de encargo, después de todo
+B01.0008 [Kasimira] | La seriedad está justificada
+B01.0009 [Tú] | Entonces, ¿por qué no nos vemos en persona?
+B01.0010 [Kasimira] | ¿Se podría?
+B01.0011 [Kasimira] | Pensé que alguien tan importante como tú siempre estaría ocupado
+B01.0012 [Tú] | Nah, no es eso
+B01.0013 [Tú] | Siempre puedo sacar tiempo para ti
+B01.0014 [Kasimira] | Oír eso me alegra. Nos vemos pronto
 
 ## Conversación B02
-B02.0001 [Kasimira] | Lately, I've been deliberately using my phone more often
-B02.0002 [Kasimira] | Sorry if I kept bothering you earlier
-B02.0003 [Tú] | That explains it
-B02.0004 [Tú] | So, what's the reason?
-B02.0005 [Kasimira] | I wanted to overcome a weakness of mine
-B02.0006 [Kasimira] | Then I realized
-B02.0007 [Kasimira] | There's a reason I'm not used to using a phone
-B02.0008 [Kasimira] | Through a screen, you can't observe someone's expressions or body language
-B02.0009 [Kasimira] | It's not an excuse. For people in our line of work, it's about survival
-B02.0010 [Kasimira] | Before taking on a commission
-B02.0011 [Kasimira] | You have to know if the client is trustworthy
-B02.0012 [Tú] | I see
-B02.0013 [Tú] | So once you meet face-to-face, you can figure it out
-B02.0014 [Tú] | Makes sense, most people would have a hard time lying to you
+B02.0001 [Kasimira] | Últimamente he estado usando el celular más seguido a propósito
+B02.0002 [Kasimira] | Perdón si te estuve molestando hace rato
+B02.0003 [Tú] | Eso lo explica
+B02.0004 [Tú] | Entonces, ¿cuál es la razón?
+B02.0005 [Kasimira] | Quería superar una debilidad mía
+B02.0006 [Kasimira] | Entonces me di cuenta
+B02.0007 [Kasimira] | Hay una razón por la que no estoy acostumbrada a usar un celular
+B02.0008 [Kasimira] | A través de una pantalla no puedes observar las expresiones ni el lenguaje corporal de alguien
+B02.0009 [Kasimira] | No es una excusa. Para quienes tenemos nuestro oficio, es cuestión de supervivencia
+B02.0010 [Kasimira] | Antes de aceptar un encargo
+B02.0011 [Kasimira] | Tienes que saber si el cliente es de fiar
+B02.0012 [Tú] | Ya veo
+B02.0013 [Tú] | Así que cuando te reúnes cara a cara, puedes averiguarlo
+B02.0014 [Tú] | Tiene sentido, a la mayoría le costaría mentirte
 
 ## Conversación B03
-B03.0001 [Kasimira] | My hands are getting itchy
-B03.0002 [Opción] | You gonna beat somebody up?
-B03.0003 [Opción] | Wanna go play games in the Monolith?
-B03.0004 [Kasimira] | I'm not some violent maniac
-B03.0005 [Kasimira] | Good idea
-B03.0006 [Kasimira] | But maybe next time
-B03.0007 [Kasimira] | Anyway, enough chatting—I do have something serious to discuss with you
-B03.0008 [Kasimira] | I'm planning to hold a joint drill
-B03.0009 [Kasimira] | This time, not just with our own members
-B03.0010 [Tú] | You want to spar with people outside the White Cat Troupe?
-B03.0011 [Kasimira] | Yes, and I trust that you know plenty of powerful fighters
-B03.0012 [Kasimira] | or individuals thrilled by combat
-B03.0013 [Kasimira] | Maybe you could introduce a few of them to me, for a friendly match?
-B03.0014 [Tú] | Sounds fun. I'll think of some candidates
-B03.0015 [Kasimira] | Thank you, Boss
-B03.0016 [Kasimira] | I'll wait for your good news
+B03.0001 [Kasimira] | Me pican las manos
+B03.0002 [Opción] | ¿Vas a golpear a alguien?
+B03.0003 [Opción] | ¿Quieres ir a jugar en el Monolito?
+B03.0004 [Kasimira] | No soy una maniática violenta
+B03.0005 [Kasimira] | Buena idea
+B03.0006 [Kasimira] | Pero quizá la próxima vez
+B03.0007 [Kasimira] | En fin, basta de charla: tengo algo serio que discutir contigo
+B03.0008 [Kasimira] | Planeo organizar un entrenamiento conjunto
+B03.0009 [Kasimira] | Esta vez, no solo con nuestros propios miembros
+B03.0010 [Tú] | ¿Quieres practicar combate con gente ajena a la Compañía del Gato Blanco?
+B03.0011 [Kasimira] | Sí, y confío en que conoces a muchos combatientes poderosos
+B03.0012 [Kasimira] | o a personas fascinadas por el combate
+B03.0013 [Kasimira] | ¿Quizá podrías presentarme a algunos para un combate amistoso?
+B03.0014 [Tú] | Suena divertido. Pensaré en algunos candidatos
+B03.0015 [Kasimira] | Gracias, Jefe
+B03.0016 [Kasimira] | Esperaré tus buenas noticias
 
 ## Conversación B04
-B04.0001 [Kasimira] | Boss, would you like a gift?
-B04.0002 [Tú] | Huh? What's the occasion?
-B04.0003 [Kasimira] | Nope, just a giveaway
-B04.0004 [Kasimira] | Recently, I played games a bit too much...
-B04.0005 [Tú] | Not just inside the Monolith, I guess?
-B04.0006 [Kasimira] | I jump in and take part whenever I see something fun at a market
-B04.0007 [Kasimira] | And I can't stop before I get the top prize
-B04.0008 [Tú] | And you haven't been banned from all those stalls yet?
-B04.0009 [Kasimira] | I do have a few haters
-B04.0010 [Kasimira] | Especially those sneaky vendors who cheat and set traps for players
-B04.0011 [Kasimira] | What I hate even more than losing is people who can't accept a loss
-B04.0012 [Kasimira] | I expose their tricks after I win
-B04.0013 [Tú] | Those crooks definitely deserve it
-B04.0014 [Tú] | I'm with you!
+B04.0001 [Kasimira] | Jefe, ¿quieres un regalo?
+B04.0002 [Tú] | ¿Eh? ¿Cuál es la ocasión?
+B04.0003 [Kasimira] | Nada, solo es un obsequio
+B04.0004 [Kasimira] | Últimamente he jugado un poco de más...
+B04.0005 [Tú] | ¿No solo dentro del Monolito, supongo?
+B04.0006 [Kasimira] | Me meto y participo cada vez que veo algo divertido en un mercado
+B04.0007 [Kasimira] | Y no puedo parar hasta ganar el premio mayor
+B04.0008 [Tú] | ¿Y no te han vetado de todos esos puestos todavía?
+B04.0009 [Kasimira] | Sí tengo algunos detractores
+B04.0010 [Kasimira] | Sobre todo esos vendedores tramposos que hacen trampa y ponen trampas a los jugadores
+B04.0011 [Kasimira] | Lo que odio más que perder son las personas que no saben aceptar una derrota
+B04.0012 [Kasimira] | Expongo sus trucos después de ganar
+B04.0013 [Tú] | Esos estafadores definitivamente se lo merecen
+B04.0014 [Tú] | ¡Estoy contigo!
 
 ## Conversación B05
-B05.0001 [Kasimira] | Boss, can you go out with me today?
-B05.0002 [Tú] | You need my help with some work?
-B05.0003 [Kasimira] | No, I have just finished my last commission
-B05.0004 [Kasimira] | But on the way back
-B05.0005 [Kasimira] | I ran into a fortune-teller
-B05.0006 [Kasimira] | She said I need someone to accompany me these few days
-B05.0007 [Kasimira] | Or some great misfortune will befall me
-B05.0008 [Kasimira] | What a pain—I wanted some alone time, relaxing
-B05.0009 [Kasimira] | But now I have to ask you to accompany me
-B05.0010 [Tú] | You can't ask your troupe members?
-B05.0011 [Kasimira] | It's hard to go to them with a request like this
-B05.0012 [Kasimira] | I don't want them to get the wrong idea of their leader
-B05.0013 [Opción] | Wrong idea how?
-B05.0014 [Opción] | You just want me to keep you company, don't you?
-B05.0015 [Kasimira] | Alright, that's not the right way to put it.
-B05.0016 [Kasimira] | I don't want to show any weakness in front of others
-B05.0017 [Kasimira] | Is that reason enough?
-B05.0018 [Kasimira] | You saw right through me, Boss. Just as expected.
-B05.0019 [Tú] | Alright, whatever you want, I'm in
+B05.0001 [Kasimira] | Jefe, ¿puedes salir conmigo hoy?
+B05.0002 [Tú] | ¿Necesitas mi ayuda con algún trabajo?
+B05.0003 [Kasimira] | No, acabo de terminar mi último encargo
+B05.0004 [Kasimira] | Pero de regreso
+B05.0005 [Kasimira] | me topé con una adivina
+B05.0006 [Kasimira] | Dijo que necesito que alguien me acompañe estos días
+B05.0007 [Kasimira] | O me ocurrirá una gran desgracia
+B05.0008 [Kasimira] | Qué lata: yo quería algo de tiempo a solas, para relajarme
+B05.0009 [Kasimira] | Pero ahora tengo que pedirte que me acompañes
+B05.0010 [Tú] | ¿No puedes pedírselo a los miembros de tu compañía?
+B05.0011 [Kasimira] | Es difícil acudir a ellos con una petición así
+B05.0012 [Kasimira] | No quiero que se hagan una idea equivocada de su líder
+B05.0013 [Opción] | ¿Una idea equivocada cómo?
+B05.0014 [Opción] | Solo quieres que te haga compañía, ¿verdad?
+B05.0015 [Kasimira] | Está bien, no es la forma correcta de decirlo.
+B05.0016 [Kasimira] | No quiero mostrar debilidad ante los demás
+B05.0017 [Kasimira] | ¿Es razón suficiente?
+B05.0018 [Kasimira] | Me descubriste por completo, Jefe. Justo como esperaba.
+B05.0019 [Tú] | Está bien, lo que quieras, cuenta conmigo
 
 ## Conversación B06
-B06.0001 [Kasimira] | Boss, I suddenly realized we share a common trait
-B06.0002 [Tú] | Yeah?
-B06.0003 [Kasimira] | Even though I don't see it myself
-B06.0004 [Kasimira] | But the people around me all seem to think I really like taking care of others
-B06.0005 [Tú] | A bit too much, perhaps...
-B06.0006 [Tú] | Hey, when you said we share a common trait...
-B06.0007 [Tú] | Surely this is not what you meant?
-B06.0008 [Kasimira] | It is. You're incredibly patient with people
-B06.0009 [Kasimira] | Somehow you grant even the most unreasonable wishes
-B06.0010 [Tú] | In a sense, that's part of my job. I'm the Boss, after all
-B06.0011 [Kasimira] | So you mean... You're just "doing your duty"?
-B06.0012 [Kasimira] | Is that also...
-B06.0013 [Kasimira] | Sorry for my wording, feels like tooting your own horn
-B06.0014 [Tú] | Haha, I doubt anyone would disagree
-B06.0015 [Tú] | Anyway, I'm honored that you think we have something in common
-B06.0016 [Kasimira] | Yes, same here
+B06.0001 [Kasimira] | Jefe, de repente me di cuenta de que compartimos un rasgo en común
+B06.0002 [Tú] | ¿Sí?
+B06.0003 [Kasimira] | Aunque yo misma no lo veo
+B06.0004 [Kasimira] | Pero a la gente a mi alrededor parece que le parece que me encanta cuidar de los demás
+B06.0005 [Tú] | Un poquito demasiado, quizá...
+B06.0006 [Tú] | Oye, cuando dijiste que compartimos un rasgo...
+B06.0007 [Tú] | Seguro no te referías a esto, ¿verdad?
+B06.0008 [Kasimira] | Sí me refería. Eres increíblemente paciente con la gente
+B06.0009 [Kasimira] | De alguna manera concedes hasta los deseos más irrazonables
+B06.0010 [Tú] | En cierto sentido, eso es parte de mi trabajo. Soy el Jefe, después de todo
+B06.0011 [Kasimira] | O sea que quieres decir... ¿Solo estás «cumpliendo con tu deber»?
+B06.0012 [Kasimira] | ¿Eso también es...
+B06.0013 [Kasimira] | Perdón por mis palabras, parece que me estoy echando flores
+B06.0014 [Tú] | Jaja, dudo que alguien esté en desacuerdo
+B06.0015 [Tú] | En fin, me honra que pienses que tenemos algo en común
+B06.0016 [Kasimira] | Sí, igualmente

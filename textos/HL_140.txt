@@ -4,148 +4,148 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Sparkla] | How's Lucky Oasis holding up?
-A01.0002 [Opción] | Loxy's almost out of energy again!
-A01.0003 [Opción] | Loxy's fully charged and cruising at top speed!
-A01.0004 [Sparkla] | Go see Bloc and drop my name. She'll hook you up with a discount!
-A01.0005 [Sparkla] | Awesome! Hit me up if you run into any snags!
-A01.0006 [Sparkla] | Wait... Is "Loxy" what you're calling Lucky Oasis?
-A01.0007 [Tú] | Yep! Cute, right?
-A01.0008 [Sparkla] | Super cute! Mind if I start calling it that too?
-A01.0009 [Tú] | Of course!
+A01.0001 [Sparkla] | ¿Cómo va Lucky Oasis?
+A01.0002 [Opción] | ¡A Loxy casi se le acaba la energía otra vez!
+A01.0003 [Opción] | ¡Loxy está a tope de carga y va a toda velocidad!
+A01.0004 [Sparkla] | ¡Ve a ver a Bloc y menciona mi nombre! ¡Te hará descuento!
+A01.0005 [Sparkla] | ¡Genial! ¡Avísame si te topas con algún problema!
+A01.0006 [Sparkla] | Espera... ¿«Loxy» es como le dices a Lucky Oasis?
+A01.0007 [Tú] | ¡Sip! Lindo, ¿no?
+A01.0008 [Sparkla] | ¡Lindísimo! ¿Te molesta si yo también empiezo a llamarlo así?
+A01.0009 [Tú] | ¡Claro que no!
 
 ## Conversación A02
-A02.0001 [Sparkla] | Hey Boss, if Bloc asks, you haven't heard from me either.
-A02.0002 [Tú] | You two at it again?
-A02.0003 [Sparkla] | I blocked her!
-A02.0004 [Sparkla] | She took on a pile of commissions for Dorra, trying to work me into the ground!
-A02.0005 [Sparkla] | And don't even get me started on the demands...
-A02.0006 [Sparkla] | "I want the stride of my left prosthetic to be exactly ONE centimeter longer than my right."
-A02.0007 [Sparkla] | What is that client thinking?!
-A02.0008 [Tú] | Yeah, that's a seriously odd request.
-A02.0009 [Sparkla] | Right?! See, you get it!
-A02.0010 [Sparkla] | I mean, a single centimeter?!
-A02.0011 [Sparkla] | Why not just let me turn the whole leg into a glider?
-A02.0012 [Sparkla] | Nobody's even going to notice a one-centimeter difference!
-A02.0013 [Sparkla] | Meanwhile, my glider design can launch you a solid 100 meters!
+A02.0001 [Sparkla] | Oye, Jefe, si Bloc pregunta, tampoco has sabido nada de mí.
+A02.0002 [Tú] | ¿Otra vez se pelearon?
+A02.0003 [Sparkla] | ¡La bloqueé!
+A02.0004 [Sparkla] | ¡Aceptó un montón de encargos para Dorra, tratando de matarme de trabajo!
+A02.0005 [Sparkla] | Y ni me hagas hablar de las exigencias...
+A02.0006 [Sparkla] | «Quiero que la zancada de mi prótesis izquierda sea exactamente UN centímetro más larga que la derecha.»
+A02.0007 [Sparkla] | ¡¿En qué estará pensando esa clienta?!
+A02.0008 [Tú] | Sí, es una petición muy rara.
+A02.0009 [Sparkla] | ¡¿Verdad?! ¡Mira, tú sí me entiendes!
+A02.0010 [Sparkla] | ¡Digo, ¿¡un solo centímetro?!
+A02.0011 [Sparkla] | ¿Por qué no me deja convertir toda la pierna en un planeador?
+A02.0012 [Sparkla] | ¡Nadie va a notar una diferencia de un centímetro!
+A02.0013 [Sparkla] | ¡Mientras que mi diseño de planeador puede lanzarte unos buenos 100 metros!
 
 ## Conversación A03
-A03.0001 [Sparkla] | Hey Boss, you ever heard the fairy tale about the Snow Child?
-A03.0002 [Opción] | Rings a bell.
-A03.0003 [Opción] | Nope.
-A03.0004 [Tú] | But I'd rather hear you tell it.
-A03.0005 [Tú] | Let's hear it.
-A03.0006 [Sparkla] | A snow child falls in love with a shepherd.
-A03.0007 [Sparkla] | And the deeper she falls for him,
-A03.0008 [Sparkla] | the warmer her heart grows—
-A03.0009 [Sparkla] | until that very warmth finally melts her away.
-A03.0010 [Tú] | Well, that's a tragic ending...
-A03.0011 [Sparkla] | If only there was a device to keep snowmen from melting!
-A03.0012 [Sparkla] | Wait, I've got an idea!
-A03.0013 [Tú] | What idea?
-A03.0014 [Tú] | Sparkla?
-A03.0015 [Tú] | ?
-A03.0016 [Tú] | Aaaand you're gone.
-A03.0017 [Tú] | Make sure you show me when it's done!
+A03.0001 [Sparkla] | Oye, Jefe, ¿has oído el cuento de hadas de la Niña de Nieve?
+A03.0002 [Opción] | Me suena.
+A03.0003 [Opción] | No.
+A03.0004 [Tú] | Pero prefiero oírlo de ti.
+A03.0005 [Tú] | Cuéntamelo.
+A03.0006 [Sparkla] | Una niña de nieve se enamora de un pastor.
+A03.0007 [Sparkla] | Y cuanto más profundo se enamora de él,
+A03.0008 [Sparkla] | más cálido se vuelve su corazón...
+A03.0009 [Sparkla] | hasta que ese mismo calor termina derritiéndola.
+A03.0010 [Tú] | Vaya, qué final tan trágico...
+A03.0011 [Sparkla] | ¡Si tan solo hubiera un aparato para evitar que los muñecos de nieve se derritan!
+A03.0012 [Sparkla] | ¡Espera, tengo una idea!
+A03.0013 [Tú] | ¿Qué idea?
+A03.0014 [Tú] | ¿Sparkla?
+A03.0015 [Tú] | ¿?
+A03.0016 [Tú] | Y ya se fue.
+A03.0017 [Tú] | ¡Asegúrate de enseñármelo cuando esté listo!
 
 ## Conversación A04
-A04.0001 [Sparkla] | Just gave Boss Pie a massage mode!
-A04.0002 [Sparkla] | Wanna swing by my workshop and try it?
-A04.0003 [Tú] | I get to try it out?
-A04.0004 [Sparkla] | Obviously! You're the muse behind it.
-A04.0005 [Sparkla] | I'd never let it massage anyone else.
-A04.0006 [Sparkla] | Just you.
-A04.0007 [Tú] | I'm honored!
-A04.0008 [Sparkla] | Just let me know when you're free!
-A04.0009 [Sparkla] | Might have a secret surprise, too.
+A04.0001 [Sparkla] | ¡Acabo de darle un modo de masaje a Pastel Jefe!
+A04.0002 [Sparkla] | ¿Quieres pasar a mi taller a probarlo?
+A04.0003 [Tú] | ¿Puedo probarlo?
+A04.0004 [Sparkla] | ¡Obvio! Eres la musa detrás de esto.
+A04.0005 [Sparkla] | Jamás dejaría que masajeara a nadie más.
+A04.0006 [Sparkla] | Solo a ti.
+A04.0007 [Tú] | ¡Es un honor!
+A04.0008 [Sparkla] | ¡Solo avísame cuando estés libre!
+A04.0009 [Sparkla] | Quizá también haya una sorpresa secreta.
 
 ## Conversación A05
-A05.0001 [Sparkla] | Hey Boss, up for a commission?
-A05.0002 [Tú] | Always
-A05.0003 [Tú] | That's my specialty
-A05.0004 [Sparkla] | I'm planning ... a massive workshop overhaul.
-A05.0005 [Sparkla] | Need a hand with a deep clean first.
-A05.0006 [Tú] | Can't Boss Pie do that?
-A05.0007 [Sparkla] | Yeah, but with you here,
-A05.0008 [Sparkla] | we both work way faster!
-A05.0009 [Tú] | I'll pass.
-A05.0010 [Tú] | After all
-A05.0011 [Tú] | Helping a friend isn't a commission
-A05.0012 [Tú] | Right?
-A05.0013 [Sparkla] | You really had me going!
+A05.0001 [Sparkla] | Oye, Jefe, ¿te animas con un encargo?
+A05.0002 [Tú] | Siempre
+A05.0003 [Tú] | Es mi especialidad
+A05.0004 [Sparkla] | Estoy planeando... una renovación enorme del taller.
+A05.0005 [Sparkla] | Antes necesito ayuda con una limpieza a fondo.
+A05.0006 [Tú] | ¿No puede hacerlo Pastel Jefe?
+A05.0007 [Sparkla] | Sí, pero contigo aquí,
+A05.0008 [Sparkla] | ¡los dos trabajamos mucho más rápido!
+A05.0009 [Tú] | Paso.
+A05.0010 [Tú] | Después de todo
+A05.0011 [Tú] | ayudar a una amiga no es un encargo
+A05.0012 [Tú] | ¿Verdad?
+A05.0013 [Sparkla] | ¡Casi me lo creo!
 
 ## Conversación A06
-A06.0001 [Sparkla] | I went to see Doctor Coronis. Used your card!
-A06.0002 [Tú] | So? What did she say?
-A06.0003 [Sparkla] | Yeah, it's about what I figured.
-A06.0004 [Sparkla] | Not much hope for improvement.
-A06.0005 [Sparkla] | The NGO damage really is permanent, just like I thought.
-A06.0006 [Tú] | Sorry I couldn't do more.
-A06.0007 [Sparkla] | Oh, don't be sorry!
-A06.0008 [Sparkla] | I've got all my inventions.
-A06.0009 [Sparkla] | My day-to-day isn't limited at all!
-A06.0010 [Sparkla] | I'll definitely be visiting her a lot more, though!
-A06.0011 [Sparkla] | She's super fascinated by my leg.
-A06.0012 [Sparkla] | And I'm just as fascinated by her eye!
+A06.0001 [Sparkla] | Fui a ver a la doctora Coronis. ¡Usé tu tarjeta!
+A06.0002 [Tú] | ¿Y bien? ¿Qué dijo?
+A06.0003 [Sparkla] | Sí, más o menos lo que me imaginaba.
+A06.0004 [Sparkla] | No hay muchas esperanzas de mejora.
+A06.0005 [Sparkla] | El daño de la ONG de verdad es permanente, tal como pensaba.
+A06.0006 [Tú] | Lamento no haber podido hacer más.
+A06.0007 [Sparkla] | ¡Oh, no lo lamentes!
+A06.0008 [Sparkla] | Tengo todos mis inventos.
+A06.0009 [Sparkla] | ¡Mi día a día no tiene ninguna limitación!
+A06.0010 [Sparkla] | ¡Eso sí, la voy a visitar muchísimo más seguido!
+A06.0011 [Sparkla] | Ella está súper fascinada con mi pierna.
+A06.0012 [Sparkla] | ¡Y yo estoy igual de fascinada con su ojo!
 A06.0013 [Tú] | ...
-A06.0014 [Tú] | That sounds so creepy!!
+A06.0014 [Tú] | ¡¡Eso suena muy escalofriante!!
 
 ## Conversación A07
-A07.0001 [Tú] | ?
-A07.0002 [Tú] | Did you hit the wrong button too?
-A07.0003 [Sparkla] | Whoosh...
-A07.0004 [Sparkla] | You might not believe this,
-A07.0005 [Sparkla] | but those last two messages...
-A07.0006 [Sparkla] | were actually sent by Boss Pie!
-A07.0007 [Sparkla] | Its text recognition module is officially up and running.
-A07.0008 [Sparkla] | Finally had some downtime these past couple of days to finish it up.
-A07.0009 [Sparkla] | Boss Pie isn't an illiterate robot anymore!
-A07.0010 [Tú] | Wait, robots can be illiterate?
-A07.0011 [Sparkla] | Of course! My inventions have to be perfect!
-A07.0012 [Sparkla] | Gotta go, I'm on a roll today!
-A07.0013 [Sparkla] | Gonna install Boss Pie's nursery rhyme player while I'm at it!
+A07.0001 [Tú] | ¿?
+A07.0002 [Tú] | ¿Tú también presionaste el botón equivocado?
+A07.0003 [Sparkla] | Uf...
+A07.0004 [Sparkla] | Quizá no lo creas,
+A07.0005 [Sparkla] | pero esos dos últimos mensajes...
+A07.0006 [Sparkla] | ¡los mandó Pastel Jefe!
+A07.0007 [Sparkla] | Su módulo de reconocimiento de texto ya está oficialmente funcionando.
+A07.0008 [Sparkla] | Por fin tuve algo de tiempo libre estos días para terminarlo.
+A07.0009 [Sparkla] | ¡Pastel Jefe ya no es un robot analfabeto!
+A07.0010 [Tú] | Espera, ¿los robots pueden ser analfabetos?
+A07.0011 [Sparkla] | ¡Claro! ¡Mis inventos tienen que ser perfectos!
+A07.0012 [Sparkla] | ¡Me voy, hoy voy en racha!
+A07.0013 [Sparkla] | ¡Aprovecharé para instalarle a Pastel Jefe un reproductor de canciones de cuna!
 
 ## Conversación A08
-A08.0001 [Sparkla] | Got your birthday card!
-A08.0002 [Sparkla] | Thanks!
-A08.0003 [Tú] | Oh, awesome!
-A08.0004 [Tú] | Weather's been rough lately
-A08.0005 [Tú] | I was worried it'd get delayed
-A08.0006 [Sparkla] | Don't worry.
-A08.0007 [Sparkla] | Starting today, I'm going to try building
-A08.0008 [Sparkla] | a mechanical messenger pigeon
-A08.0009 [Sparkla] | that guarantees on-time delivery in ANY weather!
-A08.0010 [Tú] | Yeah...
-A08.0011 [Tú] | Can't even picture it, honestly.
-A08.0012 [Sparkla] | I love inventing the unimaginable!
-A08.0013 [Sparkla] | Just you wait!
-A08.0014 [Sparkla] | Maybe by your next birthday
-A08.0015 [Sparkla] | a mechanical pigeon will drop by!
+A08.0001 [Sparkla] | ¡Recibí tu tarjeta de cumpleaños!
+A08.0002 [Sparkla] | ¡Gracias!
+A08.0003 [Tú] | ¡Ah, qué bien!
+A08.0004 [Tú] | El clima ha estado feo últimamente
+A08.0005 [Tú] | Me preocupaba que se retrasara
+A08.0006 [Sparkla] | No te preocupes.
+A08.0007 [Sparkla] | A partir de hoy, voy a intentar construir
+A08.0008 [Sparkla] | una paloma mensajera mecánica
+A08.0009 [Sparkla] | ¡que garantice la entrega a tiempo con CUALQUIER clima!
+A08.0010 [Tú] | Sí...
+A08.0011 [Tú] | La verdad, ni me lo imagino.
+A08.0012 [Sparkla] | ¡Me encanta inventar lo inimaginable!
+A08.0013 [Sparkla] | ¡Ya verás!
+A08.0014 [Sparkla] | ¡Quizá para tu próximo cumpleaños
+A08.0015 [Sparkla] | te llegue una paloma mecánica!
 
 ## Conversación A09
-A09.0001 [Sparkla] | Massive Artifact haul today!
-A09.0002 [Opción] | How'd I do as commander?
-A09.0003 [Sparkla] | We hit the jackpot on that run!
-A09.0004 [Sparkla] | That's a whole month's worth of Neo Solution sorted.
-A09.0005 [Sparkla] | But seriously, not a word to Bloc!
-A09.0006 [Sparkla] | I'm hoarding this entire batch for my own inventions.
-A09.0007 [Sparkla] | No way I'm wasting it on her commissions.
-A09.0008 [Tú] | Uh, she actually just texted me
-A09.0009 [Tú] | And I kinda already told her
-A09.0010 [Sparkla] | Aaaaaaaargh!
-A09.0011 [Sparkla] | Dammit, can't believe I'm busted!
+A09.0001 [Sparkla] | ¡Cargamento enorme de Artefactos hoy!
+A09.0002 [Opción] | ¿Qué tal lo hice como comandante?
+A09.0003 [Sparkla] | ¡Nos sacamos la lotería en esta salida!
+A09.0004 [Sparkla] | Con eso ya tengo todo un mes de Neo Solution resuelto.
+A09.0005 [Sparkla] | ¡Pero en serio, ni una palabra a Bloc!
+A09.0006 [Sparkla] | Voy a acaparar todo este lote para mis propios inventos.
+A09.0007 [Sparkla] | De ninguna manera lo voy a desperdiciar en sus encargos.
+A09.0008 [Tú] | Eh, ella acaba de escribirme
+A09.0009 [Tú] | Y más o menos ya se lo dije
+A09.0010 [Sparkla] | ¡¡¡Aaaaaaargh!!!
+A09.0011 [Sparkla] | ¡Maldición, no puedo creer que me hayan descubierto!
 
 ## Conversación A10
-A10.0001 [Sparkla] | Hmm ♪ hmm hmm ♪
-A10.0002 [Sparkla] | This tune has been stuck in my head all week!
-A10.0003 [Tú] | Oh, I know that one
-A10.0004 [Tú] | Sounds like a nursery rhyme
-A10.0005 [Tú] | Super soothing
-A10.0006 [Sparkla] | Right?! That Disc is totally my vibe.
-A10.0007 [Tú] | Keep it, it's yours.
-A10.0008 [Sparkla] | Wait, really?!
-A10.0009 [Sparkla] | I'm assigning Boss Pie to protect it.
-A10.0010 [Sparkla] | 24/7 security detail!
-A10.0011 [Tú] | Hey, let Boss Pie take a break every now and then
-A10.0012 [Tú] | Have some mercy on the poor thing
-A10.0013 [Sparkla] | True. I refuse to become a heartless boss like Bloc.
+A10.0001 [Sparkla] | Mmm ♪ mm mm ♪
+A10.0002 [Sparkla] | ¡Esta melodía lleva toda la semana pegada en mi cabeza!
+A10.0003 [Tú] | Oh, esa me suena
+A10.0004 [Tú] | Parece una canción de cuna
+A10.0005 [Tú] | Muy relajante
+A10.0006 [Sparkla] | ¡¿Verdad?! Ese Disco es totalmente mi onda.
+A10.0007 [Tú] | Quédatelo, es tuyo.
+A10.0008 [Sparkla] | ¡Espera, ¿en serio?!
+A10.0009 [Sparkla] | Voy a asignar a Pastel Jefe para protegerlo.
+A10.0010 [Sparkla] | ¡Guardia de seguridad las 24 horas!
+A10.0011 [Tú] | Oye, deja que Pastel Jefe descanse de vez en cuando
+A10.0012 [Tú] | Ten compasión del pobre
+A10.0013 [Sparkla] | Es verdad. Me niego a convertirme en una jefa sin corazón como Bloc.

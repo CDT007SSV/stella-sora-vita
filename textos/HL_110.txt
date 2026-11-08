@@ -4,324 +4,324 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Firenze] | I've added you. Remember to reply.
-A01.0002 [Firenze] | ... You can reach out to me about things outside of work, too.
-A01.0003 [Tú] | Got it
+A01.0001 [Firenze] | Ya te agregué. Recuerda responder.
+A01.0002 [Firenze] | ... También puedes escribirme por cosas que no sean del trabajo.
+A01.0003 [Tú] | Entendido
 
 ## Conversación A02
-A02.0001 [Firenze] | I need to talk to you about something.
-A02.0002 [Firenze] | Get back to me when you have a minute.
-A02.0003 [Opción] | Is this about work?
-A02.0004 [Opción] | Don't tell me you want me to work overtime?
-A02.0005 [Opción] | Hello, this is an automated reply. Please leave a message.
-A02.0006 [Firenze] | No, don't worry.
-A02.0007 [Firenze] | What kind of monster do you take me for?
-A02.0008 [Firenze] | Eh, this isn't funny.
-A02.0009 [Firenze] | Back to business. It's like this, I recently realized something...
-A02.0010 [Firenze] | As your business partner, I might need more hands-on Trekker experience.
-A02.0011 [Firenze] | Should I get out more and go on a few missions with you?
-A02.0012 [Opción] | That would be a huge help
-A02.0013 [Opción] | You can carry me!
-A02.0014 [Opción] | You're right
-A02.0015 [Firenze] | Understood. You can look forward to it.
+A02.0001 [Firenze] | Necesito hablar contigo de algo.
+A02.0002 [Firenze] | Respóndeme cuando tengas un minuto.
+A02.0003 [Opción] | ¿Es sobre el trabajo?
+A02.0004 [Opción] | ¿No me digas que quieres que haga horas extra?
+A02.0005 [Opción] | Hola, esta es una respuesta automática. Por favor deje un mensaje.
+A02.0006 [Firenze] | No, no te preocupes.
+A02.0007 [Firenze] | ¿Qué clase de monstruo crees que soy?
+A02.0008 [Firenze] | Eh, esto no es gracioso.
+A02.0009 [Firenze] | Volviendo al tema. Es así: hace poco me di cuenta de algo...
+A02.0010 [Firenze] | Como tu socia de negocios, quizá necesito más experiencia práctica como Trekker.
+A02.0011 [Firenze] | ¿Debería salir más y hacer algunas misiones contigo?
+A02.0012 [Opción] | Sería de gran ayuda
+A02.0013 [Opción] | ¡Puedes cargar conmigo!
+A02.0014 [Opción] | Tienes razón
+A02.0015 [Firenze] | Entendido. Puedes esperarlo con ganas.
 
 ## Conversación A03
-A03.0001 [Firenze] | Sorry for bothering you again.
-A03.0002 [Firenze] | Can I ask you something of a private nature?
-A03.0003 [Opción] | How private?
-A03.0004 [Opción] | Ask me anything
-A03.0005 [Opción] | I'm afraid I'm too shy to tell
-A03.0006 [Firenze] | Then I'll be blunt. I didn't get to this position overnight. I've had to work for it.
-A03.0007 [Firenze] | There's a lot to learn, and it's all over the place. Some things that were never written in any book...
-A03.0008 [Tú] | Yes?
-A03.0009 [Firenze] | So... I find you ... very strange...
-A03.0010 [Firenze] | Would it be possible for you to tell me... From where did you learn all this?
-A03.0011 [Opción] | It's a bit of a long story
-A03.0012 [Opción] | I was born with it
-A03.0013 [Opción] | I don't remember
-A03.0014 [Firenze] | I see... I'm sorry for making you uncomfortable.
-A03.0015 [Firenze] | I see. I guess it's a trade secret.
-A03.0016 [Firenze] | I see. Important people forget things quickly.
-A03.0017 [Firenze] | Seems like I'll have to untangle your mysteries myself, bit by bit.
-A03.0018 [Firenze] | Then here's to a pleasant collaboration. And you don't need to be so guarded around me.
-A03.0019 [Tú] | That sounds a bit scary...
+A03.0001 [Firenze] | Perdón por molestarte otra vez.
+A03.0002 [Firenze] | ¿Puedo preguntarte algo de naturaleza privada?
+A03.0003 [Opción] | ¿Qué tan privado?
+A03.0004 [Opción] | Pregúntame lo que quieras
+A03.0005 [Opción] | Me temo que me da demasiada pena contarlo
+A03.0006 [Firenze] | Entonces seré directa. No llegué a esta posición de la noche a la mañana. Tuve que trabajar para lograrlo.
+A03.0007 [Firenze] | Hay mucho que aprender y está por todas partes. Cosas que nunca se escribieron en ningún libro...
+A03.0008 [Tú] | ¿Sí?
+A03.0009 [Firenze] | Así que... Me pareces ... muy extraño...
+A03.0010 [Firenze] | ¿Sería posible que me dijeras... de dónde aprendiste todo esto?
+A03.0011 [Opción] | Es una historia un poco larga
+A03.0012 [Opción] | Nací con ello
+A03.0013 [Opción] | No lo recuerdo
+A03.0014 [Firenze] | Ya veo... Perdón por incomodarte.
+A03.0015 [Firenze] | Ya veo. Supongo que es un secreto comercial.
+A03.0016 [Firenze] | Ya veo. Las personas importantes olvidan rápido.
+A03.0017 [Firenze] | Parece que tendré que desentrañar tus misterios yo misma, poco a poco.
+A03.0018 [Firenze] | Entonces brindo por una colaboración agradable. Y no necesitas estar tan a la defensiva conmigo.
+A03.0019 [Tú] | Eso suena un poco aterrador...
 
 ## Conversación A04
-A04.0001 [Firenze] | Are you asleep?
-A04.0002 [Firenze] | Are you up?
-A04.0003 [Opción] | Can't fall asleep
-A04.0004 [Opción] | Can't wake up
-A04.0005 [Opción] | Eaten yet?
-A04.0006 [Firenze] | Keep me company for a bit. I have some sort of insomnia.
-A04.0007 [Firenze] | Lately I keep dreaming I'm back in school, taking exams, unable to answer the questions.
-A04.0008 [Firenze] | ... Then I wake up with a start.
-A04.0009 [Tú] | Sounds like you have anxiety
-A04.0010 [Firenze] | I see...
-A04.0011 [Firenze] | I guess I've been under too much pressure lately.
-A04.0012 [Firenze] | Any idea as to how to deal with it?
-A04.0013 [Opción] | Eat well
-A04.0014 [Opción] | Have fun
-A04.0015 [Opción] | Sleep a lot
-A04.0016 [Firenze] | Didn't expect the Boss to go for such simple pleasures.
-A04.0017 [Firenze] | Though health concerns do need to be factored into the risk assessment...
-A04.0018 [Firenze] | Is this how smart people entertain themselves?
-A04.0019 [Firenze] | The pleasure of crushing things intellectually... That does help ease anxiety.
-A04.0020 [Firenze] | But I can't sleep, that's the problem...
-A04.0021 [Firenze] | Still, resting with one's eyes closed does bring some calm.
-A04.0022 [Firenze] | Thank you for your suggestions.
-A04.0023 [Tú] | Just a bit of personal experience. Nothing worth mentioning
-A04.0024 [Firenze] | Talking to smart people really is more fun.
-A04.0025 [Firenze] | I like talking to smart people. Please keep it up.
+A04.0001 [Firenze] | ¿Ya te dormiste?
+A04.0002 [Firenze] | ¿Sigues por ahí?
+A04.0003 [Opción] | No puedo dormirme
+A04.0004 [Opción] | No puedo despertarme
+A04.0005 [Opción] | ¿Ya comiste?
+A04.0006 [Firenze] | Hazme compañía un rato. Tengo algo así como insomnio.
+A04.0007 [Firenze] | Últimamente sueño que vuelvo a la escuela, presentando exámenes, sin poder responder las preguntas.
+A04.0008 [Firenze] | ... Y luego me despierto sobresaltada.
+A04.0009 [Tú] | Suena a que tienes ansiedad
+A04.0010 [Firenze] | Ya veo...
+A04.0011 [Firenze] | Supongo que últimamente he estado bajo demasiada presión.
+A04.0012 [Firenze] | ¿Alguna idea de cómo lidiar con ello?
+A04.0013 [Opción] | Comer bien
+A04.0014 [Opción] | Divertirte
+A04.0015 [Opción] | Dormir mucho
+A04.0016 [Firenze] | No esperaba que el Jefe optara por placeres tan simples.
+A04.0017 [Firenze] | Aunque las preocupaciones de salud sí deben considerarse en la evaluación de riesgos...
+A04.0018 [Firenze] | ¿Así se entretiene la gente inteligente?
+A04.0019 [Firenze] | El placer de aplastar las cosas intelectualmente... Eso sí ayuda a aliviar la ansiedad.
+A04.0020 [Firenze] | Pero no puedo dormir, ese es el problema...
+A04.0021 [Firenze] | Aun así, descansar con los ojos cerrados sí da algo de calma.
+A04.0022 [Firenze] | Gracias por tus sugerencias.
+A04.0023 [Tú] | Solo un poco de experiencia personal. Nada digno de mención
+A04.0024 [Firenze] | Hablar con gente inteligente sí que es más divertido.
+A04.0025 [Firenze] | Me gusta hablar con gente inteligente. Por favor, sigue así.
 
 ## Conversación A05
-A05.0001 [Firenze] | Hey, smartie, are you off work yet?
-A05.0002 [Opción] | If I don't reply to you, I'm working
-A05.0003 [Opción] | A TREKKER'S WORK NEVER ENDS
-A05.0004 [Opción] | I love work, and work loves me
-A05.0005 [Firenze] | So diligent.
-A05.0006 [Firenze] | Want to come out for a drink? A special cocktail, plus a bowl of steaming hot noodles.
-A05.0007 [Firenze] | My treat.
-A05.0008 [Opción] | I can't let you do that
-A05.0009 [Opción] | Let's split the bill
-A05.0010 [Opción] | Thank you, then
-A05.0011 [Firenze] | You deserve a small reward every now and then.
-A05.0012 [Firenze] | Is this one of your business principles, too?
-A05.0013 [Firenze] | Good. I like your straightforwardness.
-A05.0014 [Firenze] | I'll see you soon then.
-A05.0015 [Firenze] | Smile for me a bit more once you get off work.
+A05.0001 [Firenze] | Oye, mente brillante, ¿ya saliste del trabajo?
+A05.0002 [Opción] | Si no te respondo, estoy trabajando
+A05.0003 [Opción] | EL TRABAJO DE UN TREKKER NUNCA TERMINA
+A05.0004 [Opción] | Amo el trabajo y el trabajo me ama
+A05.0005 [Firenze] | Tan diligente.
+A05.0006 [Firenze] | ¿Quieres salir a tomar algo? Un cóctel especial, más un tazón de fideos humeantes.
+A05.0007 [Firenze] | Va por mi cuenta.
+A05.0008 [Opción] | No puedo permitirlo
+A05.0009 [Opción] | Dividamos la cuenta
+A05.0010 [Opción] | Gracias, entonces
+A05.0011 [Firenze] | Mereces una pequeña recompensa de vez en cuando.
+A05.0012 [Firenze] | ¿Es este también uno de tus principios de negocios?
+A05.0013 [Firenze] | Bien. Me gusta tu franqueza.
+A05.0014 [Firenze] | Entonces nos vemos pronto.
+A05.0015 [Firenze] | Sonríeme un poco más cuando salgas del trabajo.
 
 ## Conversación A06
-A06.0001 [Firenze] | I've got good news and bad news. Which would you like to hear first?
-A06.0002 [Opción] | Bad news first?
-A06.0003 [Opción] | No such thing as good news
-A06.0004 [Opción] | No, I don't want to
-A06.0005 [Firenze] | Managing expectations by going low before high. A kindred spirit.
-A06.0006 [Firenze] | Nothing dramatic as all that...
-A06.0007 [Firenze] | I understand. Bad news first, then.
-A06.0008 [Firenze] | Alright. The truth is, a few days ago, I gave in to the temptation and bought a lottery ticket.
-A06.0009 [Firenze] | Even though I knew the expected value was negative.
-A06.0010 [Firenze] | An irrational investment... No, speculation.
-A06.0011 [Firenze] | Sigh, I'm already regretting it.
-A06.0012 [Opción] | But you could win something!
-A06.0013 [Opción] | That's the bad news?
-A06.0014 [Opción] | Actually, I buy those, too
-A06.0015 [Firenze] | Yes, that's the bad news.
-A06.0016 [Firenze] | The good news is, I did win.
-A06.0017 [Firenze] | The prize money... I'll give you half.
-A06.0018 [Tú] | S-seriously?
-A06.0019 [Firenze] | Sometimes adding a bit of irrational excitement to a rational life isn't so bad.
-A06.0020 [Tú] | You are the wind beneath my wings!
-A06.0021 [Firenze] | As long as you don't mind. Let's call this a little surprise...
-A06.0022 [Firenze] | I should ask you to do these things together in the future.
+A06.0001 [Firenze] | Tengo buenas y malas noticias. ¿Cuáles quieres oír primero?
+A06.0002 [Opción] | ¿Las malas primero?
+A06.0003 [Opción] | No existen las buenas noticias
+A06.0004 [Opción] | No, no quiero
+A06.0005 [Firenze] | Manejar expectativas bajando primero y subiendo después. Un alma gemela.
+A06.0006 [Firenze] | Nada tan dramático como eso...
+A06.0007 [Firenze] | Entiendo. Entonces las malas primero.
+A06.0008 [Firenze] | Bien. La verdad es que hace unos días cedí a la tentación y compré un billete de lotería.
+A06.0009 [Firenze] | Aunque sabía que el valor esperado era negativo.
+A06.0010 [Firenze] | Una inversión irracional... No, especulación.
+A06.0011 [Firenze] | Suspiro, ya me arrepiento.
+A06.0012 [Opción] | ¡Pero podrías ganar algo!
+A06.0013 [Opción] | ¿Esa es la mala noticia?
+A06.0014 [Opción] | De hecho, yo también compro de esos
+A06.0015 [Firenze] | Sí, esa es la mala noticia.
+A06.0016 [Firenze] | La buena noticia es que sí gané.
+A06.0017 [Firenze] | El premio... Te daré la mitad.
+A06.0018 [Tú] | ¿E-en serio?
+A06.0019 [Firenze] | A veces añadir un poco de emoción irracional a una vida racional no está tan mal.
+A06.0020 [Tú] | ¡Eres el viento bajo mis alas!
+A06.0021 [Firenze] | Siempre que no te moleste. Digamos que es una pequeña sorpresa...
+A06.0022 [Firenze] | Debería pedirte que hagas estas cosas conmigo en el futuro.
 
 ## Conversación A07
-A07.0001 [Firenze] | I...
-A07.0002 [Tú] | You...
-A07.0003 [Firenze] | Maybe I should resign.
-A07.0004 [Opción] | Huh? That's so sudden
-A07.0005 [Opción] | Did something happen?
-A07.0006 [Opción] | No! Partner! Don't!
-A07.0007 [Firenze] | How should I put this...
-A07.0008 [Firenze] | I feel that I've been relying on you too much lately.
-A07.0009 [Firenze] | Whether it's venturing to the Monolith, or company matters.
-A07.0010 [Firenze] | I keep asking for your opinions...
-A07.0011 [Firenze] | ... Ever since I met you, there are more and more factors I have to take into account.
-A07.0012 [Firenze] | Can I still be considered a competent leader?
-A07.0013 [Firenze] | Do my subordinates still trust me?
-A07.0014 [Firenze] | Sometimes I can't help thinking, maybe I should just hand everything over to you.
-A07.0015 [Firenze] | If you become my brain, I'd have it much easier.
-A07.0016 [Opción] | But I like your brain!
-A07.0017 [Opción] | Where did that strong, confident Firenze go?
-A07.0018 [Opción] | You're the best business partner I can have!
-A07.0019 [Firenze] | Hmm, well said.
-A07.0020 [Firenze] | Thank you, ==PLAYER_NAME==.
-A07.0021 [Firenze] | I was only joking.
-A07.0022 [Firenze] | It's time to talk about next quarter's plans. Let's make a fortune together.
+A07.0001 [Firenze] | Yo...
+A07.0002 [Tú] | Tú...
+A07.0003 [Firenze] | Quizá debería renunciar.
+A07.0004 [Opción] | ¿Eh? Qué repentino
+A07.0005 [Opción] | ¿Pasó algo?
+A07.0006 [Opción] | ¡No! ¡Socia! ¡No lo hagas!
+A07.0007 [Firenze] | Cómo decirlo...
+A07.0008 [Firenze] | Siento que últimamente he dependido demasiado de ti.
+A07.0009 [Firenze] | Ya sea aventurarnos al Monolito o asuntos de la empresa.
+A07.0010 [Firenze] | Sigo pidiendo tu opinión...
+A07.0011 [Firenze] | ... Desde que te conocí, hay cada vez más factores que debo tomar en cuenta.
+A07.0012 [Firenze] | ¿Todavía puedo considerarme una líder competente?
+A07.0013 [Firenze] | ¿Mis subordinados todavía confían en mí?
+A07.0014 [Firenze] | A veces no puedo evitar pensar que quizá debería entregártelo todo.
+A07.0015 [Firenze] | Si tú te conviertes en mi cerebro, todo me resultaría mucho más fácil.
+A07.0016 [Opción] | ¡Pero me gusta tu cerebro!
+A07.0017 [Opción] | ¿Adónde se fue esa Firenze fuerte y segura?
+A07.0018 [Opción] | ¡Eres la mejor socia de negocios que puedo tener!
+A07.0019 [Firenze] | Mmm, bien dicho.
+A07.0020 [Firenze] | Gracias, ==PLAYER_NAME==.
+A07.0021 [Firenze] | Solo bromeaba.
+A07.0022 [Firenze] | Es hora de hablar de los planes del próximo trimestre. Hagamos una fortuna entre los dos.
 
 ## Conversación A08
-A08.0001 [Firenze] | Is there something you'd like to say to me?
-A08.0002 [Tú] | Happy birthday!
-A08.0003 [Firenze] | Thanks. Hmm...
-A08.0004 [Tú] | Yeah?
-A08.0005 [Firenze] | I'm just thinking...
-A08.0006 [Firenze] | You remembered my birthday, and you understood what I was really saying.
-A08.0007 [Firenze] | I am very pleased.
-A08.0008 [Tú] | Haha, seeing your reaction just now, I thought you were completely unbothered
-A08.0009 [Firenze] | That ... is what I found to be so strange.
-A08.0010 [Tú] | What do you mean?
-A08.0011 [Firenze] | Just a single sentence, said through a screen.
-A08.0012 [Firenze] | And it got such a big emotional reaction from me...
-A08.0013 [Firenze] | That means you have a lot of influence over both my mind and body.
-A08.0014 [Firenze] | Which makes me become greedy ... for more.
-A08.0015 [Firenze] | Hehe, that's all on you, you know?
-A08.0016 [Tú] | Uh...
-A08.0017 [Tú] | Just what are you planning?
-A08.0018 [Firenze] | It's simple. Verbal congratulations alone aren't enough for me anymore.
-A08.0019 [Firenze] | Come out and have a meal with me.
-A08.0020 [Tú] | That's all? No problem
-A08.0021 [Firenze] | I'll be waiting.
+A08.0001 [Firenze] | ¿Hay algo que quieras decirme?
+A08.0002 [Tú] | ¡Feliz cumpleaños!
+A08.0003 [Firenze] | Gracias. Mmm...
+A08.0004 [Tú] | ¿Sí?
+A08.0005 [Firenze] | Solo estoy pensando...
+A08.0006 [Firenze] | Recordaste mi cumpleaños y entendiste lo que realmente decía.
+A08.0007 [Firenze] | Estoy muy complacida.
+A08.0008 [Tú] | Jaja, al ver tu reacción hace un momento, pensé que no te había importado en absoluto
+A08.0009 [Firenze] | Eso ... es lo que me pareció tan extraño.
+A08.0010 [Tú] | ¿A qué te refieres?
+A08.0011 [Firenze] | Una sola frase, dicha a través de una pantalla.
+A08.0012 [Firenze] | Y provocó en mí una reacción emocional tan grande...
+A08.0013 [Firenze] | Eso significa que tienes mucha influencia sobre mi mente y mi cuerpo.
+A08.0014 [Firenze] | Lo que me vuelve codiciosa ... de más.
+A08.0015 [Firenze] | Jeje, todo eso es culpa tuya, ¿sabes?
+A08.0016 [Tú] | Eh...
+A08.0017 [Tú] | ¿Qué estás tramando exactamente?
+A08.0018 [Firenze] | Es simple. Las felicitaciones verbales ya no me bastan.
+A08.0019 [Firenze] | Sal y come conmigo.
+A08.0020 [Tú] | ¿Eso es todo? Sin problema
+A08.0021 [Firenze] | Te estaré esperando.
 
 ## Conversación A09
-A09.0001 [Firenze] | Smartie.
-A09.0002 [Firenze] | Seems you already understand my style very well.
-A09.0003 [Opción] | Of course
-A09.0004 [Opción] | It's a pleasure working with you
-A09.0005 [Opción] | It's you who has adapted to my style
-A09.0006 [Tú] | It's you who have adapted to my style
-A09.0007 [Firenze] | Our partnership will definitely become a model that everyone admires.
-A09.0008 [Firenze] | Thanks.
-A09.0009 [Firenze] | Keep going, my dear partner.
-A09.0010 [Firenze] | I want to go higher and farther together with you.
+A09.0001 [Firenze] | Mente brillante.
+A09.0002 [Firenze] | Parece que ya entiendes muy bien mi estilo.
+A09.0003 [Opción] | Por supuesto
+A09.0004 [Opción] | Es un placer trabajar contigo
+A09.0005 [Opción] | Eres tú quien se ha adaptado a mi estilo
+A09.0006 [Tú] | Eres tú quien se ha adaptado a mi estilo
+A09.0007 [Firenze] | Nuestra sociedad sin duda se volverá un modelo que todos admiren.
+A09.0008 [Firenze] | Gracias.
+A09.0009 [Firenze] | Sigue así, mi persona de confianza.
+A09.0010 [Firenze] | Quiero llegar más alto y más lejos junto a ti.
 
 ## Conversación A10
-A10.0001 [Firenze] | ... Is this my melody?
-A10.0002 [Firenze] | It's warm, comforting, and simply lovely.
-A10.0003 [Firenze] | Come to think of it, Ruby and Sapphire have been with me for a really long time now...
-A10.0004 [Opción] | They are your faithful friends
-A10.0005 [Opción] | They are my faithful friends
-A10.0006 [Opción] | Us four make the perfect team
-A10.0007 [Firenze] | Don't say that. Working with you makes them very happy.
-A10.0008 [Firenze] | Heh, trying to steal my people? I won't share.
-A10.0009 [Firenze] | It's not just the four of us, is it?
-A10.0010 [Firenze] | But since we're on the topic, shouldn't you hire another secretary... Can Iris really handle everything by herself?
-A10.0011 [Firenze] | Forget it. The business is only just getting on track. I don't mind lending you a hand now and then.
-A10.0012 [Firenze] | Don't overwork yourself. Your health comes first.
+A10.0001 [Firenze] | ... ¿Esta es mi melodía?
+A10.0002 [Firenze] | Es cálida, reconfortante y simplemente encantadora.
+A10.0003 [Firenze] | Ahora que lo pienso, Ruby y Sapphire llevan conmigo muchísimo tiempo...
+A10.0004 [Opción] | Son tus amigas fieles
+A10.0005 [Opción] | Son mis amigas fieles
+A10.0006 [Opción] | Los cuatro formamos el equipo perfecto
+A10.0007 [Firenze] | No digas eso. Trabajar contigo las hace muy felices.
+A10.0008 [Firenze] | Je, ¿intentas robarme a mi gente? No pienso compartir.
+A10.0009 [Firenze] | No somos solo los cuatro, ¿verdad?
+A10.0010 [Firenze] | Pero ya que estamos en el tema, ¿no deberías contratar a otra secretaria...? ¿De verdad Iris puede con todo ella sola?
+A10.0011 [Firenze] | Olvídalo. El negocio apenas está tomando rumbo. No me importa echarte una mano de vez en cuando.
+A10.0012 [Firenze] | No te sobreexijas. Tu salud es lo primero.
 
 ## Conversación B01
-B01.0001 [Firenze] | I had the R&D department develop a new product
-B01.0002 [Firenze] | When you have some free time, come give it a try and let me know what you think
-B01.0003 [Opción] | Roger that
+B01.0001 [Firenze] | Hice que el departamento de I+D desarrollara un producto nuevo
+B01.0002 [Firenze] | Cuando tengas tiempo libre, ven a probarlo y dime qué opinas
+B01.0003 [Opción] | Entendido
 B01.0004 [Opción] | K
 B01.0005 [Firenze] | ...
 B01.0006 [Tú] | ?
-B01.0007 [Tú] | Should I come over right now, then?
-B01.0008 [Firenze] | No, that's not what I meant
-B01.0009 [Firenze] | Just come by whenever you have time
-B01.0010 [Tú] | So what's the new product?
-B01.0011 [Firenze] | A new kind of drink. Lemon milk
-B01.0012 [Tú] | I've heard of chocolate milk and strawberry milk
-B01.0013 [Tú] | But this is the first time I've heard of lemon milk
-B01.0014 [Firenze] | To be precise, it's more like lemon milk tea
-B01.0015 [Firenze] | In addition to lemon and milk, we've added some tea leaves from Cangwu and Matsukawa
-B01.0016 [Tú] | Ah, so that's it
-B01.0017 [Tú] | But if I remember correctly, don't lemon and milk curdle when you mix them together?
-B01.0018 [Firenze] | Normally, yes. But the R&D department managed to develop a special technique to prevent that from happening
-B01.0019 [Firenze] | As for the exact method, that's a trade secret
-B01.0020 [Firenze] | We can talk about it in more detail when you come try it
+B01.0007 [Tú] | ¿Debo ir ahora mismo, entonces?
+B01.0008 [Firenze] | No, no me refería a eso
+B01.0009 [Firenze] | Pasa cuando tengas tiempo
+B01.0010 [Tú] | ¿Y cuál es el producto nuevo?
+B01.0011 [Firenze] | Una bebida nueva. Leche de limón
+B01.0012 [Tú] | He oído hablar de la leche con chocolate y la leche de fresa
+B01.0013 [Tú] | Pero es la primera vez que oigo de la leche de limón
+B01.0014 [Firenze] | Para ser precisa, es más bien un té con leche y limón
+B01.0015 [Firenze] | Además de limón y leche, le añadimos hojas de té de Cangwu y Matsukawa
+B01.0016 [Tú] | Ah, así que era eso
+B01.0017 [Tú] | Pero si mal no recuerdo, ¿el limón y la leche no se cortan al mezclarse?
+B01.0018 [Firenze] | Normalmente sí. Pero el departamento de I+D logró desarrollar una técnica especial para evitar que eso pase
+B01.0019 [Firenze] | En cuanto al método exacto, es un secreto comercial
+B01.0020 [Firenze] | Podemos hablarlo con más detalle cuando vengas a probarlo
 
 ## Conversación B02
-B02.0001 [Firenze] | You there?
-B02.0002 [Tú] | Yup
-B02.0003 [Firenze] | I'd like to ask you for some time off
-B02.0004 [Tú] | Ask ... for what?
-B02.0005 [Firenze] | Time off?
-B02.0006 [Firenze] | You're a shareholder of the United Harvest Philae Company now, remember?
-B02.0007 [Firenze] | In terms of the organizational structure and procedures, that makes you my superior
-B02.0008 [Firenze] | So naturally, I'm submitting my leave request for approval by you
-B02.0009 [Tú] | Well, I suppose that's true...
-B02.0010 [Tú] | But you, asking for time off? Pigs do fly, after all
-B02.0011 [Tú] | You're not sick, are you?
-B02.0012 [Tú] | Is everything okay?
-B02.0013 [Firenze] | No, nothing like that
-B02.0014 [Firenze] | It's just...
-B02.0015 [Firenze] | After going out with you that time
-B02.0016 [Firenze] | I think I finally came to appreciate, at least a little, how important it is to make time for yourself
-B02.0017 [Firenze] | Work hasn't been particularly busy lately, either
-B02.0018 [Firenze] | So I thought I'd take another day off for myself
-B02.0019 [Tú] | Ah, I see
-B02.0020 [Tú] | You scared me for a second there
-B02.0021 [Tú] | Do you need me to come keep you company this time?
-B02.0022 [Firenze] | Don't worry. I know how to relax without you
-B02.0023 [Firenze] | I'm not a child
-B02.0024 [Firenze] | Besides, you haven't finished your work yet, have you?
-B02.0025 [Tú] | Sorry! I'll get back to it right now!
-B02.0026 [Firenze] | Wait! You still haven't approved my leave!
-B02.0027 [Tú] | Approved! Approved!
+B02.0001 [Firenze] | ¿Estás ahí?
+B02.0002 [Tú] | Sip
+B02.0003 [Firenze] | Quisiera pedirte unos días libres
+B02.0004 [Tú] | ¿Pedir ... qué?
+B02.0005 [Firenze] | ¿Días libres?
+B02.0006 [Firenze] | Ahora eres accionista de la Compañía Cosecha Unida Philae, ¿recuerdas?
+B02.0007 [Firenze] | En términos de estructura organizacional y procedimientos, eso te convierte en mi superior
+B02.0008 [Firenze] | Así que, naturalmente, presento mi solicitud de permiso para tu aprobación
+B02.0009 [Tú] | Bueno, supongo que es cierto...
+B02.0010 [Tú] | Pero ¿tú pidiendo días libres? Hasta los cerdos vuelan, después de todo
+B02.0011 [Tú] | No estás enferma, ¿verdad?
+B02.0012 [Tú] | ¿Todo bien?
+B02.0013 [Firenze] | No, nada de eso
+B02.0014 [Firenze] | Es solo que...
+B02.0015 [Firenze] | Después de salir contigo aquella vez
+B02.0016 [Firenze] | creo que por fin llegué a apreciar, al menos un poco, lo importante que es sacar tiempo para uno mismo
+B02.0017 [Firenze] | Tampoco ha habido mucho trabajo últimamente
+B02.0018 [Firenze] | Así que pensé en tomarme otro día libre para mí
+B02.0019 [Tú] | Ah, ya veo
+B02.0020 [Tú] | Me asustaste por un segundo
+B02.0021 [Tú] | ¿Necesitas que vaya a hacerte compañía esta vez?
+B02.0022 [Firenze] | Descuida. Sé relajarme sin ti
+B02.0023 [Firenze] | No soy una niña
+B02.0024 [Firenze] | Además, aún no has terminado tu trabajo, ¿verdad?
+B02.0025 [Tú] | ¡Perdón! ¡Vuelvo a él ahora mismo!
+B02.0026 [Firenze] | ¡Espera! ¡Todavía no has aprobado mi permiso!
+B02.0027 [Tú] | ¡Aprobado! ¡Aprobado!
 
 ## Conversación B03
-B03.0001 [Firenze] | Are you free this weekend?
-B03.0002 [Tú] | No! Nooooo!
-B03.0003 [Firenze] | It's just one day...
-B03.0004 [Tú] | No overtime! No overtime!
-B03.0005 [Tú] | Having only one day off a week is horrible!
-B03.0006 [Tú] | I get home from work on Saturday, collapse into bed, and immediately fall asleep
-B03.0007 [Tú] | By the time I wake up the next day, it's nearly afternoon
-B03.0008 [Tú] | Then I stumble through the rest of the day in a daze, and by the time I get back into bed that night, workday is around the corner!
-B03.0009 [Firenze] | I...
-B03.0010 [Firenze] | Did I say I wanted you to work this weekend?
-B03.0011 [Tú] | Huh?!
-B03.0012 [Tú] | You didn't?
-B03.0013 [Firenze] | Of course not
-B03.0014 [Tú] | Uh, right...
-B03.0015 [Tú] | Then why are you asking about my weekend plans?
-B03.0016 [Firenze] | That fast-food place we went to last time has a new fried chicken flavor
-B03.0017 [Firenze] | I wanted to go try it with you
-B03.0018 [Firenze] | That's why I asked if you were free this weekend
-B03.0019 [Tú] | Phew, false alarm
-B03.0020 [Tú] | Where should I meet you, then?
-B03.0021 [Firenze] | Let's just meet in front of the restaurant
+B03.0001 [Firenze] | ¿Estás libre este fin de semana?
+B03.0002 [Tú] | ¡No! ¡Noooo!
+B03.0003 [Firenze] | Es solo un día...
+B03.0004 [Tú] | ¡Nada de horas extra! ¡Nada de horas extra!
+B03.0005 [Tú] | ¡Tener solo un día libre a la semana es horrible!
+B03.0006 [Tú] | Llego a casa del trabajo el sábado, me desplomo en la cama y me duermo al instante
+B03.0007 [Tú] | Cuando despierto al día siguiente, ya casi es de tarde
+B03.0008 [Tú] | Luego paso el resto del día en un aturdimiento, y cuando vuelvo a la cama esa noche, ¡el día de trabajo ya está a la vuelta de la esquina!
+B03.0009 [Firenze] | Yo...
+B03.0010 [Firenze] | ¿Dije que quería que trabajaras este fin de semana?
+B03.0011 [Tú] | ¿¡Eh!?
+B03.0012 [Tú] | ¿No lo dijiste?
+B03.0013 [Firenze] | Claro que no
+B03.0014 [Tú] | Eh, cierto...
+B03.0015 [Tú] | ¿Entonces por qué preguntas por mis planes del fin de semana?
+B03.0016 [Firenze] | El restaurante de comida rápida al que fuimos la última vez tiene un nuevo sabor de pollo frito
+B03.0017 [Firenze] | Quería ir a probarlo contigo
+B03.0018 [Firenze] | Por eso pregunté si estabas libre este fin de semana
+B03.0019 [Tú] | Uf, falsa alarma
+B03.0020 [Tú] | ¿Dónde nos vemos, entonces?
+B03.0021 [Firenze] | Veámonos frente al restaurante
 
 ## Conversación B04
-B04.0001 [Firenze] | Wait for me in the office at the end of today
-B04.0002 [Opción] | Roger that
+B04.0001 [Firenze] | Espérame en la oficina al final del día de hoy
+B04.0002 [Opción] | Entendido
 B04.0003 [Opción] | K
 B04.0004 [Firenze] | ...
-B04.0005 [Tú] | What?
-B04.0006 [Firenze] | The two of us... At this point we're more than just superior and subordinate, or ordinary coworkers, right?
-B04.0007 [Tú] | Of course we are
-B04.0008 [Firenze] | Hmm...
-B04.0009 [Firenze] | In normal work communications
-B04.0010 [Firenze] | using simple, quick, and efficient ways of responding certainly improves productivity
-B04.0011 [Firenze] | But outside of work, when you're talking to someone you're close to, doesn't it come across as a little distant?
-B04.0012 [Tú] | I never thought you cared about stuff like that
-B04.0013 [Firenze] | Ahem
-B04.0014 [Firenze] | Everyone else in the company talks to me in exactly that tone
-B04.0015 [Firenze] | As a member of the company, I understand it, and I'm happy to see it
-B04.0016 [Firenze] | But with you, it's not the same
-B04.0017 [Firenze] | When the same reply comes from you, I find myself wishing there were a little something more behind it
-B04.0018 [Tú] | I get what you mean!
-B04.0019 [Tú] | I'll be waiting for you in my office after work
-B04.0020 [Tú] | With maximum anticipation~
-B04.0021 [Firenze] | Good. That's the kind of attitude a smart person should have
-B04.0022 [Firenze] | See you
+B04.0005 [Tú] | ¿Qué?
+B04.0006 [Firenze] | Entre nosotros dos... A estas alturas somos más que superior y subordinado, o compañeros de trabajo normales, ¿no?
+B04.0007 [Tú] | Claro que sí
+B04.0008 [Firenze] | Mmm...
+B04.0009 [Firenze] | En las comunicaciones laborales normales
+B04.0010 [Firenze] | usar respuestas simples, rápidas y eficientes sin duda mejora la productividad
+B04.0011 [Firenze] | Pero fuera del trabajo, cuando hablas con alguien cercano, ¿no resulta un poco distante?
+B04.0012 [Tú] | Nunca pensé que te importaran cosas así
+B04.0013 [Firenze] | Ejem
+B04.0014 [Firenze] | Todos los demás en la empresa me hablan exactamente con ese tono
+B04.0015 [Firenze] | Como miembro de la empresa, lo entiendo y me alegra verlo
+B04.0016 [Firenze] | Pero contigo no es lo mismo
+B04.0017 [Firenze] | Cuando la misma respuesta viene de ti, me sorprendo deseando que hubiera algo más detrás
+B04.0018 [Tú] | ¡Entiendo a qué te refieres!
+B04.0019 [Tú] | Te esperaré en mi oficina después del trabajo
+B04.0020 [Tú] | ¡Con la máxima expectación~
+B04.0021 [Firenze] | Bien. Esa es la actitud que debe tener una persona inteligente
+B04.0022 [Firenze] | Nos vemos
 
 ## Conversación B05
-B05.0001 [Firenze] | How has work been lately?
-B05.0002 [Opción] | Pretty good
-B05.0003 [Opción] | It's been really hard
-B05.0004 [Firenze] | That's good to hear
-B05.0005 [Firenze] | If you ever run into any problems
-B05.0006 [Firenze] | make sure you tell me right away
-B05.0007 [Tú] | I'm under so much pressure
-B05.0008 [Firenze] | Oh?
-B05.0009 [Firenze] | What's giving you trouble?
-B05.0010 [Firenze] | Let's hear it
-B05.0011 [Tú] | Actually...
-B05.0012 [Tú] | Umm...
-B05.0013 [Firenze] | What is it? Is it hard to talk about?
-B05.0014 [Firenze] | I understand...
-B05.0015 [Firenze] | At work, there are always going to be problems that are difficult to talk to other people about
-B05.0016 [Firenze] | Maybe you're embarrassed to say it, or maybe you feel like even if the other person knew, they wouldn't be able to help
-B05.0017 [Firenze] | But it's okay
-B05.0018 [Firenze] | As long as you've done your best
+B05.0001 [Firenze] | ¿Cómo va el trabajo últimamente?
+B05.0002 [Opción] | Bastante bien
+B05.0003 [Opción] | Ha sido muy difícil
+B05.0004 [Firenze] | Me alegra oírlo
+B05.0005 [Firenze] | Si alguna vez tienes algún problema
+B05.0006 [Firenze] | asegúrate de decírmelo de inmediato
+B05.0007 [Tú] | Estoy bajo mucha presión
+B05.0008 [Firenze] | ¿Oh?
+B05.0009 [Firenze] | ¿Qué te está dando problemas?
+B05.0010 [Firenze] | Cuéntame
+B05.0011 [Tú] | En realidad...
+B05.0012 [Tú] | Eh...
+B05.0013 [Firenze] | ¿Qué pasa? ¿Es difícil de decir?
+B05.0014 [Firenze] | Entiendo...
+B05.0015 [Firenze] | En el trabajo siempre habrá problemas difíciles de hablar con otras personas
+B05.0016 [Firenze] | Quizá te da vergüenza decirlo, o quizá sientes que aunque la otra persona lo supiera, no podría ayudar
+B05.0017 [Firenze] | Pero está bien
+B05.0018 [Firenze] | Mientras hayas dado lo mejor de ti
 B05.0019 [Tú] | Firenze...
-B05.0020 [Firenze] | How's that? Feel a little better now?
-B05.0021 [Tú] | Yeah! Thank you so much!
+B05.0020 [Firenze] | ¿Qué tal? ¿Te sientes un poco mejor?
+B05.0021 [Tú] | ¡Sí! ¡Muchas gracias!
 
 ## Conversación B06
-B06.0001 [Firenze] | Hmm...
-B06.0002 [Firenze] | Lately, Ruby and Sapphire have been making fun of me again for wearing the same clothes every day
-B06.0003 [Tú] | Hahaha
-B06.0004 [Tú] | They do have a point. Aside from your old school uniform
-B06.0005 [Tú] | I don't think I've ever seen you wearing anything else
-B06.0006 [Firenze] | What? Do you want to see me in my school uniform again?
-B06.0007 [Tú] | N-no, that's not what I'm saying...
-B06.0008 [Firenze] | I don't care either way
-B06.0009 [Firenze] | If you want to see me wear it
-B06.0010 [Tú] | Um...
-B06.0011 [Firenze] | But it really would feel weird, wouldn't it?
-B06.0012 [Firenze] | After all, I graduated ages ago
-B06.0013 [Firenze] | Maybe I'll go to a clothing store sometime
-B06.0014 [Firenze] | And see if there's anything there that actually catches my eye
-B06.0015 [Firenze] | Consider it my way of indulging your wish to see me in different look for once
-B06.0016 [Tú] | I'm looking forward to it
+B06.0001 [Firenze] | Mmm...
+B06.0002 [Firenze] | Últimamente Ruby y Sapphire se han burlado de mí otra vez por llevar la misma ropa todos los días
+B06.0003 [Tú] | Jajaja
+B06.0004 [Tú] | Tienen algo de razón. Aparte de tu viejo uniforme escolar
+B06.0005 [Tú] | creo que nunca te he visto con otra cosa
+B06.0006 [Firenze] | ¿Qué? ¿Quieres verme otra vez con mi uniforme escolar?
+B06.0007 [Tú] | N-no, no es lo que digo...
+B06.0008 [Firenze] | A mí me da igual
+B06.0009 [Firenze] | Si quieres verme con él
+B06.0010 [Tú] | Eh...
+B06.0011 [Firenze] | Pero se sentiría muy raro, ¿no?
+B06.0012 [Firenze] | Después de todo, me gradué hace siglos
+B06.0013 [Firenze] | Quizá vaya algún día a una tienda de ropa
+B06.0014 [Firenze] | Y vea si hay algo que realmente me llame la atención
+B06.0015 [Firenze] | Considéralo mi forma de complacer tu deseo de verme con un look distinto por una vez
+B06.0016 [Tú] | Lo espero con ganas

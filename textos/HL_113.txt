@@ -4,312 +4,312 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Shimiao] | I am Shimiao from Baize Bureau. Would you happen to be ==PLAYER_NAME==?
-A01.0002 [Opción] | Hi! Yes, it's me!
-A01.0003 [Opción] | Yes, ==PLAYER_NAME== reporting in
-A01.0004 [Shimiao] | Okay, now I can confirm that this is your number
-A01.0005 [Tú] | Why? Didn't we add each other face to face?
-A01.0006 [Shimiao] | Yeah, I remember that
-A01.0007 [Shimiao] | It's just protocols
-A01.0008 [Shimiao] | Lately, monsters have been spotted in the wilderness around Cang Wu City
-A01.0009 [Shimiao] | So stay sharp out there
-A01.0010 [Tú] | I see, thanks for the heads-up
-A01.0011 [Shimiao] | I look forward to working with you
+A01.0001 [Shimiao] | Soy Shimiao, de la Oficina Baize. ¿Serías ==PLAYER_NAME==?
+A01.0002 [Opción] | ¡Hola! ¡Sí, soy yo!
+A01.0003 [Opción] | Sí, ==PLAYER_NAME== reportándose
+A01.0004 [Shimiao] | Bien, ahora puedo confirmar que este es tu número
+A01.0005 [Tú] | ¿Por qué? ¿No nos agregamos en persona?
+A01.0006 [Shimiao] | Sí, lo recuerdo
+A01.0007 [Shimiao] | Es solo el protocolo
+A01.0008 [Shimiao] | Últimamente se han avistado monstruos en las tierras salvajes alrededor de la ciudad de Cangwu
+A01.0009 [Shimiao] | Así que mantente alerta
+A01.0010 [Tú] | Ya veo, gracias por el aviso
+A01.0011 [Shimiao] | Espero que trabajemos bien juntos
 
 ## Conversación A02
-A02.0001 [Shimiao] | Reminder from [Baize Bureau]: If you encounter someone claiming to be a Xuan Shi master of feng shui or fortune-telling, please verify their identity with care.
-A02.0002 [Shimiao] | Scams such as "paying to change your fate" or "advance payments required" are common. Please stay vigilant and stay on your guard!
-A02.0003 [Opción] | How would I verify that?
-A02.0004 [Opción] | Cancel
-A02.0005 [Shimiao] | An official Xuan Shi should have a graduation certificate from their Xuanist Association. You may ask them for their registered ID
-A02.0006 [Shimiao] | Once you have the number, send it to Baize Bureau's official number. The on-duty staff for the day will verify its authenticity
-A02.0007 [Tú] | Can I just send it to you directly?
-A02.0008 [Shimiao] | Of course.
-A02.0009 [Shimiao] | Raising fraud awareness is a public duty
-A02.0010 [Tú] | Alright, alright, I get it!
-A02.0011 [Tú] | With someone as responsible as Shimiao... No wonder everyone has such a great impression of Cang Wu!
-A02.0012 [Shimiao] | No, it's not because of me. It's thanks to everyone who lives here.
-A02.0013 [Shimiao] | And... Thank you.
-A02.0014 [Tú] | Hehe, last time we didn't get a chance to fully experience it
-A02.0015 [Tú] | Next time, we must go on an in-depth tour of Cang Wu!
-A02.0016 [Tú] | But first, we have to save enough money
-A02.0017 [Shimiao] | Good luck with that
+A02.0001 [Shimiao] | Recordatorio de [Oficina Baize]: Si te encuentras con alguien que afirme ser maestro Xuan Shi en feng shui o adivinación, verifica su identidad con cuidado.
+A02.0002 [Shimiao] | Estafas como «paga para cambiar tu destino» o «se requiere pago por adelantado» son comunes. ¡Mantente alerta y en guardia!
+A02.0003 [Opción] | ¿Cómo puedo verificarlo?
+A02.0004 [Opción] | Cancelar
+A02.0005 [Shimiao] | Un Xuan Shi oficial debe tener un certificado de graduación de su Asociación Xuanista. Puedes pedirle su número de registro
+A02.0006 [Shimiao] | Cuando lo tengas, envíalo al número oficial de la Oficina Baize. El personal de guardia del día verificará su autenticidad
+A02.0007 [Tú] | ¿Puedo enviártelo directamente a ti?
+A02.0008 [Shimiao] | Por supuesto.
+A02.0009 [Shimiao] | Crear conciencia sobre el fraude es un deber público
+A02.0010 [Tú] | ¡Está bien, está bien, entendido!
+A02.0011 [Tú] | Con alguien tan responsable como Shimiao... ¡con razón todos tienen tan buena impresión de Cangwu!
+A02.0012 [Shimiao] | No, no es gracias a mí. Es gracias a todos los que viven aquí.
+A02.0013 [Shimiao] | Y... gracias.
+A02.0014 [Tú] | Jeje, la última vez no pudimos disfrutarlo por completo
+A02.0015 [Tú] | ¡La próxima vez tenemos que hacer un recorrido a fondo por Cangwu!
+A02.0016 [Tú] | Pero primero, tenemos que juntar suficiente dinero
+A02.0017 [Shimiao] | Mucha suerte con eso
 
 ## Conversación A03
-A03.0001 [Shimiao] | ==PLAYER_NAME==, the Bureau recently received a banner of commendation.
-A03.0002 [Shimiao] | It read, "Shimiaovelous!"
-A03.0003 [Shimiao] | Signed, "Anonymous Passerby Trekker"
-A03.0004 [Shimiao] | Was it from you?
+A03.0001 [Shimiao] | ==PLAYER_NAME==, la Oficina recibió hace poco una pancarta de felicitación.
+A03.0002 [Shimiao] | Decía: «¡Shimiaravillosa!»
+A03.0003 [Shimiao] | Firmada: «Trekker Transeúnte Anónimo»
+A03.0004 [Shimiao] | ¿Fuiste tú?
 A03.0005 [Opción] | Bingo
-A03.0006 [Opción] | Oi? I don't remember such a thing
-A03.0007 [Opción] | Nah, not me. I swear!
-A03.0008 [Tú] | Of course, there was a reason for that
-A03.0009 [Tú] | Oi? Oi oi oi? I don't remember such a thing
-A03.0010 [Shimiao] | You look like you're lying.
-A03.0011 [Tú] | Oh well, busted!
-A03.0012 [Shimiao] | Ah, so it is you.
-A03.0013 [Tú] | Somebody asked me to send that. Somebody who wished to remain anonymous
-A03.0014 [Tú] | You really helped her out and she wanted to thank you
-A03.0015 [Tú] | But she couldn't come visit Cang Wu, so I gave her an idea
-A03.0016 [Shimiao] | You mean, the banner of commendation?
-A03.0017 [Tú] | I suggested that she make a banner of commendation and then get a Post Haste courier to deliver it to Cang Wu
-A03.0018 [Tú] | This way, even though she can't come to thank you in person, she is still able to properly express her gratitude, right?
+A03.0006 [Opción] | ¿Eh? No recuerdo nada de eso
+A03.0007 [Opción] | Nah, yo no fui. ¡Lo juro!
+A03.0008 [Tú] | Claro, hubo una razón para eso
+A03.0009 [Tú] | ¿Eh? ¿Eh, eh, eh? No recuerdo nada de eso
+A03.0010 [Shimiao] | Parece que mientes.
+A03.0011 [Tú] | ¡Bueno, me descubriste!
+A03.0012 [Shimiao] | Ah, entonces fuiste tú.
+A03.0013 [Tú] | Alguien me pidió que la enviara. Alguien que quería permanecer en el anonimato
+A03.0014 [Tú] | Tú le ayudaste mucho y quería agradecerte
+A03.0015 [Tú] | Pero no podía visitar Cangwu, así que le di una idea
+A03.0016 [Shimiao] | ¿Te refieres a la pancarta de felicitación?
+A03.0017 [Tú] | Le sugerí que hiciera una pancarta de felicitación y que un mensajero de Post Haste la entregara en Cangwu
+A03.0018 [Tú] | Así, aunque no pueda ir a agradecerte en persona, puede expresar bien su gratitud, ¿no?
 A03.0019 [Shimiao] | ...
-A03.0020 [Shimiao] | ...Alright, I truly appreciate the thought, but there's no need to send a banner next time
-A03.0021 [Tú] | But banners are like kudos! Those who do good things should be properly recognized!
-A03.0022 [Shimiao] | Fine. But please, use less dramatic terms next time
-A03.0023 [Shimiao] | Now my colleagues keep calling me "Shimiaovelous"
-A03.0024 [Opción] | Would pay to see that.
-A03.0025 [Opción] | Got a video? I want to verify that.
-A03.0026 [Shimiao] | You'd enjoy that, wouldn't you?
+A03.0020 [Shimiao] | ...Está bien, agradezco el gesto, pero no hace falta enviar una pancarta la próxima vez
+A03.0021 [Tú] | ¡Pero las pancartas son como elogios! ¡A quienes hacen cosas buenas hay que reconocerlos como se debe!
+A03.0022 [Shimiao] | De acuerdo. Pero, por favor, usa términos menos dramáticos la próxima vez
+A03.0023 [Shimiao] | Ahora mis colegas no dejan de llamarme «Shimiaravillosa»
+A03.0024 [Opción] | Pagaría por verlo.
+A03.0025 [Opción] | ¿Tienes video? Quiero comprobarlo.
+A03.0026 [Shimiao] | Eso te encantaría, ¿verdad?
 
 ## Conversación A04
-A04.0001 [Shimiao] | I heard that Mirage is a city famous for its love of spicy food?
-A04.0002 [Opción] | You are interested, Shimiao?
-A04.0003 [Opción] | Mirage's love of spice is known far and wide
-A04.0004 [Tú] | That much is true. You are interested, Shimiao?
-A04.0005 [Tú] | It seems Mirage's fame for spiciness has traveled far and wide, even reaching the people of Cang Wu!
-A04.0006 [Shimiao] | It just so happens that Fenghuang Diner is holding this competition called "No Spice No Life."
+A04.0001 [Shimiao] | Escuché que Mirage es una ciudad famosa por su amor a la comida picante, ¿cierto?
+A04.0002 [Opción] | ¿Te interesa, Shimiao?
+A04.0003 [Opción] | El amor de Mirage por el picante es conocido en todas partes
+A04.0004 [Tú] | Eso es cierto. ¿Te interesa, Shimiao?
+A04.0005 [Tú] | ¡Parece que la fama picante de Mirage ha viajado lejos, hasta llegar a la gente de Cangwu!
+A04.0006 [Shimiao] | Justo ahora el Comedor Fenghuang está celebrando un concurso llamado «Sin picante no hay vida».
 A04.0007 [Tú] | ...
-A04.0008 [Shimiao] | They're soliciting opinions from restaurant-goers.
-A04.0009 [Shimiao] | Especially the customers who frequent the ultra-spicy hotpot restaurants in the city—they all received a questionnaire.
-A04.0010 [Tú] | So eating spicy food is one of your hobbies, Shimiao?
-A04.0011 [Shimiao] | Well, it's a bit complicated, but I do frequent hotpot restaurants a lot.
-A04.0012 [Shimiao] | The questionnaire asked whether they would be willing to try specialty foods from other cities, such as Mirage's ultra-spicy wrap.
-A04.0013 [Shimiao] | So I'm thinking, if Fenghuang Diner really ends up inviting Mirage's restaurants to Cang Wu for the event...
-A04.0014 [Shimiao] | The Bureau and the Loong Guards must make plans for the occasion.
-A04.0015 [Tú] | You are planning so far ahead...
-A04.0016 [Shimiao] | Better safe than sorry.
-A04.0017 [Shimiao] | We've got a saying in Cang Wu: Failing to plan is planning to fail
-A04.0018 [Shimiao] | Anything you do, preparation leads to success, while a lack of preparation leads to failure.
-A04.0019 [Shimiao] | ==PLAYER_NAME==, if you are interested in Loong sayings, you can refer to this book, "Loong Proverbs and Idioms: A Compendium."
+A04.0008 [Shimiao] | Están recogiendo opiniones de los comensales.
+A04.0009 [Shimiao] | Sobre todo de los clientes que frecuentan los restaurantes de hotpot ultrapicante de la ciudad: todos recibieron un cuestionario.
+A04.0010 [Tú] | ¿Así que comer picante es uno de tus pasatiempos, Shimiao?
+A04.0011 [Shimiao] | Bueno, es un poco complicado, pero sí voy mucho a restaurantes de hotpot.
+A04.0012 [Shimiao] | El cuestionario preguntaba si estarían dispuestos a probar especialidades de otras ciudades, como el wrap ultrapicante de Mirage.
+A04.0013 [Shimiao] | Así que estoy pensando que, si el Comedor Fenghuang termina invitando a los restaurantes de Mirage a Cangwu para el evento...
+A04.0014 [Shimiao] | La Oficina y la Guardia Loong deberán hacer planes para la ocasión.
+A04.0015 [Tú] | Planeas con mucha anticipación...
+A04.0016 [Shimiao] | Más vale prevenir que lamentar.
+A04.0017 [Shimiao] | En Cangwu tenemos un dicho: quien no planea, planea fracasar
+A04.0018 [Shimiao] | Hagas lo que hagas, la preparación lleva al éxito y la falta de ella, al fracaso.
+A04.0019 [Shimiao] | ==PLAYER_NAME==, si te interesan los dichos loong, puedes consultar este libro, «Proverbios y modismos loong: compendio».
 
 ## Conversación A05
-A05.0001 [Opción] | Who are you! Why are you using such cute emoji stickers!
-A05.0002 [Tú] | You are not the Shimiao I know!
-A05.0003 [Shimiao] | That wasn't me.
-A05.0004 [Shimiao] | It's my day off. I'm tutoring the neighbor's kid. She took my phone when I wasn't paying attention.
-A05.0005 [Shimiao] | And...sent you a bunch of things.
-A05.0006 [Shimiao] | Sorry.
-A05.0007 [Opción] | Your emoji stickers were really cute
-A05.0008 [Opción] | Send me more
-A05.0009 [Tú] | Your emoji stickers were really cute~
-A05.0010 [Tú] | I'm shocked! I cannot imagine you had saved emoji stickers like those
-A05.0011 [Tú] | Send them to me! Even I don't have those!
-A05.0012 [Tú] | I'm shocked! I cannot imagine you had saved emoji stickers like those
-A05.0013 [Shimiao] | These are from my colleagues at the bureau. They use them a lot when they're chatting with each other
-A05.0014 [Shimiao] | And you seem to like them, too.
-A05.0015 [Tú] | Sending an emoji every now and then makes the conversation feel way more relaxed
-A05.0016 [Shimiao] | I see...
-A05.0017 [Tú] | You should use them, too, Shimiao! You have so many saved already!
-A05.0018 [Shimiao] | I was thinking about that... So...
-A05.0019 [Shimiao] | Could I practice using them on you?
-A05.0020 [Shimiao] | Until I can master the timing of emoji sticker usage.
-A05.0021 [Tú] | Sure thing! I'm calling it right now—you'll love them so much that you won't be able to have a phone convo without them!
+A05.0001 [Opción] | ¡¿Quién eres?! ¡¿Por qué usas stickers tan lindos?!
+A05.0002 [Tú] | ¡Tú no eres la Shimiao que conozco!
+A05.0003 [Shimiao] | Esa no fui yo.
+A05.0004 [Shimiao] | Es mi día libre. Estoy dando clases particulares al hijo de una vecina. Me quitó el celular cuando me descuidé.
+A05.0005 [Shimiao] | Y... te mandó un montón de cosas.
+A05.0006 [Shimiao] | Perdón.
+A05.0007 [Opción] | Tus stickers estaban muy lindos
+A05.0008 [Opción] | Mándame más
+A05.0009 [Tú] | ¡Tus stickers estaban muy lindos~!
+A05.0010 [Tú] | ¡Estoy en shock! No imaginaba que tuvieras stickers así guardados
+A05.0011 [Tú] | ¡Mándamelos! ¡Ni yo los tengo!
+A05.0012 [Tú] | ¡Estoy en shock! No imaginaba que tuvieras stickers así guardados
+A05.0013 [Shimiao] | Son de mis colegas de la oficina. Los usan mucho cuando chatean entre ellos
+A05.0014 [Shimiao] | Y a ti también parecen gustarte.
+A05.0015 [Tú] | Mandar un sticker de vez en cuando hace la conversación mucho más relajada
+A05.0016 [Shimiao] | Ya veo...
+A05.0017 [Tú] | ¡Tú también deberías usarlos, Shimiao! ¡Ya tienes muchísimos guardados!
+A05.0018 [Shimiao] | Estaba pensando en eso... Entonces...
+A05.0019 [Shimiao] | ¿Puedo practicar usándolos contigo?
+A05.0020 [Shimiao] | Hasta dominar el momento adecuado para usar un sticker.
+A05.0021 [Tú] | ¡Claro que sí! Ahora mismo lo hago: ¡te van a gustar tanto que no podrás tener una charla por celular sin ellos!
 
 ## Conversación A06
-A06.0001 [Shimiao] | Aobelle's tour seems to be adding another show in Cang Wu.
-A06.0002 [Opción] | Since you said it, Shimiao, it must be happening!
-A06.0003 [Opción] | Really?
-A06.0004 [Tú] | Since you said, Shimiao, I’m sure it’s true!
-A06.0005 [Shimiao] | Thank you for trusting in me.
-A06.0006 [Tú] | Eh eh eh? Really? Really?!
-A06.0007 [Shimiao] | Yes. We've received a permit application from Aobelle's team and are already drafting a crowd control plan for the event
-A06.0008 [Tú] | It is good to see you are using the emoji stickers so fluently now...
-A06.0009 [Tú] | There's nothing left for me to teach you, Shimiao!
-A06.0010 [Shimiao] | Recently, my colleagues at the bureau have been initiating conversations with me much more frequently than before
-A06.0011 [Shimiao] | Of course, only on phone
-A06.0012 [Shimiao] | They prefer to communicate with me via phone
-A06.0013 [Tú] | After all... You do look very intimidating in person!
-A06.0014 [Tú] | A journey of a thousand miles begins with a single step... I'm using that saying correctly, right?
-A06.0015 [Shimiao] | Your mastery of Loong sayings puts the preschoolers in Cang Wu to shame
-A06.0016 [Tú] | ...Go me!
+A06.0001 [Shimiao] | Parece que la gira de Aobelle añadirá otro show en Cangwu.
+A06.0002 [Opción] | Si lo dices tú, Shimiao, ¡seguro va a pasar!
+A06.0003 [Opción] | ¿En serio?
+A06.0004 [Tú] | ¡Si lo dices tú, Shimiao, seguro es verdad!
+A06.0005 [Shimiao] | Gracias por confiar en mí.
+A06.0006 [Tú] | ¿¡Eh, eh, eh!? ¿¡En serio, en serio!?
+A06.0007 [Shimiao] | Sí. Recibimos una solicitud de permiso del equipo de Aobelle y ya estamos redactando un plan de control de multitudes para el evento
+A06.0008 [Tú] | Qué bueno ver que ya usas los stickers con tanta soltura...
+A06.0009 [Tú] | ¡Ya no tengo nada más que enseñarte, Shimiao!
+A06.0010 [Shimiao] | Últimamente, mis colegas de la oficina me inician conversación con mucha más frecuencia que antes
+A06.0011 [Shimiao] | Claro, solo por celular
+A06.0012 [Shimiao] | Prefieren comunicarse conmigo por celular
+A06.0013 [Tú] | Después de todo... ¡en persona sí das mucho miedo!
+A06.0014 [Tú] | Un viaje de mil millas comienza con un solo paso... ¿Estoy usando bien ese dicho, verdad?
+A06.0015 [Shimiao] | Tu dominio de los dichos loong deja en ridículo a los niños de preescolar de Cangwu
+A06.0016 [Tú] | ...¡Bien por mí!
 
 ## Conversación A07
-A07.0001 [Shimiao] | I'm going to buy some tools to put into my Multifunction Ruler Box tomorrow.
-A07.0002 [Opción] | Shimiao's Miaovelous Sword!
-A07.0003 [Opción] | What is a sword-shaped Multifunction Ruler Box?
-A07.0004 [Tú] | It's known as Shimiao's Miaovelous Sword!
-A07.0005 [Shimiao] | Fine, it's Shimiao's Miaovelous Sword then.
-A07.0006 [Tú] | I know it only by Shimiao's Miaovelous Sword!
-A07.0007 [Shimiao] | Fine, it's Shimiao's Miaovelous Sword then.
-A07.0008 [Shimiao] | So if there's anything you want put into it, let me know and I'll buy it
-A07.0009 [Tú] | What about snacks?
-A07.0010 [Tú] | That way we can munch on them whenever we want!
-A07.0011 [Shimiao] | In theory, the storage box can hold anything
-A07.0012 [Shimiao] | That includes snacks
-A07.0013 [Shimiao] | Please make a list of snacks you want to eat. I'll try to buy everything I can find here in Cang Wu for you
-A07.0014 [Tú] | Shimiao... Shimiao... Right now, you're as amazing as that amazing Blue Round-Headed Cat!
-A07.0015 [Shimiao] | A Blue Round-Headed Cat? What's that?
-A07.0016 [Tú] | It's the protagonist of a Monolith movie
-A07.0017 [Tú] | It can pull out all sorts of things from its pocket to solve problems for its friends!
-A07.0018 [Shimiao] | Sounds interesting
-A07.0019 [Shimiao] | Next time, take me to see that movie too, please?
-A07.0020 [Tú] | It's a deal then—no backing out, okay?
+A07.0001 [Shimiao] | Mañana voy a comprar herramientas para meter en mi Regla Multifunción.
+A07.0002 [Opción] | ¡La Espada Miaravillosa de Shimiao!
+A07.0003 [Opción] | ¿Qué es una Regla Multifunción con forma de espada?
+A07.0004 [Tú] | ¡Se conoce como la Espada Miaravillosa de Shimiao!
+A07.0005 [Shimiao] | Está bien, entonces es la Espada Miaravillosa de Shimiao.
+A07.0006 [Tú] | ¡Yo solo la conozco como la Espada Miaravillosa de Shimiao!
+A07.0007 [Shimiao] | Está bien, entonces es la Espada Miaravillosa de Shimiao.
+A07.0008 [Shimiao] | Así que si quieres que guarde algo ahí, avísame y lo compraré
+A07.0009 [Tú] | ¿Y botanas?
+A07.0010 [Tú] | ¡Así podríamos comerlas cuando queramos!
+A07.0011 [Shimiao] | En teoría, la caja de almacenamiento puede guardar cualquier cosa
+A07.0012 [Shimiao] | Incluidas las botanas
+A07.0013 [Shimiao] | Haz una lista de las botanas que quieres comer. Intentaré comprarte todo lo que encuentre aquí en Cangwu
+A07.0014 [Tú] | Shimiao... Shimiao... ¡Ahora eres tan increíble como el increíble Gato Azul Cabezón!
+A07.0015 [Shimiao] | ¿Un Gato Azul Cabezón? ¿Qué es eso?
+A07.0016 [Tú] | Es el protagonista de una película del Monolito
+A07.0017 [Tú] | ¡Saca todo tipo de cosas de su bolsillo para resolver los problemas de sus amigos!
+A07.0018 [Shimiao] | Suena interesante
+A07.0019 [Shimiao] | La próxima vez, llévame a ver esa película también, ¿sí?
+A07.0020 [Tú] | Entonces es un trato: nada de echarse para atrás, ¿va?
 
 ## Conversación A08
-A08.0001 [Shimiao] | ==PLAYER_NAME==, Iris has told me of your plan
-A08.0002 [Opción] | Huh? What are you talking about?
+A08.0001 [Shimiao] | ==PLAYER_NAME==, Iris me contó tu plan
+A08.0002 [Opción] | ¿Eh? ¿De qué hablas?
 A08.0003 [Opción] | No... Iris...
-A08.0004 [Tú] | No... Iris... How did she spoil the surprise?
-A08.0005 [Shimiao] | She didn't mean to...
-A08.0006 [Shimiao] | We were having dessert together. She said you want her to pick out a cake
-A08.0007 [Tú] | Yeah, I did ask for her help
-A08.0008 [Tú] | Fine. I was trying to pick a birthday cake for you
-A08.0009 [Tú] | Look!!!
-A08.0010 [Shimiao] | Uh, it's... It's nice
-A08.0011 [Tú] | The photo doesn't do it justice
-A08.0012 [Tú] | This flower on the cake can spin while playing the birthday song!
-A08.0013 [Tú] | This is the most unique birthday cake in the entire continent, bar none
-A08.0014 [Tú] | You should be getting it soon!
-A08.0015 [Shimiao] | Ah... I am hearing the doorbell
+A08.0004 [Tú] | No... Iris... ¿Cómo arruinó la sorpresa?
+A08.0005 [Shimiao] | No fue su intención...
+A08.0006 [Shimiao] | Estábamos comiendo postre juntas. Dijo que quieres que ella elija un pastel
+A08.0007 [Tú] | Sí, le pedí ayuda
+A08.0008 [Tú] | Bueno, está bien. Estaba escogiendo un pastel de cumpleaños para ti
+A08.0009 [Tú] | ¡¡¡Mira!!!
+A08.0010 [Shimiao] | Eh, es... Es bonito
+A08.0011 [Tú] | La foto no le hace justicia
+A08.0012 [Tú] | ¡Esta flor del pastel puede girar mientras toca la canción de cumpleaños!
+A08.0013 [Tú] | Es el pastel de cumpleaños más único de todo el continente, sin discusión
+A08.0014 [Tú] | ¡Ya debería estar por llegarte!
+A08.0015 [Shimiao] | Ah... Escucho el timbre
 A08.0016 [Shimiao] | ...
 A08.0017 [Shimiao] | ...
-A08.0018 [Shimiao] | The entire office has gathered around me to watch the cake
-A08.0019 [Shimiao] | The cake is great but I have just one question
-A08.0020 [Shimiao] | How can I turn this flower off? It doesn't seem to stop
-A08.0021 [Tú] | Haha, I forgot to tell you...
-A08.0022 [Tú] | It will only stop the music and the spinning when it runs out of magic power
-A08.0023 [Shimiao] | How long would that take?
-A08.0024 [Tú] | This one is the super long-lasting model; I heard it can spin for three days and nights straight!
-A08.0025 [Shimiao] | Okay. This is truly the most unique birthday cake in the entire continent, bar none
+A08.0018 [Shimiao] | Toda la oficina se reunió a mi alrededor para ver el pastel
+A08.0019 [Shimiao] | El pastel es genial, pero tengo una sola pregunta
+A08.0020 [Shimiao] | ¿Cómo apago esta flor? Parece que no se detiene
+A08.0021 [Tú] | Jaja, olvidé decírtelo...
+A08.0022 [Tú] | Solo detiene la música y el giro cuando se le acaba el poder mágico
+A08.0023 [Shimiao] | ¿Cuánto tardará eso?
+A08.0024 [Tú] | ¡Este es el modelo superduradero; escuché que puede girar tres días con sus noches seguidos!
+A08.0025 [Shimiao] | De acuerdo. Es realmente el pastel de cumpleaños más único de todo el continente, sin discusión
 
 ## Conversación A09
-A09.0001 [Shimiao] | New Star Guild's training method is right on par with the large guilds
-A09.0002 [Opción] | How can you tell?
-A09.0003 [Shimiao] | For example, just now, Noya suddenly stepped into the trap you had set up
-A09.0004 [Shimiao] | It helped honing everyone's trap-disarming skills
-A09.0005 [Shimiao] | And then there's Amber, leading everyone in tracking the migration of Shrubshews family through these woods
-A09.0006 [Tú] | Ahaha...
-A09.0007 [Tú] | It's as you say. All these were planned training exercises...
+A09.0001 [Shimiao] | El método de entrenamiento del Gremio de la Nueva Estrella está a la par de los grandes gremios
+A09.0002 [Opción] | ¿Cómo lo sabes?
+A09.0003 [Shimiao] | Por ejemplo, hace un momento Noya pisó de repente la trampa que habías puesto
+A09.0004 [Shimiao] | Sirvió para afinar la habilidad de todos para desactivar trampas
+A09.0005 [Shimiao] | Y luego está Amber, guiando a todos en el rastreo de la migración de la familia de Shrubshrews por estos bosques
+A09.0006 [Tú] | Jaja...
+A09.0007 [Tú] | Tal como dices. Todo esto eran ejercicios de entrenamiento planeados...
 
 ## Conversación A10
-A10.0001 [Shimiao] | I wrote a letter to my sister yesterday
-A10.0002 [Opción] | Huh, that came out of nowhere
-A10.0003 [Shimiao] | It's because of the Disc that you gave me...
-A10.0004 [Tú] | It brought back memories?
-A10.0005 [Shimiao] | Yes.
-A10.0006 [Shimiao] | I was attending my sister's graduation ceremony along with my parents
-A10.0007 [Shimiao] | She was Yanquan Academy's top graduate of her grade. She even gave a speech as the student representative
-A10.0008 [Tú] | Wow, your whole family is so accomplished!
-A10.0009 [Shimiao] | I could never compare to my sister
-A10.0010 [Shimiao] | She's pretty famous in Cang Wu. She gets a lot of attention
-A10.0011 [Shimiao] | My parents are very proud of my sister.
-A10.0012 [Opción] | And I'm sure now they're very proud of you, too, Shimiao!
-A10.0013 [Shimiao] | Haha.
-A10.0014 [Shimiao] | I wasn't looking for someone to comfort me, but thank you
-A10.0015 [Shimiao] | It's just that the Disc brought back these memories for me
+A10.0001 [Shimiao] | Ayer le escribí una carta a mi hermana
+A10.0002 [Opción] | Vaya, qué repentino
+A10.0003 [Shimiao] | Es por el Disco que me diste...
+A10.0004 [Tú] | ¿Te trajo recuerdos?
+A10.0005 [Shimiao] | Sí.
+A10.0006 [Shimiao] | Estaba en la ceremonia de graduación de mi hermana junto con mis padres
+A10.0007 [Shimiao] | Fue la mejor graduada de su generación en la Academia Yanquan. Incluso dio un discurso como representante estudiantil
+A10.0008 [Tú] | ¡Guau, toda tu familia es muy brillante!
+A10.0009 [Shimiao] | Yo nunca podría compararme con mi hermana
+A10.0010 [Shimiao] | Es bastante famosa en Cangwu. Recibe mucha atención
+A10.0011 [Shimiao] | Mis padres están muy orgullosos de mi hermana.
+A10.0012 [Opción] | ¡Y seguro que ahora también están muy orgullosos de ti, Shimiao!
+A10.0013 [Shimiao] | Jaja.
+A10.0014 [Shimiao] | No buscaba que me consolaras, pero gracias
+A10.0015 [Shimiao] | Es solo que el Disco me trajo estos recuerdos
 
 ## Conversación B01
-B01.0001 [Shimiao] | There was an incident in Cangwu today.
-B01.0002 [Shimiao] | A kid accidentally threw a firecracker into someone's yard and set some stuff on fire.
-B01.0003 [Opción] | That's super dangerous!
-B01.0004 [Shimiao] | Luckily they noticed it fast, and the yard didn't have much in it, so the damage wasn't too bad.
-B01.0005 [Tú] | That really is a relief.
-B01.0006 [Tú] | It's been so dry lately, we all need to be careful.
-B01.0007 [Shimiao] | I thought the same, so I drafted a proposal today to run some fire-safety campaigns in Cangwu to raise awareness.
-B01.0008 [Shimiao] | Although...
-B01.0009 [Tú] | Yeah?
-B01.0010 [Shimiao] | If they end up putting me in charge of it, then I...
-B01.0011 [Shimiao] | I don't know.
-B01.0012 [Tú] | Don't worry. I know you, Shimiao, and I know you'll be fine!
-B01.0013 [Shimiao] | Really...?
-B01.0014 [Shimiao] | If even you say so, ==PLAYER_NAME==, then I'll believe I can do it!
+B01.0001 [Shimiao] | Hoy hubo un incidente en Cangwu.
+B01.0002 [Shimiao] | Un niño lanzó sin querer un petardo al patio de alguien y prendió fuego a algunas cosas.
+B01.0003 [Opción] | ¡Eso es muy peligroso!
+B01.0004 [Shimiao] | Por suerte lo notaron rápido y el patio no tenía mucho, así que el daño no fue grave.
+B01.0005 [Tú] | Qué alivio.
+B01.0006 [Tú] | Últimamente ha estado muy seco, todos debemos tener cuidado.
+B01.0007 [Shimiao] | Pensé lo mismo, así que hoy redacté una propuesta para hacer campañas de seguridad contra incendios en Cangwu y crear conciencia.
+B01.0008 [Shimiao] | Aunque...
+B01.0009 [Tú] | ¿Sí?
+B01.0010 [Shimiao] | Si terminan poniéndome a cargo, entonces yo...
+B01.0011 [Shimiao] | No sé.
+B01.0012 [Tú] | Descuida. Te conozco, Shimiao, ¡y sé que te irá bien!
+B01.0013 [Shimiao] | ¿De verdad...?
+B01.0014 [Shimiao] | Si hasta tú lo dices, ==PLAYER_NAME==, ¡creeré que puedo lograrlo!
 
 ## Conversación B02
-B02.0001 [Shimiao] | This month's bulletin board has been completed.
-B02.0002 [Shimiao] | Should you need to, please review it at the community notice board.
-B02.0003 [Tú] | ?
-B02.0004 [Tú] | What's this?
-B02.0005 [Sistema] | Ten minutes later...
-B02.0006 [Shimiao] | Eh, wrong person?
-B02.0007 [Shimiao] | Oh... Can't unsend.
-B02.0008 [Shimiao] | Sorry, ==PLAYER_NAME==, that was supposed to go to my supervisor.
-B02.0009 [Opción] | I thought you were inviting me to review your work
-B02.0010 [Opción] | Even you send messages to the wrong person, huh
-B02.0011 [Shimiao] | Um...
-B02.0012 [Shimiao] | You are welcome to, if you'd like.
-B02.0013 [Shimiao] | I was too busy just now, I didn't look at the avatar.
-B02.0014 [Tú] | Still, I didn't know you could draw stuff for those bulletin boards.
-B02.0015 [Shimiao] | It's nothing special, but if you'd like to see it, come over.
-B02.0016 [Tú] | Really? Then I'm coming.
-B02.0017 [Shimiao] | You mean... Now?
-B02.0018 [Tú] | Is this a bad time?
-B02.0019 [Shimiao] | No, it's not. Come, please.
+B02.0001 [Shimiao] | El tablón de anuncios de este mes está terminado.
+B02.0002 [Shimiao] | Si lo necesitas, revísalo en el tablero de avisos de la comunidad.
+B02.0003 [Tú] | ¿?
+B02.0004 [Tú] | ¿Qué es esto?
+B02.0005 [Sistema] | Diez minutos después...
+B02.0006 [Shimiao] | ¿Eh? ¿Persona equivocada?
+B02.0007 [Shimiao] | Oh... No se puede cancelar el envío.
+B02.0008 [Shimiao] | Perdón, ==PLAYER_NAME==, eso era para mi supervisor.
+B02.0009 [Opción] | Pensé que me invitabas a revisar tu trabajo
+B02.0010 [Opción] | Hasta tú te equivocas de destinatario, ¿eh?
+B02.0011 [Shimiao] | Este...
+B02.0012 [Shimiao] | Puedes hacerlo, si quieres.
+B02.0013 [Shimiao] | Estaba muy ocupada hace un momento, no me fijé en el avatar.
+B02.0014 [Tú] | Aun así, no sabía que podías dibujar para esos tablones de anuncios.
+B02.0015 [Shimiao] | No es nada especial, pero si quieres verlo, ven.
+B02.0016 [Tú] | ¿En serio? Entonces voy para allá.
+B02.0017 [Shimiao] | ¿Quieres decir... ahora?
+B02.0018 [Tú] | ¿Es mal momento?
+B02.0019 [Shimiao] | No, no lo es. Ven, por favor.
 
 ## Conversación B03
-B03.0001 [Shimiao] | I'd like to ask you something, ==PLAYER_NAME==.
-B03.0002 [Tú] | Yeah?
-B03.0003 [Tú] | What is it?
-B03.0004 [Shimiao] | Do I ... look scary?
-B03.0005 [Opción] | No...?
-B03.0006 [Opción] | You do look a bit serious.
-B03.0007 [Tú] | Why do you ask?
-B03.0008 [Shimiao] | So I guess it's true...
-B03.0009 [Tú] | Uh, what do you mean?
-B03.0010 [Shimiao] | A senior told me today my expression is too serious.
-B03.0011 [Shimiao] | When I stand next to the supply post, I don't look like I'm giving out goods, I look like I'm hunting criminals.
-B03.0012 [Tú] | Bwahahahahahahaha—
-B03.0013 [Shimiao] | I knew it...
-B03.0014 [Tú] | No no, that's not it!
-B03.0015 [Tú] | It's just that once you said it, I suddenly pictured it...
-B03.0016 [Tú] | Being serious isn't a bad thing!
-B03.0017 [Shimiao] | Really?
-B03.0018 [Tú] | Really!
+B03.0001 [Shimiao] | Quiero preguntarte algo, ==PLAYER_NAME==.
+B03.0002 [Tú] | ¿Sí?
+B03.0003 [Tú] | ¿Qué pasa?
+B03.0004 [Shimiao] | ¿Doy... miedo?
+B03.0005 [Opción] | ¿No...?
+B03.0006 [Opción] | Sí tienes un aire algo serio.
+B03.0007 [Tú] | ¿Por qué lo preguntas?
+B03.0008 [Shimiao] | Entonces es cierto...
+B03.0009 [Tú] | Este, ¿a qué te refieres?
+B03.0010 [Shimiao] | Hoy un senior me dijo que mi expresión es demasiado seria.
+B03.0011 [Shimiao] | Cuando estoy junto al puesto de suministros, no parezco repartir mercancía, parezco cazar criminales.
+B03.0012 [Tú] | Jajajajajajajaja—
+B03.0013 [Shimiao] | Lo sabía...
+B03.0014 [Tú] | ¡No, no, no es eso!
+B03.0015 [Tú] | Es que al decirlo, de repente me lo imaginé...
+B03.0016 [Tú] | ¡Ser seria no es malo!
+B03.0017 [Shimiao] | ¿En serio?
+B03.0018 [Tú] | ¡En serio!
 
 ## Conversación B04
-B04.0001 [Shimiao] | ==PLAYER_NAME==... Help!
-B04.0002 [Tú] | What's wrong?!
-B04.0003 [Shimiao] | A huge cockroach showed up in my office!
-B04.0004 [Shimiao] | What do I do...?
-B04.0005 [Tú] | Eh? A cockroach?
-B04.0006 [Tú] | Wait for me, I'll come over and deal with it!
+B04.0001 [Shimiao] | ==PLAYER_NAME==... ¡Ayuda!
+B04.0002 [Tú] | ¡¿Qué pasa?!
+B04.0003 [Shimiao] | ¡Apareció una cucaracha enorme en mi oficina!
+B04.0004 [Shimiao] | ¿Qué hago...?
+B04.0005 [Tú] | ¿Eh? ¿Una cucaracha?
+B04.0006 [Tú] | ¡Espérame, voy para allá a encargarme!
 B04.0007 [Shimiao] | Ah
-B04.0008 [Tú] | What happened?! Are you okay?!
-B04.0009 [Shimiao] | It's fine, you don't have to come anymore...
-B04.0010 [Tú] | ?
-B04.0011 [Shimiao] | It suddenly flew up, I freaked out, grabbed something and threw at it.
-B04.0012 [Shimiao] | I think... I killed it...
-B04.0013 [Tú] | Glad to hear it.
-B04.0014 [Tú] | Didn't expect you to be scared of bugs, though. I thought you were absolutely fearless.
-B04.0015 [Shimiao] | Hmm...
-B04.0016 [Shimiao] | They look gross, so...
-B04.0017 [Shimiao] | But if you're scared of them, too, then even if it's gross, I'll still try my best to protect you.
+B04.0008 [Tú] | ¡¿Qué pasó?! ¡¿Estás bien?!
+B04.0009 [Shimiao] | Está bien, ya no tienes que venir...
+B04.0010 [Tú] | ¿?
+B04.0011 [Shimiao] | De repente voló, me asusté, agarré algo y se lo aventé.
+B04.0012 [Shimiao] | Creo que... la maté...
+B04.0013 [Tú] | Qué bueno.
+B04.0014 [Tú] | Aunque no esperaba que te dieran miedo los bichos. Pensé que no le temías a nada.
+B04.0015 [Shimiao] | Mmm...
+B04.0016 [Shimiao] | Dan asco, así que...
+B04.0017 [Shimiao] | Pero si a ti también te dan miedo, aunque den asco, haré todo lo posible por protegerte.
 
 ## Conversación B05
-B05.0001 [Tú] | Shimiao? What's going on?
-B05.0002 [Shimiao] | Lemme tell you this, ==PLAYER_NAME==.
-B05.0003 [Shimiao] | I HAVE
-B05.0004 [Shimiao] | MASTERED CHILI PEPPERS!!!
-B05.0005 [Shimiao] | From this day on, I shall be known as Shimiao, Conqueror of All Chili Peppers!
-B05.0006 [Tú] | ??????
-B05.0007 [Tú] | What are you talking about?
-B05.0008 [Tú] | Are you eating that ultra-spicy hotpot again?
-B05.0009 [Shimiao] | Strange.
-B05.0010 [Shimiao] | I didn't even tell you yet.
-B05.0011 [Shimiao] | How did you know...
-B05.0012 [Shimiao] | You really are amazing, Boss.
-B05.0013 [Tú] | You're drunk on peppers again, aren't you...
-B05.0014 [Tú] | Stay where you are, I'm coming to pick you up.
-B05.0015 [Shimiao] | I'm not driml@#￥%...
-B05.0016 [Tú] | Okay okay, you're not drunk
-B05.0017 [Tú] | Just sit still and don't run off!
+B05.0001 [Tú] | ¿Shimiao? ¿Qué pasa?
+B05.0002 [Shimiao] | Déjame decirte algo, ==PLAYER_NAME==.
+B05.0003 [Shimiao] | YO HE
+B05.0004 [Shimiao] | ¡¡¡DOMINADO LOS CHILES!!!
+B05.0005 [Shimiao] | ¡Desde hoy, me conocerán como Shimiao, la Conquistadora de Todos los Chiles!
+B05.0006 [Tú] | ¿¿¿???
+B05.0007 [Tú] | ¿De qué hablas?
+B05.0008 [Tú] | ¿Estás comiendo ese hotpot ultrapicante otra vez?
+B05.0009 [Shimiao] | Qué raro.
+B05.0010 [Shimiao] | Ni siquiera te lo había dicho aún.
+B05.0011 [Shimiao] | ¿Cómo lo supiste...?
+B05.0012 [Shimiao] | Eres increíble, Jefe.
+B05.0013 [Tú] | Otra vez estás ebria de chiles, ¿verdad...?
+B05.0014 [Tú] | Quédate donde estás, voy por ti.
+B05.0015 [Shimiao] | No estoy ebr@#￥%...
+B05.0016 [Tú] | Bueno, bueno, no estás ebria
+B05.0017 [Tú] | ¡Solo quédate quieta y no te vayas!
 
 ## Conversación B06
-B06.0001 [Shimiao] | I'd like to ask you something, ==PLAYER_NAME==.
-B06.0002 [Tú] | Yes? What is it?
-B06.0003 [Shimiao] | I ordered some chili peppers a few days ago, and the shipment just arrived at my door.
-B06.0004 [Tú] | Chili peppers?
-B06.0005 [Shimiao] | Yes... Lots and lots of chili peppers...
-B06.0006 [Tú] | Oh I get it, you want me to help you portion and store them
-B06.0007 [Tú] | Like the ones I saw at your place last time.
-B06.0008 [Shimiao] | No, when I placed the order, I accidentally entered two extra 0s...
-B06.0009 [Shimiao] | I now have 100 pounds of chili peppers at my door...
-B06.0010 [Tú] | ... What?
-B06.0011 [Shimiao] | Can you think of something... anything to help me...
-B06.0012 [Tú] | Uhh...
-B06.0013 [Tú] | Then... Why not sell them to the hotpot restaurant?
-B06.0014 [Tú] | They need tons of chili peppers for spicy dishes, right?
-B06.0015 [Shimiao] | Good idea!
-B06.0016 [Shimiao] | You are so reliable, ==PLAYER_NAME==!
-B06.0017 [Shimiao] | Thanks!
+B06.0001 [Shimiao] | Quiero preguntarte algo, ==PLAYER_NAME==.
+B06.0002 [Tú] | ¿Sí? ¿Qué pasa?
+B06.0003 [Shimiao] | Pedí unos chiles hace unos días y el envío acaba de llegar a mi puerta.
+B06.0004 [Tú] | ¿Chiles?
+B06.0005 [Shimiao] | Sí... Muchísimos chiles...
+B06.0006 [Tú] | Ah, ya entiendo, quieres que te ayude a porcionarlos y guardarlos
+B06.0007 [Tú] | Como los que vi en tu casa la última vez.
+B06.0008 [Shimiao] | No, al hacer el pedido, puse por error dos ceros de más...
+B06.0009 [Shimiao] | Ahora tengo 45 kilos de chiles en mi puerta...
+B06.0010 [Tú] | ... ¿Qué?
+B06.0011 [Shimiao] | ¿Se te ocurre algo... lo que sea para ayudarme...?
+B06.0012 [Tú] | Mmm...
+B06.0013 [Tú] | Entonces... ¿por qué no se los vendes al restaurante de hotpot?
+B06.0014 [Tú] | Necesitan toneladas de chiles para los platillos picantes, ¿no?
+B06.0015 [Shimiao] | ¡Buena idea!
+B06.0016 [Shimiao] | ¡Eres muy confiable, ==PLAYER_NAME==!
+B06.0017 [Shimiao] | ¡Gracias!

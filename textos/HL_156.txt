@@ -4,247 +4,247 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Nazuna] | yohooo!
-A01.0002 [Nazuna] | THE LORD OF THE PRIZE CLAW IS HERE!
-A01.0003 [Opción] | You're Nazuna, right?
-A01.0004 [Opción] | Is this Nazuna?
-A01.0005 [Nazuna] | mhm, that's me!
-A01.0006 [Nazuna] | of course it is
-A01.0007 [Tú] | We should go hit the claw machines sometime!
-A01.0008 [Nazuna] | CAN'T WAIT!
+A01.0001 [Nazuna] | ¡yohooo!
+A01.0002 [Nazuna] | ¡LA SEÑORA DE LA GARRA DE PREMIOS HA LLEGADO!
+A01.0003 [Opción] | Eres Nazuna, ¿verdad?
+A01.0004 [Opción] | ¿Es Nazuna?
+A01.0005 [Nazuna] | mjm, ¡soy yo!
+A01.0006 [Nazuna] | claro que sí
+A01.0007 [Tú] | ¡Deberíamos ir a las máquinas de garra algún día!
+A01.0008 [Nazuna] | ¡NO PUEDO ESPERAR!
 
 ## Conversación A02
-A02.0001 [Nazuna] | ==PLAYER_NAME==... i'm so bored...
+A02.0001 [Nazuna] | ==PLAYER_NAME==... me aburro tanto...
 A02.0002 [Tú] | Nazuna.
-A02.0003 [Tú] | Me too.
-A02.0004 [Nazuna] | let's go do something!
-A02.0005 [Opción] | Finished your work?
-A02.0006 [Opción] | Let's go!
-A02.0007 [Nazuna] | not yet...
-A02.0008 [Tú] | Then get to it!
-A02.0009 [Nazuna] | but i still have work to do...
-A02.0010 [Tú] | Then get it done!
+A02.0003 [Tú] | Yo también.
+A02.0004 [Nazuna] | ¡vamos a hacer algo!
+A02.0005 [Opción] | ¿Terminaste tu trabajo?
+A02.0006 [Opción] | ¡Vamos!
+A02.0007 [Nazuna] | todavía no...
+A02.0008 [Tú] | ¡Entonces ponte a ello!
+A02.0009 [Nazuna] | pero todavía tengo trabajo pendiente...
+A02.0010 [Tú] | ¡Entonces termínalo!
 A02.0011 [Nazuna] | ughhh...
 
 ## Conversación A03
-A03.0001 [Nazuna] | ==PLAYER_NAME==... so hungryyy...
+A03.0001 [Nazuna] | ==PLAYER_NAME==... tengo tanta hambreee...
 A03.0002 [Tú] | Nazuna.
-A03.0003 [Tú] | Same here.
-A03.0004 [Nazuna] | but i don't wanna eat instant noodles any more
-A03.0005 [Nazuna] | i want something yummy
-A03.0006 [Tú] | Philae is an important grain production area for United Harvest
-A03.0007 [Tú] | There should be plenty of good food here.
-A03.0008 [Nazuna] | well, there's a lot of it, i guess
-A03.0009 [Nazuna] | but the food in philae is all about quantity
-A03.0010 [Nazuna] | doesn't mean it's actually any good
+A03.0003 [Tú] | Igual yo.
+A03.0004 [Nazuna] | pero ya no quiero comer más fideos instantáneos
+A03.0005 [Nazuna] | quiero algo rico
+A03.0006 [Tú] | Philae es una zona importante de producción de grano para Cosecha Unida
+A03.0007 [Tú] | Debería haber mucha comida buena aquí.
+A03.0008 [Nazuna] | pues, hay mucha, supongo
+A03.0009 [Nazuna] | pero la comida de philae es pura cantidad
+A03.0010 [Nazuna] | no significa que sea buena de verdad
 
 ## Conversación A04
-A04.0001 [Nazuna] | so, ==PLAYER_NAME==! what do you know about united harvest?
-A04.0002 [Opción] | A little.
-A04.0003 [Opción] | A lot.
+A04.0001 [Nazuna] | entonces, ¡==PLAYER_NAME==! ¿qué sabes de Cosecha Unida?
+A04.0002 [Opción] | Un poco.
+A04.0003 [Opción] | Mucho.
 A04.0004 [Nazuna] | ughhh...
-A04.0005 [Nazuna] | oooh!
-A04.0006 [Tú] | Why the sudden interest in the United Harvest?
-A04.0007 [Tú] | Thinking of getting an office job?
-A04.0008 [Nazuna] | ugh ... no way...
-A04.0009 [Nazuna] | but there's one thing i probably have in common with their office workers
-A04.0010 [Tú] | And that is?
-A04.0011 [Nazuna] | we both want the company to go bankrupt already
+A04.0005 [Nazuna] | ¡oooh!
+A04.0006 [Tú] | ¿A qué viene el interés repentino en Cosecha Unida?
+A04.0007 [Tú] | ¿Estás pensando en conseguir un trabajo de oficina?
+A04.0008 [Nazuna] | ugh ... ni loca...
+A04.0009 [Nazuna] | pero hay algo que probablemente tengo en común con sus oficinistas
+A04.0010 [Tú] | ¿Y es?
+A04.0011 [Nazuna] | las dos queremos que la empresa quiebre ya
 
 ## Conversación A05
-A05.0001 [Nazuna] | i've made up my mind!
-A05.0002 [Nazuna] | can't go on like this anymore!
-A05.0003 [Tú] | Ohhh! Don't tell me...!
-A05.0004 [Nazuna] | i'm gonna defend my daily life with everything i've got!
-A05.0005 [Tú] | Define "defend."
-A05.0006 [Nazuna] | i'm gonna work extra hard at slacking off, and waste time with all my might
-A05.0007 [Nazuna] | that's the life i gotta defend
-A05.0008 [Tú] | O... kay then.
-A05.0009 [Nazuna] | wanna come over and help me defend it?
-A05.0010 [Tú] | On my way to join the cause!
+A05.0001 [Nazuna] | ¡ya lo decidí!
+A05.0002 [Nazuna] | ¡no puedo seguir así!
+A05.0003 [Tú] | ¡Ohhh! ¡No me digas que...!
+A05.0004 [Nazuna] | ¡voy a defender mi vida diaria con todo lo que tengo!
+A05.0005 [Tú] | Define «defender».
+A05.0006 [Nazuna] | voy a esforzarme muchísimo en holgazanear y a desperdiciar el tiempo con todas mis fuerzas
+A05.0007 [Nazuna] | esa es la vida que tengo que defender
+A05.0008 [Tú] | V-vale, entonces.
+A05.0009 [Nazuna] | ¿quieres venir a ayudarme a defenderla?
+A05.0010 [Tú] | ¡Voy a unirme a la causa!
 
 ## Conversación A06
-A06.0001 [Nazuna] | had a weird dream last night
-A06.0002 [Nazuna] | guess what it was about
-A06.0003 [Opción] | How should I know?
-A06.0004 [Opción] | Hmm... Claw machines?
-A06.0005 [Nazuna] | oh ==PLAYER_NAME==...
-A06.0006 [Nazuna] | what else can it be besides claw machines
-A06.0007 [Nazuna] | oooh! you know me so well, ==PLAYER_NAME==
-A06.0008 [Nazuna] | in my dream i was trying to grab a Count Chompchomp the Shark in the claw machine
-A06.0009 [Nazuna] | but i lost my grip and it fell
-A06.0010 [Nazuna] | then the claw machine god appeared
-A06.0011 [Nazuna] | and it asked me:
-A06.0012 [Nazuna] | "did you drop... this golden Count Chompchomp the Shark, or this silver one?"
-A06.0013 [Nazuna] | i said neither
-A06.0014 [Tú] | And then what?
-A06.0015 [Nazuna] | and then i woke up...
+A06.0001 [Nazuna] | tuve un sueño raro anoche
+A06.0002 [Nazuna] | adivina de qué era
+A06.0003 [Opción] | ¿Cómo voy a saberlo?
+A06.0004 [Opción] | Mmm... ¿Máquinas de garra?
+A06.0005 [Nazuna] | ay ==PLAYER_NAME==...
+A06.0006 [Nazuna] | ¿qué más podría ser aparte de máquinas de garra?
+A06.0007 [Nazuna] | ¡oooh! me conoces tan bien, ==PLAYER_NAME==
+A06.0008 [Nazuna] | en mi sueño intentaba agarrar al Conde Ñamñam el Tiburón en la máquina de garra
+A06.0009 [Nazuna] | pero perdí el agarre y se cayó
+A06.0010 [Nazuna] | entonces apareció el dios de la máquina de garra
+A06.0011 [Nazuna] | y me preguntó:
+A06.0012 [Nazuna] | «¿se te cayó... este Conde Ñamñam el Tiburón dorado, o este plateado?»
+A06.0013 [Nazuna] | dije que ninguno
+A06.0014 [Tú] | ¿Y luego qué?
+A06.0015 [Nazuna] | y luego me desperté...
 
 ## Conversación A07
 A07.0001 [Nazuna] | ==PLAYER_NAME==
-A07.0002 [Tú] | What is it?
-A07.0003 [Nazuna] | i sewed a boss plushie
-A07.0004 [Tú] | !
-A07.0005 [Tú] | Hah! I'm just that amazing.
-A07.0006 [Nazuna] | shouldn't I be getting the praise...?
-A07.0007 [Opción] | Jk, jk.
-A07.0008 [Opción] | We're both amazing!
-A07.0009 [Tú] | You're really good at sewing, Nazuna.
-A07.0010 [Tú] | But your sewing skills are definitely more amazing.
-A07.0011 [Nazuna] | heheh
-A07.0012 [Nazuna] | it took me a whole week
-A07.0013 [Nazuna] | i even picked out a fabric specially for it
-A07.0014 [Nazuna] | i'm gonna put it somewhere everyone can see it
-A07.0015 [Tú] | Yay!
-A07.0016 [Tú] | But no sticking pins in it, okay?
-A07.0017 [Nazuna] | heheh... depends on what kind of mood i'm in...
+A07.0002 [Tú] | ¿Qué pasa?
+A07.0003 [Nazuna] | cosí un peluche del jefe
+A07.0004 [Tú] | ¡!
+A07.0005 [Tú] | ¡Ja! Es que soy así de increíble.
+A07.0006 [Nazuna] | ¿no debería llevarme yo los elogios...?
+A07.0007 [Opción] | Es broma, es broma.
+A07.0008 [Opción] | ¡Los dos somos increíbles!
+A07.0009 [Tú] | Eres muy buena cosiendo, Nazuna.
+A07.0010 [Tú] | Aunque tu habilidad para coser es sin duda más increíble.
+A07.0011 [Nazuna] | jejeje
+A07.0012 [Nazuna] | me tomó una semana entera
+A07.0013 [Nazuna] | hasta elegí una tela especial para él
+A07.0014 [Nazuna] | lo voy a poner en un lugar donde todos puedan verlo
+A07.0015 [Tú] | ¡Yupi!
+A07.0016 [Tú] | Pero no le claves alfileres, ¿vale?
+A07.0017 [Nazuna] | jejeje... depende de qué humor ande...
 
 ## Conversación A08
 A08.0001 [Nazuna] | ==PLAYER_NAME==—
-A08.0002 [Nazuna] | about that
-A08.0003 [Nazuna] | u didn't forget, right?
-A08.0004 [Opción] | Forget what...?
-A08.0005 [Opción] | That thing...?
-A08.0006 [Nazuna] | no way...
-A08.0007 [Nazuna] | i'm seriously gonna cry now...
-A08.0008 [Tú] | Alright, I'm just teasing.
-A08.0009 [Tú] | Happy birthday!
-A08.0010 [Tú] | We've got cake, so get over here.
-A08.0011 [Nazuna] | YAY!
-A08.0012 [Nazuna] | save some extra seats for my friends
-A08.0013 [Nazuna] | Count Chompchomp the Shark needs a soft cushion
-A08.0014 [Nazuna] | and King High Flyer needs an extra stool
-A08.0015 [Nazuna] | and Princess Windrise HAS to sit right next to me
+A08.0002 [Nazuna] | sobre eso
+A08.0003 [Nazuna] | no se te olvidó, ¿verdad?
+A08.0004 [Opción] | ¿Olvidar qué...?
+A08.0005 [Opción] | ¿Esa cosa...?
+A08.0006 [Nazuna] | no puede ser...
+A08.0007 [Nazuna] | ahora sí me voy a poner a llorar...
+A08.0008 [Tú] | Vale, solo te estoy molestando.
+A08.0009 [Tú] | ¡Feliz cumpleaños!
+A08.0010 [Tú] | Tenemos pastel, así que ven para acá.
+A08.0011 [Nazuna] | ¡YUPI!
+A08.0012 [Nazuna] | guarda unos asientos extra para mis amigos
+A08.0013 [Nazuna] | el Conde Ñamñam el Tiburón necesita un cojín suave
+A08.0014 [Nazuna] | y el Rey Altovuelo necesita un banquito extra
+A08.0015 [Nazuna] | y la Princesa Alzaviento TIENE que sentarse justo a mi lado
 
 ## Conversación A09
 A09.0001 [Nazuna] | ==PLAYER_NAME==...
-A09.0002 [Nazuna] | training's so tiring...
-A09.0003 [Nazuna] | i don't wanna go anymore...
-A09.0004 [Tú] | What are you talking about?
-A09.0005 [Tú] | Aren't you a famous Trekker?
-A09.0006 [Nazuna] | that was... before...
-A09.0007 [Nazuna] | i'm retired now...
-A09.0008 [Tú] | Nazuna, snap out of it!
-A09.0009 [Opción] | You'll get rusty.
-A09.0010 [Opción] | What about your guild?
-A09.0011 [Nazuna] | ...whatever... i'm no longer who i used to be...
-A09.0012 [Nazuna] | the guild... well...! uh...
-A09.0013 [Nazuna] | okay...
-A09.0014 [Nazuna] | guess i gotta try a little...
+A09.0002 [Nazuna] | el entrenamiento es tan agotador...
+A09.0003 [Nazuna] | ya no quiero ir...
+A09.0004 [Tú] | ¿De qué hablas?
+A09.0005 [Tú] | ¿No eres una Trekker famosa?
+A09.0006 [Nazuna] | eso fue... antes...
+A09.0007 [Nazuna] | ya me retiré...
+A09.0008 [Tú] | ¡Nazuna, reacciona!
+A09.0009 [Opción] | Te vas a oxidar.
+A09.0010 [Opción] | ¿Y tu gremio?
+A09.0011 [Nazuna] | ...da igual... ya no soy la de antes...
+A09.0012 [Nazuna] | el gremio... bueno... ¡eh...
+A09.0013 [Nazuna] | vale...
+A09.0014 [Nazuna] | supongo que tengo que esforzarme un poco...
 
 ## Conversación A10
-A10.0001 [Nazuna] | ==PLAYER_NAME==, remember that old record?
-A10.0002 [Tú] | I remember!
-A10.0003 [Nazuna] | it had me on it, and everyone else
-A10.0004 [Nazuna] | we were so close back then
-A10.0005 [Nazuna] | felt like nothing could ever tear us apart
-A10.0006 [Tú] | And then?
-A10.0007 [Nazuna] | uh...
-A10.0008 [Nazuna] | kinda forgot the details...
-A10.0009 [Nazuna] | anyway, i'm sure we'll be like that again someday!
-A10.0010 [Tú] | Really?
-A10.0011 [Tú] | You're just going to wait for time to fix everything?
-A10.0012 [Tú] | I think you should be more proactive about it.
-A10.0013 [Tú] | Don't let this chance slip away.
-A10.0014 [Nazuna] | you're right ==PLAYER_NAME==
-A10.0015 [Nazuna] | i won't let go this time!
+A10.0001 [Nazuna] | ==PLAYER_NAME==, ¿te acuerdas de ese disco viejo?
+A10.0002 [Tú] | ¡Me acuerdo!
+A10.0003 [Nazuna] | salía yo, y todos los demás
+A10.0004 [Nazuna] | éramos tan unidos en aquel entonces
+A10.0005 [Nazuna] | sentía que nada podría separarnos jamás
+A10.0006 [Tú] | ¿Y luego?
+A10.0007 [Nazuna] | eh...
+A10.0008 [Nazuna] | más o menos olvidé los detalles...
+A10.0009 [Nazuna] | ¡en fin, seguro que algún día volveremos a ser así!
+A10.0010 [Tú] | ¿En serio?
+A10.0011 [Tú] | ¿Vas a esperar a que el tiempo lo arregle todo?
+A10.0012 [Tú] | Creo que deberías ser más proactiva.
+A10.0013 [Tú] | No dejes escapar esta oportunidad.
+A10.0014 [Nazuna] | tienes razón ==PLAYER_NAME==
+A10.0015 [Nazuna] | ¡esta vez no lo voy a soltar!
 
 ## Conversación B01
-B01.0001 [Nazuna] | I saw a report that said
-B01.0002 [Nazuna] | 40% of grown-ups still have plush toys
-B01.0003 [Nazuna] | and 30% sleep with a plushie toy every night
-B01.0004 [Nazuna] | Hehe
-B01.0005 [Nazuna] | That's totally me!
-B01.0006 [Nazuna] | Do you keep plushies on your bed, too?
-B01.0007 [Opción] | I don't have plush toys...
-B01.0008 [Opción] | I'm afraid I'd crush them in my sleep, so I put them somewhere else
-B01.0009 [Opción] | I do
-B01.0010 [Nazuna] | ???
-B01.0011 [Nazuna] | I'll get you one next time
-B01.0012 [Nazuna] | That makes sense. It'd be bad if they got damaged
-B01.0013 [Nazuna] | Didn't expect you to have such refined taste
-B01.0014 [Tú] | I feel like you are a full-blown plushie addict
-B01.0015 [Nazuna] | I knew that full well. No hope for the likes of me, hehe
-B01.0016 [Nazuna] | But that fluffy texture... Once you start touching it, you can't stop
-B01.0017 [Nazuna] | It's so comforting!
+B01.0001 [Nazuna] | Vi un informe que decía
+B01.0002 [Nazuna] | que el 40% de los adultos todavía tiene peluches
+B01.0003 [Nazuna] | y el 30% duerme con un peluche todas las noches
+B01.0004 [Nazuna] | Jeje
+B01.0005 [Nazuna] | ¡Esa soy yo totalmente!
+B01.0006 [Nazuna] | ¿Tú también tienes peluches en tu cama?
+B01.0007 [Opción] | No tengo peluches...
+B01.0008 [Opción] | Me da miedo aplastarlos mientras duermo, así que los pongo en otro lado
+B01.0009 [Opción] | Sí tengo
+B01.0010 [Nazuna] | ¿¿¿???
+B01.0011 [Nazuna] | La próxima vez te consigo uno
+B01.0012 [Nazuna] | Tiene sentido. Sería malo que se dañaran
+B01.0013 [Nazuna] | No esperaba que tuvieras un gusto tan refinado
+B01.0014 [Tú] | Siento que eres una adicta total a los peluches
+B01.0015 [Nazuna] | Lo sé perfectamente. No hay esperanza para alguien como yo, jeje
+B01.0016 [Nazuna] | Pero esa textura esponjosa... Una vez que empiezas a tocarla, no puedes parar
+B01.0017 [Nazuna] | ¡Es tan reconfortante!
 
 ## Conversación B02
-B02.0001 [Nazuna] | ==PLAYER_NAME==, do you know?
-B02.0002 [Nazuna] | I've been put in charge of training some newcomers
-B02.0003 [Tú] | That's great! Instructor Nazuna~
-B02.0004 [Nazuna] | You sure about that?
-B02.0005 [Nazuna] | When Kaede first asked me about it, I actually wanted to turn it down...
-B02.0006 [Tú] | Eh... What did you tell her?
-B02.0007 [Nazuna] | That my legs felt sore and I had an acne breakout
-B02.0008 [Nazuna] | And something about success knocking on my door
-B02.0009 [Tú] | And how did that turn out?
-B02.0010 [Nazuna] | All of them were rejected, every single one. Looks like I'll have to learn to be strong this time...
-B02.0011 [Tú] | Aren't you being a bit overdramatic...?
-B02.0012 [Nazuna] | You know how some people desperately collect responsibilities, and then desperately try to dump them
-B02.0013 [Nazuna] | But I, the Lord Nazuna, play no such games
-B02.0014 [Nazuna] | Don't worry. Since I've taken the job on, I'll see it through to the end
+B02.0001 [Nazuna] | ==PLAYER_NAME==, ¿sabes?
+B02.0002 [Nazuna] | Me pusieron a cargo de entrenar a unos recién llegados
+B02.0003 [Tú] | ¡Qué bien! Instructora Nazuna~
+B02.0004 [Nazuna] | ¿Seguro?
+B02.0005 [Nazuna] | Cuando Kaede me lo pidió por primera vez, en realidad quería rechazarlo...
+B02.0006 [Tú] | Eh... ¿Qué le dijiste?
+B02.0007 [Nazuna] | Que me dolían las piernas y que me había salido acné
+B02.0008 [Nazuna] | Y algo sobre que el éxito llamaba a mi puerta
+B02.0009 [Tú] | ¿Y cómo salió eso?
+B02.0010 [Nazuna] | Me las rechazaron todas, una por una. Parece que esta vez tendré que aprender a ser fuerte...
+B02.0011 [Tú] | ¿No estás exagerando un poco...?
+B02.0012 [Nazuna] | Ya sabes cómo algunas personas coleccionan responsabilidades con desesperación, y luego intentan soltarlas con desesperación
+B02.0013 [Nazuna] | Pero yo, la Señora Nazuna, no juego a esos juegos
+B02.0014 [Nazuna] | No te preocupes. Ya que acepté el trabajo, lo llevaré hasta el final
 
 ## Conversación B03
 B03.0001 [Nazuna] | ==PLAYER_NAME==
-B03.0002 [Nazuna] | Do you think I'm mature?
-B03.0003 [Tú] | Huh? Why?
-B03.0004 [Nazuna] | Some new Trekker recruits recently... Ahem...
-B03.0005 [Nazuna] | They're saying I act all immature...
-B03.0006 [Nazuna] | Sigh... Young people these days...
-B03.0007 [Tú] | Instructor Nazuna, you're acting all high and mighty...
-B03.0008 [Nazuna] | You know, there was a time when I thought being a grown-up was very cool indeed
-B03.0009 [Nazuna] | Wearing crisply pressed clothes, holding résumé with my teeth
-B03.0010 [Nazuna] | But you know me. I realized that kind of life is not me
-B03.0011 [Tú] | Uh...
-B03.0012 [Tú] | Indeed...
-B03.0013 [Nazuna] | And I won't be able to carry my friends with me all the time
-B03.0014 [Nazuna] | Or wear cute clothes
-B03.0015 [Nazuna] | Forget it, forget it. I'm gonna keep being a kid for the next twenty years, at least
+B03.0002 [Nazuna] | ¿Crees que soy madura?
+B03.0003 [Tú] | ¿Eh? ¿Por qué?
+B03.0004 [Nazuna] | Unos nuevos reclutas Trekker últimamente... Ejem...
+B03.0005 [Nazuna] | Dicen que actúo de forma inmadura...
+B03.0006 [Nazuna] | Suspiro... La juventud de hoy en día...
+B03.0007 [Tú] | Instructora Nazuna, te estás poniendo muy solemne...
+B03.0008 [Nazuna] | Sabes, hubo una época en que pensaba que ser adulta era algo muy genial en verdad
+B03.0009 [Nazuna] | Usar ropa impecablemente planchada, sostener el currículum con los dientes
+B03.0010 [Nazuna] | Pero ya me conoces. Me di cuenta de que ese tipo de vida no es para mí
+B03.0011 [Tú] | Eh...
+B03.0012 [Tú] | En efecto...
+B03.0013 [Nazuna] | Y no podría llevar a mis amigos conmigo todo el tiempo
+B03.0014 [Nazuna] | Ni usar ropa linda
+B03.0015 [Nazuna] | Olvídalo, olvídalo. Voy a seguir siendo una niña los próximos veinte años, por lo menos
 
 ## Conversación B04
-B04.0001 [Nazuna] | ==PLAYER_NAME==, I've started a bulk order purchase
-B04.0002 [Nazuna] | That's right, it's for plushie toys
-B04.0003 [Tú] | Why the bulk order?
-B04.0004 [Nazuna] | Ah, the thing is...
-B04.0005 [Nazuna] | Custom-made plushies are very very expensive!
-B04.0006 [Nazuna] | If I can get other people to buy together
-B04.0007 [Nazuna] | The cost then gets spread out
-B04.0008 [Tú] | So what kind of plush are you after this time?
-B04.0009 [Nazuna] | Hehe
-B04.0010 [Nazuna] | A 16-inch Sherlock, winter outfit version!
-B04.0011 [Tú] | Don't you already have something similar...?
-B04.0012 [Nazuna] | No no no, this one's completely different from before
-B04.0013 [Nazuna] | I'll show it to you once it's made!
-B04.0014 [Nazuna] | And now as the Manager, I'm gonna go whip that bulk order into shape, since I'm the sponsor, organizer and all
-B04.0015 [Nazuna] | Seeya~
-B04.0016 [Tú] | M-Manager...
+B04.0001 [Nazuna] | ==PLAYER_NAME==, inicié una compra al mayoreo
+B04.0002 [Nazuna] | Así es, es de peluches
+B04.0003 [Tú] | ¿Por qué al mayoreo?
+B04.0004 [Nazuna] | Ah, es que...
+B04.0005 [Nazuna] | ¡Los peluches hechos a medida son carísimos!
+B04.0006 [Nazuna] | Si logro que otras personas compren juntas
+B04.0007 [Nazuna] | el costo se reparte
+B04.0008 [Tú] | ¿Y qué tipo de peluche buscas esta vez?
+B04.0009 [Nazuna] | Jeje
+B04.0010 [Nazuna] | ¡Un Sherlock de 16 pulgadas, versión con atuendo de invierno!
+B04.0011 [Tú] | ¿No tienes ya algo parecido...?
+B04.0012 [Nazuna] | No no no, este es completamente distinto al anterior
+B04.0013 [Nazuna] | ¡Te lo enseño cuando esté hecho!
+B04.0014 [Nazuna] | Y ahora, como Gerente, voy a poner en forma ese pedido al mayoreo, ya que soy la patrocinadora, organizadora y todo
+B04.0015 [Nazuna] | Nos vemos~
+B04.0016 [Tú] | G-Gerente...
 
 ## Conversación B05
-B05.0001 [Nazuna] | Wahhhhh!! ==PLAYER_NAME==!
-B05.0002 [Tú] | What's up?
-B05.0003 [Nazuna] | Someone actually badmouthed me! Me!
-B05.0004 [Tú] | What did they say?
-B05.0005 [Nazuna] | They said I set the bulk order price really high and made a huge profit from it
-B05.0006 [Tú] | So how much was one plush?
-B05.0007 [Nazuna] | Only sixteen thousand Dorra each, and it even comes with handmade clothes
-B05.0008 [Tú] | That's pretty reasonable
-B05.0009 [Tú] | Considering it's 16 inches
-B05.0010 [Nazuna] | Exactly! Other places charge over twenty thousand for a 12-inch!
-B05.0011 [Nazuna] | It was purely a labor of love!
-B05.0012 [Nazuna] | It has to be other shady business owners who's badmouthing me out of jealousy!
+B05.0001 [Nazuna] | ¡¡Buaaaa!! ¡==PLAYER_NAME==!
+B05.0002 [Tú] | ¿Qué pasa?
+B05.0003 [Nazuna] | ¡Alguien habló mal de mí! ¡De mí!
+B05.0004 [Tú] | ¿Qué dijeron?
+B05.0005 [Nazuna] | Dijeron que puse el precio del pedido al mayoreo muy alto y que saqué una enorme ganancia
+B05.0006 [Tú] | ¿Y cuánto costaba un peluche?
+B05.0007 [Nazuna] | Solo dieciséis mil Dorra cada uno, y hasta viene con ropa hecha a mano
+B05.0008 [Tú] | Es bastante razonable
+B05.0009 [Tú] | Considerando que son 16 pulgadas
+B05.0010 [Nazuna] | ¡Exacto! ¡Otros lugares cobran más de veinte mil por uno de 12 pulgadas!
+B05.0011 [Nazuna] | ¡Fue puramente un trabajo hecho con cariño!
+B05.0012 [Nazuna] | ¡Tienen que ser otros dueños de negocios turbios los que hablan mal de mí por envidia!
 B05.0013 [Tú] | Pat, pat~
 
 ## Conversación B06
-B06.0001 [Nazuna] | It arrived! ==PLAYER_NAME== It's finally here!
-B06.0002 [Opción] | Could it be...?
-B06.0003 [Opción] | You mean...
-B06.0004 [Tú] | My new friend, all 16 inches of it!
-B06.0005 [Tú] | Sherlock, winter outfit version!
-B06.0006 [Nazuna] | Hehe
-B06.0007 [Nazuna] | That's right! After powering through all kinds of slander and rumors...
-B06.0008 [Nazuna] | The bulk order has finally come through!
-B06.0009 [Nazuna] | I even reserved one for you~
-B06.0010 [Tú] | ! Nice!
-B06.0011 [Nazuna] | But right now it's just the base doll... No winter outfit yet...
-B06.0012 [Tú] | Hm? Why?
-B06.0013 [Nazuna] | The outfit won't arrive for another month...
+B06.0001 [Nazuna] | ¡Llegó! ¡==PLAYER_NAME== Por fin está aquí!
+B06.0002 [Opción] | ¿Será que...?
+B06.0003 [Opción] | ¿Te refieres a...
+B06.0004 [Tú] | ¡Mi nuevo amigo, con todas sus 16 pulgadas!
+B06.0005 [Tú] | ¡Sherlock, versión con atuendo de invierno!
+B06.0006 [Nazuna] | Jeje
+B06.0007 [Nazuna] | ¡Así es! Tras superar todo tipo de calumnias y rumores...
+B06.0008 [Nazuna] | ¡El pedido al mayoreo por fin se concretó!
+B06.0009 [Nazuna] | Hasta te reservé uno~
+B06.0010 [Tú] | ¡! ¡Qué bien!
+B06.0011 [Nazuna] | Pero por ahora es solo el muñeco base... Todavía sin atuendo de invierno...
+B06.0012 [Tú] | ¿Mm? ¿Por qué?
+B06.0013 [Nazuna] | El atuendo no llegará hasta dentro de un mes...

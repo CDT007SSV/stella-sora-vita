@@ -4,292 +4,292 @@
 # Las opciones [Opción] son lo que el jugador puede elegir responder.
 
 ## Conversación A01
-A01.0001 [Amber] | Ta-da!
-A01.0002 [Amber] | Let me know if you have any questions!
-A01.0003 [Opción] | Typing, is hard.
-A01.0004 [Opción] | NP. It's like coming home
+A01.0001 [Amber] | ¡Tachán!
+A01.0002 [Amber] | ¡Avísame si tienes alguna duda!
+A01.0003 [Opción] | Escribir, es difícil.
+A01.0004 [Opción] | NP. Es como volver a casa
 A01.0005 [Opción] | *&......%$#2
-A01.0006 [Amber] | You don't need to type out all the punctuations!
-A01.0007 [Amber] | It's easy. I'll teach you next time
-A01.0008 [Amber] | Looks like muscle memory is alive and well
-A01.0009 [Amber] | Cellphones are very useful in Nova. Makes life a lot easier
-A01.0010 [Amber] | Don't just press any random key! You'll break it!
-A01.0011 [Tú] | Sorry. That was an accident
-A01.0012 [Amber] | Really?
-A01.0013 [Amber] | Cellphones aren't exactly cheap. You need to take good care of it
+A01.0006 [Amber] | ¡No hace falta que escribas todos los signos de puntuación!
+A01.0007 [Amber] | Es fácil. Te enseño la próxima vez
+A01.0008 [Amber] | Parece que la memoria muscular sigue viva y coleando
+A01.0009 [Amber] | Los celulares son muy útiles en Nova. Hacen la vida mucho más fácil
+A01.0010 [Amber] | ¡No presiones teclas al azar! ¡Lo vas a romper!
+A01.0011 [Tú] | Perdón. Fue un accidente
+A01.0012 [Amber] | ¿En serio?
+A01.0013 [Amber] | Los celulares no son nada baratos. Tienes que cuidarlo bien
 
 ## Conversación A02
-A02.0001 [Amber] | Hey, ==PLAYER_NAME==, know any quick ways to make a Dorra or two?
-A02.0002 [Tú] | You want to make money?
-A02.0003 [Amber] | Yeah
-A02.0004 [Amber] | Because I saw Iris going over our ledger. She looked like she was about to cry
-A02.0005 [Amber] | Noya's pudding budget also got axed for the month
-A02.0006 [Amber] | Both of them looked so sad
-A02.0007 [Amber] | Maybe the guild really is in trouble.
-A02.0008 [Amber] | I'm thinking maybe I should sell my phone
-A02.0009 [Tú] | Don't worry, I went over those books
-A02.0010 [Tú] | Noya bought two servings of pudding last month
-A02.0011 [Tú] | And ate Iris'...
-A02.0012 [Amber] | Huh?
-A02.0013 [Tú] | They were sad because of the pudding
+A02.0001 [Amber] | Oye, ==PLAYER_NAME==, ¿conoces alguna forma rápida de ganar una o dos Dorra?
+A02.0002 [Tú] | ¿Quieres ganar dinero?
+A02.0003 [Amber] | Sí
+A02.0004 [Amber] | Es que vi a Iris revisando nuestro libro de cuentas. Parecía a punto de llorar
+A02.0005 [Amber] | A Noya también le recortaron el presupuesto de pudín del mes
+A02.0006 [Amber] | Las dos se veían tan tristes
+A02.0007 [Amber] | Quizá el gremio de verdad está en problemas.
+A02.0008 [Amber] | Estoy pensando que quizá debería vender mi celular
+A02.0009 [Tú] | Tranquila, yo revisé esas cuentas
+A02.0010 [Tú] | Noya compró dos porciones de pudín el mes pasado
+A02.0011 [Tú] | Y se comió la de Iris...
+A02.0012 [Amber] | ¿Eh?
+A02.0013 [Tú] | Estaban tristes por el pudín
 A02.0014 [Amber] | ...
 
 ## Conversación A03
-A03.0001 [Amber] | I went into the woods to observe Shrubshews today
-A03.0002 [Tú] | Got any good pics?
-A03.0003 [Amber] | Yeah
-A03.0004 [Amber] | Their sumo competitions are so interesting
-A03.0005 [Amber] | They will even do this thing where three of them team up to make a giant Shrubshews
-A03.0006 [Amber] | That way they can win the competition easy-peasy
-A03.0007 [Amber] | ==PLAYER_NAME==, which kind of Shrubshew do you like most?
-A03.0008 [Amber] | When they are annoyed? When they're all chubby? Or when they camouflage themselves as tree stumps?
-A03.0009 [Opción] | The tree stumps look really natural
-A03.0010 [Opción] | Uh... The chubby ones, I guess.
-A03.0011 [Opción] | They are cute when they're annoyed!
-A03.0012 [Amber] | As expected, you've got good taste
-A03.0013 [Amber] | These are the pics I took today. So many cute ones...
-A03.0014 [Amber] | Really? I like the chubby ones the most, too!
-A03.0015 [Amber] | These are some of the pics I picked out. You'll definitely like them
-A03.0016 [Amber] | Wow, Boss.
+A03.0001 [Amber] | Hoy fui al bosque a observar Shrubshrews
+A03.0002 [Tú] | ¿Tienes buenas fotos?
+A03.0003 [Amber] | Sí
+A03.0004 [Amber] | Sus competencias de sumo son muy interesantes
+A03.0005 [Amber] | Hasta hacen una cosa en la que tres se juntan para formar un Shrubshrew gigante
+A03.0006 [Amber] | Así ganan la competencia súper fácil
+A03.0007 [Amber] | ==PLAYER_NAME==, ¿qué tipo de Shrubshrew te gusta más?
+A03.0008 [Amber] | ¿Cuando están molestos? ¿Cuando están regordetes? ¿O cuando se camuflan como tocones de árbol?
+A03.0009 [Opción] | Los tocones de árbol se ven muy naturales
+A03.0010 [Opción] | Eh... Los regordetes, supongo.
+A03.0011 [Opción] | ¡Son lindos cuando están molestos!
+A03.0012 [Amber] | Como esperaba, tienes buen gusto
+A03.0013 [Amber] | Estas son las fotos que tomé hoy. Hay muchísimas lindas...
+A03.0014 [Amber] | ¿En serio? ¡A mí también me gustan más los regordetes!
+A03.0015 [Amber] | Estas son algunas de las fotos que elegí. Seguro te van a gustar
+A03.0016 [Amber] | Guau, Jefe.
 
 ## Conversación A04
-A04.0001 [Amber] | ==PLAYER_NAME==, I just remembered, tomorrow is Stellaring Butterfly day
-A04.0002 [Opción] | Nice name
-A04.0003 [Opción] | So?
-A04.0004 [Opción] | I know. it's a holiday
-A04.0005 [Amber] | Yeah, they are golden in color. Real pretty
-A04.0006 [Amber] | Do you know why it's called that?
-A04.0007 [Amber] | Nope
-A04.0008 [Amber] | You see Stellaring Butterflies everywhere in early summer
-A04.0009 [Amber] | On this day, they will break out of their cocoons together in the flower fields
-A04.0010 [Amber] | Every year, right on the clock. That's why the day is named after them
-A04.0011 [Amber] | It's gonna be so pretty!
-A04.0012 [Amber] | So, ==PLAYER_NAME==, I was thinking...
-A04.0013 [Tú] | You wanna go see the butterflies?
-A04.0014 [Amber] | Yeah
-A04.0015 [Tú] | Sure thing! We can take a detour on the way to the Monolith
-A04.0016 [Amber] | Really?
-A04.0017 [Tú] | Since you mentioned it...
-A04.0018 [Tú] | Iris and Noya wouldn't miss it for the world
-A04.0019 [Amber] | Thanks, ==PLAYER_NAME==!
+A04.0001 [Amber] | ==PLAYER_NAME==, acabo de acordarme, mañana es el día de la Mariposa Estelante
+A04.0002 [Opción] | Bonito nombre
+A04.0003 [Opción] | ¿Y?
+A04.0004 [Opción] | Lo sé. Es una fiesta
+A04.0005 [Amber] | Sí, son de color dorado. Muy bonitas
+A04.0006 [Amber] | ¿Sabes por qué se llama así?
+A04.0007 [Amber] | Ni idea
+A04.0008 [Amber] | A principios del verano se ven Mariposas Estelantes por todas partes
+A04.0009 [Amber] | Ese día salen todas juntas de sus capullos en los campos de flores
+A04.0010 [Amber] | Cada año, puntuales como un reloj. Por eso el día lleva su nombre
+A04.0011 [Amber] | ¡Va a ser hermosísimo!
+A04.0012 [Amber] | Entonces, ==PLAYER_NAME==, estaba pensando...
+A04.0013 [Tú] | ¿Quieres ir a ver las mariposas?
+A04.0014 [Amber] | Sí
+A04.0015 [Tú] | ¡Claro! Podemos hacer un desvío de camino al Monolito
+A04.0016 [Amber] | ¿En serio?
+A04.0017 [Tú] | Ya que lo mencionas...
+A04.0018 [Tú] | Iris y Noya no se lo perderían por nada del mundo
+A04.0019 [Amber] | ¡Gracias, ==PLAYER_NAME==!
 
 ## Conversación A05
-A05.0001 [Tú] | By the way, there's something I've always wanted to ask...
+A05.0001 [Tú] | Por cierto, hay algo que siempre he querido preguntarte...
 A05.0002 [Amber] | ?
-A05.0003 [Tú] | How do you make your "tail," that black strap of you, as flexible as limbs?
+A05.0003 [Tú] | ¿Cómo haces que tu «cola», esa correa negra tuya, sea tan flexible como una extremidad?
 A05.0004 [Amber] | ...
-A05.0005 [Amber] | it's not hard
-A05.0006 [Amber] | With a bit of magic and consistent training, you'd be able to do it without breaking a sweat too, ==PLAYER_NAME==
-A05.0007 [Tú] | (No, I don't think so...)
+A05.0005 [Amber] | no es difícil
+A05.0006 [Amber] | Con un poco de magia y entrenamiento constante, tú también podrías hacerlo sin sudar, ==PLAYER_NAME==
+A05.0007 [Tú] | (No, no lo creo...)
 
 ## Conversación A06
-A06.0001 [Amber] | Boss, have you ever had Teddy Bear Ice Lemon Tea?
-A06.0002 [Opción] | Never heard of it
-A06.0003 [Opción] | Yeah. What about it?
-A06.0004 [Opción] | You mean the trendy new drink...
-A06.0005 [Tú] | You mean the trendy new drink?
-A06.0006 [Amber] | From the name, you'd think it's related to teddy bears
-A06.0007 [Amber] | I spent 1,000 Dorra to get one...
-A06.0008 [Amber] | Then I realized that they just had bear-shaped ice cubes in the drink
-A06.0009 [Opción] | It's like taking candy from a baby
-A06.0010 [Opción] | These days a lot of businesses like to use weird gimmicks
-A06.0011 [Opción] | it's a drink. Just what kind of teddy bear were you expecting?
-A06.0012 [Amber] | Bears are fuzzy, right?
-A06.0013 [Amber] | I thought maybe the drink would taste fuzzy, too
-A06.0014 [Amber] | But no. Nothing like that
-A06.0015 [Amber] | And it was full of ice
-A06.0016 [Amber] | Can I report them to the Imperial Guard for false advertising?
-A06.0017 [Tú] | They might not care
-A06.0018 [Amber] | Fine...
+A06.0001 [Amber] | Jefe, ¿alguna vez has probado el Té de Limón Helado Osito de Peluche?
+A06.0002 [Opción] | Nunca lo había oído
+A06.0003 [Opción] | Sí. ¿Qué pasa con él?
+A06.0004 [Opción] | Te refieres a esa bebida nueva de moda...
+A06.0005 [Tú] | ¿Te refieres a esa bebida nueva de moda?
+A06.0006 [Amber] | Por el nombre, pensarías que tiene que ver con ositos de peluche
+A06.0007 [Amber] | Gasté 1,000 Dorra para conseguir uno...
+A06.0008 [Amber] | Luego me di cuenta de que solo tenían cubos de hielo en forma de oso en la bebida
+A06.0009 [Opción] | Es como quitarle un dulce a un bebé
+A06.0010 [Opción] | Hoy en día a muchos negocios les gusta usar trucos raros
+A06.0011 [Opción] | es una bebida. ¿Qué clase de osito de peluche esperabas?
+A06.0012 [Amber] | Los osos son peludos, ¿no?
+A06.0013 [Amber] | Pensé que quizá la bebida también sabría a pelusa
+A06.0014 [Amber] | Pero no. Nada de eso
+A06.0015 [Amber] | Y estaba llena de hielo
+A06.0016 [Amber] | ¿Puedo denunciarlos ante la Guardia Imperial por publicidad engañosa?
+A06.0017 [Tú] | Quizá no les importe
+A06.0018 [Amber] | Bueno...
 
 ## Conversación A07
-A07.0001 [Amber] | ==PLAYER_NAME==, I figured it out
+A07.0001 [Amber] | ==PLAYER_NAME==, ya lo descubrí
 A07.0002 [Opción] | ?
-A07.0003 [Opción] | What do you mean?
-A07.0004 [Opción] | What?! How?
-A07.0005 [Amber] | Not that I know what you're talking about...
-A07.0006 [Amber] | But...
-A07.0007 [Amber] | I figured out how to stop being so shy
-A07.0008 [Tú] | All you need is building a little self-confidence—
-A07.0009 [Amber] | All I need to do is meow 100 times a day
+A07.0003 [Opción] | ¿A qué te refieres?
+A07.0004 [Opción] | ¿¡Qué!? ¿¡Cómo!?
+A07.0005 [Amber] | No es que sepa de qué hablas...
+A07.0006 [Amber] | Pero...
+A07.0007 [Amber] | Descubrí cómo dejar de ser tan tímida
+A07.0008 [Tú] | Todo lo que necesitas es ganar un poco de confianza en ti misma—
+A07.0009 [Amber] | Todo lo que tengo que hacer es maullar 100 veces al día
 A07.0010 [Tú] | ...
-A07.0011 [Amber] | I bumped into a girl on the street yesterday
-A07.0012 [Amber] | She said if I follow her method, I can speak with confidence
-A07.0013 [Amber] | Basically, I just need to have good conversations 100 times a day to someone I'm comfortable with
-A07.0014 [Opción] | Okay, I'm ready
-A07.0015 [Opción] | Why the meows?
-A07.0016 [Opción] | Don't force it. Just follow your heart
-A07.0017 [Amber] | Meow!
-A07.0018 [Amber] | Meow! Meow meow!
-A07.0019 [Tú] | Oh, so you're typing it?
-A07.0020 [Amber] | Hmm...
-A07.0021 [Amber] | Because I'm good at it. Meow~
-A07.0022 [Amber] | And you seem to like it, ==PLAYER_NAME==
-A07.0023 [Amber] | Hmm, is that so?
-A07.0024 [Amber] | Alright, ==PLAYER_NAME==. Since you say so...
-A07.0025 [Amber] | I'll keep it the way it is now!
+A07.0011 [Amber] | Ayer me topé con una chica en la calle
+A07.0012 [Amber] | Dijo que si sigo su método, podré hablar con confianza
+A07.0013 [Amber] | Básicamente, solo tengo que tener buenas conversaciones 100 veces al día con alguien con quien me sienta cómoda
+A07.0014 [Opción] | Está bien, ya me preparé
+A07.0015 [Opción] | ¿Por qué los maullidos?
+A07.0016 [Opción] | No te fuerces. Solo sigue tu corazón
+A07.0017 [Amber] | ¡Miau!
+A07.0018 [Amber] | ¡Miau! ¡Miau miau!
+A07.0019 [Tú] | Ah, ¿lo estás escribiendo?
+A07.0020 [Amber] | Mmm...
+A07.0021 [Amber] | Porque se me da bien. Miau~
+A07.0022 [Amber] | Y parece que te gusta, ==PLAYER_NAME==
+A07.0023 [Amber] | Mmm, ¿es así?
+A07.0024 [Amber] | Está bien, ==PLAYER_NAME==. Ya que lo dices...
+A07.0025 [Amber] | ¡Lo dejaré como está ahora!
 
 ## Conversación A08
-A08.0001 [Tú] | Happy birthday to you~
-A08.0002 [Tú] | Happy birthday to you~
-A08.0003 [Amber] | ==PLAYER_NAME==, what are you...?
-A08.0004 [Tú] | Celebrating your birthday!
-A08.0005 [Amber] | Yeah, I know.
-A08.0006 [Amber] | ==PLAYER_NAME==, before you showed up, every year on this day...
-A08.0007 [Amber] | Noya and Iris celebrated with me
-A08.0008 [Amber] | We would sing together and buy something tasty to eat.
-A08.0009 [Amber] | But it never made too much sense to me.
-A08.0010 [Amber] | Why is the day a person is born special?
-A08.0011 [Amber] | How is it different from the other days?
-A08.0012 [Tú] | To each their own, but...
-A08.0013 [Tú] | To me, the reason this day is special is because...
-A08.0014 [Tú] | You are very important to me.
-A08.0015 [Amber] | Ah... I get it now.
-A08.0016 [Amber] | Then next time, when it's your birthday, I want to celebrate it with you too, ==PLAYER_NAME==.
-A08.0017 [Amber] | I'll sing the birthday song for you.
-A08.0018 [Tú] | Looking forward to it.
+A08.0001 [Tú] | Cumpleaños feliz~
+A08.0002 [Tú] | Cumpleaños feliz~
+A08.0003 [Amber] | ==PLAYER_NAME==, ¿qué haces...?
+A08.0004 [Tú] | ¡Celebrando tu cumpleaños!
+A08.0005 [Amber] | Sí, ya lo sé.
+A08.0006 [Amber] | ==PLAYER_NAME==, antes de que aparecieras, todos los años en este día...
+A08.0007 [Amber] | Noya e Iris lo celebraban conmigo
+A08.0008 [Amber] | Cantábamos juntas y comprábamos algo rico para comer.
+A08.0009 [Amber] | Pero nunca le encontré mucho sentido.
+A08.0010 [Amber] | ¿Por qué es especial el día en que nace una persona?
+A08.0011 [Amber] | ¿En qué se diferencia de los demás días?
+A08.0012 [Tú] | Cada quien con lo suyo, pero...
+A08.0013 [Tú] | Para mí, este día es especial porque...
+A08.0014 [Tú] | Eres muy importante para mí.
+A08.0015 [Amber] | Ah... Ahora lo entiendo.
+A08.0016 [Amber] | Entonces la próxima vez, cuando sea tu cumpleaños, yo también quiero celebrarlo contigo, ==PLAYER_NAME==.
+A08.0017 [Amber] | Te cantaré la canción de cumpleaños.
+A08.0018 [Tú] | Lo espero con ganas.
 
 ## Conversación A09
-A09.0001 [Amber] | Ever since you joined us, I feel like the fights are getting easier and easier
-A09.0002 [Opción] | It's because you all have worked very hard
-A09.0003 [Opción] | Strategy really helps!
-A09.0004 [Opción] | Hah! That's my wits at work!
-A09.0005 [Amber] | Really?
-A09.0006 [Amber] | But it's really only since ==PLAYER_NAME== joined us
-A09.0007 [Tú] | Maybe I'm your lucky star, so to speak
-A09.0008 [Amber] | It's true. You're a great strategist, ==PLAYER_NAME==
-A09.0009 [Amber] | Not sure if it's just my mind playing tricks on me, but I feel like I am lighter and faster than before
-A09.0010 [Tú] | That's what happens when you relax
-A09.0011 [Tú] | Don't worry about it. Just be yourselves
-A09.0012 [Amber] | That's amazing!
-A09.0013 [Amber] | So where are we heading next, my Lord Tyrant?
-A09.0014 [Tú] | To the next Monolith, of course
-A09.0015 [Amber] | Yup, I get it
-A09.0016 [Amber] | I'll work even harder from now on!
+A09.0001 [Amber] | Desde que te uniste a nosotras, siento que las peleas son cada vez más fáciles
+A09.0002 [Opción] | Es porque todas se han esforzado mucho
+A09.0003 [Opción] | ¡La estrategia sí ayuda!
+A09.0004 [Opción] | ¡Jaja! ¡Eso es mi ingenio trabajando!
+A09.0005 [Amber] | ¿En serio?
+A09.0006 [Amber] | Pero de verdad es solo desde que ==PLAYER_NAME== se unió a nosotras
+A09.0007 [Tú] | Quizá soy su estrella de la suerte, por así decirlo
+A09.0008 [Amber] | Es cierto. Eres una gran estratega, ==PLAYER_NAME==
+A09.0009 [Amber] | No sé si es solo mi imaginación, pero siento que soy más ligera y rápida que antes
+A09.0010 [Tú] | Eso pasa cuando te relajas
+A09.0011 [Tú] | No te preocupes por eso. Sean ustedes mismas
+A09.0012 [Amber] | ¡Qué increíble!
+A09.0013 [Amber] | Entonces, ¿adónde vamos ahora, mi Señor Tirano?
+A09.0014 [Tú] | Al siguiente Monolito, por supuesto
+A09.0015 [Amber] | Sip, entendido
+A09.0016 [Amber] | ¡De ahora en adelante me esforzaré todavía más!
 
 ## Conversación A10
-A10.0001 [Tú] | Did you receive the Runic Disc I sent just now?
-A10.0002 [Tú] | Something tells me it's special
-A10.0003 [Amber] | This music makes me nostalgic...
-A10.0004 [Opción] | I'll give it to you, then
-A10.0005 [Opción] | If you like it, take it
-A10.0006 [Opción] | The Disc will call to its owner
+A10.0001 [Tú] | ¿Recibiste el Disco Rúnico que te envié hace un momento?
+A10.0002 [Tú] | Algo me dice que es especial
+A10.0003 [Amber] | Esta música me da nostalgia...
+A10.0004 [Opción] | Entonces te lo regalo
+A10.0005 [Opción] | Si te gusta, quédatelo
+A10.0006 [Opción] | El Disco llamará a su dueña
 A10.0007 [Amber] | ...
-A10.0008 [Amber] | That may be so, but...
-A10.0009 [Amber] | Are you sure you want to give it to me?
-A10.0010 [Tú] | I believe in you
-A10.0011 [Amber] | Okay
-A10.0012 [Amber] | I won't let you down, ==PLAYER_NAME==!
+A10.0008 [Amber] | Puede que así sea, pero...
+A10.0009 [Amber] | ¿Seguro que quieres dármelo?
+A10.0010 [Tú] | Confío en ti
+A10.0011 [Amber] | Está bien
+A10.0012 [Amber] | ¡No te voy a defraudar, ==PLAYER_NAME==!
 
 ## Conversación B01
-B01.0001 [Amber] | ==PLAYER_NAME==, have you seen Inky lately?
-B01.0002 [Opción] | Nope.
-B01.0003 [Opción] | Saw her near the pond last night.
-B01.0004 [Amber] | Haven't seen her for more than two days now
-B01.0005 [Amber] | Maybe she found something fun to do somewhere
-B01.0006 [Tú] | Probably out on a hunt
-B01.0007 [Amber] | Does hunting really take that long?
-B01.0008 [Amber] | Don't tell me she starved to death...
-B01.0009 [Tú] | Relax! She always catches her own food, right?
-B01.0010 [Tú] | She's not going to starve just after a couple of days.
-B01.0011 [Amber] | True that
-B01.0012 [Amber] | Maybe she'll be back tomorrow
-B01.0013 [Amber] | I'll wait a bit longer
-B01.0014 [Tú] | Yeah!
-B01.0015 [Tú] | Saw her near the pond last night
-B01.0016 [Tú] | It looked like she was going after the fish
-B01.0017 [Amber] | Oh, so Inky's gone fishing
-B01.0018 [Amber] | I am thinking maybe we should buy some cat food for her
-B01.0019 [Amber] | The stuff at the pet shop looks really tasty.
-B01.0020 [Tú] | It might look tasty to you, but what about to Inky
-B01.0021 [Tú] | What if we buy it and she doesn't like it
-B01.0022 [Amber] | Then I'll eat it
-B01.0023 [Tú] | People can't eat cat food
-B01.0024 [Amber] | But it really does look delicious
-B01.0025 [Tú] | Is this really for Inky or just for you...
-B01.0026 [Amber] | For me
+B01.0001 [Amber] | ==PLAYER_NAME==, ¿has visto a Inky últimamente?
+B01.0002 [Opción] | Nop.
+B01.0003 [Opción] | La vi cerca del estanque anoche.
+B01.0004 [Amber] | Ya van más de dos días sin verla
+B01.0005 [Amber] | Quizá encontró algo divertido que hacer por ahí
+B01.0006 [Tú] | Seguro anda de cacería
+B01.0007 [Amber] | ¿De verdad una cacería dura tanto?
+B01.0008 [Amber] | No me digas que se murió de hambre...
+B01.0009 [Tú] | ¡Tranquila! Siempre atrapa su propia comida, ¿no?
+B01.0010 [Tú] | No se va a morir de hambre solo por un par de días.
+B01.0011 [Amber] | Es verdad
+B01.0012 [Amber] | Quizá regrese mañana
+B01.0013 [Amber] | Esperaré un poco más
+B01.0014 [Tú] | ¡Sí!
+B01.0015 [Tú] | La vi cerca del estanque anoche
+B01.0016 [Tú] | Parecía que iba tras los peces
+B01.0017 [Amber] | Ah, así que Inky se fue de pesca
+B01.0018 [Amber] | Estoy pensando que quizá deberíamos comprarle comida para gatos
+B01.0019 [Amber] | Lo de la tienda de mascotas se ve muy rico.
+B01.0020 [Tú] | A ti quizá te parezca rico, pero ¿y a Inky?
+B01.0021 [Tú] | ¿Y si lo compramos y no le gusta?
+B01.0022 [Amber] | Entonces me lo como yo
+B01.0023 [Tú] | La gente no puede comer comida para gatos
+B01.0024 [Amber] | Pero de verdad se ve deliciosa
+B01.0025 [Tú] | ¿De verdad es para Inky o solo para ti...?
+B01.0026 [Amber] | Para mí
 
 ## Conversación B02
-B02.0001 [Amber] | ==PLAYER_NAME==, do you know anything about gunfighting?
-B02.0002 [Opción] | A bit, yeah
-B02.0003 [Opción] | No. What's that?
-B02.0004 [Tú] | It's some kind of close-quarters combat, but using guns, right?
-B02.0005 [Amber] | Yeah
-B02.0006 [Amber] | That's the one
-B02.0007 [Amber] | I saw it the other day in a Stella Drama
-B02.0008 [Amber] | A kind of close-quarters combat using guns
-B02.0009 [Amber] | Saw it the other day in a Stella Drama
-B02.0010 [Amber] | I've been practicing it lately
-B02.0011 [Amber] | But making bullets curve is way too hard
-B02.0012 [Tú] | I'm not sure which drama you watched, Amber
-B02.0013 [Tú] | But no way, bullets can't curve
-B02.0014 [Amber] | They said it is useful in close combat
-B02.0015 [Amber] | If I master it, I can hit enemies hiding behind walls
-B02.0016 [Tú] | I wouldn't count on it...
+B02.0001 [Amber] | ==PLAYER_NAME==, ¿sabes algo de combate con armas de fuego?
+B02.0002 [Opción] | Un poco, sí
+B02.0003 [Opción] | No. ¿Qué es eso?
+B02.0004 [Tú] | Es una especie de combate cuerpo a cuerpo, pero con pistolas, ¿no?
+B02.0005 [Amber] | Sí
+B02.0006 [Amber] | Ese mismo
+B02.0007 [Amber] | Lo vi el otro día en un Stella Drama
+B02.0008 [Amber] | Un tipo de combate cuerpo a cuerpo con armas de fuego
+B02.0009 [Amber] | Lo vi el otro día en un Stella Drama
+B02.0010 [Amber] | Últimamente lo he estado practicando
+B02.0011 [Amber] | Pero hacer que las balas curveen es dificilísimo
+B02.0012 [Tú] | No sé qué drama viste, Amber
+B02.0013 [Tú] | Pero ni hablar, las balas no pueden curvear
+B02.0014 [Amber] | Decían que es útil en combate cercano
+B02.0015 [Amber] | Si lo domino, podré darle a enemigos escondidos detrás de paredes
+B02.0016 [Tú] | Yo no contaría con eso...
 
 ## Conversación B03
-B03.0001 [Amber] | She sells seashells by the seashore
-B03.0002 [Amber] | How much wood would a woodchuck chuck
-B03.0003 [Amber] | If a woodchuck could chuck wood?
-B03.0004 [Tú] | Tongue-twisters?
-B03.0005 [Amber] | Yup
-B03.0006 [Amber] | There's a speed-typing competition coming up
-B03.0007 [Amber] | I want to enter
-B03.0008 [Tú] | So you're practicing, huh
-B03.0009 [Tú] | You type so fast
-B03.0010 [Tú] | I'm sure you'll win!
-B03.0011 [Amber] | Thx
-B03.0012 [Amber] | Are you interested in entering, Boss?
-B03.0013 [Amber] | But your phone is really big...
-B03.0014 [Tú] | You have to use your own phone in the competition?
-B03.0015 [Amber] | Yeah
-B03.0016 [Tú] | Doesn't that mean people with smaller phones have the advantage?
-B03.0017 [Amber] | No worries
-B03.0018 [Amber] | I can lend you mine
-B03.0019 [Tú] | Sounds perfect!
-B03.0020 [Tú] | Let's enter together then!
+B03.0001 [Amber] | Ella vende conchas marinas en la orilla del mar
+B03.0002 [Amber] | ¿Cuánta madera lanzaría una marmota
+B03.0003 [Amber] | si una marmota pudiera lanzar madera?
+B03.0004 [Tú] | ¿Trabalenguas?
+B03.0005 [Amber] | Sip
+B03.0006 [Amber] | Se acerca una competencia de mecanografía rápida
+B03.0007 [Amber] | Quiero participar
+B03.0008 [Tú] | Entonces estás practicando, ya veo
+B03.0009 [Tú] | Escribes muy rápido
+B03.0010 [Tú] | ¡Seguro vas a ganar!
+B03.0011 [Amber] | Gracias
+B03.0012 [Amber] | ¿Te interesa participar, Jefe?
+B03.0013 [Amber] | Pero tu celular es muy grande...
+B03.0014 [Tú] | ¿Tienes que usar tu propio celular en la competencia?
+B03.0015 [Amber] | Sí
+B03.0016 [Tú] | ¿No significa eso que los que tienen celulares más pequeños tienen ventaja?
+B03.0017 [Amber] | No te preocupes
+B03.0018 [Amber] | Puedo prestarte el mío
+B03.0019 [Tú] | ¡Perfecto!
+B03.0020 [Tú] | ¡Entonces participemos juntas!
 
 ## Conversación B04
-B04.0001 [Amber] | The sky is super clear today
-B04.0002 [Tú] | Yeah!
-B04.0003 [Amber] | Boss, are you coming to sleep on Loxy's roof tonight?
-B04.0004 [Tú] | The roof?
-B04.0005 [Amber] | Yeah!
-B04.0006 [Amber] | The stars will look amazing tonight
-B04.0007 [Amber] | Wanna do some stargazing with me?
-B04.0008 [Tú] | Won't we get cold?
-B04.0009 [Amber] | Nope, I have extra blankets
-B04.0010 [Tú] | See you on the roof tonight, then!
+B04.0001 [Amber] | El cielo está clarísimo hoy
+B04.0002 [Tú] | ¡Sí!
+B04.0003 [Amber] | Jefe, ¿vienes a dormir en el techo de Loxy esta noche?
+B04.0004 [Tú] | ¿En el techo?
+B04.0005 [Amber] | ¡Sí!
+B04.0006 [Amber] | Las estrellas se verán increíbles esta noche
+B04.0007 [Amber] | ¿Quieres mirar las estrellas conmigo?
+B04.0008 [Tú] | ¿No nos dará frío?
+B04.0009 [Amber] | No, tengo cobijas de sobra
+B04.0010 [Tú] | ¡Entonces nos vemos en el techo esta noche!
 
 ## Conversación B05
-B05.0001 [Opción] | What's up?
-B05.0002 [Opción] | Cute
-B05.0003 [Amber] | Right?
-B05.0004 [Amber] | I thought this emoji was super cute all the sudden
-B05.0005 [Amber] | So I wanted to show it to you
-B05.0006 [Amber] | When Inky came back the last time, he also had a flower on him
-B05.0007 [Amber] | Just like this one
-B05.0008 [Opción] | Seriously?
-B05.0009 [Opción] | Maybe when Inky was busy squeezing through the bushes
-B05.0010 [Amber] | Really
-B05.0011 [Amber] | The flower happened to land right on his head
-B05.0012 [Tú] | You got a pic? I wanna see
-B05.0013 [Tú] | it landed right on his head by pure chance
-B05.0014 [Amber] | Yeah, that makes sense
-B05.0015 [Amber] | I was about to take a photo
-B05.0016 [Amber] | But the flower fell off
-B05.0017 [Tú] | What a pity!
+B05.0001 [Opción] | ¿Qué pasa?
+B05.0002 [Opción] | Qué lindo
+B05.0003 [Amber] | ¿Verdad?
+B05.0004 [Amber] | De repente pensé que este emoji era súper lindo
+B05.0005 [Amber] | Así que quise enseñártelo
+B05.0006 [Amber] | La última vez que Inky volvió, también traía una flor encima
+B05.0007 [Amber] | Igualita a esta
+B05.0008 [Opción] | ¿En serio?
+B05.0009 [Opción] | Quizá cuando Inky andaba ocupado metiéndose entre los arbustos
+B05.0010 [Amber] | En serio
+B05.0011 [Amber] | La flor cayó justo sobre su cabeza
+B05.0012 [Tú] | ¿Tienes una foto? Quiero verla
+B05.0013 [Tú] | cayó justo sobre su cabeza por pura casualidad
+B05.0014 [Amber] | Sí, tiene sentido
+B05.0015 [Amber] | Estaba por tomar una foto
+B05.0016 [Amber] | Pero la flor se cayó
+B05.0017 [Tú] | ¡Qué lástima!
 
 ## Conversación B06
-B06.0001 [Amber] | Boss, do you want to get a pet?
-B06.0002 [Opción] | Yeah
-B06.0003 [Opción] | Nope
-B06.0004 [Amber] | I can be your pet
-B06.0005 [Amber] | But I wanna be your pet, Boss
-B06.0006 [Tú] | ???
-B06.0007 [Amber] | Because if I am
-B06.0008 [Amber] | Someone will play with me every day
-B06.0009 [Amber] | and feed me
-B06.0010 [Amber] | and I wouldn't have to work
-B06.0011 [Tú] | Stop, stop
-B06.0012 [Tú] | I wanna be Amber's pet too
+B06.0001 [Amber] | Jefe, ¿quieres tener una mascota?
+B06.0002 [Opción] | Sí
+B06.0003 [Opción] | Nop
+B06.0004 [Amber] | Yo puedo ser tu mascota
+B06.0005 [Amber] | Pero quiero ser tu mascota, Jefe
+B06.0006 [Tú] | ¿???
+B06.0007 [Amber] | Porque si lo soy
+B06.0008 [Amber] | Alguien jugará conmigo todos los días
+B06.0009 [Amber] | y me dará de comer
+B06.0010 [Amber] | y no tendría que trabajar
+B06.0011 [Tú] | Basta, basta
+B06.0012 [Tú] | Yo también quiero ser la mascota de Amber
