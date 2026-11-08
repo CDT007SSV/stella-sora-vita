@@ -6,7 +6,7 @@ const emo=id=>SS+"avgphoneemojimsg/"+id+".webp",pic=id=>SS+"avgphoneimagemsg/"+i
 const tx=s=>e(String(s||"").replace(/==PLAYER_NAME==/g,PN).replace(/<[^>]*>/g,"")).replace(/\\n/g,"<br>");
 let IDX=null,PR=null;const DC={},TR={};
 (function css(){const s=document.createElement("style");s.textContent=`
-.stbar-row{display:flex;gap:8px;align-items:stretch;margin:6px 12px}.stbar-row .stbar{flex:1;width:auto;margin:0;min-width:0}.stbar-row .stbar .sb-a{display:none}.stbar-row .stbar b{font-size:.88rem}
+
 .hl{max-width:520px;margin:0 auto;padding:4px 0 30px}
 .hl-ph{border-radius:26px;border:3px solid #3b5bb5;background:linear-gradient(180deg,#eef4ff,#dfe9ff);color:#24366b;overflow:hidden;box-shadow:0 8px 30px rgba(20,30,90,.45)}
 .hl-h{display:flex;align-items:center;gap:10px;padding:14px 16px 8px}
@@ -64,21 +64,22 @@ async function vList(){
   const R=root();if(!R)return;R.innerHTML='<p class="nota" style="text-align:center">Cargando…</p>';
   const I=await getIdx();
   R.innerHTML=`<div class="hl"><div class="hl-ph"><div class="hl-h"><h3>Chat</h3><span class="hl-sub">HEARTLINK</span></div><div class="hl-li">${I.map(x=>`<button class="hl-ct" data-c="${x.id}"><img class="hl-av" src="${e(avUrl(x.id))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><div><b>${e(x.n)}</b><small>${x.c} conversaciones</small></div><span class="hl-n">${x.c}</span></button>`).join("")}</div></div><p class="hl-nota">Las conversaciones del teléfono del juego. Elige un personaje para leerlas; algunas te dejan elegir qué responder.</p></div>`;
-  R.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>vChat(+b.dataset.c,0));
+  R.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{if(typeof nav==="function")nav("heartlink/"+b.dataset.c+"/0");else vChat(+b.dataset.c,0)});
 }
+function swap(cid,i){try{history.replaceState(null,"","#heartlink/"+cid+"/"+i)}catch(x){}vChat(cid,i)}
 async function vChat(cid,gi){
   const R=root();if(!R)return;
-  const D=await getChar(cid);if(!D){vList();return}
+  await getIdx();const D=await getChar(cid);if(!D){vList();return}
   const G=D.g,g=prep(cid,G[gi]),I=IDX||[];
   const pre=firstText(g.m2);
   R.innerHTML=`<div class="hl"><div class="hl-ph hl-cv" style="position:relative"><div class="hl-ch"><button class="hl-bk" data-k="back" aria-label="Contactos">‹</button><img class="hl-av" style="width:42px;height:42px" src="${e(avUrl(cid))}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><div class="hl-t"><b>${e(D.n)}</b><small>${tx(pre).replace(/<br>/g," ").slice(0,70)}</small></div><button class="hl-lb" data-k="list">☰ Lista</button></div><div class="hl-ms"></div><div class="hl-ft"></div></div></div>`;
   const ms=R.querySelector(".hl-ms"),ft=R.querySelector(".hl-ft"),ph=R.querySelector(".hl-ph");
-  R.querySelector("[data-k=back]").onclick=vList;
+  R.querySelector("[data-k=back]").onclick=()=>{if(typeof depth!=="undefined"&&depth>0)history.back();else location.replace("#heartlink")};
   R.querySelector("[data-k=list]").onclick=()=>{
     const old=ph.querySelector(".hl-pop");if(old){old.remove();return}
     const p=document.createElement("div");p.className="hl-pop";
     p.innerHTML=G.map((x,i)=>{const q=prep(cid,x);return `<button data-i="${i}" class="${i===gi?"on":""}"><i>${i+1}</i><span>${tx(firstText(q.m2)).replace(/<br>/g," ")}</span></button>`}).join("");
-    ph.appendChild(p);p.querySelectorAll("[data-i]").forEach(b=>b.onclick=()=>vChat(cid,+b.dataset.i));
+    ph.appendChild(p);p.querySelectorAll("[data-i]").forEach(b=>b.onclick=()=>swap(cid,+b.dataset.i));
   };
   const ava=`<img class="hl-av" src="${e(avUrl(cid))}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`;
   const add=m=>{
@@ -93,7 +94,7 @@ async function vChat(cid,gi){
   /* cola de mensajes por reproducir */
   let Q=g.m2.slice(),busy=0;
   function step(all){
-    if(!Q.length){const nx=gi+1<G.length;ft.innerHTML=`<div class="hl-fin">Fin de la conversación</div>${nx?'<button class="hl-nx" data-k="nx">Siguiente conversación ›</button>':""}`;const b=ft.querySelector("[data-k=nx]");if(b)b.onclick=()=>vChat(cid,gi+1);return}
+    if(!Q.length){const nx=gi+1<G.length;ft.innerHTML=`<div class="hl-fin">Fin de la conversación</div>${nx?'<button class="hl-nx" data-k="nx">Siguiente conversación ›</button>':""}`;const b=ft.querySelector("[data-k=nx]");if(b)b.onclick=()=>swap(cid,gi+1);return}
     const m=Q.shift();
     if(m.t==="ch"){
       ft.innerHTML=m.o.map((o,i)=>`<button class="hl-op" data-o="${i}">${tx(o)}</button>`).join("");
@@ -113,6 +114,6 @@ async function vChat(cid,gi){
   /* los primeros mensajes aparecen solos */
   run();
 }
-window.hlShow=function(){vList()};
+window.hlShow=function(){const m=decodeURIComponent(location.hash).match(/^#heartlink\/(\d+)(?:\/(\d+))?/);if(m)vChat(+m[1],+(m[2]||0));else vList()};
 const b=document.getElementById("hlbar");if(b)b.onclick=()=>{if(typeof nav==="function")nav("heartlink")};
 })();
