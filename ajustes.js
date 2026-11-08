@@ -110,6 +110,9 @@ document.addEventListener("click",e=>{
   }
 });
 window.ajShow=render;
+window.ssvPush={on:()=>val("push"),worker:()=>(window.SSV_PUSH||{}).worker||"",msg:()=>MSG,
+  enable:async()=>{if(!val("push"))await pushToggle();return val("push")},
+  sub:async()=>{try{const r=await navigator.serviceWorker.ready,x=await r.pushManager.getSubscription();return x?x.toJSON():null}catch(e){return null}}};
 apply();
 document.addEventListener("DOMContentLoaded",()=>{apply();const b=document.getElementById("ngear");if(b)b.addEventListener("click",ev=>{ev.stopPropagation();if(window.nav)nav("ajustes")})});
 if(document.readyState!=="loading"){const b=document.getElementById("ngear");if(b)b.addEventListener("click",ev=>{ev.stopPropagation();if(window.nav)nav("ajustes")})}

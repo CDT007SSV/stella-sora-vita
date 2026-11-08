@@ -39,9 +39,34 @@ def pem(secreto):
     k = S.load_der_private_key(der, password=None)
     return k.private_bytes(S.Encoding.PEM, S.PrivateFormat.PKCS8, S.NoEncryption()).decode()
 
+def timers():
+    """Avisos programados por los telefonos (stamina llena, etc.): manda los que ya vencieron."""
+    worker, admin, priv = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", ""), os.environ.get("VAPID_PRIVADA", "")
+    if not (worker and admin and priv): return
+    try: due = http(worker + "/due", admin)
+    except Exception as e: print("No se pudo leer /due:", type(e).__name__); return
+    if not due: return
+    from pywebpush import webpush, WebPushException
+    ruta = os.path.join(tempfile.mkdtemp(), "v.pem"); open(ruta, "w").write(pem(priv))
+    hechos, muertos = [], []
+    for t in due:
+        m = {"title": t.get("title") or "Stella Sora Vita", "body": t.get("body") or "", "url": URL_APP + (t.get("url") or "")}
+        try:
+            webpush(subscription_info=t["sub"], data=json.dumps(m), vapid_private_key=ruta, vapid_claims={"sub": "mailto:noreply@example.com"}, ttl=3600); hechos.append(t["id"])
+        except WebPushException as e:
+            c = getattr(e.response, "status_code", 0)
+            if c in (404, 410): muertos.append(t["sub"]["endpoint"]); hechos.append(t["id"])
+            else: print("Error", c)
+        except Exception as e:
+            print("Error", type(e).__name__)
+    if hechos: http(worker + "/done", admin, {"ids": hechos})
+    if muertos: http(worker + "/gone", admin, {"endpoints": muertos})
+    print("Avisos programados enviados:", len(hechos))
+
 def main():
     if os.environ.get("PRUEBA") == "1":
         return prueba()
+    timers()
     todos = items(); ids = [x["id"] for x in todos]
     est = cargar(ESTADO, None)
     if est is None:                       # primera vez: solo marcar
@@ -55,7 +80,7 @@ def main():
     if len(nuevos) > MAX_ENVIOS:
         msgs = [{"title": "Stella Sora Vita", "body": "Hay %d novedades nuevas" % len(nuevos)}]
     else:
-        msgs = [{"title": limpio(x.get("titulo"), 70) or "Novedad", "body": limpio(x.get("texto"), 110)} for x in nuevos]
+        msgs = [{"title": limpio(x.get("titulo_es") or x.get("titulo"), 70) or "Novedad", "body": limpio(x.get("texto_es") or x.get("texto"), 110)} for x in nuevos]
     subs = http(worker + "/list", admin)
     print("Suscritos:", len(subs), "· avisos:", len(msgs))
     from pywebpush import webpush, WebPushException
