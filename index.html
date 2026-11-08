@@ -404,11 +404,16 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 #splash .betab{margin-top:6px}
 .betafb{display:flex;align-items:center;justify-content:space-between;width:100%;margin:0 0 10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(92,225,230,.35);background:rgba(92,225,230,.08);color:#cfeff2;font:inherit;font-weight:700;font-size:.85rem;text-align:left}
 .betafb[hidden]{display:none}
-#splash{position:fixed;inset:0;z-index:999;background:radial-gradient(100% 60% at 50% 40%,#2a2255,#0A0A12);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;pointer-events:none;animation:spl .5s ease 1s forwards}
+#splash{position:fixed;inset:0;z-index:999;background:radial-gradient(100% 60% at 50% 40%,#2a2255,#0A0A12);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;cursor:pointer;animation:spl .5s ease 2.6s forwards}
 #splash b{font-size:1.5rem;letter-spacing:.18em;color:#d8d2ff;text-shadow:0 0 18px #7B6CFF;text-transform:uppercase}
 #splash i{font-style:normal;font-size:.75rem;letter-spacing:.3em;color:var(--t2)}
 #splash span{width:46px;height:2px;background:linear-gradient(90deg,transparent,#5CE1E6,transparent);animation:shim 1s linear infinite;background-size:200% 100%}
 @keyframes spl{to{opacity:0;visibility:hidden}}
+#splash.out{animation:spl .3s ease forwards}
+#splash .vw{display:flex;align-items:center;gap:5px;height:44px;margin-top:6px}
+#splash .vw u{width:5px;border-radius:3px;background:linear-gradient(#5CE1E6,#7B6CFF);height:10px;animation:vw .9s ease-in-out infinite}
+#splash .vw u:nth-child(2n){animation-delay:.15s}#splash .vw u:nth-child(3n){animation-delay:.3s}#splash .vw u:nth-child(5n){animation-delay:.45s}
+@keyframes vw{0%,100%{height:8px;opacity:.5}50%{height:40px;opacity:1}}
 </style>
 <style id="bgm-css">
 .bgm-card{display:flex;align-items:center;gap:10px;width:100%;padding:11px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);color:inherit;font:inherit;font-weight:600;cursor:pointer}
@@ -422,7 +427,7 @@ body.bgm-on .screen{padding-bottom:84px}
 </style>
 </head>
 <body class="home">
-<div id="splash"><b>Stella Sora</b><span></span><i>VITA</i><em class="betab">BETA</em></div>
+<div id="splash" onclick="this.classList.add('out')"><b>Stella Sora</b><span></span><div class="vw"><u></u><u></u><u></u><u></u><u></u><u></u><u></u><u></u><u></u></div><i>VITA</i><em class="betab">BETA</em></div>
 <div id="start">
   <header class="hm-head">
     <div class="hm-lg"><img src="https://stellasora.miraheze.org/wiki/Special:FilePath/Stella_Sora_English_Logo.png" alt="Stella Sora" referrerpolicy="no-referrer" onerror="this.outerHTML='<b class=hm-logo>Stella Sora</b>'"/><em class="betab">BETA</em></div>
