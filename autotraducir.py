@@ -29,7 +29,7 @@ def gtx(s):
                 if d and isinstance(d[0], list) and d[0] and isinstance(d[0][0], list):
                     return "".join(x[0] for x in d[0] if x and x[0])
                 if d and isinstance(d[0], str): return d[0]
-                if d and isinstance(d[0], list) and d[0] and isinstance(d[0][0], str): return "".join(d[0])
+                if d and all(isinstance(x, list) and x and isinstance(x[0], str) for x in d): return "".join(x[0] for x in d)
             except Exception as ex:
                 err = ex
         time.sleep(15)
