@@ -18,110 +18,110 @@ N:avg3_182 | Elis
 N:avg4_106 | Puppet Soldier (Initial Coordinates)
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | The Bathhouse and the Slave
-0003 [Intro] | At the bathhouse, you hear that Olympia has freed the city's slaves. Disguised as a slave, Elis scouts an escape route through the sewers. Before you try to escape, Alina asks about resurrection magic.
-0004 [Alina] | We have arrived, ==SEX12== Acolyte. Welcome to the Olympia Bathhouse, named in honor of the Archon.
-0005 [Alina] | This is our attendant, Lulu. She will see to your needs.
-0006 [Lulu] | A pleasure. May the God of Magic watch over you both.
-0007 [Lulu] | The sun is unforgiving today in Filanis. Please, try our signature iced honey brew. It will help you cool off.
-0008 [Lulu] | And here is fresh linen steeped in chamomile, to clean your hands.
-0009 [Narración] | Before she even finishes, pitch-black phantom arms materialize around us.==W== They balance clay cups and towels, presenting them with eerie precision.
-0010 [Tú] | Is this ... magic?
-0011 [Lulu] | Hehe, I hope that didn't startle you. Shaping magic into limbs is a specialty of mine. It lets me do the work of an entire staff.
-0012 [Lulu] | Oh, forgive me. I got carried away and forgot to ask your names.
-0013 [Elis] | This is my master, Acolyte ==PLAYER_NAME==. And I'm ==SEX3== personal slave, Elis.
-0014 [Lulu] | Master...?==W== Slave...?==W== Captain Alina, wait! Why is there a slave here?
-0015 [Elis] | Are slaves forbidden here? Even in Emor, a slave goes wherever their master commands.
-0016 [Alina] | Lulu, they aren't from Filanis. It's a unique situation. Go prepare the baths. I'll handle things here.
-0017 [Lulu] | Al-Alright...
-0018 [Lulu] | Looks so dignified, yet still keeps slaves. What a vile parasite.
-0019 [Elis] | Hey! What was that? Watch your tongue around my Master!
-0020 [Alina] | I apologize on Lulu's behalf. Given her past, she has zero tolerance for slave owners.
-0021 [Elis] | Excuse me? Every Novian household keeps slaves. Don't tell me Filanis has none?
-0022 [Alina] | We used to. Not anymore.
-0023 [Alina] | Years ago, our ruler, Archon Olympia, freed every slave in the city and granted them full citizenship.
-0024 [Alina] | Since then, we are bound only by goodwill and camaraderie. That is how Filanis flourished into the City of Perfection.
-0025 [Elis] | Y-You freed all of them? Then who does the actual work?
-0026 [Alina] | Archon Olympia created magical puppets. They handle all the labor the slaves used to do.
-0027 [Tú] | Puppets? Wait, were those things in the forest...
-0028 [Alina] | Yes, those were abandoned puppets from Filanis.
-0029 [Alina] | They are carved from wood. Without magic, they're no different from ordinary puppets.
-0030 [Alina] | Citizens leave broken puppets in the forest to return to nature. I'm still investigating why those ones became animated and attacked us.
-0031 [Alina] | We're losing time. Please bathe quickly. Your audience with Archon Olympia is approaching.
-0032 [Alina] | If you have more questions about Filanis, we can speak at length afterward.
-0033 [Tú] | Alina, thank you for arranging all this. Is there any way I can repay you?
-0034 [Elis] | (The same applies to the Night Watcher. Drop the polite facade. It breaks character. But if she serves you well, offer a suitable reward.)
-0035 [Tú] | Elis said I needed to act like I was in charge. I hope that sounded right.
-0036 [Alina] | It's my duty, ==SEX12== Acolyte.==W== But I do have a favor to ask. If you have time after your audience with the Archon, I'd like your guidance on a magical matter.
-0037 [Tú] | Of course.
-0038 [Tú] | Phew...==W== This is heaven. I'm finally coming back to life.
-0039 [Tú] | The hot water is making my skin tingle. Every aching muscle is relaxed.
-0040 [Tú] | Where am I?==W== Why do Elis and Alina look so familiar? What do I say to the Archon? Alina wants magic advice, but I don't know any magic. How do I even get back...
-0041 [Tú] | These questions...==W== I don't want to think about them right now. I just want to float here until I slowly dissolve.
-0042 [Tú] | Okay, it's not that I don't care.==W== I just need this break.
-0043 [Tú] | Oh, something is scrubbing my back. That feels incredible. Does this bath have a massage spell on it? The people of Filanis really know how to enjoy life.
-0044 [Tú] | Wait a minute. How could a rustic bath have massage jets?!
+0001 [Intro] | tercer acto
+0002 [Intro] | La casa de baños y el esclavo
+0003 [Intro] | En la casa de baños oyes que Olimpia ha liberado a los esclavos de la ciudad. Disfrazada de esclava, Elis busca una ruta de escape a través de las alcantarillas. Antes de intentar escapar, Alina pregunta sobre la magia de la resurrección.
+0004 [Alina] | Hemos llegado, ==SEX12== Acólito. Bienvenido a los baños Olympia, llamados así en honor al Arconte.
+0005 [Alina] | Esta es nuestra asistente, Lulu. Ella se ocupará de sus necesidades.
+0006 [Lulu] | Un placer. Que el Dios de la Magia los cuide a ambos.
+0007 [Lulu] | El sol hoy no perdona en Filanis. Por favor, pruebe nuestra exclusiva cerveza helada con miel. Te ayudará a refrescarte.
+0008 [Lulu] | Y aquí tenéis ropa de cama fresca empapada en manzanilla, para limpiaros las manos.
+0009 [Narración] | Antes incluso de que termine, unos brazos fantasmales de tono negro se materializan a nuestro alrededor.==W== Equilibran tazas de arcilla y toallas, presentándolas con una precisión inquietante.
+0010 [Tú] | ¿Es esto... magia?
+0011 [Lulu] | Jeje, espero que eso no te haya asustado. Dar forma a la magia en miembros es una de mis especialidades. Me permite hacer el trabajo de todo un personal.
+0012 [Lulu] | Ah, perdóname. Me dejé llevar y olvidé preguntar vuestros nombres.
+0013 [Elis] | Este es mi maestro, acólito. ==PLAYER_NAME==. Y soy ==SEX3== esclava personal, Elis.
+0014 [Lulu] | Maestro...?==W== Esclavo...?==W== Capitán Alina, ¡espera! ¿Por qué hay un esclavo aquí?
+0015 [Elis] | ¿Están prohibidos los esclavos aquí? Incluso en Emor, un esclavo va a donde le ordena su amo.
+0016 [Alina] | Lulu, no son de Filanis. Es una situación única. Ve a preparar los baños. Yo me encargaré de las cosas aquí.
+0017 [Lulu] | Al-Está bien...
+0018 [Lulu] | Parece tan digno, pero aún mantiene esclavos. ¡Qué vil parásito!
+0019 [Elis] | ¡Ey! ¿Qué fue eso? ¡Cuida tu lengua alrededor de mi Maestro!
+0020 [Alina] | Pido disculpas en nombre de Lulu. Dado su pasado, tiene tolerancia cero con los dueños de esclavos.
+0021 [Elis] | ¿Disculpe? Cada hogar noviano tiene esclavos. ¿No me digas que Filanis no tiene ninguno?
+0022 [Alina] | Solíamos hacerlo. Ya no.
+0023 [Alina] | Hace años, nuestro gobernante, el Arconte Olimpia, liberó a todos los esclavos de la ciudad y les concedió la ciudadanía plena.
+0024 [Alina] | Desde entonces, sólo nos unen la buena voluntad y la camaradería. Así es como Filanis se convirtió en la Ciudad de la Perfección.
+0025 [Elis] | ¿Los liberaste a todos? Entonces ¿quién hace el trabajo real?
+0026 [Alina] | La Arconte Olimpia creó marionetas mágicas. Se encargan de todo el trabajo que solían hacer los esclavos.
+0027 [Tú] | ¿Títeres? Espera, ¿estaban esas cosas en el bosque...?
+0028 [Alina] | Sí, esos eran títeres abandonados de Filanis.
+0029 [Alina] | Están tallados en madera. Sin magia, no son diferentes de los títeres comunes.
+0030 [Alina] | Los ciudadanos dejan títeres rotos en el bosque para regresar a la naturaleza. Todavía estoy investigando por qué esos se animaron y nos atacaron.
+0031 [Alina] | Estamos perdiendo tiempo. Por favor báñese rápido. Se acerca tu audiencia con la Arconte Olimpia.
+0032 [Alina] | Si tiene más preguntas sobre Filanis, podemos hablar extensamente después.
+0033 [Tú] | Alina, gracias por arreglar todo esto. ¿Hay alguna manera de que pueda pagarte?
+0034 [Elis] | (Lo mismo se aplica a la Vigilante Nocturna. Deja la fachada educada. Eso rompe el carácter. Pero si ella te sirve bien, ofrécele una recompensa adecuada).
+0035 [Tú] | Elis dijo que tenía que actuar como si estuviera a cargo. Espero que haya sonado bien.
+0036 [Alina] | Es mi deber, ==SEX12== Acólito.==W== Pero tengo un favor que pedir. Si tienes tiempo después de tu audiencia con el Arconte, me gustaría recibir orientación sobre un asunto mágico.
+0037 [Tú] | Por supuesto.
+0038 [Tú] | Uf...==W== Esto es el cielo. Finalmente estoy volviendo a la vida.
+0039 [Tú] | El agua caliente hace que me hormiguee la piel. Cada músculo dolorido está relajado.
+0040 [Tú] | ¿Dónde estoy?==W== ¿Por qué Elis y Alina parecen tan familiares? ¿Qué le digo al Arconte? Alina quiere un consejo mágico, pero yo no conozco ninguna magia. ¿Cómo puedo siquiera volver...?
+0041 [Tú] | Estas preguntas...==W== No quiero pensar en ellos ahora. Sólo quiero flotar aquí hasta disolverme lentamente.
+0042 [Tú] | Vale, no es que no me importe.==W== Sólo necesito este descanso.
+0043 [Tú] | Oh, algo me está frotando la espalda. Eso se siente increíble. ¿Este baño tiene un hechizo de masaje? La gente de Filanis realmente sabe disfrutar la vida.
+0044 [Tú] | Espera un minuto. ¿Cómo es posible que un baño rústico tenga chorros de masaje?
 0045 [Elis] | Hmm, hm-hm-hmm ♪
-0046 [Tú] | E-Elis?! What are you doing?
-0047 [Elis] | I'm scrubbing your back, Master.
-0048 [Tú] | Hold on! When did you get in here? Weren't we given separate baths?
-0049 [Elis] | Oh, don't be shy, Master. You have fair skin and lovely collarbones. Be more confident!
-0050 [Elis] | We're both girls anyway. What's the harm in sharing a soak?
-0051 [Elis] | Besides, I'm your slave. It's only natural for a slave to wash her Master's back, isn't it?
-0052 [Tú] | N-Natural? We're only pretending to be master and slave to fool the locals. I don't even like the idea of slaves, let alone need one.
-0053 [Elis] | Oh? Master hates the idea of slavery just as much as the locals do. Why is that?
-0054 [Tú] | Why should anyone own another person? It just feels wrong. I don't need a better reason than that.
-0055 [Tú] | What about you? If you needed a cover, you could have been a friend or a traveling companion. Why insist on being a slave?
-0056 [Elis] | Because it's practical. You said owning another person felt wrong. But what if Novians don't consider slaves as people in the first place?
-0057 [Tú] | Not people...
-0058 [Elis] | Heh. At the markets in Emor, a horse fetches a much higher price than a slave. To most Novians, a slave is nothing but an object.
-0059 [Elis] | And being an object has its advantages.
-0060 [Tú] | How is that an advantage?
-0061 [Elis] | Well, nobody looks twice at an object.==W== And that to me is the greatest advantage.
-0062 [Elis] | If I called myself your companion, I'd have to invent a flawless backstory. One that would crumble under scrutiny, given I'm a Fallen Saintess who spent three years locked in a tower.
-0063 [Elis] | But as a slave? I only need your nod of approval. People will focus all their scrutiny on you, because I am simply something you own.
-0064 [Tú] | Hey now. You actually thought this all through. I can't tell if you're incredibly cunning or just completely reckless.
-0065 [Tú] | What if I refused to play along? Or what if I was dangerous?
-0066 [Elis] | You were a corpse when I found you, so I had nothing to fear.==W== You waking up did give me a fright, but I watched you closely before deciding to keep up the act.
-0067 [Elis] | You're gentle, kind, clever, and completely harmless.==W== The best person I've ever met~
-0068 [Tú] | Ugh. Why does that feel like an insult?!
-0069 [Elis] | That's why playing your slave was risk-free.==W== I even bet you wouldn't treat me like an object. And I was right.
-0070 [Elis] | By the way, this is my first time playing a slave. I'm doing a flawless job, aren't I? Where's my praise?
-0071 [Tú] | Sure, sure. Good job.
-0072 [Elis] | You could at least pretend to mean it!
-0073 [Tú] | Elis, you didn't sneak into my bath just to chat and act cute, did you?
-0074 [Elis] | Haha, I got a little too into character. Almost forgot why I came.
-0075 [Elis] | We meet the Archon after this. Our act might fool a backwater Night Watcher, but it won't hold up against the Archon.
-0076 [Tú] | So what do we do?
-0077 [Elis] | We run!
-0078 [Tú] | There's no escaping. Those black magic arms are watching the doors and windows. They call it service, but it's clearly surveillance.
-0079 [Elis] | Heh heh, another slave perk!==W== Lulu was watching us,==W== but the second I said I was going to "serve my Master," she turned bright red and let me pass out of pure disgust.
-0080 [Elis] | She might despise slave owners, but deep down? She still views me as an object.
-0081 [Elis] | Right now, that sweet girl is probably imagining us doing all sorts of unspeakable things in here.==W== She wouldn't dare peek.
-0082 [Tú] | Your methods are ... terrifyingly practical.
-0083 [Tú] | She actually is a bit like Iris there, but Iris would never be this bold.==W== She could never pull off a lie like this.
-0084 [Elis] | What's wrong with being practical? Besides...==W== Even as a Saintess, I was just treated like…
+0046 [Tú] | ¡¿E-Elis?! ¿Qué estás haciendo?
+0047 [Elis] | Te estoy frotando la espalda, Maestro.
+0048 [Tú] | ¡Esperar! ¿Cuándo entraste aquí? ¿No nos dieron baños separados?
+0049 [Elis] | Oh, no seas tímido, Maestro. Tienes la piel clara y unas clavículas preciosas. ¡Ten más confianza!
+0050 [Elis] | Ambas somos chicas de todos modos. ¿Qué hay de malo en compartir un baño?
+0051 [Elis] | Además, soy tu esclavo. Es natural que una esclava le lave la espalda a su amo, ¿no?
+0052 [Tú] | ¿N-Natural? Sólo pretendemos ser amo y esclavo para engañar a los lugareños. Ni siquiera me gusta la idea de tener esclavos, y mucho menos necesitar uno.
+0053 [Elis] | ¿Oh? El Maestro odia la idea de la esclavitud tanto como los lugareños. ¿Porqué es eso?
+0054 [Tú] | ¿Por qué alguien debería ser dueño de otra persona? Simplemente se siente mal. No necesito una mejor razón que esa.
+0055 [Tú] | ¿Qué pasa contigo? Si necesitabas una cobertura, podrías haber sido un amigo o un compañero de viaje. ¿Por qué insistir en ser esclavo?
+0056 [Elis] | Porque es práctico. Dijiste que ser dueño de otra persona se sentía mal. Pero, ¿qué pasa si los novianos no consideran a los esclavos como personas en primer lugar?
+0057 [Tú] | No personas...
+0058 [Elis] | Je. En los mercados de Emor, un caballo se vende a un precio mucho más alto que un esclavo. Para la mayoría de los novianos, un esclavo no es más que un objeto.
+0059 [Elis] | Y ser objeto tiene sus ventajas.
+0060 [Tú] | ¿Cómo es eso una ventaja?
+0061 [Elis] | Bueno, nadie mira dos veces un objeto.==W== Y esa para mí es la mayor ventaja.
+0062 [Elis] | Si me llamara tu compañero, tendría que inventar una historia de fondo perfecta. Uno que se desmoronaría bajo escrutinio, dado que soy una Santa Caída que pasó tres años encerrada en una torre.
+0063 [Elis] | ¿Pero como esclavo? Sólo necesito tu asentimiento de aprobación. La gente centrará todo su escrutinio en ti, porque simplemente soy algo que te pertenece.
+0064 [Tú] | Hola ahora. De hecho pensaste esto todo el tiempo. No sé si eres increíblemente astuto o simplemente completamente imprudente.
+0065 [Tú] | ¿Qué pasa si me niego a seguir el juego? ¿Y si fuera peligroso?
+0066 [Elis] | Eras un cadáver cuando te encontré, así que no tenía nada que temer.==W== Que te despertaras me dio un susto, pero te observé de cerca antes de decidir seguir actuando.
+0067 [Elis] | Eres gentil, amable, inteligente y completamente inofensivo.==W== La mejor persona que he conocido ~
+0068 [Tú] | Puaj. ¡¿Por qué eso parece un insulto?!
+0069 [Elis] | Por eso jugar a ser tu esclavo estaba libre de riesgos.==W== Incluso apuesto a que no me tratarías como a un objeto. Y tenía razón.
+0070 [Elis] | Por cierto, esta es la primera vez que hago de esclavo. Estoy haciendo un trabajo impecable, ¿no? ¿Dónde está mi elogio?
+0071 [Tú] | Claro, seguro. Buen trabajo.
+0072 [Elis] | ¡Al menos podrías fingir que lo dices en serio!
+0073 [Tú] | Elis, no te colaste en mi baño sólo para charlar y actuar linda, ¿verdad?
+0074 [Elis] | Jaja, me metí demasiado en el personaje. Casi olvido por qué vine.
+0075 [Elis] | Nos encontramos con el Arconte después de esto. Nuestro acto podría engañar a un Vigilante Nocturno apartado, pero no resistirá al Arconte.
+0076 [Tú] | Entonces, ¿qué hacemos?
+0077 [Elis] | ¡Corramos!
+0078 [Tú] | No hay escapatoria. Esos brazos de magia negra vigilan las puertas y ventanas. Lo llaman servicio, pero claramente es vigilancia.
+0079 [Elis] | Je je, ¡otro beneficio de esclavo!==W== Lulú nos estaba mirando,==W== pero en el momento en que dije que iba a "servir a mi Maestro", ella se puso roja y me dejó desmayar por puro disgusto.
+0080 [Elis] | Puede que desprecie a los dueños de esclavos, pero ¿en el fondo? Ella todavía me ve como un objeto.
+0081 [Elis] | En este momento, esa dulce niña probablemente nos esté imaginando haciendo todo tipo de cosas indescriptibles aquí.==W== Ella no se atrevería a mirar.
+0082 [Tú] | Tus métodos son... terriblemente prácticos.
+0083 [Tú] | En realidad, allí se parece un poco a Iris, pero Iris nunca sería tan atrevida.==W== Ella nunca podría lograr una mentira como esta.
+0084 [Elis] | ¿Qué hay de malo en ser práctico? Además...==W== Incluso como Santa, me trataron como...
 0085 [Tú] | Hm?
-0086 [Elis] | Nothing! Anyway, I found a drainage pipe that leads outside while I was sneaking over.
-0087 [Elis] | Go out to the front and talk to the Night Watcher. Didn't she have a question for you?==W== Use that to keep her distracted.
-0088 [Elis] | I'll slip through the drain and cause a scene in the streets. Once she runs off to investigate, you just stroll right out the front door.
-0089 [Tú] | Solid plan. It's just Alina and Lulu out there. If we split up...==W== They'll definitely chase the suspected Fallen Saintess first.
-0090 [Tú] | But wouldn't that put a massive target on your back?
-0091 [Elis] | Don't worry about me, Master. I spent my three years hiding in that tower studying magic day and night.
-0092 [1] | Alright, I'm dressed. Elis should be in the drains by now.
-0093 [Tú] | Now for Alina...==W== Ah, there she is.
-0094 [Narración] | Merciful and almighty Goddess Trivia, hear my prayer.
-0095 [Narración] | Take my fallen sisters into the high heavens, that they may soar upon the twelve winds.
-0096 [Tú] | Is she ... praying to the Monolith?
-0097 [Alina] | Oh, my apologies. I was praying to the Goddess. I didn't notice you, ==SEX12== Acolyte.
-0098 [Tú] | No harm done. The bathhouse was perfect. It washed all my exhaustion right away.
-0099 [Tú] | Didn't you have a question for me? We still have time before we meet the Archon. Ask away.
-0100 [Alina] | R-Right now?==W== But...
-0101 [Narración] | Alina hesitates, which is rare for her. She casts several long glances at the towering Monolith, as if searching for a revelation from fate.
-0102 [Narración] | The Monolith just stands there in silence. It doesn't listen to mortal doubts, and it certainly offers no answers.
-0103 [Alina] | Apologies for the wait, ==SEX12== Acolyte.
-0104 [Alina] | My question may be ...==W== stepping out of line. If it offends you, I apologize in advance.
-0105 [Tú] | It's fine. Go ahead.
-0106 [Alina] | Could you tell me about the resurrection magic?
-0107 [Alina] | Name your price...==W== I'll give you anything I have!
+0086 [Elis] | ¡Nada! De todos modos, encontré una tubería de drenaje que conduce al exterior mientras me escabullía.
+0087 [Elis] | Sal al frente y habla con Night Watcher. ¿No tenía ella alguna pregunta para ti?==W== Úsalo para mantenerla distraída.
+0088 [Elis] | Me deslizaré por el desagüe y provocaré una escena en las calles. Una vez que ella sale corriendo a investigar, simplemente sales por la puerta principal.
+0089 [Tú] | Plan sólido. Sólo están Alina y Lulu ahí fuera. Si nos separamos...==W== Definitivamente perseguirán primero a la sospechosa Santa Caída.
+0090 [Tú] | ¿Pero eso no significaría un objetivo enorme en tu espalda?
+0091 [Elis] | No se preocupe por mí, Maestro. Pasé mis tres años escondido en esa torre estudiando magia día y noche.
+0092 [1] | Muy bien, estoy vestido. Elis ya debería estar en los desagües.
+0093 [Tú] | Ahora para Alina...==W== Ah, ahí está ella.
+0094 [Narración] | Misericordiosa y todopoderosa Diosa Trivia, escucha mi oración.
+0095 [Narración] | Lleva a mis hermanas caídas a los altos cielos, para que puedan remontarse sobre los doce vientos.
+0096 [Tú] | ¿Está ella... rezando al Monolito?
+0097 [Alina] | Oh, mis disculpas. Estaba rezando a la Diosa. No te noté, ==SEX12== Acólito.
+0098 [Tú] | No se ha hecho ningún daño. La casa de baños era perfecta. Lavó todo mi cansancio de inmediato.
+0099 [Tú] | ¿No tenías alguna pregunta para mí? Todavía tenemos tiempo antes de encontrarnos con el Arconte. Pregunte.
+0100 [Alina] | R-¿Ahora mismo?==W== Pero...
+0101 [Narración] | Alina duda, lo cual es raro en ella. Lanza varias miradas largas al imponente Monolito, como si buscara una revelación del destino.
+0102 [Narración] | El Monolito permanece allí en silencio. No escucha las dudas de los mortales y ciertamente no ofrece respuestas.
+0103 [Alina] | Disculpas por la espera, ==SEX12== Acólito.
+0104 [Alina] | Mi pregunta puede ser...==W== saliendose de la linea. Si te ofende, te pido disculpas de antemano.
+0105 [Tú] | Está bien. Adelante.
+0106 [Alina] | ¿Podrías hablarme sobre la magia de la resurrección?
+0107 [Alina] | Dime tu precio...==W== ¡Te daré todo lo que tengo!
