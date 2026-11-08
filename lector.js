@@ -294,12 +294,22 @@ function spriteList(id,pose,expr){
   if(id!=="avg3_100"){let c=null;try{c=CHARS.find(x=>x.name===base0)}catch(e){}out.push(c&&c.imageUrl?c.imageUrl:FILE+base+".png")}
   return out;
 }
-function pon(im,l){im.dataset.q=JSON.stringify(l.slice(1));im.src=l[0]}
+/* cambia la imagen de un sprite SIN dejarlo en blanco: se precarga y decodifica la nueva y solo entonces se cambia (evita el parpadeo al cambiar de expresion) */
+function pon(im,l){
+  im.dataset.q=JSON.stringify(l.slice(1));
+  if(!im.getAttribute("src")){im.src=l[0];return}
+  const u=l[0];im.dataset.want=u;
+  if(im.src===new URL(u,location.href).href)return;
+  const t=new Image();t.referrerPolicy="no-referrer";
+  const go=()=>{if(im.dataset.want===u)im.src=u};
+  t.onload=()=>{if(t.decode)t.decode().then(go,go);else go()};
+  t.onerror=go;t.src=u;
+}
 function faceSet(pose,expr){
   const l=spriteList("avg3_100",pose,expr);if(!l)return;
   const im=el.querySelector(".rd-face img");
   im.onerror=()=>{const q=JSON.parse(im.dataset.q||"[]");if(q.length){im.src=q.shift();im.dataset.q=JSON.stringify(q)}else im.removeAttribute("src")};
-  im.dataset.q=JSON.stringify(l.slice(1));im.src=l[0];S.mc=1;
+  pon(im,l);S.mc=1;
 }
 /* Reglas del juego (AvgPreset.CharEmoji / Avg_2_L2DCtrl._SetEmoji): "none"=sin cambio, "close"=quitar;
    los emojis normales desaparecen solos a los 5 s; solo los "loop" se quedan hasta que se reemplazan o se cierran. */
