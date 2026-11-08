@@ -1454,8 +1454,10 @@ function dcOverlay(x){
      <p class="xp-t">${esc(w.text||x.texto||"")}</p>
      ${ph.map(p=>`<img class="xp-m" src="${esc(p.url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join("")}
      ${vd.map(v=>{const q=(v.variants||[]).filter(z=>/mp4/.test((z.content_type||"")+(z.url||""))).sort((a,b)=>(a.bitrate||0)-(b.bitrate||0)),u=q.length?q[Math.floor((q.length-1)/2)].url:v.url;
-       return `<video class="xp-m" controls playsinline webkit-playsinline preload="none" referrerpolicy="no-referrer" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(u)}" onerror="this.outerHTML='<a class=xp-pl href=&quot;'+this.dataset.x+'&quot; target=_blank rel=noopener>'+(this.poster?'<img class=xp-m src=&quot;'+this.poster+'&quot; alt=&quot;&quot; referrerpolicy=no-referrer>':'')+'<b>▶ Ver el video en X</b></a>'" data-x="${esc(x.url||"")}"></video>`}).join("")}
+       return `<video class="xp-m" controls playsinline webkit-playsinline preload="none" referrerpolicy="no-referrer" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(u)}"></video>`}).join("")}
      ${w.created_at?`<div class="xp-d">${esc(new Date(w.created_at).toLocaleString("es",{dateStyle:"medium",timeStyle:"short"}))}</div>`:""}</div>`;
+    box.querySelectorAll("video").forEach(v=>{let u=0;const fb=()=>{if(u++)return;iframe()};v.addEventListener("error",fb);
+      v.addEventListener("play",()=>{clearTimeout(v._w);v._w=setTimeout(()=>{if(v.readyState<3)fb()},9000)});v.addEventListener("playing",()=>clearTimeout(v._w))})
   }).catch(()=>{clearTimeout(t);iframe()});
 }
 const nvIcon={personaje:"★",disco:"◎",banner:"✦",build:"⚔",app:"✦",discord:"💬",cumple:"🎂"};
