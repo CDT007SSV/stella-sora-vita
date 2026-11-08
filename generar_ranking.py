@@ -1,4 +1,4 @@
-# Genera ranking.json a partir de la hoja "Stella Sora Team Rankings" (por ZiLenTz, uso autorizado por su autor).
+# Genera ranking.json a partir de la hoja "Stella Sora Team Rankings" (por ZiLenTz).
 # Uso:  python3 generar_ranking.py [archivo.xlsx]   (sin argumento descarga la hoja publica de Google).
 # Si la descarga falla, no toca el ranking.json existente.
 import sys, json, re, os, urllib.request, tempfile, time

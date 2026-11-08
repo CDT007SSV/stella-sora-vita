@@ -1,4 +1,4 @@
-/* Ranking de equipos por daño. Datos: hoja "Stella Sora Team Rankings" de ZiLenTz (uso autorizado por su autor), en ranking.json. */
+/* Ranking de equipos por daño. Datos: hoja "Stella Sora Team Rankings" de ZiLenTz, en ranking.json. */
 (function(){
 const EC={Aqua:"#1e90d6",Ignis:"#e5533d",Lux:"#e0a82a",Terra:"#a9783a",Umbra:"#8b5cf6",Ventus:"#2fb585"};
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -45,7 +45,7 @@ function paint(){
   const R=D.equipos.filter(x=>(!fe||x.el===fe)&&(!cp||x.code)&&(!n||norm(x.team+" "+x.s.map(m=>m.n).join(" ")).includes(n)));
   const dt=D.meta.generado?new Date(D.meta.generado).toLocaleDateString("es",{day:"numeric",month:"short"}):"";
   r.innerHTML=`<div class="rk-h"><h3>Ranking de equipos</h3><p>Los equipos con más daño en las pruebas de la comunidad. Toca “Abrir en el armador” para ver el equipo y guardarlo.</p>
-   <p class="rk-cr">Datos: <b>Stella Sora Team Rankings</b> de ZiLenTz (con su permiso). <a href="${esc(D.meta.url)}" target="_blank" rel="noopener noreferrer">Ver la hoja original</a> · <a href="${esc(D.meta.kofi)}" target="_blank" rel="noopener noreferrer">☕ Apoyar al autor</a>${dt?` · actualizado ${dt}`:""}</p>
+   <p class="rk-cr">Datos: <b>Stella Sora Team Rankings</b> de ZiLenTz. <a href="${esc(D.meta.url)}" target="_blank" rel="noopener noreferrer">Ver la hoja original</a> · <a href="${esc(D.meta.kofi)}" target="_blank" rel="noopener noreferrer">☕ Apoyar al autor</a>${dt?` · actualizado ${dt}`:""}</p>
    <details><summary>Cómo se compararon los equipos</summary><ul>${D.meta.supuestos.map(s=>`<li>${esc(s)}</li>`).join("")}</ul><p>Tu daño real puede variar según tu cuenta, tus discos y tus emblemas.</p></details></div>
    <input class="tm-in" id="rk-q" type="search" placeholder="Buscar equipo o personaje…" value="${esc(q)}" style="margin-bottom:8px">
    <div class="rk-f"><button class="chip${fe?"":" on"}" data-e="">Todos</button>${els.map(e=>`<button class="chip${fe===e?" on":""}" data-e="${e}">${e}</button>`).join("")}<button class="chip${cp?" on":""}" data-cp="1">Con preset</button></div>
