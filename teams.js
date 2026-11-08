@@ -290,6 +290,7 @@ function vHub(){
   root.innerHTML=`<div class="tm-hero"><h3>Equipos y builds</h3><p>Arma tu equipo de 3 Trekkers, guárdalo y descubre las builds de otros jugadores.</p></div>
    <button class="tm-hb h1" data-a="new"><span class="hi">+</span><span><b>Crear equipo</b><small>Elige Trekkers, potenciales y discos</small></span><span class="ar">›</span></button>
    <button class="tm-hb h2" data-a="mine"><span class="hi">★</span><span><b>Mis equipos</b><small>${n?n+(n===1?" equipo guardado":" equipos guardados"):"Aquí se guardan los equipos que crees"}</small></span><span class="ar">›</span></button>
+   <a class="tm-hb h2" href="#ranking" data-nav="ranking"><span class="hi">🏆</span><span><b>Ranking de equipos</b><small>Los equipos con más daño, con guía y preset</small></span><span class="ar">›</span></a>
    <a class="tm-hb h3" href="#builds" data-nav="builds"><span class="hi">☷</span><span><b>Builds de la comunidad</b><small>Builds enviadas por jugadores y la guía completa</small></span><span class="ar">›</span></a>`;
   window.scrollTo(0,0);
 }
