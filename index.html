@@ -438,6 +438,7 @@ body.bgm-on .screen{padding-bottom:84px}
 .topbar>button:first-child,.back-story,#bk{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;padding:0;font-size:1.3rem;line-height:1}
 .tm-bk{display:inline-flex;align-items:center;border-radius:12px;padding:8px 14px;margin-bottom:10px;font-size:.9rem}
 .nsearch:active,.nbell:active,.topbar>button:first-child:active,.tm-bk:active{background:linear-gradient(145deg,rgba(255,255,255,.28),rgba(255,255,255,.1))!important}
+.xp-pl{display:block;position:relative;margin:8px 0;border-radius:12px;overflow:hidden;background:#0b0b18;text-decoration:none;color:#fff;text-align:center}.xp-pl img{display:block;width:100%;opacity:.7}.xp-pl b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);font-size:1rem;text-shadow:0 1px 6px #000}.xp-pl:not(:has(img)){padding:28px 0}.xp-pl:not(:has(img)) b{position:static;transform:none}
 </style>
 </head>
 <body class="home">
@@ -1445,7 +1446,7 @@ function dcOverlay(x){
      <p class="xp-t">${esc(w.text||x.texto||"")}</p>
      ${ph.map(p=>`<img class="xp-m" src="${esc(p.url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join("")}
      ${vd.map(v=>{const q=(v.variants||[]).filter(z=>/mp4/.test((z.content_type||"")+(z.url||""))).sort((a,b)=>(a.bitrate||0)-(b.bitrate||0)),u=q.length?q[Math.floor((q.length-1)/2)].url:v.url;
-       return `<video class="xp-m" controls playsinline webkit-playsinline preload="none" referrerpolicy="no-referrer" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(u)}" onerror="this.outerHTML='<p class=nota>No se pudo reproducir el video aquí. Toca “Ver la publicación en X”.</p>'"></video>`}).join("")}
+       return `<video class="xp-m" controls playsinline webkit-playsinline preload="none" referrerpolicy="no-referrer" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(u)}" onerror="this.outerHTML='<a class=xp-pl href=&quot;'+this.dataset.x+'&quot; target=_blank rel=noopener>'+(this.poster?'<img class=xp-m src=&quot;'+this.poster+'&quot; alt=&quot;&quot; referrerpolicy=no-referrer>':'')+'<b>▶ Ver el video en X</b></a>'" data-x="${esc(x.url||"")}"></video>`}).join("")}
      ${w.created_at?`<div class="xp-d">${esc(new Date(w.created_at).toLocaleString("es",{dateStyle:"medium",timeStyle:"short"}))}</div>`:""}</div>`;
   }).catch(()=>{clearTimeout(t);iframe()});
 }
