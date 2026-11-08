@@ -1,0 +1,31 @@
+name: Ranking de equipos
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: ranking
+  cancel-in-progress: false
+jobs:
+  ranking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar openpyxl
+        run: pip install --quiet openpyxl
+      - name: Descargar hoja y generar ranking
+        run: python3 generar_ranking.py
+      - name: Guardar cambios
+        run: |
+          git add -A ranking.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Actualizar ranking de equipos"
+            git pull --rebase -X theirs origin main
+            git push
+          else
+            echo "Sin cambios"
+          fi
