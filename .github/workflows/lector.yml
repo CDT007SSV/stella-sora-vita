@@ -24,17 +24,18 @@ jobs:
           git clone -q --depth 1 --filter=blob:none --sparse https://github.com/MakoStar/ss-lua.git "$RUNNER_TEMP/sslua"
           git -C "$RUNNER_TEMP/sslua" sparse-checkout set --no-cone /Lua/Game/UI/Avg/_en/Config /Lua/Game/UI/Avg/_en/Preset
           git clone -q --depth 1 --filter=blob:none --sparse https://github.com/Hiro420/StellaSoraData.git "$RUNNER_TEMP/ssd"
-          git -C "$RUNNER_TEMP/ssd" sparse-checkout set --no-cone /EN/bin/Story.json /EN/bin/StoryCondition.json /EN/bin/ActivityStory.json /EN/bin/ActivityStoryChapter.json /EN/language/en_US/Story.json /EN/language/en_US/ActivityStory.json /EN/language/en_US/ActivityStoryChapter.json
+          git -C "$RUNNER_TEMP/ssd" sparse-checkout set --no-cone /EN/bin/Story.json /EN/bin/StoryCondition.json /EN/bin/ActivityStory.json /EN/bin/ActivityStoryChapter.json /EN/bin/CharacterArchive.json /EN/bin/CharacterArchiveContent.json /EN/bin/DatingCharacterEvent.json /EN/language/en_US/CharacterArchiveContent.json /EN/language/en_US/DatingCharacterEvent.json /EN/language/en_US/Story.json /EN/language/en_US/ActivityStory.json /EN/language/en_US/ActivityStoryChapter.json
       - name: Generar lector
         env:
           LUA: ${{ runner.temp }}/sslua/Lua/Game/UI/Avg/_en/Config/
           SSD: ${{ runner.temp }}/ssd/EN/
         run: |
           python3 generar_lector.py ${{ inputs.forzar && '--force' || '' }} | tee "$RUNNER_TEMP/salida.txt"
+          python3 generar_afinidad.py | tee -a "$RUNNER_TEMP/salida.txt"
           { echo "### Lector de historias"; cat "$RUNNER_TEMP/salida.txt"; } >> "$GITHUB_STEP_SUMMARY"
       - name: Guardar cambios
         run: |
-          git add -A lector-*.json lector-meta.json lector_gen textos
+          git add -A lector-*.json lector-meta.json lector_gen textos afinidad
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

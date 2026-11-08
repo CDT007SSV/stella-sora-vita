@@ -82,6 +82,9 @@ window.discoCargar=async function(d){
     if(!F||!document.getElementById("disco-box"))return;
     box.innerHTML=`<div class="fk-tabs"><button class="chip on" data-t="fic">Ficha</button><button class="chip" data-t="hab">Habilidades</button><button class="chip" data-t="sta">Estadísticas</button></div><div class="fk-body" style="display:none"></div>`;
     montar(box,F);
+    try{await window.__meta}catch(x){}
+    const L=typeof LECTOR!=="undefined"&&LECTOR["disc:"+d.name];
+    if(L&&document.getElementById("disco-box")&&!box.querySelector(".dk-lec"))box.insertAdjacentHTML("afterbegin",`<button type="button" class="btn dk-lec" style="margin:0 0 10px;width:100%" onclick="abrirLector('${L}')">▶ Leer la historia de este disco en el lector</button>`);
   }catch(x){}
 };
 })();

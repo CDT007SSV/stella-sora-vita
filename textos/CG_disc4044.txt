@@ -1,0 +1,114 @@
+# Recuerdo de disco · Veiled Dawn of Spring · 1 · Veiled Dawn of Spring
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Monster | Monster
+N:Shop Owner | Shop Owner
+N:avg1_159 | Coronis
+N:avg2_954 | Crispy Hooves
+N:avg3_100 | Sylar
+N:avg3_176 | Loong Resident
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | Veiled Dawn of Spring
+0003 [Intro] | Pick out a souvenir, and let's create more memories together.
+0004 [Tú] | Not much time left in Cangwu...==W== Gotta finish my shopping while I can!
+0005 [Coronis] | Oh? You here to shop, too?
+0006 [Tú] | Ah, Coronis. Just picking up souvenirs before we head back.==W== You here for supplies?
+0007 [Coronis] | Perfect timing. I wanted to check out the local specialties myself.==W== Actually, could you help me pick some suitable gifts?
+0008 [Tú] | Sure, happy to help.
+0009 [Coronis] | Thanks. I'm relying on you, then,==W== my dear assistant.
+0010 [Tú] | It's nice that she trusts me, but what if we have different tastes?...==W== Well, I'll give it a shot!
+0011 [Tú] | Weren't we buying gifts...?==W== How did we end up in the woods?
+0012 [Tú] | Coronis? Aren't we supposed to go get some local specialties?
+0013 [Coronis] | Mm-hm. I remember it being right around here...
+0014 [Tú] | Finding city specialties in a forest? Does that make any sense?
+0015 [Coronis] | Found it!==W== I couldn't move it alone. That's why I asked for your help.
+0016 [Tú] | Move...==W== B-Bones?!
+0017 [Coronis] | Well? Isn't it beautiful? I spotted it when I first arrived. Can't believe it was left out here, exposed like this...
+0018 [Coronis] | My, it's preserved perfectly.==W== Never seen this species in Philae or Emor. I absolutely have to take it back for study.
+0019 [Tú] | Almost forgot...==W== This is Coronis's style...
+0020 [Tú] | Ahaha...==W== It certainly suits your taste. Alright, let me grab this end—
+0021 [Monster] | Grrraaagh!
+0022 [Tú] | W-What?! A monster?!
+0023 [Coronis] | Heh...==W== Lucky us. Looks like we're adding another souvenir to the collection today.
+0024 [Tú] | Coronis? You're not serious...
+0025 [Coronis] | Step back, Boss. It'd be a waste to shatter its fine skeleton by mistake.
+0026 [Tú] | Never thought I'd see the day I pity a monster...
+0027 [Coronis] | The hotel owner eyed us really suspiciously, but at least we got it back in one piece. Thanks, my assistant.
+0028 [Tú] | Glad to help.
+0029 [Coronis] | By the way...==W== Mind if I ask for one more favor?
+0030 [Tú] | I suppose...
+0031 [Tú] | She has her sights on another set of bones?
+0032 [Coronis] | Since these are for Igna, I need snacks with a long shelf life. Might be a while before I see her again...
+0033 [Coronis] | Which of these two looks better?
+0034 [Tú] | Huh? Let's see...==W== I'd go with the baked ones. They look pretty appealing and appetizing.
+0035 [Coronis] | Mm, good point.==W== Excuse me, could I get this gift-wrapped?
+0036 [Shop Owner] | You got it. One moment.
+0037 [Tú] | Huh. So she also buys normal souvenirs.
+0038 [Tú] | Who's Igna? A friend?==W== Well, at least she's not gifting a bag of bones. No, that's rude...==W== I shouldn't judge...
+0039 [Coronis] | Assistant... Dear assistant—
+0040 [Tú] | Huh? Sorry, zoned out...==W== What's up?
+0041 [Coronis] | Nothing major...==W== Heh. Thinking something rude about me, were we?
+0042 [Tú] | Eh? No I wasn't! Why would you say—
+0043 [Coronis] | Dilated pupils, irregular breathing...==W== Heh, never mind. Let's hit the next shop.
+0044 [Tú] | I can't hide anything from her...==W== This doctor is terrifyingly sharp!
+0045 [Tú] | Is this stall selling ...==W== traditional handicraft?
+0046 [Coronis] | What's wrong? Surprised? Even I have the right to appreciate beauty, don't I?
+0047 [Tú] | Y-yeah...
+0048 [Tú] | Okay, stop overthinking this.
+0049 [Coronis] | Hmm. I'll have this one.
+0050 [Coronis] | Assistant. Give me your hand.
+0051 [Tú] | Huh?==W==... A braided bracelet?
+0052 [Coronis] | Knew it. This color suits your complexion perfectly.
+0053 [Coronis] | Excuse me, I'll take this. Mind if we pay with it on?
+0054 [Tú] | Wait! This is way too nice! I can't accept this!
+0055 [Coronis] | It's fine. Consider it a gift. I saw it the other day and knew it'd look good on you.
+0056 [Tú] | But...
+0057 [Coronis] | Besides, I've dragged you around all day. Just think of it as a thank-you.
+0058 [Tú] | Fine...==W== If you insist. I'll accept it.
+0059 [Tú] | But I can't just take a gift without giving one back...==W== Is there anything you'd like?
+0060 [Coronis] | A gift in return...==W== Does that mean I can ask for anything?
+0061 [Tú] | Er...==W== I want to say yes, but...==W== since Iris keeps a leash on our budget, I'm a little short on pocket money.
+0062 [Coronis] | Don't worry. What I want won't cost you a cent.
+0063 [Tú] | You're not asking for ... bones again, are you?
+0064 [Coronis] | No. What I want is—
+0065 [Opción] | What's going on?
+0066 [Coronis] | What do you mean? You're just lying on a hotel bed. Don't be so tense.
+0067 [Opción] | I figured as much.
+0068 [Opción] | I'm just asking why.
+0069 [Coronis] | Didn't you say you wanted to give me something in return?
+0070 [Coronis] | Besides, you're sharp. As soon as I mentioned a gift "in return," you must've realized exactly what I wanted...==W== Right?
+0071 [Coronis] | Who says a gift has to be tangible? The memories we make on the road are just as precious. Don't you agree?
+0072 [Opción] | I guess I see your point...
+0073 [Coronis] | Then it's simple.==W== The gift I want is memories of us spending time together.
+0074 [Coronis] | We've made plenty of memories since arriving here, sure. But sadly, I've always been a rather greedy person.
+0075 [Coronis] | After all, you can never have too many memories, can you? Especially for a Trekker.
+0076 [Coronis] | It's a pity we can't control which memories pay for our wishes... The thought of the Monolith devouring my time with you is ... rather unpleasant.
+0077 [Opción] | I get that, but...
+0078 [Opción] | Isn't this specific memory a little ... scary?
+0079 [Coronis] | Hm? What are you staring at...?==W== Oh! This? You mean the syringe?
+0080 [Coronis] | I'm not going to use it on you; it's just for atmosphere.
+0081 [Coronis] | Ah...==W== Just imagining the face you'll make, the sounds you'll let slip...==W== It's getting me all worked up...!
+0082 [Opción] | Coronis! Get a grip!
+0083 [Coronis] | Don't be scared. A doctor's gotta be gentle with her patients, right?
+0084 [Coronis] | ... Ah, wait. What we are again... Doctor and assistant? No... Surely something far more intimate...
+0085 [Coronis] | Hehe...==W== You know you're special to me, don't you? I wouldn't do anything ... naughty.
+0086 [Opción] | You're definitely plotting something twisted!!
+0087 [Coronis] | Hehe, always so guarded...==W== Come now, relax. Focus on my voice ... and surrender your body and mind to me.
+0088 [Coronis] | Making new memories together, far from home...==W== Mmm,==W== now that is the perfect souvenir!
+0089 [Coronis] | So...==W== How's it feel?
+0090 [Tú] | Ahh...==W== My body feels ... weightless. Incredible.==W== You've got magic hands, Coronis.
+0091 [Tú] | Makes my clumsy attempt earlier look downright embarrassing...
+0092 [Coronis] | Just your first time, that's all! Besides, your technique wasn't half bad.
+0093 [Tú] | Glad to hear it...==W== But I'm the one getting the massage.==W== How is this a gift in return for you?
+0094 [Coronis] | How is it not?==W== Like I said ... what I wanted was the memory.
+0095 [Coronis] | Every twitch, every face you made, every little noise...==W== I've memorized them all. Mmm... I'm quite satisfied.
+0096 [Tú] | Don't say it like that! It's embarrassing enough already...
+0097 [Tú] | Honestly, it felt so good my mind just went blank...
+0098 [Coronis] | By the way, might I keep you a little longer?
+0099 [Coronis] | Memories hold their shape better when spoken aloud. Why don't we have tea and ...==W== savor everything that's happened here?
+0100 [Tú] | Well, if you put it that way...==W== I look forward to your tea, Coronis.
+0101 [Coronis] | Then I'll brew my finest leaves. Do look forward to it,==W== my one and only little assistant.

@@ -1,0 +1,124 @@
+# Recuerdo de disco · Deer's Song · 1 · Deer's Song
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Forest Ranger | Forest Ranger
+N:Monster | Monster
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_156 | Nazuna
+N:avg2_977 | Alpha Boar
+N:avg3_100 | Sylar
+N:avg3_109 | Grandpa Chai
+N:avg3_132 | Kaede
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | Deer's Song
+0003 [Intro] | A chance encounter, a pleasant surprise; this cabin in the woods belongs to the two of you, encircled by the echoing call of deer.
+0004 [Narración] | I'm out in the forests of Philae, alone, after taking a herb-gathering commission.
+0005 [Tú] | Something feels off.
+0006 [Tú] | It's unnervingly quiet ... and what's with these marks on the trees?
+0007 [Tú] | Couldn't be from a monster, right? I only came alone 'cause I heard it was safe. If one actually shows up, my only option would be to run for it.
+0008 [Tú] | But the commission brief didn't warn about anything like this...
+0009 [Tú] | Maybe it's just the bark peeling off. No point getting spooked over nothing.
+0010 [Tú] | Right. Better to just get this over with and head back.
+0011 [Forest Ranger] | Hey! You over there!
+0012 [Tú] | Who's there?
+0013 [Tú] | He sounds agitated. I haven't done anything to get an earful, have I?==W== Wait, am I even in the right spot?
+0014 [Forest Ranger] | You're a Trekker, aren't you?
+0015 [Tú] | That's right. On a commission from the Trekker Association.
+0016 [Forest Ranger] | Thank the stars! You couldn't have come at a better time!
+0017 [Tú] | Okay, so he's not angry. Still, I'm just here for some herbs. Isn't this reaction a little much?
+0018 [Tú] | Excuse me, sir. Is everything alright?
+0019 [Forest Ranger] | Oh, what a relief! This mountain's always been quiet,==W== but a vicious monster just appeared out of nowhere recently...
+0020 [Tú] | Uh...==W== A monster?
+0021 [Forest Ranger] | I can't handle it on my own, so I posted a commission with the Trekker Association yesterday.
+0022 [Tú] | Hmm...
+0023 [Forest Ranger] | I didn't expect them to send someone so soon. You're a lifesaver.
+0024 [Tú] | O-Oh, I see...
+0025 [Tú] | This is a misunderstanding. But he looks so relieved, I don't have the heart to correct him.
+0026 [Tú] | I wish Noya, Iris, and Amber were here. I really can't handle this myself...
+0027 [Forest Ranger] | Anyway, I'm leaving it all to you!
+0028 [Tú] | ... And he's gone. Just like that.
+0029 [Tú] | Well, I can't just ignore it. Better scout the area for now, and then send for some help.
+0030 [Tú] | What was that sound?
+0031 [Tú] | It came from that cabin over there...==W== Could that be the monster?
+0032 [Narración] | I tread lightly and peek inside the cabin—
+0033 [Tú] | Nazuka? What're you doing here?
+0034 [Nazuka] | I could ask you the same thing. What brings you out here?
+0035 [Tú] | I was...
+0036 [Tú] | And that's the whole story.
+0037 [Nazuka] | I see. So that's why he mistook you for a monster-hunting Trekker.
+0038 [Nazuka] | Good timing. I sensed something strange in the forest while on patrol. Came to check it out and found these tracks—definitely not from any common beast.
+0039 [Nazuka] | Assuming that a monster left these, we should work together. What do you say?==W== You can't take it on alone, can you?
+0040 [Tú] | Thought you'd never ask.
+0041 [Nazuka] | Heh. It's a deal, then. Let's get going—
+0042 [Monster] | GRRAAAWRRR!
+0043 [Tú] | Whoa, it came out of nowhere!
+0044 [Nazuka] | This creature...==W== It must've caught our scent.
+0045 [Tú] | Of all the rotten luck.
+0046 [Nazuka] | Stay behind me. I'll handle this.
+0047 [Nazuka] | What can I hold you with?
+0048 [Nazuka] | I offer you fresh leaves, stalled crossbow bolts, and shards of razor-sharp stone...
+0049 [Nazuka] | I offer you slumber granted by the wild spirits.
+0050 [Monster] | Gah—!
+0051 [Tú] | Down in a single blow... Nazuka really is powerful.
+0052 [Nazuka] | It's over. Judging by the tracks, that was the only one. The forest should be at peace again.
+0053 [Tú] | That was incredible.
+0054 [Nazuka] | It was nothing.==W== Come on, let's go tell the old man the good news.
+0055 [Forest Ranger] | What?! You already took care of that monster?
+0056 [Nazuka] | Yes. Its presence is gone from the mountain, so you can rest easy now.
+0057 [Forest Ranger] | That was fast!==W== I really have to thank you properly.
+0058 [Tú] | No need, sir. You already had a reward for the commission, right?
+0059 [Forest Ranger] | That's not nearly enough!==W== Oh, I know—the cabin up on the mountain. Take it!
+0060 [Forest Ranger] | No one's lived there in a while, but it'll be perfectly fine once it's cleaned up.
+0061 [Nazuka] | That's very generous of you, but we were just doing what any Trekker would.
+0062 [Forest Ranger] | Ah, just take it. Since more monsters may show up, it's unlikely I'll be using it anyway. It'd be a real shame to let it go to waste, right?
+0063 [Forest Ranger] | A few monsters are no threat to you, so please, the cabin's all yours!
+0064 [Tú] | Well, if you insist...==W== All right. Thank you.
+0065 [Nazuka] | We're grateful for your kindness.
+0066 [Tú] | Now that I'm getting a closer look, this place is pretty beat up. Think we can make it work?
+0067 [Nazuka] | Hmm...==W== With a little tidying up, I think it could make a patrol base.
+0068 [Tú] | In that case, let me handle the cleaning as an appreciation for you taking down that monster.
+0069 [Nazuka] | You're thanking me, too?==W== Heh. This commission came with more rewards than I expected.
+0070 [Tú] | Hang on, I'll go fetch some water.
+0071 [Nazuka] | Sounds good. I'll start with the furniture, then.
+0072 [Nazuka] | Hah...==W== I feel a bit sleepy after moving all that furniture...
+0073 [Tú] | Hm? Is this...==W== Did she fall asleep?
+0074 [Tú] | Phew, didn't realize the river was so far away.
+0075 [Narración] | I'm still hesitating when a soft breeze stirs the woods, and her eyes flutter open.
+0076 [Nazuka] | Mmm... Boss? Oh, you're back.
+0077 [Nazuka] | Whoops, sorry. I was airing out the furniture... The sun and the breeze were so nice, I guess I just nodded off.
+0078 [Opción] | This really is a perfect spot for a nap.
+0079 [Opción] | But, uh ... when did all these deer show up?
+0080 [Nazuka] | Huh. I just noticed 'em myself.
+0081 [Opción] | Now that peace is returned to the forest...
+0082 [Opción] | Maybe they've come to say thanks.
+0083 [Nazuka] | Heh, could be. Speaking of which...
+0084 [Opción] | Yeah?
+0085 [Nazuka] | You were ...==W== watching me for a while there, weren't you?
+0086 [Opción] | Wh—I thought you were asleep.
+0087 [Nazuka] | The wind whispers things to me. You could've just woken me up...
+0088 [Opción] | I just figured you were tired after that fight.
+0089 [Opción] | Wanted you to rest a bit longer.
+0090 [Nazuka] | It's fine, really. A little fight like that was nothing.
+0091 [Nazuka] | Anyway, since you're back with the water, let's get back to cleaning up.
+0092 [Nazuka] | So, which room are you taking?
+0093 [Tú] | Me?
+0094 [Nazuka] | You don't want one?
+0095 [Tú] | You pick. You're the one who took care of the monster, after all.
+0096 [Nazuka] | The old man gave the cabin to both of us. It's only natural we share it, right?
+0097 [Tú] | I didn't really do much.==W== Besides, who knows when I'll be back in this forest again.
+0098 [Nazuka] | It could be sooner than you think.
+0099 [Tú] | What do you mean?
+0100 [Nazuka] | I'm saying you have a reason to come back.
+0101 [Tú] | I do...?
+0102 [Tú] | Is she talking about another herb-gathering commission? But that wouldn't necessarily bring me back here, specifically.
+0103 [Tú] | A monster-slaying job, then? No, with her on patrol, I doubt any of those will pop up.
+0104 [Tú] | Sorry, I'm not following.
+0105 [Nazuka] | It's simple.
+0106 [Nazuka] | I want to see you again. And you, me...==W== That's all the reason we need.
+0107 [Tú] | ... You're right.==W== In that case, let's decide when we shall next meet again, shall we?
+0108 [Narración] | A faint smile touched Nazuka's lips as she gives a gentle nod.

@@ -286,6 +286,18 @@ for nm in csn:
         tit=it[0][2] if it else nm;NOMB[sid]='%d · %s'%(k+1,tit);chap.append((sid,tit))
     emit_chapfile(pre,head,chap)
     for sid in ids_:emit_act(sid,head,NOMB[sid])
+# ---------- 5) Recuerdos de disco (CG_disc<N>): se enlazan al disco por el nombre ----------
+try:DIDX=J(REPO+'discos/indice.json')['ids']
+except Exception:DIDX={}
+for f in sorted(glob.glob(LUA+'CG_disc*.lua')):
+    sid=os.path.basename(f)[:-4]
+    try:it=[x for x in conv.conv(luaload.load(f)) if x[0]=='intro']
+    except Exception as ex:print('ERROR',sid,ex);continue
+    nm=it[0][2] if it else ''
+    if nm not in DIDX:print('DISCO SIN COINCIDENCIA',sid,nm);continue
+    pre='CGD_'+sid[3:];head='Recuerdo de disco · '+nm
+    CAPS[pre]=[head,[[sid]],[]];NOMB[sid]='1 · '+nm;LECT['disc:'+nm]=sid
+    emit_chapfile(pre,head,[(sid,nm)]);emit_act(sid,head,NOMB[sid])
 LECT.update({'ev:guild-sweet-guild':'STm03_00_a','ev:beyond-the-dream':'STm04_01','ev:miracle-of-a-flicker':'STm06_00'})
 json.dump({'CAPS':CAPS,'SIG':SIG,'NOMB':NOMB,'ALT':ALT,'LECT':LECT},open(REPO+'lector-meta.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'),sort_keys=True)
 if NEW:

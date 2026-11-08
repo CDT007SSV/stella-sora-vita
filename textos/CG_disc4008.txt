@@ -1,0 +1,134 @@
+# Recuerdo de disco · Soaring Blue · 1 · Soaring Blue
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cheerful Screaming Voice | Cheerful Screaming Voice
+N:Fierce-looking Trekker | Fierce-looking Trekker
+N:Gentle Passerby | Gentle Passerby
+N:Half-hearted Passerby | Half-hearted Passerby
+N:Hurried Trekker | Hurried Trekker
+N:Serious Passerby | Serious Passerby
+N:Shy Shop Assistant | Shy Shop Assistant
+N:Staff | Staff
+N:Trekker Association Staff | Trekker Association Staff
+N:avg1_125 | Freesia
+N:avg1_127 | Teresa
+N:avg1_130 | Donna
+N:avg2_982 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_138 | Trekker
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_145 | Gold District Resident
+N:avg3_158 | Penguin Performer
+N:avg3_168 | Chica
+N:avg3_196 | Empleada corporativa
+N:avg3_927 | Little Girl
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | Soaring Blue
+0003 [Intro] | People always dream in springtime. In your lidded eyes, a dream of a vast, azure sky...
+0004 [Tú] | Iris said dropping these snacks off at Post Haste was the whole job, but...==W== It's dead quiet. Are they closed today?
+0005 [Tú] | Hello? Anyone here?
+0006 [Donna] | Coming! Sorry!==W== I was in the back...
+0007 [Donna] | Huh? Boss? You here on business? Or...==W== Did you come all this way just to see me?
+0008 [Tú] | Well...==W== You're half right. Iris sent some snacks over. A thank-you for handling that rush order the other day.
+0009 [Donna] | Aww, she's too kind! We were just doing our job.==W== Be sure to thank her for us, okay, Boss?
+0010 [Donna] | Stick around for some tea?==W== I was about to take a break anyway.
+0011 [Tú] | ... I see.==W== So Freesia and Teresa took those gift tickets and went on a trip.==W== But with only two tickets, how did you decide who went?
+0012 [Donna] | They had time, and I'm swamped, so I let them go have fun.==W== Besides, looking out for my staff's well-being is part of the job!
+0013 [Donna] | But...==W== Yawn...==W== I worked late last night...==W== I'm fading fast. The tea's making me all warm and fuzzy and sleepy...
+0014 [Tú] | Ugh... I was also up way too late,==W== reading manga...==W== Now I'm crashing too...
+0015 [Donna] | Zzz...==W== Zzzz...
+0016 [Little Girl] | H-hello? I'd like to send a letter...
+0017 [Donna] | ... Aah!
+0018 [Donna] | Coming!
+0019 [Donna] | Mailing a letter, right? Who's the recipient?
+0020 [Little Girl] | A Trekker! He saved me from a monster, so I wrote a thank-you note.==W== But I don't know his name or address...==W== Can you still deliver it?
+0021 [Tú] | That's a tall order...==W== You don't even know who he is...
+0022 [Donna] | Of course! Leave it to Post Haste!
+0023 [Tú] | You sure you should be promising that?!
+0024 [Donna] | Easy peasy! Now, sweetie, what did he look like? How old was he? Was he holding anything?
+0025 [Little Girl] | Um...==W== He was about as old as the boy at the bakery. He had a sword ...==W== and he was wearing a green stone on his wrist.
+0026 [Donna] | Green gem on the wrist...==W== Sounds like a bracelet.==W== Okay! With that, I bet we can find him.
+0027 [Little Girl] | Really?! Thank you!
+0028 [Donna] | You got it!==W== I'll keep your letter safe. Time to go find this guy!
+0029 [Tú] | That's barely any info, Donna. How are you gonna find him?
+0030 [Donna] | Heh. Doubting me? Just tag along and watch a pro at work!
+0031 [Trekker Association Staff] | A guy with a green gem bracelet...==W== Yeah, rings a bell. He mentioned he rarely left this street when he wasn't diving in the Monolith. Stick around, and you might run into him.
+0032 [Donna] | See? A solid lead right off the bat! Thanks for the tip!
+0033 [Tú] | Snagging a major clue right out of the gate. We're on a roll.
+0034 [Donna] | I know, right? At this rate, we'll have this delivered in no time!
+0035 [Half-hearted Passerby] | Bracelet with a green gem? No clue. Never seen him.
+0036 [Serious Passerby] | I feel like I've seen him around ...==W== but not lately.
+0037 [Donna] | I see...==W== Well, thanks anyway!
+0038 [Fierce-looking Trekker] | Huh? What Trekker? I don't know!
+0039 [Fierce-looking Trekker] | You realize whose turf this is? Get lost before I make you regret it!
+0040 [Hurried Trekker] | Bracelets are a dime a dozen around here. How am I supposed to know which Trekker you mean?
+0041 [Hurried Trekker] | Forget that—can you help me out?==W== We took a monster hunting gig, but we're short-handed.==W== You look like you can hold your own, right? Skipping that burden behind there.
+0042 [Donna] | Huh? Hey...==W== Wait a sec!
+0043 [Tú] | Donna—!!?
+0044 [Tú] | Sigh...==W== We've combed every street and alley with nothing to show for it.
+0045 [Donna] | I really thought we'd find him right away after getting that first clue...
+0046 [Tú] | I guess delivering a letter to a stranger with no name or address was a long shot after all.
+0047 [Donna] | Mmm...==W== Maybe you're right.
+0048 [Donna] | But I'm not giving up!==W== This letter carries that child's gratitude. No matter how long it takes, I am going to deliver it!
+0049 [Tú] | Donna...
+0050 [Tú] | I'll stick with you to the very end!
+0051 [Gentle Passerby] | Excuse me, are you two looking for someone?
+0052 [Gentle Passerby] | He's not a Trekker,==W== but there's a waiter at the restaurant up ahead wearing a green gem bracelet. Might be worth checking out?
+0053 [Donna] | Finally! A lead?!
+0054 [Tú] | But he doesn't fit the "Trekker" part of the description...==W== What do you think?
+0055 [Donna] | We have to check, even on the slightest chance!==W== Oh—and thanks for the tip!
+0056 [Shy Shop Assistant] | Welcome. Table for two?
+0057 [Donna] | Boss, look at his wrist. That chain peeking out from his cuff…==W== Is that the green gem bracelet the girl mentioned?==W== This might be our guy...
+0058 [Shy Shop Assistant] | Um... Hello?
+0059 [Donna] | Sorry to bother you...==W== Do you have a sec to talk?
+0060 [Shy Shop Assistant] | I used to be a Trekker, yes. But now...==W== As you can see, I'm just a server here.
+0061 [Donna] | Actually, a little girl you once helped asked us to bring you this letter.
+0062 [Shy Shop Assistant] | A little girl? That does ring a bell...==W== But why would she write to me?
+0063 [Shy Shop Assistant] | Let me see...==W== "Thank you, Mister. Because of you, I made it home safe."
+0064 [Shy Shop Assistant] | Ugh...==W== Sob...
+0065 [Tú] | Whoa, what's wrong?!
+0066 [Shy Shop Assistant] | I-I was a total failure as a Trekker...==W== Every commission ended in disaster. I was nothing but a burden, so I lost my nerve and quit...
+0067 [Shy Shop Assistant] | But this letter... It feels like a lifeline. To know that I actually helped someone...==W== Thank you for bringing this to me. Thank you.
+0068 [Donna] | Don't mention it! That's just part of the service at Post Haste!
+0069 [Tú] | That's great news. He said thanks to that letter, he might even consider becoming a Trekker again.
+0070 [Donna] | Yeah!==W== You know, this actually brings back some memories for me, too.
+0071 [Tú] | You've been through something similar, Donna?
+0072 [Donna] | Mhm. A letter saved me once.==W== That envelope, and the courier who delivered it, taught me something. It might feel light in your hands, but it carries enough weight to save a soul.
+0073 [Donna] | That's why I became a courier. I wanted to deliver messages just like they did. Figured maybe I could save someone else along the way.
+0074 [Donna] | I traveled everywhere delivering mail. Eventually I met Freesia and Teresa, and we started Post Haste. You could say letters gave me a second chance at life.
+0075 [Tú] | I get it now...==W== No wonder you were so dead set on finding that guy.
+0076 [Donna] | Mm-hm! By the way, what about those tickets the server gave us just now?==W== Looks like they're tickets to the theme park inside the nearby Monolith.
+0077 [Tú] | A theme park inside a Monolith?==W== That's odd. Can you even bring tickets like that outside?
+0078 [Donna] | Good point...==W== But who cares! We've got two tickets and zero plans. Let's go check it out!
+0079 [Donna] | Whoa—==W==look at that giant wheel! And those Artifact cars zooming down the tracks!==W== When did this Monolith get all this cool stuff?!
+0080 [Staff] | Welcome to the park!==W== Here's a balloon for you.==W== Stay close to your grown-up now, don't get lost!
+0081 [Donna] | Whoa, that is a lot of balloons!
+0082 [Donna] | And hey, I'm not a kid—==W==whatever. Still, I feel like I'm gonna float away holding all these! Here, Boss, take half—
+0083 [Cheerful Screaming Voice] | Wheeee—!!
+0084 [Donna] | Huh? That happy scream sounds familiar...
+0085 [Donna] | Boss, look up there! It's Freesia and Teresa! So this is where they went for their trip!
+0086 [Donna] | Pfft-hahaha! Look at Teresa's face! Wait, how is Freesia still keeping a straight face...? They're nothing like me. It's hilarious.
+0087 [Opción] | You're all so different, yet you make such an incredible team.
+0088 [Donna] | Hehe, thanks!
+0089 [Donna] | When Post Haste first opened, we had the passion, but absolutely zero clue about how to actually run things.
+0090 [Donna] | We didn't have the funds to handle deliveries out in the remote regions.
+0091 [Donna] | So we took every commission we could get, micromanaged our routes, and scraped together travel fare before setting out.
+0092 [Donna] | But through it all, no matter how hard it got, I only had to look up to find Freesia and Teresa by my side.
+0093 [Donna] | That's how I know we'll find a way through anything, as long as we're together.
+0094 [Donna] | It's what they taught me.==W== No... It's a precious gift they gave me.
+0095 [Donna] | I haven't been on my own for a long time.
+0096 [Opción] | You really treasure them, don't you, Donna?
+0097 [Donna] | You bet! They're the most important partners I have!
+0098 [Donna] | Once they get down here, let's have fun together...
+0099 [Donna] | Huh?! W-wait?! The balloons...!==W== Seriously?! They're actually carrying me away?!!
+0100 [Donna] | Uhh...==W== Boss, g-get me down...==W== I'm drifting away...
+0101 [Teresa] | Wah! Donna, we're ho—==W==Mmph!!
+0102 [Freesia] | Shh. Donna is resting...==W== And...==W== Why is Boss here as well?
+0103 [Tú] | Nggh...?==W== Must have dozed off...==W== Oh, you're back!
+0104 [Freesia] | Indeed. It seems Donna has been overloading herself with work in our absence again...
+0105 [Freesia] | Let us keep our voices down and let her rest. We can wake her once dinner is ready.

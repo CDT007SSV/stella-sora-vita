@@ -1,0 +1,108 @@
+# Recuerdo de disco · Midnight Mayhem · 1 · Midnight Mayhem
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Arrogant Tycoon | Arrogant Tycoon
+N:Brash Knight | Brash Knight
+N:Knight Captain | Knight Captain
+N:Vollara & Neuvira | Vollara & Neuvira
+N:avg1_132 | Minova
+N:avg2_993 | Neuvira
+N:avg2_994 | Vollara
+N:avg3_100 | Sylar
+N:avg3_1222 | Guardia
+N:avg3_1223 | Guardsman
+N:avg3_1239 | Guardia Imperial
+N:avg3_129 | Guardia Imperial
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_157 | Guardia Imperial
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | Midnight Mayhem
+0003 [Intro] | With everything settled down, how would Ashwind Clan face the new challenges ahead?
+0004 [Vollara] | Phew...==W== thanks to you, Boss, we finally shook free of Creta Trading!
+0005 [Neuvira] | If not for you, we'd probably still be stuck in that nightmare right now~
+0006 [Tú] | Eh? You two dragged me out in the middle of the night just to thank me again?
+0007 [Minova] | Of course! You are the great benefactor of the Ashwind Clan! No matter how many times we thank you, it'll never be enough.
+0008 [Tú] | Something feels off... Don't tell me you've got a favor to ask?
+0009 [Vollara & Neuvira] | Uhhh...
+0010 [Minova] | Nothing escapes you, Boss. You saw right through us.
+0011 [Tú] | Just say it. I'll do what I can to help.
+0012 [Minova] | It's not super important, no.
+0013 [Minova] | As you know, the Ashwind Clan was formed to protect the orphanage, to keep Creta Trading and other gangs away.
+0014 [Minova] | Now that all our enemies have been defeated, and Ashwind Clan has a new goal of assembling Artifacts. Yet, we're still quite lost on what kind of mindset to face the challenges ahead.
+0015 [Minova] | So really, I asked you out tonight just to talk it over, to hear your thoughts.
+0016 [Tú] | If you put that way... I don't have an answer for you off the top of my head.
+0017 [Minova] | That's fine! No rush. We can think while we walk. It's just us taking a stroll!
+0018 [Tú] | Fair enough. I haven't taken in the Ash District's night view in a while.
+0019 [Minova] | Then let's head toward the Waterway!
+0020 [Vollara] | Look! Over here—there's a Stella Drama poster!
+0021 [Neuvira] | Looks like the one you told us about last time...
+0022 [Minova] | Oh, that one! I remember there was a line from it that I especially liked!
+0023 [Minova] | "Inside every heart there is both black and white. Most people choose to remain in the gray. But I—"
+0024 [Minova] | Uh... What was the rest again...?
+0025 [Tú] | Don't tell me you forgot during your last trip to the Monolith to make a wish?
+0026 [Minova] | I must have. I can't remember at all. Dang it, it was such an important line...
+0027 [Neuvira] | Guess the only way is to watch it again inside the Monolith.
+0028 [Tú] | Not necessarily. If you still remember the story, we could probably deduce the rest.
+0029 [Minova] | Really?==W== Let me think...
+0030 [Narración] | Thirty minutes later.
+0031 [Tú] | We've walked all the way to the Waterway but still can't figure out the rest of the line.
+0032 [Minova] | I only remember one of the protagonists was an anti-hero whose moral code was kinda gray, but I can't remember how it turned out after that.
+0033 [Vollara] | I'm sure he went full hero. That's how these stories always go.
+0034 [Minova] | That would have been way too boring. No way I'd enjoy a story like that.
+0035 [Tú] | I think the rest of the line had to be about the hero reflecting on his own inner world.
+0036 [Minova] | Reflecting on his inner world, huh...
+0037 [Vollara] | Someone's coming!
+0038 [Brash Knight] | Hey! You there! What are you doing sneaking around in the middle of the night?!
+0039 [Minova] | We're just out taking a walk, that's all. Problem?
+0040 [Brash Knight] | There's a shipment of Artifacts being transported tonight. This whole area is under lockdown!
+0041 [Arrogant Tycoon] | What's the point talking to these Ash District trash? Just run them out of here! Who knows if they're gonna try to steal the Artifacts.
+0042 [Arrogant Tycoon] | Where's your captain?
+0043 [Knight Captain] | At your service.
+0044 [Arrogant Tycoon] | If your men are this inefficient, I'll have to hire another company next time!
+0045 [Knight Captain] | My apologies! I'll discipline him right away!
+0046 [Knight Captain] | You! This is what you get from spending too much time in the Ash District. Don't waste time talking to these trash lowborn. Our mission is to satisfy the employer’s requests.
+0047 [Brash Knight] | Yes, Captain! It won't happen again...
+0048 [Vollara] | Hey! What are you two chitchating over there? Who're you calling trash!
+0049 [Arrogant Tycoon] | Shouting like that... Just barbaric.
+0050 [Vollara] | You jackass—!
+0051 [Minova] | Calm down, Vollara. We're not here to pick a fight tonight.
+0052 [Arrogant Tycoon] | Hmph. At least one of you get it.
+0053 [Arrogant Tycoon] | Huh? Hey! You there! Why have you been hiding in the back all this time!
+0054 [Tú] | Does he mean me?
+0055 [Brash Knight] | Yeah, you!
+0056 [Brash Knight] | How come I've never seen you in the Ash District before?!
+0057 [Minova] | This the one who saved all of us from the Monolith Meltdown! What do you mean, "never seen you before"?
+0058 [Arrogant Tycoon] | As if someone like that would ever stoop to mingle with trash like you!
+0059 [Arrogant Tycoon] | Men! Detain this suspicious person! Lock them up until the transport's finished!
+0060 [Minova] | Wait a second! How can you say Boss is suspicious just from that?
+0061 [Arrogant Tycoon] | That depends on how much bail you can put up.
+0062 [Minova] | Tch. What is this, extortion?
+0063 [Arrogant Tycoon] | Not extortion, just company policy. Surely someone like you say wouldn't be short on money. Let's say... 5,000,000 Dorra as proof?
+0064 [Tú] | Minova, we don't have that much...
+0065 [Minova] | ...
+0066 [Vollara] | I say we just fight it out. Teach them a lesson!
+0067 [Minova] | No. The Imperial Guard knights aren't easy pickings. If we start a fight here, it'll only end badly for us.
+0068 [Neuvira] | Then what do we do? We can't just stand by while they drag Boss away~
+0069 [Minova] | If only I had on that uniform today...
+0070 [Minova] | Alright. I'll draw their attention. The rest of you slip into the alleys!
+0071 [Arrogant Tycoon] | It's almost time~
+0072 [Minova] | Look out! Someone's going after the Artifact shipment!
+0073 [Arrogant Tycoon] | What???
+0074 [Minova] | Now! Run, everyone!
+0075 [Arrogant Tycoon] | Damn it! How dare you trick me!
+0076 [Arrogant Tycoon] | After them! If you let these little trash get away, kiss the contract goodbye!
+0077 [Knight Captain] | Yes, Boss!
+0078 [Knight Captain] | Damn, once they duck into those alleys, it's impossible to find them...
+0079 [Brash Knight] | Captain, what now?
+0080 [Knight Captain] | Keep looking! How else are we going to get out of this one?
+0081 [Narración] | Go! Now!
+0082 [Knight Captain] | Agh—we're ambushed, retreat, retreat!
+0083 [Vollara] | Who're you calling trash, huh?! If you can't say anything nice, you should just keep your trap shut!
+0084 [Narración] | A bomb goes off at the knights' feet. Minova, who's been waiting on the rooftops, leaps down to rumble with the rest of the pursuers.
+0085 [Narración] | I crouch behind a crate, watching Minova wiping the floor with the knights.
+0086 [Narración] | The wealthy man who had been watching from nearby just moments ago has already vanished without a trace.
+0087 [Narración] | As for the missing line from that drama... It doesn't seem to matter anymore.==W== From that look in Minova's eyes, I can tell that she has already made her own choice.

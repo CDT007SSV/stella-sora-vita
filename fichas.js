@@ -53,9 +53,27 @@ function pintaStats(box,F,l){
   box.querySelector(".fk-n").textContent=l;
   box.querySelector(".fk-sv").innerHTML=`<div class="stats"><div class="stat"><b>${x[1].toLocaleString("es-MX")}</b><span>HP</span></div><div class="stat"><b>${x[2].toLocaleString("es-MX")}</b><span>ATK</span></div><div class="stat"><b>${F.stats.cr}%</b><span>Prob. crítica</span></div><div class="stat"><b>${F.stats.cd}%</b><span>Daño crítico</span></div></div>`;
 }
+/* Afinidad: archivo del personaje y recuerdos de citas (afinidad/<id>.json + textos/AF_<id>.txt traducido) */
+(function(){const st=document.createElement("style");st.textContent=".fk-ar{border:1px solid var(--bd,#35305c);border-radius:12px;margin:0 0 8px;background:rgba(20,16,50,.55);overflow:hidden}.fk-ar>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:11px 12px;font-weight:700;font-size:.9rem}.fk-ar>summary::-webkit-details-marker{display:none}.fk-ar>summary::after{content:'▾';margin-left:auto;color:var(--a);transition:transform .2s}.fk-ar[open]>summary::after{transform:rotate(180deg)}.fk-ar .fk-lv{flex:none;font-size:.68rem;padding:2px 8px;border-radius:9px;background:rgba(123,108,255,.28);color:#d8d2ff;font-weight:700}.fk-ar .fk-lv.h{background:rgba(255,200,87,.2);color:#ffd27a}.fk-ar .fk-tx{padding:0 12px 12px;font-size:.85rem;line-height:1.55;color:var(--t2,#cfc8ff)}.fk-ar .fk-tx p{margin:.5em 0}.fk-ar .fk-cl{font-size:.75rem;opacity:.75;margin-top:6px}";document.head.appendChild(st)})();
+const AFC={},AFT={};
+const AFPN="Tirano",afx=s=>e(String(s==null?"":s).replace(/<[^>]*>/g,"").replace(/==PLAYER_NAME==/g,AFPN)).replace(/\n/g,"<br>");
+async function afGet(cid){
+  if(AFC[cid]===undefined){try{const r=await fetch("afinidad/"+cid+".json");AFC[cid]=r.ok?await r.json():null}catch(x){AFC[cid]=null}}
+  if(AFT[cid]===undefined){AFT[cid]={};try{const r=await fetch("textos/AF_"+cid+".txt",{cache:"no-cache"});if(r.ok)(await r.text()).split("\n").forEach(l=>{const m=l.match(/^([ad]\d+\.\w) \| (.*)$/);if(m)AFT[cid][m[1]]=m[2].replace(/\\n/g,"\n")})}catch(x){}}
+  return AFC[cid];
+}
+async function afinidadExtra(box,F){
+  const cid=F.id,O=await afGet(cid);if(!O||!box.isConnected)return;
+  const T=(k,d)=>{const v=AFT[cid][k];return v!=null&&v!==""?v:d},ES=Object.keys(AFT[cid]).length>0;
+  let h="";
+  if(O.a&&O.a.length)h+=`<h4 class="fk-h">Archivo del personaje</h4><p class="nota">Se desbloquea al subir la afinidad.${ES?"":" Texto en inglés por ahora."}</p>`+O.a.map(x=>`<details class="fk-ar"><summary><span class="fk-lv${x.tp===3?" h":""}">${x.tp===3?"Historia · ":""}Afinidad ${x.n||1}</span>${afx(T("a"+x.i+".t",x.t))}</summary><div class="fk-tx"><p>${afx(T("a"+x.i+".c",x.c))}</p>${x.u?`<p>${afx(T("a"+x.i+".u",x.u))}</p>`:""}</div></details>`).join("");
+  if(O.d&&O.d.length)h+=`<h4 class="fk-h">Recuerdos de citas</h4><p class="nota">Eventos especiales que se desbloquean cuando una cita sale bien.</p>`+O.d.map(x=>`<details class="fk-ar"><summary><span class="fk-lv h">Cita</span>${afx(T("d"+x.i+".n",x.n))}</summary><div class="fk-tx">${x.d.map((t,k)=>t?`<p>${afx(T("d"+x.i+"."+(k+1),t))}</p>`:"").join("")}${x.m?`<p><b>Recuerdo:</b> ${afx(T("d"+x.i+".m",x.m))}</p>`:""}${x.p?`<div class="fk-cl">Cómo desbloquearlo: ${afx(T("d"+x.i+".p",x.p))}</div>`:""}</div></details>`).join("");
+  const w=box.querySelector(".fk-afx");if(w)w.innerHTML=h;
+}
 function panelAfin(F){
-  return `<h4 class="fk-h">Regalos favoritos</h4><div class="fk-gifts">${F.regalos.map(g=>`<div class="fk-gf">${g.iu?`<img class="fk-gi" src="${g.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><b>${e(g.n)}</b>${g.ne!==g.n?`<span>${e(g.ne)}</span>`:""}</div></div>`).join("")}</div>
-   <h4 class="fk-h">Tareas de afinidad</h4>${F.tareas.map(t=>`<div class="kv"><span>${e(t.t)}</span><b style="flex:0 0 auto;color:var(--a)">+${t.exp} EXP</b></div>`).join("")}`;
+  const L=typeof LECTOR!=="undefined"&&F._en&&LECTOR["cs:"+F._en];
+  return (L?`<button type="button" class="btn" style="margin:0 0 12px;width:100%" onclick="abrirLector('${L}')">▶ Leer su historia de afinidad en el lector</button>`:"")+`<h4 class="fk-h">Regalos favoritos</h4><div class="fk-gifts">${F.regalos.map(g=>`<div class="fk-gf">${g.iu?`<img class="fk-gi" src="${g.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><b>${e(g.n)}</b>${g.ne!==g.n?`<span>${e(g.ne)}</span>`:""}</div></div>`).join("")}</div>
+   <h4 class="fk-h">Tareas de afinidad</h4>${F.tareas.map(t=>`<div class="kv"><span>${e(t.t)}</span><b style="flex:0 0 auto;color:var(--a)">+${t.exp} EXP</b></div>`).join("")}<div class="fk-afx"></div>`;
 }
 function montar(box,F){
   let tab="per",modo="main",build=1,vista="res";
@@ -80,7 +98,7 @@ function montar(box,F){
       out.querySelectorAll(".fk-pot").forEach((c,i)=>{const nuc=L.filter(p=>p.t<3).concat(L.filter(p=>p.t===3)),p=nuc[i];if(!p)return;
         let l=0;const n=c.querySelector(".fk-n"),d=c.querySelector(".fk-pd");
         c.querySelectorAll(".fk-st").forEach(b=>b.onclick=ev=>{ev.preventDefault();l=Math.max(0,Math.min(5,l+(+b.dataset.d)));n.textContent=l+1;d.innerHTML=tpl(p.s,p.v,null,l)})});
-    }else if(tab==="afi"){out.innerHTML=panelAfin(F)}
+    }else if(tab==="afi"){out.innerHTML=panelAfin(F);afinidadExtra(out,F)}
     else{out.innerHTML=panelStats(F);if(F.stats&&F.stats.rows){const rg=out.querySelector(".fk-rg"),pintar=l=>pintaStats(out,F,l),max=F.stats.rows[F.stats.rows.length-1][0];let l=max;pintar(l);
       rg.oninput=()=>{l=+rg.value;pintar(l)};out.querySelectorAll(".fk-st").forEach(b=>b.onclick=()=>{l=Math.max(1,Math.min(max,l+(+b.dataset.d)));rg.value=l;pintar(l)})}}
   }
@@ -93,6 +111,7 @@ window.fichaCargar=async function(c){
   try{
     let F=CACHE[id]; if(F===undefined){const r=await fetch("fichas/"+id+".json");F=r.ok?await r.json():null;CACHE[id]=F}
     if(!F||!document.getElementById("ficha-box"))return;
+    F._en=c.name;try{await window.__meta}catch(x){}
     box.innerHTML=`<div class="fk-tabs"><button class="chip on" data-t="per">Perfil</button><button class="chip" data-t="hab">Habilidades</button><button class="chip" data-t="pot">Potenciales</button><button class="chip" data-t="afi">Afinidad</button><button class="chip" data-t="sta">Stats</button></div><div class="fk-body"></div>`;
     montar(box,F);
     const st=document.querySelectorAll("#det .stats .stat");

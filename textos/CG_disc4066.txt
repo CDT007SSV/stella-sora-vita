@@ -1,0 +1,114 @@
+# Recuerdo de disco · My Guiding Star · 1 · My Guiding Star
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_162 | Alina
+N:avg3_100 | Sylar
+N:avg3_1331 | Noya
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | My Guiding Star
+0003 [Intro] | To be by the person's side again, the knight makes a vow under the stars and the tower.
+0004 [Alina] | High left!
+0005 [Alina] | Low right!
+0006 [Alina] | Good. Bring it down hard. Loosen your wrists. Leave yourself room to pivot.
+0007 [Alina] | Better. Center your weight. You're leaning too far forward. You need balance to shift your stance.
+0008 [Tú] | L-Like this?
+0009 [Alina] | Exactly. Your form's improving.
+0010 [Alina] | Alright, let's try a real fight, ==PLAYER_NAME==. Come at me with everything we covered. Don't hold back.
+0011 [Tú] | Oki!
+0012 [Narración] | Blades ring out in the quiet night. Gripping my training sword, I throw everything I have into the offensive.
+0013 [Tú] | A basic slash is just gonna get blocked. She said use everything, so...
+0014 [Tú] | Here I come, Alina!
+0015 [Opción] | Feint a slash to set up a thrust
+0016 [Alina] | Huh... Not bad.
+0017 [Narración] | The tip of my sword slips right past her guard. My first clean hit of the night.
+0018 [Tú] | Got you!==W== Wait, wha—?!
+0019 [Tú] | What...==W== What just happened? I-I'm on the ground?
+0020 [Tú] | Alina, ease up...==W== I can't breathe! I yield!
+0021 [Alina] | S-Sorry, ==PLAYER_NAME==! That was pure reflex. Are you hurt?==W== Here, let me help you up.
+0022 [Tú] | I'm fine, don't worry about it. Besides, you protected me, right? When you took me down,==W== you grabbed my shoulders to break the fall.
+0023 [Tú] | But hey, wasn't that move pretty slick? I actually forced you to pin me! My swordplay must be getting somewhere, huh?
+0024 [Alina] | Your swordplay...==W== It is smoother. And feinting the slash to set up a thrust was clever.
+0025 [Alina] | But your body lacks conditioning. It just can't keep up with your head. When you shifted your stance, you left a massive opening.
+0026 [Alina] | The kind of opening that ...==W== makes an opponent instinctively want to close the gap, sweep your legs, and drop a headbutt.
+0027 [Tú] | Huh?
+0028 [Alina] | It was just too tempting. My body reacted on its own. Thank the stars I stopped before the headbutt.
+0029 [Tú] | Wait. So you didn't grab me gently to break my fall... You were pulling me in to break my nose?!
+0030 [Alina] | Yeah.
+0031 [Tú] | Hey now, isn't that a little brutal?! We're supposed to be practicing!
+0032 [Alina] | Ahem. That was my mistake. But if you don't go all out in practice, you won't last a second in a real fight.
+0033 [Alina] | You felt it too, didn't you, ==PLAYER_NAME==? Your body is holding your brain's response back. The best tactics in the world mean nothing==W== if you can't execute them.
+0034 [Alina] | But conditioning doesn't happen overnight. Even if you train every day, you need months to see real results.
+0035 [Alina] | Starting tomorrow, come jogging with me at night. We'll mix stamina work with your sword forms. Just stick with it, and eventually, everything will get better.
+0036 [Tú] | Got it, got it. I'll take it seriously.
+0037 [Tú] | Still, get you talking about swords and you'll never want to stop.
+0038 [Alina] | Wha—? D-Do I? Am I really that chatty?
+0039 [Tú] | Come to think of it, out of all the time we spend alone, I'd say fifty percent of it is just training...
+0040 [Alina] | Th-That's not true!==W== We patrol together too... Speaking of, let's go on patrol right now! A change of pace will do you good.
+0041 [Tú] | And the other fifty percent is patrolling.
+0042 [Alina] | Yeah. I have absolutely no comeback for that.
+0043 [Alina] | I hate to admit it, but my life is just ...==W== monotonous. It must be a total bore hanging out with me, ==PLAYER_NAME==.
+0044 [Tú] | Objectively? Yeah, it's a little dull.==W== But doing it all with you makes up for it.
+0045 [Alina] | It does?==W== But... I'm hardly interesting. I'm nowhere near as sharp or well-read as Elis, and I don't know Filanis half as well as Lulu.
+0046 [Tú] | Just being around you makes me feel safe.
+0047 [Alina] | S...==W== Safe?
+0048 [Alina] | My swordplay is good, and I will always protect you. But I can't fix every single problem.
+0049 [Alina] | Even when patrolling the "perfect" city of Filanis, we could run into a starving thief, or some violent thug from another city.
+0050 [Alina] | Y-You absolutely can't drop your guard just because I'm here! You can't just feel safe. What if we get ambushed?
+0051 [Alina] | Strictly speaking, I can't guarantee your safety in every conceivable scenario. So...==W== Please don't let your guard down.
+0052 [Tú] | I didn't mean that kind of safe. I mean...==W== Even when we're walking through the dark, and even though barely anyone here knows what you do for them...
+0053 [Tú] | ... You never get discouraged. And you never stop pushing for a better tomorrow.
+0054 [Tú] | You're like a warm little sun. Just being around you, I catch some of your drive.
+0055 [Tú] | Phew. I need to step it up, too. When you finally earn your way back into the Monolith, I'm going to find a way home.
+0056 [Alina] | Your home...==W== Would you tell me about it more?
+0057 [Alina] | You said before that there are no slaves there...==W== What kind of city is it?
+0058 [Tú] | Oh, my home isn't exactly a city. It's a vehicle.
+0059 [Tú] | My friends and I drive it all over the world. But it's true, out of all the places we've visited, none of them have slaves.
+0060 [Alina] | That sounds ...==W== so free. Growing up, the only places I've ever known are the Grand Arena in Emor and Filanis.
+0061 [Alina] | I don't even know ...==W== what Emor looks like outside the Arena walls.
+0062 [Tú] | You'll get your chance. You're free now too, Alina. You're only staying behind to repay a debt, and to help make Filanis a better place.
+0063 [Tú] | Someday, Filanis will be the city you've always dreamed of. When that day comes...==W== If I'm still around, we'll go traveling together.
+0064 [Alina] | Is that a promise?
+0065 [Tú] | It's a promise.
+0066 [Alina] | Ah, look at the time. I need to start patrol and blow the timekeeping horn.
+0067 [Tú] | I'm coming with you.
+0068 [Alina] | You stayed up late last night doing the Night Watchers' ledgers...==W== Can you even keep your eyes open?
+0069 [Tú] | Don't underestimate me. I'm the ultimate night owl.
+0070 [1] | Zzz...
+0071 [Alina] | Fast asleep after all. You drifted off right in the middle of walking, holding onto my sword hilt.
+0072 [Alina] | You've been pushing yourself too hard lately, ==PLAYER_NAME==.
+0073 [Narración] | Alina scoops up the ==SEX9== who's leaning against her, pushes open the insula door, and gently lays ==SEX4== down on the bed.
+0074 [Alina] | Does being by my side ...==W== really make you feel safe?
+0075 [Alina] | To be honest...==W== Being by your side makes me feel safe, too.
+0076 [Alina] | Especially ...==W== when I look at your sleeping face.
+0077 [Narración] | The night patrol ends. Alina sits down, leaning against the edge of the bed.
+0078 [Narración] | Beneath the cold starlight, their soft breathing syncs as they drift into a deep slumber.
+0079 [Narración] | Sometime later, the knight jolts awake.
+0080 [Narración] | The bed is empty. The pillows and blankets are neatly arranged, as if inviting a weary traveler to rest.
+0081 [Narración] | The knight never sleeps in the bed. She is used to dozing off against its edge. That bed...==W== It's reserved for someone. Someone important to her.
+0082 [Narración] | The knight picks up her longsword and steps out of the cramped insula, bathed in cold starlight.
+0083 [Narración] | The Filanis of today no longer needs her night patrols.
+0084 [Narración] | Young citizens have joined the Night Watchers, taking daily shifts to guard the city that belongs to them.
+0085 [Narración] | Yet she still leaves the house at this hour out of habit, stepping into the empty lot beside the insula.
+0086 [Narración] | Here I come, Alina!
+0087 [Narración] | Her gaze wanders. She searches for a silhouette, waiting for a familiar voice to call her name.
+0088 [Narración] | But her own soft chuckle breaks the illusion.
+0089 [Narración] | She is no longer Alina. She is Noya, an insignificant existence.
+0090 [Narración] | A Noya who wants to become the Noya ==PLAYER_NAME== spoke of...==W== A Noya even ==PLAYER_NAME== doesn't know yet.
+0091 [Noya] | Sigh... I'm such a fool.
+0092 [Noya] | What am I looking for out here? ==SEX1== is right there, inside the Monolith.
+0093 [Noya] | But conditioning doesn't happen overnight. Even if you train every day, you need months to see real results.
+0094 [Noya] | Starting tomorrow, come jogging with me at night. We'll mix stamina work with your sword forms. Just stick with it, and eventually, everything will get better.
+0095 [Narración] | The knight murmurs to herself, slowly raising her longsword into a guard, as if the companion with more ideas than sword skills still stands right in front of her.
+0096 [Noya] | I will protect this future you brought us. Always.
+0097 [Noya] | I'll make sure the marks you left on Filanis endure.==W== Until the day you fulfill our promise.
+0098 [Noya] | Yes. As long as I stick with it, everything will be fine. Every wish will come true.
+0099 [Noya] | I have no regrets, ==PLAYER_NAME==. And I don't think you do, either.
+0100 [Noya] | Just watch me. I'm going to get even stronger.
+0101 [Noya] | Next time, I will protect you to the very end. So please... Let me make one wish.
+0102 [Noya] | That someday, we'll meet again.
+0103 [Narración] | The knight raises her sword in a vow to the night sky. Out here, the only ones listening to her wish are the stars above and the silent tower.
+0104 [Narración] | As for whether that wish comes true... That is a story for another age.

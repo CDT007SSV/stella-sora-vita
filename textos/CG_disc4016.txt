@@ -1,0 +1,127 @@
+# Recuerdo de disco · Chronicles of Spring · 1 · Chronicles of Spring
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Axe-Wielding Mercenary | Axe-Wielding Mercenary
+N:Busy Employee | Busy Employee
+N:Elderly Man | Elderly Man
+N:Focused Employee | Focused Employee
+N:Spellcasting Mercenary | Spellcasting Mercenary
+N:Sword-Wielding Mercenary | Sword-Wielding Mercenary
+N:Trekker & Shopkeeper | Trekker & Shopkeeper
+N:Weapon Shopkeeper | Weapon Shopkeeper
+N:Young Man | Young Man
+N:Young Woman | Young Woman
+N:avg1_143 | Wraith
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_1080 | Little Boy
+N:avg3_109 | Grandpa Chai
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_152 | Bastelina
+N:avg3_167 | Chica
+N:avg3_170 | Chico del Distrito de las Cenizas
+N:avg3_171 | Empleada
+N:avg3_196 | Empleada corporativa
+N:avg3_926 | Trekker
+N:avg3_927 | Little Girl
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | Chronicles of Spring
+0003 [Intro] | When the scenery of spring has become part of everyday life, she starts hoping to meet someone who walks into her spring.
+0004 [Wraith] | One o'clock. Single swordsperson.
+0005 [Sword-Wielding Mercenary] | Argh!
+0006 [Wraith] | Ten o'clock. Two mages.
+0007 [Spellcasting Mercenary] | How did she spot us?! We were completely hidden!
+0008 [Wraith] | Six o'clock. Axe.
+0009 [Axe-Wielding Mercenary] | Impossible... She took us all out by herself...
+0010 [Wraith] | Whoever's left,==W== come at me together.
+0011 [Wraith] | Just local troublemakers near the Monolith.==W== Doubt there's any link to Nocturn Eterna.
+0012 [Wraith] | I'll let the Guard handle the cleanup.==W== Need to head back and resupply.
+0013 [Trekker] | And get this... that "Silver Gale" from Sentinel of Dawn took down every last one of those thugs single-handedly!
+0014 [Weapon Shopkeeper] | The Silver Gale, eh? Heard plenty of rumors, but never seen her in the flesh.
+0015 [Wraith] | Hello. I need some ammo.
+0016 [Weapon Shopkeeper] | Ammo? Sure thing...==W== Wait. That outfit... That long silver hair... You're the Silver Gale, aren't you?!
+0017 [Wraith] | Oh, I suppose people call me that.==W== Excuse me, where's the ammo?
+0018 [Weapon Shopkeeper] | I-It really is you?!==W== Ammo's right on the counter there—please, take your pick!
+0019 [Trekker] | Can't believe it's actually her...==W== Look at that weapon. My junk sword ain't even in the same league.
+0020 [Weapon Shopkeeper] | The famous Silver Gale, shopping at my place! What an absolute honor!
+0021 [Wraith] | Excuse me. You with the sword. A moment?
+0022 [Trekker & Shopkeeper] | Coming!==W== Uh...
+0023 [Trekker] | We're both holding swords here. Who're you talking to?
+0024 [Wraith] | The one on the right, then.==W== Where did the shopkeeper go?==W== You know, the person I was speaking with just now.
+0025 [Weapon Shopkeeper] | Uh... That's me.
+0026 [Wraith] | Are you? I recall the shopkeeper being unarmed.
+0027 [Weapon Shopkeeper] | I wasn't holding it a minute ago, but I haven't left. You okay? Working too hard?
+0028 [Wraith] | No need to worry. Standard operational load.==W== Two boxes of these rounds, please.
+0029 [Weapon Shopkeeper] | Here you are. Thanks for the business! Come back anytime!
+0030 [Wraith] | I will.==W== Thank you,==W== Sword Shopkeeper.==W==
+0031 [Trekker] | I'm not the shopkeeper!
+0032 [Weapon Shopkeeper] | So the rumors were true... The Silver Gale recognizes weapons, not people.==W== Now I've seen everything.
+0033 [Bastelina] | Miss Wraith! You're back!
+0034 [Wraith] | You ... must be "Miss Book."==W== Good timing.==W== Here are the mission logs.
+0035 [Bastelina] | Roger that! I'll get these to the right department. Thanks for the hard work!
+0036 [Bastelina] | But...==W== Miss Wraith, there's a huge mistake here.
+0037 [Bastelina] | I'm not "Miss Book"!==W== I am the cute and charming Bastelina!==B====W== Hmph!==W== You're not leaving until you get my name right.
+0038 [Bastelina] | Come on, say it with me:==W== Bas-==W==te-==W==li-==W==na.
+0039 [Wraith] | Bas-te ...==W== lina.==W== Is that correct?
+0040 [Bastelina] | Spot on! ==W==Let's do a quick test. Close your eyes.
+0041 [Bastelina] | Okay! Open up!
+0042 [Bastelina] | So,==W== Who's this?
+0043 [Wraith] | Hm. Miss Pen.
+0044 [Bastelina] | And this one?
+0045 [Wraith] | Miss Cup.
+0046 [Bastelina] | Heheh.==W== And who am I?
+0047 [Wraith] | You are ...==W== Miss Book.==W==
+0048 [Bastelina] | ... It's Bastelina!
+0049 [Bastelina] | Sigh… Same old bad habit. You remember what people are holding, but never their faces...
+0050 [Bastelina] | Ah,==W== you two can get back to work.==W== Thanks for playing along!
+0051 [Busy Employee] | What was the point of that...? I'm swamped...
+0052 [Focused Employee] | Let it slide. We did it for the Silver Gale, after all.==W==
+0053 [Bastelina] | Say...==W== Doesn't forgetting everyone's face make your life hard?
+0054 [Wraith] | No. On the battlefield, I only need to know friend from foe.
+0055 [Bastelina] | True enough...==W== Hey, you've been running missions non-stop.==W== Must be exhausting.==W== I know a great spot to unwind. Would you like to go?
+0056 [Wraith] | I appreciate the thought,==W== but I can't rest while Nocturn Eterna is still out there.
+0057 [Bastelina] | Oh? Well...==W== I did hear rumors about Nocturn Eterna activity over there.
+0058 [Wraith] | Hm? Let's hear it.
+0059 [Bastelina] | Heheh, works every time.==W== Mention Nocturn Eterna and her whole look changes.
+0060 [Bastelina] | Here, the route's all in this guide.==W== It's a fair distance away, so do take care out there.
+0061 [Wraith] | My thanks, Miss Book.
+0062 [Bastelina] | It's Bastelina!==W== Ugh, forget it.
+0063 [Bastelina] | I only hope one day...
+0064 [Wraith] | Peaceful. Serene, even...==W== Then again, that makes it the perfect cover for Nocturn Eterna.
+0065 [Wraith] | I'll start by gathering intel.
+0066 [Young Man] | Nocturn-who? Never heard of 'em.
+0067 [Young Woman] | Don't they have anything better to do? Why pick a backwater like this to stir up trouble?
+0068 [Elderly Man] | Those Monolith wreckers? Pah, the bugs eating my crops are far scarier!
+0069 [Little Boy] | Are those Nocturn Eterna bad news?==W== Then I'm gonna beat 'em up!
+0070 [Wraith] | Zero leads.==W== Yet the handbook Miss Book provided points explicitly to this location...
+0071 [Little Girl] | Are you okay,==W== miss?
+0072 [Wraith] | Oh, I am fine.==W== Tell me,==W== have you heard of "Nocturn Eterna"?
+0073 [Little Girl] | Nocturn Eterna?==W== N-No...
+0074 [Little Girl] | But I know a special place!==W== When I'm sad, I go there and the wind blows all the bad feelings away.==W== You should try it too!
+0075 [Wraith] | But I have a mission...
+0076 [Wraith] | ... Alright.==W== I'll check it out.
+0077 [Wraith] | The place she mentioned should be right around here.
+0078 [Wraith] | Phew.==W== Been walking a while. ==W==Starting to get warm.
+0079 [Wraith] | A breeze...==W== Is that a clearing ahead?==B====W== Perfect timing. I'll rest there.
+0080 [Wraith] | So cool. Feels nice...==W== She was right, this really is a good spot.
+0081 [Wraith] | Nothing like the North. Back there, it's just endless wind and snow...
+0082 [Wraith] | Blue skies, green trees, drifting petals...==W== Everything here is beautiful.
+0083 [Wraith] | I only saw this view thanks to that girl and Miss Book. Need to thank them properly later.
+0084 [Wraith] | Next time, I have to call Miss Book by her name, or she'll get mad again.==B== Mm... What was it?
+0085 [Wraith] | Strange. We talked for so long... Yet ... why can't I remember it at all?
+0086 [Wraith] | And the girl's face... It's getting blurry too...
+0087 [Wraith] | Chest feels tight... What is this feeling?
+0088 [Wraith] | Since leaving home, have I changed that much?
+0089 [Bastelina] | I hope one day,==W== you will meet the one who can rewrite the world in your eyes.
+0090 [Wraith] | Yeah. Think that's what she said.
+0091 [Wraith] | I only recognize people by their weapons. Could I ever remember a voice? A face? Maybe even a name?
+0092 [Wraith] | If that person actually shows up...
+0093 [Wraith] | I wonder what they'd be like.

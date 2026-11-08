@@ -1,0 +1,127 @@
+# Recuerdo de disco · The Lost Pilgrim · 1 · The Lost Pilgrim
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Florist | Florist
+N:Fruit Stand Owner | Fruit Stand Owner
+N:avg1_149 | Gerie
+N:avg2_977 | Alpha Boar
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_138 | Trekker
+N:avg3_143 | Residente
+N:avg3_144 | Residente
+N:avg3_167 | Chica
+
+## Texto
+0001 [Intro] | Memory Recollection
+0002 [Intro] | The Lost Pilgrim
+0003 [Intro] | A question that has haunted a Seeker for years awaits your answer.
+0004 [Tú] | Phew... The evening market's still buzzing like always. Nice place for a stroll.
+0005 [Tú] | Huh? Wait a sec... Was that...
+0006 [Gerie] | Excuse me, a basket of Sacred Grapes, please. And could you point me to the florist?
+0007 [Fruit Stand Owner] | Well now, if it isn't Lord Arbiter! Welcome!
+0008 [Fruit Stand Owner] | Here are your grapes. The flower shop? Go straight, turn right, the second store.
+0009 [Gerie] | Thank you. May the God of Grace watch over us.
+0010 [Florist] | Thanks for waiting! Here are your white lilies. It's a huge bouquet, be careful with it!
+0011 [Gerie] | I will. Thanks for the flowers and the reminder. May the God of Grace watch over us.
+0012 [Gerie] | Bread... Sacred Grapes... Flowers... Next up...==W== Right, the book store.
+0013 [Gerie] | Excuse me, is the final volume of The Adventures of the White Knight out yet?
+0014 [Gerie] | Oh, not yet? Alright, thanks.
+0015 [Tú] | The Adventures of the White Knight... That's a comic, isn't it? Gerie loves comics?
+0016 [Gerie] | Hehe~ I was wondering who this familiar presence was~
+0017 [Gerie] | So, it was you following me, Great ==SEX12==~ Honestly, if you missed me, you could have just said so~
+0018 [Tú] | G-Gerie!? I thought you were inside the store!
+0019 [Gerie] | I'm done~ The book I'm after isn't out yet~
+0020 [Gerie] | Besides... I could feel you staring so intensely. I just had to come and say hello.
+0021 [Tú] | That's not it. I just happened to see you and was surprised you were into comics, that's all.
+0022 [Gerie] | A pity. I was hoping for a little excitement~
+0023 [Gerie] | To answer your curiosity, I don't actually care for comics myself.
+0024 [Tú] | But you were just asking about one, weren't you? Or are you planning to gift someone?
+0025 [Gerie] | Not exactly... but kind of.
+0026 [Gerie] | You're here just in time. Think you could give me a hand?
+0027 [Tú] | It's so quiet. Gerie hasn't said a word since we stepped into the forest.
+0028 [Tú] | She asked for my help, but never said what for...==W== And now she's led me this deep into the woods.
+0029 [Tú] | Gerie? How much farther?
+0030 [Gerie] | Ah...==W== Apologies, Great ==SEX12==. My mind was elsewhere.
+0031 [Tú] | Are you feeling unwell? Is your symptom...
+0032 [Gerie] | Don't worry. You helped me vent plenty last time. I'm feeling perfectly fine now.
+0033 [Tú] | That's good...==W== Hm?
+0034 [Tú] | That sound... It's a large monster.
+0035 [Gerie] | Great ==SEX12==, let's go around it.
+0036 [Tú] | Huh? Normally, you'd be charging right in...
+0037 [Gerie] | ... Sorry. I don't feel like fighting today.
+0038 [Tú] | Huff... Huff...==W== I can't believe we've walked until nightfall.
+0039 [Gerie] | Thank you for your patience. We're almost there.
+0040 [Tú] | This is really strange. Gerie is acting so ... normal today.
+0041 [Gerie] | Great ==SEX12==, we're here.
+0042 [Tú] | Are these ...==B== gravestones?
+0043 [Narración] | Moss-covered headstones dot the woods. Gerie kneels gently before one, brushing the dead leaves from its surface.
+0044 [Gerie] | I came to pay my respects to an old friend.
+0045 [Tú] | This forest ...==W== graveyard... Right, isn't there a Sanctuary of Grace nearby?
+0046 [Gerie] | Oh, you know of it?
+0047 [Tú] | I spotted it on one of Iris's maps.
+0048 [Gerie] | Yes, the Sanctuary is just beyond those trees.
+0049 [Gerie] | But it was abandoned years ago, after the last Arbiter left.
+0050 [Gerie] | The living can move on, but the departed remain bound to this land. So someone needs to take care of them.
+0051 [Gerie] | Just like now.
+0052 [Gerie] | Boss, remember my condition?
+0053 [Tú] | Yeah. You have to vent the magic that builds up inside you, or it goes critical or something?
+0054 [Gerie] | There was another child once, with the same condition.
+0055 [Gerie] | Back when I was an apprentice, I met a girl here, all skin and bones.
+0056 [Gerie] | She was born with a severe illness, and her parents abandoned her here.
+0057 [Gerie] | But her case was far worse than mine. She couldn't wield magic at all.
+0058 [Tú] | Like me?
+0059 [Gerie] | Not quite. Just being near magic made her sick. They had no choice but to send her to the Sanctuary of Grace, outside the city.
+0060 [Gerie] | We became friends. We didn't have a single thing in common—food, hobbies, you name it—but our shared condition connected us.
+0061 [Gerie] | But... I suppose I was just more suited for combat. I made full Arbiter fast enough. She, on the other hand...
+0062 [Gerie] | She asked me once==W== if the Gods had forsaken her. I could only tell her the God of Grace abandons no one.
+0063 [Tú] | It must've been hard on you both.
+0064 [Gerie] | I didn't know what else to do. And duty called.
+0065 [Gerie] | I was on a mission across the continent when the news of her passing reached me.
+0066 [Gerie] | There was a meltdown at a nearby Monolith. To protect everyone, she unleashed this incredible, blinding spell and neutralized the threat.
+0067 [Tú] | Wait. Didn't you say she couldn't use magic?
+0068 [Gerie] | That's when I learned the truth. It wasn't that she couldn't wield magic... She was fatally allergic to it.
+0069 [Gerie] | That spell she cast to save everyone... It was the first and last time she ever touched magic.
+0070 [Tú] | She sacrificed herself...
+0071 [Gerie] | Great ==SEX12==, do you think the God of Grace is actually real?
+0072 [Tú] | Whoa, hey now. You're a Dusk Arbiter. That's a dangerous question to ask.
+0073 [Gerie] | Heh... You're right.==W== Fate can be so cruel. If this isn't some sick joke by the God of Grace, what else could it be?
+0074 [Tú] | Rather than getting caught up in that, I prefer to believe in "paradise."
+0075 [Tú] | A final home for every soul that fought to the very end, no matter their faith or their path in life.
+0076 [Tú] | Maybe someday, we can ask your friend in person what was truly on her mind at her last moment.
+0077 [Gerie] | Great ==SEX12==...
+0078 [Gerie] | Pfft... Hahahaha~
+0079 [Tú] | W-What's so funny? Was it something I said?
+0080 [Gerie] | Ahem... Forgive me~ I wasn't laughing at you. Actually, I'm touched you took my question so seriously. I just ... wasn't expecting it.
+0081 [Gerie] | Paradise, huh... What a romantic thought.
+0082 [Gerie] | Thanks to you, my heart is finally still.
+0083 [Tú] | Huh...!? This feeling... I know that murderous aura!
+0084 [Gerie] | Just as I thought. Of all the souls I've met, yours is the strongest, the most unique ... and the one that intrigues me most.
+0085 [Gerie] | Yes... I simply must make you mine, no matter what it takes~
+0086 [Gerie] | So ... how about becoming my Great ==SEX12==, and mine alone? I'll make it well worth your while~
+0087 [Tú] | I'm happy you're feeling better, but I'm gonna take a hard pass on that...!
+0088 [Gerie] | There you go again... But that's another thing I adore about you.
+0089 [Gerie] | A soul, once gone, can't return. But the one before me now can still be saved. And for that I'm willing to use forceful methods.
+0090 [Tú] | W-Wait...! Are you serious this time!?
+0091 [Gerie] | Time for a little taste~
+0092 [Tú] | Stop it!
+0093 [Tú] | G-Gerie...?!
+0094 [Tú] | So warm ... and soft?
+0095 [Gerie] | Hehe... I shall spare you this time. Seeing that flustered look on your face was worth it, Great ==SEX12==~
+0096 [Tú] | Hah... Don't joke like that again! I can never tell when you're actually being serious.
+0097 [Gerie] | Oh? But I'm always completely sincere with you, my Great ==SEX12==.
+0098 [Tú] | That's why I'm always on edge!==W== Anyway, why'd you bring me all the way out here?
+0099 [Gerie] | I couldn't get her her favorite comic book, so I was hoping you could share about your adventures with her.
+0100 [Tú] | Oh, I get it. Leave it to me.
+0101 [Gerie] | Hehe... Thank you~ I know she'll be thrilled.
+0102 [Narración] | We sit together, and I share stories of our journey so far.
+0103 [Tú] | Wow, it's gotten late. Looks like I won't finish tonight.
+0104 [Tú] | There are still so many stories left. I'll come back if I get the chance.
+0105 [Gerie] | I'm really looking forward to it...==W== Well, then, let's call it a day. It's so late, I will escort you home~
+0106 [Tú] | Please ... don't bother.
+0107 [Gerie] | Hehe...==W== Don't worry about it. Carrying you back in my arms will be much faster than you walking by yourself, don't you think?
+0108 [Tú] | No need! I can walk on my own.
+0109 [Narración] | That night, Gerie sees me safely back to the Lucky Oasis, as serene and gentle as a true devotee of the God of Grace.
