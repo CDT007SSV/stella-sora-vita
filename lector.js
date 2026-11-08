@@ -52,7 +52,7 @@ const css=`#rd{touch-action:manipulation;position:fixed;inset:0;z-index:99999;ba
 #rd .rd-menu button{background:none;border:0;color:#fff;font:inherit;font-weight:700;font-size:calc(var(--u)*3.2);padding:calc(var(--u)*2.2) calc(var(--u)*3.6);text-align:left;border-bottom:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:calc(var(--u)*1.5)}
 #rd .rd-menu button:last-child{border-bottom:0}
 #rd .rd-menu svg{width:calc(var(--u)*3.6);height:calc(var(--u)*3.6);fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
-#rd .rd-box{position:absolute;left:19%;right:19%;bottom:calc(var(--u)*4);min-height:calc(var(--u)*24);background:rgba(250,250,255,.86);background-image:radial-gradient(rgba(120,120,170,.10) 1px,transparent 1.2px);background-size:4px 4px;border:2px solid #fff;border-radius:calc(var(--u)*3);box-shadow:0 3px 12px rgba(0,0,0,.25);padding:calc(var(--u)*3.6) calc(var(--u)*4.4) calc(var(--u)*3.2);color:#1f2a4d;z-index:4;box-sizing:border-box}
+#rd .rd-box{position:absolute;left:19%;right:19%;bottom:calc(var(--u)*4);min-height:calc(var(--u)*24);background:rgba(250,250,255,.86);border:2px solid #fff;border-radius:calc(var(--u)*3);box-shadow:0 3px 12px rgba(0,0,0,.25);padding:calc(var(--u)*3.6) calc(var(--u)*4.4) calc(var(--u)*3.2);color:#1f2a4d;z-index:4;box-sizing:border-box}
 #rd .rd-nm{position:absolute;top:calc(var(--u)*-6.2);left:calc(var(--u)*-3);min-width:calc(var(--u)*32);text-align:center;background:#e9e7f6;color:#1f2a4d;font-weight:800;font-size:calc(var(--u)*3.9);padding:calc(var(--u)*1.2) calc(var(--u)*4);border-radius:calc(var(--u)*1) calc(var(--u)*1) 0 0;border-bottom:calc(var(--u)*.8) solid #a99be8;box-shadow:calc(var(--u)*.8) 0 0 #a99be8}
 #rd .rd-nm:empty{display:none}
 #rd .rd-tx{font-size:calc(var(--u)*4.1);line-height:1.5;font-weight:700;white-space:pre-wrap;letter-spacing:.01em}
@@ -84,8 +84,11 @@ const css=`#rd{touch-action:manipulation;position:fixed;inset:0;z-index:99999;ba
 #rd .rd-face img{width:100%;height:auto;object-fit:cover;object-position:top;display:block}
 #rd .rd-box.face{padding-left:30%}
 #rd .rd-box.face .rd-face{display:block}
-#rd .rd-box.think{background:rgba(26,32,45,.93);background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.2px);background-size:4px 4px;border-color:rgba(255,255,255,.12);border-radius:calc(var(--u)*6)}
+#rd .rd-box.think{background:rgba(26,32,45,.93);border-color:rgba(255,255,255,.12);border-radius:calc(var(--u)*6)}
 #rd .rd-box.think .rd-tx{color:#f1f4f6}
+/* el punteado va en su propia capa: al cambiar el texto no se vuelve a pintar (evita el parpadeo al tocar) */
+#rd .rd-box:not(.sub):not(.cg):not(.ctr):after{content:"";position:absolute;left:0;top:0;right:0;bottom:0;border-radius:inherit;background:radial-gradient(rgba(120,120,170,.10) 1px,transparent 1.2px) 0 0/4px 4px;pointer-events:none;z-index:-1;will-change:transform}
+#rd .rd-box.think:after{background:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.2px) 0 0/4px 4px}
 #rd .rd-box.think:before{content:"";position:absolute;left:calc(var(--u)*24);top:calc(var(--u)*-3.4);width:calc(var(--u)*4.4);height:calc(var(--u)*3);border-radius:50%;background:#fff;border:2px solid #1f2a4d;z-index:2}
 #rd .rd-box.sub{left:6%;right:6%;bottom:calc(var(--u)*5);min-height:0;background:none;border:0;box-shadow:none;text-align:center;padding:calc(var(--u)*2)}
 #rd .rd-box.sub:after{content:"";position:absolute;left:-6%;right:-6%;bottom:calc(var(--u)*-5);top:calc(var(--u)*-8);background:linear-gradient(0deg,rgba(0,0,0,.7),transparent);z-index:-1}
