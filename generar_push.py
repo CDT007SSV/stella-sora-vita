@@ -66,6 +66,15 @@ def timers():
 def main():
     if os.environ.get("PRUEBA") == "1":
         return prueba()
+    if os.environ.get("PRUEBA") == "3":     # programa un aviso de prueba en el Worker (lo envia el cron de Cloudflare)
+        worker, admin = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", "")
+        import time, urllib.request as U
+        for sb in http(worker + "/list", admin):
+            body = json.dumps({"sub": sb, "kind": "prueba", "at": int(time.time() * 1000) + 20000, "title": "Prueba del Worker", "body": "Si ves esto, el cron de Cloudflare funciona", "url": "#stamina"}).encode()
+            r = U.Request(worker + "/timer", data=body, headers={"Content-Type": "application/json", "Origin": "https://cdt007ssv.github.io", "User-Agent": "ssv"})
+            try: print("timer:", U.urlopen(r, timeout=30).read().decode())
+            except Exception as e: print("timer error:", e)
+        return
     if os.environ.get("PRUEBA") == "2":
         worker, admin = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", "")
         print("Suscritos:", len(http(worker + "/list", admin)))
