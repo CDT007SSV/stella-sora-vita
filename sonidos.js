@@ -4,10 +4,11 @@
 const K="ssv_snd",WIKI="https://stellasora.miraheze.org/wiki/Special:FilePath/";
 /* Sonidos del propio juego (los mismos "se_NNN" que usa el lector). Para cambiar uno, cambia el numero.
    click = sonido al presionar; vita = el sonido con el que habla Vita en el juego. Prueba otros en prueba-sonidos.html */
-const SE={click:"se_061",vita:"se_401"},FILES={click:WIKI+SE.click+".ogg",vita:WIKI+SE.vita+".ogg"},VOL={click:.45,vita:.85};
+const SE={click:["ui_common_menu_open","se_061"],vita:["se_398"]}, /* se prueba el primero y, si no existe en la wiki, el siguiente */
+FILES={click:SE.click.map(x=>WIKI+x+".ogg"),vita:SE.vita.map(x=>WIKI+x+".ogg")},VOL={click:.45,vita:.85};
 let on=true;try{on=localStorage.getItem(K)!=="0"}catch(e){}
 const buf={};
-function get(n){if(!buf[n]){const a=new Audio();a.preload="auto";a.onerror=()=>{a._bad=1};a.src=FILES[n];buf[n]=a}return buf[n]}
+function get(n){if(!buf[n]){const L=FILES[n],a=new Audio();let i=0;a.preload="auto";a.onerror=()=>{if(++i<L.length)a.src=L[i];else a._bad=1};a.src=L[0];buf[n]=a}return buf[n]}
 function play(n){if(!on)return false;try{const a=get(n);if(a._bad)return false;const c=a.cloneNode();c.volume=VOL[n]||.5;const p=c.play();if(p&&p.catch)p.catch(()=>{});return true}catch(e){return false}}
 let vs=0; /* 0 = no ha sonado, 1 = sonando/sono */
 function vita(){if(vs===1||!on)return false;try{const a=get("vita");if(a._bad)return false;const c=a.cloneNode();c.volume=VOL.vita;const p=c.play();vs=1;if(p&&p.catch)p.catch(()=>{vs=0});return true}catch(e){return false}}
