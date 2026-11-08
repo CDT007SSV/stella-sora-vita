@@ -66,6 +66,21 @@ def timers():
 def main():
     if os.environ.get("PRUEBA") == "1":
         return prueba()
+    if os.environ.get("PRUEBA") == "4":     # comprueba que el Worker nuevo acepta avisos lejanos y con numeros en el nombre
+        worker, admin = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", "")
+        import time, urllib.request as U
+        for sb in http(worker + "/list", admin):
+            for modo, k, dias in (("alta", "b0test1", 40), ("baja", "b0test1", 0)):
+                if modo == "alta":
+                    body = json.dumps({"sub": sb, "kind": k, "at": int(time.time() * 1000) + dias * 864e5, "title": "t", "body": "t", "url": "#x"}).encode()
+                    r = U.Request(worker + "/timer", data=body, headers={"Content-Type": "application/json", "Origin": "https://cdt007ssv.github.io", "User-Agent": "ssv"})
+                else:
+                    body = json.dumps({"endpoint": sb["endpoint"], "kind": k}).encode()
+                    r = U.Request(worker + "/cancel", data=body, headers={"Content-Type": "application/json", "Origin": "https://cdt007ssv.github.io", "User-Agent": "ssv"})
+                try: print(modo, U.urlopen(r, timeout=30).read().decode())
+                except Exception as e: print(modo, "ERROR", e)
+        print("Suscritos:", len(http(worker + "/list", admin)))
+        return
     if os.environ.get("PRUEBA") == "3":     # programa un aviso de prueba en el Worker (lo envia el cron de Cloudflare)
         worker, admin = os.environ.get("PUSH_WORKER", "").rstrip("/"), os.environ.get("PUSH_ADMIN", "")
         import time, urllib.request as U
