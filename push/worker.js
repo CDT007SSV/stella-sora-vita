@@ -5,7 +5,39 @@ const cors = o => ({ "Access-Control-Allow-Origin": OK.includes(o) ? o : OK[0], 
 const json = (d, s, o) => new Response(JSON.stringify(d), { status: s || 200, headers: { "Content-Type": "application/json", ...cors(o) } });
 async function hid(s) { const d = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s)); return [...new Uint8Array(d)].map(b => b.toString(16).padStart(2, "0")).join(""); }
 function admin(req, env) { const a = req.headers.get("Authorization") || ""; return !!env.ADMIN_TOKEN && a === "Bearer " + env.ADMIN_TOKEN; }
+
+// ---- Envio de avisos desde el propio Worker (cron cada minuto). Push sin contenido cifrado: el telefono pide el texto a /msg ----
+const b64u = b => btoa(String.fromCharCode(...new Uint8Array(b))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const enc = o => b64u(new TextEncoder().encode(JSON.stringify(o)));
+async function vapid(endpoint, env) {
+  const key = await crypto.subtle.importKey("jwk", JSON.parse(env.VAPID_JWK), { name: "ECDSA", namedCurve: "P-256" }, false, ["sign"]);
+  const head = enc({ typ: "JWT", alg: "ES256" }) + "." + enc({ aud: new URL(endpoint).origin, exp: Math.floor(Date.now() / 1000) + 12 * 3600, sub: "mailto:noreply@example.com" });
+  const sig = await crypto.subtle.sign({ name: "ECDSA", hash: "SHA-256" }, key, new TextEncoder().encode(head));
+  return "vapid t=" + head + "." + b64u(sig) + ", k=" + env.VAPID_PUB;
+}
+async function avisar(endpoint, env) {
+  const r = await fetch(endpoint, { method: "POST", headers: { Authorization: await vapid(endpoint, env), TTL: "3600", Urgency: "high" } });
+  return r.status;
+}
+async function cron(env) {
+  if (!env.VAPID_JWK || !env.VAPID_PUB) return;
+  const now = Date.now(); let cursor;
+  do {
+    const r = await env.SUBS.list({ prefix: "t:", cursor });
+    for (const k of r.keys) {
+      const v = await env.SUBS.get(k.name); if (!v) continue;
+      const t = JSON.parse(v); if (t.at > now) continue;
+      const h = k.name.split(":")[1];
+      await env.SUBS.put("m:" + h, JSON.stringify({ title: t.title, body: t.body, url: t.url }), { expirationTtl: 3600 });
+      let st = 0; try { st = await avisar(t.sub.endpoint, env); } catch (e) {}
+      if (st === 404 || st === 410) { await env.SUBS.delete(h); }
+      await env.SUBS.delete(k.name);
+    }
+    cursor = r.list_complete ? null : r.cursor;
+  } while (cursor);
+}
 export default {
+  async scheduled(ev, env, ctx) { ctx.waitUntil(cron(env)); },
   async fetch(req, env) {
     const o = req.headers.get("Origin") || "", u = new URL(req.url);
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors(o) });
@@ -31,6 +63,12 @@ export default {
         await env.SUBS.put("t:" + await hid(sb.endpoint) + ":" + b.kind, JSON.stringify(t), { expirationTtl: 4 * 86400 });
         return json({ ok: 1 }, 200, o);
       }
+      if (u.pathname === "/msg" && req.method === "GET") {      // el telefono pide el texto del aviso (se borra al leerlo)
+        const h = u.searchParams.get("h") || "";
+        if (!/^[0-9a-f]{64}$/.test(h)) return json({}, 200, o);
+        const v = await env.SUBS.get("m:" + h); if (v) await env.SUBS.delete("m:" + h);
+        return json(v ? JSON.parse(v) : {}, 200, o);
+      }
       if (u.pathname === "/cancel" && req.method === "POST") {
         const b = await req.json();
         if (b && typeof b.endpoint === "string" && typeof b.kind === "string" && /^[a-z]{1,12}$/.test(b.kind)) await env.SUBS.delete("t:" + await hid(b.endpoint) + ":" + b.kind);
@@ -51,7 +89,7 @@ export default {
       if (u.pathname === "/list" && req.method === "GET") {
         if (!admin(req, env)) return json({ error: "no" }, 401, o);
         const out = []; let cursor;
-        do { const r = await env.SUBS.list({ cursor }); for (const k of r.keys) { if (k.name.startsWith("t:")) continue; const v = await env.SUBS.get(k.name); if (v) out.push(JSON.parse(v)); } cursor = r.list_complete ? null : r.cursor; } while (cursor);
+        do { const r = await env.SUBS.list({ cursor }); for (const k of r.keys) { if (k.name.startsWith("t:") || k.name.startsWith("m:")) continue; const v = await env.SUBS.get(k.name); if (v) out.push(JSON.parse(v)); } cursor = r.list_complete ? null : r.cursor; } while (cursor);
         return json(out, 200, o);
       }
       if (u.pathname === "/gone" && req.method === "POST") {

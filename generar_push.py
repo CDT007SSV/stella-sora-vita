@@ -66,7 +66,6 @@ def timers():
 def main():
     if os.environ.get("PRUEBA") == "1":
         return prueba()
-    timers()
     todos = items(); ids = [x["id"] for x in todos]
     est = cargar(ESTADO, None)
     if est is None:                       # primera vez: solo marcar

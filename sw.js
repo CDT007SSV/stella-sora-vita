@@ -1,6 +1,6 @@
 // Service worker: guarda la app para abrirla sin conexión y siempre busca primero la versión nueva.
 // Si cambias la lista SHELL, sube también el número de CACHE.
-const CACHE = "stella-sora-wiki-v69";
+const CACHE = "stella-sora-wiki-v70";
 const SHELL = ["./", "index.html", "data.js", "traducciones.js", "historias.js", "lector.js", "cambios.js", "fichas.js","discos.js","teams.js","cumples.js","stamina.js","sonidos.js","heartlink.js","ajustes.js","push-config.js","emblemas.json","comunidad-config.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
@@ -43,9 +43,20 @@ self.addEventListener("fetch", e => {
 });
 
 // Notificaciones push: muestra el aviso y, al tocarlo, abre la app en Novedades.
+// Los avisos del Worker (stamina) llegan sin texto: se pide a /msg.
+try { importScripts("push-config.js"); } catch (x) {}
+const hex = b => [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join("");
 self.addEventListener("push", e => {
-  let d = {}; try { d = e.data ? e.data.json() : {}; } catch (x) { d = { body: e.data && e.data.text() }; }
-  e.waitUntil(self.registration.showNotification(d.title || "Stella Sora Vita", { body: d.body || "", icon: "icon-192.png", badge: "icon-192.png", data: { url: d.url || "./#news" } }));
+  e.waitUntil((async () => {
+    let d = {}; try { if (e.data) d = e.data.json(); } catch (x) {}
+    if (!d.title) {
+      try {
+        const s = await self.registration.pushManager.getSubscription(), W = self.SSV_PUSH && self.SSV_PUSH.worker;
+        if (s && W) { const h = hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s.endpoint))); d = await (await fetch(W + "/msg?h=" + h)).json(); }
+      } catch (x) {}
+    }
+    await self.registration.showNotification(d.title || "Stella Sora Vita", { body: d.body || (d.title ? "" : "Tienes un aviso nuevo"), icon: "icon-192.png", badge: "icon-192.png", data: { url: d.url || "./#news" } });
+  })());
 });
 self.addEventListener("notificationclick", e => {
   e.notification.close();
