@@ -242,7 +242,17 @@ const charItems=sl=>{
     else{i.sc=1;i.bd=rol}});
   return base.map((x,k)=>[x,k]).sort((a,b)=>(b[0].sc||0)-(a[0].sc||0)||a[1]-b[1]).map(x=>x[0]);
 };
-const discItems=()=>discs().map(d=>({n:d.name,el:d.element,r:d.rarity,img:imgD(d)}));
+const discItems=()=>{
+  const base=discs().map(d=>({n:d.name,el:d.element,r:d.rarity,img:imgD(d)}));
+  const ot=T.slots.map(x=>charOf(x.c)).filter(Boolean);if(!ot.length)return base;
+  const cn={};ot.forEach(c=>cn[c.element]=(cn[c.element]||0)+1);
+  let dom=ot[0].element;for(const k in cn)if(cn[k]>cn[dom])dom=k;
+  if(cn[dom]<2&&ot.length>1)return base;
+  const used=T.discs.filter(Boolean).map(x=>x.n);
+  base.forEach(i=>{if(used.includes(i.n)){i.sc=0;i.bd="En el equipo";return}
+    if(i.el===dom){i.sc=2+(i.r||0)/10;i.bd="Mismo elemento";i.rec=1}else i.sc=1});
+  return base.map((x,k)=>[x,k]).sort((a,b)=>(b[0].sc||0)-(a[0].sc||0)||a[1]-b[1]).map(x=>x[0]);
+};
 
 /* ---------- modal de potenciales ---------- */
 async function potModal(s){
