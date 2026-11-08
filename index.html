@@ -1444,7 +1444,8 @@ function dcOverlay(x){
     box.innerHTML=`<div class="xp"><div class="xp-h">${au.avatar_url?`<img src="${esc(au.avatar_url)}" alt="" referrerpolicy="no-referrer">`:""}<div><b>${esc(au.name||m[1])}</b><span>@${esc(au.screen_name||m[1])}</span></div></div>
      <p class="xp-t">${esc(w.text||x.texto||"")}</p>
      ${ph.map(p=>`<img class="xp-m" src="${esc(p.url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join("")}
-     ${vd.map(v=>`<video class="xp-m" controls playsinline preload="metadata" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(v.url)}"></video>`).join("")}
+     ${vd.map(v=>{const q=(v.variants||[]).filter(z=>/mp4/.test((z.content_type||"")+(z.url||""))).sort((a,b)=>(a.bitrate||0)-(b.bitrate||0)),u=q.length?q[Math.floor((q.length-1)/2)].url:v.url;
+       return `<video class="xp-m" controls playsinline webkit-playsinline preload="none" referrerpolicy="no-referrer" ${v.thumbnail_url?`poster="${esc(v.thumbnail_url)}"`:""} src="${esc(u)}" onerror="this.outerHTML='<p class=nota>No se pudo reproducir el video aquí. Toca “Ver la publicación en X”.</p>'"></video>`}).join("")}
      ${w.created_at?`<div class="xp-d">${esc(new Date(w.created_at).toLocaleString("es",{dateStyle:"medium",timeStyle:"short"}))}</div>`:""}</div>`;
   }).catch(()=>{clearTimeout(t);iframe()});
 }
