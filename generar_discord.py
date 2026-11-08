@@ -3,7 +3,7 @@
 #   DISCORD_TOKEN       (token del bot)      DISCORD_CANAL   (ID del canal que sigue los anuncios)
 # Opcional: DISCORD_LINK (enlace del servidor oficial, para el botón "Ver en Discord" si el mensaje no trae enlace).
 # Las imagenes de Discord caducan a las 24 h, por eso se guardan reducidas en discord_img/.
-import json, os, re, sys, time, urllib.request, urllib.error, io
+import json, os, re, sys, time, urllib.request, urllib.error, urllib.parse, io
 
 MAX_ITEMS = 30
 API = "https://discord.com/api/v10"
@@ -96,6 +96,38 @@ def guarda_imagen(url, mid):
     except Exception as ex:
         print("Imagen no guardada (%s): %s" % (mid, ex)); return ""
 
+# ---- traduccion automatica al espanol (Google Translate, endpoint publico; si falla, se deja en ingles) ----
+COLA = re.compile(r"((?:\s+(?:https?://\S+|[#@][\w]+))+)\s*$")
+def trad_linea(l):
+    if not l.strip() or re.match(r"^https?://\S+$", l.strip()): return l
+    pre = ""
+    m = re.match(r"^(>\s*)+", l)
+    if m: pre, l = m.group(0), l[m.end():]
+    cola = ""
+    c = COLA.search(l)
+    if c: cola, l = c.group(1), l[:c.start()]
+    if not re.search(r"[A-Za-z]{3}", re.sub(r"[#@]\w+|https?://\S+", "", l)): return pre + l + cola
+    q = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "es", "dt": "t", "q": l})
+    r = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + q, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(r, timeout=20) as f:
+        d = json.loads(f.read().decode())
+    return pre + "".join(x[0] for x in d[0] if x and x[0]) + cola
+
+def traduce(t):
+    if not t: return ""
+    try:
+        return "\n".join(trad_linea(l) for l in t.split("\n"))
+    except Exception as ex:
+        print("Traduccion fallida:", type(ex).__name__); return None
+
+def con_traduccion(it):
+    """Agrega titulo_es / texto_es. Devuelve True si cambio algo."""
+    if "titulo_es" in it: return False
+    a, b = traduce(it.get("titulo")), traduce(it.get("texto"))
+    if a is None or b is None: return False
+    it["titulo_es"], it["texto_es"] = a, b
+    return True
+
 def main():
     if not TOKEN or not CANAL:
         print("Falta DISCORD_TOKEN o DISCORD_CANAL: no se hace nada."); return
@@ -118,12 +150,15 @@ def main():
         items.append(it)
     items.sort(key=lambda x: x.get("fecha") or "", reverse=True)
     items = items[:MAX_ITEMS]
+    cambio_tr = False
+    for it in items[:12]:                       # traduce los recientes que aun no tienen traduccion
+        if con_traduccion(it): cambio_tr = True
     if prev.get("items") is None: items = items[:10]   # primera vez: no inundar
     en_uso = {x["img"].split("/")[-1] for x in items if x.get("img")}
     if os.path.isdir(IMGDIR):
         for f in os.listdir(IMGDIR):
             if f not in en_uso: os.remove(os.path.join(IMGDIR, f))
-    if [x["id"] for x in items] == [x["id"] for x in prev.get("items", [])] and prev:
+    if [x["id"] for x in items] == [x["id"] for x in prev.get("items", [])] and prev and not cambio_tr:
         print("Sin mensajes nuevos."); return
     json.dump({"generado": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "items": items}, open("discord.json", "w", encoding="utf-8"), ensure_ascii=False)
     print("discord.json: %d items." % len(items))

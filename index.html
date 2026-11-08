@@ -438,6 +438,7 @@ body.bgm-on .screen{padding-bottom:84px}
 .topbar>button:first-child,.back-story,#bk{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;padding:0;font-size:1.3rem;line-height:1}
 .tm-bk{display:inline-flex;align-items:center;border-radius:12px;padding:8px 14px;margin-bottom:10px;font-size:.9rem}
 .nsearch:active,.nbell:active,.topbar>button:first-child:active,.tm-bk:active{background:linear-gradient(145deg,rgba(255,255,255,.28),rgba(255,255,255,.1))!important}
+.xp-es{margin:8px 0;padding:10px 12px;border-radius:12px;background:rgba(123,108,255,.12);border:1px solid #3a3560}.xp-es small{display:block;color:#9d93ff;font-size:.7rem;margin-bottom:4px}.xp-es p{margin:0;white-space:pre-line;font-size:.9rem;line-height:1.4}
 .xp-pl{display:block;position:relative;margin:8px 0;border-radius:12px;overflow:hidden;background:#0b0b18;text-decoration:none;color:#fff;text-align:center}.xp-pl img{display:block;width:100%;opacity:.7}.xp-pl b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);font-size:1rem;text-shadow:0 1px 6px #000}.xp-pl:not(:has(img)){padding:28px 0}.xp-pl:not(:has(img)) b{position:static;transform:none}
 </style>
 </head>
@@ -1420,6 +1421,7 @@ function nvTicker(){
 }
 function dcFix(x){
   if(x.tipo!=="discord")return x;
+  if(x.titulo_es&&!x._tr){x._tr=1;x.titulo=x.titulo_es;x.texto=x.texto_es||""}
   const un=t=>String(t||"").replace(/\\([\\`*_{}\[\]()#+\-.!~|>])/g,"$1");
   let t=un(x.titulo).trim(),tx=un(x.texto);
   const isU=s=>/^https?:\/\/\S+$/.test(s.trim());
@@ -1432,7 +1434,7 @@ function dcOverlay(x){
   const m=String(x.url||"").match(/(?:x|twitter|fixupx|fxtwitter|vxtwitter)\.com\/([^/]+)\/status\/(\d+)/),ok=/^https:\/\//.test(x.url||"");
   const fb=`${x.img?`<img class="ovi" src="${esc(x.img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}${x.texto?`<p class="ovp">${esc(x.texto)}</p>`:""}`;
   const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-discord">${m?"Publicación":"Anuncio"}</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div>
-   ${m?`<div class="ovd">${nvFecha(x.fecha)}</div><div class="ovemb"><p class="nota">Cargando publicación…</p></div>`:`<h2 class="ovt">${esc(x.titulo)}</h2><div class="ovd">${nvFecha(x.fecha)}</div>${fb}`}
+   ${m?`<div class="ovd">${nvFecha(x.fecha)}</div>${x._tr?`<div class="xp-es"><small>Traducción automática</small><p>${esc(x.titulo)}${x.texto?"\n"+esc(x.texto):""}</p></div>`:""}<div class="ovemb"><p class="nota">Cargando publicación…</p></div>`:`<h2 class="ovt">${esc(x.titulo)}</h2><div class="ovd">${nvFecha(x.fecha)}</div>${fb}`}
    ${ok?`<a class="btn out ovx-btn" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${m?"Ver la publicación en X":"Abrir enlace"}</a>`:""}`);
   if(!m)return;
   const box=o.querySelector(".ovemb");
