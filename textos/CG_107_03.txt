@@ -3,112 +3,112 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Anxious Villager | Anxious Villager
-N:Flustered Villager | Flustered Villager
-N:Forgetful Village Chief | Forgetful Village Chief
-N:Girl Back From Emor | Girl Back From Emor
-N:Masked Knight | Masked Knight
-N:Master Blacksmith | Master Blacksmith
-N:Relaxed Villager | Relaxed Villager
-N:Relieved Villager | Relieved Villager
+N:Anxious Villager | Aldeano ansioso
+N:Flustered Villager | Aldeano alterado
+N:Forgetful Village Chief | Jefe del pueblo olvidadizo
+N:Girl Back From Emor | Chica de regreso de Emor
+N:Masked Knight | Caballero Enmascarado
+N:Master Blacksmith | Maestro herrero
+N:Relaxed Villager | Aldeano tranquilo
+N:Relieved Villager | Aldeano aliviado
 N:avg1_107 | Tilia
 N:avg3_100 | Sylar
-N:avg3_109 | Grandpa Chai
+N:avg3_109 | Abuelo Chai
 N:avg3_143 | Residente
 N:avg3_166 | Anciana del pueblo
 N:avg3_168 | Chica
 N:avg3_189 | Kaydoke
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | Masked Knight Tilia (Part III)
-0003 [Intro] | Friendship and Bonds! The Hero Returns on Her Mighty Eagle
-0004 [Tilia] | Justice served!
-0005 [Tilia] | Hyaaaaaaaah!
-0006 [Flustered Villager] | The blade ... it didn't fall?
-0007 [Anxious Villager] | Look! The Knight's lance pierced it right through the center! We're saved!
-0008 [Tilia] | I-I did it!
-0009 [Tú] | Nice shot, Tilia!
-0010 [Tilia] | I ... I tried to keep the blade in one piece.==W== That way, even if United Harvest sends a bill, it won't be too many Dorra. My savings should be enough...
-0011 [Tú] | You must be the first "ally of justice" I've met who'd calculate the damages.
-0012 [Tú] | Tilia, look. They're all waiting for you.
-0013 [Girl Back From Emor] | Miss Knight! Thank you for protecting us from the giants!
-0014 [Relaxed Villager] | We were almost flattened by that thing! We owe it all to this Imperial Knight. That was amazing!
-0015 [Relieved Villager] | Now we can finally harvest the wheat. Once the new grain's sold, we'll swing by with fresh bread and a gift to thank you properly.
-0016 [Forgetful Village Chief] | Hey you, she's not one of those awful Imperial Knights, so stop shouting nonsense.==W== Forgotten already? Today's hero is—
-0017 [Forgetful Village Chief] | Masked Knight Tilia!
-0018 [Relieved Villager] | Oh, sorry, almost forgot! You were a huge help, Masked Knight Tilia!
-0019 [Girl Back From Emor] | Thank you, Masked Knight Tilia!
-0020 [Tilia] | W-Wha?!
-0021 [Tú] | Tilia?
-0022 [Tilia] | I-I-I hear a cry for help in the distance! I have to go!
-0023 [Tilia] | C'mon, Boss, let's get back to the Lapis Eagle!
-0024 [Tú] | Whoa! What's the sudden rush?!==W== Don't pull so hard, you'll make us crash!
-0025 [Tilia] | Phew...==W== I,==W== uh...
-0026 [Tú] | I can feel her blushing all the way through that helmet. Is it the heat, or is she just flustered?
-0027 [Tilia] | I did it! I upheld justice!
-0028 [Tú] | And they called me "Miss Knight"...==W== Hehe, hehehe...
-0029 [Tú] | Just now, Tilia, you were a true "ally of justice," no doubt about it.
-0030 [Tilia] | Really? Hearing you say that makes me feel like I can take on the world!
-0031 [Tilia] | As everyone was consumed by despair,==W== the righteous knight rose to defense the innocent.==W== With no second thoughts, she confronted the colossal giant,==W== and finally won the brutal battle with her fearless courage!
-0032 [Opción] | Bravo!
-0033 [Tilia] | This Masked Knight story==W== was exactly like what happened just now!==W== I…==W== Am I dreaming...?
-0034 [Opción] | It's not a dream. You saved everyone.
-0035 [Tilia] | Hehe,==W== you are making me blush...==W== But honestly,==W== it was all thanks to you!
-0036 [Tilia] | If you hadn’t give me that push,==W== I probably wouldn’t have had the courage to make the move.
-0037 [Opción] | I didn’t do anything special.
-0038 [Tilia] | I don't think so.==W== Back then,==W== I was totally lost…
-0039 [Tilia] | Ugh,==W== I’m such a mess.==W== I always said I’d stand by my own sense of justice,==W== but I still let others’ opinions==W== get to me so easily.
-0040 [Opción] | We all have those moments.
-0041 [Tilia] | But just now,==W== I even started doubting my belief…
-0042 [Tilia] | I’ve never been able to become a real Knight...==W== Maybe this is the reason…
-0043 [Opción] | Don’t beat yourself up. Think about what you’ve already done.
-0044 [Tilia] | What ...==W== do you mean?
-0045 [Opción] | You've always been the one protecting, with your own strength.
-0046 [Tilia] | My own ... strength...
-0047 [Tilia] | Hehe...==W== The way you put it...==W== I'm feeling a little better.
-0048 [Opción] | If you ever feel lost again, just call me.
-0049 [Opción] | As your partner in justice, I’ll always be right behind you.
-0050 [Tilia] | … I get it.==W== Thank you,==W== Boss.
-0051 [Tilia] | You’re right.==W== Since you believe in me so much,==W== I need to pull myself together!
-0052 [Tilia] | Ahem!==W== Well then, again—==W== Knight squire Tilia,==W== aiming at becoming a true knight of justice,==W== will always give her all!
-0053 [Tú] | All right, the Masked Knight's heroic deed is done. Now it's this Boss' turn to put on a show.
-0054 [Tilia] | A show? Wait, you've already figured out how to handle United Harvest?
-0055 [Tú] | Yep. Sooner the better. We can't let the villagers get dragged into this.
-0056 [Tú] | So, my Masked Knight in training, go fetch the spoils of your giant battle.
-0057 [Tilia] | The s-spoils?
-0058 [Tú] | That giant, four-pronged "arm of the giant."
-0059 [Master Blacksmith] | All right, just like you wanted. One bridge, over the road.
-0060 [Tú] | Wow, that was fast. I thought it'd take a few days.
-0061 [Master Blacksmith] | Hmph, don't underestimate my forging magic.==W== I'm the one who fixes the Imperial Guard's armor and their Artifact scooters.
-0062 [Master Blacksmith] | Plus, the materials you brought were a perfect fit, saved me a ton of work.
-0063 [Tilia] | Oh, that ... that's the arm I got from defeating the giant. The villagers were kind enough to help us haul it back.
-0064 [Master Blacksmith] | Right, right. The "giant's arm." Got it.
-0065 [Master Blacksmith] | Sigh. Tilia's taking her Masked Knights story to heart again. One of these days she's gonna bring me a "dragon's heart."
-0066 [Master Blacksmith] | Anyway, your commission's done. You know the drill.
-0067 [Tilia] | Of course! Here's the payment.
-0068 [Master Blacksmith] | Pleasure doing business with ya. Come back anytime.
-0069 [Tilia] | Boss! Wow, you're a total genius!
-0070 [Tilia] | Building an overpass with the fallen windmill blade here—==W==people cross above, cars go under. No more conflicts!
-0071 [Tú] | Waste not, want not. If United Harvest asks, we'll call it recycling. That way, they won't hassle the villagers.
-0072 [Tú] | But if they keep pushing their luck, I'll leak it to the witch at Scarlet Sights: "Neglected Windmill Nearly Kills Locals!"==W== That'd be something, huh?
-0073 [Tilia] | Wow, that's ... sneaky! No, I mean smart. Really smart!
-0074 [Tú] | Heh. Gotta play craftier to beat the bad guys. So, does that make me a bona fide partner in justice?
-0075 [Tilia] | Yes! This bridge does more than a hundred granny crossings!
-0076 [Tilia] | I must keep up! Boss, you wanted me to find a shop, right? I still haven't helped! Let me do this!
-0077 [Tú] | That helps a ton. I need a legendary rental shop with tons of rare old dramas.
-0078 [Tilia] | Oh ... bummer. Boss, that place closed down ages ago.
-0079 [Tú] | Seriously?==W== But there's stuff I still wanted to watch!
-0080 [Tilia] | Well, if it's classic dramas you want, I've got a backup plan.
-0081 [Masked Knight] | "Exactly! I will become an ally of justice!"
-0082 [Tú] | So this was Plan B... Never expected it to be at Tilia's place. And...
-0083 [Tú] | Why is her whole drama collection just Masked Knights?
-0084 [Tilia] | (soft snoring)
-0085 [Tú] | And the girl who begged me to watch these is already snoring on my lap...
-0086 [Tilia] | Mmm...==W== Boss...
-0087 [Tilia] | ... Your victory pose is so lame, Boss...==W== Zzz...
-0088 [Tú] | What are you even dreaming about?!
-0089 [Tú] | But...
-0090 [Tilia] | Hold me tight... We're partners in justice... Everywhere we go ...==W== together ...==W== protecting justice...♪
-0091 [Tú] | She did fight her share of villains today. She deserves her rest. My lap's free for a little while.
-0092 [Narración] | Trying my best not to wake her, I sat there all night until my legs went numb, while watching Masked Knights.
+0001 [Intro] | Acto tres
+0002 [Intro] | Caballero Enmascarado Tilia (Parte III)
+0003 [Intro] | ¡Amistad y lazos! El héroe regresa sobre su poderosa águila
+0004 [Tilia] | ¡Justicia servida!
+0005 [Tilia] | ¡Hyaaaaaaaah!
+0006 [Flustered Villager] | ¿El aspa ... no cayó?
+0007 [Anxious Villager] | ¡Miren! ¡La lanza de la Caballero la atravesó justo por el centro! ¡Estamos salvados!
+0008 [Tilia] | ¡L-lo logré!
+0009 [Tú] | ¡Buen tiro, Tilia!
+0010 [Tilia] | Yo ... intenté mantener el aspa de una pieza.==W== Así, aunque Cosecha Unida mande una factura, no serán tantas Dorras. Mis ahorros deberían alcanzar...
+0011 [Tú] | Debes de ser la primera «aliada de la justicia» que conozco que calcula los daños.
+0012 [Tú] | Tilia, mira. Todos te están esperando.
+0013 [Girl Back From Emor] | ¡Señorita Caballero! ¡Gracias por protegernos de los gigantes!
+0014 [Relaxed Villager] | ¡Esa cosa casi nos aplasta! Todo se lo debemos a esta Caballero Imperial. ¡Fue increíble!
+0015 [Relieved Villager] | Ahora por fin podemos cosechar el trigo. Cuando vendamos el grano nuevo, pasaremos con pan fresco y un regalo para agradecerle como se debe.
+0016 [Forgetful Village Chief] | Oiga usted, ella no es de esas horribles Caballeros Imperiales, así que deje de gritar tonterías.==W== ¿Ya se le olvidó? La heroína de hoy es...
+0017 [Forgetful Village Chief] | ¡Caballero Enmascarado Tilia!
+0018 [Relieved Villager] | ¡Oh, perdón, casi lo olvido! ¡Nos ayudó muchísimo, Caballero Enmascarado Tilia!
+0019 [Girl Back From Emor] | ¡Gracias, Caballero Enmascarado Tilia!
+0020 [Tilia] | ¡¿Q-qué?!
+0021 [Tú] | ¿Tilia?
+0022 [Tilia] | ¡O-oigo un grito de auxilio a lo lejos! ¡Tengo que irme!
+0023 [Tilia] | ¡Vamos, Jefe, volvamos al Águila Lapislázuli!
+0024 [Tú] | ¡Whoa! ¡¿A qué viene la prisa?!==W== ¡No jales tan fuerte, vas a hacer que choquemos!
+0025 [Tilia] | Uf...==W== Yo,==W== eh...
+0026 [Tú] | Siento cómo se sonroja hasta a través del casco. ¿Será el calor o simplemente está nerviosa?
+0027 [Tilia] | ¡Lo logré! ¡Defendí la justicia!
+0028 [Tú] | Y me llamaron «señorita Caballero»...==W== Jeje, jejeje...
+0029 [Tú] | Hace un momento, Tilia, fuiste una verdadera «aliada de la justicia», sin duda alguna.
+0030 [Tilia] | ¿De verdad? ¡Oírte decir eso me hace sentir que puedo con el mundo!
+0031 [Tilia] | Mientras todos eran consumidos por la desesperación,==W== la caballero justa se alzó para defender a los inocentes.==W== Sin dudarlo, se enfrentó al colosal gigante,==W== ¡y por fin ganó la brutal batalla con su valentía sin miedo!
+0032 [Opción] | ¡Bravo!
+0033 [Tilia] | ¡Esta historia de Caballero Enmascarado==W== fue exactamente como lo que acaba de pasar!==W== Yo…==W== ¿Estaré soñando...?
+0034 [Opción] | No es un sueño. Salvaste a todos.
+0035 [Tilia] | Jeje,==W== me estás haciendo sonrojar...==W== Pero la verdad,==W== ¡todo fue gracias a ti!
+0036 [Tilia] | Si no me hubieras dado ese empujón,==W== probablemente no habría tenido el valor de dar el paso.
+0037 [Opción] | No hice nada especial.
+0038 [Tilia] | No lo creo.==W== En ese momento,==W== yo estaba totalmente perdida…
+0039 [Tilia] | Ugh,==W== soy un desastre.==W== Siempre dije que defendería mi propio sentido de la justicia,==W== pero aun así dejo que las opiniones de los demás==W== me afecten con tanta facilidad.
+0040 [Opción] | Todos tenemos esos momentos.
+0041 [Tilia] | Pero hace un momento,==W== hasta empecé a dudar de mis creencias…
+0042 [Tilia] | Nunca he podido convertirme en una verdadera Caballero...==W== Quizá esa sea la razón…
+0043 [Opción] | No te castigues. Piensa en lo que ya has hecho.
+0044 [Tilia] | ¿A qué ...==W== te refieres?
+0045 [Opción] | Siempre has sido quien protege, con tu propia fuerza.
+0046 [Tilia] | Mi propia ... fuerza...
+0047 [Tilia] | Jeje...==W== Cómo lo dices...==W== Me siento un poco mejor.
+0048 [Opción] | Si alguna vez te sientes perdida otra vez, solo llámame.
+0049 [Opción] | Como parte de nuestro dúo de la justicia, siempre estaré justo detrás de ti.
+0050 [Tilia] | … Entiendo.==W== Gracias,==W== Jefe.
+0051 [Tilia] | Tienes razón.==W== Ya que crees tanto en mí,==W== ¡tengo que recomponerme!
+0052 [Tilia] | ¡Ejem!==W== Bueno, una vez más...==W== ¡La escudera caballero Tilia,==W== que aspira a convertirse en una verdadera caballero de la justicia,==W== siempre dará todo de sí!
+0053 [Tú] | Muy bien, la hazaña heroica del Caballero Enmascarado está hecha. Ahora le toca a este Jefe dar un espectáculo.
+0054 [Tilia] | ¿Un espectáculo? Espera, ¿ya descubriste cómo lidiar con Cosecha Unida?
+0055 [Tú] | Sí. Cuanto antes, mejor. No podemos dejar que los aldeanos se vean arrastrados a esto.
+0056 [Tú] | Así que, mi Caballero Enmascarado en entrenamiento, ve a buscar el botín de tu batalla con el gigante.
+0057 [Tilia] | ¿E-el botín?
+0058 [Tú] | Ese gigantesco «brazo del gigante» de cuatro puntas.
+0059 [Master Blacksmith] | Muy bien, tal como lo pediste. Un puente, sobre el camino.
+0060 [Tú] | Vaya, qué rápido. Pensé que tardaría unos días.
+0061 [Master Blacksmith] | Hmph, no subestimes mi magia de forja.==W== Yo soy quien repara la armadura de la Guardia Imperial y sus scooters Artefacto.
+0062 [Master Blacksmith] | Además, los materiales que trajiste eran perfectos, me ahorraron muchísimo trabajo.
+0063 [Tilia] | Oh, ese ... ese es el brazo que obtuve al derrotar al gigante. Los aldeanos fueron tan amables que nos ayudaron a traerlo.
+0064 [Master Blacksmith] | Sí, sí. El «brazo del gigante». Entendido.
+0065 [Master Blacksmith] | Suspiro. Tilia se está tomando muy en serio otra vez su historia de Caballero Enmascarado. Un día de estos me traerá un «corazón de dragón».
+0066 [Master Blacksmith] | En fin, tu encargo está listo. Ya sabes cómo va esto.
+0067 [Tilia] | ¡Claro! Aquí está el pago.
+0068 [Master Blacksmith] | Un placer hacer negocios contigo. Vuelve cuando quieras.
+0069 [Tilia] | ¡Jefe! ¡Vaya, eres un genio total!
+0070 [Tilia] | ¡Construir un paso elevado con el aspa caída del molino!==W== La gente cruza por arriba, los carros pasan por abajo. ¡Se acabaron los conflictos!
+0071 [Tú] | Lo que no se desperdicia, no se echa de menos. Si Cosecha Unida pregunta, le llamaremos reciclaje. Así no molestarán a los aldeanos.
+0072 [Tú] | Pero si siguen tentando su suerte, se lo filtraré a la bruja de Scarlet Sights: «¡Molino abandonado casi mata a los lugareños!»==W== Eso sería algo, ¿no?
+0073 [Tilia] | Vaya, eso es ... ¡astuto! No, digo, inteligente. ¡Muy inteligente!
+0074 [Tú] | Je. Hay que jugar más astuto para vencer a los malos. Entonces, ¿eso me convierte en un auténtico miembro de nuestro dúo de la justicia?
+0075 [Tilia] | ¡Sí! ¡Este puente hace más que cien ayudas a abuelitas a cruzar la calle!
+0076 [Tilia] | ¡Debo ponerme al nivel! Jefe, querías que encontrara una tienda, ¿verdad? ¡Todavía no te he ayudado! ¡Déjame hacerlo!
+0077 [Tú] | Ayuda muchísimo. Necesito una legendaria tienda de renta con un montón de dramas antiguos y raros.
+0078 [Tilia] | Oh ... qué mal. Jefe, ese lugar cerró hace siglos.
+0079 [Tú] | ¿En serio?==W== ¡Pero todavía quería ver varias cosas!
+0080 [Tilia] | Bueno, si lo que quieres son dramas clásicos, tengo un plan de respaldo.
+0081 [Masked Knight] | «¡Exacto! ¡Me convertiré en una aliada de la justicia!»
+0082 [Tú] | Así que este era el Plan B... Nunca imaginé que sería en casa de Tilia. Y...
+0083 [Tú] | ¿Por qué toda su colección de dramas es solo de Caballero Enmascarado?
+0084 [Tilia] | (ronquidos suaves)
+0085 [Tú] | Y la chica que me suplicó que los viera ya está roncando en mi regazo...
+0086 [Tilia] | Mmm...==W== Jefe...
+0087 [Tilia] | ... Tu pose de victoria es muy cursi, Jefe...==W== Zzz...
+0088 [Tú] | ¡¿Con qué estás soñando?!
+0089 [Tú] | Pero...
+0090 [Tilia] | Abrázame fuerte... Somos compañeros en la justicia... A donde vayamos ...==W== juntos ...==W== protegiendo la justicia...♪
+0091 [Tú] | Sí peleó con su buena ración de villanos hoy. Se merece su descanso. Mi regazo está libre por un rato.
+0092 [Narración] | Intentando no despertarla, me quedé ahí toda la noche hasta que se me durmieron las piernas, mientras veía Caballero Enmascarado.

@@ -3,11 +3,11 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Auntie Helen | Auntie Helen
-N:Girl | Girl
-N:Miserable Employee | Miserable Employee
-N:Onlooker | Onlooker
-N:Shameless Employer | Shameless Employer
+N:Auntie Helen | Tía Helen
+N:Girl | Niña
+N:Miserable Employee | Empleada desdichada
+N:Onlooker | Curioso
+N:Shameless Employer | Patrón sinvergüenza
 N:avg1_125 | Freesia
 N:avg3_100 | Sylar
 N:avg3_1037 | Kui
@@ -20,80 +20,80 @@ N:avg3_168 | Chica
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | A Bonding Duel (Part II)
-0003 [Intro] | Most would agree that dueling with someone wielding an earth-shaking giant axe is a bad idea.
-0004 [Narración] | After fixing Freesia's bike, we arrive at a small cottage.
-0005 [Girl] | Miss Freesia, Miss Freesia—
-0006 [Freesia] | Hello there, Aoi.
-0007 [Freesia] | Letter from your mom and dad again.==W== Let me know when you have the reply letter written.
-0008 [Kui] | Yup! They'll be back next month to see my sister and me.
-0009 [Kui] | By the way, when's our next duel? I can't wait.
-0010 [Tú] | A duel?!
-0011 [Tú] | Did I hear it wrong...? Freesia is going to have a duel with this little girl?
-0012 [Freesia] | Ahem...==W== Let's talk about that another time.
-0013 [Freesia] | I've got a lot of letters to deliver today. See you later.
-0014 [Kui] | Bye, Miss Freesia! I'll be waiting!
-0015 [Freesia] | Auntie Helen. It's Freesia, I have a letter for you.
-0016 [Auntie Helen] | Thanks for putting up with me. My legs aren't great, so you always have to come inside.
-0017 [Freesia] | It's nothing. Just doing my job.
-0018 [Auntie Helen] | I haven't thanked you properly for last time.
-0019 [Auntie Helen] | Everyone says you're amazing. Even the kids next door are pretending to "duel" just like you.
-0020 [Tú] | A … a duel again?!
-0021 [Freesia] | It was just a regular duel... Thank you for your kind words.
-0022 [Freesia] | Anything odd recently?
-0023 [Auntie Helen] | Thanks to you, it's been peaceful.
-0024 [Tú] | What are they talking about...? I'll just ask Freesia about it later.
-0025 [Freesia] | It's noon already.
-0026 [Freesia] | Boss, do you want to rest for a bit?
-0027 [Freesia] | With your help, deliveries have been way more efficient. We should be able to wrap up early today.
-0028 [Tú] | Great. I...
-0029 [???] | ==W==You! Get out of here! You hear me?
-0030 [???] | ==W==I ain't leaving until you give me what's mine!
-0031 [Tú] | What's all the fuss down there? Is someone arguing?
-0032 [Freesia] | Looks like it. There's a crowd gathered at the shop over there.
-0033 [Miserable Employee] | You guys be the judge! I used to work here and the owner still owes me three months' pay.
-0034 [Miserable Employee] | Every time I ask him for it, he says he's short on cash and can't keep the business afloat.
-0035 [Miserable Employee] | But yesterday, I ran into him at a fancy restaurant downtown.
-0036 [Miserable Employee] | I'm a waiter there. He ordered a whole table's worth of stuff! That bill alone could've covered everything he owed me!
-0037 [Shameless Employer] | I told you! You've got the wrong person! Who's to say you actually saw me there? Got any proof?
-0038 [Shameless Employer] | If you keep making a scene and the shop loses business, you can kiss your money goodbye for good.
-0039 [Tú] | Has he got any shame!?
-0040 [Miserable Employee] | I...==W== I'll sue you! I'll take you to court!
-0041 [Shameless Employer] | Hah! Do you have any idea how much it costs to take someone to court? You couldn't afford it even with a year's worth of your wages.
-0042 [Freesia] | … Outrageous.
-0043 [Freesia] | Boss, I want to help her.
-0044 [Freesia] | But I'm worried that if I step in, I might just make things worse.
-0045 [Tú] | You won't. At the very least, it'll show her that someone's willing to stand by her.
-0046 [Tú] | We can think of something together.
-0047 [Tú] | That pocket square in the boss's jacket looks awfully familiar...==W== Ah, I remember now.
-0048 [Tú] | Listen, Freesia...
-0049 [Freesia] | Such fine observation! Just as expected from the Boss.
-0050 [Freesia] | With that key piece of evidence, there's no way he's getting out of this.
-0051 [Freesia] | Sir, deliberately withholding wages from your employees is a serious violation of the law.
-0052 [Freesia] | I urge you to settle this as soon as possible. Otherwise, you could be facing even more serious legal consequences.
-0053 [Shameless Employer] | Who are you? Mind your own business!
-0054 [Freesia] | Who I am doesn't matter. What matters is that I have enough evidence to prove you've been deliberately withholding her back pay.
-0055 [Shameless Employer] | Huh?
-0056 [Freesia] | The embroidery on your pocket square is the logo of Tosca's.
-0057 [Freesia] | I happen to know that pocket square is only given to customers who've spent a certain amount at the restaurant.
-0058 [Miserable Employee] | Yeah, that's right!
-0059 [Onlooker] | That's true... I've seen the ads. That place is really expensive.
-0060 [Onlooker] | What a disgusting man. I'm never setting foot in his shop again.
-0061 [Shameless Employer] | Utter nonsense! You've not only dragged my name through the mud but ruined my shop's reputation, too!
-0062 [Shameless Employer] | Duel...==W== I demand a duel with you!
-0063 [Tú] | Huh? He's gonna duel, too?
-0064 [Tú] | Is this "duel" that they keep mentioning always this dangerous?
-0065 [Freesia] | Very well.==W== I accept your challenge.
-0066 [Onlooker] | They are gonna duel! A duel is happening!
-0067 [Miserable Employee] | Please don't... I don't want to drag you all into this.
-0068 [Tú] | Freesia, are you going to be okay? Be careful!
-0069 [Freesia] | I will be fine. Please trust me.
-0070 [Freesia] | Everyone, please maintain a safe distance. I wish to prevent any unnecessary injuries.
-0071 [Shameless Employer] | What a joke—you're not gonna injure anyone.
-0072 [Freesia] | Let's begin.
-0073 [Shameless Employer] | ==W==Wh-what! What's with this gigantic axe?!
-0074 [Shameless Employer] | Hey, w-wait a minute, I changed my mind...
-0075 [Freesia] | Then the duel is finished.
-0076 [Narración] | After that, the shop owner admits defeat and pays every Dorra he owes without complaints.
-0077 [Narración] | The employee treats Freesia and me to lunch to show her thanks.
+0001 [Intro] | Acto dos
+0002 [Intro] | Un duelo de camaradería (Parte II)
+0003 [Intro] | La mayoría coincidiría en que batirse en duelo con alguien que empuña un hacha gigante capaz de sacudir la tierra es mala idea.
+0004 [Narración] | Después de arreglar la bicicleta de Freesia, llegamos a una pequeña cabaña.
+0005 [Girl] | ¡Señorita Freesia, señorita Freesia...!
+0006 [Freesia] | Hola, Aoi.
+0007 [Freesia] | Otra carta de tu mamá y tu papá.==W== Avísame cuando tengas escrita la carta de respuesta.
+0008 [Kui] | ¡Sí! Volverán el próximo mes a ver a mi hermana y a mí.
+0009 [Kui] | Por cierto, ¿cuándo es nuestro próximo duelo? No puedo esperar.
+0010 [Tú] | ¡¿Un duelo?!
+0011 [Tú] | ¿Habré oído mal...? ¿Freesia va a tener un duelo con esta niña pequeña?
+0012 [Freesia] | Ejem...==W== Hablemos de eso en otro momento.
+0013 [Freesia] | Tengo muchas cartas que entregar hoy. Nos vemos luego.
+0014 [Kui] | ¡Adiós, señorita Freesia! ¡La estaré esperando!
+0015 [Freesia] | Tía Helen. Soy Freesia, tengo una carta para usted.
+0016 [Auntie Helen] | Gracias por tenerme paciencia. Mis piernas no andan bien, así que siempre tienes que pasar.
+0017 [Freesia] | No es nada. Solo hago mi trabajo.
+0018 [Auntie Helen] | No te he agradecido como se debe lo de la última vez.
+0019 [Auntie Helen] | Todos dicen que eres increíble. Hasta los niños de al lado fingen «batirse en duelo» igual que tú.
+0020 [Tú] | ¡¿O-otro duelo?!
+0021 [Freesia] | Fue solo un duelo normal... Gracias por sus amables palabras.
+0022 [Freesia] | ¿Algo raro últimamente?
+0023 [Auntie Helen] | Gracias a ti, todo ha estado tranquilo.
+0024 [Tú] | ¿De qué hablan...? Le preguntaré a Freesia más tarde.
+0025 [Freesia] | Ya es mediodía.
+0026 [Freesia] | Jefe, ¿quiere descansar un poco?
+0027 [Freesia] | Con su ayuda, las entregas han sido mucho más eficientes. Deberíamos poder terminar temprano hoy.
+0028 [Tú] | Perfecto. Yo...
+0029 [???] | ==W==¡Tú! ¡Largo de aquí! ¿Me oyes?
+0030 [???] | ==W==¡No me voy hasta que me des lo que es mío!
+0031 [Tú] | ¿Qué es todo ese alboroto allá abajo? ¿Alguien está discutiendo?
+0032 [Freesia] | Parece que sí. Hay una multitud reunida en la tienda de allá.
+0033 [Miserable Employee] | ¡Que ustedes sean los jueces! Yo trabajaba aquí y el dueño todavía me debe tres meses de paga.
+0034 [Miserable Employee] | Cada vez que se la pido, dice que anda escaso de dinero y que no puede mantener el negocio a flote.
+0035 [Miserable Employee] | Pero ayer me lo topé en un restaurante elegante del centro.
+0036 [Miserable Employee] | ¡Yo soy mesera ahí! ¡Pidió comida para una mesa entera! ¡Esa cuenta sola habría cubierto todo lo que me debía!
+0037 [Shameless Employer] | ¡Ya te dije! ¡Te equivocas de persona! ¿Quién dice que de verdad me viste ahí? ¿Tienes pruebas?
+0038 [Shameless Employer] | Si sigues haciendo escándalo y la tienda pierde clientes, puedes despedirte de tu dinero para siempre.
+0039 [Tú] | ¡¿Es que no tiene vergüenza?!
+0040 [Miserable Employee] | Yo...==W== ¡Te voy a demandar! ¡Te llevaré a los tribunales!
+0041 [Shameless Employer] | ¡Ja! ¿Sabes cuánto cuesta llevar a alguien a juicio? No podrías pagarlo ni con un año entero de sueldo.
+0042 [Freesia] | ... Indignante.
+0043 [Freesia] | Jefe, quiero ayudarla.
+0044 [Freesia] | Pero me preocupa que, si intervengo, quizá empeore las cosas.
+0045 [Tú] | No será así. Al menos le mostrará que alguien está dispuesto a apoyarla.
+0046 [Tú] | Podemos pensar en algo juntos.
+0047 [Tú] | Ese pañuelo de bolsillo en la chaqueta del patrón me resulta muy familiar...==W== Ah, ya me acordé.
+0048 [Tú] | Escucha, Freesia...
+0049 [Freesia] | ¡Qué fina observación! Justo lo que se esperaba del Jefe.
+0050 [Freesia] | Con esa prueba clave, no hay forma de que se salga con la suya.
+0051 [Freesia] | Señor, retener deliberadamente los salarios de sus empleados es una grave violación de la ley.
+0052 [Freesia] | Le insto a que resuelva esto lo antes posible. De lo contrario, podría enfrentar consecuencias legales aún más serias.
+0053 [Shameless Employer] | ¿Quién eres tú? ¡Métete en tus asuntos!
+0054 [Freesia] | Quién soy no importa. Lo que importa es que tengo pruebas suficientes para demostrar que ha estado reteniendo deliberadamente su paga atrasada.
+0055 [Shameless Employer] | ¿Eh?
+0056 [Freesia] | El bordado de su pañuelo de bolsillo es el logotipo de Tosca's.
+0057 [Freesia] | Da la casualidad de que sé que ese pañuelo solo se entrega a los clientes que han gastado cierta cantidad en el restaurante.
+0058 [Miserable Employee] | ¡Sí, así es!
+0059 [Onlooker] | Es verdad... He visto los anuncios. Ese lugar es carísimo.
+0060 [Onlooker] | Qué hombre tan repugnante. Nunca volveré a poner un pie en su tienda.
+0061 [Shameless Employer] | ¡Puras tonterías! ¡No solo has arrastrado mi nombre por el lodo, sino que también arruinaste la reputación de mi tienda!
+0062 [Shameless Employer] | Duelo...==W== ¡Exijo un duelo contigo!
+0063 [Tú] | ¿Eh? ¿Él también va a batirse en duelo?
+0064 [Tú] | ¿Este «duelo» que mencionan tanto siempre es así de peligroso?
+0065 [Freesia] | Muy bien.==W== Acepto su desafío.
+0066 [Onlooker] | ¡Van a batirse en duelo! ¡Hay un duelo!
+0067 [Miserable Employee] | Por favor no... No quiero arrastrarlos a ustedes a esto.
+0068 [Tú] | Freesia, ¿vas a estar bien? ¡Ten cuidado!
+0069 [Freesia] | Estaré bien. Por favor, confíe en mí.
+0070 [Freesia] | Todos, por favor mantengan una distancia segura. Deseo evitar lesiones innecesarias.
+0071 [Shameless Employer] | Qué chiste, no vas a lesionar a nadie.
+0072 [Freesia] | Comencemos.
+0073 [Shameless Employer] | ==W==¡¿Q-qué?! ¡¿Qué es esa hacha gigantesca?!
+0074 [Shameless Employer] | ¡Oye, e-espera un momento, cambié de opinión...!
+0075 [Freesia] | Entonces el duelo ha terminado.
+0076 [Narración] | Después de eso, el dueño de la tienda admite su derrota y paga hasta la última Dorra que debe sin quejarse.
+0077 [Narración] | La empleada nos invita a Freesia y a mí a almorzar en agradecimiento.

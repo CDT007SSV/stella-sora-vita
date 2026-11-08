@@ -3,16 +3,16 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Bride | Bride
-N:Groom | Groom
+N:Bride | Novia
+N:Groom | Novio
 N:Julia | Julia
-N:Julia's Mother | Julia's Mother
-N:Pursuer | Pursuer
-N:Pursuers | Pursuers
+N:Julia's Mother | Madre de Julia
+N:Pursuer | Perseguidor
+N:Pursuers | Perseguidores
 N:Robin | Robin
-N:Robin's Voice | Robin's Voice
-N:Together | Together
-N:Woman Being Pursued | Woman Being Pursued
+N:Robin's Voice | Voz de Robin
+N:Together | Juntos
+N:Woman Being Pursued | Mujer perseguida
 N:avg1_139 | Allie
 N:avg3_100 | Sylar
 N:avg3_1238 | Chica de la pandilla
@@ -27,112 +27,112 @@ N:avg3_168 | Chica
 N:avg3_170 | Chico del Distrito de las Cenizas
 N:avg3_198 | Pandillera genial
 N:avg3_199 | Chica de la pandilla
-N:avg3_218 | Mirage Resident
-N:avg3_219 | Mirage Resident
+N:avg3_218 | Residente de Mirage
+N:avg3_219 | Residente de Mirage
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | Make-Believe Wedding (Part II)
-0003 [Intro] |  Even if she's not good at housework, even if she's never had children, Allie can still be a "true mother."
-0004 [Allie] | I had a great time today, Boss. Visiting Philae and watching that Stella Drama together was a lot of fun.
-0005 [Allie] | The story had me nervous at first. I'm glad the couple finally got together,==W== and even the mother of the heroine got her happy ending, too!
-0006 [Allie] | What made you suddenly decide to bring me here anyway,==W== Boss?
-0007 [Tú] | I thought it might help.
-0008 [Allie] | How?
-0009 [Tú] | Weren't you saying you didn't know what a "real mother" is supposed to be like?
-0010 [Tú] | Personal experience matters, but fiction helps too. Seeing things through other people's eyes can fill in the blanks.
-0011 [Tú] | I figured connecting with the characters might help you understand what being a mother is all about.
-0012 [Allie] | That makes sense. A lot of those scenes hit close to home, and the writing was beautiful.
-0013 [Tú] | Which part stood out to you?
-0014 [Allie] | Probably when the mother helps the heroine into her wedding dress. Watching your child find happiness has to be a parent's greatest joy.
-0015 [Allie] | And her smile in the final scene was gorgeous.==W== Seeing their romance beat the odds made me feel incredibly happy too...
-0016 [Allie] | Someday... I want to...
-0017 [Tú] | Hm?
-0018 [Allie] | Never mind. Anyway, since we're in Philae, I want to pick up some gifts for the kids before we head back...
-0019 [???] | Eek!
-0020 [Allie] | Oh, I'm so sorry. Are you hurt?
-0021 [Woman Being Pursued] | Please, help me...! Someone's chasing me!
-0022 [Tú] | What?
-0023 [Pursuer] | There she is!
-0024 [Allie] | Boss, get her somewhere safe!
-0025 [Allie] | Ganging up on a single girl?==W== I'm going to teach you all a lesson!
-0026 [Allie] | Haaah!
-0027 [Pursuers] | Gaaaaaah!
-0028 [Woman Being Pursued] | Thank you for saving me.
-0029 [Tú] | What happened? Why were so many people after you... Wait.
-0030 [Tú] | Is that a wedding dress in your bag?
-0031 [Bride] | Yes. I was supposed to get married today.==W== Everything was ready, but my mother suddenly objected and locked me in the house...
-0032 [Bride] | I managed to sneak out in disguise, but it looks like they still spotted me.
-0033 [Allie] | So she sent mercenaries after you? Locking up your own daughter on her wedding day is horrible.
-0034 [Bride] | Please,==W== could you escort me to the wedding venue?
-0035 [Allie] | Of course! You don't mind, right, Boss?
-0036 [Tú] | Not at all. Let's get moving! She might have sent more people after you.
-0037 [Groom] | Julia! What happened? You're so late, I was worried sick!
-0038 [Julia] | I'm sorry, Robin. I'll go change and do my makeup right now...==W== Ah!
-0039 [Tú] | What's wrong?
-0040 [Julia] | Oh no, there is a tear in the dress.==W== And I am absolutely hopeless with a needle...==W==
-0041 [Allie] | Don't worry, I can mend it for you!
-0042 [Tú] | Allie?!
-0043 [Allie] | Mister, please buy us some time before the ceremony. I'll be as quick as I can.
-0044 [Robin] | Got it!
-0045 [Allie] | Come on, let's get you to the dressing room.
-0046 [1] | Allie, are you sure about this? I mean... You're...
-0047 [Allie] | You are worried I am going to ruin it, aren't you?
-0048 [Allie] | Actually... I'm surprisingly good at this. Just leave it to me.
-0049 [Julia] | I feel terrible. You escorted me all the way here safely,==W== and now I'm making you fix my dress too...==W==
-0050 [Allie] | It's no big deal.==W== A wedding is a once-in-a-lifetime event. You deserve to look your absolute best.
-0051 [Julia] | Thank you so much. I must have snagged it when I tripped earlier.
-0052 [Tú] | Does Robin know your mother is trying to stop the wedding?
-0053 [Julia] | If I told him, he probably would have canceled it. I didn't want him to worry about me anymore.
-0054 [Julia] | Besides, my mother is being completely unreasonable. She had no issues when we were dating, but flipped the second we got engaged.
-0055 [Tú] | That's strange. Dating is fine, but marriage crosses the line?
-0056 [Allie] | Whatever her reason is, a parent shouldn't stand in the way of their child's happiness. And ... done! Good as new.
-0057 [Julia] | Wow. Thank you! Now I can finally—
-0058 [Robin's Voice] | Please wait a moment, ma'am!
-0059 [Julia's Mother] | Julia. Call off this wedding right now.
-0060 [Julia] | Mother?!
-0061 [Julia's Mother] | I'm doing this for your own good.==W== Come on, we're going home!
-0062 [Allie] | Hold on a second.
-0063 [Julia's Mother] | And who might you be?
-0064 [Allie] | I am Miss Julia's bodyguard. What you just said was incredibly hypocritical, and I can't let that slide.
-0065 [Allie] | You say it's for her own good, but aren't you simply trying to keep her under your control?
-0066 [Julia's Mother] | I-I'm doing no such thing!
-0067 [Tú] | If you wanted what is best for her, the two of you would sit down and talk.==W== Locking her in a house against her will is the definition of controlling her.
-0068 [Julia's Mother] | That... Well, you have a point. Locking her up was a step too far. But you have to understand, I don't want Julia to suffer down the line.
-0069 [Tú] | I heard you had no problem when they were dating. Why the sudden change of heart now that they're getting married?
-0070 [Julia's Mother] | I don't want my precious daughter to be abandoned one day. If she stays unmarried, she never has to face being cast aside.
-0071 [Allie] | With all due respect, worrying about divorce before they even say their vows is a bit pessimistic, don't you think?
-0072 [Julia's Mother] | How could I not worry?! Because my clumsy daughter...==W==
-0073 [Julia's Mother] | She's completely hopeless when it comes to chores!==W==
-0074 [Together] | ...==W== What?==W==
-0075 [Julia's Mother] | She burns food constantly, mixes up salt and sugar, and makes bigger holes when she tries to sew!==W== A bride who fails at every chore is going to end up discarded sooner or later.
-0076 [Tú] | Oh, she did mention she was hopeless with a needle earlier...
-0077 [Julia's Mother] | My husband walked out on me years ago. I endured so much to raise Julia alone. What kind of mother wants to watch her daughter walk down that same painful path?
-0078 [Tú] | I understand where she is coming from. Still, calling off the wedding over chores is a bit much...
-0079 [Robin] | Please don't worry, ma'am. I am great around the house. We will support each other and build a happy life together!
-0080 [Julia's Mother] | Talk is cheap. Being in a relationship and living under the same roof are two completely different things.
-0081 [Allie] | ... Why not try trusting them just this once?
-0082 [Julia's Mother] | Trust them...?
-0083 [Allie] | To be honest, I am a walking disaster with chores too.==W== Just the other day, I flung a pancake onto the ceiling and shattered a bunch of plates.
-0084 [Allie] | It's embarrassing for an orphanage director to make such rookie mistakes.==W== But even so, the kids still call me Mom, and they step up to help me with the things I'm bad at.
-0085 [Allie] | You cover for each other's flaws. You build a life together step by step.==W== Isn't that what becoming a family is all about?
-0086 [Julia's Mother] | That's...
-0087 [Allie] | I might not have biological kids, but I understand wanting to shield your child from the world.==W== I would walk through fire to protect the kids. But...
-0088 [Allie] | There comes a day when a child has to spread their wings.==W== When that day comes,==W== trusting them to chase their own future is another way of loving them.
-0089 [Allie] | Miss Julia's life is just beginning.==W== Given time, she might surprise you and overcome those shortcomings.
-0090 [Julia] | Mom, I'll work harder! I love Robin, and I am willing to learn every chore in the book for him! Please, give us your blessing!
-0091 [Robin] | I humbly ask for your blessing too. I love Julia with all my heart, and I swear I will never abandon her. You have to believe me.
-0092 [Julia's Mother] | It seems my protective streak got the better of me.==W== All right. You have my blessing.
-0093 [Julia] | Mother...!==W== Thank you! We'll live our life well, I promise!
-0094 [Tú] | What a beautiful wedding. I'm glad it all went smoothly.
-0095 [Allie] | Yeah... Me too.==W==
-0096 [Tú] | Allie? What's on your mind?
-0097 [Allie] | Right as we were leaving, Julia's mother pulled me aside...
-0098 [Julia's Mother] | You really taught me a lesson today. You said you don't have children of your own, but from where I'm standing, you're already an amazing mother.==W== With a mother like you, those kids at the orphanage must be incredibly lucky.
-0099 [Allie] | Having her call me an "amazing mother" surprised me. After all... I'm not a "real mother" like she is...
-0100 [Tú] | Every word you said back there was filled with a mother's love. That's exactly why you were able to get through to her, isn't it?
-0101 [Tú] | Allie, biology has nothing to do with it. As far as I'm concerned, you're already an incredible mother.
-0102 [Allie] | Boss... You're right. I was completely overthinking things, wasn't I?
-0103 [Allie] | I won't let myself be conflicted anymore. I'll hold my head high and be the best "Mom" for those kids.
-0104 [Tú] | That's the spirit! Because to the kids at the orphanage, there's only one "real" mother, and that's you.
+0001 [Intro] | Acto dos
+0002 [Intro] | Boda de mentiras (Parte II)
+0003 [Intro] | Aunque no sea buena con las tareas del hogar, aunque nunca haya tenido hijos, Allie puede ser una «verdadera madre».
+0004 [Allie] | Me divertí muchísimo hoy, Jefe. Visitar Philae y ver juntos ese Stella Drama fue muy divertido.
+0005 [Allie] | Al principio la historia me puso nerviosa. Me alegra que la pareja por fin se juntara,==W== ¡y que hasta la madre de la protagonista tuviera su final feliz!
+0006 [Allie] | ¿Qué te hizo decidir de repente traerme aquí,==W== Jefe?
+0007 [Tú] | Pensé que podría ayudar.
+0008 [Allie] | ¿Cómo?
+0009 [Tú] | ¿No decías que no sabías cómo se supone que es una «madre de verdad»?
+0010 [Tú] | La experiencia personal importa, pero la ficción también ayuda. Ver las cosas a través de los ojos de otros puede llenar los vacíos.
+0011 [Tú] | Pensé que conectar con los personajes podría ayudarte a entender de qué se trata ser madre.
+0012 [Allie] | Tiene sentido. Muchas de esas escenas me tocaron de cerca, y el guion era hermoso.
+0013 [Tú] | ¿Qué parte te llamó la atención?
+0014 [Allie] | Probablemente cuando la madre ayuda a la protagonista a ponerse el vestido de novia. Ver a tu hija o hijo encontrar la felicidad tiene que ser la mayor alegría de un padre o una madre.
+0015 [Allie] | Y su sonrisa en la escena final era preciosa.==W== Ver cómo su romance venció las adversidades también me hizo sentir increíblemente feliz...
+0016 [Allie] | Algún día... quiero...
+0017 [Tú] | ¿Mm?
+0018 [Allie] | Olvídalo. En fin, ya que estamos en Philae, quiero comprar unos regalos para los niños antes de volver...
+0019 [???] | ¡Iiih!
+0020 [Allie] | Ay, perdón. ¿Te lastimaste?
+0021 [Woman Being Pursued] | ¡Por favor, ayúdenme...! ¡Alguien me persigue!
+0022 [Tú] | ¿Qué?
+0023 [Pursuer] | ¡Ahí está!
+0024 [Allie] | ¡Jefe, lleva a esta chica a un lugar seguro!
+0025 [Allie] | ¿Varios contra una sola chica?==W== ¡Les voy a dar una lección a todos!
+0026 [Allie] | ¡Haaah!
+0027 [Pursuers] | ¡Gaaaaaah!
+0028 [Woman Being Pursued] | Gracias por salvarme.
+0029 [Tú] | ¿Qué pasó? ¿Por qué tanta gente te perseguía... Espera.
+0030 [Tú] | ¿Eso es un vestido de novia en tu bolso?
+0031 [Bride] | Sí. Hoy me iba a casar.==W== Todo estaba listo, pero mi madre se opuso de repente y me encerró en la casa...
+0032 [Bride] | Logré escabullirme disfrazada, pero parece que aun así me descubrieron.
+0033 [Allie] | ¿Así que envió mercenarios tras de ti? Encerrar a tu propia hija el día de su boda es terrible.
+0034 [Bride] | Por favor,==W== ¿podrían escoltarme hasta el lugar de la boda?
+0035 [Allie] | ¡Claro que sí! No te importa, ¿verdad, Jefe?
+0036 [Tú] | Para nada. ¡Pongámonos en marcha! Podría haber enviado a más gente tras de ti.
+0037 [Groom] | ¡Julia! ¿Qué pasó? ¡Llegas muy tarde, estaba muerto de preocupación!
+0038 [Julia] | Lo siento, Robin. Voy a cambiarme y a maquillarme ahora mismo...==W== ¡Ah!
+0039 [Tú] | ¿Qué pasa?
+0040 [Julia] | Ay, no, el vestido tiene un desgarro.==W== Y soy absolutamente un desastre con la aguja...==W==
+0041 [Allie] | ¡No te preocupes, yo puedo remendarlo!
+0042 [Tú] | ¡¿Allie?!
+0043 [Allie] | Señor, por favor, gánenos algo de tiempo antes de la ceremonia. Seré lo más rápida que pueda.
+0044 [Robin] | ¡Entendido!
+0045 [Allie] | Vamos, te llevo al camerino.
+0046 [1] | Allie, ¿estás segura de esto? O sea... Tú eres...
+0047 [Allie] | Te preocupa que lo arruine, ¿verdad?
+0048 [Allie] | En realidad... soy sorprendentemente buena en esto. Déjamelo a mí.
+0049 [Julia] | Me siento fatal. Me escoltaron hasta aquí sana y salva,==W== y ahora les pido que me arreglen el vestido...==W==
+0050 [Allie] | No es nada.==W== Una boda ocurre una sola vez en la vida. Mereces lucir absolutamente espléndida.
+0051 [Julia] | Muchas gracias. Debo de haberlo enganchado cuando tropecé hace rato.
+0052 [Tú] | ¿Robin sabe que tu madre intenta impedir la boda?
+0053 [Julia] | Si se lo hubiera dicho, probablemente la habría cancelado. No quería que se preocupara más por mí.
+0054 [Julia] | Además, mi madre está siendo completamente irrazonable. No tuvo ningún problema cuando éramos novios, pero cambió en cuanto nos comprometimos.
+0055 [Tú] | Qué extraño. ¿Noviazgo sí, pero matrimonio cruza la línea?
+0056 [Allie] | Sea cual sea su razón, una madre no debería interponerse en la felicidad de su hija. Y... ¡listo! Como nuevo.
+0057 [Julia] | Guau. ¡Gracias! Ahora por fin puedo...
+0058 [Robin's Voice] | ¡Por favor, espere un momento, señora!
+0059 [Julia's Mother] | Julia. Cancela esta boda ahora mismo.
+0060 [Julia] | ¡¿Madre?!
+0061 [Julia's Mother] | Lo hago por tu propio bien.==W== ¡Vamos, nos vamos a casa!
+0062 [Allie] | Espere un segundo.
+0063 [Julia's Mother] | ¿Y usted quién es?
+0064 [Allie] | Soy la guardaespaldas de la señorita Julia. Lo que acaba de decir es increíblemente hipócrita y no puedo dejarlo pasar.
+0065 [Allie] | Dice que es por su bien, pero ¿no está simplemente tratando de mantenerla bajo su control?
+0066 [Julia's Mother] | ¡N-no hago nada de eso!
+0067 [Tú] | Si quisiera lo mejor para ella, las dos se sentarían a conversar.==W== Encerrarla en una casa contra su voluntad es la definición de controlarla.
+0068 [Julia's Mother] | Eso... Bueno, tienen razón. Encerrarla fue ir demasiado lejos. Pero tienen que entender que no quiero que Julia sufra más adelante.
+0069 [Tú] | Me dijeron que usted no tuvo problema cuando eran novios. ¿Por qué el cambio repentino ahora que van a casarse?
+0070 [Julia's Mother] | No quiero que mi preciada hija sea abandonada algún día. Si se queda soltera, nunca tendrá que enfrentar que la dejen de lado.
+0071 [Allie] | Con todo respeto, preocuparse por el divorcio antes de que digan sus votos es un poco pesimista, ¿no cree?
+0072 [Julia's Mother] | ¡¿Cómo no voy a preocuparme?! ¡Porque mi torpe hija...==W==
+0073 [Julia's Mother] | ¡Es un completo desastre con los quehaceres!==W==
+0074 [Together] | ...==W== ¿Qué?==W==
+0075 [Julia's Mother] | ¡Quema la comida constantemente, confunde la sal con el azúcar y hace agujeros más grandes cuando intenta coser!==W== Una novia que falla en todas las tareas del hogar terminará siendo descartada tarde o temprano.
+0076 [Tú] | Ah, sí mencionó hace rato que era un desastre con la aguja...
+0077 [Julia's Mother] | Mi esposo me abandonó hace años. Soporté muchísimo para criar sola a Julia. ¿Qué clase de madre quiere ver a su hija recorrer ese mismo camino doloroso?
+0078 [Tú] | Entiendo su postura. Aun así, cancelar la boda por las tareas del hogar es un poco exagerado...
+0079 [Robin] | Por favor, no se preocupe, señora. Soy muy bueno en casa. ¡Nos apoyaremos mutuamente y construiremos juntos una vida feliz!
+0080 [Julia's Mother] | Las palabras son baratas. Tener una relación y vivir bajo el mismo techo son cosas completamente distintas.
+0081 [Allie] | ... ¿Por qué no intenta confiar en ellos solo esta vez?
+0082 [Julia's Mother] | ¿Confiar en ellos...?
+0083 [Allie] | Siendo sincera, yo también soy un desastre con las tareas del hogar.==W== Justo el otro día, lancé un hotcake al techo y rompí un montón de platos.
+0084 [Allie] | Es vergonzoso que una directora de orfanato cometa errores tan de principiante.==W== Pero aun así, los niños me siguen llamando Mamá, y se esfuerzan por ayudarme con lo que se me da mal.
+0085 [Allie] | Ustedes se cubren los defectos mutuamente. Construyen una vida juntos paso a paso.==W== ¿No es de eso de lo que se trata formar una familia?
+0086 [Julia's Mother] | Eso es...
+0087 [Allie] | Quizá no tenga hijos biológicos, pero entiendo el deseo de proteger a su hija del mundo.==W== Yo atravesaría el fuego para proteger a los niños. Pero...
+0088 [Allie] | Llega un día en que un hijo o una hija tiene que desplegar sus alas.==W== Cuando ese día llega,==W== confiar en que perseguirá su propio futuro es otra forma de quererla.
+0089 [Allie] | La vida de la señorita Julia apenas comienza.==W== Con el tiempo, quizá la sorprenda y supere esas deficiencias.
+0090 [Julia] | ¡Mamá, me esforzaré más! ¡Quiero a Robin y estoy dispuesta a aprender todas las tareas del hogar por él! ¡Por favor, danos tu bendición!
+0091 [Robin] | Yo también le pido humildemente su bendición. Amo a Julia con todo mi corazón y juro que jamás la abandonaré. Tiene que creerme.
+0092 [Julia's Mother] | Parece que mi instinto protector me ganó.==W== Muy bien. Tienen mi bendición.
+0093 [Julia] | ¡Madre...!==W== ¡Gracias! ¡Viviremos bien nuestra vida, te lo prometo!
+0094 [Tú] | Qué boda tan hermosa. Me alegra que todo saliera bien.
+0095 [Allie] | Sí... A mí también.==W==
+0096 [Tú] | ¿Allie? ¿Qué te preocupa?
+0097 [Allie] | Justo cuando nos íbamos, la madre de Julia me llamó aparte...
+0098 [Julia's Mother] | De verdad me dio una lección hoy. Dijo que no tiene hijos propios, pero desde mi punto de vista, usted ya es una madre extraordinaria.==W== Con una madre como usted, esos niños del orfanato deben de ser increíblemente afortunados.
+0099 [Allie] | Que me llamara «madre extraordinaria» me sorprendió. Después de todo... yo no soy una «madre de verdad» como ella...
+0100 [Tú] | Cada palabra que dijiste allá estaba llena de amor de madre. Por eso mismo pudiste llegar a ella, ¿no?
+0101 [Tú] | Allie, la biología no tiene nada que ver. Para mí, ya eres una madre increíble.
+0102 [Allie] | Jefe... Tienes razón. Estaba pensando demasiado las cosas, ¿verdad?
+0103 [Allie] | No dejaré que me siga confundiendo. Alzaré la cabeza y seré la mejor «Mamá» para esos niños.
+0104 [Tú] | ¡Esa es la actitud! Porque para los niños del orfanato solo hay una madre «de verdad», y eres tú.

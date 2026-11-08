@@ -3,95 +3,95 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Angry Shrubshrew | Angry Shrubshrew
+N:Angry Shrubshrew | Shrubshrew enfurecido
 N:avg1_127 | Teresa
-N:avg2_001 | Shrubshrew Thug
-N:avg2_002 | Shrubshrew Stake
-N:avg2_003 | Shrubshrew Grenadier
+N:avg2_001 | Shrubshrew matón
+N:avg2_002 | Shrubshrew estaca
+N:avg2_003 | Shrubshrew granadero
 N:avg3_100 | Sylar
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | The Clever Courier Never Gets Hurt (Part II)
-0003 [Intro] | Some people just have a knack for the most unusual abilities.
-0004 [Tú] | Haa ... ==W==Haa ...
+0001 [Intro] | Acto dos
+0002 [Intro] | La mensajera astuta nunca se lastima (Parte II)
+0003 [Intro] | Algunas personas simplemente tienen un don para las habilidades más inusuales.
+0004 [Tú] | Jaa... ==W==Jaa...
 0005 [Tú] | Ugh...
-0006 [Teresa] | Bo-Boss! You look awful—are you okay?!
-0007 [Tú] | Nobody's walked this mountain trail in ages, huh ... ==W==I can't even feel my legs at this point ...
-0008 [Teresa] | I'm not quite sure what you mean… But let's take a break here first.
-0009 [Tú] | Wow ... There goes my knees...
-0010 [Teresa] | I've got some water in my backpack. I'll grab it for you.
-0011 [Tú] | That backpack's huge. You moving or something.==W== Hold on—are those all Artifacts?
-0012 [Teresa] | Yup! Most of them are broken, though.
-0013 [Tú] | Why collect broken Artifacts?
-0014 [Teresa] | I haven't figured out exactly what to do with them yet...==B== But Trekkers put so much into wishing these into existence, Just leaving them out here feels really wasteful.
-0015 [Teresa] | And even if broken Artifacts can't be used the way they were before, they might still come in handy for something else.
-0016 [Teresa] | Like this one, you can press it. Not bad for stress relief, huh?
-0017 [Tú] | Great idea. Let me try.
-0018 [Teresa] | Here you go.
-0019 [Tú] | Hmm ... The clicking feel when I press it is kind of fun...==W== But for some reason, it feels like I'm working.
-0020 [Tú] | Well, stress relief's different for everyone.
-0021 [Teresa] | Such a nice and cool breeze.
-0022 [Teresa] | Wait a minute ... That smell...
-0023 [Teresa] | Boss! I think that smell's coming from Purple Nettles!
-0024 [Tú] | Really? I don't smell anything...
-0025 [Teresa] | I think so! I'm sure it is! Yeah, like 100 percent!
-0026 [Teresa] | My nose is actually super sharp!
-0027 [Tú] | So, let's follow that scent?
-0028 [Teresa] | Yeah! Don't get separated. Stick close to me, Boss!
-0029 [Teresa] | Here we are.
-0030 [Tú] | There's a cliff up ahead. I can smell the faint fragrance, too. But where are the Purple Nettles?
-0031 [Teresa] | Up there.
-0032 [Narración] | I follow Teresa's pointing finger and see a few tiny flowers swaying in the wind high up on the cliffside.
-0033 [Tú] | So we found them. But they're up so high...!
-0034 [Tú] | I knew they grew on steep slopes, but I didn't think it'd be this steep.
-0035 [Tú] | Trekker commissions really are never easy.
-0036 [Teresa] | Boss, watch my stuff for me.
-0037 [Tú] | What are you doing?
-0038 [Teresa] | Climbing that cliff and picking the Purple Nettles for you. What else?
-0039 [Tú] | It's too dangerous. Plus, this is my commission to begin with.
-0040 [Teresa] | For me, a climb like this is a piece of cake!
-0041 [Teresa] | I've climbed cliffs way taller than this while out delivering letters.
-0042 [Tú] | Is she always doing such dangerous deliveries...?
-0043 [Teresa] | Besides, you saved me today, Boss. Consider this my "thank-you." Okay, be back in a jiff.
-0044 [Teresa] | Heave-ho ... ha...==B== Whew ... Climbed pretty high, meow...
-0045 [Teresa] | The rocks over here are a bit loose. Can't use them as footholds.
-0046 [Teresa] | But there's really no better spot...==B== Guess I'll give this route a try...!
+0006 [Teresa] | ¡J-Jefe! Te ves fatal, ¿estás bien?
+0007 [Tú] | Hace siglos que nadie recorre este sendero de montaña, ¿eh?... ==W==Ya ni siento las piernas...
+0008 [Teresa] | No entiendo bien a qué te refieres… Pero descansemos aquí primero.
+0009 [Tú] | Vaya... Ahí se fueron mis rodillas...
+0010 [Teresa] | Tengo agua en la mochila. Te la saco.
+0011 [Tú] | Esa mochila es enorme. ¿Te estás mudando o qué?==W== Espera, ¿todos esos son Artefactos?
+0012 [Teresa] | ¡Sí! Aunque la mayoría están rotos.
+0013 [Tú] | ¿Para qué coleccionas Artefactos rotos?
+0014 [Teresa] | Todavía no sé bien qué hacer con ellos...==B== Pero los Trekkers ponen tanto en desearlos para que existan que dejarlos tirados por ahí se siente un desperdicio.
+0015 [Teresa] | Y aunque los Artefactos rotos no se puedan usar como antes, quizá sirvan para otra cosa.
+0016 [Teresa] | Como este, se puede presionar. No está mal para aliviar el estrés, ¿verdad?
+0017 [Tú] | Buena idea. Déjame probar.
+0018 [Teresa] | Toma.
+0019 [Tú] | Mmm... La sensación del clic al presionarlo es algo divertida...==W== Pero por alguna razón siento que estoy trabajando.
+0020 [Tú] | Bueno, el alivio del estrés es distinto para cada quien.
+0021 [Teresa] | Qué brisa tan agradable y fresca.
+0022 [Teresa] | Espera un momento... Ese olor...
+0023 [Teresa] | ¡Jefe! ¡Creo que ese olor viene de las Ortigas Moradas!
+0024 [Tú] | ¿En serio? Yo no huelo nada...
+0025 [Teresa] | ¡Creo que sí! ¡Estoy segura! ¡Sí, al cien por ciento!
+0026 [Teresa] | ¡Mi nariz en realidad es súper aguda!
+0027 [Tú] | Entonces, ¿seguimos ese aroma?
+0028 [Teresa] | ¡Sí! No te separes. ¡Quédate cerca de mí, Jefe!
+0029 [Teresa] | Aquí estamos.
+0030 [Tú] | Hay un acantilado más adelante. También percibo el leve aroma. Pero ¿dónde están las Ortigas Moradas?
+0031 [Teresa] | Allá arriba.
+0032 [Narración] | Sigo el dedo de Teresa y veo unas diminutas flores meciéndose con el viento en lo alto de la pared del acantilado.
+0033 [Tú] | Así que las encontramos. ¡Pero están tan arriba...!
+0034 [Tú] | Sabía que crecían en pendientes empinadas, pero no pensé que sería tan empinada.
+0035 [Tú] | Los encargos de Trekker de verdad nunca son fáciles.
+0036 [Teresa] | Jefe, cuida mis cosas.
+0037 [Tú] | ¿Qué haces?
+0038 [Teresa] | Subir ese acantilado y recoger las Ortigas Moradas por ti. ¿Qué más?
+0039 [Tú] | Es demasiado peligroso. Además, este es mi encargo desde el principio.
+0040 [Teresa] | ¡Para mí, una escalada así es pan comido!
+0041 [Teresa] | He escalado acantilados mucho más altos que este mientras repartía cartas.
+0042 [Tú] | ¿Siempre hace entregas tan peligrosas...?
+0043 [Teresa] | Además, hoy me salvaste, Jefe. Considéralo mi «gracias». Bueno, vuelvo en un santiamén.
+0044 [Teresa] | Hop... ja...==B== Uf... Ya subí bastante, miau...
+0045 [Teresa] | Las rocas de aquí están algo flojas. No sirven de apoyo.
+0046 [Teresa] | Pero de verdad no hay mejor lugar...==B== Supongo que probaré esta ruta...
 0047 [Tú] | Teresa...
-0048 [Narración] | Despite my worries, Teresa skillfully grips the cracks in the cliff surface as she climbs upward.
-0049 [Tú] | Such quick, agile moves ... But...==B== Just how does someone as nimble as Teresa fall into a simple hole like that...
-0050 [Tú] | Oh no, she's climbed into a dead end. There's nothing around she can grab onto.
-0051 [Teresa] | It's time for a double wall-kick here ... Heeya!
-0052 [Tú] | Oh wow ... ==B==She jumps and catches hold of a ledge higher up.
-0053 [Tú] | That's amazing...! One can tell you do this all the time!
-0054 [Teresa] | Just a little more ... to the top.
-0055 [Teresa] | Heh heh! Boss, did you see that? This is nothing compared to the cliffs I climbed as a kid.
-0056 [Teresa] | Purple Nettles, Purple Nettles.
-0057 [Teresa] | Quite a lot growing here ... Taking half of these should be okay.
-0058 [Teresa] | Two ... Four ... Six ... Boss, six is enough, yeah?
-0059 [Tú] | Yup. Thanks!
-0060 [Teresa] | Got it! Hehe, if we leave this much behind, the whole area should be blooming next year.
-0061 [Teresa] | Boss—! I'm coming down now～!
-0062 [Tú] | Be careful, Teresa.
-0063 [Teresa] | It's fine. Even if I fall, you will catch me, right?
-0064 [Tú] | Me?!
-0065 [Tú] | W-wait, let me gather some leaves to cushion the fall.
-0066 [Teresa] | Just kidding. A little cliff like this is nothing to worry about. It's as easy as going up and down stairs.
-0067 [???] | Squeak, squeak squeak squeak.
-0068 [Tú] | What's that sound?
-0069 [Narración] | A few tiny heads pop up at the top of the cliff.
-0070 [Angry Shrubshrew] | Squeak squeak, quack quack, squeak squeak squeak squeak!
-0071 [Teresa] | Why are there Shrubshrews above my head?
-0072 [Teresa] | They look really mad… Wait—was that spot earlier your den...?
-0073 [Teresa] | I'm sorry! I didn't do that on purpose.
-0074 [Angry Shrubshrew] | Squeak squeak, quack quack, squeak squeak squeak squeak!
-0075 [Teresa] | Hey, don't throw rotten tree fruits at me! They stink so bad.
-0076 [Tú] | Oh no ... ! The timing couldn't be worse...! I've got to find a way to help Teresa...!
-0077 [Narración] | I hurl a stick at the Shrubshrews, trying to scare them off.
-0078 [Tú] | The cliff is high. Can't reach them.
-0079 [Teresa] | Oh no ... This is not good...
-0080 [Narración] | Teresa narrowly dodged the barrage of flying fruit—
-0081 [Narración] | But slipped.
-0082 [Teresa] | I, I'm gonna fall!
-0083 [Teresa] | Boss! I'm so sorry...!
+0048 [Narración] | A pesar de mi preocupación, Teresa se agarra con destreza de las grietas de la pared del acantilado mientras sube.
+0049 [Tú] | Qué movimientos tan rápidos y ágiles... Pero...==B== ¿Cómo es que alguien tan ágil como Teresa cae en un agujero tan simple?
+0050 [Tú] | Ay no, se metió en un callejón sin salida. No hay nada alrededor de lo que pueda agarrarse.
+0051 [Teresa] | Es hora de un doble salto de pared... ¡Jiiiya!
+0052 [Tú] | Vaya... ==B==Salta y se agarra de una saliente más alta.
+0053 [Tú] | ¡Es increíble...! ¡Se nota que haces esto todo el tiempo!
+0054 [Teresa] | Un poquito más... hasta la cima.
+0055 [Teresa] | ¡Jeje! Jefe, ¿lo viste? Esto no es nada comparado con los acantilados que escalé de niña.
+0056 [Teresa] | Ortigas Moradas, Ortigas Moradas.
+0057 [Teresa] | Hay bastantes aquí... Llevarnos la mitad debería estar bien.
+0058 [Teresa] | Dos... Cuatro... Seis... Jefe, con seis basta, ¿verdad?
+0059 [Tú] | Sí. ¡Gracias!
+0060 [Teresa] | ¡Listo! Jeje, si dejamos tanto atrás, toda la zona debería florecer el año que viene.
+0061 [Teresa] | ¡Jefe! ¡Ya bajo～!
+0062 [Tú] | Ten cuidado, Teresa.
+0063 [Teresa] | Estoy bien. Aunque me caiga, tú me atraparás, ¿verdad?
+0064 [Tú] | ¡¿Yo?!
+0065 [Tú] | E-espera, déjame juntar unas hojas para amortiguar la caída.
+0066 [Teresa] | Es broma. Un acantilado así de pequeño no es para preocuparse. Es tan fácil como subir y bajar escaleras.
+0067 [???] | Chillido, chillido, chillido, chillido.
+0068 [Tú] | ¿Qué es ese ruido?
+0069 [Narración] | Unas cabecitas diminutas asoman en lo alto del acantilado.
+0070 [Angry Shrubshrew] | ¡Chillido chillido, cuac cuac, chillido chillido chillido chillido!
+0071 [Teresa] | ¿Por qué hay Shrubshrews sobre mi cabeza?
+0072 [Teresa] | Se ven muy enojados… Espera, ¿ese lugar de antes era su guarida...?
+0073 [Teresa] | ¡Lo siento! No lo hice a propósito.
+0074 [Angry Shrubshrew] | ¡Chillido chillido, cuac cuac, chillido chillido chillido chillido!
+0075 [Teresa] | ¡Oigan, no me lancen frutas podridas! Huelen horrible.
+0076 [Tú] | ¡Ay no...! ¡El momento no podría ser peor...! ¡Tengo que encontrar la forma de ayudar a Teresa...!
+0077 [Narración] | Lanzo un palo a los Shrubshrews, intentando espantarlos.
+0078 [Tú] | El acantilado es alto. No los alcanzo.
+0079 [Teresa] | Ay no... Esto no pinta bien...
+0080 [Narración] | Teresa esquivó por poco la lluvia de frutas voladoras...
+0081 [Narración] | Pero resbaló.
+0082 [Teresa] | ¡Me-me voy a caer!
+0083 [Teresa] | ¡Jefe! ¡Lo siento mucho...!

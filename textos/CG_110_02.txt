@@ -3,14 +3,14 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Cheerful Server | Cheerful Server
-N:Curious Customer | Curious Customer
-N:Curious Student | Curious Student
-N:Enthusiastic Student | Enthusiastic Student
-N:Excited Student | Excited Student
-N:Gathered Students | Gathered Students
-N:Interested Student | Interested Student
-N:Shy Student | Shy Student
+N:Cheerful Server | Mesero alegre
+N:Curious Customer | Cliente curioso
+N:Curious Student | Estudiante curiosa
+N:Enthusiastic Student | Estudiante entusiasta
+N:Excited Student | Estudiante emocionada
+N:Gathered Students | Estudiantes reunidas
+N:Interested Student | Estudiante interesada
+N:Shy Student | Estudiante tímida
 N:avg1_110 | Firenze
 N:avg3_100 | Sylar
 N:avg3_1266 | Estudiante de la Academia Luz de Gracia
@@ -21,104 +21,104 @@ N:avg3_177 | Estudiante de la Academia Luz de Gracia
 N:avg3_178 | Estudiante de la Academia Luz de Gracia
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | Philae Vacation (Part II)
-0003 [Intro] | A charming "student" commands the spotlight.
-0004 [Firenze] | Heh. Boss, don't tell me that you're trying to take me==W== on a date?
-0005 [Tú] | A d-date!?
-0006 [Tú] | No way! This is a partner inspection! I want to visit United Harvest's stores with you and see how things look on the ground.
-0007 [Tú] | When you stay in the office every day, all you see are numbers. What happens on the front line matters too, right?
-0008 [Firenze] | Your reaction is a bit boring. But you've made a point. I have been busy lately and have not had the chance to see things for myself.
-0009 [Cheerful Server] | Here are your fruits. Thank you.
-0010 [Curious Customer] | The fruit has been much fresher than before. Did you change suppliers?
-0011 [Cheerful Server] | No, no. It is still from United Harvest's greenhouses. But we improved the storage process during picking, so the fruit stays fresh longer.
-0012 [Curious Customer] | I see. You really put a lot of thought into this...==W== I will be coming back for sure!
-0013 [Firenze] | Looks like the improvements are working. Even a small change in the process can raise the quality of the products.
-0014 [Firenze] | Come to think of it, Boss, what kind of fruits do you like?
-0015 [Tú] | Fruits, huh...
-0016 [Opción] | Apples
-0017 [Opción] | Oranges
-0018 [Opción] | Lemons
-0019 [Firenze] | There is a saying, "An apple a day keeps the doctor away."
-0020 [Tú] | Getting sick in the Wilds is the worst. There are no doctors, and you become a burden to your squad.
-0021 [Firenze] | True. Then starting today, I will eat an apple every day. If I collapse, I cannot work.
-0022 [Firenze] | I like oranges as well. When I was little, I always ran to the shop to buy them as soon as they became available in winter.
-0023 [Tú] | That sweet-tart taste is impossible to resist.
-0024 [Firenze] | But after growing up...==W== I would not say I dislike them, but I haven't had many chances to eat them.
-0025 [Firenze] | Same here.==W== You noticed the lemon scent in my office, yes?
-0026 [Tú] | Yes. That scent keeps one's head clear. I like it, too.
-0027 [Firenze] | It feels unexpectedly nice when someone shares my preferences.
-0028 [Firenze] | So, Boss, where are we going next for this inspection tour of yours?
-0029 [Tú] | Hmm...
-0030 [Tú] | Another shop? But if I keep stalling like this, it will end up being the same as her working.
-0031 [Tú] | When the goal was to have her get some rest at last...
-0032 [Tú] | We are partners now, right?
-0033 [Firenze] | Of course.
-0034 [Tú] | Then, to further our understanding of each other and discuss future strategies...
-0035 [Tú] | Would you like to ...==W== have afternoon tea with me?
-0036 [Firenze] | Okay.
-0037 [Tú] | That expression again. She really makes me feel like she can see right through me.
-0038 [Firenze] | You mean the "inspection" is over and now it's date time?
-0039 [Tú] | Why do you keep using that word!
-0040 [Firenze] | Simple. Your reactions are more entertaining this way.
-0041 [Tú] | Okay, fine. Have it your way.
-0042 [Firenze] | Then please, Boss. Lead the way.
-0043 [Narración] | I brought Firenze to a well-known Philae dessert shop and ordered the afternoon tea set.
-0044 [Firenze] | Their afternoon tea is famous. I have always wanted to try it. You have fine tastes, Boss.
-0045 [Tú] | Thanks. I am glad you like it.
-0046 [Tú] | Truth is, I just happened to see the shop...
-0047 [Shy Student] | H-hello!
-0048 [Narración] | Before I realized it, a group of students had already surrounded our table.
-0049 [Firenze] | Yes?
-0050 [Shy Student] | S-sorry for interrupting. We are students from Grace Light Academy, here in Philae on a study trip.
-0051 [Shy Student] | Judging from your uniform, do you go to Philaen Academy?
-0052 [Firenze] | Well...
-0053 [Narración] | Firenze glanced at me before a playful smile came to her lips. She set down her tea with elegant composure.
-0054 [Firenze] | Yes, I am. May I help you?
-0055 [Tú] | Eh? Firenze?
-0056 [Narración] | I look to her in shock, but she just presses a finger to her lips in a quiet "shh."
-0057 [Enthusiastic Student] | I hope you don't find this question too intrusive, but...==W== Once you graduate, would you consider studying at Grace Light?
-0058 [Firenze] | Sounds like a fine choice. I've always wanted to see the world outside of Philae and expand my horizons.
-0059 [Tú] | That's some effortless acting.
-0060 [Enthusiastic Student] | That's great. Perhaps one day we will meet on campus. Running into you here... It feels like fate!
-0061 [Tú] | They are unbelievably enthusiastic...==W== Firenze's charm really is something else.
-0062 [Shy Student] | Wow, just imagine...==W== If we can see you around every day...
-0063 [Interested Student] | Wait, I want to talk to her, too!
-0064 [Curious Student] | Hey, look at the girl over there...==W== She totally slays...==W== A model, you think?
-0065 [Excited Student] | And so elegant...==W== I feel like I'm falling in love...
-0066 [Tú] | This feels like an idol meet-and-greet. When did the mob appear?
-0067 [Curious Student] | Stop fangirling. She's mine!
-0068 [Excited Student] | Wait a minute! What do you mean, she's yours?!
-0069 [Tú] | The crowd is getting a bit noisy.==W== I hope it's not gonna become a problem...
-0070 [Firenze] | Everyone, please keep your voices down. Let's not disturb the other customers.
-0071 [Gathered Students] | You got it!
-0072 [Tú] | With that kind of presence, I really should not have worried.
-0073 [Tú] | Although... If she is relaxed enough to chat with strangers, maybe my goal of giving her a break has already been achieved.
-0074 [Tú] | Ah, I forgot. I rushed out this morning and have not eaten anything since.
+0001 [Intro] | Acto dos
+0002 [Intro] | Vacaciones en Philae (Parte II)
+0003 [Intro] | Una encantadora «estudiante» acapara los reflectores.
+0004 [Firenze] | Je. Jefe, no me digas que intentas llevarme==W== a una cita.
+0005 [Tú] | ¡¿U-una cita?!
+0006 [Tú] | ¡Para nada! ¡Esto es una inspección entre socios! Quiero visitar contigo las tiendas de Cosecha Unida y ver cómo se ven las cosas en el terreno.
+0007 [Tú] | Cuando te quedas en la oficina todos los días, solo ves números. Lo que pasa en primera línea también importa, ¿no?
+0008 [Firenze] | Tu reacción es un poco aburrida. Pero tienes razón. He estado ocupada últimamente y no he tenido oportunidad de ver las cosas por mí misma.
+0009 [Cheerful Server] | Aquí están sus frutas. Gracias.
+0010 [Curious Customer] | La fruta ha estado mucho más fresca que antes. ¿Cambiaron de proveedor?
+0011 [Cheerful Server] | No, no. Sigue siendo de los invernaderos de Cosecha Unida. Pero mejoramos el proceso de almacenamiento durante la recolección, así la fruta se mantiene fresca más tiempo.
+0012 [Curious Customer] | Ya veo. De verdad pensaron mucho en esto...==W== ¡Volveré sin duda!
+0013 [Firenze] | Parece que las mejoras están funcionando. Hasta un pequeño cambio en el proceso puede elevar la calidad de los productos.
+0014 [Firenze] | Ahora que lo pienso, Jefe, ¿qué tipo de frutas te gustan?
+0015 [Tú] | Frutas, eh...
+0016 [Opción] | Manzanas
+0017 [Opción] | Naranjas
+0018 [Opción] | Limones
+0019 [Firenze] | Hay un dicho: «Una manzana al día mantiene alejado al médico».
+0020 [Tú] | Enfermarse en las Tierras Salvajes es lo peor. No hay médicos y te vuelves una carga para tu escuadrón.
+0021 [Firenze] | Cierto. Entonces desde hoy comeré una manzana cada día. Si me desplomo, no puedo trabajar.
+0022 [Firenze] | Las naranjas también me gustan. Cuando era pequeña, siempre corría a la tienda a comprarlas en cuanto estaban disponibles en invierno.
+0023 [Tú] | Ese sabor agridulce es imposible de resistir.
+0024 [Firenze] | Pero al crecer...==W== no diría que no me gustan, pero no he tenido muchas oportunidades de comerlas.
+0025 [Firenze] | A mí también.==W== Notaste el aroma a limón en mi oficina, ¿verdad?
+0026 [Tú] | Sí. Ese aroma mantiene despejada la mente. También me gusta.
+0027 [Firenze] | Se siente inesperadamente agradable que alguien comparta mis gustos.
+0028 [Firenze] | Entonces, Jefe, ¿a dónde vamos ahora en este recorrido de inspección tuyo?
+0029 [Tú] | Mmm...
+0030 [Tú] | ¿Otra tienda? Pero si sigo postergando así, terminará siendo lo mismo que ella trabajando.
+0031 [Tú] | Cuando el objetivo era que por fin descansara...
+0032 [Tú] | Ahora somos socios, ¿verdad?
+0033 [Firenze] | Por supuesto.
+0034 [Tú] | Entonces, para profundizar nuestro entendimiento mutuo y discutir estrategias futuras...
+0035 [Tú] | ¿Te gustaría ...==W== tomar el té de la tarde conmigo?
+0036 [Firenze] | Está bien.
+0037 [Tú] | Esa expresión otra vez. De verdad me hace sentir que puede ver a través de mí.
+0038 [Firenze] | ¿Quieres decir que la «inspección» terminó y ahora es hora de la cita?
+0039 [Tú] | ¡¿Por qué sigues usando esa palabra?!
+0040 [Firenze] | Simple. Tus reacciones son más entretenidas así.
+0041 [Tú] | Bien, está bien. Como quieras.
+0042 [Firenze] | Entonces, por favor, Jefe. Guía el camino.
+0043 [Narración] | Llevé a Firenze a una conocida pastelería de Philae y pedí el juego de té de la tarde.
+0044 [Firenze] | Su té de la tarde es famoso. Siempre quise probarlo. Tienes buen gusto, Jefe.
+0045 [Tú] | Gracias. Me alegra que te guste.
+0046 [Tú] | La verdad es que solo vi la tienda por casualidad...
+0047 [Shy Student] | ¡H-hola!
+0048 [Narración] | Sin darme cuenta, un grupo de estudiantes ya había rodeado nuestra mesa.
+0049 [Firenze] | ¿Sí?
+0050 [Shy Student] | P-perdón por interrumpir. Somos estudiantes de la Academia Luz de Gracia, estamos en Philae en un viaje de estudios.
+0051 [Shy Student] | Por tu uniforme, ¿vas a la Academia Philaense?
+0052 [Firenze] | Bueno...
+0053 [Narración] | Firenze me miró de reojo antes de que una sonrisa juguetona asomara en sus labios. Dejó su té con elegante compostura.
+0054 [Firenze] | Sí, así es. ¿En qué puedo ayudarlas?
+0055 [Tú] | ¿Eh? ¿Firenze?
+0056 [Narración] | La miro con sorpresa, pero ella solo se lleva un dedo a los labios en un silencioso «shh».
+0057 [Enthusiastic Student] | Espero que no te parezca una pregunta demasiado indiscreta, pero...==W== Cuando te gradúes, ¿considerarías estudiar en Luz de Gracia?
+0058 [Firenze] | Suena a una excelente opción. Siempre quise conocer el mundo fuera de Philae y ampliar mis horizontes.
+0059 [Tú] | Qué actuación tan natural.
+0060 [Enthusiastic Student] | Qué bien. Quizá algún día nos encontremos en el campus. Toparnos contigo aquí... ¡se siente como el destino!
+0061 [Tú] | Son increíblemente entusiastas...==W== El encanto de Firenze de verdad es algo fuera de serie.
+0062 [Shy Student] | Guau, solo imagina...==W== Si pudiéramos verte todos los días...
+0063 [Interested Student] | ¡Espera, yo también quiero hablar con ella!
+0064 [Curious Student] | Oigan, miren a la chica de allá...==W== Está espectacular...==W== ¿Será modelo?
+0065 [Excited Student] | Y tan elegante...==W== Siento que me estoy enamorando...
+0066 [Tú] | Esto parece un encuentro con una idol. ¿Cuándo apareció la multitud?
+0067 [Curious Student] | ¡Dejen de hacerse las fans! ¡Es mía!
+0068 [Excited Student] | ¡Espera un momento! ¡¿Cómo que es tuya?!
+0069 [Tú] | La multitud se está poniendo un poco ruidosa.==W== Espero que no se vuelva un problema...
+0070 [Firenze] | Todas, por favor bajen la voz. No molestemos a los demás clientes.
+0071 [Gathered Students] | ¡Entendido!
+0072 [Tú] | Con esa presencia, de verdad no debí preocuparme.
+0073 [Tú] | Aunque... Si está lo bastante relajada para charlar con desconocidas, quizá mi objetivo de darle un descanso ya se cumplió.
+0074 [Tú] | Ah, lo olvidé. Salí con prisa esta mañana y no he comido nada desde entonces.
 0075 [Firenze] | ...
-0076 [Shy Student] | Um, well... We were planning to walk around the city after this. Could we ask you to act as our guide?
-0077 [Enthusiastic Student] | Come with us! We are curious about Philaen Academy, too.
-0078 [Firenze] | Thank you for the invitation, but I already have plans today.
-0079 [Enthusiastic Student] | That is a shame...==W== Who's the lucky person?
-0080 [Tú] | They really only have eyes for Firenze. I mean, I am sitting right here.
-0081 [Firenze] | Let's go, Boss. Pardon me.
-0082 [Gathered Students] | Bye~
-0083 [Firenze] | Sorry. I may have gone a bit overboard.
-0084 [Tú] | No, I underestimated your magnetic charm. I should have chosen a quieter place.
-0085 [Tú] | All that hoopla, though...==W== Were you that popular back then, too?
-0086 [Firenze] | "Back then?" You're making me sound old. I am still a student at Grace Light Academy, you know.
-0087 [Tú] | W-What?
-0088 [Firenze] | Did I not tell you? That year, because of my father's fall, I hurried back to Philae and never went back to Grace Light.
-0089 [Firenze] | Before leaving, I filed for long-term leave, so technically I am still a student,==W== just on leave.
-0090 [Tú] | I see.
-0091 [Firenze] | And I was not popular at all.
-0092 [Tú] | Seriously?
-0093 [Firenze] | Who would like someone who buried herself in books all day and never bothered with her appearance?
-0094 [Firenze] | See, the problem was that we just hadn't met yet at the time. If we had, I would've had a reason to make myself look nicer.
-0095 [Tú] | Come on, don't put it like that!
-0096 [Firenze] | Heh. That was a good reaction.
-0097 [Firenze] | Thank you for such an entertaining afternoon tea experience. Now let me take the lead.
-0098 [Tú] | That's fine, but...==W== Where do you want to go?
-0099 [Firenze] | A favorite restaurant of mine. Let's go together.
-0100 [Firenze] | These cakes are lovely to look at, but they aren't exactly filling.
-0101 [Narración] | Without waiting for me to respond, Firenze took my hand and led me deeper into the city.
+0076 [Shy Student] | Eh, bueno... Pensábamos recorrer la ciudad después de esto. ¿Podríamos pedirte que nos sirvas de guía?
+0077 [Enthusiastic Student] | ¡Ven con nosotras! También sentimos curiosidad por la Academia Philaense.
+0078 [Firenze] | Gracias por la invitación, pero hoy ya tengo planes.
+0079 [Enthusiastic Student] | Qué lástima...==W== ¿Quién es la persona afortunada?
+0080 [Tú] | De verdad solo tienen ojos para Firenze. O sea, aquí estoy yo, a su lado.
+0081 [Firenze] | Vámonos, Jefe. Con permiso.
+0082 [Gathered Students] | ¡Adiós~!
+0083 [Firenze] | Perdón. Quizá me pasé un poco.
+0084 [Tú] | No, subestimé tu encanto magnético. Debí elegir un lugar más tranquilo.
+0085 [Tú] | Con todo ese alboroto, sin embargo...==W== ¿También eras así de popular en aquel entonces?
+0086 [Firenze] | «¿En aquel entonces?» Me haces sonar vieja. Todavía soy estudiante de la Academia Luz de Gracia, ¿sabes?
+0087 [Tú] | ¿Q-qué?
+0088 [Firenze] | ¿No te lo dije? Ese año, por la caída de mi padre, regresé de prisa a Philae y nunca volví a Luz de Gracia.
+0089 [Firenze] | Antes de irme, solicité una licencia prolongada, así que técnicamente sigo siendo estudiante,==W== solo que en licencia.
+0090 [Tú] | Ya veo.
+0091 [Firenze] | Y no era popular para nada.
+0092 [Tú] | ¿En serio?
+0093 [Firenze] | ¿A quién le gustaría alguien que se enterraba en libros todo el día y nunca se preocupaba por su apariencia?
+0094 [Firenze] | Ves, el problema era que simplemente aún no nos conocíamos en ese entonces. Si nos hubiéramos conocido, habría tenido una razón para arreglarme mejor.
+0095 [Tú] | ¡Vamos, no lo digas así!
+0096 [Firenze] | Je. Esa fue una buena reacción.
+0097 [Firenze] | Gracias por una experiencia de té de la tarde tan entretenida. Ahora déjame guiar a mí.
+0098 [Tú] | Está bien, pero...==W== ¿A dónde quieres ir?
+0099 [Firenze] | A un restaurante favorito mío. Vayamos juntos.
+0100 [Firenze] | Estos pasteles son hermosos de ver, pero no son exactamente llenadores.
+0101 [Narración] | Sin esperar mi respuesta, Firenze me tomó de la mano y me guio más adentro de la ciudad.

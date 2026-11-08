@@ -3,105 +3,105 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Seafaring Trekker | Seafaring Trekker
-N:Tourist | Tourist
+N:Seafaring Trekker | Trekker marino
+N:Tourist | Turista
 N:avg1_160 | Willow
 N:avg2_983 | Soldado Trekker
 N:avg3_100 | Sylar
 N:avg3_139 | Trekker
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | A Hustling Holiday (Part III)
-0003 [Intro] | It's a hard-to-come-by holiday, so why not clock out for once and just enjoy the vacation?
-0004 [Narración] | Hours after the Mutated Shark attack...
-0005 [Tú] | Willow said she'd finish the incident report today.==W== It's getting late, she should be done—
-0006 [Seafaring Trekker] | Miss Willow? Got a minute?
-0007 [Tourist] | Miss Willow, I need to ask you something too...
-0008 [Willow] | No problem! Form a line and I'll help you one by one.
+0001 [Intro] | Acto tres
+0002 [Intro] | Unas vacaciones ajetreadas (Parte III)
+0003 [Intro] | Es un día libre difícil de conseguir, así que ¿por qué no salir del trabajo por una vez y simplemente disfrutar de las vacaciones?
+0004 [Narración] | Horas después del ataque del Tiburón Mutante...
+0005 [Tú] | Willow dijo que terminaría hoy el informe del incidente.==W== Se está haciendo tarde, ya debería haber acabado—
+0006 [Seafaring Trekker] | ¿Señorita Willow? ¿Tiene un minuto?
+0007 [Tourist] | Señorita Willow, yo también necesito preguntarle algo...
+0008 [Willow] | ¡No hay problema! Formen una fila y los atenderé uno por uno.
 0009 [Tú] | ...
-0010 [Tú] | She'll probably work straight through vacation... Guess I need a Plan B.
-0011 [Willow] | Oh, ==PLAYER_NAME==.==W== What brings you here? Did you need something?
-0012 [Tú] | Willow, did you finish that report?
-0013 [Willow] | Not yet, I haven't even touched my pen. There were way too many questions...==W== Things finally quieted down, so I was about to start.
-0014 [Willow] | What, are you here to drag me to dinner?==W== I'll probably be writing late, so go ahead with the New Star Guild.
-0015 [Tú] | No, it's not that... I actually need to talk to you about something urgent.
-0016 [Willow] | That urgent? What's wrong?
-0017 [Tú] | It's easier if I show you. Come with me.
-0018 [Willow] | Alright, lead the way.
-0019 [Willow] | We're all the way at the edge of the beach. So what's going on?
-0020 [Tú] | Well...
-0021 [Tú] | Crap, I didn't even think of an excuse for bringing her out here...!
-0022 [Tú] | How am I going to talk my way out of this...?
-0023 [Willow] | Wait...==W== Was your whole plan to drag me away from work?
-0024 [Tú] | She's sharp!
-0025 [Tú] | Uh, n-not exactly...
-0026 [Willow] | Your eyes are darting all over the place.
-0027 [Tú] | O-Oh, right! Two Trekkers got into an argument...
-0028 [Willow] | But there isn't a soul around.
-0029 [Tú] | Haha...==W== Maybe they already worked it out?
-0030 [Willow] | Well, if it's resolved, there's no reason for me to stay.==W== I need to get back to my report, so if you'll excuse me—
-0031 [Tú] | Hold on!
-0032 [Willow] | Is there something else?
-0033 [Tú] | She's going right back to work! Think! I need an excuse to keep her here...
-0034 [Tú] | Um...==W== I wanted you to see the results of my swimming practice!!
+0010 [Tú] | Probablemente trabaje sin parar durante todas las vacaciones... Supongo que necesito un plan B.
+0011 [Willow] | Oh, ==PLAYER_NAME==.==W== ¿A qué vienes? ¿Necesitabas algo?
+0012 [Tú] | Willow, ¿ya terminaste ese informe?
+0013 [Willow] | Todavía no, ni siquiera he tocado la pluma. Hubo demasiadas preguntas...==W== Por fin se calmó todo y estaba por empezar.
+0014 [Willow] | ¿Qué, vienes a arrastrarme a cenar?==W== Probablemente escriba hasta tarde, así que adelántate con el Gremio de la Nueva Estrella.
+0015 [Tú] | No, no es eso... En realidad necesito hablar contigo de algo urgente.
+0016 [Willow] | ¿Tan urgente? ¿Qué pasa?
+0017 [Tú] | Es más fácil si te lo muestro. Ven conmigo.
+0018 [Willow] | Está bien, guía el camino.
+0019 [Willow] | Estamos en el extremo de la playa. Entonces, ¿qué pasa?
+0020 [Tú] | Bueno...
+0021 [Tú] | ¡Rayos, ni siquiera pensé en una excusa para traerla hasta aquí...!
+0022 [Tú] | ¿Cómo voy a salir de esta...?
+0023 [Willow] | Espera...==W== ¿Todo tu plan era alejarme del trabajo?
+0024 [Tú] | ¡Es muy astuta!
+0025 [Tú] | Eh, n-no exactamente...
+0026 [Willow] | Tus ojos van de un lado a otro.
+0027 [Tú] | ¡O-Oh, cierto! Dos Trekkers tuvieron una discusión...
+0028 [Willow] | Pero no hay un alma por aquí.
+0029 [Tú] | Jaja...==W== ¿Quizá ya lo arreglaron?
+0030 [Willow] | Bueno, si está resuelto, no hay razón para que me quede.==W== Necesito volver a mi informe, así que con permiso—
+0031 [Tú] | ¡Espera!
+0032 [Willow] | ¿Hay algo más?
+0033 [Tú] | ¡Va a volver directo al trabajo! ¡Piensa! Necesito una excusa para retenerla aquí...
+0034 [Tú] | Este...==W== ¡Quería que vieras los resultados de mi práctica de natación!!
 0035 [Willow] | ...
-0036 [Tú] | Oh no, was that excuse too flimsy...?
-0037 [Tú] | Ugh... Willow's gonna chew me out for sure—
-0038 [Willow] | I understand.
-0039 [Tú] | Wait, what did you say?
-0040 [Willow] | I said I'm in. Helping Trekkers is my job, after all.
-0041 [Willow] | Besides, I taught you. It's only fair I see how it paid off.
-0042 [Tú] | Thanks, Willow.
-0043 [Tú] | I didn't practice at all, but I'm in too deep now. Gotta commit!
-0044 [1] | Watch this! Here I go!
-0045 [Tú] | Okay, I got this.==W== Keep steady, hold the rhythm, remember to breathe...==W== Wait—?!
-0046 [Tú] | What?!==W== Wait—I'm sinking!==W== H-Help! Willow...!
-0047 [Willow] | Calm down. Stand up. You can touch the bottom.
-0048 [Tú] | Oh... Ugh, this is humiliating...
-0049 [Willow] | With all due respect... You claimed you wanted to show your results. But what I just saw wasn't an improvement.
-0050 [Tú] | I-I'm sorry...
-0051 [Tú] | I blurted that out in a panic, but now I feel terrible for dragging Willow into this...
-0052 [Willow] | ... Alright. I'll teach you from scratch, step by step, until you've mastered it.
-0053 [Tú] | I-I'll do my best...
-0054 [Willow] | ==PLAYER_NAME==, your legs are sinking! Relax and keep your body flat!
-0055 [Willow] | Stop flailing your arms the second you panic! Keep a steady stroke rhythm!
-0056 [Willow] | And time your breaths! Otherwise you'll be drinking seawater until you're full!
-0057 [Tú] | Huff...==W== Puff...==W== Willow, can we take a break...?
-0058 [Willow] | Good call. Let's get you some water.
-0059 [Willow] | See that buoy over there? Next, I want you to kick with only your legs. Ten laps.
-0060 [Tú] | What?! Ten laps?!
-0061 [Willow] | That's right. We're drilling the basic form into your muscle memory.==W== Ten laps is letting you off easy.
-0062 [Tú] | Uh... Willow? Is it just me, or are you being way stricter than last time?
-0063 [Willow] | Of course I am.==W== Because—
-0064 [Willow] | Liars==W== get punished.
-0065 [Opción] | L-Liars?
-0066 [Willow] | Still playing dumb?==W== I never pegged you==W== for such a troublemaker.
-0067 [Willow] | Using this "swim practice"==W== as an excuse,==W== while your real goal==W== remains all the same…
-0068 [Willow] | You just wanted to drag me away from work...==W== Right?
-0069 [Opción] | You caught me...
-0070 [Willow] | Judging from your expression,==W== it's pretty obvious.==W== Acting like that just isn't like you.
-0071 [Willow] | So,==W== why bother with such a clumsy lie?
-0072 [Opción] | Because you're too stubborn.
-0073 [Opción] | You'd never take a break if I didn't lie.
-0074 [Willow] | Oh?==W== So this is my fault now?
-0075 [Willow] | Just kidding.==W== You're right.==W== I gave you no choice==W== but to tell a lie.
-0076 [Willow] | You've been==W== trying so hard to get me to enjoy this trip,==W== and the one who keeps turning down your kindness==W== is none other than me.==W== I'm sorry.
-0077 [Opción] | You don't have to apologize. It's just...
-0078 [Opción] | You need to start treating yourself better, Willow.
-0079 [Willow] | Treat myself better...==W== You say?==W== Hmm…==W== I guess I haven't given that much thought.
-0080 [Opción] | Plus, if you don't take a proper breather, you're going to burn yourself out.
-0081 [Willow] | I see your point...==W== But==W== I love what I do,==W== so it doesn't really feel like work…
-0082 [Willow] | Right,==W== Boss,==W== can you teach me how to treat myself better?==W== I just thought about it,==W== and I have absolutely no clue where to start.
-0083 [Opción] | Me? I'd love to.
-0084 [Willow] | Thank you very much.==W== In exchange,==W== I'm taking charge of your swimming lessons.
-0085 [Willow] | I'll be guiding you==W== step by step.==W== Nice and thorough.==W== Deal?
-0086 [Tú] | Come to think of it... You knew I was lying from the start. Why'd you play along?
-0087 [Willow] | I only had a report left anyway. That can wait until we're back in Emor.
-0088 [Willow] | Though honestly, the old me would never have dropped work to sneak out and slack off with you.
-0089 [Tú] | Then why did you?
-0090 [Willow] | Because you're here with me, ==PLAYER_NAME==.
-0091 [Willow] | Seeing you try so hard to get me out of there, even though you're a terrible liar... It made me happy. Happy enough that ...==W== I couldn't help but put you before my work.
-0092 [Willow] | Since you've completely distracted me, ==PLAYER_NAME==,==W== you'll have to take responsibility and make this the best vacation ever.
-0093 [Tú] | You're on. Just you wait.
-0094 [Narración] | With no one around to interrupt,==W== you and Willow eagerly discuss your vacation plans to the gentle whisper of the waves.
+0036 [Tú] | Ay no, ¿esa excusa fue demasiado endeble...?
+0037 [Tú] | Ugh... Willow seguro me va a regañar—
+0038 [Willow] | Entiendo.
+0039 [Tú] | Espera, ¿qué dijiste?
+0040 [Willow] | Dije que acepto. Ayudar a los Trekkers es mi trabajo, después de todo.
+0041 [Willow] | Además, yo te enseñé. Es justo que vea cómo rindió.
+0042 [Tú] | Gracias, Willow.
+0043 [Tú] | No practiqué nada, pero ya no hay marcha atrás. ¡A comprometerse!
+0044 [1] | ¡Mira esto! ¡Allá voy!
+0045 [Tú] | Muy bien, puedo hacerlo.==W== Mantén el ritmo, no pierdas la constancia, acuérdate de respirar...==W== Espera—¡¿eh?!
+0046 [Tú] | ¡¿Qué?!==W== Espera—¡me hundo!==W== ¡A-Ayuda! ¡Willow...!
+0047 [Willow] | Cálmate. Ponte de pie. Tocas el fondo.
+0048 [Tú] | Oh... Ugh, qué humillante...
+0049 [Willow] | Con todo respeto... Dijiste que querías mostrar tus resultados. Pero lo que acabo de ver no fue una mejora.
+0050 [Tú] | L-Lo siento...
+0051 [Tú] | Solté eso por el pánico, pero ahora me siento fatal por arrastrar a Willow a esto...
+0052 [Willow] | ... Muy bien. Te enseñaré desde cero, paso a paso, hasta que lo domines.
+0053 [Tú] | H-Haré mi mejor esfuerzo...
+0054 [Willow] | ¡==PLAYER_NAME==, se te hunden las piernas! ¡Relájate y mantén el cuerpo plano!
+0055 [Willow] | ¡Deja de agitar los brazos en cuanto te dé pánico! ¡Mantén un ritmo de brazada constante!
+0056 [Willow] | ¡Y coordina tus respiraciones! ¡Si no, te tomarás toda el agua de mar hasta llenarte!
+0057 [Tú] | Uf...==W== Puf...==W== Willow, ¿podemos hacer una pausa...?
+0058 [Willow] | Buena idea. Vamos a darte un poco de agua.
+0059 [Willow] | ¿Ves esa boya de allá? Ahora quiero que patalees solo con las piernas. Diez vueltas.
+0060 [Tú] | ¡¿Qué?! ¡¿Diez vueltas?!
+0061 [Willow] | Así es. Estamos grabando la forma básica en tu memoria muscular.==W== Diez vueltas es ser benevolente.
+0062 [Tú] | Eh... ¿Willow? ¿Soy yo o estás siendo mucho más estricta que la última vez?
+0063 [Willow] | Por supuesto que sí.==W== Porque—
+0064 [Willow] | A los mentirosos==W== se les castiga.
+0065 [Opción] | ¿M-Mentirosos?
+0066 [Willow] | ¿Sigues haciéndote el tonto?==W== Nunca te había visto==W== como alguien tan travieso.
+0067 [Willow] | Usar esta «práctica de natación»==W== como excusa,==W== cuando tu verdadero objetivo==W== sigue siendo el mismo…
+0068 [Willow] | Solo querías alejarme del trabajo...==W== ¿Verdad?
+0069 [Opción] | Me descubriste...
+0070 [Willow] | Por tu expresión,==W== es bastante obvio.==W== Actuar así no va contigo.
+0071 [Willow] | Entonces,==W== ¿por qué molestarte con una mentira tan torpe?
+0072 [Opción] | Porque eres demasiado terca.
+0073 [Opción] | Nunca descansarías si no mintiera.
+0074 [Willow] | ¿Oh?==W== ¿Así que ahora es mi culpa?
+0075 [Willow] | Es broma.==W== Tienes razón.==W== No te di otra opción==W== más que mentir.
+0076 [Willow] | Has estado==W== esforzándote tanto para que disfrute este viaje,==W== y la que sigue rechazando tu amabilidad==W== no es otra que yo.==W== Lo siento.
+0077 [Opción] | No tienes que disculparte. Es solo que...
+0078 [Opción] | Tienes que empezar a tratarte mejor, Willow.
+0079 [Willow] | ¿Tratarme mejor...?==W== ¿Dices?==W== Mmm…==W== Supongo que no lo he pensado mucho.
+0080 [Opción] | Además, si no te das un respiro como se debe, vas a agotarte.
+0081 [Willow] | Entiendo tu punto...==W== Pero==W== amo lo que hago,==W== así que en realidad no se siente como trabajo…
+0082 [Willow] | Cierto,==W== Jefe,==W== ¿puedes enseñarme a tratarme mejor?==W== Lo acabo de pensar,==W== y no tengo la menor idea de por dónde empezar.
+0083 [Opción] | ¿Yo? Con gusto.
+0084 [Willow] | Muchas gracias.==W== A cambio,==W== me encargaré de tus clases de natación.
+0085 [Willow] | Te guiaré==W== paso a paso.==W== Con mucho esmero.==W== ¿Trato?
+0086 [Tú] | Ahora que lo pienso... Sabías que mentía desde el principio. ¿Por qué me seguiste el juego?
+0087 [Willow] | De todos modos, solo me quedaba el informe. Puede esperar hasta que volvamos a Emor.
+0088 [Willow] | Aunque, siendo sincera, la yo de antes jamás habría dejado el trabajo para escaparse a holgazanear contigo.
+0089 [Tú] | Entonces, ¿por qué lo hiciste?
+0090 [Willow] | Porque estás aquí conmigo, ==PLAYER_NAME==.
+0091 [Willow] | Verte esforzarte tanto por sacarme de allí, aun siendo pésimo para mentir... me hizo feliz. Lo bastante feliz como para que ...==W== no pudiera evitar ponerte a ti antes que a mi trabajo.
+0092 [Willow] | Ya que me has distraído por completo, ==PLAYER_NAME==,==W== tendrás que hacerte responsable y lograr que estas sean las mejores vacaciones de todas.
+0093 [Tú] | Hecho. Ya verás.
+0094 [Narración] | Sin nadie que los interrumpa,==W== tú y Willow conversan con entusiasmo sobre sus planes de vacaciones al suave murmullo de las olas.

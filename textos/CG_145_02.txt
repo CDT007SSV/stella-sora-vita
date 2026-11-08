@@ -3,107 +3,107 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Dessert Shop Manager | Dessert Shop Manager
-N:Rookie Witch | Rookie Witch
+N:Dessert Shop Manager | Encargada de la tienda de postres
+N:Rookie Witch | Bruja novata
 N:avg1_145 | Otoha
 N:avg3_100 | Sylar
 N:avg3_113 | Ya
 N:avg3_196 | Empleada corporativa
-N:avg3_213 | Witch
+N:avg3_213 | Bruja
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | Performer of Myriad Faces (Part II)
-0003 [Intro] | Following her lead, you step onto the stage that has already been set up.
-0004 [Narración] | Otoha leads me to a residential house. A young witch answers the door.
-0005 [Rookie Witch] | L-Lady Otoha...==W== It's been ages! I've been waiting for you!
-0006 [Otoha] | Sorry we're late. We got held up on the way over.
-0007 [Otoha] | This Trekker is the interview subject I mentioned. I think ==SEX== will be perfect for your report.
-0008 [Tú] | Hi, I'm ==PLAYER_NAME==. Nice to meet you.
-0009 [Otoha] | ==PLAYER_NAME== is quite busy, so I only managed to pin ==SEX4== down this morning.
-0010 [Otoha] | I didn't have time to notify you in advance. Hope you don't mind the surprise.
-0011 [Rookie Witch] | No, no, not at all!
-0012 [Rookie Witch] | I only asked for some writing advice...==W== I never expected you to bring an actual interviewee!==W== Thank you so much!!
-0013 [Rookie Witch] | Please, take a seat! I'll grab some tea and snacks.
-0014 [Otoha] | Hehe, she certainly has energy to spare.
-0015 [Otoha] | You ready, Boss?
-0016 [Tú] | Yeah, suppose so.
-0017 [Tú] | Good thing Mistique "interviewed" me before. I should be able to bluff my way through. Still, didn't expect the day to turn out like this...
-0018 [Otoha] | Boss, we're going to meet a rookie witch soon.
-0019 [Otoha] | She's going to ask you some simple questions. Just answer them honestly.
-0020 [Otoha] | In return, she should be able to give us some clues.
-0021 [Tú] | I never pegged you as a veteran "witch," Otoha...==W== Did you actually work as one?
-0022 [Otoha] | No disguise works without convincing evidence to back it up.
-0023 [Otoha] | I got my Witch Certification before some executives at Scarlet Sights Media were even born.
-0024 [Tú] | Wow...==W== Seriously?
-0025 [Otoha] | Of course. It's the genuine article.
-0026 [Rookie Witch] | Sorry for the wait. Here, please have some tea.
-0027 [Otoha] | I reviewed your outline yesterday. Tackling the unemployment crisis was a smart move—everyone's talking about it.
-0028 [Otoha] | As it happens, ==PLAYER_NAME== runs a staffing agency. You should ask ==SEX4== for the details.
-0029 [Tú] | Well, technically true, but my staffing agency isn't exactly a common one.
-0030 [Otoha] | In fact, I was so captivated by ==PLAYER_NAME=='s brilliance that I quit being a witch just to work for ==SEX4== as a special advisor.
-0031 [Tú] | Pfft—?!==W== Cough, cough...
-0032 [Otoha] | Oh dear. Is the tea too hot?
-0033 [Tú] | No, no... I'm good. Just went down the wrong pipe...
-0034 [Rookie Witch] | I see! That explains why no article has been carrying your byline in quite a while.
-0035 [Rookie Witch] | Well, I won't take up any more of your time. Let's get this interview started!
-0036 [Narración] | The interview carries on for about an hour.
-0037 [Rookie Witch] | Thank you both for coming. You've really given me a fresh perspective on a lot of things.
-0038 [Otoha] | Happy to help.==W== By the way, there seems to be a flood of reporting on unemployment lately.
-0039 [Rookie Witch] | Actually, management mandated the topic. Everyone has to write about unemployment. The whole office is thick with tension...
-0040 [Otoha] | But some of those pieces are clearly blowing things out of proportion. I worry they'll trigger public panic.
-0041 [Otoha] | They aren't just biased. Every article ends with on-the-nose Omnisky Aegis unemployment insurance.
-0042 [Otoha] | It reads like paid advertising, not journalism...==W== I'd love to meet the authors face-to-face.
-0043 [Tú] | Omnisky Aegis?==W== Are they pulling the strings? Did they pay off Scarlet Sights Media?
-0044 [Rookie Witch] | Now that you mention it, the paper really has been plastered with their ads...
-0045 [Rookie Witch] | Regardless, I'm sticking to my principles. I'm going to be a witch who reports the truth and nothing else!
-0046 [Otoha] | Keep that spirit, and I'm sure you'll go far.
-0047 [Otoha] | Oh, one request. Please keep ==PLAYER_NAME== anonymous in your final draft.
-0048 [Otoha] | ==SEX1== has plenty of competitors, and we can't risk leaking any trade secrets.
-0049 [Rookie Witch] | You got it! I'll send the draft over for you to review as soon as it's done.
-0050 [Tú] | So that's it...==W== Otoha's actual target is Omnisky Aegis. No wonder she was grilling that shop owner earlier.
-0051 [Tú] | But what does an insurance company have to do with me?==W== What is she really after?
-0052 [Otoha] | Shall we, ==SEX7== CEO? We have other business to attend to.
-0053 [Narración] | Otoha pops open her parasol, shielding me from the harsh midday glare.
-0054 [Narración] | As if sensing my suspicion, she deliberately leans in close.
-0055 [Otoha] | We've been working hard all morning. Let's go recharge our batteries.
-0056 [Tú] | Okay, but why are we recharging with desserts?
-0057 [Otoha] | Sweets fuel the body and the soul. Don't you have a sweet tooth, Boss?
-0058 [Tú] | It's not that I dislike them, but having dessert for lunch is a bit...
-0059 [Tú] | And why did you slide all the plates over to me? I can't eat these by myself!
-0060 [Otoha] | I simply want to know your preferences, Boss. Think of it as market research.
-0061 [Tú] | Market research?
-0062 [Dessert Shop Manager] | Ma'am! What brings you into the shop today?
-0063 [Tú] | "Ma'am"?==W== Is that Otoha...?
-0064 [Otoha] | I was in the neighborhood. Decided to bring a friend.
-0065 [Dessert Shop Manager] | Understood.==W== Oh—here's the monthly order report you asked for. All organized.
-0066 [Otoha] | Excellent work. I'll look this over. You can get back to it.
-0067 [Dessert Shop Manager] | Of course. Just holler if you need anything else.
-0068 [Otoha] | Hehe, that look of shock on your face is quite amusing, Boss.
-0069 [Tú] | You're kidding!==W== You actually own this place?
-0070 [Otoha] | Technically, I'm the investor. Daily operations are handled by a specialist—==W==the manager you just met.
-0071 [Otoha] | I drop by occasionally to check the books and indulge a little. It's a nice way to unwind.
-0072 [Tú] | So, did you open this shop just to satisfy your sweet tooth?
-0073 [Otoha] | That's a factor, yes, but one shouldn't make decisions based solely on that.
-0074 [Otoha] | A dessert shop isn't just a space for eating. Its openness facilitates networking.
-0075 [Tú] | Networking...==W== You mean it's a perfect drop point for intel, don't you?
-0076 [Otoha] | Sharp as ever, Boss. You catch on quick.
-0077 [Otoha] | The problem is...==W== Sometimes I can't just enjoy dessert for what it is.
-0078 [Otoha] | Exploiting what you love to do what you hate, even if you get results... There's no joy in that.
-0079 [Tú] | Does Otoha actually have regrets?
-0080 [Tú] | I can never quite figure her out, but she clearly shoulders a heavy burden...==W== It must be exhausting.
-0081 [Otoha] | Ah, right on schedule.
-0082 [Tú] | What?
-0083 [Otoha] | Listen. Our target is here.
-0084 [???] | Is the afternoon tea set ready for pickup?
-0085 [Dessert Shop Manager] | All set. Fifteen orders, right here. Be careful with them.
-0086 [???] | Sigh... I swear, I've basically turned into a pack mule lately.
-0087 [???] | We order all these fancy snacks every day, but I never see any big clients signing contracts. Instead of wasting money on tea and cakes, they should just give me a raise.
-0088 [Otoha] | Heh...==W== Just as I suspected. Boss, take a look at this order history.
-0089 [Otoha] | Starting last week, an employee would come to pick up a reservation every single day at 3 p.m. sharp. And the client listed is...==W== Omnisky Aegis.
-0090 [Tú] | That company again...==W== What are they actually up to?
-0091 [Otoha] | If you're curious, why don't we just go ask them?
-0092 [Tú] | And ...==W== you think they'll just tell us?
-0093 [Otoha] | Aren't they desperate for big clients?
-0094 [Otoha] | Why don't we play one?
+0001 [Intro] | Acto dos
+0002 [Intro] | La artista de mil rostros (Parte II)
+0003 [Intro] | Siguiendo su guía, subes al escenario que ya está preparado.
+0004 [Narración] | Otoha me lleva a una casa residencial. Una joven bruja abre la puerta.
+0005 [Rookie Witch] | L-Lady Otoha...==W== ¡Cuánto tiempo! ¡La estaba esperando!
+0006 [Otoha] | Perdón por la tardanza. Nos retrasamos en el camino.
+0007 [Otoha] | Este Trekker es el entrevistado del que te hablé. Creo que ==SEX== será perfecto para tu reportaje.
+0008 [Tú] | Hola, soy ==PLAYER_NAME==. Mucho gusto.
+0009 [Otoha] | ==PLAYER_NAME== está muy ocupado, así que apenas logré dar con ==SEX4== esta mañana.
+0010 [Otoha] | No tuve tiempo de avisarte con anticipación. Espero que no te moleste la sorpresa.
+0011 [Rookie Witch] | ¡No, no, para nada!
+0012 [Rookie Witch] | Solo le pedí unos consejos de redacción...==W== ¡Nunca esperé que trajera a un entrevistado de verdad!==W== ¡Muchísimas gracias!
+0013 [Rookie Witch] | ¡Por favor, tomen asiento! Voy por té y bocadillos.
+0014 [Otoha] | Jeje, sí que le sobra energía.
+0015 [Otoha] | ¿Listo, Jefe?
+0016 [Tú] | Sí, supongo.
+0017 [Tú] | Qué bueno que Mistique me «entrevistó» antes. Debería poder salir del paso fingiendo. Aun así, no esperaba que el día terminara así...
+0018 [Otoha] | Jefe, pronto conoceremos a una bruja novata.
+0019 [Otoha] | Te hará unas preguntas sencillas. Solo respóndelas con honestidad.
+0020 [Otoha] | A cambio, ella debería poder darnos algunas pistas.
+0021 [Tú] | Nunca te imaginé como una «bruja» veterana, Otoha...==W== ¿De verdad trabajaste como tal?
+0022 [Otoha] | Ningún disfraz funciona sin pruebas convincentes que lo respalden.
+0023 [Otoha] | Obtuve mi Certificación de Bruja antes de que algunos ejecutivos de Scarlet Sights Media siquiera nacieran.
+0024 [Tú] | Vaya...==W== ¿En serio?
+0025 [Otoha] | Por supuesto. Es auténtica.
+0026 [Rookie Witch] | Perdón por la espera. Tome, por favor, un poco de té.
+0027 [Otoha] | Revisé tu esquema ayer. Abordar la crisis del desempleo fue una jugada inteligente: todos están hablando de ello.
+0028 [Otoha] | Da la casualidad de que ==PLAYER_NAME== dirige una agencia de empleo. Deberías pedirle a ==SEX4== los detalles.
+0029 [Tú] | Bueno, técnicamente cierto, pero mi agencia de empleo no es precisamente común.
+0030 [Otoha] | De hecho, me cautivó tanto la brillantez de ==PLAYER_NAME== que dejé de ser bruja solo para trabajar para ==SEX4== como asesora especial.
+0031 [Tú] | ¡¿Pfft...?!==W== Cof, cof...
+0032 [Otoha] | Ay, cielos. ¿El té está muy caliente?
+0033 [Tú] | No, no... Estoy bien. Solo se me fue por otro lado...
+0034 [Rookie Witch] | ¡Ya veo! Eso explica por qué hace mucho que ningún artículo lleva su firma.
+0035 [Rookie Witch] | Bueno, no les quitaré más tiempo. ¡Comencemos esta entrevista!
+0036 [Narración] | La entrevista continúa por aproximadamente una hora.
+0037 [Rookie Witch] | Gracias a ambos por venir. De verdad me dieron una perspectiva nueva sobre muchas cosas.
+0038 [Otoha] | Encantada de ayudar.==W== Por cierto, parece que últimamente hay una avalancha de reportajes sobre el desempleo.
+0039 [Rookie Witch] | En realidad, la dirección impuso el tema. Todos tienen que escribir sobre desempleo. Toda la oficina está cargada de tensión...
+0040 [Otoha] | Pero algunas de esas notas claramente exageran las cosas. Me preocupa que provoquen pánico público.
+0041 [Otoha] | No solo están sesgadas. Todos los artículos terminan con el obvio seguro de desempleo de Omnisky Aegis.
+0042 [Otoha] | Parece publicidad pagada, no periodismo...==W== Me encantaría conocer a los autores cara a cara.
+0043 [Tú] | ¿Omnisky Aegis?==W== ¿Ellos manejan los hilos? ¿Sobornaron a Scarlet Sights Media?
+0044 [Rookie Witch] | Ahora que lo menciona, el periódico de verdad ha estado empapelado con sus anuncios...
+0045 [Rookie Witch] | De todos modos, me mantendré fiel a mis principios. ¡Seré una bruja que reporte la verdad y nada más!
+0046 [Otoha] | Mantén ese espíritu y seguro llegarás lejos.
+0047 [Otoha] | Ah, una petición. Por favor, mantén a ==PLAYER_NAME== en el anonimato en tu borrador final.
+0048 [Otoha] | ==SEX1== tiene muchos competidores y no podemos arriesgarnos a filtrar secretos comerciales.
+0049 [Rookie Witch] | ¡Entendido! Le enviaré el borrador para que lo revise en cuanto esté listo.
+0050 [Tú] | Así que era eso...==W== El verdadero objetivo de Otoha es Omnisky Aegis. Con razón interrogaba a ese dueño de tienda hace rato.
+0051 [Tú] | Pero ¿qué tiene que ver una aseguradora conmigo?==W== ¿Qué busca en realidad?
+0052 [Otoha] | ¿Vamos, ==SEX7== CEO? Tenemos otros asuntos que atender.
+0053 [Narración] | Otoha abre su sombrilla, protegiéndome del duro resplandor del mediodía.
+0054 [Narración] | Como si percibiera mi sospecha, se inclina deliberadamente muy cerca.
+0055 [Otoha] | Hemos trabajado duro toda la mañana. Vamos a recargar energías.
+0056 [Tú] | Vale, pero ¿por qué recargamos con postres?
+0057 [Otoha] | Los dulces alimentan el cuerpo y el alma. ¿No tienes debilidad por lo dulce, Jefe?
+0058 [Tú] | No es que no me gusten, pero comer postre en lugar de almuerzo es un poco...
+0059 [Tú] | ¿Y por qué me pasaste todos los platos? ¡No puedo comerme todo esto solo!
+0060 [Otoha] | Simplemente quiero conocer tus preferencias, Jefe. Considéralo estudio de mercado.
+0061 [Tú] | ¿Estudio de mercado?
+0062 [Dessert Shop Manager] | ¡Señora! ¿Qué la trae hoy a la tienda?
+0063 [Tú] | ¿«Señora»?==W== ¿Esa es Otoha...?
+0064 [Otoha] | Estaba por el vecindario. Decidí traer a un amigo.
+0065 [Dessert Shop Manager] | Entendido.==W== Ah, aquí está el informe mensual de pedidos que pidió. Todo organizado.
+0066 [Otoha] | Excelente trabajo. Lo revisaré. Puedes volver a lo tuyo.
+0067 [Dessert Shop Manager] | Por supuesto. Avíseme si necesita algo más.
+0068 [Otoha] | Jeje, esa cara de sorpresa tuya es bastante divertida, Jefe.
+0069 [Tú] | ¡Estás bromeando!==W== ¿De verdad eres la dueña de este lugar?
+0070 [Otoha] | Técnicamente, soy la inversionista. Las operaciones diarias las maneja una especialista:==W== la gerente que acabas de conocer.
+0071 [Otoha] | Paso de vez en cuando a revisar los libros y a darme un gusto. Es una buena forma de relajarme.
+0072 [Tú] | Entonces, ¿abriste esta tienda solo para satisfacer tu gusto por lo dulce?
+0073 [Otoha] | Es un factor, sí, pero no se deben tomar decisiones basándose solo en eso.
+0074 [Otoha] | Una tienda de postres no es solo un espacio para comer. Su apertura facilita las relaciones.
+0075 [Tú] | Relaciones...==W== Quieres decir que es un punto de entrega perfecto para información, ¿verdad?
+0076 [Otoha] | Perspicaz como siempre, Jefe. Captas rápido.
+0077 [Otoha] | El problema es que...==W== A veces no puedo simplemente disfrutar el postre por lo que es.
+0078 [Otoha] | Aprovechar lo que amas para hacer lo que odias, aunque obtengas resultados... No hay alegría en eso.
+0079 [Tú] | ¿Otoha de verdad tiene remordimientos?
+0080 [Tú] | Nunca logro descifrarla del todo, pero claramente carga con un peso enorme...==W== Debe de ser agotador.
+0081 [Otoha] | Ah, justo a tiempo.
+0082 [Tú] | ¿Qué?
+0083 [Otoha] | Escucha. Nuestro objetivo está aquí.
+0084 [???] | ¿Ya está listo el set de té de la tarde para recoger?
+0085 [Dessert Shop Manager] | Todo listo. Quince pedidos, aquí mismo. Tenga cuidado con ellos.
+0086 [???] | Suspiro... Juro que últimamente me convertí en una mula de carga.
+0087 [???] | Pedimos todos estos bocadillos elegantes cada día, pero nunca veo que firmen contratos grandes clientes. En lugar de gastar dinero en té y pasteles, deberían darme un aumento.
+0088 [Otoha] | Je...==W== Tal como sospechaba. Jefe, mira este historial de pedidos.
+0089 [Otoha] | Desde la semana pasada, un empleado viene a recoger una reserva todos los días a las 3 p. m. en punto. Y el cliente registrado es...==W== Omnisky Aegis.
+0090 [Tú] | Esa empresa otra vez...==W== ¿Qué traman en realidad?
+0091 [Otoha] | Si tienes curiosidad, ¿por qué no vamos a preguntarles?
+0092 [Tú] | ¿Y...==W== crees que simplemente nos lo dirán?
+0093 [Otoha] | ¿No están desesperados por grandes clientes?
+0094 [Otoha] | ¿Por qué no hacemos de uno?

@@ -3,9 +3,9 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Angry Customer | Angry Customer
-N:Shop Manager | Shop Manager
-N:Staff | Staff
+N:Angry Customer | Clienta enojada
+N:Shop Manager | Gerente de la tienda
+N:Staff | Personal
 N:avg1_106 | Aeloria
 N:avg1_111 | Iris
 N:avg1_1207 | Iris
@@ -15,104 +15,104 @@ N:avg3_100 | Sylar
 N:avg3_113 | Ya
 N:avg3_129 | Guardia Imperial
 N:avg3_140 | Empleado de Cosecha Unida
-N:avg3_142 | United Harvest Researcher
+N:avg3_142 | Investigador de Cosecha Unida
 N:avg3_143 | Residente
 N:avg3_147 | Residente del Distrito de Oro
 N:avg3_999 | ???
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | The Shopping War (Part II)
-0003 [Intro] | It's time to let the delights of butter and sugar sweep away all bad moods!In a war, time means everything. Grab first, think later, and fill that cart up!
-0004 [Iris] | New rice from Eaze Village, limited-time sale, three for the price of two! Into the cart!
-0005 [Iris] | Smoked bacon, 500 off 3,000? Into the cart!
-0006 [Iris] | Half-price Tawny Nightingale bread... ==W==That's basically free. Into the cart!
-0007 [Tú] | I think Noya said something about getting instant noodles... Let's just grab this one that's 30% off.
-0008 [Iris] | Oh, don't get that brand.
-0009 [Iris] | It's really pricey to begin with and it's smaller than the other brands. Even with 30% off, it's really not worth it.
-0010 [Iris] | Let's get these close to expiration date ones instead. We eat a lot of these; I'm sure we'll finish them before they go bad.
-0011 [Tú] | Oh... I see...
-0012 [Tú] | Picking the best-value discounted item from the shelf with precision, then calmly laying out her reasons for buying it...
-0013 [Tú] | Most importantly, all these are split-second decisions.
-0014 [Tú] | When you shop, Iris, you're scary good...
-0015 [Iris] | I honed these skills through countless flash sales and shopping battles.
-0016 [Iris] | Back when the Guild was first starting out, it was tough to make enough Dorra. To keep our supplies stocked, we had to chase discounts all over the place.
-0017 [Iris] | In the beginning, we often couldn't get what we wanted, or ended up buying a bunch of things that weren't worth it.
-0018 [Iris] | But it's like doing the same practice test way too many times—you eventually figure out the patterns.
-0019 [Iris] | Now I've got a pretty good grasp of the rules for surviving flash sales.
-0020 [Narración] | Iris leads me through the aisles like a pro. Before I know it, our cart is stacked sky-high.
-0021 [Iris] | Family pack chips...
-0022 [Iris] | Noya and Amber love this flavor, and we're still within budget.==W== Into the cart.
-0023 [Iris] | Energy bars... You always have much to ponder. This would be a quick energy booster for you.
-0024 [Iris] | And you said the bars tasted good last time... Into the cart.
-0025 [Tú] | I follow her gaze upward … butter cookies?
-0026 [Tú] | Into the cart?
-0027 [Iris] | I'm just shelf browsing.
-0028 [Iris] | It's not a worthy buy. Best leave it.
-0029 [Tú] | But isn't this a big sale today?
-0030 [Tú] | It's fine to grab a box.
-0031 [Iris] | No, we should not waste money on things we don't need. Even during a sale.
-0032 [Iris] | Come on, we've still got a lot to grab. Gotta snag everything before the place gets picked clean!
-0033 [Narración] | One hour later.
-0034 [Tú] | Squeezing my way here sure took longer than I thought...
-0035 [Iris] | Alright, we've got enough food stocked up; all the essential supplies and meds are covered, too.
-0036 [Tú] | Iris, you're really something!
-0037 [Iris] | Thanks.==W== With these, we won't have to resupply for the next two months.
-0038 [Iris] | I also picked up some motor oil for Noya...
-0039 [Iris] | And that hammock Amber's been wanting.
-0040 [Iris] | Let's check out and put our trophies in the bag.
-0041 [Tú] | It sure is rare to see Iris smile like this.
-0042 [Tú] | She must be thrilled with how much we saved.
-0043 [Tú] | There's something else, though...
-0044 [Tú] | Did we buy too much? What if we go over budget?
-0045 [Iris] | No worries. ==W==I have everything covered!
-0046 [Iris] | I took on a freelance gig not too long ago, helping some schools test their new exam questions. Ended up saving quite a bit of extra money.
-0047 [Iris] | Might as well stock up while the discounts are good. Preparation is key!
-0048 [Tú] | No wonder Iris went through over a hundred sets of questions recently.
-0049 [Tú] | We thought she was just stressed out and needed to do exam papers to cope...
-0050 [Iris] | Plus, remember the ad we saw outside the store earlier?
-0051 [Narración] | "Flash sale: Get 70% Off Via Price Slash Events! Get Your Free Products Today!"
-0052 [Iris] | Today's flash sale consists of two rounds of discounts. The first discount is already listed on the price tags.
-0053 [Iris] | The second discount stacks on top of the first. After checkout, if you complete the store's "Price Slash" task, you can get the item for just 30% of the price paid, and they'll refund the difference!
-0054 [Tú] | Hmmm... So, what's this price slash about?
-0055 [Iris] | Simply put, we have three hours to tell people about this flash sale event and bring them back here to register.
-0056 [Iris] | We get to slash the price once for each person we bring, all the way down to 70% off.
-0057 [Iris] | Or if we're lucky, we might even get the instant full price slash.
-0058 [Iris] | Look over there. Spin the discount wheel==W== and slash the price down... Literally...
-0059 [Narración] | I look in the direction she points, and see a burly guy swinging a knife down hard at a spinning wheel.
-0060 [Iris] | The full price slash is extremely rare, so I'm not really counting on that,==W== 70% off is already enough to save plenty!
-0061 [Tú] | This rule leaves a lot of space for interpretation, for instance, how many people do we need for the discount, and what happens when time runs out?
-0062 [Tú] | Better keep these questions in mind and see what happens.
-0063 [???] | Liars! You are all liars!
-0064 [Narración] | As we inch our way to the checkout counter, we witness a heated argument at a nearby registration counter.
+0001 [Intro] | Acto dos
+0002 [Intro] | La guerra de las compras (Parte II)
+0003 [Intro] | ¡Es hora de que las delicias de la mantequilla y el azúcar barran con todo mal humor! En una guerra, el tiempo lo es todo. ¡Agarra primero, piensa después y llena ese carrito!
+0004 [Iris] | ¡Arroz nuevo de la Aldea Eaze, oferta por tiempo limitado, tres por el precio de dos! ¡Al carrito!
+0005 [Iris] | ¿Tocino ahumado, 500 menos por cada 3,000? ¡Al carrito!
+0006 [Iris] | Pan de Ruiseñor Leonado a mitad de precio... ==W==Eso es básicamente gratis. ¡Al carrito!
+0007 [Tú] | Creo que Noya dijo algo de comprar fideos instantáneos... Llevemos este que tiene 30 % de descuento.
+0008 [Iris] | Ay, no compres esa marca.
+0009 [Iris] | De por sí es carísima y es más pequeña que las otras marcas. Incluso con 30 % de descuento, de verdad no vale la pena.
+0010 [Iris] | Mejor llevemos estos que están cerca de la fecha de caducidad. Comemos muchos de estos; seguro los terminamos antes de que se echen a perder.
+0011 [Tú] | Oh... Ya veo...
+0012 [Tú] | Elegir con precisión del estante el artículo con descuento de mejor valor y luego exponer con calma sus razones para comprarlo...
+0013 [Tú] | Lo más importante es que todas estas son decisiones de una fracción de segundo.
+0014 [Tú] | Cuando compras, Iris, das miedo de lo buena que eres...
+0015 [Iris] | Afiné estas habilidades en incontables ventas relámpago y batallas de compras.
+0016 [Iris] | Cuando el Gremio apenas comenzaba, era difícil ganar suficientes Dorras. Para mantener las provisiones abastecidas, teníamos que perseguir descuentos por todos lados.
+0017 [Iris] | Al principio, muchas veces no conseguíamos lo que queríamos, o terminábamos comprando un montón de cosas que no valían la pena.
+0018 [Iris] | Pero es como hacer el mismo examen de práctica demasiadas veces: al final descubres los patrones.
+0019 [Iris] | Ahora tengo bastante dominadas las reglas para sobrevivir a las ventas relámpago.
+0020 [Narración] | Iris me guía por los pasillos como una profesional. Sin darme cuenta, nuestro carrito ya está apilado hasta el cielo.
+0021 [Iris] | Papas fritas tamaño familiar...
+0022 [Iris] | A Noya y a Amber les encanta este sabor, y seguimos dentro del presupuesto.==W== Al carrito.
+0023 [Iris] | Barras de energía... Siempre tienes mucho en qué pensar. Esto te daría un impulso rápido de energía.
+0024 [Iris] | Y dijiste que las barras estaban ricas la última vez... Al carrito.
+0025 [Tú] | Sigo su mirada hacia arriba … ¿galletas de mantequilla?
+0026 [Tú] | ¿Al carrito?
+0027 [Iris] | Solo estoy mirando los estantes.
+0028 [Iris] | No es una compra que valga la pena. Mejor déjala.
+0029 [Tú] | ¿Pero no es hoy una gran venta?
+0030 [Tú] | Está bien llevar una caja.
+0031 [Iris] | No, no debemos desperdiciar dinero en cosas que no necesitamos. Ni siquiera durante una venta.
+0032 [Iris] | Vamos, todavía tenemos mucho que agarrar. ¡Hay que llevarnos todo antes de que arrasen con el lugar!
+0033 [Narración] | Una hora después.
+0034 [Tú] | Abrirme paso hasta aquí sí tardó más de lo que pensaba...
+0035 [Iris] | Bien, tenemos suficiente comida almacenada; todos los suministros esenciales y las medicinas también están cubiertos.
+0036 [Tú] | ¡Iris, eres increíble!
+0037 [Iris] | Gracias.==W== Con esto no tendremos que reabastecernos durante los próximos dos meses.
+0038 [Iris] | También compré aceite de motor para Noya...
+0039 [Iris] | Y esa hamaca que Amber ha querido.
+0040 [Iris] | Vamos a pagar y a meter nuestros trofeos en la bolsa.
+0041 [Tú] | Qué raro es ver a Iris sonreír así.
+0042 [Tú] | Debe de estar encantada con lo mucho que ahorramos.
+0043 [Tú] | Pero hay algo más...
+0044 [Tú] | ¿Compramos demasiado? ¿Y si nos pasamos del presupuesto?
+0045 [Iris] | No te preocupes. ==W==¡Tengo todo cubierto!
+0046 [Iris] | Hace poco acepté un trabajo por cuenta propia, ayudando a unas escuelas a probar sus nuevas preguntas de examen. Terminé ahorrando bastante dinero extra.
+0047 [Iris] | Más vale surtirse mientras los descuentos son buenos. ¡La preparación es clave!
+0048 [Tú] | Con razón Iris resolvió más de cien juegos de preguntas recientemente.
+0049 [Tú] | Pensábamos que solo estaba estresada y necesitaba hacer exámenes para sobrellevarlo...
+0050 [Iris] | Además, ¿recuerdas el anuncio que vimos afuera de la tienda hace rato?
+0051 [Narración] | «Venta relámpago: ¡70 % de descuento con eventos de Recorte de Precios! ¡Consigue hoy tus productos gratis!»
+0052 [Iris] | La venta relámpago de hoy consta de dos rondas de descuentos. El primer descuento ya está indicado en las etiquetas de precio.
+0053 [Iris] | El segundo descuento se acumula sobre el primero. Después de pagar, si completas la tarea de «Recorte de Precios» de la tienda, ¡puedes quedarte el artículo por solo el 30 % del precio pagado y te reembolsan la diferencia!
+0054 [Tú] | Mmm... Entonces, ¿de qué trata este recorte de precios?
+0055 [Iris] | En pocas palabras, tenemos tres horas para contarle a la gente de este evento de venta relámpago y traerla de vuelta aquí para registrarse.
+0056 [Iris] | Podemos recortar el precio una vez por cada persona que traigamos, hasta llegar al 70 % de descuento.
+0057 [Iris] | O si tenemos suerte, hasta podríamos conseguir el recorte total del precio al instante.
+0058 [Iris] | Mira por allá. Gira la ruleta de descuentos==W== y recorta el precio... Literalmente...
+0059 [Narración] | Miro en la dirección que señala y veo a un tipo corpulento descargando un cuchillo con fuerza sobre una ruleta que gira.
+0060 [Iris] | El recorte total es extremadamente raro, así que no cuento mucho con eso,==W== ¡70 % de descuento ya es suficiente para ahorrar bastante!
+0061 [Tú] | Esta regla deja mucho espacio a la interpretación, por ejemplo, cuántas personas necesitamos para el descuento y qué pasa cuando se acaba el tiempo.
+0062 [Tú] | Mejor tener presentes estas preguntas y ver qué pasa.
+0063 [???] | ¡Mentirosos! ¡Todos ustedes son unos mentirosos!
+0064 [Narración] | Mientras avanzamos poco a poco hacia la caja, presenciamos una acalorada discusión en un mostrador de registro cercano.
 0065 [Tú] | ...
-0066 [Angry Customer] | I had been waiting in queue since early this morning, and I brought forty people to the Sale in three hours' time. Why can't I get my 70% discount?
-0067 [Staff] | But you only managed to cut the price down by 0.01% in each spin. You spun those numbers yourself, and they simply don't add up to 70%, ma'am.
-0068 [Narración] | On top of the registration counter sits a large lucky draw wheel. The wheel is divided into several sections, each marked with a number.
-0069 [Tú] | So, the discount of each slash is determined by the spin.
-0070 [Staff] | I assure you that we have several customers who have enjoyed the benefits, and the luckiest one even got their purchases for free. But it seems you are not favored by lady luck.
+0066 [Angry Customer] | Llevo en la fila desde temprano esta mañana, y traje a cuarenta personas a la venta en tres horas. ¿Por qué no puedo obtener mi 70 % de descuento?
+0067 [Staff] | Pero solo logró bajar el precio un 0.01 % en cada giro. Usted misma giró esos números, y simplemente no suman 70 %, señora.
+0068 [Narración] | Sobre el mostrador de registro hay una gran ruleta de sorteo. La ruleta está dividida en varias secciones, cada una marcada con un número.
+0069 [Tú] | Entonces el descuento de cada recorte lo determina el giro.
+0070 [Staff] | Le aseguro que varios clientes han disfrutado de los beneficios, y el más afortunado incluso consiguió sus compras gratis. Pero parece que a usted no la favorece la suerte.
 0071 [Iris] | ...
-0072 [Iris] | ==PLAYER_NAME==... There is something off.
-0073 [Tú] | Seems like Iris noticed it, too.
-0074 [Tú] | Let's go talk to the manager first.
-0075 [Shop Manager] | Hello, how can I assist you?
-0076 [Tú] | I have a question about the price slash event. We believe there are some flaws in the rules.
-0077 [Shop Manager] | How can that be? Our event rules are fully transparent and publicly available. We guarantee everything is fair and square.
-0078 [Shop Manager] | I know not all customers will get their discounts, but that's just luck and there's nothing we can do about it.
-0079 [Iris] | Well...==W== I just did some calculation. The median of the odds ratio is only 0.2% for each spin.
-0080 [Iris] | That means, we need to recruit around 350 people within three hours to secure a 70% off.
-0081 [Iris] | Sure, someone might get a 70% discount after just five or six spins,==W== but that’s one lucky customer out of hundreds—if not a thousand—each day.
-0082 [Shop Manager] | Ahem... Miss...
-0083 [Iris] | According to your rules, customers only get the price slash discount when they hit 70%. So if they fail, all previous attempts are essentially wasted.
-0084 [Iris] | In other words, the vast majority of customers won't get the second discount.
-0085 [Iris] | I believe these true odds should be made clear to all customers in advance.
-0086 [Shop Manager] | Miss, our event rules are clearly stated, and participation is entirely voluntary.
-0087 [Shop Manager] | As for disclosing the odds... That's against our policy, and we find it unnecessary.
-0088 [Shop Manager] | Tell you what. As an apology, we'll comp everything you bought today.
-0089 [Iris] | Com...
-0090 [Iris] | Comp?
-0091 [Shop Manager] | Yes. I'll issue a letter for you. You just have to present it at the checkout counter.
-0092 [Shop Manager] | However, we kindly ask that you two leave quietly. If other customers find out about the special discount we offer you, they might be unhappy.
-0093 [Shop Manager] | Running a business isn't easy these days, and we hope that you can understand.
-0094 [Tú] | This is a bribe, hush money.
-0095 [Iris] | Uh...
+0072 [Iris] | ==PLAYER_NAME==... Algo no cuadra.
+0073 [Tú] | Parece que Iris también lo notó.
+0074 [Tú] | Hablemos primero con el gerente.
+0075 [Shop Manager] | Hola, ¿en qué puedo ayudarles?
+0076 [Tú] | Tengo una pregunta sobre el evento de recorte de precios. Creemos que hay fallas en las reglas.
+0077 [Shop Manager] | ¿Cómo puede ser? Las reglas de nuestro evento son totalmente transparentes y de acceso público. Garantizamos que todo es justo y limpio.
+0078 [Shop Manager] | Sé que no todos los clientes obtendrán sus descuentos, pero eso es solo suerte y no podemos hacer nada al respecto.
+0079 [Iris] | Bueno...==W== Acabo de hacer unos cálculos. La mediana de la razón de probabilidades es de solo 0.2 % por cada giro.
+0080 [Iris] | Eso significa que necesitamos reclutar a unas 350 personas en tres horas para asegurar un 70 % de descuento.
+0081 [Iris] | Claro, alguien podría conseguir un descuento del 70 % tras solo cinco o seis giros,==W== pero ese es un cliente con suerte entre cientos, si no miles, cada día.
+0082 [Shop Manager] | Ejem... Señorita...
+0083 [Iris] | Según sus reglas, los clientes solo obtienen el descuento del recorte de precios cuando llegan al 70 %. Así que si fallan, todos los intentos anteriores se desperdician esencialmente.
+0084 [Iris] | En otras palabras, la gran mayoría de los clientes no obtendrá el segundo descuento.
+0085 [Iris] | Creo que estas probabilidades reales deberían aclararse a todos los clientes por adelantado.
+0086 [Shop Manager] | Señorita, las reglas de nuestro evento están claramente expuestas y la participación es totalmente voluntaria.
+0087 [Shop Manager] | En cuanto a revelar las probabilidades... Va contra nuestra política y lo consideramos innecesario.
+0088 [Shop Manager] | Hagamos esto. Como disculpa, les regalamos todo lo que compraron hoy.
+0089 [Iris] | ¿Re...?
+0090 [Iris] | ¿Regalado?
+0091 [Shop Manager] | Sí. Les emitiré una carta. Solo tienen que presentarla en la caja.
+0092 [Shop Manager] | Sin embargo, les pedimos amablemente que ustedes dos se retiren en silencio. Si otros clientes se enteran del descuento especial que les ofrecemos, podrían molestarse.
+0093 [Shop Manager] | Hacer negocios no es fácil hoy en día, y esperamos que lo entiendan.
+0094 [Tú] | Esto es un soborno, dinero para callarnos.
+0095 [Iris] | Eh...

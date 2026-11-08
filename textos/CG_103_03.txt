@@ -3,93 +3,93 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Black Cat | Black Cat
-N:Imperial Guard Knight | Imperial Guard Knight
+N:Black Cat | Gato negro
+N:Imperial Guard Knight | Caballero de la Guardia Imperial
 N:avg1_103 | Amber
 N:avg3_100 | Sylar
 N:avg3_102 | Willow
 N:avg3_129 | Guardia Imperial
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | The Lost Kitten (Part III)
-0003 [Intro] | Amber confesses to you, and you make a promise to her.
-0004 [Imperial Guard Knight] | Thank you for helping keep the community safe!
-0005 [Tú] | Thank you for showing up so swiftly! It's reassuring to see the knights here!
-0006 [Tú] | I've been helping with the investigation all night—didn't realize it's already dawn...
-0007 [Tú] | Oh right, Amber is still waiting for me...
-0008 [Tú] | I'm done
+0001 [Intro] | Acto tres
+0002 [Intro] | El gatito perdido (Parte III)
+0003 [Intro] | Amber se te confiesa, y tú le haces una promesa.
+0004 [Imperial Guard Knight] | ¡Gracias por ayudar a mantener segura a la comunidad!
+0005 [Tú] | ¡Gracias por llegar tan rápido! ¡Es tranquilizador ver aquí a los caballeros!
+0006 [Tú] | Llevo toda la noche ayudando con la investigación... no me había dado cuenta de que ya amaneció...
+0007 [Tú] | Ah, cierto, Amber sigue esperándome...
+0008 [Tú] | Ya terminé
 0009 [Amber] | 
-0010 [Tú] | Where are you?
-0011 [Amber] | In a park nearby
-0012 [Amber] | The kitten's alright, just a little hungry
-0013 [Amber] | I picked up a few things to feed it
-0014 [Tú] | I'll come over right away
-0015 [Narración] | Under the shade of a tree, Amber holds the tiny black cat in her arms.
-0016 [Narración] | Soft golden rays of light scatter through the lush tree leaves and glitter upon her.
-0017 [Tú] | I don't want to disrupt such a perfect moment...
-0018 [Amber] | Ah, Boss.
-0019 [Black Cat] | Meow...
-0020 [Tú] | Is it scared...?
-0021 [Amber] | Don't be nervous, Inky.
-0022 [Amber] | ==PLAYER_NAME== is a really nice person. She saved you yesterday.
-0023 [Amber] | This one's a little shy ==W==around new people. ==W==But she's smart. ==W==She's not scared of you anymore, ==W==after seeing us talk.==W==
-0024 [Opción] | You can understand how cats feel?
-0025 [Amber] | Yeah,==W== I really enjoy talking to them.==W== Like this:==W== purr==W== purr==W== purr==W== meoow.
-0026 [Amber] | Boss, ==W==it's saying==W== it likes you.
-0027 [Opción] | You look really relaxed when you talk to cats
-0028 [Amber] | Cats are easy to understand.==W== I feel at ease==W== when I talk to them.==W== But talking face-to-face with people ...==W== makes me nervous.==W== I never really know what to say...
-0029 [Amber] | ==W==But I don't feel like that ==W==at all around you. ==W==In fact, I really enjoy ==W==talking to you. ==W==
-0030 [Opción] | I'm happy when I talk with you, too
-0031 [Amber] | Really?
-0032 [Amber] | ==W==Then we should do more of it... ==W==One day, ==W==I want to get good at talking to everyone!
-0033 [Black Cat] | Meow
-0034 [Amber] | Looks like Inky wants to talk with you, too.
-0035 [Amber] | Do you want to hold it? It's very soft and cuddly.
-0036 [Tú] | It won't try to run away, will it?
-0037 [Amber] | Don't worry. Once a cat likes someone, it won't just run off.
-0038 [Black Cat] | Purring...
-0039 [Tú] | Has it recovered from that kick?
-0040 [Amber] | I had it checked. No broken bones, and no signs of internal bleeding either.
-0041 [Amber] | Cats are tough little creatures... With a bit of care, this one will bounce back in no time.
-0042 [Tú] | Come to think of it... In your own way, you're always looking out for the crew.
-0043 [Tú] | You've been working so hard on this commission because Noya and Iris mentioned wanting to eat pudding the other day.
-0044 [Amber] | I just did what I wanted to do...
-0045 [Amber] | Boss... You are the one who...
-0046 [Tú] | What is it?
-0047 [Amber] | You're the one who has been taking care of us … of me
-0048 [Amber] | You're there when I wanted someone to talk to
-0049 [Amber] | You stayed up all night with me, looking for the cat
-0050 [Amber] | You stuck with me even when I made risky moves
-0051 [Amber] | And you caught me when I was going to fall
-0052 [Tú] | Yeah, moving around on the rotten rooftop like that was really pushing it...
-0053 [Tú] | I was really scared that I wouldn't be able to hold onto you
-0054 [Amber] | But...
-0055 [Amber] | The reason I jumped out back then...
-0056 [Amber] | Was because somehow I knew...
-0057 [Amber] | You would think of something
-0058 [Amber] | If it were just me
-0059 [Amber] | I wouldn't be able to get the commission done so quickly
-0060 [Tú] | Oh, stop it. I'm starting to blush.
+0010 [Tú] | ¿Dónde estás?
+0011 [Amber] | En un parque cercano
+0012 [Amber] | El gatito está bien, solo un poco hambriento
+0013 [Amber] | Compré unas cosas para darle de comer
+0014 [Tú] | Voy para allá de inmediato
+0015 [Narración] | A la sombra de un árbol, Amber sostiene en brazos al diminuto gato negro.
+0016 [Narración] | Suaves rayos dorados de luz se filtran entre las frondosas hojas del árbol y destellan sobre ella.
+0017 [Tú] | No quiero interrumpir un momento tan perfecto...
+0018 [Amber] | Ah, Jefe.
+0019 [Black Cat] | Miau...
+0020 [Tú] | ¿Tiene miedo...?
+0021 [Amber] | No te pongas nerviosa, Inky.
+0022 [Amber] | ==PLAYER_NAME== es una persona muy amable. Te salvó ayer.
+0023 [Amber] | Esta es un poco tímida ==W==con gente nueva. ==W==Pero es lista. ==W==Ya no te tiene miedo, ==W==después de vernos hablar.==W==
+0024 [Opción] | ¿Puedes entender cómo se sienten los gatos?
+0025 [Amber] | Sí,==W== disfruto mucho hablar con ellos.==W== Así:==W== purr==W== purr==W== purr==W== miauu.
+0026 [Amber] | Jefe, ==W==dice==W== que le caes bien.
+0027 [Opción] | Te ves muy relajada cuando hablas con gatos
+0028 [Amber] | Los gatos son fáciles de entender.==W== Me siento tranquila==W== cuando hablo con ellos.==W== Pero hablar cara a cara con la gente ...==W== me pone nerviosa.==W== Nunca sé bien qué decir...
+0029 [Amber] | ==W==Pero contigo no me siento así ==W==para nada. ==W==De hecho, disfruto mucho ==W==hablar contigo. ==W==
+0030 [Opción] | A mí también me alegra hablar contigo
+0031 [Amber] | ¿En serio?
+0032 [Amber] | ==W==Entonces deberíamos hacerlo más... ==W==Algún día, ==W==¡quiero volverme buena para hablar con todos!
+0033 [Black Cat] | Miau
+0034 [Amber] | Parece que Inky también quiere hablar contigo.
+0035 [Amber] | ¿Quieres cargarla? Es muy suave y apapachable.
+0036 [Tú] | ¿No intentará escaparse, verdad?
+0037 [Amber] | No te preocupes. Cuando a un gato le cae bien alguien, no se va corriendo así nada más.
+0038 [Black Cat] | Ronroneando...
+0039 [Tú] | ¿Ya se recuperó de esa patada?
+0040 [Amber] | Hice que la revisaran. No tiene huesos rotos ni señales de hemorragia interna.
+0041 [Amber] | Los gatos son criaturas resistentes... Con un poco de cuidado, esta se recuperará en poco tiempo.
+0042 [Tú] | Ahora que lo pienso... A tu manera, siempre cuidas del equipo.
+0043 [Tú] | Te has esforzado tanto en este encargo porque Noya e Iris comentaron el otro día que querían comer pudín.
+0044 [Amber] | Solo hice lo que quería hacer...
+0045 [Amber] | Jefe... Tú eres quien...
+0046 [Tú] | ¿Qué pasa?
+0047 [Amber] | Tú eres quien nos ha cuidado … a mí
+0048 [Amber] | Estás ahí cuando quiero que alguien me escuche
+0049 [Amber] | Te desvelaste conmigo toda la noche, buscando al gato
+0050 [Amber] | Me acompañaste incluso cuando hice movimientos arriesgados
+0051 [Amber] | Y me atrapaste cuando iba a caer
+0052 [Tú] | Sí, moverse así por el techo podrido fue pasarse de la raya...
+0053 [Tú] | De verdad me asusté de no poder sostenerte
+0054 [Amber] | Pero...
+0055 [Amber] | La razón por la que salté en ese momento...
+0056 [Amber] | Fue porque de algún modo supe...
+0057 [Amber] | Que se te ocurriría algo
+0058 [Amber] | Si hubiera estado sola
+0059 [Amber] | No habría podido terminar el encargo tan rápido
+0060 [Tú] | Ay, ya basta. Me estoy sonrojando.
 0061 [Amber] | 
-0062 [Tú] | Ahh, I need to contact the client.
-0063 [Tú] | Once we get paid, let's go eat pudding together.
-0064 [Amber] | Okay!
-0065 [Amber] | … Bye, Inky.
-0066 [Narración] | The next morning...
-0067 [Tú] | What?!
-0068 [Tú] | It's the wrong cat?
-0069 [Willow] | Yes. The cat you brought back matches the description in the file exactly, so the client couldn't tell the difference at first either.
-0070 [Willow] | Until she took the cat home and there was another identical black cat sitting at her doorstep...
-0071 [Tú] | Uh...
-0072 [Willow] | The client said that since you two worked so hard looking for the cat, she'll still pay part of the commission fee.
-0073 [Willow] | But I'm afraid you're stuck with this cat—==W==huh, that's strange?
-0074 [Tú] | What is it?
-0075 [Willow] | The cat's gone. It was right here at the counter just a moment ago...
-0076 [Amber] | Over there.
-0077 [Narración] | You follow where Amber's pointing and catch a quick glimpse of a nimble figure darting across the roof across from the Trekkers' House.
-0078 [Tú] | What a freedom-loving little thing...
-0079 [Amber] | Boss? Boss!
-0080 [Amber] | I want to go say hi to Inky.
-0081 [Tú] | I'll come with you.
-0082 [Narración] | Looks like our story with that cat is far from over...
+0062 [Tú] | Ahh, tengo que contactar al cliente.
+0063 [Tú] | Cuando nos paguen, vayamos a comer pudín juntos.
+0064 [Amber] | ¡Está bien!
+0065 [Amber] | … Adiós, Inky.
+0066 [Narración] | A la mañana siguiente...
+0067 [Tú] | ¡¿Qué?!
+0068 [Tú] | ¿Es el gato equivocado?
+0069 [Willow] | Sí. El gato que trajeron coincide exactamente con la descripción del expediente, así que la clienta tampoco notó la diferencia al principio.
+0070 [Willow] | Hasta que llevó al gato a casa y había otro gato negro idéntico sentado en su puerta...
+0071 [Tú] | Eh...
+0072 [Willow] | La clienta dijo que, como se esforzaron tanto buscando al gato, de todos modos pagará parte de la tarifa del encargo.
+0073 [Willow] | Pero me temo que se quedarán con este gato...==W== ¿eh, qué raro?
+0074 [Tú] | ¿Qué pasa?
+0075 [Willow] | El gato se fue. Estaba aquí en el mostrador hace un momento...
+0076 [Amber] | Allá.
+0077 [Narración] | Sigues el punto que señala Amber y alcanzas a ver una ágil silueta que cruza veloz el techo frente a la Casa de los Trekkers.
+0078 [Tú] | Qué cosita tan amante de la libertad...
+0079 [Amber] | ¿Jefe? ¡Jefe!
+0080 [Amber] | Quiero ir a saludar a Inky.
+0081 [Tú] | Voy contigo.
+0082 [Narración] | Parece que nuestra historia con ese gato está lejos de terminar...

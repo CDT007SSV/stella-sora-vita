@@ -3,118 +3,118 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Renowned Designer | Renowned Designer
-N:Trekker Association Staff | Trekker Association Staff
+N:Renowned Designer | Diseñadora de renombre
+N:Trekker Association Staff | Personal de la Asociación de Trekkers
 N:avg1_103 | Amber
 N:avg1_111 | Iris
 N:avg1_112 | Noya
 N:avg1_114 | Chaton
 N:avg3_100 | Sylar
 N:avg3_164 | Iori
-N:avg3_188 | Female Flavio Resident
+N:avg3_188 | Residente de Flavio
 
 ## Texto
-0001 [Intro] | Act One
-0002 [Intro] | Commission: Tyrant's Trials (Part I)
-0003 [Intro] | Ready to unlock your true power? Chaton is inviting you to a new commission.
-0004 [Iris] | Do I get this, or not...
-0005 [Amber] | If you're hesitating, buy it.
-0006 [Iris] | Easy for you to say, Amber.==W== We're in Emor...==W== Meaning prices are insane!
-0007 [Iris] | Supplies matter, but we can't blow our budget. We need to be smart about this...
-0008 [Noya] | But we'll need it eventually. Might as well stock up while we're here.
-0009 [Tú] | Noya's right. Money comes and goes.
-0010 [Tú] | While everyone's getting prepared, I'll hit the Trekker Association for a commission. You handle the shopping, Iris!
-0011 [Tú] | Is there anything suited for me...==W== Huh?
-0012 [Chaton] | No, no, no!==W== That's all wrong. How do I put this...==W== I want a commission that elicits emotions! Something that plunges the soul into pitch-black night, like offering a golden sacrifice on the shores of endless agony!==W== You feel me?!
-0013 [Trekker Association Staff] | Um...==W== Could you maybe put that in simpler terms?
-0014 [Chaton] | How do you not get that?!==W== Look, give me a commission that pays a fortune. The harder, the better!
-0015 [Tú] | That unique flair...==W== Yep, it's Chaton. The White Cat Troupe's been working in Emor lately too.==W== She never runs out of steam.
-0016 [Tú] | Alright, focus. I need to find my own commission!
-0017 [Chaton] | Ah!==W== Tyrant! You're here too!
-0018 [Tú] | Oh...==W== Hey, Chaton. What a coincidence...
-0019 [Tú] | Crap, she spotted me...==W== Now she's going to—
-0020 [Chaton] | Even oceans apart, the Tyrant and I, Chaton of the dark power, are inexplicably drawn together!==W== This is destiny!
-0021 [Chaton] | Meeting again in the City of a Thousand Monoliths is absolute proof of our shared, dark fate!
-0022 [Chaton] | The time is now!==W== Walk with me on this blood-soaked path to awaken the Tyrant!==W== Let us throw open the gates to the dark power that devours gods!
-0023 [Tú] | Uh, right...==W== Which means?
-0024 [Chaton] | Which means we'll work commissions together to unlock the Tyrant's true power!
-0025 [Tú] | I knew it...
-0026 [Tú] | Her heart's in the right place, but she's stubborn.
-0027 [Tú] | Chaton, I've told you before. I'm not your Tyrant,==W== and I have no hidden power.
-0028 [Chaton] | Who knows? The amnesia may have made you forget! That's why I—==W==the great Chaton—will awaken the Tyrant's slumbering dark power!==W== Nyahahaha!
-0029 [Tú] | Ugh...==W== Blame the amnesia, and I've got no comeback.
-0030 [Trekker Association Staff] | Miss Chaton! Found the perfect commission! High risk, massive payout—it's everything you wanted!
-0031 [Chaton] | Awesome!==W== Tyrant and I will take it!
-0032 [Tú] | Wait, don't volunteer me!==W== On a job this hard, I'll only drag you down...
-0033 [Chaton] | Relax!==W== With me here, you won't hold anyone back!
-0034 [Tú] | Sigh... You're impossible.==W== What's the job, anyway?
-0035 [Chaton] | Don't rush me, I'm reading it now!
-0036 [Tú] | This is going to end badly...
-0037 [Renowned Designer] | Hey!==W== Where's my coffee?! It's been ten minutes!
-0038 [Chaton] | I hear you, quit yelling—==W==ahh!
-0039 [Renowned Designer] | What the hell?! You spilled it everywhere! Can you even afford to replace this carpet?!
-0040 [Tú] | I am so sorry! We'll clean this up and brew a fresh cup immediately!
-0041 [Tú] | Chaton, clean up the mess. I'll handle the coffee.
-0042 [Chaton] | Ah, hold on...!
-0043 [Renowned Designer] | You two. This dress has to go out. The addresses are on this list.
-0044 [Chaton] | You've gotta be kidding! We have to deliver this entire wardrobe?!
-0045 [Renowned Designer] | Yes, every last piece.==W== I hired you for grunt work.==W== Got a problem with that?
-0046 [Tú] | No, no problem.==W== Quick question though: is there a priority sequence for these?
-0047 [Renowned Designer] | Sharp, aren't you?==W== Hold on, I'll tag them.
+0001 [Intro] | Acto uno
+0002 [Intro] | Encargo: Las pruebas del Tirano (Parte I)
+0003 [Intro] | ¿Listo para desatar tu verdadero poder? Chaton te invita a un nuevo encargo.
+0004 [Iris] | ¿Lo compro o no...?
+0005 [Amber] | Si dudas, cómpralo.
+0006 [Iris] | Es fácil decirlo para ti, Amber.==W== Estamos en Emor...==W== ¡Lo que significa que los precios son una locura!
+0007 [Iris] | Los suministros importan, pero no podemos reventar el presupuesto. Hay que ser inteligentes con esto...
+0008 [Noya] | Pero con el tiempo lo vamos a necesitar. Mejor abastecernos mientras estamos aquí.
+0009 [Tú] | Noya tiene razón. El dinero va y viene.
+0010 [Tú] | Mientras todos se preparan, iré a la Asociación de Trekkers por un encargo. ¡Tú encárgate de las compras, Iris!
+0011 [Tú] | ¿Habrá algo adecuado para mí...?==W== ¿Eh?
+0012 [Chaton] | ¡No, no, no!==W== Todo mal. Cómo decirlo...==W== ¡Quiero un encargo que despierte emociones! ¡Algo que sumerja el alma en una noche negra como la brea, como ofrecer un sacrificio dorado en las costas de una agonía sin fin!==W== ¿Me entiendes?
+0013 [Trekker Association Staff] | Eh...==W== ¿Podría decirlo en términos más sencillos?
+0014 [Chaton] | ¡¿Cómo es que no lo entiendes?!==W== Mira, dame un encargo que pague una fortuna. ¡Mientras más difícil, mejor!
+0015 [Tú] | Ese estilo tan particular...==W== Sí, es Chaton. La Compañía del Gato Blanco también ha estado trabajando en Emor últimamente.==W== Nunca se queda sin energía.
+0016 [Tú] | Bien, concéntrate. ¡Necesito encontrar mi propio encargo!
+0017 [Chaton] | ¡Ah!==W== ¡Tirano! ¡Tú también estás aquí!
+0018 [Tú] | Oh...==W== Hola, Chaton. Qué coincidencia...
+0019 [Tú] | Rayos, me vio...==W== Ahora va a...
+0020 [Chaton] | ¡Incluso separados por océanos, el Tirano y yo, Chaton del poder oscuro, nos sentimos inexplicablemente atraídos!==W== ¡Es el destino!
+0021 [Chaton] | ¡Reencontrarnos en la Ciudad de los Mil Monolitos es prueba absoluta de nuestro oscuro destino compartido!
+0022 [Chaton] | ¡Ha llegado la hora!==W== ¡Camina conmigo por este camino empapado de sangre para despertar al Tirano!==W== ¡Abramos de par en par las puertas del poder oscuro que devora a los dioses!
+0023 [Tú] | Eh, claro...==W== ¿Lo que significa?
+0024 [Chaton] | ¡Lo que significa que haremos encargos juntos para desatar el verdadero poder del Tirano!
+0025 [Tú] | Lo sabía...
+0026 [Tú] | Tiene buen corazón, pero es terca.
+0027 [Tú] | Chaton, ya te lo dije. No soy tu Tirano,==W== y no tengo ningún poder oculto.
+0028 [Chaton] | ¿Quién sabe? ¡Quizá la amnesia te hizo olvidarlo! Por eso yo,==W== ¡la gran Chaton, despertaré el poder oscuro dormido del Tirano!==W== ¡Nyajajajaja!
+0029 [Tú] | Ugh...==W== Culpa de la amnesia, y no tengo réplica.
+0030 [Trekker Association Staff] | ¡Señorita Chaton! ¡Encontré el encargo perfecto! Alto riesgo, pago enorme: ¡es todo lo que quería!
+0031 [Chaton] | ¡Genial!==W== ¡El Tirano y yo lo aceptamos!
+0032 [Tú] | ¡Espera, no me ofrezcas así como así!==W== En un trabajo tan difícil solo los voy a retrasar...
+0033 [Chaton] | ¡Relájate!==W== ¡Conmigo aquí, nadie se va a retrasar por tu culpa!
+0034 [Tú] | Suspiro... Eres imposible.==W== ¿De qué es el trabajo, por cierto?
+0035 [Chaton] | ¡No me apresures, lo estoy leyendo ahora!
+0036 [Tú] | Esto va a acabar mal...
+0037 [Renowned Designer] | ¡Oye!==W== ¡¿Dónde está mi café?! ¡Han pasado diez minutos!
+0038 [Chaton] | Te oigo, deja de gritar...==W== ¡ahh!
+0039 [Renowned Designer] | ¡¿Qué demonios?! ¡Lo derramaste por todos lados! ¡¿Siquiera pueden pagar por reponer esta alfombra?!
+0040 [Tú] | ¡Lo siento muchísimo! ¡Limpiaremos esto y prepararemos una taza fresca de inmediato!
+0041 [Tú] | Chaton, limpia el desastre. Yo me encargo del café.
+0042 [Chaton] | Ah, espera...!
+0043 [Renowned Designer] | Ustedes dos. Este vestido tiene que salir. Las direcciones están en esta lista.
+0044 [Chaton] | ¡Debes estar bromeando! ¡¿Tenemos que entregar todo este guardarropa?!
+0045 [Renowned Designer] | Sí, hasta la última pieza.==W== Los contraté para el trabajo pesado.==W== ¿Algún problema?
+0046 [Tú] | No, ningún problema.==W== Una pregunta, sin embargo: ¿hay una secuencia de prioridad para estos?
+0047 [Renowned Designer] | Qué perspicaz.==W== Espera, les pondré etiquetas.
 0048 [Chaton] | ...
-0049 [Chaton] | This isn't what I signed up for at all!
-0050 [Chaton] | Shouldn't a high-difficulty, high-reward job mean we're out slaying dangerous monsters?!
-0051 [Tú] | Assisting a top fashion designer in Gold District definitely counts as high-difficulty and high-reward...
-0052 [Chaton] | B-But still!==W== The mighty Tyrant and the great Chaton, reduced to running errands? This is way beneath us!
-0053 [Tú] | You're the one who took the job, remember?
-0054 [Chaton] | I mean...==W== Yeah, you've got a point...
-0055 [Tú] | If you didn't like the details, you should've checked before signing us up.
-0056 [Chaton] | But you're the Tyrant!==W== Doesn't it bug you getting bossed around like some lowly minion?
-0057 [Chaton] | Shouldn't the Tyrant take jobs that show the world ==SEX3== absolute greatness and terror?
-0058 [Tú] | That might be the Tyrant in your head, Chaton, but that's not me.
-0059 [Tú] | Honestly, I feel like I'm getting the hang of this.
-0060 [Chaton] | But aren't you mad?==W== Bowing your head and apologizing even though you've done nothing wrong
-0061 [Chaton] | Especially since that whole mess this morning was entirely my fault...
-0062 [Tú] | What, are you actually owning up to it?
-0063 [Chaton] | N-not exactly!==W== But for the great Chaton's blunder to tarnish the Tyrant's reputation... That feels a bit...
-0064 [Tú] | Looks like she's actually feeling pretty guilty.
-0065 [Tú] | Then let me ask you something. In your eyes, what does the Tyrant's majesty actually look like?
-0066 [Chaton] | As the Tyrant, you must wield the dark power to command the world's chaos, guiding all who bask in your glory into your own paradise!
-0067 [Chaton] | Transcendent, flawless, and utterly peerless—that's what you have to be!
-0068 [Tú] | ... In other words,==W== the embodiment of perfection, right?
-0069 [Chaton] | Exactly!
-0070 [Tú] | Then if I do everything in my power to do this job perfectly, doesn't that match your vision of the Tyrant as well?
-0071 [Chaton] | Huh? What do you mean?
-0072 [Tú] | Our job was to assist that designer. Making sure the client can focus on her work without a hitch—that's our responsibility, isn't it?
-0073 [Tú] | I have no problem giving my all to make that happen.
-0074 [Chaton] | But the Tyrant shouldn't have to bow and scrape like that...
-0075 [Tú] | Doesn't really concern me, as long as the work gets done.
-0076 [Tú] | Ruining a job over petty pride, or swallowing your ego to execute it flawlessly...==W== Which of those sounds more like the true Tyrant to you, Chaton?
-0077 [Chaton] | The word failure doesn't exist in the Tyrant's dictionary!
-0078 [Tú] | Then you know what comes next, right?
-0079 [Chaton] | But...==W== But! I still can't accept it!==W== Why should you have to apologize for my mistakes?!
-0080 [Chaton] | You didn't have to do that!==W== You did nothing wrong...
-0081 [Tú] | Because we needed to finish the commission perfectly. We took this job as a team, after all.
-0082 [Tú] | Alright, let's head back. If we're late again, the client's going to chew us out.
+0049 [Chaton] | ¡Esto no es nada de lo que acepté!
+0050 [Chaton] | ¡¿No debería un trabajo de alta dificultad y alta recompensa significar salir a matar monstruos peligrosos?!
+0051 [Tú] | Asistir a una diseñadora de primer nivel del Distrito de Oro definitivamente cuenta como alta dificultad y alta recompensa...
+0052 [Chaton] | ¡P-pero aun así!==W== ¡El poderoso Tirano y la gran Chaton, reducidos a hacer mandados! ¡Esto está muy por debajo de nosotros!
+0053 [Tú] | Tú fuiste quien aceptó el trabajo, ¿recuerdas?
+0054 [Chaton] | O sea...==W== Sí, tienes razón...
+0055 [Tú] | Si no te gustaban los detalles, debiste revisarlos antes de inscribirnos.
+0056 [Chaton] | ¡Pero eres el Tirano!==W== ¿No te molesta que te den órdenes como a un súbdito cualquiera?
+0057 [Chaton] | ¿No debería el Tirano aceptar trabajos que muestren al mundo ==SEX3== absoluta grandeza y terror?
+0058 [Tú] | Ese quizá sea el Tirano en tu cabeza, Chaton, pero ese no soy yo.
+0059 [Tú] | Sinceramente, siento que le estoy agarrando el modo a esto.
+0060 [Chaton] | ¿Pero no te enojas?==W== Agachar la cabeza y disculparte aunque no hiciste nada malo
+0061 [Chaton] | Sobre todo porque todo el lío de esta mañana fue completamente mi culpa...
+0062 [Tú] | ¿Qué, de verdad lo estás admitiendo?
+0063 [Chaton] | ¡N-no exactamente!==W== Pero que el error de la gran Chaton manche la reputación del Tirano... Eso se siente un poco...
+0064 [Tú] | Parece que de verdad se siente bastante culpable.
+0065 [Tú] | Entonces déjame preguntarte algo. A tus ojos, ¿cómo es en realidad la majestad del Tirano?
+0066 [Chaton] | ¡Como Tirano, debes empuñar el poder oscuro para dominar el caos del mundo, guiando a todos los que se bañan en tu gloria hacia tu propio paraíso!
+0067 [Chaton] | ¡Trascendente, impecable y absolutamente sin igual: eso es lo que debes ser!
+0068 [Tú] | ... O sea,==W== la encarnación de la perfección, ¿verdad?
+0069 [Chaton] | ¡Exacto!
+0070 [Tú] | Entonces, si hago todo lo posible por hacer este trabajo a la perfección, ¿eso tampoco encaja con tu visión del Tirano?
+0071 [Chaton] | ¿Eh? ¿A qué te refieres?
+0072 [Tú] | Nuestro trabajo era asistir a esa diseñadora. Asegurar que la clienta pueda concentrarse en su labor sin contratiempos: esa es nuestra responsabilidad, ¿no?
+0073 [Tú] | No tengo problema en darlo todo para lograrlo.
+0074 [Chaton] | ¡Pero el Tirano no debería tener que arrastrarse así...!
+0075 [Tú] | Realmente no me importa, mientras el trabajo se haga.
+0076 [Tú] | Arruinar un trabajo por orgullo mezquino, o tragarse el ego para ejecutarlo sin fallas...==W== ¿Cuál de las dos suena más a un verdadero Tirano para ti, Chaton?
+0077 [Chaton] | ¡La palabra fracaso no existe en el diccionario del Tirano!
+0078 [Tú] | Entonces sabes lo que sigue, ¿verdad?
+0079 [Chaton] | Pero...==W== ¡Pero! ¡Sigo sin poder aceptarlo!==W== ¡¿Por qué tendrías que disculparte tú por mis errores?!
+0080 [Chaton] | ¡No tenías que hacerlo!==W== No hiciste nada malo...
+0081 [Tú] | Porque necesitábamos terminar el encargo a la perfección. Aceptamos este trabajo como equipo, después de todo.
+0082 [Tú] | Bien, regresemos. Si volvemos a llegar tarde, la clienta nos va a regañar.
 0083 [Chaton] | ...
-0084 [Renowned Designer] | Finally! What took so long to make a simple delivery?!
-0085 [Tú] | Sorry—
-0086 [Chaton] | I'm sorry! We're late because I got us lost!
-0087 [Chaton] | What do you need next? I swear I'll make up for the lost time!
+0084 [Renowned Designer] | ¡Por fin! ¡¿Qué tanto tardaron en hacer una simple entrega?!
+0085 [Tú] | Perdón...
+0086 [Chaton] | ¡Lo siento! ¡Llegamos tarde porque yo nos perdí!
+0087 [Chaton] | ¡¿Qué necesita ahora?! ¡Juro que recuperaré el tiempo perdido!
 0088 [Tú] | Chaton...
-0089 [Renowned Designer] | Glad you're reflecting on it. The fabric is dyed. Go hang it out to dry.
-0090 [Chaton] | On it!!
-0091 [Tú] | Three,==W== four,==W== five...==W== Look at all those zeros!==W== I can't believe it pays this much!
-0092 [Tú] | That gives our budget plenty of breathing room. A hassle, but it paid off.
-0093 [Tú] | Here you go, Chaton. Your cut.
-0094 [Chaton] | No.==W== You keep it all, Tyrant.
-0095 [Tú] | Huh? We took this job together.==W== I can't pocket everything...
-0096 [Chaton] | I was dead weight today. I messed up this morning, and screwed up even more this afternoon...==W== I can't take that money.
-0097 [Tú] | That's not fair to say—
-0098 [Chaton] | Plus, this whole job felt wrong!==W== The Tyrant is supposed to be a fearsome,==W== awe-inspiring entity. Getting bossed around like a servant? That ruins the image!
-0099 [Chaton] | So the Dorra is yours, but you have to show up tomorrow!==W== I swear I'll find a commission that unleashes the Tyrant's true power—a quest that will shake every soul on earth!
-0100 [Tú] | Hey! Don't volunteer me for things...
-0101 [Chaton] | Oh, one more thing.==W== It doesn't exactly fit my Tyrant vision, but seeing you nail that job...==W== Well...
-0102 [Chaton] | I thought it was awesome! Later, Tyrant! See you tomorrow!
+0089 [Renowned Designer] | Me alegra que reflexiones. La tela ya está teñida. Ve a tenderla para que se seque.
+0090 [Chaton] | ¡Enseguida!!
+0091 [Tú] | Tres,==W== cuatro,==W== cinco...==W== ¡Miren cuántos ceros!==W== ¡No puedo creer que pague tanto!
+0092 [Tú] | Eso le da a nuestro presupuesto mucho margen. Fue una molestia, pero valió la pena.
+0093 [Tú] | Toma, Chaton. Tu parte.
+0094 [Chaton] | No.==W== Quédatelo todo, Tirano.
+0095 [Tú] | ¿Eh? Aceptamos este trabajo juntos.==W== No puedo quedarme con todo...
+0096 [Chaton] | Hoy fui un estorbo. Metí la pata esta mañana y la metí aún más esta tarde...==W== No puedo aceptar ese dinero.
+0097 [Tú] | No es justo que digas eso...
+0098 [Chaton] | ¡Además, todo este trabajo se sintió mal!==W== Se supone que el Tirano es una entidad temible==W== e imponente. ¡¿Que te manden como a un sirviente?! ¡Eso arruina la imagen!
+0099 [Chaton] | ¡Así que las Dorras son tuyas, pero tienes que venir mañana!==W== ¡Juro que encontraré un encargo que desate el verdadero poder del Tirano: una misión que sacuda a todas las almas de la tierra!
+0100 [Tú] | ¡Oye! No me ofrezcas así como así para las cosas...
+0101 [Chaton] | Ah, una cosa más.==W== No encaja exactamente con mi visión del Tirano, pero verte hacer bien ese trabajo...==W== Bueno...
+0102 [Chaton] | ¡Me pareció genial! ¡Hasta luego, Tirano! ¡Nos vemos mañana!
 0103 [Tú] | Chaton...
-0104 [Tú] | Sigh...==W== I'd feel a lot better about this if you'd taken your cut.
+0104 [Tú] | Suspiro...==W== Me sentiría mucho mejor con esto si hubieras tomado tu parte.

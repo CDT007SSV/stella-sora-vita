@@ -3,124 +3,124 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Canace's Father | Canace's Father
-N:Canace's Mother | Canace's Mother
+N:Canace's Father | Padre de Canace
+N:Canace's Mother | Madre de Canace
 N:avg1_120 | Canace
 N:avg3_100 | Sylar
 N:avg3_146 | Residente del Distrito de Oro
 N:avg3_147 | Residente del Distrito de Oro
 
 ## Texto
-0001 [Intro] | Act Three
-0002 [Intro] | The Secret After-Class Paper (Part III)
-0003 [Intro] | Does anyone still remember we're here to write a paper?
-0004 [Narración] | Canace, psyching herself up as she heads out, seems to be talking to someone just outside the door.
-0005 [Canace] | Mother... Father... My apologies for making you wait.
-0006 [Canace] | I was just discussing important matters with an executive from a certain company. Oh ho ho ho...==W== A thousand apologies for not greeting you sooner...
-0007 [Tú] | Who's that?!
-0008 [Tú] | No, that voice is Canace's, but the tone sounds like someone else entirely. So... She's talking to her parents?
-0009 [Canace's Mother] | Regardless, the fact is you kept me and your father waiting at the door for six minutes and twenty-one seconds. Your time management leaves much to be desired. Do you understand the value of time?
-0010 [Canace's Mother] | On top of that, you spent about twenty seconds making excuses for your misbehavior. If you don't have a good reason, this isn't going to end here.
-0011 [Canace] | Well...==W== The report on my teaching work was already submitted to the estate three weeks ago.
-0012 [Canace] | As for joining the Grace Light Academy Council, there's still no vacancy, but I won't miss any opportunity when it arises.
-0013 [Canace's Mother] | You think you can get away with an oral report such as this? You're a Metonia. You're always expected to deliver results three times above standard.
-0014 [Canace's Mother] | Of course, that's assuming you still regard yourself as a Metonia.
-0015 [Canace's Father] | Alright, alright love, Canace is an adult now. Let her do what she wants.
-0016 [Canace's Father] | After all, you came here just to make sure she's doing well, didn't you?
-0017 [Tú] | Looks like Canace's got some family issues. That must be why she was so flustered earlier. Since there's no immediate danger, I should probably head out.
-0018 [Narración] | I quietly open the office door, planning to slip out behind Canace.
-0019 [Canace's Father] | It's not the best place to talk. Come, Canace, let's go inside your office.
-0020 [Tú] | Crap! I gotta move!
-0021 [Canace] | Uh! No!
-0022 [Canace's Mother] | Canace, could it be that you are hiding something from us?
-0023 [Canace] | No, no! It's just...
-0024 [Canace's Mother] | Then, please move.
-0025 [Narración] | Canace's mother pushes the door wide open with unexpected speed.
-0026 [Tú] | Ouch—
-0027 [Canace's Mother] | Hmm? Did something slam into the door...?
-0028 [Tú] | Ouch ouch...==W== H-hello, It's a pleasure to meet you...
-0029 [Tú] | I'm...==W== I'm done for!
-0030 [Canace's Father] | Eh!? Who are you?
-0031 [Canace's Mother] | Hmph, so Canace's strange behavior today was because of this...==W== Hmm, pardon me, how should I address you? And what exactly is your relationship with my daughter?
-0032 [Tú] | That tone... she's definitely taking this the wrong way...
-0033 [Tú] | Uh, well... I'm Canace's student. I just came to ask her some questions, I swear—nothing suspicious going on!
-0034 [Canace's Mother] | A student...?==W== You're not wearing a uniform, and your shoes are covered in mud.
-0035 [Canace's Mother] | You didn't bow or greet us right away despite our obvious status, but your eyes instinctively went to our arm movements. You're a Trekker, aren't you?
-0036 [Tú] | Such sharp insight...!==W== Like daughter, like mother...!
-0037 [Canace] | Y-yes, mother, ==SEX== ...==W== is a Trekker who's helping me with my paper. I'm writing a thesis about the Monolith.
-0038 [Canace] | And ==SEX== has been to Cangwu...
-0039 [Canace] | As the people in Cangwu would say, "among any three people, one can be my teacher." That's why ==SEX== said ==SEX== was my student.
-0040 [Tú] | That explanation's way too forced... Would anyone actually believe that?
-0041 [Canace's Father] | I see. One learns something new every day. My apologies. I imagine our daughter has caused you quite a bit of trouble.
-0042 [Tú] | They actually bought it!? Well... whatever works.==W== At least I'm off the hook...
-0043 [Tú] | I've got to turn this weird atmosphere around, and now's my chance!
-0044 [Tú] | Not at all! I should be the one thanking you! Professor Canace has helped me so much!
-0045 [Tú] | Oh, right! It's afternoon tea time, isn't it? I'll get everything ready. Please have a seat on the sofa.
-0046 [Canace] | Hey, hey—you're a Trekker, not the helper! Don't act like one!
-0047 [Canace] | Wait a second, afternoon tea? There's nothing like that in my office... The only thing to drink right now is—
-0048 [Tú] | Uh... Looks like there aren't any snacks, I'll just make some tea ...==W== from this Artifact? The smell's pretty unique...==W== I'll just try a small sip first...
-0049 [Tú] | (gulp)... Ugh, what a weird taste...==W== Is this really the kind of flavor preference of the upper class?
-0050 [Tú] | My apologies for the wait.==W== Please, have some tea.
-0051 [Canace's Mother] | Hmmm...==W== Tea?
-0052 [Tú] | Why does it feel even more tense than before?! Was it my manners? Was it the serving order? What did I do wrong?!
-0053 [Tú] | I've got it! Nobles usually have a servant taste for poison first, right? In that case...
-0054 [Tú] | My apologies—I wasn't thinking...==W== Uh... Please allow me to taste for poison first.
-0055 [Canace] | Wait, you're not supposed to drink—
-0056 [Tú] | Gulp—ugh—hahhh...
-0057 [Tú] | Such a weird taste...==W== How can people like this...
-0058 [Tú] | Ah... Ah, eeh~ Eeh~? My eyelids ...==W== are getting so heavy...
-0059 [Canace] | Hey...!==W== Wake up! ==PLAYER_NAME==?! Boss!!
-0060 [Canace's Mother] | Hmph. Let's go. I cannot entertain this ridiculous farce any longer.
-0061 [Canace's Father] | Leaving already? We've only been here. Next time won't be for another three months, you know.
-0062 [Canace's Mother] | Staying too long would just give those old foxes something to use against me. I've gotten the answers I came for, there's no reason to linger.
-0063 [Canace's Mother] | Canaris de Metonia. I'll give you a passing grade, this time.
-0064 [Canace] | Thank you,==W== Mother!
-0065 [Tú] | That's great, Canace...==W== E-even though I don't really get it...==W== She said you ... p-passed... Ugh?!
-0066 [Canace] | Boss! Come on, snap out of it!
-0067 [Narración] | I hear Canace scream, then everything goes black.
-0068 [Canace] | Thankfully...==W== You're awake.
-0069 [Opción] | Did I just ... fall asleep?
-0070 [Canace] | Yeah,==W== you passed out right after you drank that tea.==W== Luckily you didn't get hurt...==W== Gosh,==W== I caused you so much trouble yesterday.==W== I'm sorry.
-0071 [Opción] | No, it wasn't a bother at all.
-0072 [Opción] | By the way, how long was I out?
-0073 [Canace] | A night has passed.==W== It's almost noon now… I think.
-0074 [Opción] | Noon?! I didn't hold you up from work, did I...?
-0075 [Canace] | Don't worry,==W== it's the weekend.==W== There's no one else here==W== but us.
-0076 [Canace] | And...==W== Maybe it's a weird thing to say ...==W== but watching you sleep==W== was kind of fun.
-0077 [Opción] | Huh? So you didn't go home last night?
-0078 [Canace] | Of course not.==W== It is my responsibility that things ended up like this.==W== I couldn't just leave you alone here and go home myself.==W== So,==W== I just stayed with you overnight.
-0079 [Opción] | O-Overnight?!
-0080 [Canace] | Yeah,==W== maybe because I was working on my thesis,==W== time just flew by.==W== Also,==W== the data you collected==W== was very helpful.==W== Thanks to you, the paper was supposed to take three days,==W== but it was pretty much done last night.
-0081 [Opción] | That fast?!
-0082 [Opción] | You didn't get any sleep all night, did you?
-0083 [Canace] | I guess not.==W== By the time I was ready to rest,==W== it was almost eight...==W== So I probably got about ...==W== three hours of sleep?
-0084 [Canace] | You were sleeping so soundly next to me,==W== and you had such a nice scent,==W== that I ended up fast asleep.
-0085 [Opción] | Huh? Scent...?
-0086 [Canace] | Don’t get the wrong idea,==W== it's just that you suddenly rolled over==W== and bumped into me,==W== which means that was completely an accident.
-0087 [Canace] | But… ==W== because holding you felt so reassuring,==W== I just ended up using you as a body pillow.
-0088 [Opción] | (She used me as a body pillow?!)
-0089 [Canace] | Anyway,==W== I owe you a big thank you.==W== It was definitely the right decision to ask for your help.
-0090 [Canace] | If you don't mind,==W== please feel free to drop by.==W== I'd be happy to see you.
-0091 [Tú] | Oh sure, I'd like that—
-0092 [Tú] | Come to think of it...==W== The way you addressed me yesterday sounded a little different from usual...
-0093 [Canace] | It's just your imagination. You were exhausted at the time.
-0094 [Tú] | No, you definitely called me Boss. You usually just call me by name.
-0095 [Canace] | It's just your imagination. You were exhausted at the time.
-0096 [Tú] | You aren't very convincing, you know...
-0097 [Tú] | Wait a second... I remember now—==W==what was that tea of yours? One sip and I was out cold!
-0098 [Canace] | That was my special magic sleep tonic. It's meant to improve sleep quality. You drank way too much at once...
-0099 [Tú] | That explains it... No wonder I suddenly felt so sleepy...
-0100 [Tú] | Then...==W== What was with your outfit and the way you were talking yesterday?
-0101 [Tú] | You were just like a noble lady. And your parents, that surname of yours—it's a noble family name, isn't it?
-0102 [Canace] | It's just your imagination. You were exhausted at the time.
-0103 [Tú] | No way! I saw it with my own eyes and heard it with my own ears!
-0104 [Canace] | It's just your imagination. You were exhausted at the time.
-0105 [Tú] | Wait a minute, your mother mentioned a name, Canaris de Metonia...==W== Don't tell me that's your full name?
-0106 [Canace] | Wah, you heard even that?
-0107 [Canace] | Anyway... I'm not some noble lady, and I don't have some posh last name. Please, just think of it as a dream you had.
-0108 [Tú] | Hmm...==W== I don't quite get it, but it seems like you've got stuff that you can't talk about.
-0109 [Canace] | Y-you're really understanding, aren't you... Anyway, please do me a favor and forget all about how awkward I looked in that dress.
-0110 [Tú] | Since you put it that way, I'll do my best to forget...==W== But I gotta say, you looked really good in that dress.
-0111 [Canace] | Forget that dress!==W== Remember me as I am now.
-0112 [Tú] | O-Okay, okay...==W== Alright, I'll try to forget that.
-0113 [Narración] | But for one reason or another, Canace ended up wearing that dress in front of me more than once. So instead of forgetting, it's now burned even more clearly onto my memory.
+0001 [Intro] | Acto tres
+0002 [Intro] | El artículo secreto extraescolar (Parte III)
+0003 [Intro] | ¿Alguien todavía recuerda que estamos aquí para escribir un artículo?
+0004 [Narración] | Canace, animándose a sí misma mientras sale, parece hablar con alguien justo afuera de la puerta.
+0005 [Canace] | Madre... Padre... Les pido disculpas por haberlos hecho esperar.
+0006 [Canace] | Estaba tratando asuntos importantes con un ejecutivo de cierta empresa. Oh, jo, jo, jo...==W== Mil disculpas por no haberlos recibido antes...
+0007 [Tú] | ¡¿Quién es esa?!
+0008 [Tú] | No, esa voz es de Canace, pero el tono suena como el de alguien totalmente distinta. Entonces... ¿está hablando con sus padres?
+0009 [Canace's Mother] | Sea como sea, el hecho es que me tuviste a mí y a tu padre esperando en la puerta seis minutos y veintiún segundos. Tu manejo del tiempo deja mucho que desear. ¿Entiendes el valor del tiempo?
+0010 [Canace's Mother] | Además, pasaste unos veinte segundos poniendo excusas por tu mala conducta. Si no tienes una buena razón, esto no va a quedar así.
+0011 [Canace] | Pues...==W== El informe sobre mi labor docente ya fue entregado a la finca hace tres semanas.
+0012 [Canace] | En cuanto a unirme al Consejo de la Academia Luz de Gracia, todavía no hay vacante, pero no desaprovecharé ninguna oportunidad cuando surja.
+0013 [Canace's Mother] | ¿Crees que puedes salirte con la tuya con un informe oral como este? Eres una Metonia. Siempre se espera que des resultados tres veces por encima del estándar.
+0014 [Canace's Mother] | Claro, eso si todavía te consideras una Metonia.
+0015 [Canace's Father] | Bueno, bueno, querida, Canace ya es adulta. Déjala hacer lo que quiera.
+0016 [Canace's Father] | Después de todo, viniste aquí solo para asegurarte de que está bien, ¿no es cierto?
+0017 [Tú] | Parece que Canace tiene problemas familiares. Por eso estaba tan alterada hace rato. Como no hay peligro inmediato, probablemente debería irme.
+0018 [Narración] | Abro en silencio la puerta de la oficina, con la intención de escabullirme a espaldas de Canace.
+0019 [Canace's Father] | No es el mejor lugar para hablar. Ven, Canace, entremos a tu oficina.
+0020 [Tú] | ¡Rayos! ¡Tengo que moverme!
+0021 [Canace] | ¡Ah! ¡No!
+0022 [Canace's Mother] | Canace, ¿será que nos estás ocultando algo?
+0023 [Canace] | ¡No, no! Es solo que...
+0024 [Canace's Mother] | Entonces, por favor, hazte a un lado.
+0025 [Narración] | La madre de Canace empuja la puerta de par en par con una velocidad inesperada.
+0026 [Tú] | ¡Auch...!
+0027 [Canace's Mother] | ¿Mm? ¿Algo golpeó la puerta...?
+0028 [Tú] | Ay, ay...==W== H-hola, mucho gusto...
+0029 [Tú] | ¡Estoy...==W== perdido!
+0030 [Canace's Father] | ¡¿Eh?! ¿Quién es usted?
+0031 [Canace's Mother] | Hmph, así que el comportamiento extraño de Canace hoy era por esto...==W== Mm, disculpe, ¿cómo debo dirigirme a usted? ¿Y cuál es exactamente su relación con mi hija?
+0032 [Tú] | Ese tono... seguro lo está malinterpretando...
+0033 [Tú] | Eh, bueno... Soy estudiante de Canace. Solo vine a hacerle unas preguntas, ¡lo juro, no pasa nada sospechoso!
+0034 [Canace's Mother] | ¿Un estudiante...?==W== No lleva uniforme y tiene los zapatos cubiertos de lodo.
+0035 [Canace's Mother] | No se inclinó ni nos saludó de inmediato a pesar de nuestra evidente posición, pero sus ojos fueron por instinto a los movimientos de nuestros brazos. Es un Trekker, ¿verdad?
+0036 [Tú] | ¡Qué perspicacia...!==W== ¡De tal palo, tal astilla...!
+0037 [Canace] | S-sí, madre, ==SEX== ...==W== es Trekker y me está ayudando con mi artículo. Estoy escribiendo una tesis sobre el Monolito.
+0038 [Canace] | Y ==SEX== ha estado en Cangwu...
+0039 [Canace] | Como dirían en Cangwu: «entre tres personas, siempre hay una que puede ser mi maestra». Por eso ==SEX== dijo que ==SEX== era mi estudiante.
+0040 [Tú] | Esa explicación es demasiado forzada... ¿De verdad alguien se la creería?
+0041 [Canace's Father] | Ya veo. Cada día se aprende algo nuevo. Mis disculpas. Imagino que nuestra hija le ha causado bastantes molestias.
+0042 [Tú] | ¡¿De verdad se lo creyeron?! Bueno... lo que funcione.==W== Al menos me salvé...
+0043 [Tú] | Tengo que cambiar este ambiente tan raro, ¡y esta es mi oportunidad!
+0044 [Tú] | ¡Para nada! ¡Yo soy quien debe agradecerles! ¡La profesora Canace me ha ayudado muchísimo!
+0045 [Tú] | ¡Ah, cierto! Es la hora del té de la tarde, ¿verdad? Yo me encargo de prepararlo todo. Por favor, tomen asiento en el sofá.
+0046 [Canace] | ¡Oye, oye, tú eres Trekker, no el ayudante! ¡No actúes como uno!
+0047 [Canace] | Espera un momento, ¿té de la tarde? No hay nada de eso en mi oficina... Lo único que hay para beber ahora es...
+0048 [Tú] | Eh... Parece que no hay bocadillos, solo prepararé un poco de té...==W== ¿con este Artefacto? El olor es bastante peculiar...==W== Primero probaré un traguito...
+0049 [Tú] | (glup)... Ugh, qué sabor tan raro...==W== ¿De verdad es este el gusto de la clase alta?
+0050 [Tú] | Perdón por la espera.==W== Por favor, tomen un poco de té.
+0051 [Canace's Mother] | Mmm...==W== ¿Té?
+0052 [Tú] | ¡¿Por qué se siente todavía más tenso que antes?! ¿Fueron mis modales? ¿El orden en que serví? ¡¿Qué hice mal?!
+0053 [Tú] | ¡Ya sé! Los nobles suelen hacer que un sirviente pruebe primero por si hay veneno, ¿no? En ese caso...
+0054 [Tú] | Mis disculpas, no estaba pensando...==W== Eh... Permítanme probar primero por si hay veneno.
+0055 [Canace] | Espera, no se supone que bebas...
+0056 [Tú] | Glup... ugh... jaaah...
+0057 [Tú] | Qué sabor tan raro...==W== Cómo puede gustarle a alguien...
+0058 [Tú] | Ah... Ah, eeh～ ¿Eeh～? Mis párpados...==W== se están poniendo muy pesados...
+0059 [Canace] | ¡Oye...!==W== ¡Despierta! ¡¿==PLAYER_NAME==?! ¡¡Jefe!!
+0060 [Canace's Mother] | Hmph. Vámonos. No puedo seguir tolerando esta farsa ridícula.
+0061 [Canace's Father] | ¿Ya se van? Apenas llegamos. La próxima vez no será sino dentro de tres meses, ya sabes.
+0062 [Canace's Mother] | Quedarnos demasiado solo les daría algo a esos viejos zorros para usar en mi contra. Obtuve las respuestas a las que vine, no hay razón para quedarnos.
+0063 [Canace's Mother] | Canaris de Metonia. Te daré una calificación aprobatoria, esta vez.
+0064 [Canace] | Gracias,==W== ¡madre!
+0065 [Tú] | Qué bueno, Canace...==W== A-aunque en realidad no entiendo...==W== Dijo que tú... a-aprobaste... ¡¿Ugh?!
+0066 [Canace] | ¡Jefe! ¡Vamos, reacciona!
+0067 [Narración] | Oigo gritar a Canace, y luego todo se vuelve negro.
+0068 [Canace] | Menos mal...==W== Despertaste.
+0069 [Opción] | ¿Me quedé... dormido?
+0070 [Canace] | Sí,==W== te desmayaste justo después de beber ese té.==W== Por suerte no te lastimaste...==W== Caramba,==W== te causé muchísimos problemas ayer.==W== Lo siento.
+0071 [Opción] | No, no fue ninguna molestia.
+0072 [Opción] | Por cierto, ¿cuánto tiempo estuve inconsciente?
+0073 [Canace] | Pasó una noche.==W== Ya casi es mediodía… creo.
+0074 [Opción] | ¡¿Mediodía?! No te retrasé del trabajo, ¿verdad...?
+0075 [Canace] | No te preocupes,==W== es fin de semana.==W== No hay nadie más aquí==W== aparte de nosotros.
+0076 [Canace] | Y...==W== quizá sea raro decirlo...==W== pero verte dormir==W== fue algo divertido.
+0077 [Opción] | ¿Eh? ¿O sea que no te fuiste a casa anoche?
+0078 [Canace] | Claro que no.==W== Es mi responsabilidad que las cosas terminaran así.==W== No podía dejarte solo aquí e irme a casa.==W== Así que,==W== simplemente me quedé contigo toda la noche.
+0079 [Opción] | ¡¿T-toda la noche?!
+0080 [Canace] | Sí,==W== quizá porque estaba trabajando en mi tesis,==W== el tiempo voló.==W== Además,==W== los datos que recopilaste==W== fueron muy útiles.==W== Gracias a ti, el artículo que debía llevar tres días==W== quedó prácticamente listo anoche.
+0081 [Opción] | ¡¿Tan rápido?!
+0082 [Opción] | No dormiste nada en toda la noche, ¿verdad?
+0083 [Canace] | Supongo que no.==W== Cuando estuve lista para descansar,==W== ya eran casi las ocho...==W== Así que probablemente dormí unas...==W== ¿tres horas?
+0084 [Canace] | Dormías tan profundamente a mi lado,==W== y tenías un aroma tan agradable,==W== que terminé profundamente dormida.
+0085 [Opción] | ¿Eh? ¿Aroma...?
+0086 [Canace] | No lo malinterpretes,==W== es solo que de repente te giraste==W== y chocaste conmigo,==W== lo cual fue totalmente un accidente.
+0087 [Canace] | Pero…==W== como abrazarte me daba tanta tranquilidad,==W== terminé usándote como almohada.
+0088 [Opción] | (¡¿Me usó como almohada?!)
+0089 [Canace] | En fin,==W== te debo un enorme agradecimiento.==W== Definitivamente fue la decisión correcta pedirte ayuda.
+0090 [Canace] | Si no te molesta,==W== siéntete libre de pasar por aquí.==W== Me daría gusto verte.
+0091 [Tú] | Claro, me encantaría...
+0092 [Tú] | Ahora que lo pienso...==W== La forma en que me llamaste ayer sonaba un poco distinta de lo habitual...
+0093 [Canace] | Es solo tu imaginación. Estabas agotado en ese momento.
+0094 [Tú] | No, definitivamente me llamaste Jefe. Normalmente solo me llamas por mi nombre.
+0095 [Canace] | Es solo tu imaginación. Estabas agotado en ese momento.
+0096 [Tú] | No eres muy convincente, ¿sabes?
+0097 [Tú] | Espera un momento... ya me acuerdo:==W== ¿qué era ese té tuyo? ¡Un sorbo y quedé fuera de combate!
+0098 [Canace] | Era mi tónico mágico especial para dormir. Sirve para mejorar la calidad del sueño. Bebiste demasiado de golpe...
+0099 [Tú] | Eso lo explica... Con razón de repente me dio tanto sueño...
+0100 [Tú] | Entonces...==W== ¿qué había con tu atuendo y tu manera de hablar ayer?
+0101 [Tú] | Eras igualita a una dama noble. Y tus padres, ese apellido tuyo... es un apellido de familia noble, ¿no?
+0102 [Canace] | Es solo tu imaginación. Estabas agotado en ese momento.
+0103 [Tú] | ¡Imposible! ¡Lo vi con mis propios ojos y lo oí con mis propios oídos!
+0104 [Canace] | Es solo tu imaginación. Estabas agotado en ese momento.
+0105 [Tú] | Espera un momento, tu madre mencionó un nombre, Canaris de Metonia...==W== No me digas que ese es tu nombre completo.
+0106 [Canace] | Ay, ¿hasta eso oíste?
+0107 [Canace] | En fin... no soy ninguna dama noble ni tengo ningún apellido elegante. Por favor, piensa que fue un sueño que tuviste.
+0108 [Tú] | Mmm...==W== No lo entiendo del todo, pero parece que hay cosas de las que no puedes hablar.
+0109 [Canace] | Qué comprensivo eres, ¿eh?... En fin, por favor, hazme el favor de olvidar lo incómoda que me veía con ese vestido.
+0110 [Tú] | Ya que lo pides así, haré lo posible por olvidarlo...==W== Pero debo decir que te veías muy bien con ese vestido.
+0111 [Canace] | ¡Olvida ese vestido!==W== Recuérdame como soy ahora.
+0112 [Tú] | B-bueno, bueno...==W== Está bien, intentaré olvidarlo.
+0113 [Narración] | Pero por una u otra razón, Canace terminó usando ese vestido frente a mí más de una vez. Así que, en lugar de olvidarlo, ahora lo tengo grabado aún más nítido en la memoria.

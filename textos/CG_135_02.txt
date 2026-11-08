@@ -3,91 +3,91 @@
 # Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
 
 ## Nombres
-N:Shopkeeper | Shopkeeper
-N:Stalker | Stalker
+N:Shopkeeper | Tendero
+N:Stalker | Acosador
 N:avg1_135 | Mistique
-N:avg2_970 | Wandering Birds Trekker
-N:avg2_971 | Wandering Birds Trekker
+N:avg2_970 | Trekker de las Aves Errantes
+N:avg2_971 | Trekker de las Aves Errantes
 N:avg3_100 | Sylar
 N:avg3_1232 | Soldado Trekker
 N:avg3_143 | Residente
 
 ## Texto
-0001 [Intro] | Act Two
-0002 [Intro] | A Special Report (Part II)
-0003 [Intro] | Your special interview with Mistique is cut short by mysterious stalkers.
-0004 [Tú] | These and those too, please help me pack them up.
-0005 [Tú] | Please have them delivered to the address on this slip tomorrow—if no one's outside, just knock on the RV's door.
-0006 [Tú] | Oh, right! Add a few more of these too...==W== Yup, thanks! And no delivery fee this time either, right?
-0007 [Mistique] | Wah...
-0008 [Mistique] | So touching! Truly the thrifty Boss we all never expected!
-0009 [Mistique] | It's just food and adventure supplies, but the quantities are spot-on, everything's well-balanced, and you even managed to hit the free shipping minimum!
-0010 [Mistique] | With leadership qualities like yours, you will be running the greatest company in Nova in no time!
-0011 [Shopkeeper] | Excuse me, miss. Would you mind not standing in front of the counter if you're not paying?
-0012 [Tú] | I'm kinda regretting this already.
-0013 [Mistique] | Ah! Sorry, I was just running my mouth. It was a compliment, haha!
-0014 [Tú] | Can you dial back the over-the-top lines a little? Coming up with a snarky reply for everything can be tiring, you know.
-0015 [Mistique] | Gotta have a few lines prepared. It makes writing the report so much easier later!
-0016 [Mistique] | That's one of the witches' favorite pro tips, you know!
-0017 [Tú] | Anyway... Asking a witch for image rights fee is beneath someone like me.
-0018 [Tú] | So in exchange, I'm having Mistique write a piece about Boss Accord Staffing—and in the process, take a few pictures for me.
-0019 [Tú] | As to what else she's going to do with the pics, ==W==I'm not going to ask.
-0020 [Tú] | Is it the right thing to do?==W== Oh well, I guess it counts as free advertising. Might bring in some extra business.
-0021 [Tú] | Plus, it's solid proof to the girls that I'm not slacking off even on my day off!
-0022 [Tú] | Little by little, I will build my everlasting authority. Mwa Ha Ha!
-0023 [Mistique] | So you aren't carrying any of the stuff you just bought?
-0024 [Tú] | Last time I insisted on carrying everything back myself and ended up with strap marks all over my hands.
-0025 [Tú] | Ever since I found out they offer delivery, I've been hitting that free shipping minimum...
-0026 [Tú] | Speaking of which, I grabbed a packet of dried fish just to round out the order. I figured I'd share it with the others.
-0027 [Mistique] | Come on, learn to enjoy life a little...==W== This is supposed to be your day off!
-0028 [Mistique] | Trekking through the wilds, dealing with Monolith crises all the time... It's only fair for a Trekker to enjoy a bit of peace and quiet during a rare city break.
-0029 [Mistique] | A chance like this only comes once in a long while. Are you seriously not gonna sneak in a snack to treat yourself?
-0030 [Tú] | The snack is for everyone in the New Star Guild. I can't take them all for myself.
-0031 [Mistique] | Oh my gosh, Boss! Who would've thought you were such a noble, team-minded leader!
-0032 [Mistique] | Even when there's only one packet of snacks, you won't hesitate to share it with your loyal crew!
-0033 [Tú] | That's right. So none for you.
-0034 [Narración] | I hold up a piece of dried fish, dangling it right in front of Mistique's eyes.
-0035 [Mistique] | Ah! It smells delicious!
-0036 [Narración] | Her eyes follow the dried fish as I wave it around. Then she lunges … and misses.
-0037 [Mistique] | It's clear as day...==W== Be it New Star Guild … or Boss Accord Staffing...==W== Business is booming for you!==W==
-0038 [Narración] | Even while out of breath from trying to grab the dried fish, she keeps going with her rambling.
-0039 [Mistique] | I, I may just be a humble witch … but there's still plenty … I can do for you!==W== Don't you think...?
-0040 [Narración] | I gently pop the dried fish into her mouth.
-0041 [Mistique] | Yum, yum!
-0042 [Mistique] | Money's been tight lately. I haven't bought this brand of dried fish in ages!
-0043 [Tú] | Can't believe Mistique's still like a kid—a few pieces of dried fish and she's beaming.
-0044 [Tú] | Now that I look at her... With the hat on, she might actually be taller than me.
-0045 [Narración] | Mistique's always full of curiosity about me, but I've never gotten to know anything about her past.
-0046 [Tú] | Sigh... I guess I should figure myself out first before moving on to others.
-0047 [Tú] | She looks so happy munching on it... Maybe I'll try one, too.
-0048 [Mistique] | This is the good stuff!
-0049 [Mistique] | A picture of you smiling on your day off. This photo's gotta fetch a good price!
-0050 [Tú] | Oh, so this is to catch a shot of my smile, huh?
-0051 [Tú] | Mistique... She's actually a pretty amazing witch, isn't she?
-0052 [Tú] | Weird. I'm getting that same eerie chill again.
-0053 [Mistique] | Looks like this stroll can use a little upgrade.
-0054 [Mistique] | Come with me, Boss.
-0055 [Tú] | Wait—
+0001 [Intro] | Acto dos
+0002 [Intro] | Un reportaje especial (Parte II)
+0003 [Intro] | Tu entrevista especial con Mistique se ve interrumpida por misteriosos acosadores.
+0004 [Tú] | Esto y aquello también, por favor, ayúdeme a empacarlos.
+0005 [Tú] | Por favor, entréguelos mañana en la dirección de esta nota; si no hay nadie afuera, solo toque la puerta de la casa rodante.
+0006 [Tú] | ¡Ah, cierto! Añada unos cuantos más de estos...==W== ¡Sí, gracias! Y esta vez tampoco hay costo de envío, ¿verdad?
+0007 [Mistique] | Buaa...
+0008 [Mistique] | ¡Qué conmovedor! ¡Verdaderamente el Jefe ahorrativo que nadie esperaba!
+0009 [Mistique] | Son solo comida y suministros de aventura, ¡pero las cantidades son justas, todo está bien equilibrado, y hasta lograste alcanzar el mínimo para envío gratis!
+0010 [Mistique] | ¡Con cualidades de liderazgo como las tuyas, pronto dirigirás la mejor empresa de Nova!
+0011 [Shopkeeper] | Disculpe, señorita. ¿Le importaría no quedarse frente al mostrador si no va a pagar?
+0012 [Tú] | Ya me estoy arrepintiendo de esto.
+0013 [Mistique] | ¡Ah! Perdón, solo estaba soltando la lengua. ¡Era un cumplido, jaja!
+0014 [Tú] | ¿Puedes bajarle un poco a esas frases exageradas? Inventar una respuesta ingeniosa para todo puede ser agotador, ¿sabes?
+0015 [Mistique] | Hay que tener algunas frases preparadas. ¡Así es mucho más fácil escribir el reportaje después!
+0016 [Mistique] | ¡Ese es uno de los consejos profesionales favoritos de las brujas, ¿sabías?!
+0017 [Tú] | En fin... Pedirle a una bruja una tarifa por derechos de imagen está por debajo de alguien como yo.
+0018 [Tú] | Así que, a cambio, hago que Mistique escriba una nota sobre Boss Accord Staffing, y de paso me tome unas fotos.
+0019 [Tú] | En cuanto a qué más hará con las fotos, ==W==no pienso preguntar.
+0020 [Tú] | ¿Estará bien hacer esto?==W== Bueno, supongo que cuenta como publicidad gratis. Podría traer clientes extra.
+0021 [Tú] | Además, ¡es prueba sólida para las chicas de que no estoy holgazaneando ni siquiera en mi día libre!
+0022 [Tú] | Poco a poco, construiré mi autoridad eterna. ¡Muajajá!
+0023 [Mistique] | ¿No llevas nada de lo que acabas de comprar?
+0024 [Tú] | La última vez insistí en cargar todo yo solo y terminé con marcas de las correas por todas las manos.
+0025 [Tú] | Desde que descubrí que hacen entregas, siempre alcanzo el mínimo de envío gratis...
+0026 [Tú] | Hablando de eso, tomé un paquete de pescado seco solo para completar el pedido. Pensé en compartirlo con los demás.
+0027 [Mistique] | Vamos, aprende a disfrutar un poco la vida...==W== ¡Se supone que es tu día libre!
+0028 [Mistique] | Recorrer tierras salvajes, lidiar siempre con crisis de Monolitos... Es justo que un Trekker disfrute de un poco de paz y tranquilidad en un raro descanso en la ciudad.
+0029 [Mistique] | Una oportunidad así llega muy de vez en cuando. ¿En serio no te vas a dar el gusto de comerte un bocadillo a escondidas?
+0030 [Tú] | El bocadillo es para todos en el Gremio de la Nueva Estrella. No puedo quedármelos todos.
+0031 [Mistique] | ¡Cielos, Jefe! ¡Quién diría que eras un líder tan noble y solidario!
+0032 [Mistique] | ¡Incluso cuando hay un solo paquete de bocadillos, no dudas en compartirlo con tu leal equipo!
+0033 [Tú] | Así es. Por eso no hay para ti.
+0034 [Narración] | Levanto un trozo de pescado seco y lo balanceo justo frente a los ojos de Mistique.
+0035 [Mistique] | ¡Ah! ¡Huele delicioso!
+0036 [Narración] | Sus ojos siguen el pescado seco mientras lo agito. Entonces se lanza... y falla.
+0037 [Mistique] | Está claro como el agua...==W== Ya sea el Gremio de la Nueva Estrella … o Boss Accord Staffing...==W== ¡Los negocios te van viento en popa!==W==
+0038 [Narración] | Aun sin aliento por intentar atrapar el pescado seco, sigue con su parloteo.
+0039 [Mistique] | Y-yo quizá solo sea una humilde bruja … ¡pero aún hay mucho … que puedo hacer por ti!==W== ¿No crees...?
+0040 [Narración] | Con suavidad le meto el pescado seco en la boca.
+0041 [Mistique] | ¡Ñam, ñam!
+0042 [Mistique] | El dinero ha estado justo últimamente. ¡Hace siglos que no compraba esta marca de pescado seco!
+0043 [Tú] | No puedo creer que Mistique siga siendo como una niña: unos cuantos pedazos de pescado seco y ya está radiante.
+0044 [Tú] | Ahora que la veo... Con el sombrero puesto, quizá hasta sea más alta que yo.
+0045 [Narración] | Mistique siempre está llena de curiosidad por mí, pero nunca he llegado a saber nada de su pasado.
+0046 [Tú] | Suspiro... Supongo que primero debería entenderme a mí mismo antes de pasar a los demás.
+0047 [Tú] | Se ve tan feliz masticándolo... Quizá yo también pruebe uno.
+0048 [Mistique] | ¡Esto sí es lo bueno!
+0049 [Mistique] | Una foto tuya sonriendo en tu día libre. ¡Esta foto debe de valer un buen precio!
+0050 [Tú] | Ah, o sea que esto era para capturar mi sonrisa, ¿eh?
+0051 [Tú] | Mistique... En realidad es una bruja bastante asombrosa, ¿no?
+0052 [Tú] | Qué raro. Otra vez siento ese mismo escalofrío extraño.
+0053 [Mistique] | Parece que este paseo necesita una pequeña mejora.
+0054 [Mistique] | Ven conmigo, Jefe.
+0055 [Tú] | Espera...
 0056 [Mistique] | Shhh...
-0057 [Tú] | Her gesture seems to say, "don't worry, everything's under control."
-0058 [Tú] | Wait, no... Come to think of it, I'm usually the one saying stuff like that.
-0059 [Tú] | There's a shortcut from the shopping street to here...? That's useful.
-0060 [Mistique] | So, you noticed it too, right, Boss?
-0061 [Tú] | Yeah, someone was secretly taking photos of us.
-0062 [Tú] | Though, I can't believe they did a worse job of staying covert than you.
-0063 [Mistique] | Was that a compliment? Fufu, Mistique one, shady stalkers zero!
-0064 [Tú] | Umm, more like a complisult?
-0065 [Tú] | Jokes aside, are you sure you were the only one who took that commission of taking my photo?
-0066 [Mistique] | Pretty sure. After all,==W== they specifically asked for me.
-0067 [Tú] | Asked for you?
-0068 [Mistique] | Yeah. I mean, the commission was a simple notice on the bulletin board, but it specifically stated, "for Mistique, the witch who seeks the truth!"
-0069 [Tú] | Come to think of it, even if it were open to everyone else, only you' actually stalk me and snap photos.
-0070 [Mistique] | Hey, I was not stalking you. I was practically doing it out in the open.
-0071 [Mistique] | Tsk. And here I thought I had shaken off those pesky rats.
-0072 [Narración] | No sooner had Mistique finished speaking than a group of armed Trekkers stepped out from the shadows of the alley.
-0073 [Stalker] | Finally got you.
-0074 [Stalker] | She's not alone? Guess we have no other choice.
-0075 [Stalker] | We go on three, let's bag this.
-0076 [Mistique] | You dare interrupt a witch's interview … during her day off? Such audacity...
-0077 [Tú] | That's totally not the point...
-0078 [Mistique] | Sweeping away those who interfere with an interview,==W== that's also the duty of a witch!
+0057 [Tú] | Su gesto parece decir: «tranquilo, todo está bajo control».
+0058 [Tú] | Espera, no... Ahora que lo pienso, normalmente soy yo quien dice cosas así.
+0059 [Tú] | ¿Hay un atajo de la calle comercial hasta aquí...? Qué útil.
+0060 [Mistique] | Entonces, tú también lo notaste, ¿verdad, Jefe?
+0061 [Tú] | Sí, alguien nos estaba tomando fotos en secreto.
+0062 [Tú] | Aunque no puedo creer que lo hicieran peor que tú para pasar desapercibidos.
+0063 [Mistique] | ¿Eso fue un cumplido? ¡Fufu, Mistique uno, acosadores sospechosos cero!
+0064 [Tú] | Eh, ¿más bien un «insultido»?
+0065 [Tú] | Bromas aparte, ¿estás segura de que fuiste la única que tomó esa comisión de tomarme fotos?
+0066 [Mistique] | Bastante segura. Después de todo,==W== pidieron específicamente por mí.
+0067 [Tú] | ¿Pidieron por ti?
+0068 [Mistique] | Sí. O sea, la comisión era un simple aviso en el tablón, ¡pero decía específicamente: «para Mistique, la bruja que busca la verdad»!
+0069 [Tú] | Ahora que lo pienso, aunque estuviera abierta a todos, solo tú me acosarías de verdad y me tomarías fotos.
+0070 [Mistique] | Oye, yo no te acosaba. Lo hacía prácticamente a plena vista.
+0071 [Mistique] | Tsk. Y yo que creí que me había sacudido a esas molestas ratas.
+0072 [Narración] | Apenas terminó de hablar Mistique, un grupo de Trekkers armados salió de las sombras del callejón.
+0073 [Stalker] | Por fin te atrapamos.
+0074 [Stalker] | ¿No está sola? Supongo que no tenemos otra opción.
+0075 [Stalker] | A la de tres, vamos a embolsarlos.
+0076 [Mistique] | ¿Se atreven a interrumpir la entrevista de una bruja … en su día libre? Qué audacia...
+0077 [Tú] | Ese no es el punto en absoluto...
+0078 [Mistique] | Eliminar a quienes interfieren con una entrevista,==W== ¡ese también es el deber de una bruja!
