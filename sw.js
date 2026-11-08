@@ -1,7 +1,7 @@
 // Service worker: guarda la app para abrirla sin conexión y siempre busca primero la versión nueva.
 // Si cambias la lista SHELL, sube también el número de CACHE.
-const CACHE = "stella-sora-wiki-v62";
-const SHELL = ["./", "index.html", "data.js", "traducciones.js", "historias.js", "lector.js", "cambios.js", "fichas.js","discos.js","teams.js","cumples.js","stamina.js","sonidos.js","heartlink.js","ajustes.js","emblemas.json","comunidad-config.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
+const CACHE = "stella-sora-wiki-v63";
+const SHELL = ["./", "index.html", "data.js", "traducciones.js", "historias.js", "lector.js", "cambios.js", "fichas.js","discos.js","teams.js","cumples.js","stamina.js","sonidos.js","heartlink.js","ajustes.js","push-config.js","emblemas.json","comunidad-config.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -40,4 +40,18 @@ self.addEventListener("fetch", e => {
       .then(res => { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); return res; })
       .catch(() => caches.match(req).then(m => m || caches.match("index.html")))  // sin internet: copia guardada
   );
+});
+
+// Notificaciones push: muestra el aviso y, al tocarlo, abre la app en Novedades.
+self.addEventListener("push", e => {
+  let d = {}; try { d = e.data ? e.data.json() : {}; } catch (x) { d = { body: e.data && e.data.text() }; }
+  e.waitUntil(self.registration.showNotification(d.title || "Stella Sora Vita", { body: d.body || "", icon: "icon-192.png", badge: "icon-192.png", data: { url: d.url || "./#news" } }));
+});
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  const url = (e.notification.data && e.notification.data.url) || "./";
+  e.waitUntil(clients.matchAll({ type: "window", includeUncontrolled: true }).then(L => {
+    for (const c of L) { if ("focus" in c) { c.navigate && c.navigate(url).catch(() => {}); return c.focus(); } }
+    return clients.openWindow(url);
+  }));
 });

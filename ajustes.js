@@ -33,6 +33,8 @@ document.head.appendChild(css);
 const ITEMS=[
  ["Sonido",
   [["snd","Sonido de Vita","Suena al abrir la app."]]],
+ ["Avisos",
+  [["push","Notificaciones push","Te avisa de novedades: personajes, banners, builds y Discord. En iPhone solo funciona con la app instalada."]]],
  ["Rendimiento",
   [["lite","Modo ahorro","Activa de un golpe todas las opciones de abajo. Ideal para teléfonos modestos.",1],
    ["anim","Animaciones y transiciones","Desactívalas si la app se siente lenta o va a tirones.",0,1],
@@ -46,10 +48,29 @@ const ITEMS=[
 ];
 function val(k,ext){
   if(k==="snd")return ls("ssv_snd","1")!=="0";
+  if(k==="push")return ls("ssv_push","0")==="1"&&window.Notification&&Notification.permission==="granted";
   if(ext==="rde")return ls("rde","1")!=="0";
   if(ext==="rdf")return ls("rdf","0")==="1";
   if(k==="lite")return !C.anim&&!C.splash&&!C.fotos&&!C.pre&&!C.sh;
   return !!C[k];
+}
+let MSG="";
+const b64=v=>{const p="=".repeat((4-v.length%4)%4),r=atob((v+p).replace(/-/g,"+").replace(/_/g,"/"));return Uint8Array.from(r,c=>c.charCodeAt(0))};
+async function pushToggle(){
+  const cf=window.SSV_PUSH||{};MSG="";
+  if(!cf.worker||!cf.vapid){MSG="Las notificaciones aún no están activadas en esta versión.";return}
+  if(!("serviceWorker" in navigator)||!("PushManager" in window)||!window.Notification){MSG="Este navegador no permite notificaciones. En iPhone instala primero la app en la pantalla de inicio.";return}
+  try{
+    const reg=await navigator.serviceWorker.ready;let sub=await reg.pushManager.getSubscription();
+    if(val("push")){
+      if(sub){fetch(cf.worker+"/unsub",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({endpoint:sub.endpoint})}).catch(()=>{});await sub.unsubscribe()}
+      localStorage.setItem("ssv_push","0");return}
+    const pm=await Notification.requestPermission();
+    if(pm!=="granted"){MSG="No diste permiso. Puedes activarlo en los ajustes del navegador para este sitio.";return}
+    if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(cf.vapid)});
+    const r=await fetch(cf.worker+"/sub",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(sub.toJSON())});
+    if(!r.ok)throw 0;localStorage.setItem("ssv_push","1");MSG="¡Listo! Recibirás avisos de novedades."
+  }catch(e){MSG="No se pudo activar. Intenta de nuevo más tarde."}
 }
 function render(){
   const r=document.getElementById("aj-root");if(!r)return;
@@ -61,6 +82,7 @@ function render(){
       h+='<div class="aj-r'+(on?" on":"")+(it[3]?" big":"")+'" data-k="'+k+'" data-x="'+(it[5]||"")+'"><div><b>'+it[1]+'</b><small>'+it[2]+'</small></div><span class="aj-sw"></span></div>';
     });
   });
+  if(MSG)h+='<p class="aj-v" style="color:#cfc8ff">'+MSG+'</p>';
   h+='<div class="aj-sec">Datos</div>'+
    '<button type="button" class="aj-btn" id="aj-clr">Borrar caché y recargar</button>'+
    '<button type="button" class="aj-btn" id="aj-rst">Restablecer ajustes</button>'+
@@ -68,7 +90,8 @@ function render(){
   r.innerHTML=h;
   fetch("sw.js",{cache:"no-store"}).then(x=>x.text()).then(t=>{const m=t.match(/stella-sora-wiki-(v\d+)/);const e=document.getElementById("aj-ver");if(e&&m)e.textContent="Versión de la app: "+m[1]}).catch(()=>{});
 }
-function toggle(k,x){
+async function toggle(k,x){
+  if(k==="push"){await pushToggle();render();return}
   if(k==="snd"){const n=ls("ssv_snd","1")!=="0";if(window.ssvSnd&&ssvSnd.set)ssvSnd.set(!n);else try{localStorage.setItem("ssv_snd",n?"0":"1")}catch(e){}}
   else if(x==="rde"){try{localStorage.setItem("rde",ls("rde","1")!=="0"?"0":"1")}catch(e){}}
   else if(x==="rdf"){try{localStorage.setItem("rdf",ls("rdf","0")==="1"?"0":"1")}catch(e){}}

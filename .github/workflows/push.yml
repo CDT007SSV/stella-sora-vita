@@ -1,0 +1,35 @@
+name: Notificaciones push
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10,40 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: push
+  cancel-in-progress: false
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar pywebpush
+        run: pip install --quiet pywebpush
+      - name: Enviar avisos
+        env:
+          PUSH_WORKER: ${{ secrets.PUSH_WORKER }}
+          PUSH_ADMIN: ${{ secrets.PUSH_ADMIN }}
+          VAPID_PRIVADA: ${{ secrets.VAPID_PRIVADA }}
+        run: python3 generar_push.py
+      - name: Guardar estado
+        run: |
+          git add -A push_estado.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Estado de notificaciones push"
+            git pull --rebase -X theirs origin main
+            git push
+          else
+            echo "Sin cambios"
+          fi
