@@ -12,7 +12,7 @@ const cargaJs=u=>new Promise((ok,ko)=>{const s=document.createElement("script");
 let LP=null;const libs=()=>LP||(LP=(async()=>{for(const u of LIBS)await cargaJs(u)})().catch(e=>{LP=null;throw e}));
 const st=document.createElement("style");
 st.textContent=".l2d-card .nota{margin:4px 0 10px}.l2d-stage{position:relative;width:100%;height:440px;border-radius:16px;margin-top:10px;overflow:hidden;background:radial-gradient(circle at 50% 35%,rgba(123,108,255,.25),rgba(10,10,18,.2) 70%);border:1px solid rgba(123,108,255,.3);touch-action:none;-webkit-user-select:none;user-select:none}.l2d-stage canvas{width:100%;height:100%;display:block;touch-action:none}.l2d-stage.fs{position:fixed;inset:0;z-index:9000;height:100%;border-radius:0;border:0;margin:0;background:#0b0a16}.l2d-tb{position:absolute;right:8px;top:8px;display:flex;gap:6px;z-index:3}.l2d-tb button{width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(15,12,35,.75);color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer}"+
-".l2d-ov{position:fixed;inset:0;z-index:9500;background:#0b0a16;display:flex;flex-direction:column}.l2d-oh{display:flex;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;border-bottom:1px solid rgba(123,108,255,.25)}.l2d-oh b{flex:1;font-size:1.05rem}.l2d-oh button{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(123,108,255,.15);color:#fff;font-size:1.1rem;cursor:pointer}.l2d-ob{flex:1;overflow:auto;padding:12px}.l2d-gr{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.l2d-it{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 6px;border-radius:16px;border:1px solid rgba(123,108,255,.3);background:linear-gradient(160deg,rgba(123,108,255,.12),rgba(255,255,255,.02));color:inherit;font:inherit;cursor:pointer}.l2d-it img{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:top;background:#1a1730;border:2px solid rgba(123,108,255,.5)}.l2d-it span{font-size:.8rem;font-weight:600;text-align:center}.l2d-it small{font-size:.68rem;color:var(--t2)}.l2d-ov .l2d-stage{flex:1;height:auto;margin:0;border-radius:0;border:0}.l2d-ov .skin3d{padding:8px 10px calc(10px + env(safe-area-inset-bottom));margin:0}";
+".l2d-ov{position:fixed;inset:0;z-index:100000;background:#0b0a16;display:flex;flex-direction:column}.l2d-oh{display:flex;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;border-bottom:1px solid rgba(123,108,255,.25)}.l2d-oh b{flex:1;font-size:1.05rem}.l2d-oh button{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(123,108,255,.15);color:#fff;font-size:1.1rem;cursor:pointer}.l2d-ob{flex:1;overflow:auto;padding:12px}.l2d-gr{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.l2d-it{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 6px;border-radius:16px;border:1px solid rgba(123,108,255,.3);background:linear-gradient(160deg,rgba(123,108,255,.12),rgba(255,255,255,.02));color:inherit;font:inherit;cursor:pointer}.l2d-it img{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:top;background:#1a1730;border:2px solid rgba(123,108,255,.5)}.l2d-it span{font-size:.8rem;font-weight:600;text-align:center}.l2d-it small{font-size:.68rem;color:var(--t2)}.l2d-ov .l2d-stage{flex:1;height:auto;margin:0;border-radius:0;border:0}.l2d-ov .skin3d{padding:8px 10px calc(10px + env(safe-area-inset-bottom));margin:0}";
 document.head.appendChild(st);
 let app=null,mdl=null,tok=0,Z=1,PX=0,PY=0;
 function ajusta(){
@@ -106,8 +106,16 @@ window.l2dVer=async function(name,prev,tipo){
   if(!arranca(stg,false)){msg("Tu navegador no pudo iniciar el reproductor.");return}
   const bar=b.querySelector(".l2d-bar");ligaChips(bar,msg);pon(lista[0].p,msg);
 };
+/* ¿el capítulo que se lee tiene L2D? devuelve {n:nombre,t:"c"|"d"} o null */
+window.l2dDisp=async function(id,en,names){
+  if(!activo())return null;const I=await indice();if(!I)return null;
+  const m=/^CG_disc(\d+)/.exec(id||"");
+  if(m){const n=I._dn&&I._dn[m[1]];return n&&I._d&&I._d[n]?{n:n,t:"d"}:null}
+  for(const k in (names||{})){if(/^avg1_\d+$/.test(k)){const n=(en&&en[k])||names[k];if(I[n])return{n:n,t:"c"}}}
+  return null;
+};
 window.l2dLista=async function(){
-  const I=await indice(),nombres=Object.keys(I||{}).filter(k=>k!=="_d").sort(),DD=(I&&I._d)||{},discos=Object.keys(DD).sort();
+  const I=await indice(),nombres=Object.keys(I||{}).filter(k=>k[0]!=="_").sort(),DD=(I&&I._d)||{},discos=Object.keys(DD).sort();
   const o=overlay("L2D de personajes y discos",()=>cierraOv(o));
   const DS=(typeof DISCS!=="undefined"?DISCS:[]),di=n=>{const d=DS.find(x=>x.name===n);return d&&d.imageUrl||""};
   const C=(typeof CHARS!=="undefined"?CHARS:[]),ch=n=>C.find(x=>x.name===n),img=n=>{const c=ch(n);if(!c)return "";return (typeof portC==="function"?portC(c):c.imageUrl)||""},fb=n=>{const c=ch(n);return c&&c.imageUrl||""};
