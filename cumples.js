@@ -23,7 +23,7 @@ const css=document.createElement("style");css.textContent=`
 .ov .ovemb iframe{width:100%;border:0;border-radius:14px;background:#000}
 .bd-conf{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:9001}.bd-conf i{position:absolute;top:-20px;width:8px;height:14px;opacity:.9;animation:bdf linear infinite}
 @keyframes bdf{to{transform:translateY(110vh) rotate(540deg)}}
-.cu-hero{position:relative;display:flex;gap:14px;align-items:center;border-radius:18px;padding:14px;margin-bottom:16px;background:linear-gradient(135deg,#6a55ff,#a24bd8);cursor:pointer;overflow:hidden}
+.cu-hero{position:relative;display:flex;gap:14px;align-items:center;border-radius:18px;padding:14px;margin-bottom:16px;background:linear-gradient(135deg,#6a55ff,#a24bd8);cursor:pointer;overflow:hidden}.ca-t{display:flex;gap:8px;margin:0 0 10px}.ca-n{display:flex;align-items:center;justify-content:space-between;margin:4px 0 8px}.ca-n b{font-size:1.05rem}.ca-n button{width:38px;height:34px;border-radius:10px;border:1px solid #3a3560;background:rgba(123,108,255,.15);color:#fff;font-size:1.2rem;cursor:pointer}.ca-g{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:12px}.ca-h{text-align:center;font-size:.68rem;color:var(--t2);padding:2px 0}.ca-d{min-height:58px;border-radius:9px;background:rgba(20,16,50,.6);border:1px solid #2c2850;padding:3px;display:flex;flex-direction:column;align-items:center;gap:2px;position:relative}.ca-d span{font-size:.66rem;color:var(--t2);align-self:flex-start}.ca-d.hoy{border-color:#ff7a8a}.ca-d.hoy span{color:#ff9aa7;font-weight:800}.ca-d.has{border-color:#e8c46a;cursor:pointer;background:rgba(232,196,106,.1)}.ca-d img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1px solid #e8c46a}.ca-d em{font-size:.6rem;font-style:normal;color:#e8c46a}
 .cu-hero img{width:92px;height:92px;border-radius:16px;object-fit:cover;border:2px solid rgba(255,255,255,.3);flex-shrink:0}
 .cu-hero small{display:block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;opacity:.85}.cu-hero b{display:block;font-size:1.15rem;margin:2px 0}.cu-hero span{font-size:.85rem;opacity:.9}
 .cu-m{font-size:.8rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--a);margin:18px 0 8px}.cu-m.now{color:var(--gold)}
@@ -85,20 +85,39 @@ window.cumplesOv=async function(c,m,d){
   o.querySelector("[data-ficha]").addEventListener("click",()=>{cerrar(o);setTimeout(()=>{if(window.nav)window.nav("c/"+c.id)},80)});
 };
 
+let vista="lista",cmes=null;
+const DS=["L","M","M","J","V","S","D"];
+function calHtml(L){
+  const hoy=new Date();if(!cmes)cmes={y:hoy.getFullYear(),m:hoy.getMonth()};
+  const {y,m}=cmes,pri=(new Date(y,m,1).getDay()+6)%7,nd=new Date(y,m+1,0).getDate();
+  const por={};L.filter(x=>x.m===m+1).forEach(x=>(por[x.d]=por[x.d]||[]).push(x));
+  let g=DS.map(d=>`<div class="ca-h">${d}</div>`).join("")+"<div></div>".repeat(pri);
+  for(let d=1;d<=nd;d++){const A=por[d]||[],esHoy=y===hoy.getFullYear()&&m===hoy.getMonth()&&d===hoy.getDate();
+    g+=`<div class="ca-d${esHoy?" hoy":""}${A.length?" has":""}"${A.length?` data-k="${e(A[0].c.id)}"`:""}><span>${d}</span>${A.slice(0,2).map(x=>`<img src="${e(x.c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-k="${e(x.c.id)}">`).join("")}${A.length>2?`<em>+${A.length-2}</em>`:""}</div>`}
+  const lista=Object.keys(por).sort((a,b)=>a-b).map(d=>por[d].map(x=>`<div class="cu-r" data-k="${e(x.c.id)}"><img src="${e(x.c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer"><div><b>${e(x.c.name)}</b><span>${d} de ${MES[m].toLowerCase()}</span></div></div>`).join("")).join("");
+  return `<div class="ca-n"><button type="button" data-cm="-1">‹</button><b>${MES[m]} ${y}</b><button type="button" data-cm="1">›</button></div><div class="ca-g">${g}</div>${lista||'<p class="nota">Nadie cumple años este mes.</p>'}`;
+}
+function tabs(){return `<div class="ca-t"><button type="button" class="chip${vista==="lista"?" on":""}" data-cv="lista">Lista</button><button type="button" class="chip${vista==="cal"?" on":""}" data-cv="cal">Calendario</button></div>`}
 window.cumplesShow=async function(){
   const root=document.getElementById("cu-root");if(!root)return;
   root.innerHTML='<p class="nota">Cargando…</p>';
   const L=await lista();
   if(!L.length){root.innerHTML='<p class="nota">No hay datos de cumpleaños todavía.</p>';return}
-  const S=L.map(x=>Object.assign({n:dias(x.m,x.d)},x)).sort((a,b)=>a.n-b.n),prox=S[0];
-  const hoy=S.filter(x=>x.n===0);
-  let h=`<div class="cu-hero" data-k="${e(prox.c.id)}"><img src="${e(prox.c.imageUrl)}" alt="" referrerpolicy="no-referrer"><div><small>${hoy.length?"Hoy cumple":"Próximo cumpleaños"}</small><b>${e(prox.c.name)}</b><span>${fecha(prox.m,prox.d)} · ${cuando(prox.n)}</span></div></div>`;
+  const pinta=()=>{
+    if(vista==="cal"){root.innerHTML=tabs()+calHtml(L);return}
+    const S=L.map(x=>Object.assign({n:dias(x.m,x.d)},x)).sort((a,b)=>a.n-b.n),prox=S[0],hoy=S.filter(x=>x.n===0);
+    let h=`<div class="cu-hero" data-k="${e(prox.c.id)}"><img src="${e(prox.c.imageUrl)}" alt="" referrerpolicy="no-referrer"><div><small>${hoy.length?"Hoy cumple":"Próximo cumpleaños"}</small><b>${e(prox.c.name)}</b><span>${fecha(prox.m,prox.d)} · ${cuando(prox.n)}</span></div></div>`;
   const mes=new Date().getMonth()+1;
   for(let m=1;m<=12;m++){
     const A=L.filter(x=>x.m===m).sort((a,b)=>a.d-b.d);if(!A.length)continue;
     h+=`<div class="cu-m${m===mes?" now":""}">${MES[m-1]}${m===mes?" · este mes":""}</div>`+A.map(x=>{const n=dias(x.m,x.d);return `<div class="cu-r" data-k="${e(x.c.id)}"><img src="${e(x.c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer"><div><b>${e(x.c.name)}</b><span>${fecha(x.m,x.d)}</span></div><span class="cu-t${n===0?" hoy":""}">${cuando(n)}</span></div>`}).join("")}
-  root.innerHTML=h;
-  root.onclick=ev=>{const t=ev.target.closest("[data-k]");if(!t)return;const x=L.find(y=>y.c.id===t.dataset.k);if(x)window.cumplesOv(x.c,x.m,x.d)};
+    root.innerHTML=tabs()+h;
+  };
+  pinta();
+  root.onclick=ev=>{
+    const v=ev.target.closest("[data-cv]");if(v){vista=v.dataset.cv;pinta();return}
+    const n=ev.target.closest("[data-cm]");if(n){const d=new Date(cmes.y,cmes.m+ +n.dataset.cm,1);cmes={y:d.getFullYear(),m:d.getMonth()};pinta();return}
+    const t=ev.target.closest("[data-k]");if(!t)return;const x=L.find(y=>y.c.id===t.dataset.k);if(x)window.cumplesOv(x.c,x.m,x.d)};
 };
 /* boton del pastel -> lista de cumpleaños en ventana; al elegir un personaje se abre su ficha con voz */
 window.cumplesLista=async function(){

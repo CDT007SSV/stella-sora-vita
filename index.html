@@ -119,6 +119,7 @@ main{padding:12px;max-width:720px;margin:0 auto}
 .bkbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px 14px;margin:0 0 14px;border:2px solid rgba(255,255,255,.85);border-radius:16px;background:linear-gradient(135deg,#6a5cd6,#8e7ce8);color:#fff;font:800 1.15rem/1.2 inherit;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer}.bkbtn span{font-size:1.4rem}.bkbtn:active{transform:scale(.98)}
 .bl{background:rgba(20,16,50,.6);border:1px solid #2c2850;border-radius:14px;padding:12px;margin:0 0 14px}.bl h3{margin:0 0 6px;font-size:.95rem}.bl-ax{display:flex;justify-content:space-between;font-size:.68rem;color:var(--t2)}.bl-b{position:relative;padding-top:18px}.bl-hoy{position:absolute;top:0;bottom:0;width:2px;background:#ff7a8a;z-index:2}.bl-hoy em{position:absolute;top:0;left:-14px;font-size:.62rem;font-style:normal;color:#ff9aa7}.bl-r{margin:6px 0}.bl-t{position:relative}.bl-bar{display:block;height:24px;line-height:24px;padding:0 8px;border-radius:7px;font-size:.7rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.55;color:#fff}.bl-bar.p{background:#6a55ff}.bl-bar.d{background:#1fa89d}.bl-bar.a{opacity:1;box-shadow:0 0 10px rgba(255,255,255,.35)}.bl-r small{display:block;font-size:.64rem;color:var(--t2);margin-top:1px}.bl-k{font-size:.66rem;color:var(--t2);margin:8px 0 0}.bl-k b{display:inline-block;width:10px;height:10px;border-radius:3px;vertical-align:middle;margin:0 2px 0 6px}.bl-k b.p{background:#6a55ff}.bl-k b.d{background:#1fa89d}
 html.claro{filter:invert(1) hue-rotate(180deg)}html.claro img,html.claro video,html.claro canvas,html.claro iframe,html.claro #rd,html.claro #splash,html.claro .hm .bg,html.claro [style*="background-image"]{filter:invert(1) hue-rotate(180deg)}html.claro body{background:#0A0A12}
+.gc-own{position:absolute;top:4px;right:4px;z-index:3;width:26px;height:26px;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:rgba(8,6,22,.72);color:#fff;font-weight:900;font-size:.9rem;line-height:1;cursor:pointer;padding:0}.gc-own.on{background:#2fbf7a;border-color:#2fbf7a;color:#04210f}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
@@ -500,7 +501,7 @@ body.bgm-on .screen{padding-bottom:84px}
   <div class="topbar"><button type="button" data-back>‹</button><h2>Personajes</h2></div>
   <main>
     <div class="cs-row"><input class="search" id="cs" type="search" placeholder="Buscar personaje..."/><button type="button" class="cu-ic" id="cu-open" aria-label="Cumpleaños">🎂</button></div>
-    <div class="filters" id="cr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button></div>
+    <div class="filters" id="cr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button><button class="chip" id="cmine">⭐ Mis personajes</button></div>
     <div class="filters" id="ce"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button></div>
     <div class="fmore-row"><button type="button" class="chip" id="cmore-btn" aria-expanded="false">Más filtros ▾</button></div>
     <div id="cmore" hidden>
@@ -707,7 +708,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
-let cR=null,cE=null,cQ="",dR=null,dE=null,dQ="",backTo="chars",cRole=null,cSt=null,cAt=null,cur="",depth=0,navFlag=false;
+let cR=null,cE=null,cQ="",dR=null,dE=null,dQ="",backTo="chars",cRole=null,cSt=null,cAt=null,cur="",depth=0,navFlag=false,cMine=false;
 const ROLE_ES={Vanguard:"Vanguardia",Support:"Apoyo",Versatile:"Versátil"};
 const ESTR_URL="https://raw.githubusercontent.com/AutumnVN/stelladb/main/public/";
 const estr=(n,h)=>(n>=3&&n<=5)?`<img class="stars" src="${ESTR_URL}${n}star.png" alt="${n}★" style="height:${h||14}px" loading="lazy" onerror="this.replaceWith(document.createTextNode('${n}★'))">`:n+"★";
@@ -946,26 +947,31 @@ function elIcon(el){
 let PORT=null;
 const portC=c=>(PORT&&PORT[c.name])||c.imageUrl;
 fetch("presets.json").then(r=>r.ok?r.json():null).then(P=>{if(!P)return;PORT={};for(const i in P)PORT[P[i].n]="https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/head/head_"+i+"01_XL.webp";if(typeof renderC==="function")renderC()}).catch(()=>{});
+const MIO=new Set();
+function cargaMio(){MIO.clear();try{JSON.parse(localStorage.getItem("ssv_mine")||"[]").forEach(n=>MIO.add(n))}catch(e){}}
 function renderC(){
+  cargaMio();
   const list=CHARS.filter(c=>{
     const q=norm(cQ);
     return(!q||norm(c.name+' '+(c.faction||'')+' '+(c.role||'')+' '+(ROLE_ES[c.role]||'')+' '+c.element).includes(q))
-      &&(cR===null||c.rarity===cR)&&(!cE||c.element===cE)&&(!cRole||c.role===cRole)&&(!cSt||c.style===cSt)&&(!cAt||(c.auto&&c.auto.attack===cAt));
+      &&(cR===null||c.rarity===cR)&&(!cE||c.element===cE)&&(!cRole||c.role===cRole)&&(!cSt||c.style===cSt)&&(!cAt||(c.auto&&c.auto.attack===cAt))&&(!cMine||MIO.has(c.name));
   }).sort((a,b)=>b.rarity-a.rarity||a.name.localeCompare(b.name));
   buildStyleChips();
   {const n=(cRole?1:0)+(cAt?1:0)+(cSt?1:0),mb=document.getElementById("cmore-btn"),op=!document.getElementById("cmore").hidden;
    mb.textContent="Más filtros"+(n?" ("+n+")":"")+(op?" ▴":" ▾");mb.classList.toggle("on",n>0)}
-  const hay=cQ||cR!==null||cE||cRole||cSt||cAt;
+  const hay=cQ||cR!==null||cE||cRole||cSt||cAt||cMine;
   document.getElementById('ccount').textContent=list.length+(list.length===1?' personaje':' personajes')+(hay?' encontrados':'');
   document.getElementById('cclear').hidden=!hay;
   document.getElementById("clist").innerHTML = '<div class="gc-grid">' + list.map(c=>`
     <div class="gc r${c.rarity}" data-el="${c.element}" data-id="${c.id}">
       <img class="gc-i" loading="lazy" decoding="async" alt="" src="${portC(c)}" referrerpolicy="no-referrer" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${c.imageUrl}'}else this.style.display='none'">
-      <span class="gc-el">${elIcon(c.element)}</span>${c.role?`<span class="gc-role ${c.role}">${ROLE_ES[c.role]||c.role}</span>`:""}
+      <span class="gc-el">${elIcon(c.element)}</span><button type="button" class="gc-own${MIO.has(c.name)?" on":""}" data-own="${esc(c.name)}" aria-label="Tengo este personaje">${MIO.has(c.name)?"✓":"+"}</button>${c.role?`<span class="gc-role ${c.role}">${ROLE_ES[c.role]||c.role}</span>`:""}
       <div class="gc-nm"><small>${estr(c.rarity,11)}</small>${c.name}</div>
     </div>`).join("") + '</div>';
   document.querySelectorAll("#clist .gc").forEach(el=>{
-    el.onclick=()=>{ nav('c/'+el.dataset.id) };
+    el.onclick=ev=>{const ow=ev.target.closest&&ev.target.closest("[data-own]");
+      if(ow){ev.stopPropagation();const S=new Set(MIO);S.has(ow.dataset.own)?S.delete(ow.dataset.own):S.add(ow.dataset.own);try{localStorage.setItem("ssv_mine",JSON.stringify([...S]))}catch(e){}renderC();return}
+      nav('c/'+el.dataset.id) };
   });
 }
 function bdayEs(b){
@@ -1078,9 +1084,10 @@ function showC(id){
 }
 
 document.getElementById("cs").oninput=e=>{cQ=e.target.value;renderC()};
-document.querySelectorAll("#cr .chip").forEach(ch=>{
+document.getElementById("cmine").onclick=function(){cMine=!cMine;this.classList.toggle("on",cMine);renderC()};
+document.querySelectorAll("#cr .chip:not(#cmine)").forEach(ch=>{
   ch.onclick=()=>{
-    document.querySelectorAll("#cr .chip").forEach(x=>x.classList.remove("on"));
+    document.querySelectorAll("#cr .chip:not(#cmine)").forEach(x=>x.classList.remove("on"));
     ch.classList.add("on");
     cR=ch.dataset.v?parseInt(ch.dataset.v):null;
     renderC();
@@ -1156,7 +1163,7 @@ document.querySelectorAll("#cat .chip").forEach(ch=>{ch.onclick=()=>{
 document.getElementById("cmore-btn").onclick=()=>{const b=document.getElementById("cmore");b.hidden=!b.hidden;
   document.getElementById("cmore-btn").setAttribute("aria-expanded",String(!b.hidden));renderC()};
 document.getElementById("cclear").onclick=()=>{
-  cQ="";cR=null;cE=null;cRole=null;cSt=null;cAt=null;document.getElementById("cs").value="";
+  cQ="";cR=null;cE=null;cRole=null;cSt=null;cAt=null;cMine=false;document.getElementById("cmine").classList.remove("on");document.getElementById("cs").value="";
   document.querySelectorAll("#cr .chip,#ce .chip,#cro .chip,#cat .chip,#cst .chip").forEach(x=>x.classList.remove("on"));
   const t=document.querySelector('#cr .chip[data-v=""]');if(t)t.classList.add("on");renderC();};
 // vibracion ligera al tocar (Android)
