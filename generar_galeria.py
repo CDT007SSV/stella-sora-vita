@@ -87,10 +87,12 @@ try:
             u = lambda v: W + urllib.parse.quote("%s_skin%d_%s.png" % (f, n, v))
             sk.append({"n": q["n"], "k": "u", "u": u("02"), "f": [u("01"), u("03")]})
         if sk: out.append({"id": "SKN_" + f, "cat": "Skins", "titulo": nm, "imgs": sk})
+    tal = [{"n": nm, "k": "u", "u": W + urllib.parse.quote(nm.replace(" ", "_") + "_Talent.png")} for nm in sorted(ex)]
+    if tal: out.append({"id": "TAL_all", "cat": "Talentos", "titulo": "Ilustraciones de talentos", "imgs": tal})
     if afi: out.append({"id": "AFI_all", "cat": "Ilustraciones de afinidad", "titulo": "Ilustraciones de afinidad (fin del acto 3)", "imgs": afi})
 except Exception as ex_:
     print("Skins no incluidas:", type(ex_).__name__)
-ORD = ["Historia principal", "Eventos", "Nova Times", "Historias de personaje", "Ilustraciones de afinidad", "Recuerdos de cita", "Skins", "Recuerdos de disco", "Discos"]
+ORD = ["Historia principal", "Eventos", "Nova Times", "Historias de personaje", "Ilustraciones de afinidad", "Recuerdos de cita", "Skins", "Talentos", "Recuerdos de disco", "Discos"]
 out.sort(key=lambda g: ORD.index(g["cat"]) if g["cat"] in ORD else 99)
 nuevo = {"grupos": out}
 try:
