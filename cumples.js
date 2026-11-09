@@ -68,7 +68,7 @@ window.cumplesOv=async function(c,m,d){
   await lista();
   const n=dias(m,d),col=EC[c.element]||"#6a55ff",it=LIST.find(x=>x.c.id===c.id),v=VOZ[c.name],gid=it&&it.gid;
   const BASE="https://stellasora.miraheze.org/wiki/Special:FilePath/";
-  const bdq=[2026,2025].map(y=>BASE+encodeURIComponent(c.name.replace(/ /g,"_")+"_Birthday_Log_"+y+".jpg")+"?width=800").concat([c.imageUrl]);
+  const bdq=[2027,2026,2025].map(y=>BASE+encodeURIComponent(c.name.replace(/ /g,"_")+"_Birthday_Log_"+y+".jpg")+"?width=800").concat([c.imageUrl]);
   const fj=(v&&v.f)||(gid?"vo_"+gid+"_ui_birth_001_jp.ogg":""),fc=(v&&v.fc)||(gid?"vo_"+gid+"_ui_birth_001_cn.ogg":"");
   const cap=f=>f?BASE+encodeURIComponent(f.charAt(0).toUpperCase()+f.slice(1)):"";
   const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-cumple">Cumpleaños</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div>

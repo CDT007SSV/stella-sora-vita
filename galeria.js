@@ -79,7 +79,7 @@ window.galShow=async function(){
   if(!r._ok){r._ok=1;
     r.addEventListener("click",e=>{
       const t=e.target.closest(".gl-t");
-      if(t){const g=D.grupos.find(z=>z.id===vg);if(!g)return;lista=g.imgs.map(x=>Object.assign({titulo:g.titulo},x));visor().classList.add("on");ve(+t.dataset.i);return}
+      if(t){const g=D.grupos.find(z=>z.id===vg);if(!g)return;const ok=[...r.querySelectorAll(".gl-t")].filter(z=>z.style.display!=="none").map(z=>+z.dataset.i);lista=ok.map(k=>Object.assign({titulo:g.titulo},g.imgs[k]));visor().classList.add("on");ve(Math.max(0,ok.indexOf(+t.dataset.i)));return}
       const g=e.target.closest("[data-g]");if(g){vg=g.dataset.g;pinta();return}
       const c=e.target.closest("[data-c]");if(c){vc=c.dataset.c;pinta()}
     });

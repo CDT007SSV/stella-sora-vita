@@ -106,10 +106,10 @@ try:
     if tal: out.append({"id": "TAL_all", "cat": "Talentos", "titulo": "Ilustraciones de talentos", "imgs": tal})
     cum = []
     arch = lambda nm, y: "%s_Birthday_Log_%d.jpg" % (nm.replace(" ", "_"), y)
-    hay = en_wiki([arch(nm, y) for nm in ex for y in (2026, 2025)])  # None = no se pudo consultar: se dejan todas
+    hay = en_wiki([arch(nm, y) for nm in ex for y in (2027, 2026, 2025)])  # None = no se pudo consultar: se dejan todas
     faltan = []
     for nm in sorted(ex):
-        l = [arch(nm, y) for y in (2026, 2025) if hay is None or arch(nm, y) in hay]
+        l = [arch(nm, y) for y in (2027, 2026, 2025) if hay is None or arch(nm, y) in hay]
         if not l: faltan.append(nm); continue
         us = [W + urllib.parse.quote(a) for a in l]
         cum.append({"n": nm, "k": "u", "u": us[0], "f": us[1:]})
