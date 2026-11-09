@@ -180,7 +180,11 @@ body.home #start .sub{color:var(--t2);margin:4px 0 0}
 .c-teal{background:linear-gradient(135deg,#7CC7B5,#58A595)}
 .c-pink{background:linear-gradient(135deg,#E24A84,#C42C68)}
 .c-gold{background:linear-gradient(135deg,#E6B24A,#CC9430)}
-.cs-img{display:block;width:100%;height:auto;max-height:78vh;object-fit:contain;border-radius:10px;background:#0e0c18}
+/* historia de personaje: foto mas pequena (para que no se pixele) con marco en el mismo estilo que capitulos, eventos y Nova Times */
+.cs-fr{position:relative;width:72%;max-width:300px;margin:6px auto 18px;padding:5px 5px 0;background:#e9eef0;border:2px solid rgba(255,255,255,.9);border-radius:8px 8px 0 0;box-shadow:0 6px 16px rgba(0,0,0,.45)}
+.cs-img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center 25%;background:#0e0c18;border-radius:3px}
+.cs-fr::after{content:"";display:block;height:14px}
+.cs-tag{position:absolute;left:8px;bottom:-9px;z-index:2;background:#e8962e;color:#fff;font-weight:800;font-size:.72rem;padding:2px 9px;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,.35)}
 .chap-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;display:block;background:#0e0c18}
 .spoil{display:inline-block;background:#3a2a10;color:#ffd27a;font-size:.72rem;font-weight:700;border-radius:999px;padding:3px 10px;margin-bottom:10px}
 #chaps,#events-list,#novatimes-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
@@ -895,7 +899,7 @@ function showCS(name){
   const c=CHAR_STORIES.find(x=>x.name===name); if(!c){showStart();return}
   document.getElementById("cs-title").textContent="Historia de personaje";
   document.getElementById("charstory-detail").innerHTML=`
-    <img class="cs-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <div class="cs-fr"><img class="cs-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"/><span class="cs-tag">✦ Historia</span></div>
     <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(c.name)}</h2>`+
     accionesHist("cs:"+c.name,`<div class="card"><div class="spoil">⚠ Contiene spoilers</div><p style="line-height:1.55">Todavía no hay resumen en español de esta historia. Muy pronto lo agregamos.</p></div>`,c.url,"🌐 Ver en la wiki");
   go("charstory");
