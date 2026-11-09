@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""Genera galeria.json: todas las ilustraciones (CG) que usan las historias del lector, agrupadas por capitulo/evento.
+Lee lector-*.json (que ya se actualizan solos) y los titulos de lector-meta.json / lector.js. Sin red."""
+import json, glob, re, os, datetime
+
+def chof(i):
+    p = i.split("_")
+    if p[0] == "CG" and len(p) > 1 and p[1].startswith("disc"): return "CGD_" + p[1]
+    return p[0] + "_" + p[1] if p[0] in ("STev", "STsp", "CG") else p[0]
+
+HEADS = {}
+js = open("lector.js", encoding="utf-8").read()
+for m in re.finditer(r'"([A-Za-z0-9_]+)":\s*\["([^"]+)"', js):
+    if re.match(r"^(STm|STev|STsp|CG)", m.group(1)): HEADS[m.group(1)] = m.group(2)
+meta = json.load(open("lector-meta.json", encoding="utf-8"))
+for k, v in meta.get("CAPS", {}).items(): HEADS[k] = v[0]
+
+def orden(k):
+    n = [int(x) if x.isdigit() else 0 for x in re.findall(r"\d+", k)]
+    return ({"STm": 0, "STev": 1, "STsp": 2, "CG": 3, "CGD": 4}.get(re.match(r"[A-Za-z]+", k).group(0), 5), n)
+
+def flat(a, o):
+    for s in a or []:
+        o.append(s)
+        if s and s[0] == "choice":
+            for b in s[2]: flat(b, o)
+    return o
+
+vistos, grupos = set(), {}
+for fn in sorted(glob.glob("lector-*.json")):
+    if "meta" in fn: continue
+    aid = fn[len("lector-"):-5]
+    try: d = json.load(open(fn, encoding="utf-8"))
+    except Exception: continue
+    ch = chof(aid)
+    for s in flat(d.get("steps"), []):
+        if s[0] not in ("bg", "obj") or not isinstance(s[1], str): continue
+        n = s[1]
+        if s[0] == "bg" and not re.match(r"(?i)^story_", n): continue
+        if s[0] == "obj" and not re.match(r"(?i)^qstory_", n): continue
+        key = ("b" if s[0] == "bg" else "o") + n.lower()
+        if key in vistos: continue
+        vistos.add(key)
+        grupos.setdefault(ch, []).append({"n": n, "k": "b" if s[0] == "bg" else "o"})
+out = []
+for ch in sorted(grupos, key=orden):
+    t = HEADS.get(ch) or ch
+    cat = {"STm": "Historia principal", "STev": "Eventos", "STsp": "Nova Times", "CG": "Historias de personaje", "CGD": "Recuerdos de disco"}.get(re.match(r"[A-Za-z]+", ch).group(0), "Otros")
+    out.append({"id": ch, "cat": cat, "titulo": t, "imgs": grupos[ch]})
+nuevo = {"grupos": out}
+try:
+    ant = json.load(open("galeria.json", encoding="utf-8"))
+    if ant.get("grupos") == out: print("Sin cambios (%d ilustraciones)" % sum(len(g["imgs"]) for g in out)); raise SystemExit
+except FileNotFoundError: pass
+nuevo["generado"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+json.dump(nuevo, open("galeria.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+print("Galeria: %d grupos, %d ilustraciones" % (len(out), sum(len(g["imgs"]) for g in out)))

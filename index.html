@@ -625,6 +625,11 @@ body.bgm-on .screen{padding-bottom:84px}
   <main><div id="hl-root"></div></main>
 </div>
 
+<div id="s-galeria" class="screen">
+  <div class="topbar"><button type="button" data-back>‹</button><h2>Galería de arte</h2></div>
+  <main><div id="gal-root"></div></main>
+</div>
+
 <div id="s-ranking" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Ranking de equipos</h2></div>
   <main><div id="rk-root"></div></main>
@@ -663,7 +668,7 @@ body.bgm-on .screen{padding-bottom:84px}
   <div class="topbar"><button type="button" data-back>‹</button><h2>Arte · CGs</h2></div>
   <main style="padding:12px 14px">
     <div class="hm-subgrid">
-      <div class="hm hm-sub w c-pink" data-open="https://stellasora.miraheze.org/wiki/CGs"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Story_main_01_005.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story y eventos</i><strong>CGs de la historia</strong></div></div>
+      <div class="hm hm-sub w c-pink" data-go="galeria"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Story_main_01_005.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Main Story y eventos</i><strong>CGs de la historia</strong></div></div>
       <div class="hm hm-sub  c-teal" data-open="https://stellasora.miraheze.org/wiki/Stella_Sora/gallery"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/April_Fools_2026_CN.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Promos y material oficial</i><strong>Galería</strong></div></div>
       <div class="hm hm-sub  c-lav" data-open="https://stellasora.miraheze.org/wiki/Social_Media_Posts"><img class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Amber%27s_Direction.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Publicaciones y arte</i><strong>Social Media</strong></div></div>
     </div>
@@ -688,6 +693,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="ajustes.js"></script>
 <script src="recordatorios.js"></script>
 <script src="ranking.js"></script>
+<script src="galeria.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
@@ -698,7 +704,7 @@ const estr=(n,h)=>(n>=3&&n<=5)?`<img class="stars" src="${ESTR_URL}${n}star.png"
 const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 try{localStorage.removeItem("ss_favs")}catch(e){}
-const PARENT={ranking:"teams",ajustes:"",stamina:"",heartlink:"",teams:"",about:"",news:"",builds:"teams",build:"builds",chars:"",cumples:"chars",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
+const PARENT={galeria:"art",ranking:"teams",ajustes:"",stamina:"",heartlink:"",teams:"",about:"",news:"",builds:"teams",build:"builds",chars:"",cumples:"chars",discs:"",banners:"",modes:"",story:"",art:"",mainstory:"story",chapter:"mainstory",event:"events",nova:"novatimes",events:"story",novatimes:"story",charstories:"story",charstory:"charstories"};
 function nav(h){if(location.hash==="#"+h)return;navFlag=true;depth++;location.hash=h}
 function goBack(){if(depth>0){depth--;history.back();return}
   const p=cur==="detail"?backTo:(PARENT[cur]||"");location.replace("#"+p);}
@@ -737,6 +743,7 @@ function go(id){cur=id;document.body.classList.remove("home");
   if(id==="heartlink"&&window.hlShow)window.hlShow();
   if(id==="ajustes"&&window.ajShow)window.ajShow();
   if(id==="ranking"&&window.rankShow)window.rankShow();
+  if(id==="galeria"&&window.galShow)window.galShow();
   if(id==="cumples"&&window.cumplesShow)window.cumplesShow();
   if(id==="builds"&&window.communityShow)window.communityShow();
 }

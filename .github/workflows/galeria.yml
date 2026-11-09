@@ -1,0 +1,33 @@
+name: Galeria de arte
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Actualizar lector de historias"]
+    types: [completed]
+  schedule:
+    - cron: "55 11 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: galeria
+  cancel-in-progress: false
+jobs:
+  galeria:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar galeria
+        run: python3 generar_galeria.py
+      - name: Guardar cambios
+        run: |
+          git add -A galeria.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Actualizar galeria de arte"
+            git pull --rebase -X theirs origin main
+            git push
+          else
+            echo "Sin cambios"
+          fi
