@@ -1117,7 +1117,7 @@ function showC(id){
     });
   });
   {
-    const auto=(()=>{try{return localStorage.getItem("ssv_auto3d")!=="0"}catch(e){return true}})();
+    const auto=(()=>{try{return localStorage.getItem("ssv_auto3d")==="1"}catch(e){return false}})();
     const qb=document.getElementById("q3d-bar"),qv=(()=>{try{return localStorage.getItem("ssv_q3d")||"auto"}catch(e){return"auto"}})();
     if(qb){qb.insertAdjacentHTML("beforeend",[["auto","Auto"],["bajo","Baja"],["medio","Media"],["alto","Alta"]].map(([k,t])=>`<button type="button" class="chip${qv===k?" on":""}" data-q="${k}">${t}</button>`).join(""));
       qb.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{try{localStorage.setItem("ssv_q3d",b.dataset.q)}catch(e){}qb.querySelectorAll("[data-q]").forEach(x=>x.classList.toggle("on",x===b));if(window.__3dListo)window.recargar3d&&window.recargar3d()})}
