@@ -1,0 +1,27 @@
+name: Revisión diaria del sitio
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 13 * * *"
+permissions:
+  contents: read
+  issues: write
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar
+        run: python3 revisar_sitio.py
+      - name: Avisar con un issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          T="Revisión diaria: hay problemas"
+          N=$(gh issue list --state open --search "$T in:title" --json number -q '.[0].number')
+          if [ -s revision.md ]; then
+            if [ -n "$N" ]; then gh issue edit "$N" --body-file revision.md
+            else gh issue create --title "$T" --body-file revision.md; fi
+          else
+            [ -n "$N" ] && gh issue close "$N" --comment "Todo en orden." || true
+          fi

@@ -1,0 +1,36 @@
+name: Subir versión de caché
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "*.js"
+      - "!sw.js"
+      - "*.css"
+      - "manifest.json"
+permissions:
+  contents: write
+concurrency:
+  group: subir-cache
+  cancel-in-progress: false
+jobs:
+  subir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Subir CACHE en sw.js
+        run: |
+          python3 - <<'PY'
+          import re
+          s=open("sw.js",encoding="utf-8").read()
+          s2=re.sub(r'(const CACHE = "stella-sora-wiki-v)(\d+)"',lambda m:m.group(1)+str(int(m.group(2))+1)+'"',s,1)
+          open("sw.js","w",encoding="utf-8").write(s2)
+          PY
+          if ! git diff --quiet sw.js; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sw.js
+            git commit -m "Subir versión de caché (automático)"
+            git pull --rebase -X theirs origin main
+            git push
+          fi
