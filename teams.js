@@ -134,7 +134,7 @@ let root,T=null,mode="list";
 .tm-hb.h1{background:linear-gradient(135deg,#6a55ff,#a24bd8);box-shadow:0 8px 22px rgba(123,108,255,.35)}
 .tm-hb.h2{background:linear-gradient(135deg,#1d6f8f,#1b3f7a)}
 .tm-hb.h3{background:linear-gradient(135deg,#b5812a,#7a3a52)}
-.tm-hero{position:relative;border-radius:16px;padding:16px;margin-bottom:14px;background:linear-gradient(135deg,#2a2160,#14102c 70%);border:1px solid rgba(123,108,255,.5);overflow:hidden}
+.tm-hb.h4{background:linear-gradient(135deg,#2f9a72,#1d5f86);border-color:rgba(120,240,190,.35)}.tm-hero{position:relative;border-radius:16px;padding:16px;margin-bottom:14px;background:linear-gradient(135deg,#2a2160,#14102c 70%);border:1px solid rgba(123,108,255,.5);overflow:hidden}
 .tm-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 0,rgba(123,108,255,.45),transparent 55%);pointer-events:none}
 .tm-hero>*{position:relative}.tm-hero h3{margin:0 0 4px;font-size:1.15rem}.tm-hero p{margin:0 0 12px;font-size:.82rem;color:var(--t2)}
 .tm-card{position:relative;border-radius:14px;margin-bottom:12px;cursor:pointer;overflow:hidden;border:1px solid #2a2740;background:var(--sf)}
@@ -306,16 +306,22 @@ function vHub(){
   root.innerHTML=`<div class="tm-hero"><h3>Equipos y builds</h3><p>Arma tu equipo de 3 Trekkers, guárdalo y descubre las builds de otros jugadores.</p></div>
    <button class="tm-hb h1" data-a="new"><span class="hi">+</span><span><b>Crear equipo</b><small>Elige Trekkers, potenciales y discos</small></span><span class="ar">›</span></button>
    <button class="tm-hb h2" data-a="mine"><span class="hi">★</span><span><b>Mis equipos</b><small>${n?n+(n===1?" equipo guardado":" equipos guardados"):"Aquí se guardan los equipos que crees"}</small></span><span class="ar">›</span></button>
-   <a class="tm-hb h2" href="#ranking" data-nav="ranking"><span class="hi">🏆</span><span><b>Ranking de equipos</b><small>Los equipos con más daño, con guía y preset</small></span><span class="ar">›</span></a>
+   <a class="tm-hb h4" href="#ranking" data-nav="ranking"><span class="hi">🏆</span><span><b>Ranking de equipos</b><small>Los equipos con más daño, con guía y preset</small></span><span class="ar">›</span></a>
    <a class="tm-hb h3" href="#builds" data-nav="builds"><span class="hi">☷</span><span><b>Builds de la comunidad</b><small>Builds enviadas por jugadores y la guía completa</small></span><span class="ar">›</span></a>`;
   window.scrollTo(0,0);
 }
 
+function myCard(tm){
+  const cs=tm.slots.map(s=>charOf(s.c)),c0=cs.find(Boolean),nd=tm.discs.filter(Boolean).length;
+  const av=cs.map(c=>c?`<div class="cm-m" style="--mc:${ec(c.element)}"><img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><b>${e(c.name)}</b></div>`:`<div class="cm-m"><i></i><b style="opacity:.5">Vacío</b></div>`).join("");
+  return `<div class="cm-c" data-a="view" data-id="${tm.id}"><div class="cm-hd" style="--c1:${c0?ec(c0.element):"#7b6cff"};--bgi:url('${c0?e(imgC(c0)):""}')"><h4>${e(tm.name||"Equipo sin nombre")}</h4><div class="cm-av">${av}</div></div>
+   <div class="cm-ft"><span class="cm-t">💿 ${nd} ${nd===1?"disco":"discos"}</span>${tm.score?`<span class="cm-t rc">⏱ ${e(tm.score)}</span>`:""}<span class="cm-go">Abrir ›</span></div></div>`;
+}
 /* ---------- lista ---------- */
 function vList(){
   mode="list";T=null;const A=ST.teams;
   root.innerHTML=`<div class="tm-hero"><h3>Mis equipos</h3><p>Los equipos que guardaste en este dispositivo.</p><button class="btn" data-a="new" style="margin:0">+ Nuevo equipo</button></div>`+
-  (A.length?A.map(t=>{const c0=charOf(t.slots[0].c);return `<div class="tm-card" data-a="view" data-id="${t.id}"><div class="tm-ctop" style="background:linear-gradient(90deg,${t.slots.map(s=>{const c=charOf(s.c);return c?ec(c.element):"#3a3660"}).join(",")})"></div><div class="tm-cb"><h4>${e(t.name||"Equipo sin nombre")}</h4><div class="tm-th">${t.slots.map(s=>{const c=charOf(s.c);return c?`<img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:`<i></i>`}).join("")}<span class="tm-cm">${t.discs.filter(Boolean).length} discos${t.score?"<br>Récord: "+e(t.score):""}</span></div></div></div>`}).join(""):`<p class="nota">Aún no tienes equipos guardados.</p>`)+
+  (A.length?A.map(myCard).join(""):`<p class="nota">Aún no tienes equipos guardados.</p>`)+
   `<div class="tm-io"><button class="btn out" data-a="imp">Importar preset del juego</button></div><div id="tm-io-box"></div>
    <p class="nota" style="margin-top:12px">Tus equipos se guardan solo en este dispositivo. Para llevar la selección al juego usa el botón “Preset del juego” de cada equipo.</p>`;
 }
