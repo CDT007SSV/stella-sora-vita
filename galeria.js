@@ -5,7 +5,7 @@ const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let D=null,VW=null,lista=[],ix=0;
 function urls(x,w){ /* posibles direcciones de la imagen (la wiki nombra distinto a veces); w = ancho de miniatura */
-  const q=w?"?width="+w:"",n=x.n,lo=n.toLowerCase();
+  const q=w?"?width="+w:"",n=x.n||"",lo=n.toLowerCase();
   if(x.k==="o")return [FILE+"Story_element_"+n+".png"+q];
   if(x.k==="d")return ["https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/datingeventcg/"+n+".webp"];
   if(x.k==="u")return [x.u,...(x.f||[])].map(u=>u+(w&&/Special:FilePath/.test(u)?"?width="+w:""));
