@@ -757,7 +757,7 @@ function go(id){cur=id;document.body.classList.remove("home");
 }
 
 document.body.addEventListener("click", function(e){
-  const tile = e.target.closest(".tile[data-go],.hm[data-go],.hm[data-open],.gx[data-go],.gn[data-go],.ge[data-go]");
+  const tile = e.target.closest(".tile[data-go],.hm[data-go],.hm[data-open],.gx[data-go],.gn[data-go],.ge[data-go],.bkbtn[data-go]");
   if(tile){
     tile.classList.add("flip");
     setTimeout(()=> tile.dataset.open ? window.open(tile.dataset.open,"_blank") : nav(tile.dataset.go), 280);
