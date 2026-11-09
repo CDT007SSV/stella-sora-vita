@@ -30,7 +30,7 @@ def limpia(t):
     t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r"\1", t)  # [texto](enlace) -> texto
     t = re.sub(r"^\s*#{1,3}\s*", "", t, flags=re.M)     # titulos markdown
     t = re.sub(r"(\*\*|__|\*|~~|`)", "", t)
-    t = re.sub(r"\\([\\`*_{}\[\]()#+\-.!~|>])", r"\1", t)     # quita los escapes con barra invertida
+    t = re.sub(r"\\([\\`*_{}\[\]()#+\-.!~|>:])", r"\1", t)     # quita los escapes con barra invertida
     t = re.sub(r"[ \t]+\n", "\n", t)
     t = re.sub(r"\n{3,}", "\n\n", t)
     return t.strip()

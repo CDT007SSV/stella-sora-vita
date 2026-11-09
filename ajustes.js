@@ -96,7 +96,8 @@ function render(){
    '<button type="button" class="aj-btn" id="aj-rst">Restablecer ajustes</button>'+
    '<div class="aj-v" id="aj-ver"></div>';
   r.innerHTML=h;
-  fetch("sw.js",{cache:"no-store"}).then(x=>x.text()).then(t=>{const m=t.match(/stella-sora-wiki-(v\d+)/);const e=document.getElementById("aj-ver");if(e&&m)e.textContent="Versión de la app: "+m[1]}).catch(()=>{});
+  {const e=document.getElementById("aj-ver"),V=typeof APP_VERSION!=="undefined"?APP_VERSION:"1.0";if(e)e.textContent="Stella Sora Vita · versión "+V;
+   fetch("sw.js",{cache:"no-store"}).then(x=>x.text()).then(t=>{const m=t.match(/stella-sora-wiki-v(\d+)/);if(e&&m)e.textContent="Stella Sora Vita · versión "+V+" (compilación "+m[1]+")"}).catch(()=>{})}
 }
 async function toggle(k,x){
   if(k==="push"){await pushToggle();render();return}

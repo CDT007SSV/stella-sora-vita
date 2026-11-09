@@ -197,7 +197,7 @@ let root,T=null,mode="list";
 .tm-ctl select{background:#221E3A;color:var(--t);border:1px solid #3D3A55;border-radius:8px;padding:6px 8px;font-size:.8rem}
 .tm-seg{display:flex;border-radius:8px;overflow:hidden;border:1px solid #3D3A55}.tm-seg button{background:#221E3A;border:0;color:var(--t2);font-size:.74rem;font-weight:700;padding:6px 9px}.tm-seg button.on{background:var(--tc);color:#fff}
 .tm-act{display:flex;gap:8px;flex-wrap:wrap}.tm-act .btn{flex:1;min-width:110px;margin-top:8px}
-.tm-bk{background:none;border:0;color:var(--a);font-size:.95rem;padding:4px 0 10px}
+.tm-bk{display:inline-flex;align-items:center;gap:6px;background:rgba(123,108,255,.12);border:1px solid rgba(123,108,255,.4);border-radius:999px;color:#d9d3ff;font-size:.88rem;font-weight:600;padding:8px 14px;margin:0 0 10px;cursor:pointer}
 .tm-io{display:flex;gap:8px}.tm-io .btn{margin-top:10px}
 .tm-tb{width:100%;box-sizing:border-box;min-height:100px;padding:10px;border-radius:10px;border:1px solid #3D3A55;background:var(--sf);color:var(--t);font-size:.85rem}
 .tm-fh{border-radius:16px;padding:16px;margin-bottom:12px;background:linear-gradient(135deg,#2a2160,#14102c 70%);border:1px solid rgba(123,108,255,.5)}

@@ -2,6 +2,8 @@
 // Para anunciar un cambio nuevo: agrega un bloque ARRIBA de la lista (con un id distinto y la fecha de hoy).
 // Enlace de tu formulario de opiniones (Google Forms, etc.). Si lo dejas vacío "" el botón de opinión no aparece.
 const BETA_FORM = "";
+// Versión que ve la gente en Ajustes. Súbela a mano en cada lanzamiento (1.1, 1.2…). El número de caché de sw.js es interno.
+const APP_VERSION = "1.0";
 const CAMBIOS = [
   {
     id: "v:2026-11-05-beta",

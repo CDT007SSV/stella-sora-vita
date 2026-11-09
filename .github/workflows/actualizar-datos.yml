@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Instalar Pillow
+        run: pip install --quiet pillow
       - name: Generar auto.json
         run: python3 generar_auto.py
       - name: Generar builds desde Notion
