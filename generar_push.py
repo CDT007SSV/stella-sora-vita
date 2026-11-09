@@ -5,7 +5,7 @@ import json, os, sys, base64, urllib.request, tempfile
 
 ESTADO = "push_estado.json"
 MAX_ENVIOS = 3          # mas de esto en una corrida se resume en un solo aviso
-URL_APP = "https://cdt007ssv.github.io/stella-sora-vita-prueba/"  # cambiar al pasar al repo real
+URL_APP = "https://cdt007ssv.github.io/stella-sora-vita/"
 
 def cargar(r, d):
     try: return json.load(open(r, encoding="utf-8"))
