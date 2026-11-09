@@ -109,11 +109,29 @@ def trad_linea(l):
     if c: cola, l = c.group(1), l[:c.start()]
     lim = re.sub(r"[#@]\w+|https?://\S+", "", l)
     if not (re.search(r"[A-Za-z]{3}", lim) or CJK.search(lim)): return pre + l + cola
+    return pre + gtx(l) + cola
+
+def gtx(l):
     q = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "es", "dt": "t", "q": l})
-    r = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + q, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(r, timeout=20) as f:
-        d = json.loads(f.read().decode())
-    return pre + "".join(x[0] for x in d[0] if x and x[0]) + cola
+    q2 = urllib.parse.urlencode({"client": "dict-chrome-ex", "sl": "auto", "tl": "es", "dt": "t", "q": l})
+    urls = ["https://translate.googleapis.com/translate_a/single?" + q,
+            "https://clients5.google.com/translate_a/t?" + q2,
+            "https://translate.google.com/translate_a/single?" + q]
+    err = None
+    for ronda in range(2):
+        for u in urls:
+            try:
+                r = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36"})
+                with urllib.request.urlopen(r, timeout=20) as f:
+                    d = json.loads(f.read().decode())
+                if d and isinstance(d[0], list) and d[0] and isinstance(d[0][0], list):
+                    return "".join(x[0] for x in d[0] if x and x[0])
+                if d and isinstance(d[0], str): return d[0]
+                if d and all(isinstance(x, list) and x and isinstance(x[0], str) for x in d): return "".join(x[0] for x in d)
+            except Exception as ex:
+                err = ex
+        time.sleep(5)
+    raise err or RuntimeError("sin respuesta")
 
 def traduce(t):
     if not t: return ""
