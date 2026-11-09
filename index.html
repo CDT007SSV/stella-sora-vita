@@ -180,6 +180,7 @@ body.home #start .sub{color:var(--t2);margin:4px 0 0}
 .c-teal{background:linear-gradient(135deg,#7CC7B5,#58A595)}
 .c-pink{background:linear-gradient(135deg,#E24A84,#C42C68)}
 .c-gold{background:linear-gradient(135deg,#E6B24A,#CC9430)}
+.cs-img{display:block;width:100%;height:auto;max-height:78vh;object-fit:contain;border-radius:10px;background:#0e0c18}
 .chap-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;display:block;background:#0e0c18}
 .spoil{display:inline-block;background:#3a2a10;color:#ffd27a;font-size:.72rem;font-weight:700;border-radius:999px;padding:3px 10px;margin-bottom:10px}
 #chaps,#events-list,#novatimes-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
@@ -409,7 +410,7 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .betafb[hidden]{display:none}
 #splash{position:fixed;inset:0;z-index:999;background:radial-gradient(100% 60% at 50% 40%,#2a2255,#0A0A12);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;cursor:pointer;animation:spl .5s ease 2.6s forwards}
 #splash b{font-size:1.5rem;letter-spacing:.18em;color:#d8d2ff;text-shadow:0 0 18px #7B6CFF;text-transform:uppercase}
-#splash i{font-style:normal;font-size:.75rem;letter-spacing:.3em;color:var(--t2)}
+#splash i{font-style:normal;font-size:3.4rem;font-weight:800;letter-spacing:.32em;padding-left:.32em;line-height:1;color:#fff;text-shadow:0 0 22px #7B6CFF,0 0 44px rgba(92,225,230,.35)}
 #splash span{width:46px;height:2px;background:linear-gradient(90deg,transparent,#5CE1E6,transparent);animation:shim 1s linear infinite;background-size:200% 100%}
 @keyframes spl{to{opacity:0;visibility:hidden}}
 #splash.out{animation:spl .3s ease forwards}
@@ -894,7 +895,7 @@ function showCS(name){
   const c=CHAR_STORIES.find(x=>x.name===name); if(!c){showStart();return}
   document.getElementById("cs-title").textContent="Historia de personaje";
   document.getElementById("charstory-detail").innerHTML=`
-    <img class="chap-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
+    <img class="cs-img" src="${c.img}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"/>
     <h2 style="font-size:1.25rem;margin:12px 0 8px">${esc(c.name)}</h2>`+
     accionesHist("cs:"+c.name,`<div class="card"><div class="spoil">⚠ Contiene spoilers</div><p style="line-height:1.55">Todavía no hay resumen en español de esta historia. Muy pronto lo agregamos.</p></div>`,c.url,"🌐 Ver en la wiki");
   go("charstory");
