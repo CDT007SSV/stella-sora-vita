@@ -31,6 +31,8 @@ css.textContent=
 document.head.appendChild(css);
 
 const ITEMS=[
+ ["Apariencia",
+  [["claro","Modo claro","Cambia la app a colores claros. Las ilustraciones y el lector no cambian.",0,0,"ssv_claro"]]],
  ["Sonido",
   [["snd","Sonido de Vita","Suena al abrir la app."]]],
  ["Avisos",
@@ -52,6 +54,7 @@ function val(k,ext){
   if(k==="snd")return ls("ssv_snd","1")!=="0";
   if(k==="push")return ls("ssv_push","0")==="1"&&window.Notification&&Notification.permission==="granted";
   if(ext==="ssv_rb"||ext==="ssv_rc")return ls(ext,"1")!=="0"&&ls("ssv_push","0")==="1";
+  if(ext==="ssv_claro")return ls("ssv_claro","0")==="1";
   if(ext==="rde")return ls("rde","1")!=="0";
   if(ext==="rdf")return ls("rdf","0")==="1";
   if(k==="lite")return !C.anim&&!C.splash&&!C.fotos&&!C.pre&&!C.sh;
@@ -97,6 +100,7 @@ async function toggle(k,x){
   if(k==="push"){await pushToggle();render();return}
   if(k==="snd"){const n=ls("ssv_snd","1")!=="0";if(window.ssvSnd&&ssvSnd.set)ssvSnd.set(!n);else try{localStorage.setItem("ssv_snd",n?"0":"1")}catch(e){}}
   else if(x==="ssv_rb"||x==="ssv_rc"){try{localStorage.setItem(x,ls(x,"1")!=="0"?"0":"1")}catch(e){};if(window.ssvRec)ssvRec.sync()}
+  else if(x==="ssv_claro"){const n=ls("ssv_claro","0")!=="1";try{localStorage.setItem("ssv_claro",n?"1":"0")}catch(e){}document.documentElement.classList.toggle("claro",n);const m=document.querySelector('meta[name="theme-color"]');if(m)m.content=n?"#F3F1FA":"#0A0A12"}
   else if(x==="rde"){try{localStorage.setItem("rde",ls("rde","1")!=="0"?"0":"1")}catch(e){}}
   else if(x==="rdf"){try{localStorage.setItem("rdf",ls("rdf","0")==="1"?"0":"1")}catch(e){}}
   else if(k==="lite"){const on=!val("lite");["anim","splash","fotos","pre","sh"].forEach(q=>C[q]=on?0:1);save()}

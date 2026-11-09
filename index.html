@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="manifest" href="manifest.webmanifest"/>
 <meta name="theme-color" content="#0A0A12"/>
+<script>try{if(localStorage.getItem("ssv_claro")==="1")document.documentElement.classList.add("claro")}catch(e){}</script>
 <meta name="mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-title" content="Stella Sora Vita"/>
@@ -117,6 +118,7 @@ main{padding:12px;max-width:720px;margin:0 auto}
 .fk-rg{width:100%;margin:4px 0 10px}
 .bkbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px 14px;margin:0 0 14px;border:2px solid rgba(255,255,255,.85);border-radius:16px;background:linear-gradient(135deg,#6a5cd6,#8e7ce8);color:#fff;font:800 1.15rem/1.2 inherit;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer}.bkbtn span{font-size:1.4rem}.bkbtn:active{transform:scale(.98)}
 .bl{background:rgba(20,16,50,.6);border:1px solid #2c2850;border-radius:14px;padding:12px;margin:0 0 14px}.bl h3{margin:0 0 6px;font-size:.95rem}.bl-ax{display:flex;justify-content:space-between;font-size:.68rem;color:var(--t2)}.bl-b{position:relative;padding-top:18px}.bl-hoy{position:absolute;top:0;bottom:0;width:2px;background:#ff7a8a;z-index:2}.bl-hoy em{position:absolute;top:0;left:-14px;font-size:.62rem;font-style:normal;color:#ff9aa7}.bl-r{margin:6px 0}.bl-t{position:relative}.bl-bar{display:block;height:24px;line-height:24px;padding:0 8px;border-radius:7px;font-size:.7rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.55;color:#fff}.bl-bar.p{background:#6a55ff}.bl-bar.d{background:#1fa89d}.bl-bar.a{opacity:1;box-shadow:0 0 10px rgba(255,255,255,.35)}.bl-r small{display:block;font-size:.64rem;color:var(--t2);margin-top:1px}.bl-k{font-size:.66rem;color:var(--t2);margin:8px 0 0}.bl-k b{display:inline-block;width:10px;height:10px;border-radius:3px;vertical-align:middle;margin:0 2px 0 6px}.bl-k b.p{background:#6a55ff}.bl-k b.d{background:#1fa89d}
+html.claro{filter:invert(1) hue-rotate(180deg)}html.claro img,html.claro video,html.claro canvas,html.claro iframe,html.claro #rd,html.claro #splash,html.claro .hm .bg,html.claro [style*="background-image"]{filter:invert(1) hue-rotate(180deg)}html.claro body{background:#0A0A12}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
