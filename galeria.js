@@ -58,12 +58,12 @@ function tarjeta(attr,col,im,sub,tit,w){
 function cuerpo(){
   if(!vc){
     const cats=[...new Set(D.grupos.map(g=>g.cat))];
-    return `<p class="nota" style="margin:2px 2px 10px">Ilustraciones del juego dentro de la app. Se agregan solas cuando salen historias nuevas.</p><div class="hm-subgrid">`+
+    return `<p class="nota" style="margin:2px 2px 10px">Ilustraciones del juego dentro de la app. Se agregan solas cuando salen historias nuevas.</p><a class="btn out l2d-btn" href="https://srpg-kr.github.io/live2d/stellarsora/" target="_blank" rel="noopener noreferrer">🎞 Ver L2D (galería comunitaria)</a><div class="hm-subgrid">`+
       cats.map((c,i)=>{const gs=D.grupos.filter(g=>g.cat===c),n=gs.reduce((t,g)=>t+g.imgs.length,0);return tarjeta('data-c="'+esc(c)+'"',COL[i%COL.length],portada(gs.flatMap(g=>g.imgs)),n+" ilustraciones",c,i%3===0)}).join("")+`</div>`;
   }
   if(!vg){
     const gs=D.grupos.filter(g=>g.cat===vc);
-    return (vc==="Recuerdos de cita"?`<p class="nota" style="margin:0 0 10px">✨ Las escenas animadas (Live2D) de las historias de afinidad, como las del acto 4, no están en los archivos del juego y no se pueden mostrar aquí. Si se encuentran, se agregarán.</p>`:"")+`<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],portada(g.imgs),g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
+    return (vc==="Recuerdos de cita"?`<p class="nota" style="margin:0 0 10px">✨ Las escenas animadas (Live2D) de las historias de afinidad, como las del acto 4, no se pueden mostrar aquí, pero están en una galería comunitaria externa.</p><a class="btn out l2d-btn" style="margin:0 0 12px" href="https://srpg-kr.github.io/live2d/stellarsora/" target="_blank" rel="noopener noreferrer">🎞 Ver L2D (galería comunitaria)</a>`:"")+`<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],portada(g.imgs),g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
   }
   const g=D.grupos.find(z=>z.id===vg);
   return `<h3 style="margin:2px 2px 10px">${esc(g.titulo)}</h3><div class="gl-gr" style="padding:0">${g.imgs.map((x,i)=>img(x,360,"gl-t").replace("<img ",`<img data-i="${i}" `)).join("")}</div>`;
