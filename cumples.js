@@ -68,10 +68,11 @@ window.cumplesOv=async function(c,m,d){
   await lista();
   const n=dias(m,d),col=EC[c.element]||"#6a55ff",it=LIST.find(x=>x.c.id===c.id),v=VOZ[c.name],gid=it&&it.gid;
   const BASE="https://stellasora.miraheze.org/wiki/Special:FilePath/";
+  const bdq=[2026,2025].map(y=>BASE+encodeURIComponent(c.name.replace(/ /g,"_")+"_Birthday_Log_"+y+".jpg")+"?width=800").concat([c.imageUrl]);
   const fj=(v&&v.f)||(gid?"vo_"+gid+"_ui_birth_001_jp.ogg":""),fc=(v&&v.fc)||(gid?"vo_"+gid+"_ui_birth_001_cn.ogg":"");
   const cap=f=>f?BASE+encodeURIComponent(f.charAt(0).toUpperCase()+f.slice(1)):"";
   const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-cumple">Cumpleaños</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div>
-   <div class="bd-art"><img src="${e(c.imageUrl)}" alt="${e(c.name)}" referrerpolicy="no-referrer"></div>
+   <div class="bd-art"><img src="${e(bdq[0])}" data-q="${e(bdq.slice(1).join("|"))}" alt="${e(c.name)}" referrerpolicy="no-referrer" onerror="var q=(this.dataset.q||'').split('|').filter(Boolean);if(q.length){this.dataset.q=q.slice(1).join('|');this.src=q[0]}else this.onerror=null"></div>
    <h2>${n===0?"¡Feliz cumpleaños, ":""}${e(c.name)}${n===0?"!":""}</h2><div class="bd-d">🎂 ${fecha(m,d)} · ${cuando(n)}</div>
    ${fj?`<div class="bd-v"><div class="row"><button class="btn" data-play="jp">▶ Escuchar su voz (japonés)</button></div>
    ${v&&(v.es||v.en)?`<div class="es">${e(v.es||v.en)}</div>${v.es?"":`<div class="en">(traducción al español pendiente)</div>`}`:`<div class="en">${v?"":"Subtítulos no disponibles todavía para este personaje."}</div>`}</div>`:""}
