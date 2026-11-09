@@ -256,7 +256,7 @@ function ease(n){n=n||"Linear";return n==="Linear"?"linear":/^InOut/.test(n)?"ea
 function setBg(n,st,d){
   st=st||0;const bg=layer(st);if(!bg)return;try{bg.getAnimations().forEach(a=>{if(a.id==="rds")a.cancel()})}catch(x){}
   let o=null; /* copia del fondo anterior que se desvanece; empieza a desvanecerse cuando el nuevo ya esta decodificado (evita el parpadeo) */
-  if(d>0){o=bg.cloneNode(false);o.className="rd-bgo";o.style.setProperty("--d",d+"s");o.style.opacity=1;bg.parentNode.insertBefore(o,bg.nextSibling)}
+  if(d>0){o=bg.cloneNode(false);o.className="rd-bgo";o.style.setProperty("--d",d+"s");o.style.transition="opacity "+d+"s linear";try{o.style.transform=getComputedStyle(bg).transform}catch(x){}o.style.opacity=1;bg.parentNode.insertBefore(o,bg.nextSibling)}
   const fin=()=>{if(!o)return;const x=o;o=null;requestAnimationFrame(()=>requestAnimationFrame(()=>{x.style.opacity=0}));setTimeout(()=>x.remove(),d*1000+150)};
   S.tr["b"+st]={x:0,y:0,s:1};bg.style.transition="none";bg.style.transform="none";bg.style.transformOrigin="50% 50%";
   if(/^(BG_)?Black/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#000";fin();return}
@@ -333,6 +333,14 @@ function emoji(host,n,cls,wait){
   let hecho=0;const go=()=>{if(hecho||host._ek!==k||!host.isConnected)return;hecho=1;emojiNow(host,n,cls)};
   wait.addEventListener("load",go,{once:true});setTimeout(go,4000);
 }
+const EMF={}; /* cuadros ya descargados de cada emoji con imagen */
+function posEmo(e){ /* mantiene el emoji dentro de la pantalla (si el sprite es muy grande, el emoji quedaba fuera) */
+  requestAnimationFrame(()=>{try{if(!e.isConnected||!el)return;const r=el.getBoundingClientRect(),b=e.getBoundingClientRect(),m=r.height*.03;
+    const ph=e.offsetParent?e.offsetParent.getBoundingClientRect():null;if(!ph)return;
+    let dy=0,dx=0;if(b.top<r.top+m)dy=r.top+m-b.top;else if(b.bottom>r.bottom-m)dy=r.bottom-m-b.bottom;
+    if(b.left<r.left+m)dx=r.left+m-b.left;else if(b.right>r.right-m)dx=r.right-m-b.right;
+    if(dy||dx){e.style.right="auto";e.style.top=(b.top-ph.top+dy)+"px";e.style.left=(b.left-ph.left+dx)+"px"}}catch(x){}});
+}
 function emojiNow(host,n,cls){
   if(n==="none")return;
   if(n&&n!=="close"&&EMSE[n])se(EMSE[n]);
@@ -340,17 +348,23 @@ function emojiNow(host,n,cls){
   if(!n||n==="close"||(S&&S.em===0)||EMFACE[n])return;
   const e=document.createElement("span");e.className=cls+(n==="speechless"||n==="think"?" tx":"");e.textContent=EM[n]||"";host.appendChild(e);
   if(!EMLOOP[n])e._o=setTimeout(()=>{e.classList.add("out");setTimeout(()=>{clearInterval(e._t);e.remove()},350)},5000);
-  if(!EMIMG[n])return;
-  const fr=[];let i=1;
-  const go=()=>{
-    if(!fr.length||!e.isConnected)return;
-    e.textContent="";e.classList.add("img");
-    const im=document.createElement("img");im.alt="";im.src=fr[0];e.appendChild(im);
-    if(fr.length>1){let k=0;e._t=setInterval(()=>{if(!e.isConnected){clearInterval(e._t);return}k=(k+1)%fr.length;im.src=fr[k]},150)}
+  if(!EMIMG[n]){posEmo(e);return}
+  e.style.visibility="hidden"; /* no se muestra el emoji de texto: solo el del juego cuando su imagen esta lista (antes salian los dos, uno tras otro) */
+  const go=fr=>{
+    if(!e.isConnected)return;
+    if(fr&&fr.length){
+      e.textContent="";e.classList.add("img");
+      const im=document.createElement("img");im.alt="";im.src=fr[0];e.appendChild(im);
+      if(fr.length>1){let k=0;e._t=setInterval(()=>{if(!e.isConnected){clearInterval(e._t);return}k=(k+1)%fr.length;im.src=fr[k]},150)}
+    }
+    e.style.visibility="";e.style.animation="none";void e.offsetWidth;e.style.animation="";posEmo(e);
   };
+  if(EMF[n]){go(EMF[n]);return}
+  const fr=[];let i=1;
+  const fin=()=>{EMF[n]=fr;go(fr)};
   const nx=()=>{const m=new Image();m.referrerPolicy="no-referrer";
-    m.onload=()=>{fr.push(m.src);i++;if(i<=12)nx();else go()};
-    m.onerror=go;m.src=FILE+"Avg_emoji_"+n+"_"+i+".png"};
+    m.onload=()=>{fr.push(m.src);i++;if(i<=12)nx();else fin()};
+    m.onerror=fin;m.src=FILE+"Avg_emoji_"+n+"_"+i+".png"};
   nx();
 }
 function lay(w){
