@@ -623,16 +623,38 @@ async function cmLoad(){
   return out.reverse();
 }
 let CMD=null;
+let cmEl="";
+(function(){const s=document.createElement("style");s.textContent=`
+.cm-c{position:relative;border-radius:18px;margin-bottom:14px;cursor:pointer;overflow:hidden;border:1px solid #2c2850;background:linear-gradient(180deg,rgba(28,22,66,.9),rgba(16,13,40,.92));box-shadow:0 4px 14px rgba(0,0,0,.28)}
+.cm-c:active{transform:scale(.99)}
+.cm-hd{position:relative;padding:14px 14px 10px;overflow:hidden}
+.cm-hd:before{content:"";position:absolute;inset:0;background:var(--bgi) center 18%/cover;opacity:.22;filter:blur(2px)}
+.cm-hd:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--c1,#7b6cff)55%,transparent) ,linear-gradient(180deg,transparent 40%,rgba(16,13,40,.95));opacity:.28}
+.cm-hd>*{position:relative;z-index:1}
+.cm-hd h4{margin:0 0 10px;font-size:1.08rem;line-height:1.25}
+.cm-av{display:flex;gap:10px}
+.cm-m{flex:1;min-width:0;text-align:center}
+.cm-m img,.cm-m i{display:block;width:100%;aspect-ratio:1;max-width:84px;margin:0 auto;border-radius:16px;object-fit:cover;object-position:top;background:#221E3A;border:2px solid var(--mc,#3a3660);box-shadow:0 3px 10px rgba(0,0,0,.4)}
+.cm-m b{display:block;margin-top:4px;font-size:.72rem;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cm-ft{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:10px 14px 12px}
+.cm-t{font-size:.72rem;padding:4px 9px;border-radius:9px;background:rgba(255,255,255,.08);color:#d8d2ff}
+.cm-t.au{background:rgba(92,225,230,.16);color:#8ff0f3}.cm-t.rc{background:rgba(232,196,106,.18);color:#f3d98a}
+.cm-go{margin-left:auto;font-size:.78rem;font-weight:800;color:#b7acff}
+.cm-f{display:flex;gap:6px;overflow-x:auto;padding:2px 0 10px;scrollbar-width:none}.cm-f::-webkit-scrollbar{display:none}
+.cm-f .chip{flex:none;padding:6px 12px;font-size:.78rem;white-space:nowrap}.cm-f .chip i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:var(--ec,#7b6cff)}
+.cm-n{font-size:.78rem;color:var(--t2);margin:0 2px 8px}
+`;document.head.appendChild(s)})();
 function cmCard(x){
-  const th=(x.pk.c||[]).slice(0,3).map(sl=>{const c=charOf(sl);return c?`<img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'" style="border-color:${ec(c.element)}">`:"<i></i>"}).join("");
-  const cols=(x.pk.c||[]).slice(0,3).map(sl=>{const c=charOf(sl);return c?ec(c.element):"#3a3660"});
-  return `<div class="tm-card" data-c="open" data-k="${x.k}"><div class="tm-ctop" style="background:linear-gradient(90deg,${cols.join(",")})"></div><div class="tm-cb"><h4>${e(x.title)}</h4><div class="tm-th">${th}<span class="tm-cm">por ${e(x.alias)}<br>${x.pk.d||0} discos${x.pk.t?"<br>Récord: "+e(x.pk.t):""}</span></div></div></div>`;
+  const cs=(x.pk.c||[]).slice(0,3).map(sl=>charOf(sl)),c0=cs[0];
+  const av=cs.map(c=>c?`<div class="cm-m" style="--mc:${ec(c.element)}"><img src="${e(imgC(c))}" alt="${e(c.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><b>${e(c.name)}</b></div>`:`<div class="cm-m"><i></i></div>`).join("");
+  return `<div class="cm-c" data-c="open" data-k="${x.k}"><div class="cm-hd" style="--c1:${c0?ec(c0.element):"#7b6cff"};--bgi:url('${c0?e(imgC(c0)):""}')"><h4>${e(x.title)}</h4><div class="cm-av">${av}</div></div>
+   <div class="cm-ft"><span class="cm-t au">👤 ${e(x.alias)}</span><span class="cm-t">💿 ${x.pk.d||0} discos</span>${x.pk.t?`<span class="cm-t rc">⏱ ${e(x.pk.t)}</span>`:""}<span class="cm-go">Ver build ›</span></div></div>`;
 }
 window.communityShow=async function(){
   const box=document.getElementById("cm-root");if(!box)return;
   const cfg=cfgC();
   box.innerHTML=`<div class="tm-hero"><h3>Builds de la comunidad</h3><p>Equipos compartidos por otros jugadores. Toca uno para ver la ficha completa y guardarlo.</p>${cfg.form?`<button class="btn" data-c="pub" style="margin:0">Publicar una build</button>`:""}</div>`+
-   (cfg.csv?`<input class="tm-in" id="cm-q" type="search" placeholder="Buscar por título, autor o personaje…"><div id="cm-list"><p class="nota">Cargando…</p></div>`:`<p class="nota">La sección de la comunidad aún no está activada.</p>`);
+   (cfg.csv?`<input class="tm-in" id="cm-q" type="search" placeholder="Buscar por título, autor o personaje…"><div class="cm-f" id="cm-f"></div><div id="cm-list"><p class="nota">Cargando…</p></div>`:`<p class="nota">La sección de la comunidad aún no está activada.</p>`);
   if(!box._ok){box._ok=1;box.addEventListener("click",async ev=>{
     const el=ev.target.closest("[data-c]");if(!el)return;
     if(el.dataset.c==="pub")pubPicker();
@@ -644,8 +666,12 @@ window.communityShow=async function(){
 function cmPaint(){
   const l=document.getElementById("cm-list");if(!l||!CMD)return;
   const q=norm((document.getElementById("cm-q")||{}).value||"");
-  const R=CMD.filter(x=>!q||norm(x.title+" "+x.alias+" "+(x.pk.c||[]).map(s=>{const c=charOf(s);return c?c.name:s}).join(" ")).includes(q));
-  l.innerHTML=R.length?R.slice(0,200).map(cmCard).join(""):`<p class="nota">${CMD.length?"Sin resultados.":"Todavía no hay builds publicadas. ¡Sé la primera persona en publicar una!"}</p>`;
+  const el1=x=>{const c=charOf((x.pk.c||[])[0]);return c?c.element:""};
+  const els=[...new Set(CMD.map(el1).filter(Boolean))].sort(),fb=document.getElementById("cm-f");
+  if(fb){fb.innerHTML=`<button type="button" class="chip${cmEl?"":" on"}" data-ce="">Todos</button>`+els.map(z=>`<button type="button" class="chip${cmEl===z?" on":""}" data-ce="${z}" style="--ec:${ec(z)}"><i></i>${z}</button>`).join("");
+    fb.onclick=ev=>{const b=ev.target.closest("[data-ce]");if(b){cmEl=b.dataset.ce;cmPaint()}}}
+  const R=CMD.filter(x=>(!cmEl||el1(x)===cmEl)&&(!q||norm(x.title+" "+x.alias+" "+(x.pk.c||[]).map(s=>{const c=charOf(s);return c?c.name:s}).join(" ")).includes(q)));
+  l.innerHTML=(R.length?`<p class="cm-n">${R.length} ${R.length===1?"build":"builds"}</p>`:"")+(R.length?R.slice(0,200).map(cmCard).join(""):`<p class="nota">${CMD.length?"Sin resultados.":"Todavía no hay builds publicadas. ¡Sé la primera persona en publicar una!"}</p>`);
 }
 function pubPicker(){
   const m=document.createElement("div");m.className="tm-md";

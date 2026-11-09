@@ -50,7 +50,8 @@ async function verifica(){
 }
 const COL=["c-pur","c-pink","c-teal","c-gold","c-lav"];
 let vc="",vg=""; /* nivel 1: categorias; nivel 2: grupos de una categoria; nivel 3: imagenes de un grupo */
-function portada(imgs){const l=imgs.slice(0,12).flatMap(x=>urls(x,0));return {k:"u",u:l[0],f:l.slice(1)}} /* si la primera imagen no existe, prueba con las siguientes */
+function mejor(imgs){const b=imgs.filter(x=>x.k!=="o");return b.length?b:imgs} /* prefiere ilustraciones completas sobre objetos/stickers */
+function portada(imgs){const l=mejor(imgs).slice(0,12).flatMap(x=>urls(x,0));return {k:"u",u:l[0],f:l.slice(1)}} /* si la primera imagen no existe, prueba con las siguientes */
 function tarjeta(attr,col,im,sub,tit,w){
   return `<div class="hm hm-sub ${w?"w ":""}${col}" ${attr}>${im?img(im,420,"bg"):""}<div class="hm-sh"></div><div class="hm-cn"><i>${esc(sub)}</i><strong>${esc(tit)}</strong></div></div>`;
 }
@@ -116,6 +117,7 @@ window.galShow=async function(){
   }
   if(!D){r.innerHTML='<p class="nota">Cargando…</p>';
     try{const x=await fetch("galeria.json",{cache:"no-cache"});D=await x.json()}catch(e){r.innerHTML='<p class="nota">No se pudo cargar la galería. Revisa tu conexión.</p>';return}
+    D.grupos.forEach(g=>{g.imgs=g.imgs.map((x,k)=>[x,k]).sort((a,b)=>(a[0].k==="o")-(b[0].k==="o")||a[1]-b[1]).map(x=>x[0])});
     verifica()}
   vc="";vg="";pinta();
 };

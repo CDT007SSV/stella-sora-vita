@@ -117,7 +117,7 @@ try:
     if afi: out.append({"id": "AFI_all", "cat": "Ilustraciones de afinidad", "titulo": "Ilustraciones de afinidad (fin del acto 3)", "imgs": afi})
 except Exception as ex_:
     print("Skins no incluidas:", type(ex_).__name__)
-ORD = ["Historia principal", "Eventos", "Nova Times", "Historias de personaje", "Ilustraciones de afinidad", "Recuerdos de cita", "Skins", "Talentos", "Cumpleaños", "Recuerdos de disco", "Discos"]
+ORD = ["Historia principal", "Eventos", "Nova Times", "Ilustraciones de afinidad", "Skins", "Talentos", "Cumpleaños", "Discos", "Historias de personaje", "Recuerdos de cita", "Recuerdos de disco"]
 out.sort(key=lambda g: ORD.index(g["cat"]) if g["cat"] in ORD else 99)
 nuevo = {"grupos": out}
 try:
