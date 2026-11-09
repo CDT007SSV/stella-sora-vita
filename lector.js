@@ -259,13 +259,19 @@ function setBg(n,st,d){
   if(d>0){o=bg.cloneNode(false);o.className="rd-bgo";o.style.setProperty("--d",d+"s");o.style.transition="opacity "+d+"s linear";try{o.style.transform=getComputedStyle(bg).transform}catch(x){}o.style.opacity=1;bg.parentNode.insertBefore(o,bg.nextSibling)}
   const fin=()=>{if(!o)return;const x=o;o=null;requestAnimationFrame(()=>requestAnimationFrame(()=>{x.style.opacity=0}));setTimeout(()=>x.remove(),d*1000+150)};
   S.tr["b"+st]={x:0,y:0,s:1};bg.style.transition="none";bg.style.transform="none";bg.style.transformOrigin="50% 50%";
-  if(/^(BG_)?Black/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#000";fin();return}
-  if(/^(BG_)?White$/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#fff";fin();return}
+  if(/^(BG_)?Black/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#000";bg._u=null;fin();return}
+  if(/^(BG_)?White$/i.test(n)){bg.style.backgroundImage="none";bg.style.background="#fff";bg._u=null;fin();return}
   const tk=bg._tk=(bg._tk||0)+1;
   const poner=u=>{if(bg._tk!==tk){fin();return} /* un fondo más nuevo ya se pidió: este llegó tarde */
-    if(!u){miss(n);bg.style.backgroundImage="none";bg.style.background="radial-gradient(circle at 50% 30%,#2a1f55,#0a0818)";fin();return}
+    if(!u){miss(n);bg.style.backgroundImage="none";bg.style.background="radial-gradient(circle at 50% 30%,#2a1f55,#0a0818)";bg._u=null;fin();return}
     const ap=()=>{if(bg._tk!==tk){fin();return}
-      bg.style.background="";bg.style.backgroundSize="cover";bg.style.backgroundPosition="center";bg.style.backgroundImage="url('"+u+"')";fin()};
+      const w=im.naturalWidth,h=im.naturalHeight,k=S.u*100/1080;
+      const nat=w&&h&&w/h<1.5; /* imagen casi cuadrada o vertical (p. ej. el telefono de Vita): el juego la muestra a su tamano real, no ampliada a pantalla completa */
+      const prev=bg._u&&!bg._nat?bg._u:null;
+      bg.style.background="";bg.style.backgroundPosition="center";bg.style.backgroundRepeat="no-repeat";
+      if(nat){bg.style.backgroundSize=Math.round(w*k)+"px "+Math.round(h*k)+"px"+(prev?",cover":"");bg.style.backgroundImage="url('"+u+"')"+(prev?",url('"+prev+"')":"")}
+      else{bg.style.backgroundSize="cover";bg.style.backgroundImage="url('"+u+"')"}
+      bg._u=u;bg._nat=nat;fin()};
     const im=new Image();im.referrerPolicy="no-referrer";im.src=u;
     if(im.decode)im.decode().then(ap,ap);else ap()};
   const c=bgUrl(n);if(typeof c==="string"||c===null)poner(c);else c.then(poner);
