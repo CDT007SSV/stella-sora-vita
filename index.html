@@ -732,6 +732,7 @@ body.bgm-on .screen{padding-bottom:84px}
 <script src="recordatorios.js"></script>
 <script src="ranking.js"></script>
 <script src="galeria.js"></script>
+<script src="l2d.js"></script>
 <script>if(typeof CHARS==="undefined"){document.addEventListener("DOMContentLoaded",function(){document.body.innerHTML='<p style="padding:24px;color:#fff;font-family:sans-serif">Falta el archivo <b>data.js</b>: debe estar en la misma carpeta que index.html.</p>'})}</script>
 <script>
 
@@ -1096,6 +1097,7 @@ function showC(id){
     ${(kv||kv2)?`<div class="card"><h3 style="margin:0 0 6px;font-size:1rem">Ficha</h3>${kv}${kv2}</div>`:''}
     ${skCard}
     <div id="skins-box"></div>
+    <div id="l2d-box"></div>
     <div class="skin3d" id="skin3d"></div>
     <div class="model-wrap">
       <div id="mv3d"></div>
@@ -1104,6 +1106,7 @@ function showC(id){
     </div></div>`;
   go("detail");
   window.fichaCargar&&fichaCargar(c);
+  window.l2dInit&&l2dInit(c);
   Promise.all([cargarExtras(),cargarModelIdx()]).then(([E,idx])=>{
     const b=document.getElementById("skins-box"); if(!b||cur!=="detail")return;
     b.innerHTML=skinsHtml(c,E,idx); skin3dBar(c,idx);
