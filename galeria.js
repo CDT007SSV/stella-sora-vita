@@ -58,7 +58,7 @@ function tarjeta(attr,col,im,sub,tit,w){
 function cuerpo(){
   if(!vc){
     const cats=[...new Set(D.grupos.map(g=>g.cat))];
-    return `<p class="nota" style="margin:2px 2px 10px">Ilustraciones del juego dentro de la app. Se agregan solas cuando salen historias nuevas.</p>${window.l2dActivo&&l2dActivo()?`<button type="button" class="btn l2d-btn" onclick="window.l2dLista&&l2dLista()">🎞 L2D de personajes</button>`:""}<div class="hm-subgrid">`+
+    return `<p class="nota" style="margin:2px 2px 10px">Ilustraciones del juego dentro de la app. Se agregan solas cuando salen historias nuevas.</p>${window.l2dActivo&&l2dActivo()?`<button type="button" class="btn l2d-btn" onclick="window.l2dLista&&l2dLista()">🎞 L2D de personajes y discos</button>`:""}<div class="hm-subgrid">`+
       cats.map((c,i)=>{const gs=D.grupos.filter(g=>g.cat===c),n=gs.reduce((t,g)=>t+g.imgs.length,0);return tarjeta('data-c="'+esc(c)+'"',COL[i%COL.length],portada(gs.flatMap(g=>g.imgs)),n+" ilustraciones",c,i%3===0)}).join("")+`</div>`;
   }
   if(!vg){

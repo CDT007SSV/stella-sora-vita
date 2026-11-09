@@ -80,11 +80,11 @@ async function iniciaCard(el){
   const bar=el.querySelector(".l2d-bar");ligaChips(bar,msg);
   pon((bar.querySelector(".chip.on")||bar.querySelector(".chip")).dataset.p,msg);
 }
-window.l2dInit=async function(c){
+window.l2dInit=async function(c,tipo){
   cierra();
   const el=document.getElementById("l2d-box");if(!el||!activo())return;
-  const I=await indice(),lista=I&&I[c.name];if(!lista||!lista.length||!document.getElementById("l2d-box"))return;
-  el.innerHTML=`<div class="card l2d-card"><h3 style="margin:0 0 6px;font-size:1rem">✨ Ilustración animada (L2D)</h3><p class="nota">Versión animada de ${esc(c.name)}. Se descarga solo cuando la abres (unos MB). Puedes apagarla en Ajustes.</p><div class="skin3d l2d-bar">${chipsHtml(lista)}</div><button type="button" class="btn l2d-go" style="margin-top:6px">▶ Cargar L2D</button><div class="l2d-stage" hidden></div><p class="nota l2d-st"></p></div>`;
+  const I=await indice(),lista=tipo==="d"?(I&&I._d&&I._d[c.name]):(I&&I[c.name]);if(!lista||!lista.length||!document.getElementById("l2d-box"))return;
+  el.innerHTML=`<div class="card l2d-card"><h3 style="margin:0 0 6px;font-size:1rem">✨ Ilustración animada (L2D)</h3><p class="nota">${tipo==="d"?"Animación del disco":"Versión animada de"} ${esc(c.name)}. Se descarga solo cuando la abres (unos MB). Puedes apagarla en Ajustes.</p><div class="skin3d l2d-bar">${chipsHtml(lista)}</div><button type="button" class="btn l2d-go" style="margin-top:6px">▶ Cargar L2D</button><div class="l2d-stage" hidden></div><p class="nota l2d-st"></p></div>`;
   const bar=el.querySelector(".l2d-bar");
   bar.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{bar.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===b));if(app)pon(b.dataset.p,vistaMsg(el))});
   el.querySelector(".l2d-go").onclick=()=>iniciaCard(el);
@@ -96,8 +96,8 @@ function overlay(titulo,onBack){
   o.querySelector("[data-b]").onclick=onBack;document.body.appendChild(o);document.body.style.overflow="hidden";return o;
 }
 function cierraOv(o){cierra();o.remove();document.body.style.overflow=""}
-window.l2dVer=async function(name,prev){
-  const I=await indice(),lista=I&&I[name];if(!lista)return;
+window.l2dVer=async function(name,prev,tipo){
+  const I=await indice(),lista=tipo==="d"?(I&&I._d&&I._d[name]):(I&&I[name]);if(!lista)return;
   const o=overlay(name,()=>{cierraOv(o);if(prev)window.l2dLista()});
   const b=o.querySelector(".l2d-ob");b.style.cssText="display:flex;flex-direction:column;padding:0;overflow:hidden";
   b.innerHTML=`<div class="l2d-stage" hidden></div><p class="nota l2d-st" style="margin:6px 12px 0">Descargando el reproductor…</p><div class="skin3d l2d-bar" style="margin:0">${chipsHtml(lista)}</div>`;
@@ -107,10 +107,12 @@ window.l2dVer=async function(name,prev){
   const bar=b.querySelector(".l2d-bar");ligaChips(bar,msg);pon(lista[0].p,msg);
 };
 window.l2dLista=async function(){
-  const I=await indice(),nombres=Object.keys(I||{}).sort();
-  const o=overlay("L2D de personajes",()=>cierraOv(o));
+  const I=await indice(),nombres=Object.keys(I||{}).filter(k=>k!=="_d").sort(),DD=(I&&I._d)||{},discos=Object.keys(DD).sort();
+  const o=overlay("L2D de personajes y discos",()=>cierraOv(o));
+  const DS=(typeof DISCS!=="undefined"?DISCS:[]),di=n=>{const d=DS.find(x=>x.name===n);return d&&d.imageUrl||""};
   const C=(typeof CHARS!=="undefined"?CHARS:[]),ch=n=>C.find(x=>x.name===n),img=n=>{const c=ch(n);if(!c)return "";return (typeof portC==="function"?portC(c):c.imageUrl)||""},fb=n=>{const c=ch(n);return c&&c.imageUrl||""};
-  o.querySelector(".l2d-ob").innerHTML=nombres.length?`<p class="nota" style="margin:0 0 10px">Toca un personaje para ver su ilustración animada (${nombres.length} personajes). Se descarga solo al abrirla.</p><div class="l2d-gr">${nombres.map(n=>`<button type="button" class="l2d-it" data-n="${esc(n)}"><img src="${esc(img(n))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-f="${esc(fb(n))}" onerror="if(this.dataset.f&&this.src!==this.dataset.f){this.src=this.dataset.f}else this.style.visibility='hidden'"><span>${esc(n)}</span><small>${I[n].length} ${I[n].length===1?"versión":"versiones"}</small></button>`).join("")}</div>`:'<p class="nota">No se pudo cargar la lista.</p>';
-  o.querySelectorAll("[data-n]").forEach(b=>b.onclick=()=>{cierraOv(o);window.l2dVer(b.dataset.n,true)});
+  const it=(n,t,k)=>`<button type="button" class="l2d-it" data-n="${esc(n)}" data-t="${t}"><img src="${esc(t==="d"?di(n):img(n))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-f="${esc(t==="d"?"":fb(n))}" onerror="if(this.dataset.f&&this.src!==this.dataset.f){this.src=this.dataset.f}else this.style.visibility='hidden'"><span>${esc(n)}</span><small>${k} ${k===1?"versión":"versiones"}</small></button>`;
+  o.querySelector(".l2d-ob").innerHTML=nombres.length?`<p class="nota" style="margin:0 0 10px">Toca uno para ver su ilustración animada. Se descarga solo al abrirla.</p><h4 class="fk-h" style="margin:4px 0 8px">Personajes (${nombres.length})</h4><div class="l2d-gr">${nombres.map(n=>it(n,"c",I[n].length)).join("")}</div>${discos.length?`<h4 class="fk-h" style="margin:16px 0 8px">Discos (${discos.length})</h4><div class="l2d-gr">${discos.map(n=>it(n,"d",DD[n].length)).join("")}</div>`:""}`:'<p class="nota">No se pudo cargar la lista.</p>';
+  o.querySelectorAll("[data-n]").forEach(b=>b.onclick=()=>{cierraOv(o);window.l2dVer(b.dataset.n,true,b.dataset.t)});
 };
 })();

@@ -1030,6 +1030,7 @@ function showD(wikiUrl){
       <h2 style="font-size:1.35rem">${esc(d.name)}</h2>
     </div>
     <div class="chips"><span class="chip on" data-el="${d.element}">${elIcon(d.element)}${d.element}</span><span class="chip on">Disco</span></div>
+    <div id="l2d-box"></div>
     <div id="disco-box" class="ficha"></div>
     <div class="dmore" id="dmore" hidden></div>`;
   const box=document.getElementById("dmore");
@@ -1039,6 +1040,7 @@ function showD(wikiUrl){
   if(d.imageUrl&&arts[0]!==d.imageUrl){const im=document.querySelector("#det .disc-art"),big=new Image();big.referrerPolicy="no-referrer";big.onload=()=>{if(im&&im.isConnected)im.src=big.src};big.src=arts[0]}
   cargarExtras().then(E=>{box.innerHTML=discExtraHtml(d,E)}).catch(()=>{box.innerHTML='<p class="nota-en">No se pudo cargar el detalle.</p>'});
   window.discoCargar&&discoCargar(d);
+  window.l2dInit&&l2dInit(d,"d");
   go("detail");
 }
 
