@@ -3,10 +3,12 @@
 const FILE="https://stellasora.miraheze.org/wiki/Special:FilePath/";
 const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let D=null,abierto="",VW=null,lista=[],ix=0;
+let D=null,VW=null,lista=[],ix=0;
 function urls(x,w){ /* posibles direcciones de la imagen (la wiki nombra distinto a veces); w = ancho de miniatura */
   const q=w?"?width="+w:"",n=x.n,lo=n.toLowerCase();
   if(x.k==="o")return [FILE+"Story_element_"+n+".png"+q];
+  if(x.k==="d")return ["https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/datingeventcg/"+n+".webp"];
+  if(x.k==="u")return [x.u+(w&&/Special:FilePath/.test(x.u)?"?width="+w:"")];
   return [...new Set([FILE+cap(n)+".png",FILE+cap(lo)+".png",FILE+cap(n)+".jpg",FILE+cap(lo)+".jpg"])].map(u=>u+q);
 }
 function img(x,w,cls){
@@ -32,15 +34,26 @@ window.galFb=function(im){const q=(im.dataset.q||"").split("|").filter(Boolean);
 #gal-vw .gv-nv{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:64px;padding:0;font-size:1.6rem;background:rgba(10,8,30,.55)}
 #gal-vw .gv-nv.p{left:6px}#gal-vw .gv-nv.n{right:6px}
 #gal-vw .gv-bt{display:flex;justify-content:center;gap:8px;padding:10px 12px calc(env(safe-area-inset-bottom,0px) + 12px)}`;document.head.appendChild(s)})();
-function cuerpo(){
-  const cats=[...new Set(D.grupos.map(g=>g.cat))];
-  let h=`<p class="nota" style="margin:2px 2px 10px">Ilustraciones de las historias del juego. Toca un grupo para verlas y una imagen para ampliarla. Se agregan solas cuando salen historias nuevas.</p>`;
-  cats.forEach(c=>{h+=`<div class="gl-cat">${esc(c)}</div>`;
-    D.grupos.filter(g=>g.cat===c).forEach(g=>{
-      h+=`<div class="gl-g"><button class="gl-h" data-g="${esc(g.id)}">${img(g.imgs[0],160,"gl-c")}<b>${esc(g.titulo)}</b><small>${g.imgs.length} ▾</small></button>${abierto===g.id?`<div class="gl-gr">${g.imgs.map((x,i)=>img(x,360,"gl-t").replace("<img ",`<img data-i="${i}" `)).join("")}</div>`:""}</div>`})});
-  return h;
+const COL=["c-pur","c-pink","c-teal","c-gold","c-lav"];
+let vc="",vg=""; /* nivel 1: categorias; nivel 2: grupos de una categoria; nivel 3: imagenes de un grupo */
+function tarjeta(attr,col,im,sub,tit,w){
+  return `<div class="hm hm-sub ${w?"w ":""}${col}" ${attr}>${im?img(im,420,"bg"):""}<div class="hm-sh"></div><div class="hm-cn"><i>${esc(sub)}</i><strong>${esc(tit)}</strong></div></div>`;
 }
-function pinta(){const r=document.getElementById("gal-root");if(r)r.innerHTML=cuerpo()}
+function cuerpo(){
+  if(!vc){
+    const cats=[...new Set(D.grupos.map(g=>g.cat))];
+    return `<p class="nota" style="margin:2px 2px 10px">Ilustraciones del juego dentro de la app. Se agregan solas cuando salen historias nuevas.</p><div class="hm-subgrid">`+
+      cats.map((c,i)=>{const gs=D.grupos.filter(g=>g.cat===c),n=gs.reduce((t,g)=>t+g.imgs.length,0);return tarjeta('data-c="'+esc(c)+'"',COL[i%COL.length],gs[0].imgs[0],n+" ilustraciones",c,i%3===0)}).join("")+`</div>`;
+  }
+  if(!vg){
+    const gs=D.grupos.filter(g=>g.cat===vc);
+    return `<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],g.imgs[0],g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
+  }
+  const g=D.grupos.find(z=>z.id===vg);
+  return `<h3 style="margin:2px 2px 10px">${esc(g.titulo)}</h3><div class="gl-gr" style="padding:0">${g.imgs.map((x,i)=>img(x,360,"gl-t").replace("<img ",`<img data-i="${i}" `)).join("")}</div>`;
+}
+function titulo(){const t=document.querySelector("#s-galeria .topbar h2");if(t)t.textContent=vg?"Ilustraciones":vc||"Galería de arte"}
+function pinta(){const r=document.getElementById("gal-root");if(r){r.innerHTML=cuerpo();titulo();window.scrollTo(0,0);const m=r.closest("main");if(m)m.scrollTop=0}}
 function visor(){
   if(VW)return VW;
   VW=document.createElement("div");VW.id="gal-vw";
@@ -65,13 +78,16 @@ window.galShow=async function(){
   if(!r._ok){r._ok=1;
     r.addEventListener("click",e=>{
       const t=e.target.closest(".gl-t");
-      if(t){const g=D.grupos.find(z=>z.id===abierto);if(!g)return;lista=g.imgs.map(x=>Object.assign({titulo:g.titulo},x));visor().classList.add("on");ve(+t.dataset.i);return}
-      const h=e.target.closest("[data-g]");if(h){abierto=abierto===h.dataset.g?"":h.dataset.g;const y=h.getBoundingClientRect().top;pinta();const n=r.querySelector('[data-g="'+h.dataset.g+'"]');if(n&&abierto)n.scrollIntoView({block:"start"})}
+      if(t){const g=D.grupos.find(z=>z.id===vg);if(!g)return;lista=g.imgs.map(x=>Object.assign({titulo:g.titulo},x));visor().classList.add("on");ve(+t.dataset.i);return}
+      const g=e.target.closest("[data-g]");if(g){vg=g.dataset.g;pinta();return}
+      const c=e.target.closest("[data-c]");if(c){vc=c.dataset.c;pinta()}
     });
+    const tb=document.querySelector("#s-galeria [data-back]");
+    if(tb&&!tb._gl){tb._gl=1;tb.addEventListener("click",ev=>{if(vg||vc){ev.stopPropagation();ev.preventDefault();if(vg)vg="";else vc="";pinta()}},true)}
     window.addEventListener("hashchange",cierra);
   }
   if(!D){r.innerHTML='<p class="nota">Cargando…</p>';
     try{const x=await fetch("galeria.json",{cache:"no-cache"});D=await x.json()}catch(e){r.innerHTML='<p class="nota">No se pudo cargar la galería. Revisa tu conexión.</p>';return}}
-  pinta();
+  vc="";vg="";pinta();
 };
 })();

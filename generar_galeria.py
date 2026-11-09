@@ -47,6 +47,33 @@ for ch in sorted(grupos, key=orden):
     t = HEADS.get(ch) or ch
     cat = {"STm": "Historia principal", "STev": "Eventos", "STsp": "Nova Times", "CG": "Historias de personaje", "CGD": "Recuerdos de disco"}.get(re.match(r"[A-Za-z]+", ch).group(0), "Otros")
     out.append({"id": ch, "cat": cat, "titulo": t, "imgs": grupos[ch]})
+# --- recuerdos de citas (arte de afinidad) ---
+for fn in sorted(glob.glob("afinidad/*.json"), key=lambda f: int(re.sub(r"\D", "", f) or 0)):
+    cid = os.path.basename(fn)[:-5]
+    try: dd = json.load(open(fn, encoding="utf-8")).get("d", [])
+    except Exception: continue
+    imgs = [{"n": x["g"], "k": "d"} for x in dd if x.get("g")]
+    if not imgs: continue
+    nm = cid
+    try:
+        m = re.search(r"# Afinidad de (.+?):", open("textos/AF_%s.txt" % cid, encoding="utf-8").readline())
+        if m: nm = m.group(1)
+    except Exception: pass
+    out.append({"id": "AFD_" + cid, "cat": "Recuerdos de cita", "titulo": nm, "imgs": imgs})
+# --- arte de discos (por elemento) ---
+try:
+    dj = open("data.js", encoding="utf-8").read()
+    a = dj.index("const DISCS = ") + len("const DISCS = "); b = dj.index("];", a) + 1
+    discos = json.loads(dj[a:b])
+    por = {}
+    for d in discos:
+        if d.get("imageUrl"): por.setdefault(d.get("element") or "Otros", []).append({"n": d["name"], "k": "u", "u": d["imageUrl"]})
+    for el in sorted(por):
+        out.append({"id": "DSC_" + el, "cat": "Discos", "titulo": "Discos " + el, "imgs": por[el]})
+except Exception as ex:
+    print("Discos no incluidos:", type(ex).__name__)
+ORD = ["Historia principal", "Eventos", "Nova Times", "Historias de personaje", "Recuerdos de cita", "Recuerdos de disco", "Discos"]
+out.sort(key=lambda g: ORD.index(g["cat"]) if g["cat"] in ORD else 99)
 nuevo = {"grupos": out}
 try:
     ant = json.load(open("galeria.json", encoding="utf-8"))
