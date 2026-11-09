@@ -202,6 +202,12 @@ let root,T=null,mode="list";
 .tm-tb{width:100%;box-sizing:border-box;min-height:100px;padding:10px;border-radius:10px;border:1px solid #3D3A55;background:var(--sf);color:var(--t);font-size:.85rem}
 .tm-fh{border-radius:16px;padding:16px;margin-bottom:12px;background:linear-gradient(135deg,#2a2160,#14102c 70%);border:1px solid rgba(123,108,255,.5)}
 .tm-fh h3{margin:0;font-size:1.3rem}.tm-fh p{margin:6px 0 0;font-size:.85rem;color:var(--t2);white-space:pre-line}
+.tm-act .btn,.tm-io .btn{border-radius:999px;padding:12px 14px;font-size:.88rem}
+.tm-sl{border-radius:18px;border:1px solid rgba(123,108,255,.28);background:linear-gradient(160deg,rgba(123,108,255,.08),rgba(255,255,255,.02) 60%),var(--sf)}
+.tm-in,.tm-tb,.tm-ta{border-radius:999px;border:1px solid rgba(123,108,255,.35);background:rgba(14,12,30,.7)}.tm-tb,.tm-ta{border-radius:16px}
+.tm-in:focus,.tm-ta:focus,.tm-tb:focus{border-color:#7B6CFF;box-shadow:0 0 0 3px rgba(123,108,255,.2)}
+.tm-add{border-radius:999px}
+.tm-seg{border-radius:999px}.tm-ctl select{border-radius:999px}
 `;document.head.appendChild(s)})();
 
 /* ---------- selector con filtros (personajes y discos) ---------- */
