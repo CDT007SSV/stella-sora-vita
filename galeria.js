@@ -15,7 +15,7 @@ function img(x,w,cls){
   const l=urls(x,w);
   return `<img class="${cls}" loading="lazy" decoding="async" alt="" referrerpolicy="no-referrer" src="${esc(l[0])}" data-q="${esc(l.slice(1).join("|"))}" onerror="galFb(this)">`;
 }
-window.galFb=function(im){const q=(im.dataset.q||"").split("|").filter(Boolean);if(q.length){im.src=q.shift();im.dataset.q=q.join("|")}else{im.style.visibility="hidden"}};
+window.galFb=function(im){const q=(im.dataset.q||"").split("|").filter(Boolean);if(q.length){im.src=q.shift();im.dataset.q=q.join("|")}else if(im.classList.contains("gl-t")){im.style.display="none"}else{im.style.visibility="hidden"}};
 (function css(){const s=document.createElement("style");s.textContent=`
 #gal-root .gl-cat{margin:14px 2px 6px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#9a95c4;font-weight:800}
 #gal-root .gl-g{border:1px solid #2c2850;border-radius:12px;background:rgba(20,16,50,.7);margin-bottom:8px;overflow:hidden}
@@ -36,6 +36,7 @@ window.galFb=function(im){const q=(im.dataset.q||"").split("|").filter(Boolean);
 #gal-vw .gv-bt{display:flex;justify-content:center;gap:8px;padding:10px 12px calc(env(safe-area-inset-bottom,0px) + 12px)}`;document.head.appendChild(s)})();
 const COL=["c-pur","c-pink","c-teal","c-gold","c-lav"];
 let vc="",vg=""; /* nivel 1: categorias; nivel 2: grupos de una categoria; nivel 3: imagenes de un grupo */
+function portada(imgs){const l=imgs.slice(0,12).flatMap(x=>urls(x,0));return {k:"u",u:l[0],f:l.slice(1)}} /* si la primera imagen no existe, prueba con las siguientes */
 function tarjeta(attr,col,im,sub,tit,w){
   return `<div class="hm hm-sub ${w?"w ":""}${col}" ${attr}>${im?img(im,420,"bg"):""}<div class="hm-sh"></div><div class="hm-cn"><i>${esc(sub)}</i><strong>${esc(tit)}</strong></div></div>`;
 }
@@ -43,11 +44,11 @@ function cuerpo(){
   if(!vc){
     const cats=[...new Set(D.grupos.map(g=>g.cat))];
     return `<p class="nota" style="margin:2px 2px 10px">Ilustraciones del juego dentro de la app. Se agregan solas cuando salen historias nuevas.</p><div class="hm-subgrid">`+
-      cats.map((c,i)=>{const gs=D.grupos.filter(g=>g.cat===c),n=gs.reduce((t,g)=>t+g.imgs.length,0);return tarjeta('data-c="'+esc(c)+'"',COL[i%COL.length],gs[0].imgs[0],n+" ilustraciones",c,i%3===0)}).join("")+`</div>`;
+      cats.map((c,i)=>{const gs=D.grupos.filter(g=>g.cat===c),n=gs.reduce((t,g)=>t+g.imgs.length,0);return tarjeta('data-c="'+esc(c)+'"',COL[i%COL.length],portada(gs.flatMap(g=>g.imgs)),n+" ilustraciones",c,i%3===0)}).join("")+`</div>`;
   }
   if(!vg){
     const gs=D.grupos.filter(g=>g.cat===vc);
-    return (vc==="Recuerdos de cita"?`<p class="nota" style="margin:0 0 10px">✨ Las escenas animadas (Live2D) de las historias de afinidad, como las del acto 4, no están en los archivos del juego y no se pueden mostrar aquí. Si se encuentran, se agregarán.</p>`:"")+`<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],g.imgs[0],g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
+    return (vc==="Recuerdos de cita"?`<p class="nota" style="margin:0 0 10px">✨ Las escenas animadas (Live2D) de las historias de afinidad, como las del acto 4, no están en los archivos del juego y no se pueden mostrar aquí. Si se encuentran, se agregarán.</p>`:"")+`<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],portada(g.imgs),g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
   }
   const g=D.grupos.find(z=>z.id===vg);
   return `<h3 style="margin:2px 2px 10px">${esc(g.titulo)}</h3><div class="gl-gr" style="padding:0">${g.imgs.map((x,i)=>img(x,360,"gl-t").replace("<img ",`<img data-i="${i}" `)).join("")}</div>`;

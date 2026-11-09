@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Genera galeria.json: todas las ilustraciones (CG) que usan las historias del lector, agrupadas por capitulo/evento.
-Lee lector-*.json (que ya se actualizan solos) y los titulos de lector-meta.json / lector.js. Sin red."""
-import json, glob, re, os, datetime, urllib.parse
+Lee lector-*.json (que ya se actualizan solos) y los titulos de lector-meta.json / lector.js. Solo usa la red para ver qué cumpleaños ya están en la wiki."""
+import json, glob, re, os, datetime, urllib.parse, urllib.request
 
 def chof(i):
     p = i.split("_")
@@ -25,6 +25,21 @@ def flat(a, o):
         if s and s[0] == "choice":
             for b in s[2]: flat(b, o)
     return o
+
+def en_wiki(nombres):
+    """Conjunto de archivos que existen en la wiki, o None si la consulta falla."""
+    hay = set()
+    try:
+        for i in range(0, len(nombres), 50):
+            q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo", "titles": "|".join("File:" + n for n in nombres[i:i + 50])})
+            req = urllib.request.Request("https://stellasora.miraheze.org/w/api.php?" + q, headers={"User-Agent": "StellaSoraWikiES-fanapp/1.0 (https://github.com/CDT007SSV/stella-sora-vita)"})
+            with urllib.request.urlopen(req, timeout=60) as r: pags = json.load(r)["query"]["pages"]
+            for p in pags.values():
+                if "imageinfo" in p: hay.add(p["title"].split(":", 1)[1].replace(" ", "_"))
+    except Exception as e:
+        print("No se pudo consultar la wiki:", type(e).__name__)
+        return None
+    return hay
 
 vistos, grupos = set(), {}
 for fn in sorted(glob.glob("lector-*.json")):
@@ -90,9 +105,15 @@ try:
     tal = [{"n": nm, "k": "u", "u": W + urllib.parse.quote(nm.replace(" ", "_") + "_Talent.png")} for nm in sorted(ex)]
     if tal: out.append({"id": "TAL_all", "cat": "Talentos", "titulo": "Ilustraciones de talentos", "imgs": tal})
     cum = []
+    arch = lambda nm, y: "%s_Birthday_Log_%d.jpg" % (nm.replace(" ", "_"), y)
+    hay = en_wiki([arch(nm, y) for nm in ex for y in (2026, 2025)])  # None = no se pudo consultar: se dejan todas
+    faltan = []
     for nm in sorted(ex):
-        f = nm.replace(" ", "_"); u = lambda y: W + urllib.parse.quote("%s_Birthday_Log_%d.jpg" % (f, y))
-        cum.append({"n": nm, "k": "u", "u": u(2026), "f": [u(2025)]})
+        l = [arch(nm, y) for y in (2026, 2025) if hay is None or arch(nm, y) in hay]
+        if not l: faltan.append(nm); continue
+        us = [W + urllib.parse.quote(a) for a in l]
+        cum.append({"n": nm, "k": "u", "u": us[0], "f": us[1:]})
+    if faltan: print("Cumpleaños que aún no están en la wiki (%d): %s" % (len(faltan), ", ".join(faltan)))
     if cum: out.append({"id": "CUM_all", "cat": "Cumpleaños", "titulo": "Ilustraciones de cumpleaños", "imgs": cum})
     if afi: out.append({"id": "AFI_all", "cat": "Ilustraciones de afinidad", "titulo": "Ilustraciones de afinidad (fin del acto 3)", "imgs": afi})
 except Exception as ex_:
