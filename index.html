@@ -115,6 +115,7 @@ main{padding:12px;max-width:720px;margin:0 auto}
 .fk-pot>div{flex:1;min-width:0}.fk-pot summary{font-size:.78rem;color:var(--a);cursor:pointer;margin-top:4px}
 .fk-gifts{display:flex;flex-wrap:wrap;gap:8px}.fk-gf{background:#221E3A;border-radius:8px;padding:7px 10px;font-size:.82rem}.fk-gf span{display:block;font-size:.68rem;color:var(--t2)}
 .fk-rg{width:100%;margin:4px 0 10px}
+.bkbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px 14px;margin:0 0 14px;border:2px solid rgba(255,255,255,.85);border-radius:16px;background:linear-gradient(135deg,#6a5cd6,#8e7ce8);color:#fff;font:800 1.15rem/1.2 inherit;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer}.bkbtn span{font-size:1.4rem}.bkbtn:active{transform:scale(.98)}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
@@ -457,7 +458,6 @@ body.bgm-on .screen{padding-bottom:84px}
     <p class="sub">Vita · Comunidad hispana</p>
     <button type="button" id="nsearch" class="nsearch" aria-label="Buscar en toda la app"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
     <button type="button" id="ngear" class="nsearch" style="right:86px" aria-label="Ajustes"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
-    <button type="button" id="nbk" class="nsearch" style="right:170px" aria-label="Marcadores del lector" onclick="if(window.nav)nav('marcadores')"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></button>
     <button type="button" id="hlbar" class="nsearch" style="right:128px" aria-label="Heartlink"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v12H9l-5 4z"/><path d="M12 12.6s-3-1.8-3-3.9a1.7 1.7 0 0 1 3-1 1.7 1.7 0 0 1 3 1c0 2.1-3 3.9-3 3.9z" fill="currentColor" stroke="none"/></svg></button>
     <button type="button" id="nbell" class="nbell" data-nav="news" aria-label="Novedades" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><span class="ndot" hidden></span></button>
   </header>
@@ -564,11 +564,11 @@ body.bgm-on .screen{padding-bottom:84px}
 <div id="s-story" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Historia</h2></div>
   <main>
+    <button type="button" class="bkbtn" data-go="marcadores"><span>🔖</span> Marcadores del lector</button>
     <div class="hm-subgrid">
       <div class="hm hm-sub w c-pur" data-go="mainstory"><img id="pt-ms" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-ms-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Continúa tu viaje</i><strong>Historia principal</strong></div></div>
       <div class="hm hm-sub  c-pink" data-go="events"><img id="pt-ev" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Daring_Adventure!_The_Ghost_Ship_Haunts_the_Deep!_Banner.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Ecos del pasado</i><strong>Eventos</strong></div></div>
       <div class="hm hm-sub  c-teal" data-go="novatimes"><img id="pt-nt" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Ss-nt-cover.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i id="n-nova">Historias</i><strong>Nova Times</strong></div></div>
-      <div class="hm hm-sub w c-lav" data-go="marcadores"><div class="hm-sh"></div><div class="hm-cn"><i>Donde te quedaste</i><strong>🔖 Marcadores del lector</strong></div></div>
       <div class="hm hm-sub w c-gold" data-go="charstories"><img id="pt-cs" class="bg" src="https://stellasora.miraheze.org/wiki/Special:FilePath/Firstlight_Noya_Memory_Snapshot.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"/><div class="hm-sh"></div><div class="hm-cn"><i>Recuerdos y afinidad</i><strong>Historias de personajes</strong></div></div>
     </div>
   </main>
