@@ -47,7 +47,7 @@ function cuerpo(){
   }
   if(!vg){
     const gs=D.grupos.filter(g=>g.cat===vc);
-    return `<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],g.imgs[0],g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
+    return (vc==="Recuerdos de cita"?`<p class="nota" style="margin:0 0 10px">✨ Las escenas animadas (Live2D) de las historias de afinidad, como las del acto 4, no están en los archivos del juego y no se pueden mostrar aquí. Si se encuentran, se agregarán.</p>`:"")+`<div class="hm-subgrid">`+gs.map((g,i)=>tarjeta('data-g="'+esc(g.id)+'"',COL[i%COL.length],g.imgs[0],g.imgs.length+" ilustraciones",g.titulo,0)).join("")+`</div>`;
   }
   const g=D.grupos.find(z=>z.id===vg);
   return `<h3 style="margin:2px 2px 10px">${esc(g.titulo)}</h3><div class="gl-gr" style="padding:0">${g.imgs.map((x,i)=>img(x,360,"gl-t").replace("<img ",`<img data-i="${i}" `)).join("")}</div>`;

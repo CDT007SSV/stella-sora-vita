@@ -72,7 +72,7 @@ async function afinidadExtra(box,F){
 }
 function panelAfin(F){
   const L=typeof LECTOR!=="undefined"&&F._en&&LECTOR["cs:"+F._en];
-  return (L?`<button type="button" class="btn" style="margin:0 0 12px;width:100%" onclick="abrirLector('${L}')">▶ Leer su historia de afinidad en el lector</button>`:"")+`<h4 class="fk-h">Regalos favoritos</h4><div class="fk-gifts">${F.regalos.map(g=>`<div class="fk-gf">${g.iu?`<img class="fk-gi" src="${g.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><b>${e(g.n)}</b>${g.ne!==g.n?`<span>${e(g.ne)}</span>`:""}</div></div>`).join("")}</div>
+  return (L?`<button type="button" class="btn" style="margin:0 0 12px;width:100%" onclick="abrirLector('${L}')">▶ Leer su historia de afinidad en el lector</button><p class="nota" style="margin:-6px 0 12px">✨ Algunas escenas (como las del acto 4) son ilustraciones animadas (Live2D) en el juego. Sus archivos no están disponibles, así que no se muestran aquí. Si se encuentran esos recursos, se agregarán.</p>`:"")+`<h4 class="fk-h">Regalos favoritos</h4><div class="fk-gifts">${F.regalos.map(g=>`<div class="fk-gf">${g.iu?`<img class="fk-gi" src="${g.iu}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><b>${e(g.n)}</b>${g.ne!==g.n?`<span>${e(g.ne)}</span>`:""}</div></div>`).join("")}</div>
    <h4 class="fk-h">Tareas de afinidad</h4>${F.tareas.map(t=>`<div class="kv"><span>${e(t.t)}</span><b style="flex:0 0 auto;color:var(--a)">+${t.exp} EXP</b></div>`).join("")}<div class="fk-afx"></div>`;
 }
 function montar(box,F){
