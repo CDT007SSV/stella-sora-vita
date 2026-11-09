@@ -148,7 +148,7 @@ body.home{background:var(--bg)}
 #start{max-width:480px;margin:0 auto;padding:14px 12px 24px;min-height:100dvh;display:flex;flex-direction:column}
 #start .hm-head{margin-bottom:12px}
 #start .hm-head img{height:48px;width:auto;display:block;filter:brightness(1.2) contrast(1.08)}
-#start .hm-logo{font-size:1.4rem;color:#cfc9ff}
+#start .hm-logo{font-size:1.2rem;color:#cfc9ff}
 body.home #start .sub{color:var(--t2);margin:4px 0 0}
 #start .foot{color:var(--t2)}
 .hm-wrap{flex:1;min-height:520px;display:grid;grid-template-columns:1fr 1.2fr;gap:10px;align-items:stretch}
@@ -408,7 +408,7 @@ details.pot>summary{cursor:pointer;list-style:none}details.pot>div{margin-top:6p
 .nota{font-size:.72rem;color:var(--t2);margin-top:6px}
 /* pantalla de carga solo CSS (se quita sola) */
 .betab{font-style:normal;font-weight:800;font-size:.62rem;letter-spacing:.2em;color:#0A0A12;background:linear-gradient(90deg,#5CE1E6,#9d8cff);padding:3px 8px 3px 10px;border-radius:99px;box-shadow:0 0 12px rgba(123,108,255,.55)}
-#start .hm-lg{display:flex;align-items:flex-end;gap:8px}#start .hm-lg .betab{margin-bottom:6px}
+#start .hm-lg{display:flex;align-items:flex-end;gap:6px}#start .hm-lg .betab{margin-bottom:6px}
 #splash .betab{margin-top:6px}
 .betafb{display:flex;align-items:center;justify-content:space-between;width:100%;margin:0 0 10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(92,225,230,.35);background:rgba(92,225,230,.08);color:#cfeff2;font:inherit;font-weight:700;font-size:.85rem;text-align:left}
 .betafb[hidden]{display:none}
@@ -457,6 +457,7 @@ body.bgm-on .screen{padding-bottom:84px}
     <p class="sub">Vita · Comunidad hispana</p>
     <button type="button" id="nsearch" class="nsearch" aria-label="Buscar en toda la app"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
     <button type="button" id="ngear" class="nsearch" style="right:86px" aria-label="Ajustes"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    <button type="button" id="nbk" class="nsearch" style="right:170px" aria-label="Marcadores del lector" onclick="if(window.nav)nav('marcadores')"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></button>
     <button type="button" id="hlbar" class="nsearch" style="right:128px" aria-label="Heartlink"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v12H9l-5 4z"/><path d="M12 12.6s-3-1.8-3-3.9a1.7 1.7 0 0 1 3-1 1.7 1.7 0 0 1 3 1c0 2.1-3 3.9-3 3.9z" fill="currentColor" stroke="none"/></svg></button>
     <button type="button" id="nbell" class="nbell" data-nav="news" aria-label="Novedades" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><span class="ndot" hidden></span></button>
   </header>

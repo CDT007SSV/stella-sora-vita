@@ -97,6 +97,7 @@ def guarda_imagen(url, mid):
         print("Imagen no guardada (%s): %s" % (mid, ex)); return ""
 
 # ---- traduccion automatica al espanol (Google Translate, endpoint publico; si falla, se deja en ingles) ----
+CJK = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]")  # japones / chino
 COLA = re.compile(r"((?:\s+(?:https?://\S+|[#@][\w]+))+)\s*$")
 def trad_linea(l):
     if not l.strip() or re.match(r"^https?://\S+$", l.strip()): return l
@@ -106,7 +107,8 @@ def trad_linea(l):
     cola = ""
     c = COLA.search(l)
     if c: cola, l = c.group(1), l[:c.start()]
-    if not re.search(r"[A-Za-z]{3}", re.sub(r"[#@]\w+|https?://\S+", "", l)): return pre + l + cola
+    lim = re.sub(r"[#@]\w+|https?://\S+", "", l)
+    if not (re.search(r"[A-Za-z]{3}", lim) or CJK.search(lim)): return pre + l + cola
     q = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "es", "dt": "t", "q": l})
     r = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + q, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(r, timeout=20) as f:
@@ -122,7 +124,9 @@ def traduce(t):
 
 def con_traduccion(it):
     """Agrega titulo_es / texto_es. Devuelve True si cambio algo."""
-    if "titulo_es" in it: return False
+    if "titulo_es" in it:
+        # japones/chino que quedo sin traducir en una corrida anterior: se reintenta
+        if not ((CJK.search(it.get("titulo") or "") and CJK.search(it.get("titulo_es") or "")) or (CJK.search(it.get("texto") or "") and CJK.search(it.get("texto_es") or ""))): return False
     a, b = traduce(it.get("titulo")), traduce(it.get("texto"))
     if a is None or b is None: return False
     it["titulo_es"], it["texto_es"] = a, b
