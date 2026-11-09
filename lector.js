@@ -167,7 +167,7 @@ function build(){
   el.innerHTML=`<div class="rd-st">${[0,1,2,3,4,5,6].map(i=>'<div class="rd-sg'+(i?'':' on')+'" data-s="'+i+'"><div class="rd-sgi"><div class="rd-bgi"></div><div class="rd-chars"></div></div></div>').join("")}<svg class="rd-sl" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="58" y1="0" x2="42" y2="100"/><line x1="30" y1="0" x2="14" y2="100"/><line x1="86" y1="0" x2="70" y2="100"/></svg><div class="rd-fxl"></div><div class="rd-film"><i></i><i></i></div><div class="rd-cur"></div><div class="rd-dim"></div><img class="rd-obj" alt="" referrerpolicy="no-referrer">
    <button class="rd-out" data-a="x">✕ Salir</button>
    <button class="rd-gear" data-a="cfg" aria-label="Ajustes"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
-   <div class="rd-menu"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="e"></button><button data-a="m"></button><button data-a="f"></button><button data-a="g"></button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg>Registro</button></div>
+   <div class="rd-menu"><button data-a="ac">Actos</button><button data-a="z"></button><button data-a="e"></button><button data-a="m"></button><button data-a="f"></button><button data-a="g"></button><button data-a="bk">🔖 Marcar aquí</button><button data-a="l"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM8.5 12h7M8.5 16h5"/></svg>Registro</button></div>
    <div class="rd-box"><div class="rd-face"><img alt="" referrerpolicy="no-referrer"></div><span class="rd-nm"></span><div class="rd-tx"></div><span class="rd-nx"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 11 7 11s7-6 7-11a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span></div>
    <div class="rd-card" id="rd-c"></div></div>`;
   document.body.appendChild(el);
@@ -176,8 +176,8 @@ function build(){
     const cierraMn=()=>{mn.classList.remove("on");gr.classList.remove("on")};
     if(a&&a.dataset.a==="cfg"){mn.classList.toggle("on");gr.classList.toggle("on");return}
     if(mn.classList.contains("on")&&!e.target.closest(".rd-menu")){cierraMn();return}   // tocar fuera solo cierra el menu, no avanza el dialogo
-    if(a){const k=a.dataset.a;if(k==="ac"||k==="l"||k==="x"||k==="nx")cierraMn();
-      if(k==="x")cierra();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="f"){try{localStorage.setItem("rdf",fsOn()?"0":"1")}catch(e){}btnF();aplicaFs()}else if(k==="e"){S.em=S.em?0:1;try{localStorage.setItem("rde",S.em)}catch(e){}btnE();if(!S.em)el.querySelectorAll(".rd-emo,.rd-memo").forEach(x=>x.remove())}else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="z"){S.zs=S.zs<1?1:S.zs>1?.85:1.15;if(S.zs===1.15&&false)S.zs=1;try{localStorage.setItem("rdz",S.zs)}catch(e){}btnZ();Object.keys(S.chars).forEach(k=>lay(S.chars[k]))}else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
+    if(a){const k=a.dataset.a;if(k==="ac"||k==="l"||k==="x"||k==="nx"||k==="bk")cierraMn();
+      if(k==="x")cierra();else if(k==="bk")marca();else if(k==="g")gen();else if(k==="l")log();else if(k==="m")mute();else if(k==="f"){try{localStorage.setItem("rdf",fsOn()?"0":"1")}catch(e){}btnF();aplicaFs()}else if(k==="e"){S.em=S.em?0:1;try{localStorage.setItem("rde",S.em)}catch(e){}btnE();if(!S.em)el.querySelectorAll(".rd-emo,.rd-memo").forEach(x=>x.remove())}else if(k==="nx"){const n=a.dataset.n||SIG[S.id],pv=S;pararAudio();iniciar(n,pv)}else if(k==="lx"){card(false);}else if(k==="ac")actos();else if(k==="z"){S.zs=S.zs<1?1:S.zs>1?.85:1.15;if(S.zs===1.15&&false)S.zs=1;try{localStorage.setItem("rdz",S.zs)}catch(e){}btnZ();Object.keys(S.chars).forEach(k=>lay(S.chars[k]))}else if(k==="ay"){card(false);if(S.hold){S.hold=0;avanza()}}
       else if(k==="c"){pick(+a.dataset.i)}else if(k==="ok"){card(false);avanza()}
       return}
     if(e.target.closest(".rd-card"))return;
@@ -514,7 +514,7 @@ function vacia(){ /* si el guion no reanuda el texto, lo completa */
 function autoSig(){}
 function pick(i){
   const c=S.choice;S.choice=null;card(false);
-  S.log.push(["Elegiste",c.o[i]]);
+  S.log.push(["Elegiste",c.o[i]]);(S.picks=S.picks||[]).push(i);
   if(c.b[i])S.stack.push({a:c.b[i],i:0});
   avanza();
 }
@@ -616,12 +616,46 @@ function actos(hold){
 }
 /* lector-meta.json lo genera generar_lector.py cada dia: capitulos, siguiente acto y botones de historias nuevas (sin tocar este archivo) */
 window.__meta=fetch("lector-meta.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(m=>{if(m){Object.assign(CAPS,m.CAPS||{});Object.assign(SIG,m.SIG||{});Object.assign(NOMB,m.NOMB||{});Object.assign(ALT,m.ALT||{})}return m}).catch(()=>null);
-window.abrirLector=async function(id){try{await window.__meta}catch(e){}
+/* Marcadores: guardan el acto, cuantas lineas se habian leido y las decisiones tomadas; al retomar se avanza rapido y en silencio hasta ahi */
+function bks(){try{return JSON.parse(localStorage.getItem("ssv_bk")||"[]")}catch(e){return[]}}
+function guardaBks(l){try{localStorage.setItem("ssv_bk",JSON.stringify(l.slice(0,40)))}catch(e){}}
+function aviso(t){const o=document.createElement("div");o.textContent=t;o.style.cssText="position:absolute;top:calc(env(safe-area-inset-top,0px) + 8px);left:50%;transform:translateX(-50%);z-index:30;padding:6px 14px;border-radius:14px;background:rgba(20,16,50,.9);border:1px solid #3a3560;color:#fff;font-size:.8rem;pointer-events:none;transition:opacity .6s";el.appendChild(o);setTimeout(()=>{o.style.opacity=0},1800);setTimeout(()=>o.remove(),2500)}
+function marca(){
+  if(!S||!S.log.length){aviso("Todavía no hay nada que marcar");return}
+  const u=S.log[S.log.length-1],l=bks().filter(b=>!(b.id===S.id&&b.n===S.log.length));
+  l.unshift({id:S.id,n:S.log.length,p:(S.picks||[]).slice(),w:u[0],t:String(u[1]).slice(0,90),a:NOMB[S.id]||S.id,c:(CAPS[chOf(S.id)]||[""])[0],f:Date.now()});
+  guardaBks(l);aviso("🔖 Marcador guardado");
+}
+function ffwd(bk){
+  if(!S)return;const m0=S.mute;S.mute=1;let pi=0,g=0;const pk=(bk.p||[]).slice();
+  while(S&&S.log.length<bk.n&&g++<9000){
+    if(S.card){const c=el.querySelector("#rd-c");if(c&&c.querySelector(".rd-log,.rd-map,.rd-end"))break;card(false);avanza();continue}
+    if(S.choice){if(pi>=pk.length)break;pick(pk[pi++]);continue}
+    avanza();
+  }
+  if(S){S.mute=m0;if(S.timer)finTipeo()}
+}
+window.bkLista=bks;
+window.bkBorra=function(i){const l=bks();l.splice(i,1);guardaBks(l)};
+window.bkShow=function(){
+  const r=document.getElementById("bk-root");if(!r)return;
+  if(!r._ok){r._ok=1;
+    r.addEventListener("click",async e=>{
+      const d=e.target.closest("[data-bd]");if(d){window.bkBorra(+d.dataset.bd);window.bkShow();return}
+      const g=e.target.closest("[data-bg]");if(g){const b=bks()[+g.dataset.bg];if(b)window.abrirLector(b.id,b)}
+    });
+  }
+  const l=bks();
+  const f=t=>new Date(t).toLocaleDateString("es",{day:"numeric",month:"short"});
+  r.innerHTML=`<p class="nota" style="margin:2px 2px 10px">Dentro del lector, abre el menú ⚙ y toca “🔖 Marcar aquí” para guardar el punto donde vas. Aquí puedes volver a él.</p>`+(l.length?l.map((b,i)=>`<div class="card" style="margin-bottom:8px"><div style="font-size:.72rem;color:#9a95c4">${esc(b.c||"")} · ${f(b.f)}</div><b style="display:block;margin:2px 0">${esc(b.a||b.id)}</b><div style="font-size:.82rem;color:#cfc8ff;margin-bottom:8px"><i>${esc(b.w||"")}:</i> ${esc(b.t||"")}…</div><div style="display:flex;gap:8px"><button class="btn" data-bg="${i}" style="flex:1">▶ Continuar</button><button class="btn out" data-bd="${i}" aria-label="Borrar">🗑</button></div></div>`).join(""):'<p class="nota">Todavía no tienes marcadores.</p>');
+};
+window.abrirLector=async function(id,bk){try{await window.__meta}catch(e){}
   build();
   try{const st=document.getElementById("bgm-st");if(st&&document.getElementById("bgmbar").classList.contains("on"))st.click()}catch(e){}
   if(fsOn())await aplicaFs();else{try{if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock("landscape")}catch(e){}}
   let pr=null;try{pr=localStorage.getItem("rdp"+chOf(id))}catch(e){}
-  await iniciar(id,null,!!CAPS[chOf(id)]);
+  await iniciar(id,null,bk?false:!!CAPS[chOf(id)]);
+  if(bk)ffwd(bk);
 };
 /* precarga: baja los sprites de la historia por adelantado, de 3 en 3, en el orden en que aparecen */
 function precarga(steps,tok){if(window.ssvCfg&&ssvCfg("pre")===0)return;
@@ -673,7 +707,7 @@ async function iniciar(id,prev,hold){
   let g=1,m=0,zs=1,em=1;try{em=localStorage.getItem("rde")==="0"?0:1;const z=+localStorage.getItem("rdz");if(z)zs=z;const v=localStorage.getItem("rdg");if(v!=null)g=+v;m=+(localStorage.getItem("rdm")||0)}catch(e){}
   if(S&&S.timer){clearInterval(S.timer);clearTimeout(S.wt);clearTimeout(S.at)}
   if(!hold)try{localStorage.setItem("rdp"+chOf(id),id)}catch(e){}
-  S={id:id,tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],pt:Math.random(),chars:{},log:[],g:g,mute:m,zs:zs,em:em,timer:0,card:0,choice:null};
+  S={id:id,picks:[],tr:{},u:(window.innerHeight>window.innerWidth?window.innerWidth:window.innerHeight)/100,names:d.names,en:d.en||{},stack:[{a:d.steps,i:0}],pt:Math.random(),chars:{},log:[],g:g,mute:m,zs:zs,em:em,timer:0,card:0,choice:null};
   el.querySelector(".rd-tx").textContent="";el.querySelector(".rd-nm").textContent="";
   el.querySelectorAll(".rd-chars").forEach(c=>c.innerHTML="");el.querySelectorAll(".rd-hd,.rd-memo").forEach(c=>c.remove());el.querySelectorAll(".rd-bgi,.rd-sgi").forEach(e=>{e.style.cssText=""});el.querySelectorAll(".rd-sg").forEach(e=>e.classList.toggle("on",e.dataset.s==="0"));el.querySelector(".rd-film").classList.remove("on");
   el.querySelector(".rd-fxl").innerHTML="";el.querySelector(".rd-cur").style.opacity=0;el.querySelector(".rd-box").style.visibility="";
