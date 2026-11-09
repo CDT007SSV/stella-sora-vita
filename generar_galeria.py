@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Genera galeria.json: todas las ilustraciones (CG) que usan las historias del lector, agrupadas por capitulo/evento.
 Lee lector-*.json (que ya se actualizan solos) y los titulos de lector-meta.json / lector.js. Sin red."""
-import json, glob, re, os, datetime
+import json, glob, re, os, datetime, urllib.parse
 
 def chof(i):
     p = i.split("_")
@@ -72,7 +72,25 @@ try:
         out.append({"id": "DSC_" + el, "cat": "Discos", "titulo": "Discos " + el, "imgs": por[el]})
 except Exception as ex:
     print("Discos no incluidos:", type(ex).__name__)
-ORD = ["Historia principal", "Eventos", "Nova Times", "Historias de personaje", "Recuerdos de cita", "Recuerdos de disco", "Discos"]
+# --- ilustracion de afinidad (Memory Snapshot) y skins de cada personaje (nombres de la wiki, igual que en la ficha) ---
+try:
+    ex = json.load(open("extras.json", encoding="utf-8")).get("skins", {})
+    W = "https://stellasora.miraheze.org/wiki/Special:FilePath/"
+    afi = []
+    for nm in sorted(ex):
+        f = nm.replace(" ", "_")
+        if ex[nm].get("cg"): afi.append({"n": nm, "k": "u", "u": W + urllib.parse.quote(f + "_Memory_Snapshot.png")})
+        n = 0; sk = []
+        for q in ex[nm].get("skins", []):
+            if q.get("t") != 3: continue
+            n += 1
+            u = lambda v: W + urllib.parse.quote("%s_skin%d_%s.png" % (f, n, v))
+            sk.append({"n": q["n"], "k": "u", "u": u("02"), "f": [u("01"), u("03")]})
+        if sk: out.append({"id": "SKN_" + f, "cat": "Skins", "titulo": nm, "imgs": sk})
+    if afi: out.append({"id": "AFI_all", "cat": "Ilustraciones de afinidad", "titulo": "Ilustraciones de afinidad (fin del acto 3)", "imgs": afi})
+except Exception as ex_:
+    print("Skins no incluidas:", type(ex_).__name__)
+ORD = ["Historia principal", "Eventos", "Nova Times", "Historias de personaje", "Ilustraciones de afinidad", "Recuerdos de cita", "Skins", "Recuerdos de disco", "Discos"]
 out.sort(key=lambda g: ORD.index(g["cat"]) if g["cat"] in ORD else 99)
 nuevo = {"grupos": out}
 try:

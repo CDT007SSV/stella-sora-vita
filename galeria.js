@@ -8,7 +8,7 @@ function urls(x,w){ /* posibles direcciones de la imagen (la wiki nombra distint
   const q=w?"?width="+w:"",n=x.n,lo=n.toLowerCase();
   if(x.k==="o")return [FILE+"Story_element_"+n+".png"+q];
   if(x.k==="d")return ["https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/datingeventcg/"+n+".webp"];
-  if(x.k==="u")return [x.u+(w&&/Special:FilePath/.test(x.u)?"?width="+w:"")];
+  if(x.k==="u")return [x.u,...(x.f||[])].map(u=>u+(w&&/Special:FilePath/.test(u)?"?width="+w:""));
   return [...new Set([FILE+cap(n)+".png",FILE+cap(lo)+".png",FILE+cap(n)+".jpg",FILE+cap(lo)+".jpg"])].map(u=>u+q);
 }
 function img(x,w,cls){
