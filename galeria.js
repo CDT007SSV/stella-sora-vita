@@ -33,7 +33,7 @@ window.galFb=function(im){const q=(im.dataset.q||"").split("|").filter(Boolean);
 #gal-vw .gv-im img{max-width:100%;max-height:100%;object-fit:contain}
 #gal-vw .gv-nv{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:64px;padding:0;font-size:1.6rem;background:rgba(10,8,30,.55)}
 #gal-vw .gv-nv.p{left:6px}#gal-vw .gv-nv.n{right:6px}
-#gal-vw .gv-bt{display:flex;justify-content:center;gap:8px;padding:10px 12px calc(env(safe-area-inset-bottom,0px) + 12px)}`;document.head.appendChild(s)})();
+#gal-vw .gv-bt button,#gal-vw .gv-bt a{padding:9px 14px;border-radius:10px;border:1px solid #6a55ff;background:#3b2fa0;color:#fff;font:700 .85rem inherit;text-decoration:none}#gal-vw .gv-ms{position:absolute;left:12px;right:12px;bottom:70px;text-align:center;background:rgba(0,0,0,.8);color:#fff;border-radius:10px;padding:8px;font-size:.8rem}#gal-vw .gv-bt{display:flex;justify-content:center;gap:8px;padding:10px 12px calc(env(safe-area-inset-bottom,0px) + 12px)}`;document.head.appendChild(s)})();
 
 /* Cuenta solo las ilustraciones de la wiki que de verdad existen: las prueba en segundo plano y quita las que no cargan */
 const VERIF=["Cumpleaños","Talentos","Ilustraciones de afinidad","Skins"];
@@ -69,12 +69,25 @@ function cuerpo(){
 }
 function titulo(){const t=document.querySelector("#s-galeria .topbar h2");if(t)t.textContent=vg?"Ilustraciones":vc||"Galería de arte"}
 function pinta(){const r=document.getElementById("gal-root");if(r){r.innerHTML=cuerpo();titulo();window.scrollTo(0,0);const m=r.closest("main");if(m)m.scrollTop=0}}
+
+async function guardar(w){
+  const im=w.querySelector(".gv-im img"),ms=w.querySelector(".gv-ms"),b=w.querySelector("[data-dl]"),url=im.currentSrc||im.src;
+  const aviso=t=>{ms.textContent=t;ms.hidden=false;clearTimeout(ms._t);ms._t=setTimeout(()=>ms.hidden=true,5000)};
+  if(!url)return;b.disabled=true;b.textContent="Preparando…";
+  try{
+    const r=await fetch(url,{referrerPolicy:"no-referrer"});if(!r.ok)throw 0;
+    const bl=await r.blob(),ext=(bl.type.split("/")[1]||"jpg").replace("jpeg","jpg"),nom=((lista[ix]&&lista[ix].n)||"ilustracion").replace(/[^\w-]+/g,"_")+"."+ext,f=new File([bl],nom,{type:bl.type});
+    if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f]});aviso("Listo. Elige «Guardar imagen» para tenerla en tu galería.")}catch(e){}}
+    else{const a=document.createElement("a");a.href=URL.createObjectURL(bl);a.download=nom;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000);aviso("Descargada.")}
+  }catch(e){window.open(url,"_blank","noopener");aviso("Se abrió la imagen. Mantén presionada y elige «Guardar imagen».")}
+  b.disabled=false;b.textContent="⬇ Guardar imagen";
+}
 function visor(){
   if(VW)return VW;
   VW=document.createElement("div");VW.id="gal-vw";
-  VW.innerHTML=`<div class="gv-top"><b></b><span class="gv-c"></span><button data-x>✕</button></div><div class="gv-im"><button class="gv-nv p" data-d="-1">‹</button><img alt="" referrerpolicy="no-referrer"><button class="gv-nv n" data-d="1">›</button></div><div class="gv-bt"><a data-o target="_blank" rel="noopener noreferrer">Abrir original</a></div>`;
+  VW.innerHTML=`<div class="gv-top"><b></b><span class="gv-c"></span><button data-x>✕</button></div><div class="gv-im"><button class="gv-nv p" data-d="-1">‹</button><img alt="" referrerpolicy="no-referrer"><button class="gv-nv n" data-d="1">›</button></div><div class="gv-bt"><button data-dl type="button">⬇ Guardar imagen</button><a data-o target="_blank" rel="noopener noreferrer">Abrir original</a></div><div class="gv-ms" hidden></div>`;
   document.body.appendChild(VW);
-  VW.addEventListener("click",e=>{if(e.target.closest("[data-x]")){cierra();return}const d=e.target.closest("[data-d]");if(d)ve(ix+ +d.dataset.d)});
+  VW.addEventListener("click",e=>{if(e.target.closest("[data-x]")){cierra();return}if(e.target.closest("[data-dl]")){guardar(VW);return}const d=e.target.closest("[data-d]");if(d)ve(ix+ +d.dataset.d)});
   let x0=null;VW.addEventListener("touchstart",e=>{x0=e.touches[0].clientX},{passive:true});
   VW.addEventListener("touchend",e=>{if(x0==null)return;const dx=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(dx)>60)ve(ix+(dx<0?1:-1))},{passive:true});
   return VW;
