@@ -1,0 +1,19 @@
+name: Diagnostico imagenes
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet pillow
+      - run: python3 diag/ver.py
+      - run: |
+          git add -A diag
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "diag imagenes" || echo nada
+          git pull --rebase -X theirs origin main
+          git push
