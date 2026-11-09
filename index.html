@@ -116,6 +116,7 @@ main{padding:12px;max-width:720px;margin:0 auto}
 .fk-gifts{display:flex;flex-wrap:wrap;gap:8px}.fk-gf{background:#221E3A;border-radius:8px;padding:7px 10px;font-size:.82rem}.fk-gf span{display:block;font-size:.68rem;color:var(--t2)}
 .fk-rg{width:100%;margin:4px 0 10px}
 .bkbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px 14px;margin:0 0 14px;border:2px solid rgba(255,255,255,.85);border-radius:16px;background:linear-gradient(135deg,#6a5cd6,#8e7ce8);color:#fff;font:800 1.15rem/1.2 inherit;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer}.bkbtn span{font-size:1.4rem}.bkbtn:active{transform:scale(.98)}
+.bl{background:rgba(20,16,50,.6);border:1px solid #2c2850;border-radius:14px;padding:12px;margin:0 0 14px}.bl h3{margin:0 0 6px;font-size:.95rem}.bl-ax{display:flex;justify-content:space-between;font-size:.68rem;color:var(--t2)}.bl-b{position:relative;padding-top:18px}.bl-hoy{position:absolute;top:0;bottom:0;width:2px;background:#ff7a8a;z-index:2}.bl-hoy em{position:absolute;top:0;left:-14px;font-size:.62rem;font-style:normal;color:#ff9aa7}.bl-r{margin:6px 0}.bl-t{position:relative}.bl-bar{display:block;height:24px;line-height:24px;padding:0 8px;border-radius:7px;font-size:.7rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.55;color:#fff}.bl-bar.p{background:#6a55ff}.bl-bar.d{background:#1fa89d}.bl-bar.a{opacity:1;box-shadow:0 0 10px rgba(255,255,255,.35)}.bl-r small{display:block;font-size:.64rem;color:var(--t2);margin-top:1px}.bl-k{font-size:.66rem;color:var(--t2);margin:8px 0 0}.bl-k b{display:inline-block;width:10px;height:10px;border-radius:3px;vertical-align:middle;margin:0 2px 0 6px}.bl-k b.p{background:#6a55ff}.bl-k b.d{background:#1fa89d}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
@@ -830,8 +831,22 @@ function bannerStatus(b){
 function restante(ms){const m=Math.max(0,Math.floor(ms/6e4)),d=Math.floor(m/1440),h=Math.floor(m%1440/60),mi=m%60;
   return d>=1?d+" d "+h+" h":h>=1?h+" h "+mi+" min":mi+" min"}
 const fdCorta=x=>new Date(x).toLocaleDateString("es",{day:"numeric",month:"short"});
+function bannerRango(b){
+  if(b&&b.start&&b.end)return[new Date(b.start),new Date(b.end)];
+  const m=((typeof b==="string"?b:(b&&b.period))||"").match(/(\d{4}-\d\d-\d\d)\s*→\s*(\d{4}-\d\d-\d\d)/);
+  return m?[new Date(m[1]+"T00:00:00"),new Date(m[2]+"T23:59:59")]:null}
+function lineaBanners(){
+  const D=864e5,hoy=Date.now(),L=BANNERS.map(b=>({b,r:bannerRango(b)})).filter(x=>x.r&&x.r[1]>hoy-3*D).sort((x,y)=>x.r[0]-y.r[0]);
+  if(!L.length)return"";
+  const a=Math.min(hoy-D,...L.map(x=>+x.r[0])),z=Math.max(hoy+D,...L.map(x=>+x.r[1])),T=z-a,p=t=>((t-a)/T*100).toFixed(2);
+  const dd=x=>new Date(x).toLocaleDateString("es",{day:"numeric",month:"short"});
+  return `<div class="bl"><h3>Línea de tiempo</h3><div class="bl-ax"><span>${dd(a)}</span><span>${dd(z)}</span></div><div class="bl-b"><i class="bl-hoy" style="left:${p(hoy)}%"><em>Hoy</em></i>
+  ${L.map(({b,r})=>{const disc=/disco/i.test(b.kind||b.period||""),act=r[0]<=hoy&&r[1]>=hoy,d=Math.ceil((r[1]-hoy)/D);
+    return `<div class="bl-r"><div class="bl-t" style="left:${p(r[0])}%;width:${Math.max(4,p(r[1])-p(r[0]))}%" ><span class="bl-bar ${disc?"d":"p"}${act?" a":""}">${esc(b.name)}</span></div>
+    <small style="margin-left:${Math.min(60,+p(r[0]))}%">${act?"termina en "+d+" d":r[0]>hoy?"empieza "+dd(r[0]):"terminó"}</small></div>`}).join("")}</div>
+  <p class="bl-k"><b class="p"></b> Personajes <b class="d"></b> Discos · brillo = activo</p></div>`}
 function renderBanners(){
-  document.getElementById("banners").innerHTML = [...BANNERS].map(b=>({b,st:bannerStatus(b)})).sort((x,y)=>x.st.on-y.st.on).map(({b,st})=>{
+  document.getElementById("banners").innerHTML = lineaBanners()+[...BANNERS].map(b=>({b,st:bannerStatus(b)})).sort((x,y)=>x.st.on-y.st.on).map(({b,st})=>{
     const ch=[b.img||"",...(b.imgAlts||[])], per=b.start?fdCorta(b.start)+" → "+fdCorta(b.end)+" · "+b.kind:(b.period||"");
     return `
   <div class="mode-card" onclick="window.open('${b.url}','_blank')">
