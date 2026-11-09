@@ -13,7 +13,7 @@ const css=document.createElement("style");css.textContent=`
 .ov .ovi{width:100%;border-radius:14px;margin:0 0 12px;display:block}.ov .ovp{white-space:pre-line;font-size:.92rem;line-height:1.5;margin:0 0 14px;overflow-wrap:anywhere}
 .ov .btn{display:block;text-align:center;margin:0 0 10px}.ov iframe{width:100%;height:560px;border:0;border-radius:14px;background:#000;margin-bottom:10px}
 .bd-ov{text-align:center;background:radial-gradient(circle at 50% 0,var(--bc,#6a55ff) -40%,#0b0818 62%)}
-.bd-ov .bd-art{position:relative;margin:4px auto 6px;max-width:360px}.bd-ov .bd-art img{width:100%;display:block;border-radius:22px;box-shadow:0 12px 40px rgba(0,0,0,.55);border:2px solid rgba(255,255,255,.18)}
+.bd-ov .bd-art{position:relative;margin:4px auto 6px;max-width:360px}.bd-ov .bd-art img.fb:not(:only-child){display:none}.bd-ov .bd-art img+img{margin-top:12px}.bd-ov .bd-art img{width:100%;display:block;border-radius:22px;box-shadow:0 12px 40px rgba(0,0,0,.55);border:2px solid rgba(255,255,255,.18)}
 .bd-ov h2{font-size:1.5rem;margin:14px 0 4px}.bd-ov .bd-d{font-size:1rem;color:#ffe9a8;margin-bottom:14px}
 .bd-v{margin:6px auto 14px;max-width:420px;text-align:left;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:12px 14px}
 .bd-v .row{display:flex;gap:8px;margin-bottom:8px}.bd-v .row .btn{flex:1;margin:0;padding:10px}.bd-v .jp{font-size:.95rem;line-height:1.45;margin:4px 0}.bd-v .es{font-size:.9rem;color:#fff;line-height:1.45;margin:6px 0 0}.bd-v .en{font-size:.82rem;color:#cfc8ff;line-height:1.4;margin:4px 0 0;font-style:italic}
@@ -72,7 +72,7 @@ window.cumplesOv=async function(c,m,d){
   const fj=(v&&v.f)||(gid?"vo_"+gid+"_ui_birth_001_jp.ogg":""),fc=(v&&v.fc)||(gid?"vo_"+gid+"_ui_birth_001_cn.ogg":"");
   const cap=f=>f?BASE+encodeURIComponent(f.charAt(0).toUpperCase()+f.slice(1)):"";
   const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-cumple">Cumpleaños</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div>
-   <div class="bd-art"><img src="${e(bdq[0])}" data-q="${e(bdq.slice(1).join("|"))}" alt="${e(c.name)}" referrerpolicy="no-referrer" onerror="var q=(this.dataset.q||'').split('|').filter(Boolean);if(q.length){this.dataset.q=q.slice(1).join('|');this.src=q[0]}else this.onerror=null"></div>
+   <div class="bd-art">${bdq.slice(0,-1).map(u=>`<img src="${e(u)}" alt="${e(c.name)}" referrerpolicy="no-referrer" onerror="this.remove()">`).join("")}<img class="fb" src="${e(c.imageUrl)}" alt="${e(c.name)}" referrerpolicy="no-referrer"></div>
    <h2>${n===0?"¡Feliz cumpleaños, ":""}${e(c.name)}${n===0?"!":""}</h2><div class="bd-d">🎂 ${fecha(m,d)} · ${cuando(n)}</div>
    ${fj?`<div class="bd-v"><div class="row"><button class="btn" data-play="jp">▶ Escuchar su voz (japonés)</button></div>
    ${v&&(v.es||v.en)?`<div class="es">${e(v.es||v.en)}</div>${v.es?"":`<div class="en">(traducción al español pendiente)</div>`}`:`<div class="en">${v?"":"Subtítulos no disponibles todavía para este personaje."}</div>`}</div>`:""}

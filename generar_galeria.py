@@ -109,10 +109,9 @@ try:
     hay = en_wiki([arch(nm, y) for nm in ex for y in (2027, 2026, 2025)])  # None = no se pudo consultar: se dejan todas
     faltan = []
     for nm in sorted(ex):
-        l = [arch(nm, y) for y in (2027, 2026, 2025) if hay is None or arch(nm, y) in hay]
+        l = [(y, arch(nm, y)) for y in (2027, 2026, 2025) if hay is None or arch(nm, y) in hay]
         if not l: faltan.append(nm); continue
-        us = [W + urllib.parse.quote(a) for a in l]
-        cum.append({"n": nm, "k": "u", "u": us[0], "f": us[1:]})
+        for y, ar in l: cum.append({"n": nm + " " + str(y), "k": "u", "u": W + urllib.parse.quote(ar)})
     if faltan: print("Cumpleaños que aún no están en la wiki (%d): %s" % (len(faltan), ", ".join(faltan)))
     if cum: out.append({"id": "CUM_all", "cat": "Cumpleaños", "titulo": "Ilustraciones de cumpleaños", "imgs": cum})
     if afi: out.append({"id": "AFI_all", "cat": "Ilustraciones de afinidad", "titulo": "Ilustraciones de afinidad (fin del acto 3)", "imgs": afi})
