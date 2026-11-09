@@ -32,15 +32,45 @@ const falta=(x,S)=>x.s.filter(m=>!S.has(m.n)).map(m=>m.n);
 #rk-root .rk-a{display:flex;flex-wrap:wrap;gap:6px}
 #rk-root .rk-a a,#rk-root .rk-a button{font:inherit;font-size:.76rem;padding:6px 10px;border-radius:10px;border:1px solid #3a3560;background:rgba(123,108,255,.14);color:#e9e5ff;text-decoration:none;cursor:pointer}
 #rk-root .rk-a .go{background:#5b4fe0;border-color:#5b4fe0;font-weight:700}
-#rk-root .rk-g{font-size:.7rem;padding:2px 7px;border-radius:8px;background:rgba(255,255,255,.08);color:#cfc8ff}`;document.head.appendChild(s)})();
+#rk-root .rk-g{font-size:.7rem;padding:2px 7px;border-radius:8px;background:rgba(255,255,255,.08);color:#cfc8ff}
+#rk-root .rk-h{padding:12px 14px;background:linear-gradient(135deg,rgba(123,108,255,.28),rgba(92,225,230,.1))}
+#rk-root .rk-h h3{font-size:1.1rem}
+#rk-root .rk-bar{padding:2px 0}
+#rk-root .rk-mi{padding:10px 12px;margin:0 0 8px;background:linear-gradient(135deg,rgba(232,196,106,.2),rgba(232,196,106,.06));border-color:rgba(232,196,106,.55)}
+#rk-root .rk-mi .st{font-size:1.5rem}
+#rk-root .rk-f{gap:6px;padding:4px 0 8px}
+#rk-root .rk-f .chip{flex:none;padding:6px 12px;font-size:.78rem;min-height:0;height:auto;line-height:1.2;white-space:nowrap}
+#rk-root .rk-f .chip i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:var(--ec,#7b6cff)}
+#rk-root .rk-c{padding:12px;border-radius:16px;margin-bottom:12px;background:linear-gradient(180deg,rgba(28,22,66,.85),rgba(16,13,40,.85));box-shadow:0 4px 14px rgba(0,0,0,.25)}
+#rk-root .rk-t{gap:10px}
+#rk-root .rk-n{width:34px;height:34px;border-radius:10px;font-size:1rem;font-weight:800}
+#rk-root .rk-n.g1{background:linear-gradient(135deg,#f3d98a,#c99a2e);color:#3a2800}#rk-root .rk-n.g2{background:linear-gradient(135deg,#e4e8f0,#9aa3b5);color:#1d2230}#rk-root .rk-n.g3{background:linear-gradient(135deg,#e6b184,#a9693a);color:#2d1700}
+#rk-root .rk-t b{font-size:1rem}
+#rk-root .rk-p{gap:8px;margin:12px 0 8px}
+#rk-root .rk-m{position:relative;padding:8px 4px 6px;border-radius:12px;background:rgba(255,255,255,.04)}
+#rk-root .rk-m .av{max-width:78px;border-radius:14px}
+#rk-root .rk-m.no .av{opacity:.35;filter:grayscale(.7)}
+#rk-root .rk-m.no:after{content:"No lo tienes";position:absolute;top:4px;left:50%;transform:translateX(-50%);font-size:.56rem;background:rgba(255,90,120,.9);color:#fff;border-radius:6px;padding:1px 5px;white-space:nowrap}
+#rk-root .rk-m b{font-size:.8rem;margin-top:2px}
+#rk-root .rk-m i{display:inline-block;margin-top:2px;padding:1px 7px;border-radius:8px;background:rgba(255,255,255,.07);font-size:.64rem}
+#rk-root .rk-m i.dps{background:rgba(255,107,157,.22);color:#ffb3c9}
+#rk-root .rk-fl,#rk-root .rk-ok{padding:6px 10px;border-radius:10px;font-size:.76rem;margin:4px 0 8px}
+#rk-root .rk-fl{background:rgba(255,90,120,.12)}#rk-root .rk-ok{background:rgba(47,191,122,.14)}
+#rk-root .rk-b{height:10px;border-radius:6px}
+#rk-root .rk-d{font-size:.78rem;margin:6px 0 10px}#rk-root .rk-d span:first-child{font-weight:700;color:#e9e5ff}
+#rk-root .rk-a a,#rk-root .rk-a button{padding:8px 12px;border-radius:12px}
+#rk-root .rk-a .go{flex:1 1 100%;text-align:center;padding:10px;font-size:.84rem}
+#rk-root .rk-a a{flex:1;text-align:center}
+#rk-root .rk-gc.on:after{content:"⭐"}
+`;document.head.appendChild(s)})();
 function chOf(n){return typeof CHARS!=="undefined"?CHARS.find(c=>c.name===n):null}
 function card(x,i,S){
   const fl=S&&S.size?falta(x,S):null;
   const col=EC[x.el]||"#7B6CFF";
   const mem=x.s.map(m=>{const c=chOf(m.n),mc=c?(EC[c.element]||"#3a3560"):"#3a3560";
-    return `<div class="rk-m" style="--mc:${mc}">${c&&c.imageUrl?`<img class="av" src="${esc(c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:`<span class="av x">${esc(m.n[0])}</span>`}<b>${esc(m.n)}</b><i>${esc(RN[m.r]||m.r)}${m.t?" · "+esc(m.t):""}</i></div>`}).join("");
+    return `<div class="rk-m${S&&S.size&&!S.has(m.n)?" no":""}" style="--mc:${mc}">${c&&c.imageUrl?`<img class="av" src="${esc(c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`:`<span class="av x">${esc(m.n[0])}</span>`}<b>${esc(m.n)}</b><i class="${m.r==="DPS"?"dps":""}">${esc(RN[m.r]||m.r)}${m.t?" · "+esc(m.t):""}</i></div>`}).join("");
   const au=x.auto==="Yes"?"Auto ✓":x.auto==="Decent"?"Auto ~":x.auto==="No"?"Auto ✗":"";
-  return `<div class="rk-c" style="--tc:${col}"><div class="rk-t"><span class="rk-n">${i+1}</span><b>${esc(x.team)}</b>${au?`<span class="rk-g">${au}</span>`:""}</div>
+  return `<div class="rk-c" style="--tc:${col}"><div class="rk-t"><span class="rk-n${i<3?" g"+(i+1):""}">${i+1}</span><b>${esc(x.team)}</b>${au?`<span class="rk-g">${au}</span>`:""}</div>
    <div class="rk-p">${mem}</div>
    ${fl?(fl.length?`<div class="rk-fl">Te falta: ${fl.map(esc).join(", ")}</div>`:`<div class="rk-ok">✓ Lo puedes armar con tus personajes</div>`):""}
    <div class="rk-b"><span style="width:${Math.max(2,Math.round(x.pct*100))}%"></span></div>
@@ -59,12 +89,12 @@ function paint(){
   const cuenta=x=>falta(x,S).length;
   let R=D.equipos.filter(x=>(!fe||x.el===fe)&&(!cp||x.code)&&(!fm||(S.size&&cuenta(x)<=fm-1))&&(!n||norm(x.team+" "+x.s.map(m=>m.n).join(" ")).includes(n)));
   const dt=D.meta.generado?new Date(D.meta.generado).toLocaleDateString("es",{day:"numeric",month:"short"}):"";
-  r.innerHTML=`<div class="rk-h"><h3>Ranking de equipos</h3><p>Los equipos con más daño en las pruebas de la comunidad. Toca “Abrir en el armador” para ver el equipo y guardarlo.</p>
+  r.innerHTML=`<div class="rk-h"><h3>Ranking de equipos</h3><p>Los equipos con más daño según la comunidad. Toca “Abrir en el armador” para guardarlo.</p>
    <p class="rk-cr">Datos: <b>Stella Sora Team Rankings</b> de ZiLenTz. <a href="${esc(D.meta.url)}" target="_blank" rel="noopener noreferrer">Ver la hoja original</a> · <a href="${esc(D.meta.kofi)}" target="_blank" rel="noopener noreferrer">☕ Apoyar al autor</a>${dt?` · actualizado ${dt}`:""}</p>
    <details><summary>Cómo se compararon los equipos</summary><ul>${D.meta.supuestos.map(s=>`<li>${esc(s)}</li>`).join("")}</ul><p>Tu daño real puede variar según tu cuenta, tus discos y tus emblemas.</p></details></div>
-   <button type="button" class="rk-mi" data-pm="1"><span style="font-size:1.4rem">👤</span><span>Mis personajes<small>${S.size?S.size+" marcados · toca para cambiar":"Márcalos para ver qué equipos puedes armar"}</small></span></button>
+   <div class="rk-bar"><button type="button" class="rk-mi" data-pm="1"><span class="st">⭐</span><span>Mis personajes<small>${S.size?S.size+" marcados · toca para cambiar":"Márcalos para ver qué equipos puedes armar"}</small></span></button>
    <input class="tm-in" id="rk-q" type="search" placeholder="Buscar equipo o personaje…" value="${esc(q)}" style="margin-bottom:8px">
-   <div class="rk-f"><button class="chip${fe?"":" on"}" data-e="">Todos</button>${els.map(e=>`<button class="chip${fe===e?" on":""}" data-e="${e}">${e}</button>`).join("")}<button class="chip${cp?" on":""}" data-cp="1">Con preset</button>${S.size?`<button class="chip${fm===1?" on":""}" data-fm="1">Puedo armarlo</button><button class="chip${fm===2?" on":""}" data-fm="2">Me falta 1</button>`:""}</div>
+   <div class="rk-f"><button class="chip${fe?"":" on"}" data-e="">Todos</button>${els.map(e=>`<button class="chip${fe===e?" on":""}" data-e="${e}" style="--ec:${EC[e]||"#7b6cff"}"><i></i>${e}</button>`).join("")}<button class="chip${cp?" on":""}" data-cp="1">Con preset</button>${S.size?`<button class="chip${fm===1?" on":""}" data-fm="1">Puedo armarlo</button><button class="chip${fm===2?" on":""}" data-fm="2">Me falta 1</button>`:""}</div></div>
    ${R.length?R.map(x=>card(x,D.equipos.indexOf(x),S)).join(""):'<p class="nota">${fm?"Ningún equipo cumple con tus personajes marcados. Prueba con “Me falta 1” o marca más personajes.":"Sin resultados."}</p>'}`;
   const i=r.querySelector("#rk-q");if(open){i.focus();i.setSelectionRange(q.length,q.length)}
 }

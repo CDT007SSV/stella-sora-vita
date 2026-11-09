@@ -119,7 +119,7 @@ main{padding:12px;max-width:720px;margin:0 auto}
 .bkbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px 14px;margin:0 0 14px;border:2px solid rgba(255,255,255,.85);border-radius:16px;background:linear-gradient(135deg,#6a5cd6,#8e7ce8);color:#fff;font:800 1.15rem/1.2 inherit;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer}.bkbtn span{font-size:1.4rem}.bkbtn:active{transform:scale(.98)}
 .bl{background:rgba(20,16,50,.6);border:1px solid #2c2850;border-radius:14px;padding:12px;margin:0 0 14px}.bl h3{margin:0 0 6px;font-size:.95rem}.bl-ax{display:flex;justify-content:space-between;font-size:.68rem;color:var(--t2)}.bl-b{position:relative;padding-top:18px}.bl-hoy{position:absolute;top:0;bottom:0;width:2px;background:#ff7a8a;z-index:2}.bl-hoy em{position:absolute;top:0;left:-14px;font-size:.62rem;font-style:normal;color:#ff9aa7}.bl-r{margin:6px 0}.bl-t{position:relative}.bl-bar{display:block;height:24px;line-height:24px;padding:0 8px;border-radius:7px;font-size:.7rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.55;color:#fff}.bl-bar.p{background:#6a55ff}.bl-bar.d{background:#1fa89d}.bl-bar.a{opacity:1;box-shadow:0 0 10px rgba(255,255,255,.35)}.bl-r small{display:block;font-size:.64rem;color:var(--t2);margin-top:1px}.bl-k{font-size:.66rem;color:var(--t2);margin:8px 0 0}.bl-k b{display:inline-block;width:10px;height:10px;border-radius:3px;vertical-align:middle;margin:0 2px 0 6px}.bl-k b.p{background:#6a55ff}.bl-k b.d{background:#1fa89d}
 html.claro{filter:invert(1) hue-rotate(180deg)}html.claro img,html.claro video,html.claro canvas,html.claro iframe,html.claro #rd,html.claro #splash,html.claro .hm .bg,html.claro [style*="background-image"]{filter:invert(1) hue-rotate(180deg)}html.claro body{background:#0A0A12}
-.gc-own{position:absolute;top:4px;right:4px;z-index:3;width:26px;height:26px;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:rgba(8,6,22,.72);color:#fff;font-weight:900;font-size:.9rem;line-height:1;cursor:pointer;padding:0}.gc-own.on{background:#2fbf7a;border-color:#2fbf7a;color:#04210f}
+.own-btn{margin-top:8px;padding:8px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.35);background:rgba(8,6,22,.55);color:#fff;font:700 .8rem inherit;cursor:pointer}.own-btn.on{background:#e8c46a;border-color:#e8c46a;color:#2a1c00}.gc-own{position:absolute;top:4px;right:4px;z-index:3;width:26px;height:26px;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:rgba(8,6,22,.72);color:#fff;font-weight:900;font-size:.9rem;line-height:1;cursor:pointer;padding:0}.gc-own.on{background:#2fbf7a;border-color:#2fbf7a;color:#04210f}
 </style>
 <script>
 // Three.js: usa la copia local (vendor/three, para la APK) y si no existe cae al CDN.
@@ -948,6 +948,11 @@ let PORT=null;
 const portC=c=>(PORT&&PORT[c.name])||c.imageUrl;
 fetch("presets.json").then(r=>r.ok?r.json():null).then(P=>{if(!P)return;PORT={};for(const i in P)PORT[P[i].n]="https://raw.githubusercontent.com/AutumnVN/ssassets/main/export/assets/assetbundles/icon/head/head_"+i+"01_XL.webp";if(typeof renderC==="function")renderC()}).catch(()=>{});
 const MIO=new Set();
+function ownOn(n){try{return JSON.parse(localStorage.getItem("ssv_mine")||"[]").includes(n)}catch(e){return false}}
+document.addEventListener("click",ev=>{const b=ev.target.closest&&ev.target.closest(".own-btn");if(!b)return;
+  let S=[];try{S=JSON.parse(localStorage.getItem("ssv_mine")||"[]")}catch(e){}
+  const n=b.dataset.own,i=S.indexOf(n);i>=0?S.splice(i,1):S.push(n);try{localStorage.setItem("ssv_mine",JSON.stringify(S))}catch(e){}
+  const on=i<0;b.classList.toggle("on",on);b.textContent=on?"⭐ En mis personajes":"☆ Agregar a mis personajes"});
 function cargaMio(){MIO.clear();try{JSON.parse(localStorage.getItem("ssv_mine")||"[]").forEach(n=>MIO.add(n))}catch(e){}}
 function renderC(){
   cargaMio();
@@ -965,12 +970,11 @@ function renderC(){
   document.getElementById("clist").innerHTML = '<div class="gc-grid">' + list.map(c=>`
     <div class="gc r${c.rarity}" data-el="${c.element}" data-id="${c.id}">
       <img class="gc-i" loading="lazy" decoding="async" alt="" src="${portC(c)}" referrerpolicy="no-referrer" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${c.imageUrl}'}else this.style.display='none'">
-      <span class="gc-el">${elIcon(c.element)}</span><button type="button" class="gc-own${MIO.has(c.name)?" on":""}" data-own="${esc(c.name)}" aria-label="Tengo este personaje">${MIO.has(c.name)?"✓":"+"}</button>${c.role?`<span class="gc-role ${c.role}">${ROLE_ES[c.role]||c.role}</span>`:""}
+      <span class="gc-el">${elIcon(c.element)}</span>${c.role?`<span class="gc-role ${c.role}">${ROLE_ES[c.role]||c.role}</span>`:""}
       <div class="gc-nm"><small>${estr(c.rarity,11)}</small>${c.name}</div>
     </div>`).join("") + '</div>';
   document.querySelectorAll("#clist .gc").forEach(el=>{
-    el.onclick=ev=>{const ow=ev.target.closest&&ev.target.closest("[data-own]");
-      if(ow){ev.stopPropagation();const S=new Set(MIO);S.has(ow.dataset.own)?S.delete(ow.dataset.own):S.add(ow.dataset.own);try{localStorage.setItem("ssv_mine",JSON.stringify([...S]))}catch(e){}renderC();return}
+    el.onclick=ev=>{
       nav('c/'+el.dataset.id) };
   });
 }
@@ -1044,6 +1048,7 @@ function showC(id){
       <div class="info">
         <div class="badge b${c.rarity} rbig">${estr(c.rarity,22)}</div>
         <h2>${esc(c.name)}</h2>
+        <button type="button" class="own-btn${ownOn(c.name)?" on":""}" data-own="${esc(c.name)}">${ownOn(c.name)?"⭐ En mis personajes":"☆ Agregar a mis personajes"}</button>
       </div>
     </div></div>
     <div class="chips">

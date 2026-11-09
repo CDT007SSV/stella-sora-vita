@@ -98,11 +98,7 @@ function calHtml(L){
   return `<div class="ca-n"><button type="button" data-cm="-1">‹</button><b>${MES[m]} ${y}</b><button type="button" data-cm="1">›</button></div><div class="ca-g">${g}</div>${lista||'<p class="nota">Nadie cumple años este mes.</p>'}`;
 }
 function tabs(){return `<div class="ca-t"><button type="button" class="chip${vista==="lista"?" on":""}" data-cv="lista">Lista</button><button type="button" class="chip${vista==="cal"?" on":""}" data-cv="cal">Calendario</button></div>`}
-window.cumplesShow=async function(){
-  const root=document.getElementById("cu-root");if(!root)return;
-  root.innerHTML='<p class="nota">Cargando…</p>';
-  const L=await lista();
-  if(!L.length){root.innerHTML='<p class="nota">No hay datos de cumpleaños todavía.</p>';return}
+function montar(root,L){
   const pinta=()=>{
     if(vista==="cal"){root.innerHTML=tabs()+calHtml(L);return}
     const S=L.map(x=>Object.assign({n:dias(x.m,x.d)},x)).sort((a,b)=>a.n-b.n),prox=S[0],hoy=S.filter(x=>x.n===0);
@@ -118,18 +114,20 @@ window.cumplesShow=async function(){
     const v=ev.target.closest("[data-cv]");if(v){vista=v.dataset.cv;pinta();return}
     const n=ev.target.closest("[data-cm]");if(n){const d=new Date(cmes.y,cmes.m+ +n.dataset.cm,1);cmes={y:d.getFullYear(),m:d.getMonth()};pinta();return}
     const t=ev.target.closest("[data-k]");if(!t)return;const x=L.find(y=>y.c.id===t.dataset.k);if(x)window.cumplesOv(x.c,x.m,x.d)};
+}
+window.cumplesShow=async function(){
+  const root=document.getElementById("cu-root");if(!root)return;
+  root.innerHTML='<p class="nota">Cargando…</p>';
+  const L=await lista();
+  if(!L.length){root.innerHTML='<p class="nota">No hay datos de cumpleaños todavía.</p>';return}
+  montar(root,L);
 };
-/* boton del pastel -> lista de cumpleaños en ventana; al elegir un personaje se abre su ficha con voz */
 window.cumplesLista=async function(){
   const L=await lista();
   const o=window.ssvOverlay(`<div class="ovh"><span class="ntype t-cumple">🎂 Cumpleaños</span><button class="ovx" data-ovx aria-label="Cerrar">✕</button></div><div id="cu-ov"><p class="nota">Cargando…</p></div>`,"cu-ovw");
   const root=o.querySelector("#cu-ov");
   if(!L.length){root.innerHTML='<p class="nota">No hay datos de cumpleaños todavía.</p>';return}
-  const S=L.map(x=>Object.assign({n:dias(x.m,x.d)},x)).sort((a,b)=>a.n-b.n),prox=S[0];
-  let h=`<div class="cu-hero" data-k="${e(prox.c.id)}"><img src="${e(prox.c.imageUrl)}" alt="" referrerpolicy="no-referrer"><div><small>${prox.n===0?"Hoy cumple":"Próximo cumpleaños"}</small><b>${e(prox.c.name)}</b><span>${fecha(prox.m,prox.d)} · ${cuando(prox.n)}</span></div></div>`;
-  h+=S.map(x=>`<div class="cu-r" data-k="${e(x.c.id)}"><img src="${e(x.c.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer"><div><b>${e(x.c.name)}</b><span>${fecha(x.m,x.d)}</span></div><span class="cu-t${x.n===0?" hoy":""}">${cuando(x.n)}</span></div>`).join("");
-  root.innerHTML=h;
-  root.onclick=ev=>{const t=ev.target.closest("[data-k]");if(!t)return;const x=L.find(y=>y.c.id===t.dataset.k);if(x)window.cumplesOv(x.c,x.m,x.d)};
+  montar(root,L);
 };
 document.addEventListener("click",ev=>{if(ev.target.closest&&ev.target.closest("#cu-open"))window.cumplesLista()});
 })();

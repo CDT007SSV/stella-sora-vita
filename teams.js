@@ -224,11 +224,9 @@ function picker(titulo,items,onPick,opts){
 }
 let RK=null;
 fetch("ranking.json").then(r=>r.ok?r.json():null).then(j=>{RK=j&&j.equipos||null}).catch(()=>{});
-const mioSet=()=>{try{return new Set(JSON.parse(localStorage.getItem("ssv_mine")||"[]"))}catch(e){return new Set()}};
 const charItems=sl=>{
-  const MI=mioSet(),base=chars().map(c=>({n:c.name,el:c.element,r:c.rarity,img:imgC(c),id:c.id,ro:c.role,mio:MI.has(c.name)}));
-  const fin=a=>MI.size?a.map((x,k)=>[x,k]).sort((p,q)=>(q[0].mio?1:0)-(p[0].mio?1:0)||0).map(x=>(x[0].mio&&!x[0].rec&&x[0].bd!=="En el equipo"?(x[0].bd=(x[0].bd?x[0].bd+" · ":"")+"Lo tienes"):0,x[0])):a;
-  const ot=T.slots.filter((x,i)=>i!==sl).map(x=>charOf(x.c)).filter(Boolean);if(!ot.length)return fin(base.map(i=>(i.bd=RN[i.ro]||"",i)));
+  const base=chars().map(c=>({n:c.name,el:c.element,r:c.rarity,img:imgC(c),id:c.id,ro:c.role}));
+  const ot=T.slots.filter((x,i)=>i!==sl).map(x=>charOf(x.c)).filter(Boolean);if(!ot.length)return base.map(i=>(i.bd=RN[i.ro]||"",i));
   const on=ot.map(c=>c.name),bst={};
   if(RK)RK.forEach(t=>{const m=t.s.map(x=>x.n);if(on.every(n=>m.includes(n)))m.forEach(n=>{if(!on.includes(n)&&(bst[n]||0)<t.pct)bst[n]=t.pct})});
   const cn={};ot.forEach(c=>cn[c.element]=(cn[c.element]||0)+1);
@@ -242,7 +240,7 @@ const charItems=sl=>{
     if(i.el===dom&&miss.includes(i.ro)){i.sc=3;i.bd=rol;i.rec=1}
     else if(i.el===dom){i.sc=2;i.bd=rol+" (repetido)"}
     else{i.sc=1;i.bd=rol}});
-  return fin(base.map((x,k)=>[x,k]).sort((a,b)=>(b[0].sc||0)+(b[0].mio?.5:0)-(a[0].sc||0)-(a[0].mio?.5:0)||a[1]-b[1]).map(x=>x[0]));
+  return base.map((x,k)=>[x,k]).sort((a,b)=>(b[0].sc||0)-(a[0].sc||0)||a[1]-b[1]).map(x=>x[0]);
 };
 const discItems=()=>{
   const base=discs().map(d=>({n:d.name,el:d.element,r:d.rarity,img:imgD(d)}));
