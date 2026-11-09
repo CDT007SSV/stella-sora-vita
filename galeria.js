@@ -34,6 +34,20 @@ window.galFb=function(im){const q=(im.dataset.q||"").split("|").filter(Boolean);
 #gal-vw .gv-nv{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:64px;padding:0;font-size:1.6rem;background:rgba(10,8,30,.55)}
 #gal-vw .gv-nv.p{left:6px}#gal-vw .gv-nv.n{right:6px}
 #gal-vw .gv-bt{display:flex;justify-content:center;gap:8px;padding:10px 12px calc(env(safe-area-inset-bottom,0px) + 12px)}`;document.head.appendChild(s)})();
+
+/* Cuenta solo las ilustraciones de la wiki que de verdad existen: las prueba en segundo plano y quita las que no cargan */
+const VERIF=["Cumpleaños","Talentos","Ilustraciones de afinidad","Skins"];
+function existe(x){return new Promise(ok=>{const l=urls(x,60);let i=0;const t=()=>{if(i>=l.length)return ok(false);const m=new Image();m.referrerPolicy="no-referrer";m.onload=()=>ok(true);m.onerror=()=>{i++;t()};m.src=l[i]};t()})}
+async function verifica(){
+  const todo=[];D.grupos.forEach(g=>{if(VERIF.includes(g.cat))g.imgs.forEach(x=>todo.push([g,x]))});
+  const bien=new Set();let k=0;
+  await Promise.all(Array.from({length:8},async()=>{while(k<todo.length){const[g,x]=todo[k++];if(await existe(x))bien.add(x)}}));
+  if(!bien.size)return; /* sin internet o wiki caida: no se quita nada */
+  D.grupos.forEach(g=>{if(VERIF.includes(g.cat))g.imgs=g.imgs.filter(x=>bien.has(x))});
+  D.grupos=D.grupos.filter(g=>g.imgs.length);
+  if(vg&&!D.grupos.some(g=>g.id===vg))vg="";
+  const r=document.getElementById("gal-root");if(r&&!vg)r.innerHTML=cuerpo();
+}
 const COL=["c-pur","c-pink","c-teal","c-gold","c-lav"];
 let vc="",vg=""; /* nivel 1: categorias; nivel 2: grupos de una categoria; nivel 3: imagenes de un grupo */
 function portada(imgs){const l=imgs.slice(0,12).flatMap(x=>urls(x,0));return {k:"u",u:l[0],f:l.slice(1)}} /* si la primera imagen no existe, prueba con las siguientes */
@@ -88,7 +102,8 @@ window.galShow=async function(){
     window.addEventListener("hashchange",cierra);
   }
   if(!D){r.innerHTML='<p class="nota">Cargando…</p>';
-    try{const x=await fetch("galeria.json",{cache:"no-cache"});D=await x.json()}catch(e){r.innerHTML='<p class="nota">No se pudo cargar la galería. Revisa tu conexión.</p>';return}}
+    try{const x=await fetch("galeria.json",{cache:"no-cache"});D=await x.json()}catch(e){r.innerHTML='<p class="nota">No se pudo cargar la galería. Revisa tu conexión.</p>';return}
+    verifica()}
   vc="";vg="";pinta();
 };
 })();
