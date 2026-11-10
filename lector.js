@@ -137,8 +137,13 @@ function bgm(code){
   if(!code){bgCur="";fadeTo(0,1200,()=>BG.pause());return}
   const m=/^m(\d+)$/.exec(code);if(!m)return;
   const u=FILE+"Bgm"+m[1]+".ogg";if(bgCur===u)return;bgCur=u;
-  fadeTo(0,250,()=>{BG.src=u;BG.play().then(()=>fadeTo(.5,900)).catch(()=>{})});
+  fadeTo(0,250,()=>{BG.src=u;BG.play().then(()=>fadeTo(.5,900)).catch(e=>{if(e&&e.name==="NotAllowedError")bgPend=1;else sinAudio()})});
 }
+/* si el navegador bloquea el sonido automático, se reintenta en el siguiente toque; si el archivo no carga, se avisa una vez */
+let bgPend=0,avisoAu=0;
+function sinAudio(){if(avisoAu)return;avisoAu=1;try{aviso("🔇 No se pudo cargar el audio")}catch(e){}}
+BG.addEventListener("error",()=>{if(BG.src)sinAudio()});
+document.addEventListener("pointerdown",()=>{if(bgPend&&bgCur&&S&&!S.mute){bgPend=0;BG.play().then(()=>fadeTo(.5,900)).catch(()=>{})}},true);
 function se(n){
   if(!S||S.mute)return;
   try{const a=new Audio(FILE+n+".ogg");a.volume=.6;a.play().catch(()=>{})}catch(e){}
