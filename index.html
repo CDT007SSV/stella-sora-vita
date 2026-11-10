@@ -531,7 +531,7 @@ html.claro #aj-root .aj-r.on .aj-sw:after{background:#111}
 <div id="s-chars" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Personajes</h2></div>
   <main>
-    <div class="cs-row"><input class="search" id="cs" type="search" placeholder="Buscar personaje..."/><button type="button" class="cu-ic" id="cu-open" aria-label="Cumpleaños">🎂</button></div>
+    <div class="cs-row"><input class="search" id="cs" type="search" placeholder="Buscar personaje..."/><button type="button" class="cu-ic" id="cu-open" aria-label="Cumpleaños">🎂</button><button type="button" class="cu-ic vt-ic" data-vt="pj" aria-label="Ranking de la comunidad">👑</button></div>
     <div class="filters" id="cr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button><button class="chip" id="cmine">⭐ Mis personajes</button></div>
     <div class="filters" id="ce"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button></div>
     <div class="fmore-row"><button type="button" class="chip" id="cmore-btn" aria-expanded="false">Más filtros ▾</button></div>
@@ -548,7 +548,7 @@ html.claro #aj-root .aj-r.on .aj-sw:after{background:#111}
 <div id="s-discs" class="screen">
   <div class="topbar"><button type="button" data-back>‹</button><h2>Discos</h2></div>
   <main>
-    <input class="search" id="ds" type="search" placeholder="Buscar disco..."/>
+    <div class="cs-row"><input class="search" id="ds" type="search" placeholder="Buscar disco..."/><button type="button" class="cu-ic vt-ic" data-vt="ds" aria-label="Ranking de la comunidad">👑</button></div>
     <div class="filters" id="dr"><button class="chip on" data-v="">Todos</button><button class="chip" data-v="5">5★</button><button class="chip" data-v="4">4★</button><button class="chip" data-v="3">3★</button></div>
     <div class="filters" id="de"><button class="chip" data-v="Aqua">Aqua</button><button class="chip" data-v="Ignis">Ignis</button><button class="chip" data-v="Lux">Lux</button><button class="chip" data-v="Terra">Terra</button><button class="chip" data-v="Umbra">Umbra</button><button class="chip" data-v="Ventus">Ventus</button><button class="chip" data-v="Neutral">Neutral</button></div>
     <div id="dlist"></div>
@@ -728,6 +728,8 @@ html.claro #aj-root .aj-r.on .aj-sw:after{background:#111}
 <script src="comunidad-config.js"></script>
 <script src="teams.js"></script>
 <script src="cumples.js"></script>
+<script src="votos-config.js"></script>
+<script src="votos.js"></script>
 <script src="stamina.js"></script>
 <script src="heartlink.js"></script>
 <script src="sonidos.js"></script>
