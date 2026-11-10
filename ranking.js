@@ -31,6 +31,7 @@ const falta=(x,S)=>x.s.filter(m=>!S.has(m.n)).map(m=>m.n);
 #rk-root .rk-d{display:flex;justify-content:space-between;font-size:.76rem;color:#b9b3e8;margin:4px 0 6px}
 #rk-root .rk-a{display:flex;flex-wrap:wrap;gap:6px}
 #rk-root .rk-a a,#rk-root .rk-a button{font:inherit;font-size:.76rem;padding:6px 10px;border-radius:10px;border:1px solid #3a3560;background:rgba(123,108,255,.14);color:#e9e5ff;text-decoration:none;cursor:pointer}
+#rk-root .rk-a .rk-nc{flex:1 0 100%;font-size:.74rem;color:var(--t2);padding:2px 2px 4px}
 #rk-root .rk-a .go{background:#5b4fe0;border-color:#5b4fe0;font-weight:700}
 #rk-root .rk-g{font-size:.7rem;padding:2px 7px;border-radius:8px;background:rgba(255,255,255,.08);color:#cfc8ff}
 #rk-root .rk-h{padding:12px 14px;background:linear-gradient(135deg,rgba(123,108,255,.28),rgba(92,225,230,.1))}
@@ -75,7 +76,7 @@ function card(x,i,S){
    ${fl?(fl.length?`<div class="rk-fl">Te falta: ${fl.map(esc).join(", ")}</div>`:`<div class="rk-ok">✓ Lo puedes armar con tus personajes</div>`):""}
    <div class="rk-b"><span style="width:${Math.max(2,Math.round(x.pct*100))}%"></span></div>
    <div class="rk-d"><span>${(x.pct*100).toFixed(1)}% del mejor</span><span>${(x.dmg/1e9).toFixed(1)} mil M de daño</span></div>
-   <div class="rk-a">${x.code?`<button class="go" data-rk="${D.equipos.indexOf(x)}">Abrir en el armador</button>`:""}${x.guide?`<a href="${esc(x.guide)}" target="_blank" rel="noopener noreferrer">▶ Guía</a>`:""}${x.src?`<a href="${esc(x.src)}" target="_blank" rel="noopener noreferrer">📊 Cálculo</a>`:""}</div></div>`;
+   <div class="rk-a">${x.code?`<button class="go" data-rk="${D.equipos.indexOf(x)}">Abrir en el armador</button>`:`<span class="rk-nc">Sin preset disponible</span>`}${x.guide?`<a href="${esc(x.guide)}" target="_blank" rel="noopener noreferrer">▶ Guía</a>`:""}${x.src?`<a href="${esc(x.src)}" target="_blank" rel="noopener noreferrer">📊 Cálculo</a>`:""}</div></div>`;
 }
 function paint(){
   const r=document.getElementById("rk-root");if(!r)return;
