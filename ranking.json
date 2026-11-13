@@ -3,7 +3,7 @@
 "fuente": "Stella Sora Team Rankings · ZiLenTz",
 "url": "https://docs.google.com/spreadsheets/d/1eGTh38V1VD-1O-yyMBB5gnlZw_ykt-WfFmE0Lg4XS8w/htmlview",
 "kofi": "https://ko-fi.com/zilentz_penguin",
-"generado": "2026-11-12T10:08:30Z",
+"generado": "2026-11-13T10:05:09Z",
 "supuestos": [
 "Discos: C1 para los limitados y del pase de batalla, C6 para los gratuitos (principal y apoyos).",
 "Emblemas: las dos mejores estadísticas (1 rara y 1 genérica), o tres a nivel 70 (2 raras y 1 genérica).",
@@ -12,63 +12,9 @@
 },
 "equipos": [
 {
-"el": "Aqua",
-"team": "T5 Chitose Mark | Allie's Sig",
-"dmg": 19324758268.0,
-"s": [
-{
-"n": "Chitose",
-"t": "T5",
-"r": "DPS"
-},
-{
-"n": "Tilia",
-"t": "T1+",
-"r": "Support"
-},
-{
-"n": "Suntide Willow",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
-"src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1318543766",
-"code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 1.0
-},
-{
-"el": "Terra",
-"team": "Gerie Mark | S.Coronis",
-"dmg": 18679956057.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Gerie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=1209688485",
-"code": "AAAAnAAAAJUAAACfwYAHbAZgADsMAJGAAGww",
-"pct": 0.9666
-},
-{
 "el": "Terra",
 "team": "Gerie Mark | Tilia",
-"dmg": 18599414632.0,
+"dmg": 17932963508.0,
 "s": [
 {
 "n": "Nazuna",
@@ -90,34 +36,61 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=389818416",
 "code": "AAAAnAAAAJUAAABrYYEHbAZgADsMAMGAAGAG",
-"pct": 0.9625
+"pct": 1.0
 },
 {
-"el": "Aqua",
-"team": "T5 Chitose Mark",
-"dmg": 18187342770.0,
+"el": "Terra",
+"team": "Gerie Mark | S.Coronis",
+"dmg": 17790852583.0,
 "s": [
 {
-"n": "Chitose",
-"t": "T5",
-"r": "DPS"
-},
-{
-"n": "Tilia",
-"t": "T1+",
+"n": "Nazuna",
+"t": "",
 "r": "Support"
 },
 {
-"n": "Suntide Willow",
+"n": "Gerie",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Springseek Coronis",
 "t": "",
 "r": "Support"
 }
 ],
 "auto": "Yes",
-"guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
-"src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1662700348",
-"code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 0.9411
+"guide": "",
+"src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=1209688485",
+"code": "AAAAnAAAAJUAAACfwYAHbAZgADsMAJGAAGww",
+"pct": 0.9921
+},
+{
+"el": "Terra",
+"team": "Gerie Mark | Leafia [WIP]",
+"dmg": 17363143724.0,
+"s": [
+{
+"n": "Nazuna",
+"t": "",
+"r": "Support"
+},
+{
+"n": "Gerie",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Leafia",
+"t": "",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "",
+"code": "AAAAnAAAAJUAAAChwYAHbAZgADsMAM2wAAwA",
+"pct": 0.9682
 },
 {
 "el": "Aqua",
@@ -144,61 +117,7 @@
 "guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1577876630",
 "code": "AAAAiwAAAH8AAACgMAbCYDDMQAANgM2GAAIG",
-"pct": 0.8964
-},
-{
-"el": "Terra",
-"team": "Gerie Mark | Leafia [Target]",
-"dmg": 16775716810.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Gerie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Leafia",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "",
-"guide": "",
-"src": "",
-"code": "",
-"pct": 0.8681
-},
-{
-"el": "Aqua",
-"team": "T5 Chitose Skill | Allie's Sig",
-"dmg": 16360876866.0,
-"s": [
-{
-"n": "Chitose",
-"t": "T5",
-"r": "DPS"
-},
-{
-"n": "Donna",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Suntide Willow",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
-"src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=2068972113",
-"code": "",
-"pct": 0.8466
+"pct": 0.966
 },
 {
 "el": "Aqua",
@@ -225,7 +144,7 @@
 "guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1577876630",
 "code": "AAAAiwAAAH8AAACgMAbCYDDMQAANgM2GAAIG",
-"pct": 0.832
+"pct": 0.8966
 },
 {
 "el": "Aqua",
@@ -252,34 +171,7 @@
 "guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1368668356",
 "code": "AAAAiwAAAIIAAACgMAbCYDDNgAQMAM2GAAIG",
-"pct": 0.824
-},
-{
-"el": "Aqua",
-"team": "T5 Chitose Skill",
-"dmg": 15610494406.0,
-"s": [
-{
-"n": "Chitose",
-"t": "T5",
-"r": "DPS"
-},
-{
-"n": "Donna",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Suntide Willow",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
-"src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=915610307",
-"code": "",
-"pct": 0.8078
+"pct": 0.8879
 },
 {
 "el": "Aqua",
@@ -306,7 +198,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=463256762",
 "code": "AAAAiwAAAIIAAACgzTADAAbNgAQMADAGwBwG",
-"pct": 0.8054
+"pct": 0.8679
 },
 {
 "el": "Aqua",
@@ -333,7 +225,7 @@
 "guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1318543766",
 "code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 0.7898
+"pct": 0.8511
 },
 {
 "el": "Aqua",
@@ -360,7 +252,7 @@
 "guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1662700348",
 "code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 0.7462
+"pct": 0.8041
 },
 {
 "el": "Lux",
@@ -387,7 +279,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1224946512",
 "code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
-"pct": 0.701
+"pct": 0.7554
 },
 {
 "el": "Aqua",
@@ -414,7 +306,7 @@
 "guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=2068972113",
 "code": "",
-"pct": 0.6901
+"pct": 0.7437
 },
 {
 "el": "Lux",
@@ -441,7 +333,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1224946512",
 "code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
-"pct": 0.6676
+"pct": 0.7194
 },
 {
 "el": "Ventus",
@@ -468,7 +360,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1455027366",
 "code": "AAAAoAAAAIkAAACFMAbDYAjCMANsADAAw2wA",
-"pct": 0.6635
+"pct": 0.715
 },
 {
 "el": "Aqua",
@@ -495,34 +387,7 @@
 "guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=915610307",
 "code": "",
-"pct": 0.6593
-},
-{
-"el": "Terra",
-"team": "Leafia Skill [Target]",
-"dmg": 12640726264.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Leafia",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-}
-],
-"auto": "",
-"guide": "",
-"src": "",
-"code": "",
-"pct": 0.6541
+"pct": 0.7104
 },
 {
 "el": "Umbra",
@@ -549,34 +414,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=2009632724",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
-"pct": 0.634
-},
-{
-"el": "Terra",
-"team": "Sparkla | Leafia [Target]",
-"dmg": 12128895468.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Leafia",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "",
-"guide": "",
-"src": "",
-"code": "",
-"pct": 0.6276
+"pct": 0.6832
 },
 {
 "el": "Ventus",
@@ -603,7 +441,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=892623817",
 "code": "AAAAjwAAAIkAAAB7zEgDDAAwBgdsAKBGwAwA",
-"pct": 0.6276
+"pct": 0.6763
 },
 {
 "el": "Umbra",
@@ -630,7 +468,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=1773193755",
 "code": "AAAAnQAAAJEAAACOMAbDYAYwBhtgAG2AwAwA",
-"pct": 0.6271
+"pct": 0.6758
 },
 {
 "el": "Umbra",
@@ -657,7 +495,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "",
 "code": "",
-"pct": 0.6221
+"pct": 0.6703
 },
 {
 "el": "Ignis",
@@ -684,7 +522,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=1154343064",
 "code": "AAAAhgAAAJ4AAAB+MAEDDDbAABgMBqwwGGGA",
-"pct": 0.5975
+"pct": 0.6439
 },
 {
 "el": "Lux",
@@ -711,7 +549,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1796394495",
 "code": "AAAAogAAAHMAAABrMAbbbDYxjsAMAM2IAGAA",
-"pct": 0.5888
+"pct": 0.6345
 },
 {
 "el": "Lux",
@@ -738,7 +576,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1796394495",
 "code": "AAAAogAAAHMAAABrMAbbbDYxjsAMAM2IAGAA",
-"pct": 0.5827
+"pct": 0.6279
 },
 {
 "el": "Umbra",
@@ -765,7 +603,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
-"pct": 0.5702
+"pct": 0.6144
 },
 {
 "el": "Aqua",
@@ -792,7 +630,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1tUKganHflc3phmsBRn5jQFUueuNy7u7YOrM5So5XT1E/edit?gid=1971715024",
 "code": "",
-"pct": 0.5336
+"pct": 0.575
 },
 {
 "el": "Lux",
@@ -819,7 +657,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAHMAAACbzbADYYbNiAAMAMABAAwA",
-"pct": 0.5259
+"pct": 0.5667
 },
 {
 "el": "Umbra",
@@ -846,61 +684,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=1973367383",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
-"pct": 0.5226
-},
-{
-"el": "Terra",
-"team": "Sparkla Rapid Fire",
-"dmg": 9971104043.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "T3",
-"r": "Support"
-}
-],
-"auto": "Decent",
-"guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
-"src": "https://docs.google.com/spreadsheets/d/1mfr6nSTJt1YA7vbwiJXRWlxJfk69umpUfqAK-jzUi5k/edit?gid=1800846676",
-"code": "",
-"pct": 0.516
-},
-{
-"el": "Lux",
-"team": "T5 Shia DashAA | T3 Minova",
-"dmg": 9965105798.0,
-"s": [
-{
-"n": "Shia",
-"t": "T5",
-"r": "DPS"
-},
-{
-"n": "Minova",
-"t": "T3+",
-"r": "Support"
-},
-{
-"n": "Tilia",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "No",
-"guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
-"src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=527086121",
-"code": "",
-"pct": 0.5157
+"pct": 0.5631
 },
 {
 "el": "Aqua",
@@ -927,7 +711,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1tUKganHflc3phmsBRn5jQFUueuNy7u7YOrM5So5XT1E/edit?gid=480925132",
 "code": "",
-"pct": 0.5144
+"pct": 0.5543
 },
 {
 "el": "Lux",
@@ -954,7 +738,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAGsAAACbzbADYYatiAAAAMABAAwA",
-"pct": 0.5143
+"pct": 0.5542
 },
 {
 "el": "Ignis",
@@ -981,7 +765,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=1890415014",
 "code": "AAAAhgAAAKAAAAB+MAEDDDYwAMNgMKwwGGGA",
-"pct": 0.5123
+"pct": 0.552
 },
 {
 "el": "Ventus",
@@ -1008,34 +792,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=941133376",
 "code": "AAAAjwAAAHsAAACFzbADDADBhsAMADAAG2wA",
-"pct": 0.5043
-},
-{
-"el": "Lux",
-"team": "T5 Shia DashAA",
-"dmg": 9611249431.0,
-"s": [
-{
-"n": "Shia",
-"t": "T5",
-"r": "DPS"
-},
-{
-"n": "Firefly",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Tilia",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "No",
-"guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
-"src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=534972980",
-"code": "",
-"pct": 0.4974
+"pct": 0.5435
 },
 {
 "el": "Ignis",
@@ -1062,7 +819,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=2036290207",
 "code": "AAAAhgAAAI0AAAB+MAEDDDbMMABsAKwwGGGA",
-"pct": 0.4957
+"pct": 0.5342
 },
 {
 "el": "Aqua",
@@ -1089,7 +846,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1632405874",
 "code": "",
-"pct": 0.4757
+"pct": 0.5126
 },
 {
 "el": "Lux",
@@ -1116,7 +873,7 @@
 "guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
 "src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=527086121",
 "code": "",
-"pct": 0.4751
+"pct": 0.5119
 },
 {
 "el": "Umbra",
@@ -1143,34 +900,7 @@
 "guide": "https://youtu.be/VUiktIb7FG4?si=S0pF3v6JsoCPLp9P",
 "src": "https://docs.google.com/spreadsheets/d/17yCFRpsO7qG3HN5Lol_foPpL8QSOGn0VejA_iJsq4vc/edit?gid=92698024",
 "code": "",
-"pct": 0.4735
-},
-{
-"el": "Terra",
-"team": "Sparkla Jaw [WIP]",
-"dmg": 8973854062.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "T0",
-"r": "Support"
-}
-],
-"auto": "",
-"guide": "",
-"src": "",
-"code": "",
-"pct": 0.4644
+"pct": 0.5102
 },
 {
 "el": "Umbra",
@@ -1197,7 +927,34 @@
 "guide": "https://youtu.be/VUiktIb7FG4?si=S0pF3v6JsoCPLp9P",
 "src": "https://docs.google.com/spreadsheets/d/17yCFRpsO7qG3HN5Lol_foPpL8QSOGn0VejA_iJsq4vc/edit?gid=1754589053",
 "code": "",
-"pct": 0.4605
+"pct": 0.4962
+},
+{
+"el": "Terra",
+"team": "Sparkla Jaw | T3 Nazuna",
+"dmg": 8782630863.0,
+"s": [
+{
+"n": "Sparkla",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Springseek Coronis",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Nazuna",
+"t": "T3",
+"r": "Support"
+}
+],
+"auto": "Decent",
+"guide": "",
+"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
+"code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
+"pct": 0.4897
 },
 {
 "el": "Ignis",
@@ -1224,7 +981,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=203494535",
 "code": "AAAAhgAAAGsAAAB+MAEDDDZgBhhgBqwwGGGA",
-"pct": 0.454
+"pct": 0.4893
 },
 {
 "el": "Lux",
@@ -1251,7 +1008,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAGsAAACWzbADYYatiAAAAAAAAAwA",
-"pct": 0.4444
+"pct": 0.4789
 },
 {
 "el": "Lux",
@@ -1278,7 +1035,34 @@
 "guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
 "src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=534972980",
 "code": "",
-"pct": 0.4434
+"pct": 0.4779
+},
+{
+"el": "Terra",
+"team": "Sparkla Rapid Fire | T3 Nazuna",
+"dmg": 8433246976.0,
+"s": [
+{
+"n": "Sparkla",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Springseek Coronis",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Nazuna",
+"t": "T3",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
+"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
+"code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
+"pct": 0.4703
 },
 {
 "el": "Ventus",
@@ -1305,7 +1089,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
 "code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
-"pct": 0.4244
+"pct": 0.4574
 },
 {
 "el": "Lux",
@@ -1332,7 +1116,7 @@
 "guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
 "src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=527086121",
 "code": "",
-"pct": 0.4196
+"pct": 0.4521
 },
 {
 "el": "Lux",
@@ -1359,7 +1143,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAGsAAAB1zbADYYZsCABgAKABAAwI",
-"pct": 0.4178
+"pct": 0.4502
 },
 {
 "el": "Ventus",
@@ -1386,12 +1170,12 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
 "code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
-"pct": 0.4125
+"pct": 0.4446
 },
 {
 "el": "Terra",
-"team": "Sparkla Rapid Fire | T0 Nazuna",
-"dmg": 7803351358.0,
+"team": "Sparkla Jaw",
+"dmg": 7765150118.0,
 "s": [
 {
 "n": "Sparkla",
@@ -1410,10 +1194,37 @@
 }
 ],
 "auto": "Decent",
+"guide": "",
+"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
+"code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
+"pct": 0.433
+},
+{
+"el": "Terra",
+"team": "Sparkla Rapid Fire",
+"dmg": 7432792036.0,
+"s": [
+{
+"n": "Sparkla",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Springseek Coronis",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Nazuna",
+"t": "T0",
+"r": "Support"
+}
+],
+"auto": "Yes",
 "guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
-"src": "https://docs.google.com/spreadsheets/d/1mfr6nSTJt1YA7vbwiJXRWlxJfk69umpUfqAK-jzUi5k/edit?gid=1800846676",
-"code": "",
-"pct": 0.4038
+"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
+"code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
+"pct": 0.4145
 },
 {
 "el": "Aqua",
@@ -1440,7 +1251,7 @@
 "guide": "https://youtu.be/_BS4KqaGKfg?si=kvB522QQEnWLLiqJ",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1075738820",
 "code": "",
-"pct": 0.3839
+"pct": 0.4137
 },
 {
 "el": "Ventus",
@@ -1467,7 +1278,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
 "code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.3817
+"pct": 0.4113
 },
 {
 "el": "Aqua",
@@ -1494,7 +1305,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1tUKganHflc3phmsBRn5jQFUueuNy7u7YOrM5So5XT1E/edit?gid=1970114823",
 "code": "",
-"pct": 0.3777
+"pct": 0.407
 },
 {
 "el": "Ventus",
@@ -1521,7 +1332,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
 "code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.3597
+"pct": 0.3876
 },
 {
 "el": "Aqua",
@@ -1548,7 +1359,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1tUKganHflc3phmsBRn5jQFUueuNy7u7YOrM5So5XT1E/edit?gid=764570375",
 "code": "",
-"pct": 0.2938
+"pct": 0.3166
 }
 ]
 }
