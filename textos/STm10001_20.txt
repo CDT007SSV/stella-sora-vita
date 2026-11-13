@@ -1,0 +1,244 @@
+# Especial 9.5 · Integridad al amanecer de la reunión · Epílogo · What Was Past Is Future Still
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Bernina & Virigia | Bernina & Virigia
+N:Cunning Company Rep | Cunning Company Rep
+N:Iris & Noya & Amber | Iris & Noya & Amber
+N:Lulu | Lulu
+N:Serious Company Rep | Serious Company Rep
+N:avg1_103 | Amber
+N:avg1_110 | Firenze
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_1207 | Iris
+N:avg1_133 | Nazuka
+N:avg1_134 | Fuyuka
+N:avg1_139 | Allie
+N:avg1_144 | Chitose
+N:avg1_156 | Nazuna
+N:avg1_162 | Alina
+N:avg1_1996 | Noya
+N:avg1_1997 | Soldier
+N:avg2_941 | Olympia (Puppet)
+N:avg2_942 | Coppelius
+N:avg2_978 | Rovina
+N:avg3_100 | Sylar
+N:avg3_1226 | Bernina
+N:avg3_1227 | Virigia
+N:avg3_1311 | SaiLa F
+N:avg3_132 | Kaede
+N:avg3_1341 | SaiLa F
+N:avg3_147 | Residente del Distrito de Oro
+N:avg3_172 | Beatrixa
+N:avg3_173 | Bernina
+N:avg3_174 | Virigia
+N:avg3_182 | Elis
+N:avg3_225 | Leita
+N:avg3_232 | Omnisky Aegis Rep. (M)
+N:avg3_999 | ???
+N:avg4_107 | Black Block
+
+## Texto
+0001 [Intro] | Epilogue
+0002 [Intro] | As the Past Becomes the Future
+0003 [Intro] | As the smoke clears, your dreamlike journey ends, pact fulfilled. After long solitude, you awaken at last to the sound of Iris's prayers. Where past and future meet, this moment of warmth will stay with you forever.
+0004 [Narración] | ==PLAYER_NAME==, wake up! Open your eyes and look at me!
+0005 [Narración] | Please, open your eyes... Don't fall asleep.
+0006 [Opción] | N-Noya...
+0007 [Tú] | Are... Are you hurt?
+0008 [Noya] | I'm fine, it doesn't hurt at all.==W== ==PLAYER_NAME==, We won!
+0009 [Tú] | We won...
+0010 [Tú] | The tower ... accepted my wish...
+0011 [Noya] | I don't know what you wished for, but Coppelius suddenly lost his mana supply from the tower mid-fight. That was the moment I knew you'd pulled it off.
+0012 [Tú] | I wished for your dream, Noya... The one you all carried out of that arena.
+0013 [Noya] | My dream...
+0014 [1] | "Please don't let me be born a slave ever again in my next life…"
+0015 [Tú] | My... My power isn't enough to rewrite Nova overnight...
+0016 [1] | But at least ... from now on, inside the towers...
+0017 [Tú] | No one will ever be forced to make a wish again. Now, everyone steers their own ship.
+0018 [Tú] | There will be no more slaves ... in the tower...
+0019 [Tú] | H-Hey, easy... You're hurting me.
+0020 [Noya] | ==PLAYER_NAME==, no... Boss, you're the light I can't live without. I won't let you disappear!
+0021 [Tú] | Disappear...
+0022 [Narración] | I force my gaze down. My legs are already gone, and my left arm is slowly fraying into ash, drifting upward toward the top of the towering spire.
+0023 [Tú] | Figures. Having made a wish that ridiculous, losing everything to the tower is only fair.
+0024 [Tú] | Hey, don't cry, Noya. Keep that smile on for me, okay?
+0025 [Noya] | Yeah...==W== Sorry. I'll smile.==W== I will...
+0026 [Tú] | That's better...
+0027 [Tú] | And you too, Elis, Lulu, Leita... Why the gloomy face? We won, didn't we?
+0028 [Elis] | Yeah, we won.==W== You cut off the mana supply, I smashed the magic circle's core, and Noya sliced through their last defense. Without enough mana to sustain it, Olympia's bloated, monstrous body choked on the unfinished worldwide spell and shattered into pieces.
+0029 [Lulu] | The citizens in the coffins are waking up. They look ... surprisingly alright.
+0030 [Leita] | Maybe because of your wish,==W== they didn't even lose their memories. Their vitality and souls are completely untouched.
+0031 [Tú] | If this is what it takes... I have no regrets.
+0032 [Elis] | You idiot... Why didn't you wish for yourself? You could've used all that mana to send yourself home!
+0033 [Tú] | If I did that, wouldn't I be just as terrible as those two? Even if I could go back that way... My friends would hate me for it.
+0034 [Tú] | My body... I'm sorry, I guess I don't have time to bid everyone a proper goodbye.
+0035 [Noya] | Don't say that! The Wishing Box! Quick! Get ==SEX4== inside the box! ==PLAYER_NAME==, we are not letting you die here!
+0036 [Elis] | This box can shield your soul. We'll find a way to rebuild your body, I swear.
+0037 [Elis] | Remember my song, ==PLAYER_NAME==! It's the key to finding your way back. Just remember!
+0038 [Lugar y hora] | ??:??, ? Month ?th, ????, White Room
+0039 [Tú] | This is ...==W== the White Room.==W== Guess I'm back here again.
+0040 [Tú] | So it's true. As long as I still hold the king piece, I will always come back here. I have my right arm back, and even my clothes are good as new. The only thing that didn't recover is...==W==
+0041 [Tú] | This phone.
+0042 [Tú] | Without the Throne, I can't open the door in front of me.==W== Am I supposed to find another door==W== like last time?
+0043 [Tú] | Would it be Filanis behind that door?==W== Or somewhere else?
+0044 [Tú] | Noya, Elis...==W== Are you alright? We took down Olympia and Coppelius, but Filanis's story won't be over just like that.==W== I'm just a deserter who "bailed," but you have to stay to pull the weight.
+0045 [Tú] | And...==W== Noya, Iris, Amber... You guys holding up?==W== I know, from where you're sitting, I probably looked like a total idiot fighting Angie solo, only to get dragged off and captured...
+0046 [???] | You're gone, and they're a complete mess.
+0047 [Tú] | I know, I know they are… But…==W== Wait.==W== Who said that?
+0048 [Beatrixa] | Your nurse, Beatrixa. Come on, cooperate with me for a quick soul-integrity check.
+0049 [Tú] | Be... Beatrixa? What are you doing here?==W== Can you help me open that door,==W== or get me out of here?
+0050 [Beatrixa] | Sorry, that's way above my pay grade. My only job is to run your routine diagnostics.==W== Now,==W== lift your shirt, please.
+0051 [Tú] | I... I'm not sick...
+0052 [Beatrixa] | I just need to listen to what's going on inside your soul. If you refuse,==W== I'll have to carve you open with a scalpel to check.
+0053 [Tú] | No, don't! Go ahead.==W== Tss—==W==that's cold!
+0054 [Tú] | By the way, where are Bernina and Virigia? Any idea where they went? And ... I feel like this is my first time running into you in the White Room?
+0055 [Beatrixa] | I only show up where there's a patient. This place obviously isn't one. So ... let's just call it an exception.
+0056 [Beatrixa] | Alright, all done. Your soul is one hundred percent intact.==W== I've got other patients, so I'm out.
+0057 [1] | Wait, Beatrixa!
+0058 [Bernina] | Oh, bummer. I've been stuck in this room forever, and Tyrant never even bothered to hold my hand.
+0059 [Virigia] | But the second Beatrixa walks in? Bam, instant heart-eyes.
+0060 [Bernina] | Guess it really is all about the fit, huh? Virigia, are we dressed a little too basic?==W== We need something with a little more ... flair. That way, Tyrant might actually look our way, don't you think?
+0061 [Tú] | Bernina... Virigia... Where did you go?
+0062 [Bernina] | Oh, you know. Just doing as we were told and lying low. But before we get into that, let me drop a little magic right here—
+0063 [Bernina] | Employees of the Monolith hiding in the dark shadows...==W== Reveal our true form before Tyrant!
+0064 [Virigia] | Eek!==W== Bernina, what are you doing?!
+0065 [Tú] | Wh-Whoa...!
+0066 [Bernina] | I knew it! Tyrant is totally into bunny girls.==W== Virigia, we're wearing these from now on.==W== That way, Tyrant will be too distracted to ask any questions!
+0067 [Virigia] | Y-You think so? But we should probably still apologize for ducking out earlier...==W== Tyrant, do you mind just pretending that whole thing never happened?==W== Pretty please?
+0068 [1] | Hey!==W== Don't you two try to gloss this over!
+0069 [Bernina & Virigia] | S-Sorry!
+0070 [Tú] | Relax, I'll let the apology slide. Just ... stop dressing like that. It's impossible to have a calm conversation with you.
+0071 [Bernina & Virigia] | Yes...
+0072 [Tú] | So, can someone finally explain what's been happening to me?
+0073 [Tú] | Why did I find another door deep inside the White Room, why did it lead all the way back to ancient Philae, and why were you two hiding?
+0074 [Bernina] | The White Room is a nexus of time and space inside the Monolith, spun into existence by the king piece.
+0075 [Virigia] | But the White Room has another name, one you didn't know:==W== the inside of Tyrant's Wishing Box.
+0076 [Bernina] | This place connects directly to your Wishing Box.==W== It's where your body is forged, and where your soul comes to rest.
+0077 [Virigia] | The door you found wasn't just "another door." You stumbled across the Wishing Box from a specific point in time, one where your body was already built, just waiting to be fitted with your soul.
+0078 [Tú] | The door I found ... literally looked like the lid of the Wishing Box.
+0079 [Bernina] | Once you pushed the lid open and climbed inside, your soul entered the body, and you naturally woke up right in that timeline's Filanis.
+0080 [Virigia] | You saved Filanis, but your body turned to ash, and your soul bounced right back to the White Room—right back here.
+0081 [Bernina] | It is precisely because your soul "rests" here that you are immune to magic. Ordinary magic can't touch this place, let alone scratch your indestructible soul.
+0082 [Virigia] | No matter what kind of hell you go through out there, as long as your soul stays intact, you'll always bounce back here in pristine shape.
+0083 [Tú] | Wait, hold on. This all sounds a little too neat, but... If I'm really all that you say I am... Why did the New Star Guild find me inside the Wishing Box with amnesia?
+0084 [Bernina] | Amnesia? Why do you think you've got amnesia?
+0085 [Tú] | Well, obviously because...
+0086 [Virigia] | Because that's what everyone told you? Because it sounded like the most logical guess? Or because ... the protagonists of plays and legends always start their adventure with no memories?
+0087 [Tú] | My dream...==W== Brought me back to a time in the distant past.
+0088 [Virigia] | A real memory? Or...==W== Just a dream? A planted dream even?
+0089 [Virigia] | Anyhow, you're different. At the end of the day, the White Room is nothing more than a pit stop for you to catch your breath. Where your memories and soul reside... Honestly, we're not sure.
+0090 [Bernina] | We only have a vague idea that it must be somewhere far, far away. Somewhere completely safe, completely out of the Monolith's reach.==W== So, whatever Nova threw at you to wipe your memory, it didn't succeed.
+0091 [Bernina] | And that's why when you made that wish in Filanis, the Monolith could only strip away your vitality. It couldn't touch your soul, even though there's nothing it wants more.
+0092 [Virigia] | Think about it. Ever since you woke up in that desert in the Wishing Box, have you actually lost any memories?
+0093 [Tú] | None. I even remember all those tragic fates we ended up rewriting ... and incidents that will no longer happen.
+0094 [Virigia] | Because your soul lived through that journey, you remember it. In all of Nova, you're the only one who can.
+0095 [Virigia] | You're like a traveler caught between the Monolith and Nova,==W== drifting endlessly between yesterday,==W== today, and tomorrow.==W== It's romantic,==W== but lonely.
+0096 [Tú] | I'm not lonely. I've got plenty of amazing companions. Whether they remember our adventures doesn't change the connection and trust we share.
+0097 [Bernina] | Except,==W== with the Throne busted right now, you can't actually do anything in here.
+0098 [Bernina] | The king piece grants you the "Player" power, and Angie didn't strip you of your ownership of the piece, so you can still get into the White Room.
+0099 [Bernina] | That said, "undoing a move" relies entirely on the Throne. Without the "crossroad coordinates of destiny" that it stores for you, there's no way you can open the door and get back to the companions you care about.
+0100 [Tú] | Can you guys fix the Throne?
+0101 [Virigia] | Repairing an artifact on that scale... That's forbidden knowledge. Under the NDA, our hands are tied.
+0102 [Bernina] | Besides, this is just a resting spot for souls. Even if we gave you the exact blueprint, you wouldn't be able to fix a physical phone sitting out in reality from in here.
+0103 [Bernina] | If Vita were still around, she could use her own soul to keep the Throne in prime condition inside the White Room.==W== Too bad she formatted herself.
+0104 [Tú] | Well... Since you guys managed to get here from the Monolith, you must have a way to head back from here, right? Can you take me with you?
+0105 [Virigia] | Sure thing! Just become a Monolith employee and you're all set. A full-time staffer, mind you. Not one of those temps who ate something they shouldn't have at the convenience store.==W==
+0106 [Bernina] | Do that,==W== and we can bust you right out of here.
+0107 [Tú] | Suddenly getting real pushy...==W== You guys didn't share all this just to trick me into joining the Monolith, did you?
+0108 [Virigia] | What's wrong with being a Monolith employee? You get lifespan on par with the Monolith itself. You don't get hurt or fall sick, plus full, unlimited access to every room and item inside.
+0109 [Bernina] | Also, you get to protect your companions, forever and ever.
+0110 [Tú] | Sounds nice, but I'm—
+0111 [Beatrixa] | Hard pass.==W== Absolutely don't!
+0112 [Tú] | Be-Beatrixa? What are you doing back here?
+0113 [Beatrixa] | As your designated caregiver, I have a duty to look out for your health. When someone tries to rope you into a toxic job, it's my job to step in.
+0114 [Beatrixa] | You are not seriously considering a gig with a seven-day workweek, zero holidays, no insurance or benefits, no option to quit, and literally no time to eat or sleep,==W== are you?
+0115 [1] | Thanks for looking out for me, Beatrixa. Don't worry, I never had any intention of taking that route.
+0116 [1] | Honestly, guiding Trekkers and giving them riddles, helping them heal and recover, running a convenience store that helps people climb the Monolith... Those actually sound kind of fun.
+0117 [1] | Thanks for the offer.==W== Maybe one day in the future, once I've seen all my wishes through, I'd be down to work here with you guys.==W== But==W== I made a promise to my companions out there—
+0118 [1] | I'm not running away. It's just temporary... A temporary goodbye. Escaping Mirage, capturing Angie, crushing the Committee... None of those paths worked.
+0119 [1] | So my only option left is to infinitely take back my moves. I'll test every possibility until I find the one path that saves you all.
+0120 [1] | Just wait for me a little longer,==W== Noya.==W== Just a little longer.
+0121 [1] | I have to get back. I've already made them wait way too long.
+0122 [Bernina] | Still, without the coordinates,==W== you're never getting that door open.
+0123 [1] | Then I'll just keep looking. Since I managed to find a Wishing Box leading to Filanis, I figure... I can find one leading somewhere else and get back to Nova.
+0124 [1] | And then, no matter how many years it takes,==W== what I have to go through,==W== or how far I have to walk,==W== I'm going to get back to that exact moment and pull into my arms ...==W== my companions==W== who would give everything up for me.
+0125 [1] | On top of that,==W== I'm going to put the Throne and Vita back together.==W== Only then can I say==W== I've actually found a way to save everyone.
+0126 [Virigia] | You've changed a lot since you got back from Filanis, Tyrant.
+0127 [Tú] | I have?
+0128 [Bernina] | You're way more upbeat. You used to frown all the time from carrying the weight of trying to save every single person. Now... You still want to help everyone, but you don't wear that frown anymore. It's like ...==W== you've finally found people==W== who actually have your back.
+0129 [Tú] | Yeah, I guess I have...==W== No, the truth is, I always did.
+0130 [Tú] | It's just that the old me was arrogant enough to think...==W== I'm the one==W== who has to shoulder everything and fix the world the "right" way==W== because I'm the Boss==W== with the White Room and the Seal of Grace.
+0131 [Tú] | It wasn't until I reached Filanis...==W== If that city really is Philae from who-knows-how-many years ago, and that world really is Nova from way back...
+0132 [Tú] | Then...==W== The shift from that brutal tower, that merciless era,==W== to the slightly warmer world we have now wasn't something a single person pulled off.==W==
+0133 [Tú] | I'm just a grain of sand. A grain of sand who made its wish.
+0134 [Tú] | Instead of torturing myself with endless overthinking and driving my friends crazy with worry, I'm better off holding onto hope and keeping my feet moving.
+0135 [Virigia] | Hope...==W== Where's your hope coming from?
+0136 [Tú] | I think every single grain of sand has something it loves.
+0137 [Bernina] | We failed, Virigia. Totally and absolutely.
+0138 [Bernina] | Not only did we totally fail to rope Tyrant into staying, we basically helped ==SEX4== figure out the mechanics of "destiny coordinates."
+0139 [Virigia] | Well, duh.==W== What did you expect? After all, ==SEX=='s our Tyrant.
+0140 [Virigia] | Listen, Tyrant. Someone just sent you a fresh set of "destiny coordinates." You don't have to go hunting around for the Wishing Box anymore.
+0141 [Bernina] | The love and hope in your heart? That's your ticket home.
+0142 [Serious Company Rep] | Lady Firenze, we don't want to make things difficult for you.
+0143 [Serious Company Rep] | But in light of the unfortunate vacancy in your executive leadership, the operational risks have simply become too unpredictable for us to maintain this partnership. While you're attending the funeral, we felt it best to take this opportunity to cancel the grain order we previously placed.
+0144 [Firenze] | Please reconsider.==W== Philae had a bumper grain harvest this year, and our company can definitely guarantee its quality, quantity,==W== and on-time delivery.
+0145 [Serious Company Rep] | We apologize,==W== but this is a directive from the company's Senate.==W== I'm simply here to inform you today, not negotiate.
+0146 [Cunning Company Rep] | Lady Firenze,==W== it always pays to align yourself with a major player. Have you ever considered jumping ship to another company... Say,==W== Omnisky Aegis?
+0147 [Firenze] | What do you mean by that? Even if we can't reach a deal, you don't need to kick us while we're down like this.
+0148 [Cunning Company Rep] | Oh, please, you've got it all wrong.==W== If we're being entirely transparent here, the Senate's decision to pull the order isn't because they question your execution. It's because...==W==
+0149 [Cunning Company Rep] | The "Seal of Grace" used by United Harvest Philae originates from Boss Accord,==W== but its CEO, Boss, has been publicly assassinated by the Salvation Committee.
+0150 [Cunning Company Rep] | It is a tragic loss, of course, and the entire sector extends its deepest condolences to you and your company.==W== But as you well know, sentiment doesn't pad the bottom line when the market shifts.
+0151 [Cunning Company Rep] | The news that Boss Accord holds three Seals of Grace has already spread across Emor.==W== With the undefeated Boss gone, Boss Accord is no more than a house full of treasures with its doors wide open.
+0152 [Cunning Company Rep] | As far as I know, four or five factions are already preparing to launch a corporate war to seize the Seals of Grace.==W== With your talent, if you're willing to come over to Omnisky Aegis, I guarantee you can join the Senate==W== and take charge of all operations in the company's southern region.
+0153 [Serious Company Rep] | We at Perish Trauma are well aware of the Trekkers' prowess. Side with us, and we'll double whatever Boss Accord is offering.
+0154 [Cunning Company Rep] | Do you want to go down with Boss Accord?
+0155 [Firenze] | I'd rather go down with it than break our oath.
+0156 [Nazuka] | What's wrong with you corporate suits? The Grace Imperium already voted to recognize that Boss isn't the Tyrant who's going to destroy the world. What on earth are you people trying to pull?
+0157 [Cunning Company Rep] | Omnisky Aegis actually voted too to clear your Boss's name at the Assembly, you know. We're on your side.
+0158 [Serious Company Rep] | But business is business. Even if we don't take the Seals of Grace off your hands, other companies will.
+0159 [Chitose] | My ==SEX11=='s bones are not yet cold, and you two seek to force our hand.==W== If you insist on pushing this to the bitter end,==W== my blade shall give you your answer.
+0160 [Noya] | What's with all the commotion out there?
+0161 [Amber] | Robbery. They're after Boss's chess pieces.==W==
+0162 [Noya] | How dare they pull this stunt right at ==SEX3== funeral.==W== These people ... and the Salvation Committee that got away,==W== I'm not letting them off the hook!==W==
+0163 [Noya] | Iris, let's go chase 'em off and get rid of them for good!
+0164 [Iris] | Do you guys think ...==W== Boss is really dead?
+0165 [Amber] | ==SEX2== head...==W== We all saw it.
+0166 [Iris] | What if we saw wrong?==W== What if...
+0167 [Iris] | Noya, Amber, let's make a wish again.==W== Just like how we did in the desert. Let's wish Boss back.
+0168 [Noya] | ...==W== Alright.
+0169 [Iris & Noya & Amber] | O almighty God of Grace,==W== hear our prayer...
+0170 [Iris & Noya & Amber] | Grant us...==W==
+0171 [Amber] | … an Artifact that can defeat any enemy.
+0172 [Iris] | … an Artifact that'll make us rich beyond our wildest dreams.
+0173 [Noya] | … an Artifact that ... grants...
+0174 [Noya] | ... infinite...==W==
+0175 [Noya] | I'm sorry,==W== I can't bring myself to make this wish!==W== Boss is really,==W== truly dead!==W== I can't just live in denial the way you are!==W==
+0176 [Noya] | Iris,==W== what are you singing...
+0177 [Amber] | A dirge...==W== The one==W== Mom sang...==W== Iris isn't living in denial.==W== Boss...==W== Boss is no longer with us.
+0178 [Noya] | We don't have ==SEX4== anymore...==W== It's all my fault. It's because of the wish I made back then==W== that ==SEX== kept granting our wishes!==W==
+0179 [Noya] | If I could do it all over again, I'd only wish for one thing—
+0180 [Narración] | _NOT_IN_LOG_ I'd wish for ==SEX4== to stay by our side, forever and ever!
+0181 [Amber] | Noya, Iris, look...==W== The Wishing Box==W== is glowing.
+0182 [Cunning Company Rep] | Heh, you've got a lot of fight in you. But we've already pieced together what went down three days ago, when you teamed up with the Sentinel of Dawn and stormed the execution grounds for the Boss's body. Now you're all wounded.
+0183 [Serious Company Rep] | Chitose, Boss's blade, internal organ damage.
+0184 [Serious Company Rep] | Petal Bloom, Boss's loyal companions, mental exhaustion from overcasting spells.
+0185 [Serious Company Rep] | Allie, Director of the Daisy Orphanage, fractured arm.
+0186 [Allie] | Even with a weapon between my teeth, I can still wipe every last one of you out.
+0187 [Cunning Company Rep] | Well, looks like negotiations have completely broken down. In that case... I'm afraid I'm here representing Omnisky Aegis from this point on.
+0188 [Serious Company Rep] | Representing Perish Trauma, I hereby declare war on Boss Accord—
+0189 [Narración] | Who's declaring war on Boss Accord?
+0190 [Cunning Company Rep] | Bo... Boss?!
+0191 [Serious Company Rep] | ==SEX1==... ==SEX1=='s alive!
+0192 [Cunning Company Rep] | Fall back, retreat! It's a trap! The bastard played dead just to bait us into declaring war!
+0193 [Firenze] | Boss... Is it really you?
+0194 [Chitose] | My ==SEX11==...
+0195 [Fuyuka] | Master...
+0196 [Nazuka] | ==PLAYER_NAME==!
+0197 [Opción] | Sorry I'm late.
+0198 [Amber] | Boss...
+0199 [Iris] | I knew it, I just knew it... I knew you'd never leave us behind!
+0200 [Noya] | Welcome back!
+0201 [Narración] | ♫ "Tell Me You're Back" Performed by: Iris (CV: Yuko Natsuyoshi) Lyrics: Wakatsuji Subaru Music: DekaDai

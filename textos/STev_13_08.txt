@@ -1,0 +1,149 @@
+# Evento · Brushstrokes of the Unknown · 8 · A Narrow Escape
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Company Reps | Company Reps
+N:Iris & Mikan | Iris & Mikan
+N:Omnisky Aegis Rep. | Omnisky Aegis Rep.
+N:Terrified Employee | Terrified Employee
+N:Terrified Trekker | Terrified Trekker
+N:United Harvest Manager | United Harvest Manager
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_118 | Coronis
+N:avg1_161 | Leafia
+N:avg2_937 | Fire Dragon
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_139 | Trekker
+N:avg3_152 | Bastelina
+N:avg3_165 | Nuz
+N:avg3_230 | Mikan
+N:avg3_231 | United Harvest Rep. (M)
+N:avg3_232 | Omnisky Aegis Rep. (M)
+N:avg3_937 | The Crowd
+
+## Texto
+0001 [Intro] | Act Eight
+0002 [Intro] | Out of the Inferno
+0003 [Intro] | The volcano erupts as the fire dragon circles overhead. Using her knowledge of the terrain, Leafia maps out an escape route for everyone and prepares to lure the monster away alone.
+0004 [Noya] | Wait...! What's going on? An earthquake?!
+0005 [Iris] | Worse! Look over there!
+0006 [Amber] | A fire dragon...!
+0007 [1] | Huff... Huff... Is everyone in one piece?!
+0008 [Noya] | We're good. But where are Leafia and Doctor Coronis?
+0009 [Mikan] | Huff... Huff...==W== They stayed behind! They're holding off the fire lizard!
+0010 [Noya] | Fire lizard?
+0011 [Iris] | There's a fire dragon AND a fire lizard?!
+0012 [Leafia] | Relax, it's the same animal. Mikan just wanted to correct your terminology.==W== Let me guess, did she give you a whole lecture on biology?
+0013 [Mikan] | I did not!==W== I know we're in a crisis here. Do you have any idea how hard it was to keep my mouth shut?!
+0014 [Mikan] | Besides, fire lizard is only a working title. I can't go around teaching unverified anatomy as fact.
+0015 [Coronis] | Heh... I can provide some field data if you need it. I did just go toe-to-toe with the little darling.
+0016 [Tú] | Leafia! Doctor Coronis! You made it! What happened to the fire dragon?
+0017 [Leafia] | Turned tail and ran.
+0018 [Tú] | You fought that thing off by yourselves?! That's incredible...
+0019 [Coronis] | No, we turned tail. We're just lucky it didn't chase us.
+0020 [United Harvest Manager] | Wh-What do we do now?!
+0021 [Omnisky Aegis Rep.] | If I'd known those pillars were growing on a giant turtle, I never would have...
+0022 [Terrified Trekker] | A-Are we even gonna make it out?! I'm gonna die before I see a single dime!
+0023 [Leafia] | Everyone, calm down. Follow my lead.
+0024 [Terrified Employee] | Isn't moving in a group gonna make us an easy target?! Are you sure about this?
+0025 [Leafia] | Look around. None of you are making it back to your ships alone.
+0026 [United Harvest Manager] | ... Fair point.
+0027 [Omnisky Aegis Rep.] | Fine. I promise. No more going rogue.
+0028 [Leafia] | Thank you for your cooperation. Let's go over the evacuation route.
+0029 [Tú] | Leafia, I've got the map ready. Here.
+0030 [Leafia] | We're in the northeast forest. The expedition ship is moored to the south. To skirt the wildfire, we'll hug the tree line and extract via the rocky coast at the eastern cape.
+0031 [United Harvest Manager] | Then what are we waiting for?! Let's move!
+0032 [Leafia] | There is a catch...
+0033 [Mikan] | Oh... Yeah, that's a problem.
+0034 [Leafia] | Based on the route Doctor Coronis took yesterday, the fire dragon's nest is right by that cape.
+0035 [Tú] | Meaning we're probably walking right into it!
+0036 [Terrified Trekker] | S-So what do we do?! Is there another way?!
+0037 [Leafia] | The only other option is cutting straight through the wildfire.
+0038 [Leafia] | Stick to the path I mapped out and you'll make it out. I promise.
+0039 [Tú] | What about you? Aren't you coming with us?
+0040 [Leafia] | No. I'm going to draw the fire dragon away.
+0041 [Tú] | Have you lost your mind?! This is no time to play hero!
+0042 [Coronis] | If it's near the nest, it's likely guarding its hatchlings. Approaching it now will only provoke a much more violent response.
+0043 [Coronis] | We just saw what that thing can do. Do you honestly think you can walk away from this unscathed?
+0044 [Mikan] | Exactly! Provoking a monster during mating season is pure suicide!
+0045 [Leafia] | Boss, remember what Bastelina told us?
+0046 [Bastelina] | We need to reiterate the preliminary survey protocols. We want to ensure everyone works in a completely safe environment!
+0047 [Company Reps] | ... Understood. Please go ahead.
+0048 [Bastelina] | Grace Imperium regulations state that environmental surveys for any newly surfaced Monolith are solely entrusted to the Trekker Association. All companies and guilds must cooperate.
+0049 [Bastelina] | Furthermore, the Trekker Association commands all evacuations during emergencies. This rule is still active and clearly documented in our official files.
+0050 [Leafia] | You were the one who dug up that forgotten mandate for us.
+0051 [Leafia] | That makes getting everyone out alive our responsibility.
+0052 [Tú] | But...
+0053 [Leafia] | Anyone else in the Association would do the exact same thing.
+0054 [Leafia] | Plus, I know the terrain better than anyone. I'm the logical choice to hold the line.
+0055 [Leafia] | Mikan, you and Boss lead the evacuation.
+0056 [Mikan] | ... Understood.
+0057 [Leafia] | Oh, and Boss. We need the ship moving faster if we're going to get out of here. Tell Nuz to modify the hull. It's her specialty.
+0058 [Tú] | Got it. Leave it to me.
+0059 [Mikan] | Leafia, we can't publish this issue of the Journal without your maps! Don't you forget that!
+0060 [Leafia] | Don't worry. There are still so many uncharted places out there waiting for me. I'm not stopping here.
+0061 [Mikan] | ... Heh. Fair enough.
+0062 [Mikan] | Everyone, move out!
+0063 [Mikan] | Leafia... Come back to us. We'll be waiting.
+0064 [Leafia] | I will.
+0065 [Leafia] | I'm sorry. I didn't come for your egg.
+0066 [Leafia] | I just ... need to draw you away. To keep you as far from my team as possible.
+0067 [Leafia] | So this is what a fire dragon egg feels like. Other than being massive, it's not much different from a regular bird egg...==W== Mikan will be thrilled when I tell her.
+0068 [Leafia] | Cough... Looks like you were holding back on us earlier.
+0069 [Leafia] | An enraged fire lizard secretes explosive bodily fluids. Terrifying power.
+0070 [Leafia] | I've bought them enough time. They should be safely evacuated by now...==W==
+0071 [Leafia] | Alright, I just need to put the egg back in the nest and...==W== Eh?!
+0072 [Leafia] | Its attacks are getting faster! Doesn't it care about its own egg anymore?!==W== Ahh!
+0073 [Leafia] | How could this ... happen...==W==
+0074 [Nuz] | Done! Ship modifications are complete! We've got forty percent more speed!
+0075 [Tú] | Iris, Mikan, help me do a headcount! Make sure we double-check the people from Omnisky Aegis and United Harvest.
+0076 [Iris & Mikan] | Got it!
+0077 [Nuz] | Boss, get on board!
+0078 [1] | Hold on. Just give it a second...
+0079 [Tú] | Leafia, you better keep your word...!
+0080 [Noya] | Boss, look!
+0081 [Narración] | A familiar silhouette emerges from the blazing forest. This is the moment everyone has been waiting for.
+0082 [The Crowd] | Leafia!!
+0083 [Leafia] | ... I made it back.
+0084 [Narración] | Her scraped and burned hand grips mine, refusing to let go.
+0085 [1] | Get on board. Quickly!
+0086 [Mikan] | Doctor Coronis, we need first aid!
+0087 [Coronis] | On it. Leave her to me.
+0088 [Leafia] | Told you, Boss. I'd make it back... Ugh...==W==
+0089 [Tú] | Leafia?!
+0090 [Coronis] | She's fine. The adrenaline just wore off, and her body gave out.
+0091 [Leafia] | I always had the upper hand. Fire dragons have a very obvious weakness.
+0092 [Mikan] | Ah! You mean ... their highly sensitive olfactory system...
+0093 [Leafia] | Boss, that repellent potion you accidentally spilled on me earlier. Do you still have it?
+0094 [Tú] | Yeah. Doctor Coronis mixed a huge bottle for me.
+0095 [Leafia] | If we douse the fire dragon with the whole bottle...
+0096 [Mikan] | That's like dumping three hundred hoatzins on its head.==W== Ugh, just thinking about it makes me nauseous. Those birds literally smell like feces.
+0097 [Tú] | That smell really is lethal...
+0098 [Leafia] | So stop worrying. I'll lure it off the path, throw the potion, and its instincts will force it to flee. I'll be long gone before it can process what happened.
+0099 [United Harvest Manager] | A giant sea turtle... Unbelievable. There goes our camp. How the hell am I supposed to explain this to corporate?
+0100 [Omnisky Aegis Rep.] | We can work with this. Why don't we get our stories straight before we report back?
+0101 [Omnisky Aegis Rep.] | Look... I just had a brilliant idea. You in?
+0102 [United Harvest Manager] | I'm listening.
+0103 [United Harvest Manager] | Now that is a stroke of genius!
+0104 [Omnisky Aegis Rep.] | Keep it down. I'll draft the proposal, but we keep them in the dark for now.
+0105 [1] | This started as a geography feature, but it looks like we're doing biology now.
+0106 [Mikan] | Geography, biology... Either way, I've got plenty to write about!
+0107 [Leafia] | A sea turtle feature... I suppose I'm out of a job.
+0108 [Mikan] | Are you kidding?==W== That topographic map you drew is the exact shape of its shell!
+0109 [Leafia] | Oh. Good point.
+0110 [Tú] | How are you holding up, Leafia?
+0111 [Leafia] | Much better.==W== Doctor Coronis gave me a few jabs with those massive syringes of hers.
+0112 [Amber] | Mikan.==W== I got shots of the fire dragon and its egg.
+0113 [Leafia] | Speaking of which...==W== I brought the egg back.
+0114 [Mikan] | Huh?! That's incredible!==W== Wait, no! Why would you steal the egg? That's not like you at all!
+0115 [Leafia] | I had no choice... It was abandoned because of me. I couldn't just leave it behind.
+0116 [Mikan] | ... What exactly happened?
+0117 [Mikan] | I see... You're right. Once an egg picks up a human scent, the adult dragon will reject it.
+0118 [Leafia] | Yeah. And I couldn't just let it burn in the forest... I'll raise it myself and release it when it's ready.
+0119 [Mikan] | Well, it's in good hands then.==W==Hold on! For the last time, it's a fire lizard, not a fire dragon!
+0120 [Mikan] | Honestly.==W== I'm dedicating this issue to fire lizard ecology. We are fixing this misconception once and for all!
+0121 [Tú] | Go get 'em, Chief Editor Mikan!

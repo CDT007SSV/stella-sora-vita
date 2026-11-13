@@ -1,0 +1,133 @@
+# Especial 9.5 · Integridad al amanecer de la reunión · 10 · The Naive Night Watcher
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:avg1_162 | Alina
+N:avg2_940 | Puppet Soldier
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1327 | Puppet Soldier (Initial Coordinates)
+N:avg3_1328 | Puppet Soldier (Initial Coordinates)
+N:avg3_1332 | Alina
+N:avg3_182 | Elis
+N:avg3_225 | Leita
+N:avg3_227 | Filanis Elder
+N:avg3_229 | Filanis Slave
+
+## Texto
+0001 [Intro] | Act Ten
+0002 [Intro] | The Naive Night Watcher
+0003 [Intro] | Alina's obsession only deepens her guilt and pain; Elis calmly analyzes the situation and successfully soothes Alina's grief. With that, you turn your attention back to the investigation…
+0004 [Lugar y hora] | 18:30, The Fifth Month 26th, Outside Filanis Island, Woodland Cemetery
+0005 [Alina] | I gathered whatever they had left, buried it here, and raised these stones.
+0006 [Tú] | Morgan...==W== Myra...==W== Yonon...==W== So many names.==B====W== And one blank tombstone...
+0007 [Alina] | That one's mine. In case...==W== In case I die before I can fulfill their wish.
+0008 [Alina] | I hope that at least I can be buried with them. This way, when I cross over to the underworld, I won't have to look far to find them and apologize.
+0009 [Tú] | Alina...==W== None of this is on you.
+0010 [Tú] | I've never seen an arena match, but I know what it's like to fight beside friends.==W== You fought from midnight till dawn against tireless puppets and won on pure grit...==W== Nobody could've asked for more.
+0011 [Alina] | I...==W== Thank you both for hearing me out. And for trying to make me feel better.
+0012 [Alina] | But ...==W== it is on me.==W== If I'd put those puppets down faster ...==W== or ...==W== stayed on my feet after the match... I could've kept them safe. They wouldn't have ended up ... dead.
+0013 [Alina] | I'm sorry.==W== Please, give me a minute.
+0014 [1] | Great, I made it worse...
+0015 [Tú] | She's doing what I used to do, taking all the blame.
+0016 [1] | She can't keep doing this.==W== Or else she'll never be happy.==B====W== Still...==W== What am I supposed to tell her when I haven't found the right path myself?
+0017 [Elis] | Psst,==W== ==PLAYER_NAME==. Got a thing for Alina, don't you?
+0018 [Tú] | D-Don't make it weird!==W== You're the one who told me to "corrupt" her so she'd open up!
+0019 [Elis] | Heh.==W== You call that corrupting her?==W== First you free me from being your "slave" to win her over,==W== then you drag me into the Night Watchers to fight by her side.
+0020 [Elis] | My, my. I'm starting to feel like a third wheel in your little courtship.==W== Sure you haven't fallen for her?
+0021 [Opción] | The only way I know how to "corrupt" anyone is by "being genuine."
+0022 [Elis] | Hehe...==W== Spoken like a true heartbreaker.==W== I can't tell if you're actually that innocent, or sly enough to pull off faking it.
+0023 [Elis] | Well, since you've already broken through Alina's defenses, I'll let it slide.
+0024 [Tú] | B-Broken through her defenses?
+0025 [Elis] | Don't play dumb.==W== A warrior who took down over a hundred puppets alone.==W== A Night Watcher who doesn't flinch when her superiors chew her out and punish her.==W== A gladiator who crawled out of a pile of corpses...
+0026 [Elis] | Why else would someone like that pour her heart out to us and lay all her weaknesses bare?
+0027 [Elis] | Take notes. When a girl shows you her soft side, it means one of two things.
+0028 [Elis] | Either she trusts you, and your courtship is right on track...
+0029 [Tú] | Or...?
+0030 [Elis] | Or she's a succubus!
+0031 [Tú] | Okay...==W== Except I didn't do anything though?
+0032 [Elis] | Ugh, you are hopeless...==W== Listen up.
+0033 [Elis] | You've got the looks==W== and the "noble" status,==W== yet you treat everyone beneath you like an equal.==W== For Alina, that's all it takes!
+0034 [Elis] | Think any other Priest would stick their neck out for a broke Night Watcher? Especially one shielding a shady slave?
+0035 [Elis] | You didn't even hesitate. Then you stepped down to her level and joined her squad.
+0036 [Elis] | Other nobles might write that off as charity. But to Alina, who was a gladiator slave a year ago? You're practically glowing with divine light.
+0037 [Elis] | If I were her... I'd be falling for you too.
+0038 [Tú] | It's nothing noble actually.==W== Back home, we don't have all these rigid classes. I don't know how to act high and mighty, so I couldn't fake it if I tried.
+0039 [Elis] | Ugh, you're too honest for your own good.==W== Play the part a little! Act like a holy Priest taking pity on the common folk!
+0040 [Tú] | I'm not a Priest, though.==W== Besides, I don't want to lie to you. You're my companion too, aren't you?
+0041 [Elis] | Don't get sappy on me!==W== I-I don't need a companion. We're only sticking together until we break out of here.
+0042 [Elis] | Ahem. Anyway...==W== Joining the Night Watchers was a smart move.==W== We can use the investigation as cover to scout the area for our next getaway.
+0043 [Elis] | Too bad your pep talk depressed her even more.==W== At this rate, we'll never get started.
+0044 [Tú] | Yeah, I botched that...==W== Got any bright ideas to snap her out of it, Elis?
+0045 [Elis] | Easy.==W== Watch and learn.
+0046 [Elis] | Alina, sorry to interrupt while you're mourning your friends.
+0047 [Elis] | But,==W== ==PLAYER_NAME== is right.==W== Failing to save them wasn't your fault.
+0048 [Elis] | And thinking you could've saved more of them if you'd fought harder... That's just arrogant of you.
+0049 [Tú] | Wait,==W== she's calling her arrogant?!
+0050 [Alina] | A-Arrogant?
+0051 [Elis] | The Grand Arena has stood for a century.==W== In all that time, fewer than twenty gladiators have walked out in one piece and truly free,==W== like you did.
+0052 [Elis] | You think pushing yourself harder would've saved them all? Matching decades of miracles in a single match?==W== What do you call that if not arrogance?
+0053 [Alina] | No, you're wrong.==W== In all the years I spent growing up in the Grand Arena, more than one gladiator walked out every year.
+0054 [Elis] | Heh.==W== Let me guess. Every year, they'd come back in flashy armor for a few matches==W== against others like them?
+0055 [Alina] | Yes...==W== People said once they got a taste of the good life outside, they missed the bloodshed. That's why they came back.
+0056 [Elis] | That's a lie. Who trades peace and quiet for a fight to the death?
+0057 [Elis] | Rich nobles bought those gladiators out.==W== Sure, they left the Grand Arena, but they were never free. They became private gladiators.
+0058 [Elis] | They get proper nutrition, training grounds, maybe even permission to start a family.==W== But they're still just the nobility's "puppets."
+0059 [Elis] | Whenever a noble needs a champion for trial by combat,==W== or two bored aristocrats want a show,==W== those so-called "free" gladiators get dragged right back into the pit to kill on command.
+0060 [Alina] | I-Is that so?==W== But...
+0061 [Elis] | Nobody in the arena ever told you, right?==W== Why would they? People need hope to keep fighting, even if it's a lie.
+0062 [Elis] | You didn't even know the game was rigged, yet you're convinced you could've beaten it by trying harder. Isn't that arrogant?
+0063 [Alina] | I...
+0064 [Elis] | Face it. Out of respect for the Grand Arena's owner, your Patron Olympia never would've bought and freed every gladiator in that match.
+0065 [Elis] | Besides, you were half-dead. What leverage did you have to ask the Patron who freed you to take in all your friends too?
+0066 [Alina] | Why...
+0067 [Tú] | Elis is trying to shock Alina out of her grief with the ugly truth.==B====W== It's one way to do it...==W== But isn't this too brutal?
+0068 [Elis] | Wake up, Alina!==W== Stop drowning in the past and focus on your job! On what we need to do next!
+0069 [Alina] | Yes!
+0070 [Tú] | What, that worked?!
+0071 [Alina] | Understood. As a Night Watcher of Filanis, my job is to keep the peace and protect our people.
+0072 [Alina] | Dumping my past on you when I can't even change it... I've been derelict in my duty.
+0073 [Alina] | Thank you for the wake-up call, Miss Elis.==W== My questions about the wish can wait.==W== Let's get back to the disappearances.
+0074 [Tú] | Phew, good...==W== I couldn't bear seeing Noy...==W== No, seeing Alina look that heartbroken again.==W== Nice work, Elis.
+0075 [Narración] | Elis obediently slips behind me, yielding the floor, then quickly traces words on my palm, our secret way of talking.
+0076 [Elis] | (Heh, pretty slick, right? Just gotta use her own sense of duty to wake her up from her wallowing!)
+0077 [Tú] | Ahem. Let's pick up where we left off.
+0078 [Tú] | You figured the Fallen Saintess is a convenient scapegoat criminals use, unrelated to the disappearances.
+0079 [Tú] | While investigating, you and Lulu busted a gang of slavers, but the missing kids weren't in their carts.
+0080 [Alina] | Right. Though we didn't come away empty-handed.
+0081 [Alina] | The slavers confessed they've been supplying slaves to Filanis for a while. Not into the city itself, though. They drop them off at designated spots in the woods outside.
+0082 [Alina] | They only get the drop point and the payout spot at the last minute. They've never even met the buyer.
+0083 [Tú] | Sounds like someone inside the city is buying slaves on the sly and using dead drops to cover their tracks.
+0084 [Alina] | That's what I figured. And the girl we rescued backs it up.
+0085 [Alina] | This morning, the Saintess summoned me. She asked me to talk you into making Elis a freedwoman, and offered to pay you out of her own pocket.
+0086 [Alina] | Right after I left the temple, I ran into those people. According to them, the girl appeared out of thin air on the street.
+0087 [Elis] | Out of thin air? Filanis Island is surrounded by water, slavery is outlawed, and she had a slave collar around her neck.==W== No way she came ashore and strolled all the way to the temple without a soul noticing.
+0088 [Alina] | That's the biggest question mark here. But flip it around... What if she was on the island the whole time?
+0089 [Tú] | Ah. I get it now.
+0090 [Tú] | Someone defied Archon Olympia's decree and kept slaves at home.
+0091 [Tú] | When the girl escaped, they couldn't claim her without exposing themselves. So they framed her as the Fallen Saintess to have her silenced.
+0092 [Alina] | My thoughts exactly. And I bet the missing children saw something they shouldn't have and got snatched.
+0093 [Alina] | If the culprit wanted to get rid of them quietly, their best bet would be handing the kids off to those slavers outside the island to be shipped to another city.
+0094 [Alina] | Which means if we catch whoever's hiding slaves on the island, we can unravel the whole network and track down those kids.
+0095 [Alina] | Even if they've been sold to the farthest city on the map, I'll track them down and bring them home myself.
+0096 [Tú] | Makes sense. If we keep tabs on the ringleaders who tried to kill that girl and stake out the streets they live on, we might catch a break.
+0097 [Tú] | Let's get moving, then. Every day we lose puts those kids in more danger.
+0098 [Alina] | ==PLAYER_NAME==, Elis, I want to start right away too, except... We're short-handed.
+0099 [Elis] | How?==W== You're the captain of the Night Watchers. Call in your squad.
+0100 [Alina] | The Filanis Night Watcher squad currently consists of ...==W== three people. Not counting Lulu, since she's part-time.
+0101 [Elis] | Three, huh? Better than nothing.
+0102 [Elis] | Wait... By three, you don't mean...==W==
+0103 [Alina] | Myself, and my two newest recruits.
+0104 [Elis] | Huh?! You're the captain of a one-person squad?! How is that even possible? Emor has hundreds of Night Watchers!
+0105 [Alina] | We used to have over a hundred too. I don't know why, but ... ever since I took command, people have been quitting. The last few walked out right before I went after the slavers.
+0106 [Alina] | And we were doing such a good job too... Filanis hasn't had a single fire all year.
+0107 [Elis] | No fires all year? Okay... How many thieves did you catch?
+0108 [Alina] | Around fifty. Mostly pickpockets,==W== plus a few who broke into noble estates.==W== We returned every stolen item.
+0109 [Elis] | ... Alina, did anyone ever explain how this racket works? Have you ever seen another Night Watcher squad operate?
+0110 [Alina] | Um... No. I grew up in the Grand Arena, after all.
+0111 [Elis] | Ha...==W== Now I know why you're flat broke,==W== and why your whole squad bailed on you.
+0112 [Alina] | Wh-==W==why?
+0113 [Elis] | The two of you have zero street smarts...
+0114 [Elis] | Night Watchers make their living charging to put out fires and taking a share of recovered loot! In Emor, if business is slow, the Night Watchers will deliberately start fires!
+0115 [Alina] | Eh?

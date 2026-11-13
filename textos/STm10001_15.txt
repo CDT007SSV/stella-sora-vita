@@ -1,0 +1,348 @@
+# Especial 9.5 · Integridad al amanecer de la reunión · 15 · Beneath the Tower
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Adorable Black Cat | Adorable Black Cat
+N:Archon Olympia | Archon Olympia
+N:Brand New Puppet | Brand New Puppet
+N:Calm Night Watcher | Calm Night Watcher
+N:Coppelius the High Priest | Coppelius the High Priest
+N:Gentle Father | Gentle Father
+N:Leita Under the Spell | Leita Under the Spell
+N:Leita the Saintess | Leita the Saintess
+N:Lulu | Lulu
+N:Well-behaved Daughter | Well-behaved Daughter
+N:avg1_103 | Amber
+N:avg1_162 | Alina
+N:avg1_1994 | Nazuka
+N:avg2_940 | Puppet Soldier
+N:avg2_941 | Olympia (Puppet)
+N:avg2_942 | Coppelius
+N:avg2_978 | Rovina
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1321 | Puppet Soldier (Initial Coordinates)
+N:avg3_1322 | Puppet Soldier (Initial Coordinates)
+N:avg3_1323 | Puppet Soldier (Initial Coordinates)
+N:avg3_1324 | Puppet Soldier (Initial Coordinates)
+N:avg3_1327 | Puppet Soldier (Initial Coordinates)
+N:avg3_1328 | Puppet Soldier (Initial Coordinates)
+N:avg3_1332 | Alina
+N:avg3_1333 | Elis
+N:avg3_1346 | Coppelius
+N:avg3_182 | Elis
+N:avg3_225 | Leita
+N:avg3_227 | Filanis Elder
+N:avg3_228 | Filanis Citizen (M)
+N:avg3_229 | Filanis Slave
+N:avg3_999 | ???
+N:avg4_106 | Puppet Soldier (Initial Coordinates)
+
+## Texto
+0001 [Intro] | Act Fifteen
+0002 [Intro] | Beneath the Tower
+0003 [Intro] | Alina suspects Coppelius hides a terrifying truth. Leita's secret escape plan for you is exposed, leading to a direct clash with Coppelius. With Leita and Elis's help, you manage to escape for the time being…
+0004 [Lugar y hora] | 11:00, The Sixth Month 10th, Outside Filanis Island, Idle Prison Cart
+0005 [Elis] | Goddess of Magic,==W== grant me an artifact to get me out of Filanis!
+0006 [Elis] | Goddess of Magic, it's me, your most devoted follower, Elis! Grant my wish and shower me with endless gold and riches!
+0007 [Elis] | (Ugh... Total bust. ==PLAYER_NAME== called this thing a "Wishing Box," but it's not giving me anything I'm asking for.)
+0008 [Elis] | (Which makes no sense, because I know for a fact it lit up the first time I saw it...)
+0009 [Elis] | (Talk about rotten luck... I hid out in the middle of nowhere in this desolate tower, and I STILL ran into a Night Watch!)
+0010 [Elis] | (And she had the nerve to call me a "Fallen Saintess"! I've been lying low here ever since I fled Emor City... I mean, rotting away in a tower all day IS pretty fallen, but it's not like I've ever killed anyone!)
+0011 [Calm Night Watcher] | Radiant Flame!
+0012 [Elis] | (Sh-She's on my tail already?! The magic circles I set up downstairs...)
+0013 [Elis] | (Did she just trigger them and tank the damage?!==W== What kind of monster is she?!)
+0014 [Elis] | (No no no, if I get dragged back to Emor, my life is officially over! I refuse to grant wishes for strangers ... or die! I haven't even spent half my stash!)
+0015 [Elis] | (A dead end?!==W== Great. Behind the altar it is!)
+0016 [Elis] | (Wait, what's this? Has this box always been here...? Screw it, I'm crawling in. Beats getting caught right away. And who knows, maybe the Night Watch won't check this corner...)
+0017 [Elis] | O Goddess of Magic, please give me what I need and save me!
+0018 [Elis] | (Whoa! Why is the box glowing?!)
+0019 [Calm Night Watcher] | There she is!
+0020 [Elis] | (Ugh, stupid box! Why'd you have to start glowing?! Now she knows where I am!)
+0021 [Calm Night Watcher] | Fallen Saintess, you're out of options. Put your hands where I can see them ... and step out from behind the altar!
+0022 [Elis] | (Wait, is there ... a person inside this thing? Not bad-looking, either...==W== Eek—they're freezing cold. Is this a ... corpse?!==W== Wait, I might actually have an idea!)
+0023 [Elis] | Hey, ==SEX7== Corpse, forgive me, but you're my ticket out of this!
+0024 [Elis] | (Back then... Did my little prayer to the Goddess of Magic actually count as a wish?)
+0025 [Elis] | (Did I actually wish ==PLAYER_NAME== into existence?==W== Or ... did the Goddess of Magic mean that ==PLAYER_NAME== is who's going to save me?)
+0026 [Elis] | (Hah, look at me spiraling.==W== Sure, ==SEX== is sweet, cute ...==W== and okay, pretty fit, too.==W== But "saving" me? Talk about a stretch. What do I even need ==SEX4== to save me from?)
+0027 [Elis] | (If anything, ==SEX== needs me to figure out this "Wishing Box" so ==SEX== can find a way back home. I'm the one doing the saving here!)
+0028 [Elis] | (Still, this box is straight-up cursed. Every drop of mana I pour into it just vanishes like a bottomless pit... It completely violates the fundamental law of magic: energy can neither be created nor destroyed.)
+0029 [Elis] | (Keep going down this rabbit hole and I'm gonna burn every magic textbook I own.)
+0030 [???] | Meow...
+0031 [Elis] | Oh? Where'd you come from, little guy?
+0032 [Adorable Black Cat] | Mrr-meow...
+0033 [Elis] | Aww, look at you nuzzling up to me! Ah, your soft fur just melted all my worries away...
+0034 [Elis] | As a little thank-you, wait right here, okay? I'm gonna go grab you some dried fish!
+0035 [Adorable Black Cat] | Meow...
+0036 [Narración] | The black cat lets out a soft meow and licks her paw, her eyes tracking Elis as the girl trots off into the insula.
+0037 [Narración] | Just then, she seems to remember something and leaps onto the Wishing Box...
+0038 [Narración] | ... then squeezes herself through the crack in the lid.
+0039 [Lugar y hora] | 11:10, The Sixth Month 10th, Outside Filanis Island, Run-down Insula
+0040 [Elis] | Dried fish,==W== dried fish...==W== Now where'd I put that dried fish...==W==
+0041 [Elis] | Yikes. How much homemade bread did Alina cram in this cupboard? You could use these loaves as literal shields.
+0042 [Tú] | Elis, we're back.
+0043 [Elis] | Welcome back!==W== Huh? Why the serious faces?
+0044 [Tú] | Elis, do you remember those people we rescued from the cave?
+0045 [Elis] | Of course. The three kids went home,==W== while the rest bunked with High Priest Coppelius until they healed up.==W== Now they're just hanging around the island waiting for their rides home.
+0046 [Elis] | Speaking of which, when is Archon Olympia officially becoming a demigod? I've been holding out for my big reward!
+0047 [Alina] | Something isn't adding up.==W== I've been looking into it the past few days, and...==W== Well, see for yourselves.
+0048 [Gentle Father] | How are you feeling, Quarta?==W== Any bad dreams last night?
+0049 [Well-behaved Daughter] | No, Daddy. I slept really well.
+0050 [Gentle Father] | Good to hear.==W== The Goddess of Magic and Archon Olympia are watching over you.
+0051 [Gentle Father] | Off you go then. Don't forget to swing by the blacksmith today and get those shackles off your neck.
+0052 [Well-behaved Daughter] | Okay!
+0053 [Tú] | That's ...==W== one of the missing kids. She looks totally fine now.
+0054 [Alina] | Right. That was her and her dad out on the street.==W== Now... Watch this next one.
+0055 [Gentle Father] | How are you feeling, Quarta?==W== Any bad dreams last night?
+0056 [Well-behaved Daughter] | No, Daddy. I slept really well.
+0057 [Gentle Father] | Good to hear.==W== The Goddess of Magic and Archon Olympia are watching over you.
+0058 [Gentle Father] | Off you go then. Don't forget to swing by the blacksmith today and get those shackles off your neck.
+0059 [Well-behaved Daughter] | Okay!
+0060 [Tú] | Uh, Alina? I think you just played the same clip twice?
+0061 [Alina] | That's what concerns me.==W== Those are two entirely different clips. One from yesterday morning, the other from the day before.
+0062 [Tú] | Wh-what are you talking about?==W== Every detail of their conversation down to their posture is exactly the same!
+0063 [Lulu] | I-it's just a fluke, right? Total coincidence!
+0064 [Alina] | Let's watch this clip from three days ago then.
+0065 [Gentle Father] | How are you feeling, Quarta?==W== Any bad dreams last night?
+0066 [Well-behaved Daughter] | No, Daddy. I slept really well.
+0067 [Gentle Father] | Good to hear.==W== The Goddess of Magic and Archon Olympia are watching over you.
+0068 [Gentle Father] | Off you go then. Don't forget to swing by the blacksmith today and get those shackles off your neck.
+0069 [Well-behaved Daughter] | Okay!
+0070 [Tú] | Wh-what am I looking at here? The exact same conversation for three days straight?==W== And look at the shackle on her neck! She never went to the blacksmith at all!
+0071 [Alina] | Try five days. That's how long I've caught onto this creepy loop.==W== And it's not just them. This is happening to the other two kids and their family members too.
+0072 [Alina] | At first, I thought it was a lingering side effect of the control spell in that cave, so I went to Coppelius to clear things up...
+0073 [Alina] | High Priest Coppelius, have the other forty-seven survivors shown any similar signs?==W==
+0074 [Coppelius the High Priest] | Alina. Didn't Archon Olympia ask you to take some time off?==W== Why are you still investigating a closed case?
+0075 [Alina] | Uh, well...==W== It's just...==W== I couldn't get it out of my head.
+0076 [Coppelius the High Priest] | I personally examined those three children when they went home. They were in good shape, both physically and mentally.
+0077 [Coppelius the High Priest] | As for the other forty-seven... They are still recovering, but I can assure you, none of them has shown the sign you're describing. You have nothing to worry about.
+0078 [Coppelius the High Priest] | In fact, you look terrible, Alina. You haven't been taking your leave at all, have you?==W== Honestly...==W== I'd say you're just so burnt out your mind is playing tricks on you.
+0079 [Alina] | Playing tricks on me...?==W== No. I know what I saw. High Priest Coppelius... Please, can I at least check on the others?
+0080 [Narración] | Are you doubting my word, Alina?
+0081 [Alina] | O-of course not!
+0082 [Coppelius the High Priest] | Good. Then go home and get some rest.==W== Don't forget that you are still on leave.
+0083 [Alina] | After High Priest Coppelius brushed me off, I decided to film these clips. Three days of evidence should have been more than enough to prove I wasn't crazy.==W== But... When it came down to actually confronting him...
+0084 [Opción] | You backed down.
+0085 [Alina] | I did. I kept telling myself, "Wait for Lulu's investigation report," but truth be told...==W== I was totally lost.==W== That's why I brought all this to you.
+0086 [Elis] | Alina, drop it.==W== You already handed the rest of the case over to Coppelius. It's out of the Night Watch's hands now.
+0087 [Alina] | But ... it's right in front of me. How can we just walk away?
+0088 [Elis] | Still not your business.==W== Look, you know how the old saying goes—==W=="a cobbler sticks to his last." Same goes for us.==W== Besides...
+0089 [Elis] | We can't go poking into every dark corner. What if we actually find something we shouldn't?
+0090 [Elis] | Hey, since you're on leave anyway, why don't we all get away for a bit outside Filanis?==W== Just the four of us, Alina, ==PLAYER_NAME==, Lulu, and me!
+0091 [Alina] | A getaway? That's sudden...
+0092 [Alina] | Come in.
+0093 [Brand New Puppet] | Captain Alina, ==SEX12== Acolyte, and Freedwoman Elis. Greetings to you all.
+0094 [Brand New Puppet] | The Saintess sent me to request your presence at the tower. She is waiting there to speak with you regarding the wish.
+0095 [Tú] | The wish...?==W== Why now?
+0096 [Alina] | Understood. Give us just a moment to get ourselves ready.
+0097 [Brand New Puppet] | As you wish. A carriage is waiting outside for the three of you.
+0098 [Tú] | Why would the Saintess call for us now, of all times?
+0099 [Elis] | Beats me, but we'd better go.==W== Claudia Leita is a good soul...==W== We'll be just fine.
+0100 [Lugar y hora] | 12:30, The Sixth Month 10th, Filanis Island, Monolith Entrance
+0101 [Elis] | Alina, listen to me carefully when we get in there.
+0102 [Elis] | That odd Coppelius is not to be trusted. He practically oozes "puppet" from head to toe. But Claudia Leita? Sure, she's got a sharp tongue and loves to show off her splurges, but she's genuinely a good person.
+0103 [Elis] | You can lay out all your suspicious findings to her, and let her pass them along to Archon Olympia, who hasn't seen you in six months by the way. Once that's done, your duty as a Night Watch is officially fulfilled.
+0104 [Elis] | Then we'll take advantage of your time off and get out of Filanis for some fresh air! Better yet, how about I take you to my old tower? Spent three whole years there, and I've still got tons of my magic props stashed inside!
+0105 [Alina] | Elis... You seem a bit on edge? Look, I do have my reservations about High Priest Coppelius's methods, because he's clearly keeping things from us.
+0106 [Alina] | But if I bypass protocol to report all of this through the Saintess, I'd be breaking discipline and adding to her distress.
+0107 [Elis] | Whoa, whoa, why are you getting all serious on me again? Weren't you already lured to the dark side by ==PLAYER_NAME==?
+0108 [Alina] | The one who fell to darkness was the "Boss's Dark Knight." It has nothing to do with the "Night Watch of Filanis."
+0109 [Elis] | Is this some kind of role-playing?!
+0110 [Tú] | Elis... She's back to how she was when we first met, always looking for an escape. What did she actually figure out?
+0111 [Tú] | Elis, tell us what's worrying you. You know Alina, protecting Filanis is her whole world. Unless you spell it out, there's no way she's going to go along with this.
+0112 [Elis] | There's something wrong with the city. Alina, back when we first got to Filanis, you said it yourself—
+0113 [Alina] | Years ago, our ruler, Archon Olympia, freed every slave in the city and granted them full citizenship.
+0114 [Alina] | Since then, we are bound only by goodwill and camaraderie. That is how Filanis flourished into the City of Perfection.
+0115 [Elis] | Y-You freed all of them? Then who does the actual work?
+0116 [Alina] | Archon Olympia created magical puppets. They handle all the labor the slaves used to do.
+0117 [Elis] | I didn't believe any Archon could actually be that kind, but once I got to Filanis, sure enough, the puppets did all the grueling work.
+0118 [Elis] | People on the island live lives of luxury,==W== with plenty of free time to dive into art, martial training,==W== and literature.
+0119 [Elis] | Those outside the island have it much harder,==W== scrambling every day just to put bread on the table.==W== But did you know?==W== At least a quarter of the Emor population doesn't even have a roof over their heads, let alone fresh bread.
+0120 [Elis] | If Filanis stands out from other cities, it's the number of elderly residents. I've seen many grandpas and grandmas sunbathing outside their homes.==W== Of course, this also reflects the city's prosperity. Few other cities have so many people living to such an old age.
+0121 [Tú] | It really shows the wonderful power of magic.==W== While Filanis is not "perfect," it could as well be==W== when compared to the Emor you described.
+0122 [Elis] | ==PLAYER_NAME==, you really ...==W== have no clue how magic works, do you?
+0123 [Elis] | Rule number one of magic:==W== mana can neither be created nor destroyed.
+0124 [Elis] | Take Alina, for instance.==W== The mana she uses for her flash spell comes entirely from what she's accumulated in her body==W== over years of living and training.
+0125 [Elis] | If she drains her body's mana reserves,==W== she can't cast a single spell==W== until her body slowly builds it back up.
+0126 [Elis] | So here's the question:==W== where is the mana powering all those puppets coming from?==W== It can't just be pulled out of thin air.
+0127 [Alina] | It comes from the water. Years ago, Archon Olympia and High Priest Coppelius discovered a mana-rich spring on the island. The water used in the "Bathhouse Test" was drawn straight from that spring.
+0128 [Tú] | I see. So Filanis relies on nature's gift to keep those puppets running.
+0129 [Elis] | Alina,==W== have you ever seen that spring with your own eyes?
+0130 [Alina] | N-No...==W== Guarding the spring isn't part of my duties.
+0131 [Elis] | I figured... If Filanis really had some magical spring bubbling over with endless mana,==W== Olympia wouldn't still be the one ruling Filanis.
+0132 [Alina] | What are you ... trying to say?
+0133 [Elis] | I'm saying—if a super precious spring like that actually existed, demigods would've descended on Filanis long ago!==W== Those demigods might not care about the daily mess in Nova,==W== but they absolutely starve for mana.
+0134 [Elis] | Besides, didn't you take me through every street and alley in Filanis?
+0135 [Elis] | This city ...==W== has traces of magic circles everywhere.==W== The official excuse is that they're used to power the puppets, but don't you think that's overkill?
+0136 [Alina] | N-No,==W== not really.
+0137 [1] | I...==W== I have zero clue.
+0138 [Elis] | Ugh, I'm talking to a wall.==W== Look, at first, seeing all these suspicious details just made me uneasy. But this was Filanis's business,==W== ==PLAYER_NAME== and I are just passing through, and you've been here for less than a year yourself, Alina.
+0139 [Elis] | However...==W== After watching those "recordings" you logged today...==W== Don't you think the father-daughter pair were acting an awful lot like...==W==
+0140 [Elis] | Puppets?
+0141 [Tú] | P-Puppets...?
+0142 [Elis] | I haven't fully pieced together the specifics yet, but this is extremely messed up!
+0143 [Elis] | Argh, damn it... Spending all this time with you guys has completely dulled my usual sense of danger.
+0144 [Elis] | So let me spell it out: we need to leave. Before whatever evil's brewing catches up to us!
+0145 [???] | Sorry for the delay, you three!==W== If I let important guests like you walk away without finishing our business, I'd never forgive myself for failing my duties.
+0146 [Alina] | Good afternoon, Saintess.
+0147 [Leita the Saintess] | Good afternoon, ==SEX12== Acolyte, Captain Alina, and Elis. Welcome back to the tower.
+0148 [Tú] | Here comes the Saintess...==W== Elis seems really on edge, but we should wrap things up here before discussing with her.
+0149 [Leita the Saintess] | I've invited you all today to discuss two matters regarding wishes.
+0150 [Leita the Saintess] | First, Alina, have you decided when you'll be using your wish?
+0151 [Alina] | My apologies, Saintess.==W== Although I know what I want to wish for, I haven't quite figured out how to craft the prayer yet.==W== So... No exact date yet.
+0152 [Leita the Saintess] | In that case, what do you intend to offer as the price for your wish?
+0153 [Leita the Saintess] | Beyond Filanis, wealthy slaveholders offer their slaves as sacrifices for their wishes, while nobles order the Saintess to make wishes on their behalf.==W== Filanis forbids slavery.==W== So, are you planning to have the Saintess make the wish for you?
+0154 [Alina] | No, I am not.==W== Ever since I saw ==SEX12== Acolyte make that wish,==W== I've decided I will never make someone else pay the price for my wish.==W== I will speak the wish with my own voice, and bear the cost myself.
+0155 [Leita the Saintess] | Alina... You possess a truly noble soul. You are a true knight.==W==
+0156 [Leita the Saintess] | The second thing I wish to discuss with you today might just cost you less when you make your wish.
+0157 [Leita the Saintess] | ==SEX12== Acolyte,==W== would you be willing to share that special wishing technique of yours with the Saintess?
+0158 [Tú] | Special wishing technique...?==W== Do you mean the incantation I recited?==B====W== That prayer doesn't let you bypass the cost. As you saw, the tower took a tremendous amount of my ...==W== lifespan.
+0159 [Leita the Saintess] | That is true.==W== However, over the past few days, I have carefully evaluated the divine artifact created by your wish. The artifact requires only a tiny fraction of mana to maintain an effect that would otherwise require thirty consecutive Scouting spells.
+0160 [Leita the Saintess] | And casting thirty Scouting spells simultaneously is something==W== only a High Priest could pull off.
+0161 [Leita the Saintess] | If we were to manifest a divine artifact that powerful using our method, it would likely take five to ten Saintesses to bring it to life.
+0162 [Leita the Saintess] | Thus, your method of wishing is vital to us.==W== I realize asking you to part with such a precious technique is a heavy request,==W== but if there is anything you require, I will do everything in my power to grant it.
+0163 [Tú] | Um, may I ask a quick question? When you say "it would take five to ten Saintesses"... What does that actually mean?
+0164 [Leita the Saintess] | A Saintess's wish rarely succeeds on the first try. And whether she succeeds or whether the tower actually grants the wish, the Saintess's soul and body are sacrificed to the tower as the price, reduced to ashes on the altar.
+0165 [Tú] | Reduced to ashes...
+0166 [Elis] | And when the flames die out, do you bother checking on the cold ashes?
+0167 [Tú] | No, not really...==W== At most I'll check for embers so they don't start a wildfire.
+0168 [Elis] | Heh. We Saintesses are exactly that. Objects you use up and forget about.
+0169 [Tú] | That's why Elis described the Saintesses as "ashes and objects"...==W== That rule is way too cruel.
+0170 [Tú] | Those Saintesses, and the slaves... They didn't even die for their own wishes...==W== Worse, they were just payment.==W== A world like this==W== is just plain screwed up.
+0171 [Tú] | Precision in crafting the prayer really does cut down the cost. Losing lifespan and memories is still a brutal price to pay, but at least it's an improvement...
+0172 [Tú] | I have no demands. If it can help lessen the price you have to pay to make a wish, I'm more than happy to share my technique with you.==W==
+0173 [Leita the Saintess] | On behalf of all the Saintesses, I thank you for your generosity and kindness.==W== We will remember your grace forever.
+0174 [Leita the Saintess] | Then please, follow me into the tower.==W== I would like you to explain your special wishing technique to me in front of the altar.
+0175 [Lugar y hora] | 12:45, The Sixth Month 10th, Filanis Island, Chamber of the Altar
+0176 [Tú] | Saintess, why do you call this seat an "altar"? No matter how you look at it, it's just a stone chair. Given how magnificent it is, you could even call it a throne.
+0177 [Leita the Saintess] | Years ago, when the tower descended upon the earth, the first person to step inside heard the voice of the divine:==W== "Mortal, offer up your newfound courage. Make your wish upon this seat, through trials to the stars."
+0178 [Leita the Saintess] | In a sense, if the wish maker can truly afford the cost, this "altar" could indeed grant them absolute rule over the world.==W== So it's only natural that it looks like a throne to you.
+0179 [Tú] | I see. In that case, may I begin explaining my method?
+0180 [Leita the Saintess] | ==SEX12== Acolyte...==W== Or perhaps I should simply call you ==PLAYER_NAME==.
+0181 [Leita the Saintess] | Your wishing method would indeed be of great help to us. However, I lied to you all. I didn't invite you here to discuss that matter.
+0182 [Leita the Saintess] | Saintesses, come on out.==W==
+0183 [Elis] | Huh? Wh-what...?
+0184 [Leita the Saintess] | These three are my juniors. I used magic to temporarily alter their appearances to look just like the three of you.
+0185 [Leita the Saintess] | Now,==W== the three of them will step out of the tower==W== and be escorted back to your insula by the puppets.
+0186 [Leita the Saintess] | Change into these clothes immediately.==W== Once the puppets outside the tower leave,==W== head straight for the docks. There's a ship waiting for you to take you to Emor.
+0187 [Alina] | Saintess, what are you doing?! I'm a Night Watch of Filanis, and I answer directly to Archon Olympia.==W== Why are you—
+0188 [Leita the Saintess] | There's no time to explain.==W== I asked you here to tell you this because this is the only place where no puppets are watching me.==W== Take a look at what's inside the stone coffins beside you.
+0189 [Alina] | This...==W== This is ...==W== that child.
+0190 [Elis] | Alina,==W== over here too...==W== It's the man from the recording.
+0191 [Tú] | Here too. It's the three kids we saved ... and their families. They're all in here, out cold.
+0192 [Alina] | This doesn't make any sense...==W== I literally just saw them out in the city today on my way to training!
+0193 [Leita the Saintess] | I don't know what you saw out there, but when I found them last night, they'd clearly been here a while...
+0194 [Leita the Saintess] | From the looks of it, probably since the day after you brought those kids back from the cave.
+0195 [Leita the Saintess] | They've all been put under a sleeping spell that I can't wake them from, and they've been kept in a state of continuous wishing.
+0196 [Elis] | A state of continuous wishing...? What does that even mean?
+0197 [Leita the Saintess] | Elis, I don't have time to explain. You need to change into these clothes and leave right now.
+0198 [Leita the Saintess] | Also, I never expected you to stick around Filanis for this long. With how sharp you've been over the past three years, I thought you would've run straight back to that cozy nest of yours in the tower the second I covered for you.
+0199 [Elis] | Wh-What...? "Cozy nest in the tower"? Claudia, what are you talking about? How much do you actually know?
+0200 [Leita the Saintess] | If we ever get the chance to meet again, I'll tell you everything.
+0201 [Leita the Saintess] | No... It's Coppelius. How did he react this fast...?
+0202 [Leita the Saintess] | You three, hide in the empty stone coffin by the door! Now!==W== I'll hold him off so you can slip out.
+0203 [Elis] | ==PLAYER_NAME==, Alina, over here, fast!
+0204 [Narración] | Elis grabs us by the hands and crams all three of us inside a stone coffin,==W== sliding the lid shut and leaving only a tiny crack. We've never seen her move that fast.
+0205 [1] | Ugh, it's way too tight in here! Does it really fit three in here?
+0206 [Elis] | Just bear with it.==W== It's not like we have a choice right now.
+0207 [1] | Uhh,==W== sorry, Alina!==W== I think I'm pressing down on your head.
+0208 [Alina] | You're not. No need to apologize.
+0209 [Elis] | You idiot, that's her chest you're pressing on!
+0210 [1] | S...==W== S-s-sorry!
+0211 [Alina] | Stop squirming around. Keep your arm right there. It won't get in the way of us lifting the lid later. Just leave it there.
+0212 [Elis] | Shh, quiet!==W== Coppelius is here.==W==
+0213 [Coppelius the High Priest] | Saintess, I hear you're hosting guests in the tower... And yet, I wasn't informed?
+0214 [Leita the Saintess] | High Priest. The interior of the tower falls strictly under Saintesses' jurisdiction. Even you require my permission to enter.
+0215 [Leita the Saintess] | You've already violated Archon Olympia's laws by barging in like this. What do you want?
+0216 [Coppelius the High Priest] | Heh...==W== Archon Olympia is right here with me.==W== I'm merely part of her retinue.
+0217 [Leita the Saintess] | Archon Olympia!==W== Forgive me. I had no idea of your presence, or I would have properly received you.
+0218 [Tú] | So ... that is Olympia?
+0219 [Alina] | By her attire, yes...==W== But ...==W== something feels off.==W== She doesn't feel like the person I knew six months ago.
+0220 [Archon Olympia] | Rise, Leita.==W== Tell me, where are your three guests?==W== I would like to see them.
+0221 [Leita the Saintess] | Forgive me, My Lady, but ==SEX12== Acolyte and their companions left the tower shortly before you arrived.
+0222 [Coppelius the High Priest] | Left?==W== Are you sure it wasn't three of your juniors who left?
+0223 [Coppelius the High Priest] | Three Saintesses, sneaking off-island disguised as the Acolyte...==W== My, my. History repeats itself, doesn't it? A second "Fallen Saintess" incident in the making.
+0224 [Coppelius the High Priest] | If I hadn't caught them red-handed, Filanis's "perfect" reputation would've been ruined.==W== How do you explain this, Saintess?
+0225 [Leita the Saintess] | ... Where are they now? I want to see them.
+0226 [Coppelius the High Priest] | Don't worry, you'll see them soon enough. Inside the coffins, that is.
+0227 [Coppelius the High Priest] | Even "sinners" like them won't be wasted.==W== Filanis will put them to good use... Letting them do their part for the perfection of our city.
+0228 [Leita the Saintess] | This is foul soul-magic...==W== Archon Olympia, Coppelius is using dark arts to butcher the people of Filanis!==W== Strike him down and throw him into the dungeons!
+0229 [Narración] | ==A0.001====Off==Creak...
+0230 [Narración] | _NOT_IN_LOG_==Off==Creak...
+0231 [Leita the Saintess] | Archon...==W== Olympia...?
+0232 [Coppelius the High Priest] | Ah, silly me... I forgot to wind her this morning.
+0233 [Coppelius the High Priest] | One moment, please. I'll let Archon Olympia answer you herself.
+0234 [Narración] | Coppelius draws a glowing golden key==W== and slots it into Olympia's chest.==W==
+0235 [Alina] | What did that bastard just do to Archon Olympia?!
+0236 [Elis] | Alina, don't! The whole room is crawling with puppets!
+0237 [Narración] | ==A0.001====Off==Click—
+0238 [Narración] | _NOT_IN_LOG_==Off==Click—
+0239 [Archon Olympia] | Leita, Coppelius is not harming the people of Filanis.
+0240 [Archon Olympia] | He is merely having them build Filanis in a far more efficient manner.==W== Only this way can Filanis preserve its current perfection.==W== Only this way can I ascend to demigodhood and grant Filanis eternal perfection.
+0241 [Leita the Saintess] | Coppelius...==W== You're insane. Have you lost your mind?!
+0242 [Leita the Saintess] | Using forbidden soul-magic to enslave the Archon you swore to serve...==W== Do you have any idea what you've done?!
+0243 [Coppelius the High Priest] | Oh? Claudia Leita, you're mistaken about one thing.==W== I haven't mastered soul-magic. That's magic even demigods have yet to wield proficiently.
+0244 [Coppelius the High Priest] | I simply ...==W== sacrificed myself to the tower in exchange for extraordinary puppetry arts.
+0245 [Coppelius the High Priest] | I was supposed to prove my worth by ascending Archon Olympia to demigodhood.==W== But right as her city-wide spell was reaching perfection,==W== as she was seconds away from completing her ascension—
+0246 [Coppelius the High Priest] | That Acolyte showed up.==W==
+0247 [Tú] | Me? Why is Coppelius bringing me into this?
+0248 [Coppelius the High Priest] | ==SEX1== was nothing short of a miracle...==W== No, a level of craft that mortal tongue cannot begin to describe.
+0249 [Coppelius the High Priest] | Heh!==W== ==SEX1=='s the ultimate, flawless vessel, while my skills are nothing more than a clumsy jester's parlor trick!
+0250 [Coppelius the High Priest] | Claudia Leita, hand ==SEX4== over.==W== Where did you hide that miracle puppet?
+0251 [Leita the Saintess] | Coppelius, you are completely out of your mind. Acolyte ==PLAYER_NAME== is, without a shadow of a doubt, human.
+0252 [Coppelius the High Priest] | Heh. A human body so flawless that even you simpletons cannot tell it apart—is that not the ultimate vessel?
+0253 [Coppelius the High Priest] | This morning, while you were busy playing host, I claimed the Wishing Box!==W== A divine artifact far superior to a demigod's phylactery ... left completely unattended by them in that cart!
+0254 [Coppelius the High Priest] | Now that I have the box, once I claim ==PLAYER_NAME=='s vessel, I can turn Archon Olympia into Nova's most flawless demigod.==W== I might even ...==W== usurp the seat of the Goddess of Magic itself.
+0255 [Leita the Saintess] | Save your breath. The Acolyte and the rest are already long gone. You won't find your answers here.
+0256 [Coppelius the High Priest] | Claudia Leita, how truly naive you are.==W== Have you forgotten that your very name was bestowed upon you by Archon Olympia?
+0257 [Leita the Saintess] | So what if it was?==W== I am the tower's Saintess. My prayers to the tower are for the well-being of Nova, not a tool for a madman like you.
+0258 [Coppelius the High Priest] | I am not here to debate you,==W== Claudia Leita.
+0259 [Coppelius] | I merely came to tell you—
+0260 [Coppelius the High Priest] | It is raining in Filanis.
+0261 [Coppelius the High Priest] | Archon Olympia's spell is already underway. Keep your secrets as you want. I'll just rip them from your mind!
+0262 [Coppelius] | Tower, answer my call!
+0263 [Narración] | _NOT_IN_LOG_==A0.001==Namebind! In the name of Olympia...
+0264 [Narración] | Namebind! In the name of Olympia...
+0265 [Narración] | _NOT_IN_LOG_==A0.001==I place Claudia Leita under eternal chains!
+0266 [Narración] | I place Claudia Leita under eternal chains!
+0267 [Leita the Saintess] | Ngh... What ... is this...?
+0268 [Coppelius the High Priest] | A name is a chain bound to the soul. By accepting a name bestowed by Archon Olympia, you became her possession.
+0269 [Coppelius the High Priest] | Within the city-wide spell, Wholeness of Perfection, every labeled entity falls under Archon Olympia's absolute command.
+0270 [Coppelius the High Priest] | And as her High Priest, I shall exercise that command in her stead.
+0271 [Alina] | Elis, we have to help her! Coppelius is corrupting the Saintess with dark magic!
+0272 [Elis] | Not yet! Claudia isn't the type to just surrender!
+0273 [Leita Under the Spell] | I... I am Claudia Leita. I am Archon Olympia's loyal Saintess.
+0274 [Coppelius the High Priest] | Where is ==PLAYER_NAME== hiding?
+0275 [Leita Under the Spell] | In the stone coffin by the door.
+0276 [Coppelius the High Priest] | Splendid. My puppets, seize that "miracle puppet"! Dead or alive, I only need the vessel!
+0277 [Leita Under the Spell] | Magic circle calibration lost. Soul incineration sequence initiated. Ten, nine, eight...
+0278 [Coppelius the High Priest] | What?! She planted a self-destruct spell inside her own memories?!
+0279 [Leita Under the Spell] | Seven, six, five...
+0280 [Coppelius the High Priest] | Curse you! Even though her mana explosion won't leave a scratch, this chamber... These important coffins...!
+0281 [Coppelius the High Priest] | Reverse spell—
+0282 [Coppelius the High Priest] | Name Sever!
+0283 [Elis] | Alina, now!
+0284 [Alina] | Radiant Flame, Slash!
+0285 [Coppelius] | My... My hands!
+0286 [Elis] | Ashes to ashes, dust to dust.
+0287 [Leita the Saintess] | In the name of the Goddess of Magic... Annihilate.
+0288 [Leita the Saintess] | I... Is he gone for good?
+0289 [Elis] | Of course! Not gonna lie, Claudia, you actually make a pretty good partner. Our combined Annihilation Spell was flawless. Even a demigod would be out of commission for a year after taking a hit like that!
+0290 [Alina] | Archon Olympia, are you alright?
+0291 [Alina] | Elis, Saintess, Coppelius is dead. Does that mean his control over Archon Olympia is finally broken?
+0292 [Tú] | Really? A guy like Coppelius ... down just like that?
+0293 [Tú] | Wait, what is that strange noise?
+0294 [Tú] | These puppets are relentless. Alina hacked them to pieces before she ran off. How are they still moving?
+0295 [Tú] | They're actually tearing off their own limbs and slapping together five new bodies.
+0296 [Tú] | No, the puppet halves on the ground! They're assembling themselves!
+0297 [Coppelius the High Priest] | Meddling Night Watch... If you hadn't severed my hands!
+0298 [Coppelius the High Priest] | Ashes to ashes, dust to dust. In the name of the Goddess of Magic... Annihilate!
+0299 [Tú] | Alina, look out—!
+0300 [Opción] | Step in front of Alina
+0301 [Narración] | Urgh—my arm...!
+0302 [Alina] | ==PLAYER_NAME==!!!
+0303 [Tú] | I... I'm alright...
+0304 [Leita the Saintess] | There're too many of them! We can't take him on like this!
+0305 [Elis] | We need to run before this bastard puts his legs back together! Alina, I'll hold the line. Make sure ==PLAYER_NAME== gets to safety!
+0306 [Alina] | Got it! See you at "Yonon"!

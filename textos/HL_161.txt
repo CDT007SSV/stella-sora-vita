@@ -1,0 +1,176 @@
+# Heartlink de Leafia: conversaciones del telefono
+# Traduce solo lo que va después de "|". No cambies la clave de la izquierda (01.0001).
+# Los saltos de línea van escritos como \n. Respeta ==PLAYER_NAME==. [Tú] = tus mensajes y opciones.
+# Las opciones [Opción] son lo que el jugador puede elegir responder.
+
+## Conversación A01
+A01.0001 [Leafia] | Hello. Glad to be working with you.
+A01.0002 [Opción] | Hi, Leafia!
+A01.0003 [Opción] | No need to be so polite!
+A01.0004 [Tú] | Expect a lot of texts from me going forward!
+A01.0005 [Tú] | No more disappearing on us!
+A01.0006 [Leafia] | Did President Horizon ask you to do this?
+A01.0007 [Tú] | Not just President Horizon. Mikan did, too
+A01.0008 [Tú] | And Nuz
+A01.0009 [Tú] | And Willow
+A01.0010 [Tú] | And Iori
+A01.0011 [Leafia] | Hold on.
+A01.0012 [Leafia] | You don't have to name everyone in the Trekker Association.
+A01.0013 [Leafia] | Anyway, I appreciate everyone looking out for me.
+A01.0014 [Leafia] | Okay.
+A01.0015 [Tú] | ?
+A01.0016 [Tú] | Leafia?
+A01.0017 [Tú] | Did I lose you already?!
+A01.0018 [Leafia] | No.
+A01.0019 [Leafia] | I'm back.
+A01.0020 [Leafia] | I just spotted a plant Mikan wanted
+A01.0021 [Leafia] | so my hands were full.
+A01.0022 [Tú] | Oh, good. You had me worried
+A01.0023 [Leafia] | I'll do better at keeping in touch from now on.
+A01.0024 [Tú] | It's a deal!
+A01.0025 [Leafia] | Yeah.
+
+## Conversación A02
+A02.0001 [Leafia] | It's been three days.
+A02.0002 [Opción] | Three days?!
+A02.0003 [Opción] | Didn't we say four days?
+A02.0004 [Leafia] | Yeah.
+A02.0005 [Leafia] | I'm all set to piece together the terrain map for the Filanis military camp.
+A02.0006 [Leafia] | Yeah.
+A02.0007 [Leafia] | But I just couldn't wait!
+A02.0008 [Leafia] | I got so excited about restoring the Filanis camp map
+A02.0009 [Leafia] | that I came to find you a day early.
+A02.0010 [Leafia] | You promised to track down the reference files within four days.
+A02.0011 [Leafia] | You didn't just make that up, did you?
+A02.0012 [Tú] | Of course not!
+A02.0013 [Tú] | I always keep my word!
+A02.0014 [Tú] | Just, just hang on, I'll have them for you tomorrow
+
+## Conversación A03
+A03.0001 [Leafia] | Checking in with today's plans.
+A03.0002 [Leafia] | I'm updating the mountain maps around Port Goldfinch.
+A03.0003 [Tú] | Plain text is a little dry, don't you think?
+A03.0004 [Tú] | How about this:
+A03.0005 [Tú] | Once you get there
+A03.0006 [Tú] | snap a few pictures for me!
+A03.0007 [Leafia] | Pictures?
+A03.0008 [Tú] | Yeah!
+A03.0009 [Tú] | Wildflowers by the road
+A03.0010 [Tú] | birds building a nest
+A03.0011 [Tú] | or a sea of trees in the distance
+A03.0012 [Tú] | Anything at all
+A03.0013 [Tú] | I'd love to see the world through your eyes on your trips
+A03.0014 [Leafia] | Got it.
+A03.0015 [Leafia] | I'll take plenty of photos and send them over.
+
+## Conversación A04
+A04.0001 [Leafia] | I think I figured out the trick to riding hermit crabs.
+A04.0002 [Tú] | There's a trick to it?
+A04.0003 [Leafia] | Yeah. It's from Karin's notes.
+A04.0004 [Leafia] | Becoming one with the crab.
+A04.0005 [Leafia] | That sort of thing.
+A04.0006 [Tú] | ...
+A04.0007 [Tú] | I'm gonna need you to explain that.
+A04.0008 [Leafia] | You picture yourself as the shell
+A04.0009 [Leafia] | and move with the crab.
+A04.0010 [Leafia] | It makes for a fast, safe ride.
+A04.0011 [Tú] | That went right over my head
+A04.0012 [Tú] | but it sounds impressive. Congrats!
+A04.0013 [Leafia] | I still have a ways to go, though.
+A04.0014 [Leafia] | I need a lot more practice.
+A04.0015 [Tú] | Guess I should start getting things ready on my end
+A04.0016 [Leafia] | Ready for what?
+A04.0017 [Tú] | The First Annual Hermit Crab Derby
+A04.0018 [Tú] | That actually sounds pretty fun!
+
+## Conversación A05
+A05.0001 [Leafia] | I heard more news about that seamount today... Well, the giant sea turtle, I mean.
+A05.0002 [Leafia] | Karin spotted it.
+A05.0003 [Leafia] | It's in waters even further south than last time.
+A05.0004 [Leafia] | I'd love to get back on its shell if we get the chance.
+A05.0005 [Leafia] | We still left so much of it unexplored.
+A05.0006 [Tú] | First, we'll have to train to not get seasick
+A05.0007 [Leafia] | True.
+A05.0008 [Leafia] | ...
+A05.0009 [Leafia] | On that note, could you pack a few extra crates of Miss Coronis's seasickness potion?
+A05.0010 [Leafia] | Just to be safe.
+A05.0011 [Tú] | You bet! Leave it to me!
+
+## Conversación A06
+A06.0001 [Leafia] | Thanks for saving me today.
+A06.0002 [Leafia] | I almost got swarmed at the Trekker Association again.
+A06.0003 [Tú] | Haha, well, the "Beauty of the Sunken Sea" is a rare sight around here!
+A06.0004 [Leafia] | That nickname...
+A06.0005 [Leafia] | I don't even know how it caught on.
+A06.0006 [Leafia] | Even Mikan and the girls tease me with it sometimes.
+A06.0007 [Leafia] | I blush every time I hear it.
+A06.0008 [Leafia] | So please, just stick to Leafia!
+A06.0009 [Tú] | Alright, alright, you got it!
+A06.0010 [Tú] | Leafia!
+A06.0011 [Leafia] | Yeah.
+A06.0012 [Leafia] | Much better.
+
+## Conversación A07
+A07.0001 [Leafia] | Pretty amazing sea of flowers, huh?
+A07.0002 [Tú] | Yeah!
+A07.0003 [Tú] | Who knew Lake Island was hiding a view like this?
+A07.0004 [Leafia] | I know, right?
+A07.0005 [Leafia] | I love seeing how time reshapes the land.
+A07.0006 [Leafia] | There's always a new surprise waiting.
+A07.0007 [Leafia] | Like that cavern I surveyed recently.
+A07.0008 [Leafia] | Between the shifting stone pillars and how much the space has grown
+A07.0009 [Leafia] | it looks nothing like the Trekker Association's old records.
+A07.0010 [Leafia] | Any commissions keeping you busy the next few days?
+A07.0011 [Tú] | Let me think
+A07.0012 [Tú] | Doesn't look like it
+A07.0013 [Leafia] | Good. I'm coming over right now.
+A07.0014 [Tú] | Eh?
+A07.0015 [Leafia] | We're heading out tomorrow.
+A07.0016 [Leafia] | I'll show you that cavern.
+A07.0017 [Tú] | Talk about last-minute
+A07.0018 [Leafia] | Yeah.
+A07.0019 [Tú] | Sounds like a plan though
+A07.0020 [Tú] | Can't wait!
+
+## Conversación A08
+A08.0001 [Tú] | You texting me first? That takes some getting used to
+A08.0002 [Tú] | Bet I know what the occasion is
+A08.0003 [Leafia] | What is it?
+A08.0004 [Tú] | Your birthday!
+A08.0005 [Tú] | Happy birthday, Leafia!
+A08.0006 [Leafia] | That's today?
+A08.0007 [Tú] | Wait, that's not why you messaged me?
+A08.0008 [Leafia] | I don't really celebrate it, so I never keep track of the date.
+A08.0009 [Leafia] | Still, thank you so much
+A08.0010 [Leafia] | for remembering and wishing me a happy birthday.
+A08.0011 [Tú] | So what did you actually text me about?
+A08.0012 [Leafia] | I found an uncharted cave.
+A08.0013 [Leafia] | Want to go check it out?
+A08.0014 [Tú] | Count me in!
+
+## Conversación A09
+A09.0001 [Leafia] | Has something been on your mind lately?
+A09.0002 [Tú] | What makes you ask?
+A09.0003 [Leafia] | When those wild boars chased us today... I scooped you right up with one hand.
+A09.0004 [Leafia] | You used to be a bit heavier than that.
+A09.0005 [Leafia] | So it got me thinking
+A09.0006 [Leafia] | maybe stress was making you lose weight.
+A09.0007 [Tú] | Nope! I've been eating well, sleeping early, and doing great
+A09.0008 [Tú] | I bet you just got stronger
+A09.0009 [Leafia] | Oh.
+A09.0010 [Leafia] | So I got stronger.
+A09.0011 [Leafia] | Hmm.
+A09.0012 [Leafia] | I like that.
+
+## Conversación A10
+A10.0001 [Leafia] | Does every Disc play a different tune?
+A10.0002 [Tú] | Yep, because each one holds its own unique memory or dream~
+A10.0003 [Leafia] | I see.
+A10.0004 [Leafia] | The melody seemed to lead me to an unfamiliar island.
+A10.0005 [Leafia] | The terrain was unlike anything I've ever seen
+A10.0006 [Leafia] | and it was full of amazing creatures.
+A10.0007 [Leafia] | Dangerous, yet captivating.
+A10.0008 [Tú] | Could it be Snowcap Isle?
+A10.0009 [Leafia] | Who knows.
+A10.0010 [Leafia] | But I'll figure it out someday.
+A10.0011 [Tú] | Rooting for you!!

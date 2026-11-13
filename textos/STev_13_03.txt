@@ -1,0 +1,129 @@
+# Evento · Brushstrokes of the Unknown · 3 · Caught on the Shore
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Fierce-Looking Man | Fierce-Looking Man
+N:Leafia & Mikan | Leafia & Mikan
+N:Man Calmed Down | Man Calmed Down
+N:Omnisky Aegis Rep. | Omnisky Aegis Rep.
+N:Panicked Man | Panicked Man
+N:Unconscious Man | Unconscious Man
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_118 | Coronis
+N:avg1_161 | Leafia
+N:avg2_982 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_1224 | Trekker
+N:avg3_152 | Bastelina
+N:avg3_230 | Mikan
+N:avg3_232 | Omnisky Aegis Rep. (M)
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Three
+0002 [Intro] | Ambush on Shore
+0003 [Intro] | As soon as the expedition lands on the seamount, mercenaries attack. Several companies are already there, fighting over the mining rights to the sea Monolith. Leafia and Mikan fail to drive them off.
+0004 [Fierce-Looking Man] | Hey! Which company are you from?
+0005 [Fierce-Looking Man] | This rock belongs to Omnisky Aegis, so back off and…
+0006 [Fierce-Looking Man] | Ugh!
+0007 [Noya] | Was he trying to say something?
+0008 [Amber] | No idea.
+0009 [Iris] | Noya! Amber! Slow down! At least let him finish his...
+0010 [Iris] | Never mind. Guess he's done talking.
+0011 [Noya] | My bad, Iris. Might've swung a little too hard.
+0012 [Amber] | They wouldn't go down otherwise.
+0013 [Tú] | Coming from Amber, these guys must be seasoned Trekkers.
+0014 [Tú] | And that leader's uniform... I swear I've seen it before.
+0015 [Leafia] | Attacking on sight...==W== Don't tell me they're here for a survey too.
+0016 [Tú] | No use guessing. Tie them up. We'll find a quiet spot for a chat.
+0017 [Unconscious Man] | ...
+0018 [Leafia] | Strange. Why is he still out?
+0019 [Noya] | Makes no sense. I didn't hit him that hard.
+0020 [Unconscious Man] | ...
+0021 [Iris] | Maybe we should just wait?
+0022 [Coronis] | Playing unconscious in front of a doctor. What an amateur.
+0023 [Mikan] | Doctor Coronis, you mean ...==W== he's faking it?
+0024 [Coronis] | A little experiment will tell us.
+0025 [Coronis] | Assistant, fetch two syringes from my kit.
+0026 [Tú] | On it!
+0027 [Coronis] | We have several ways to coax a patient awake. Given our limited tools, Caloric Vestibular Stimulation will have to do.
+0028 [Noya] | The Caloric what now?
+0029 [Iris] | Caloric Vestibular Stimulation.
+0030 [Mikan] | I read about that clinical approach in an Eye of Grace medical journal.==W== But wait, isn't that procedure actually used for...
+0031 [Coronis] | Shh. I'm just scaring him. Waking patients up like this is complete nonsense.
+0032 [Coronis] | You're such a bookworm, kid. Don't let me corrupt you.
+0033 [Mikan] | Oh! So that's what's going on!
+0034 [Tú] | So what's the procedure, Doctor?
+0035 [Coronis] | First, we flood the ear canal with freezing water. Twenty seconds later, we follow up with scalding hot water.
+0036 [Tú] | That is straight-up torture. There goes Coronis again.
+0037 [Coronis] | Physiological reactions never lie. Once the eyes start darting around, we will know for a fact you are faking, sir.
+0038 [Unconscious Man] | ...
+0039 [Coronis] | I assume you would rather not have your ears boiled and frozen?
+0040 [Tú] | Syringes are prepped, Doctor. We can start the treatment anytime.
+0041 [Coronis] | Excellent. Ice water first.
+0042 [Panicked Man] | Whoa, wait! Okay, I'm awake! Don't pour anything!
+0043 [Coronis] | Well, since we are fresh out of patients, my assistant and I will take our leave.
+0044 [Coronis] | The interrogation is all yours, Captain.
+0045 [Leafia] | Are you calm now? You attacked first, so this was purely self-defense. Now that we are even, can we sit down and talk?
+0046 [Leafia] | I'm Leafia, captain of this Trekker Association expedition. Judging by your uniform, you must be corporate.
+0047 [Leafia] | The Trekker Association has no conflict with the companies in Nova. We meant no harm, yet you attacked us anyway. I want to know why.
+0048 [Man Calmed Down] | The Trekker Association? So you aren't hired by a rival company. Seeing a whole crew sail out to the Sunken Sea, I figured you were here to steal our campsite.
+0049 [Leafia] | We don't belong to any company. These Trekkers are just here to help with our survey.
+0050 [Man Calmed Down] | If you aren't corporate, then stay out of our business and...==W== Eep! Okay, I'll talk! Just keep the water away from my ears!
+0051 [Mikan] | Wow. Doctor Coronis really traumatized him.
+0052 [Omnisky Aegis Rep.] | I'm a manager from Omnisky Aegis's Investigation Department. I handle Monolith surveys.
+0053 [Omnisky Aegis Rep.] | Since you're with the Trekker Association, you must have heard about the new Monolith in the Sunken Sea, right? Its coordinates are right by this seamount.
+0054 [Leafia] | Of course.
+0055 [Tú] | If Leafia hadn't updated the map coordinates, you wouldn't even know this seamount existed.
+0056 [Omnisky Aegis Rep.] | Our internal assessments show this Monolith is unique.==W== As the first sea Monolith near the continent, its development potential is astronomical.
+0057 [Omnisky Aegis Rep.] | It won't be long before the Grace Imperium invites everyone to the Monolith auction. Whoever wins gets the mining rights for the first ten years.
+0058 [Leafia] | I know. So you're here to secure those mining rights?
+0059 [Omnisky Aegis Rep.] | Exactly. If we scout the target early, we might uncover crucial intel to crush our rivals at the auction.
+0060 [Omnisky Aegis Rep.] | Plus, this is the only viable campsite in the area.
+0061 [Tú] | Sailing for too long is risky even for veteran seafaring Trekkers. Setting up camp on this seamount makes perfect sense.
+0062 [Omnisky Aegis Rep.] | Unfortunately, Omnisky Aegis isn't the only one eyeing this prize. United Harvest already landed, and more companies could show up anytime.
+0063 [Omnisky Aegis Rep.] | So when we saw you land, we decided to strike first.
+0064 [Leafia] | You're guarding against the wrong threat. My only advice to you is to pack up and sail back immediately.
+0065 [Omnisky Aegis Rep.] | Are you kidding me? Did you not hear a word I just said?
+0066 [Leafia] | I understand your position. But I'm not joking at all.
+0067 [Omnisky Aegis Rep.] | This Monolith is my biggest project! My year-end bonus! My department's budget for the next few quarters! Everything is riding on this!
+0068 [Omnisky Aegis Rep.] | Y-You could pour boiling water in my ears and I still wouldn't leave! I have to complete this survey!
+0069 [Leafia] | This is an uncharted seamount that appeared out of nowhere. It's just as dangerous as the sea Monolith.
+0070 [Leafia] | Setting up camp here without a basic survey is incredibly reckless.
+0071 [Omnisky Aegis Rep.] | Huh? Dangerous? What proof do you have?
+0072 [Leafia] | Well...==W== None yet.
+0073 [Tú] | That's exactly why we came here with the Trekker Association. To investigate this seamount.
+0074 [Tú] | Our team isn't just here to take notes. We're surveying the geological structure and clearing out any hazards.
+0075 [Omnisky Aegis Rep.] | We can't just pack up and leave! You think moving a camp is as easy as taking out the trash?
+0076 [Tú] | So you have absolutely no intention of leaving.
+0077 [Omnisky Aegis Rep.] | Of course not.
+0078 [Tú] | Then at least stay out of our way. Behave, and I promise we'll share our intel with you.
+0079 [Omnisky Aegis Rep.] | You expect me to trust a survey from a bunch of nobodies?
+0080 [Tú] | Nobodies? Our captain, Leafia, is the one who discovered this seamount and wrote the report on it.
+0081 [Omnisky Aegis Rep.] | Wh-What?!
+0082 [Omnisky Aegis Rep.] | Leafia... Leafia...==W== Wait, that name was on the report.
+0083 [Tú] | With an expert on site, don't you feel a little safer?
+0084 [Omnisky Aegis Rep.] | I ... suppose that could work.
+0085 [Tú] | The Trekker Association doesn't play favorites. To keep things fair, we'll share our intel with everyone on the seamount.
+0086 [Omnisky Aegis Rep.] | ... Fine. I know where United Harvest made camp. Follow me.
+0087 [Leafia] | Thank you, Boss.==W== I almost blew the negotiation.
+0088 [Tú] | Don't say that, Leafia. You did great. They just have a bottom line they can't cross.
+0089 [Tú] | In situations like this, you have to find what they're willing to compromise on and steer things in our favor.
+0090 [Leafia] | I see...
+0091 [Tú] | Besides, negotiations are my specialty. My job is to keep this commission running smoothly so you can focus on the survey.
+0092 [Tú] | By the way, when dealing with corporate types, it's all about timing your bargain. If you ever find yourself in a similar situation again, this might come in handy~
+0093 [Mikan] | Incredible... No wonder New Star Guild has a perfect track record for commissions.
+0094 [Leafia] | By the way, what did he mean by the auction and mining rights?
+0095 [Tú] | Wait, you didn't know?!
+0096 [Leafia] | No. Mikan taught me to never show weakness during a negotiation, even if I don't understand something. It's more intimidating that way.
+0097 [Tú] | Haha... Impressive. Even I was fooled.
+0098 [Narración] | I give Leafia a quick rundown on Monolith auctions and mining rights.
+0099 [Leafia] | I see...==W== So the Grace Imperium holds the rights to all Monoliths.
+0100 [Mikan] | Honestly! You need to brush up on basic common sense, Leafia, instead of just drawing maps all day...
+0101 [Tú] | Actually, that gives me an idea... But we'll need official backing from the Grace Imperium first.
+0102 [Leafia & Mikan] | ?
+0103 [???] | Thank you for calling! This is the lovely Bastelina, at your service! ♪
+0104 [1] | Hey, long time no see. It's me!
