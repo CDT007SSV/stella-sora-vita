@@ -7,7 +7,7 @@ const APP_VERSION = "1.1";
 const CAMBIOS = [
   {
     id: "v:2026-11-13-v1.1",
-    fecha: "2026-11-13T12:00:00-06:00",
+    fecha: "2026-11-13T11:30:00-06:00",
     titulo: "Stella Sora Vita 1.1: ranking, cinemáticas y voces",
     puntos: [
       "Nuevo ranking de la comunidad 👑: dale ♥ Me gusta a tus personajes y discos favoritos desde su ficha y mira cuáles son los más queridos.",

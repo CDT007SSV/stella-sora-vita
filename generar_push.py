@@ -15,6 +15,14 @@ def items():
     a = cargar("novedades.json", {}).get("items", [])
     b = cargar("discord.json", {}).get("items", [])
     out = []
+    # actualizaciones de la app (cambios.js), solo desde la 1.1 para no reenviar las viejas
+    try:
+        import re
+        txt = open("cambios.js", encoding="utf-8").read()
+        for m in re.finditer(r'id:\s*"([^"]+)",\s*fecha:\s*"([^"]+)",\s*titulo:\s*"([^"]+)"', txt):
+            if m.group(2) >= "2026-11-13":
+                out.append({"id": m.group(1), "fecha": m.group(2), "titulo": m.group(3), "texto": "Toca para ver todo lo nuevo de la app."})
+    except Exception as e: print("cambios.js:", type(e).__name__)
     for x in a + b:
         if x.get("id"): out.append(x)
     out.sort(key=lambda x: x.get("fecha", ""), reverse=True)
