@@ -3,8 +3,23 @@
 // Enlace de tu formulario de opiniones (Google Forms, etc.). Si lo dejas vacío "" el botón de opinión no aparece.
 const BETA_FORM = "";
 // Versión que ve la gente en Ajustes. Súbela a mano en cada lanzamiento (1.1, 1.2…). El número de caché de sw.js es interno.
-const APP_VERSION = "1.0";
+const APP_VERSION = "1.1";
 const CAMBIOS = [
+  {
+    id: "v:2026-11-13-v1.1",
+    fecha: "2026-11-13T12:00:00-06:00",
+    titulo: "Stella Sora Vita 1.1: ranking, cinemáticas y voces",
+    puntos: [
+      "Nuevo ranking de la comunidad 👑: dale ♥ Me gusta a tus personajes y discos favoritos desde su ficha y mira cuáles son los más queridos.",
+      "Cinemáticas del juego con subtítulos en español dentro del lector.",
+      "Voces japonesas en las escenas que las tienen, y voces de las historias en el visor L2D.",
+      "Música y efectos de sonido más completos en el lector, y nuevos efectos visuales como lluvia, nieve y pétalos.",
+      "L2D Despertar de 13 personajes más, como Firstlight Noya, Allie, Firenze y Chaton.",
+      "Correcciones del lector: tamaños de sprites, escenas que se veían mal y música que seguía sonando al terminar.",
+      "Nuevo diseño de tarjetas y botones, y el botón atrás del teléfono ya funciona en el visor L2D.",
+      "Gracias a Jhon (jhon1466) por compartir los audios, cinemáticas y modelos que hicieron posible esta actualización."
+    ]
+  },
   {
     id: "v:2026-11-09-v1",
     fecha: "2026-11-09T18:00:00-06:00",
