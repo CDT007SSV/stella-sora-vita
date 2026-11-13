@@ -130,7 +130,140 @@
     {
      "g": "Común",
      "b": "While in the Starender state, Noya gains additional Crit DMG and regularly restores Energy.",
-     "d": "While in the Starender state, Noya gains 33% additional Crit DMG and restores … Energy every …s."
+     "d": "While in the Starender state, Firstlight Noya gains 33% additional Crit DMG and restores … Energy every …s."
+    }
+   ]
+  },
+  {
+   "cid": 161,
+   "name": "Leafia",
+   "rarity": 5,
+   "element": "Terra",
+   "role": "Versatile",
+   "wikiUrl": "https://stellasora.miraheze.org/wiki/Leafia",
+   "imageUrl": "https://stellasora.miraheze.org/wiki/Special:FilePath/Leafia.png",
+   "hp": 51179,
+   "atk": 7484,
+   "style": "Steady",
+   "faction": "Trekker Association",
+   "attack": "Ranged",
+   "names": {
+    "jp": "スグハ",
+    "kr": "스구하",
+    "cn": "优叶"
+   },
+   "va": {
+    "jp": "三浦千幸",
+    "cn": "苗子"
+   },
+   "profile": "Mapping data into lines and recording every detail on paper—that's Leafia's calling as a surveyor.",
+   "birthday": "March 5th",
+   "info": [
+    {
+     "k": "Affiliation",
+     "v": "Trekker Association"
+    },
+    {
+     "k": "Skills",
+     "v": "Surveying, wilderness survival"
+    },
+    {
+     "k": "Address",
+     "v": "Any Trekkers' House"
+    },
+    {
+     "k": "Experience",
+     "v": "6 years"
+    },
+    {
+     "k": "Weapon",
+     "v": "True North"
+    },
+    {
+     "k": "Rate",
+     "v": "Vary by commission"
+    }
+   ],
+   "skillsAuto": [
+    {
+     "t": "Ataque normal",
+     "n": "Crystal Generation",
+     "d": "Continuously generates Plotting Crystals.\nStrike 1: 185% of ATK as Terra Auto Attack DMG.\nStrike 2: 185% of ATK as Terra Auto Attack DMG.\nStrike 3: 185% of ATK as Terra Auto Attack DMG.\nWhen an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second."
+    },
+    {
+     "t": "Habilidad principal",
+     "n": "Crystal Vein Survey",
+     "d": "Unleashes Stratum Echo, dealing 180% of ATK as AoE Terra Skill DMG and generating 5 Resource Markers. When there are more than 10 Resource Markers, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing 54% of ATK as Terra Auto Attack DMG. All these attacks can trigger Terra Mark, dealing 61% of ATK as AoE Terra Mark DMG.",
+     "cd": "18"
+    },
+    {
+     "t": "Habilidad de apoyo",
+     "n": "Area Plotting",
+     "d": "Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing 327% of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals 397% of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict Terra Mark: Earth Vein.",
+     "cd": "14"
+    },
+    {
+     "t": "Definitiva",
+     "n": "Terrain Mapping",
+     "d": "Unleashes Terrain Mapping for 20s, dealing 270% of ATK as AoE Terra Ultimate DMG every 3s.",
+     "cd": "30"
+    }
+   ],
+   "potentials": [
+    {
+     "g": "Principal",
+     "b": "No longer generates Observation Points. Auto Attacks can consume Resource Markers to increase that attack's ….",
+     "d": "After casting Crystal Vein Survey (Main Skill), Observation Points are no longer generated. When Leafia's Auto Attack deals DMG, it always generates 1 Resource Marker. Leafia's Auto Attack can also consume 3 Resource Markers to fire an Amplification Crystal, dealing 332% of ATK as Terra Auto Attack DMG, increasing that Auto Attack's … by …, and triggering Terra Mark."
+    },
+    {
+     "g": "Principal",
+     "b": "Auto Attacks generate extra Resource Markers when dealing DMG. Auto Attack's … is increased and pierces targets. Any new Resource Markers are absorbed automatically.",
+     "d": "Leafia's Auto Attacks generate 1 extra Resource Marker when dealing DMG. Auto Attack's … is increased by … and pierces targets. Any new Resource Markers are absorbed automatically."
+    },
+    {
+     "g": "Principal",
+     "b": "Auto Attacks no longer generate Resource Markers when dealing DMG. Reduces Main Skill Cooldown and extends Observation Point duration. Each Observation Point deals additional DMG every 3 attacks.",
+     "d": "Auto Attacks no longer generate Resource Markers when dealing DMG. Reduces Main Skill Cooldown by 10s and extends Observation Point duration by 20s. Casting a skill directly generates 1 Observation Point without consuming Resource Markers (triggers once every 20s). Every 3 attacks, each Observation Point releases a wave that deals 287% of ATK as AoE Terra Auto Attack DMG."
+    },
+    {
+     "g": "Principal",
+     "b": "Observation Points fire bullets at targets every second, generating 1 Resource Marker every 3s. Every Resource Marker Leafia picks up increases Observation Point's ….",
+     "d": "Observation Points fire bullets at targets every second, dealing 91% of ATK as Terra Auto Attack DMG and generating 1 Resource Marker every 3s. Each Resource Marker Leafia picks up increases Observation Point's … by … for 5s, stacking up to 10 times."
+    },
+    {
+     "g": "Apoyo",
+     "b": "Extends Observation Point duration. Up to 2 Observation Points can be present at the same time. Reduces Tactical Mapping's attack interval. When Tactical Mapping deals DMG, increases the target's Terra DMG Taken.",
+     "d": "Extends Observation Point duration by 10s. Up to 2 Observation Points can be present at the same time. Reduces Tactical Mapping's DMG dealing Interval and it can deal damage to the same target at most once per second. In an all-Terra squad, when Tactical Mapping deals DMG, increases the target's Terra DMG Taken by 6.7% for 3s, stacking up to 3 times."
+    },
+    {
+     "g": "Apoyo",
+     "b": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up once, increasing Tactical Mapping's ….",
+     "d": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up once, increasing Tactical Mapping's … by …. This effect is permanent and stacks up to 4 times."
+    },
+    {
+     "g": "Apoyo",
+     "b": "Increases the frequency of Vanguard Strike. When Vanguard Strike deals DMG, increases the … of both itself and Calibration Mark. When an Observation Point expires, inflicts 1 stack of Calibration Mark on targets within range.",
+     "d": "Observation Points launch 1 Vanguard Strike outward every second. When Vanguard Strike deals DMG, increases the … of both itself and Calibration Mark by … for 4s, stacking up to 3 times. Observation Points expire after 10s and inflict 1 stack of Calibration Mark on targets within range."
+    },
+    {
+     "g": "Apoyo",
+     "b": "No longer generates Tactical Mapping. Increases the … of Vanguard Strike and Calibration Mark. When Vanguard Strike deals DMG, inflicts 1 stack of Calibration Mark on the target. At 3 stacks, Calibration Mark, detonates immediately.",
+     "d": "No longer generates Tactical Mapping. Increases the … of Vanguard Strike and Calibration Mark by …. Vanguard Strike is enhanced to deal 786% of ATK as Terra Auto Attack DMG. When Vanguard Strike deals DMG, inflicts 1 stack of Calibration Mark on the target. At 3 stacks, Calibration Mark, detonates immediately."
+    },
+    {
+     "g": "Común",
+     "b": "When Terrain Mapping (Ultimate) deals DMG, increases Leafia's Base ATK.",
+     "d": "When Terrain Mapping (Ultimate) deals DMG, increases Leafia's Base ATK by 8.8% for 20s, stacking up to 3 times."
+    },
+    {
+     "g": "Común",
+     "b": "Increases the … of Terrain Mapping (Ultimate) and reduces its attack interval.",
+     "d": "Increases the … of Terrain Mapping (Ultimate) by … and reduces its attack interval."
+    },
+    {
+     "g": "Común",
+     "b": "When the Ultimate is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain increased …. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's ….",
+     "d": "When the Terrain Mapping (Ultimate) is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain 28% increased …. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's … by 5.5%."
     }
    ]
   },
@@ -5297,7 +5430,7 @@
     {
      "g": "Apoyo",
      "b": "Aegis of Light ricochets with the main Trekker and deals AoE DMG, while increasing the Skill DMG Taken by nearby targets.",
-     "d": "Aegis of Light shields the main Trekker and then ricochets.\nWhen it hits the main Trekker, deals 20.2% of Tilia's ATK as AoE Lux Skill DMG and increases the Skill DMG taken by nearby enemies by 4.6%, lasting for 10s, up to 4 stacks."
+     "d": "Aegis of Light shields the main Trekker and then ricochets.\nUpon hitting the main Trekker, it creates a Lightning Array: Deals 20.2% of Tilia's ATK as AoE Lux Skill DMG and increases the Skill DMG taken by nearby enemies by 4.6%, lasting for 10s. Stacks up to 4 times."
     },
     {
      "g": "Apoyo",
@@ -5456,6 +5589,28 @@
   }
  ],
  "discos": [
+  {
+   "did": 214069,
+   "name": "Emergency Evacuation",
+   "rarity": 5,
+   "element": "Terra",
+   "wikiUrl": "https://stellasora.miraheze.org/wiki/Emergency_Evacuation",
+   "imageUrl": "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Emergency_Evacuation.png",
+   "imageAlts": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Emergency_Evacuation.png"
+   ]
+  },
+  {
+   "did": 214068,
+   "name": "Beneath Billowing Sails",
+   "rarity": 5,
+   "element": "Terra",
+   "wikiUrl": "https://stellasora.miraheze.org/wiki/Beneath_Billowing_Sails",
+   "imageUrl": "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Beneath_Billowing_Sails.png",
+   "imageAlts": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Beneath_Billowing_Sails.png"
+   ]
+  },
   {
    "did": 214067,
    "name": "Eternal Brilliance",
@@ -6603,6 +6758,33 @@
  ],
  "banners": [
   {
+   "id": 10161,
+   "name": "Boundless Journey, Endless Romance",
+   "kind": "Personajes",
+   "start": "2026-11-13T12:00:00+08:00",
+   "end": "2026-12-04T10:59:59+08:00",
+   "url": "https://stellasora.miraheze.org/wiki/Boundless_Journey%2C_Endless_Romance/2026-11-12",
+   "img": "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Boundless_Journey%2C_Endless_Romance_2026-11-12_EN.png",
+   "imgAlts": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Boundless_Journey%2C_Endless_Romance_2026-11-12_EN.jpg",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Leafia.png"
+   ],
+   "featured": "Leafia"
+  },
+  {
+   "id": 20161,
+   "name": "Untrodden Lands Seen In Dreams",
+   "kind": "Discos",
+   "start": "2026-11-13T12:00:00+08:00",
+   "end": "2026-12-04T10:59:59+08:00",
+   "url": "https://stellasora.miraheze.org/wiki/Untrodden_Lands_Seen_In_Dreams/2026-11-12",
+   "img": "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Untrodden_Lands_Seen_In_Dreams_2026-11-12_EN.jpg",
+   "imgAlts": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Untrodden_Lands_Seen_In_Dreams_2026-11-12_EN.png"
+   ],
+   "featured": null
+  },
+  {
    "id": 11115,
    "name": "Stardust Rising in the Light",
    "kind": "Personajes",
@@ -6667,17 +6849,17 @@
    ]
   },
   "discoGacha": {
-   "name": "My Guiding Star",
+   "name": "Beneath Billowing Sails",
    "img": [
-    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_My_Guiding_Star.png",
-    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_My_Guiding_Star.png"
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Beneath_Billowing_Sails.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Beneath_Billowing_Sails.png"
    ]
   },
   "discoLibre": {
-   "name": "Eternal Brilliance",
+   "name": "Emergency Evacuation",
    "img": [
-    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Eternal_Brilliance.png",
-    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Eternal_Brilliance.png"
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Emergency_Evacuation.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Emergency_Evacuation.png"
    ]
   },
   "historiaPersonajes": {
@@ -6689,10 +6871,10 @@
    ]
   },
   "eventos": {
-   "name": "Moment of Glory",
+   "name": "Emergency Evacuation",
    "img": [
-    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Moment_of_Glory.png",
-    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Moment_of_Glory.png"
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_Emergency_Evacuation.png",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Disc_icon_Emergency_Evacuation.png"
    ]
   },
   "historiaPrincipal": {
@@ -6890,5 +7072,5 @@
    }
   ]
  },
- "generado": "2026-11-10T10:00:30+00:00"
+ "generado": "2026-11-13T10:07:42+00:00"
 }
