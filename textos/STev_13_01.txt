@@ -1,0 +1,140 @@
+# Evento · Brushstrokes of the Unknown · 1 · Set Sail for the Sunken Sea
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Cheerful Female Voice | Cheerful Female Voice
+N:Cunning Male Voice | Cunning Male Voice
+N:Deep Male Voice | Deep Male Voice
+N:Leafia & Mikan & Nuz | Leafia & Mikan & Nuz
+N:The Crew | The Crew
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_157 | Karin
+N:avg1_161 | Leafia
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_102 | Willow
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_159 | Horizon
+N:avg3_165 | Nuz
+N:avg3_230 | Mikan
+N:avg3_231 | United Harvest Rep. (M)
+N:avg3_232 | Omnisky Aegis Rep. (M)
+N:avg3_937 | The Crowd
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act One
+0002 [Intro] | Set Sail for the Sunken Sea
+0003 [Intro] | Invited to the Trekkers' House, you learn that Leafia and Mikan are planning a field expedition to investigate a mysterious seamount in the sea. To help complete their team, you recommend a professional doctor...
+0004 [Narración] | No. 9970807-01==P== Center Coordinates: (7.2, -98.6)==P== Date: Calor Month 14th, Year 997==P== Lead Surveyor: Leafia, Trekker Association
+0005 [Deep Male Voice] | Word has it that a new Monolith suddenly appeared in the Sunken Sea two weeks ago. Grace Imperium has already logged its coordinates.
+0006 [Deep Male Voice] | You don't just stumble upon a Monolith in the ocean...==W== Omnisky Aegis is taking this one.
+0007 [Narración] | Meanwhile...
+0008 [Cunning Male Voice] | First one to map it and report to the Senate gets the glory.
+0009 [Cunning Male Voice] | And United Harvest has plenty of competition.
+0010 [The Crew] | We strike before the rivals do!
+0011 [Narración] | Meanwhile...
+0012 [Cheerful Female Voice] | You must be the New Star Guild. Nice to finally meet you. I'm Horizon, President of the Trekker Association.
+0013 [Tú] | A pleasure, President Horizon. I'm ==PLAYER_NAME==, and this is my crew.
+0014 [Horizon] | Noya,==W== Iris,==W== and Amber,==W== right?
+0015 [Horizon] | Willow sings your praises. Sounds like you pulled the Association out of the fire a few times.
+0016 [Horizon] | Your guild's name even popped up in Leafia's latest survey report about the Monolith in the sea.
+0017 [Tú] | Look at us getting famous.
+0018 [Horizon] | Which is exactly why I had Willow reach out to you. The Association has a commission for you.
+0019 [Horizon] | We want you on our next expedition.
+0020 [Tú] | Expedition?
+0021 [Horizon] | I'll let the captain brief you. Take it away, captain!
+0022 [Leafia] | It's been a while, everyone.
+0023 [The Crowd] | Leafia!
+0024 [Tú] | Perfect timing. Karin asked me to give this to you.
+0025 [Leafia] | For me? What is it?
+0026 [Tú] | It looks like her latest custom Seasickness Boot Camp schedule.
+0027 [Tú] | Karin said you're rarely at the Association, so she asked me to bring it. Glad I could finally get it to you.
+0028 [Leafia] | Thank you both.
+0029 [Leafia] | ... Though I still have nightmares about riding hermit crabs.
+0030 [Tú] | Relax. Shia vetted this batch, so the crab-riding is out. It's all just standard training.
+0031 [Leafia] | Thank goodness.==W== We're heading to the Sunken Sea and my stomach can't take another hit.
+0032 [Tú] | Ugh...==W== Not another boat ride.
+0033 [Leafia] | Afraid so. We're heading straight for that new underwater Monolith.
+0034 [Leafia] | The Trekkers' House in Port Bellin sent us a tip last week.
+0035 [Leafia] | Fishermen spotted a massive seamount breaching the surface right after the Monolith appeared.
+0036 [Leafia] | We cross-referenced the charts, and there is absolutely no record of this seamount.
+0037 [Leafia] | We sailed through that exact spot two weeks ago. It was open water.
+0038 [Leafia] | Putting it all together, this seamount probably appeared overnight. But the weirdest part is...
+0039 [Iris] | Seamounts don't usually break the surface. I read that in the Nova Geography Journal. That is really strange...
+0040 [Leafia] | You read the Journal, Iris?
+0041 [Iris] | Yes! It's free at the Trekkers' House, so I never miss an issue. I've even taken a lot of notes!
+0042 [Leafia] | The editors would be ecstatic to hear that.
+0043 [Leafia] | Anyway, you're right. Our geologists share the same view.
+0044 [Leafia] | That's why we're launching an expedition to investigate. It'll be our next special feature to uncover the mystery of this strange seamount.
+0045 [Tú] | Ah, a commission for the Nova Geography Journal. It's a really popular magazine among Trekkers, though it hasn't put out a new issue in a while...
+0046 [Leafia] | Yeah...==W== It's a rough spot.
+0047 [Leafia] | We wanted an internal team from the Association, but we're out of time and completely understaffed here in Sailstead...==W== That's why we're asking you for help.
+0048 [Tú] | I see. But we lack the surveying experience of Association experts. Are you sure about this?
+0049 [Leafia] | Actually, we literally cannot put this team together without you!
+0050 [The Crew] | Us? Seriously?
+0051 [Leafia] | Noya is an elite chef. With her around, we won't have to worry about food on or off the ship.
+0052 [Noya] | Heh, you flatter me...==W== But now that you mention it, I am pretty great! ♪
+0053 [Leafia] | Iris is detail-oriented and great at math. She'll make our document and intel processing much more efficient!
+0054 [Iris] | I-I'm not that good...
+0055 [Leafia] | Amber is unknown monster...==W== Wait, no.==W== Lurking in the...==W== Hold on, let me check my notes.
+0056 [???] | Amber is a top-tier photographer! We'll likely encounter unknown monsters lurking in the dark on this trip,==W== so we really need someone agile and adaptable like Amber to capture the footage!
+0057 [Amber] | ...==W== Thanks.
+0058 [Leafia] | Yep. Exactly that.
+0059 [???] | How could you drop the ball right here?! You're even stuttering through the compliments! How are we supposed to show our sincerity like this?!
+0060 [???] | Mikan spent a lot of time polishing those five pages for Operation Butter-Up: How to Flatter the Soft-Hearted Boss Into Doing Our Survey for the Lowest Commission Fee! How could you forget the script?!
+0061 [Leafia] | There were too many words... I couldn't memorize them...==W== I'm sorry. It's my fault Operation Butter-Up is ruined.
+0062 [???] | We can still salvage this! It's too early to give up!
+0063 [???] | So, please believe us!==W== We really, really need your help!
+0064 [Leafia] | Mikan, is this also part of our perfect plan?
+0065 [Mikan] | This is Plan B. If Operation Butter-Up fails, Nuz steps in. She'll use the haggling skills she learned from grocery shopping to sway the soft-hearted Boss.
+0066 [Mikan] | Let's just observe the situation and chime in to back her up whenever there's a chance!
+0067 [Leafia] | Got it.
+0068 [Tú] | Uh, and you are...?
+0069 [Nuz] | Whoops, skipped the intro!==W== I'm Nuz, Association mechanic and your navigator for this expedition.
+0070 [Nuz] | And this is Mikan. She's a geologist for the Association, an editor for the Nova Geography Journal, the writer for this issue's feature, and she's also in charge of geological prospecting for the team!
+0071 [Mikan] | Eep! H-Hi!==W== I'm Mikan.==W== W-We haven't met.==W== I look forward to working with you!==W== Wait, did I say my name already?==W== A-Anyway, it's great to meet you!
+0072 [Nuz] | She panics around new people, but she'll be okay once you get to know her! Hahahaha...
+0073 [Nuz] | And you already know Leafia. Captain, surveyor, and guide.
+0074 [Tú] | They're severely understaffed...
+0075 [Nuz] | Plus Willow,==W== who we drafted for comms and logistics.
+0076 [Noya] | Wait, Willow's coming?!
+0077 [Willow] | I was already filing the underwater Monolith reports in Sailstead, so I offered to lend a hand.
+0078 [Nuz] | Now our team is just waiting for the four most crucial members to join!
+0079 [Tú] | The four of us?
+0080 [Nuz] | The chef,==W== the analyst,==W== the photographer,==W== and...
+0081 [Nuz] | The all-purpose liaison who can reach anyone anytime, anywhere, and the lucky mascot who brings good fortune to everyone—the Boss!
+0082 [Tú] | That's a really long list of titles...==W== Also, calling me a mascot is a bit too much...
+0083 [Nuz] | Mikan read through all the guild reports collected in Sailstead over the past two years, and found that ever since Boss joined, the New Star Guild's commission completion rate has been a staggering one hundred percent!
+0084 [Noya] | Oh yeah, she's right!
+0085 [Iris] | I noticed that while doing the bookkeeping, too. Ever since Boss joined us, our budget has been a lot more comfortable.
+0086 [Nuz] | So we really wanted to borrow Boss's good luck and everyone's professional skills. That's why we asked Willow to contact you.==W== It's just that...
+0087 [Nuz] | Given our current financial situation, the budget we can allocate to the expedition is almost zero.
+0088 [Nuz] | We barely managed to scrape some money together over the past two weeks, but after deducting boat repair fees, Artifact purchases, and various other expenses...
+0089 [Nuz] | The little money we have left is nowhere near enough to hire a guild for a commission with unknown risks.
+0090 [Nuz] | So...!==W== Could you possibly give us a discount on the commission fee?!
+0091 [Mikan] | If possible, it would be best to keep it within our budget... 41,294 Dorra or less...
+0092 [Leafia] | Or take an IOU?!
+0093 [Tú] | I see. All that buildup earlier was just because you're tight on money.
+0094 [Tú] | Since this involves our payment, I need to hear everyone's opinion. Thoughts?
+0095 [Noya] | I don't mind! Exploring a new place with Willow sounds amazing!
+0096 [Iris] | Actually, back when I first became a Trekker, I learned a lot of wilderness survival skills from the Nova Geography Journal...==W== So please let me do my part!
+0097 [Amber] | I like animals introduced in the Journal.
+0098 [Amber] | I've also sent quite a few photos of wildlife.
+0099 [Noya] | Amber keeps that issue on Loxy's shelf!
+0100 [Tú] | Didn't realize we had so much history with them...
+0101 [Tú] | Since everyone's on board, let's just make the commission fee a symbolic four Dorra.
+0102 [The Crew] | Agreed!
+0103 [Leafia & Mikan & Nuz] | Thank you all so much!
+0104 [Tú] | But looking at the roster, you're missing a key role.
+0105 [Tú] | We may all be veterans, but going out there without a field medic is asking for trouble.
+0106 [Leafia] | We thought of that, but...
+0107 [Mikan] | Where are we going to find a doctor for only 41,290 Dorra...?
+0108 [Tú] | I actually know someone.
+0109 [Tú] | And ...==W== she might even save you some more on the commission fee.

@@ -1,0 +1,187 @@
+# Especial 9.5 · Integridad al amanecer de la reunión · 14 · A Brief Respite
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Lulu | Lulu
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_162 | Alina
+N:avg2_978 | Rovina
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1332 | Alina
+N:avg3_1341 | SaiLa F
+N:avg3_182 | Elis
+N:avg3_227 | Filanis Elder
+N:avg3_228 | Filanis Citizen (M)
+N:avg3_229 | Filanis Slave
+
+## Texto
+0001 [Intro] | Act Fourteen
+0002 [Intro] | A Brief Respite
+0003 [Intro] | For the first time in Filanis, you, Alina, and Elis catch your breath. In the meantime, you and Alina expose a noble's slave-trading ring. With no way home in sight, the two of you share your doubts and grow closer...
+0004 [Lugar y hora] | 10:00, The Sixth Month 10th, Outside Filanis Island, Deep in the Forest
+0005 [Alina] | Radiant Flame!
+0006 [Alina] | How was that, teacher Elis? Did I get the flash spell right?
+0007 [Elis] | Perfect. You've gotten so good at the flash spell that even I might not be able to cast it more precisely.
+0008 [Elis] | Let's try another spell. How about water creation?==W==
+0009 [Alina] | Come forth...==W== Gushing spring!==W==
+0010 [Elis] | Whoa, that's bright! It's making me tear up.==W== That's one unusual way to create water.
+0011 [Alina] | I-I'm sorry! I think I cast the wrong spell.
+0012 [Elis] | Let's try an ignition spell.==W== See if you can light this leaf.
+0013 [Alina] | Flames...==W== Answer my call!==W==
+0014 [Elis] | I-It caught fire!==W== But only because your flash spell was so powerful that the light reflected off your sword and focused on the leaf!
+0015 [Elis] | What's going on? I taught you how to cast spells. Why does everything turn into flash magic?!
+0016 [Alina] | I...==W== I don't know.==W== I was picturing water and fire, but it still came out like this. Did I misunderstand your lessons?
+0017 [Elis] | Ugh...==W== I might have better luck teaching a tree.
+0018 [Alina] | Please don't be mad, Elis.==W== I did figure out a few ...==W== new tricks.==W== Please watch.
+0019 [Alina] | Radiant Flame,==W== slash!==W==
+0020 [Alina] | I can now infuse my sword strikes with flash magic. It lights up distant targets, even in the dead of night.
+0021 [Alina] | A-And there's this.==W== Lightshaper!
+0022 [Alina] | I can shape the light into a blade. If I ever lose my weapon, I can keep fighting.
+0023 [Elis] | Hm...==W== To be fair, these are pretty good spells.==W== But...==W== They're still flash magic!
+0024 [Elis] | You don't lack magical talent, Alina.==W== The Goddess of Magic clearly played a prank and dumped all of yours into flash spells.
+0025 [Alina] | Does that mean ...==W== this is the only spell I'll ever learn?
+0026 [Elis] | Two or three==W== at most...==W== But you can still develop your flash magic into different forms, like you just did. That should solve quite a few problems.
+0027 [Elis] | I've got nothing left to teach you.==W== Go spar with someone for inspiration.==W== I'm heading back to the Wishing Box!==W==
+0028 [Alina] | Thank you, teacher Elis!
+0029 [Alina] | Are you free, ==PLAYER_NAME==?==W== Do you want to practice swordplay for a bit?
+0030 [Tú] | Oof...==W== I'll pass today. My arms and lower back are killing me...
+0031 [Alina] | A sprain?==W== Let me see.
+0032 [Tú] | Alina, wait, stop!
+0033 [Tú] | Don't press there! It's sore... Ow!
+0034 [Alina] | Bear with it.==W== You'll feel better in a minute.
+0035 [Tú] | Ugh...==W==How is this supposed to help...==W== Huh? Wait,==W== the soreness is actually fading.
+0036 [Alina] | It's my fault for pushing you too hard yesterday.==W== After such strenuous exercise, soaking in a hot bath for so long must have left your muscles exhausted.
+0037 [Alina] | Want me to keep going?
+0038 [Tú] | Yeah, please.
+0039 [Narración] | Her familiar touch on my shoulders makes me close my eyes.
+0040 [Narración] | Maybe surviving that missing persons case together built trust between us.
+0041 [Narración] | Maybe it was the victory feast.
+0042 [Narración] | Or maybe we are just kindred spirits, each carrying unspoken secrets and wishes...
+0043 [Narración] | Before we knew it, the three of us had grown much closer.
+0044 [Narración] | Elis taught Alina how to cast spells,
+0045 [Narración] | while Alina showed Elis around Filanis, taking her through every corner of the City of Perfection.
+0046 [Narración] | After helping Noya with cooking for so long, I picked up a thing or two myself and somehow became the best cook among the Night Watchers.
+0047 [Narración] | Alina asked me for cooking tips, and in return, she drilled me in swordplay every day, hopeless as I am.
+0048 [Narración] | Whenever Elis has a spare moment, she holes up inside my Wishing Box, claiming she's close to cracking its secrets.
+0049 [Narración] | I even helped Alina crack a major slave-trafficking case. A powerful noble named Caligula had been kidnapping free citizens of Filanis and selling them to other cities.
+0050 [Narración] | I'm only aching today because Alina and I dove straight into a bath to hide from those slavers yesterday, before my muscles even had a chance to cool down.
+0051 [Tú] | Man, that hits the spot...==W== Her technique feels just like Noya's.
+0052 [Narración] | I shake my head to clear the ridiculous thought.
+0053 [1] | Alina isn't Noya. She doesn't mind me treating her as Noya,==W== but it's still rude of me.
+0054 [Tú] | It's been weeks since I woke up in that Wishing Box. I still have no idea how it brought me to Filanis, or how to get back.
+0055 [Tú] | Is making a wish at the tower really my only way home?==W== The tower here demands a heavy toll. What would a wish like that cost me?
+0056 [1] | Noya, Iris, Amber... I wonder how everyone's doing.
+0057 [Alina] | What's on your mind, Boss?
+0058 [Tú] | Thinking about my friends back home...==W== Wait. What did you just call me?
+0059 [Alina] | Boss. You used that title when we raided the slaver carriages. That's what they call you back home, right?
+0060 [Alina] | You smiled, but then your eyes looked sad. I figured you were homesick, so I called you Boss... I thought it might help.
+0061 [Tú] | Thanks, Alina.==W== But if you call me Boss, that makes you my Dark Knight. That is the title you used when we hit those carriages.
+0062 [Alina] | Dark Knight... It sounds so corrupt no matter how many times I hear it. Still... If it means being the Boss's Dark Knight, I don't mind it.
+0063 [Alina] | After all, I've grown dependent on your cooking, and I love how we find ways to do what we're supposed to do ... without always playing by the rules.
+0064 [Alina] | If that's corruption, you've succeeded. I've gladly given in to it.
+0065 [Tú] | Ahem! Elis was just teasing with all that talk about corrupting you, Alina. It wasn't for real.
+0066 [Alina] | For real...
+0067 [Alina] | Tell me, Boss, what makes something ... real?
+0068 [Tú] | Huh?
+0069 [Alina] | Back when they called me No. 18 in the arena, I wanted a real name.
+0070 [Alina] | The name "Yonon" never felt real to me. It felt like a label for selling oneself. To me, a real name had to be a full name, like those of the spectators in the stands.
+0071 [Alina] | Then I got a name like that. Alina Colossi. Some say Alina means light and hope.
+0072 [Alina] | Others say it marks my victory in the Grand Arena. "Alina" echoes "arena," the name for the sandy ground at its center.
+0073 [Alina] | Either way, having a name like the spectators' ones made me feel...==W== I could become a true knight,==W== a Night Watcher who protects Filanis and repays Archon Olympia.
+0074 [Alina] | So I upheld tradition. I did my best at everything I could, and I saved everyone I could reach.
+0075 [1] | Bringing Elis and me to Filanis, worried we might be runaway slaves...
+0076 [1] | Investigating the disappearances completely on her own...
+0077 [1] | Stepping in to save slaves she'd never even met...
+0078 [Tú] | Alina really has lived by those principles this whole time. But...
+0079 [Alina] | But then Elis told me how Night Watchers in Emor make their money...
+0080 [Alina] | And I saw with my own eyes those "knights" of Filanis were kidnapping children. I saw Senate families selling their own people into slavery...
+0081 [Alina] | I... I don't know anymore. If I stay on this path, will I ever become a true knight or a true Night Watcher?
+0082 [Alina] | ... If those people are my future, what's the point of chasing this goal at all?
+0083 [Alina] | Then I met you two, got "corrupted," and we actually helped the people who needed it.
+0084 [Alina] | But...==W== You aren't a real Acolyte, and Elis threw away her title as a Saintess.==PLAYER_NAME== Why aren't good people like you walking the noble path everyone praises?
+0085 [Alina] | What ... am I supposed to do?
+0086 [Tú] | Alina's struggling with the exact same doubts I had.
+0087 [Tú] | But what if we fail to find proof in a month?
+0088 [Tú] | Terrified of dragging everyone down, nearly crushed by fear of the future... Alina hides it well, but she must have been under a lot of pressure to confide in me.
+0089 [Tú] | I can't answer that for you, Alina. You remember what I told you about that organization branding me the Tyrant who will destroy the world?
+0090 [Alina] | You mentioned it before.==W== Those people are ignorant. If you're a world-destroying Tyrant, what does that make those who abuse slaves and treat people like objects?
+0091 [Tú] | I was just as lost as you back then. I couldn't see the road ahead or understand who I was or what was right,==W== until my friends told me...
+0092 [Iris] | Anyway, Boss.==W== I heard one of Angie's main reasons for calling you the Tyrant is that you're always helping people, always doing good deeds.
+0093 [Amber] | If you're the Tyrant... We're fine with that.
+0094 [Noya] | Exactly! The world could use a few more Tyrants like you.
+0095 [Alina] | You have wonderful companions, ==PLAYER_NAME==.==W== They're right.
+0096 [Alina] | The world==W== could use a few more Tyrants==W== like you.
+0097 [Tú] | ...
+0098 [Tú] | I don't know what the words "Knight" and "Night Watcher" mean to you.==W== I just want you to know...
+0099 [Tú] | Titles don't define people. People define titles.
+0100 [Tú] | If your idea of a knight or a Night Watcher doesn't match everyone else's, so be it.
+0101 [Tú] | What matters is==W== knowing you chose your own path, and never regretting it.
+0102 [Alina] | My own path...==W== Never regret...
+0103 [Tú] | If you can't figure it all out right away, there's a simple temporary solution.
+0104 [Tú] | When you break tradition,==W== just pretend you're someone else.
+0105 [Tú] | Angie wants to arrest the Tyrant who will destroy the world.==W== What does that have to do with me, the Boss running a tiny company?
+0106 [Tú] | Sure, I'm just fooling myself.==W== But if a little make-believe helps you breathe easier,==W== there's no harm in it.
+0107 [Alina] | Someone else...==W== So when I get "corrupted" with you, I'm no longer a Night Watcher of Filanis. I'm the Boss's Dark Knight.==W== Yes, I get it!
+0108 [Alina] | Listen up! I am the Dark Knight under Boss's command!==W== Let darkness descend!
+0109 [Alina] | That lacks punch...==W== How about this?==W== I am the Dark Knight under Boss's command!==W== Feel the pain!
+0110 [Alina] | Hmm, that doesn't feel right either.
+0111 [Tú] | Uh, what are you doing?
+0112 [Alina] | I'm trying to come up with a signature line for the Dark Knight.==W== In the epics Lulu reads me,==W== villains always drop a memorable line at the big moment.
+0113 [Alina] | That way, nobody mixes up the Dark Knight with the Night Watcher.==W== But my lines were too plain...==W== Got any better ones, Boss?
+0114 [Tú] | Alina's really getting into this...==W== Is she actually having fun? Does she have a thing for role-playing?==W== Whatever.==W== If it cheers her up...
+0115 [Tú] | A signature line, huh...==W== I remember reading a few of those in the library aboard the Lucky Oasis...
+0116 [Opción] | A quote about courage.
+0117 [Opción] | A quote about wisdom.
+0118 [Opción] | A quote about sacrifice.
+0119 [Tú] | Got it. I read a line in a story of Loongs that fits perfectly.
+0120 [Alina] | Let's hear it.==W==
+0121 [Tú] | Born between heaven and earth,==W== how can a true hero bow to another for long?!==W==
+0122 [Alina] | Ooh, powerful! Does it express a wild, unstoppable ambition?
+0123 [Tú] | Exactly. A peerless general said it originally, and the spirit fits a Dark Knight perfectly.
+0124 [Alina] | Agreed! A Dark Knight who's always talking about overthrowing her master would certainly leave an impression!
+0125 [Alina] | Let me practice, Boss.
+0126 [Alina] | Born between heaven and earth,==W== how can this knight bow to another for long?!==W==
+0127 [Tú] | Whoa, bad idea.==W== Why do I feel like she's going to cut me down any second?
+0128 [Lulu] | There you are, Captain Alina! I've finished the task you gave me. Oh, ==PLAYER_NAME=='s here too?
+0129 [Lulu] | Huh? Why are you pressed so close together? Is this some kind of secret meeting?
+0130 [Alina] | Ahem! Good work, Lulu. We were indeed discussing something ...==W== very important.
+0131 [Tú] | Got it. I read a line in a Goodwind story that fits perfectly.
+0132 [Alina] | Let's hear it.==W==
+0133 [Tú] | On the battlefield,==W== honor is a warrior's greatest folly.
+0134 [Alina] | Does that mean you should always be ready to switch sides?
+0135 [Tú] | Right. A ruler said that of an unconventional tactician.==W== Critics faulted him for switching sides out of pure pragmatism, but he did help that ruler usher in a new era.
+0136 [Alina] | I see.==W== You're hinting that I should abandon Archon Olympia and pledge myself to you, Boss.==W== Loud and clear.
+0137 [Tú] | Uh, well... Actually...==W==
+0138 [Tú] | I'd love for Alina to be as close to me as the New Star Guild, sure, but I'm not shameless enough to steal her away like that! Wait...==W== If I deny it now, she'll definitely take it the wrong way!==W==
+0139 [Tú] | That's right. I'm Boss. I want the finest talent in the world,==W== and I've got my sights set==W== on you!
+0140 [Alina] | What a corrupt invitation. Still...==W== I appreciate the offer, and I don't mind you asking.==W== It's just that I still owe Archon Olympia a debt of gratitude.
+0141 [Lulu] | There you are, Captain Alina! I've finished the task you gave me. Oh, ==PLAYER_NAME=='s here too?
+0142 [Lulu] | Huh? Why are you pressed so close together? Is this some kind of secret meeting?
+0143 [Alina] | Ahem! Good work, Lulu. We were indeed discussing something ...==W== very important.
+0144 [Tú] | Got it. I read a line in a lighthearted story that fits perfectly.
+0145 [Alina] | Let's hear it.
+0146 [1] | Ghh...==W== Just kill me!
+0147 [Alina] | K-==W==kill me?
+0148 [Tú] | Yeah. It's what a proud female knight says when the enemy captures her and she demands an honorable death.
+0149 [Alina] | Ghh... Just kill me!
+0150 [Tú] | No, no, you need to sound more humiliated.
+0151 [Alina] | Ghh... Just kill me!
+0152 [Tú] | Close. Try feeling it out yourself.
+0153 [Alina] | Ghh... Just kill me!
+0154 [1] | Yes, yes, that's it!==W== That's exactly what I wanted!
+0155 [Alina] | Boss,==W== you aren't taking this seriously at all!==W== You just wanted to hear me say that!
+0156 [1] | Uh, wait... It isn't like that, Alina. Let me explain!
+0157 [Alina] | Didn't you say you were still sore?==W== Let me massage you again.==W== I won't hold back this time!
+0158 [Tú] | No, stop!
+0159 [Tú] | Ghh...==W== Just kill me!
+0160 [Lulu] | There you are, Captain Alina! I've finished the task you gave me.==W== Oh,==W== ==PLAYER_NAME=='s here too?
+0161 [Lulu] | Huh? Why are you pressed so close together? Is this some kind of secret meeting?
+0162 [Alina] | Ahem! Good work, Lulu. We were indeed discussing something ...==W== very important.
+0163 [Lulu] | I understand. What you asked me to investigate is indeed serious. ==PLAYER_NAME=='s helping you too, right?
+0164 [Tú] | Huh? Did something happen?
+0165 [Lulu] | As we suspected, something was wrong with the people we rescued from that cavern except the three Filanis kids.==W==
+0166 [Lulu] | Every single one of them was granted a name by Archon Olympia.

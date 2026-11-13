@@ -1,0 +1,149 @@
+# Evento · Brushstrokes of the Unknown · 5 · Captain's Duty
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Amber & Iris | Amber & Iris
+N:Little Squirrel | Little Squirrel
+N:Noya & Iris | Noya & Iris
+N:The Crew | The Crew
+N:The Two | The Two
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_118 | Coronis
+N:avg1_140 | Sparkla
+N:avg1_161 | Leafia
+N:avg3_100 | Sylar
+N:avg3_102 | Willow
+N:avg3_164 | Iori
+N:avg3_165 | Nuz
+N:avg3_230 | Mikan
+N:avg3_231 | United Harvest Rep. (M)
+N:avg3_232 | Omnisky Aegis Rep. (M)
+N:avg3_937 | The Crowd
+
+## Texto
+0001 [Intro] | Act Five
+0002 [Intro] | A Captain's Duty
+0003 [Intro] | Leafia and Mikan race against time to map and survey the seamount. In the middle of it, Leafia suddenly loses contact, yet Mikan seems oddly unfazed, as if she's used to it…
+0004 [Mikan] | Captain! What's our next move?
+0005 [Leafia] | Mikan, you're with me. Let's get camp set up in the safe zone first, just in case.
+0006 [Leafia] | After that, you're on geological sampling.
+0007 [Mikan] | You got it!
+0008 [Leafia] | Doctor Coronis, Amber. I need you two to identify and photograph the local wildlife.
+0009 [Coronis] | Heh, let's hope we find some fascinating specimens.
+0010 [Amber] | Camera's ready.
+0011 [Leafia] | Noya, Iris, head back to the ship. Help Nuz haul the rest of our gear.
+0012 [Noya & Iris] | On it!
+0013 [Tú] | She really steps up as captain when it's her field of expertise...==W== Wait.
+0014 [Tú] | Captain, what about me?
+0015 [Leafia] | Don't worry. You have a crucial job, Boss.
+0016 [Noya] | Oh, definitely! We literally couldn't do this without you. You're our absolute most essential...
+0017 [Narración] | ==Off====A0.001==Mascot!
+0018 [Narración] | ==Off====A0.001==Liaison!
+0019 [Narración] | _NOT_IN_LOG_==Off== Mascot! Liaison! Mascot! Liaison!
+0020 [Leafia] | Mascot and liaison.
+0021 [The Crew] | ...
+0022 [Mikan] | T-The mascot part was a joke!
+0023 [Noya] | Aww. I thought Boss actually brought good luck. I was gonna pray to you and everything.
+0024 [Amber] | Guess it wasn't true...
+0025 [Iris] | Seriously, why are you two disappointed?!
+0026 [Leafia] | Mikan, was it really a joke?
+0027 [Mikan] | Of course it was!
+0028 [Mikan] | We came up with that during Operation Butter-Up: How to Flatter the Soft-Hearted Boss Into Doing Our Survey for the Lowest Commission Fee!==W== Please don't make me explain the joke!
+0029 [Leafia] | Looks like nobody here has a sense of humor.
+0030 [The Crew] | Haha...
+0031 [Tú] | Ahem...==W== I'll pass on the mascot gig. What exactly does a liaison do?
+0032 [Mikan] | I'll let the captain take this one!
+0033 [Leafia] | Gladly.==W== Everyone, check your phones. Do you have a signal?
+0034 [The Crowd] | ?!
+0035 [Noya] | Dead. Just like out in the Wilds.
+0036 [Amber & Iris] | Same here.
+0037 [Leafia] | Boss, yours should be the only one working.
+0038 [Tú] | You're right.
+0039 [Iris] | Wait...==W== Are we outside the Monolith's range?
+0040 [Leafia] | Yes.==W== The underwater Monolith is right here on the map. Based on old data, its signal only stretches this far into the sea.
+0041 [Leafia] | This seamount sits right on the edge of the dead zone. That's why our phones are out.
+0042 [Tú] | No wonder you need a liaison.
+0043 [Leafia] | Yes. Your phone is special. You can reach anyone you share a Heartlink with, no matter where you are.
+0044 [Leafia] | In the past, surveying outside the signal range meant we had to stick together for safety. The work had to take forever.
+0045 [Leafia] | I wanted to avoid that this time. I was stressing over it==W== when Willow suggested you for the role.
+0046 [Tú] | So it was Willow's idea.
+0047 [Leafia] | She didn't board the ship with us. I need her onshore to log data and forward it to your phone.
+0048 [Leafia] | And that's your main job as our liaison.
+0049 [Tú] | Understood. Leave it to me.
+0050 [Noya] | Phew!==W== That's the last of the luggage!
+0051 [Mikan] | Great work, everyone. Just set it down right there.
+0052 [Mikan] | ... Perfect. The camp is good to go.
+0053 [Tú] | Huh? Where's Leafia?
+0054 [Mikan] | The second we finished here, she grabbed her gear and sprinted off to survey.
+0055 [Nuz] | Did you remind her to send us her coordinates?
+0056 [Mikan] | Of course I did.==W== But you know how she gets. Once she starts drawing, the rest of the world stops existing.
+0057 [Tú] | I just got a message from Leafia.
+0058 [Tú] | It's a coordinate.
+0059 [The Two] | Huh?! Are you serious?!
+0060 [Tú] | What's the big deal?
+0061 [Nuz] | You don't get it!
+0062 [Mikan] | Leafia is the Association's most notorious vanishing act.
+0063 [Nuz] | She always sneaks off into the Wilds to survey without a word...==W== Every single time!
+0064 [Mikan] | Once she drops off the grid, we won't hear from her for weeks.
+0065 [Nuz] | Then she just pops up at a Trekkers' House in some random city, clutching a massive stack of updated maps.
+0066 [Mikan] | Honestly, she's the real Ghost of the Sea Wakers.
+0067 [Nuz] | It's freaky. Why is she actually reporting in this time?
+0068 [Tú] | Maybe==W== she's actually taking her role as captain seriously.
+0069 [Mikan] | A captain's responsibilities...
+0070 [Nuz] | Speaking of which, Mikan, weren't you planning on having me recruit the New Star Guild and Boss?
+0071 [Mikan] | Yeah. Leafia rarely talks to people, and she's not exactly good with words...==W== Not that I'm much better.
+0072 [Nuz] | So when she said she'd invite you herself, Mikan and I were floored.
+0073 [Mikan] | Oh, right!==W== Nuz, you missed it on the ship,==W== when we were dealing with those corporate guys earlier... Leafia hates negotiating, but stood her ground anyway.
+0074 [Mikan] | I mean, Boss had to help us out in the end...==W== But she really tried her best.
+0075 [Tú] | I know. She's a good captain, isn't she?
+0076 [Mikan] | O-Of course!==W== Anyway, Nuz and I are buried in lab equipment right now.==W== Mind doing us a favor, Boss?
+0077 [Tú] | Leafia sends new coordinates every ten minutes. Based on the latest one...==W== She should be right around here.
+0078 [Mikan] | She's sending coordinates, sure, but she might still lose track of time and forget to come back!==W== Just to be safe, could you go grab our captain?
+0079 [Tú] | ... Found her.==W== That's her crouched over there.
+0080 [Leafia] | This seamount is pretty tricky to map.
+0081 [Little Squirrel] | Squeak, squeak!
+0082 [Leafia] | I'll call you Squeaky then. You agree, Squeaky?
+0083 [Little Squirrel] | Squeak!
+0084 [Leafia] | The vegetation is lush here. You certainly picked a prime spot for a nest.==W== But...
+0085 [Leafia] | It's only been half a month. How did you get all the way out here? And how did this entire forest grow so fast?
+0086 [Little Squirrel] | Squeak! Squeeeeak...==W== Squeak!
+0087 [Leafia] | Hmm...==W== No idea. I wish I could understand you.
+0088 [Tú] | Leafia?
+0089 [Little Squirrel] | Squeak?!
+0090 [Leafia] | Ah, there it goes.
+0091 [Tú] | Sorry. Did I interrupt you two?
+0092 [Leafia] | It's fine. I was basically just talking to myself anyway.
+0093 [Leafia] | Hey, Boss. If Iori were here, do you think she'd understand it?
+0094 [Tú] | Iori is a fox Flufla.==W== Theoretically, she'd only understand foxes.
+0095 [Tú] | But who knows? Maybe some genius artisan out there can actually build an animal translator.
+0096 [Leafia] | Really? You have to introduce me!
+0097 [Tú] | Deal. The second I find "her," you'll be the first to know.
+0098 [Tú] | Anyway,==W== Mikan sent me to remind you to be back before sunset!
+0099 [Leafia] | Got it. I'm basically done for the day anyway. I just need to carry this crate back.
+0100 [Tú] | Is this crate ...==W== entirely full of maps?!
+0101 [Tú] | You drafted all these today?==W==
+0102 [Leafia] | We only have three days. The sooner I draft a rough topographic map, the sooner Mikan and Doctor Coronis can use it for their surveys.
+0103 [Tú] | You really are a great captain, Leafia.
+0104 [Leafia] | H-Huh?
+0105 [Tú] | Let me help you carry that.==W== Heave-ho!
+0106 [Noya] | Dinner's ready!!
+0107 [Iris] | Smells amazing...==W== Wait, Amber, you look awful. Not hungry?
+0108 [Coronis] | Being my assistant wasn't too bad, was it, Amber?
+0109 [Amber] | I...==W== I need a minute before I eat.
+0110 [Noya] | What happened while we were gone?
+0111 [Iris] | Don't ask! And Amber, don't tell! I don't want to know!
+0112 [Tú] | We're back.
+0113 [Noya] | Just you, Boss? Where's Leafia?
+0114 [Tú] | She's...
+0115 [Mikan] | Probably in her tent double-checking her masterpieces.
+0116 [Tú] | Actually...==W== She has already finished mapping the entire seamount.
+0117 [The Crowd] | What? Already?!
+0118 [Mikan] | ... Then she'll be at it until midnight. Typical.==W== Let's eat without her.
+0119 [Iris] | A-Are you sure?
+0120 [Mikan] | It's fine. Once she's done, the smell will draw her out. We'll just save her a plate.
+0121 [Mikan] | Oh, Noya? Toss some extra carrots onto Leafia's plate, please.
+0122 [Mikan] | They're packed with nutrients,==W== and being a picky eater is a bad habit.==W== We have to reward our hardworking captain properly!
+0123 [Noya] | Extra carrots it is!

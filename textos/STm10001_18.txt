@@ -1,0 +1,222 @@
+# Especial 9.5 · Integridad al amanecer de la reunión · 18 · The Radiant Strike
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Agile puppet | Agile puppet
+N:Archon Olympia | Archon Olympia
+N:Clumsy puppet | Clumsy puppet
+N:Coppelius the High Priest | Coppelius the High Priest
+N:Excited Citizen | Excited Citizen
+N:Puppets in the Bathhouse | Puppets in the Bathhouse
+N:Repentant Night Watcher | Repentant Night Watcher
+N:Resident off the Island | Resident off the Island
+N:Saved Slave Girl | Saved Slave Girl
+N:avg1_112 | Noya
+N:avg1_162 | Alina
+N:avg2_940 | Puppet Soldier
+N:avg2_941 | Olympia (Puppet)
+N:avg2_942 | Coppelius
+N:avg2_978 | Rovina
+N:avg2_982 | Soldado Trekker
+N:avg2_983 | Soldado Trekker
+N:avg2_984 | Soldado Trekker
+N:avg3_100 | Sylar
+N:avg3_109 | Grandpa Chai
+N:avg3_1311 | SaiLa F
+N:avg3_1327 | Puppet Soldier (Initial Coordinates)
+N:avg3_1328 | Puppet Soldier (Initial Coordinates)
+N:avg3_1329 | Puppet Soldier (Initial Coordinates)
+N:avg3_1335 | Filanis Citizen Male
+N:avg3_1336 | Filanis Citizen Male
+N:avg3_138 | Trekker
+N:avg3_139 | Trekker
+N:avg3_143 | Residente
+N:avg3_182 | Elis
+N:avg3_225 | Leita
+N:avg3_228 | Filanis Citizen (M)
+N:avg3_229 | Filanis Slave
+
+## Texto
+0001 [Intro] | Act Eighteen
+0002 [Intro] | The Radiant Strike
+0003 [Intro] | To reach Coppelius, Alina feigns repentance and offers your severed arm. Now bearing the name Noya, she forces him to free the citizens' souls, only for him to summon the souls of her companions...
+0004 [Lugar y hora] | 05:40, The Sixth Month 11th, Outside Filanis Island, Unknown Path
+0005 [Clumsy puppet] | I-I've got it on, but walking in this thing is so hard.
+0006 [Agile puppet] | Leita, want me to lend you an arm?
+0007 [Clumsy puppet] | N-No thanks. I don't want that tentacle arm of yours anywhere near me. Get ready, ==PLAYER_NAME== is coming.
+0008 [Tú] | Leita and ... Lulu? How did you two turn into puppets?
+0009 [Clumsy puppet] | We didn't. We're just in puppet shells so we can sneak you into the tower as a prisoner.
+0010 [Agile puppet] | Speaking of which, what took you so long? And why are you dripping sweat? What were you and Ali—right, Captain Noya now... What were you two doing?
+0011 [1] | Carving a headstone.
+0012 [Clumsy puppet] | Oh, carving a headstone. I see.
+0013 [Tú] | We actually were!
+0014 [Clumsy puppet] | No need to explain. I get it, I get it.
+0015 [Tú] | Ugh... Back to business.==W== Even if you two pretend to escort me as a prisoner, won't they recognize my face right away?
+0016 [Agile puppet] | We've already taken care of that. Everyone, come on out.
+0017 [Clumsy puppet] | They are locals who've been in hiding. When they heard we were putting a stop to Olympia and Coppelius's schemes, they volunteered to help.
+0018 [Tú] | It's too dangerous! If you come with us... You might never make it back.
+0019 [Saved Slave Girl] | If the Night Watcher hadn't saved me and taken me in, I would've died on the streets long ago.
+0020 [Saved Slave Girl] | I remember you. You helped me back then, so I'm more than willing to risk my life for you.
+0021 [Resident off the Island] | That's right. Thanks to Captain Noya, the streets outside the island have been free of fires and thieves for a full year.
+0022 [Excited Citizen] | We know who brought us peace and who's ruining our lives.
+0023 [Resident off the Island] | We'd rather fight back than let those puppets drag us away. We might not be fighters, but we can at least buy you time.
+0024 [Clumsy puppet] | ==PLAYER_NAME==, we've told them Noya's new name, so Coppelius can't use his magic through them to control her. The people of Filanis are on our side.
+0025 [Tú] | The people of Filanis are on our side... Just like at the Monolith auction.
+0026 [Agile puppet] | ==PLAYER_NAME==, let's go! We're going to free everyone trapped in the tower!
+0027 [Tú] | Yeah. Let's go.
+0028 [Lugar y hora] | 05:50, The Sixth Month 11th, Outside Filanis Island, Forest Near the Lake
+0029 [Elis] | Huff, huff... I'm here, Noya.
+0030 [Alina] | Elis, where were you? Any later and you would've missed our meeting time.
+0031 [Elis] | I went to borrow some of ==PLAYER_NAME=='s hair. It'll come in handy for destroying the magic circles across the city. You gave me the idea.
+0032 [Alina] | Oh, you're using the same method I used on the underground magic circle.==W== But the bathhouse circle might not have a suitable spot for it.
+0033 [Elis] | I'll adapt it, of course.==W== Here, help me tie ==SEX3== hair around my wrists and weave it into mine. Then knock me out.
+0034 [Alina] | K-Knock you out? Why?
+0035 [Elis] | ==PLAYER_NAME=='s plan is for us to take ==SEX3== severed arm as proof, fake our surrender to Coppelius, and sabotage him when we get the chance, right?
+0036 [Elis] | But think about it. Would they really believe that the two of us couldn't capture someone who can't even use magic, and only managed to cut off one injured arm?
+0037 [Alina] | No.
+0038 [Elis] | Exactly. ==PLAYER_NAME=='s plan is ruthless. Honestly, if ==SEX== hadn't been so badly hurt and lost ==SEX3== arm, I bet ==SEX== would've cut it off ==SEX8==.
+0039 [Elis] | But ==SEX== is only ruthless with ==SEX8==. ==SEX1== would never ask such a sacrifice of us, so I have to make it of myself.
+0040 [Elis] | Knock me out, then tell them Leita and I tried to help ==PLAYER_NAME== escape. Tell them you killed Leita, captured me, and cut off ==PLAYER_NAME=='s arm, but unfortunately ==SEX== fell into the lake.
+0041 [Elis] | Olympia said she'd let me "handle all the mana she possesses," but she definitely planned to use me as the core for some magic. If you hand me over too, they'll be thrilled.
+0042 [Alina] | But... That's too dangerous...
+0043 [Elis] | It'll work out. If they dare use me like that, ==PLAYER_NAME=='s hair will give them a nasty surprise.
+0044 [Elis] | Besides, who isn't in danger? Our plan barely leaves us any chance of survival,==W== but ==PLAYER_NAME== took on a mission with none. I don't even know how much it'll cost to make a wish that changes the rules of the tower...
+0045 [Alina] | If ==PLAYER_NAME== doesn't come back,==W== I'll offer my life to wish ==SEX4== and my companions back.
+0046 [Alina] | According to Leita, my life has been legendary. My lifespan and soul should be enough to satisfy the tower.
+0047 [Elis] | If ==PLAYER_NAME== really did come from the future, then ==SEX3== life is even more legendary than yours. Besides... I asked Leita about the resurrection wish you're so hung up on.
+0048 [Elis] | As the tower's caretaker, she's seen cases I never even read about back at school...
+0049 [Elis] | But every single one of them failed.
+0050 [Elis] | Leita said that once the body dies, the soul dissipates rapidly, unless magic seals it away right before death.
+0051 [Elis] | Even if you make a wish, the tower can't retrieve a soul that's already gone. It can only stitch one together based on your memories and stuff it into a corpse. What comes back is a monster that can't even be called human.
+0052 [Alina] | So that's how it is... There really are things even the tower can't grant. My wish can not be realized from the start. But if that's the case... What will happen to ==PLAYER_NAME==?
+0053 [Elis] | The Wishing Box. Coppelius himself said it was "a divine artifact far superior to a demigod's phylactery," which is a magic tool meant to preserve a demigod's soul, so...
+0054 [Alina] | If we can get the Wishing Box back, we can save ==PLAYER_NAME==.
+0055 [Elis] | Exactly. Now knock me out, and let me play my part.==W== While I'm out, I'm counting on you, Noya.
+0056 [Alina] | Leave it to me. I will put an end to Olympia and Coppelius's madness.
+0057 [Narración] | Noya lifts the unconscious Elis and heads for the zipline onto the island.
+0058 [Narración] | In the dark woods, a crooked name has found its way onto the standing headstone.
+0059 [Narración] | Though it stubbornly and awkwardly keeps its distance from the other two, they are reunited at last.
+0060 [Lugar y hora] | 08:00, The Sixth Month 11th, Filanis Island, The Olympia Bathhouse
+0061 [Archon Olympia] | Coppelius, how are the preparations for my ascension ritual coming along?
+0062 [Coppelius the High Priest] | Everything is proceeding as planned. Your new body awaits in the bathhouse, and the remaining Filanians have entered the tower, ready to contribute to your ascension.
+0063 [Archon Olympia] | Excellent. Has the Miracle Puppet been retrieved?
+0064 [Coppelius the High Priest] | A puppet just reported that your Night Watcher has returned with a gift. I expect she has found something.
+0065 [Archon Olympia] | Hehe, she never disappoints.==W== I once intended to take her body to achieve perfection, but the puppet vessel you crafted has proven far superior.
+0066 [Coppelius the High Priest] | Thank you for your praise, my lady. Shall I summon her?
+0067 [Archon Olympia] | There's no need. The time has come for me to claim my new body.
+0068 [Archon Olympia] | I'll leave it to you to decide how to make full use of the "Miracle Puppet," Coppelius.
+0069 [Coppelius the High Priest] | As you wish. To craft a demigod's body with my own hands is an honor beyond anything I could earn, even if I burned away my soul for it.
+0070 [Coppelius the High Priest] | Alina, you're here.
+0071 [Repentant Night Watcher] | High Priest Coppelius, I went to the tower without orders.==W== I let the Fallen Saintess deceive me into drawing my sword against you, nearly ruining Archon Olympia's city-wide spell.
+0072 [Repentant Night Watcher] | I'm here to answer for what I did.==W== I don't expect forgiveness. I only ask for the chance to keep serving Archon Olympia and working toward a better future for Filanis.
+0073 [Coppelius] | Asking for forgiveness? Now that's a surprise. You seemed awfully close to the Fallen Saintess and that Miracle Puppet. And we both know how sentimental you get.
+0074 [Coppelius] | Archon Olympia did possess a puppet to contact you on a whim. She never expected you to actually come back.
+0075 [Repentant Night Watcher] | High Priest Coppelius... The Fallen Saintess and ==PLAYER_NAME== led me astray with false promises. Your puppet brought me to my senses before I lost my way completely.
+0076 [Repentant Night Watcher] | My loyalty has always been to Archon Olympia's ideals. Only by upholding them can I realize my own wish.
+0077 [Coppelius] | Heh, well said. Now, have you secured the Miracle Puppet? Surely you didn't come empty-handed to beg forgiveness?
+0078 [Repentant Night Watcher] | Progress has been made. I also captured Elis, the Fallen Saintess. She's yours to inspect.
+0079 [Narración] | The stern-faced Night Watcher pulls back the blanket beside her and lifts the unconscious Elis into her arms.
+0080 [Coppelius] | Oh, well done. To think that you actually saw through Archon Olympia's intentions...
+0081 [Coppelius] | You certainly didn't hold back. She's out cold, though it never hurts to be thorough.
+0082 [Coppelius] | Great Goddess of Magic...
+0083 [Coppelius] | Let cold and pain descend upon Elis,==W== suppressing her reason and blinding her eyes.
+0084 [Coppelius] | Hmph. She won't wake up for at least a week. Submerge her in this pool. She's going to be the new core of the magic circle.
+0085 [Repentant Night Watcher] | Understood.
+0086 [Narración] | Elis slips from the Night Watcher's arms and sinks onto the magic circle at the bottom of the pool. The enchanted water channels the spell...
+0087 [Narración] | Power from the tower pours into the pool, riding the water out into every river in Filanis.
+0088 [Coppelius] | Not bad. Consider me convinced. But what about the other, more important matter? That's what I really care about.
+0089 [Repentant Night Watcher] | High Priest, please allow me to explain... Once the puppet possessed by Archon Olympia appeared, Elis and Leita realized how important ==PLAYER_NAME==—the Miracle Puppet—was to you.
+0090 [Repentant Night Watcher] | They wanted to use the Miracle Puppet as a bargaining chip to buy safe passage out of the city.
+0091 [Repentant Night Watcher] | I cornered them and took down the Fallen Saintess,==W== but Leita plunged into the lake with the Miracle Puppet in her arms.
+0092 [Coppelius] | Into the lake?! You lost the Miracle Puppet?!
+0093 [Coppelius] | A hundred of you and the Fallen Saintess together wouldn't be worth half as much as ==SEX4==!
+0094 [Repentant Night Watcher] | Please be at ease, High Priest. It isn't lost. Please take a look.
+0095 [Coppelius] | What... This is...
+0096 [Narración] | The Night Watcher produces a rolled shroud from behind her back. Inside lies a twisted arm, its skin as pale as jade.
+0097 [Repentant Night Watcher] | I had captured Elis, but Leita tried to escape across the lake with the Miracle Puppet. I couldn't stop them in time, so I swung my sword at them, intending to kill them both.
+0098 [Repentant Night Watcher] | My sword took off the Miracle Puppet's right arm and cut Leita in half. Their bodies sank into the lake, and all I managed to retrieve was this arm.
+0099 [Coppelius] | I see. With an arm severed and ==SEX3== body lost beneath the lake, even the Miracle Puppet could hardly have survived.
+0100 [Coppelius] | Heh. Well done. As long as my prize didn't get away, it doesn't matter if the body is lying at the bottom of the lake.
+0101 [Coppelius] | You lot! Get into the lake and retrieve the Miracle Puppet's body, now! I want every last piece of ==SEX4==. Bring back everything, down to the very last hair!
+0102 [Puppets in the Bathhouse] | Aye!
+0103 [Coppelius] | Alina, bring me that arm. Let me get a good look at it.
+0104 [Repentant Night Watcher] | Understood.
+0105 [Narración] | Coppelius runs his fingers over ==PLAYER_NAME=='s severed arm, utterly absorbed in it. An eerie light flickers beneath his hood...
+0106 [Narración] | He fails to notice that the Night Watcher has quietly moved behind him.
+0107 [Coppelius] | Oh? The severed muscles are still twitching. A mere puppet, yet built like human flesh down to the tiniest nerve.
+0108 [Coppelius] | Still, there's a downside to making it so lifelike. Having an arm hacked off like this... It must have been excruciating.
+0109 [Lugar y hora] | 08:30, The Sixth Month 11th, Filanis Island, Chamber of the Altar
+0110 [Tú] | (Ngh... My arm's gone... Why does it still hurt?!)
+0111 [Narración] | With Leita and Lulu covering me, I use the last of my strength to climb onto the freezing "altar."
+0112 [1] | (This place ... is full of stone coffins.==W== Those two maniacs really did cram a hundred thousand people into the tower.==W== The others cleared the way for me through the puppets. I have to hurry.)
+0113 [1] | (I wonder if Alina...==W== No, she goes by Noya now.==W== I wonder if she and Elis are doing all right.)
+0114 [Tú] | (Damn... Have I lost too much blood? My head's spinning... Gotta wake myself up.)
+0115 [Opción] | Dig my fingers into the wound
+0116 [1] | (Gah... That hurts. But at least my head's clear now.)
+0117 [1] | (No one else can pull this next part off.)
+0118 [1] | (From what I remember of climbing the Monolith, it doesn't feed on human lives. It feeds on memories.)
+0119 [1] | (... And corpses don't create new memories. If my hunch is right, the Monolith—or the tower, as they call it here—should be able to grant this ... wild wish of mine.)
+0120 [1] | (Hang on, Noya, Elis. I'm going to turn this crooked world around!)
+0121 [Narración] | Out of habit, I raise my nonexistent right arm toward the giant cross-shaped star and mouth the final prayer.
+0122 [Lugar y hora] | 08:40, The Sixth Month 11th, Filanis Island, The Olympia Bathhouse
+0123 [Repentant Night Watcher] | Radiant Flame!
+0124 [Coppelius] | Ghk—!
+0125 [Coppelius] | Alina... You dare stab me from behind?! What about Olympia's cause? What about your wish?!
+0126 [Repentant Night Watcher] | I'm done pinning my wish on someone else, and I refuse to buy it with innocent blood.
+0127 [Repentant Night Watcher] | I still believe in the ideal of a world free from slavery. She's the one who betrayed it...==W== No, she's a liar all along!
+0128 [Repentant Night Watcher] | You are the rot poisoning this city. Die! Coppelius!
+0129 [Coppelius] | Heh. I'm merely carrying out Archon Olympia's orders and helping her reach perfection.
+0130 [Coppelius] | The unconscious Fallen Saintess and the Miracle Puppet's arm are real enough.
+0131 [Coppelius] | Hell of a price to pay for one swing at my back, don't you think, Alina?
+0132 [Repentant Night Watcher] | You talk too much!
+0133 [Coppelius] | Heh heh... Think you've won, Alina?
+0134 [Coppelius] | You took the name Archon Olympia bestowed upon you. Body and soul, she owns you—and I hold the leash.
+0135 [Coppelius] | You're nothing but a puppet in our hands, yet you dare defy me? Namebind...
+0136 [Noya] | Save your breath, Coppelius. I threw that fake name away.
+0137 [Noya] | I'm no longer Alina Colossi, the puppet you control. I'm Noya of Filanis, and I'll protect ==PLAYER_NAME== as ==SEX3== companion!
+0138 [Coppelius] | Hahahaha! You think picking a new name gets you out of Archon Olympia's Namebind?
+0139 [Coppelius] | Naive. Foolish. Pathetic. Still the same magic-blind arena slave.
+0140 [Coppelius] | A name isn't some label you peel off. It's how you see yourself … and how everyone connected to you sees you.
+0141 [Coppelius] | You think the name "Alina Colossi" is what binds you?
+0142 [Coppelius] | Wrong. It's your pointless attachments and needless emotions that bind you.
+0143 [Coppelius] | Those bonds and feelings come from the people closest to you— the very people you could never bring yourself to kill.
+0144 [Coppelius] | You cast aside your name and came here to kill me? You've dug your own grave, Alina!
+0145 [Narración] | _NOT_IN_LOG_==A0.001==Namebind! In the name of Olympia...
+0146 [Narración] | Namebind! In the name of Olympia...
+0147 [Narración] | _NOT_IN_LOG_==A0.001==I place Alina Colossi under eternal chains!
+0148 [Narración] | I place Alina Colossi under eternal chains!
+0149 [Coppelius] | What? Why... Why isn't it working?
+0150 [Noya] | You're the one who dug your own grave, Coppelius!
+0151 [Noya] | You put the whole city under and turned its people into sources of magic.
+0152 [Noya] | The unconscious can't recognize me! You want your spell to work? Then release the citizens' souls from your spell!
+0153 [Coppelius] | My leg... My leg is broken...==W== Archon Olympia made this body with her own hands, and you ruined it!
+0154 [Coppelius] | I see now.==W== This was the Fallen Saintess's idea,==W== or perhaps the Miracle Puppet's.==W== So you do know a thing or two about magic after all.
+0155 [Coppelius] | First you rewrote your own cognition. Then you spotted the flaw in the spell:==W== I can't release a single soul from it without shutting down the entire spell.
+0156 [Coppelius] | Finally, your friends used themselves as bait to get your blade within reach of my neck.
+0157 [Coppelius] | Clever. Very clever.==W== But what does it matter?==W== I am the High Priest of Filanis, the foremost servant of Archon Olympia herself!
+0158 [Narración] | ==Off==Tower, answer my call!
+0159 [Narración] | ==Off==Namebind! In the name of Olympia...
+0160 [Narración] | ==Off==I place Alina Colossi under eternal chains!
+0161 [Noya] | Enough, Coppelius! No matter how much power you draw from the tower, your futile spell can't stop my Dawn!
+0162 [Coppelius] | Heh...
+0163 [Narración] | Three glowing threads shoot through the bathhouse wall.==W== Two pierce Noya's arms, while the third coils around her neck.==W==
+0164 [Noya] | It failed a second ago...==W== How...
+0165 [Coppelius] | True, the citizens' souls are bound by the spell. Fortunately,==W== I still have a few "collectibles" who remember you.
+0166 [Narración] | At Coppelius's gesture, three puppets enter the bathhouse.==W==
+0167 [Narración] | The threads yank taut, wrenching Noya's arms upward at unnatural angles,==W== as if hoisted by an invisible giant.
+0168 [Noya] | Those are ... the puppets from earlier!
+0169 [Coppelius] | Heh. Don't recognize your old arena sisters?
+0170 [Coppelius] | A year ago, they were so thrilled to hear that Archon Olympia had given you a real name.
+0171 [Coppelius] | Unfortunately, my technique for making living puppets wasn't perfected back then. After they died from those endless battles in the arena, I couldn't skin them in time,==W== so I had to use the tower's power to stuff scraps of their souls into wooden shells.
+0172 [Noya] | COPPELIUS!
+0173 [Coppelius] | Archon Olympia once planned to use your body as a new vessel.==W== So by all rights, the people close to you should never have made it out alive.
+0174 [Coppelius] | Do you understand now? In other words, I am the one who saved their souls. Really, you'd be strange not to thank me.
+0175 [Coppelius] | Rest easy.==W== This time, I will be sure to handle your body carefully and use your own hands to meticulously peel away your skin.
+0176 [Coppelius] | I'll create a flawless "Alina Colossi" that no one would ever mistake for a puppet at first glance.
+0177 [Coppelius] | Heh heh... And then you'll be able to take your place in my collection, right alongside your old comrades.
+0178 [Noya] | I'll kill you...!==W== You, of all people—I swear I'll kill you with my own hands!
+0179 [Coppelius] | Still moving? What remarkable strength of will. However, damaging your body is the last thing I want to do...
+0180 [Coppelius] | So I'll have you sleep for a little while. I need some time to recover as well.
+0181 [Coppelius] | Heh heh...==W==
+0182 [Coppelius] | Sweet dreams, then.

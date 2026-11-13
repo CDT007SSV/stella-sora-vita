@@ -1,0 +1,153 @@
+# Especial 9.5 · Integridad al amanecer de la reunión · 12 · My Body
+# Traduce solo lo que va después de "|". No cambies el número ni lo que está entre [corchetes].
+# Respeta las marcas como ==W==, ==PLAYER_NAME== o ==SEX==.
+
+## Nombres
+N:Agitated Filanian | Agitated Filanian
+N:Faceless Puppet | Faceless Puppet
+N:Fierce Filanian | Fierce Filanian
+N:Hardworking Shopkeeper | Hardworking Shopkeeper
+N:avg1_103 | Amber
+N:avg1_111 | Iris
+N:avg1_112 | Noya
+N:avg1_139 | Allie
+N:avg1_162 | Alina
+N:avg3_100 | Sylar
+N:avg3_1311 | SaiLa F
+N:avg3_1327 | Puppet Soldier (Initial Coordinates)
+N:avg3_1335 | Filanis Citizen Male
+N:avg3_1336 | Filanis Citizen Male
+N:avg3_1338 | Filanis Elder
+N:avg3_1339 | Filanis Slave Girl
+N:avg3_182 | Elis
+N:avg3_227 | Filanis Elder
+N:avg3_228 | Filanis Citizen (M)
+N:avg3_229 | Filanis Slave
+N:avg3_999 | ???
+
+## Texto
+0001 [Intro] | Act Twelve
+0002 [Intro] | My Body
+0003 [Intro] | You learn you've been out for a while and are only safe thanks to Alina and Elis. When they discover you're immune to magic, you share your past. With your wish granted, the investigation finally moves forward.
+0004 [Noya] | Boss... Come on, Boss, don't doze off on us. You still owe us an answer.
+0005 [Tú] | An answer ... to what?
+0006 [Iris] | Will you join the New Star Guild, Boss?
+0007 [Noya] | The first time I saw you, lying right there in the Wishing Box,==W== I just knew we were meant to cross paths.
+0008 [Noya] | Plus, we worked together really well back in the Monolith. You're a natural fit for our guild!
+0009 [Amber] | We like you.==W== We want you to stay.
+0010 [Noya] | What do you say?==W== Come with us, and we'll ride Loxy all the way to the top of the Monolith to pluck the stars.
+0011 [Tú] | I... I'm in.
+0012 [Noya] | Yay!==W== Come on, Boss, let's take this pillow fight outside!
+0013 [1] | Hold on, why outside Loxy?==W== And why are you calling me Boss? I don't even have the Throne or the other pieces yet...==W==
+0014 [Noya] | Because Boss rolls right off the tongue!
+0015 [Iris] | It has a nice ring to it.
+0016 [Amber] | Boss sounds cute, meow.
+0017 [Noya] | Aw, shoot. It's raining out. So much for our pillow fight.
+0018 [Tú] | Rain? In the middle of the desert?
+0019 [Noya] | Rain in the middle of the desert!==W== That's how the prettiest flowers bloom.
+0020 [Noya] | Isn't that right, Boss?
+0021 [Tú] | Noya==W==...==W==
+0022 [Noya] | When I found you in the Wishing Box, I felt like …==W== my wish had already come true.
+0023 [Noya] | Because of that,==W== I figured I shouldn't ask for anything more...
+0024 [Noya] | Boss,==W== farewell.
+0025 [Tú] | Noya, don't go!
+0026 [Opción] | Grab Noya's hand
+0027 [???] | ==PLAYER_NAME==, you're awake.
+0028 [Tú] | Noya...==W== You are here. Thank goodness you're still here with me...
+0029 [Alina] | ==PLAYER_NAME==, I'm not Noya. I'm Alina, and you're in Filanis.
+0030 [Tú] | A-Alina... Right, you're Alina.==W== Sorry, my head's still foggy.==W== I mistook you for someone else.
+0031 [Elis] | Heh, what did I tell you, Alina?==W== We're the ones nursing ==SEX4== back to health, and ==SEX== spends the whole time dreaming about girls from home.
+0032 [Elis] | Noya, Iris, Amber, Chitose, Nazuka...==W== You were rattling off names in your sleep like you were reading a tavern menu.
+0033 [Elis] | Leaving a trail of broken hearts back home, were we?
+0034 [Elis] | And Alina, make sure ==SEX== gets it through ==SEX3== head==W== that you're Alina,==W== not this Noya.
+0035 [Alina] | Well...==W== I don't really mind.
+0036 [Alina] | If I look enough like Noya to ease ==PLAYER_NAME=='s homesickness,==W== there's no harm in it.
+0037 [Elis] | What? ==SEX1== is treating you like a stand-in!==W== Doesn't that bother you?!
+0038 [Alina] | Only a little.==W== I know how much it hurts==W== to miss someone.
+0039 [Elis] | Fine, whatever. You two are quite the pair.
+0040 [Opción] | Sit up in bed
+0041 [Tú] | Ugh... My head's spinning.==W== Alina, Elis, what happened to me? How long was I out?
+0042 [Elis] | You offered yourself up as the price for a wish in the tower and collapsed on the altar. That was seven days ago.
+0043 [Tú] | S...==W== Seven days?!
+0044 [Tú] | Don't worry, I made plenty of wishes before. As long as I keep the wish under control, even if the tower takes something from me, I'll make it out in one piece.
+0045 [Elis] | And who was bragging about keeping the wish under control?==W== Sure, you improved the prayer, but your body still took the full hit.
+0046 [Elis] | If Alina hadn't yanked you off that altar, it would've been way worse. She's been at your bedside for days, spoon-feeding you food and water. You owe her big time.
+0047 [Tú] | Thank you, Alina. And you too, Elis. Right before I blacked out...==W== I saw both of you rushing in to save me.
+0048 [Alina] | Elis also made the porridge and water I fed you. She insisted on conjuring the water with magic so you'd recover faster.
+0049 [Elis] | H-Hey! Keep that to yourself, Alina!
+0050 [Alina] | Hm? Why? You made the right call. Lake water isn't clean enough for a patient,==W== and we didn't have the firewood to boil it.
+0051 [Elis] | N-Never mind!==W== Look, I only went that far because you were half-dead, so don't get the wrong idea!
+0052 [Tú] | Thanks for the water, Elis.==W== I miscalculated back there. I figured the tower here worked the same as the Monoliths back home.
+0053 [Tú] | Where I come from, the worst a wish does is take some of your memories. It never hurts you physically.
+0054 [Elis] | Must be nice. The towers in Nova take whatever you've got.
+0055 [Elis] | When I examined you, your life signs were incredibly faint. My guess is the tower took a good chunk of your lifespan==W== as its sacrifice.
+0056 [Tú] | My lifespan, huh...==W== I definitely felt that seat...==W== That altar draining the strength right out of me.
+0057 [Elis] | That's how the tower works. Wait...==W== What about your memories? Missing anything?
+0058 [Tú] | My memories...
+0059 [Narración] | I close my eyes and comb through my past. Nothing's gone.
+0060 [Tú] | Nope. Everything's still there.
+0061 [Elis] | That's a relief. Time to come clean, ==PLAYER_NAME==. What's the deal with your body?
+0062 [Elis] | When I tried casting diagnostic spells on you, all of them bounced right off. Your body rejects magic.
+0063 [Tú] | So she found out my body is magic-immune. Can't hide that when they've been nursing me all week.
+0064 [Tú] | Sorry, I wasn't trying to hide it. It was never the right time. My body is different from most people's. I'm...
+0065 [Elis] | Don't tell me you're a Demigod avatar in disguise?!
+0066 [Tú] | A what?! A Demigod? No way... ==W==I'm an ordinary traveler from far away...
+0067 [Narración] | I tell Alina and Elis the whole story, from waking up in the desert and meeting Noya, Iris, and Amber, to our adventures across Emor and Philae.
+0068 [Alina] | Not a single slave in your entire homeland... Every city is like Filanis.==W== No, even freer.
+0069 [Tú] | It's no paradise. Money, power, and status still hold people back. But...==W== No matter how poor you are, nobody treats you like an object.
+0070 [Elis] | Hmm, whatever. Plenty of people aren't called objects and still get treated like one.
+0071 [Elis] | Anyway, keep going, ==PLAYER_NAME==!==W== What happened after you and your "blade" went into the tower? Did you buy a whole tower with gold?
+0072 [Tú] | We only bought the rights to use it. And that whole auction was a trap set for me...
+0073 [Narración] | I pick up the tale, telling them about the legendary Tyrant, the New Star Guild's reunion with Aunt Allie, the battle in Mirage, and finally...==W== My walk to the guillotine.
+0074 [Narración] | Half a day later.
+0075 [Lugar y hora] | 14:00, The Sixth Month 2nd, Outside Filanis Island, Alina's Home
+0076 [Alina] | What a life you've lived, ==PLAYER_NAME==.==W== Your journey puts even the thickest epics Lulu has read me to shame.
+0077 [Alina] | You and Noya==W== have been through so much together... That Trekker ...==W== sounds like a true warrior.
+0078 [Elis] | I'm still stuck on the ending.==W== You got your head chopped off, and the next thing you knew, you woke up in that prisoner cart?
+0079 [Tú] | Well, first I wandered around the White Room for ages, until I found a door shaped like a Wishing Box.
+0080 [Tú] | I tried bringing it up just now, but the words got stuck in my throat.==W== Which means the White Room is still in effect, and I might still have a chance to go back. For now, though, I'll have to keep quiet about it.
+0081 [Tú] | Yeah. I have no idea how that happened either.
+0082 [Elis] | Hmm. Let me see!
+0083 [Tú] | Whoa, hold on, Elis! What are you doing?! Quit yanking my collar!
+0084 [Elis] | Alina, come look. Not a scratch on ==PLAYER_NAME=='s neck, right?
+0085 [Alina] | Not a mark. Then again, it could be like with me.==W== The most serious wounds won't leave a scar on me.
+0086 [Tú] | Alina ...==W== doesn't scar either...?
+0087 [Elis] | Okay, can you get your head lopped off and stick it back on?
+0088 [Alina] | I haven't tried that...
+0089 [Elis] | ... Please don't. I wasn't being serious.==W== Anyway, your head clearly wasn't chopped off and glued back on. How you got here from your homeland is a total mystery.
+0090 [Elis] | Oh, mind if I poke around that coffin of yours? Or Wishing Box, as you call it. Might find a clue.
+0091 [Tú] | Go right ahead. If you find anything, I'll owe you one. I've been racking my brain trying to figure out how to get home.
+0092 [Elis] | I'm only taking a look, no promises.==W== Still, your homeland is wild, and that prayer of yours was something else.
+0093 [Tú] | Right, speaking of the wish! Did I get anything out of it?
+0094 [Elis] | You did. Right after you passed out, a pile of weird boxes made of some strange material dropped from above the altar, along with a few thin black slabs.
+0095 [Tú] | Security cameras and screens...==W== Perfect! Those will fix our Night Watcher shortage.
+0096 [Tú] | I'll go set them up right now. They can watch those suspicious streets for us.
+0097 [Alina] | If you mean==W== placing the strange boxes in good spots so they cast images onto those slabs... I already did.
+0098 [Tú] | Eh? You already set them up?
+0099 [Alina] | Anything worth risking your life for had to be a powerful magical tool. While I was watching over you, I studied them a bit ...==W== and pieced them together the best I could.
+0100 [Alina] | I'm not sure if I did it right, though. Look, they're over here.
+0101 [Tú] | Whoa... You nailed it. Even the camera angles are spot-on. Not a single blind spot on those streets.
+0102 [Alina] | Good, my instincts were right. Placing these magic eyes works a lot like finding a shooting line as an archer.
+0103 [Alina] | I climbed the pillars under cover of night and mounted them on top. These magic eyes of yours are remarkable. We can watch the island without even setting foot on it.
+0104 [Tú] | Thank goodness I asked for wireless signals in the prayer. Running cables would've been a nightmare. Still, transmitting from the island to out here must be pushing the range to its limit.
+0105 [Alina] | Elis, Lulu, and I have been taking turns watching those streets for days. Thanks to you, we finally caught a break.
+0106 [Alina] | Every morning and evening, someone hauls a huge load of food into an abandoned house.
+0107 [Tú] | All that food going into an abandoned house...	==W== They're hiding people in there!
+0108 [Alina] | Yes, the captive slaves are likely inside. We're raiding the place this afternoon==W== to end Filanis's enforced disappearances once and for all!
+0109 [Lugar y hora] | 16:00, The Sixth Month 2nd, Filanis Island, Suspicious Street
+0110 [Alina] | You didn't have to come, ==PLAYER_NAME==. You just woke up, and you're still weak.
+0111 [Tú] | I'm a Night Watcher too. No way I'm sitting out an operation this important.
+0112 [Tú] | I'm fine, really. I've already recovered. Besides, I may not be as good with a sword as you, or as skilled at magic as Elis and Lulu, but my body could make a big difference in a fight like this.
+0113 [Alina] | Understood. Don't push yourself too hard.==W== Filanis Night Watchers, move out!
+0114 [Lugar y hora] | 16:10, The Sixth Month 2nd, Beneath Filanis, Underground Cavern
+0115 [Agitated Filanian] | Chief, that Night Watcher is breathing down our necks. Shouldn't we lay low for a while?
+0116 [Fierce Filanian] | Lay low? If our master takes offense at that, which of us could take the fall? This whole island... No, all of Filanis is in the palm of our master's hand.
+0117 [Fierce Filanian] | And that Night Watcher... Tough as she is, she's just one girl. If she pokes her nose down here,==W== we'll turn her into puppet fuel like the rest of them!
+0118 [Fierce Filanian] | Come on, one more sweep. Can't let our fuel slip out like last time!
+0119 [Agitated Filanian] | Got it!
+0120 [Narración] | All around them in the cavern stand crowds of people, packed tight and still as stone.
+0121 [Narración] | Eyes shut tight, they stand locked inside glowing magic circles.==W== Translucent threads spin upward from the circles, piercing the earth to tether the bustling puppets above.
+0122 [Hardworking Shopkeeper] | Hey, puppet! Dive in and haul that crate off the lakebed for me.
+0123 [Faceless Puppet] | Clack...
+0124 [Narración] | The puppet gives a stiff nod and plunges into the freezing lake without hesitation.
+0125 [Narración] | On the shore, people praise how tirelessly the puppets work. None of them know that deep underground,==W== someone bound within a magic circle, eyes shut tight, wears a look of agony, as if drowning.
