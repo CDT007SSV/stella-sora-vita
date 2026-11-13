@@ -106,7 +106,10 @@ def emit_act(sid,head,nomb):
     ids=sorted(i for i in speakers(steps,set()) if i)
     names={};en={}
     for i in ids:
-        cc=AC.get(i);n=(cc['name'] if cc else i);en[i]=n;names[i]=dispname(n)
+        cc=AC.get(i);n=(cc['name'] if cc else i);names[i]=dispname(n)
+        r=cc;k=0  # personajes "reuse": el sprite es el del personaje original (p. ej. Noya B -> Noya)
+        while r and r.get('reuse') and k<5:r=AC.get(r['reuse']) or None;k+=1
+        en[i]=(r['name'] if r and r is not cc else n)
     if FORCE or not os.path.exists(pj):
         json.dump({'id':sid,'names':names,'en':en,'tx':1,'steps':steps},open(pj,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
     if os.path.exists(pt):return
