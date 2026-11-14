@@ -6758,6 +6758,33 @@
  ],
  "banners": [
   {
+   "id": 11143,
+   "name": "Silver Shattering the Dark",
+   "kind": "Personajes",
+   "start": "2026-11-17T12:00:00+08:00",
+   "end": "2026-12-01T10:59:59+08:00",
+   "url": "https://stellasora.miraheze.org/wiki/Silver_Shattering_the_Dark/2026-11-16",
+   "img": "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Silver_Shattering_the_Dark_2026-11-16_EN.png",
+   "imgAlts": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Silver_Shattering_the_Dark_2026-11-16_EN.jpg",
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Wraith.png"
+   ],
+   "featured": "Wraith"
+  },
+  {
+   "id": 21143,
+   "name": "Springlight Intoxication",
+   "kind": "Discos",
+   "start": "2026-11-17T12:00:00+08:00",
+   "end": "2026-12-01T10:59:59+08:00",
+   "url": "https://stellasora.miraheze.org/wiki/Springlight_Intoxication/2026-11-16",
+   "img": "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Springlight_Intoxication_2026-11-16_EN.jpg",
+   "imgAlts": [
+    "https://stellasora.miraheze.org/wiki/Special:FilePath/Banner_Springlight_Intoxication_2026-11-16_EN.png"
+   ],
+   "featured": null
+  },
+  {
    "id": 10161,
    "name": "Boundless Journey, Endless Romance",
    "kind": "Personajes",
@@ -7072,5 +7099,5 @@
    }
   ]
  },
- "generado": "2026-11-13T10:07:42+00:00"
+ "generado": "2026-11-14T09:53:16+00:00"
 }
