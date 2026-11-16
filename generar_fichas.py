@@ -266,6 +266,14 @@ def personajes():
     for c in json.loads(m.group(1)):
         t = urllib.parse.unquote((c.get("wikiUrl") or "").rstrip("/").split("/wiki/")[-1]).replace("_", " ")
         if t: out.append((c["id"], t))
+    # personajes nuevos que todavia no estan en data.js (la app los agrega desde auto.json)
+    try:
+        ya = {i for i, _ in out}
+        for p in json.load(open("auto.json", encoding="utf-8")).get("personajes", []):
+            cid = re.sub(r"^_|_$", "", re.sub(r"[^a-z0-9]+", "_", p["name"].lower()))
+            t = urllib.parse.unquote((p.get("wikiUrl") or "").rstrip("/").split("/wiki/")[-1]).replace("_", " ") or p["name"]
+            if cid not in ya: out.append((cid, t)); ya.add(cid); print("   nuevo desde auto.json:", p["name"])
+    except Exception as e: print("   auto.json:", e)
     return out
 
 def repo_datos():
