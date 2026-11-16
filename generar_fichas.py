@@ -354,7 +354,8 @@ def datos_juego(R):
 def main():
     MEM = json.load(open("traducciones.json", encoding="utf-8")) if os.path.exists("traducciones.json") else {}
     os.makedirs("fichas", exist_ok=True)
-    carga_export()
+    import glob as _g   # wiki_export.xml + exportaciones nuevas subidas tal cual (Stella+Sora+Wiki-AAAAMMDD....xml); las mas nuevas mandan
+    for _r in ["wiki_export.xml"] + sorted(set(_g.glob("*Wiki*.xml") + _g.glob("wiki_export_*.xml")) - {"wiki_export.xml"}): carga_export(_r)
     G = datos_juego(repo_datos())
     lista = personajes()
     if SOLO: lista = [x for x in lista if x[0] in SOLO]
