@@ -1,0 +1,556 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Stella Sora Wiki</sitename>
+    <dbname>stellasorawiki</dbname>
+    <base>https://stellasora.miraheze.org/wiki/Stella_Sora_Wiki</base>
+    <generator>MediaWiki 1.46.2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Stella Sora Wiki</namespace>
+      <namespace key="5" case="first-letter">Stella Sora Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="9592" case="first-letter">Bucket</namespace>
+      <namespace key="9593" case="first-letter">Bucket talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Leafia</title>
+    <ns>0</ns>
+    <id>11171</id>
+    <revision>
+      <id>40829</id>
+      <parentid>40704</parentid>
+      <timestamp>2026-11-14T03:08:50Z</timestamp>
+      <contributor>
+        <username>YokohachiSubaru</username>
+        <id>103</id>
+      </contributor>
+      <comment>CN VA tr</comment>
+      <origin>40829</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="55790" sha1="icaxc2s3mw12v9qapclxcb8xp1dm5z3" xml:space="preserve">{{TrekkerData
+| id = 161
+| name = 
+| image_profile = Leafia.png
+| image_artwork = Leafia a 02.png
+| role = Versatile
+| range = Ranged
+| birthday = March 5th
+| affiliation = Trekker Association
+| skills = Surveying, wilderness survival
+| address = Any Trekkers' House
+| experience = 6 years
+| weapon = True North
+| rate = Vary by commission
+| faction = Trekker Association
+| element = Terra
+| style = Steady
+| rarity = 5
+| jp_name = スグハ
+| jp_name_tr = 
+| kr_name = 스구하
+| kr_name_tr = 
+| cn_name = 优叶篇
+| cn_name_tr = 
+| jp_va = 三浦千幸
+| jp_va_tr = Chiyuki Miura
+| cn_va = 苗子
+| cn_va_tr = Miao Zi
+| release_date = 2026-11-13
+}}
+'''Leafia''' is a Trekker in [[Stella Sora]]. She is a member of the [[Trekker Association]], specifically the Emor Branch. She is a mapping enthusiast.
+
+== Profile ==
+''"Mapping data into lines and recording every detail on paper—that's Leafia's calling as a surveyor."''
+
+==Stats==
+{{StatDisplay
+|1={{StatDisplay/control
+| name = level
+| label = Level: 
+| levels = 1,2,3,4,5,6,7,8,9,10,10+,11,12,13,14,15,16,17,18,19,20,20+,21,22,23,24,25,26,27,28,29,30,30+,31,32,33,34,35,36,37,38,39,40,40+,41,42,43,44,45,46,47,48,49,50,50+,51,52,53,54,55,56,57,58,59,60,60+,61,62,63,64,65,66,67,68,69,70,70+,71,72,73,74,75,76,77,78,79,80,80+,81,82,83,84,85,86,87,88,89,90
+}}
+{{StatDisplay/control
+| name = affinity
+| label = Affinity: 
+| levels = 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67
+}}
+{{StatDisplay/control
+| name = talent
+| label = Talent: 
+| levels = 0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5
+}}
+&lt;hr/&gt;
+&lt;div class="stat-data-container"&gt;
+{{StatDisplay/value
+| label = HP
+| name1 = level
+| values1 = 782,1017,1252,1486,1721,1956,2190,2425,2660,2895,3474,3708,3943,4178,4412,4647,4882,5116,5351,5586,5820,6986,7221,7456,7690,7925,8160,8394,8629,8864,9098,9333,11203,11438,11672,11907,12142,12376,12611,12846,13080,13315,13550,16257,16491,16726,16961,17195,17430,17665,17899,18134,18369,18604,22327,22562,22797,23032,23266,23501,23736,23970,24205,24440,24674,29611,29846,30080,30315,30550,30784,31019,31254,31488,31723,31958,38349,38584,38819,39053,39288,39523,39758,39992,40227,40462,40696,48832,49067,49302,49537,49771,50006,50241,50475,50710,50945,51179,51179
+| name2 = affinity1
+| values2 = 0,334,667,1001,1334,1334,1668,2002,2335,2669,2669,3002,3336,3670,4003,4003,4337,4670,5004,5338,5338,5671,6005,6338,6672,6672,7006,7339,7673,8006,8006,8340,8674,9007,9341,9674,10008,10342,10675,11009,11342,11676,12010,12343,12677,13010,13344,13678,14011,14345,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678,14678
+| name3 = affinity2
+| values3 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+| name4 = talent1
+| values4 = 0,575,1150,1725,2300,2875,3450,4025,4600,5175,5750
+| name5 = talent2
+| values5 = 0,0,0,0,0,0,0,0,0,0,0
+| formula = (level + affinity1 + talent1) * (1 + affinity2 + talent2) - 0.5
+}}
+{{StatDisplay/value
+| label = Attack
+| name1 = level
+| values1 = 114,149,183,217,252,286,320,355,389,423,508,542,577,611,645,680,714,748,782,817,851,1022,1056,1090,1125,1159,1193,1228,1262,1296,1330,1365,1638,1673,1707,1741,1775,1810,1844,1878,1913,1947,1981,2377,2412,2446,2480,2515,2549,2583,2617,2652,2686,2720,3265,3299,3334,3368,3402,3437,3471,3505,3540,3574,3608,4330,4364,4399,4433,4467,4502,4536,4570,4605,4639,4673,5608,5642,5677,5711,5745,5779,5814,5848,5882,5917,5951,7141,7175,7209,7244,7278,7312,7347,7381,7415,7450,7484,7484
+| name2 = affinity1
+| values2 = 0,36,72,108,144,144,180,216,252,288,288,324,360,396,432,432,468,504,540,576,576,612,648,684,720,720,756,792,828,864,864,900,936,972,1008,1044,1080,1116,1152,1188,1224,1260,1296,1332,1368,1404,1440,1476,1512,1548,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584,1584
+| name3 = affinity2
+| values3 = 0,0,0,0,0,0.04,0.04,0.04,0.04,0.04,0.08,0.08,0.08,0.08,0.08,0.12,0.12,0.12,0.12,0.12,0.16,0.16,0.16,0.16,0.16,0.2,0.2,0.2,0.2,0.2,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24,0.24
+| name4 = talent1
+| values4 = 0,50,100,150,200,250,300,350,400,450,500
+| name5 = talent2
+| values5 = 0,0.015,0.03,0.045,0.06,0.075,0.09,0.105,0.12,0.135,0.15000000000000002
+| formula = (level + affinity1 + talent1) * (1 + affinity2 + talent2) - 0.5
+}}
+{{StatDisplay/value
+| label = Defense
+| name1 = level
+| values1 = 190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190
+| name2 = talent
+| values2 = 0,10,20,30,40,50,60,70,80,90,100
+| formula = level + talent
+}}
+&lt;/div&gt;
+{{StatDisplay/children
+| name = level
+| children = 1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9
+| 1 = Breakthrough material at level 10: {{Item|Count's Rewards|quantity=5}} {{Item|Dorra|quantity=7900}}
+| 2 = Breakthrough material at level 20: {{Item|Count's Rewards|quantity=5}} {{Item|Count's Cellaring|quantity=10}} {{Item|Dorra|quantity=19800}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=10}} {{Item|Count's Cellaring|quantity=10}} {{Item|Dorra|quantity=27700}}
+| 3 = Breakthrough material at level 30: {{Item|Count's Rewards|quantity=10}} {{Item|Count's Cellaring|quantity=15}} {{Item|Dorra|quantity=44400}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=20}} {{Item|Count's Cellaring|quantity=25}} {{Item|Dorra|quantity=72100}}
+| 4 = Breakthrough material at level 40: {{Item|Count's Rewards|quantity=15}} {{Item|Count's Cellaring|quantity=25}} {{Item|Dorra|quantity=66600}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=35}} {{Item|Count's Cellaring|quantity=50}} {{Item|Dorra|quantity=138700}}
+| 5 = Breakthrough material at level 50: {{Item|Count's Rewards|quantity=20}} {{Item|Count's Cellaring|quantity=40}} {{Item|Dorra|quantity=146100}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=55}} {{Item|Count's Cellaring|quantity=90}} {{Item|Dorra|quantity=284800}}
+| 6 = Breakthrough material at level 60: {{Item|Count's Rewards|quantity=30}} {{Item|Count's Cellaring|quantity=55}} {{Item|Count's Gift|quantity=20}} {{Item|Dorra|quantity=291600}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=85}} {{Item|Count's Cellaring|quantity=145}} {{Item|Count's Gift|quantity=20}} {{Item|Dorra|quantity=576400}}
+| 7 = Breakthrough material at level 70: {{Item|Count's Cellaring|quantity=75}} {{Item|Count's Gift|quantity=30}} {{Item|Dorra|quantity=560200}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=85}} {{Item|Count's Cellaring|quantity=220}} {{Item|Count's Gift|quantity=50}} {{Item|Dorra|quantity=1136600}}
+| 8 = Breakthrough material at level 80: {{Item|Count's Cellaring|quantity=95}} {{Item|Count's Gift|quantity=50}} {{Item|Dorra|quantity=1121300}}&lt;br/&gt;Cumulative material: {{Item|Count's Rewards|quantity=85}} {{Item|Count's Cellaring|quantity=315}} {{Item|Count's Gift|quantity=100}} {{Item|Dorra|quantity=2257900}}
+| 9 = Cumulative material: {{Item|Count's Rewards|quantity=85}} {{Item|Count's Cellaring|quantity=315}} {{Item|Count's Gift|quantity=100}} {{Item|Dorra|quantity=2257900}}
+}}}}
+==Skills==
+{{TrekkerSkill
+| name = Crystal Generation
+| brief = Continuously generates Plotting Crystals to deal DMG, with a chance to generate 1 Resource Marker.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Chess Piece of Skill}} {{Item|Shooter Game Cartridge}} {{Item|Barrage Game Cartridge}} {{Item|Demon Bee Game Cartridge}}
+| desc_1 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|66%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|66%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|66%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=2}} {{Item|Dorra|quantity=13300}}
+| desc_2 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|76%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|76%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|76%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=12}} {{Item|Chess Piece of Skill|quantity=6}} {{Item|Dorra|quantity=17600}}
+| desc_3 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|86%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|86%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|86%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=24}} {{Item|Barrage Game Cartridge|quantity=3}} {{Item|Chess Piece of Skill|quantity=10}} {{Item|Dorra|quantity=49800}}
+| desc_4 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|116%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|116%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|116%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=38}} {{Item|Barrage Game Cartridge|quantity=8}} {{Item|Chess Piece of Skill|quantity=24}} {{Item|Dorra|quantity=100000}}
+| desc_5 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|125%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|125%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|125%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=70}} {{Item|Barrage Game Cartridge|quantity=14}} {{Item|Demon Bee Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=55}} {{Item|Dorra|quantity=400000}}
+| desc_6 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|134%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|134%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|134%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Barrage Game Cartridge|quantity=50}} {{Item|Demon Bee Game Cartridge|quantity=18}} {{Item|Chess Piece of Skill|quantity=232}} {{Item|Dorra|quantity=900000}}
+| desc_7 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|153%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|153%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|153%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=2}} {{Item|Barrage Game Cartridge|quantity=90}} {{Item|Demon Bee Game Cartridge|quantity=34}} {{Item|Chess Piece of Skill|quantity=323}} {{Item|Dorra|quantity=1600000}}
+| desc_8 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|161%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|161%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|161%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=3}} {{Item|Barrage Game Cartridge|quantity=140}} {{Item|Demon Bee Game Cartridge|quantity=50}} {{Item|Chess Piece of Skill|quantity=478}} {{Item|Dorra|quantity=2300000}}
+| desc_9 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|169%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|169%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|169%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=6}} {{Item|Barrage Game Cartridge|quantity=200}} {{Item|Demon Bee Game Cartridge|quantity=70}} {{Item|Chess Piece of Skill|quantity=927}} {{Item|Dorra|quantity=3400000}}
+| desc_10 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|185%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|185%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|185%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.
+| desc_11 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|198%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|198%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|198%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.
+| desc_12 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|211%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|211%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|211%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.
+| desc_13 = Continuously generates Plotting Crystals.&lt;br/&gt;Strike 1: {{color|#fb8037|224%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 2: {{color|#fb8037|224%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;Strike 3: {{color|#fb8037|224%}} of ATK as Terra Auto Attack DMG.&lt;br/&gt;When an Auto Attack deals DMG, there is a 10% chance to generate 1 Resource Marker, up to 1 per second.
+| type = auto
+| icon = {{TrekkerSkillIcon|element=terra|icon=16101_Normal|type=auto}}
+}}
+{{TrekkerSkill
+| name = Crystal Vein Survey
+| brief = Unleashes Stratum Echo to deal DMG and generate {{word|Resource Markers|}}. Can consume {{word|Resource Markers|}} to generate Observation Points.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Chess Piece of Skill}} {{Item|Shooter Game Cartridge}} {{Item|Barrage Game Cartridge}} {{Item|Demon Bee Game Cartridge}}
+| cooldown = 18.0
+| desc_1 = Unleashes Stratum Echo, dealing {{color|#fb8037|65%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|19.4%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=2}} {{Item|Dorra|quantity=13300}}
+| desc_2 = Unleashes Stratum Echo, dealing {{color|#fb8037|74%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|22.3%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=12}} {{Item|Chess Piece of Skill|quantity=6}} {{Item|Dorra|quantity=17600}}
+| desc_3 = Unleashes Stratum Echo, dealing {{color|#fb8037|84%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|25.2%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=24}} {{Item|Barrage Game Cartridge|quantity=3}} {{Item|Chess Piece of Skill|quantity=10}} {{Item|Dorra|quantity=49800}}
+| desc_4 = Unleashes Stratum Echo, dealing {{color|#fb8037|113%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|33.9%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=38}} {{Item|Barrage Game Cartridge|quantity=8}} {{Item|Chess Piece of Skill|quantity=24}} {{Item|Dorra|quantity=100000}}
+| desc_5 = Unleashes Stratum Echo, dealing {{color|#fb8037|122%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|36.6%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=70}} {{Item|Barrage Game Cartridge|quantity=14}} {{Item|Demon Bee Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=55}} {{Item|Dorra|quantity=400000}}
+| desc_6 = Unleashes Stratum Echo, dealing {{color|#fb8037|131%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|39.3%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Barrage Game Cartridge|quantity=50}} {{Item|Demon Bee Game Cartridge|quantity=18}} {{Item|Chess Piece of Skill|quantity=232}} {{Item|Dorra|quantity=900000}}
+| desc_7 = Unleashes Stratum Echo, dealing {{color|#fb8037|149%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|44.7%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=2}} {{Item|Barrage Game Cartridge|quantity=90}} {{Item|Demon Bee Game Cartridge|quantity=34}} {{Item|Chess Piece of Skill|quantity=323}} {{Item|Dorra|quantity=1600000}}
+| desc_8 = Unleashes Stratum Echo, dealing {{color|#fb8037|157%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|47%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=3}} {{Item|Barrage Game Cartridge|quantity=140}} {{Item|Demon Bee Game Cartridge|quantity=50}} {{Item|Chess Piece of Skill|quantity=478}} {{Item|Dorra|quantity=2300000}}
+| desc_9 = Unleashes Stratum Echo, dealing {{color|#fb8037|165%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|49.4%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=6}} {{Item|Barrage Game Cartridge|quantity=200}} {{Item|Demon Bee Game Cartridge|quantity=70}} {{Item|Chess Piece of Skill|quantity=927}} {{Item|Dorra|quantity=3400000}}
+| desc_10 = Unleashes Stratum Echo, dealing {{color|#fb8037|180%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|54%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.
+| desc_11 = Unleashes Stratum Echo, dealing {{color|#fb8037|193%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|57.9%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.
+| desc_12 = Unleashes Stratum Echo, dealing {{color|#fb8037|206%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|61.7%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.
+| desc_13 = Unleashes Stratum Echo, dealing {{color|#fb8037|219%}} of ATK as AoE Terra Skill DMG and generating 5 {{word|Resource Markers|}}. When there are more than 10 {{word|Resource Markers|}}, consumes 10 to generate 1 Observation Point for 10s (max 1 active). The Observation Point fires bullets at the Main Trekker's target every 3s, dealing {{color|#fb8037|65.6%}} of ATK as Terra Auto Attack DMG. All these attacks can trigger {{word|Terra Mark|earth}}, dealing {{SkillLevelHint|breakthrough|18%/23.4%/28.8%/34.1%/39.5%/44.9%/50.3%/55.7%/61%}} of ATK as AoE Terra Mark DMG.
+| type = main
+| icon = {{TrekkerSkillIcon|element=terra|icon=16101_Skill_Main|type=main}}
+}}
+{{TrekkerSkill
+| name = Area Plotting
+| brief = Generates 1 Observation Point to deal DMG.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Chess Piece of Skill}} {{Item|Shooter Game Cartridge}} {{Item|Barrage Game Cartridge}} {{Item|Demon Bee Game Cartridge}}
+| cooldown = 14.0
+| desc_1 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|117%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|142%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=2}} {{Item|Dorra|quantity=13300}}
+| desc_2 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|135%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|164%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=12}} {{Item|Chess Piece of Skill|quantity=6}} {{Item|Dorra|quantity=17600}}
+| desc_3 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|152%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|185%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=24}} {{Item|Barrage Game Cartridge|quantity=3}} {{Item|Chess Piece of Skill|quantity=10}} {{Item|Dorra|quantity=49800}}
+| desc_4 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|205%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|249%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=38}} {{Item|Barrage Game Cartridge|quantity=8}} {{Item|Chess Piece of Skill|quantity=24}} {{Item|Dorra|quantity=100000}}
+| desc_5 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|222%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|269%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=70}} {{Item|Barrage Game Cartridge|quantity=14}} {{Item|Demon Bee Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=55}} {{Item|Dorra|quantity=400000}}
+| desc_6 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|238%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|289%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Barrage Game Cartridge|quantity=50}} {{Item|Demon Bee Game Cartridge|quantity=18}} {{Item|Chess Piece of Skill|quantity=232}} {{Item|Dorra|quantity=900000}}
+| desc_7 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|271%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|329%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=2}} {{Item|Barrage Game Cartridge|quantity=90}} {{Item|Demon Bee Game Cartridge|quantity=34}} {{Item|Chess Piece of Skill|quantity=323}} {{Item|Dorra|quantity=1600000}}
+| desc_8 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|285%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|346%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=3}} {{Item|Barrage Game Cartridge|quantity=140}} {{Item|Demon Bee Game Cartridge|quantity=50}} {{Item|Chess Piece of Skill|quantity=478}} {{Item|Dorra|quantity=2300000}}
+| desc_9 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|299%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|363%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=6}} {{Item|Barrage Game Cartridge|quantity=200}} {{Item|Demon Bee Game Cartridge|quantity=70}} {{Item|Chess Piece of Skill|quantity=927}} {{Item|Dorra|quantity=3400000}}
+| desc_10 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|327%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|397%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.
+| desc_11 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|351%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|425%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.
+| desc_12 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|374%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|454%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.
+| desc_13 = Generates 1 Observation Point for 10s (max 1 active). Upon generation, the Observation Point performs a Vanguard Strike, dealing {{color|#fb8037|397%}} of ATK as AoE Terra Auto Attack DMG and generating Tactical Mapping. Tactical Mapping deals {{color|#fb8037|482%}} of ATK as AoE Terra Auto Attack DMG every 2s, lasting until the Observation Point expires. All these attacks inflict {{word|Terra Mark: Earth Vein|earth}}.
+| type = support
+| icon = {{TrekkerSkillIcon|element=terra|icon=16101_Skill_Support|type=support}}
+}}
+{{TrekkerSkill
+| name = Terrain Mapping
+| brief = Unleashes Terrain Mapping to deal DMG over time.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Chess Piece of Skill}} {{Item|Shooter Game Cartridge}} {{Item|Barrage Game Cartridge}} {{Item|Demon Bee Game Cartridge}}
+| cooldown = 30.0
+| energy = 264.0
+| desc_1 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|97%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=2}} {{Item|Dorra|quantity=13300}}
+| desc_2 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|111%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=12}} {{Item|Chess Piece of Skill|quantity=6}} {{Item|Dorra|quantity=17600}}
+| desc_3 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|126%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=24}} {{Item|Barrage Game Cartridge|quantity=3}} {{Item|Chess Piece of Skill|quantity=10}} {{Item|Dorra|quantity=49800}}
+| desc_4 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|169%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=38}} {{Item|Barrage Game Cartridge|quantity=8}} {{Item|Chess Piece of Skill|quantity=24}} {{Item|Dorra|quantity=100000}}
+| desc_5 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|183%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Shooter Game Cartridge|quantity=70}} {{Item|Barrage Game Cartridge|quantity=14}} {{Item|Demon Bee Game Cartridge|quantity=6}} {{Item|Chess Piece of Skill|quantity=55}} {{Item|Dorra|quantity=400000}}
+| desc_6 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|196%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence}} {{Item|Barrage Game Cartridge|quantity=50}} {{Item|Demon Bee Game Cartridge|quantity=18}} {{Item|Chess Piece of Skill|quantity=232}} {{Item|Dorra|quantity=900000}}
+| desc_7 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|224%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=2}} {{Item|Barrage Game Cartridge|quantity=90}} {{Item|Demon Bee Game Cartridge|quantity=34}} {{Item|Chess Piece of Skill|quantity=323}} {{Item|Dorra|quantity=1600000}}
+| desc_8 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|235%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=3}} {{Item|Barrage Game Cartridge|quantity=140}} {{Item|Demon Bee Game Cartridge|quantity=50}} {{Item|Chess Piece of Skill|quantity=478}} {{Item|Dorra|quantity=2300000}}
+| desc_9 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|247%}} of ATK as AoE Terra Ultimate DMG every 3s.&lt;br&gt;Upgrade materials: {{Item|Forest Elf Essence|quantity=6}} {{Item|Barrage Game Cartridge|quantity=200}} {{Item|Demon Bee Game Cartridge|quantity=70}} {{Item|Chess Piece of Skill|quantity=927}} {{Item|Dorra|quantity=3400000}}
+| desc_10 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|270%}} of ATK as AoE Terra Ultimate DMG every 3s.
+| desc_11 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|289%}} of ATK as AoE Terra Ultimate DMG every 3s.
+| desc_12 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|309%}} of ATK as AoE Terra Ultimate DMG every 3s.
+| desc_13 = Unleashes Terrain Mapping for 20s, dealing {{color|#fb8037|328%}} of ATK as AoE Terra Ultimate DMG every 3s.
+| type = ultimate
+| icon = {{TrekkerSkillIcon|element=terra|icon=16101_Ultra|type=ultimate}}
+}}
+==Potentials==
+{{Tab
+|group=potential
+|type=buttons
+|Show detailed descriptions
+|Show brief descriptions
+}}
+&lt;tabber&gt;
+|-|Main={{PotentialBuild
+| name1 = Leafia: Main Build 1
+| desc1 = A build that generates Resource Markers faster and consumes them to enhance Auto Attacks.
+| name2 = Leafia: Main Build 2
+| desc2 = A build that assists Leafia by establishing multiple Observation Points.
+| name3 = Generic
+| desc3 = 
+| 1 = {{TrekkerPotential
+  | name = Crystal Overclock
+  | type = 1
+  | brief = No longer generates Observation Points. Auto Attacks can consume {{word|Resource Markers|}} to increase that attack's DMG multiplier.
+  | desc = After casting Crystal Vein Survey (Main Skill), Observation Points are no longer generated. When Leafia's Auto Attack deals DMG, it always generates 1 Resource Marker. Leafia's Auto Attack can also consume 3 {{word|Resource Markers|}} to fire an Amplification Crystal, dealing {{color|#0abec5|119%}} of ATK as Terra Auto Attack DMG, increasing that Auto Attack's DMG multiplier by {{color|#0abec5|50%}}, and triggering {{word|Terra Mark|earth}}.
+  | icon = 16101_potential_01_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Focused Penetration
+  | type = 1
+  | brief = Auto Attacks generate extra {{word|Resource Markers|}} when dealing DMG. Auto Attack's DMG multiplier is increased and pierces targets. Any new {{word|Resource Markers|}} are absorbed automatically.
+  | desc = Leafia's Auto Attacks generate 1 extra Resource Marker when dealing DMG. Auto Attack's DMG multiplier is increased by {{color|#0abec5|70%}} and pierces targets. Any new {{word|Resource Markers|}} are absorbed automatically.
+  | icon = 16101_potential_02_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Marker Overload
+  | type = 2
+  | brief = Increases Leafia's Auto Attack DMG. Firing Amplification Crystals has a chance to launch an extra Vector Crystal without using {{word|Resource Markers|}}. Firing Amplification Crystals costs less Resource Marker.
+  | desc = Increases Leafia's Auto Attack DMG by {{color|#ec6d21|20%/32%/44%/56%/68%/80%}}. Firing Amplification Crystals has an 80% chance to launch an extra Vector Crystal without using {{word|Resource Markers|}}, dealing {{color|#ec6d21|10.9%/17.4%/23.9%/30.4%/36.9%/43.4%}} of ATK as Terra Auto Attack DMG. Firing Amplification Crystals costs 1 less Resource Marker.
+  | icon = 16101_potential_07_a.png
+  | shape = 3
+  }}
+  {{TrekkerPotential
+  | name = Terra DMG Amp
+  | type = 3
+  | brief = When Amplification Crystals deal DMG, increases the targets' Terra DMG Taken.
+  | desc = When Amplification Crystals deal DMG, increases the targets' Terra DMG Taken by {{color|#ec6d21|0.8%/1.3%/1.8%/2.2%/2.7%/3.2%}} for 5s, stacking up to 10 times.
+  | icon = 16101_potential_01_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Terra Mark Resonance
+  | type = 3
+  | brief = When Amplification Crystals trigger a {{word|Terra Mark|earth}}, increases Leafia's ATK.
+  | desc = When Amplification Crystals trigger a {{word|Terra Mark|earth}}, increases Leafia's ATK by {{color|#ec6d21|1.5%/2.4%/3.3%/4.2%/5.1%/6%}} for 10s, stacking up to 10 times.
+  | icon = 16101_potential_01_a.png
+  | shape = 2
+  }}
+| 2 = {{TrekkerPotential
+  | name = Field Echo
+  | type = 1
+  | brief = Auto Attacks no longer generate {{word|Resource Markers|}} when dealing DMG. Reduces Main Skill Cooldown and extends Observation Point duration. Each Observation Point deals additional DMG every 3 attacks.
+  | desc = Auto Attacks no longer generate {{word|Resource Markers|}} when dealing DMG. Reduces Main Skill Cooldown by {{color|#0abec5|10s}} and extends Observation Point duration by {{color|#0abec5|20s}}. Casting a skill directly generates 1 Observation Point without consuming {{word|Resource Markers|}} (triggers once every 20s). Every {{color|#0abec5|3}} attacks, each Observation Point releases a wave that deals {{color|#0abec5|103%}} of ATK as AoE Terra Auto Attack DMG.
+  | icon = 16101_potential_03_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Field Assault
+  | type = 1
+  | brief = Observation Points fire bullets at targets every second, generating 1 Resource Marker every 3s. Every Resource Marker Leafia picks up increases Observation Point's DMG multiplier.
+  | desc = Observation Points fire bullets at targets every second, dealing {{color|#0abec5|32%}} of ATK as Terra Auto Attack DMG and generating 1 Resource Marker every 3s. Each Resource Marker Leafia picks up increases Observation Point's DMG multiplier by {{color|#0abec5|5%}} for 5s, stacking up to 10 times.
+  | icon = 16101_potential_04_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Observer Array
+  | type = 2
+  | brief = Increases max Observation Points. Each active Observation Point on the field increases its Auto Attack DMG dealt.
+  | desc = Can generate up to {{color|#ec6d21|1/1/1/2/2/3}} Observation Points. Each active Observation Point on the field increases its Auto Attack DMG dealt by {{color|#ec6d21|7%/11%/15%/19%/23%/27%}}.
+  | icon = 16101_potential_10_a.png
+  | shape = 3
+  }}
+  {{TrekkerPotential
+  | name = Obsidian Field
+  | type = 3
+  | brief = Increases the Terra DMG Taken of targets within the Observation Point range.
+  | desc = Increases the Terra DMG Taken of targets within the Observation Point range by {{color|#ec6d21|2.7%/4.3%/5.9%/7.6%/9.2%/10.8%}}, stacking up to 3 times.
+  | icon = 16101_potential_04_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Survey Field Amp
+  | type = 3
+  | brief = When Observation Points deal DMG, increases their ATK.
+  | desc = When Observation Points deal DMG, increases their ATK by {{color|#ec6d21|5%/8%/11%/14%/17%/20%}} for 10s, stacking up to 3 times.
+  | icon = 16101_potential_04_a.png
+  | shape = 2
+  }}
+| 3 = {{TrekkerPotential
+  | name = Earth Vein Synergy
+  | type = 2
+  | brief = For each Terra Trekker on the squad, increases Leafia's Auto Attack DMG.
+  | desc = For each Terra Trekker on the squad, increases Leafia's Auto Attack DMG by {{color|#ec6d21|5%/8%/11%/14%/17%/20%}}.
+  | icon = common_potential_11_a.png
+  | shape = 3
+  }}
+  {{TrekkerPotential
+  | name = Mobility Amp
+  | type = 3
+  | brief = Leafia can dodge one more time. Increases her ATK when dodging.
+  | desc = Leafia can dodge one more time. When dodging, increases her ATK by {{color|#ec6d21|9%/12%/16%/19%/22%/25%}} for 8s.
+  | icon = common_potential_21_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Terra Mark Awakening
+  | type = 3
+  | brief = Terrain Mapping (Ultimate) can trigger {{word|Terra Mark|earth}}. After casting the Ultimate, increases Leafia's ATK.
+  | desc = Terrain Mapping (Ultimate) can trigger {{word|Terra Mark|earth}}. After casting the Ultimate, increases Leafia's ATK by {{color|#ec6d21|12%/19.2%/26.4%/33.6%/40.8%/48%}} for 25s.
+  | icon = common_potential_earth_1_a.png
+  | shape = 2
+  }}
+  {{TrekkerPotential
+  | name = Draw Zone Ascension
+  | type = 3
+  | brief = When Terrain Mapping (Ultimate) deals DMG, increases Leafia's ATK.
+  | desc = When Terrain Mapping (Ultimate) deals DMG, increases Leafia's ATK by {{color|#ec6d21|4%/6.4%/8.8%/11.2%/13.6%/16%}} for 20s, stacking up to 3 times.
+  | icon = 16101_potential_41_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Draw Zone Bombardment
+  | type = 3
+  | brief = Increases the Ultimate DMG of Terrain Mapping (Ultimate) and reduces its attack interval.
+  | desc = Increases the Ultimate DMG of Terrain Mapping (Ultimate) by {{color|#ec6d21|10%/16%/22%/28%/34%/40%}} and reduces its attack interval.
+  | icon = 16101_potential_41_a.png
+  | shape = 2
+  }}
+  {{TrekkerPotential
+  | name = Draw Zone Support
+  | type = 3
+  | brief = When the Ultimate is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain increased Auto Attack DMG. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's Auto Attack DMG.
+  | desc = When the Terrain Mapping (Ultimate) is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain {{color|#ec6d21|13%/20%/28%/35%/43%/50%}} increased Auto Attack DMG. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's Auto Attack DMG by {{color|#ec6d21|2.5%/4%/5.5%/7%/8.5%/10%}}.
+  | icon = 16101_potential_41_a.png
+  | shape = 3
+  }}
+}}
+|-|Support={{PotentialBuild
+| name1 = Leafia: Support Build 1
+| desc1 = A build that keeps Observation Points active longer and makes the most of Tactical Mapping.
+| name2 = Leafia: Support Build 2
+| desc2 = A build that enhances Vanguard Strike and stacks Calibration Marks to deal DMG.
+| name3 = Generic
+| desc3 = 
+| 1 = {{TrekkerPotential
+  | name = Tactical Co-Draw
+  | type = 1
+  | brief = Extends Observation Point duration. Up to 2 Observation Points can be present at the same time. Reduces Tactical Mapping's attack interval. When Tactical Mapping deals DMG, increases the target's Terra DMG Taken.
+  | desc = Extends Observation Point duration by 10s. Up to 2 Observation Points can be present at the same time. Reduces Tactical Mapping's DMG dealing Interval and it can deal damage to the same target at most once per second. In an all-Terra squad, when Tactical Mapping deals DMG, increases the target's Terra DMG Taken by {{color|#0abec5|6.7%}} for 3s, stacking up to 3 times.
+  | icon = 16101_potential_21_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Observer Iteration
+  | type = 1
+  | brief = Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up once, increasing Tactical Mapping's DMG multiplier.
+  | desc = Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up once, increasing Tactical Mapping's DMG multiplier by {{color|#0abec5|14%}}. This effect is permanent and stacks up to 4 times.
+  | icon = 16101_potential_22_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Ascending Draw Zone
+  | type = 2
+  | brief = Each time Leafia casts her Support skill, Observation Points tier up 2 times. Increases Tactical Mapping's Terra DMG.
+  | desc = Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up 2 times. When Tactical Mapping deals DMG, increases its Terra DMG by {{color|#ec6d21|3%/4.8%/6.6%/8.4%/10.2%/12%}} for 3s, stacking up to 5 times.
+  | icon = 16101_potential_27_a.png
+  | shape = 3
+  }}
+  {{TrekkerPotential
+  | name = Terra DMG Etching
+  | type = 3
+  | brief = In an all-Terra squad, generating Observation Points increases the Mark DMG Taken of targets within Tactical Mapping.
+  | desc = In an all-Terra squad, generating Observation Points increases the Mark DMG Taken of targets within Tactical Mapping by {{color|#ec6d21|66%/106%/146%/185%/225%/265%}} for 15s.
+  | icon = 16101_potential_21_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Tier 2 Etching
+  | type = 3
+  | brief = Once Observation Points tier up 2 times, increases Tactical Mapping's Auto Attack DMG.
+  | desc = Once Observation Points tier up 2 times, increases Tactical Mapping's Auto Attack DMG by {{color|#ec6d21|15%/24%/33%/42%/51%/60%}}.
+  | icon = 16101_potential_22_a.png
+  | shape = 2
+  }}
+| 2 = {{TrekkerPotential
+  | name = Vanguard Calibration
+  | type = 1
+  | brief = Increases the frequency of Vanguard Strike. When Vanguard Strike deals DMG, increases the DMG multiplier of both itself and {{word|Calibration Mark|}}. When an Observation Point expires, inflicts 1 stack of {{word|Calibration Mark|}} on targets within range.
+  | desc = Observation Points launch 1 Vanguard Strike outward every second. When Vanguard Strike deals DMG, increases the DMG multiplier of both itself and {{word|Calibration Mark|}} by {{color|#0abec5|13.9%}} for 4s, stacking up to 3 times. Observation Points expire after 10s and inflict 1 stack of {{word|Calibration Mark|}} on targets within range.
+  | icon = 16101_potential_23_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Calibration Detonation
+  | type = 1
+  | brief = No longer generates Tactical Mapping. Increases the Crit Rate of Vanguard Strike and {{word|Calibration Mark|}}. When Vanguard Strike deals DMG, inflicts 1 stack of {{word|Calibration Mark|}} on the target. At 3 stacks, {{word|Calibration Mark|}}, detonates immediately.
+  | desc = No longer generates Tactical Mapping. Increases the Crit Rate of Vanguard Strike and {{word|Calibration Mark|}} by {{color|#0abec5|20%}}. Vanguard Strike is enhanced to deal {{color|#0abec5|282%}} of ATK as Terra Auto Attack DMG. When Vanguard Strike deals DMG, inflicts 1 stack of {{word|Calibration Mark|}} on the target.  At 3 stacks, {{word|Calibration Mark|}}, detonates immediately.
+  | icon = 16101_potential_24_a.png
+  | shape = 0
+  }}
+  {{TrekkerPotential
+  | name = Mark Suppression
+  | type = 2
+  | brief = Increases the Terra DMG and Auto Attack Crit DMG of Vanguard Strike and {{word|Calibration Mark|}}. When Vanguard Strike deals DMG, inflicts 2 stacks of {{word|Calibration Mark|}}.
+  | desc = Increases the Terra DMG of Vanguard Strike and {{word|Calibration Mark|}} by {{color|#ec6d21|15%/24%/33%/42%/51%/60%}}, and their Auto Attack Crit DMG by {{color|#ec6d21|7.5%/12%/16.5%/21%/25.5%/30%}}. When enhanced Vanguard Strike deals DMD, inflicts 2 stacks of {{word|Calibration Mark|}} on the target.
+  | icon = 16101_potential_30_a.png
+  | shape = 3
+  }}
+  {{TrekkerPotential
+  | name = Calibration Expansion
+  | type = 3
+  | brief = Increases the Crit Rate and Auto Attack DMG of Vanguard Strike and {{word|Calibration Mark|}}. DMG dealt by the Main Vanguard Trekker inflicts 1 additional stack of {{word|Calibration Mark|}} on the target.
+  | desc = Increases the Crit Rate of Vanguard Strike and {{word|Calibration Mark|}} by {{color|#ec6d21|6%/10%/14%/18%/21%/25%}}, and their Auto Attack DMG by {{color|#ec6d21|13%/21%/29%/36%/44%/52%}}. When a target with {{word|Calibration Mark|}} takes DMG from the Main Vanguard Trekker, inflicts 1 additional stack of {{word|Calibration Mark|}}. This effect can trigger once per second per target.
+  | icon = 16101_potential_23_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Mark Etching
+  | type = 3
+  | brief = In an all-Terra squad, {{word|Calibration Mark|}} DMG increases the target's Terra DMG Taken. If there is only 1 Terra Trekker on the squad, {{word|Calibration Mark|}} DMG increases the squad's Auto Attack DMG and the target's Terra DMG Taken.
+  | desc = In an all-Terra squad, {{word|Calibration Mark|}} DMG increases the target's Terra DMG Taken by {{color|#ec6d21|4.3%/6.9%/9.5%/12%/14.6%/17.2%}} for 3s, stacking up to 3 times. If there is only 1 Terra Trekker on the squad, {{word|Calibration Mark|}} DMG increases the squad's Auto Attack DMG by {{color|#ec6d21|2.2%/3.5%/4.8%/6.2%/7.5%/8.8%}} and the target's Terra DMG Taken by {{color|#ec6d21|4.3%/6.9%/9.5%/12%/14.6%/17.2%}} for 3s, stacking up to 6 times.
+  | icon = 16101_potential_24_a.png
+  | shape = 2
+  }}
+| 3 = {{TrekkerPotential
+  | name = Leyline Amp
+  | type = 2
+  | brief = In an all-Terra squad, increases the squad's ATK. If there is only 1 Terra Trekker on the squad, increases the squad's ATK and gives Leafia an extra Auto Attack DMG boost.
+  | desc = In an all-Terra squad, increases the squad's ATK by {{color|#ec6d21|15%/24%/33%/42%/51%/60%}}. If there is only 1 Terra Trekker on the squad, increases the squad's ATK by {{color|#ec6d21|10%/16%/22%/28%/34%/40%}} and increases Leafia's Auto Attack DMG by an additional {{color|#ec6d21|14%/22%/30%/39%/47%/55%}}.
+  | icon = common_potential_15_a.png
+  | shape = 3
+  }}
+  {{TrekkerPotential
+  | name = Earth Vein Activation
+  | type = 3
+  | brief = When Leafia inflicts {{word|Terra Mark: Earth Vein|earth}}, increases ATK.
+  | desc = When Leafia inflicts {{word|Terra Mark: Earth Vein|earth}}, increases ATK by {{color|#ec6d21|4%/6%/9%/11%/14%/16%}} for 3s, stacking up to 3 times.
+  | icon = common_potential_14_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Earthen Deposition
+  | type = 3
+  | brief = Terrain Mapping (Ultimate) can inflict {{word|Terra Mark: Earth Vein|earth}}. When Terrain Mapping deals DMG, increases Leafia's Terra DMG.
+  | desc = Terrain Mapping (Ultimate) can inflict {{word|Terra Mark: Earth Vein|earth}}. When Terrain Mapping deals DMG, increases Leafia's Terra DMG by {{color|#ec6d21|12%/19%/26%/34%/41%/48%}} for 25s.
+  | icon = common_potential_earth_1_a.png
+  | shape = 2
+  }}
+  {{TrekkerPotential
+  | name = Draw Zone Ascension
+  | type = 3
+  | brief = When Terrain Mapping (Ultimate) deals DMG, increases Leafia's ATK.
+  | desc = When Terrain Mapping (Ultimate) deals DMG, increases Leafia's ATK by {{color|#ec6d21|4%/6.4%/8.8%/11.2%/13.6%/16%}} for 20s, stacking up to 3 times.
+  | icon = 16101_potential_41_a.png
+  | shape = 1
+  }}
+  {{TrekkerPotential
+  | name = Draw Zone Bombardment
+  | type = 3
+  | brief = Increases the Ultimate DMG of Terrain Mapping (Ultimate) and reduces its attack interval.
+  | desc = Increases the Ultimate DMG of Terrain Mapping (Ultimate) by {{color|#ec6d21|10%/16%/22%/28%/34%/40%}} and reduces its attack interval.
+  | icon = 16101_potential_41_a.png
+  | shape = 2
+  }}
+  {{TrekkerPotential
+  | name = Draw Zone Support
+  | type = 3
+  | brief = When the Ultimate is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain increased Auto Attack DMG. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's Auto Attack DMG.
+  | desc = When the Terrain Mapping (Ultimate) is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain {{color|#ec6d21|13%/20%/28%/35%/43%/50%}} increased Auto Attack DMG. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's Auto Attack DMG by {{color|#ec6d21|2.5%/4%/5.5%/7%/8.5%/10%}}.
+  | icon = 16101_potential_41_a.png
+  | shape = 3
+  }}
+}}
+&lt;/tabber&gt;
+== Affinity ==
+{{TrekkerGifts|Love Candle|Blazing Wings|Fiery Honeypot|Card Capturer|Reflective Photo Capturer|Ultra-Precision Photo Capturer|Star Eclipse|Moonlit Companion|Cosmic Form}}
+{{TrekkerAffinityTasks| text1 = Complete 1 Ascension with Leafia
+| exp1 = 100
+| text2 = Invited and hung out with Leafia 1 times
+| exp2 = 150
+| text3 = Leafia reaches Tier 2
+| exp3 = 50
+| text4 = Upgraded Leafia's skills 3 times
+| exp4 = 100
+| text5 = Save 1 Records with a Rating of 6 with Leafia
+| exp5 = 100
+| text6 = Leafia reaches Tier 5
+| exp6 = 150
+| text7 = All Leafia's skills ≥4
+| exp7 = 150
+| text8 = Save 1 Records with a Rating of 28 with Leafia
+| exp8 = 500
+| text9 = Collect Leafia's Potential ×16
+| exp9 = 500
+}}
+== Gallery ==
+{{GalleryImagesSection}}
+=== Videos ===
+
+== External links ==
+
+[ English Introduction] on X
+
+[ Japanese Introduction] on X
+
+[ Korean Introduction] on X
+
+[ Chinese Introduction] on Bilibili
+
+== Navigation ==
+
+{{NavboxTrekkers|}}</text>
+      <sha1>icaxc2s3mw12v9qapclxcb8xp1dm5z3</sha1>
+    </revision>
+  </page>
+</mediawiki>
