@@ -1,6 +1,8 @@
 name: Fichas de personajes
 on:
   workflow_dispatch:
+  push:
+    paths: ['*.xml']
   schedule:
     - cron: "17 9 * * 1"
 permissions:
