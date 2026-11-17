@@ -3,7 +3,7 @@
 "fuente": "Stella Sora Team Rankings · ZiLenTz",
 "url": "https://docs.google.com/spreadsheets/d/1eGTh38V1VD-1O-yyMBB5gnlZw_ykt-WfFmE0Lg4XS8w/htmlview",
 "kofi": "https://ko-fi.com/zilentz_penguin",
-"generado": "2026-11-16T10:43:44Z",
+"generado": "2026-11-17T10:13:20Z",
 "supuestos": [
 "Discos: C1 para los limitados y del pase de batalla, C6 para los gratuitos (principal y apoyos).",
 "Emblemas: las dos mejores estadísticas (1 rara y 1 genérica), o tres a nivel 70 (2 raras y 1 genérica).",
@@ -13,8 +13,8 @@
 "equipos": [
 {
 "el": "Terra",
-"team": "Gerie Mark | Leafia - Leafia's Sig",
-"dmg": 20086772930.0,
+"team": "Gerie Mark | Leafia",
+"dmg": 18705402929.0,
 "s": [
 {
 "n": "Nazuna",
@@ -37,60 +37,6 @@
 "src": "",
 "code": "AAAAnAAAAJUAAAChwYAHbAZgADsMAM2wAAwA",
 "pct": 1.0
-},
-{
-"el": "Terra",
-"team": "Gerie Mark | Tilia - Leafia's Sig",
-"dmg": 19638395537.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Gerie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Tilia",
-"t": "T1+",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=389818416",
-"code": "AAAAnAAAAJUAAABrYYEHbAZgADsMAMGAAGAG",
-"pct": 0.9777
-},
-{
-"el": "Terra",
-"team": "Gerie Mark | S.Coronis - Leafia's Sig",
-"dmg": 19085019098.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Gerie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=1209688485",
-"code": "AAAAnAAAAJUAAACfwYAHbAZgADsMAJGAAGww",
-"pct": 0.9501
 },
 {
 "el": "Terra",
@@ -117,7 +63,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=389818416",
 "code": "AAAAnAAAAJUAAABrYYEHbAZgADsMAMGAAGAG",
-"pct": 0.9164
+"pct": 0.9841
 },
 {
 "el": "Terra",
@@ -144,34 +90,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1HSt4K_y8qdTHIVQhiOIiaGAzh0371bnWNSp-J9Fduec/edit?gid=1209688485",
 "code": "AAAAnAAAAJUAAACfwYAHbAZgADsMAJGAAGww",
-"pct": 0.8925
-},
-{
-"el": "Terra",
-"team": "Gerie Mark | Tilia [w/o Bug]",
-"dmg": 17526595757.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Gerie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Tilia",
-"t": "T1+",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "",
-"code": "",
-"pct": 0.8725
+"pct": 0.9584
 },
 {
 "el": "Aqua",
@@ -198,7 +117,7 @@
 "guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1577876630",
 "code": "AAAAiwAAAH8AAACgMAbCYDDMQAANgM2GAAIG",
-"pct": 0.8624
+"pct": 0.9261
 },
 {
 "el": "Aqua",
@@ -225,7 +144,7 @@
 "guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1577876630",
 "code": "AAAAiwAAAH8AAACgMAbCYDDMQAANgM2GAAIG",
-"pct": 0.8004
+"pct": 0.8595
 },
 {
 "el": "Aqua",
@@ -252,7 +171,7 @@
 "guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1368668356",
 "code": "AAAAiwAAAIIAAACgMAbCYDDNgAQMAM2GAAIG",
-"pct": 0.7927
+"pct": 0.8513
 },
 {
 "el": "Aqua",
@@ -279,7 +198,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=463256762",
 "code": "AAAAiwAAAIIAAACgzTADAAbNgAQMADAGwBwG",
-"pct": 0.7749
+"pct": 0.8321
 },
 {
 "el": "Aqua",
@@ -306,7 +225,7 @@
 "guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1318543766",
 "code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 0.7599
+"pct": 0.816
 },
 {
 "el": "Aqua",
@@ -333,7 +252,7 @@
 "guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1662700348",
 "code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 0.7179
+"pct": 0.7709
 },
 {
 "el": "Lux",
@@ -360,7 +279,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1nzyd93RAaG5jBobIcvdtDz8IsttPG8v5cquUPEqiiKM/edit?gid=1719080092",
 "code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
-"pct": 0.7082
+"pct": 0.7605
 },
 {
 "el": "Lux",
@@ -387,7 +306,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1224946512",
 "code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
-"pct": 0.6744
+"pct": 0.7242
 },
 {
 "el": "Aqua",
@@ -414,7 +333,7 @@
 "guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=2068972113",
 "code": "",
-"pct": 0.6639
+"pct": 0.713
 },
 {
 "el": "Lux",
@@ -441,7 +360,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1224946512",
 "code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
-"pct": 0.6422
+"pct": 0.6897
 },
 {
 "el": "Ventus",
@@ -468,7 +387,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1455027366",
 "code": "AAAAoAAAAIkAAACFMAbDYAjCMANsADAAw2wA",
-"pct": 0.6383
+"pct": 0.6855
 },
 {
 "el": "Aqua",
@@ -495,7 +414,7 @@
 "guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=915610307",
 "code": "",
-"pct": 0.6343
+"pct": 0.6811
 },
 {
 "el": "Umbra",
@@ -522,7 +441,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=2009632724",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
-"pct": 0.61
+"pct": 0.655
 },
 {
 "el": "Ventus",
@@ -549,7 +468,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=892623817",
 "code": "AAAAjwAAAIkAAAB7zEgDDAAwBgdsAKBGwAwA",
-"pct": 0.6038
+"pct": 0.6484
 },
 {
 "el": "Umbra",
@@ -576,7 +495,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=1773193755",
 "code": "AAAAnQAAAJEAAACOMAbDYAYwBhtgAG2AwAwA",
-"pct": 0.6034
+"pct": 0.6479
 },
 {
 "el": "Umbra",
@@ -603,7 +522,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "",
 "code": "",
-"pct": 0.5985
+"pct": 0.6427
 },
 {
 "el": "Ignis",
@@ -630,7 +549,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=1154343064",
 "code": "AAAAhgAAAJ4AAAB+MAEDDDbAABgMBqwwGGGA",
-"pct": 0.5749
+"pct": 0.6173
 },
 {
 "el": "Lux",
@@ -657,7 +576,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1796394495",
 "code": "AAAAogAAAHMAAABrMAbbbDYxjsAMAM2IAGAA",
-"pct": 0.5665
+"pct": 0.6083
 },
 {
 "el": "Lux",
@@ -684,7 +603,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1796394495",
 "code": "AAAAogAAAHMAAABrMAbbbDYxjsAMAM2IAGAA",
-"pct": 0.5606
+"pct": 0.6019
 },
 {
 "el": "Umbra",
@@ -711,7 +630,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
-"pct": 0.5485
+"pct": 0.589
 },
 {
 "el": "Aqua",
@@ -738,7 +657,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1tUKganHflc3phmsBRn5jQFUueuNy7u7YOrM5So5XT1E/edit?gid=1971715024",
 "code": "",
-"pct": 0.5134
+"pct": 0.5513
 },
 {
 "el": "Lux",
@@ -765,7 +684,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAHMAAACbzbADYYbNiAAMAMABAAwA",
-"pct": 0.506
+"pct": 0.5433
 },
 {
 "el": "Umbra",
@@ -792,7 +711,7 @@
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=1973367383",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
-"pct": 0.5027
+"pct": 0.5399
 },
 {
 "el": "Aqua",
@@ -819,7 +738,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1tUKganHflc3phmsBRn5jQFUueuNy7u7YOrM5So5XT1E/edit?gid=480925132",
 "code": "",
-"pct": 0.4949
+"pct": 0.5314
 },
 {
 "el": "Lux",
@@ -846,7 +765,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAGsAAACbzbADYYatiAAAAMABAAwA",
-"pct": 0.4948
+"pct": 0.5313
 },
 {
 "el": "Ignis",
@@ -873,7 +792,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=1890415014",
 "code": "AAAAhgAAAKAAAAB+MAEDDDYwAMNgMKwwGGGA",
-"pct": 0.4928
+"pct": 0.5292
 },
 {
 "el": "Ventus",
@@ -900,7 +819,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=941133376",
 "code": "AAAAjwAAAHsAAACFzbADDADBhsAMADAAG2wA",
-"pct": 0.4852
+"pct": 0.521
 },
 {
 "el": "Ignis",
@@ -927,7 +846,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=2036290207",
 "code": "AAAAhgAAAI0AAAB+MAEDDDbMMABsAKwwGGGA",
-"pct": 0.4769
+"pct": 0.5122
 },
 {
 "el": "Aqua",
@@ -954,7 +873,7 @@
 "guide": "",
 "src": "",
 "code": "AAAAkAAAAH8AAACgzbAjAgAyQABtgDAGwGwG",
-"pct": 0.4625
+"pct": 0.4966
 },
 {
 "el": "Aqua",
@@ -981,7 +900,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1632405874",
 "code": "",
-"pct": 0.4577
+"pct": 0.4914
 },
 {
 "el": "Lux",
@@ -1008,7 +927,7 @@
 "guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
 "src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=527086121",
 "code": "",
-"pct": 0.457
+"pct": 0.4908
 },
 {
 "el": "Umbra",
@@ -1035,7 +954,7 @@
 "guide": "https://youtu.be/VUiktIb7FG4?si=S0pF3v6JsoCPLp9P",
 "src": "https://docs.google.com/spreadsheets/d/17yCFRpsO7qG3HN5Lol_foPpL8QSOGn0VejA_iJsq4vc/edit?gid=92698024",
 "code": "",
-"pct": 0.4555
+"pct": 0.4892
 },
 {
 "el": "Terra",
@@ -1062,7 +981,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
 "code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
-"pct": 0.4522
+"pct": 0.4856
 },
 {
 "el": "Umbra",
@@ -1089,7 +1008,7 @@
 "guide": "https://youtu.be/VUiktIb7FG4?si=S0pF3v6JsoCPLp9P",
 "src": "https://docs.google.com/spreadsheets/d/17yCFRpsO7qG3HN5Lol_foPpL8QSOGn0VejA_iJsq4vc/edit?gid=1754589053",
 "code": "",
-"pct": 0.443
+"pct": 0.4757
 },
 {
 "el": "Terra",
@@ -1116,7 +1035,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
 "code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
-"pct": 0.4372
+"pct": 0.4695
 },
 {
 "el": "Ignis",
@@ -1143,7 +1062,7 @@
 "guide": "https://youtu.be/c2UFkY52dTc?si=rT3DLQVq52gYnJ1k",
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=203494535",
 "code": "AAAAhgAAAGsAAAB+MAEDDDZgBhhgBqwwGGGA",
-"pct": 0.4368
+"pct": 0.4691
 },
 {
 "el": "Terra",
@@ -1170,7 +1089,7 @@
 "guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
 "code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
-"pct": 0.4316
+"pct": 0.4635
 },
 {
 "el": "Lux",
@@ -1197,7 +1116,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAGsAAACWzbADYYatiAAAAAAAAAwA",
-"pct": 0.4276
+"pct": 0.4592
 },
 {
 "el": "Lux",
@@ -1224,7 +1143,7 @@
 "guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
 "src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=534972980",
 "code": "",
-"pct": 0.4266
+"pct": 0.4581
 },
 {
 "el": "Terra",
@@ -1251,7 +1170,7 @@
 "guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
 "code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
-"pct": 0.4198
+"pct": 0.4508
 },
 {
 "el": "Ventus",
@@ -1278,7 +1197,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
 "code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
-"pct": 0.4083
+"pct": 0.4385
 },
 {
 "el": "Lux",
@@ -1305,7 +1224,7 @@
 "guide": "https://youtu.be/R-MkppLXwqo?si=v_eEw-F819NyJcuq",
 "src": "https://docs.google.com/spreadsheets/d/1REZu7ktwmg9DMRUiUofq16FXFw6rfNmh1li0fPTrsmY/edit?gid=527086121",
 "code": "",
-"pct": 0.4036
+"pct": 0.4334
 },
 {
 "el": "Lux",
@@ -1332,7 +1251,7 @@
 "guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
 "src": "",
 "code": "AAAAogAAAGsAAAB1zbADYYZsCABgAKABAAwI",
-"pct": 0.402
+"pct": 0.4316
 },
 {
 "el": "Terra",
@@ -1359,7 +1278,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
 "code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
-"pct": 0.399
+"pct": 0.4285
 },
 {
 "el": "Ventus",
@@ -1386,7 +1305,7 @@
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
 "code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
-"pct": 0.3969
+"pct": 0.4262
 },
 {
 "el": "Umbra",
@@ -1413,7 +1332,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1uafj4GY7-Py_tcZrT3bJUjLLjLY_VN6am9v_FP2-MLI/",
 "code": "AAAAjgAAAJEAAACHXDYEAgAwBtsMAM2wwGAA",
-"pct": 0.3899
+"pct": 0.4187
 },
 {
 "el": "Terra",
@@ -1440,7 +1359,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
 "code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
-"pct": 0.3866
+"pct": 0.4151
 },
 {
 "el": "Terra",
@@ -1467,7 +1386,7 @@
 "guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
 "code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
-"pct": 0.3797
+"pct": 0.4077
 },
 {
 "el": "Terra",
@@ -1494,7 +1413,7 @@
 "guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
 "code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
-"pct": 0.37
+"pct": 0.3974
 },
 {
 "el": "Aqua",
@@ -1521,7 +1440,7 @@
 "guide": "https://youtu.be/_BS4KqaGKfg?si=kvB522QQEnWLLiqJ",
 "src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1075738820",
 "code": "",
-"pct": 0.3693
+"pct": 0.3966
 },
 {
 "el": "Ventus",
@@ -1548,7 +1467,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
 "code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.3672
+"pct": 0.3943
 },
 {
 "el": "Aqua",
@@ -1575,7 +1494,7 @@
 "guide": "",
 "src": "",
 "code": "AAAAkAAAAKEAAACgzbAggAAwBsBsADABw2AG",
-"pct": 0.3505
+"pct": 0.3764
 },
 {
 "el": "Umbra",
@@ -1602,7 +1521,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1uafj4GY7-Py_tcZrT3bJUjLLjLY_VN6am9v_FP2-MLI/",
 "code": "AAAAjgAAAJEAAACHXDYEAgAwBtsMAM2wwGAA",
-"pct": 0.3485
+"pct": 0.3743
 },
 {
 "el": "Ventus",
@@ -1629,7 +1548,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
 "code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.346
+"pct": 0.3716
 }
 ]
 }
