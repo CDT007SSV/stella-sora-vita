@@ -3,7 +3,7 @@
 "fuente": "Stella Sora Team Rankings · ZiLenTz",
 "url": "https://docs.google.com/spreadsheets/d/1eGTh38V1VD-1O-yyMBB5gnlZw_ykt-WfFmE0Lg4XS8w/htmlview",
 "kofi": "https://ko-fi.com/zilentz_penguin",
-"generado": "2026-11-18T10:11:06Z",
+"generado": "2026-11-19T10:14:02Z",
 "supuestos": [
 "Discos: C1 para los limitados y del pase de batalla, C6 para los gratuitos (principal y apoyos).",
 "Emblemas: las dos mejores estadísticas (1 rara y 1 genérica), o tres a nivel 70 (2 raras y 1 genérica).",
@@ -91,33 +91,6 @@
 "src": "https://docs.google.com/spreadsheets/d/1rh9cJqr7GpNPOH_WJkS86zRMwrwYmT6EwlP9Nh-GJ98/edit?gid=1209688485",
 "code": "AAAAnAAAAJUAAACfwYAHbAZgADsMAJGAAGww",
 "pct": 0.9501
-},
-{
-"el": "Terra",
-"team": "Gerie Mark | Tilia [w/o Bug]",
-"dmg": 18688711638.0,
-"s": [
-{
-"n": "Nazuna",
-"t": "",
-"r": "Support"
-},
-{
-"n": "Gerie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Tilia",
-"t": "T1+",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "",
-"code": "",
-"pct": 0.9304
 },
 {
 "el": "Aqua",
@@ -822,33 +795,6 @@
 "pct": 0.4928
 },
 {
-"el": "Ventus",
-"team": "Wraith AA | Nazuka",
-"dmg": 9746160744.0,
-"s": [
-{
-"n": "Wraith",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Nazuka",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Decent",
-"guide": "https://youtu.be/s95OxrIFLz8?si=KOwfVvaLbMCVW882",
-"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=941133376",
-"code": "AAAAjwAAAHsAAACFzbADDADBhsAMADAAG2wA",
-"pct": 0.4852
-},
-{
 "el": "Ignis",
 "team": "Fuyuka Ultimate | Chixia - Crit Fishing",
 "dmg": 9579986453.0,
@@ -1227,6 +1173,33 @@
 "pct": 0.4083
 },
 {
+"el": "Ventus",
+"team": "Wraith AA | Nazuka",
+"dmg": 8167119136.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Nazuka",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Decent",
+"guide": "https://youtu.be/s95OxrIFLz8?si=KOwfVvaLbMCVW882",
+"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=941133376",
+"code": "AAAAjwAAAHsAAACFzbADDADBhsAMADAAG2wA",
+"pct": 0.4066
+},
+{
 "el": "Lux",
 "team": "Shia DashAA | T0 Minova",
 "dmg": 8107705000.0,
@@ -1470,33 +1443,6 @@
 "pct": 0.3693
 },
 {
-"el": "Ventus",
-"team": "Nazuka Solo DPS",
-"dmg": 7375873282.0,
-"s": [
-{
-"n": "Canace",
-"t": "T3+",
-"r": "Support"
-},
-{
-"n": "Nazuka",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
-"code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.3672
-},
-{
 "el": "Aqua",
 "team": "Chitose AA | Leafia",
 "dmg": 7040411737.0,
@@ -1552,8 +1498,35 @@
 },
 {
 "el": "Ventus",
+"team": "Nazuka Solo DPS",
+"dmg": 4714004044.0,
+"s": [
+{
+"n": "Canace",
+"t": "T3+",
+"r": "Support"
+},
+{
+"n": "Nazuka",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
+"code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
+"pct": 0.2347
+},
+{
+"el": "Ventus",
 "team": "Nazuka Solo DPS | T0 Canace",
-"dmg": 6950180707.0,
+"dmg": 4415813260.0,
 "s": [
 {
 "n": "Canace",
@@ -1575,7 +1548,7 @@
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
 "code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.346
+"pct": 0.2198
 }
 ]
 }
