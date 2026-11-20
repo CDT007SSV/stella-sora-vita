@@ -3,7 +3,7 @@
 "fuente": "Stella Sora Team Rankings · ZiLenTz",
 "url": "https://docs.google.com/spreadsheets/d/1eGTh38V1VD-1O-yyMBB5gnlZw_ykt-WfFmE0Lg4XS8w/htmlview",
 "kofi": "https://ko-fi.com/zilentz_penguin",
-"generado": "2026-11-19T10:14:02Z",
+"generado": "2026-11-20T10:11:38Z",
 "supuestos": [
 "Discos: C1 para los limitados y del pase de batalla, C6 para los gratuitos (principal y apoyos).",
 "Emblemas: las dos mejores estadísticas (1 rara y 1 genérica), o tres a nivel 70 (2 raras y 1 genérica).",
@@ -118,33 +118,6 @@
 "src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1577876630",
 "code": "AAAAiwAAAH8AAACgMAbCYDDMQAANgM2GAAIG",
 "pct": 0.8624
-},
-{
-"el": "Aqua",
-"team": "Allie Mark | T0 Teresa",
-"dmg": 16078095498.0,
-"s": [
-{
-"n": "Allie",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Teresa",
-"t": "T0",
-"r": "Support"
-},
-{
-"n": "Suntide Willow",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/laefwrwHgoU?si=z0y79Uck0Z26K5tu",
-"src": "https://docs.google.com/spreadsheets/d/1k_wbHZrPOR9fhxNhLE4k8zvdU9Z1NIUdPV-EoeW_Ec8/edit?gid=1577876630",
-"code": "AAAAiwAAAH8AAACgMAbCYDDMQAANgM2GAAIG",
-"pct": 0.8004
 },
 {
 "el": "Aqua",
@@ -280,6 +253,33 @@
 "src": "https://docs.google.com/spreadsheets/d/1nzyd93RAaG5jBobIcvdtDz8IsttPG8v5cquUPEqiiKM/edit?gid=1719080092",
 "code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
 "pct": 0.7082
+},
+{
+"el": "Terra",
+"team": "Leafia DPS | S. Coronis [WIP]",
+"dmg": 13887664894.0,
+"s": [
+{
+"n": "Nazuna",
+"t": "",
+"r": "Support"
+},
+{
+"n": "Leafia",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Springseek Coronis",
+"t": "",
+"r": "DPS"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "",
+"code": "AAAAnAAAAKEAAACfwYDDYAYwBsBsADAGwGAw",
+"pct": 0.6914
 },
 {
 "el": "Lux",
@@ -660,6 +660,33 @@
 "pct": 0.5134
 },
 {
+"el": "Terra",
+"team": "Sparkla Jaw | KR Rotation [WIP]",
+"dmg": 10217834699.0,
+"s": [
+{
+"n": "Sparkla",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Springseek Coronis",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Nazuna",
+"t": "T3",
+"r": "Support"
+}
+],
+"auto": "No",
+"guide": "",
+"src": "",
+"code": "",
+"pct": 0.5087
+},
+{
 "el": "Lux",
 "team": "Noya Skill | No Tilia",
 "dmg": 10163048086.0,
@@ -820,33 +847,6 @@
 "src": "https://docs.google.com/spreadsheets/d/1aVp8XhuH9ZJxN_c2syBFq6ITNKLv4QmacH1EdSHu7H8/edit?gid=2036290207",
 "code": "AAAAhgAAAI0AAAB+MAEDDDbMMABsAKwwGGGA",
 "pct": 0.4769
-},
-{
-"el": "Aqua",
-"team": "Chitose AA | Teresa",
-"dmg": 9289572206.0,
-"s": [
-{
-"n": "Chitose",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Teresa",
-"t": "T5",
-"r": "Support"
-},
-{
-"n": "Suntide Willow",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "",
-"code": "AAAAkAAAAH8AAACgzbAjAgAyQABtgDAGwGwG",
-"pct": 0.4625
 },
 {
 "el": "Aqua",
@@ -1146,6 +1146,33 @@
 "pct": 0.4198
 },
 {
+"el": "Aqua",
+"team": "Chitose AA | Teresa",
+"dmg": 8279836096.0,
+"s": [
+{
+"n": "Chitose",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Teresa",
+"t": "T5",
+"r": "Support"
+},
+{
+"n": "Suntide Willow",
+"t": "",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "",
+"code": "AAAAkAAAAH8AAACgzbAjAgAyQABtgDAGwGwG",
+"pct": 0.4122
+},
+{
 "el": "Ventus",
 "team": "Eleanor AA Solo DPS",
 "dmg": 8201749633.0,
@@ -1443,33 +1470,6 @@
 "pct": 0.3693
 },
 {
-"el": "Aqua",
-"team": "Chitose AA | Leafia",
-"dmg": 7040411737.0,
-"s": [
-{
-"n": "Chitose",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Leafia",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Suntide Willow",
-"t": "",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "",
-"code": "AAAAkAAAAKEAAACgzbAggAAwBsBsADABw2AG",
-"pct": 0.3505
-},
-{
 "el": "Umbra",
 "team": "Otoha DPS",
 "dmg": 7001155749.0,
@@ -1495,6 +1495,33 @@
 "src": "https://docs.google.com/spreadsheets/d/1uafj4GY7-Py_tcZrT3bJUjLLjLY_VN6am9v_FP2-MLI/",
 "code": "AAAAjgAAAJEAAACHXDYEAgAwBtsMAM2wwGAA",
 "pct": 0.3485
+},
+{
+"el": "Aqua",
+"team": "Chitose AA | Leafia",
+"dmg": 6275149591.0,
+"s": [
+{
+"n": "Chitose",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Leafia",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Suntide Willow",
+"t": "",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "",
+"code": "AAAAkAAAAKEAAACgzbAggAAwBsBsADABw2AG",
+"pct": 0.3124
 },
 {
 "el": "Ventus",
