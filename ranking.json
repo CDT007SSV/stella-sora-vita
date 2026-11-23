@@ -3,7 +3,7 @@
 "fuente": "Stella Sora Team Rankings · ZiLenTz",
 "url": "https://docs.google.com/spreadsheets/d/1eGTh38V1VD-1O-yyMBB5gnlZw_ykt-WfFmE0Lg4XS8w/htmlview",
 "kofi": "https://ko-fi.com/zilentz_penguin",
-"generado": "2026-11-22T09:53:22Z",
+"generado": "2026-11-23T10:20:02Z",
 "supuestos": [
 "Discos: C1 para los limitados y del pase de batalla, C6 para los gratuitos (principal y apoyos).",
 "Emblemas: las dos mejores estadísticas (1 rara y 1 genérica), o tres a nivel 70 (2 raras y 1 genérica).",
@@ -336,33 +336,6 @@
 "pct": 0.6639
 },
 {
-"el": "Lux",
-"team": "Noya Skill | T0 Tilia",
-"dmg": 12900585596.0,
-"s": [
-{
-"n": "Firstlight Noya",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Firefly",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Tilia",
-"t": "T0",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
-"src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1224946512",
-"code": "AAAAogAAAHMAAABrzbADYYbNiAAMAGwIAGAA",
-"pct": 0.6422
-},
-{
 "el": "Ventus",
 "team": "Eleanor Skill | Willow Main",
 "dmg": 12822115038.0,
@@ -444,33 +417,6 @@
 "pct": 0.61
 },
 {
-"el": "Ventus",
-"team": "Wraith AA | Eleanor [Updating]",
-"dmg": 12128366766.0,
-"s": [
-{
-"n": "Wraith",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Eleanor",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Decent",
-"guide": "https://youtu.be/VW-t72XSON4",
-"src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=892623817",
-"code": "AAAAjwAAAIkAAAB7zEgDDAAwBgdsAKBGwAwA",
-"pct": 0.6038
-},
-{
 "el": "Umbra",
 "team": "Karin AA",
 "dmg": 12119481742.0,
@@ -496,6 +442,33 @@
 "src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=1773193755",
 "code": "AAAAnQAAAJEAAACOMAbDYAYwBhtgAG2AwAwA",
 "pct": 0.6034
+},
+{
+"el": "Ventus",
+"team": "Wraith AA | Eleanor",
+"dmg": 12060223106.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Eleanor",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Decent",
+"guide": "https://youtu.be/VW-t72XSON4",
+"src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=892623817",
+"code": "AAAAjwAAAIkAAAB7zEgDDAAwBgNsAGGGwAwA",
+"pct": 0.6004
 },
 {
 "el": "Umbra",
@@ -1255,7 +1228,7 @@
 },
 {
 "el": "Lux",
-"team": "Noya Skill | T5 Jinglin",
+"team": "Noya Skill | Jinglin",
 "dmg": 8074082457.0,
 "s": [
 {
@@ -1265,7 +1238,7 @@
 },
 {
 "n": "Jinglin",
-"t": "T5",
+"t": "T3+",
 "r": "Support"
 },
 {
@@ -1306,33 +1279,6 @@
 "src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
 "code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
 "pct": 0.399
-},
-{
-"el": "Ventus",
-"team": "Eleanor AA Solo DPS | T0 Canace",
-"dmg": 7972294720.0,
-"s": [
-{
-"n": "Canace",
-"t": "T0",
-"r": "Support"
-},
-{
-"n": "Eleanor",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/VW-t72XSON4",
-"src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
-"code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
-"pct": 0.3969
 },
 {
 "el": "Umbra",
@@ -1497,6 +1443,33 @@
 "pct": 0.3485
 },
 {
+"el": "Ventus",
+"team": "Wraith AA | Minova",
+"dmg": 6333893447.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Minova",
+"t": "T0+",
+"r": "Support"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Decent",
+"guide": "",
+"src": "",
+"code": "AAAAjwAAAIQAAAB7zbADDAAwAcAMAGGGwIwA",
+"pct": 0.3153
+},
+{
 "el": "Aqua",
 "team": "Chitose AA | Leafia",
 "dmg": 6275149591.0,
@@ -1525,6 +1498,33 @@
 },
 {
 "el": "Ventus",
+"team": "Wraith AA | Leafia",
+"dmg": 6053254553.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Leafia",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Decent",
+"guide": "",
+"src": "",
+"code": "AAAAjwAAAKEAAAB7zbADDAAwBsBsAGGGwAwA",
+"pct": 0.3014
+},
+{
+"el": "Ventus",
 "team": "Nazuka Solo DPS",
 "dmg": 4714004044.0,
 "s": [
@@ -1549,33 +1549,6 @@
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
 "code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
 "pct": 0.2347
-},
-{
-"el": "Ventus",
-"team": "Nazuka Solo DPS | T0 Canace",
-"dmg": 4415813260.0,
-"s": [
-{
-"n": "Canace",
-"t": "T0",
-"r": "Support"
-},
-{
-"n": "Nazuka",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
-"code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.2198
 }
 ]
 }
