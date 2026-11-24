@@ -3,7 +3,7 @@
 "fuente": "Stella Sora Team Rankings · ZiLenTz",
 "url": "https://docs.google.com/spreadsheets/d/1eGTh38V1VD-1O-yyMBB5gnlZw_ykt-WfFmE0Lg4XS8w/htmlview",
 "kofi": "https://ko-fi.com/zilentz_penguin",
-"generado": "2026-11-23T10:20:02Z",
+"generado": "2026-11-24T10:17:44Z",
 "supuestos": [
 "Discos: C1 para los limitados y del pase de batalla, C6 para los gratuitos (principal y apoyos).",
 "Emblemas: las dos mejores estadísticas (1 rara y 1 genérica), o tres a nivel 70 (2 raras y 1 genérica).",
@@ -175,7 +175,7 @@
 },
 {
 "el": "Aqua",
-"team": "Chitose Mark | Allie's Sig",
+"team": "Chitose Mark",
 "dmg": 15263107605.0,
 "s": [
 {
@@ -201,31 +201,31 @@
 "pct": 0.7599
 },
 {
-"el": "Aqua",
-"team": "Chitose Mark",
-"dmg": 14420476412.0,
+"el": "Terra",
+"team": "Leafia DPS#1 | S. Coronis [WIP]",
+"dmg": 14765113769.0,
 "s": [
 {
-"n": "Chitose",
+"n": "Nazuna",
+"t": "",
+"r": "Support"
+},
+{
+"n": "Leafia",
 "t": "",
 "r": "DPS"
 },
 {
-"n": "Tilia",
-"t": "T1+",
-"r": "Support"
-},
-{
-"n": "Suntide Willow",
+"n": "Springseek Coronis",
 "t": "",
-"r": "Support"
+"r": "Sub-DPS"
 }
 ],
 "auto": "Yes",
-"guide": "https://youtu.be/igxGeWp5PsY?si=UpogR2Enw_n8igKN",
-"src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=1662700348",
-"code": "AAAAkAAAAGsAAACgkAgjDDDBhgRgAM22AAAG",
-"pct": 0.7179
+"guide": "",
+"src": "",
+"code": "AAAAnAAAAKEAAACfwYAjYAYwBsBsBjABwGAw",
+"pct": 0.7351
 },
 {
 "el": "Lux",
@@ -256,8 +256,8 @@
 },
 {
 "el": "Terra",
-"team": "Leafia DPS | S. Coronis [WIP]",
-"dmg": 13887664894.0,
+"team": "Leafia DPS#2 | S. Coronis [WIP]",
+"dmg": 13639899662.0,
 "s": [
 {
 "n": "Nazuna",
@@ -272,14 +272,14 @@
 {
 "n": "Springseek Coronis",
 "t": "",
-"r": "DPS"
+"r": "Sub-DPS"
 }
 ],
 "auto": "Yes",
 "guide": "",
 "src": "",
-"code": "AAAAnAAAAKEAAACfwYDDYAYwBsBsADAGwGAw",
-"pct": 0.6914
+"code": "AAAAnAAAAKEAAACfwYADYAYwBsBsBp2AAGAw",
+"pct": 0.679
 },
 {
 "el": "Lux",
@@ -310,7 +310,7 @@
 },
 {
 "el": "Aqua",
-"team": "Chitose Skill | Allie's Sig",
+"team": "Chitose Skill",
 "dmg": 13336368736.0,
 "s": [
 {
@@ -337,7 +337,7 @@
 },
 {
 "el": "Ventus",
-"team": "Eleanor Skill | Willow Main",
+"team": "Eleanor Skill | Willow",
 "dmg": 12822115038.0,
 "s": [
 {
@@ -363,31 +363,31 @@
 "pct": 0.6383
 },
 {
-"el": "Aqua",
-"team": "Chitose Skill",
-"dmg": 12740049924.0,
+"el": "Terra",
+"team": "Leafia DPS | Ridge [WIP]",
+"dmg": 12608286980.0,
 "s": [
 {
-"n": "Chitose",
+"n": "Nazuna",
+"t": "",
+"r": "Support"
+},
+{
+"n": "Leafia",
 "t": "",
 "r": "DPS"
 },
 {
-"n": "Donna",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Suntide Willow",
-"t": "",
+"n": "Ridge",
+"t": "T3+",
 "r": "Support"
 }
 ],
 "auto": "Yes",
-"guide": "https://youtu.be/-Vkt1cRSjuk?si=YCUkFgtaGk1uJghh",
-"src": "https://docs.google.com/spreadsheets/d/1kjYdH3b4khB8aiF2jlItvgSjG9Gw6GXKf84ZJSGGufM/edit?gid=915610307",
-"code": "",
-"pct": 0.6343
+"guide": "",
+"src": "",
+"code": "AAAAnAAAAKEAAAB0wYADYAYwBsBsBqGAAGwA",
+"pct": 0.6277
 },
 {
 "el": "Umbra",
@@ -464,7 +464,7 @@
 "r": "Support"
 }
 ],
-"auto": "Decent",
+"auto": "Yes",
 "guide": "https://youtu.be/VW-t72XSON4",
 "src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=892623817",
 "code": "AAAAjwAAAIkAAAB7zEgDDAAwBgNsAGGGwAwA",
@@ -493,8 +493,8 @@
 ],
 "auto": "Yes",
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
-"src": "",
-"code": "",
+"src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=1773193755",
+"code": "AAAAnQAAAJEAAACOMAbDYAYwBhtgAG2AwAwA",
 "pct": 0.5985
 },
 {
@@ -552,33 +552,6 @@
 "pct": 0.5665
 },
 {
-"el": "Lux",
-"team": "Noya AA | T0 Tilia",
-"dmg": 11259705079.0,
-"s": [
-{
-"n": "Firstlight Noya",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Firefly",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Tilia",
-"t": "T0",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/iWnTY4vn6-w?si=bHSAOyDNGz8N7e10",
-"src": "https://docs.google.com/spreadsheets/d/1bEBF7P5C0XG2pX1P4l-brJ3tTfj2y5wVuDaVWHzUxz0/edit?gid=1796394495",
-"code": "AAAAogAAAHMAAABrMAbbbDYxjsAMAM2IAGAA",
-"pct": 0.5606
-},
-{
 "el": "Umbra",
 "team": "Karin Ultimate | C1 FE Discs",
 "dmg": 11018228547.0,
@@ -601,7 +574,7 @@
 ],
 "auto": "Yes",
 "guide": "https://youtu.be/JjntJffv3bA?si=6FdkrrO07lQrr9nZ",
-"src": "",
+"src": "https://docs.google.com/spreadsheets/d/1Yi2EHrnHe_Rithw_ZihYZYl06-Slaw7_W3FgRVhmGPg/edit?gid=2009632724",
 "code": "AAAAnQAAAJEAAACOzbADADDNgBsAAGwAwAww",
 "pct": 0.5485
 },
@@ -661,7 +634,7 @@
 },
 {
 "el": "Lux",
-"team": "Noya Skill | No Tilia",
+"team": "Noya Skill | Tilia got NTR'd",
 "dmg": 10163048086.0,
 "s": [
 {
@@ -904,7 +877,7 @@
 },
 {
 "el": "Terra",
-"team": "Sparkla Jaw | T3 Nazuna - Leafia's Sig",
+"team": "Sparkla Jaw | T3 Nazuna",
 "dmg": 9082519732.0,
 "s": [
 {
@@ -957,33 +930,6 @@
 "pct": 0.443
 },
 {
-"el": "Terra",
-"team": "Sparkla Jaw | T3 Nazuna",
-"dmg": 8782630863.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "T3",
-"r": "Support"
-}
-],
-"auto": "Decent",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
-"code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
-"pct": 0.4372
-},
-{
 "el": "Ignis",
 "team": "Fuyuka Ultimate | Tilia - Crit Fishing",
 "dmg": 8773869732.0,
@@ -1012,7 +958,7 @@
 },
 {
 "el": "Terra",
-"team": "Sparkla Rapid Fire | T3 Nazuna - Leafia's Sig",
+"team": "Sparkla Rapid Fire | T3 Nazuna",
 "dmg": 8670346095.0,
 "s": [
 {
@@ -1092,33 +1038,6 @@
 "pct": 0.4266
 },
 {
-"el": "Terra",
-"team": "Sparkla Rapid Fire | T3 Nazuna",
-"dmg": 8433246976.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "T3",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
-"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
-"code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
-"pct": 0.4198
-},
-{
 "el": "Aqua",
 "team": "Chitose AA | Teresa",
 "dmg": 8279836096.0,
@@ -1144,60 +1063,6 @@
 "src": "",
 "code": "AAAAkAAAAH8AAACgzbAjAgAyQABtgDAGwGwG",
 "pct": 0.4122
-},
-{
-"el": "Ventus",
-"team": "Eleanor AA Solo DPS",
-"dmg": 8201749633.0,
-"s": [
-{
-"n": "Canace",
-"t": "T3+",
-"r": "Support"
-},
-{
-"n": "Eleanor",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/VW-t72XSON4",
-"src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
-"code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
-"pct": 0.4083
-},
-{
-"el": "Ventus",
-"team": "Wraith AA | Nazuka [Updating]",
-"dmg": 8167119136.0,
-"s": [
-{
-"n": "Wraith",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Nazuka",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Ann",
-"t": "T5",
-"r": "Support"
-}
-],
-"auto": "Decent",
-"guide": "https://youtu.be/s95OxrIFLz8?si=KOwfVvaLbMCVW882",
-"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=941133376",
-"code": "AAAAjwAAAHsAAACFzbADDADBhsAMADAAG2wA",
-"pct": 0.4066
 },
 {
 "el": "Lux",
@@ -1227,6 +1092,33 @@
 "pct": 0.4036
 },
 {
+"el": "Ventus",
+"team": "Eleanor AA Solo DPS",
+"dmg": 8095009804.0,
+"s": [
+{
+"n": "Canace",
+"t": "T1+",
+"r": "Support"
+},
+{
+"n": "Eleanor",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "https://youtu.be/VW-t72XSON4",
+"src": "https://docs.google.com/spreadsheets/d/1pEBZQcQzUGtndS0rCSL0lsD70MO2aNQQPDeSflA8oXk/edit?gid=1586330603",
+"code": "AAAAeAAAAIkAAAB7rAAAjAAwBhtsAKAGwAwA",
+"pct": 0.403
+},
+{
 "el": "Lux",
 "team": "Noya Skill | Jinglin",
 "dmg": 8074082457.0,
@@ -1254,8 +1146,35 @@
 "pct": 0.402
 },
 {
+"el": "Ventus",
+"team": "Wraith AA | Nazuka",
+"dmg": 8073595245.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Nazuka",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "https://youtu.be/s95OxrIFLz8?si=KOwfVvaLbMCVW882",
+"src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=941133376",
+"code": "AAAAjwAAAIUAAAB7zbADDAAwABtsAGGGwAwA",
+"pct": 0.4019
+},
+{
 "el": "Terra",
-"team": "Sparkla Jaw | Leafia's Sig",
+"team": "Sparkla Jaw",
 "dmg": 8014612879.0,
 "s": [
 {
@@ -1309,33 +1228,6 @@
 },
 {
 "el": "Terra",
-"team": "Sparkla Jaw",
-"dmg": 7765150118.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "T0",
-"r": "Support"
-}
-],
-"auto": "Decent",
-"guide": "",
-"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1615682881",
-"code": "AAAAjAAAAJ8AAACcMAbbYgDBiBhgMMGAGA2G",
-"pct": 0.3866
-},
-{
-"el": "Terra",
 "team": "Sparkla Rapid Fire",
 "dmg": 7626588019.0,
 "s": [
@@ -1357,36 +1249,9 @@
 ],
 "auto": "Yes",
 "guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
-"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
+"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=1968336947",
 "code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
 "pct": 0.3797
-},
-{
-"el": "Terra",
-"team": "Sparkla Rapid Fire | Leafia's Sig",
-"dmg": 7432792036.0,
-"s": [
-{
-"n": "Sparkla",
-"t": "",
-"r": "DPS"
-},
-{
-"n": "Springseek Coronis",
-"t": "",
-"r": "Sub-DPS"
-},
-{
-"n": "Nazuna",
-"t": "T0",
-"r": "Support"
-}
-],
-"auto": "Yes",
-"guide": "https://youtu.be/Neu7ID0u2VU?si=kEXeRIKSGfib75mJ",
-"src": "https://docs.google.com/spreadsheets/d/1VMlX6UgfFRC5bQIBsZY1fBucRYJKKbyVJ2GPGVhpQA4/edit?gid=759190069",
-"code": "AAAAjAAAAJ8AAACczbAbAgDBiBhgMMGAGA2G",
-"pct": 0.37
 },
 {
 "el": "Aqua",
@@ -1444,8 +1309,8 @@
 },
 {
 "el": "Ventus",
-"team": "Wraith AA | Minova",
-"dmg": 6333893447.0,
+"team": "Wraith Skill | Nazuka",
+"dmg": 6976861982.0,
 "s": [
 {
 "n": "Wraith",
@@ -1453,9 +1318,9 @@
 "r": "DPS"
 },
 {
-"n": "Minova",
-"t": "T0+",
-"r": "Support"
+"n": "Nazuka",
+"t": "",
+"r": "Sub-DPS"
 },
 {
 "n": "Ann",
@@ -1463,16 +1328,16 @@
 "r": "Support"
 }
 ],
-"auto": "Decent",
+"auto": "Yes",
 "guide": "",
 "src": "",
-"code": "AAAAjwAAAIQAAAB7zbADDAAwAcAMAGGGwIwA",
-"pct": 0.3153
+"code": "AAAAjwAAAIUAAAB7MAbDHAAwANtsAKGGwAwA",
+"pct": 0.3473
 },
 {
 "el": "Aqua",
 "team": "Chitose AA | Leafia",
-"dmg": 6275149591.0,
+"dmg": 6637959800.0,
 "s": [
 {
 "n": "Chitose",
@@ -1494,7 +1359,61 @@
 "guide": "",
 "src": "",
 "code": "AAAAkAAAAKEAAACgzbAggAAwBsBsADABw2AG",
-"pct": 0.3124
+"pct": 0.3305
+},
+{
+"el": "Ventus",
+"team": "Wraith AA | Minova",
+"dmg": 6333893447.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Minova",
+"t": "*",
+"r": "Support"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Decent",
+"guide": "https://youtu.be/s95OxrIFLz8?si=KOwfVvaLbMCVW882",
+"src": "",
+"code": "AAAAjwAAAIQAAAB7zbADDAAwAcAMAGGGwIwA",
+"pct": 0.3153
+},
+{
+"el": "Ventus",
+"team": "Wraith AA | Canace",
+"dmg": 6076621926.0,
+"s": [
+{
+"n": "Wraith",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Canace",
+"t": "T3+",
+"r": "Support"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "https://youtu.be/s95OxrIFLz8?si=KOwfVvaLbMCVW882",
+"src": "",
+"code": "AAAAjwAAAHgAAAB7zbADDACsAABgAGGGwAwA",
+"pct": 0.3025
 },
 {
 "el": "Ventus",
@@ -1526,11 +1445,11 @@
 {
 "el": "Ventus",
 "team": "Nazuka Solo DPS",
-"dmg": 4714004044.0,
+"dmg": 5086758776.0,
 "s": [
 {
 "n": "Canace",
-"t": "T3+",
+"t": "T1+",
 "r": "Support"
 },
 {
@@ -1547,8 +1466,62 @@
 "auto": "Yes",
 "guide": "",
 "src": "https://docs.google.com/spreadsheets/d/1cHa0jWXfRjOm4ZJxWz_u9PQJnxlNOd_JJRWSwuJ9Osk/edit?gid=1859809261",
-"code": "AAAAeAAAAIUAAAB7rAAAjAAwANtsAMAGwAwA",
-"pct": 0.2347
+"code": "AAAAeAAAAIUAAAB7rAjADAAwANtsAKAGwAwA",
+"pct": 0.2532
+},
+{
+"el": "Ventus",
+"team": "T5 Nanoha Skill | Nazuka",
+"dmg": 4865156308.0,
+"s": [
+{
+"n": "Nanoha",
+"t": "T5",
+"r": "Sub-DPS"
+},
+{
+"n": "Nazuka",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "",
+"code": "AAAAdwAAAIUAAAB7MAbYYAAwANtsAKGGwAwA",
+"pct": 0.2422
+},
+{
+"el": "Ventus",
+"team": "Nanoha Skill | Nazuka",
+"dmg": 4318955476.0,
+"s": [
+{
+"n": "Nanoha",
+"t": "",
+"r": "Sub-DPS"
+},
+{
+"n": "Nazuka",
+"t": "",
+"r": "DPS"
+},
+{
+"n": "Ann",
+"t": "T5",
+"r": "Support"
+}
+],
+"auto": "Yes",
+"guide": "",
+"src": "",
+"code": "AAAAdwAAAIUAAAB7MAbYYAAwANtsAKGGwAwA",
+"pct": 0.215
 }
 ]
 }
